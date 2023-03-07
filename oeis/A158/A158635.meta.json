@@ -1,0 +1,18 @@
+{
+  "description": "6n - A008578(n).",
+  "id": "A158635",
+  "mentions": [
+    "A008578"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "less",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-27 17:12:57",
+    "offset": 1,
+    "size": 71,
+    "source": "joeis"
+  }
+}

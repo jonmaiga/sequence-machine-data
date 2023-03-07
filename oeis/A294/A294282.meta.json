@@ -1,0 +1,20 @@
+{
+  "description": "Integers with precisely four partitions into sums of four squares of nonnegative numbers.",
+  "id": "A294282",
+  "mentions": [
+    "A002635",
+    "A006431",
+    "A180149",
+    "A245022"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

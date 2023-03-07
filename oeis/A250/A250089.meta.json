@@ -1,0 +1,22 @@
+{
+  "description": "5-smooth numbers (A051037) written in base 60, concatenating the decimal values of the sexagesimal digits.",
+  "id": "A250089",
+  "mentions": [
+    "A051037",
+    "A250073",
+    "A254334",
+    "A254335",
+    "A254336"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:06",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

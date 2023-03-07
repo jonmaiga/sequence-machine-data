@@ -1,0 +1,25 @@
+{
+  "description": "Write n = C(i,4)+C(j,3)+C(k,2)+C(l,1) with i>j>k>l>=0; let L[n] = [i,j,k,l]; sequence gives list of quadruples L[n], n >= 0.",
+  "id": "A194885",
+  "mentions": [
+    "A127321",
+    "A127322",
+    "A127323",
+    "A127324",
+    "A194847",
+    "A194882",
+    "A194883",
+    "A194884"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 121,
+    "source": "oeis-entry"
+  }
+}

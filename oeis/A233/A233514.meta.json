@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that all numbers of the form Fib(n)/d + d are prime (or nonexistent), where Fib(n) is the n-th Fibonacci number and d is a nontrivial divisor of Fib(n).",
+  "id": "A233514",
+  "mentions": [
+    "A001605",
+    "A037917",
+    "A080715",
+    "A233515"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

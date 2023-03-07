@@ -1,0 +1,24 @@
+{
+  "description": "Lexicographically earliest bijection from primes to odd primes where each prime of the form 4k+1 is mapped to the next larger prime that is of the same form.",
+  "id": "A348744",
+  "mentions": [
+    "A000040",
+    "A002144",
+    "A002145",
+    "A108546",
+    "A332211",
+    "A348745",
+    "A348746"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

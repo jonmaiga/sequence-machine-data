@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of lim_{k->oo} f(k), where f(1)=2, and f(k) = 2 - log(f(k-1)) for k>1.",
+  "id": "A226571",
+  "mentions": [
+    "A006155",
+    "A226572",
+    "A226573",
+    "A226574"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

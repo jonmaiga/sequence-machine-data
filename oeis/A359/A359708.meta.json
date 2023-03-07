@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the greatest divisor d of 2*n such that the binary expansions of d and 2*n have no common 1-bit.",
+  "id": "A359708",
+  "mentions": [
+    "A003714",
+    "A359627"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 77,
+    "source": "oeis-entry"
+  }
+}

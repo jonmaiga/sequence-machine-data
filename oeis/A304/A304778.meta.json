@@ -1,0 +1,21 @@
+{
+  "description": "Number of Carlitz compositions c of n such that the sequence of ascents and descents of c forms a Dyck path.",
+  "id": "A304778",
+  "mentions": [
+    "A003242",
+    "A241902",
+    "A303287",
+    "A304777"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:29",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

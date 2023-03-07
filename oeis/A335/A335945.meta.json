@@ -1,0 +1,20 @@
+{
+  "description": "E.g.f. A(x) satisfies: A(x) = exp(x*A(x)/(1 + x)).",
+  "id": "A335945",
+  "mentions": [
+    "A052868",
+    "A060356",
+    "A108919"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

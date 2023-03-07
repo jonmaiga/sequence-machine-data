@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = n^11 - 1.",
+  "id": "A258812",
+  "mentions": [
+    "A024009",
+    "A258807"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:55:37",
+    "offset": 1,
+    "size": 20,
+    "source": "joeis"
+  }
+}

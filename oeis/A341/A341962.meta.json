@@ -1,0 +1,20 @@
+{
+  "description": "G.f. B(x) satisfies: B(x) = (1 - x^2*B(x)^2) / (1 - 2*x*B(x))^2.",
+  "id": "A341962",
+  "mentions": [
+    "A071878",
+    "A341961",
+    "A341963"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

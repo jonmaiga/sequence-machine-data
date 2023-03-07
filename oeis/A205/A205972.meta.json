@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = Fibonacci(n)*A122859(n) for n>=1, with a(0)=1, where A122859 lists the coefficients in phi(-q)^3/phi(-q^3) and phi() is a Ramanujan theta function.",
+  "id": "A205972",
+  "mentions": [
+    "A000204",
+    "A122859",
+    "A203847",
+    "A205966",
+    "A205969",
+    "A205971",
+    "A205973",
+    "A209452"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:26",
+    "offset": 0,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

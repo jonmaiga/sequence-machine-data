@@ -1,0 +1,18 @@
+{
+  "description": "Numbers that can be approximated in increasing quality by k*k^(1/k).",
+  "id": "A291212",
+  "mentions": [
+    "A291210",
+    "A291211"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

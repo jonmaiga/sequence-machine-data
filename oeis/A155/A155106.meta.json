@@ -1,0 +1,17 @@
+{
+  "description": "For each term n in this sequence, both n and n+1 can expressed as sum of three distinct nonzero squares in 2 or more ways",
+  "id": "A155106",
+  "mentions": [
+    "A024804"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

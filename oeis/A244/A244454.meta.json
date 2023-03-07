@@ -1,0 +1,32 @@
+{
+  "description": "Number T(n,k) of unlabeled rooted trees with n nodes such that the minimal outdegree of inner nodes equals k; triangle T(n,k), n>=1, 0<=k<=n-1, read by rows.",
+  "id": "A244454",
+  "mentions": [
+    "A000081",
+    "A001678",
+    "A063524",
+    "A244372",
+    "A244455",
+    "A244456",
+    "A244457",
+    "A244458",
+    "A244459",
+    "A244460",
+    "A244461",
+    "A244462",
+    "A244463",
+    "A244464",
+    "A244530"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:00",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

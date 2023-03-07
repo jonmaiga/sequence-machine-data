@@ -1,0 +1,18 @@
+{
+  "description": "Number of arithmetic progressions from m to n; a rectangular array, m>=0, n>=0, by antidiagonals.",
+  "id": "A143786",
+  "mentions": [
+    "A000005"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Coreful harmonic numbers: nonsquarefree numbers k such that the harmonic mean of the coreful divisors of k is an integer.",
+  "id": "A349180",
+  "mentions": [
+    "A001599",
+    "A005117",
+    "A006086",
+    "A013929",
+    "A057723",
+    "A063947",
+    "A286325",
+    "A307958",
+    "A307959",
+    "A319745",
+    "A348964"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:23",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

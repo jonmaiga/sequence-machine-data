@@ -1,0 +1,19 @@
+{
+  "description": "Split-floor-multiplier sequence (SFMS) using multipliers 2/5 and 5/2. (SFMS is defined at A120229.).",
+  "id": "A120235",
+  "mentions": [
+    "A120229",
+    "A120236"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

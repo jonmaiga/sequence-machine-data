@@ -1,0 +1,20 @@
+{
+  "description": "Numbers j such that the numbers Phi(j, m) are in sorted order for any integer m >= 2, where Phi(k, x) is the k-th cyclotomic polynomial.",
+  "id": "A206225",
+  "mentions": [
+    "A000010",
+    "A002202",
+    "A032447",
+    "A194712"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

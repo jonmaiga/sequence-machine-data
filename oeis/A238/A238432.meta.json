@@ -1,0 +1,20 @@
+{
+  "description": "Number of compositions of n avoiding equidistant 3-term arithmetic progressions.",
+  "id": "A238432",
+  "mentions": [
+    "A238423",
+    "A238433",
+    "A238569",
+    "A238686"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

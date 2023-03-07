@@ -1,0 +1,20 @@
+{
+  "description": "Hit triangle for unit circle area (Pi) approximation problem described in A121500.",
+  "id": "A121505",
+  "mentions": [
+    "A121500"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 3,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Number A(n,k) of Dyck paths having exactly k peaks in each of the levels 1,...,n and no other peaks; square array A(n,k), n>=0, k>=0, read by antidiagonals.",
+  "id": "A288972",
+  "mentions": [
+    "A000012",
+    "A176479",
+    "A288940",
+    "A289020",
+    "A289030",
+    "A289054"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:02",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

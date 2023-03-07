@@ -1,0 +1,19 @@
+{
+  "description": "Sum of n-th powers of products of terms in all partitions of n.",
+  "id": "A292194",
+  "mentions": [
+    "A292190",
+    "A292193"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:07",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

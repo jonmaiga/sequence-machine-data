@@ -1,0 +1,17 @@
+{
+  "description": "Number of 6Xn 0..2 arrays x(i,j) with each element horizontally, diagonally or antidiagonally next to at least one element with value (x(i,j)+1) mod 3, and upper left element zero",
+  "id": "A230474",
+  "mentions": [
+    "A230469"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:48",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

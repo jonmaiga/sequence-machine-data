@@ -1,0 +1,19 @@
+{
+  "description": "a(n+1) gives the number of occurrences of the last digit of a(n) in octal base so far, up to and including a(n), with a(0)=0.",
+  "id": "A249068",
+  "mentions": [
+    "A007094",
+    "A248034"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:05",
+    "offset": 0,
+    "size": 93,
+    "source": "oeis-bfile"
+  }
+}

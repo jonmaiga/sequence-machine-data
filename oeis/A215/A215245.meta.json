@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = minimal value of A215244(k) for 2^n <= k < 2^(n+1).",
+  "id": "A215245",
+  "mentions": [
+    "A215244",
+    "A215246",
+    "A215253",
+    "A215254",
+    "A215255"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

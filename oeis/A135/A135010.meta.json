@@ -1,0 +1,33 @@
+{
+  "description": "Triangle read by rows in which row n lists A000041(n-1) 1's followed by the list of juxtaposed lexicographically ordered partitions of n that do not contain 1 as a part.",
+  "id": "A135010",
+  "mentions": [
+    "A000027",
+    "A000041",
+    "A026791",
+    "A138121",
+    "A138137",
+    "A138879",
+    "A141285",
+    "A182703",
+    "A187219",
+    "A193870",
+    "A194446",
+    "A206437",
+    "A207031",
+    "A207379",
+    "A207383",
+    "A211009"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:23",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

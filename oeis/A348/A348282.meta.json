@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{d|n, d>1} mu(d')^2.",
+  "id": "A348282",
+  "mentions": [
+    "A003415",
+    "A008683"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 92,
+    "source": "oeis-entry"
+  }
+}

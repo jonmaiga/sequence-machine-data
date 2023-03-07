@@ -1,0 +1,25 @@
+{
+  "description": "Numerator of 3*n/2.",
+  "id": "A165351",
+  "mentions": [
+    "A000034",
+    "A008585",
+    "A016945",
+    "A026741",
+    "A098832",
+    "A165355",
+    "A165367"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:28:59",
+    "offset": 0,
+    "size": 66,
+    "source": "joeis"
+  }
+}

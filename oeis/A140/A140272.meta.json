@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of arctan(3*sqrt(15)/29).",
+  "id": "A140272",
+  "mentions": [
+    "A140239",
+    "A140273"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:42",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

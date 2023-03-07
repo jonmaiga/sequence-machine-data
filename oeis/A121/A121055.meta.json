@@ -1,0 +1,20 @@
+{
+  "description": "Sizes of successive clusters in b.c.c. lattice centered at midpoint of a short edge.",
+  "id": "A121055",
+  "mentions": [
+    "A005869",
+    "A008443",
+    "A038835",
+    "A121054"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:11",
+    "offset": 0,
+    "size": 50,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Complement of A051349(n), where A051349(n) = the lexicographically earliest sequence with first differences as increasing sequence of composites A002808(n).",
+  "id": "A175970",
+  "mentions": [
+    "A002808",
+    "A014284",
+    "A051349",
+    "A175965",
+    "A175966",
+    "A175967",
+    "A175968",
+    "A175969"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

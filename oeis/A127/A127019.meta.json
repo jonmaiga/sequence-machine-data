@@ -1,0 +1,18 @@
+{
+  "description": "Least s with s, t both semiprime and s-2n = t.",
+  "id": "A127019",
+  "mentions": [
+    "A020484",
+    "A127018"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

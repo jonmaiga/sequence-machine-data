@@ -1,0 +1,19 @@
+{
+  "description": "Series expansion of Farey rational polynomial based on A112627.",
+  "id": "A113946",
+  "mentions": [
+    "A112627"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 11:15:40",
+    "offset": 0,
+    "size": 24,
+    "source": "joeis"
+  }
+}

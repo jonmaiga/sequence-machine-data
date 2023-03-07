@@ -1,0 +1,21 @@
+{
+  "description": "Array: T(n,k) = n-1 + min{n,k}, by antidiagonals.",
+  "id": "A185908",
+  "mentions": [
+    "A144112",
+    "A185907",
+    "A185909"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:28:45",
+    "offset": 1,
+    "size": 162,
+    "source": "joeis"
+  }
+}

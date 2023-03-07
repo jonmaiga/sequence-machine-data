@@ -1,0 +1,21 @@
+{
+  "description": "Number of partitions of {1,...,n} into blocks such that no even sized block is repeated.",
+  "id": "A115277",
+  "mentions": [
+    "A001935",
+    "A115275",
+    "A115276",
+    "A115278"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:05",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

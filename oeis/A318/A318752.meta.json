@@ -1,0 +1,20 @@
+{
+  "description": "Prime-indexed primes q such that prime(q) + q + 1 and prime(q) - q - 1 are both prime-indexed primes.",
+  "id": "A318752",
+  "mentions": [
+    "A000040",
+    "A006450",
+    "A318292",
+    "A318751"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:40",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

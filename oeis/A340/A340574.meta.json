@@ -1,0 +1,19 @@
+{
+  "description": "a(1) = 112. a(n) is the smallest number k with the sum of the even digits equal to the sum of the odd digits (A036301), which is not an earlier term, for which k*a(n - 1) has the sum of the even digits equal to the sum of the odd digits (A036301).",
+  "id": "A340574",
+  "mentions": [
+    "A036301",
+    "A340470"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

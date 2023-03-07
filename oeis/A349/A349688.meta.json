@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that the sequence of elements of the continued fraction of the abundancy index of k is palindromic.",
+  "id": "A349688",
+  "mentions": [
+    "A007691",
+    "A349477",
+    "A349685",
+    "A349686"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:24",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

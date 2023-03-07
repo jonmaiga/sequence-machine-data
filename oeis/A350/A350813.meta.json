@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the least positive number k such that the product of the first n primes that are congruent to 1 (mod 4) is equal to y^2 - k^2 for some integer y.",
+  "id": "A350813",
+  "mentions": [
+    "A006278",
+    "A061060",
+    "A236381"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:25",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

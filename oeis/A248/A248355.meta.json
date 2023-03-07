@@ -1,0 +1,23 @@
+{
+  "description": "Least k such that Pi - k*sin(Pi/k) < 1/(2n).",
+  "id": "A248355",
+  "mentions": [
+    "A248347",
+    "A248356",
+    "A248357",
+    "A248358",
+    "A248578"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:04",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

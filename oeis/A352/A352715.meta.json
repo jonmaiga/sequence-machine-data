@@ -1,0 +1,17 @@
+{
+  "description": "a(1)=1; thereafter a(n) = smallest positive integer not among the earlier terms of the sequence such that a(n) and a(n-1) have floor(k/2) common 1-bits in their binary representations, where k is the number of bits in the binary representation of a(n-1).",
+  "id": "A352715",
+  "mentions": [
+    "A109812"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:26",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

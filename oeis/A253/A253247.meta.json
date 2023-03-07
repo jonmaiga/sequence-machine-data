@@ -1,0 +1,21 @@
+{
+  "description": "Pisano period of A006190(n^2) divided by Pisano period of A006190(n).",
+  "id": "A253247",
+  "mentions": [
+    "A006190",
+    "A006497",
+    "A175182",
+    "A237517"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:11",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

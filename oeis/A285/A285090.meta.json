@@ -1,0 +1,24 @@
+{
+  "description": "Rectangular array by antidiagonals: the array formed by arranging the rows of A285089 so that the first column is strictly increasing.",
+  "id": "A285090",
+  "mentions": [
+    "A000027",
+    "A000040",
+    "A000290",
+    "A095833",
+    "A163280",
+    "A285089"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

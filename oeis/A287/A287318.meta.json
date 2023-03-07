@@ -1,0 +1,32 @@
+{
+  "description": "Square array A(n,k) = (2*n)! [x^n] BesselI(0, 2*sqrt(x))^k read by antidiagonals.",
+  "id": "A287318",
+  "mentions": [
+    "A000007",
+    "A000984",
+    "A002894",
+    "A002896",
+    "A005843",
+    "A039699",
+    "A152746",
+    "A169711",
+    "A169712",
+    "A169713",
+    "A287316",
+    "A287317",
+    "A303503",
+    "A356258"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

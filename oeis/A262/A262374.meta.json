@@ -1,0 +1,20 @@
+{
+  "description": "a(1) = 1; for n > 1, let s denote the binary representation of a(n-1) with the first bit omitted. Then a(n) is the smallest number not yet present whose binary representation starts with s, omitting leading zeros.",
+  "id": "A262374",
+  "mentions": [
+    "A262356",
+    "A262381",
+    "A262388"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:22",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Indices n where self-describing sequence A154328 has jumps, A154328(n) > A154328(n-1)+1.",
+  "id": "A154329",
+  "mentions": [
+    "A154328",
+    "A154330"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

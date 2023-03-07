@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that (Sum_{i=0..n} F(i)^2) / (n+1) is an integer, where F(i) i-th Fibonacci number.",
+  "id": "A175308",
+  "mentions": [
+    "A000045",
+    "A001654",
+    "A007598"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:59",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

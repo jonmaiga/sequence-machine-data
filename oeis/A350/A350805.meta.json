@@ -1,0 +1,22 @@
+{
+  "description": "Number of iterations to reach 1 or a repeated value when starting at n for the map: x -> Sum_{prime factors of x} A006370(x), where A006370 is the Collatz 3x+1 map.",
+  "id": "A350805",
+  "mentions": [
+    "A000040",
+    "A006370",
+    "A006577",
+    "A027746",
+    "A350806",
+    "A350807"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-entry"
+  }
+}

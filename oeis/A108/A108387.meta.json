@@ -1,0 +1,22 @@
+{
+  "description": "Doubly-transmutable primes: primes such that simultaneously exchanging pairwise all occurrences of any two disjoint pairs of distinct digits results in a prime.",
+  "id": "A108387",
+  "mentions": [
+    "A003459",
+    "A004022",
+    "A107845",
+    "A108388",
+    "A108389"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:00",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

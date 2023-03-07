@@ -1,0 +1,22 @@
+{
+  "description": "Length (= size) of the orbit of n under the \"3x+1\" map A006370: x -> x/2 if even, 3x+1 if odd. a(n) = -1 in case the orbit would be infinite.",
+  "id": "A294643",
+  "mentions": [
+    "A006370",
+    "A008908",
+    "A174221",
+    "A293975",
+    "A293980",
+    "A293982"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

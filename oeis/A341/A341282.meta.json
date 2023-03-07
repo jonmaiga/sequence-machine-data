@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that there is no k-digit number m with the property that the binary expansion of m begins with the base-10 digits of m.",
+  "id": "A341282",
+  "mentions": [
+    "A181929",
+    "A305213",
+    "A341281",
+    "A342363"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:13",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

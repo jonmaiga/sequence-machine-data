@@ -1,0 +1,20 @@
+{
+  "description": "Irregular table T(n, k), n >= 0, k = 1..max(1, n), read by rows; T(n, k) is the number of permutations s of { 1..n } such that p(s) = k where p(s) is the least m > 0 such that, working in Z/nZ, s(i) + m = s(i + m) for i = 1..n.",
+  "id": "A343488",
+  "mentions": [
+    "A000142",
+    "A324514"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 79,
+    "source": "oeis-entry"
+  }
+}

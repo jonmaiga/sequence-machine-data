@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the smallest n-gonal pyramidal number with exactly n prime factors (counted with multiplicity).",
+  "id": "A358865",
+  "mentions": [
+    "A001222",
+    "A358862",
+    "A358863",
+    "A358864"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 3,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

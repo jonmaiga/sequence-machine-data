@@ -1,0 +1,19 @@
+{
+  "description": "Sequence showing kinds of \"waves\", built as follows in comments.",
+  "id": "A174401",
+  "mentions": [
+    "A174353",
+    "A174354"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 88,
+    "source": "oeis-entry"
+  }
+}

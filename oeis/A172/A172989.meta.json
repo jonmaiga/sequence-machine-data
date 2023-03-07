@@ -1,0 +1,19 @@
+{
+  "description": "Smallest k such that the two numbers n^2 +- k are primes.",
+  "id": "A172989",
+  "mentions": [
+    "A060272",
+    "A082467"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:57",
+    "offset": 2,
+    "size": 77,
+    "source": "oeis-bfile"
+  }
+}

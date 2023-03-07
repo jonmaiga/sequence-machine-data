@@ -1,0 +1,18 @@
+{
+  "description": "Irregular triangle read by rows: row n gives the prime factorization of n-th average of twin prime pairs (A014574).",
+  "id": "A321787",
+  "mentions": [
+    "A014574"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

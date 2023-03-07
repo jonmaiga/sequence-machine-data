@@ -1,0 +1,21 @@
+{
+  "description": "Integers k such that A098531(k) is divisible by A000071(k+2).",
+  "id": "A263537",
+  "mentions": [
+    "A000045",
+    "A000071",
+    "A098531"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:21:05",
+    "offset": 1,
+    "size": 57,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Hankel transform of the transform of 2^n given by A165409.",
+  "id": "A165410",
+  "mentions": [
+    "A049450",
+    "A049451",
+    "A152749",
+    "A165409"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

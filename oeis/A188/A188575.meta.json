@@ -1,0 +1,21 @@
+{
+  "description": "Number of non-complete compositions of n.",
+  "id": "A188575",
+  "mentions": [
+    "A107429",
+    "A188576",
+    "A188577",
+    "A251729"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:13",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

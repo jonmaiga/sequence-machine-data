@@ -1,0 +1,28 @@
+{
+  "description": "Expansion of f(x)^3 - 9 * x * f(x^9)^3 in powers of x where f() is a Ramanujan theta function.",
+  "id": "A204850",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A004016",
+    "A005882",
+    "A005928",
+    "A010054",
+    "A010815",
+    "A121373",
+    "A133079",
+    "A133089",
+    "A202394"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:25",
+    "offset": 0,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

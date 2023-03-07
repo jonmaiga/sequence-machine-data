@@ -1,0 +1,24 @@
+{
+  "description": "Number of double-free integer partitions of n.",
+  "id": "A323092",
+  "mentions": [
+    "A018819",
+    "A051424",
+    "A101417",
+    "A120641",
+    "A276431",
+    "A305148",
+    "A323093",
+    "A323094"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:46",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

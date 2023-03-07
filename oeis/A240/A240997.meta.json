@@ -1,0 +1,18 @@
+{
+  "description": "G.f. satisfies: A(x)^3 = x + A(x*A(x)^2)^2.",
+  "id": "A240997",
+  "mentions": [
+    "A240996"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:57",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Interspersion of the signature sequence of sqrt(3).",
+  "id": "A283940",
+  "mentions": [
+    "A002194",
+    "A007337",
+    "A022777",
+    "A022778"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:55",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

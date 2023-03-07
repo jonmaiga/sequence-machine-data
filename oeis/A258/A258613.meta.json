@@ -1,0 +1,19 @@
+{
+  "description": "Numbers m that are coprime to the largest square <= m, cf. A048760.",
+  "id": "A258613",
+  "mentions": [
+    "A048760",
+    "A074695",
+    "A258614"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:16",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

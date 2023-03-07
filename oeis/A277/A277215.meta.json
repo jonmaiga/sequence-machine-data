@@ -1,0 +1,26 @@
+{
+  "description": "a(n) is the smallest even number not congruent to 1 modulo 3 that starts a (2n+1)-element alternating sequence of x/2 and (3x+1) iterations ending in the maximum of its Collatz trajectory.",
+  "id": "A277215",
+  "mentions": [
+    "A000225",
+    "A000918",
+    "A086224",
+    "A086225",
+    "A131051",
+    "A153894",
+    "A176448",
+    "A198274",
+    "A198276",
+    "A277875"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

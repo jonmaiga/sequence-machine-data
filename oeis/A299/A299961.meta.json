@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that k divides the number of overpartitions of k (A015128).",
+  "id": "A299961",
+  "mentions": [
+    "A015128",
+    "A051177",
+    "A056848",
+    "A265835",
+    "A294086"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:24",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

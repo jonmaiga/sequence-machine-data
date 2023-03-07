@@ -1,0 +1,17 @@
+{
+  "description": "Primes p such that (p*s) mod q and (p*s) mod r are prime, where q,r,s are the next primes after p.",
+  "id": "A338518",
+  "mentions": [
+    "A338751"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:10",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of maximal matchings in the n-triangular honeycomb acute knight graph.",
+  "id": "A321486",
+  "mentions": [
+    "A287230",
+    "A289143"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

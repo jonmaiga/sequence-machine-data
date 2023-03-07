@@ -1,0 +1,26 @@
+{
+  "description": "Triangle read by rows: T(n,k) = binomial(n+4,4) * binomial(n,k), 0 <= k <= n.",
+  "id": "A178821",
+  "mentions": [
+    "A000332",
+    "A001873",
+    "A003472",
+    "A007318",
+    "A178819",
+    "A178820",
+    "A178822"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:02",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

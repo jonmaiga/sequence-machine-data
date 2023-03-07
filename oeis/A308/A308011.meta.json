@@ -1,0 +1,20 @@
+{
+  "description": "List of y-coordinates of successive points on the lowest of the three lines formed by the terms of A081145.",
+  "id": "A308011",
+  "mentions": [
+    "A081145",
+    "A308009",
+    "A308010",
+    "A308015"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:32",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Integers n such that each of n, 2n and 3n is a sum of 2 distinct positive cubes.",
+  "id": "A191383",
+  "mentions": [
+    "A000578",
+    "A024670",
+    "A191345",
+    "A191352"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:15",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

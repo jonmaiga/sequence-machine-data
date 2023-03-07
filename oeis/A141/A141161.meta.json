@@ -1,0 +1,25 @@
+{
+  "description": "Primes of the form 4*x^2+6*x*y-7*y^2.",
+  "id": "A141161",
+  "mentions": [
+    "A038872",
+    "A038873",
+    "A038883",
+    "A038889",
+    "A068228",
+    "A141111",
+    "A141112",
+    "A141123",
+    "A141163"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:29",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

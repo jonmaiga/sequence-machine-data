@@ -1,0 +1,29 @@
+{
+  "description": "If n is of the form p^p, a(n) = 0, otherwise a(n) gives the number of iterations of x -> A003415(x) needed to reach the first number different from n which is either a prime, or whose degree (A051903) differs from the degree of n. If the degree of the final number is <= that of n, then a(n) = -1 * iteration count.",
+  "id": "A328384",
+  "mentions": [
+    "A003415",
+    "A051674",
+    "A051903",
+    "A157037",
+    "A256750",
+    "A258651",
+    "A328248",
+    "A328252",
+    "A328310",
+    "A328320",
+    "A328383",
+    "A328385"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:57",
+    "offset": 1,
+    "size": 94,
+    "source": "oeis-bfile"
+  }
+}

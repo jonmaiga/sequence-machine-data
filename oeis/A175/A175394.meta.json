@@ -1,0 +1,21 @@
+{
+  "description": "Least nontrivial exponent e > 2 such that n^2 is a substring of n^e (n >= 0).",
+  "id": "A175394",
+  "mentions": [
+    "A008856",
+    "A033819",
+    "A045537",
+    "A074250"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:59",
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

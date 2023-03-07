@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that n^6+2 is prime.",
+  "id": "A216978",
+  "mentions": [
+    "A067200",
+    "A067201",
+    "A216974",
+    "A216976"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 16:03:19",
+    "offset": 1,
+    "size": 48,
+    "source": "joeis"
+  }
+}

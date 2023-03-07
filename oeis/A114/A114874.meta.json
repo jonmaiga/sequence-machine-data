@@ -1,0 +1,18 @@
+{
+  "description": "Numbers representable in exactly two ways as (p-1)*p^e (where p is a prime and e >= 0) in ascending order.",
+  "id": "A114874",
+  "mentions": [
+    "A114871",
+    "A114873"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:05",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

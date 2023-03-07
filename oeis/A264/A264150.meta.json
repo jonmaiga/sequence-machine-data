@@ -1,0 +1,19 @@
+{
+  "description": "Numerators of SGGS((2*n+1)/2^(n+1)) where the rational numbers SGGS(n) are defined in A264148.",
+  "id": "A264150",
+  "mentions": [
+    "A065973",
+    "A264148"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:24",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

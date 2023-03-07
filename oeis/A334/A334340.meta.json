@@ -1,0 +1,21 @@
+{
+  "description": "Decimal representation of n-th iteration of the one-dimensional cellular automaton defined by Rule 434, based on the 4-celled von Neumann neighborhood starting with a single black cell.",
+  "id": "A334340",
+  "mentions": [
+    "A118171",
+    "A118173"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 16:26:51",
+    "offset": 1,
+    "size": 23,
+    "source": "joeis"
+  }
+}

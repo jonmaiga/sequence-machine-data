@@ -1,0 +1,17 @@
+{
+  "description": "Number of length n inversion sequences avoiding the patterns 010 and 110.",
+  "id": "A359191",
+  "mentions": [
+    "A263779"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

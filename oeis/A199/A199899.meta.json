@@ -1,0 +1,18 @@
+{
+  "description": "Number of -n..n arrays x(0..3) of 4 elements with zero sum, and adjacent elements not both strictly positive and not both strictly negative.",
+  "id": "A199899",
+  "mentions": [
+    "A199898"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 19:25:47",
+    "offset": 1,
+    "size": 40,
+    "source": "joeis"
+  }
+}

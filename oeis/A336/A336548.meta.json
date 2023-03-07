@@ -1,0 +1,36 @@
+{
+  "description": "Numbers k such that at least one pair sigma(p_i^e_i), sigma(p_j^e_j) [with i != j] share a prime factor, when k = p_1^e_1 * ... * p_h^e_h, where each p_i^e_i is the maximal power of prime p_i dividing k.",
+  "id": "A336548",
+  "mentions": [
+    "A024619",
+    "A051027",
+    "A062401",
+    "A336357",
+    "A336546",
+    "A336547",
+    "A336549",
+    "A336558",
+    "A336560",
+    "A336561",
+    "A336562",
+    "A353750",
+    "A353753",
+    "A353755",
+    "A353784",
+    "A353802",
+    "A353803",
+    "A353806",
+    "A353807"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:08",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

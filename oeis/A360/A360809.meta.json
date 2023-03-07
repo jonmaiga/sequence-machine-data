@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the area under the curve of the reciprocal of the Luschny factorial function from zero to infinity.",
+  "id": "A360809",
+  "mentions": [
+    "A058655",
+    "A360375"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "cons",
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 108,
+    "source": "oeis-entry"
+  }
+}

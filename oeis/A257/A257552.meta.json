@@ -1,0 +1,19 @@
+{
+  "description": "Primes p such that q = p^2 - 2, r = q^2 - 2 and s = r^2 - 2 are also prime.",
+  "id": "A257552",
+  "mentions": [
+    "A062326",
+    "A253264",
+    "A257551"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:15",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "description": "Rectangular array showing the starting values M(n, k), k >= 1, for the Collatz operation (ud)^n, n >= 1, ending in an odd number, read by antidiagonals.",
+  "id": "A239126",
+  "mentions": [
+    "A004767",
+    "A004771",
+    "A006577",
+    "A087808",
+    "A112695",
+    "A125169",
+    "A130328",
+    "A139399",
+    "A238475",
+    "A238476",
+    "A239127",
+    "A239128"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

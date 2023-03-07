@@ -1,0 +1,21 @@
+{
+  "description": "Indices of terms in A166504 which are not in A152242.",
+  "id": "A166506",
+  "mentions": [
+    "A152242",
+    "A166504",
+    "A166505"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

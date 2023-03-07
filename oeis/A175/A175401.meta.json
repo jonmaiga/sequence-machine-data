@@ -1,0 +1,22 @@
+{
+  "description": "Sequence of resulting numbers after 4th step of iteration defined in A175398.",
+  "id": "A175401",
+  "mentions": [
+    "A175398",
+    "A175399",
+    "A175400",
+    "A175402",
+    "A175403",
+    "A175405"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

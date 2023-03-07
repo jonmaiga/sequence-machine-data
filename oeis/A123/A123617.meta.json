@@ -1,0 +1,20 @@
+{
+  "description": "Central terms of triangle A123610: a(n) = A123610(2*n,n).",
+  "id": "A123617",
+  "mentions": [
+    "A000891",
+    "A123610",
+    "A123618",
+    "A123619"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:12",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

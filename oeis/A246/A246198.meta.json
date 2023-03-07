@@ -1,0 +1,17 @@
+{
+  "description": "Half-Zumkeller numbers: numbers n whose proper positive divisors can be partitioned into two disjoint sets whose sums are equal.",
+  "id": "A246198",
+  "mentions": [
+    "A083207"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:02",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

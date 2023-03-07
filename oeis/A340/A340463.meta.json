@@ -1,0 +1,17 @@
+{
+  "description": "Primes p such that p*q+r*s+t*u is prime, where p,q,r,s,t,u are consecutive primes.",
+  "id": "A340463",
+  "mentions": [
+    "A340464"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:13",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

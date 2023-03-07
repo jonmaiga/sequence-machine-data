@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of lim_{x->oo} (1/x) * Sum_{s(k+1) <= x} (s(k+1) - s(k))^2, where s(k) = A005117(k) is the k-th squarefree number.",
+  "id": "A349232",
+  "mentions": [
+    "A005117",
+    "A013661",
+    "A076259"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

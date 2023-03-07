@@ -1,0 +1,19 @@
+{
+  "description": "a(0)=a(1)=0; thereafter a(n+1) is the index of the earliest as yet unused occurrence of a(n) if a(n) has occurred before; otherwise a(n+1) = a(a(n)-1). Once an occurrence of a(n) has been used it cannot be used again.",
+  "id": "A327883",
+  "mentions": [
+    "A025480",
+    "A132666"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:56",
+    "offset": 0,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

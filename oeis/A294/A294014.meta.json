@@ -1,0 +1,23 @@
+{
+  "description": "Concatenation of the members of the n-th amicable pair.",
+  "id": "A294014",
+  "mentions": [
+    "A002025",
+    "A002046",
+    "A007908",
+    "A063990",
+    "A259180",
+    "A265757"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

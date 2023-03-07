@@ -1,0 +1,19 @@
+{
+  "description": "Lexicographically earliest sequence of distinct terms such that the digits of two contiguous terms sum up to a prime.",
+  "id": "A308728",
+  "mentions": [
+    "A308719",
+    "A308727"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:33",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

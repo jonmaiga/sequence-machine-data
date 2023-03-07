@@ -1,0 +1,22 @@
+{
+  "description": "The rational numbers can be ordered by height and then by magnitude (see A002246, A097080); sequence gives numerators.",
+  "id": "A113136",
+  "mentions": [
+    "A000010",
+    "A002246",
+    "A097080",
+    "A113137"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-entry"
+  }
+}

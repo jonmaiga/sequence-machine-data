@@ -1,0 +1,18 @@
+{
+  "description": "Primes p for which there exists no prime q, different from p, such that p+q-1 is the next prime after p.",
+  "id": "A224934",
+  "mentions": [
+    "A076368",
+    "A224748"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

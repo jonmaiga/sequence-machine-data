@@ -1,0 +1,22 @@
+{
+  "description": "Largest prime primitive root of n that is less than n, or 0 if none exists.",
+  "id": "A103310",
+  "mentions": [
+    "A001918",
+    "A046144",
+    "A046145",
+    "A046146",
+    "A103309"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:54",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "For n > 1, a(n) = least positive k, not a power of n, such that the digital sum of k in base n equals the digital sum of k^2 in base n.",
+  "id": "A292787",
+  "mentions": [
+    "A058369",
+    "A292788"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 2,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

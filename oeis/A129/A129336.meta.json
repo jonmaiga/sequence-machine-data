@@ -1,0 +1,25 @@
+{
+  "description": "Digital clock semiprimes.",
+  "id": "A129336",
+  "mentions": [
+    "A001358",
+    "A050246",
+    "A118848",
+    "A118849",
+    "A118850"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "easy",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:17",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

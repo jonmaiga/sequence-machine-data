@@ -1,0 +1,19 @@
+{
+  "description": "Subsequence of the automorphic numbers (A003226) with initial term 5 and such that a(n+1) ends with the digits of a(n).",
+  "id": "A274463",
+  "mentions": [
+    "A003226",
+    "A274464"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:39",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-bfile"
+  }
+}

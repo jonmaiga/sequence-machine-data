@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = n OR 5.",
+  "id": "A244587",
+  "mentions": [
+    "A109613",
+    "A174091",
+    "A244584",
+    "A244586",
+    "A244588"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:34:09",
+    "offset": 0,
+    "size": 68,
+    "source": "joeis"
+  }
+}

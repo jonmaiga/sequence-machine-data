@@ -1,0 +1,25 @@
+{
+  "description": "a(n) is the exponent of the eventual power of 2 reached when starting from n and using the map k -> k + k/p, where p can be any odd prime factor of k, for example, the largest.",
+  "id": "A334097",
+  "mentions": [
+    "A007814",
+    "A052126",
+    "A064415",
+    "A078701",
+    "A209229",
+    "A331410",
+    "A334098",
+    "A334862"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:05",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

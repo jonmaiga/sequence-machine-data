@@ -1,0 +1,21 @@
+{
+  "description": "Spiralwise distance to the nearest inner neighbor in Ulam-style square-spirals using zero-based indexing: a(0) = 0, for n >= 1, a(n) = n - A265409(n).",
+  "id": "A265359",
+  "mentions": [
+    "A000267",
+    "A002620",
+    "A240025",
+    "A265409"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:25",
+    "offset": 0,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Irregular triangle in which row n contains the numbers <= n whose prime factors are a subset of prime factors of n.",
+  "id": "A162306",
+  "mentions": [
+    "A000005",
+    "A010846",
+    "A027750",
+    "A243103",
+    "A243822",
+    "A244974",
+    "A272618"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:44",
+    "offset": 1,
+    "size": 94,
+    "source": "oeis-bfile"
+  }
+}

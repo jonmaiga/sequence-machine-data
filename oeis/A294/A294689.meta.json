@@ -1,0 +1,20 @@
+{
+  "description": "Collatz cycle of negative numbers starting with -17.",
+  "id": "A294689",
+  "mentions": [
+    "A014682",
+    "A123684"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:30:19",
+    "offset": 1,
+    "size": 44,
+    "source": "joeis"
+  }
+}

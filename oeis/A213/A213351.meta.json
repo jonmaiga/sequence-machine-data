@@ -1,0 +1,24 @@
+{
+  "description": "9-quantum transitions in systems of N >= 9 spin 1/2 particles, in columns by combination indices.",
+  "id": "A213351",
+  "mentions": [
+    "A004315",
+    "A051288",
+    "A140354",
+    "A213343",
+    "A213350",
+    "A213352"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:31",
+    "offset": 9,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

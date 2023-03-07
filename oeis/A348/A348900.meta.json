@@ -1,0 +1,21 @@
+{
+  "description": "Numbers m such that there is only one m-digit number where the remainder after dividing by sum of digits is A348730(m)",
+  "id": "A348900",
+  "mentions": [
+    "A348730",
+    "A348799",
+    "A348894",
+    "A348895"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:23",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

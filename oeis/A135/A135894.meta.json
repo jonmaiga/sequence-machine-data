@@ -1,0 +1,30 @@
+{
+  "description": "Triangle R, read by rows, where column k of R equals column 0 of P^(2k+1) where P=A135880.",
+  "id": "A135894",
+  "mentions": [
+    "A135880",
+    "A135881",
+    "A135885",
+    "A135888",
+    "A135889",
+    "A135892",
+    "A135895",
+    "A135896",
+    "A135897",
+    "A135898",
+    "A135899",
+    "A135900"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

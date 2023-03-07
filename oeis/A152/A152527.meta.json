@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = (p(n)*p(n+1)-p(n+2))/2, where p(n) is the n-th odd prime.",
+  "id": "A152527",
+  "mentions": [
+    "A065091",
+    "A111071",
+    "A152528",
+    "A152529",
+    "A152530",
+    "A152531",
+    "A152532"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:17:15",
+    "offset": 1,
+    "size": 40,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "Number of non-isomorphic self-dual set multipartitions (multisets of sets) of weight n.",
+  "id": "A321403",
+  "mentions": [
+    "A007716",
+    "A049311",
+    "A135588",
+    "A135589",
+    "A138178",
+    "A283877",
+    "A316983",
+    "A319616",
+    "A320796",
+    "A320797",
+    "A321404",
+    "A321405"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

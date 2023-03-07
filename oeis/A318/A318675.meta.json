@@ -1,0 +1,23 @@
+{
+  "description": "Sum of squarefree divisors of n that have an odd number of prime factors.",
+  "id": "A318675",
+  "mentions": [
+    "A008472",
+    "A008683",
+    "A048250",
+    "A318320",
+    "A318674",
+    "A318677"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:40",
+    "offset": 1,
+    "size": 96,
+    "source": "oeis-bfile"
+  }
+}

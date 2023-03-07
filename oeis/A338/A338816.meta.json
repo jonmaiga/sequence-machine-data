@@ -1,0 +1,23 @@
+{
+  "description": "a(0) = 1; for n > 0, a(n) = Sum_{k=0..n-1} prime(a(k)) * prime(a(n-k-1)).",
+  "id": "A338816",
+  "mentions": [
+    "A000040",
+    "A000108",
+    "A007097",
+    "A014342"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

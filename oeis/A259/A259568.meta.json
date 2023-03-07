@@ -1,0 +1,21 @@
+{
+  "description": "Numbers following gaps in the sequence of base-4 numbers that don't contain 0.",
+  "id": "A259568",
+  "mentions": [
+    "A016813",
+    "A023705",
+    "A196032"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

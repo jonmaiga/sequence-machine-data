@@ -1,0 +1,20 @@
+{
+  "description": "Number of tilings of n interlocking sphinx tiled shape subunits.",
+  "id": "A289941",
+  "mentions": [
+    "A067411",
+    "A279887",
+    "A287999"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

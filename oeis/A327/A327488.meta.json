@@ -1,0 +1,20 @@
+{
+  "description": "T(n, k) = 1 + NAND(k - 1, n - k), where NAND is the Sheffer stroke operating bitwise on the inputs, triangle read by rows, T(n, k) for n >= 1, 1 <= k <= n.",
+  "id": "A327488",
+  "mentions": [
+    "A280172",
+    "A327489",
+    "A327490"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

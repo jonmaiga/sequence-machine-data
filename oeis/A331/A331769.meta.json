@@ -1,0 +1,19 @@
+{
+  "description": "El Gradechi's hybrid coefficients alpha^{4,6}_n.",
+  "id": "A331769",
+  "mentions": [
+    "A331768",
+    "A331770"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

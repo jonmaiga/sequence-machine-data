@@ -1,0 +1,18 @@
+{
+  "description": "Primes p such that (p reversed)-1 is not a prime.",
+  "id": "A245063",
+  "mentions": [
+    "A167216"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:01",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Triangle of transformations with k monotonic runs.",
+  "id": "A225753",
+  "mentions": [
+    "A000312",
+    "A001700",
+    "A008292",
+    "A062023",
+    "A173018",
+    "A190295",
+    "A226998"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

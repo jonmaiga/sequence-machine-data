@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows, a partition number generator; A145006 * the diagonalized variant of A000041, (A174712).",
+  "id": "A174739",
+  "mentions": [
+    "A000041",
+    "A145006",
+    "A174712"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

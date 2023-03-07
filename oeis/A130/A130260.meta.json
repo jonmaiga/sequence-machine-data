@@ -1,0 +1,28 @@
+{
+  "description": "Minimal index k of an even Fibonacci number A001906 such that A001906(k) = Fib(2k) >= n (the 'upper' even Fibonacci Inverse).",
+  "id": "A130260",
+  "mentions": [
+    "A000045",
+    "A001519",
+    "A001906",
+    "A130234",
+    "A130237",
+    "A130239",
+    "A130241",
+    "A130248",
+    "A130256",
+    "A130259",
+    "A130262"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:18",
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-bfile"
+  }
+}

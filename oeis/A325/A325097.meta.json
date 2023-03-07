@@ -1,0 +1,31 @@
+{
+  "description": "Heinz numbers of integer partitions whose distinct parts have no binary carries.",
+  "id": "A325097",
+  "mentions": [
+    "A000110",
+    "A000720",
+    "A001222",
+    "A050315",
+    "A056239",
+    "A080572",
+    "A112798",
+    "A247935",
+    "A325094",
+    "A325095",
+    "A325096",
+    "A325098",
+    "A325100",
+    "A325102",
+    "A325103"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

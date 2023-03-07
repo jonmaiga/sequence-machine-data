@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of 1/((1-xc(x)-x^2c(x)^2)(1-x^2c(x)) with c(x) the g.f. of A000108.",
+  "id": "A109268",
+  "mentions": [
+    "A000108",
+    "A109267"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:38:03",
+    "offset": 0,
+    "size": 25,
+    "source": "joeis"
+  }
+}

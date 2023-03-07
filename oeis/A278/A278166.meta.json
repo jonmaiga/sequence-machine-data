@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = number of integers one more than a prime encountered before reaching 0 when starting from k = ((n+1)^2)-1 and iterating map k -> k - A002828(k).",
+  "id": "A278166",
+  "mentions": [
+    "A002828",
+    "A255131",
+    "A277486",
+    "A278167",
+    "A278168"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:45",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

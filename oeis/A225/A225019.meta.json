@@ -1,0 +1,17 @@
+{
+  "description": "Number of (n+1)X(n+1) 0..2 matrices with each 2X2 permanent equal",
+  "id": "A225019",
+  "mentions": [
+    "A225027"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-bfile"
+  }
+}

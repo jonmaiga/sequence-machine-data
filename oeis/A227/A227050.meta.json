@@ -1,0 +1,22 @@
+{
+  "description": "Number of essentially different ways of arranging numbers 1 through 2n around a circle so that the sum and absolute difference of each pair of adjacent numbers are prime.",
+  "id": "A227050",
+  "mentions": [
+    "A051252",
+    "A228626",
+    "A242527",
+    "A242528"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

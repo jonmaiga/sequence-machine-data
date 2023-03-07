@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that k^2 + 5 is a semiprime.",
+  "id": "A242333",
+  "mentions": [
+    "A056905",
+    "A078402",
+    "A085722",
+    "A242330",
+    "A242331",
+    "A242332"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

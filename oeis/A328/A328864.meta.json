@@ -1,0 +1,22 @@
+{
+  "description": "For any three-digit number k = hdu, f(k) = (h+d+u) + (h*d+d*u+u*h) + (h*d*u). This sequence consists of the numbers k for which the ratio k/f(k) is an integer.",
+  "id": "A328864",
+  "mentions": [
+    "A005349",
+    "A007602",
+    "A038366"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

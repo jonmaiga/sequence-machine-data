@@ -1,0 +1,26 @@
+{
+  "description": "Subset of A020342 (vampire numbers, definition 1) listing numbers which have more than one such representation of the desired form.",
+  "id": "A144563",
+  "mentions": [
+    "A001221",
+    "A001222",
+    "A014575",
+    "A020342",
+    "A048936",
+    "A080718",
+    "A280928"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

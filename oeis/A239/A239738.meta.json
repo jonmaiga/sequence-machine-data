@@ -1,0 +1,20 @@
+{
+  "description": "Normal distributions from the primes. The contracted sequence of integers generated from the frequencies of the summation of elements of the subsets of the Cartesian product of the natural numbers of ascending prime cardinality. that is, given a number of sets of the natural numbers of ascending modulo P(n+1), the probabilities of generating a given number from the selection of one element from each set form the given sequence.",
+  "id": "A239738",
+  "mentions": [
+    "A131791"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn",
+    "obsc",
+    "tabf",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:56",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

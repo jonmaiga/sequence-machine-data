@@ -1,0 +1,20 @@
+{
+  "description": "Least k such that Phi(n,k), the n-th cyclotomic polynomial evaluated at k, is prime.",
+  "id": "A117544",
+  "mentions": [
+    "A085398",
+    "A117545",
+    "A307687"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:07",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

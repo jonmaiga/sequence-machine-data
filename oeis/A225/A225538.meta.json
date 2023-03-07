@@ -1,0 +1,18 @@
+{
+  "description": "Let r(n) denote the reverse of n. For every n, consider the sequence n_1 = n + 1 + r(n+1), and for m >= 2, n_m = n_(m-1) + 1 + r(n_(m-1) + 1). a(n) is the least m for which n_m is a palindrome, or 0 if there is no such m.",
+  "id": "A225538",
+  "mentions": [
+    "A023108"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

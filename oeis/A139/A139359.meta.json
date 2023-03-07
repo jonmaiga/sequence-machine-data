@@ -1,0 +1,23 @@
+{
+  "description": "Number L([n],m) of ways the labeled parts of each integer partition of n can be distributed into m nonempty labeled boxes.",
+  "id": "A139359",
+  "mentions": [
+    "A000041",
+    "A000142",
+    "A000217",
+    "A001286",
+    "A019538",
+    "A095660",
+    "A137383"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

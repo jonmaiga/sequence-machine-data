@@ -1,0 +1,18 @@
+{
+  "description": "Non-palindromes whose largest proper divisor is a nontrivial (not a single-digit) palindrome.",
+  "id": "A345386",
+  "mentions": [
+    "A075407"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:18",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

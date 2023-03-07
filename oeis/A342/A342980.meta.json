@@ -1,0 +1,27 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of rooted loopless planar maps with n edges, k faces and no isthmuses, n >= 0, k = 1..n+1.",
+  "id": "A342980",
+  "mentions": [
+    "A006416",
+    "A006417",
+    "A006418",
+    "A082680",
+    "A099553",
+    "A269920",
+    "A342981",
+    "A342985",
+    "A343090"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:16",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

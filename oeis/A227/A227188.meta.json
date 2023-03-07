@@ -1,0 +1,27 @@
+{
+  "description": "Square array A(n,k) read by antidiagonals: the one-based bit-index where the (k+1)-st run in the binary expansion of n ends, as read from the least significant end.",
+  "id": "A227188",
+  "mentions": [
+    "A002262",
+    "A005811",
+    "A025581",
+    "A136480",
+    "A163575",
+    "A227186",
+    "A227189",
+    "A227192"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

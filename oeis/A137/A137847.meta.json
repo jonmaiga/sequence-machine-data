@@ -1,0 +1,18 @@
+{
+  "description": "Smallest number missing in the EKG sequence (A064413) after n terms.",
+  "id": "A137847",
+  "mentions": [
+    "A064413",
+    "A064425"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Sum of the lengths of the hypotenuses of all Pythagorean triangles with perimeter A010814(n).",
+  "id": "A334757",
+  "mentions": [
+    "A005044",
+    "A010814",
+    "A334607",
+    "A334678",
+    "A334717",
+    "A334753",
+    "A334755"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

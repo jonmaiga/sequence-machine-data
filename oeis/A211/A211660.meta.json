@@ -1,0 +1,24 @@
+{
+  "description": "Numbers k such that k and k+2 both have unique values of sigma(k) and sigma(k+2); sigma(k) = A000203(k) = sum of divisors of k.",
+  "id": "A211660",
+  "mentions": [
+    "A000203",
+    "A211656",
+    "A211657",
+    "A211658",
+    "A211659",
+    "A211767",
+    "A211768",
+    "A211769"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:30",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

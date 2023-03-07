@@ -1,0 +1,28 @@
+{
+  "description": "Decimal expansion of the absolute value of one of the negative roots of Shanks' simplest cubic associated with the prime p = 37.",
+  "id": "A348727",
+  "mentions": [
+    "A005471",
+    "A160389",
+    "A255240",
+    "A255241",
+    "A255249",
+    "A348720",
+    "A348726",
+    "A348728",
+    "A348729"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 94,
+    "source": "oeis-entry"
+  }
+}

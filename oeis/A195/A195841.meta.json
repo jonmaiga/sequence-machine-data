@@ -1,0 +1,32 @@
+{
+  "description": "Triangle read by rows which arises from A195831, in the same way as A175003 arises from A195310. Column k starts at row A195160(k).",
+  "id": "A195841",
+  "mentions": [
+    "A000041",
+    "A001082",
+    "A001318",
+    "A175003",
+    "A195160",
+    "A195310",
+    "A195825",
+    "A195828",
+    "A195831",
+    "A195836",
+    "A195837",
+    "A195838",
+    "A195839",
+    "A195840",
+    "A195851"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

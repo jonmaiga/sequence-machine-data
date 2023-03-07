@@ -1,0 +1,26 @@
+{
+  "description": "a(n) is the number of divisors of n that are themselves divisible by the product of their digits.",
+  "id": "A335037",
+  "mentions": [
+    "A000005",
+    "A001227",
+    "A004023",
+    "A007602",
+    "A087990",
+    "A087991",
+    "A242627",
+    "A332268",
+    "A335038"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:06",
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

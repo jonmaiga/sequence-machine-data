@@ -1,0 +1,18 @@
+{
+  "description": "Half the number of (n+1)X3 0..3 arrays with every 2X2 subblock having at most one duplicate clockwise edge difference",
+  "id": "A210294",
+  "mentions": [
+    "A210300"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:29",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

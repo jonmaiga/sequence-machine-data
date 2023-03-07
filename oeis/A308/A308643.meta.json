@@ -1,0 +1,25 @@
+{
+  "description": "Odd squarefree composite numbers k, divisible by the sum of their prime factors, sopfr (A001414).",
+  "id": "A308643",
+  "mentions": [
+    "A001221",
+    "A001414",
+    "A002997",
+    "A005117",
+    "A046346",
+    "A046347",
+    "A063908",
+    "A153135",
+    "A156300"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:33",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

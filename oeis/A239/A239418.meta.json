@@ -1,0 +1,25 @@
+{
+  "description": "Numbers n such that n^10 - 10 is prime.",
+  "id": "A239418",
+  "mentions": [
+    "A028870",
+    "A070431",
+    "A153974",
+    "A239347",
+    "A239413",
+    "A239414",
+    "A239415",
+    "A239416",
+    "A239417"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

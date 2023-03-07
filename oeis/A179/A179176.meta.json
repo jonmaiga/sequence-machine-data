@@ -1,0 +1,22 @@
+{
+  "description": "Number of vertices with even distance from the root in \"0-1-2\" Motzkin trees on n edges.",
+  "id": "A179176",
+  "mentions": [
+    "A091958",
+    "A121320",
+    "A143364",
+    "A174403",
+    "A178834"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:47",
+    "offset": 0,
+    "size": 27,
+    "source": "joeis"
+  }
+}

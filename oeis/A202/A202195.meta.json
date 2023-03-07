@@ -1,0 +1,19 @@
+{
+  "description": "Number of (n+2) X 3 binary arrays avoiding patterns 001 and 101 in rows and columns.",
+  "id": "A202195",
+  "mentions": [
+    "A011379",
+    "A202202"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 17:35:05",
+    "offset": 1,
+    "size": 36,
+    "source": "joeis"
+  }
+}

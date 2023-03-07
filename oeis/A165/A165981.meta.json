@@ -1,0 +1,18 @@
+{
+  "description": "Primes p which are equal to 2 plus the sum of three consecutive primes.",
+  "id": "A165981",
+  "mentions": [
+    "A034961"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:49",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

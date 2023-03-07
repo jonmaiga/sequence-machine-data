@@ -1,0 +1,20 @@
+{
+  "description": "Number of non-equivalent ways (mod D_2) to select 4 points from n equidistant points on a straight line so that no selected point is equally distant from two other selected points.",
+  "id": "A300761",
+  "mentions": [
+    "A002623",
+    "A300760"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:34:51",
+    "offset": 4,
+    "size": 45,
+    "source": "joeis"
+  }
+}

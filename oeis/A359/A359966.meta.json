@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of Product_{k>=2} (1 - x^(k^2-1)) in powers of x.",
+  "id": "A359966",
+  "mentions": [
+    "A005563",
+    "A276516",
+    "A359936",
+    "A359967"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:34",
+    "offset": 0,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

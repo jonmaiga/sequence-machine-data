@@ -1,0 +1,20 @@
+{
+  "description": "The number of numbers j*r^k in the interval [n,n+1), where r = (1 + sqrt(5))/2, the golden ratio, and j >=0, k >= 0.",
+  "id": "A252229",
+  "mentions": [
+    "A020959",
+    "A182801"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:10",
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

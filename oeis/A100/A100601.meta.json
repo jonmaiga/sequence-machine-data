@@ -1,0 +1,22 @@
+{
+  "description": "Denominator of the best rational approximation to the decimal representation of the digital roots of m^n, m=1,2,..",
+  "id": "A100601",
+  "mentions": [
+    "A100406",
+    "A100579"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:42:05",
+    "offset": 1,
+    "size": 57,
+    "source": "joeis"
+  }
+}

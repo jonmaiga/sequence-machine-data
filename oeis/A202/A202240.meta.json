@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the smallest number k such that the sum of the n-th powers of the digits of k equals the sum of the divisors of k other than 1 and k.",
+  "id": "A202240",
+  "mentions": [
+    "A070308",
+    "A202147",
+    "A202279",
+    "A202285"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 2,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

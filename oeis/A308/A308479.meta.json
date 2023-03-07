@@ -1,0 +1,19 @@
+{
+  "description": "Least k such that k*n and (k+1)*n fail to have a common nonzero digit, or 0 if this property never occurs.",
+  "id": "A308479",
+  "mentions": [
+    "A308466"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:33",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

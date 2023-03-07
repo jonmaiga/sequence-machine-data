@@ -1,0 +1,33 @@
+{
+  "description": "a(n) is the least number k greater than n such that the square roots of both k and n have continuous fractions with the same period p and, if p > 1, the same periodic terms except for the last term.",
+  "id": "A334116",
+  "mentions": [
+    "A002378",
+    "A002522",
+    "A005563",
+    "A007742",
+    "A013656",
+    "A033991",
+    "A147296",
+    "A154355",
+    "A154357",
+    "A154376",
+    "A154377",
+    "A154516",
+    "A154517",
+    "A156640",
+    "A156711",
+    "A157265",
+    "A157362"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:05",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

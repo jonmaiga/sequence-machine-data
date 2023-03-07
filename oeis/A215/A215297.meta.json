@@ -1,0 +1,23 @@
+{
+  "description": "T(n,k) = number of permutations of 0..floor((n*k-2)/2) on odd squares of an n X k array such that each row and column of odd squares is increasing.",
+  "id": "A215297",
+  "mentions": [
+    "A001405",
+    "A060854",
+    "A215288",
+    "A215290",
+    "A215292"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:33",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

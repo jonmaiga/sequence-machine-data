@@ -1,0 +1,32 @@
+{
+  "description": "Number of z-forests summing to n. Number of strict integer partitions of n with pairwise indivisible parts and all connected components having clutter density -1.",
+  "id": "A305194",
+  "mentions": [
+    "A001221",
+    "A030019",
+    "A048143",
+    "A134954",
+    "A275307",
+    "A285572",
+    "A293510",
+    "A293993",
+    "A293994",
+    "A303362",
+    "A303837",
+    "A303838",
+    "A304118",
+    "A304382",
+    "A305078",
+    "A305195"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of multisets of exactly three partitions of positive integers into distinct parts with total sum of parts equal to n.",
+  "id": "A320788",
+  "mentions": [
+    "A000009",
+    "A285229"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:43",
+    "offset": 3,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

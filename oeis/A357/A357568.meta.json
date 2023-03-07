@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = 9*binomial(2*n,n)^2 - 8*binomial(3*n,n).",
+  "id": "A357568",
+  "mentions": [
+    "A000984",
+    "A002894",
+    "A005809",
+    "A357509",
+    "A357567",
+    "A357569",
+    "A357955"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

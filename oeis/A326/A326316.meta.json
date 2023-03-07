@@ -1,0 +1,20 @@
+{
+  "description": "Lexicographically earliest sequence of distinct terms such that the digits of a(n) and a(n+1) sum up to a prime and a(n) + a(n+1) is also a prime.",
+  "id": "A326316",
+  "mentions": [
+    "A308728",
+    "A326315",
+    "A326317"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:53",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

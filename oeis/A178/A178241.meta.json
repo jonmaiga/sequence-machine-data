@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that d(1)^p + d(2)^(p-1) +... + d(p)^1 is a square, where d(i), i=1..p, are the digits of n.",
+  "id": "A178241",
+  "mentions": [
+    "A114570"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

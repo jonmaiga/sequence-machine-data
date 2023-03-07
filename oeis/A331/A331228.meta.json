@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = denominator of squared radius R^2 of the circumcircle of the n-th triangle with integer sides i <= j <= k in a list of such triangles, the list being sorted by increasing size of R. Numerators are A331227.",
+  "id": "A331228",
+  "mentions": [
+    "A331222",
+    "A331223",
+    "A331227"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

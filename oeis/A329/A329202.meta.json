@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = floor(2*log_2(n)) = floor(log_2(n^2)).",
+  "id": "A329202",
+  "mentions": [
+    "A017912",
+    "A328911"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

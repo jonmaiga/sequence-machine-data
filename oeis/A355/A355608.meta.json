@@ -1,0 +1,22 @@
+{
+  "description": "Zeroless numbers k such that x^2 - s*x + p has only integer roots, where s and p denote the sum and product of the digits of k respectively.",
+  "id": "A355608",
+  "mentions": [
+    "A007953",
+    "A007954",
+    "A052382",
+    "A355497",
+    "A355547"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:30",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

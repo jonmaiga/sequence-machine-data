@@ -1,0 +1,18 @@
+{
+  "description": "Number of n X 3 0..2 arrays with rows and columns lexicographically nondecreasing read forwards and nonincreasing read backwards.",
+  "id": "A201695",
+  "mentions": [
+    "A201700"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 17:33:09",
+    "offset": 1,
+    "size": 33,
+    "source": "joeis"
+  }
+}

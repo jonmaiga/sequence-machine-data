@@ -1,0 +1,18 @@
+{
+  "description": "Lexicographically earliest sequence such that (i*2^a(i)) AND (j*2^a(j)) = 0 for any distinct i and j (AND stands for the bitwise AND operator).",
+  "id": "A278388",
+  "mentions": [
+    "A275152"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:45",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

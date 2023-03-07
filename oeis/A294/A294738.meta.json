@@ -1,0 +1,23 @@
+{
+  "description": "Numbers that are the sum of 5 nonzero squares in exactly 4 ways.",
+  "id": "A294738",
+  "mentions": [
+    "A025357",
+    "A025429",
+    "A294675",
+    "A294736",
+    "A294737"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

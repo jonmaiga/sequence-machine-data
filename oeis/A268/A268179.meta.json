@@ -1,0 +1,17 @@
+{
+  "description": "Number of nX4 0..4 arrays with every repeated value in every row equal to, and in every column unequal to, the previous repeated value, and new values introduced in row-major sequential order.",
+  "id": "A268179",
+  "mentions": [
+    "A268180"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:30",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

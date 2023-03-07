@@ -1,0 +1,23 @@
+{
+  "description": "Total number of covered falling diagonals in all n X n permutation matrices.",
+  "id": "A306455",
+  "mentions": [
+    "A000142",
+    "A059841",
+    "A125182",
+    "A259834",
+    "A306234",
+    "A306461"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

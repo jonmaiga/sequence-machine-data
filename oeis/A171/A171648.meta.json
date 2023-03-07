@@ -1,0 +1,23 @@
+{
+  "description": "a(1) = 1, a(n) = 2*a(n-1) if n is even; a(n) = a(n-1)*Fibonacci((n+1)/2)/Fibonacci((n-1)/2) if n is odd.",
+  "id": "A171648",
+  "mentions": [
+    "A000045",
+    "A001622",
+    "A063727",
+    "A103435",
+    "A134945"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:55",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

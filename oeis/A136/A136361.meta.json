@@ -1,0 +1,23 @@
+{
+  "description": "Square roots of the perfect squares in A136360; or numbers k such that k^4 is in A133459 = the sums of two nonzero pentagonal pyramidal numbers.",
+  "id": "A136361",
+  "mentions": [
+    "A002311",
+    "A002411",
+    "A053721",
+    "A133459",
+    "A136359",
+    "A136360"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

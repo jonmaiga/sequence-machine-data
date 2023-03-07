@@ -1,0 +1,20 @@
+{
+  "description": "Values of k from A061092.",
+  "id": "A121799",
+  "mentions": [
+    "A061092",
+    "A072532",
+    "A113334"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:10",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

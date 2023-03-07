@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the smallest k such that {1^2, 2^2, 3^2, ..., k^2} can be partitioned into n sets of equal sums.",
+  "id": "A330431",
+  "mentions": [
+    "A019568",
+    "A240070",
+    "A330212"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

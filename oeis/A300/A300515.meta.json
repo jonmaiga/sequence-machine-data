@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of e.g.f. log(Sum_{k>=0} q(k)*x^k/k!), where q(k) = number of partitions of k into distinct parts (A000009).",
+  "id": "A300515",
+  "mentions": [
+    "A000009",
+    "A265024",
+    "A300512",
+    "A300514"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:25",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

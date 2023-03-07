@@ -1,0 +1,22 @@
+{
+  "description": "Nonunitary highly composite numbers: numbers with a record number of nonunitary divisors.",
+  "id": "A309141",
+  "mentions": [
+    "A002110",
+    "A002182",
+    "A037992",
+    "A048105",
+    "A293185",
+    "A318278"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:33",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "Irregular triangle read by rows where row n lists the prime indices of the n-th squarefree number.",
+  "id": "A329631",
+  "mentions": [
+    "A000009",
+    "A000720",
+    "A005117",
+    "A048672",
+    "A056239",
+    "A072047",
+    "A112798",
+    "A265668",
+    "A299755",
+    "A302590",
+    "A319246",
+    "A319247"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

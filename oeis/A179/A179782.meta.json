@@ -1,0 +1,23 @@
+{
+  "description": "Numbers n such that the decimal representation of n is contained as substring in that of the n-th pentagonal number.",
+  "id": "A179782",
+  "mentions": [
+    "A000217",
+    "A000290",
+    "A000326",
+    "A018834",
+    "A067275",
+    "A119238"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

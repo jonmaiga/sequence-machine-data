@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of states that can be achieved when starting from n piles each containing one stone, where any number of stones can be transferred between piles that start with the same number of stones.",
+  "id": "A292726",
+  "mentions": [
+    "A000041",
+    "A018819",
+    "A056219"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:08",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

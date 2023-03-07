@@ -1,0 +1,25 @@
+{
+  "description": "Triangle, read by rows, where the antidiagonals are formed by interleaving the rows of triangle A102098 with the rows of its matrix square (A102920).",
+  "id": "A102916",
+  "mentions": [
+    "A082162",
+    "A102086",
+    "A102098",
+    "A102917",
+    "A102918",
+    "A102920",
+    "A102921"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

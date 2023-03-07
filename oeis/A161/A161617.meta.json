@@ -1,0 +1,23 @@
+{
+  "description": "8*n^2+20*n+1.",
+  "id": "A161617",
+  "mentions": [
+    "A161532",
+    "A161549",
+    "A161587",
+    "A161935",
+    "A162316"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:43",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

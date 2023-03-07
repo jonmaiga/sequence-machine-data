@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 5 - (prime(n) mod 10).",
+  "id": "A277097",
+  "mentions": [
+    "A007652",
+    "A184593"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:28:11",
+    "offset": 1,
+    "size": 71,
+    "source": "joeis"
+  }
+}

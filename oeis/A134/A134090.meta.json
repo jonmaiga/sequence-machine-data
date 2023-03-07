@@ -1,0 +1,23 @@
+{
+  "description": "Triangle, read by rows, where T(n,k) = [(I + D*C)^n](n,k); that is, row n of T = row n of (I + D*C)^n for n>=0 where C denotes Pascal's triangle, I the identity matrix and D a matrix where D(n+1,n)=1 and zeros elsewhere.",
+  "id": "A134090",
+  "mentions": [
+    "A122455",
+    "A134091",
+    "A134092",
+    "A134093",
+    "A134094"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

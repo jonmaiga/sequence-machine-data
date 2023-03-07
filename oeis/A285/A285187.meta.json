@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum(psi(k-1)*psi(n-k-1),k=0..n)+(1-(-1)^n)/2, where psi(k) = A000931(k+6).",
+  "id": "A285187",
+  "mentions": [
+    "A000931",
+    "A284709"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 16:01:11",
+    "offset": 0,
+    "size": 41,
+    "source": "joeis"
+  }
+}

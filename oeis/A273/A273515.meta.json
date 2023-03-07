@@ -1,0 +1,23 @@
+{
+  "description": "The number of times n is rejected from the Stanley sequence S(0,1), A005836.",
+  "id": "A273515",
+  "mentions": [
+    "A005836",
+    "A262097",
+    "A273513",
+    "A273514",
+    "A273516"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:38",
+    "offset": 0,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

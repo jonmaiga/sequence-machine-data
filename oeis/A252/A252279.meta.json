@@ -1,0 +1,17 @@
+{
+  "description": "Primes p congruent to 1 mod 16 such that x^8 = 2 has a solution mod p.",
+  "id": "A252279",
+  "mentions": [
+    "A045315"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:10",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

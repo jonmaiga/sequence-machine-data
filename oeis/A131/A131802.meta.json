@@ -1,0 +1,23 @@
+{
+  "description": "Sequence related to factorizations and prime signatures: a(1) = 1; for n>1, a(n) = A057567(n) - 2*A001055(n).",
+  "id": "A131802",
+  "mentions": [
+    "A001055",
+    "A025487",
+    "A057567",
+    "A077569",
+    "A108464",
+    "A122819"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:19",
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

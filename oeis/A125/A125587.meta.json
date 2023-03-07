@@ -1,0 +1,21 @@
+{
+  "description": "Call an n X n matrix robust if the top left i X i submatrix is invertible for all i = 1..n. Sequence gives number of n X n robust real {0,1}-matrices.",
+  "id": "A125587",
+  "mentions": [
+    "A053763",
+    "A125586",
+    "A125593",
+    "A126603"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

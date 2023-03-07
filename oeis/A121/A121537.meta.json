@@ -1,0 +1,18 @@
+{
+  "description": "If n appears then 2n, 3n and 4n do not.",
+  "id": "A121537",
+  "mentions": [
+    "A003159",
+    "A036668"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

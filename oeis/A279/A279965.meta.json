@@ -1,0 +1,18 @@
+{
+  "description": "Square array read by antidiagonals upwards in which each term is the number of prior elements in the same row, column, diagonal, or antidiagonal whose parity is the same as the parity of n.",
+  "id": "A279965",
+  "mentions": [
+    "A279968"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:47",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of partitions of n with no even part repeated and having k 1's (n>=0, 0<=k<=n).",
+  "id": "A117274",
+  "mentions": [
+    "A001935",
+    "A117275",
+    "A117276"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 104,
+    "source": "oeis-entry"
+  }
+}

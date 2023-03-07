@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that 5*n + 14 is prime.",
+  "id": "A111230",
+  "mentions": [
+    "A024894",
+    "A024897",
+    "A081759",
+    "A087505"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:39:05",
+    "offset": 1,
+    "size": 58,
+    "source": "joeis"
+  }
+}

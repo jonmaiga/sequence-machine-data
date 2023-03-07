@@ -1,0 +1,21 @@
+{
+  "description": "The phi-radical numbers: composite numbers m such that rad(phi(m)) = rad(m-1).",
+  "id": "A306478",
+  "mentions": [
+    "A000010",
+    "A002997",
+    "A007947",
+    "A055744",
+    "A306479"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

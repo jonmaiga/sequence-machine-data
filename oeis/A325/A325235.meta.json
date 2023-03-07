@@ -1,0 +1,30 @@
+{
+  "description": "Heinz numbers of integer partitions with Dyson rank 1 or -1.",
+  "id": "A325235",
+  "mentions": [
+    "A001222",
+    "A047993",
+    "A056239",
+    "A061395",
+    "A063995",
+    "A101198",
+    "A106529",
+    "A112798",
+    "A257541",
+    "A257990",
+    "A263297",
+    "A325225",
+    "A325233",
+    "A325234"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

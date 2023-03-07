@@ -1,0 +1,35 @@
+{
+  "description": "Square array A(n,k), n>=1, k>=1, read by antidiagonals: A(n,k) = Fibonacci rabbit sequence number n coded in base k.",
+  "id": "A144287",
+  "mentions": [
+    "A000012",
+    "A000045",
+    "A001477",
+    "A002522",
+    "A005203",
+    "A005205",
+    "A036299",
+    "A061107",
+    "A144288",
+    "A320986",
+    "A320987",
+    "A320988",
+    "A320989",
+    "A320990",
+    "A320991"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "formulas",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

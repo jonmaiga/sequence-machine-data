@@ -1,0 +1,19 @@
+{
+  "description": "E.g.f. A(x) = C(x) + S(x) = exp( Integral C(S(x)) dx ) such that C(x)^2 - S(x)^2 = 1, where A(x) = Sum_{n>=0} a(n)*x^n/n!, with coefficients a(n) starting at n = 0.",
+  "id": "A322897",
+  "mentions": [
+    "A322895",
+    "A322896"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:46",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

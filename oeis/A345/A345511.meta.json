@@ -1,0 +1,23 @@
+{
+  "description": "Numbers that are the sum of six cubes in two or more ways.",
+  "id": "A345511",
+  "mentions": [
+    "A003329",
+    "A048930",
+    "A343702",
+    "A344806",
+    "A345512",
+    "A345520",
+    "A345559"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:18",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

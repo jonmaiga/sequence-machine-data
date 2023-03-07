@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of Product_{i>=1, j>=0} (1 + x^(i*3^j)).",
+  "id": "A327726",
+  "mentions": [
+    "A000041",
+    "A051064",
+    "A143374",
+    "A174065"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:15:47",
+    "offset": 0,
+    "size": 51,
+    "source": "joeis"
+  }
+}

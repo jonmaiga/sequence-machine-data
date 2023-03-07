@@ -1,0 +1,21 @@
+{
+  "description": "Number of pairs of integers q1, q2 with 1 < q1 < q2 < n such that if we randomly pick an integer in {1, ..., n}, the event of being divisible by q1 is independent of being divisible by q2.",
+  "id": "A229964",
+  "mentions": [
+    "A082663",
+    "A166684",
+    "A229965",
+    "A229966",
+    "A229967"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:47",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

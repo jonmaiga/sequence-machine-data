@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that the k-th lucky number (A000959) is divisible by k.",
+  "id": "A329528",
+  "mentions": [
+    "A000959",
+    "A329529"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

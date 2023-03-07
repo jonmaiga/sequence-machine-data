@@ -1,0 +1,20 @@
+{
+  "description": "The number of palindromic primes leading and ending with 1, 3, 7 or 9 -- in sequence -- of length 2*ceiling(n/4)+1.",
+  "id": "A220248",
+  "mentions": [
+    "A002385",
+    "A220344",
+    "A220349"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

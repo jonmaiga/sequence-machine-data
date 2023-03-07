@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = sum of natural numbers m such that n - 9 <= m <= n + 9.",
+  "id": "A168108",
+  "mentions": [
+    "A000217",
+    "A008486"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:44:41",
+    "offset": 0,
+    "size": 57,
+    "source": "joeis"
+  }
+}

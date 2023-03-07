@@ -1,0 +1,19 @@
+{
+  "description": "Define b(0)=28, b(n+1)=2*b(n)+1; sequence gives largest prime factor of b(n).",
+  "id": "A113972",
+  "mentions": [
+    "A006530",
+    "A050540"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:04",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Concatenations of pairs of primes that differ by 100.",
+  "id": "A103523",
+  "mentions": [
+    "A000040",
+    "A001358",
+    "A023201",
+    "A100750",
+    "A103195",
+    "A103206",
+    "A104718",
+    "A104719"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:54",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

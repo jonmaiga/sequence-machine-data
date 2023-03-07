@@ -1,0 +1,19 @@
+{
+  "description": "Smallest k such that Sum_{i=0..k} binomial(n,i) is prime, or a(n)=0 if there is no such k.",
+  "id": "A258127",
+  "mentions": [
+    "A007318",
+    "A258126"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:16",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

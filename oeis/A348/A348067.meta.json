@@ -1,0 +1,20 @@
+{
+  "description": "Matula-Goebel tree number of tree n with a new leaf added below each existing vertex.",
+  "id": "A348067",
+  "mentions": [
+    "A027746",
+    "A076146",
+    "A297002"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:21",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

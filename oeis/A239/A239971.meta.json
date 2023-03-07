@@ -1,0 +1,18 @@
+{
+  "description": "Least k>1 such that triangular(n) + triangular(n+k) is a square.",
+  "id": "A239971",
+  "mentions": [
+    "A000217",
+    "A232177"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

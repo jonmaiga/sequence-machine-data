@@ -1,0 +1,24 @@
+{
+  "description": "First term in a sequence of at least 3 consecutive composite integers.",
+  "id": "A136798",
+  "mentions": [
+    "A010051",
+    "A049591",
+    "A104280",
+    "A136799",
+    "A136800",
+    "A136801"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:53:17",
+    "offset": 1,
+    "size": 56,
+    "source": "joeis"
+  }
+}

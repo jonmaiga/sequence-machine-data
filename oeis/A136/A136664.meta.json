@@ -1,0 +1,21 @@
+{
+  "description": "Triangular vector sequence as weighted conversion between A137286 and A049310.",
+  "id": "A136664",
+  "mentions": [
+    "A049310",
+    "A137286"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

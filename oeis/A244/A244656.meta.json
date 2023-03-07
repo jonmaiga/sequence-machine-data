@@ -1,0 +1,20 @@
+{
+  "description": "Least product of consecutive positive integers which is divisible by each of 1, 2, ..., n.",
+  "id": "A244656",
+  "mentions": [
+    "A000142",
+    "A002378",
+    "A003418",
+    "A025527"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:00",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

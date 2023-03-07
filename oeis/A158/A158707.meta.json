@@ -1,0 +1,21 @@
+{
+  "description": "Smallest emirp with all decimal digits except n.",
+  "id": "A158707",
+  "mentions": [
+    "A006567",
+    "A133191"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

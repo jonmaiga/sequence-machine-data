@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the abscissa x of a local minimum of the Fibonacci Function F(x).",
+  "id": "A171909",
+  "mentions": [
+    "A000796",
+    "A001622",
+    "A089260",
+    "A172081"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

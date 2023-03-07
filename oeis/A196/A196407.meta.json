@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of the least positive number x satisfying e^(-x)=2*sin(x).",
+  "id": "A196407",
+  "mentions": [
+    "A069997",
+    "A196396",
+    "A196401",
+    "A196408",
+    "A196409",
+    "A196462",
+    "A196463"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:55",
+    "offset": 0,
+    "size": 100,
+    "source": "joeis"
+  }
+}

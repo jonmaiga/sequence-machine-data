@@ -1,0 +1,20 @@
+{
+  "description": "The number of decimal digits in Lucas-Lehmer numbers A003010(k-2) divisible by 2^k-1.",
+  "id": "A177875",
+  "mentions": [
+    "A000043",
+    "A003010",
+    "A177874"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

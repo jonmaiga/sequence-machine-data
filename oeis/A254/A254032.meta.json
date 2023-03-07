@@ -1,0 +1,18 @@
+{
+  "description": "a(0)=0, a(1)=1; for n > 2, a(n) is the smallest prime factor of a(n-1) + a(n-2) not already in the sequence or, if there is no such prime, a(n) = a(n-1) + a(n-2).",
+  "id": "A254032",
+  "mentions": [
+    "A000045",
+    "A214094"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:12",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

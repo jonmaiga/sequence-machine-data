@@ -1,0 +1,23 @@
+{
+  "description": "This sequence and A259987 are base-6 analogs of A007185 and A016090, written in base 10.",
+  "id": "A259986",
+  "mentions": [
+    "A007185",
+    "A016090",
+    "A201821",
+    "A237583",
+    "A259987",
+    "A259991"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:18",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

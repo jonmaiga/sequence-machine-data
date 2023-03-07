@@ -1,0 +1,44 @@
+{
+  "description": "Runs-resistance of the n-th composition in standard order. Number of steps taking run-lengths to reduce the n-th composition in standard order to a singleton.",
+  "id": "A333628",
+  "mentions": [
+    "A000120",
+    "A029931",
+    "A048793",
+    "A066099",
+    "A070939",
+    "A098504",
+    "A114994",
+    "A124762",
+    "A124767",
+    "A225620",
+    "A228351",
+    "A233564",
+    "A238279",
+    "A242882",
+    "A272020",
+    "A272919",
+    "A318921",
+    "A318928",
+    "A329744",
+    "A329747",
+    "A333217",
+    "A333219",
+    "A333381",
+    "A333382",
+    "A333489",
+    "A333627",
+    "A333629",
+    "A333630"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

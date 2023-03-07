@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of C_3, a constant related to sharp inequalities for the product of 3 polynomials, which was introduced by David Boyd.",
+  "id": "A242711",
+  "mentions": [
+    "A130834",
+    "A242712",
+    "A242713",
+    "A242714"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

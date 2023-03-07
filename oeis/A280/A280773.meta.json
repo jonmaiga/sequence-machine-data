@@ -1,0 +1,18 @@
+{
+  "description": "Primes p such that A280864(k) = 5p for some k yet A280864(k+1) != 6p.",
+  "id": "A280773",
+  "mentions": [
+    "A280864",
+    "A280964"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

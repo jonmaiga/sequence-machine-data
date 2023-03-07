@@ -1,0 +1,20 @@
+{
+  "description": "Where A121561(n) = 4.",
+  "id": "A138027",
+  "mentions": [
+    "A093513",
+    "A093515",
+    "A121561",
+    "A138026"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:26",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

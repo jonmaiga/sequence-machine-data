@@ -1,0 +1,20 @@
+{
+  "description": "Number of inequivalent graphs on n nodes where two graphs are equivalent if adjacency is preserved under the action of the alternating group.",
+  "id": "A218144",
+  "mentions": [
+    "A000088",
+    "A191563",
+    "A192332",
+    "A199574"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:35",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of primitive sequences n = b_1 < b_2 < ... < b_t = A006255(n) such that b_1*b_2*...*b_t is a perfect square.",
+  "id": "A291634",
+  "mentions": [
+    "A006255",
+    "A259527"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

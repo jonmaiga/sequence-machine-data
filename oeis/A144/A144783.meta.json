@@ -1,0 +1,29 @@
+{
+  "description": "Variant of Sylvester's sequence: a(n+1) = a(n)^2 - a(n) + 1, with a(1) = 10.",
+  "id": "A144783",
+  "mentions": [
+    "A000058",
+    "A082732",
+    "A144779",
+    "A144780",
+    "A144781",
+    "A144782",
+    "A144784",
+    "A144785",
+    "A144786",
+    "A144787",
+    "A144788",
+    "A144807"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

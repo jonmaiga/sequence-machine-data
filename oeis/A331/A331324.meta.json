@@ -1,0 +1,22 @@
+{
+  "description": "Prime numbers p_k such that p_k == 1 (mod 10) and p_(k+1) == 7 (mod 10).",
+  "id": "A331324",
+  "mentions": [
+    "A030430",
+    "A030431",
+    "A030432",
+    "A030433",
+    "A330366",
+    "A331555"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:00",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the sum of the fill times of all 1-dimensional fountains given by the permutations in S_n.",
+  "id": "A321853",
+  "mentions": [
+    "A001804",
+    "A002538"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:44",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

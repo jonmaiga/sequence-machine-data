@@ -1,0 +1,21 @@
+{
+  "description": "Numbers which are the roots of distinct not-previously-encountered side-trees (\"tendrils\") sprouting from the side of the infinite beanstalk (see A213730).",
+  "id": "A218612",
+  "mentions": [
+    "A213730",
+    "A218548",
+    "A218611",
+    "A218613"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:36",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

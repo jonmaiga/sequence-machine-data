@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of Feigenbaum c constant.",
+  "id": "A119278",
+  "mentions": [
+    "A119277",
+    "A119279",
+    "A119280"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

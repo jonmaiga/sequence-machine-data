@@ -1,0 +1,22 @@
+{
+  "description": "Number of Brown's diagonal Latin squares of order 2n with the first row in order.",
+  "id": "A339305",
+  "mentions": [
+    "A287649",
+    "A339641",
+    "A340186"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

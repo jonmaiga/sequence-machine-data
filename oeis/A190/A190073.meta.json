@@ -1,0 +1,17 @@
+{
+  "description": "Number of arrangements of 4 nonzero numbers x(i) in -n..n with the sum of div(x(i),x(i+1)), where div(a,b)=a/b produces the integer quotient implying a nonnegative remainder, equal to zero",
+  "id": "A190073",
+  "mentions": [
+    "A190071"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:14",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

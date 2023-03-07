@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of 1/((1 - x)*(2 - theta_2(sqrt(x))/(2*x^(1/8)))), where theta_2() is the Jacobi theta function.",
+  "id": "A303668",
+  "mentions": [
+    "A000217",
+    "A010054",
+    "A023361",
+    "A302835",
+    "A303667"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:28",
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

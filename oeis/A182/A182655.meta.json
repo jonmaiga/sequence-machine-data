@@ -1,0 +1,20 @@
+{
+  "description": "Floor-sum sequence of r, with r=(3+sqrt(5))/2 and a(1)=1, a(2)=2.",
+  "id": "A182655",
+  "mentions": [
+    "A001950",
+    "A182653",
+    "A182654",
+    "A182656"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = (1/3!)*3^(n+1)*(n+5)*(n+1)*(n).",
+  "id": "A288836",
+  "mentions": [
+    "A287768",
+    "A288834",
+    "A288835",
+    "A288838"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 23:59:35",
+    "offset": 1,
+    "size": 23,
+    "source": "joeis"
+  }
+}

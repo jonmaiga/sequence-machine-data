@@ -1,0 +1,21 @@
+{
+  "description": "Lengths of prefixes of the infinite string of digits repeat(1379) which are prime; increasingly sorted.",
+  "id": "A247025",
+  "mentions": [
+    "A000040",
+    "A007652"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "less",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

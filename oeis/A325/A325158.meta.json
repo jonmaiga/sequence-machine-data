@@ -1,0 +1,18 @@
+{
+  "description": "Numerators of convergents to Pi using best rational approximation whose denominator is between consecutive powers of 2: [2^n, 2^(n+1)-1], where n = 0, 1, 2, ...",
+  "id": "A325158",
+  "mentions": [
+    "A002485",
+    "A325159"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:51",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

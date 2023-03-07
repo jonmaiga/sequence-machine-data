@@ -1,0 +1,19 @@
+{
+  "description": "Number of growing tree trajectories (T(1),T(2),...,T(n)), where T(k) is an unlabeled tree on k nodes and T(k) can be obtained from T(k+1) by deletion of a leaf.",
+  "id": "A268951",
+  "mentions": [
+    "A000055",
+    "A000081",
+    "A245246"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

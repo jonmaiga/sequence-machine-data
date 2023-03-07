@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that prime(k) == 1 (mod 7).",
+  "id": "A269703",
+  "mentions": [
+    "A004619",
+    "A049511",
+    "A080147",
+    "A091178",
+    "A269704",
+    "A269705"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Second partial sums of sixth powers (A001014).",
+  "id": "A101093",
+  "mentions": [
+    "A000540",
+    "A001014",
+    "A253636"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:00:51",
+    "offset": 1,
+    "size": 24,
+    "source": "joeis"
+  }
+}

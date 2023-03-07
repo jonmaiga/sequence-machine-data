@@ -1,0 +1,19 @@
+{
+  "description": "Number of permutations of {1,2,3,...,n} such that no even numbers are adjacent.",
+  "id": "A258213",
+  "mentions": [
+    "A008279",
+    "A010790"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:28",
+    "offset": 0,
+    "size": 25,
+    "source": "joeis"
+  }
+}

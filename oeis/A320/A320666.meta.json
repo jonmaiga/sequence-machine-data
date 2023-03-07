@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the maximum number of liberties a single group can have on an otherwise empty n X n Go board.",
+  "id": "A320666",
+  "mentions": [
+    "A071619"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

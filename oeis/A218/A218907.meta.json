@@ -1,0 +1,26 @@
+{
+  "description": "Triangle, read by rows, of integer partitions of n by kernel size k.",
+  "id": "A218907",
+  "mentions": [
+    "A000041",
+    "A000700",
+    "A115720",
+    "A115994",
+    "A208914",
+    "A218904",
+    "A218905",
+    "A218906",
+    "A246581"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-entry"
+  }
+}

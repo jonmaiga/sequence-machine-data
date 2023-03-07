@@ -1,0 +1,28 @@
+{
+  "description": "The number of degree sequences with degree sum 2n representable by a connected graph (with multiple edges allowed).",
+  "id": "A147878",
+  "mentions": [
+    "A000041",
+    "A000070",
+    "A000569",
+    "A007717",
+    "A096373",
+    "A147877",
+    "A209816",
+    "A320911",
+    "A320921",
+    "A320923"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "changed",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:34",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

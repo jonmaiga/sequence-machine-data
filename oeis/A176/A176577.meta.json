@@ -1,0 +1,22 @@
+{
+  "description": "Create a table by linearizing and concatenating arrays embedded in A114994 the terms of which map to numeric partitions.",
+  "id": "A176577",
+  "mentions": [
+    "A099627",
+    "A099629",
+    "A114994",
+    "A167979"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn",
+    "tabl",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

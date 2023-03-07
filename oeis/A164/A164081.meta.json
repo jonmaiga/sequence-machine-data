@@ -1,0 +1,30 @@
+{
+  "description": "Floor of 2^(n-1) times the surface area of the unit sphere in 2n-dimensional space.",
+  "id": "A164081",
+  "mentions": [
+    "A019692",
+    "A072345",
+    "A072346",
+    "A072478",
+    "A072479",
+    "A074457",
+    "A091925",
+    "A122510",
+    "A154255",
+    "A164082",
+    "A164083",
+    "A164102",
+    "A164109"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:11:49",
+    "offset": 1,
+    "size": 59,
+    "source": "joeis"
+  }
+}

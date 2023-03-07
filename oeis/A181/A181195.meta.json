@@ -1,0 +1,17 @@
+{
+  "description": "Number of n X 8 matrices containing a permutation of 1..n*8 in increasing order rowwise, columnwise, diagonally and (downwards) antidiagonally.",
+  "id": "A181195",
+  "mentions": [
+    "A181196"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:04",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-bfile"
+  }
+}

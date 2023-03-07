@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Product_{d|n, d-1 is prime} (d-1)^(1+A286561(n,d-1)), where A286561(n,k) gives the k-valuation of n (for k > 1).",
+  "id": "A323155",
+  "mentions": [
+    "A010051",
+    "A185633",
+    "A286561",
+    "A323156",
+    "A323157"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:47",
+    "offset": 1,
+    "size": 89,
+    "source": "oeis-bfile"
+  }
+}

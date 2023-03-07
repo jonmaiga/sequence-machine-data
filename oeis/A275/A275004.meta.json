@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = f_n(2), with f_0(x) = x+4, f_n+1(x) = (f_n)^x(x).",
+  "id": "A275004",
+  "mentions": [
+    "A154714",
+    "A275000",
+    "A275002",
+    "A275003",
+    "A275005",
+    "A275006",
+    "A275009"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

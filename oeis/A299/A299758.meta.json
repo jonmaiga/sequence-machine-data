@@ -1,0 +1,24 @@
+{
+  "description": "Largest FDH number of a strict integer partition of n.",
+  "id": "A299758",
+  "mentions": [
+    "A005518",
+    "A050376",
+    "A064547",
+    "A213925",
+    "A279065",
+    "A299755",
+    "A299757",
+    "A299759"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

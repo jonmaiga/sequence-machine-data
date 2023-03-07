@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of a constant related to the asymptotics of A004003.",
+  "id": "A340168",
+  "mentions": [
+    "A004003",
+    "A006752",
+    "A007341",
+    "A007726",
+    "A065072",
+    "A127605",
+    "A340052"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

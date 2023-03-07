@@ -1,0 +1,21 @@
+{
+  "description": "Least integer k such that k/Fibonacci(n) >= 3/4.",
+  "id": "A293632",
+  "mentions": [
+    "A000045",
+    "A293631",
+    "A293633"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:10",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

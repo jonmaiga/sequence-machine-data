@@ -1,0 +1,19 @@
+{
+  "description": "Convolution of A006068 (inverse of Gray code) with itself: a(n) = Sum_{k=1..n+1} A006068(k) * A006068(1+n-k).",
+  "id": "A268721",
+  "mentions": [
+    "A006068",
+    "A268724"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:28",
+    "offset": 0,
+    "size": 53,
+    "source": "joeis"
+  }
+}

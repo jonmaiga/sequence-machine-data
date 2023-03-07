@@ -1,0 +1,20 @@
+{
+  "description": "Self-inverse permutation of nonnegative integers: a(n) = A264979(8*n) / 8.",
+  "id": "A265338",
+  "mentions": [
+    "A264978",
+    "A264979"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:25",
+    "offset": 0,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

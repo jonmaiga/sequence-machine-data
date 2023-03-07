@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the smallest k >= 1 such that the expansion of the inverse of the k-th cyclotomic polynomial has n or -n as a coefficient, or -1 if no such k exists.",
+  "id": "A131672",
+  "mentions": [
+    "A013595",
+    "A262404",
+    "A262405",
+    "A306453",
+    "A333248"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:19",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

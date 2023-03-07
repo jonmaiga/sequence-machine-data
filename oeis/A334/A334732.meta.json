@@ -1,0 +1,29 @@
+{
+  "description": "a(n) is the total number of parts in all partitions of n into consecutive parts that differ by 5.",
+  "id": "A334732",
+  "mentions": [
+    "A000203",
+    "A000566",
+    "A066839",
+    "A204217",
+    "A330889",
+    "A334464",
+    "A334465",
+    "A334466",
+    "A334540",
+    "A334541",
+    "A334733",
+    "A334949"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:06",
+    "offset": 1,
+    "size": 93,
+    "source": "oeis-bfile"
+  }
+}

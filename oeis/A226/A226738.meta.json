@@ -1,0 +1,23 @@
+{
+  "description": "Row 3 of array in A226513.",
+  "id": "A226738",
+  "mentions": [
+    "A000670",
+    "A005649",
+    "A226513",
+    "A226515",
+    "A226739",
+    "A226740"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

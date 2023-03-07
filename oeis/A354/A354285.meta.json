@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that one of k, k+1, k+2 is prime and the other two are semiprimes, and one of R(n), R(n+1), R(n+2) is prime and the other two are semiprimes, where R = A004086.",
+  "id": "A354285",
+  "mentions": [
+    "A004086"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:29",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

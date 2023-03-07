@@ -1,0 +1,22 @@
+{
+  "description": "Numerator of moments of Chebyshev U- (or S-) polynomials.",
+  "id": "A134828",
+  "mentions": [
+    "A000108",
+    "A098597",
+    "A134829"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

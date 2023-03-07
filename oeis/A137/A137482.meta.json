@@ -1,0 +1,19 @@
+{
+  "description": "Number of permutations of n objects such that no two-element subset is preserved.",
+  "id": "A137482",
+  "mentions": [
+    "A000166",
+    "A000266"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:25",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

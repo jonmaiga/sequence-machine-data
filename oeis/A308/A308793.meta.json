@@ -1,0 +1,25 @@
+{
+  "description": "Primes p such that A001175(p) = (p-1)/8.",
+  "id": "A308793",
+  "mentions": [
+    "A001175",
+    "A003147",
+    "A308787",
+    "A308788",
+    "A308789",
+    "A308790",
+    "A308791",
+    "A308792",
+    "A308794"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

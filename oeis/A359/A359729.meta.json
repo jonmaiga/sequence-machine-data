@@ -1,0 +1,18 @@
+{
+  "description": "The number of Carmichael numbers smaller than the n-th Carmichael number which are quadratic residues of the n-th Carmichael number.",
+  "id": "A359729",
+  "mentions": [
+    "A002997",
+    "A317247"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 94,
+    "source": "oeis-entry"
+  }
+}

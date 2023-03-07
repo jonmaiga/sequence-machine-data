@@ -1,0 +1,20 @@
+{
+  "description": "Triangle generated from the g.f of A000712 (i.e., 1/(1-x^m)^2) interleaved with zeros.",
+  "id": "A175012",
+  "mentions": [
+    "A000712"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

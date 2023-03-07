@@ -1,0 +1,23 @@
+{
+  "description": "Gaussian column reduction of Hankel matrix for central Delannoy numbers.",
+  "id": "A118384",
+  "mentions": [
+    "A001850",
+    "A007318",
+    "A050151",
+    "A110171"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

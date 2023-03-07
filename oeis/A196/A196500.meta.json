@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the greatest x satisfying x=1/x+cot(1/x).",
+  "id": "A196500",
+  "mentions": [
+    "A196501",
+    "A196502",
+    "A196503",
+    "A196504"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:55",
+    "offset": 0,
+    "size": 104,
+    "source": "joeis"
+  }
+}

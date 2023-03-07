@@ -1,0 +1,18 @@
+{
+  "description": "Number of vertices of the master corner polyhedron on the cyclic group of order n + 1.",
+  "id": "A300795",
+  "mentions": [
+    "A203898"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

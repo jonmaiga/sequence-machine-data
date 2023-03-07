@@ -1,0 +1,21 @@
+{
+  "description": "Least common multiple of all cycle sizes in range [A014137(n-1)..A014138(n-1)] of permutation A125987/A125988.",
+  "id": "A126297",
+  "mentions": [
+    "A014137",
+    "A014138",
+    "A125987",
+    "A125988",
+    "A126293"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

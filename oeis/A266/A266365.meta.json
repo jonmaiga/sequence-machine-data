@@ -1,0 +1,18 @@
+{
+  "description": "Number of possible plugboard settings for a WWII German Enigma Cipher Machine with n cables.",
+  "id": "A266365",
+  "mentions": [
+    "A181386"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:03:23",
+    "offset": 0,
+    "size": 17,
+    "source": "joeis"
+  }
+}

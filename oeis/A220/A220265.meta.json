@@ -1,0 +1,22 @@
+{
+  "description": "Triangle where the g.f. of row n is: Sum_{k=0..n^2-n+1} T(n,k)*y^k = (2*(1+y)^n - 1) * ((1+y)^n - 1)^(n-1) / y^(n-1), as read by rows.",
+  "id": "A220265",
+  "mentions": [
+    "A000169",
+    "A099392",
+    "A220266",
+    "A220267"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:38",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

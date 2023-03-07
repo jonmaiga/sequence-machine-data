@@ -1,0 +1,22 @@
+{
+  "description": "G.f.: Sum_{n>=0} x^n * Sum_{k=0..n} C(n,k)^2 * x^(4*k).",
+  "id": "A246884",
+  "mentions": [
+    "A075778",
+    "A181665",
+    "A246840",
+    "A246883",
+    "A248193"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:03",
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

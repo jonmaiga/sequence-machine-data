@@ -1,0 +1,18 @@
+{
+  "description": "Smallest prime congruent to 1 (mod prime(n)) which is the norm of some principal ideal in the ring of prime(n)-th cyclotomic integers.",
+  "id": "A356467",
+  "mentions": [
+    "A035095"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 2,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

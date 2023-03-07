@@ -1,0 +1,17 @@
+{
+  "description": "Inverse of the permutation A355506 (a(n)+1 is at distance >= a(n) from a(n)).",
+  "id": "A353592",
+  "mentions": [
+    "A355506"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

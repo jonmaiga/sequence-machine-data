@@ -1,0 +1,17 @@
+{
+  "description": "Expansion of e.g.f. cos(arctanh(x)), even powers only.",
+  "id": "A102059",
+  "mentions": [
+    "A002019"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:53",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

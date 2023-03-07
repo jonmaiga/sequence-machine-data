@@ -1,0 +1,22 @@
+{
+  "description": "Discriminant of minimal polynomial of 2*cos(Pi/n) (see A187360).",
+  "id": "A193681",
+  "mentions": [
+    "A055034",
+    "A127670",
+    "A187360",
+    "A193678"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

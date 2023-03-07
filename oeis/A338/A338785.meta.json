@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the least number k such that continued fraction for sqrt(prime(k)) has period n.",
+  "id": "A338785",
+  "mentions": [
+    "A000720",
+    "A013646",
+    "A054269",
+    "A059800"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:10",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

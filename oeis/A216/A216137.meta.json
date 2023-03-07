@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = conjectured number of integers k such that n^k has no two consecutive identical digits.",
+  "id": "A216137",
+  "mentions": [
+    "A216063",
+    "A216064",
+    "A216065"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:34",
+    "offset": 2,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

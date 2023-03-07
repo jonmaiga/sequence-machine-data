@@ -1,0 +1,17 @@
+{
+  "description": "Least number that is the arithmetic mean of n (but no fewer) consecutive primes.",
+  "id": "A122808",
+  "mentions": [
+    "A122807"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

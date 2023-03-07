@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = Product_{d|n, d>1, d = x^(2k) for some maximal k} prime(k).",
+  "id": "A294874",
+  "mentions": [
+    "A000040",
+    "A001222",
+    "A046951",
+    "A052409",
+    "A071325",
+    "A293524",
+    "A294873",
+    "A294875"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:13",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

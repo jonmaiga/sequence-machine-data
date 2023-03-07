@@ -1,0 +1,17 @@
+{
+  "description": "Number of 7Xn arrays containing n copies of 0..7-1 with every element equal to or 1 greater than any west or northeast neighbors modulo 7 and the upper left element equal to 0.",
+  "id": "A267746",
+  "mentions": [
+    "A267742"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Third diagonal (M=3) sequence of triangle A113647, called Y(2,1).",
+  "id": "A115150",
+  "mentions": [
+    "A000108",
+    "A113647",
+    "A115138"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:05",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Numbers having in decimal representation the same final digit as their largest proper divisor has; a(1) = 1.",
+  "id": "A105179",
+  "mentions": [
+    "A008602",
+    "A010879",
+    "A030430",
+    "A032742"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:56",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

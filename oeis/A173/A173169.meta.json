@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of the solution x to x^x = A, the Glaisher-Kinkelin constant (A074962).",
+  "id": "A173169",
+  "mentions": [
+    "A030437",
+    "A030797",
+    "A030798",
+    "A074962",
+    "A090625",
+    "A133930",
+    "A173158",
+    "A173166"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

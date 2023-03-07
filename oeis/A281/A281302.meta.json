@@ -1,0 +1,21 @@
+{
+  "description": "Largest nonnegative k such that binomial(2*c-1, c-1) == 1 (mod c^k), where c is the n-th composite number.",
+  "id": "A281302",
+  "mentions": [
+    "A002808",
+    "A168363",
+    "A228562",
+    "A244919",
+    "A267824"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:50",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

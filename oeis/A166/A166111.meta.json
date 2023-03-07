@@ -1,0 +1,20 @@
+{
+  "description": "A positive integer n is included if the longest contiguous run of similar digits in binary n is of 1's.",
+  "id": "A166111",
+  "mentions": [
+    "A043276",
+    "A090050",
+    "A166110"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

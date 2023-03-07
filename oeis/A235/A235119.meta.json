@@ -1,0 +1,18 @@
+{
+  "description": "Prime numbers whose central digit equals the sum of the other digits.",
+  "id": "A235119",
+  "mentions": [
+    "A000040"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:52",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

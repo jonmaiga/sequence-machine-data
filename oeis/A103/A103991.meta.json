@@ -1,0 +1,22 @@
+{
+  "description": "Reduced denominators of the hypercube line-picking integrand sqrt(Pi)*I(n,0).",
+  "id": "A103991",
+  "mentions": [
+    "A016945",
+    "A016969",
+    "A103990"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "frac",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

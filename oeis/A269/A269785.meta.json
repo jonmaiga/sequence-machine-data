@@ -1,0 +1,20 @@
+{
+  "description": "Primes p such that 2*p + 23 is a square.",
+  "id": "A269785",
+  "mentions": [
+    "A000040",
+    "A002144",
+    "A045433",
+    "A269784"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

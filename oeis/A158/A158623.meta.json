@@ -1,0 +1,27 @@
+{
+  "description": "Denominator of the reduced fraction A158620(n)/A158621(n).",
+  "id": "A158623",
+  "mentions": [
+    "A001093",
+    "A016921",
+    "A060544",
+    "A068601",
+    "A081266",
+    "A152996",
+    "A158620",
+    "A158621",
+    "A158622"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 2,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

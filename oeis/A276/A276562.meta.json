@@ -1,0 +1,32 @@
+{
+  "description": "Array read by antidiagonals: T(m,n) = number of m-ary words of length n with cyclically adjacent elements differing by 1 or less.",
+  "id": "A276562",
+  "mentions": [
+    "A124696",
+    "A124719",
+    "A124726",
+    "A124783",
+    "A124784",
+    "A124799",
+    "A124803",
+    "A124804",
+    "A188866",
+    "A208721",
+    "A208777",
+    "A220062",
+    "A285280",
+    "A285281"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

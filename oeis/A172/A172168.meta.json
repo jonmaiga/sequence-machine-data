@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of Sum 1/q, where q is any prime of the form m^2 + 1.",
+  "id": "A172168",
+  "mentions": [
+    "A002496",
+    "A005597",
+    "A083844"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "cons",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

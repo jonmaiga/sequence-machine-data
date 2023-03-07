@@ -1,0 +1,19 @@
+{
+  "description": "Rectangular array: (row n) = b**c, where b(h) = h, c(h) = binomial(2*n-4+2*h,n-2+h), n>=1, h>=1, and ** = convolution.",
+  "id": "A213853",
+  "mentions": [
+    "A213500"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-02 14:53:00",
+    "offset": 1,
+    "size": 41,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Irregular triangle read by rows: T(n, k) = gcd(A333850(n, k), 2*A333855(n)), for n >= 1, and k = 1,2, ..., A135303(A333855(n)).",
+  "id": "A333851",
+  "mentions": [
+    "A003558",
+    "A135303",
+    "A333848",
+    "A333850",
+    "A333854",
+    "A333855"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

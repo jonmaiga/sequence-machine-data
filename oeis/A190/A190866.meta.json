@@ -1,0 +1,19 @@
+{
+  "description": "Let E(n) be the average number of steps required for the addition of two binary numbers of length n; sequence gives a(n) = 2^(2n-1)*E(n).",
+  "id": "A190866",
+  "mentions": [
+    "A190868"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

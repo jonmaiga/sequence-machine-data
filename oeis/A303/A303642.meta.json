@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of lattice points in Cartesian grid between circle of radius n and its inscribed square. The sides of the square are parallel to coordinate axes.",
+  "id": "A303642",
+  "mentions": [
+    "A302829",
+    "A303644",
+    "A303646"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

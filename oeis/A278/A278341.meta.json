@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the number of decompositions of n into unordered form p + c*q, where p, q are terms of A274987 and the difference of trits for p and q is no more than 1, c=1 for even n-s and c=2 for odd n-s.",
+  "id": "A278341",
+  "mentions": [
+    "A274987",
+    "A276520",
+    "A278342"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

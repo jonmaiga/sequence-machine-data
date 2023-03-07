@@ -1,0 +1,23 @@
+{
+  "description": "Number of inequivalent ways of placing 2 nonattacking rooks on n X n board up to rotations and reflections of the board.",
+  "id": "A307304",
+  "mentions": [
+    "A000903",
+    "A035287",
+    "A144084",
+    "A163102",
+    "A179058"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:38:55",
+    "offset": 1,
+    "size": 42,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "EKG sequence A064413 without triples of successive 2*prime(k), prime(k), 3*prime(k).",
+  "id": "A186118",
+  "mentions": [
+    "A064413"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

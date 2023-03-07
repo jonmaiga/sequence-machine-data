@@ -1,0 +1,27 @@
+{
+  "description": "Irregular triangle T read by rows: row n gives the values determining the zeros of the minimal polynomial ps(n, x) of 2*sin(Pi/n) (coefficients in A228786), for n >= 1.",
+  "id": "A327921",
+  "mentions": [
+    "A001622",
+    "A049310",
+    "A055035",
+    "A093819",
+    "A127672",
+    "A178182",
+    "A187360",
+    "A228786"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-entry"
+  }
+}

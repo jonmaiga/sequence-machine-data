@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = (n+1)*A000521(n)/24.",
+  "id": "A161395",
+  "mentions": [
+    "A000521"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:43",
+    "offset": -1,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

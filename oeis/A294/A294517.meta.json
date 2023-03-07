@@ -1,0 +1,21 @@
+{
+  "description": "Denominators of the partial sums of the reciprocals of (k+1)*(4*k+3) = A033991(k+1), for k >= 0.",
+  "id": "A294517",
+  "mentions": [
+    "A033991",
+    "A294516"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

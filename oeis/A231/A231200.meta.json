@@ -1,0 +1,21 @@
+{
+  "description": "Boustrophedon transform of even numbers.",
+  "id": "A231200",
+  "mentions": [
+    "A000754",
+    "A005843",
+    "A109449",
+    "A231179"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:49",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

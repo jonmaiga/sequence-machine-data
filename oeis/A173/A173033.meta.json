@@ -1,0 +1,21 @@
+{
+  "description": "Second diagonal under the main diagonal in A172119 written in a square (see comment).",
+  "id": "A173033",
+  "mentions": [
+    "A028399",
+    "A172119",
+    "A240951"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:57",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = n - A308135(n), where A308135(n) is the sum of non-coreful divisors of n.",
+  "id": "A336564",
+  "mentions": [
+    "A000203",
+    "A007947",
+    "A033879",
+    "A057723",
+    "A308135",
+    "A336563",
+    "A336565",
+    "A336566"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:08",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n for which sum_{i=1..k} (1+1/p_i) + product_{i=1..k} (1+1/p_i) is an integer, where p_i are the k prime factors of n (with multiplicity).",
+  "id": "A199767",
+  "mentions": [
+    "A003415",
+    "A003958",
+    "A007850",
+    "A198391"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

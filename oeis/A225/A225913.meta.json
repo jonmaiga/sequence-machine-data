@@ -1,0 +1,19 @@
+{
+  "description": "Composite numbers coprime to 6 such that A179382(n) = A000265(n-1), the odd part of n-1.",
+  "id": "A225913",
+  "mentions": [
+    "A000265",
+    "A179382",
+    "A225759"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

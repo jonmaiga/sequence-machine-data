@@ -1,0 +1,22 @@
+{
+  "description": "a(0) = ... = a(4) = 1; a(n) = Sum_{k=1..n-5} a(k) * a(n-k-5).",
+  "id": "A346049",
+  "mentions": [
+    "A025250",
+    "A307972",
+    "A343305",
+    "A346047",
+    "A346048"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:19",
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "T(n,m) = semistandard Young tableau families, headed by a father SSYT with shape a partition of k, containing daughter SSYT of shape equal to once-trimmed father's shape, so that union of families equals all SSYT with sum of entries n.",
+  "id": "A228128",
+  "mentions": [
+    "A005986",
+    "A228125",
+    "A228129"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-entry"
+  }
+}

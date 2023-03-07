@@ -1,0 +1,22 @@
+{
+  "description": "Rectangular array a(n,k) read by upwards antidiagonals: row A(n) is the result of applying the function defined in A098550 to the set comprising row n of A253572, for n >= 2.",
+  "id": "A253573",
+  "mentions": [
+    "A000040",
+    "A098550",
+    "A251239",
+    "A253572",
+    "A253752"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 2,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

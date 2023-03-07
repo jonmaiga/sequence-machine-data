@@ -1,0 +1,23 @@
+{
+  "description": "Weight distribution of [12,6,6]_3 ternary extended Golay code.",
+  "id": "A105683",
+  "mentions": [
+    "A001380",
+    "A002289",
+    "A105676",
+    "A105684",
+    "A109141"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

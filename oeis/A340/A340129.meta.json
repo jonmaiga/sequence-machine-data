@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of solutions of the Diophantine equation x^2 + y^2 = z^5 + z, gcd(x, y, z) = 1, x <= y, where z = A008784(n).",
+  "id": "A340129",
+  "mentions": [
+    "A008784",
+    "A048147",
+    "A131471"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:12",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

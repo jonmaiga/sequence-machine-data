@@ -1,0 +1,27 @@
+{
+  "description": "a(n) is the sum of noninfinitary divisors of n.",
+  "id": "A348271",
+  "mentions": [
+    "A000203",
+    "A034448",
+    "A036537",
+    "A048146",
+    "A049417",
+    "A051377",
+    "A077609",
+    "A162643",
+    "A188999",
+    "A327633"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:22",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "G.f.: Sum_{n>=0} a(n)*x^n/(n!*4^(n*(n-1)/2)) = log( Sum_{n>=0} x^n/(n!*4^(n*(n-1)/2)) ).",
+  "id": "A355071",
+  "mentions": [
+    "A134531",
+    "A137435",
+    "A355070",
+    "A355074"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

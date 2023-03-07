@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = phi(n)^2 * d(n) = A000010(n)^2 * A000005(n).",
+  "id": "A126775",
+  "mentions": [
+    "A000005",
+    "A000010",
+    "A064840",
+    "A127473"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 17:33:23",
+    "offset": 1,
+    "size": 50,
+    "source": "joeis"
+  }
+}

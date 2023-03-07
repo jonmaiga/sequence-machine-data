@@ -1,0 +1,21 @@
+{
+  "description": "Add and Reverse: a(n) = the reversal of (a(n-1)+d), case a(1)=1 and d=4.",
+  "id": "A119031",
+  "mentions": [
+    "A003608",
+    "A016081",
+    "A016082",
+    "A055198"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:08",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

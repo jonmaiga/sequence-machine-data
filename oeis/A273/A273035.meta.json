@@ -1,0 +1,22 @@
+{
+  "description": "The E_7-Eulerian numbers.",
+  "id": "A273035",
+  "mentions": [
+    "A008292",
+    "A060187",
+    "A066094",
+    "A273000"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

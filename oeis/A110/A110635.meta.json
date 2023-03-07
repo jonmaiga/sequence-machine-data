@@ -1,0 +1,20 @@
+{
+  "description": "Every 7th term of A083947 such that the self-convolution 7th power is congruent modulo 49 to A083947, which consists entirely of numbers 1 through 7.",
+  "id": "A110635",
+  "mentions": [
+    "A083947",
+    "A084207",
+    "A111584"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

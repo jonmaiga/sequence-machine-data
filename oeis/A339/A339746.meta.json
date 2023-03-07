@@ -1,0 +1,26 @@
+{
+  "description": "Positive integers of the form 2^i*3^j*k, gcd(k,6)=1, and i == j (mod 3).",
+  "id": "A339746",
+  "mentions": [
+    "A003159",
+    "A007310",
+    "A007417",
+    "A036668",
+    "A064615",
+    "A191257",
+    "A215848",
+    "A332820",
+    "A339690"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:12",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

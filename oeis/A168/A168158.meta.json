@@ -1,0 +1,18 @@
+{
+  "description": "Indices n for which A168157(n) is prime.",
+  "id": "A168158",
+  "mentions": [
+    "A158671",
+    "A168157"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

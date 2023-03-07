@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of 00-avoiding binary words of length n having degree of asymmetry equal to k (n>=0; 0<=k<=floor(n/2)).",
+  "id": "A275435",
+  "mentions": [
+    "A000045",
+    "A053602",
+    "A275436"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

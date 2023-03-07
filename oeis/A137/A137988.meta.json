@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of the number whose Pierce expansion has the sequence of double factorial numbers (A000165) as coefficients.",
+  "id": "A137988",
+  "mentions": [
+    "A000142",
+    "A000165",
+    "A137986",
+    "A137987",
+    "A137989"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:26",
+    "offset": 0,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of unitary polyominoes without holes with n cells. A unitary polyomino is a polyomino whose edges all have length 1.",
+  "id": "A245660",
+  "mentions": [
+    "A245620"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Triangle read by rows, matrix inverse of A139382.",
+  "id": "A342186",
+  "mentions": [
+    "A000295",
+    "A005329",
+    "A006125",
+    "A008275",
+    "A139382",
+    "A203011",
+    "A203242",
+    "A333142",
+    "A333143"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-22 20:28:47",
+    "offset": 1,
+    "size": 36,
+    "source": "joeis"
+  }
+}

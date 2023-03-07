@@ -1,0 +1,36 @@
+{
+  "description": "Numbers k such that sigma(k) is either their sibling in Doudna tree (A005940), or one of the sibling's descendants.",
+  "id": "A347391",
+  "mentions": [
+    "A000203",
+    "A003961",
+    "A005820",
+    "A005940",
+    "A027687",
+    "A064989",
+    "A068403",
+    "A074388",
+    "A097023",
+    "A159907",
+    "A252463",
+    "A292583",
+    "A323653",
+    "A336702",
+    "A347381",
+    "A347383",
+    "A347390",
+    "A347392"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Lesser of two consecutive primes, p < q, such that p*q + p - q and p*q - p + q are also consecutive primes.",
+  "id": "A225726",
+  "mentions": [
+    "A154553"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

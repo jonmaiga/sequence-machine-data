@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{k=1..n} k^n * sigma_0(k).",
+  "id": "A356239",
+  "mentions": [
+    "A000005",
+    "A319194",
+    "A356129",
+    "A356243"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

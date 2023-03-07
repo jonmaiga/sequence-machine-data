@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that n appears in the sequence beginning with the digit-sum of n and extended by adding successive digit-sums.",
+  "id": "A243021",
+  "mentions": [
+    "A007629",
+    "A243140"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

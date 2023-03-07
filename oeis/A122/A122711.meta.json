@@ -1,0 +1,21 @@
+{
+  "description": "Even numbers n such that n+2 divides n+2^n.",
+  "id": "A122711",
+  "mentions": [
+    "A002326",
+    "A015922",
+    "A081765",
+    "A122042",
+    "A130134"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:11",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

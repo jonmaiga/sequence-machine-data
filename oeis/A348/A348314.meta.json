@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = n! * Sum_{k=0..n-1} 4^k / k!.",
+  "id": "A348314",
+  "mentions": [
+    "A007526",
+    "A053487",
+    "A066534",
+    "A348312"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

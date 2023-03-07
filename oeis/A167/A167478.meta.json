@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of (1-2x+6x^2-x^3)/(1-3x+x^2)^2.",
+  "id": "A167478",
+  "mentions": [
+    "A054109"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:51",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

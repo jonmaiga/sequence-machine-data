@@ -1,0 +1,30 @@
+{
+  "description": "a(n) is the smallest nonnegative integer such that a(n)! contains a string of exactly n consecutive 0's.",
+  "id": "A255400",
+  "mentions": [
+    "A000966",
+    "A027868",
+    "A252652",
+    "A254042",
+    "A254447",
+    "A254448",
+    "A254449",
+    "A254500",
+    "A254501",
+    "A254502",
+    "A254716",
+    "A254717"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

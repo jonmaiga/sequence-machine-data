@@ -1,0 +1,18 @@
+{
+  "description": "Highly composite numbers of the 3rd order: numbers k with d_3(k) > d_3(j) for all j < k, where d_3(k) is the 3rd Piltz function, the number of ways of decomposing k into 3 factors (A007425).",
+  "id": "A308912",
+  "mentions": [
+    "A002182",
+    "A007425"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:33",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "Take a prime, convert it to base 2, remove its most significant digit and its least significant digit and convert it back to base 10. Sequence lists primes that generate another prime by this process.",
+  "id": "A296806",
+  "mentions": [
+    "A000030",
+    "A000225",
+    "A001348",
+    "A004676",
+    "A010879",
+    "A057195",
+    "A057196",
+    "A059242",
+    "A123250",
+    "A296807"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:16",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

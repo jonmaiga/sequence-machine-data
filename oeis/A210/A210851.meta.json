@@ -1,0 +1,25 @@
+{
+  "description": "Digits of one of the two 5-adic integers sqrt(-1).",
+  "id": "A210851",
+  "mentions": [
+    "A048898",
+    "A048899",
+    "A114525",
+    "A210848",
+    "A210849",
+    "A210850"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:29",
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

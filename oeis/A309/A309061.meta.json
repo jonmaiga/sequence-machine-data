@@ -1,0 +1,20 @@
+{
+  "description": "Rank of elliptic curve y^2 = x^3 + n^2 * x.",
+  "id": "A309061",
+  "mentions": [
+    "A060953",
+    "A309060",
+    "A319510"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 97,
+    "source": "oeis-entry"
+  }
+}

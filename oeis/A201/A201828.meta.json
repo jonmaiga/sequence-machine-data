@@ -1,0 +1,19 @@
+{
+  "description": "The smallest A(m) such that the interval (A(m)*n, A(m+1)*n) contains exactly one element of A, where A is the sequence of primes p for which p-2 is not prime.",
+  "id": "A201828",
+  "mentions": [
+    "A023200",
+    "A025584",
+    "A195871"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 2,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = sum_{i=1..n} C(7+i,8)^2.",
+  "id": "A234253",
+  "mentions": [
+    "A086023",
+    "A086025",
+    "A086027",
+    "A086029",
+    "A087127"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:18:43",
+    "offset": 1,
+    "size": 22,
+    "source": "joeis"
+  }
+}

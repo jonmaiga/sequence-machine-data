@@ -1,0 +1,21 @@
+{
+  "description": "A000225 interleaved with A000051.",
+  "id": "A140407",
+  "mentions": [
+    "A000051",
+    "A000079",
+    "A000225",
+    "A135530"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:28",
+    "offset": 0,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

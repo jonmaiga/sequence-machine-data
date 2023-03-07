@@ -1,0 +1,17 @@
+{
+  "description": "Sum( d | n, sp(d)), where sp(d) = A034387(d) = sum of primes <= d.",
+  "id": "A156779",
+  "mentions": [
+    "A034387"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

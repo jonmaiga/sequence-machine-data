@@ -1,0 +1,27 @@
+{
+  "description": "Concatenation chain arising in A156069.",
+  "id": "A156071",
+  "mentions": [
+    "A010784",
+    "A030299",
+    "A050289",
+    "A143671",
+    "A144688",
+    "A156069",
+    "A158242",
+    "A163574"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

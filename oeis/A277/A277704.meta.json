@@ -1,0 +1,24 @@
+{
+  "description": "Positions of squares in A277699.",
+  "id": "A277704",
+  "mentions": [
+    "A010052",
+    "A023758",
+    "A065621",
+    "A077436",
+    "A114391",
+    "A277699",
+    "A277706",
+    "A277807"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:43",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Smaller member p of a pair (p,p+6) of consecutive primes in different centuries.",
+  "id": "A160370",
+  "mentions": [
+    "A023201",
+    "A031924",
+    "A031925",
+    "A046117",
+    "A158277"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:42",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

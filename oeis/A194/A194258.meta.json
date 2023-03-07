@@ -1,0 +1,22 @@
+{
+  "description": "Second inverse function (numbers of columns) for pairing function A060734.",
+  "id": "A194258",
+  "mentions": [
+    "A060734",
+    "A060736",
+    "A220603",
+    "A220604"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

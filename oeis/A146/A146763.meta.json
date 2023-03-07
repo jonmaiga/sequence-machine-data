@@ -1,0 +1,22 @@
+{
+  "description": "Rank of terms ending in 0 in A061039.",
+  "id": "A146763",
+  "mentions": [
+    "A020714",
+    "A030308",
+    "A061039"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:30:05",
+    "offset": 0,
+    "size": 56,
+    "source": "joeis"
+  }
+}

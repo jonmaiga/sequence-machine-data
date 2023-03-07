@@ -1,0 +1,19 @@
+{
+  "description": "Values of A109941 (the sum of all n-digit multiples of n) that do not contain a zero-digit.",
+  "id": "A110479",
+  "mentions": [
+    "A109941",
+    "A110478"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

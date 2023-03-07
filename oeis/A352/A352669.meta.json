@@ -1,0 +1,26 @@
+{
+  "description": "Maximum number of induced cycles in an n-node graph.",
+  "id": "A352669",
+  "mentions": [
+    "A000292",
+    "A028723",
+    "A111384",
+    "A276401",
+    "A352665",
+    "A352666",
+    "A352667",
+    "A352668"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

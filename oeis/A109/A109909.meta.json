@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = number of primes of the form k*(n-k)-1.",
+  "id": "A109909",
+  "mentions": [
+    "A026728",
+    "A109904",
+    "A109905",
+    "A109907",
+    "A109908"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 93,
+    "source": "oeis-entry"
+  }
+}

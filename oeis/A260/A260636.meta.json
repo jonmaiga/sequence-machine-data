@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = binomial(3n, n) mod n.",
+  "id": "A260636",
+  "mentions": [
+    "A014847",
+    "A059288",
+    "A080469",
+    "A109641",
+    "A109642",
+    "A260640"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:19",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

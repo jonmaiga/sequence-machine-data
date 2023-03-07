@@ -1,0 +1,30 @@
+{
+  "description": "Composite numbers n = p_i * p_j * p_k * ... * p_u, p_i <= p_j <= p_k <= ... <= p_u, where each successive prime factor (when sorted into a nondecreasing order) is greater than the square of the previous: (p_i)^2 < p_j, (p_j)^2 < p_k, etc.",
+  "id": "A253569",
+  "mentions": [
+    "A000290",
+    "A001222",
+    "A002808",
+    "A005117",
+    "A014673",
+    "A020639",
+    "A032742",
+    "A054576",
+    "A088381",
+    "A138511",
+    "A245729",
+    "A251727",
+    "A253567",
+    "A253785"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:12",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

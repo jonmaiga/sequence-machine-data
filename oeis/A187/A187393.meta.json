@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = floor(r*n), where r = 4 + sqrt(8); complement of A187394.",
+  "id": "A187393",
+  "mentions": [
+    "A001952",
+    "A115004",
+    "A187394"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:15:03",
+    "offset": 1,
+    "size": 70,
+    "source": "joeis"
+  }
+}

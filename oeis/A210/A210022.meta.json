@@ -1,0 +1,21 @@
+{
+  "description": "List of successive digits in A210023.",
+  "id": "A210022",
+  "mentions": [
+    "A210023",
+    "A210025",
+    "A210026"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 199,
+    "source": "oeis-entry"
+  }
+}

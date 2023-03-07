@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that 5*10^n + 9 is prime.",
+  "id": "A103004",
+  "mentions": [
+    "A101569"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Pendular trinomial triangle, read by rows of 2n+1 terms (n>=0), defined by the recurrence: if 0 < k < n, T(n,k) = T(n-1,k) + T(n,2n-1-k); otherwise, if n-1 < k < 2n-1, T(n,k) = T(n-1,k) + T(n,2n-2-k); with T(n,0)=T(n+1,2n)=1 and T(n+1,2n+1)=T(n+1,2n+2)=0.",
+  "id": "A119369",
+  "mentions": [
+    "A118340",
+    "A118345",
+    "A118350",
+    "A119370",
+    "A119371",
+    "A119372",
+    "A119373",
+    "A119374",
+    "A119375",
+    "A119376"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:08",
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

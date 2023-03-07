@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = (1/24)*n*((4*n + 3)*(2*n^2 + 1) - 3*(-1)^n).",
+  "id": "A325656",
+  "mentions": [
+    "A173722",
+    "A317614",
+    "A322277",
+    "A325655"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:52",
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

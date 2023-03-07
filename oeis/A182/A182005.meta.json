@@ -1,0 +1,21 @@
+{
+  "description": "Let s(n) = s_3(n) be digit sum of n in base 3. Consider iterations: a_1(n) = s(2^n), a_2(n) = s(2^n+a_1(n)),a_3(n)=s(2^n+a_2(n)),...The sequence lists those n for which these iterations are (eventually) periodic with period > 1.",
+  "id": "A182005",
+  "mentions": [
+    "A000079",
+    "A053735",
+    "A169655"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

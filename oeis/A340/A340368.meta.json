@@ -1,0 +1,22 @@
+{
+  "description": "Multiplicative with a(p^e) = (p - 1) * (p + 1)^(e-1).",
+  "id": "A340368",
+  "mentions": [
+    "A167344",
+    "A173557",
+    "A327564",
+    "A340323"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:13",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

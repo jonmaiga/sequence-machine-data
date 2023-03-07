@@ -1,0 +1,18 @@
+{
+  "description": "Number of length 5+3 0..n arrays with no pair in any consecutive four terms totalling exactly n",
+  "id": "A246484",
+  "mentions": [
+    "A246479"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:02",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

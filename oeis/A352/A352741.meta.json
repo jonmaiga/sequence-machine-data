@@ -1,0 +1,20 @@
+{
+  "description": "Numbers on the Spiral of Theodorus that come closer to the x-axis than their neighbors; a(0) = 0 and a(1) = 1.",
+  "id": "A352741",
+  "mentions": [
+    "A072895",
+    "A105459",
+    "A137515"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

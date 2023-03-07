@@ -1,0 +1,20 @@
+{
+  "description": "Numbers that are the sum of an even square s and an odd square t such that 0 < s < t.",
+  "id": "A339956",
+  "mentions": [
+    "A000404",
+    "A010052",
+    "A057653",
+    "A097269"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

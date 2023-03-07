@@ -1,0 +1,29 @@
+{
+  "description": "Number of ways to write n as an ordered sum of 7 squarefree numbers.",
+  "id": "A341067",
+  "mentions": [
+    "A005117",
+    "A008683",
+    "A008966",
+    "A098235",
+    "A280210",
+    "A308952",
+    "A341064",
+    "A341065",
+    "A341066",
+    "A341068",
+    "A341069",
+    "A341070"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:13",
+    "offset": 7,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

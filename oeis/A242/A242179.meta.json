@@ -1,0 +1,26 @@
+{
+  "description": "T(0,0) = 1, T(n+1,2*k) = - T(n,k), T(n+1,2*k+1) = T(n,k), k=0..n, triangle read by rows.",
+  "id": "A242179",
+  "mentions": [
+    "A000007",
+    "A027642",
+    "A059448",
+    "A060054",
+    "A075180",
+    "A106831",
+    "A164555",
+    "A298952"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "frac",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 0,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

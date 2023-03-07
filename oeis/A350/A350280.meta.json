@@ -1,0 +1,18 @@
+{
+  "description": "Number of bracelets describing topological configurations of points and lines formed by the perpendicular bisectors of the sides of a convex cyclic n-gon.",
+  "id": "A350280",
+  "mentions": [
+    "A028243"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:24",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

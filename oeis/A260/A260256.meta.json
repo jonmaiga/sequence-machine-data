@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that tau(n + 2) = tau(n - 2) where tau(k) = A000005(k).",
+  "id": "A260256",
+  "mentions": [
+    "A000005",
+    "A067888",
+    "A067889"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:18",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = [x^(n^3)] Product_{k=1..n} Sum_{m>=0} x^(k*m^2).",
+  "id": "A321238",
+  "mentions": [
+    "A300446",
+    "A321139",
+    "A321239"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

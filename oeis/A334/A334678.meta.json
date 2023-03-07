@@ -1,0 +1,19 @@
+{
+  "description": "Largest possible hypotenuse of a Pythagorean triangle with perimeter A010814(n).",
+  "id": "A334678",
+  "mentions": [
+    "A005044",
+    "A010814",
+    "A334607"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

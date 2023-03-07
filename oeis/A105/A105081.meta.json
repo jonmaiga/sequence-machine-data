@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = 1 + A003188(n - 1), n >= 1.",
+  "id": "A105081",
+  "mentions": [
+    "A000069",
+    "A003188",
+    "A065621",
+    "A066194",
+    "A268718"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:56",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of 1/(1 - x^3 - x^4 - x^5 - x^6 + x^9).",
+  "id": "A225484",
+  "mentions": [
+    "A107293",
+    "A117791",
+    "A204631",
+    "A225391",
+    "A225482"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 0,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

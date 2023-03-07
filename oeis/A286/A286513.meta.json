@@ -1,0 +1,31 @@
+{
+  "description": "Array read by antidiagonals: T(m,n) = number of independent sets in the cylinder graph C_m X P_n.",
+  "id": "A286513",
+  "mentions": [
+    "A000032",
+    "A003688",
+    "A027683",
+    "A050400",
+    "A050401",
+    "A051926",
+    "A051927",
+    "A089934",
+    "A181961",
+    "A181989",
+    "A182014",
+    "A182019",
+    "A212270",
+    "A286514"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:58",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Integer a(n) produces the least nonnegative integer coefficient of x^n in the n-th iteration of g.f. A(x).",
+  "id": "A119817",
+  "mentions": [
+    "A112317",
+    "A119815",
+    "A119818"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

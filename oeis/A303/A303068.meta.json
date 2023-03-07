@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k that are multiples of the digital sum of k-1, k and k+1.",
+  "id": "A303068",
+  "mentions": [
+    "A005349",
+    "A160947",
+    "A160948"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:27",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Antidiagonal sums of number triangle A154957 regarded as a lower triangular infinite matrix.",
+  "id": "A154958",
+  "mentions": [
+    "A002264",
+    "A004523",
+    "A026741",
+    "A029578",
+    "A065423",
+    "A154957"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:37",
+    "offset": 0,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of (1/4)^(4/9)^...^(n^2/(n+1)^2)^... .",
+  "id": "A341324",
+  "mentions": [
+    "A242759",
+    "A242760",
+    "A341325"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-entry"
+  }
+}

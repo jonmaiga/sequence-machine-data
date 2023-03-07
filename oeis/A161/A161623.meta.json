@@ -1,0 +1,19 @@
+{
+  "description": "Greatest k for which the Andrica-like conjectural inequalities, prime(k+1)-prime(k)-(1/n)*sqrt(prime(k)) < 0, appear to fail, based on empirical evidence.",
+  "id": "A161623",
+  "mentions": [
+    "A084976"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

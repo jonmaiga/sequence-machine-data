@@ -1,0 +1,21 @@
+{
+  "description": "The number of unigraphical partitions of 2m; that is, the number of partitions of 2m which are realizable as the degree sequence of one and only one graph (where loops are not allowed but multiple edges are allowed).",
+  "id": "A143981",
+  "mentions": [
+    "A000005",
+    "A000041",
+    "A001399",
+    "A083039"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

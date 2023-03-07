@@ -1,0 +1,21 @@
+{
+  "description": "Largest prime that can be obtained from n by successively appending digits to the right with the constraint that each of the numbers obtained that way must be prime; a(n)=0 if there is no such prime at all.",
+  "id": "A232129",
+  "mentions": [
+    "A232125",
+    "A232126",
+    "A232127",
+    "A232128"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:50",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "The change in Y-coordinate when moving from the n-1:th to the n-th point in the Peano curve A163334.",
+  "id": "A163533",
+  "mentions": [
+    "A163334",
+    "A163529",
+    "A163532",
+    "A163534",
+    "A163536"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:45",
+    "offset": 0,
+    "size": 98,
+    "source": "oeis-bfile"
+  }
+}

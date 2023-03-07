@@ -1,0 +1,26 @@
+{
+  "description": "Square array A(row,col) read by antidiagonals: A(1,col) = A045765(col); for row > 1, if A(row-1,col) = 0 then A(row,col) = 0, otherwise A(row,col) = A049820(A(row-1,col)).",
+  "id": "A262898",
+  "mentions": [
+    "A002260",
+    "A004736",
+    "A045765",
+    "A049820",
+    "A257264",
+    "A259934",
+    "A262899",
+    "A262902"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:22",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

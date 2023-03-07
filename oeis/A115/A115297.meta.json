@@ -1,0 +1,24 @@
+{
+  "description": "Treillis triangle: a triangle read by rows showing the coefficients of sum formulas of Treillis numbers (A115298). The k-th row (k>=1) contains a(n,k) for n=1 to (k+1)/2 (odd rows) and for n=1 to k/2 (even rows), where a(n,k) satisfies Sum_{n=1..[(k+1)/2_odd, k/2_even]} a(n,k). The last term of each row (and its only odd number) equals Prime(k+1)-2.",
+  "id": "A115297",
+  "mentions": [
+    "A000040",
+    "A000166",
+    "A008276",
+    "A115298"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 77,
+    "source": "oeis-entry"
+  }
+}

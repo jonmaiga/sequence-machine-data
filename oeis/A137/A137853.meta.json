@@ -1,0 +1,18 @@
+{
+  "description": "Triangle read by rows: row sums give natural numbers A000027.",
+  "id": "A137853",
+  "mentions": [
+    "A000027"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

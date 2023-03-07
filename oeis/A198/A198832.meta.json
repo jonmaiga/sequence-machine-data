@@ -1,0 +1,20 @@
+{
+  "description": "Values x for records of maxima of positive distance d between a cube of positive integer x and a square of integer y and such that d = x^3 - y^2.",
+  "id": "A198832",
+  "mentions": [
+    "A078933",
+    "A179107",
+    "A179108",
+    "A179109"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

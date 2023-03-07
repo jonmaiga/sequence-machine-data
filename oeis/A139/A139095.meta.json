@@ -1,0 +1,21 @@
+{
+  "description": "Fibonacci numbers whose sum of proper divisors is also a Fibonacci number.",
+  "id": "A139095",
+  "mentions": [
+    "A000045",
+    "A001065",
+    "A005478",
+    "A139589"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

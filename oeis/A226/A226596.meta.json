@@ -1,0 +1,21 @@
+{
+  "description": "Lengths of maximal non-crossing and non-overlapping increasing paths in n X n grids.",
+  "id": "A226596",
+  "mentions": [
+    "A160663",
+    "A226595"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

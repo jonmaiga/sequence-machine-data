@@ -1,0 +1,19 @@
+{
+  "description": "Lexicographically earliest sequence of distinct positive terms such that a(n) is present in 3*a(n+1).",
+  "id": "A338942",
+  "mentions": [
+    "A000351",
+    "A210013"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:11",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Consider a decimal number of k >= 2 digits m = d_(k)*10^(k-1) + d_(k-1)*10^(k-2) + ... + d_(2)*10 + d_(1). a(n) is the least number m such that the n-th iteration of the transform T(m) -> (d_(k) + d_(k-1) mod 10)*10^(k-1) + (d_(k-1) + d_(k-2) mod 10)*10^(k-2) + ... + (d_(2) + d_(1) mod 10)*10 + (d_(1) + d(k) mod 10) returns m, or -1 if no such number exists.",
+  "id": "A243993",
+  "mentions": [
+    "A243994"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "more",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "The number of labeled biconnected squaregraphs with perimeter 2*n.",
+  "id": "A194091",
+  "mentions": [
+    "A005700",
+    "A194088",
+    "A194089",
+    "A194090",
+    "A194092",
+    "A194093"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

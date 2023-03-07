@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of (1-4x)/(1-8x+11x^2).",
+  "id": "A108404",
+  "mentions": [
+    "A001077",
+    "A002163",
+    "A084057",
+    "A091870",
+    "A098648"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:00",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

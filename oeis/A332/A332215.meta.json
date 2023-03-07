@@ -1,0 +1,31 @@
+{
+  "description": "Mersenne-prime fixing variant of A243071: a(n) = A243071(A332213(n)).",
+  "id": "A332215",
+  "mentions": [
+    "A000043",
+    "A000225",
+    "A000396",
+    "A000668",
+    "A007814",
+    "A209229",
+    "A243071",
+    "A324200",
+    "A332210",
+    "A332213",
+    "A332214",
+    "A335431",
+    "A335879",
+    "A335882"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:01",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

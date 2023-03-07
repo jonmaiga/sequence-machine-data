@@ -1,0 +1,35 @@
+{
+  "description": "Square array T(n, k) read by antidiagonals, n > 0 and k > 0; for any prime number p, the p-adic valuation of T(n, k) is the product of the p-adic valuations of n and of k.",
+  "id": "A305720",
+  "mentions": [
+    "A003989",
+    "A003990",
+    "A003991",
+    "A006519",
+    "A007947",
+    "A038500",
+    "A054496",
+    "A059895",
+    "A059896",
+    "A059897",
+    "A060904",
+    "A065331",
+    "A089913",
+    "A132741",
+    "A268354",
+    "A268357"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

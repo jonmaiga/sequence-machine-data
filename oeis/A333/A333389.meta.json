@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of solutions to x^y == k (mod n) for n >= 1, k >= 0, where 0 <= x < n and 1 <= y <= n.",
+  "id": "A333389",
+  "mentions": [
+    "A333386",
+    "A333387",
+    "A333388"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "a(n) is the maximum binary weight of the squares of n-bit numbers.",
+  "id": "A357742",
+  "mentions": [
+    "A000290",
+    "A159918",
+    "A357304",
+    "A357658"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

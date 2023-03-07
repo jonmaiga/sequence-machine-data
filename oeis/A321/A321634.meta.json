@@ -1,0 +1,23 @@
+{
+  "description": "Number of arrangements of n 1's, n 2's, ..., n n's avoiding equal consecutive terms.",
+  "id": "A321634",
+  "mentions": [
+    "A000142",
+    "A110706",
+    "A114938",
+    "A193638",
+    "A321633",
+    "A321666"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:44",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-bfile"
+  }
+}

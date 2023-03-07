@@ -1,0 +1,21 @@
+{
+  "description": "Palindromes n with nonzero digits such that n +/- the product of digits of n are both palindromes.",
+  "id": "A244548",
+  "mentions": [
+    "A007954",
+    "A114341",
+    "A229761",
+    "A244547"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

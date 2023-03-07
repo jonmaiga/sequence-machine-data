@@ -1,0 +1,19 @@
+{
+  "description": "Least even k such that sfdf(k-3) > sfdf(k-1) >= A050376(n), where sfdf(n) is the smallest Fermi-Dirac factor of n (A223490).",
+  "id": "A244343",
+  "mentions": [
+    "A050376",
+    "A223490",
+    "A242719"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 2,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

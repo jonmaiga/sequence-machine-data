@@ -1,0 +1,23 @@
+{
+  "description": "Numbers x with k digits in base 2 (MSD(x)_2 = d_1, LSD(x)_2 = d_k) that are equal to the product of the positions of 1's (see examples and formula).",
+  "id": "A307218",
+  "mentions": [
+    "A000030",
+    "A007088",
+    "A010879",
+    "A306286"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

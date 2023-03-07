@@ -1,0 +1,24 @@
+{
+  "description": "a(n) is the least number k such that k | concat(k-n,k-n+1,…,k,…,k+n-1,k+n).",
+  "id": "A292885",
+  "mentions": [
+    "A069860",
+    "A069862",
+    "A069871",
+    "A088797",
+    "A088798",
+    "A088877"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:08",
+    "offset": 0,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

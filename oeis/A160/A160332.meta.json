@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of the one real root of x^3-8x-10.",
+  "id": "A160332",
+  "mentions": [
+    "A002937"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:42",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

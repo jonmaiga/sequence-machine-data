@@ -1,0 +1,20 @@
+{
+  "description": "Permutation of natural numbers: a(1) = 1, a(n) = A064989(n)-th integer among those positive integers not occurring earlier in the sequence. [A064989(n) shifts the prime factorization of n one step right].",
+  "id": "A246165",
+  "mentions": [
+    "A064989",
+    "A119435",
+    "A126917",
+    "A246166"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:02",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

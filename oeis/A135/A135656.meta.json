@@ -1,0 +1,27 @@
+{
+  "description": "Perfect numbers divided by 2, written in base 2.",
+  "id": "A135656",
+  "mentions": [
+    "A000043",
+    "A000396",
+    "A000668",
+    "A019279",
+    "A090748",
+    "A117293",
+    "A133028",
+    "A135650"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

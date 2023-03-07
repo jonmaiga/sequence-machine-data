@@ -1,0 +1,18 @@
+{
+  "description": "Number of (n+2)X4 0..2 matrices with each 3X3 subblock idempotent",
+  "id": "A224600",
+  "mentions": [
+    "A224606"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:42",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

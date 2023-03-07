@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = p*q where p is the sequential number (or PrimePi, A000720) of the largest prime divisor of n, and q is the maximal exponent in the canonical representation of n (A051903).",
+  "id": "A335603",
+  "mentions": [
+    "A000720",
+    "A006530",
+    "A051903",
+    "A076526"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:07",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

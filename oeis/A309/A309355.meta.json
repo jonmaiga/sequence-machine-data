@@ -1,0 +1,21 @@
+{
+  "description": "Even numbers k such that k! is divisible by k*(k+1)/2.",
+  "id": "A309355",
+  "mentions": [
+    "A006093",
+    "A060462",
+    "A071904",
+    "A186193"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:07:49",
+    "offset": 1,
+    "size": 58,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Peano curve in an N x N grid, one-based, starting downwards from the top-left corner.",
+  "id": "A163340",
+  "mentions": [
+    "A163336",
+    "A163338",
+    "A163341"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:45",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

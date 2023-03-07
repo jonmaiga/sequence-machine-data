@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the real root of x^3 - 6x^2 + 4x - 2.",
+  "id": "A262674",
+  "mentions": [
+    "A060295",
+    "A160332"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:01:13",
+    "offset": 1,
+    "size": 106,
+    "source": "joeis"
+  }
+}

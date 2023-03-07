@@ -1,0 +1,21 @@
+{
+  "description": "Numbers of the form (square + 1) that are not squarefree.",
+  "id": "A124809",
+  "mentions": [
+    "A002522",
+    "A013929",
+    "A049532",
+    "A069987"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:44",
+    "offset": 1,
+    "size": 36,
+    "source": "joeis"
+  }
+}

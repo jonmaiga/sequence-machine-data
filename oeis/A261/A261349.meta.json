@@ -1,0 +1,31 @@
+{
+  "description": "T(n,k) is the decimal equivalent of a code for k that maximizes the sum of the Hamming distances between (cyclical) adjacent code words; triangle T(n,k), n>=0, 0<=k<=2^n-1, read by rows.",
+  "id": "A261349",
+  "mentions": [
+    "A000004",
+    "A000012",
+    "A000079",
+    "A000225",
+    "A000918",
+    "A003188",
+    "A006516",
+    "A014480",
+    "A083329",
+    "A083420",
+    "A101080"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:20",
+    "offset": 0,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

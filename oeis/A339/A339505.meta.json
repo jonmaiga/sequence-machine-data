@@ -1,0 +1,18 @@
+{
+  "description": "Number of non-isomorphic connected cubic cyclic Haar graphs of girth 6 on 2n vertices.",
+  "id": "A339505",
+  "mentions": [
+    "A098822"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 3,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

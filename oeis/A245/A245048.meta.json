@@ -1,0 +1,19 @@
+{
+  "description": "Primes p such that p^2 + 28 is prime.",
+  "id": "A245048",
+  "mentions": [
+    "A062324",
+    "A062718",
+    "A243367"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:01",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

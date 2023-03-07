@@ -1,0 +1,17 @@
+{
+  "description": "Products x*y*z arising from A102505.",
+  "id": "A102793",
+  "mentions": [
+    "A102505"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

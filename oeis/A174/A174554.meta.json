@@ -1,0 +1,23 @@
+{
+  "description": "Smallest k > 2 such that 2|k, 3|k+1, 4|k+2,..., n|k+n-2.",
+  "id": "A174554",
+  "mentions": [
+    "A000793",
+    "A002944",
+    "A003418",
+    "A003990",
+    "A048691",
+    "A051173"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 2,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

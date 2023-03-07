@@ -1,0 +1,19 @@
+{
+  "description": "Triangular array read by rows. T(n,k) is the number of labeled digraphs on n nodes with exactly k isolated nodes. 0<=k<=n.",
+  "id": "A217580",
+  "mentions": [
+    "A054545"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

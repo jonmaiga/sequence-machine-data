@@ -1,0 +1,18 @@
+{
+  "description": "Sum 3^((k^2+3k)/2) from k=1 to n.",
+  "id": "A178186",
+  "mentions": [
+    "A178184",
+    "A178193"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:01",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

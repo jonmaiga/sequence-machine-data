@@ -1,0 +1,22 @@
+{
+  "description": "Triangular numbers k such that phi(k) is also a triangular number, where phi(k) is the Euler totient function (A000010).",
+  "id": "A287472",
+  "mentions": [
+    "A000010",
+    "A000217",
+    "A083674",
+    "A083675",
+    "A115910",
+    "A116541"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:59",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

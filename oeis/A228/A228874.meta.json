@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = L(n) * L(n+1) * L(n+2) * L(n+3), the product of four consecutive Lucas numbers, A000032.",
+  "id": "A228874",
+  "mentions": [
+    "A000032",
+    "A009112",
+    "A024365",
+    "A073120",
+    "A228873"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:46",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Triangle T, read by rows, where T(n,k) = Sum_{j=1..n-k-1} [T^j](n-1,k) with T(n+1,n) = n+1 and T(n,n)=0 for n>=0, where T^n denotes the n-th matrix power of T.",
+  "id": "A132623",
+  "mentions": [
+    "A132624",
+    "A208676",
+    "A208677",
+    "A208678"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:20",
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

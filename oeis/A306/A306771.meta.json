@@ -1,0 +1,20 @@
+{
+  "description": "Numbers m such that m = i + j = i * k and phi(m) = phi(i) + phi(j) = phi(i) * phi(k) for some i, j, k, where phi is the Euler totient function A000010.",
+  "id": "A306771",
+  "mentions": [
+    "A000010",
+    "A000040",
+    "A001748",
+    "A007310"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that A206369(k) = A206369(k + 1).",
+  "id": "A206368",
+  "mentions": [
+    "A206369",
+    "A206475"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:26",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

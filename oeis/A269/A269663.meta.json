@@ -1,0 +1,24 @@
+{
+  "description": "Semiprimes which are the product of a twin prime pair minus one.",
+  "id": "A269663",
+  "mentions": [
+    "A001097",
+    "A001358",
+    "A001359",
+    "A006512",
+    "A086870",
+    "A103533",
+    "A118071"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:31",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "description": "Square array T(n,k) = number of plane partitions of n with parts colored in (at most) k colors; n >= 0, k >= 0; read by antidiagonals.",
+  "id": "A306100",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A000219",
+    "A001477",
+    "A014105",
+    "A067389",
+    "A091298",
+    "A208447",
+    "A306093",
+    "A306094",
+    "A306095",
+    "A306099",
+    "A306101",
+    "A319600"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

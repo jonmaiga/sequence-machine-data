@@ -1,0 +1,20 @@
+{
+  "description": "Numerators of the first column of a table with top row the nonnegative integers and successive rows defined by a reverted Akiyama-Tanigawa procedure.",
+  "id": "A176599",
+  "mentions": [
+    "A011379",
+    "A024427"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

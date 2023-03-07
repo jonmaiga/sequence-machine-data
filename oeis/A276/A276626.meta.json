@@ -1,0 +1,17 @@
+{
+  "description": "Semiprimes n such that (n-1)/3 is prime.",
+  "id": "A276626",
+  "mentions": [
+    "A175666"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

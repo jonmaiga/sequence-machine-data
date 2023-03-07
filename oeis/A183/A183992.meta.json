@@ -1,0 +1,25 @@
+{
+  "description": "Ranks of (even i)+(even j)*r when all i+j*r are ranked, where r=golden ratio, i>=0, j>=0.",
+  "id": "A183992",
+  "mentions": [
+    "A001622",
+    "A183987",
+    "A183988",
+    "A183989",
+    "A183990",
+    "A183991",
+    "A183993",
+    "A184333"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "changed",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

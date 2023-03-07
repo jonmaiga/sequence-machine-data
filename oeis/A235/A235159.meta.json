@@ -1,0 +1,22 @@
+{
+  "description": "Primes which have one or more occurrences of exactly seven different digits.",
+  "id": "A235159",
+  "mentions": [
+    "A074667",
+    "A235154",
+    "A235158",
+    "A235160",
+    "A235161"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:52",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

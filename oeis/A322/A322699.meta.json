@@ -1,0 +1,36 @@
+{
+  "description": "Square array A(n,k), n >= 0, k >= 0, read by antidiagonals, where A(n,k) is 1/2 * (-1 + Sum_{j=0..k} binomial(2*k,2*j)*(n+1)^(k-j)*n^j).",
+  "id": "A322699",
+  "mentions": [
+    "A000004",
+    "A001108",
+    "A001477",
+    "A007654",
+    "A033996",
+    "A132584",
+    "A132592",
+    "A132593",
+    "A132596",
+    "A173175",
+    "A322675",
+    "A322677",
+    "A322707",
+    "A322708",
+    "A322709",
+    "A322745",
+    "A322746",
+    "A322790"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:46",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

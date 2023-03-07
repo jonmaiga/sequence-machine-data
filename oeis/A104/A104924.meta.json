@@ -1,0 +1,19 @@
+{
+  "description": "Erroneous version of: Primes from merging of 10 successive digits in decimal expansion of Catalan's Constant.",
+  "id": "A104924",
+  "mentions": [
+    "A006752",
+    "A213254"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

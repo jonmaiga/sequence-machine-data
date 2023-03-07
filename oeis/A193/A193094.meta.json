@@ -1,0 +1,24 @@
+{
+  "description": "Augmentation of the triangular array P=A130296 whose n-th row is (n+1,1,1,1,1...,1) for 0<=k<=n. See Comments.",
+  "id": "A193094",
+  "mentions": [
+    "A000142",
+    "A001593",
+    "A003319",
+    "A130296",
+    "A130744",
+    "A193091",
+    "A193093"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

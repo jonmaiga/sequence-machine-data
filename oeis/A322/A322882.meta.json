@@ -1,0 +1,20 @@
+{
+  "description": "Number of set partitions of [n] such that the maximal absolute difference between the least elements of consecutive blocks equals nine.",
+  "id": "A322882",
+  "mentions": [
+    "A287215",
+    "A287258",
+    "A287259"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:46",
+    "offset": 9,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "List of pairs of \"twin numbers\": Omega(n) = Omega(n - 2^Omega(n)), where Omega is A001222.",
+  "id": "A175767",
+  "mentions": [
+    "A001222",
+    "A077800",
+    "A175612",
+    "A175765",
+    "A175766"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

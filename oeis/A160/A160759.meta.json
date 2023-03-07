@@ -1,0 +1,19 @@
+{
+  "description": "Integer averages of n values of pi(n^2) for some n, where pi(n) is the number of primes <= n.",
+  "id": "A160759",
+  "mentions": [
+    "A050248"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

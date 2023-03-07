@@ -1,0 +1,20 @@
+{
+  "description": "Least k such that n <= Sum_{i=1..k} 1/A258252(i), where A258252 are the numbers having lowest possible denominators for the sums of reciprocals.",
+  "id": "A258255",
+  "mentions": [
+    "A002387",
+    "A004080",
+    "A258252"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

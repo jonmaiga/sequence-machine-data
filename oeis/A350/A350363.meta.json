@@ -1,0 +1,28 @@
+{
+  "description": "Primes whose reversal is a ninth power.",
+  "id": "A350363",
+  "mentions": [
+    "A002239",
+    "A004086",
+    "A007488",
+    "A057699",
+    "A058996",
+    "A059000",
+    "A059001",
+    "A059002",
+    "A059003",
+    "A059005",
+    "A059210"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

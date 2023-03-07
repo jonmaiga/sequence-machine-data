@@ -1,0 +1,19 @@
+{
+  "description": "G.f.: exp( Sum_{n>=1} A064027(n)*x^n/n ), where A064027(n) = (-1)^n*Sum_{d|n}(-1)^d*d^2.",
+  "id": "A224364",
+  "mentions": [
+    "A064027",
+    "A074962"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:42",
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

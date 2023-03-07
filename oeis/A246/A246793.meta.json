@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the largest m such that A182134(n - k) = k for A246785(n) <= k <= m, or zero if there is no such m.",
+  "id": "A246793",
+  "mentions": [
+    "A000040",
+    "A182134",
+    "A246785",
+    "A246790"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:03",
+    "offset": 1,
+    "size": 89,
+    "source": "oeis-bfile"
+  }
+}

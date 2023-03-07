@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = Sum_{k=0..n} BellPolynomial(n, k), row sums of A350263.",
+  "id": "A350264",
+  "mentions": [
+    "A350263"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

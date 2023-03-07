@@ -1,0 +1,18 @@
+{
+  "description": "At digit-position a(n) in the sequence starts the sum a(n) + 1. This is the lexicographically earliest sequence of distinct positive terms with this property. See the Comments section for more explanations.",
+  "id": "A345964",
+  "mentions": [
+    "A345881"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Numbers that have the largest Collatz total stopping time of all numbers below 10^n. The smallest number is chosen in case of ties.",
+  "id": "A284668",
+  "mentions": [
+    "A006577",
+    "A006877"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

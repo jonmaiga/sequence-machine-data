@@ -1,0 +1,23 @@
+{
+  "description": "Irregular array read by rows: n-th row contains (in ascending order) the numbers 1 <= k < n such that at least one prime divisor p of k also divides n and at least one prime divisor q of k is coprime to n.",
+  "id": "A272619",
+  "mentions": [
+    "A045763",
+    "A096014",
+    "A133995",
+    "A243822",
+    "A243823",
+    "A272618"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:37",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

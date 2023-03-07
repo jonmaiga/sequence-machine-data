@@ -1,0 +1,24 @@
+{
+  "description": "Inverse Euler transform of the tribonacci numbers A000073.",
+  "id": "A349904",
+  "mentions": [
+    "A000073",
+    "A006206",
+    "A022562",
+    "A057597",
+    "A060280",
+    "A349802",
+    "A349903",
+    "A349977"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:29",
+    "offset": 1,
+    "size": 40,
+    "source": "joeis"
+  }
+}

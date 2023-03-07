@@ -1,0 +1,19 @@
+{
+  "description": "Records in A067513.",
+  "id": "A202728",
+  "mentions": [
+    "A067513",
+    "A202727"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:23",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

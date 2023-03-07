@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that k and k+2 are both unitary untouchable numbers (A063948).",
+  "id": "A357323",
+  "mentions": [
+    "A063948",
+    "A231964"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:31",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

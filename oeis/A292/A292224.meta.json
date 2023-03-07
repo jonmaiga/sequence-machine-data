@@ -1,0 +1,23 @@
+{
+  "description": "Irregular triangle read by rows. T(n, k) gives the number of admissible k-tuples from the interval of integers [0, 1, ..., n-1] starting with smallest tuple member 0.",
+  "id": "A292224",
+  "mentions": [
+    "A020497",
+    "A022004",
+    "A022005",
+    "A023193",
+    "A292225"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 104,
+    "source": "oeis-entry"
+  }
+}

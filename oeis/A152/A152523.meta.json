@@ -1,0 +1,19 @@
+{
+  "description": "Multiplicities of distinct terms in A152522.",
+  "id": "A152523",
+  "mentions": [
+    "A025018",
+    "A152522"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Squares that are a concatenation of primes.",
+  "id": "A225135",
+  "mentions": [
+    "A019549",
+    "A030459",
+    "A106582"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

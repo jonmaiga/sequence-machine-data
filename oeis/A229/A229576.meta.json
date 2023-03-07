@@ -1,0 +1,18 @@
+{
+  "description": "Number of defective 4-colorings of an n X 6 0..3 array connected horizontally, vertically, diagonally and antidiagonally with exactly one mistake, and colors introduced in row-major 0..3 order.",
+  "id": "A229576",
+  "mentions": [
+    "A229578"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:46",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

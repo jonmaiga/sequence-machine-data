@@ -1,0 +1,20 @@
+{
+  "description": "Write 2n=j+q (j,q positive noncomposite numbers); j*q maximal; then a(n)=j*q.",
+  "id": "A193315",
+  "mentions": [
+    "A008578",
+    "A061397",
+    "A073046",
+    "A102084"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

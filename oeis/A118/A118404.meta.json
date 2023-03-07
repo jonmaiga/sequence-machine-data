@@ -1,0 +1,28 @@
+{
+  "description": "Triangle T, read by rows, where all columns of T are different and yet all columns of the matrix square T^2 (A118407) are equal; also equals the matrix inverse of triangle A118400.",
+  "id": "A118404",
+  "mentions": [
+    "A005581",
+    "A007598",
+    "A007910",
+    "A011848",
+    "A118400",
+    "A118405",
+    "A118406",
+    "A118407",
+    "A212342",
+    "A219977"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 153,
+    "source": "oeis-entry"
+  }
+}

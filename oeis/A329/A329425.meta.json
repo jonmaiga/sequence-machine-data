@@ -1,0 +1,24 @@
+{
+  "description": "For all n >= 0, six among (a(n+i) + a(n+j), 0 <= i < j < 5) are prime: lexicographically first such sequence of distinct nonnegative integers.",
+  "id": "A329425",
+  "mentions": [
+    "A055265",
+    "A128280",
+    "A329333",
+    "A329405",
+    "A329416",
+    "A329449",
+    "A329450",
+    "A329581"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

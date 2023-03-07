@@ -1,0 +1,17 @@
+{
+  "description": "Values of c associated with A108287.",
+  "id": "A108940",
+  "mentions": [
+    "A108287"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

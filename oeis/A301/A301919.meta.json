@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the least value of k for which A301918(n) divides 3^k+3.",
+  "id": "A301919",
+  "mentions": [
+    "A051783",
+    "A178674",
+    "A301916",
+    "A301917",
+    "A301918"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

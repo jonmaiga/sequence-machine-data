@@ -1,0 +1,20 @@
+{
+  "description": "Limiting sequence when we start with the positive integers and at step n >= 1 delete the term at position n + digitsum(a(n)).",
+  "id": "A137292",
+  "mentions": [
+    "A000959",
+    "A138662"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

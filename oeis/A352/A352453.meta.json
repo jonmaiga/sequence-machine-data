@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of the area of intersection of 4 unit-radius circles that have the vertices of a unit-side square as centers.",
+  "id": "A352453",
+  "mentions": [
+    "A002194",
+    "A019670",
+    "A019693",
+    "A075838",
+    "A133731",
+    "A192930",
+    "A352454"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Ordered number of unit edges needed to build every 4-orthotope from hypercubes.",
+  "id": "A277870",
+  "mentions": [
+    "A047845",
+    "A090767"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:43",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

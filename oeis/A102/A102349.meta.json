@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that binomial(n+1,2) is in A027568.",
+  "id": "A102349",
+  "mentions": [
+    "A027568"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

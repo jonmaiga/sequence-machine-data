@@ -1,0 +1,27 @@
+{
+  "description": "Number of residues modulo n of the maximum order.",
+  "id": "A111725",
+  "mentions": [
+    "A002322",
+    "A008330",
+    "A008683",
+    "A010554",
+    "A018253",
+    "A083399",
+    "A300064",
+    "A300065",
+    "A300079",
+    "A300080"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:02",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

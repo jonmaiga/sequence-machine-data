@@ -1,0 +1,28 @@
+{
+  "description": "An eight-products triangle sequence of coefficients: T(n,k) = binomial(n,k) * Product_{j=1..7} j!*(n+j)!/((k+j)!*(n-k+j)!).",
+  "id": "A142468",
+  "mentions": [
+    "A001263",
+    "A007318",
+    "A056939",
+    "A056940",
+    "A056941",
+    "A142465",
+    "A142467",
+    "A174109",
+    "A342889",
+    "A342890",
+    "A342891"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:31",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

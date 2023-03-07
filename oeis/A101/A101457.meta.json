@@ -1,0 +1,21 @@
+{
+  "description": "Prime digits in the decimal expansion of golden ratio phi (or tau) = (1 + sqrt 5 )/2.",
+  "id": "A101457",
+  "mentions": [
+    "A001622",
+    "A073246",
+    "A073264"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

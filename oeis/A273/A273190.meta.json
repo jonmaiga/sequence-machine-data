@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the number of nonnegative m < n for which m + n is a perfect square.",
+  "id": "A273190",
+  "mentions": [
+    "A000196",
+    "A010052",
+    "A103128",
+    "A273185",
+    "A273191"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:38",
+    "offset": 0,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

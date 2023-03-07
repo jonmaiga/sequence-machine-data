@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Product_{d|n} psi(d), where psi(m) is the sum of totatives of m (A023896).",
+  "id": "A280246",
+  "mentions": [
+    "A023896",
+    "A057661",
+    "A280247",
+    "A280248"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

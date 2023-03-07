@@ -1,0 +1,27 @@
+{
+  "description": "Numbers k such that A075986(k) is prime.",
+  "id": "A136365",
+  "mentions": [
+    "A024528",
+    "A075986",
+    "A125707",
+    "A136366",
+    "A136367",
+    "A136368",
+    "A136369",
+    "A136370",
+    "A136371"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

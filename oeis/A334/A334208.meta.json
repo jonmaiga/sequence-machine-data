@@ -1,0 +1,21 @@
+{
+  "description": "Number of partitions of 2n into two composite parts, (r,s), such that r and s have the same number of primes less than or equal to them.",
+  "id": "A334208",
+  "mentions": [
+    "A000720",
+    "A010051",
+    "A051699"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 89,
+    "source": "oeis-entry"
+  }
+}

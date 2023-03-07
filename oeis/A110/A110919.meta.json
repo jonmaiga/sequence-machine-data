@@ -1,0 +1,18 @@
+{
+  "description": "Number of consecutive 1's in the continued fraction for floor(n*phi)/n where phi = (1+sqrt(5))/2 (A001622).",
+  "id": "A110919",
+  "mentions": [
+    "A001622"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:02",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n for which sigma(n) - n = tau(n)^k for some integer k > 0.",
+  "id": "A219668",
+  "mentions": [
+    "A051281"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

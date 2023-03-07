@@ -1,0 +1,18 @@
+{
+  "description": "Least x such that sigma(x) = prime(n)+1, where sigma = A000203.",
+  "id": "A296375",
+  "mentions": [
+    "A000203",
+    "A066077"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:15",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "description": "Numbers that are not the number of factorizations into factors > 1 of any positive integer.",
+  "id": "A330976",
+  "mentions": [
+    "A001055",
+    "A033833",
+    "A045778",
+    "A045779",
+    "A045782",
+    "A045783",
+    "A317145",
+    "A330935",
+    "A330972",
+    "A330973",
+    "A330974",
+    "A330975",
+    "A330977",
+    "A330991"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

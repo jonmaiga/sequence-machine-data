@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of the imaginary part of a fixed point of the logarithmic integral li(z) in C.",
+  "id": "A276763",
+  "mentions": [
+    "A070769",
+    "A276762"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

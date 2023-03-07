@@ -1,0 +1,21 @@
+{
+  "description": "Record values in A039932.",
+  "id": "A319542",
+  "mentions": [
+    "A011531",
+    "A039932",
+    "A317173",
+    "A319548"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

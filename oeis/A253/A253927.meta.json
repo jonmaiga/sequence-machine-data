@@ -1,0 +1,18 @@
+{
+  "description": "Number of polyhexes (without holes) of size 6*n+1 with 6-fold rotational symmetry.",
+  "id": "A253927",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "changed",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

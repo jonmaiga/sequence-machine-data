@@ -1,0 +1,33 @@
+{
+  "description": "Corresponding values of arithmetic means of digits of numbers from A061383.",
+  "id": "A285093",
+  "mentions": [
+    "A002283",
+    "A004426",
+    "A004427",
+    "A007953",
+    "A055642",
+    "A061383",
+    "A061384",
+    "A061385",
+    "A061386",
+    "A061387",
+    "A061388",
+    "A061423",
+    "A061424",
+    "A061425",
+    "A257295"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:56",
+    "offset": 0,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

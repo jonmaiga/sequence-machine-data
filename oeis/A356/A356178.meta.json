@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that both Sum_{i=1..k} i*prime(i) and Sum_{i=1..k} (k+1-i)*prime(i) are prime.",
+  "id": "A356178",
+  "mentions": [
+    "A014148",
+    "A014285"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:30",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

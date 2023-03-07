@@ -1,0 +1,19 @@
+{
+  "description": "Number of sets of exactly n positive integers <= 2n having a square element sum.",
+  "id": "A281872",
+  "mentions": [
+    "A281871",
+    "A284251"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:51",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

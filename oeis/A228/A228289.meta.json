@@ -1,0 +1,20 @@
+{
+  "description": "Determinant of the p_n X p_n matrix with (i,j)-entry equal to D(i+j) for all i,j = 0,...,p_n-1, where D(k) = A002895(k) is the k-th Domb number and p_n is the n-th prime.",
+  "id": "A228289",
+  "mentions": [
+    "A002895",
+    "A053175",
+    "A225776",
+    "A228143"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

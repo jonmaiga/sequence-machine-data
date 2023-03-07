@@ -1,0 +1,22 @@
+{
+  "description": "Sum of the integers from 1 to n, excluding perfect fifth powers.",
+  "id": "A132336",
+  "mentions": [
+    "A000096",
+    "A000217",
+    "A000539",
+    "A132337",
+    "A178487"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:20",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

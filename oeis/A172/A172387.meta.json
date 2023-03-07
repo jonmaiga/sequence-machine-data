@@ -1,0 +1,17 @@
+{
+  "description": "G.f. satisfies: A(x) = x + x*Sum_{n>=1} G_{n}(x)^n, where G_{n}(x) is the n-th iteration of A(x) defined by G{n}(x) = G_{n-1}(A(x)) with G_0(x)=x.",
+  "id": "A172387",
+  "mentions": [
+    "A171780"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

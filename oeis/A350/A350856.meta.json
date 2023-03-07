@@ -1,0 +1,19 @@
+{
+  "description": "Initial members of prime triples (p, p+2, p+14).",
+  "id": "A350856",
+  "mentions": [
+    "A022004",
+    "A046134",
+    "A046135"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

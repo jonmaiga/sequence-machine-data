@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that 1 - S(n) = 0, where S(n) = (S(n-1) + A000040(n))*(-1)^n; S(0)=0, n=>1.",
+  "id": "A131197",
+  "mentions": [
+    "A000040",
+    "A008347",
+    "A066033",
+    "A130642",
+    "A130643"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

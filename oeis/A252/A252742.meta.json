@@ -1,0 +1,24 @@
+{
+  "description": "Characteristic function of A246282: if A003961(n) > 2*n, then a(n) = 1, otherwise 0 (when A003961(n) < 2*n) [where A003961(n) shifts the prime factorization of n one step towards larger primes].",
+  "id": "A252742",
+  "mentions": [
+    "A003961",
+    "A048673",
+    "A246260",
+    "A246282",
+    "A252743",
+    "A252744",
+    "A252748"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:11",
+    "offset": 1,
+    "size": 128,
+    "source": "oeis-bfile"
+  }
+}

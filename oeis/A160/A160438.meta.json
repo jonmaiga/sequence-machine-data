@@ -1,0 +1,19 @@
+{
+  "description": "Number of partitions of n*(n+1)/2 with at most four parts that can be obtained from grouping (with parentheses) a permutation of the sum 1+2+...+n",
+  "id": "A160438",
+  "mentions": [
+    "A001400",
+    "A011848"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:42",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

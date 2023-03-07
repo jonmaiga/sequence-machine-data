@@ -1,0 +1,18 @@
+{
+  "description": "A sequence arising in solution of Monthly problem 12008.",
+  "id": "A328091",
+  "mentions": [
+    "A328092"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

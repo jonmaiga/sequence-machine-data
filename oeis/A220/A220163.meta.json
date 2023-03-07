@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: N_s(n,k) of spt-crank coefficients, n >= 1, k >= 0.",
+  "id": "A220163",
+  "mentions": [
+    "A000041",
+    "A092269",
+    "A195011",
+    "A195012"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

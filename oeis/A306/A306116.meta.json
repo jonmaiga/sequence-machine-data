@@ -1,0 +1,28 @@
+{
+  "description": "Largest k such that 6^k has exactly n digits 0 (in base 10), conjectured.",
+  "id": "A306116",
+  "mentions": [
+    "A007496",
+    "A020665",
+    "A030702",
+    "A063596",
+    "A071531",
+    "A103663",
+    "A238936",
+    "A305926",
+    "A305946",
+    "A306112",
+    "A306119"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

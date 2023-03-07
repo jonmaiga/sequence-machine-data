@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of 4/3 in base phi.",
+  "id": "A173858",
+  "mentions": [
+    "A000475"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:40:33",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of exp(Pi/4).",
+  "id": "A160510",
+  "mentions": [
+    "A000796",
+    "A320428",
+    "A329912"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 17:14:17",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

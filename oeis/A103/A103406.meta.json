@@ -1,0 +1,24 @@
+{
+  "description": "Triangle read by rows: n-th row = unsigned coefficients of the characteristic polynomials of an n X n matrix with 2's on the diagonal and 1's elsewhere.",
+  "id": "A103406",
+  "mentions": [
+    "A001792",
+    "A007318",
+    "A093375",
+    "A103283",
+    "A127648",
+    "A128064"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:46:15",
+    "offset": 0,
+    "size": 69,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of H(q)*G(q^11) where H and G are respectively the g.f. of A003106 and A003114 (Rogers-Ramanujan functions).",
+  "id": "A217569",
+  "mentions": [
+    "A003106",
+    "A003114",
+    "A121591"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 18:04:03",
+    "offset": 0,
+    "size": 67,
+    "source": "joeis"
+  }
+}

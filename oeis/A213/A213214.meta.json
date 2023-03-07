@@ -1,0 +1,20 @@
+{
+  "description": "Number of steps to reach 1 in the Collatz (3x+1) problem starting with 3^n - 1.",
+  "id": "A213214",
+  "mentions": [
+    "A075487",
+    "A193688",
+    "A212653"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:31",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

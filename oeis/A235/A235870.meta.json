@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of ( f(-q)^12 + 22 * q * f(-q)^6 * f(-q^5)^6 + 125 * q^2 * f(-q^5)^12 ) / (f(-q) * f(-q^5))^2 in powers of q where f() is a Ramanujan theta function.",
+  "id": "A235870",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A010054",
+    "A010815",
+    "A028887",
+    "A121373"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:28",
+    "offset": 0,
+    "size": 37,
+    "source": "joeis"
+  }
+}

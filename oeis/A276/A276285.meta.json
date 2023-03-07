@@ -1,0 +1,33 @@
+{
+  "description": "Number of ways of writing n as a sum of 13 squares.",
+  "id": "A276285",
+  "mentions": [
+    "A000118",
+    "A000132",
+    "A000141",
+    "A000143",
+    "A000144",
+    "A000145",
+    "A000152",
+    "A004018",
+    "A005875",
+    "A008451",
+    "A008452",
+    "A008453",
+    "A122141",
+    "A186690",
+    "A286815"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:41",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

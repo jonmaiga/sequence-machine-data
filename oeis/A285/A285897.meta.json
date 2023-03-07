@@ -1,0 +1,20 @@
+{
+  "description": "Binary representation of the diagonal from the corner to the origin of the n-th stage of growth of the two-dimensional cellular automaton defined by \"Rule 118\", based on the 5-celled von Neumann neighborhood.",
+  "id": "A285897",
+  "mentions": [
+    "A285907",
+    "A285908",
+    "A285909"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:36:19",
+    "offset": 0,
+    "size": 27,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "description": "\"Sloping ternary numbers\": write numbers in ternary under each other (right-justified), read diagonals in upward direction, convert to decimal.",
+  "id": "A109681",
+  "mentions": [
+    "A030341",
+    "A102370",
+    "A103205",
+    "A109682",
+    "A109683",
+    "A109684",
+    "A325644",
+    "A325645",
+    "A325692",
+    "A325693",
+    "A325805",
+    "A325829"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:01",
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

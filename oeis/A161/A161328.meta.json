@@ -1,0 +1,26 @@
+{
+  "description": "E-toothpick sequence (see Comments lines for definition).",
+  "id": "A161328",
+  "mentions": [
+    "A000695",
+    "A139250",
+    "A139251",
+    "A160120",
+    "A160172",
+    "A161206",
+    "A161329",
+    "A161330",
+    "A220498"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

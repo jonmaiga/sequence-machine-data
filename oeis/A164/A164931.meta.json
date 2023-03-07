@@ -1,0 +1,22 @@
+{
+  "description": "n times the n-th noncomposite.",
+  "id": "A164931",
+  "mentions": [
+    "A008578",
+    "A090178",
+    "A092929",
+    "A171519"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:47",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

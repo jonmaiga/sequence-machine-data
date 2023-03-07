@@ -1,0 +1,22 @@
+{
+  "description": "Triangle T(n,k) = binomial(n,k), read by rows, 3 <= k <=n .",
+  "id": "A104713",
+  "mentions": [
+    "A002662",
+    "A007318",
+    "A104712"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:47:11",
+    "offset": 3,
+    "size": 59,
+    "source": "joeis"
+  }
+}

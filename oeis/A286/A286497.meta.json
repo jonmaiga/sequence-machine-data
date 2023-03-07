@@ -1,0 +1,18 @@
+{
+  "description": "Prime power Giuga numbers: composite numbers n > 1 such that -1/n + sum 1/p^k = 1, where the sum is over the prime powers p^k dividing n.",
+  "id": "A286497",
+  "mentions": [
+    "A000668",
+    "A007850"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

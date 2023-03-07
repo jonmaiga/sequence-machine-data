@@ -1,0 +1,18 @@
+{
+  "description": "Numbers whose sum of proper square divisors is a palindrome in base 10 having at least two digits.",
+  "id": "A232892",
+  "mentions": [
+    "A232893"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

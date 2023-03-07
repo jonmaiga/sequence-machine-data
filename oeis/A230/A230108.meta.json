@@ -1,0 +1,18 @@
+{
+  "description": "Values of d such that the equation x^2 - d*y^2 = 2*d has integer solutions.",
+  "id": "A230108",
+  "mentions": [
+    "A172000",
+    "A230109"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

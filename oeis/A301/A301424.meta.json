@@ -1,0 +1,23 @@
+{
+  "description": "Sums of positive coefficients of generalized Chebyshev polynomials of the first kind, for a family of 7 data.",
+  "id": "A301424",
+  "mentions": [
+    "A024537",
+    "A195350",
+    "A301417",
+    "A301420",
+    "A301421",
+    "A302764"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:28",
+    "offset": 1,
+    "size": 21,
+    "source": "joeis"
+  }
+}

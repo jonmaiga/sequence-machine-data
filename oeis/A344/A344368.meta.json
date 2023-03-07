@@ -1,0 +1,24 @@
+{
+  "description": "Dirichlet g.f.: Product_{k>=2} 1 / (1 - k^(1-s)).",
+  "id": "A344368",
+  "mentions": [
+    "A001055",
+    "A006906",
+    "A050367",
+    "A050369",
+    "A224892",
+    "A344369",
+    "A344370"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:36:57",
+    "offset": 1,
+    "size": 60,
+    "source": "joeis"
+  }
+}

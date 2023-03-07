@@ -1,0 +1,21 @@
+{
+  "description": "Number of n-element subsets of [3n] whose elements sum to a multiple of n.",
+  "id": "A318431",
+  "mentions": [
+    "A169888",
+    "A304482",
+    "A318432",
+    "A318433"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

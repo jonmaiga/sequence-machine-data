@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = n + 1 - Sum_{k=0..n} (Stirling2(n,k) mod 2).",
+  "id": "A309256",
+  "mentions": [
+    "A002487",
+    "A007306",
+    "A048967",
+    "A048993",
+    "A309255"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:07:47",
+    "offset": 0,
+    "size": 77,
+    "source": "joeis"
+  }
+}

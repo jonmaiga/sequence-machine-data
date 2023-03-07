@@ -1,0 +1,26 @@
+{
+  "description": "Primes p for which pi_{12,5}(p) - pi_{12,1}(p) = -1, where pi_{m,a}(x) is the number of primes <= x which are congruent to a (mod m).",
+  "id": "A297355",
+  "mentions": [
+    "A007350",
+    "A007351",
+    "A038691",
+    "A051024",
+    "A066520",
+    "A096447",
+    "A096448",
+    "A096628",
+    "A199547",
+    "A297354"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:17",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = 1 if for every prime divisor p of n, p-1 divides n-1, 0 otherwise; characteristic function of A087441.",
+  "id": "A324290",
+  "mentions": [
+    "A002997",
+    "A008966",
+    "A010051",
+    "A010055",
+    "A080339",
+    "A087441",
+    "A087442",
+    "A324050",
+    "A324053"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:50",
+    "offset": 1,
+    "size": 121,
+    "source": "oeis-bfile"
+  }
+}

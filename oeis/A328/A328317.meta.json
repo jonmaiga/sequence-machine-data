@@ -1,0 +1,31 @@
+{
+  "description": "Smallest prime not dividing A328316(n), with a(0) = 1 by convention; Equally, for n > 0, smallest prime dividing A328316(1+n).",
+  "id": "A328317",
+  "mentions": [
+    "A020639",
+    "A053669",
+    "A276086",
+    "A326810",
+    "A328316",
+    "A328318",
+    "A328319",
+    "A328322",
+    "A328323",
+    "A328585",
+    "A328586",
+    "A328633"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

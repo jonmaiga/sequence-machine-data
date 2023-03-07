@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of terms m such that d((m!)^n) (mod d(m!)) == 0, where d is A000005.",
+  "id": "A286872",
+  "mentions": [
+    "A000005",
+    "A286835"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:58",
+    "offset": 2,
+    "size": 92,
+    "source": "oeis-bfile"
+  }
+}

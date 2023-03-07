@@ -1,0 +1,21 @@
+{
+  "description": "a(1)= 1; a(2)= 5; thereafter a(n)= a(n-1) + a(n-2) + 5.",
+  "id": "A166863",
+  "mentions": [
+    "A000045",
+    "A001595",
+    "A154691"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:50",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

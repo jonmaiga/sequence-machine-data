@@ -1,0 +1,27 @@
+{
+  "description": "Number of achiral colorings of the edges of a regular 4-dimensional orthoplex with n available colors.",
+  "id": "A331357",
+  "mentions": [
+    "A331353",
+    "A331354",
+    "A331355",
+    "A331356",
+    "A331361",
+    "A337414",
+    "A337890",
+    "A338955",
+    "A338967"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:32:13",
+    "offset": 1,
+    "size": 14,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "First occurrence of n consecutive n's in the decimal expansion of the Golomb-Dickman constant.",
+  "id": "A225242",
+  "mentions": [
+    "A084945"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

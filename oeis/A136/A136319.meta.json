@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of [phi, phi, ...] = (phi + sqrt(phi^2 + 4))/2.",
+  "id": "A136319",
+  "mentions": [
+    "A001622",
+    "A014176",
+    "A131935",
+    "A188635"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:26:03",
+    "offset": 1,
+    "size": 100,
+    "source": "joeis"
+  }
+}

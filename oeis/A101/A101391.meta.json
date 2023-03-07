@@ -1,0 +1,41 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of compositions of n into k parts x_1, x_2, ..., x_k such that gcd(x_1,x_2,...,x_k) = 1 (2<=k<=n).",
+  "id": "A101391",
+  "mentions": [
+    "A000010",
+    "A000740",
+    "A000741",
+    "A000742",
+    "A000743",
+    "A000837",
+    "A007359",
+    "A023031",
+    "A023032",
+    "A023033",
+    "A023034",
+    "A039911",
+    "A101268",
+    "A135278",
+    "A282748",
+    "A282750",
+    "A289508",
+    "A289509",
+    "A291166",
+    "A302697",
+    "A332004",
+    "A337485",
+    "A337563"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:32:57",
+    "offset": 2,
+    "size": 73,
+    "source": "joeis"
+  }
+}

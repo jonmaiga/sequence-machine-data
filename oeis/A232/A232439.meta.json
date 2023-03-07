@@ -1,0 +1,22 @@
+{
+  "description": "Number T(n,k) of standard Young tableaux with n cells and major index k; triangle T(n,k), n>=0, 0<=k<=n*(n-1)/2, read by rows.",
+  "id": "A232439",
+  "mentions": [
+    "A000085",
+    "A000217",
+    "A003293",
+    "A225616",
+    "A247386"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:50",
+    "offset": 0,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

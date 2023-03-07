@@ -1,0 +1,32 @@
+{
+  "description": "Starts of runs of 3 consecutive Lucas-Niven numbers (A351714).",
+  "id": "A351716",
+  "mentions": [
+    "A130310",
+    "A154701",
+    "A328206",
+    "A328210",
+    "A328214",
+    "A330932",
+    "A331087",
+    "A331822",
+    "A333428",
+    "A334310",
+    "A342428",
+    "A344343",
+    "A351714",
+    "A351715",
+    "A351721"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:26",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

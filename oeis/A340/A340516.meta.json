@@ -1,0 +1,18 @@
+{
+  "description": "Let p_i (i=1..m) denote the primes <= n, and let e_i be the maximum number such that p_i^e_i <= n; then a(n) = Product_{i=1..m} p_i^(2*e_i-1).",
+  "id": "A340516",
+  "mentions": [
+    "A340514",
+    "A340515"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:13",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

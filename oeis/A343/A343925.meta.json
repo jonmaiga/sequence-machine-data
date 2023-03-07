@@ -1,0 +1,23 @@
+{
+  "description": "Irregular triangle read by rows: n-th row gives the numbers > 1 that can be multiplied by n the maximum number of times, see A343924, such that each product has distinct digits.",
+  "id": "A343925",
+  "mentions": [
+    "A003991",
+    "A010784",
+    "A043537",
+    "A343921",
+    "A343924"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows in which row n lists the nonpowers of 2 dividing n, or 0 if n is a power of 2.",
+  "id": "A326989",
+  "mentions": [
+    "A000079",
+    "A027750",
+    "A057716",
+    "A326987",
+    "A326988"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

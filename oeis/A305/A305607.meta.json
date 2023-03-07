@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of (Pi/log(2))^2/12.",
+  "id": "A305607",
+  "mentions": [
+    "A100199",
+    "A240995"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:48:14",
+    "offset": 1,
+    "size": 101,
+    "source": "joeis"
+  }
+}

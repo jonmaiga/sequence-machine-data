@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of e.g.f. 2 * (exp(x) - 1) / (exp(exp(x) - 1) + 1).",
+  "id": "A357240",
+  "mentions": [
+    "A001469",
+    "A003149",
+    "A036968",
+    "A059371"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

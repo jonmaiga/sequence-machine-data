@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = 2^x+2^y where p(n) is the n-th prime of the form 4*k+1 and x, y is the unique integer solution to p(n) = x^2+y^2.",
+  "id": "A226640",
+  "mentions": [
+    "A002144"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

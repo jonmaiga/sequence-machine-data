@@ -1,0 +1,20 @@
+{
+  "description": "List of 4-tuples of twin primes q, p, p+2 and q+2 such that 2*q",
+  "id": "A176821",
+  "mentions": [
+    "A045536",
+    "A069142",
+    "A077800"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

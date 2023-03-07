@@ -1,0 +1,19 @@
+{
+  "description": "Envelope numbers (see the Comments section for the definition).",
+  "id": "A323142",
+  "mentions": [
+    "A252480",
+    "A323143"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:47",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

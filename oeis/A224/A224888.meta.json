@@ -1,0 +1,21 @@
+{
+  "description": "Primes of the form p^2 + (q-p)^2, where p and q are consecutive primes.",
+  "id": "A224888",
+  "mentions": [
+    "A000040",
+    "A001223",
+    "A093343",
+    "A134735"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:42",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

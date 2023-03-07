@@ -1,0 +1,19 @@
+{
+  "description": "Least number having n quadratic residues, or 0 if there is no number.",
+  "id": "A111987",
+  "mentions": [
+    "A037046",
+    "A111986",
+    "A111988"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

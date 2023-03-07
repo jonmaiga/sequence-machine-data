@@ -1,0 +1,42 @@
+{
+  "description": "Square array read by antidiagonals in which T(n,k) is the n-th even number j with the property that the symmetric representation of sigma(j) has k parts.",
+  "id": "A320537",
+  "mentions": [
+    "A000203",
+    "A071561",
+    "A071562",
+    "A174973",
+    "A236104",
+    "A237270",
+    "A237271",
+    "A237593",
+    "A238443",
+    "A239663",
+    "A239665",
+    "A239929",
+    "A240062",
+    "A244894",
+    "A245092",
+    "A262626",
+    "A299174",
+    "A319796",
+    "A319802",
+    "A320521",
+    "A341969",
+    "A341970",
+    "A341971",
+    "A346969",
+    "A348171"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

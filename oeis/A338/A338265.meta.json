@@ -1,0 +1,18 @@
+{
+  "description": "If a(n) has at least one common digit with a(n-1), underline a(n). The non-underlined terms reproduce the sequence itself.",
+  "id": "A338265",
+  "mentions": [
+    "A274329"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Largest number that is not the sum of n-th powers of distinct primes.",
+  "id": "A121571",
+  "mentions": [
+    "A001661",
+    "A121518",
+    "A213519",
+    "A231407"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "bref",
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

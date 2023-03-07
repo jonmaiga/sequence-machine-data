@@ -1,0 +1,18 @@
+{
+  "description": "Primes congruent to 46 mod 59.",
+  "id": "A142773",
+  "mentions": [
+    "A000040"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:28:29",
+    "offset": 1,
+    "size": 40,
+    "source": "joeis"
+  }
+}

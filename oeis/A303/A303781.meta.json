@@ -1,0 +1,19 @@
+{
+  "description": "a(2) = 1; for n <> 2, a(n) = gcd(n, A000005(n)), where A000005(n) = number of divisors of n.",
+  "id": "A303781",
+  "mentions": [
+    "A000005",
+    "A009191"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:28",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

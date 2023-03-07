@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of the number c for which the curve y = c*cos(x) is tangent to the curve y = 1/x, and 0 < x < 2*Pi.",
+  "id": "A196610",
+  "mentions": [
+    "A196603",
+    "A196611"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

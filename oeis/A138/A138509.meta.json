@@ -1,0 +1,23 @@
+{
+  "description": "Janet (or left-step) periodic table from right to left. 120 terms. 8 rows, 32 columns without spaces.",
+  "id": "A138509",
+  "mentions": [
+    "A137583",
+    "A168380",
+    "A171710",
+    "A172002"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-entry"
+  }
+}

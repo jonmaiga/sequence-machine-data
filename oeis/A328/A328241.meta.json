@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n for which A327860(n) = A003415(A276086(n)) is not a squarefree number.",
+  "id": "A328241",
+  "mentions": [
+    "A003415",
+    "A008966",
+    "A276086",
+    "A327860",
+    "A328242"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:56",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

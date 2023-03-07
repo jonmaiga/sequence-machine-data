@@ -1,0 +1,19 @@
+{
+  "description": "n-1+ceiling(n^2/e); complement of A184014.",
+  "id": "A184015",
+  "mentions": [
+    "A184014"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:20:19",
+    "offset": 1,
+    "size": 80,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Numbers k such that on row k of Pascal's triangle there is no multiple of 9 which would be less than any (potential) multiple of 4 on the same row.",
+  "id": "A249724",
+  "mentions": [
+    "A007318",
+    "A048278",
+    "A048645",
+    "A051382",
+    "A052955",
+    "A249441",
+    "A249695",
+    "A249717",
+    "A249722",
+    "A249723",
+    "A249726"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:06",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

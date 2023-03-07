@@ -1,0 +1,19 @@
+{
+  "description": "Smallest number > 1 whose representation in all bases up to n consists only of 0's and 1's.",
+  "id": "A258107",
+  "mentions": [
+    "A146025"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 2,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

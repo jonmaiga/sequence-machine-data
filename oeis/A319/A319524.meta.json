@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the smallest number that belongs simultaneously to the two arithmetic progressions prime(n) + m*prime(n+1) and prime(n+1) + m*prime(n+2), m >= 1, n >= 1.",
+  "id": "A319524",
+  "mentions": [
+    "A001043",
+    "A016789",
+    "A016885",
+    "A017041",
+    "A017473",
+    "A269100"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:41",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

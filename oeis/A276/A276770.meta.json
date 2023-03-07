@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the number of runs of an algorithm. Set b_0 = n, if prime, stop; else, set c_0 = largest divisor of n (!=n); set b_1 = c_0 + b_0/c_0. Run with b_1.",
+  "id": "A276770",
+  "mentions": [
+    "A000040",
+    "A276771"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 5,
+    "size": 101,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Consider a decimal number, n, with k digits. n = d(k)*10^(k-1) + d(k-1)*10^(k-2) + … + d(2)*10 + d_(1). Sequence lists the numbers n that divide s = Sum_{i=1..k} d(i)^d(i).",
+  "id": "A243507",
+  "mentions": [
+    "A005188",
+    "A046253",
+    "A243023"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

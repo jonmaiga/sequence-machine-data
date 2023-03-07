@@ -1,0 +1,35 @@
+{
+  "description": "Moore lower bound on the order of a (7,g)-cage.",
+  "id": "A198307",
+  "mentions": [
+    "A000027",
+    "A002522",
+    "A005843",
+    "A020725",
+    "A027383",
+    "A051890",
+    "A061547",
+    "A062318",
+    "A094626",
+    "A188377",
+    "A198300",
+    "A198306",
+    "A198308",
+    "A198309",
+    "A198310",
+    "A218555"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:19",
+    "offset": 3,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

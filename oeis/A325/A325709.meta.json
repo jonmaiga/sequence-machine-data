@@ -1,0 +1,32 @@
+{
+  "description": "Replace k with k! in the prime indices of n.",
+  "id": "A325709",
+  "mentions": [
+    "A000142",
+    "A056239",
+    "A062439",
+    "A064986",
+    "A076934",
+    "A112798",
+    "A115944",
+    "A284605",
+    "A308299",
+    "A322583",
+    "A325509",
+    "A325616",
+    "A325618",
+    "A325704"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:52",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Primes p such that A007088(p) == A151799(p) (mod p).",
+  "id": "A339545",
+  "mentions": [
+    "A007088",
+    "A151799",
+    "A339544"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "bref",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

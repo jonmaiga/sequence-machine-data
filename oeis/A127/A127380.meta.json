@@ -1,0 +1,24 @@
+{
+  "description": "Signature-permutation of the inverse of Callan's 2006 bijection on Dyck Paths, mirrored version (A057164-conjugate).",
+  "id": "A127380",
+  "mentions": [
+    "A057164",
+    "A073288",
+    "A122200",
+    "A122350",
+    "A127302",
+    "A127378",
+    "A127379",
+    "A127382"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of partitions of n*(n-1)/2 into at most three parts.",
+  "id": "A274233",
+  "mentions": [
+    "A001399",
+    "A274099",
+    "A274232"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:39",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

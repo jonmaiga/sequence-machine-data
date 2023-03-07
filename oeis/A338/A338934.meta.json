@@ -1,0 +1,20 @@
+{
+  "description": "Square array T(i,j) = Sum_{k=0...min(i,j)} C(i,k)*C(j,k)*C(2*k,k) (i>=0,j>=0), read by antidiagonals.",
+  "id": "A338934",
+  "mentions": [
+    "A002893",
+    "A097893",
+    "A106255"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

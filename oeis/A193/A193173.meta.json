@@ -1,0 +1,38 @@
+{
+  "description": "Triangle in which n-th row lists the number of elements in lexicographically ordered partitions of n, A026791.",
+  "id": "A193173",
+  "mentions": [
+    "A000041",
+    "A001222",
+    "A006128",
+    "A026791",
+    "A036036",
+    "A036043",
+    "A049085",
+    "A080577",
+    "A115623",
+    "A129129",
+    "A185974",
+    "A193073",
+    "A194546",
+    "A211992",
+    "A228531",
+    "A334302",
+    "A334434",
+    "A334437",
+    "A334440",
+    "A334441"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

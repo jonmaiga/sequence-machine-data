@@ -1,0 +1,27 @@
+{
+  "description": "Triangle T(n,k) read by rows: T(n,k) = T(n-1,k) + 2*T(n-1,k-1) + T(n-2,k) - T(n-2,k-1), T(n,0) = A000045(n), 0 <= k <= n-1.",
+  "id": "A164975",
+  "mentions": [
+    "A000045",
+    "A000079",
+    "A000244",
+    "A001792",
+    "A004254",
+    "A099920",
+    "A186446",
+    "A190980",
+    "A209125"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:26:37",
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

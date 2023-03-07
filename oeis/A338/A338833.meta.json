@@ -1,0 +1,24 @@
+{
+  "description": "Lexicographically earliest infinite sequence of distinct positive numbers with the property that a(n) is the smallest number m not yet in the sequence such that the binary expansions of m and a(n-1) have a 1 in the same position, but the positions of the 1's in the binary expansions of m and a(n-2) are disjoint.",
+  "id": "A338833",
+  "mentions": [
+    "A000120",
+    "A252867",
+    "A336957",
+    "A352571",
+    "A352572",
+    "A352573",
+    "A352574"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:11",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

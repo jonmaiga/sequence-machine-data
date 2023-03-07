@@ -1,0 +1,19 @@
+{
+  "description": "Number of planar walks starting at (1,1), ending at (3n,0), remaining in the first quadrant and using steps (-1,2) and (2,-1).",
+  "id": "A277248",
+  "mentions": [
+    "A048116"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

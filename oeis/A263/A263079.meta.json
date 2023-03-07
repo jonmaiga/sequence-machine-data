@@ -1,0 +1,23 @@
+{
+  "description": "Numbers n for which there does not exist any x > n such that A155043(x) < A155043(n).",
+  "id": "A263079",
+  "mentions": [
+    "A049820",
+    "A155043",
+    "A261089",
+    "A262503",
+    "A263077",
+    "A263078",
+    "A263080"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:22",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

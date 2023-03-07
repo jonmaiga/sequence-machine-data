@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Product_{d|n, d>1} prime(A305793(1+d)-1), where A305973(k) records the prime signature of 2k-1.",
+  "id": "A305984",
+  "mentions": [
+    "A008578",
+    "A305793",
+    "A305973",
+    "A305982",
+    "A305985"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:30",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

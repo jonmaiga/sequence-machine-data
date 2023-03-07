@@ -1,0 +1,20 @@
+{
+  "description": "n+2 repeated n times.",
+  "id": "A133196",
+  "mentions": [
+    "A002024",
+    "A003056",
+    "A003057"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-07 10:18:04",
+    "offset": 1,
+    "size": 79,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Centered cube numbers: (n+1)^27 + n^27.",
+  "id": "A194561",
+  "mentions": [
+    "A122968",
+    "A194553"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:17",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

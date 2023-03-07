@@ -1,0 +1,38 @@
+{
+  "description": "Permutation of natural numbers: a(1) = 1, a(p_n) = 2*a(n)+1, a(c_n) = 2*a(n), where p_n = n-th prime = A000040(n), c_n = n-th composite number = A002808(n).",
+  "id": "A246377",
+  "mentions": [
+    "A000035",
+    "A000040",
+    "A000720",
+    "A002808",
+    "A010051",
+    "A054429",
+    "A065855",
+    "A071904",
+    "A135141",
+    "A236854",
+    "A237427",
+    "A243071",
+    "A245703",
+    "A246201",
+    "A246348",
+    "A246369",
+    "A246370",
+    "A246376",
+    "A246378",
+    "A246379",
+    "A246681"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:02",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that 8n + 9 is prime.",
+  "id": "A153762",
+  "mentions": [
+    "A005123",
+    "A023232"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:23:19",
+    "offset": 1,
+    "size": 60,
+    "source": "joeis"
+  }
+}

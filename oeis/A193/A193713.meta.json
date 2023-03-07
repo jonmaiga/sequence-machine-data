@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of 11*Pi^5/1440.",
+  "id": "A193713",
+  "mentions": [
+    "A092731",
+    "A152584",
+    "A193712",
+    "A194655"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:54",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

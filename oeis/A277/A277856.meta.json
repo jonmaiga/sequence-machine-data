@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that the product of their digits divides both k and R(k), where R(k) is the digits reverse of k.",
+  "id": "A277856",
+  "mentions": [
+    "A004086",
+    "A007602"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:43",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{d|n} d^(d-2).",
+  "id": "A308755",
+  "mentions": [
+    "A062796",
+    "A262843",
+    "A283498",
+    "A308753"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:33",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

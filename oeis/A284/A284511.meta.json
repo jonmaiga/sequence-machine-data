@@ -1,0 +1,23 @@
+{
+  "description": "a(1) = 1, a(2) = 2, a(3) = 2; a(n) = a(a(n-1)-1) + a(n-a(n-2)) for n > 3.",
+  "id": "A284511",
+  "mentions": [
+    "A004001",
+    "A005185",
+    "A005229",
+    "A055748",
+    "A070867",
+    "A226222"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:55",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

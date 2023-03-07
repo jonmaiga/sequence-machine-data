@@ -1,0 +1,32 @@
+{
+  "description": "Square array read by upward antidiagonals: T(n, k) is the number of n-ary strings of length k containing 00.",
+  "id": "A340156",
+  "mentions": [
+    "A000045",
+    "A000567",
+    "A005563",
+    "A008466",
+    "A028859",
+    "A033445",
+    "A086347",
+    "A125145",
+    "A180033",
+    "A180165",
+    "A180167",
+    "A186244",
+    "A322054",
+    "A340242"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:12",
+    "offset": 2,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

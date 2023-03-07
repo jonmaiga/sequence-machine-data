@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the number of equations in the set {x+2y=n, 2x+3y=n, ..., k*x+(k+1)*y=n, ..., n*x+(n+1)*y=n} which admit at least one nonnegative integer solution.",
+  "id": "A356770",
+  "mentions": [
+    "A000005"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

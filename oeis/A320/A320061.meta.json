@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that A215240(k) is prime.",
+  "id": "A320061",
+  "mentions": [
+    "A215240",
+    "A320041"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:42",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

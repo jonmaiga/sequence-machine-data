@@ -1,0 +1,34 @@
+{
+  "description": "The Goodstein sequence G_n(3).",
+  "id": "A215409",
+  "mentions": [
+    "A056004",
+    "A056041",
+    "A056193",
+    "A057650",
+    "A059933",
+    "A059934",
+    "A059935",
+    "A059936",
+    "A211378",
+    "A222117",
+    "A266204",
+    "A271554",
+    "A271977"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "cons",
+    "easy",
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

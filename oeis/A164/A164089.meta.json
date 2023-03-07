@@ -1,0 +1,21 @@
+{
+  "description": "For n >=4, a(n) = the numerical value of the substring of binary n containing all digits but the first and last. a(1) = a(2) = a(3) = 0.",
+  "id": "A164089",
+  "mentions": [
+    "A007088",
+    "A053645"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:46",
+    "offset": 1,
+    "size": 94,
+    "source": "oeis-bfile"
+  }
+}

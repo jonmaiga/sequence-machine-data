@@ -1,0 +1,19 @@
+{
+  "description": "Numerators of reduced forms of fractions obtained by performing the first n divisions shown below.",
+  "id": "A120031",
+  "mentions": [
+    "A120032"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

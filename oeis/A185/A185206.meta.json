@@ -1,0 +1,22 @@
+{
+  "description": "Triangular array D(n,k) counting disconnected k-regular simple graphs on n vertices with girth at least 6.",
+  "id": "A185206",
+  "mentions": [
+    "A185216",
+    "A185226",
+    "A185236",
+    "A185246"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "hard",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-entry"
+  }
+}

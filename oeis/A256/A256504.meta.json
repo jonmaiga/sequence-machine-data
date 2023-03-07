@@ -1,0 +1,18 @@
+{
+  "description": "Summative Fission - For a positive integer n, find the greatest number of consecutive positive integers (at least 2) which add to n. For each of these do the same ... iterate to completion. a(n) = the total number of integers (including n itself) defined.",
+  "id": "A256504",
+  "mentions": [
+    "A138591"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 0,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

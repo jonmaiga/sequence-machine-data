@@ -1,0 +1,22 @@
+{
+  "description": "G.f. satisfies: A(x) = 1 + x*A(x) * ( d/dx x*A(x)^2 ).",
+  "id": "A317352",
+  "mentions": [
+    "A088716",
+    "A208961",
+    "A317353",
+    "A317354",
+    "A352236"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:36",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

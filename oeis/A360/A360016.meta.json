@@ -1,0 +1,24 @@
+{
+  "description": "Number of partitions of 4*n into four odd primes (p_1, p_2, p_3, p_4) (p_1 < p_2 <= p_3 < p_4 and p_1 + p_4 = p_2 + p_3 = 2*n) such that (p_1, p_2) and (p_3, p_4) are consecutive pairs of prime numbers with the same difference, d = p_2 - p_1 = p_4 - p_3, and (p_1, p_3), (p_2, p_4) are also consecutive pairs of prime numbers with the same difference, D = p_3 - p_1 = p_4 - p_2.",
+  "id": "A360016",
+  "mentions": [
+    "A001359",
+    "A006512",
+    "A023200",
+    "A023201",
+    "A046117",
+    "A046132"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "easy",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 109,
+    "source": "oeis-entry"
+  }
+}

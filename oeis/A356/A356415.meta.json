@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the least start of exactly n consecutive numbers that have an equal number of even and odd exponents in their prime factorization (A187039), or -1 if no such run of consecutive numbers exists.",
+  "id": "A356415",
+  "mentions": [
+    "A187039",
+    "A348076",
+    "A348077",
+    "A348078"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

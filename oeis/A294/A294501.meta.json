@@ -1,0 +1,23 @@
+{
+  "description": "Inverse binomial transform of the number of planar partitions (A000219).",
+  "id": "A294501",
+  "mentions": [
+    "A000219",
+    "A281425",
+    "A293467",
+    "A294500",
+    "A294503",
+    "A294505"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:12",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

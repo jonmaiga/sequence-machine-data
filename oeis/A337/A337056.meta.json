@@ -1,0 +1,17 @@
+{
+  "description": "Number of length-n binary strings such that no rotation is a palindrome.",
+  "id": "A337056",
+  "mentions": [
+    "A057148"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Least r > 1 without Goldbach partition 2r = p+q such that |p-q| is prime(n)-smooth.",
+  "id": "A217016",
+  "mentions": [
+    "A034386"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(n, k) is the number of integer multisets of size k (partitions of k) that match the multiplicity multiset of some partition of n (n >= 1, 1 <= k <= n).",
+  "id": "A337584",
+  "mentions": [
+    "A000041",
+    "A000837",
+    "A008284",
+    "A088887",
+    "A344680"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:09",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

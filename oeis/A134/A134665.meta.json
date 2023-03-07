@@ -1,0 +1,21 @@
+{
+  "description": "Exponent of highest power of 2 dividing the n-th multiply perfect number A007691.",
+  "id": "A134665",
+  "mentions": [
+    "A000396",
+    "A007691",
+    "A007814",
+    "A134666"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:22",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "E.g.f. satisfies: A(x) = exp( Integral 1 + x*A(x)^3 dx ), where the constant of integration is zero.",
+  "id": "A212914",
+  "mentions": [
+    "A212913",
+    "A245266",
+    "A245267"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 16:34:41",
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

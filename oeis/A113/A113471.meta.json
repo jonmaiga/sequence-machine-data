@@ -1,0 +1,20 @@
+{
+  "description": "Lucas(k)/(3k) for k = 2*3^n, where Lucas(k) is k-th Lucas number (A000032).",
+  "id": "A113471",
+  "mentions": [
+    "A000032",
+    "A016089",
+    "A128935"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

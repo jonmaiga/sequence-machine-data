@@ -1,0 +1,21 @@
+{
+  "description": "Multiplicative, with a(p^k) = a(p^k-1) + 2 for any k > 0 and p prime.",
+  "id": "A351462",
+  "mentions": [
+    "A000012",
+    "A000027",
+    "A351463"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "look",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:26",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

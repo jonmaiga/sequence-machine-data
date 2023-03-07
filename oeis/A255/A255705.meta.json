@@ -1,0 +1,22 @@
+{
+  "description": "Number of 2n+1-node rooted trees in which the maximal number of nodes in paths starting at a leaf and ending at the first branching node or at the root equals n+1.",
+  "id": "A255705",
+  "mentions": [
+    "A051491",
+    "A255636",
+    "A255704",
+    "A318754",
+    "A318758"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:13",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Limiting block extension of A010060 (Thue-Morse sequence) with first term as initial block.",
+  "id": "A246146",
+  "mentions": [
+    "A010060",
+    "A245920",
+    "A246128",
+    "A246141",
+    "A246143",
+    "A246145",
+    "A246147"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that 16 + the product of the first n lesser twin primes (A097489) is prime.",
+  "id": "A128874",
+  "mentions": [
+    "A097489"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

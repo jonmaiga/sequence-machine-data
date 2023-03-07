@@ -1,0 +1,23 @@
+{
+  "description": "The greatest common divisor of Landau g(n) and n.",
+  "id": "A225650",
+  "mentions": [
+    "A000793",
+    "A225640",
+    "A225643",
+    "A225648",
+    "A225651",
+    "A225654"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 0,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

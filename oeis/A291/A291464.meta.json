@@ -1,0 +1,26 @@
+{
+  "description": "Primes p such that p^3*q^3 + p^2 + q^2 is prime, where q is next prime after p.",
+  "id": "A291464",
+  "mentions": [
+    "A000040",
+    "A001043",
+    "A006094",
+    "A030078",
+    "A096342",
+    "A120398",
+    "A126148",
+    "A152241",
+    "A291339",
+    "A291374"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:06",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

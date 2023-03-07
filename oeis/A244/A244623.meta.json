@@ -1,0 +1,26 @@
+{
+  "description": "Odd prime powers that are not primes.",
+  "id": "A244623",
+  "mentions": [
+    "A005408",
+    "A014076",
+    "A025475",
+    "A061345",
+    "A061346",
+    "A062739",
+    "A075109",
+    "A079290",
+    "A136141"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:00",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

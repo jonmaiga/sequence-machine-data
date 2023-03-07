@@ -1,0 +1,22 @@
+{
+  "description": "Number of partitions of n^4 into exactly n nonzero fourth powers.",
+  "id": "A307644",
+  "mentions": [
+    "A000583",
+    "A259793",
+    "A299169",
+    "A299195",
+    "A307643",
+    "A319435"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

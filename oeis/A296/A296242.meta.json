@@ -1,0 +1,20 @@
+{
+  "description": "Slideable numbers: each digit d can be displaced by d positions either to the left or to the right, without creating a hole or an \"overlap\".",
+  "id": "A296242",
+  "mentions": [
+    "A010785",
+    "A295010",
+    "A296236"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:15",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

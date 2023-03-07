@@ -1,0 +1,21 @@
+{
+  "description": "Irregular triangle T(n, j) giving in row n the positive integer areas of all non-right angle triangles (X(n)_j, Y(n)_j, Z(n)), with X(n)_j = sqrt(x(n)_j), Y(n)_j = sqrt(y(n)_j), and Z(n) = sqrt(z(n)), and positive integers 1 <= x(n)_j <= y(n)_j <= z(n), for j = 1, 2,..., A336886. hence z(n) = A334818(n), for n >= 1.",
+  "id": "A336887",
+  "mentions": [
+    "A334818",
+    "A336885",
+    "A336886"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-entry"
+  }
+}

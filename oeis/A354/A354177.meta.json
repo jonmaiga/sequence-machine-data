@@ -1,0 +1,17 @@
+{
+  "description": "Numbers m such that the four consecutive primes starting at m are congruent to {2, 3, 5, 7} (mod 11).",
+  "id": "A354177",
+  "mentions": [
+    "A167134"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

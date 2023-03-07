@@ -1,0 +1,21 @@
+{
+  "description": "Digital root of n + (n+1)^2.",
+  "id": "A275704",
+  "mentions": [
+    "A010888",
+    "A028387"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:27:05",
+    "offset": 0,
+    "size": 121,
+    "source": "joeis"
+  }
+}

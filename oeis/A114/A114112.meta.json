@@ -1,0 +1,28 @@
+{
+  "description": "a(1)=1, a(2)=2; thereafter a(n) = n+1 if n odd, n-1 if n even.",
+  "id": "A114112",
+  "mentions": [
+    "A014681",
+    "A033999",
+    "A084265",
+    "A103889",
+    "A113981",
+    "A114113",
+    "A114285",
+    "A141310",
+    "A237420",
+    "A354008"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:44:25",
+    "offset": 1,
+    "size": 72,
+    "source": "joeis"
+  }
+}

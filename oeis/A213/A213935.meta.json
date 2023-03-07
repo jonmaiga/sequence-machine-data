@@ -1,0 +1,24 @@
+{
+  "description": "Triangle with entry a(n,m) giving the total number of necklaces of n beads (C_n symmetry) with n colors available for each bead, but only m distinct colors present, with m from {1, 2, ..., n} and n >= 1.",
+  "id": "A213935",
+  "mentions": [
+    "A008284",
+    "A056665",
+    "A075195",
+    "A212359",
+    "A212360"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Irregular triangle read row by row. The k-th row are integers from 0 to 2^k-1 in base 2 ordered in graded reverse lexicographical order.",
+  "id": "A359941",
+  "mentions": [
+    "A023443",
+    "A082185",
+    "A360302"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "changed",
+    "easy",
+    "formulas",
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:34",
+    "offset": 0,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Primes p such that sigma(p-1) is odd.",
+  "id": "A249410",
+  "mentions": [
+    "A000203",
+    "A002496",
+    "A058501",
+    "A090698"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:06",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Nonnegative integers with an even number of even powers of 2 in their base-2 representation.",
+  "id": "A158704",
+  "mentions": [
+    "A000069",
+    "A001969",
+    "A112539",
+    "A157971",
+    "A158705"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:41",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

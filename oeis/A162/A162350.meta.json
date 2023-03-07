@@ -1,0 +1,31 @@
+{
+  "description": "The path of the primes: Pairs (x,y) such that the points P(x,y) represent the position of the nonnegative integers in the graph of the \"mountain path\" function for prime numbers.",
+  "id": "A162350",
+  "mentions": [
+    "A000040",
+    "A006005",
+    "A008578",
+    "A162200",
+    "A162201",
+    "A162202",
+    "A162203",
+    "A162340",
+    "A162341",
+    "A162342",
+    "A162343",
+    "A162344",
+    "A162351",
+    "A162352"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 74,
+    "source": "oeis-entry"
+  }
+}

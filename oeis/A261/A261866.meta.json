@@ -1,0 +1,26 @@
+{
+  "description": "Expansion of (G(-x) / chi(-x))^2 in powers of x where chi() is a Ramanujan theta function and G() is a Rogers-Ramanujan function.",
+  "id": "A261866",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A003106",
+    "A003114",
+    "A010054",
+    "A010815",
+    "A121373",
+    "A122134",
+    "A147699"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 22:03:53",
+    "offset": 0,
+    "size": 45,
+    "source": "joeis"
+  }
+}

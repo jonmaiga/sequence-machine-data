@@ -1,0 +1,19 @@
+{
+  "description": "(Digit sum of 5^n) mod n.",
+  "id": "A175456",
+  "mentions": [
+    "A000351",
+    "A066001"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:11",
+    "offset": 1,
+    "size": 100,
+    "source": "joeis"
+  }
+}

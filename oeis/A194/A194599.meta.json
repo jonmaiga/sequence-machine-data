@@ -1,0 +1,21 @@
+{
+  "description": "Units' digits of the nonzero hexagonal numbers.",
+  "id": "A194599",
+  "mentions": [
+    "A000384",
+    "A010879"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:06:49",
+    "offset": 1,
+    "size": 100,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of the greatest real zero of x^4 - 4*x^2 - x + 3.",
+  "id": "A298852",
+  "mentions": [
+    "A298853"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:21",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

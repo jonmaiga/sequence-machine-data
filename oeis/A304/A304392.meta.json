@@ -1,0 +1,19 @@
+{
+  "description": "Numbers without a digit 1 with digits in nondecreasing order and the product of digits is a power of 6.",
+  "id": "A304392",
+  "mentions": [
+    "A009994",
+    "A276038"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:29",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Irregular triangle read by rows: T(n, m) = total number of times the different values appear in row n of A280269, where 0 <= m <= A280274(n).",
+  "id": "A294306",
+  "mentions": [
+    "A000005",
+    "A010846",
+    "A162306",
+    "A243822",
+    "A280269",
+    "A280274"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:12",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Non-Fibonacci numbers with non-Fibonacci number of divisors.",
+  "id": "A139587",
+  "mentions": [
+    "A000005",
+    "A000045",
+    "A001690",
+    "A139095",
+    "A139586",
+    "A139588",
+    "A139589",
+    "A139590"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:27",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Triangle read by rows: numerators of Cotesian numbers C(n,k) (0 <= k <= n).",
+  "id": "A100640",
+  "mentions": [
+    "A002176",
+    "A002177",
+    "A100620",
+    "A100621",
+    "A100641",
+    "A100648"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "frac",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:28:01",
+    "offset": 0,
+    "size": 59,
+    "source": "joeis"
+  }
+}

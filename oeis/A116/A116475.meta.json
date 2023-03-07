@@ -1,0 +1,19 @@
+{
+  "description": "Equal divisions of the octave with progressively increasing consistency limits and distinct approximations for all the ratios in the tonality diamond of that limit.",
+  "id": "A116475",
+  "mentions": [
+    "A116474",
+    "A117577",
+    "A117578"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

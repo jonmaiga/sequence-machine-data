@@ -1,0 +1,19 @@
+{
+  "description": "Incidences of n such that A006862(n) - n! is prime where A006862 are the Euclid numbers.",
+  "id": "A216205",
+  "mentions": [
+    "A006862",
+    "A014545"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

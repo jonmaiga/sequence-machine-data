@@ -1,0 +1,21 @@
+{
+  "description": "Start of record runs with lambda(k) = lambda(k+1) = ..., where lambda is Liouville's function A008836.",
+  "id": "A233445",
+  "mentions": [
+    "A008836",
+    "A066793",
+    "A066794",
+    "A175201",
+    "A233459"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

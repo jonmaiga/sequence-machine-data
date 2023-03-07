@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that neither n nor 2*n is representable as x*y+x+y, where x>=y>1.",
+  "id": "A256230",
+  "mentions": [
+    "A064238",
+    "A237189",
+    "A254636",
+    "A255362"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

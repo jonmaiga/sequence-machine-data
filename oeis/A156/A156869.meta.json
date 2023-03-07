@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(n,k) = number of nondecreasing sequences of n positive integers with reciprocals adding up to k (1 <= k <= n).",
+  "id": "A156869",
+  "mentions": [
+    "A002966",
+    "A156870",
+    "A156871",
+    "A280519",
+    "A280520"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

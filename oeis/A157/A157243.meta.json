@@ -1,0 +1,22 @@
+{
+  "description": "Triangle T(n, k) = A001263(n*f(n,k) + 1, f(n,k) + 1), where f(n, k) = k if k <= floor(n/2) otherwise n-k, read by rows.",
+  "id": "A157243",
+  "mentions": [
+    "A000217",
+    "A001263",
+    "A157219",
+    "A157221"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:39",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n)/2 is the smallest possible area of a non-obtuse triangle with integer coordinates in the plane and with shortest side of length sqrt(A001481(n+1)).",
+  "id": "A344845",
+  "mentions": [
+    "A001481",
+    "A344710"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

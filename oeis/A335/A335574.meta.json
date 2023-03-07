@@ -1,0 +1,22 @@
+{
+  "description": "Numbers of the form 16n^2 + 32n + 15 for which the central region of its symmetric representation of sigma consists of two subparts of sizes 4n+7 and 4n+1, n>=0.",
+  "id": "A335574",
+  "mentions": [
+    "A141759",
+    "A235791",
+    "A237270",
+    "A237593",
+    "A279387"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

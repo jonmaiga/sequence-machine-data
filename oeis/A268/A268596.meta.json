@@ -1,0 +1,18 @@
+{
+  "description": "Values of prime q corresponding to terms in A268594.",
+  "id": "A268596",
+  "mentions": [
+    "A268594",
+    "A268595"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

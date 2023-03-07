@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = A268819(n) mod 8.",
+  "id": "A290108",
+  "mentions": [
+    "A010877",
+    "A165471",
+    "A268728",
+    "A268819",
+    "A269157"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:05",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

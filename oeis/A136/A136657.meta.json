@@ -1,0 +1,21 @@
+{
+  "description": "Unsigned member s=2 of a family of generalizations of the (signed) Lah triangle A008297. All numbers divided by 2.",
+  "id": "A136657",
+  "mentions": [
+    "A008297",
+    "A136656"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

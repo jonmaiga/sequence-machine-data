@@ -1,0 +1,17 @@
+{
+  "description": "Number of 4Xn arrays containing n copies of 0..4-1 with every element equal to at least one vertical or antidiagonal neighbor and the top left element equal to 0.",
+  "id": "A268161",
+  "mentions": [
+    "A268159"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:30",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

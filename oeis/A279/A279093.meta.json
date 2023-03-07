@@ -1,0 +1,29 @@
+{
+  "description": "Numbers that are nontrivially palindromic in three or more consecutive integer bases.",
+  "id": "A279093",
+  "mentions": [
+    "A002113",
+    "A029965",
+    "A029966",
+    "A048268",
+    "A060792",
+    "A097928",
+    "A097929",
+    "A097930",
+    "A097931",
+    "A099145",
+    "A099146",
+    "A279092"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:46",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

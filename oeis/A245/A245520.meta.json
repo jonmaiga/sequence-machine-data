@@ -1,0 +1,25 @@
+{
+  "description": "Index of the smallest prime where n consecutive leading binary digits of the index match n consecutive leading binary digits in the prime.",
+  "id": "A245520",
+  "mentions": [
+    "A133583",
+    "A133584",
+    "A133589",
+    "A133590",
+    "A245521",
+    "A245522",
+    "A245523"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = Sum_{k=0..n} k^4*binomial(2*n-k,n).",
+  "id": "A302352",
+  "mentions": [
+    "A000538",
+    "A000583",
+    "A002054",
+    "A101089",
+    "A101090",
+    "A101091",
+    "A265612",
+    "A293550",
+    "A302353"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:26",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

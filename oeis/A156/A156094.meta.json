@@ -1,0 +1,27 @@
+{
+  "description": "5 F(2n) (F(2n) - 1) + 1 where F(n) denotes the n-th Fibonacci number.",
+  "id": "A156094",
+  "mentions": [
+    "A000032",
+    "A000045",
+    "A001603",
+    "A001604",
+    "A001906",
+    "A056854",
+    "A124296",
+    "A124297",
+    "A156095"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 13:03:51",
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

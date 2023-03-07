@@ -1,0 +1,20 @@
+{
+  "description": "a(2n)=A060632(n); a(2n+1)=A048896(n)/2.",
+  "id": "A127973",
+  "mentions": [
+    "A048896",
+    "A060632",
+    "A127972"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

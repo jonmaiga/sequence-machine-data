@@ -1,0 +1,17 @@
+{
+  "description": "Positions of difference 12 in A070195.",
+  "id": "A335200",
+  "mentions": [
+    "A070195"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

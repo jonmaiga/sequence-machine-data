@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of 3*Pi.",
+  "id": "A122952",
+  "mentions": [
+    "A000796",
+    "A019669",
+    "A019692",
+    "A019694",
+    "A093828",
+    "A180434",
+    "A197723"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:31:53",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

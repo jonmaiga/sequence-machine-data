@@ -1,0 +1,18 @@
+{
+  "description": "Total capacity of unrestricted compositions of n.",
+  "id": "A350413",
+  "mentions": [
+    "A201126",
+    "A285766"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

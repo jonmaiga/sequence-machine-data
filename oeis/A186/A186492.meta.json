@@ -1,0 +1,23 @@
+{
+  "description": "Recursive triangle for calculating A186491.",
+  "id": "A186492",
+  "mentions": [
+    "A104035",
+    "A142459",
+    "A144015",
+    "A186491"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

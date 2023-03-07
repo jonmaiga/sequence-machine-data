@@ -1,0 +1,20 @@
+{
+  "description": "Triangle sequence: t(n,m)=Product[m*k, {k, 1, n}].",
+  "id": "A153188",
+  "mentions": [
+    "A000165",
+    "A008544"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

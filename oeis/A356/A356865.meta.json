@@ -1,0 +1,21 @@
+{
+  "description": "Minimal absolute value of determinant of a nonsingular n X n symmetric Toeplitz matrix using the integers 1 to n.",
+  "id": "A356865",
+  "mentions": [
+    "A348891",
+    "A350953",
+    "A350954"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

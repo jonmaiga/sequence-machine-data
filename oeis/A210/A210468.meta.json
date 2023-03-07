@@ -1,0 +1,18 @@
+{
+  "description": "Collatz (3x+1) problem with rational numbers: number of steps to reach the end of the cycle starting with 1/(2n+1).",
+  "id": "A210468",
+  "mentions": [
+    "A006577"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:29",
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

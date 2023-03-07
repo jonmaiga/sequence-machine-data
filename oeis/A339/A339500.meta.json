@@ -1,0 +1,19 @@
+{
+  "description": "Maximum length of sequences of prime numbers that start with prime(n) and are arithmetic progressions of common difference less than prime(n).",
+  "id": "A339500",
+  "mentions": [
+    "A000040",
+    "A339501"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-entry"
+  }
+}

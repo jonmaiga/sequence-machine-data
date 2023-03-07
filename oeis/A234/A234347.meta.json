@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = |{0 < k < n: 3^k + 3^{phi(n-k)/2} - 1 is prime}|, where phi(.) is Euler's totient function.",
+  "id": "A234347",
+  "mentions": [
+    "A000010",
+    "A000040",
+    "A000244",
+    "A234309",
+    "A234310",
+    "A234337",
+    "A234344",
+    "A234346"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:52",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

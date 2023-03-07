@@ -1,0 +1,19 @@
+{
+  "description": "Highly regular numbers a(n) defined as positions of records in A010846: a(1) = 1 and a(n) is the least number k > a(n-1) such that A010846(k) > A010846(a(n-1)).",
+  "id": "A244052",
+  "mentions": [
+    "A002182",
+    "A010846",
+    "A244053"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:00",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

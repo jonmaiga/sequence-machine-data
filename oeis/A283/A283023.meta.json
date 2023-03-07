@@ -1,0 +1,30 @@
+{
+  "description": "Expansion of f(-x, -x^5)^2 / (f(x^2, x^10) * f(x^6, x^18)) in powers of x where f(, ) is Ramanujan's general theta function.",
+  "id": "A283023",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A010054",
+    "A010815",
+    "A029838",
+    "A081055",
+    "A081056",
+    "A083365",
+    "A121373",
+    "A134178",
+    "A258741",
+    "A258939",
+    "A259774"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:47:47",
+    "offset": 0,
+    "size": 63,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Nonnegative values x of solutions (x, y) to the Diophantine equation x^2+(x+137)^2 = y^2.",
+  "id": "A129544",
+  "mentions": [
+    "A001652",
+    "A129288",
+    "A129289",
+    "A129298",
+    "A157213",
+    "A157214",
+    "A157215",
+    "A157216"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:36:38",
+    "offset": 1,
+    "size": 31,
+    "source": "joeis"
+  }
+}

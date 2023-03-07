@@ -1,0 +1,35 @@
+{
+  "description": "\"Letter A\" toothpick sequence (see Comments for precise definition).",
+  "id": "A323646",
+  "mentions": [
+    "A139250",
+    "A160730",
+    "A168112",
+    "A194270",
+    "A194700",
+    "A220500",
+    "A289840",
+    "A290220",
+    "A292612",
+    "A294020",
+    "A294962",
+    "A294980",
+    "A296612",
+    "A299770",
+    "A323647",
+    "A323650",
+    "A327330",
+    "A327332"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

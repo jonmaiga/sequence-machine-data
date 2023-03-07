@@ -1,0 +1,23 @@
+{
+  "description": "Triangle T(n,k) = binomial(n, k) with T(n, 0) = 2, read by rows.",
+  "id": "A132749",
+  "mentions": [
+    "A007318",
+    "A083318",
+    "A103451"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "less",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:20",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

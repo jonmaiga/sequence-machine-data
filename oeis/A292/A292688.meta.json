@@ -1,0 +1,18 @@
+{
+  "description": "Antidiagonals of the Sierpinski carpet (as binary numbers).",
+  "id": "A292688",
+  "mentions": [
+    "A153490",
+    "A292689"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

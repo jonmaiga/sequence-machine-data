@@ -1,0 +1,18 @@
+{
+  "description": "Define a(0)=3; then a(n)=k*a(n-1)^2-1=least prime first of twin primes.",
+  "id": "A112879",
+  "mentions": [
+    "A112880"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

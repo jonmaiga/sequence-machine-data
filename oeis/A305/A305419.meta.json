@@ -1,0 +1,23 @@
+{
+  "description": "Largest k < n whose binary expansion encodes an irreducible (0,1)-polynomial over GF(2)[X], with a(1) = a(2) = 1.",
+  "id": "A305419",
+  "mentions": [
+    "A014580",
+    "A091225",
+    "A136548",
+    "A151799",
+    "A305420",
+    "A305422",
+    "A305429"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:29",
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

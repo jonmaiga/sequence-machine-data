@@ -1,0 +1,21 @@
+{
+  "description": "a(1) = 1; for n>1, a(n) = smallest divisor d of a(n-1) not yet present in the sequence. If no such d exists, a(n) = 2*A007947(a(n-1)) + 1.",
+  "id": "A349183",
+  "mentions": [
+    "A007947",
+    "A348871",
+    "A348872",
+    "A348873",
+    "A348881"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

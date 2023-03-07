@@ -1,0 +1,19 @@
+{
+  "description": "Nonunitary Zumkeller numbers (A335142) whose set of nonunitary divisors can be partitioned into two disjoint sets of equal sum in a record number of ways.",
+  "id": "A335144",
+  "mentions": [
+    "A083212",
+    "A335142",
+    "A335143"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

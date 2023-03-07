@@ -1,0 +1,32 @@
+{
+  "description": "Transposition sequence of the dispersion of the primes.",
+  "id": "A114538",
+  "mentions": [
+    "A006450",
+    "A007097",
+    "A007821",
+    "A018252",
+    "A049078",
+    "A049079",
+    "A049080",
+    "A049081",
+    "A057450",
+    "A057451",
+    "A057452",
+    "A057453",
+    "A057456",
+    "A057457",
+    "A114537"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

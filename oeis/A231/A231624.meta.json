@@ -1,0 +1,19 @@
+{
+  "description": "Smallest sets of 3 consecutive deficient numbers in arithmetic progression. The initial deficient number is listed.",
+  "id": "A231624",
+  "mentions": [
+    "A005100",
+    "A228844",
+    "A231623"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:49",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

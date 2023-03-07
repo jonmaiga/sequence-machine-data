@@ -1,0 +1,24 @@
+{
+  "description": "Triangular array of coefficients of polynomials p(n,k) defined in Comments",
+  "id": "A248664",
+  "mentions": [
+    "A153229",
+    "A248665",
+    "A248666",
+    "A248667",
+    "A248668",
+    "A248669"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:05",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

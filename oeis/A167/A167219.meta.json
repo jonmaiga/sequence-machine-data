@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that there exists a positive integer B for which k = Sum_{i=0..m} (B^i)*a_i where the a_i are defined by k = Product_{i=0..m} prime(i+1)^a_i.",
+  "id": "A167219",
+  "mentions": [
+    "A054841",
+    "A054842",
+    "A067255",
+    "A104244",
+    "A167221",
+    "A206284"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:50",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

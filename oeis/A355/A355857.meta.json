@@ -1,0 +1,21 @@
+{
+  "description": "The smallest number in A355852 whose binary value shares n out of n+1 bits with the concatenation of the binary values of its divisors' product.",
+  "id": "A355857",
+  "mentions": [
+    "A027750",
+    "A030190",
+    "A210959",
+    "A355852"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 5,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

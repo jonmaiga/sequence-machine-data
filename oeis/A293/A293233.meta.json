@@ -1,0 +1,25 @@
+{
+  "description": "a(1) = 1; and for n > 1, a(n) = mu(n) * a(floor(n/2)), where mu is the Moebius function A008683.",
+  "id": "A293233",
+  "mentions": [
+    "A000035",
+    "A008683",
+    "A025487",
+    "A032742",
+    "A055396",
+    "A292258",
+    "A292259",
+    "A293230",
+    "A293430"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:09",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

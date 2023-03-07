@@ -1,0 +1,21 @@
+{
+  "description": "Hankel transform of A078818.",
+  "id": "A218440",
+  "mentions": [
+    "A000447",
+    "A007272",
+    "A078818"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:03:23",
+    "offset": 0,
+    "size": 19,
+    "source": "joeis"
+  }
+}

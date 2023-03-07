@@ -1,0 +1,19 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) is the number of dominating subsets with cardinality k of the theta-graph TH(2,2,n) (n>=1, 1<=k<=n+3).",
+  "id": "A213654",
+  "mentions": [
+    "A213655"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

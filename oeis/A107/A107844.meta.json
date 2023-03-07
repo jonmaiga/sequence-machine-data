@@ -1,0 +1,20 @@
+{
+  "description": "Highest value obtained in the recursion of McCarthy's 91 function until it terminates.",
+  "id": "A107844",
+  "mentions": [
+    "A103847",
+    "A107843"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-entry"
+  }
+}

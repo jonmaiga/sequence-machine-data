@@ -1,0 +1,18 @@
+{
+  "description": "Multiples of 6 that are not the sum of two consecutive primes.",
+  "id": "A323138",
+  "mentions": [
+    "A001043",
+    "A008588"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

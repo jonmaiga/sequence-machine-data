@@ -1,0 +1,22 @@
+{
+  "description": "E.g.f. A(x) satisfies: (A(x)^2 - 4*x)^3 = (2 - A(x)^3)^2.",
+  "id": "A249786",
+  "mentions": [
+    "A007559",
+    "A249785",
+    "A249787",
+    "A249788",
+    "A249789"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:06",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that k and 2k use the same number of characters when expressed in Roman numerals.",
+  "id": "A160676",
+  "mentions": [
+    "A006968"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:42",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

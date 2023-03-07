@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of Madelung constant (negated) for the CsCl structure.",
+  "id": "A181152",
+  "mentions": [
+    "A020832",
+    "A085469",
+    "A088537",
+    "A090734",
+    "A185577"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

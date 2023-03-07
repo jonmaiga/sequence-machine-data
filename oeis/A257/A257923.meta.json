@@ -1,0 +1,22 @@
+{
+  "description": "Number of prime factors of the n-th Giuga number A007850(n).",
+  "id": "A257923",
+  "mentions": [
+    "A001221",
+    "A007850",
+    "A236434"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

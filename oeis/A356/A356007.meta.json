@@ -1,0 +1,17 @@
+{
+  "description": "Lexicographically earliest strictly increasing sequence of positive integers in which every triple of consecutive terms contains only one pair whose numbers of divisors are not coprime.",
+  "id": "A356007",
+  "mentions": [
+    "A353187"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

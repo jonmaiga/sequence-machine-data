@@ -1,0 +1,24 @@
+{
+  "description": "a(0)=0; thereafter a(n+1) = a(n) + 1 + number of 0's in binary representation of a(n), counted with A023416.",
+  "id": "A216431",
+  "mentions": [
+    "A010062",
+    "A023416",
+    "A080791",
+    "A214913",
+    "A233271",
+    "A233272"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:34",
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

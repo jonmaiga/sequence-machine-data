@@ -1,0 +1,19 @@
+{
+  "description": "Numbers X such that there exists Y in N : X^2 = 309*Y^2 + 103.",
+  "id": "A147525",
+  "mentions": [
+    "A147526"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:34",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-bfile"
+  }
+}

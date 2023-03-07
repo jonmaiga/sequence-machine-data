@@ -1,0 +1,22 @@
+{
+  "description": "Last nonzero decimal digit of (10^n)!.",
+  "id": "A173670",
+  "mentions": [
+    "A008904",
+    "A053824",
+    "A055476"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

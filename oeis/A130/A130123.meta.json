@@ -1,0 +1,30 @@
+{
+  "description": "Infinite lower triangular matrix with 2^k in the right diagonal and the rest zeros. Triangle, T(n,k), n zeros followed by the term 2^k. Triangle by columns, (2^k, 0, 0, 0, ...).",
+  "id": "A130123",
+  "mentions": [
+    "A000038",
+    "A002260",
+    "A007318",
+    "A013609",
+    "A038208",
+    "A084938",
+    "A128174",
+    "A130124",
+    "A130125",
+    "A264428",
+    "A357368"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:06:57",
+    "offset": 0,
+    "size": 91,
+    "source": "joeis"
+  }
+}

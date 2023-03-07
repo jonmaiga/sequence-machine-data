@@ -1,0 +1,17 @@
+{
+  "description": "Positive integers n such that the Zeckendorf (Fibonacci) representation of n^2 consists of two consecutive identical blocks.",
+  "id": "A290263",
+  "mentions": [
+    "A014417"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:05",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

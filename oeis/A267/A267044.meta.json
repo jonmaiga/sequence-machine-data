@@ -1,0 +1,19 @@
+{
+  "description": "Binary representation of the middle column of the \"Rule 91\" elementary cellular automaton starting with a single ON (black) cell.",
+  "id": "A267044",
+  "mentions": [
+    "A267015",
+    "A267045"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:28",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

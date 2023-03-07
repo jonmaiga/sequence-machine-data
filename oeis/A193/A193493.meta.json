@@ -1,0 +1,22 @@
+{
+  "description": "Put the natural numbers together without spaces and read them five at a time advancing one space each time.",
+  "id": "A193493",
+  "mentions": [
+    "A007376",
+    "A136414",
+    "A193431",
+    "A193492"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

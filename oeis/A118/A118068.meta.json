@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that A103557(k)*((prime(k)#)^2) - 1 is a Sophie Germain prime, where prime(k)# is the k-th primorial.",
+  "id": "A118068",
+  "mentions": [
+    "A002110",
+    "A005384",
+    "A103557"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

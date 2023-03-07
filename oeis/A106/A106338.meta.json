@@ -1,0 +1,23 @@
+{
+  "description": "Triangle T, read by rows, equal to the matrix inverse of the triangle defined by [T^-1](n,k) = A075263(n,k)/n!, for n>=k>=0.",
+  "id": "A106338",
+  "mentions": [
+    "A002206",
+    "A008278",
+    "A075263",
+    "A106339",
+    "A106340"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Repeatedly map numbers to number of letters in English name (A005589); sequence gives first number that needs n steps to get to 4.",
+  "id": "A227290",
+  "mentions": [
+    "A005589",
+    "A016037"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

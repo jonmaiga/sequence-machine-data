@@ -1,0 +1,19 @@
+{
+  "description": "Primes of the form 5^n + n^4.",
+  "id": "A182359",
+  "mentions": [
+    "A075901",
+    "A075983",
+    "A182329"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

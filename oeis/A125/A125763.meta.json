@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that k^2 is a term of A120329.",
+  "id": "A125763",
+  "mentions": [
+    "A120329",
+    "A120492",
+    "A121166"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Weight distribution of [72,36,16] doubly-even binary self-dual extended quadratic-residue (or QR) code.",
+  "id": "A120373",
+  "mentions": [
+    "A018236"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of (n,1)-polyominoes.",
+  "id": "A286344",
+  "mentions": [
+    "A286194",
+    "A286345"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

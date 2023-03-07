@@ -1,0 +1,18 @@
+{
+  "description": "Smallest number k such that k^2 begins with n^3.",
+  "id": "A197722",
+  "mentions": [
+    "A138173"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

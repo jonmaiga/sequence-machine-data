@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = 2 * Integral_{t>=0} T_n((t-1)/2) * exp(-t) * dt, n>=0, where T_n(x) is n-th Chebyshev polynomial of first kind.",
+  "id": "A300485",
+  "mentions": [
+    "A000166",
+    "A102761",
+    "A127672",
+    "A300480",
+    "A300481",
+    "A300482",
+    "A300483",
+    "A300484"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

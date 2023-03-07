@@ -1,0 +1,22 @@
+{
+  "description": "Number of distinct prime factors prime(k) of n such that prime(k)^k, but not prime(k)^(k+1) is a divisor of n.",
+  "id": "A276935",
+  "mentions": [
+    "A028234",
+    "A055396",
+    "A067029",
+    "A276077",
+    "A276936"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

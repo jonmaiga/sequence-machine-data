@@ -1,0 +1,20 @@
+{
+  "description": "Array: row n shows the coefficients of the characteristic polynomial of the n-th principal submatrix of floor[(i+j)/2], as in A204164.",
+  "id": "A204165",
+  "mentions": [
+    "A202605",
+    "A204016",
+    "A204164"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:05:59",
+    "offset": 1,
+    "size": 75,
+    "source": "joeis"
+  }
+}

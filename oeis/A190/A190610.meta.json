@@ -1,0 +1,18 @@
+{
+  "description": "a(1)=a(2)=1; thereafter a(n) = a(ceiling(n/2))-a(floor(n/2)).",
+  "id": "A190610",
+  "mentions": [
+    "A190608",
+    "A190609"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 101,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Integers for which there exists a self-repetition that is a term of A338166.",
+  "id": "A338371",
+  "mentions": [
+    "A338038",
+    "A338039",
+    "A338166"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

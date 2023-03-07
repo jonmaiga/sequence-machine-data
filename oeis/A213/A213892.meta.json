@@ -1,0 +1,31 @@
+{
+  "description": "Fixed points of a sequence h(n) defined by the minimum number of 3's in the relation n*[n,3,3,...,3,n] = [x,...,x] between simple continued fractions.",
+  "id": "A213892",
+  "mentions": [
+    "A000057",
+    "A003688",
+    "A006190",
+    "A052924",
+    "A213358",
+    "A213648",
+    "A213891",
+    "A213893",
+    "A213899",
+    "A213900",
+    "A261311",
+    "A262211",
+    "A262212",
+    "A262213",
+    "A262220"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

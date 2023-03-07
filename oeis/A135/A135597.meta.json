@@ -1,0 +1,29 @@
+{
+  "description": "Square array read by antidiagonals: row m (m >= 1) satisfies b(0) = b(1) = 1; b(n) = m*b(n-1) + b(n-2):",
+  "id": "A135597",
+  "mentions": [
+    "A000045",
+    "A001333",
+    "A003688",
+    "A015448",
+    "A015449",
+    "A015451",
+    "A015453",
+    "A015457",
+    "A121875",
+    "A287376"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:23",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

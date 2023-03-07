@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the minimum number of connected endofunctions that are spanning subgraphs of a semi-regular loopless digraph on n vertices each with out-degree k.",
+  "id": "A359686",
+  "mentions": [
+    "A000435",
+    "A359628"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "more",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 2,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

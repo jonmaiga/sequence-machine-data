@@ -1,0 +1,24 @@
+{
+  "description": "a(n) is the minimal determinant of an n X n Hermitian Toeplitz matrix using all the integers 1, 2, ..., n and with all off-diagonal elements purely imaginary.",
+  "id": "A359614",
+  "mentions": [
+    "A350953",
+    "A359559",
+    "A359561",
+    "A359615",
+    "A359616",
+    "A359617"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "hard",
+    "more",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

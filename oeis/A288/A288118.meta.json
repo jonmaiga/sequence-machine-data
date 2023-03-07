@@ -1,0 +1,18 @@
+{
+  "description": "Lexicographically earliest sequence of distinct positive terms such that, for any i and j > 0, a(i*j) != a(i) * a(j).",
+  "id": "A288118",
+  "mentions": [
+    "A007421",
+    "A288119"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:00",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

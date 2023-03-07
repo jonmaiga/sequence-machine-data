@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that exactly two of {k-2, k-1, k+1, k+2} are primes.",
+  "id": "A168063",
+  "mentions": [
+    "A014574",
+    "A087679"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:52",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

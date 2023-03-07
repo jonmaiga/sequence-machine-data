@@ -1,0 +1,18 @@
+{
+  "description": "Least number of prime powers greater than 1 needed to sum up to n, or 0 if n cannot be represented as a sum of prime powers.",
+  "id": "A225927",
+  "mentions": [
+    "A025475",
+    "A225926"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

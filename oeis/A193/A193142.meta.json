@@ -1,0 +1,22 @@
+{
+  "description": "Primes which are the sum of 5 distinct positive squares.",
+  "id": "A193142",
+  "mentions": [
+    "A000040",
+    "A004434",
+    "A085317",
+    "A193141",
+    "A193143"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

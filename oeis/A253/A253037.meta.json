@@ -1,0 +1,18 @@
+{
+  "description": "Number of (n+2)X(1+2) 0..3 arrays with every consecutive three elements in every row, column, diagonal and antidiagonal having exactly two distinct values, and new values 0 upwards introduced in row major order",
+  "id": "A253037",
+  "mentions": [
+    "A253044"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:11",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

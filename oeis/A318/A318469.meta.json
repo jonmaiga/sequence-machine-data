@@ -1,0 +1,28 @@
+{
+  "description": "Multiplicative with a(p^e) = A019565(A003714(e)).",
+  "id": "A318469",
+  "mentions": [
+    "A001222",
+    "A003714",
+    "A019565",
+    "A072649",
+    "A293442",
+    "A293443",
+    "A300834",
+    "A318464",
+    "A318465",
+    "A318470"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:39",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

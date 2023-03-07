@@ -1,0 +1,23 @@
+{
+  "description": "Look-and-repeat: similar to look-and-say except frequency is repeated.",
+  "id": "A225329",
+  "mentions": [
+    "A005150",
+    "A221646",
+    "A225212",
+    "A225224",
+    "A225330",
+    "A225331"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

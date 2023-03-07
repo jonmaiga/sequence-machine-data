@@ -1,0 +1,28 @@
+{
+  "description": "a(n) is conjectured to be the largest power k for which k divides the sum of digits of n^k.",
+  "id": "A220365",
+  "mentions": [
+    "A062927",
+    "A062933",
+    "A067862",
+    "A067863",
+    "A067864",
+    "A175169",
+    "A175525",
+    "A175552",
+    "A175589",
+    "A220364"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

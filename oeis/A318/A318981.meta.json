@@ -1,0 +1,24 @@
+{
+  "description": "Numbers whose prime indices plus 1 are relatively prime.",
+  "id": "A318981",
+  "mentions": [
+    "A000837",
+    "A007359",
+    "A018783",
+    "A281116",
+    "A289508",
+    "A289509",
+    "A318978",
+    "A318980"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

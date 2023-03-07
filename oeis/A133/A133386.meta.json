@@ -1,0 +1,21 @@
+{
+  "description": "Number of forests of labeled rooted trees with n nodes, containing exactly 2 trees of height one, all others having height zero.",
+  "id": "A133386",
+  "mentions": [
+    "A000248",
+    "A058877",
+    "A133399",
+    "A198204"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:21",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

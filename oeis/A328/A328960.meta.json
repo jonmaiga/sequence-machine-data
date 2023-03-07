@@ -1,0 +1,26 @@
+{
+  "description": "Number of integer partitions of n whose number of nontrivial submultisets is greater than their number of distinct parts times their number of parts minus 1.",
+  "id": "A328960",
+  "mentions": [
+    "A008284",
+    "A032741",
+    "A116608",
+    "A307409",
+    "A320632",
+    "A328956",
+    "A328958",
+    "A328959",
+    "A328961",
+    "A328963"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of ordered unlabeled rooted trees with n nodes such that the minimal outdegree of inner nodes equals 9.",
+  "id": "A244538",
+  "mentions": [
+    "A244463",
+    "A244530"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:00",
+    "offset": 10,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

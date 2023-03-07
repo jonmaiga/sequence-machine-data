@@ -1,0 +1,21 @@
+{
+  "description": "Number of integer-sided quadrilaterals having perimeter n, modulo rotations but not reflections.",
+  "id": "A293821",
+  "mentions": [
+    "A008742",
+    "A293819",
+    "A293820",
+    "A293822"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 4,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

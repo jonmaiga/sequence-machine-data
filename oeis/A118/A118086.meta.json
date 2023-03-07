@@ -1,0 +1,19 @@
+{
+  "description": "Number of ways 3/2 is a product of n superparticular ratios, without regard to order. A superparticular ratio is a ratio of the form m/(m-1).",
+  "id": "A118086",
+  "mentions": [
+    "A085098"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

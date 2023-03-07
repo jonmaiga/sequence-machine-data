@@ -1,0 +1,25 @@
+{
+  "description": "Prime numbers p such that the set of composite numbers in the range [p+1, nextprime(p)-1] has more than one element and all the elements have the same number of divisors.",
+  "id": "A332740",
+  "mentions": [
+    "A000005",
+    "A075580",
+    "A075583",
+    "A075584",
+    "A075585",
+    "A075586",
+    "A075587",
+    "A075588",
+    "A075589"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:02",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

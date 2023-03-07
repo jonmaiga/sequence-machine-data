@@ -1,0 +1,40 @@
+{
+  "description": "a(n) is the product of the sum of the first i digits of n, as i goes from 1 to the total number of digits of n.",
+  "id": "A349194",
+  "mentions": [
+    "A000079",
+    "A000142",
+    "A000244",
+    "A000533",
+    "A001147",
+    "A002275",
+    "A007559",
+    "A007953",
+    "A011557",
+    "A055642",
+    "A059995",
+    "A090843",
+    "A093136",
+    "A093138",
+    "A097166",
+    "A133384",
+    "A284001",
+    "A349190",
+    "A349278",
+    "A349898",
+    "A349899"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:23",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

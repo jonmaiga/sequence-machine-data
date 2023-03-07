@@ -1,0 +1,21 @@
+{
+  "description": "The exponent of the highest power of 2 dividing (A019565(n) - 1).",
+  "id": "A339813",
+  "mentions": [
+    "A007814",
+    "A019565",
+    "A339809",
+    "A339814"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:12",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

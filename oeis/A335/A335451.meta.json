@@ -1,0 +1,36 @@
+{
+  "description": "Number of permutations of the prime indices of n with all equal parts contiguous and none appearing more than twice.",
+  "id": "A335451",
+  "mentions": [
+    "A001221",
+    "A003242",
+    "A008480",
+    "A056239",
+    "A056986",
+    "A112798",
+    "A118914",
+    "A124010",
+    "A181796",
+    "A333175",
+    "A333221",
+    "A333489",
+    "A335446",
+    "A335448",
+    "A335452",
+    "A335460",
+    "A335462",
+    "A335463",
+    "A335489"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

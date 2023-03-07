@@ -1,0 +1,21 @@
+{
+  "description": "Numbers that are values of the reduced totient function (A002174) but not of the totient function (A002202).",
+  "id": "A270266",
+  "mentions": [
+    "A000010",
+    "A002174",
+    "A002202",
+    "A002322",
+    "A270265"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

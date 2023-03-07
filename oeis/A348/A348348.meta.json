@@ -1,0 +1,22 @@
+{
+  "description": "Smallest k such that the numbers j*k - 1 and j*k + 1 are prime for 1 <= j <= n.",
+  "id": "A348348",
+  "mentions": [
+    "A014574",
+    "A066388",
+    "A118859",
+    "A118860",
+    "A349321"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

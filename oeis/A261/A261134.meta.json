@@ -1,0 +1,20 @@
+{
+  "description": "Number of partitions of subsets s of {1,...,n}, where all integers belonging to a run of consecutive members of s are required to be in different parts.",
+  "id": "A261134",
+  "mentions": [
+    "A247100",
+    "A261041",
+    "A261489",
+    "A261492"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:20",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

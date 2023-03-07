@@ -1,0 +1,17 @@
+{
+  "description": "Lesser twin prime p such that p^2-p-2 is the average of a larger twin prime pair.",
+  "id": "A231652",
+  "mentions": [
+    "A001359"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:49",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

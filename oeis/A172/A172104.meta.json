@@ -1,0 +1,19 @@
+{
+  "description": "Partial sums of A167021 where A167021(n)=1 iff 6*n+1 is prime.",
+  "id": "A172104",
+  "mentions": [
+    "A002476",
+    "A167021",
+    "A172103"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

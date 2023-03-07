@@ -1,0 +1,25 @@
+{
+  "description": "Number of proper divisors of n that are in Perrin sequence, A001608.",
+  "id": "A294879",
+  "mentions": [
+    "A001608",
+    "A008578",
+    "A014981",
+    "A074788",
+    "A293433",
+    "A293435",
+    "A294878",
+    "A294880"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:13",
+    "offset": 1,
+    "size": 121,
+    "source": "oeis-bfile"
+  }
+}

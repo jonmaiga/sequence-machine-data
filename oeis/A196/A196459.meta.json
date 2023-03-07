@@ -1,0 +1,19 @@
+{
+  "description": "E.g.f.: A(x) = Sum_{n>=0} (2^n + 3^n)^n * exp((5*2^n + 2*3^n)*x) * x^n/n!.",
+  "id": "A196459",
+  "mentions": [
+    "A138247",
+    "A196460"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that sigma_3(n) > sigma_3(k) for all k < n.",
+  "id": "A193989",
+  "mentions": [
+    "A001158",
+    "A002093",
+    "A193988"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

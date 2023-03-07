@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = (Product_{i=1..7} n^i+i) / 7!.",
+  "id": "A131677",
+  "mentions": [
+    "A000027",
+    "A064808",
+    "A129995",
+    "A131509",
+    "A131675",
+    "A131680",
+    "A131685"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:19",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

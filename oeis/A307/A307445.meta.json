@@ -1,0 +1,22 @@
+{
+  "description": "Dirichlet g.f.: 1 / (zeta(s) * zeta(2*s)).",
+  "id": "A307445",
+  "mentions": [
+    "A007427",
+    "A008683",
+    "A008966",
+    "A271102"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "mult",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:32",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

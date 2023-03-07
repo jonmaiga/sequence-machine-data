@@ -1,0 +1,18 @@
+{
+  "description": "Number of balanced binary words of length n whose index is less than (5 + sqrt(5))/2.",
+  "id": "A293495",
+  "mentions": [
+    "A003849",
+    "A005598"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

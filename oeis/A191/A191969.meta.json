@@ -1,0 +1,22 @@
+{
+  "description": "Numbers that are indices of deficient oblong numbers (A002378).",
+  "id": "A191969",
+  "mentions": [
+    "A002378",
+    "A005100",
+    "A005101",
+    "A077804",
+    "A124672"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:15",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

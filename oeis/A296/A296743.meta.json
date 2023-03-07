@@ -1,0 +1,31 @@
+{
+  "description": "Expansion of e.g.f. arctanh(x*sec(x)) (odd powers only).",
+  "id": "A296743",
+  "mentions": [
+    "A003700",
+    "A009118",
+    "A009119",
+    "A009562",
+    "A009563",
+    "A009765",
+    "A009843",
+    "A010050",
+    "A102075",
+    "A191003",
+    "A296465",
+    "A296467",
+    "A296741",
+    "A296742"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 00:31:04",
+    "offset": 0,
+    "size": 15,
+    "source": "joeis"
+  }
+}

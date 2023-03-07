@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of the volume of an icosahedron with unit edge length.",
+  "id": "A102208",
+  "mentions": [
+    "A001622",
+    "A020829",
+    "A071402",
+    "A102769",
+    "A131594"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 18:52:41",
+    "offset": 1,
+    "size": 100,
+    "source": "joeis"
+  }
+}

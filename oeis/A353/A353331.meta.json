@@ -1,0 +1,28 @@
+{
+  "description": "a(n) = 1 if A001222(n) [bigomega(n)] and A056239(n) are both even, otherwise a(n) = 0.",
+  "id": "A353331",
+  "mentions": [
+    "A000290",
+    "A001222",
+    "A003961",
+    "A008836",
+    "A056239",
+    "A340784",
+    "A348717",
+    "A353269",
+    "A353332",
+    "A353333",
+    "A353334"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:27",
+    "offset": 1,
+    "size": 121,
+    "source": "oeis-bfile"
+  }
+}

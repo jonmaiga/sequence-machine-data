@@ -1,0 +1,20 @@
+{
+  "description": "Biprimatic permutable numbers: Decimal numbers whose digits can be arranged to form exactly two prime numbers. No leading zeros.",
+  "id": "A246043",
+  "mentions": [
+    "A245808",
+    "A246044",
+    "A246045"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:02",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

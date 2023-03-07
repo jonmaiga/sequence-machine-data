@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = (n!)^n * [x^n] exp(-Sum_{k>=1} (-x)^k / (k!)^n).",
+  "id": "A336831",
+  "mentions": [
+    "A000587",
+    "A275044",
+    "A336209",
+    "A336210",
+    "A336439"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Least k with precisely n partitions k = x + y satisfying x > 0 and k’ = x’ + y’, where k’, x’, y’ are the arithmetic derivatives of k, x, y.",
+  "id": "A212664",
+  "mentions": [
+    "A003415",
+    "A211223",
+    "A211225",
+    "A212662",
+    "A212663"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

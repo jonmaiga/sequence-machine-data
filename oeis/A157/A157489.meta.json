@@ -1,0 +1,23 @@
+{
+  "description": "Numbers n such that n-+5 are divisible by exactly 5 primes, counted with multiplicity.",
+  "id": "A157489",
+  "mentions": [
+    "A001222",
+    "A014612",
+    "A124936",
+    "A157483",
+    "A157484",
+    "A157485",
+    "A157486"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:39",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

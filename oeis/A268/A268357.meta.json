@@ -1,0 +1,27 @@
+{
+  "description": "Highest power of 11 dividing n.",
+  "id": "A268357",
+  "mentions": [
+    "A001620",
+    "A006519",
+    "A038500",
+    "A060904",
+    "A109014",
+    "A234957",
+    "A234959",
+    "A268354"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:30",
+    "offset": 1,
+    "size": 122,
+    "source": "oeis-bfile"
+  }
+}

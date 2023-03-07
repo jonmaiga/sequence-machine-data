@@ -1,0 +1,23 @@
+{
+  "description": "Matrix cube of triangle W = A136231; also equals P^9, where P = triangle A136220.",
+  "id": "A136238",
+  "mentions": [
+    "A136220",
+    "A136228",
+    "A136230",
+    "A136231",
+    "A136235"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

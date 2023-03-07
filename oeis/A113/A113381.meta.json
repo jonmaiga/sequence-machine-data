@@ -1,0 +1,33 @@
+{
+  "description": "Triangle Q, read by rows, such that Q^3 transforms column k of Q^2 into column k+1 of Q^2, so that column k of Q^2 equals column 0 of Q^(3*k+2), where Q^3 denotes the matrix cube of Q.",
+  "id": "A113381",
+  "mentions": [
+    "A113340",
+    "A113350",
+    "A113370",
+    "A113374",
+    "A113375",
+    "A113378",
+    "A113382",
+    "A113383",
+    "A113384",
+    "A113387",
+    "A113389",
+    "A113392",
+    "A113394",
+    "A114154",
+    "A114155"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

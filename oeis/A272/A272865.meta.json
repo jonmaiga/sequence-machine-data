@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows, T(n,k) are covariances of inverse power traces of complex Wishart matrices with parameter c=2, for n>=1 and 1<=k<=n.",
+  "id": "A272865",
+  "mentions": [
+    "A002002",
+    "A047781",
+    "A050151"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

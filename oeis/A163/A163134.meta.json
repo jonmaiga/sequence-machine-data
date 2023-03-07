@@ -1,0 +1,18 @@
+{
+  "description": "G.f. A(x) equals an infinite symmetric composition of functions x/(1-x^n), n=1,2,3,...",
+  "id": "A163134",
+  "mentions": [
+    "A163135"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is always followed by the concatenation of a(n)'s distinct prime factors in increasing order. If this concatenation is already in the sequence, a(n+1) is the smallest term not yet present.",
+  "id": "A342999",
+  "mentions": [
+    "A037276",
+    "A084317"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

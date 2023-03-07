@@ -1,0 +1,26 @@
+{
+  "description": "Numbers m such that for all k with gcd(m, k) = 1 and m > k^2, m - k^2 is prime.",
+  "id": "A214583",
+  "mentions": [
+    "A000290",
+    "A008864",
+    "A010051",
+    "A057828",
+    "A064272",
+    "A065428",
+    "A224075",
+    "A224076"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nice",
+    "nonn",
+    "unsolved"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

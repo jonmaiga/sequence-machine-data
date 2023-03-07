@@ -1,0 +1,32 @@
+{
+  "description": "Numbers which yield a prime whenever a zero is inserted between any two digits.",
+  "id": "A164329",
+  "mentions": [
+    "A068673",
+    "A068677",
+    "A068679",
+    "A069246",
+    "A069832",
+    "A069833",
+    "A158232",
+    "A158594",
+    "A159236",
+    "A215417",
+    "A215419",
+    "A215420",
+    "A215421",
+    "A216169"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:46",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

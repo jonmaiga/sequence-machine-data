@@ -1,0 +1,22 @@
+{
+  "description": "Those terms of A255571 whose every A080541/A080542-rotation is also a term of A255571.",
+  "id": "A258001",
+  "mentions": [
+    "A037861",
+    "A080541",
+    "A080542",
+    "A255571",
+    "A258002"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:16",
+    "offset": 0,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of the minimum of the error term E(x) in exp(x) * x^(-x) * Pi^(-1/2) * Gamma(1 + x) = (8*x^3 + 4*x^2 + x + E(x))^(1/6) for x > 0. The location where the minimum is achieved is provided in A319458.",
+  "id": "A319459",
+  "mentions": [
+    "A319458"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": -1,
+    "size": 89,
+    "source": "oeis-entry"
+  }
+}

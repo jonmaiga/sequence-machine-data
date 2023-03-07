@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of x*(1 + 5*x + 40*x^2)/((1 - x^2)*(1 - 10*x^2)).",
+  "id": "A322927",
+  "mentions": [
+    "A002279",
+    "A173804"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:46",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

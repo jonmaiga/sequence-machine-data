@@ -1,0 +1,23 @@
+{
+  "description": "Largest order of a permutation of n elements with exactly 5 cycles. Also the largest LCM of a 5-partition of n.",
+  "id": "A129650",
+  "mentions": [
+    "A000793",
+    "A129647",
+    "A129648",
+    "A129649",
+    "A129651",
+    "A355367",
+    "A355403"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

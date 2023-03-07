@@ -1,0 +1,35 @@
+{
+  "description": "Numbers whose prime indices have no common divisor other than 1 but are not pairwise coprime.",
+  "id": "A303282",
+  "mentions": [
+    "A000837",
+    "A001222",
+    "A018783",
+    "A051424",
+    "A056239",
+    "A078374",
+    "A168532",
+    "A289508",
+    "A289509",
+    "A296150",
+    "A298748",
+    "A300486",
+    "A302569",
+    "A302696",
+    "A302796",
+    "A303138",
+    "A303139",
+    "A303140",
+    "A303283"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

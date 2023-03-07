@@ -1,0 +1,18 @@
+{
+  "description": "Bemirps that also interpret 2 and 5 as upside-down forms of each other, assuming a digital font.",
+  "id": "A335731",
+  "mentions": [
+    "A048895"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

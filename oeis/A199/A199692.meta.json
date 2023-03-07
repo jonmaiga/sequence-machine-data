@@ -1,0 +1,17 @@
+{
+  "description": "Subsequence of Pythagorean primes (A002144): each square is used only once.",
+  "id": "A199692",
+  "mentions": [
+    "A002144"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:20",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

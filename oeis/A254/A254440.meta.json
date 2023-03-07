@@ -1,0 +1,19 @@
+{
+  "description": "Palindromes in A254296.",
+  "id": "A254440",
+  "mentions": [
+    "A254296"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

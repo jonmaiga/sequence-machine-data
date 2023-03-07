@@ -1,0 +1,18 @@
+{
+  "description": "Triangle read by rows related to enumeration of permutations avoiding certain patterns.",
+  "id": "A220860",
+  "mentions": [
+    "A000292"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

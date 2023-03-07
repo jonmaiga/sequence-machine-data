@@ -1,0 +1,20 @@
+{
+  "description": "In decimal number system, take negative power of 10 at even digits of n. Sequence gives numerators of result.",
+  "id": "A121761",
+  "mentions": [
+    "A121760"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:10",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

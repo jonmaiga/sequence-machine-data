@@ -1,0 +1,26 @@
+{
+  "description": "Array of semiprimes, read by antidiagonals, where row k is the first of pairs of consecutive semiprimes j and j+k.",
+  "id": "A133597",
+  "mentions": [
+    "A001358",
+    "A070552",
+    "A136196",
+    "A217030",
+    "A264043",
+    "A264044",
+    "A264045",
+    "A264046"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Number of 3Xn arrays containing n copies of 0..3-1 with no element 1 greater than its northwest or northeast neighbor modulo 3 and the upper left element equal to 0.",
+  "id": "A266682",
+  "mentions": [
+    "A266681"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:27",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

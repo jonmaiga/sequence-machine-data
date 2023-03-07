@@ -1,0 +1,31 @@
+{
+  "description": "Number of partitions of n into 10 distinct nonzero squares.",
+  "id": "A341001",
+  "mentions": [
+    "A000144",
+    "A000290",
+    "A010052",
+    "A025434",
+    "A025441",
+    "A025442",
+    "A025443",
+    "A025444",
+    "A045852",
+    "A340947",
+    "A340988",
+    "A340998",
+    "A340999",
+    "A341000",
+    "A341040"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:13",
+    "offset": 385,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

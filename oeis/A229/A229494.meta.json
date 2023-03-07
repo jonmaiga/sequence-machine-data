@@ -1,0 +1,21 @@
+{
+  "description": "Lucky numbers generated from noncomposite numbers.",
+  "id": "A229494",
+  "mentions": [
+    "A000027",
+    "A000959",
+    "A008578",
+    "A059987",
+    "A229205"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

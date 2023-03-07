@@ -1,0 +1,22 @@
+{
+  "description": "Left half of Pascal's triangle (A034868) modulo 2.",
+  "id": "A130047",
+  "mentions": [
+    "A007318",
+    "A034868",
+    "A048896",
+    "A133179"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:17",
+    "offset": 0,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Filter sequence combining primorial base representations of the proper divisors of n; Restricted growth sequence transform of A319708.",
+  "id": "A319709",
+  "mentions": [
+    "A001065",
+    "A276086",
+    "A293215",
+    "A293226",
+    "A300835",
+    "A319708",
+    "A319713"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:41",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

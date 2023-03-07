@@ -1,0 +1,29 @@
+{
+  "description": "Compound filter (omega & bigomega): a(1) = 0, for n > 1, a(n) = P(A001221(n), A001222(n)), where P(n,k) is sequence A000027 used as a pairing function.",
+  "id": "A289621",
+  "mentions": [
+    "A000027",
+    "A001221",
+    "A001222",
+    "A008966",
+    "A046523",
+    "A046660",
+    "A070012",
+    "A070013",
+    "A070014",
+    "A088529",
+    "A088530",
+    "A181591"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:04",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

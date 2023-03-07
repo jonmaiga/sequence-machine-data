@@ -1,0 +1,26 @@
+{
+  "description": "Dirichlet convolution of A126760 with tau (number of divisors function).",
+  "id": "A349392",
+  "mentions": [
+    "A000005",
+    "A126760",
+    "A347233",
+    "A347234",
+    "A349372",
+    "A349390",
+    "A349391",
+    "A349393",
+    "A349395"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:24",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

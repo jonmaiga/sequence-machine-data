@@ -1,0 +1,34 @@
+{
+  "description": "Number of integer partitions of n with no adjacent parts having quotient >= 2.",
+  "id": "A342096",
+  "mentions": [
+    "A000009",
+    "A000929",
+    "A001055",
+    "A001227",
+    "A003114",
+    "A003242",
+    "A027193",
+    "A034296",
+    "A154402",
+    "A167606",
+    "A342083",
+    "A342084",
+    "A342085",
+    "A342094",
+    "A342095",
+    "A342097",
+    "A342098",
+    "A342191"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:15",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

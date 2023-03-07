@@ -1,0 +1,22 @@
+{
+  "description": "Terms of A354724 whose number of divisors sets a new record.",
+  "id": "A354725",
+  "mentions": [
+    "A000005",
+    "A000120",
+    "A354723",
+    "A354724"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

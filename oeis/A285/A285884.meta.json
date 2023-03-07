@@ -1,0 +1,20 @@
+{
+  "description": "For n => 1, the number of distinct summands u and v that can be used in the representation of n as u+v, where u and v are two (possibly equal) Ulam numbers A002858.",
+  "id": "A285884",
+  "mentions": [
+    "A002858",
+    "A033629",
+    "A068799",
+    "A287611"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:57",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

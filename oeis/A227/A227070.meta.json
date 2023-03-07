@@ -1,0 +1,29 @@
+{
+  "description": "Powers n such that the set s(n) = {k > 0 such that k^n ends with k} does not occur for smaller n.",
+  "id": "A227070",
+  "mentions": [
+    "A003226",
+    "A003592",
+    "A033819",
+    "A068407",
+    "A068408",
+    "A072495",
+    "A072496",
+    "A076650",
+    "A227071"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

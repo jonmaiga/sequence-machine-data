@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = smallest k with property that for all m >= k, there is a square N^2 whose binary expansion contains exactly n 1's and m 0's; or -1 if no such k exists.",
+  "id": "A231898",
+  "mentions": [
+    "A000120",
+    "A023416",
+    "A159918",
+    "A214560",
+    "A230097",
+    "A231897"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "more",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

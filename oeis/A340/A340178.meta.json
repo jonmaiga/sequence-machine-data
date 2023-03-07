@@ -1,0 +1,21 @@
+{
+  "description": "Euler brick triples, side dimensions (a,b,c) in increasing order for a.",
+  "id": "A340178",
+  "mentions": [
+    "A031173",
+    "A031174",
+    "A031175",
+    "A103605"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

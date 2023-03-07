@@ -1,0 +1,20 @@
+{
+  "description": "A108235(n)-A202951(n).",
+  "id": "A202952",
+  "mentions": [
+    "A104429",
+    "A108235",
+    "A202951"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

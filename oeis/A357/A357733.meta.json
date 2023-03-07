@@ -1,0 +1,19 @@
+{
+  "description": "Integer lengths of the sides of such regular hexagons that a polyline described in A356047 exists.",
+  "id": "A357733",
+  "mentions": [
+    "A356047"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of partitions of n such that (smallest part) = 2*(number of parts).",
+  "id": "A350893",
+  "mentions": [
+    "A168656",
+    "A237753",
+    "A237757",
+    "A350890"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

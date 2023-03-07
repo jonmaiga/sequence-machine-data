@@ -1,0 +1,21 @@
+{
+  "description": "E.g.f.: Product_{n>=1} (exp(2*x^n) + 1)/2.",
+  "id": "A203716",
+  "mentions": [
+    "A203709",
+    "A203715",
+    "A270664",
+    "A270665",
+    "A270666"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:23",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

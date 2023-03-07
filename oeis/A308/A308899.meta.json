@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = largest prime factor of the number with decimal expansion 20305070...0p_n where p_n = n-th prime.",
+  "id": "A308899",
+  "mentions": [
+    "A309101"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:33",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

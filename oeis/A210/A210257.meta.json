@@ -1,0 +1,18 @@
+{
+  "description": "Construct a triangle with centered rows in which row n contains n copies of n; form the componentwise sum of the first n rows and concatenate these decimal numbers to get a(n).",
+  "id": "A210257",
+  "mentions": [
+    "A109242"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

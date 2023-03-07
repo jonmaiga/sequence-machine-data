@@ -1,0 +1,25 @@
+{
+  "description": "Distance from the sum of the first n positive triangular numbers to the nearest triangular number.",
+  "id": "A354330",
+  "mentions": [
+    "A000217",
+    "A000292",
+    "A053616",
+    "A224421",
+    "A238455",
+    "A351830",
+    "A354329"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:29",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Total area of all rectangles with dimensions s and t such that s | t, n = s + t and s < t.",
+  "id": "A303385",
+  "mentions": [
+    "A303384"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

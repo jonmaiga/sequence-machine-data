@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = 1/7*( binomial(n,7) - floor(n/7) ).",
+  "id": "A215053",
+  "mentions": [
+    "A002620",
+    "A011853",
+    "A014125",
+    "A178904",
+    "A215052",
+    "A215054"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:19:19",
+    "offset": 8,
+    "size": 35,
+    "source": "joeis"
+  }
+}

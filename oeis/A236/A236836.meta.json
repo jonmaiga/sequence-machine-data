@@ -1,0 +1,23 @@
+{
+  "description": "The least inverse of A234741: a(n) = the smallest k such that A234741(k) = n, and 0 if no such k exists.",
+  "id": "A236836",
+  "mentions": [
+    "A234741",
+    "A234742",
+    "A236833",
+    "A236834",
+    "A236835",
+    "A236837"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:54",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

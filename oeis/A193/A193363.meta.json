@@ -1,0 +1,24 @@
+{
+  "description": "O.g.f. satisfies: A(x) = Sum_{n>=0} (n+1)^n * x^n * A((n+1)*x)^n/n! * exp(-(n+1)*x*A((n+1)*x)).",
+  "id": "A193363",
+  "mentions": [
+    "A209276",
+    "A209277",
+    "A218672",
+    "A221409",
+    "A221410",
+    "A221411",
+    "A221412",
+    "A221413"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

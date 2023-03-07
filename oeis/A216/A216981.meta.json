@@ -1,0 +1,23 @@
+{
+  "description": "Primes of the form n^7+2.",
+  "id": "A216981",
+  "mentions": [
+    "A056899",
+    "A144953",
+    "A216975",
+    "A216977",
+    "A216979",
+    "A216980"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:34",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "description": "Take the k-th composition in standard order for each part k of the n-th composition in standard order; then set a(n) to be the index (in standard order) of the concatenation.",
+  "id": "A357134",
+  "mentions": [
+    "A000120",
+    "A001511",
+    "A003963",
+    "A029931",
+    "A048896",
+    "A058891",
+    "A066099",
+    "A070939",
+    "A096111",
+    "A329395",
+    "A333766",
+    "A335404",
+    "A357135",
+    "A357137",
+    "A357180"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

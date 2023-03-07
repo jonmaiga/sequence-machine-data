@@ -1,0 +1,23 @@
+{
+  "description": "Semiprimes that are product of two distinct Honaker primes.",
+  "id": "A344780",
+  "mentions": [
+    "A001221",
+    "A006881",
+    "A033548",
+    "A144482",
+    "A144856",
+    "A333788"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

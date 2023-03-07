@@ -1,0 +1,22 @@
+{
+  "description": "Exponent of general linear group GL(n,2).",
+  "id": "A211171",
+  "mentions": [
+    "A003418",
+    "A006951",
+    "A034268",
+    "A053651",
+    "A062383"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:30",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "description": "Triangle read by rows: T(n,k) = number of forests of k labeled rooted trees of height at most 1, with n labels, where any root may contain >= 1 labels, n >= 0, 0 <= k <= n.",
+  "id": "A143395",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A000225",
+    "A006232",
+    "A007318",
+    "A008277",
+    "A016269",
+    "A028025",
+    "A038455",
+    "A048993",
+    "A143399",
+    "A143400",
+    "A143401",
+    "A143402",
+    "A143403",
+    "A143404",
+    "A143405",
+    "A264428"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:32",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

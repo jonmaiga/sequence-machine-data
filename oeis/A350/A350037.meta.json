@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = n^2 mod round(sqrt(n)).",
+  "id": "A350037",
+  "mentions": [
+    "A000194",
+    "A000290",
+    "A336302"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:29",
+    "offset": 1,
+    "size": 88,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "b(n) = number of set partitions of {1, 2, ..., n} whose blocks consist only of elements that differ by two or less (that is, have only the forms {i}, {i,i+1}, {i,i+2}, or {i,i+1,i+2}).",
+  "id": "A129847",
+  "mentions": [
+    "A000045",
+    "A000110",
+    "A141073",
+    "A158687",
+    "A276719",
+    "A276893"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:17",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

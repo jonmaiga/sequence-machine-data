@@ -1,0 +1,28 @@
+{
+  "description": "Solutions k of the equation isigma(k) = isigma(k-1) + isigma(k-2) where isigma(k) is the sum of the infinitary divisors of k (A049417).",
+  "id": "A332975",
+  "mentions": [
+    "A049417",
+    "A065557",
+    "A065900",
+    "A075565",
+    "A076136",
+    "A076251",
+    "A145469",
+    "A291126",
+    "A291176",
+    "A292033",
+    "A294995",
+    "A332976"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:03",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

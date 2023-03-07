@@ -1,0 +1,28 @@
+{
+  "description": "Array read by antidiagonals: A(n,k) is the number of nonequivalent binary matrices with k columns and any number of distinct nonzero rows with n ones in every column up to permutation of rows and columns.",
+  "id": "A331510",
+  "mentions": [
+    "A000041",
+    "A188445",
+    "A330942",
+    "A331461",
+    "A331508",
+    "A331509",
+    "A331717",
+    "A331718",
+    "A331719"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

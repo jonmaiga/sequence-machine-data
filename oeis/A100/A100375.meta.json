@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the n-th consecutive prime difference divided by the largest power of 2 which divides it.",
+  "id": "A100375",
+  "mentions": [
+    "A001223",
+    "A006519",
+    "A100374"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:51",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

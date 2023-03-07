@@ -1,0 +1,23 @@
+{
+  "description": "Row number in which n appears for the first time in the infinite Sudoku-type array A269526.",
+  "id": "A273138",
+  "mentions": [
+    "A269526",
+    "A273139",
+    "A274315",
+    "A274316",
+    "A274317",
+    "A274529",
+    "A274534"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:38",
+    "offset": 1,
+    "size": 104,
+    "source": "oeis-bfile"
+  }
+}

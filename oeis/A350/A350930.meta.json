@@ -1,0 +1,21 @@
+{
+  "description": "Minimal determinant of an n X n Toeplitz matrix using the integers 1 to 2*n - 1.",
+  "id": "A350930",
+  "mentions": [
+    "A322908",
+    "A323254",
+    "A350931"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "hard",
+    "more",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

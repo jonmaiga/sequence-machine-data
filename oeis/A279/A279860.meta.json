@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the first n-digit substring to repeat in the decimal expansion of e.",
+  "id": "A279860",
+  "mentions": [
+    "A001113",
+    "A197123"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

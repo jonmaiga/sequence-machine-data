@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that k^2 - k - 1, k^3 - k - 1, and k^4 - k - 1 are all prime.",
+  "id": "A236171",
+  "mentions": [
+    "A002328",
+    "A126421",
+    "A126424"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:53",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

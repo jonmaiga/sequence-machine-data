@@ -1,0 +1,28 @@
+{
+  "description": "a(n) = Sum_{k=1..n} k*floor(n/prime(k)).",
+  "id": "A304066",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A008472",
+    "A013939",
+    "A024916",
+    "A024924",
+    "A048803",
+    "A056239",
+    "A066328",
+    "A081401",
+    "A304038"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

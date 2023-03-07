@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that A336456(n) is not equal to Product_{p^e|n} A336456(p^e). Here each p^e is the maximal power of prime p that divides k, and A336456(n) = A335915(sigma(sigma(n))).",
+  "id": "A336558",
+  "mentions": [
+    "A051027",
+    "A335915",
+    "A336456",
+    "A336546",
+    "A336548",
+    "A336557",
+    "A336559"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:08",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

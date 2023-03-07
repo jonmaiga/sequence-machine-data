@@ -1,0 +1,23 @@
+{
+  "description": "Sum of all parts in the structure of the shell model of partitions of A135010 after n-th stage.",
+  "id": "A211030",
+  "mentions": [
+    "A066186",
+    "A135010",
+    "A138137",
+    "A182703",
+    "A206437",
+    "A211025"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

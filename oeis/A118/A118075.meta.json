@@ -1,0 +1,20 @@
+{
+  "description": "Start with 1 and repeatedly reverse the digits and add 42 to get the next term.",
+  "id": "A118075",
+  "mentions": [
+    "A117816",
+    "A117817",
+    "A117828"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:32:05",
+    "offset": 1,
+    "size": 43,
+    "source": "joeis"
+  }
+}

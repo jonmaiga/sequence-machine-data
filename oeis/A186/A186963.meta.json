@@ -1,0 +1,22 @@
+{
+  "description": "Number of prime factors in the expansion of the infinitary perfect number A007357(n) over distinct terms of A050376",
+  "id": "A186963",
+  "mentions": [
+    "A000040",
+    "A007357",
+    "A050376",
+    "A162642",
+    "A187043"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

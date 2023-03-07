@@ -1,0 +1,27 @@
+{
+  "description": "Triangle read by rows, 1 <= k <= n: T(n,k) = non-isomorphic colorings of a toroidal n X k grid using exactly four colors under translational symmetry and swappable colors.",
+  "id": "A294793",
+  "mentions": [
+    "A056297",
+    "A294684",
+    "A294685",
+    "A294686",
+    "A294687",
+    "A294791",
+    "A294792",
+    "A294794",
+    "A295197"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

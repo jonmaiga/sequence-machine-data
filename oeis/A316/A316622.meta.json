@@ -1,0 +1,32 @@
+{
+  "description": "Array read by antidiagonals: T(n,k) is the order of the group GL(n,Z_k).",
+  "id": "A316622",
+  "mentions": [
+    "A000252",
+    "A002884",
+    "A052496",
+    "A052497",
+    "A053290",
+    "A053291",
+    "A053292",
+    "A053293",
+    "A064767",
+    "A065128",
+    "A065498",
+    "A305186",
+    "A316623"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

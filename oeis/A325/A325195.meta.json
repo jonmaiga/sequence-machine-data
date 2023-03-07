@@ -1,0 +1,31 @@
+{
+  "description": "Difference between the length of the minimal triangular partition containing and the maximal triangular partition contained in the Young diagram of the integer partition with Heinz number n.",
+  "id": "A325195",
+  "mentions": [
+    "A046660",
+    "A065770",
+    "A071724",
+    "A243055",
+    "A325166",
+    "A325169",
+    "A325178",
+    "A325183",
+    "A325188",
+    "A325189",
+    "A325191",
+    "A325196",
+    "A325197",
+    "A325199",
+    "A325200"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-entry"
+  }
+}

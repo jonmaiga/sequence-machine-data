@@ -1,0 +1,21 @@
+{
+  "description": "Number of partitions of {1...n} containing 5 detached pairs of consecutive integers, i.e., partitions in which only 1- or 2-strings of consecutive integers can appear in a block and there are exactly five 2-strings.",
+  "id": "A105491",
+  "mentions": [
+    "A105482",
+    "A105487",
+    "A105490"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:21:15",
+    "offset": 10,
+    "size": 17,
+    "source": "joeis"
+  }
+}

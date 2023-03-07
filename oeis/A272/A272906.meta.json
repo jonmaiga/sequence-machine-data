@@ -1,0 +1,22 @@
+{
+  "description": "Number of topologically-distinct pizza slicings from n chords in general position.",
+  "id": "A272906",
+  "mentions": [
+    "A000055",
+    "A000124",
+    "A054499",
+    "A090338",
+    "A273280"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

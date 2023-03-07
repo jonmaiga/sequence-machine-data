@@ -1,0 +1,32 @@
+{
+  "description": "Number of integer partitions of n with 2 distinct parts or at least 3 parts.",
+  "id": "A325269",
+  "mentions": [
+    "A000034",
+    "A000041",
+    "A001221",
+    "A001222",
+    "A001358",
+    "A001399",
+    "A002133",
+    "A004250",
+    "A007774",
+    "A008284",
+    "A060687",
+    "A080257",
+    "A090858",
+    "A116608",
+    "A325244"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

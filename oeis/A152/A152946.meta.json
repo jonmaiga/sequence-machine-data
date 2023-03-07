@@ -1,0 +1,19 @@
+{
+  "description": "Magic deficiency of the complete graph K_n on n vertices.",
+  "id": "A152946",
+  "mentions": [
+    "A129413",
+    "A152682"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "description": "Triangular array: T(n,k) counts the partitions of the set [n] into k odd sized blocks.",
+  "id": "A136630",
+  "mentions": [
+    "A000035",
+    "A002452",
+    "A002453",
+    "A003724",
+    "A008958",
+    "A070318",
+    "A119467",
+    "A121408",
+    "A131047",
+    "A136631",
+    "A136632",
+    "A156289",
+    "A162590",
+    "A185690",
+    "A196776",
+    "A264428"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 84,
+    "source": "oeis-entry"
+  }
+}

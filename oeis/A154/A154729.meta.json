@@ -1,0 +1,24 @@
+{
+  "description": "Products of three distinct primes of the form 6*k + 1.",
+  "id": "A154729",
+  "mentions": [
+    "A001235",
+    "A002476",
+    "A007304",
+    "A011541",
+    "A027746",
+    "A154716",
+    "A154717",
+    "A154728"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:36",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(1) = 1. Thereafter, if n is prime, a(n) is the next prime after a(n-1), but written backwards in base 7; if n is composite, a(n) is the next composite after a(n-1), written backwards in base 7.",
+  "id": "A327241",
+  "mentions": [
+    "A326344",
+    "A326894"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:54",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

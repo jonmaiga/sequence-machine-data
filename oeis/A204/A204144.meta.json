@@ -1,0 +1,20 @@
+{
+  "description": "Array: row n shows the coefficients of the characteristic polynomial of the n-th principal submatrix of f(i,j)=max(ceiling(i/j),ceiling(j/i)) (as in A204143).",
+  "id": "A204144",
+  "mentions": [
+    "A202605",
+    "A204016",
+    "A204143"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:05:57",
+    "offset": 1,
+    "size": 50,
+    "source": "joeis"
+  }
+}

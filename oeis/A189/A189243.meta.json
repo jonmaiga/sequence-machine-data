@@ -1,0 +1,23 @@
+{
+  "description": "Number of ways to dissect a nonsquare rectangle into n rectangles with equal area.",
+  "id": "A189243",
+  "mentions": [
+    "A006318",
+    "A033540",
+    "A108066",
+    "A219861"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

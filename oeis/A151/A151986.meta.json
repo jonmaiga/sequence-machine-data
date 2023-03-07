@@ -1,0 +1,18 @@
+{
+  "description": "Maximal number of moves in the glass worms (or vers de verres) game with n glasses before detecting a cycle.",
+  "id": "A151986",
+  "mentions": [
+    "A151987"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

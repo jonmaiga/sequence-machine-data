@@ -1,0 +1,20 @@
+{
+  "description": "Record high water marks in A246024.",
+  "id": "A246025",
+  "mentions": [
+    "A070952",
+    "A246023",
+    "A246024",
+    "A246026"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:02",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

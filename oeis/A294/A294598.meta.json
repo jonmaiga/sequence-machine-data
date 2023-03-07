@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of 1/(Sum_{i>=0} q^(i^2)/Product_{j=1..i} (1 - q^j + q^(2*j))).",
+  "id": "A294598",
+  "mentions": [
+    "A053252",
+    "A294407",
+    "A294408",
+    "A294599",
+    "A294600"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:28",
+    "offset": 0,
+    "size": 61,
+    "source": "joeis"
+  }
+}

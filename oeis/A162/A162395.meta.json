@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = -(-1)^n * n^2.",
+  "id": "A162395",
+  "mentions": [
+    "A000290",
+    "A007297",
+    "A072691",
+    "A263843"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-27 17:18:15",
+    "offset": 1,
+    "size": 50,
+    "source": "joeis"
+  }
+}

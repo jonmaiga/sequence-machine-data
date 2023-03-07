@@ -1,0 +1,22 @@
+{
+  "description": "Numbers m such that A338038(m) = A338038(A004086(m)) where A004086(i) is i read backwards and A338038(i) is the sum of the primes and exponents in the prime factorization of i ignoring 1-exponents; palindromes and multiples of 10 are excluded.",
+  "id": "A338039",
+  "mentions": [
+    "A002113",
+    "A004086",
+    "A029742",
+    "A338038",
+    "A338166"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:09",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

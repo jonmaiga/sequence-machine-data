@@ -1,0 +1,21 @@
+{
+  "description": "Irregular array read by rows: row n contains the LCMs of each pair of consecutive positive divisors of n.",
+  "id": "A136181",
+  "mentions": [
+    "A027750",
+    "A136178",
+    "A136182",
+    "A136183"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:24",
+    "offset": 2,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

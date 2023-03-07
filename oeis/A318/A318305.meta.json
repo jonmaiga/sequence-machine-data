@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = product_{p} - product_{p-1}, where p are distinct primes dividing n; a(n) = A007947(n) - A173557(n).",
+  "id": "A318305",
+  "mentions": [
+    "A003557",
+    "A007947",
+    "A051953",
+    "A083254",
+    "A173557",
+    "A318304"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:38",
+    "offset": 1,
+    "size": 98,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Largest 3-smooth number <= n.",
+  "id": "A179276",
+  "mentions": [
+    "A003586",
+    "A065331",
+    "A065333",
+    "A081328"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:02",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

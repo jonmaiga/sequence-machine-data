@@ -1,0 +1,18 @@
+{
+  "description": "Ascending list of base-60 happy numbers written in base 10.",
+  "id": "A318235",
+  "mentions": [
+    "A007770"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:38",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Hypotenuses of primitive Pythagorean triples in A195631 and A195632.",
+  "id": "A195633",
+  "mentions": [
+    "A195500",
+    "A195631",
+    "A195632"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

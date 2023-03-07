@@ -1,0 +1,21 @@
+{
+  "description": "Numerators of the partial sums for the Catalan constant A006752: Sum_{k=0..n} ((-1)^k)/(2*k+1)^2, n >= 0.",
+  "id": "A294970",
+  "mentions": [
+    "A006752",
+    "A294971"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:13",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

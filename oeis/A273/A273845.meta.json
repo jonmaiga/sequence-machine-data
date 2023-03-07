@@ -1,0 +1,25 @@
+{
+  "description": "Expansion of Product_{n>=1} (1 - x^(3*n))/(1 - x^n)^3 in powers of x.",
+  "id": "A273845",
+  "mentions": [
+    "A005928",
+    "A015128",
+    "A078708",
+    "A132972",
+    "A160539",
+    "A274327",
+    "A277212",
+    "A277283"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:38",
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

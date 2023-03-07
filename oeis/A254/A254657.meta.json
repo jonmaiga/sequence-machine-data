@@ -1,0 +1,25 @@
+{
+  "description": "Numbers of words on alphabet {0,1,...,8} with no subwords ii, where i is from {0,1,2}.",
+  "id": "A254657",
+  "mentions": [
+    "A055099",
+    "A126473",
+    "A126501",
+    "A126528",
+    "A190560",
+    "A254598",
+    "A254602"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:12",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

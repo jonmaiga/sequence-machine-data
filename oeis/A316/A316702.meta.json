@@ -1,0 +1,20 @@
+{
+  "description": "E.g.f.: Sum_{n>=0} x^n/n! * Product_{k=1..n} (n+1-k) + k*x^2.",
+  "id": "A316702",
+  "mentions": [
+    "A316370",
+    "A316700",
+    "A316701"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:35",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

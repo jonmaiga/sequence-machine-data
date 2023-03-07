@@ -1,0 +1,28 @@
+{
+  "description": "Number of permutations of 2 copies of 1..n introduced in order 1..n with no element equal to another within a distance of 2.",
+  "id": "A190823",
+  "mentions": [
+    "A000699",
+    "A000806",
+    "A001147",
+    "A003436",
+    "A005493",
+    "A011968",
+    "A170941",
+    "A278990",
+    "A293157",
+    "A306386"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:15",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

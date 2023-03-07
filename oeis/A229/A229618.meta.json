@@ -1,0 +1,28 @@
+{
+  "description": "Numbers that are the distance between a square and the next larger cube.",
+  "id": "A229618",
+  "mentions": [
+    "A065733",
+    "A077116",
+    "A081120",
+    "A081121",
+    "A087285",
+    "A087286",
+    "A088017",
+    "A106265",
+    "A165288",
+    "A179386",
+    "A181138"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

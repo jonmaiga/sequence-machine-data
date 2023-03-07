@@ -1,0 +1,22 @@
+{
+  "description": "Partial sums of A077482.",
+  "id": "A174517",
+  "mentions": [
+    "A001411",
+    "A046661",
+    "A077482",
+    "A322831"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 7,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

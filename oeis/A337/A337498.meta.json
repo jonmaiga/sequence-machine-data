@@ -1,0 +1,19 @@
+{
+  "description": "a(0) = 0; for n>0, a(n) = the smallest positive integer m not yet in the sequence with property that none of the numbers in row m of A193829 have occurred previously in the sequence.",
+  "id": "A337498",
+  "mentions": [
+    "A014741",
+    "A027750",
+    "A193829"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

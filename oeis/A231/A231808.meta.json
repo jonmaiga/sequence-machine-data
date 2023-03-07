@@ -1,0 +1,21 @@
+{
+  "description": "Numerator of asymptotic density of Union{H_p: p is odd prime and p <= n-th prime}, where H_p is {K p(p-1)/2 : K integer}.",
+  "id": "A231808",
+  "mentions": [
+    "A008837",
+    "A229307",
+    "A231809"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "frac",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:49",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

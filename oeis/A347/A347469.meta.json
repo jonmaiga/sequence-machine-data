@@ -1,0 +1,22 @@
+{
+  "description": "For irrational r > 1, let B(r) denote the Beatty sequence for r. Let (s(n)) be the increasing sequence of numbers in both B(sqrt(2)) and B(sqrt(3)). Then this sequence gives the numbers k such that s(k) = floor(k*sqrt(6)).",
+  "id": "A347469",
+  "mentions": [
+    "A001951",
+    "A022838",
+    "A022840",
+    "A346308",
+    "A347467",
+    "A347468"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

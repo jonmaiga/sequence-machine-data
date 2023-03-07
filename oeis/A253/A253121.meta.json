@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that the hexagonal number H(n) is equal to the sum of the octagonal numbers O(m), O(m+1), O(m+2) and O(m+3) for some m.",
+  "id": "A253121",
+  "mentions": [
+    "A000384",
+    "A000567",
+    "A253120"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:11",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

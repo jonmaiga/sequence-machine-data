@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of Product_{k>=1} 1/(1 - x^(6*k+1)).",
+  "id": "A277349",
+  "mentions": [
+    "A016921",
+    "A087897",
+    "A109701",
+    "A117957",
+    "A277210",
+    "A277264"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:28:17",
+    "offset": 0,
+    "size": 101,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Triangle T(n, k) = round( c(n)/(c(k)*c(n-k)) ) where c(n) = Product_{j=1..n} A029826(j+10), read by rows.",
+  "id": "A172497",
+  "mentions": [
+    "A029826"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "less",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:56",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

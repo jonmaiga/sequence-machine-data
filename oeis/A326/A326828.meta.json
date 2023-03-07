@@ -1,0 +1,27 @@
+{
+  "description": "a(n) = (1/2) * Sum_{d|n} mu(n/d) * phi(d) * (psi(d) + 1), where mu = A008683, phi = A000010 and psi = A001615.",
+  "id": "A326828",
+  "mentions": [
+    "A000010",
+    "A000217",
+    "A001615",
+    "A007427",
+    "A007431",
+    "A007434",
+    "A007438",
+    "A008683",
+    "A321322",
+    "A326826"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

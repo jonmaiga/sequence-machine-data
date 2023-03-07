@@ -1,0 +1,27 @@
+{
+  "description": "Non-palindromic balanced numbers in base 2.",
+  "id": "A256082",
+  "mentions": [
+    "A256075",
+    "A256080",
+    "A256081",
+    "A256083",
+    "A256084",
+    "A256085",
+    "A256086",
+    "A256087",
+    "A256088",
+    "A256089"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

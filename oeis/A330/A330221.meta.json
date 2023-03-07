@@ -1,0 +1,19 @@
+{
+  "description": "Numbers d such that -d is a fundamental discriminant and all primes smaller than 2*sqrt(d)/Pi ramify or remain inert in the ring of integers of Q(sqrt(-d)).",
+  "id": "A330221",
+  "mentions": [
+    "A003644"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "fini",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

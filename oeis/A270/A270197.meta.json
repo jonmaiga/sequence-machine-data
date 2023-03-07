@@ -1,0 +1,22 @@
+{
+  "description": "Self-inverse permutation of natural numbers: a(1) = 1, for n even, a(n) = A269369(1+a(n/2)), for n odd, a(n) = 2*a(A269370(n)-1).",
+  "id": "A270197",
+  "mentions": [
+    "A269369",
+    "A269370",
+    "A269867",
+    "A270195",
+    "A270196"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:33",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

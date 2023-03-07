@@ -1,0 +1,24 @@
+{
+  "description": "Matrix inverse, read by rows, of triangle A104029, which forms the pairwise sums of trinomial coefficients.",
+  "id": "A104030",
+  "mentions": [
+    "A001469",
+    "A005647",
+    "A006846",
+    "A104027",
+    "A104029",
+    "A104031",
+    "A104032"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

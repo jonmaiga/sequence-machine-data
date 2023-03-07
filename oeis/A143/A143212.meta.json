@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = F(n) * (F(n+2)-1) = A000045(n) * A000071(n+2) = row sums of triangle A143211.",
+  "id": "A143212",
+  "mentions": [
+    "A000045",
+    "A000071",
+    "A001906",
+    "A143211"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 23:49:58",
+    "offset": 1,
+    "size": 27,
+    "source": "joeis"
+  }
+}

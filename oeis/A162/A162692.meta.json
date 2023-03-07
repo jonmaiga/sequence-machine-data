@@ -1,0 +1,23 @@
+{
+  "description": "Strictly positive numbers n such that 28*n/(28+n) are integers.",
+  "id": "A162692",
+  "mentions": [
+    "A127730",
+    "A162688",
+    "A162689",
+    "A162690",
+    "A162691"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

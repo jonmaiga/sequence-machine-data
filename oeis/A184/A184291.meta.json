@@ -1,0 +1,23 @@
+{
+  "description": "Table read by antidiagonals: T(n,k) = number of distinct n X k toroidal 0..5 arrays.",
+  "id": "A184291",
+  "mentions": [
+    "A054625",
+    "A184271",
+    "A184284",
+    "A184289",
+    "A184290"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:08",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "First of a run of 7 consecutive numbers with same prime signature.",
+  "id": "A218865",
+  "mentions": [
+    "A034173",
+    "A034174",
+    "A052213",
+    "A052214",
+    "A175590",
+    "A218448",
+    "A218455"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

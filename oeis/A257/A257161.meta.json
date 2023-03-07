@@ -1,0 +1,19 @@
+{
+  "description": "The length of the period under Zagier-reduction of the principal indefinite quadratic binary form of discriminant D(n) = A079896(n).",
+  "id": "A257161",
+  "mentions": [
+    "A079896",
+    "A226166"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

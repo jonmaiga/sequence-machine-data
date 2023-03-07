@@ -1,0 +1,23 @@
+{
+  "description": "Numbers n such that (17^n + 5^n)/22 is prime.",
+  "id": "A227046",
+  "mentions": [
+    "A057183",
+    "A128340",
+    "A128341",
+    "A128342",
+    "A128343"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "description": "Number of pairs (y, v) where y is a composition of n and v is a (not necessarily contiguous) subsequence of y whose length equals the number of distinct parts in y.",
+  "id": "A355384",
+  "mentions": [
+    "A000009",
+    "A000244",
+    "A001970",
+    "A022811",
+    "A032020",
+    "A063834",
+    "A070933",
+    "A072706",
+    "A133494",
+    "A323583",
+    "A336139",
+    "A339006",
+    "A355383",
+    "A355385",
+    "A355388"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Partial sums of A038034.",
+  "id": "A178097",
+  "mentions": [
+    "A038034",
+    "A092667"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

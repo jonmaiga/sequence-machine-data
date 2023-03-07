@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n of initial person such that the n-th person survives in the duck-duck-goose game.",
+  "id": "A182459",
+  "mentions": [
+    "A081615"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

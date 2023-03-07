@@ -1,0 +1,19 @@
+{
+  "description": "The 5th power of the g.f. equals the g.f. of A196344.",
+  "id": "A196345",
+  "mentions": [
+    "A106223",
+    "A196344",
+    "A196346"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:18",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

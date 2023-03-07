@@ -1,0 +1,17 @@
+{
+  "description": "Number of ways to express n as an average of three distinct primes.",
+  "id": "A121611",
+  "mentions": [
+    "A061357"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-entry"
+  }
+}

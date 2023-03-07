@@ -1,0 +1,34 @@
+{
+  "description": "Number T(n,k) of permutations of [n] with exactly k (possibly overlapping) occurrences of the generalized pattern 23-1; triangle T(n,k), n>=0, 0<=k<=A125811(n)-1, read by rows.",
+  "id": "A260670",
+  "mentions": [
+    "A000110",
+    "A000142",
+    "A001754",
+    "A125811",
+    "A260665",
+    "A263776",
+    "A264460",
+    "A264461",
+    "A264462",
+    "A264463",
+    "A264464",
+    "A264465",
+    "A264466",
+    "A264467",
+    "A264468",
+    "A264469"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:19",
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

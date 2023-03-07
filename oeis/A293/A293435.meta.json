@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the number of the proper divisors of n that are Fibonacci numbers (A000045).",
+  "id": "A293435",
+  "mentions": [
+    "A000045",
+    "A005086",
+    "A010056",
+    "A293433",
+    "A293436"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:09",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

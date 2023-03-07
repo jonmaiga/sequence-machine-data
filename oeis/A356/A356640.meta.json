@@ -1,0 +1,25 @@
+{
+  "description": "a(n) is the least number k such that the least base in which k is a Niven number is n, i.e., A356552(k) = n, or -1 if no such k exists.",
+  "id": "A356640",
+  "mentions": [
+    "A005349",
+    "A049445",
+    "A064150",
+    "A064438",
+    "A064481",
+    "A249634",
+    "A356552"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:31",
+    "offset": 2,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

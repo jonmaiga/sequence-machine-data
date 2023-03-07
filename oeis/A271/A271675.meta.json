@@ -1,0 +1,29 @@
+{
+  "description": "Numbers m such that 3*m + 4 is a square.",
+  "id": "A271675",
+  "mentions": [
+    "A001082",
+    "A001651",
+    "A033428",
+    "A056107",
+    "A080663",
+    "A100536",
+    "A120328",
+    "A140676",
+    "A257083",
+    "A270710",
+    "A271713"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:07:41",
+    "offset": 1,
+    "size": 56,
+    "source": "joeis"
+  }
+}

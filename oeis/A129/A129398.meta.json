@@ -1,0 +1,18 @@
+{
+  "description": "Pyramid P(h,x,y)=P(h,x,y-1)+P(h,x,y+1)+P(h,x-1,y)+P(h,x+1,y)+P(h-1,x,y), read level by level, x by x.",
+  "id": "A129398",
+  "mentions": [
+    "A129392",
+    "A129399"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

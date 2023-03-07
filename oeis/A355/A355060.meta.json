@@ -1,0 +1,22 @@
+{
+  "description": "Perfect powers whose digits are in strictly increasing order.",
+  "id": "A355060",
+  "mentions": [
+    "A001597",
+    "A009993",
+    "A355062"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of 28*sqrt(3) - 48.",
+  "id": "A245670",
+  "mentions": [
+    "A002194"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:31:55",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

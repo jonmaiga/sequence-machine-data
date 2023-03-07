@@ -1,0 +1,19 @@
+{
+  "description": "The slowest increasing sequence of semiprimes with strictly increasing difference of successive terms.",
+  "id": "A257559",
+  "mentions": [
+    "A001358",
+    "A070865"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:15",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

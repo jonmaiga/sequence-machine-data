@@ -1,0 +1,21 @@
+{
+  "description": "Riordan array (1-x*c(-x^2),x(1-x*c(-x^2)) where c(x) is the g.f. of A000108.",
+  "id": "A125692",
+  "mentions": [
+    "A000108",
+    "A105306",
+    "A105523"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:44",
+    "offset": 0,
+    "size": 66,
+    "source": "joeis"
+  }
+}

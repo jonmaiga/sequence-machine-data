@@ -1,0 +1,19 @@
+{
+  "description": "Lesser of consecutive primes whose sum is a palindromic number.",
+  "id": "A242386",
+  "mentions": [
+    "A162571",
+    "A242387"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

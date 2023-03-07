@@ -1,0 +1,31 @@
+{
+  "description": "Numbers which can be written as a sum of consecutive numbers, where the largest term in the sum is an odd number >= 3.",
+  "id": "A177731",
+  "mentions": [
+    "A000384",
+    "A002145",
+    "A004766",
+    "A008588",
+    "A014106",
+    "A017137",
+    "A071355",
+    "A130861",
+    "A136724",
+    "A138591",
+    "A139577",
+    "A139579",
+    "A141419",
+    "A177712",
+    "A177713"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:01",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Numbers in whose factorial base representation (A007623) no digit > 0 occurs more than once.",
+  "id": "A265349",
+  "mentions": [
+    "A000142",
+    "A007623",
+    "A264990",
+    "A265350",
+    "A266117"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:25",
+    "offset": 0,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

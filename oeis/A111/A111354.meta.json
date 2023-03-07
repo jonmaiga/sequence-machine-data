@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that the numerator of Sum_{i=1..n} (1/i^2), in reduced form, is prime.",
+  "id": "A111354",
+  "mentions": [
+    "A001008",
+    "A007406",
+    "A007407",
+    "A056903",
+    "A067567",
+    "A123751"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

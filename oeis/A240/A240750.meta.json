@@ -1,0 +1,22 @@
+{
+  "description": "Table where row n contains all compositions of n into an even number of parts.",
+  "id": "A240750",
+  "mentions": [
+    "A001969",
+    "A034008",
+    "A066099",
+    "A087447",
+    "A240837"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 2,
+    "size": 96,
+    "source": "oeis-entry"
+  }
+}

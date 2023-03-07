@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = F(8*n)/L(2*n) with n >= 0, F = A000045 (Fibonacci numbers) and L = A000032 (Lucas numbers).",
+  "id": "A215042",
+  "mentions": [
+    "A000032",
+    "A000045",
+    "A001906",
+    "A078812",
+    "A111418",
+    "A215039",
+    "A215043"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 23:09:42",
+    "offset": 0,
+    "size": 18,
+    "source": "joeis"
+  }
+}

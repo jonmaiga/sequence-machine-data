@@ -1,0 +1,26 @@
+{
+  "description": "The number of coreful abundant numbers (A308053) below 10^n.",
+  "id": "A308054",
+  "mentions": [
+    "A302992",
+    "A302993",
+    "A302994",
+    "A307820",
+    "A307821",
+    "A307823",
+    "A307961",
+    "A308053"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

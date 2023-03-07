@@ -1,0 +1,32 @@
+{
+  "description": "Triangle read by rows giving coefficients of polynomials defined by F(0,x)=0, F(1,x)=1, F(n,x) = F(n-1,x) + x*F(n-2,x).",
+  "id": "A102426",
+  "mentions": [
+    "A000045",
+    "A011973",
+    "A034807",
+    "A062200",
+    "A078812",
+    "A085478",
+    "A092865",
+    "A098925",
+    "A102427",
+    "A102428",
+    "A102429",
+    "A169803",
+    "A218272"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:53",
+    "offset": 0,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

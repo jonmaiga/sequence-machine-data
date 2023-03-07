@@ -1,0 +1,20 @@
+{
+  "description": "Total number of three disjoint subsets of divisors of k, each of ones adding to sigma(k)/3, where k are the terms listed in A204830.",
+  "id": "A319186",
+  "mentions": [
+    "A023197",
+    "A083206",
+    "A204830"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

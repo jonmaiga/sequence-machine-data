@@ -1,0 +1,21 @@
+{
+  "description": "Smallest prime p such that the sum of it and the following prime have n prime factors including multiplicity, or 0 if no such prime exists.",
+  "id": "A105418",
+  "mentions": [
+    "A001043",
+    "A001222",
+    "A071215",
+    "A098037",
+    "A098048"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:56",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

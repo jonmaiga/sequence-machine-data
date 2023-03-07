@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows. Let p be one of the parts of size A135010(n,k) in one of the partitions of n and S(n,k) = sum of all preceding parts to p in the mentioned partition of n. So T(n,k) = 2*S(n,k) + A135010(n,k).",
+  "id": "A182289",
+  "mentions": [
+    "A000027",
+    "A000041",
+    "A005408",
+    "A135010",
+    "A138137"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

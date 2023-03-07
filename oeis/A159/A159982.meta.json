@@ -1,0 +1,22 @@
+{
+  "description": "T(n,k) = numerator of 2*Pi*Sum_{j=0..n-k-1} ((-1)^j*n*(k + j + 2)*(n + k +j)!*(k + j)!^2)/((n - k - j - 1)!*(2*k + j + 1)!*j!*Gamma(k + j + 3/2)*Gamma(k + j + 5/2)), triangle read by rows (n >= 1, 0 <= k <= n - 1).",
+  "id": "A159982",
+  "mentions": [
+    "A003671",
+    "A003676",
+    "A159983"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "frac",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

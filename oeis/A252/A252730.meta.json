@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = P_n(n) with P_0(z) = z+1 and P_n(z) = z + P_{n-1}(z)*(P_{n-1}(z)-z) for n>1.",
+  "id": "A252730",
+  "mentions": [
+    "A177888"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:10",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-bfile"
+  }
+}

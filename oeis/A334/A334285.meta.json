@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the common area of the n-tuple of Heronian triangles with minimal equal perimeter and equal area.",
+  "id": "A334285",
+  "mentions": [
+    "A198311",
+    "A204559"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

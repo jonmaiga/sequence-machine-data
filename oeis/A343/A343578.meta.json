@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 32*n^2 - 40*n + 10.",
+  "id": "A343578",
+  "mentions": [
+    "A014634",
+    "A033954",
+    "A274979"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:05:17",
+    "offset": 1,
+    "size": 43,
+    "source": "joeis"
+  }
+}

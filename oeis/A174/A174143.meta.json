@@ -1,0 +1,22 @@
+{
+  "description": "Partials sums of A002794.",
+  "id": "A174143",
+  "mentions": [
+    "A002065",
+    "A002665",
+    "A002794",
+    "A002795",
+    "A030125"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:28",
+    "offset": 0,
+    "size": 8,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Dispersion of the Beatty sequence ([r*n]: n >= 1), where r = 3 + 8^(1/2): square array D(n,m) (n, m >= 1), read by ascending antidiagonals.",
+  "id": "A120858",
+  "mentions": [
+    "A120859",
+    "A120860",
+    "A120861",
+    "A120862",
+    "A120863"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

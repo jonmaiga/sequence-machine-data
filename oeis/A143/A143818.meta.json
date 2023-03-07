@@ -1,0 +1,28 @@
+{
+  "description": "Let R(n) = sum {k = 0..inf} (3k)^n/(3k)! for n = 0,1,2,... . Then the real number R(n) is an integral linear combination of R(0), R(1) and R(2). This sequence gives the coefficients of R(1).",
+  "id": "A143818",
+  "mentions": [
+    "A000110",
+    "A024429",
+    "A024430",
+    "A143628",
+    "A143629",
+    "A143630",
+    "A143631",
+    "A143815",
+    "A143816",
+    "A143817"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "description": "Triangle read by rows: T(n,k) (1 <= k <= n) = number of monomer-dimer tilings of an n X k board.",
+  "id": "A210662",
+  "mentions": [
+    "A000045",
+    "A028420",
+    "A030186",
+    "A033506",
+    "A033507",
+    "A033508",
+    "A033509",
+    "A033510",
+    "A033511",
+    "A033512",
+    "A033513",
+    "A033514"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:29",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

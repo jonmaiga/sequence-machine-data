@@ -1,0 +1,21 @@
+{
+  "description": "Color of the cell Langton's Ant living on triangular tiling touches on its n-th step before the color is changed by the ant; 0=white, 1=black.",
+  "id": "A275305",
+  "mentions": [
+    "A261990",
+    "A269757",
+    "A275302",
+    "A275303",
+    "A275304"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:40",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

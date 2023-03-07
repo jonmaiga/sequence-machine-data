@@ -1,0 +1,20 @@
+{
+  "description": "Sum of numerator and denominator in a rational approximation j/k of q = log(2)/log(3), such that abs(j/k - q) is a new minimum.",
+  "id": "A355513",
+  "mentions": [
+    "A102525",
+    "A355512",
+    "A355514",
+    "A355515"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

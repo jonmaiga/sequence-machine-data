@@ -1,0 +1,19 @@
+{
+  "description": "n + [ns/r] + [nt/r], where []=floor, r=5, s=(1+sqrt(5))/2, t=1/s.",
+  "id": "A207672",
+  "mentions": [
+    "A206911",
+    "A207673",
+    "A208326"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:06:47",
+    "offset": 1,
+    "size": 68,
+    "source": "joeis"
+  }
+}

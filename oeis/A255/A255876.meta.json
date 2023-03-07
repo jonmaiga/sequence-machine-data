@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = (4*n^2 + 4*n - 3 - 3*(-1)^n)/2.",
+  "id": "A255876",
+  "mentions": [
+    "A000290",
+    "A085046",
+    "A198442",
+    "A255840"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:27:07",
+    "offset": 1,
+    "size": 48,
+    "source": "joeis"
+  }
+}

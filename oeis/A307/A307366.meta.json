@@ -1,0 +1,22 @@
+{
+  "description": "G.f. A(x) satisfies: A(x) = x*exp(A(-x) - A(-x^2)/2 + A(-x^3)/3 - A(-x^4)/4 + ...).",
+  "id": "A307366",
+  "mentions": [
+    "A000081",
+    "A004111",
+    "A045648",
+    "A049075",
+    "A307365"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

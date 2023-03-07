@@ -1,0 +1,22 @@
+{
+  "description": "Numbers with 21 divisors.",
+  "id": "A137484",
+  "mentions": [
+    "A000005",
+    "A030513",
+    "A030638",
+    "A137485",
+    "A189990"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:25",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

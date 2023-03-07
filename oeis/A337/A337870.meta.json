@@ -1,0 +1,21 @@
+{
+  "description": "The number of random walks on the simple square lattice that start at the origin (0,0) and pass through (1,0) after 2n+1 steps before having returned to the origin.",
+  "id": "A337870",
+  "mentions": [
+    "A002894",
+    "A060150",
+    "A275912",
+    "A337869"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

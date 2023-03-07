@@ -1,0 +1,25 @@
+{
+  "description": "Number of ways to write 4*n + 1 as x^2 + y^2 + z^2 + w^2 with x^2 + 7*y^2 = 2^k for some k = 0,1,2,..., where x, y, z, w are nonnegative integers with z <= w.",
+  "id": "A338162",
+  "mentions": [
+    "A000079",
+    "A000118",
+    "A000290",
+    "A020670",
+    "A337082",
+    "A338094",
+    "A338095",
+    "A338096",
+    "A338139"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:10",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the least prime p such that there are exactly n primes q with the same number of digits as p such that the concatenations p|q and q|p are prime, or 0 if there is no such p.",
+  "id": "A358427",
+  "mentions": [
+    "A358421"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

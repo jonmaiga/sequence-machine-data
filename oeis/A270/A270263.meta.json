@@ -1,0 +1,18 @@
+{
+  "description": "Integers divisible by the last row of their \"upside-down\" triangle (see comments)",
+  "id": "A270263",
+  "mentions": [
+    "A048378"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

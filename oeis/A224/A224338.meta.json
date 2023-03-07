@@ -1,0 +1,19 @@
+{
+  "description": "Number of idempotent 7 X 7 0..n matrices of rank 6.",
+  "id": "A224338",
+  "mentions": [
+    "A224333"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:17:27",
+    "offset": 1,
+    "size": 23,
+    "source": "joeis"
+  }
+}

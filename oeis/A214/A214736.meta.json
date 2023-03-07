@@ -1,0 +1,18 @@
+{
+  "description": "Least m>0 such that n-m divides n+1+m.",
+  "id": "A214736",
+  "mentions": [
+    "A075861"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 15:56:56",
+    "offset": 2,
+    "size": 71,
+    "source": "joeis"
+  }
+}

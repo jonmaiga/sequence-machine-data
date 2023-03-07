@@ -1,0 +1,28 @@
+{
+  "description": "Decimal expansion of the sum of the alternating series of reciprocals of squares of composite numbers.",
+  "id": "A276494",
+  "mentions": [
+    "A002162",
+    "A002808",
+    "A062312",
+    "A072691",
+    "A078437",
+    "A242301",
+    "A269229",
+    "A275110",
+    "A275712"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "cons",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

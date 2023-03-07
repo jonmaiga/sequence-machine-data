@@ -1,0 +1,19 @@
+{
+  "description": "Number of conjugacy classes of two-element generating sets in the symmetric group S_n.",
+  "id": "A261750",
+  "mentions": [
+    "A001691"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

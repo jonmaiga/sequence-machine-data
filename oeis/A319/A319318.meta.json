@@ -1,0 +1,24 @@
+{
+  "description": "Number of integer partitions of n such that every distinct submultiset has a different GCD.",
+  "id": "A319318",
+  "mentions": [
+    "A108917",
+    "A275972",
+    "A289508",
+    "A289509",
+    "A316313",
+    "A319315",
+    "A319319",
+    "A319320"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

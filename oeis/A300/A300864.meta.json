@@ -1,0 +1,30 @@
+{
+  "description": "Signed recurrence over strict trees: a(n) = -1 + Sum_{y1 + ... + yk = n, y1 > ... > yk > 0, k > 1} a(y1) * ... * a(yk).",
+  "id": "A300864",
+  "mentions": [
+    "A000992",
+    "A018819",
+    "A063834",
+    "A099323",
+    "A196545",
+    "A220418",
+    "A273866",
+    "A273873",
+    "A289501",
+    "A290261",
+    "A300862",
+    "A300863",
+    "A300865",
+    "A300866"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

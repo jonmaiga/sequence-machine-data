@@ -1,0 +1,24 @@
+{
+  "description": "Exponential (or binomial) half-convolution of A000032 (Lucas) with itself.",
+  "id": "A204449",
+  "mentions": [
+    "A000032",
+    "A008277",
+    "A032443",
+    "A203576",
+    "A203579",
+    "A204450"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = -n*A010815(n).",
+  "id": "A147843",
+  "mentions": [
+    "A000041",
+    "A000203",
+    "A001318",
+    "A010815",
+    "A174740"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:34",
+    "offset": 0,
+    "size": 104,
+    "source": "oeis-bfile"
+  }
+}

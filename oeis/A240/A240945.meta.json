@@ -1,0 +1,19 @@
+{
+  "description": "Powers of 9 without the digit '0' in their decimal expansion.",
+  "id": "A240945",
+  "mentions": [
+    "A030705",
+    "A245853"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

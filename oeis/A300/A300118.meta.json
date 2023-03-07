@@ -1,0 +1,35 @@
+{
+  "description": "Number of skew partitions whose quotient diagram is connected and whose numerator is the integer partition with Heinz number n.",
+  "id": "A300118",
+  "mentions": [
+    "A000085",
+    "A000898",
+    "A006958",
+    "A056239",
+    "A138178",
+    "A153452",
+    "A238690",
+    "A259479",
+    "A259480",
+    "A296150",
+    "A297388",
+    "A299925",
+    "A299926",
+    "A300056",
+    "A300060",
+    "A300120",
+    "A300122",
+    "A300123",
+    "A300124"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

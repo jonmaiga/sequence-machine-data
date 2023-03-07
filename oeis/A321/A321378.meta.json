@@ -1,0 +1,30 @@
+{
+  "description": "Number of integer partitions of n containing no 1's or prime powers.",
+  "id": "A321378",
+  "mentions": [
+    "A000607",
+    "A000688",
+    "A000961",
+    "A002095",
+    "A023893",
+    "A023894",
+    "A096258",
+    "A246655",
+    "A320322",
+    "A321346",
+    "A321347",
+    "A321665",
+    "A322452",
+    "A322454"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

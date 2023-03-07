@@ -1,0 +1,18 @@
+{
+  "description": "Upper twin prime-indexed primes in the sequence of prime(prime(i)).",
+  "id": "A228055",
+  "mentions": [
+    "A006450",
+    "A228054"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

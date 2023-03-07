@@ -1,0 +1,18 @@
+{
+  "description": "Primes which are squares (mod 55).",
+  "id": "A267478",
+  "mentions": [
+    "A106904",
+    "A191036"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

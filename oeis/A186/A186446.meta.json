@@ -1,0 +1,24 @@
+{
+  "description": "Expansion of 1/(1 - 7*x + 2*x^2).",
+  "id": "A186446",
+  "mentions": [
+    "A003771",
+    "A015446",
+    "A015525",
+    "A015537",
+    "A122074",
+    "A178869"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:11",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

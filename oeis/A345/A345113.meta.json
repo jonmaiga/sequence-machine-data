@@ -1,0 +1,25 @@
+{
+  "description": "a(n) is the palindrome reached after A345112(n) steps under repeated applications of the map x -> A345111(x), starting with n, or 0 if no palindrome is ever reached.",
+  "id": "A345113",
+  "mentions": [
+    "A002113",
+    "A061563",
+    "A345110",
+    "A345111",
+    "A345112",
+    "A345114",
+    "A345115"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

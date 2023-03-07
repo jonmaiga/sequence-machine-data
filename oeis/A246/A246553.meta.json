@@ -1,0 +1,20 @@
+{
+  "description": "Limiting sequence obtained by taking the sequence 0, 2, 3, 5, 7, 11, 13, ... and applying an infinite process which is described in the comments.",
+  "id": "A246553",
+  "mentions": [
+    "A000040",
+    "A000225",
+    "A247092"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:02",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

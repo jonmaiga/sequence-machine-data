@@ -1,0 +1,19 @@
+{
+  "description": "Terms in A048398 ending with 1.",
+  "id": "A185893",
+  "mentions": [
+    "A048398",
+    "A182781"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:10",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

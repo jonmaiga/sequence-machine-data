@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of -x, where x is the real root of f(x) = 1 + (twin_prime(n))x^n.",
+  "id": "A104225",
+  "mentions": [
+    "A072508",
+    "A074269",
+    "A088751"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

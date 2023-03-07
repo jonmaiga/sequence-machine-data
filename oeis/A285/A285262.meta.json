@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of Product_{k>=1} ((1-x^(4*k))/(1-x^k))^k.",
+  "id": "A285262",
+  "mentions": [
+    "A026007",
+    "A263346",
+    "A285215",
+    "A285263"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:50:06",
+    "offset": 0,
+    "size": 38,
+    "source": "joeis"
+  }
+}

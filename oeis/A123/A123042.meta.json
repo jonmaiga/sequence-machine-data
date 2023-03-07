@@ -1,0 +1,21 @@
+{
+  "description": "Sequence gives k numbers from A123041.",
+  "id": "A123042",
+  "mentions": [
+    "A000203",
+    "A034448",
+    "A047994",
+    "A123041"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:11",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

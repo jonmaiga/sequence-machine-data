@@ -1,0 +1,20 @@
+{
+  "description": "Primes p such that p+10, p+100 and p+1000 are all prime.",
+  "id": "A271575",
+  "mentions": [
+    "A000040",
+    "A002385",
+    "A015916",
+    "A023203"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:36",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

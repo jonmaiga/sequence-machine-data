@@ -1,0 +1,18 @@
+{
+  "description": "For a given n, and any m less than n-1, the total number of primes of the form 2^n-2^m-1.",
+  "id": "A272143",
+  "mentions": [
+    "A095058",
+    "A095078"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:36",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

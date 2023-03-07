@@ -1,0 +1,21 @@
+{
+  "description": "Triangle T(m,n) = # { k | concat(mk,nk) has no digit twice or more }, m >= n >= 0.",
+  "id": "A328288",
+  "mentions": [
+    "A328277",
+    "A328287"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "fini",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

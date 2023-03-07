@@ -1,0 +1,18 @@
+{
+  "description": "Number of endofunctions f on [n] such that f^10(i) = f(i) for all i in [n].",
+  "id": "A245506",
+  "mentions": [
+    "A245501"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:01",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

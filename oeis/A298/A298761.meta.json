@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that n = pi(n) + uphi(n), where pi = A000720, uphi = A047994.",
+  "id": "A298761",
+  "mentions": [
+    "A000720",
+    "A037170",
+    "A047994"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

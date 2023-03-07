@@ -1,0 +1,19 @@
+{
+  "description": "Filter sequence for sequences that are constant for all even terms >= 2.",
+  "id": "A319702",
+  "mentions": [
+    "A141310",
+    "A319701"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:41",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

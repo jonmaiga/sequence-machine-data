@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that the Diophantine equation (x+2)^3-x^3=2*n^2 has solutions.",
+  "id": "A102344",
+  "mentions": [
+    "A007655",
+    "A011943"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 19:30:57",
+    "offset": 1,
+    "size": 20,
+    "source": "joeis"
+  }
+}

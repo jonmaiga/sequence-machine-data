@@ -1,0 +1,28 @@
+{
+  "description": "a(0) = 0, for n >= 1, a(n) = A275736(n) OR a(A257684(n)), where OR is given by A003986.",
+  "id": "A276010",
+  "mentions": [
+    "A000120",
+    "A003986",
+    "A060502",
+    "A087207",
+    "A257684",
+    "A275728",
+    "A275734",
+    "A275736",
+    "A275808"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:41",
+    "offset": 0,
+    "size": 109,
+    "source": "oeis-bfile"
+  }
+}

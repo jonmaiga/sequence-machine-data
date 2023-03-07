@@ -1,0 +1,37 @@
+{
+  "description": "Triangle read by rows: T(j,k) = 2*k-1 if k is a power of 2, otherwise, between positions that are powers of 2 we have the initial terms of A016969, with j>=0, 1<=k<=A011782(j) and T(0,1) = 0.",
+  "id": "A256263",
+  "mentions": [
+    "A000225",
+    "A000302",
+    "A006257",
+    "A011782",
+    "A016969",
+    "A038573",
+    "A139250",
+    "A139251",
+    "A147562",
+    "A160552",
+    "A162795",
+    "A169707",
+    "A255366",
+    "A256250",
+    "A256258",
+    "A256260",
+    "A256261",
+    "A256264",
+    "A256265"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 0,
+    "size": 95,
+    "source": "oeis-bfile"
+  }
+}

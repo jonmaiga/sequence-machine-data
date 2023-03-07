@@ -1,0 +1,29 @@
+{
+  "description": "a(n) = gcd(n, A276154(n)), where A276154 is the primorial base left shift.",
+  "id": "A324384",
+  "mentions": [
+    "A002110",
+    "A003961",
+    "A049345",
+    "A276085",
+    "A276086",
+    "A276151",
+    "A276152",
+    "A276154",
+    "A323879",
+    "A324198",
+    "A324350",
+    "A324351"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:50",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

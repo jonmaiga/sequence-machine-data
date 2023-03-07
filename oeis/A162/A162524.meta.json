@@ -1,0 +1,27 @@
+{
+  "description": "Partial sums of magic numbers A018226.",
+  "id": "A162524",
+  "mentions": [
+    "A018226",
+    "A130517",
+    "A130556",
+    "A130598",
+    "A130602",
+    "A162521",
+    "A162522",
+    "A162523",
+    "A162525"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

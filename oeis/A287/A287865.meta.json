@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = gpf(2*a(n-1)+1), with a(1)=1, where gpf = A006530.",
+  "id": "A287865",
+  "mentions": [
+    "A006530"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:35:05",
+    "offset": 1,
+    "size": 76,
+    "source": "joeis"
+  }
+}

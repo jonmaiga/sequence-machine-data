@@ -1,0 +1,25 @@
+{
+  "description": "Array read by ascending antidiagonals. A(n, k) = k! * [x^k] log((1 - x) / (1 - 2*x)) / (1 - x)^n, for 0 <= k <= n.",
+  "id": "A355257",
+  "mentions": [
+    "A029767",
+    "A103213",
+    "A355171",
+    "A355259",
+    "A355372",
+    "A355407",
+    "A355414"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

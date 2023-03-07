@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{k=0..n}(binomial(n,k)*binomial(n+k-1,n-k)).",
+  "id": "A262440",
+  "mentions": [
+    "A109081",
+    "A262441",
+    "A262442"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:22",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

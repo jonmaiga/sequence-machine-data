@@ -1,0 +1,20 @@
+{
+  "description": "a(n+1)=sopfr(3a(n)+1), with sopfr=A001414. Finishes with 17 (fixed point).",
+  "id": "A136137",
+  "mentions": [
+    "A001414",
+    "A136136"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "fini",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

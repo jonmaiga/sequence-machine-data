@@ -1,0 +1,18 @@
+{
+  "description": "Floor of the area of a lens constructed using circular arcs of radius n.",
+  "id": "A101418",
+  "mentions": [
+    "A093731"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Numbers n such that sigma(n-1) is a prime.",
+  "id": "A270413",
+  "mentions": [
+    "A000203",
+    "A023194",
+    "A249759",
+    "A256438",
+    "A270414",
+    "A270415"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:49",
+    "offset": 1,
+    "size": 39,
+    "source": "joeis"
+  }
+}

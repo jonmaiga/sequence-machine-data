@@ -1,0 +1,20 @@
+{
+  "description": "Prime(A205713(n)), the n-th number s(j) such that 9 divides s(k)-s(j), where the pairs (k,j) are given by A205712 and A205713.",
+  "id": "A205715",
+  "mentions": [
+    "A204890",
+    "A205558",
+    "A205712",
+    "A205713"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-07 09:18:47",
+    "offset": 1,
+    "size": 70,
+    "source": "joeis"
+  }
+}

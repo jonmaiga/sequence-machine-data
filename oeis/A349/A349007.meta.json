@@ -1,0 +1,21 @@
+{
+  "description": "a(1) = 1; for n > 1, a(n) is the largest number m such that sigma(m) = tau(m)^n or 0 if no such m exists.",
+  "id": "A349007",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A051281",
+    "A334455",
+    "A349006"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

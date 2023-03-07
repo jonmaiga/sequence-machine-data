@@ -1,0 +1,17 @@
+{
+  "description": "Highly composite numbers (A002182) that lack a prime factor that the previous HCN has.",
+  "id": "A210618",
+  "mentions": [
+    "A002182"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:29",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Numbers k such that phi(k) = phi(sigma(k)) and A003958(k) = A003958(sigma(k)).",
+  "id": "A353635",
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A003958",
+    "A006872",
+    "A062401",
+    "A351440",
+    "A351442",
+    "A351446",
+    "A353634"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

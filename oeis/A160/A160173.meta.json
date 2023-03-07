@@ -1,0 +1,28 @@
+{
+  "description": "Number of T-toothpicks added at n-th stage to the T-toothpick structure of A160172.",
+  "id": "A160173",
+  "mentions": [
+    "A000120",
+    "A000695",
+    "A139250",
+    "A139251",
+    "A160121",
+    "A160171",
+    "A160172",
+    "A161207",
+    "A161329",
+    "A172311",
+    "A199111"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

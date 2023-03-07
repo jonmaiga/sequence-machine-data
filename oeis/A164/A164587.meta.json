@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 2*a(n - 2) for n > 2; a(1) = 1, a(2) = 8.",
+  "id": "A164587",
+  "mentions": [
+    "A000079",
+    "A048696",
+    "A112032",
+    "A164298"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:47",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

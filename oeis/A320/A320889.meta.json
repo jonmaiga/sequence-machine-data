@@ -1,0 +1,28 @@
+{
+  "description": "Number of set partitions of strict factorizations of n into factors > 1 such that all the blocks have the same product.",
+  "id": "A320889",
+  "mentions": [
+    "A000110",
+    "A001055",
+    "A001970",
+    "A045778",
+    "A050336",
+    "A279375",
+    "A294786",
+    "A294787",
+    "A296132",
+    "A320886",
+    "A320887",
+    "A320888"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

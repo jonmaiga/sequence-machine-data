@@ -1,0 +1,34 @@
+{
+  "description": "Array read by antidiagonals: A(n,k) is the number of nonnegative integer matrices with k columns and any number of nonzero rows with column sums n and columns in nonincreasing lexicographic order.",
+  "id": "A331315",
+  "mentions": [
+    "A000012",
+    "A011782",
+    "A121227",
+    "A219585",
+    "A219727",
+    "A316674",
+    "A317583",
+    "A330942",
+    "A331160",
+    "A331161",
+    "A331278",
+    "A331397",
+    "A331485",
+    "A331568",
+    "A331570",
+    "A331572"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:00",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

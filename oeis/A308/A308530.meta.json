@@ -1,0 +1,19 @@
+{
+  "description": "The number of largely composite numbers (A067128) having the same number of divisors as the n-th highly composite number A002182(n).",
+  "id": "A308530",
+  "mentions": [
+    "A000005",
+    "A002182",
+    "A067128"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:33",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

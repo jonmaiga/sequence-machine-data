@@ -1,0 +1,18 @@
+{
+  "description": "Positive integers n where both n and the number of divisors of n are perfect powers. (Both n and d(n) are elements of A001597.)",
+  "id": "A175050",
+  "mentions": [
+    "A001597",
+    "A175051"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:58",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

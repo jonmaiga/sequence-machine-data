@@ -1,0 +1,23 @@
+{
+  "description": "Primes congruent to {0, 2, 4, 6, 8, 10} modulo 11.",
+  "id": "A137977",
+  "mentions": [
+    "A000040",
+    "A039709",
+    "A045356",
+    "A045370",
+    "A049084",
+    "A137978"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:49:51",
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

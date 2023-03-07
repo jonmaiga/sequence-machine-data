@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of leaves at level k in the Fibonacci tree of order n (n>=0, 0<=k<=n-1).",
+  "id": "A178524",
+  "mentions": [
+    "A000045",
+    "A004070",
+    "A067331",
+    "A178522"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 92,
+    "source": "oeis-entry"
+  }
+}

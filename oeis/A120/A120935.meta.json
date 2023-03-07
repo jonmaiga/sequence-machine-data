@@ -1,0 +1,21 @@
+{
+  "description": "Largest prime in the cluster of n primes whose first prime is given in A120934.",
+  "id": "A120935",
+  "mentions": [
+    "A008407",
+    "A020497",
+    "A038134",
+    "A120934"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

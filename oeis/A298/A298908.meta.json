@@ -1,0 +1,18 @@
+{
+  "description": "Smallest composite k such that (n^k - 1)/(n - 1) == 1 (mod k) for n > 1.",
+  "id": "A298908",
+  "mentions": [
+    "A000790",
+    "A271801"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:22",
+    "offset": 2,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

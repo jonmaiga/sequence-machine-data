@@ -1,0 +1,18 @@
+{
+  "description": "Value of A000001(n) as n runs through the quadruprimes (A014613).",
+  "id": "A142865",
+  "mentions": [
+    "A000001",
+    "A014613"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-entry"
+  }
+}

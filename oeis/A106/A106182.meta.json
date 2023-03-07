@@ -1,0 +1,21 @@
+{
+  "description": "Number of inequivalent binary sequences of length n, where two sequences are said to be equivalent if they have the same set of phrases in their Ziv-Lempel encodings (the phrases can appear in a different order in the two sequences).",
+  "id": "A106182",
+  "mentions": [
+    "A095830",
+    "A109337",
+    "A109338"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

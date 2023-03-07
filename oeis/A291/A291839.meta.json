@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the minimal position at which the maximal value of row n appears in row n of triangle A100960.",
+  "id": "A291839",
+  "mentions": [
+    "A100960",
+    "A291837",
+    "A291840"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:06",
+    "offset": 3,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: coefficients of Fermat-Lucas polynomials.",
+  "id": "A137372",
+  "mentions": [
+    "A000051"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:49:11",
+    "offset": 0,
+    "size": 66,
+    "source": "joeis"
+  }
+}

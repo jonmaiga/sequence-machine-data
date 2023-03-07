@@ -1,0 +1,19 @@
+{
+  "description": "Odd numbers not of the form 2*n*k - n - k + 1 where n and k are odd numbers > 1.",
+  "id": "A327260",
+  "mentions": [
+    "A307001",
+    "A327259",
+    "A327261"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:54",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

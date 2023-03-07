@@ -1,0 +1,29 @@
+{
+  "description": "Numbers n such that 25^n - 24^n is prime or a strong pseudoprime.",
+  "id": "A214655",
+  "mentions": [
+    "A000043",
+    "A057468",
+    "A059801",
+    "A059802",
+    "A059803",
+    "A062572",
+    "A062589",
+    "A062592",
+    "A062666",
+    "A214658"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "bref",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of ordered triples (w,x,y) with all terms in {1,...,n} and w + 4y = 2x.",
+  "id": "A211520",
+  "mentions": [
+    "A178804",
+    "A211422",
+    "A282513"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:30",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Array read by antidiagonals: T(m,n) = number of m-ary words of length n with adjacent elements differing by 3 or less.",
+  "id": "A285267",
+  "mentions": [
+    "A126473",
+    "A126500",
+    "A188866",
+    "A285266",
+    "A285281"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:56",
+    "offset": 4,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

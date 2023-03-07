@@ -1,0 +1,21 @@
+{
+  "description": "Number of inversion sequences of length n avoiding the consecutive pattern 201.",
+  "id": "A328501",
+  "mentions": [
+    "A049774",
+    "A071075",
+    "A200404",
+    "A240885"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:57",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

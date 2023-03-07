@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = sigma(n) + A079667(n).",
+  "id": "A117003",
+  "mentions": [
+    "A000203",
+    "A079667",
+    "A117004",
+    "A259825"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:07",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

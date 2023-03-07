@@ -1,0 +1,26 @@
+{
+  "description": "Coefficients of (q*(j(q)-744))^(1/4) where j(q) is the elliptic modular invariant.",
+  "id": "A304020",
+  "mentions": [
+    "A000521",
+    "A014708",
+    "A106203",
+    "A106205",
+    "A302407",
+    "A305696",
+    "A305697",
+    "A305698",
+    "A305699"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:28",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

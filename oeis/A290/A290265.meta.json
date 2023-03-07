@@ -1,0 +1,19 @@
+{
+  "description": "The number of non-palindromic Motzkin paths of length n.",
+  "id": "A290265",
+  "mentions": [
+    "A001006",
+    "A005773"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

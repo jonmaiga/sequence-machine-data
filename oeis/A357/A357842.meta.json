@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the smallest number k for which k and the arithmetic derivative k' (A003415) have exactly n triangular divisors (A000217).",
+  "id": "A357842",
+  "mentions": [
+    "A000217",
+    "A003415",
+    "A007862",
+    "A130317"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

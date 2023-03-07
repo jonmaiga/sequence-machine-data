@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of theta_3(0, exp(-4*Pi)), where theta_3 is the 3rd Jacobi theta function.",
+  "id": "A273082",
+  "mentions": [
+    "A175573",
+    "A247217",
+    "A273081",
+    "A273083",
+    "A273084"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:38",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

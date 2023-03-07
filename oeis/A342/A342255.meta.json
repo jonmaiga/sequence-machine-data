@@ -1,0 +1,27 @@
+{
+  "description": "Square array read by ascending antidiagonals: T(n,k) = gcd(k, Phi_k(n)), where Phi_k is the k-th cyclotomic polynomial, n >= 1, k >= 1.",
+  "id": "A342255",
+  "mentions": [
+    "A013595",
+    "A014963",
+    "A253235",
+    "A253240",
+    "A323748",
+    "A342256",
+    "A342257",
+    "A342323"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:15",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "When a digit d is prime, the next digit is < d.",
+  "id": "A342047",
+  "mentions": [
+    "A342042",
+    "A342043",
+    "A342044",
+    "A342045",
+    "A342046"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:15",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

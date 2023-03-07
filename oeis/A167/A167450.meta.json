@@ -1,0 +1,23 @@
+{
+  "description": "Smallest sequence which lists the position of digits \"8\" in the sequence.",
+  "id": "A167450",
+  "mentions": [
+    "A098645",
+    "A167451",
+    "A167452",
+    "A167457",
+    "A167519",
+    "A167520"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

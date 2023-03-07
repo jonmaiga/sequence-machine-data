@@ -1,0 +1,20 @@
+{
+  "description": "a(1) = 1, a(n) = tau(n) + n - 2 for n > 1.",
+  "id": "A134871",
+  "mentions": [
+    "A000005",
+    "A051731",
+    "A071324",
+    "A134870"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:42:57",
+    "offset": 1,
+    "size": 67,
+    "source": "joeis"
+  }
+}

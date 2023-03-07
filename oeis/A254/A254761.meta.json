@@ -1,0 +1,23 @@
+{
+  "description": "One half of the fundamental positive solution y = y1(n) of the first class of the Pell equation x^2 - 2*y^2 = A007519(n), n >= 1 (primes congruent to 1 mod 8).",
+  "id": "A254761",
+  "mentions": [
+    "A002335",
+    "A007519",
+    "A254760",
+    "A254762",
+    "A254763"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

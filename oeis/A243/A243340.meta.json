@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of 4*L/(3*Pi), a constant related to the asymptotic evaluation of the number of primes of the form a^2+b^4, where L is Gauss' lemniscate constant.",
+  "id": "A243340",
+  "mentions": [
+    "A062539",
+    "A225119"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

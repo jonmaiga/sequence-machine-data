@@ -1,0 +1,20 @@
+{
+  "description": "Even numbers that are not the sum of two prime-indexed primes.",
+  "id": "A303403",
+  "mentions": [
+    "A006450",
+    "A014092",
+    "A166081",
+    "A174682"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k with exactly three distinct prime factors and such that cototient(k) is a square.",
+  "id": "A306670",
+  "mentions": [
+    "A000396",
+    "A063752",
+    "A246551",
+    "A323916",
+    "A323917",
+    "A323918"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

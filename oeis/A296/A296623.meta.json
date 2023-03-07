@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of e.g.f. log(1 + arctan(x)*arctanh(x)) (even powers only).",
+  "id": "A296623",
+  "mentions": [
+    "A009272",
+    "A009398",
+    "A010050",
+    "A012727",
+    "A110708",
+    "A202139"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-03 01:19:03",
+    "offset": 0,
+    "size": 16,
+    "source": "joeis"
+  }
+}

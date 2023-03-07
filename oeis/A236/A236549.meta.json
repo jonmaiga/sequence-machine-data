@@ -1,0 +1,19 @@
+{
+  "description": "The number of independent sets in L(J_n), the line graph of the flower snark graph J_n.",
+  "id": "A236549",
+  "mentions": [
+    "A236550"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:54",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

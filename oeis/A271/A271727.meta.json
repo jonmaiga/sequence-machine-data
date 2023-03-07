@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of the density of exponentially 2^n-numbers (A138302).",
+  "id": "A271727",
+  "mentions": [
+    "A138302",
+    "A271726"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:36",
+    "offset": 0,
+    "size": 98,
+    "source": "oeis-bfile"
+  }
+}

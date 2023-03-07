@@ -1,0 +1,17 @@
+{
+  "description": "Number of (n+1)X9 0..3 arrays with every 2X2 subblock trace equal to some horizontal or vertical neighbor 2X2 subblock trace",
+  "id": "A185806",
+  "mentions": [
+    "A185807"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Number of regions after n generations of Jim Conant's iterative dissection of a square.",
+  "id": "A328078",
+  "mentions": [
+    "A001511",
+    "A047999",
+    "A328079",
+    "A328080",
+    "A328081",
+    "A330569",
+    "A337642",
+    "A337780"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:56",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

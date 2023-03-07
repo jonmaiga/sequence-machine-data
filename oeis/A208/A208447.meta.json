@@ -1,0 +1,32 @@
+{
+  "description": "Sum of the k-th powers of the numbers of standard Young tableaux over all partitions of n; square array A(n,k), n>=0, k>=0, read by antidiagonals.",
+  "id": "A208447",
+  "mentions": [
+    "A000012",
+    "A000041",
+    "A000085",
+    "A000142",
+    "A007395",
+    "A052548",
+    "A129627",
+    "A130721",
+    "A218432",
+    "A218433",
+    "A218434",
+    "A218435",
+    "A218436",
+    "A218437",
+    "A319607"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:28",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

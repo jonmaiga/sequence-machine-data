@@ -1,0 +1,23 @@
+{
+  "description": "Perfect powers such that the two immediately adjacent perfect powers have at least one largest exponent A025479 greater than 2.",
+  "id": "A340640",
+  "mentions": [
+    "A000290",
+    "A001597",
+    "A025479",
+    "A111245",
+    "A153158",
+    "A340586",
+    "A340641"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

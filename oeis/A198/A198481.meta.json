@@ -1,0 +1,20 @@
+{
+  "description": "Square root of the largest square dividing ((2n-1)!)^(2n-3).",
+  "id": "A198481",
+  "mentions": [
+    "A000188",
+    "A134367",
+    "A197880"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

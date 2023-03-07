@@ -1,0 +1,23 @@
+{
+  "description": "The p-defect p - N(p) of the elliptic curve y^2 = x^3 + x for primes p congruent to 1 modulo 4 (A002144).",
+  "id": "A267859",
+  "mentions": [
+    "A000040",
+    "A002144",
+    "A002172",
+    "A002973",
+    "A095978",
+    "A138515"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:29",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

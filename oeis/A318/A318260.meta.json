@@ -1,0 +1,24 @@
+{
+  "description": "Generalized Worpitzky numbers W_{m}(n,k) for m = 3, n >= 0 and 0 <= k <= n, triangle read by rows.",
+  "id": "A318260",
+  "mentions": [
+    "A002115",
+    "A014606",
+    "A028246",
+    "A163626",
+    "A167374",
+    "A318259"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

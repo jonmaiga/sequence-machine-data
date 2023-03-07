@@ -1,0 +1,23 @@
+{
+  "description": "Beginning with the n-th prime, the number of successive times a new prime can be formed by prepending the smallest nonzero digit.",
+  "id": "A101115",
+  "mentions": [
+    "A000040",
+    "A024785",
+    "A053583",
+    "A101116",
+    "A101117",
+    "A101118"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:52",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

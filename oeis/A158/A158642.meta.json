@@ -1,0 +1,19 @@
+{
+  "description": "Palindromic numbers which are the product of a number n and its reversal (n written backwards)",
+  "id": "A158642",
+  "mentions": [
+    "A002113"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:41",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

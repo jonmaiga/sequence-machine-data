@@ -1,0 +1,19 @@
+{
+  "description": "Members of a pair (a,b) such that a is the number of Abelian groups of order n and b is the number of non-Abelian groups of order n.",
+  "id": "A238877",
+  "mentions": [
+    "A000001",
+    "A000688",
+    "A060689"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:56",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

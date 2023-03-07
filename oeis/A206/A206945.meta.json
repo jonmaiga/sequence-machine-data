@@ -1,0 +1,21 @@
+{
+  "description": "Prime numbers Phi(k,m) with integer k > 2, |m| > 1, and k != 2^j (j > 1)",
+  "id": "A206945",
+  "mentions": [
+    "A059055",
+    "A194712",
+    "A206864",
+    "A206942",
+    "A206944"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "9^n - 5^n.",
+  "id": "A191466",
+  "mentions": [
+    "A016163",
+    "A016185",
+    "A059410",
+    "A118004"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:15",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

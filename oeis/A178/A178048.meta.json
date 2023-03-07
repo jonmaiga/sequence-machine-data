@@ -1,0 +1,20 @@
+{
+  "description": "Triangle T(n, m) = ( |-A008292(n+1,m+1)^2 + 2*binomial(n, m)^2| + A008292(n+1,m+1)*binomial(n, m) )/2 read by rows.",
+  "id": "A178048",
+  "mentions": [
+    "A008292",
+    "A141686"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

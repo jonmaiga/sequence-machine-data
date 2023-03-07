@@ -1,0 +1,18 @@
+{
+  "description": "Triangular array: T(n,k)=|C(n+2,k)-C(n+2,k+2)|, 0<=k<=n.",
+  "id": "A194123",
+  "mentions": [
+    "A194124"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

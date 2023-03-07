@@ -1,0 +1,25 @@
+{
+  "description": "Number of plane 5-regular simple connected graphs with 2n vertices.",
+  "id": "A301425",
+  "mentions": [
+    "A003094",
+    "A006821",
+    "A292109",
+    "A292972",
+    "A308489",
+    "A322917",
+    "A322929",
+    "A323281"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 6,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

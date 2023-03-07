@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 36*Fibonacci(2*n+1) - 4.",
+  "id": "A153981",
+  "mentions": [
+    "A010716",
+    "A153819",
+    "A153873"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:04:38",
+    "offset": 0,
+    "size": 26,
+    "source": "joeis"
+  }
+}

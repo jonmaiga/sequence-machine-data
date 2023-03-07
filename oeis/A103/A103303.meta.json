@@ -1,0 +1,25 @@
+{
+  "description": "Complete list of digits used in the counting numbers (in base 10). Also known as the \"Arabic numerals\".",
+  "id": "A103303",
+  "mentions": [
+    "A000461",
+    "A002262",
+    "A007908",
+    "A033307",
+    "A055087"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

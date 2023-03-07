@@ -1,0 +1,20 @@
+{
+  "description": "Triangle T(n,m) = 1 + f(n+1)*(f(m+1) + f(n-m+1) - 1 - f(n+1)), read by rows, where f(.)=A002487(.).",
+  "id": "A178304",
+  "mentions": [
+    "A002487",
+    "A177443"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Zero-one sequence based on tetrahedral numbers: a(A000292(k))=a(k); a(A145397(k))=1-a(k); a(1)=0.",
+  "id": "A189017",
+  "mentions": [
+    "A000292",
+    "A145397",
+    "A189018",
+    "A189019"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:42:05",
+    "offset": 1,
+    "size": 135,
+    "source": "joeis"
+  }
+}

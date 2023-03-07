@@ -1,0 +1,19 @@
+{
+  "description": "Triangular array read by rows: T(n, k) is the number of (i, j), ordered pairs of integers, satisfying 1 <= i < j <= n and floor(n * (1/i - 1/j)) = k; n >= 1, 0 <= k < n.",
+  "id": "A321368",
+  "mentions": [
+    "A321047"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-entry"
+  }
+}

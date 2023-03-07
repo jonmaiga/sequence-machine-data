@@ -1,0 +1,30 @@
+{
+  "description": "Characteristic function for powerful numbers.",
+  "id": "A112526",
+  "mentions": [
+    "A001221",
+    "A001694",
+    "A005596",
+    "A008683",
+    "A008966",
+    "A027746",
+    "A052486",
+    "A063524",
+    "A065471",
+    "A075802",
+    "A082695",
+    "A124010"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:03",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

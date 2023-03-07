@@ -1,0 +1,24 @@
+{
+  "description": "a(n) equals the coefficient of x^(2*n-1) in Sum_{m>=0} (x^m + 1/x^m)^m for n >= 1.",
+  "id": "A316596",
+  "mentions": [
+    "A304638",
+    "A316590",
+    "A316591",
+    "A316592",
+    "A316593",
+    "A316594",
+    "A316595"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:35",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "A130041(n) is the a(n)-th composite number.",
+  "id": "A130042",
+  "mentions": [
+    "A065855",
+    "A130041"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 2,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

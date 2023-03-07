@@ -1,0 +1,19 @@
+{
+  "description": "The difference between maximal run length and minimal run length in binary representation of n-th prime.",
+  "id": "A175609",
+  "mentions": [
+    "A000040",
+    "A175599"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

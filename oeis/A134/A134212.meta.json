@@ -1,0 +1,36 @@
+{
+  "description": "Positions of 12 after decimal point in decimal expansion of Pi.",
+  "id": "A134212",
+  "mentions": [
+    "A014777",
+    "A036974",
+    "A037000",
+    "A037001",
+    "A037002",
+    "A037003",
+    "A037004",
+    "A037005",
+    "A037006",
+    "A037007",
+    "A037008",
+    "A050208",
+    "A134213",
+    "A134214",
+    "A134215",
+    "A134216",
+    "A134217",
+    "A134218",
+    "A134219"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:22",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

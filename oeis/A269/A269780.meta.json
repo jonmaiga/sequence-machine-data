@@ -1,0 +1,22 @@
+{
+  "description": "Table read by antidiagonals where T(i,j) is the location of the pair (i,j) in A269501.",
+  "id": "A269780",
+  "mentions": [
+    "A002522",
+    "A097292",
+    "A269501",
+    "A316323"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

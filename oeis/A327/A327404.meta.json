@@ -1,0 +1,25 @@
+{
+  "description": "Quotient of n over the maximum divisor of n that is 2 or whose prime indices have a common divisor > 1.",
+  "id": "A327404",
+  "mentions": [
+    "A000005",
+    "A006530",
+    "A056239",
+    "A112798",
+    "A289509",
+    "A302569",
+    "A327395",
+    "A327407",
+    "A327656"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-entry"
+  }
+}

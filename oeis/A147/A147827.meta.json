@@ -1,0 +1,22 @@
+{
+  "description": "Minimum number k for which the digital sum of k*n is 7*n.",
+  "id": "A147827",
+  "mentions": [
+    "A147822",
+    "A147826",
+    "A147828",
+    "A147831"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:34",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

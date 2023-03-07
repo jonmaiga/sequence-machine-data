@@ -1,0 +1,27 @@
+{
+  "description": "Irregular table read by rows: row n gives the number of 3-gon to k-gon contacts, with k>=3, for a regular n-gon with all diagonals drawn.",
+  "id": "A333654",
+  "mentions": [
+    "A007569",
+    "A007678",
+    "A062361",
+    "A135565",
+    "A331450",
+    "A331451",
+    "A335614",
+    "A335646",
+    "A337330"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 3,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

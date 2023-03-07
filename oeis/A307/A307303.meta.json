@@ -1,0 +1,24 @@
+{
+  "description": "Triangle T(n, k) read as upwards antidiagonals of array A, where A(n, k) is the number of families (also called classes) of proper solutions of the Pell equation x^2 - D(n)*y^2 = -k, for k >= 1.",
+  "id": "A307303",
+  "mentions": [
+    "A000037",
+    "A000194",
+    "A003814",
+    "A057126",
+    "A324251",
+    "A324252"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

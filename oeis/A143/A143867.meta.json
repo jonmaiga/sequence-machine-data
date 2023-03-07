@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the number of n-digit integers in which the first k digits are divisible by k-th prime. Leading zeros are not allowed.",
+  "id": "A143867",
+  "mentions": [
+    "A079206"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "easy",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Equal divisions of the octave with nondecreasing consistency levels.",
+  "id": "A117577",
+  "mentions": [
+    "A116474",
+    "A116475",
+    "A117578"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

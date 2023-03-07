@@ -1,0 +1,23 @@
+{
+  "description": "Irregular table read by row: the n-th row gives values of successively iterating phi, phi and sigma, starting with the initial value n, until the value 1 is reached. If 1 is never reached, row n contains n, -1.",
+  "id": "A334725",
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A032452",
+    "A334523",
+    "A334685",
+    "A334686"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

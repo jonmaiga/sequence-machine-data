@@ -1,0 +1,20 @@
+{
+  "description": "For n>2, a(n) not appeared previously is such that a(n-1)^2+4*a(n-2)*a(n) is a minimal square, a(1)=1, a(2)=3.",
+  "id": "A105828",
+  "mentions": [
+    "A105822",
+    "A105829",
+    "A105836"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:57",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

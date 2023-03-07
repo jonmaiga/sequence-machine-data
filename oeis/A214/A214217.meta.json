@@ -1,0 +1,19 @@
+{
+  "description": "List of singular subwords (or factors) of the Fibonacci word A003842.",
+  "id": "A214217",
+  "mentions": [
+    "A003842",
+    "A214216"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

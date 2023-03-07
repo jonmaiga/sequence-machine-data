@@ -1,0 +1,22 @@
+{
+  "description": "Triangle T(n,k) = 1 if both n and k are even or if n and k are divisible by 3.",
+  "id": "A349297",
+  "mentions": [
+    "A005843",
+    "A008585",
+    "A047229",
+    "A054521"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:24",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

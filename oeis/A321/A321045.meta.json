@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the value of the first entry in the matrix A^n where A = [{1,2,3}, {4,5,6}, {7,8,9}].",
+  "id": "A321045",
+  "mentions": [
+    "A015535"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 12:04:54",
+    "offset": 0,
+    "size": 20,
+    "source": "joeis"
+  }
+}

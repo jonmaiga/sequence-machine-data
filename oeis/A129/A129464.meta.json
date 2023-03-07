@@ -1,0 +1,22 @@
+{
+  "description": "Second column (m=1) of triangle A129462 (v=2 member of a certain family).",
+  "id": "A129464",
+  "mentions": [
+    "A129462",
+    "A129465",
+    "A129466",
+    "A229020"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-02 18:35:41",
+    "offset": 0,
+    "size": 17,
+    "source": "joeis"
+  }
+}

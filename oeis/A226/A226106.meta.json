@@ -1,0 +1,23 @@
+{
+  "description": "G.f.: exp( Sum_{n>=1} A068963(n)*x^n/n ) where A068963(n) = Sum_{d|n} phi(d^3).",
+  "id": "A226106",
+  "mentions": [
+    "A000010",
+    "A002618",
+    "A061255",
+    "A068963",
+    "A299069",
+    "A301986"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

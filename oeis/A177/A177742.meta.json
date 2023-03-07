@@ -1,0 +1,20 @@
+{
+  "description": "The number of strong vertex magic total labelings of all 2-regular simple graphs on 2n+1 vertices.",
+  "id": "A177742",
+  "mentions": [
+    "A060408",
+    "A177741"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

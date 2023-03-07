@@ -1,0 +1,19 @@
+{
+  "description": "A permutation pi on [1,2,....n] has k(pi) longest increasing subsequences associated with it; 1<= k(pi)<= f(n) for some function f. The given sequence enumerates sum_pi k(pi).",
+  "id": "A167999",
+  "mentions": [
+    "A167995",
+    "A168502"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

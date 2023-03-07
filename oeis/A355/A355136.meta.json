@@ -1,0 +1,17 @@
+{
+  "description": "The fixed points of A355072.",
+  "id": "A355136",
+  "mentions": [
+    "A355072"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

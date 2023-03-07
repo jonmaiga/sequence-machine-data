@@ -1,0 +1,25 @@
+{
+  "description": "Number of partitions of n with carry-free sum in primorial base.",
+  "id": "A317836",
+  "mentions": [
+    "A001055",
+    "A002110",
+    "A007623",
+    "A046523",
+    "A049345",
+    "A276086",
+    "A278226",
+    "A317826"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:37",
+    "offset": 0,
+    "size": 92,
+    "source": "oeis-bfile"
+  }
+}

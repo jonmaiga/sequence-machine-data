@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = Product_{d|n} gcd(sigma(d), pod(d)) where sigma(k) is the sum of divisors of k (A000203) and pod(k) is the product of divisors of k (A007955).",
+  "id": "A334731",
+  "mentions": [
+    "A000005",
+    "A000040",
+    "A000203",
+    "A007955",
+    "A306682",
+    "A334663",
+    "A334729"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:06",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

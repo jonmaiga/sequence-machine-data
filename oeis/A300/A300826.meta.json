@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = n/A125746(n), where A125746(n) gives the smallest divisor d of n such that the sum which includes d and all smaller divisors is >= n.",
+  "id": "A300826",
+  "mentions": [
+    "A005100",
+    "A023196",
+    "A125746"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:25",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

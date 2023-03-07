@@ -1,0 +1,18 @@
+{
+  "description": "Exponents for the terms in A217368: least number which taken to the a(n)-th power has exactly n copies of each decimal digit.",
+  "id": "A217378",
+  "mentions": [
+    "A217368"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

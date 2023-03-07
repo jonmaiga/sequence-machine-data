@@ -1,0 +1,21 @@
+{
+  "description": "Smallest m>n such that the m-th and n-th triangular numbers are coprime.",
+  "id": "A130334",
+  "mentions": [
+    "A000217",
+    "A026741",
+    "A109007",
+    "A130335"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:18",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

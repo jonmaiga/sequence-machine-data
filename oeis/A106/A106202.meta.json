@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of Im(x/(1 - x - 2*i*x^2)), i=sqrt(-1).",
+  "id": "A106202",
+  "mentions": [
+    "A001045",
+    "A014292",
+    "A104862",
+    "A106201"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-02 22:24:34",
+    "offset": 0,
+    "size": 42,
+    "source": "joeis"
+  }
+}

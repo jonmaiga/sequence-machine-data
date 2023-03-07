@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = floor of the average of distances between consecutive positive divisors of n. Also, a(n) = floor((n-1)/(d(n)-1)), where d(n) = A000005(n).",
+  "id": "A131755",
+  "mentions": [
+    "A000005",
+    "A096738"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 2,
+    "size": 79,
+    "source": "oeis-entry"
+  }
+}

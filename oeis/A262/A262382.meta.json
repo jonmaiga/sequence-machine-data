@@ -1,0 +1,30 @@
+{
+  "description": "Numerators of a semi-convergent series leading to the first Stieltjes constant gamma_1.",
+  "id": "A262382",
+  "mentions": [
+    "A001067",
+    "A001620",
+    "A002206",
+    "A006953",
+    "A075266",
+    "A082633",
+    "A086279",
+    "A086280",
+    "A195189",
+    "A262235",
+    "A262383",
+    "A262387"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:22",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

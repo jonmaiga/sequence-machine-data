@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of Product_{1 <= i <= j} 1/(1 - x^(i^2 + j^2)).",
+  "id": "A321437",
+  "mentions": [
+    "A025426",
+    "A321431",
+    "A321435",
+    "A321436"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:44",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

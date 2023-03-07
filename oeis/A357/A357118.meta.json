@@ -1,0 +1,19 @@
+{
+  "description": "Numbers such that the first digit is the number of digits and the second digit is the number of distinct digits.",
+  "id": "A357118",
+  "mentions": [
+    "A319678"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:31",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

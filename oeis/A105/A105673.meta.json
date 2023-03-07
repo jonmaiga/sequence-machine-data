@@ -1,0 +1,19 @@
+{
+  "description": "One-half of theta series of square lattice (or half the number of ways of writing n > 0 as a sum of 2 squares), without the constant term, which is 1/2.",
+  "id": "A105673",
+  "mentions": [
+    "A002654",
+    "A004018"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:56",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

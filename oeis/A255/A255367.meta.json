@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = r^(p-2) mod p, where p is the n-th prime and r is the least positive primitive root of p.",
+  "id": "A255367",
+  "mentions": [
+    "A000040",
+    "A001918",
+    "A254309"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:13",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Largest prime concatenation of the first n primes, or 0 if no such prime exists.",
+  "id": "A167417",
+  "mentions": [
+    "A134966",
+    "A167416",
+    "A175429",
+    "A177275"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Primes p such that 2*p+3 and 16*p+45 are both prime.",
+  "id": "A156011",
+  "mentions": [
+    "A156004",
+    "A156005",
+    "A156007",
+    "A156009",
+    "A156010"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:38",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

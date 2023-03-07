@@ -1,0 +1,19 @@
+{
+  "description": "Consider the Goldbach conjecture that every even number 2n=p+p' with p<=p'. Consider all such Goldbach partitions; a(n) is the difference between the largest p and the smallest p. Call this difference the Goldbach gap.",
+  "id": "A112824",
+  "mentions": [
+    "A020481",
+    "A112823"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:51:27",
+    "offset": 2,
+    "size": 74,
+    "source": "joeis"
+  }
+}

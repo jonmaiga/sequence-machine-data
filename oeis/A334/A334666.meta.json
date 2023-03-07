@@ -1,0 +1,22 @@
+{
+  "description": "For any number with binary expansion (b_1, ..., b_w), replace the i-th \"1\" by b_i for i = 1..A000120(n) and the j-th \"0\" by b_{w+1-j} for j = 1..A023416(n); the resulting binary expansion is that of a(n).",
+  "id": "A334666",
+  "mentions": [
+    "A000120",
+    "A023416",
+    "A023758",
+    "A334667"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:06",
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

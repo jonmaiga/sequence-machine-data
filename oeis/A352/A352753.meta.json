@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = (pi(2n-1) - pi(n-1)) * Sum_{p <= n, p prime} p.",
+  "id": "A352753",
+  "mentions": [
+    "A000720",
+    "A034387",
+    "A035250",
+    "A352749",
+    "A352754",
+    "A352775",
+    "A352777"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:29",
+    "offset": 1,
+    "size": 51,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = 1 if n divides A048146(n) = (sigma(n)-usigma(n)), 0 otherwise.",
+  "id": "A323154",
+  "mentions": [
+    "A000203",
+    "A008966",
+    "A034448",
+    "A048146",
+    "A064594",
+    "A064595"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:47",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

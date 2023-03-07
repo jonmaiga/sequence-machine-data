@@ -1,0 +1,23 @@
+{
+  "description": "a(4*n) = a(n). a(4*n + 2) = 0. a(4*n + 1) = - A259022(n+2). a(4*n + 3) = - A259022(n-2).",
+  "id": "A259024",
+  "mentions": [
+    "A084091",
+    "A098725",
+    "A229143",
+    "A259022",
+    "A259029"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "mult",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:17",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

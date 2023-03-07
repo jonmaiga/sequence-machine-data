@@ -1,0 +1,20 @@
+{
+  "description": "Primes that can be written in n ways as the sum of three fourth powers.",
+  "id": "A122540",
+  "mentions": [
+    "A085559"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "bref",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

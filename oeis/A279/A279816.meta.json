@@ -1,0 +1,23 @@
+{
+  "description": "Digital roots of tetrahedral numbers (A000292).",
+  "id": "A279816",
+  "mentions": [
+    "A000292",
+    "A004160",
+    "A010888",
+    "A145389"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:29:29",
+    "offset": 0,
+    "size": 109,
+    "source": "joeis"
+  }
+}

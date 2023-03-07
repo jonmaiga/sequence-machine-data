@@ -1,0 +1,18 @@
+{
+  "description": "Size of optimal DNA code of length n and minimal distance 1 over alphabet of size 4.",
+  "id": "A188632",
+  "mentions": [
+    "A098400"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

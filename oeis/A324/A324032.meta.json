@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of the conversion factor from the old SI K (kelvin) to the combination of 2019 SI units h*Δν_{Cs}/k.",
+  "id": "A324032",
+  "mentions": [
+    "A003676",
+    "A070063",
+    "A230458",
+    "A322415"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 104,
+    "source": "oeis-entry"
+  }
+}

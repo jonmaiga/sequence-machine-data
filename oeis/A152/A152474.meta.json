@@ -1,0 +1,25 @@
+{
+  "description": "Triangle T(n,k) read by rows: Sum_{k=0..binomial(n,2)} T(n,k)*q^k = n!*Sum_{pi} faq(n,q)/Product_{i=1..n} e(i)!*faq(i,q)^e(i), where pi runs over all nonnegative integer solutions to e(1) + 2*e(2) + ... + n*e(n) = n and faq(i,q) = Product_{j=1..i} (q^j-1)/(q-1), i = 1..n.",
+  "id": "A152474",
+  "mentions": [
+    "A000110",
+    "A000262",
+    "A105219",
+    "A137341",
+    "A152534",
+    "A346981"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:35",
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

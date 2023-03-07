@@ -1,0 +1,17 @@
+{
+  "description": "The least number of the form 2^i*3^j (i, j >= 0) which can be represented as a product of the greatest number of distinct positive integers in exactly n ways.",
+  "id": "A338261",
+  "mentions": [
+    "A338159"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

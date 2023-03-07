@@ -1,0 +1,23 @@
+{
+  "description": "Irregular triangle T(n,k) with row n listing A051037(j) not divisible by 60 such that A352219(j) = n.",
+  "id": "A353385",
+  "mentions": [
+    "A017641",
+    "A051037",
+    "A352219"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:27",
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

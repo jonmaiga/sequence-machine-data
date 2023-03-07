@@ -1,0 +1,22 @@
+{
+  "description": "Shadow of Euler's constant exp(1).",
+  "id": "A108912",
+  "mentions": [
+    "A001113",
+    "A110557",
+    "A110621",
+    "A110623"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

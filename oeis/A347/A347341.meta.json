@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of (Pi^2-3)/12.",
+  "id": "A347341",
+  "mentions": [
+    "A000796",
+    "A072691",
+    "A126561"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Triangle T(n, k) = binomial(n+1, k)*A142459(n+1, k+1)/(k+1), read by rows.",
+  "id": "A155493",
+  "mentions": [
+    "A001263",
+    "A142459",
+    "A155467",
+    "A155491"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:37",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Nontrivial \"Strobogrammatic\" primes, the same \"upside-down\" in at least one base b with 2 <= b <= 10.",
+  "id": "A155801",
+  "mentions": [
+    "A000040",
+    "A006995",
+    "A007597",
+    "A016041",
+    "A056130",
+    "A068188",
+    "A133207",
+    "A155584"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Integer part of the area of a pentagon with side length n.",
+  "id": "A255605",
+  "mentions": [
+    "A102771",
+    "A255604"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:13",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

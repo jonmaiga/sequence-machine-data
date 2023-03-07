@@ -1,0 +1,22 @@
+{
+  "description": "Column 5 of table A125800; also equals row sums of matrix power A078122^5.",
+  "id": "A125803",
+  "mentions": [
+    "A078122",
+    "A078124",
+    "A078125",
+    "A125800",
+    "A125801",
+    "A125802"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

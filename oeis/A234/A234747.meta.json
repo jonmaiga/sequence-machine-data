@@ -1,0 +1,25 @@
+{
+  "description": "Self-inverse and multiplicative permutation of natural numbers, A091202-conjugate of Blue code: a(n) = A091203(A193231(A091202(n))).",
+  "id": "A234747",
+  "mentions": [
+    "A000040",
+    "A091202",
+    "A091203",
+    "A193231",
+    "A234748",
+    "A234751"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "look",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:52",
+    "offset": 0,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

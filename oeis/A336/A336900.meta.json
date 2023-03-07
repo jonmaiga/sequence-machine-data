@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the first element of the lexicographically earliest Heron square root triple with area n > 0, or 0, if no such triple exists.",
+  "id": "A336900",
+  "mentions": [
+    "A334818"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

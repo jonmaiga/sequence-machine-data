@@ -1,0 +1,19 @@
+{
+  "description": "Numbers of length n binary words with fewer than 5 0-digits between any pair of consecutive 1-digits.",
+  "id": "A145113",
+  "mentions": [
+    "A145111"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

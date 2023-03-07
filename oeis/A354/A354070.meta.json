@@ -1,0 +1,23 @@
+{
+  "description": "Lesser of an amicable pair in which both members are divisible only by primes congruent to 3 (mod 4).",
+  "id": "A354070",
+  "mentions": [
+    "A001065",
+    "A002025",
+    "A004614",
+    "A063990",
+    "A262623",
+    "A262625",
+    "A354071"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:28",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

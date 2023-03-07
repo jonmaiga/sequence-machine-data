@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows, antidiagonals of an array generated from INVERT transforms of variants of (1, 2, 3, ...).",
+  "id": "A175011",
+  "mentions": [
+    "A001906"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

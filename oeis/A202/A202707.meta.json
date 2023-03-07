@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that (sum of digits of n!!) / 9 is prime.",
+  "id": "A202707",
+  "mentions": [
+    "A006882",
+    "A120390"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

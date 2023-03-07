@@ -1,0 +1,21 @@
+{
+  "description": "Least prime k>1 such that the sum of divisors of powers k^e, 1 <= e <= n, are divisible by the number their divisors, d(k^e).",
+  "id": "A272981",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A073917",
+    "A092967",
+    "A272980"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:38",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Binary representation of n-th iteration of the Rule 220 elementary cellular automaton starting with a single black cell.",
+  "id": "A118175",
+  "mentions": [
+    "A000027",
+    "A004201",
+    "A005408",
+    "A008967",
+    "A061885",
+    "A079813",
+    "A083420",
+    "A219238"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:07",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of ways to write 2*n = k + m with 0 < k <= m such that prime(k) + m and k + prime(m) are both prime.",
+  "id": "A236541",
+  "mentions": [
+    "A000010",
+    "A000040",
+    "A232443",
+    "A232463"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:54",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

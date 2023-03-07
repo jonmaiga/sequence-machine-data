@@ -1,0 +1,32 @@
+{
+  "description": "Numbers with strictly increasing prime multiplicities.",
+  "id": "A334965",
+  "mentions": [
+    "A000837",
+    "A032020",
+    "A098859",
+    "A100471",
+    "A100881",
+    "A100882",
+    "A100883",
+    "A242031",
+    "A304678",
+    "A304686",
+    "A329131",
+    "A329744",
+    "A332835",
+    "A333147",
+    "A333190",
+    "A333191"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "a(n) is the smallest number that has exactly n odious divisors (A000069).",
+  "id": "A355968",
+  "mentions": [
+    "A000069",
+    "A087997",
+    "A093696",
+    "A227872",
+    "A330289",
+    "A333456",
+    "A355303",
+    "A355699",
+    "A355969"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:30",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

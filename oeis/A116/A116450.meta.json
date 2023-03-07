@@ -1,0 +1,18 @@
+{
+  "description": "Number of partitions of n such that the numbers of prime and composite parts differ at least by 1.",
+  "id": "A116450",
+  "mentions": [
+    "A002865",
+    "A116449"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

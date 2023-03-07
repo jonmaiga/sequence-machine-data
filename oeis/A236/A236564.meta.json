@@ -1,0 +1,21 @@
+{
+  "description": "Difference between 2^(2n-1) and the nearest square.",
+  "id": "A236564",
+  "mentions": [
+    "A053188",
+    "A201125",
+    "A238454"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:54",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

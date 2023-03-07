@@ -1,0 +1,17 @@
+{
+  "description": "Number of length-n 0..n arrays with every repeated value unequal to the previous repeated value plus one mod n+1.",
+  "id": "A269770",
+  "mentions": [
+    "A269776"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:32",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "If n = 3k-1 then a(n) = a(k), otherwise a(n) = n.",
+  "id": "A286577",
+  "mentions": [
+    "A000265",
+    "A007051",
+    "A286578"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:58",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

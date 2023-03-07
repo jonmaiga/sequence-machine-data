@@ -1,0 +1,22 @@
+{
+  "description": "Denominators of the sequence of fractions f(n) defined recursively by f(1) = 9/1; f(n+1) is chosen so that the sum and the product of the first n terms of the sequence are equal.",
+  "id": "A225161",
+  "mentions": [
+    "A011764",
+    "A100441",
+    "A165421",
+    "A165427",
+    "A225168"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

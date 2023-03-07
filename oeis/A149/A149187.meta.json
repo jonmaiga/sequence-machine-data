@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = total number of partitions of [1, 2, ..., k] into exactly n blocks, each of size 1, 2, ..., 6, for 0 <= k <= 6n.",
+  "id": "A149187",
+  "mentions": [
+    "A001515",
+    "A144416",
+    "A144508",
+    "A144509",
+    "A144512",
+    "A281358",
+    "A281359",
+    "A281360",
+    "A281361"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:34",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

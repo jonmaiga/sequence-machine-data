@@ -1,0 +1,23 @@
+{
+  "description": "Run lengths in A249943.",
+  "id": "A251621",
+  "mentions": [
+    "A000040",
+    "A001223",
+    "A098550",
+    "A249943",
+    "A251416",
+    "A251620"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:09",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

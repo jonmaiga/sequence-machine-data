@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the number of time-dependent assembly trees satisfying the edge gluing rule for a cycle on n vertices.",
+  "id": "A317060",
+  "mentions": [
+    "A047781",
+    "A317057",
+    "A317058",
+    "A317059"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Records of first differences of A166944.",
+  "id": "A166945",
+  "mentions": [
+    "A006512",
+    "A084662",
+    "A084663",
+    "A106108",
+    "A118679",
+    "A120293",
+    "A132199",
+    "A134162",
+    "A135506",
+    "A135508",
+    "A166944"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

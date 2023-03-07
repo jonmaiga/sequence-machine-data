@@ -1,0 +1,21 @@
+{
+  "description": "Triangle T(n, k) = f(n, k) + f(n, n-k) - 1, where f(n, k) = k if k <= floor(n/4), floor(n/2) - k if floor(n/4) < k <= floor(n/2), k - floor(n/2) if floor(n/2) < k <= floor(3*n/4), otherwise n-k, read by rows.",
+  "id": "A157522",
+  "mentions": [
+    "A040000",
+    "A157523",
+    "A302488"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:39",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Number of ways to quarter a 2n X 2n chessboard.",
+  "id": "A257952",
+  "mentions": [
+    "A003213",
+    "A006067",
+    "A064941",
+    "A113900",
+    "A268606"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Number of ordered factorizations of n into perfect powers > 1.",
+  "id": "A339553",
+  "mentions": [
+    "A001597",
+    "A050363",
+    "A052485",
+    "A075802",
+    "A294068"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 128,
+    "source": "oeis-entry"
+  }
+}

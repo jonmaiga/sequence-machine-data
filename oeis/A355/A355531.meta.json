@@ -1,0 +1,39 @@
+{
+  "description": "Minimal augmented difference between adjacent reversed prime indices of n; a(1) = 0.",
+  "id": "A355531",
+  "mentions": [
+    "A001222",
+    "A008578",
+    "A013929",
+    "A056239",
+    "A112798",
+    "A124010",
+    "A129654",
+    "A243055",
+    "A243056",
+    "A286470",
+    "A307824",
+    "A325325",
+    "A325351",
+    "A325366",
+    "A325394",
+    "A355524",
+    "A355525",
+    "A355526",
+    "A355528",
+    "A355533",
+    "A355534",
+    "A355535",
+    "A355536"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Irregular triangle read by rows: row n gives denominators of fractions in the Farey subsequence B(m).",
+  "id": "A324797",
+  "mentions": [
+    "A006842",
+    "A006843",
+    "A049691",
+    "A324796"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "frac",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 113,
+    "source": "oeis-entry"
+  }
+}

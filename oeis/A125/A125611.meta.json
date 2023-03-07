@@ -1,0 +1,24 @@
+{
+  "description": "Smallest prime p such that 7^n divides p^6 - 1.",
+  "id": "A125611",
+  "mentions": [
+    "A125609",
+    "A125610",
+    "A125612",
+    "A125632",
+    "A125633",
+    "A125634",
+    "A125635"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

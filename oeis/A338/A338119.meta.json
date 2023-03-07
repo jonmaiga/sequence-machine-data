@@ -1,0 +1,24 @@
+{
+  "description": "Positive integers not congruent to 0 or 2 modulo 8 which cannot be written as x^2 + y^2 + z^2 + w^2 with x + y + 2*z a positive power of 4, where x, y, z, w are nonnegative integers.",
+  "id": "A338119",
+  "mentions": [
+    "A000118",
+    "A000290",
+    "A000302",
+    "A338094",
+    "A338095",
+    "A338096",
+    "A338103",
+    "A338121"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:10",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

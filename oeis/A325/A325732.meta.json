@@ -1,0 +1,21 @@
+{
+  "description": "First term of n-th difference sequence of (floor(k*r)), r = sqrt(3/4), k >= 0.",
+  "id": "A325732",
+  "mentions": [
+    "A010527",
+    "A171970",
+    "A172475",
+    "A325664"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:52",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

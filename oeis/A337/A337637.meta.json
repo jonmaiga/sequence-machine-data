@@ -1,0 +1,26 @@
+{
+  "description": "Number of numbers k <= n such that both k and k+1 are in A020899.",
+  "id": "A337637",
+  "mentions": [
+    "A020899",
+    "A095096",
+    "A337287",
+    "A337288",
+    "A337289",
+    "A337290",
+    "A337634",
+    "A337635",
+    "A337636"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:09",
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

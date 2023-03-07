@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows, 3<=k<=n: T(n,k) = smallest prime p such that 2*k-p and 2*n-p are prime, T(n,k) = 0 if no such p exists.",
+  "id": "A122845",
+  "mentions": [
+    "A085090",
+    "A098090"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 3,
+    "size": 101,
+    "source": "oeis-entry"
+  }
+}

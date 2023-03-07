@@ -1,0 +1,32 @@
+{
+  "description": "Number T(n,k) of Dyck paths of semilength n such that each level has exactly k peaks or no peaks; triangle T(n,k), n>=0, 0<=k<=n, read by rows.",
+  "id": "A288108",
+  "mentions": [
+    "A000007",
+    "A000108",
+    "A156043",
+    "A281874",
+    "A287843",
+    "A288109",
+    "A288110",
+    "A288111",
+    "A288112",
+    "A288113",
+    "A288114",
+    "A288115",
+    "A288116",
+    "A288117",
+    "A288318"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:00",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

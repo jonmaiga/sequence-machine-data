@@ -1,0 +1,19 @@
+{
+  "description": "Sequence of distinct integers such that a(1) = 0, and for k = 1, 2, ..., the last term so far and the k next terms are in arithmetic progression with common difference d_k such that abs(d_k) is as small as possible and d_k > 0 iff k is odd.",
+  "id": "A329724",
+  "mentions": [
+    "A000124",
+    "A001057"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "look",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Row sums of the matrix ((1,xc(x))^2 mod 2), where c(x) is the g.f. of A000108.",
+  "id": "A112971",
+  "mentions": [
+    "A000108",
+    "A005578",
+    "A112970"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Lynch-Bell numbers k such that 1 is not a digit of k.",
+  "id": "A116960",
+  "mentions": [
+    "A034709",
+    "A034838",
+    "A063527",
+    "A115569"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

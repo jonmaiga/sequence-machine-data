@@ -1,0 +1,24 @@
+{
+  "description": "a(1) = 0, and for n > 1, a(n) = the least squarefree number x such that n-x is also squarefree.",
+  "id": "A285718",
+  "mentions": [
+    "A005117",
+    "A008683",
+    "A013929",
+    "A071068",
+    "A285719",
+    "A285720",
+    "A285734"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:57",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

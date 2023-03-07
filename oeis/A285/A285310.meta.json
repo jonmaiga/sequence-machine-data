@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of Product_{k>=0} 1/(1 + x^(3*k+2))^(3*k+2).",
+  "id": "A285310",
+  "mentions": [
+    "A284628",
+    "A285311"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:57",
+    "offset": 0,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

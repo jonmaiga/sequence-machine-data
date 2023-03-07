@@ -1,0 +1,17 @@
+{
+  "description": "Main diagonal of triangle A181145.",
+  "id": "A181146",
+  "mentions": [
+    "A181145"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

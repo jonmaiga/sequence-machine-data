@@ -1,0 +1,23 @@
+{
+  "description": "Number of partitions of 10^n into distinct odd parts.",
+  "id": "A347654",
+  "mentions": [
+    "A000700",
+    "A011557",
+    "A069878",
+    "A070177",
+    "A347626",
+    "A347630"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:21",
+    "offset": 0,
+    "size": 5,
+    "source": "oeis-bfile"
+  }
+}

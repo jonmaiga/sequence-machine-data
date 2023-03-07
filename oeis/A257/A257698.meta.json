@@ -1,0 +1,19 @@
+{
+  "description": "Number of steps from n to 1 using this algorithm: x -> floor(r*x) if x is odd, and x -> floor(x/r) if x is even, where r = 3/2.",
+  "id": "A257698",
+  "mentions": [
+    "A257699",
+    "A257706"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:15",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

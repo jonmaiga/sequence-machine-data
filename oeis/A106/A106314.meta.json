@@ -1,0 +1,21 @@
+{
+  "description": "Triangle T(n,k) composed of the squares min(n,k)^2.",
+  "id": "A106314",
+  "mentions": [
+    "A003983",
+    "A005993"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:38:37",
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

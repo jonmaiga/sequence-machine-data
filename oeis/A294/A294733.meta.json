@@ -1,0 +1,24 @@
+{
+  "description": "Maximal diameter of connected (2*k)-regular graphs on 2*n+1 nodes written as triangular array T(n,k), 1 <= k <= n.",
+  "id": "A294733",
+  "mentions": [
+    "A068934",
+    "A294732",
+    "A296524",
+    "A296525",
+    "A296526"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "hard",
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

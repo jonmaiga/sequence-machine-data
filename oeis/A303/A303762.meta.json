@@ -1,0 +1,26 @@
+{
+  "description": "a(0) = 1, and for n >= 1, a(n) is either the largest divisor of a(n-1) not already present in the sequence, or (if all divisors already used), a(n-1) * {the least prime p such that p does not divide a(n-1) and p*a(n-1) is not already present}.",
+  "id": "A303762",
+  "mentions": [
+    "A005117",
+    "A019565",
+    "A053669",
+    "A302774",
+    "A302775",
+    "A303749",
+    "A303760",
+    "A303761",
+    "A303769"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:28",
+    "offset": 0,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

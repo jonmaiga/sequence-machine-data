@@ -1,0 +1,26 @@
+{
+  "description": "Y-toothpick sequence starting at the corner of an infinite hexagon from which protrudes a half toothpick with an angle = Pi/6.",
+  "id": "A161910",
+  "mentions": [
+    "A000695",
+    "A160120",
+    "A160121",
+    "A160123",
+    "A160406",
+    "A161426",
+    "A161830",
+    "A161831"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Triangle read by rows: T(n,k) = T(n,k-1) + T(n-1, k) + T(n-1,k-1) with T(n,0) = T(n, n) = 1 (n >= 0, 0 <= k <= n).",
+  "id": "A336858",
+  "mentions": [
+    "A001003",
+    "A005408",
+    "A006318",
+    "A008288",
+    "A035011",
+    "A059993",
+    "A086616",
+    "A104858",
+    "A333090"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-03 03:18:14",
+    "offset": 0,
+    "size": 66,
+    "source": "joeis"
+  }
+}

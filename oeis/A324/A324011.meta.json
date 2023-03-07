@@ -1,0 +1,26 @@
+{
+  "description": "Number of set partitions of {1, ..., n} with no singletons or cyclical adjacencies (successive elements in the same block, where 1 is a successor of n).",
+  "id": "A324011",
+  "mentions": [
+    "A000110",
+    "A000126",
+    "A000296",
+    "A001610",
+    "A124323",
+    "A169985",
+    "A261139",
+    "A324012",
+    "A324014",
+    "A324015"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

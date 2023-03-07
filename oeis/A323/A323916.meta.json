@@ -1,0 +1,24 @@
+{
+  "description": "Numbers k with exactly two distinct prime divisors and such that cototient(k) is a square.",
+  "id": "A323916",
+  "mentions": [
+    "A000396",
+    "A007774",
+    "A051953",
+    "A063752",
+    "A246551",
+    "A323917",
+    "A323918"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:49",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Nonnegative part of the minimal alternating Fibonacci representation of n.",
+  "id": "A256663",
+  "mentions": [
+    "A000045",
+    "A256655",
+    "A256662",
+    "A256664"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

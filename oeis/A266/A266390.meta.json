@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of exponential growth rate of number of labeled planar graphs on n vertices.",
+  "id": "A266390",
+  "mentions": [
+    "A066537",
+    "A266389",
+    "A266391"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:27",
+    "offset": 2,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

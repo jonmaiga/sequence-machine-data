@@ -1,0 +1,19 @@
+{
+  "description": "Semiprimes (A001358) whose digit reversal is a cube.",
+  "id": "A115712",
+  "mentions": [
+    "A001358",
+    "A115740"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

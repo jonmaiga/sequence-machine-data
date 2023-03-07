@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that A117731(n) differs from A082687(n).",
+  "id": "A125740",
+  "mentions": [
+    "A082687",
+    "A117731",
+    "A125581",
+    "A125741",
+    "A126196",
+    "A126197"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

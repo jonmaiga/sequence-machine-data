@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = number of divisors of the product of the divisors of n.",
+  "id": "A280684",
+  "mentions": [
+    "A000005",
+    "A000040",
+    "A001248",
+    "A007955",
+    "A008578",
+    "A052213",
+    "A280582",
+    "A280685"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:49",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

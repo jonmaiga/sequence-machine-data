@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = 1 if the maximal digit in the primorial base expansion of n is less than or equal to the maximal exponent in the prime factorization of n.",
+  "id": "A351039",
+  "mentions": [
+    "A051903",
+    "A276086",
+    "A328114",
+    "A350070",
+    "A350074",
+    "A351038",
+    "A351069",
+    "A351077"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:25",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

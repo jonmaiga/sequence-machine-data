@@ -1,0 +1,25 @@
+{
+  "description": "Triangle, read by rows, where column k equals column 0 of A113983^(k+1): T(n,k) = [A113983^(k+1)](n-k,0) for n>=k>=0.",
+  "id": "A113993",
+  "mentions": [
+    "A113983",
+    "A113988",
+    "A113989",
+    "A113994",
+    "A113995",
+    "A113996",
+    "A113997"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

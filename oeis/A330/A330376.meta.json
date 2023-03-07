@@ -1,0 +1,31 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) is the total number of parts in all partitions of n with Durfee square of size k (n>=1; 1<=k<=floor(sqrt(n))).",
+  "id": "A330376",
+  "mentions": [
+    "A000217",
+    "A006128",
+    "A114089",
+    "A115721",
+    "A115722",
+    "A115994",
+    "A116858",
+    "A118198",
+    "A208474",
+    "A330369",
+    "A330640",
+    "A330641",
+    "A330642",
+    "A330643"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:59",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

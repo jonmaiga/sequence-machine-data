@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = (A139317(n)-1)/n.",
+  "id": "A139318",
+  "mentions": [
+    "A139317",
+    "A139320"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

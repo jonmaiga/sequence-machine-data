@@ -1,0 +1,21 @@
+{
+  "description": "a(1) = 1, then a(n) is the maximum of all 0 < m < n for which a(m) divides n.",
+  "id": "A271774",
+  "mentions": [
+    "A088167",
+    "A269347",
+    "A271503",
+    "A271504",
+    "A271773"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:36",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

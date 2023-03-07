@@ -1,0 +1,22 @@
+{
+  "description": "Number of partitions p of n such that round(mean(p)) is not a part of p; here, round(x) means floor(x + 1/2).",
+  "id": "A241734",
+  "mentions": [
+    "A000041",
+    "A241338",
+    "A241339",
+    "A241733"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

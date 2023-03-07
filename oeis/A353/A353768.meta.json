@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = phi(n) mod 4; Euler totient function reduced modulo 4.",
+  "id": "A353768",
+  "mentions": [
+    "A000010",
+    "A010873",
+    "A066499",
+    "A074942",
+    "A084300",
+    "A105824",
+    "A172019",
+    "A261872"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:28",
+    "offset": 1,
+    "size": 121,
+    "source": "oeis-bfile"
+  }
+}

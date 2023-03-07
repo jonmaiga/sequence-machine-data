@@ -1,0 +1,20 @@
+{
+  "description": "Numbers whose square contains all of the digits 1 through 9.",
+  "id": "A294661",
+  "mentions": [
+    "A054037",
+    "A054038",
+    "A071519"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:13",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

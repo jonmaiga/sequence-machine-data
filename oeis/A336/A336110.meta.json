@@ -1,0 +1,21 @@
+{
+  "description": "Irregular triangle of Catalan-based numbers, read by rows.",
+  "id": "A336110",
+  "mentions": [
+    "A000108",
+    "A000260",
+    "A138156"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:07",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

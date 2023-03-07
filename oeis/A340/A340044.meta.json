@@ -1,0 +1,17 @@
+{
+  "description": "Numbers that are the sum of a square s and a fourth power t such that 0 < s <= t.",
+  "id": "A340044",
+  "mentions": [
+    "A010052"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

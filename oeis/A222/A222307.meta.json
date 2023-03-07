@@ -1,0 +1,17 @@
+{
+  "description": "Write down the nonprime numbers 1, 4, 6, 8, 9, 10, 12, 14, 15, 16, 18, ... and insert between two nonprimes the smallest prime not yet present in the sequence such that two neighboring integers sum to a nonprime.",
+  "id": "A222307",
+  "mentions": [
+    "A209259"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:40",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

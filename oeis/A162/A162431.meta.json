@@ -1,0 +1,23 @@
+{
+  "description": "Row 2 of table A162430.",
+  "id": "A162431",
+  "mentions": [
+    "A162425",
+    "A162430",
+    "A162432",
+    "A162433",
+    "A162434",
+    "A162435"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:44",
+    "offset": 0,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

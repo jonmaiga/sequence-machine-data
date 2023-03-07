@@ -1,0 +1,18 @@
+{
+  "description": "Number of ways to write n as pen(x) + pen(y) + pen (z) + 2*pen(w), where x,y,z,w are nonnegative integers with x <= y <= z, and pen(k) denotes the pentagonal number k*(3*k-1)/2.",
+  "id": "A275824",
+  "mentions": [
+    "A000326",
+    "A256106"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:41",
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n for which the numbers 6n+1, 3n+2, 6n+7 are all odd composite squarefree, but not all semiprimes.",
+  "id": "A264779",
+  "mentions": [
+    "A001358",
+    "A263510",
+    "A264778"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:24",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

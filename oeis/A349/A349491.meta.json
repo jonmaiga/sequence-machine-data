@@ -1,0 +1,21 @@
+{
+  "description": "a(1)=1, a(2)=4; for n > 2, a(n) is the smallest unused positive number such that gcd(a(n-1)*n,a(n)) > 1, where a(n) != a(n-1) and a(n) != n.",
+  "id": "A349491",
+  "mentions": [
+    "A064413",
+    "A098550",
+    "A336957",
+    "A349472",
+    "A349493"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

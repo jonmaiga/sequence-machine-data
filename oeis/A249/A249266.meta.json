@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the coefficient A_k in the transformation Sum_{k=0..n} x^k = Sum_{k=0..n} A_k*(x+2*(-1)^k)^k.",
+  "id": "A249266",
+  "mentions": [
+    "A248975"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

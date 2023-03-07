@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that Rd(k) == k (mod Ld(k)), where Rd(k) = A067079 and Ld(k) = A067080.",
+  "id": "A324321",
+  "mentions": [
+    "A067079",
+    "A067080",
+    "A324322"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

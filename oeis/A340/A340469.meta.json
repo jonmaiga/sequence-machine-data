@@ -1,0 +1,20 @@
+{
+  "description": "First constant from family of prime-representing constants h_n (h1 = 1.2148208055...) such that ceiling(h_n) = prime(n).",
+  "id": "A340469",
+  "mentions": [
+    "A000040",
+    "A249270"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

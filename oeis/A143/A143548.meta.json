@@ -1,0 +1,33 @@
+{
+  "description": "Irregular triangle of numbers k < p^2 such that p^2 divides k^(p-1)-1, with p=prime(n).",
+  "id": "A143548",
+  "mentions": [
+    "A001918",
+    "A039678",
+    "A056020",
+    "A056021",
+    "A056022",
+    "A056024",
+    "A056025",
+    "A056027",
+    "A056028",
+    "A056031",
+    "A056034",
+    "A056035",
+    "A060749",
+    "A096082",
+    "A138416"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn",
+    "tabf",
+    "unsolved"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:32",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

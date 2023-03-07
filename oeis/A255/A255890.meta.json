@@ -1,0 +1,20 @@
+{
+  "description": "Polyomino Family Planners: a(n) is the least number of children of a polyomino of size n.",
+  "id": "A255890",
+  "mentions": [
+    "A000105",
+    "A255894"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

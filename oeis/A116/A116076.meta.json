@@ -1,0 +1,19 @@
+{
+  "description": "Period (multiplicative order base 10) of the terms in A116074 and A116075.",
+  "id": "A116076",
+  "mentions": [
+    "A116074",
+    "A116075"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

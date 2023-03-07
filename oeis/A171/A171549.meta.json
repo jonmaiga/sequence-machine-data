@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the n-th \"strange number\", where \"strange numbers\" are defined as follows: using every other Fibonacci number (starting with offset 1), the shortest way to add up these Fibonacci numbers so that the sum equals n, where the digits are indices in the \"every other Fibonacci number\" sequence.",
+  "id": "A171549",
+  "mentions": [
+    "A035517",
+    "A130234"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

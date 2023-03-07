@@ -1,0 +1,24 @@
+{
+  "description": "Riordan array (f(x), (f(x)-1)/f(x)) where f(x) = (1 + x - sqrt(1 - 2x - 3x^2))/(2*x).",
+  "id": "A247364",
+  "mentions": [
+    "A001006",
+    "A005043",
+    "A005554",
+    "A034928",
+    "A086246",
+    "A204849"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:03",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

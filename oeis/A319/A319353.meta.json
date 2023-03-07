@@ -1,0 +1,20 @@
+{
+  "description": "Filter sequence combining weights of partitions with Heinz-numbers equal to the proper divisors of n.",
+  "id": "A319353",
+  "mentions": [
+    "A056239",
+    "A301855",
+    "A304793",
+    "A319352"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:41",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

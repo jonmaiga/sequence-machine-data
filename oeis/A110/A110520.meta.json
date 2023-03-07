@@ -1,0 +1,24 @@
+{
+  "description": "Expansion of 1/(1-2*x*c(3*x)), c(x) the g.f. of A000108.",
+  "id": "A110520",
+  "mentions": [
+    "A000108",
+    "A039599",
+    "A083667",
+    "A094385",
+    "A110519",
+    "A135397"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:02",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

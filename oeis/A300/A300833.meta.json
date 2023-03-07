@@ -1,0 +1,28 @@
+{
+  "description": "Filter sequence combining A300830(n), A300831(n) and A300832(n), three products formed from such proper divisors d of n for which mu(n/d) = 0, +1 or -1 respectively, where mu is Möbius mu function (A008683).",
+  "id": "A300833",
+  "mentions": [
+    "A001065",
+    "A008683",
+    "A019565",
+    "A051953",
+    "A293214",
+    "A293215",
+    "A293226",
+    "A295885",
+    "A300825",
+    "A300830",
+    "A300831",
+    "A300832"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:25",
+    "offset": 1,
+    "size": 94,
+    "source": "oeis-bfile"
+  }
+}

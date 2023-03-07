@@ -1,0 +1,30 @@
+{
+  "description": "a(n) is the number of Fermat numbers dividing n, counted with multiplicity.",
+  "id": "A356242",
+  "mentions": [
+    "A000215",
+    "A000244",
+    "A000351",
+    "A001026",
+    "A003593",
+    "A007404",
+    "A051158",
+    "A051179",
+    "A080307",
+    "A080308",
+    "A112754",
+    "A169594",
+    "A356241"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:30",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

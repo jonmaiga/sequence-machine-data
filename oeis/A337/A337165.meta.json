@@ -1,0 +1,36 @@
+{
+  "description": "Number T(n,k) of compositions of n into k nonzero squares; triangle T(n,k), n>=0, 0<=k<=n, read by rows.",
+  "id": "A337165",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A000290",
+    "A006456",
+    "A010052",
+    "A063691",
+    "A063725",
+    "A063730",
+    "A281704",
+    "A317665",
+    "A338464",
+    "A340481",
+    "A340905",
+    "A340906",
+    "A340915",
+    "A340946",
+    "A340947",
+    "A341040"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:09",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

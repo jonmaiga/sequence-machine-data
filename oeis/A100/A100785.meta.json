@@ -1,0 +1,21 @@
+{
+  "description": "Arithmetic mean of rows in A100781.",
+  "id": "A100785",
+  "mentions": [
+    "A100781",
+    "A100782",
+    "A100783",
+    "A100784"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

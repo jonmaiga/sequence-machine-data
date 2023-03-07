@@ -1,0 +1,18 @@
+{
+  "description": "Lexicographically earliest infinite sequence of distinct nonnegative terms such that a(n+1) is obtained by adding to a(n) the odd digits of a(n) and subtracting the even ones.",
+  "id": "A330674",
+  "mentions": [
+    "A036301"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

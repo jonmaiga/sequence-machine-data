@@ -1,0 +1,24 @@
+{
+  "description": "Array read by antidiagonals: A(n,k) = number of digraphs on n unlabeled nodes, arbitrarily colored with k given colors (n >= 1, k >= 1).",
+  "id": "A329874",
+  "mentions": [
+    "A000273",
+    "A000595",
+    "A072811",
+    "A328773",
+    "A329546",
+    "A353996"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

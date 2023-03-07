@@ -1,0 +1,33 @@
+{
+  "description": "Largest odd abundant number (A005231) equal to the product of n consecutive primes.",
+  "id": "A285993",
+  "mentions": [
+    "A002110",
+    "A005231",
+    "A006038",
+    "A006530",
+    "A007707",
+    "A007708",
+    "A007741",
+    "A070826",
+    "A091191",
+    "A107705",
+    "A108227",
+    "A112643",
+    "A117366",
+    "A151800",
+    "A188342",
+    "A275449"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:57",
+    "offset": 5,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

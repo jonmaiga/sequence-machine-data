@@ -1,0 +1,26 @@
+{
+  "description": "Numbers k such that the second arithmetic derivative of A276086(k) is prime.",
+  "id": "A328240",
+  "mentions": [
+    "A003415",
+    "A157037",
+    "A192192",
+    "A276086",
+    "A327860",
+    "A327969",
+    "A328116",
+    "A328233",
+    "A328242"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:56",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Binary representation of the x-axis, from the left edge to the origin, of the n-th stage of growth of the two-dimensional cellular automaton defined by \"Rule 302\", based on the 5-celled von Neumann neighborhood.",
+  "id": "A280837",
+  "mentions": [
+    "A280838",
+    "A280839",
+    "A280840"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:49",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

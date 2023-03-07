@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = sqrt(Product_{k=1..2^n} (Product_{i=1..n} p_i^e_{k,i} + Product_{i=1..n} p_i^(1-e_{k,i}))) * Sum_{i=1..n} ((1/p_i)*Product_{k=1..n} p_k) where p_i is the i-th prime and e_{k,i} is a vector of length n that runs through all combinations of {0,1}.",
+  "id": "A113270",
+  "mentions": [
+    "A111392"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:04",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-bfile"
+  }
+}

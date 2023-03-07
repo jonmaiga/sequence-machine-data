@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the number of divisors d of A014574(n) such that A014574(n)+d-1 and A014574(n)+d+1 are primes.",
+  "id": "A330768",
+  "mentions": [
+    "A014574"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:00",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Numbers m such that if an urn contains m balls, with distinct positive numbers for each of c colors, for some c > 1 there exists a combination of c colors such that it is equally probable for c balls randomly selected from the urn to all be either the same color or distinct colors.",
+  "id": "A228653",
+  "mentions": [
+    "A228650",
+    "A228651",
+    "A228652"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

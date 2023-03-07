@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that 19^n is the highest power of 19 dividing A240751(n).",
+  "id": "A286009",
+  "mentions": [
+    "A005187",
+    "A240751",
+    "A286003",
+    "A286008",
+    "A286010"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

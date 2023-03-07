@@ -1,0 +1,20 @@
+{
+  "description": "Digits of the 10-adic integer (2345678987654321/(1-10^16))^(1/7).",
+  "id": "A309825",
+  "mentions": [
+    "A309819",
+    "A309824",
+    "A309826"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:34",
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

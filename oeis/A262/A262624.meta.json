@@ -1,0 +1,23 @@
+{
+  "description": "Even amicable numbers.",
+  "id": "A262624",
+  "mentions": [
+    "A002025",
+    "A002046",
+    "A005843",
+    "A063990",
+    "A259180",
+    "A259933",
+    "A262625"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

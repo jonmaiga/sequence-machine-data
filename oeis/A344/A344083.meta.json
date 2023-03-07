@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = f(x)+f(y)+f(z), where (x,y,h) is the n-th Pythagorean triple listed in (A046083, A046084, A009000), and f(m)=A176775(m) is the index of m as k-gonal number for the smallest possible k.",
+  "id": "A344083",
+  "mentions": [
+    "A009000",
+    "A046083",
+    "A046084",
+    "A090466",
+    "A090467",
+    "A176774",
+    "A176775",
+    "A342491"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:17",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

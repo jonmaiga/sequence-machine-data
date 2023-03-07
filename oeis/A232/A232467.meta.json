@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(n,k) = number of fully connected (n,k) corner designs (n >= 0, 1 <= k <= n+1).",
+  "id": "A232467",
+  "mentions": [
+    "A232468",
+    "A232469",
+    "A232470",
+    "A232471"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "more",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

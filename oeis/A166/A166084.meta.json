@@ -1,0 +1,19 @@
+{
+  "description": "Maximal volume of a closed box created by using at most n voxels as the boundary, skipping values of n for which the volume is the same as for n-1 and also skipping values of n for which volume(n)-n <= volume(n-1)-(n-1). In other words, the empty enclosed space must increase.",
+  "id": "A166084",
+  "mentions": [
+    "A166082",
+    "A166083"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

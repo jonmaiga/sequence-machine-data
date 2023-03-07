@@ -1,0 +1,22 @@
+{
+  "description": "Let g(n) be the n-th maximal prime gap. a(n) = 1 if g(n) has record merit, 0 if it does not.",
+  "id": "A316917",
+  "mentions": [
+    "A000101",
+    "A002386",
+    "A005250",
+    "A111870",
+    "A111871"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

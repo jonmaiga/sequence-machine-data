@@ -1,0 +1,18 @@
+{
+  "description": "k-digits composite numbers Sum_{j=0..k-1} d_(j)*10^j with exactly k prime factors, p_(k-1), p_(k-2), ..., p_(1), p_(0), written in descending order, such that Sum_{j=0..k-1} d_(j)^p_(k-j-1) is a prime number.",
+  "id": "A283804",
+  "mentions": [
+    "A283805"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

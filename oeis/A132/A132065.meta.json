@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{k=1 to d(n)} C(d(n)-1, k-1) d_k, where d(n) is the number of divisors of n and d_k is the k-th divisor of n.",
+  "id": "A132065",
+  "mentions": [
+    "A007318",
+    "A027750"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:20",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Number of powers of 7 having exactly n digits '0' (in base 10), conjectured.",
+  "id": "A305947",
+  "mentions": [
+    "A007496",
+    "A020665",
+    "A030703",
+    "A063606",
+    "A195908",
+    "A305927",
+    "A305938",
+    "A305939",
+    "A305942",
+    "A305946"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "nonn",
+    "unsolved"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

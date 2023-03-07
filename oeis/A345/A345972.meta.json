@@ -1,0 +1,19 @@
+{
+  "description": "Numbers that are integer multiples of the count of active segments in their 7-segment-display form where '6', '7' and '9' use 6, 3 and 6 segments, respectively.",
+  "id": "A345972",
+  "mentions": [
+    "A006942",
+    "A020988"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:19",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

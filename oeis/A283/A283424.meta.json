@@ -1,0 +1,36 @@
+{
+  "description": "Number T(n,k) of blocks of size >= k in all set partitions of [n], assuming that every set partition contains one block of size zero; triangle T(n,k), n>=0, 0<=k<=n, read by rows.",
+  "id": "A283424",
+  "mentions": [
+    "A000110",
+    "A005493",
+    "A056857",
+    "A056860",
+    "A070071",
+    "A124325",
+    "A124427",
+    "A138378",
+    "A285595",
+    "A286896",
+    "A288785",
+    "A288786",
+    "A288787",
+    "A288788",
+    "A288789",
+    "A288790",
+    "A288791",
+    "A288792"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:54",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

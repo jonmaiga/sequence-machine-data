@@ -1,0 +1,19 @@
+{
+  "description": "Numbers that are not divisible by the product of their nonzero digits.",
+  "id": "A346657",
+  "mentions": [
+    "A055471"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

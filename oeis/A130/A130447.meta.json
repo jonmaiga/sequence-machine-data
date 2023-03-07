@@ -1,0 +1,19 @@
+{
+  "description": "Numbering the days of a 365-day year from 1 (Jan 01) to 365 (Dec 31), these are the days that start months.",
+  "id": "A130447",
+  "mentions": [
+    "A073304"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

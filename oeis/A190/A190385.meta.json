@@ -1,0 +1,19 @@
+{
+  "description": "Numbers with prime factorization pqrs^3t^3.",
+  "id": "A190385",
+  "mentions": [
+    "A190382",
+    "A190383",
+    "A190384"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:14",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "description": "Number of edges in the rooted tree with Matula-Goebel number n.",
+  "id": "A196050",
+  "mentions": [
+    "A000040",
+    "A000081",
+    "A000720",
+    "A003963",
+    "A007097",
+    "A020639",
+    "A049084",
+    "A061775",
+    "A109082",
+    "A109129",
+    "A317713",
+    "A324850",
+    "A324922",
+    "A324923",
+    "A324924",
+    "A324925",
+    "A324931",
+    "A324935"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:17",
+    "offset": 1,
+    "size": 110,
+    "source": "oeis-bfile"
+  }
+}

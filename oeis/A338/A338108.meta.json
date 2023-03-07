@@ -1,0 +1,21 @@
+{
+  "description": "Numbers that follow from the alternating series a(n) = d(1) - d(2) + d(3) - d(4) + ... + (-1)^(n+1) d(n), where d(k) denotes the k-th term of the digit sequence of Euler's number e.",
+  "id": "A338108",
+  "mentions": [
+    "A001113",
+    "A069159"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:10",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

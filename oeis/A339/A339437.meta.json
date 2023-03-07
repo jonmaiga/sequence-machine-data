@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that A339436(k) is prime.",
+  "id": "A339437",
+  "mentions": [
+    "A014612",
+    "A108605",
+    "A339436"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:11",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

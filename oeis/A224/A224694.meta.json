@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that n^2 AND n = 0, where AND is the bitwise logical AND operator.",
+  "id": "A224694",
+  "mentions": [
+    "A213541"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:42",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

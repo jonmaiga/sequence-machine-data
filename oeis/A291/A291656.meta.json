@@ -1,0 +1,29 @@
+{
+  "description": "Square array T(n,k), n>=0, k>=0, read by antidiagonals: T(n,k) = ((2n-1)!!)^k * Sum_{i=1..n} 1/(2*i-1)^k.",
+  "id": "A291656",
+  "mentions": [
+    "A000004",
+    "A000012",
+    "A001477",
+    "A001824",
+    "A004041",
+    "A034472",
+    "A291556",
+    "A291585",
+    "A291586",
+    "A291587",
+    "A291676"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:06",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

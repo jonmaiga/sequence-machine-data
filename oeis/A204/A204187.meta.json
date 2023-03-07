@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = Sum_{m=1..n-1} m^(n-1) modulo n.",
+  "id": "A204187",
+  "mentions": [
+    "A055023",
+    "A055030",
+    "A055031",
+    "A055032",
+    "A191677",
+    "A201560"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:24",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

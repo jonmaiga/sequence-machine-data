@@ -1,0 +1,18 @@
+{
+  "description": "Primes p such that 7*p+2 or 2*p+7 is prime.",
+  "id": "A107438",
+  "mentions": [
+    "A105760",
+    "A105772"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

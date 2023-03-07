@@ -1,0 +1,28 @@
+{
+  "description": "Positive numbers n such that 48*n/(48+n) are integers.",
+  "id": "A162819",
+  "mentions": [
+    "A127730",
+    "A162688",
+    "A162689",
+    "A162690",
+    "A162691",
+    "A162692",
+    "A162693",
+    "A162694",
+    "A162817",
+    "A162818"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Period length 10: [0, 1, 2, 3, 4, 0, 4, 3, 2, 1] repeated.",
+  "id": "A203571",
+  "mentions": [
+    "A000007",
+    "A000035",
+    "A090298",
+    "A092260",
+    "A113807",
+    "A193680",
+    "A193682"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 17:37:31",
+    "offset": 0,
+    "size": 61,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Product_{k=1..n} (2*k^2+1).",
+  "id": "A277352",
+  "mentions": [
+    "A101686",
+    "A277347",
+    "A277353",
+    "A277354"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 17:15:16",
+    "offset": 0,
+    "size": 16,
+    "source": "joeis"
+  }
+}

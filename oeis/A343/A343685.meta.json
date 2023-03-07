@@ -1,0 +1,22 @@
+{
+  "description": "a(0) = 1; a(n) = 2 * n * a(n-1) + Sum_{k=0..n-1} binomial(n,k) * (n-k-1)! * a(k).",
+  "id": "A343685",
+  "mentions": [
+    "A007840",
+    "A010842",
+    "A052820",
+    "A343686",
+    "A343687"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 11:59:43",
+    "offset": 0,
+    "size": 20,
+    "source": "joeis"
+  }
+}

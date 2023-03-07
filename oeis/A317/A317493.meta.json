@@ -1,0 +1,28 @@
+{
+  "description": "Heinz numbers of integer partitions that are not fully normal.",
+  "id": "A317493",
+  "mentions": [
+    "A055932",
+    "A056239",
+    "A181819",
+    "A182850",
+    "A296150",
+    "A305733",
+    "A317089",
+    "A317090",
+    "A317245",
+    "A317246",
+    "A317491",
+    "A317492"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

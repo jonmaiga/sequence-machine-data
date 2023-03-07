@@ -1,0 +1,24 @@
+{
+  "description": "Coefficients of the series whose 12th power equals E_2*E_4*E_6, where E_2, E_4, E_6 are the Eisenstein series shown in A006352, A004009, A013973.",
+  "id": "A341801",
+  "mentions": [
+    "A004009",
+    "A006352",
+    "A013973",
+    "A108091",
+    "A109817",
+    "A282102",
+    "A289392"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:29",
+    "offset": 0,
+    "size": 13,
+    "source": "joeis"
+  }
+}

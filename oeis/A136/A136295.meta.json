@@ -1,0 +1,19 @@
+{
+  "description": "Multiples of 100 which begin a span of 100 composite numbers.",
+  "id": "A136295",
+  "mentions": [
+    "A002386",
+    "A091089"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:24",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

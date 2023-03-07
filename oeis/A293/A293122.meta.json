@@ -1,0 +1,19 @@
+{
+  "description": "E.g.f.: exp(-x^2/(1+x)).",
+  "id": "A293122",
+  "mentions": [
+    "A293117",
+    "A293134"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:09",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Numbers whose square can be written as the average of two positive cubes in more than one way.",
+  "id": "A322101",
+  "mentions": [
+    "A186885",
+    "A267477"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

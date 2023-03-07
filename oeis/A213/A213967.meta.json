@@ -1,0 +1,20 @@
+{
+  "description": "a(n)=n for n<=3; thereafter a(n)=a(n-1)+a(n-2)+a(n-3)+1.",
+  "id": "A213967",
+  "mentions": [
+    "A001590",
+    "A248098"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:32",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

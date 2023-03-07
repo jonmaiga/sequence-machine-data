@@ -1,0 +1,23 @@
+{
+  "description": "Triangle T(n,k), read by rows, giving the denominator of the coefficient of x^k in the Boros-Moll polynomial P_n(x) for n >= 0 and 0 <= k <= n.",
+  "id": "A223550",
+  "mentions": [
+    "A067001",
+    "A223549",
+    "A334907"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:41",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

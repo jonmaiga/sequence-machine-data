@@ -1,0 +1,28 @@
+{
+  "description": "Primes which are not the smallest or largest prime in an interval of the form (2*prime(k),2*prime(k+1)).",
+  "id": "A166252",
+  "mentions": [
+    "A055469",
+    "A080359",
+    "A104272",
+    "A164288",
+    "A164294",
+    "A164333",
+    "A164368",
+    "A164554",
+    "A166251",
+    "A166307",
+    "A166308",
+    "A194598"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:49",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

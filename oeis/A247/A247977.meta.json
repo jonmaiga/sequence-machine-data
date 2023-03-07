@@ -1,0 +1,32 @@
+{
+  "description": "If n = 1 or prime, then a(n) = 0; otherwise, if n is a preprime of k-th kind, then a(n) = k.",
+  "id": "A247977",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A020639",
+    "A156759",
+    "A247393",
+    "A247394",
+    "A247395",
+    "A247396",
+    "A247509",
+    "A247510",
+    "A247511",
+    "A247606",
+    "A247834",
+    "A247835"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:04",
+    "offset": 1,
+    "size": 125,
+    "source": "oeis-bfile"
+  }
+}

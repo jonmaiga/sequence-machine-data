@@ -1,0 +1,19 @@
+{
+  "description": "Triangular array read by rows. T(n,k) is the number of even permutations of {1,2,...,n} that have exactly k cycles, n>=0,0<=k<=n.",
+  "id": "A237996",
+  "mentions": [
+    "A001710"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

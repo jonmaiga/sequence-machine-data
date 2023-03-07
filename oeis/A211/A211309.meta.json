@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = number |fdw(P,(n))| of entangled P-words with s=2.",
+  "id": "A211309",
+  "mentions": [
+    "A000680",
+    "A000698",
+    "A001147"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

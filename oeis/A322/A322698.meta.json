@@ -1,0 +1,26 @@
+{
+  "description": "Number of regular graphs with half-edges on n labeled vertices.",
+  "id": "A322698",
+  "mentions": [
+    "A058891",
+    "A059441",
+    "A116539",
+    "A283877",
+    "A295193",
+    "A319189",
+    "A319190",
+    "A319612",
+    "A319729",
+    "A333157"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

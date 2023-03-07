@@ -1,0 +1,26 @@
+{
+  "description": "Numbers k such that both k and k + 2 are totient numbers (A002202).",
+  "id": "A333019",
+  "mentions": [
+    "A000010",
+    "A002202",
+    "A005277",
+    "A063512",
+    "A083533",
+    "A333020",
+    "A333021",
+    "A333022",
+    "A333023",
+    "A333024"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:03",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

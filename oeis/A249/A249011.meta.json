@@ -1,0 +1,19 @@
+{
+  "description": "Smallest prime(i) such that the constellation of the n following prime gaps is the same constellation as the gaps following prime(i+n).",
+  "id": "A249011",
+  "mentions": [
+    "A001223",
+    "A249012"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

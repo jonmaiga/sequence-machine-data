@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,m) (n>=m>=1) = maximum number of nonattacking kings on an n X m toroidal board.",
+  "id": "A279409",
+  "mentions": [
+    "A085801",
+    "A189889",
+    "A279408"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:46",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

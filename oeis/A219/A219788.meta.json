@@ -1,0 +1,19 @@
+{
+  "description": "Consider the succession rule (x, y, z) -> (z, y+z, x+y+z). Sequence gives z values starting at (0, 1, 2).",
+  "id": "A219788",
+  "mentions": [
+    "A006054"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:37",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

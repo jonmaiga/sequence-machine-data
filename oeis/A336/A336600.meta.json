@@ -1,0 +1,24 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of linear chord diagrams on 2n vertices with one marked chord such that exactly k of the remaining n-1 chords contain the marked chord.",
+  "id": "A336600",
+  "mentions": [
+    "A000142",
+    "A001147",
+    "A001344",
+    "A336598",
+    "A336599",
+    "A336601"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:08",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

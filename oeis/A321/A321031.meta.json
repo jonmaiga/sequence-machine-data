@@ -1,0 +1,18 @@
+{
+  "description": "Number of words of length 3n such that the index set of occurring letters is {1, 2, ..., k}, all letters are introduced in ascending order, and the words can be built by repeatedly inserting triples into the initially empty word.",
+  "id": "A321031",
+  "mentions": [
+    "A256311",
+    "A258498"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:43",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

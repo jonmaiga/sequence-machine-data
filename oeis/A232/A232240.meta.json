@@ -1,0 +1,19 @@
+{
+  "description": "A walk based on the digits of the golden ratio phi = (1+sqrt(5))/2 (A001622).",
+  "id": "A232240",
+  "mentions": [
+    "A001622"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:50",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

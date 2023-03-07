@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k) (1 <= k <= n) is the sum of the entries in the lower right k X k submatrix of the n X n inverse Hilbert matrix.",
+  "id": "A144630",
+  "mentions": [
+    "A000290",
+    "A000515",
+    "A014105",
+    "A144631",
+    "A144632"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

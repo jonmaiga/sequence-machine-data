@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = smallest k such that prime(n) is the n-th largest divisor of k.",
+  "id": "A226326",
+  "mentions": [
+    "A225562"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

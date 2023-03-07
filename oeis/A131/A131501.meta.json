@@ -1,0 +1,21 @@
+{
+  "description": "Xm/CV where Xm is a point of maximum error using an approximation method for x^(1/2) which I have found and CV is the population coefficient of variation from my list of error values.",
+  "id": "A131501",
+  "mentions": [
+    "A146951"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn",
+    "obsc",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:11",
+    "offset": 1,
+    "size": 10,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Expansion of (7 * theta_4(q)^20 * theta_2(q)^8 + 7 * theta_4(q)^24 * theta_2(q)^4 + 2 * theta_4(q)^28)/(2 * delta^2) in powers of q = exp(Pi i t), where delta is A000594.",
+  "id": "A319306",
+  "mentions": [
+    "A000594",
+    "A007331",
+    "A008438",
+    "A096727",
+    "A319134",
+    "A319294",
+    "A319308",
+    "A319309",
+    "A319310"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:41",
+    "offset": -4,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

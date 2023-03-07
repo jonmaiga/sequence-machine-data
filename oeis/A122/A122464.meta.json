@@ -1,0 +1,20 @@
+{
+  "description": "Smooth Power Trios: a(n) is the largest of three successive numbers a(n)-j, j=0..2, such that the largest prime factor of a(n)-j is <= the n-th root of a(n)-j.",
+  "id": "A122464",
+  "mentions": [
+    "A122463",
+    "A122465"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

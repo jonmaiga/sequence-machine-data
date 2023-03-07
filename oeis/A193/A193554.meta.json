@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: first column: top entry is 1, then powers of 2; rest of triangle is Pascal's triangle A007318.",
+  "id": "A193554",
+  "mentions": [
+    "A000079",
+    "A007318",
+    "A135233"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

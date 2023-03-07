@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 4*a(n-4) for n>3, a(0)=-1, a(1)=-4, a(2)=2, a(3)=12.",
+  "id": "A137447",
+  "mentions": [
+    "A084221",
+    "A102561",
+    "A122803"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-03 04:17:55",
+    "offset": 0,
+    "size": 41,
+    "source": "joeis"
+  }
+}

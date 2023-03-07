@@ -1,0 +1,26 @@
+{
+  "description": "Nonsquare positive integers n such that Pell equation y^2 - n*x^2 = -1 has rational solutions but the norm of fundamental unit of quadratic field Q(sqrt(n)) is 1.",
+  "id": "A172001",
+  "mentions": [
+    "A000415",
+    "A007913",
+    "A022544",
+    "A031398",
+    "A031399",
+    "A087643",
+    "A137351",
+    "A172000",
+    "A249052"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

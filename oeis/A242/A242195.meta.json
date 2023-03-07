@@ -1,0 +1,25 @@
+{
+  "description": "Least prime divisor of the n-th tangent number T_n which does not divide any T_k with k < n, or 1 if such a primitive prime divisor of T_n does not exist.",
+  "id": "A242195",
+  "mentions": [
+    "A000040",
+    "A000182",
+    "A001586",
+    "A242169",
+    "A242170",
+    "A242171",
+    "A242173",
+    "A242193",
+    "A242194"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

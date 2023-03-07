@@ -1,0 +1,17 @@
+{
+  "description": "Number of nX7 0..n+7-2 arrays with upper left zero and lower right n+7-2 and each element differing from its horizontal and antidiagonal neighbors by one or two.",
+  "id": "A265465",
+  "mentions": [
+    "A265466"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:25",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

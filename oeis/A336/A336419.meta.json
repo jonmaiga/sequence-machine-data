@@ -1,0 +1,39 @@
+{
+  "description": "Number of divisors d of the n-th superprimorial A006939(n) with distinct prime exponents such that the quotient A006939(n)/d also has distinct prime exponents.",
+  "id": "A336419",
+  "mentions": [
+    "A000005",
+    "A000110",
+    "A000178",
+    "A006939",
+    "A008278",
+    "A022915",
+    "A071625",
+    "A076954",
+    "A118914",
+    "A124010",
+    "A130091",
+    "A181796",
+    "A181818",
+    "A317829",
+    "A327498",
+    "A327527",
+    "A336417",
+    "A336420",
+    "A336421",
+    "A336426",
+    "A336500",
+    "A336568"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

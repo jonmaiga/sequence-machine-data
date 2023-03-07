@@ -1,0 +1,21 @@
+{
+  "description": "Number of labeled split graphs on n vertices.",
+  "id": "A179534",
+  "mentions": [
+    "A006125",
+    "A047863",
+    "A048194",
+    "A058862"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:02",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "The infinite trunk of beanstalk (A179016) with reversed subsections.",
+  "id": "A218616",
+  "mentions": [
+    "A000120",
+    "A004198",
+    "A004755",
+    "A011371",
+    "A179016",
+    "A213709",
+    "A213710",
+    "A213711",
+    "A218254",
+    "A218602"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:36",
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

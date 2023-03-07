@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of product_{n>=2} (1-n^(-5)).",
+  "id": "A175616",
+  "mentions": [
+    "A001622",
+    "A109219",
+    "A144664",
+    "A175615"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

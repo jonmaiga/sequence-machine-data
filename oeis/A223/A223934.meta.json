@@ -1,0 +1,23 @@
+{
+  "description": "Least prime p such that x^n-x-1 is irreducible modulo p.",
+  "id": "A223934",
+  "mentions": [
+    "A000040",
+    "A002475",
+    "A217785",
+    "A217788",
+    "A218465",
+    "A220072",
+    "A223938"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:42",
+    "offset": 2,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

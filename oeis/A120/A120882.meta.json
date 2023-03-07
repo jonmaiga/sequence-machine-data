@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the number of k's, for 1 <= k <= n, where gcd(k,floor(n/k)) = 1.",
+  "id": "A120882",
+  "mentions": [
+    "A120881"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

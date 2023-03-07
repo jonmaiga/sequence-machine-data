@@ -1,0 +1,19 @@
+{
+  "description": "Sigma-dense numbers: integers k such that sigma(k) * log(1+log(1+log(1+k))) / (k * log(1+log(1+k))) sets a new record.",
+  "id": "A356573",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A210594"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

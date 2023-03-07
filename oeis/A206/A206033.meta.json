@@ -1,0 +1,20 @@
+{
+  "description": "a(1) =1; for n>=1: a(n) = product of numbers k <= sigma(n) such that k is not equal to sigma(d) for any divisor d of n where sigma = A000203.",
+  "id": "A206033",
+  "mentions": [
+    "A000203",
+    "A184388",
+    "A206031",
+    "A206032"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

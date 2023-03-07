@@ -1,0 +1,17 @@
+{
+  "description": "Primes of the form floor(log(p)) + p^2, where p is prime.",
+  "id": "A225625",
+  "mentions": [
+    "A225626"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

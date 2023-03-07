@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: coefficients xi(n,k) arising from the study of completely transitive graphs on n nodes.",
+  "id": "A259971",
+  "mentions": [
+    "A005321",
+    "A005330",
+    "A259970"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

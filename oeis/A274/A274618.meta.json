@@ -1,0 +1,17 @@
+{
+  "description": "Sprague-Grundy values for the game of duplicate Double Kayles (octal game .07DDDD7).",
+  "id": "A274618",
+  "mentions": [
+    "A071074"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

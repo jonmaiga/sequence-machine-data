@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = (15*n)!*(n/2)!/((15*n/2)!*(5*n)!*(3*n)!).",
+  "id": "A276100",
+  "mentions": [
+    "A211417",
+    "A211418",
+    "A276098",
+    "A276101",
+    "A276102"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:41",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that Sum_{j=1..k-1} (4j)!/16^j is an integer.",
+  "id": "A216044",
+  "mentions": [
+    "A215972",
+    "A216042",
+    "A216043",
+    "A216045"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

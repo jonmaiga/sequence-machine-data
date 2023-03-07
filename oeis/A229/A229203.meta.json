@@ -1,0 +1,18 @@
+{
+  "description": "Primes of the form k^3 - prime(k).",
+  "id": "A229203",
+  "mentions": [
+    "A184935",
+    "A188831"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:46",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

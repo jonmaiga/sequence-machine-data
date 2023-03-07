@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the maximum number of disjoint subgraphs of the Fibonacci cube Gamma(n) that are isomorphic to the hypercube of dimension k.",
+  "id": "A278136",
+  "mentions": [
+    "A000045",
+    "A278137"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:44",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

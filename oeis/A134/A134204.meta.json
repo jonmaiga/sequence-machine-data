@@ -1,0 +1,32 @@
+{
+  "description": "a(0)=2; for n > 0, a(n) = smallest prime not occurring earlier in the sequence such that a(n-1) + a(n) is a multiple of n. If no such prime exists, the sequence terminates.",
+  "id": "A134204",
+  "mentions": [
+    "A131261",
+    "A133242",
+    "A133243",
+    "A133244",
+    "A133245",
+    "A134205",
+    "A134206",
+    "A134207",
+    "A162846",
+    "A224221",
+    "A224222",
+    "A224223",
+    "A224229",
+    "A232992"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "look",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:22",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

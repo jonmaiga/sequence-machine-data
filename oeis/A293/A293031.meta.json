@@ -1,0 +1,18 @@
+{
+  "description": "Number of patterns enumerated in Phase 2 of an algorithm to enumerate flat-foldable single-vertex crease patterns with unit angle 180/n degrees.",
+  "id": "A293031",
+  "mentions": [
+    "A304932"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

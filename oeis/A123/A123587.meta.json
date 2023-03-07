@@ -1,0 +1,22 @@
+{
+  "description": "Number of bars that must change on a standard digital clock when the minutes change from n-1 to n.",
+  "id": "A123587",
+  "mentions": [
+    "A006942",
+    "A010371",
+    "A063720"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "dumb",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 120,
+    "source": "oeis-entry"
+  }
+}

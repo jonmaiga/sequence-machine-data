@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of f(x, x^2) * f(x^4, x^8) in powers of x where f(,) is Ramanujan's general theta function.",
+  "id": "A260415",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A010054",
+    "A010815",
+    "A121373"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:13:05",
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

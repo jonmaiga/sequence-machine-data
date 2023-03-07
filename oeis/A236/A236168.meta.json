@@ -1,0 +1,17 @@
+{
+  "description": "Primes p such that p^3 - p - 1 is prime.",
+  "id": "A236168",
+  "mentions": [
+    "A126421"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:38:35",
+    "offset": 1,
+    "size": 44,
+    "source": "joeis"
+  }
+}

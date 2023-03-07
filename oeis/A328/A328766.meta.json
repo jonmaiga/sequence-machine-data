@@ -1,0 +1,25 @@
+{
+  "description": "Number of nonleading zeros in primorial base expansion of A276086(n).",
+  "id": "A328766",
+  "mentions": [
+    "A001221",
+    "A079067",
+    "A143293",
+    "A276086",
+    "A276087",
+    "A328578",
+    "A328620",
+    "A328763"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

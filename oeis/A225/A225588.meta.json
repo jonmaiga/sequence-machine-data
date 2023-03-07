@@ -1,0 +1,20 @@
+{
+  "description": "Number of descent sequences of length n.",
+  "id": "A225588",
+  "mentions": [
+    "A000110",
+    "A000522",
+    "A022493",
+    "A225624"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

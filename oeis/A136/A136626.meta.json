@@ -1,0 +1,20 @@
+{
+  "description": "For every number n in Ulam's spiral the sequence gives the number of primes around it (number n excluded).",
+  "id": "A136626",
+  "mentions": [
+    "A063826",
+    "A115258",
+    "A136627"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Triangle read by rows: T(m,n) (m >= n >= 1) = number of edges formed by drawing the line segments connecting any two of the (m+1) X (n+1) lattice points in an m X n grid of squares and extending them to the boundary of the grid.",
+  "id": "A333283",
+  "mentions": [
+    "A018808",
+    "A141255",
+    "A288187",
+    "A331452",
+    "A331454",
+    "A331757",
+    "A333278",
+    "A333282",
+    "A333284"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

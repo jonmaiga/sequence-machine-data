@@ -1,0 +1,25 @@
+{
+  "description": "Denominator of the probability that an integer n occurs in the cumulative sums of the decimal digits of a random real number between 0 and 1.",
+  "id": "A100062",
+  "mentions": [
+    "A001019",
+    "A011557",
+    "A052268",
+    "A100061",
+    "A271880",
+    "A271881"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:50",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of e.g.f. (exp(exp(exp(x)-1)-1)-1)^2 / 2.",
+  "id": "A351513",
+  "mentions": [
+    "A000258",
+    "A000558",
+    "A039811",
+    "A351514",
+    "A351515"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 2,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Positive numbers that are the sum of two (possibly negative) cubes in at least 2 ways (primitive solutions).",
+  "id": "A293647",
+  "mentions": [
+    "A018850",
+    "A047696",
+    "A051347",
+    "A293645",
+    "A293648",
+    "A293650"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:10",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

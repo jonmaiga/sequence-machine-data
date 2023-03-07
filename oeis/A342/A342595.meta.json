@@ -1,0 +1,24 @@
+{
+  "description": "Irregular triangle of A342592 read by rows arranged first by length of the width pattern and then lexicographically within blocks of patterns of equal length.",
+  "id": "A342595",
+  "mentions": [
+    "A001405",
+    "A237593",
+    "A249223",
+    "A341969",
+    "A342592",
+    "A342594",
+    "A342596"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Numbers m such that 2^phi(m) mod m is a perfect power other than 1.",
+  "id": "A318145",
+  "mentions": [
+    "A000010",
+    "A001597",
+    "A139257",
+    "A318623"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:38",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

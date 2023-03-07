@@ -1,0 +1,20 @@
+{
+  "description": "Start with the set of natural numbers. Add 1 to every 2nd term, 2 to every 3rd term, 3 to every 4th term, etc.",
+  "id": "A137319",
+  "mentions": [
+    "A000027",
+    "A065608"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 08:34:25",
+    "offset": 1,
+    "size": 64,
+    "source": "joeis"
+  }
+}

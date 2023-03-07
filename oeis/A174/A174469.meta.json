@@ -1,0 +1,19 @@
+{
+  "description": "Number of permutations p of {1,...,n} satisfying p(1)=1 and, if n>1, |p(i)-p((i mod n)+1)| is in {2,3} for i from 1 to n.",
+  "id": "A174469",
+  "mentions": [
+    "A017899"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:58",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

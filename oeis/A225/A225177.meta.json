@@ -1,0 +1,18 @@
+{
+  "description": "Numerator of answer to sock-sorting problem with n socks.",
+  "id": "A225177",
+  "mentions": [
+    "A001147"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

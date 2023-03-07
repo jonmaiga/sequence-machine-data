@@ -1,0 +1,19 @@
+{
+  "description": "Least number k having exactly n representations as a sum of the minimal number of triangular numbers, A000217.",
+  "id": "A258258",
+  "mentions": [
+    "A000217",
+    "A141490",
+    "A258257"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

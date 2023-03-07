@@ -1,0 +1,18 @@
+{
+  "description": "Largest determinant of a (real) {0,1}-matrix of order n subject to the restriction that the corresponding 0,1 simplex is acute.",
+  "id": "A276410",
+  "mentions": [
+    "A003432"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

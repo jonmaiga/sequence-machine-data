@@ -1,0 +1,21 @@
+{
+  "description": "Number of ways to represent n’ as x’ + y’, where x+y = n, x > 0, and n’, x’, y’ are the arithmetic derivatives of n, x, y.",
+  "id": "A212663",
+  "mentions": [
+    "A003415",
+    "A211223",
+    "A211225",
+    "A212662",
+    "A212664"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:30",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

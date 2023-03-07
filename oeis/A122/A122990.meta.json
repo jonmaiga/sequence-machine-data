@@ -1,0 +1,20 @@
+{
+  "description": "Numbers m such that (1/99)*Sum_{k=1..m} k! = A007489(m)/99 is prime.",
+  "id": "A122990",
+  "mentions": [
+    "A003422",
+    "A007489"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

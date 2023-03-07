@@ -1,0 +1,26 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of multisets of k odd numbers with a cap of the total sum set to n.",
+  "id": "A275416",
+  "mentions": [
+    "A000027",
+    "A003293",
+    "A005232",
+    "A065033",
+    "A089353",
+    "A097513",
+    "A110654",
+    "A269628"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:40",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

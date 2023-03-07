@@ -1,0 +1,32 @@
+{
+  "description": "T(n,k) = A321119(n) - (-1)^k*A321119(n-2*k)/2 for 0 < k < n, with T(0,0) = 0 and T(n,0) = T(n,n) = A002530(n+1) for n > 0, triangle read by rows; unreduced numerator of the weights of Holladay-Sard's quadrature formula.",
+  "id": "A321118",
+  "mentions": [
+    "A001834",
+    "A002176",
+    "A002530",
+    "A003500",
+    "A093735",
+    "A093736",
+    "A100640",
+    "A100641",
+    "A321119",
+    "A321120",
+    "A321121",
+    "A321122"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:43",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

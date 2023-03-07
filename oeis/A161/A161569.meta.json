@@ -1,0 +1,22 @@
+{
+  "description": "Sum of first n nonprimes minus their indices.",
+  "id": "A161569",
+  "mentions": [
+    "A018252",
+    "A051349",
+    "A073425",
+    "A112997"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 17:17:29",
+    "offset": 1,
+    "size": 53,
+    "source": "joeis"
+  }
+}

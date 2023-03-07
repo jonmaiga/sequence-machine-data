@@ -1,0 +1,26 @@
+{
+  "description": "Primes which are two greater than A191746 terms.",
+  "id": "A344148",
+  "mentions": [
+    "A037074",
+    "A074040",
+    "A077800",
+    "A079164",
+    "A097490",
+    "A097491",
+    "A097493",
+    "A191746",
+    "A343778",
+    "A344147"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

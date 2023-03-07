@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that A001222(k)>=3 and A339423(k) divides k.",
+  "id": "A339425",
+  "mentions": [
+    "A001222",
+    "A001358",
+    "A014612",
+    "A014613",
+    "A339423",
+    "A339424"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:11",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

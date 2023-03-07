@@ -1,0 +1,23 @@
+{
+  "description": "Recursively superabundant numbers: numbers m such that A330575(m)/m > A330575(k)/k for all k < m.",
+  "id": "A333953",
+  "mentions": [
+    "A002473",
+    "A004394",
+    "A025487",
+    "A074206",
+    "A166981",
+    "A330575",
+    "A333952"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:05",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

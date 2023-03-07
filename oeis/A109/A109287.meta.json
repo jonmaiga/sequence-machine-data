@@ -1,0 +1,33 @@
+{
+  "description": "4-almost primes equal to p*q + 1, where p and q are (not necessarily distinct) primes.",
+  "id": "A109287",
+  "mentions": [
+    "A000040",
+    "A001358",
+    "A005385",
+    "A014613",
+    "A076153",
+    "A077065",
+    "A079148",
+    "A092307",
+    "A109067",
+    "A109288",
+    "A109289",
+    "A109290",
+    "A109373",
+    "A109383",
+    "A128665"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:01",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

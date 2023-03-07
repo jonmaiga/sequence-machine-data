@@ -1,0 +1,27 @@
+{
+  "description": "Triangle read by rows: T(n,k) = sum of all parts of size k in all compositions (ordered partitions) of n.",
+  "id": "A228526",
+  "mentions": [
+    "A000027",
+    "A001787",
+    "A001792",
+    "A011782",
+    "A045623",
+    "A138785",
+    "A221876",
+    "A228525",
+    "A228527"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

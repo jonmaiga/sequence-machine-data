@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that k concatenated with k+5 gives the product of two numbers which differ by 7.",
+  "id": "A116195",
+  "mentions": [
+    "A116133",
+    "A116147",
+    "A116194",
+    "A116196",
+    "A116326"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-10-18 14:56:44",
+    "offset": 1,
+    "size": 16,
+    "source": "joeis"
+  }
+}

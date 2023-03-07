@@ -1,0 +1,21 @@
+{
+  "description": "Absolute row sums of triangle A107102, which is the matrix inverse of A100862.",
+  "id": "A107104",
+  "mentions": [
+    "A043301",
+    "A100862",
+    "A107102",
+    "A107103"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Heptagonal numbers (or 7-gonal numbers): n*(5*n-3)/2 which are products of five distinct primes.",
+  "id": "A353019",
+  "mentions": [
+    "A000566",
+    "A046387"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Numbers m with integer solution to x^x == (x+1)^(x+1) (mod m) with x > 0.",
+  "id": "A342144",
+  "mentions": [
+    "A056911",
+    "A084820",
+    "A174824",
+    "A334420",
+    "A338445"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

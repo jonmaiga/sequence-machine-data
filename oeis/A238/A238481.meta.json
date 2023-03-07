@@ -1,0 +1,20 @@
+{
+  "description": "Number of partitions p of n that do not include (min(p) + max(p))/2 as a part.",
+  "id": "A238481",
+  "mentions": [
+    "A000041",
+    "A238480"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

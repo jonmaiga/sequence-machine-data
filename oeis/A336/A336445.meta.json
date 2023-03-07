@@ -1,0 +1,21 @@
+{
+  "description": "Integers m such that m/sopf(m) is a prime number where sopf(m) is A008472(m), the sum of the distinct primes dividing m.",
+  "id": "A336445",
+  "mentions": [
+    "A001248",
+    "A008472",
+    "A071139",
+    "A336296",
+    "A336297"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:08",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(n,k) (0 <= k <= n) = Sum_{i=0..[k/2]} (-1)^i*binomial(k,2*i)*(2*i-1)!!*n^(k-2*i).",
+  "id": "A244490",
+  "mentions": [
+    "A000012",
+    "A001477",
+    "A067998",
+    "A121670",
+    "A276999"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

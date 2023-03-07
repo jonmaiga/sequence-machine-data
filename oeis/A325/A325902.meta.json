@@ -1,0 +1,17 @@
+{
+  "description": "Numbers whose neighbor's prime factors with multiplicity can be partitioned into two multisets of equal sum.",
+  "id": "A325902",
+  "mentions": [
+    "A063968"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:52",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

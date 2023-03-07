@@ -1,0 +1,22 @@
+{
+  "description": "Square array T(n, k) = Sum_{p prime} [v_p(n) >= v_p(k) > 0] read by antidiagonals up, where [] is the Iverson bracket and v_p is the p-adic valuation, n >= 1, k >= 1.",
+  "id": "A319581",
+  "mentions": [
+    "A001221",
+    "A002260",
+    "A004736",
+    "A319582"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

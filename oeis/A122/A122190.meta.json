@@ -1,0 +1,27 @@
+{
+  "description": "Expansion of q^(-1/4) * eta(q^2) * eta(q^5)^3 / (eta(q) * eta(q^10)) in powers of q.",
+  "id": "A122190",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A010054",
+    "A010815",
+    "A053694",
+    "A094247",
+    "A121373",
+    "A133100",
+    "A133101",
+    "A133573"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:13:31",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

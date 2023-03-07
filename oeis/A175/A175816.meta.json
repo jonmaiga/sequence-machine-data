@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{k=1..n} (-1)^A001622(k).",
+  "id": "A175816",
+  "mentions": [
+    "A001622"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "less",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 89,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k in A320601 such that the fraction of the number of zeros in the decimal expansion of 2^k reaches a record minimum.",
+  "id": "A308691",
+  "mentions": [
+    "A320601"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "INVERTi transform of A054765: (1, 3, 19, 160, 1744, ...).",
+  "id": "A155728",
+  "mentions": [
+    "A054765",
+    "A155729"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "eigen",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-10-18 14:56:44",
+    "offset": 1,
+    "size": 19,
+    "source": "joeis"
+  }
+}

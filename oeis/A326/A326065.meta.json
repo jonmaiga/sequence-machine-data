@@ -1,0 +1,27 @@
+{
+  "description": "Sum of divisors of the largest proper divisor of n: a(n) = sigma(A032742(n)).",
+  "id": "A326065",
+  "mentions": [
+    "A000203",
+    "A020639",
+    "A032742",
+    "A067029",
+    "A143112",
+    "A326066",
+    "A326067",
+    "A326068",
+    "A326069",
+    "A326135"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:52",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

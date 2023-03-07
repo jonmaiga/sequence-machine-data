@@ -1,0 +1,23 @@
+{
+  "description": "Alternately concatenate the decimal digits from front to back 1...n such that n is always to the right.",
+  "id": "A281253",
+  "mentions": [
+    "A000422",
+    "A007908",
+    "A138793",
+    "A138957",
+    "A281254"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:49",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

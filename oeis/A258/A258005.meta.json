@@ -1,0 +1,26 @@
+{
+  "description": "Capped binary boundary codes for holeless strictly non-overlapping polyhexes with bilateral symmetry, only the maximal representative from each equivalence class obtained by rotating.",
+  "id": "A258005",
+  "mentions": [
+    "A037861",
+    "A059893",
+    "A080542",
+    "A255571",
+    "A256999",
+    "A258003",
+    "A258015",
+    "A258205",
+    "A258209"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:16",
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

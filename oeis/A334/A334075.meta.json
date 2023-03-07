@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the denominator of the sum of reciprocals of primes not exceeding n and not dividing binomial(2*n, n).",
+  "id": "A334075",
+  "mentions": [
+    "A000984",
+    "A334074"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:05",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Primes p such that p^2 divides p.p.p where dot \".\" means concatenation.",
+  "id": "A147554",
+  "mentions": [
+    "A147553",
+    "A243162"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

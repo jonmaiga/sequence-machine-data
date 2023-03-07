@@ -1,0 +1,17 @@
+{
+  "description": "O.g.f.: exp( Integral Sum_{n>=1} (2*n)! * x^(n-1) / Product_{k=1..2*n} (1 - k*x) dx ).",
+  "id": "A243509",
+  "mentions": [
+    "A243486"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

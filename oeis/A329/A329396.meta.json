@@ -1,0 +1,31 @@
+{
+  "description": "Numbers k such that the co-Lyndon factorization of the binary expansion of k is uniform.",
+  "id": "A329396",
+  "mentions": [
+    "A001037",
+    "A023758",
+    "A059966",
+    "A060223",
+    "A102659",
+    "A211100",
+    "A275692",
+    "A328596",
+    "A329131",
+    "A329312",
+    "A329313",
+    "A329318",
+    "A329326",
+    "A329395",
+    "A329398"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

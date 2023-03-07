@@ -1,0 +1,17 @@
+{
+  "description": "G.f.: 4th root of weight enumerator of [16,11,4] extended Hamming code or Reed-Muller code RM(2,4).",
+  "id": "A110832",
+  "mentions": [
+    "A010080"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:32:05",
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

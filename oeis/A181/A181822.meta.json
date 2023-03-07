@@ -1,0 +1,41 @@
+{
+  "description": "a(n) = member of A025487 whose prime signature is conjugate to the prime signature of A025487(n).",
+  "id": "A181822",
+  "mentions": [
+    "A001222",
+    "A002110",
+    "A025487",
+    "A036035",
+    "A059901",
+    "A063008",
+    "A071625",
+    "A077569",
+    "A085082",
+    "A085988",
+    "A086141",
+    "A087443",
+    "A108951",
+    "A181796",
+    "A181819",
+    "A181820",
+    "A181821",
+    "A181823",
+    "A181824",
+    "A181825",
+    "A181826",
+    "A181827"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "changed",
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:05",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

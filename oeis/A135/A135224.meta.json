@@ -1,0 +1,23 @@
+{
+  "description": "Triangle A103451 * A007318 * A000012, read by rows. T(n, k) for 0 <= k <= n.",
+  "id": "A135224",
+  "mentions": [
+    "A000012",
+    "A007318",
+    "A083318",
+    "A103451",
+    "A132750"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:23",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

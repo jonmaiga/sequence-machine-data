@@ -1,0 +1,31 @@
+{
+  "description": "Numbers with last digit less than 5 (in base 10).",
+  "id": "A293292",
+  "mentions": [
+    "A001477",
+    "A005843",
+    "A007091",
+    "A008592",
+    "A010122",
+    "A042948",
+    "A047240",
+    "A047476",
+    "A197652",
+    "A239229",
+    "A257145",
+    "A293481"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:10:51",
+    "offset": 1,
+    "size": 66,
+    "source": "joeis"
+  }
+}

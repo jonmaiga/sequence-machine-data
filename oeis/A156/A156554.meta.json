@@ -1,0 +1,22 @@
+{
+  "description": "The number of integer sequences of length d = 2n+1 such that the sum of the terms is 0 and the sum of the absolute values of the terms is d-1.",
+  "id": "A156554",
+  "mentions": [
+    "A103881",
+    "A103882",
+    "A143699"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:38",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

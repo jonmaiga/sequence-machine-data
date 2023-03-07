@@ -1,0 +1,30 @@
+{
+  "description": "Array read by descending antidiagonals: A(n,k) is the number of achiral colorings of the facets (or vertices) of a regular n-dimensional simplex using up to k colors.",
+  "id": "A325001",
+  "mentions": [
+    "A000027",
+    "A000290",
+    "A006003",
+    "A132366",
+    "A162880",
+    "A324999",
+    "A325000",
+    "A325003",
+    "A325007",
+    "A325015",
+    "A327086",
+    "A337886"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:51",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

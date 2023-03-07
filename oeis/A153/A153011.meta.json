@@ -1,0 +1,25 @@
+{
+  "description": "Sum of proper divisors, minus the number of proper divisors, minus cototient of n, plus 1.",
+  "id": "A153011",
+  "mentions": [
+    "A000005",
+    "A000010",
+    "A000203",
+    "A001065",
+    "A032741",
+    "A051953",
+    "A152770"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:35",
+    "offset": 1,
+    "size": 93,
+    "source": "oeis-bfile"
+  }
+}

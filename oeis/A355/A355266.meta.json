@@ -1,0 +1,27 @@
+{
+  "description": "Triangle read by rows, T(n, k) = (-1)^(n-k)*Bell(k)*Stirling1(n+1, k+1), for 0 <= k <= n.",
+  "id": "A355266",
+  "mentions": [
+    "A000110",
+    "A000142",
+    "A000166",
+    "A000254",
+    "A002720",
+    "A053556",
+    "A053557",
+    "A105479",
+    "A130534"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

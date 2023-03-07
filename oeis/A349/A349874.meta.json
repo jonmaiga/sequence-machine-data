@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of A(x)^3, where A(x) is g.f. of n^n (A000312).",
+  "id": "A349874",
+  "mentions": [
+    "A000312",
+    "A053729",
+    "A100262"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

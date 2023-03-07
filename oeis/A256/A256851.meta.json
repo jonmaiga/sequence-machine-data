@@ -1,0 +1,23 @@
+{
+  "description": "First-order differences for the cumulative sum of the digits of the integers when alternately adding and subtracting each digit of a particular value.",
+  "id": "A256851",
+  "mentions": [
+    "A037123",
+    "A167232",
+    "A256100",
+    "A256379"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 1,
+    "size": 96,
+    "source": "oeis-bfile"
+  }
+}

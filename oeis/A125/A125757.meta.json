@@ -1,0 +1,18 @@
+{
+  "description": "Integer solutions corresponding to the terms in A125756.",
+  "id": "A125757",
+  "mentions": [
+    "A125756",
+    "A125758"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:13",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

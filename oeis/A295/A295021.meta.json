@@ -1,0 +1,27 @@
+{
+  "description": "Cubes whose largest digit is 6.",
+  "id": "A295021",
+  "mentions": [
+    "A000578",
+    "A278936",
+    "A294663",
+    "A294996",
+    "A295016",
+    "A295022",
+    "A295023",
+    "A295024",
+    "A295025"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

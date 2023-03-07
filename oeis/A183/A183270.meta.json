@@ -1,0 +1,27 @@
+{
+  "description": "T(n,k) is the number of singly defective permutations of 1..n+2*k-2 with exactly k maxima.",
+  "id": "A183270",
+  "mentions": [
+    "A001804",
+    "A008303",
+    "A183264",
+    "A183265",
+    "A183266",
+    "A183267",
+    "A183268",
+    "A183269",
+    "A334774"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:06",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Number of proper divisors of n that are nondeficient (A023196).",
+  "id": "A294927",
+  "mentions": [
+    "A023196",
+    "A032741",
+    "A071395",
+    "A294887",
+    "A294926",
+    "A294928",
+    "A294929",
+    "A294936"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:13",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

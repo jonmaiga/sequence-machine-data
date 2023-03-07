@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows. T(n, k) = binomial(n, k) * n! / (n - k + 1)! if k >= 1, if k = 0 then T(n, k) = k^n. T(n, k) for 0 <= k <= n.",
+  "id": "A350266",
+  "mentions": [
+    "A000142",
+    "A006002",
+    "A074143",
+    "A089835",
+    "A350267"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

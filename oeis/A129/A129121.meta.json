@@ -1,0 +1,21 @@
+{
+  "description": "Starting numbers x for which the trajectory of x->R(A006370(x)) ends in the cycle 1->4->2->1.",
+  "id": "A129121",
+  "mentions": [
+    "A004086",
+    "A006370",
+    "A006577"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

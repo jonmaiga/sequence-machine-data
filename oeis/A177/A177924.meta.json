@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of (28+sqrt(2730))/56.",
+  "id": "A177924",
+  "mentions": [
+    "A028356",
+    "A177925"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:22:21",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

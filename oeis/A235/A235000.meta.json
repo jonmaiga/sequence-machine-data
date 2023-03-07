@@ -1,0 +1,19 @@
+{
+  "description": "Primes which become palindromic primes when the digits are rotated once to the right.",
+  "id": "A235000",
+  "mentions": [
+    "A234912"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:52",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

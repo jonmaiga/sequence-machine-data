@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of (-1-x-x^2-4*x^3-4*x^4+4*x^5+x^6+x^7+x^8) / ((x+1)*(x^2-x+1)*(x^2+x-1)*(x^4-x^3+2*x^2+x+1)).",
+  "id": "A108390",
+  "mentions": [
+    "A000004",
+    "A108391"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:00",
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

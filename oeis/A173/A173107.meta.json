@@ -1,0 +1,22 @@
+{
+  "description": "Partial sums of abundant numbers (A005101).",
+  "id": "A173107",
+  "mentions": [
+    "A000005",
+    "A005101",
+    "A173106",
+    "A302991"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:57",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

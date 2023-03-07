@@ -1,0 +1,30 @@
+{
+  "description": "Triangle read by rows: T(n,k) = binomial(k,n-k) mod 2.",
+  "id": "A106344",
+  "mentions": [
+    "A002487",
+    "A026729",
+    "A047999",
+    "A062110",
+    "A084938",
+    "A099093",
+    "A106345",
+    "A106346",
+    "A109466",
+    "A110517",
+    "A112883",
+    "A130167"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:57",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

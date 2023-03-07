@@ -1,0 +1,19 @@
+{
+  "description": "Restricted growth sequence transform of A083254 (2*phi(n) - n).",
+  "id": "A318309",
+  "mentions": [
+    "A000010",
+    "A083254",
+    "A286449"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:38",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

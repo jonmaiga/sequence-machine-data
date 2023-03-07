@@ -1,0 +1,22 @@
+{
+  "description": "a(1)=1, a(2)=3, a(3)=6; a(n) = 3*a(n-2) for n > 3.",
+  "id": "A182751",
+  "mentions": [
+    "A038754",
+    "A182752",
+    "A182757"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:06",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

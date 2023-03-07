@@ -1,0 +1,21 @@
+{
+  "description": "a(1) = 1 and for any n > 1 with prime factorization Product_{k = 1..m} prime(k)^e_k (where prime(k) denotes the k-th prime number and e_m > 0), a(n) = Product_{k = 1..m-1} prime(k)^(e_k XOR e_{k+1}) (where XOR denotes the bitwise XOR operator).",
+  "id": "A334990",
+  "mentions": [
+    "A006530",
+    "A038554",
+    "A100778"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Nonnegative integers n such that the difference between n and its reverse is a palindrome.",
+  "id": "A131207",
+  "mentions": [
+    "A178403"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "description": "Neither the unsorted prime signature of a(n) nor the negated unsorted prime signature of a(n) is unimodal.",
+  "id": "A332643",
+  "mentions": [
+    "A001523",
+    "A007052",
+    "A056239",
+    "A059204",
+    "A072704",
+    "A112798",
+    "A115981",
+    "A124010",
+    "A242031",
+    "A242414",
+    "A328509",
+    "A332280",
+    "A332281",
+    "A332282",
+    "A332283",
+    "A332287",
+    "A332288",
+    "A332294",
+    "A332578",
+    "A332639",
+    "A332640",
+    "A332642",
+    "A332669",
+    "A332728",
+    "A332742",
+    "A332744",
+    "A332831",
+    "A332832",
+    "A332870"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

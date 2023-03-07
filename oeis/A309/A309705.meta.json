@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = lcm(a(n-1), n) - gcd(a(n-1), n) where a(1) = 1.",
+  "id": "A309705",
+  "mentions": [
+    "A008339",
+    "A077139",
+    "A129090"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:34",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

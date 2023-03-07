@@ -1,0 +1,29 @@
+{
+  "description": "Numbers k such that there is no prime p such that p^p divides k, but for its arithmetic derivative a positive finite number of such primes exist.",
+  "id": "A327934",
+  "mentions": [
+    "A003415",
+    "A048103",
+    "A080774",
+    "A099309",
+    "A129251",
+    "A202237",
+    "A256750",
+    "A327928",
+    "A327929",
+    "A327932",
+    "A359550",
+    "A360110",
+    "A360111"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:56",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

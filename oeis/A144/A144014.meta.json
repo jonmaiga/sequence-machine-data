@@ -1,0 +1,19 @@
+{
+  "description": "E.g.f. satisfies: A'(x) = 1 + x*A(x)^4 where A(0) = 1.",
+  "id": "A144014",
+  "mentions": [
+    "A144012",
+    "A144013"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

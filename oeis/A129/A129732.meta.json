@@ -1,0 +1,28 @@
+{
+  "description": "Number of main classes of Graeco-Latin squares of order n. That is, species of pairs of orthogonal Latin squares.",
+  "id": "A129732",
+  "mentions": [
+    "A003090",
+    "A266166",
+    "A266167",
+    "A266168",
+    "A266169",
+    "A266170",
+    "A266171",
+    "A266172",
+    "A266173"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 3,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

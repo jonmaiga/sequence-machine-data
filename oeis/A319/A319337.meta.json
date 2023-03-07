@@ -1,0 +1,23 @@
+{
+  "description": "Filter sequence combining gcd(n,tau(n)) (= A009191) with the prime signature of n (A046523).",
+  "id": "A319337",
+  "mentions": [
+    "A009191",
+    "A046523",
+    "A101296",
+    "A300230",
+    "A300240",
+    "A305801",
+    "A319338"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:41",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

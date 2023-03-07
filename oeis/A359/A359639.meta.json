@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the least odd prime not in A001359 such that all subsequent composites in the gap up to the next prime have at least n odd prime factors, counted with multiplicity.",
+  "id": "A359639",
+  "mentions": [
+    "A001222",
+    "A001359",
+    "A087436",
+    "A359637",
+    "A359640"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 2,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

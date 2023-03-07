@@ -1,0 +1,24 @@
+{
+  "description": "Square array giving the monic polynomial q satisfying q = gcd(P(x),P(y)) where P(x) and P(y) are polynomials in ring GF(3)[X] with coefficients in {0,1,2} given by the ternary expansions of x and y. The polynomial q is converted back to a ternary number, and then expressed in decimal.",
+  "id": "A325825",
+  "mentions": [
+    "A004488",
+    "A091255",
+    "A132141",
+    "A325820",
+    "A325821",
+    "A325827",
+    "A330740"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

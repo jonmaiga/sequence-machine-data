@@ -1,0 +1,25 @@
+{
+  "description": "a(n) is the number of representative four-color bracelets (necklaces with turning over allowed) with n beads, for n >= 4.",
+  "id": "A214309",
+  "mentions": [
+    "A008284",
+    "A032275",
+    "A056359",
+    "A213939",
+    "A213940",
+    "A214311",
+    "A214312",
+    "A226883"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:32",
+    "offset": 4,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

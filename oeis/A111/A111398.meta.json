@@ -1,0 +1,21 @@
+{
+  "description": "Numbers which are the cube roots of the product of their proper divisors.",
+  "id": "A111398",
+  "mentions": [
+    "A007956",
+    "A030626",
+    "A048945",
+    "A111399"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:02",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

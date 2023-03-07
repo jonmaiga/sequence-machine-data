@@ -1,0 +1,21 @@
+{
+  "description": "Triangle, read by rows, equal to the matrix inverse of triangle A054431; the inverse transformation that obtains {a(n)} from b(n) = Sum_{1<=k<=n, gcd(k,n)=1} a(k).",
+  "id": "A118229",
+  "mentions": [
+    "A054431",
+    "A096433",
+    "A118230"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

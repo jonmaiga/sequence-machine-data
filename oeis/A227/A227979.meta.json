@@ -1,0 +1,25 @@
+{
+  "description": "Integers not of the form (a^k+b^k)/(a+b) for any positive integer values of a, b, k with b > a.",
+  "id": "A227979",
+  "mentions": [
+    "A000978",
+    "A007658",
+    "A057171",
+    "A057469",
+    "A082387",
+    "A122853",
+    "A128066",
+    "A128335",
+    "A229791"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

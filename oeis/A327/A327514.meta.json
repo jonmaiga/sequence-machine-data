@@ -1,0 +1,23 @@
+{
+  "description": "Quotient of n over the maximum divisor of n that is 1, 2, or a nonprime number whose prime indices are pairwise coprime.",
+  "id": "A327514",
+  "mentions": [
+    "A000005",
+    "A006530",
+    "A056239",
+    "A112798",
+    "A302569",
+    "A302696",
+    "A304711"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

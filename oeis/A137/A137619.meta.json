@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the maximal (nonredundant) number of switch flippings in a solution of the all-ones lights out problem on an n X n square.",
+  "id": "A137619",
+  "mentions": [
+    "A075462",
+    "A075464"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

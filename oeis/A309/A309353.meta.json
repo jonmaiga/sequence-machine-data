@@ -1,0 +1,18 @@
+{
+  "description": "Let d(1), d(2), ..., d(q) be the q divisors of a number m. The sequence lists the numbers m such that {phi(d(1)), phi(d(2)), ..., phi(d(q))} is the set of the divisors of a number k, where phi is the Euler totient function.",
+  "id": "A309353",
+  "mentions": [
+    "A000010",
+    "A000079"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:33",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

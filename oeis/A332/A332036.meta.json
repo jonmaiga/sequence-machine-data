@@ -1,0 +1,21 @@
+{
+  "description": "Number of integers whose bi-unitary divisors sum to n.",
+  "id": "A332036",
+  "mentions": [
+    "A054973",
+    "A063974",
+    "A188999",
+    "A332038",
+    "A332040"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:01",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = product of distinct primes dividing prime(n)^2 - 1.",
+  "id": "A275630",
+  "mentions": [
+    "A007947",
+    "A077063",
+    "A077066",
+    "A084920"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:41",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

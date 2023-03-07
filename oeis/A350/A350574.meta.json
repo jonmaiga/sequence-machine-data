@@ -1,0 +1,19 @@
+{
+  "description": "Primes p such that p, asc(p), and desc(p) are all distinct primes (where asc(p) and desc(p) are the digits of p in ascending and descending order, respectively) and p is the minimum of all permutations of its digits with this property.",
+  "id": "A350574",
+  "mentions": [
+    "A009994",
+    "A038618"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:25",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

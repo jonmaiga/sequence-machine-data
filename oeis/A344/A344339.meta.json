@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the minimal number of terms of A332520 that need to be combined with the bitwise OR operator in order to give n.",
+  "id": "A344339",
+  "mentions": [
+    "A000120",
+    "A001196",
+    "A332520"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

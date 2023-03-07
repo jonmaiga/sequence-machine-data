@@ -1,0 +1,18 @@
+{
+  "description": "Ordered squares of the chord lengths of the parabola y=x^2, where the chord ends are all possible points of the parabola with integer coordinates.",
+  "id": "A358317",
+  "mentions": [
+    "A001481",
+    "A071253"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

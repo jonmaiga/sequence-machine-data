@@ -1,0 +1,31 @@
+{
+  "description": "Number of strict multiset partitions of a multiset whose multiplicities are the prime indices of n.",
+  "id": "A318286",
+  "mentions": [
+    "A001055",
+    "A007716",
+    "A045778",
+    "A181821",
+    "A219585",
+    "A305936",
+    "A316980",
+    "A317776",
+    "A318283",
+    "A318284",
+    "A318285",
+    "A318287",
+    "A318360",
+    "A318361"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:38",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

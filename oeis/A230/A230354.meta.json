@@ -1,0 +1,23 @@
+{
+  "description": "Even numbers n such that digit sum of n = digit sum of largest odd divisor of n.",
+  "id": "A230354",
+  "mentions": [
+    "A006753",
+    "A219340",
+    "A230355",
+    "A230356",
+    "A230357"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

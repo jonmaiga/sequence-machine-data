@@ -1,0 +1,26 @@
+{
+  "description": "Numerators of the sequence whose Dirichlet convolution with itself yields squares, A000290.",
+  "id": "A318649",
+  "mentions": [
+    "A000290",
+    "A046643",
+    "A299149",
+    "A299150",
+    "A318511",
+    "A318512",
+    "A318651",
+    "A318654",
+    "A318655"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:40",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

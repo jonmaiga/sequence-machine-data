@@ -1,0 +1,31 @@
+{
+  "description": "(24n - 1)p(n): traces of partition class polynomials, with a(0) = -1.",
+  "id": "A183011",
+  "mentions": [
+    "A000041",
+    "A008606",
+    "A066186",
+    "A092269",
+    "A182729",
+    "A183006",
+    "A183009",
+    "A183010",
+    "A183012",
+    "A183054",
+    "A187206",
+    "A187218",
+    "A220908",
+    "A220909"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-02 19:22:37",
+    "offset": 0,
+    "size": 34,
+    "source": "joeis"
+  }
+}

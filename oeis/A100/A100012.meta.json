@@ -1,0 +1,23 @@
+{
+  "description": "Iterated hypericosahedron numbers, starting with hypericosahedron(2) = 120. The hypericosahedron numbers are 4-dimensional figurate numbers based on the 600-cell regular convex polytope, also known as the hexacosichoron or hypericosahedron. This sequence is hypericosahedron(2), hypericosahedron(hypericosahedron(2)) and so on recursively.",
+  "id": "A100012",
+  "mentions": [
+    "A000332",
+    "A006564",
+    "A007501",
+    "A092182",
+    "A099179"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

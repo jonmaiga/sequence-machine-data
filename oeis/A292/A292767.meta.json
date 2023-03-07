@@ -1,0 +1,19 @@
+{
+  "description": "Square array read by antidiagonals downwards: T(k,n) = sum of the site-perimeters of words of length n >= 1 over an alphabet of size k >= 1.",
+  "id": "A292767",
+  "mentions": [
+    "A128135"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:08",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

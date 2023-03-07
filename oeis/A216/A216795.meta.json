@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = sum_{k=0..n} binomial(n,k)^4 * 3^k.",
+  "id": "A216795",
+  "mentions": [
+    "A005260",
+    "A216696"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:34",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Decimal expansion of Integral_{t=0..Pi/2} sqrt(tan(t)) dt.",
+  "id": "A247719",
+  "mentions": [
+    "A063448",
+    "A093954",
+    "A181048",
+    "A181049",
+    "A186706",
+    "A193887",
+    "A244976"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "changed",
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:04",
+    "offset": 1,
+    "size": 104,
+    "source": "oeis-bfile"
+  }
+}

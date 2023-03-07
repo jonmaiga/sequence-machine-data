@@ -1,0 +1,18 @@
+{
+  "description": "Integer areas of the outer vecten triangles of integer-sided triangles.",
+  "id": "A231275",
+  "mentions": [
+    "A188158",
+    "A231276"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

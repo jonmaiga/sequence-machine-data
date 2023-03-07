@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = n^n - A002275(n).",
+  "id": "A177009",
+  "mentions": [
+    "A000312",
+    "A002275",
+    "A177010"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:01",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Array T(n,k) = n*k*A000041(n) read by antidiagonals, n,k >= 1.",
+  "id": "A182728",
+  "mentions": [
+    "A000041",
+    "A066186",
+    "A135010",
+    "A182729",
+    "A183009",
+    "A183011"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Position of second and last occurrence of n in A256918.",
+  "id": "A257475",
+  "mentions": [
+    "A256918",
+    "A257120",
+    "A257218",
+    "A257478"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:15",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "First differences of A080735.",
+  "id": "A163963",
+  "mentions": [
+    "A006992",
+    "A055496",
+    "A080359",
+    "A080735",
+    "A104272",
+    "A106108",
+    "A116533",
+    "A132199",
+    "A163961"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:46",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

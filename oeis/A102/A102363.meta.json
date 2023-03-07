@@ -1,0 +1,24 @@
+{
+  "description": "Triangle read by rows, constructed by a Pascal-like rule with left edge = 2^k, right edge = 2^(k+1)-1 (k >= 0).",
+  "id": "A102363",
+  "mentions": [
+    "A000079",
+    "A002024",
+    "A007318",
+    "A053220",
+    "A265939"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:53",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Positive integers which can be represented as p*q - p - q where p and q are distinct odd primes.",
+  "id": "A329857",
+  "mentions": [
+    "A037165",
+    "A046388",
+    "A091305",
+    "A096345",
+    "A137367",
+    "A218862"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

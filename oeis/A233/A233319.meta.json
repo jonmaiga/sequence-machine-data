@@ -1,0 +1,24 @@
+{
+  "description": "E.g.f. A(x) satisfies: A'(x) = A(x*A'(x))^3.",
+  "id": "A233319",
+  "mentions": [
+    "A231619",
+    "A231866",
+    "A231899",
+    "A232686",
+    "A232694",
+    "A232695",
+    "A232696"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:51",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

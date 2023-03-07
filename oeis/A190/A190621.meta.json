@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = n if n is not divisible by 4, otherwise 0.",
+  "id": "A190621",
+  "mentions": [
+    "A008586",
+    "A046897",
+    "A057427",
+    "A166486"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:13:27",
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

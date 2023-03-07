@@ -1,0 +1,19 @@
+{
+  "description": "Number of noncrossing anti-commutator friendly partitions on {1,2,...,2n}.",
+  "id": "A331836",
+  "mentions": [
+    "A000257"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:24",
+    "offset": 1,
+    "size": 20,
+    "source": "joeis"
+  }
+}

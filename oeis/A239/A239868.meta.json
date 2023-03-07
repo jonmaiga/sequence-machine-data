@@ -1,0 +1,21 @@
+{
+  "description": "Sum of sigma(i) mod i for i from 1 to n.",
+  "id": "A239868",
+  "mentions": [
+    "A000203",
+    "A007691",
+    "A054024",
+    "A239869"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:12",
+    "offset": 1,
+    "size": 58,
+    "source": "joeis"
+  }
+}

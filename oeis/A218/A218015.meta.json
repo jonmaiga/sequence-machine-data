@@ -1,0 +1,19 @@
+{
+  "description": "Number of primes p such that sqrt(q) - sqrt(p) > 1/n, where q is the prime after p.",
+  "id": "A218015",
+  "mentions": [
+    "A079296",
+    "A218012",
+    "A218014"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:35",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

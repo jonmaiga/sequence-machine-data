@@ -1,0 +1,20 @@
+{
+  "description": "Number of different isotemporal classes of diasters with n peripheral edges.",
+  "id": "A109622",
+  "mentions": [
+    "A005993",
+    "A092481"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:56:41",
+    "offset": 0,
+    "size": 46,
+    "source": "joeis"
+  }
+}

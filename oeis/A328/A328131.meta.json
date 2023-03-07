@@ -1,0 +1,18 @@
+{
+  "description": "Erase all zero digits from decimal expansion of n. Then keep just the coprime digits; write 0 if all digits disappear.",
+  "id": "A328131",
+  "mentions": [
+    "A320486"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:56",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

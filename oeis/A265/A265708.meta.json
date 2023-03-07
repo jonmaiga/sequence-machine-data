@@ -1,0 +1,28 @@
+{
+  "description": "a(n) = lcm_{d|n} sigma(d) * Sum_{d|n} 1/sigma(d), where sigma(d) represents the sum of divisors of d (A000203(d)).",
+  "id": "A265708",
+  "mentions": [
+    "A000203",
+    "A069934",
+    "A265709",
+    "A265710",
+    "A265711",
+    "A265712",
+    "A265713",
+    "A265714",
+    "A266227",
+    "A266228"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:25",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

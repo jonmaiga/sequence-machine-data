@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the smallest number of consecutive primes that are necessary to add to obtain the largest prime = A342443(n) < 10^n.",
+  "id": "A342444",
+  "mentions": [
+    "A067377",
+    "A342439",
+    "A342440",
+    "A342443",
+    "A342453",
+    "A342454"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

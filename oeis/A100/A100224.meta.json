@@ -1,0 +1,24 @@
+{
+  "description": "Triangle, read by rows, of the coefficients of [x^k] in G100224(x)^n such that the row sums are 2^n-1 for n>0, where G100224(x) is the g.f. of A100224.",
+  "id": "A100224",
+  "mentions": [
+    "A001610",
+    "A006490",
+    "A006491",
+    "A006492",
+    "A006493",
+    "A100223"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

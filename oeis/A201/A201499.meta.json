@@ -1,0 +1,17 @@
+{
+  "description": "Number of n X n 0..1 arrays with every row and column running average nondecreasing rightwards and downwards, and the number of instances of each value within one of each other",
+  "id": "A201499",
+  "mentions": [
+    "A201503"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:22",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

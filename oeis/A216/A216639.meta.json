@@ -1,0 +1,24 @@
+{
+  "description": "A027642(6*n+6)/(sequence of period 2:repeat 42,210).",
+  "id": "A216639",
+  "mentions": [
+    "A002445",
+    "A010686",
+    "A027642",
+    "A027762",
+    "A140461",
+    "A165734",
+    "A165949"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:34",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

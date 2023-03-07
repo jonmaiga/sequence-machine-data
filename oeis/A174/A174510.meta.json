@@ -1,0 +1,23 @@
+{
+  "description": "Continued fraction expansion for exp( Sum_{n>=1} 1/(n*A080040(n)) ), where A080040(n) = (1+sqrt(3))^n + (1-sqrt(3))^n.",
+  "id": "A174510",
+  "mentions": [
+    "A080040",
+    "A174500",
+    "A174504",
+    "A174509"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "cofr",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 12:14:10",
+    "offset": 0,
+    "size": 44,
+    "source": "joeis"
+  }
+}

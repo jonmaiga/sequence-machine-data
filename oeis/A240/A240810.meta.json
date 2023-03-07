@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = index of first nonexisting term of the meta-Fibonacci sequence {f(1) = ... = f(n) = 1; f(k)=f(k-f(k-1))+f(k-f(k-n))} if that sequence is only defined for finitely many terms, or 0 if that sequence is infinite.",
+  "id": "A240810",
+  "mentions": [
+    "A005185",
+    "A134680",
+    "A240816"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

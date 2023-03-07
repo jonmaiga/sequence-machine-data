@@ -1,0 +1,21 @@
+{
+  "description": "A008619(n-1)-fold concatenation of A109613(n).",
+  "id": "A180116",
+  "mentions": [
+    "A000217",
+    "A008619",
+    "A109613"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "a(n) is the smallest prime number having order of primeness = prime(n).",
+  "id": "A318554",
+  "mentions": [
+    "A000040",
+    "A006450",
+    "A007097",
+    "A049076",
+    "A049078",
+    "A049079",
+    "A049081"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

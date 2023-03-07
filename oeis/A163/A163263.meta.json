@@ -1,0 +1,17 @@
+{
+  "description": "Numbers having multiple representations as the product of non-overlapping ranges of consecutive numbers.",
+  "id": "A163263",
+  "mentions": [
+    "A064224"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

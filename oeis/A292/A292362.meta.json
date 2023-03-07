@@ -1,0 +1,19 @@
+{
+  "description": "Least numbers k that can be expressed as k = a' + b', with k = a + b, in exactly n ways, where a' and b' are the arithmetic derivatives of a and b.",
+  "id": "A292362",
+  "mentions": [
+    "A003415"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

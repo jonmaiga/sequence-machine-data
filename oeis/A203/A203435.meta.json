@@ -1,0 +1,22 @@
+{
+  "description": "Number of partitions of {1,2,...,4n} into n 4-element subsets having the same sum.",
+  "id": "A203435",
+  "mentions": [
+    "A104185",
+    "A108235",
+    "A203017",
+    "A203986",
+    "A264813"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

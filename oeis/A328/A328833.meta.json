@@ -1,0 +1,26 @@
+{
+  "description": "A276085 applied to the intersection of A048103 (p^p-free numbers) and A276156 (sums of distinct primorials).",
+  "id": "A328833",
+  "mentions": [
+    "A002110",
+    "A048103",
+    "A129251",
+    "A276085",
+    "A276156",
+    "A328313",
+    "A328828",
+    "A328832",
+    "A328836"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

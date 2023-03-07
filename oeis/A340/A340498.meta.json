@@ -1,0 +1,20 @@
+{
+  "description": "Where 2^n appears in A340488 for the first time.",
+  "id": "A340498",
+  "mentions": [
+    "A340488",
+    "A340494",
+    "A340497"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

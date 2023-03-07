@@ -1,0 +1,18 @@
+{
+  "description": "Positive integers which cannot be expressed as the sum of three or fewer squares, no more than two of which are greater than 1.",
+  "id": "A353219",
+  "mentions": [
+    "A022544",
+    "A353202"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

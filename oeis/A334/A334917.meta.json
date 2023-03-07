@@ -1,0 +1,21 @@
+{
+  "description": "Indices in A334916 where records occur.",
+  "id": "A334917",
+  "mentions": [
+    "A000290",
+    "A334916"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

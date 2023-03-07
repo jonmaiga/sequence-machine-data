@@ -1,0 +1,23 @@
+{
+  "description": "Fermat pseudoprimes to base 2 that are palindromic in base 2.",
+  "id": "A346567",
+  "mentions": [
+    "A001567",
+    "A006995",
+    "A016041",
+    "A065341",
+    "A068445",
+    "A281576"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:20",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

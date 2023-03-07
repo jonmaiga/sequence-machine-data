@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that (65*k)^2 can be represented in exactly 4 ways as the sum of a positive square and a positive fourth power.",
+  "id": "A346594",
+  "mentions": [
+    "A346110"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:20",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

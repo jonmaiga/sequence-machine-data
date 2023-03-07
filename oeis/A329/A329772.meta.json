@@ -1,0 +1,21 @@
+{
+  "description": "Coordination sequence for 10-valent vertex in 1-skeleton of triakis icosahedron.",
+  "id": "A329772",
+  "mentions": [
+    "A298808",
+    "A329770"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "bref",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

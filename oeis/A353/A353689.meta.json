@@ -1,0 +1,20 @@
+{
+  "description": "Convolution of A000716 and the positive integers.",
+  "id": "A353689",
+  "mentions": [
+    "A000716",
+    "A210843",
+    "A353690"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:44",
+    "offset": 0,
+    "size": 34,
+    "source": "joeis"
+  }
+}

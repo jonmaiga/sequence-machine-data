@@ -1,0 +1,21 @@
+{
+  "description": "Number of strict knapsack partitions of n.",
+  "id": "A275972",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A108917",
+    "A201052",
+    "A335357"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:41",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

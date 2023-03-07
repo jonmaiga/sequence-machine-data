@@ -1,0 +1,17 @@
+{
+  "description": "Primes p such that the sum of p and the average of the primes immediately before and after p is prime.",
+  "id": "A338270",
+  "mentions": [
+    "A338273"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:10",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

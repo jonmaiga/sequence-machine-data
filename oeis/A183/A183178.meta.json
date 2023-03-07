@@ -1,0 +1,29 @@
+{
+  "description": "Numbers k such that 7*(10^(2*k+1)-1)/9 - 5*10^k is prime.",
+  "id": "A183178",
+  "mentions": [
+    "A004023",
+    "A077775",
+    "A077777",
+    "A077798",
+    "A107123",
+    "A107127",
+    "A107648",
+    "A107649",
+    "A115073",
+    "A183174",
+    "A183187"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

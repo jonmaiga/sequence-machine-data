@@ -1,0 +1,19 @@
+{
+  "description": "Numbers such that A279967(n) = 0.",
+  "id": "A281533",
+  "mentions": [
+    "A278436",
+    "A279966",
+    "A279967"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n for which all cyclic shifts of their base-3 expansions give base-3 expansions of prime numbers.",
+  "id": "A305993",
+  "mentions": [
+    "A068652",
+    "A272106"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

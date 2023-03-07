@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 126*2^n - 22 (n>=1).",
+  "id": "A304389",
+  "mentions": [
+    "A304386",
+    "A304387",
+    "A304388"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:28",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

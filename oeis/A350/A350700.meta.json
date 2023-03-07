@@ -1,0 +1,24 @@
+{
+  "description": "a(n) is the number of 1's minus the number of 0's in A004685(n).",
+  "id": "A350700",
+  "mentions": [
+    "A000045",
+    "A004685",
+    "A011373",
+    "A145037",
+    "A177718",
+    "A214852"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:25",
+    "offset": 0,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

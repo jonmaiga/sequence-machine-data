@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the least prime p such that p is greater than any previous term and is representable as the arithmetic mean of two other primes in exactly n different ways.",
+  "id": "A157478",
+  "mentions": [
+    "A126204"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

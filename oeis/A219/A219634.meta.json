@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the smallest number > a(n-1) such that 1 + a(1)^2 + a(2)^2 + ... + a(n)^2 is a prime.",
+  "id": "A219634",
+  "mentions": [
+    "A051935"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

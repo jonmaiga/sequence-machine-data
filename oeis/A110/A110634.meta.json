@@ -1,0 +1,19 @@
+{
+  "description": "Every 2nd term of A083946 where the self-convolution 2nd power is congruent modulo 4 to A083946, which consists entirely of numbers 1 through 6.",
+  "id": "A110634",
+  "mentions": [
+    "A083946",
+    "A110632",
+    "A110633"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

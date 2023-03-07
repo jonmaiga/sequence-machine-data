@@ -1,0 +1,24 @@
+{
+  "description": "Numbers n for which A060502(n) = A275806(n); numbers whose factorial base representation has an equal number of distinct nonzero digits and occupied slopes.",
+  "id": "A275956",
+  "mentions": [
+    "A000142",
+    "A060502",
+    "A153880",
+    "A225901",
+    "A255411",
+    "A275806",
+    "A275959"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:41",
+    "offset": 0,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

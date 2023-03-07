@@ -1,0 +1,29 @@
+{
+  "description": "Number of free pure symmetric identity multifunctions with one atom and n positions.",
+  "id": "A317878",
+  "mentions": [
+    "A000081",
+    "A003238",
+    "A004111",
+    "A052893",
+    "A053492",
+    "A277996",
+    "A280000",
+    "A317875",
+    "A317876",
+    "A317877",
+    "A317879",
+    "A317880",
+    "A317881"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:37",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

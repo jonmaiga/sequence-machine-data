@@ -1,0 +1,20 @@
+{
+  "description": "Number of loopless ({1,2,3},6)-spheres with n vertices.",
+  "id": "A215622",
+  "mentions": [
+    "A088534",
+    "A111361",
+    "A167227",
+    "A210146"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:33",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

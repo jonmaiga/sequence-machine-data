@@ -1,0 +1,18 @@
+{
+  "description": "Number of ways to write n as sum of at least 2 consecutive odd positive integers.",
+  "id": "A220400",
+  "mentions": [
+    "A069283",
+    "A297160"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:38",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

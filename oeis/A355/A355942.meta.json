@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that k is a multiple of A326042(k).",
+  "id": "A355942",
+  "mentions": [
+    "A000203",
+    "A003961",
+    "A064989",
+    "A326042",
+    "A348942",
+    "A348943"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

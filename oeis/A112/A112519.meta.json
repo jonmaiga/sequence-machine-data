@@ -1,0 +1,24 @@
+{
+  "description": "Riordan array (1, x*c(x)*c(-x*c(x))), c(x) the g.f. of A000108.",
+  "id": "A112519",
+  "mentions": [
+    "A000108",
+    "A055392",
+    "A112517",
+    "A112520",
+    "A256893"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:03",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

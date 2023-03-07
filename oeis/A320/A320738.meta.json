@@ -1,0 +1,17 @@
+{
+  "description": "Number of partitions of n with seven sorts of part 1 which are introduced in ascending order.",
+  "id": "A320738",
+  "mentions": [
+    "A292745"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:43",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

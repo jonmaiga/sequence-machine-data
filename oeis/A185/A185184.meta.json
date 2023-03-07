@@ -1,0 +1,21 @@
+{
+  "description": "Steps of the Hare in each tied Hare and Tortoise race of length n.",
+  "id": "A185184",
+  "mentions": [
+    "A030302",
+    "A066099"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 134,
+    "source": "oeis-entry"
+  }
+}

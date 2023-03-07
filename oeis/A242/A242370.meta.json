@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n, k) is the smallest x such that the denominator of sigma(x)/x is equal to n and the numerator of sigma(x)/x is congruent to k modulo n.",
+  "id": "A242370",
+  "mentions": [
+    "A017665",
+    "A017666",
+    "A162657",
+    "A239578"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 2,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

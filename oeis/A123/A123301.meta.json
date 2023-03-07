@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of specially labeled bicolored nonseparable graphs with k points in one color class and n-k points in the other class. \"Special\" means there are separate labels 1,2,...,k and 1,2,...,n-k for the two color classes (n >= 2, k = 1,...,n-1).",
+  "id": "A123301",
+  "mentions": [
+    "A004100",
+    "A005334",
+    "A123474",
+    "A262307"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:12",
+    "offset": 2,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

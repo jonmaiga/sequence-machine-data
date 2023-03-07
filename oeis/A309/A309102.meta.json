@@ -1,0 +1,18 @@
+{
+  "description": "Nonnegative integers that are not the sum of two refactorable numbers.",
+  "id": "A309102",
+  "mentions": [
+    "A033950",
+    "A309346"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

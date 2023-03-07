@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of Sum_{i = p*q, p prime, q prime} x^i/(1 - x^i) / Product_{j = p*q, p prime, q prime} (1 - x^j).",
+  "id": "A281617",
+  "mentions": [
+    "A001358",
+    "A084993",
+    "A086971",
+    "A101048",
+    "A344447"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:50",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

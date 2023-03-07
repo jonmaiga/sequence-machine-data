@@ -1,0 +1,26 @@
+{
+  "description": "Table of coefficients in the iterations of Euler's tree function (A000169), as read by antidiagonals.",
+  "id": "A274390",
+  "mentions": [
+    "A000169",
+    "A207833",
+    "A227278",
+    "A274389",
+    "A274391",
+    "A274392",
+    "A274570",
+    "A274740"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:39",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

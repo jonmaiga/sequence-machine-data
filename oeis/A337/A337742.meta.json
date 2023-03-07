@@ -1,0 +1,21 @@
+{
+  "description": "Cycle length of applying XOR with the previous state and bit rotation on a string of n bits.",
+  "id": "A337742",
+  "mentions": [
+    "A007733",
+    "A007814",
+    "A038837"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

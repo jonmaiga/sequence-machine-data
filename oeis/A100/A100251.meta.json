@@ -1,0 +1,20 @@
+{
+  "description": "The square root of A100252; the index of the least square number greater than 1 that is also an n-gonal number, or 0 if none exists.",
+  "id": "A100251",
+  "mentions": [
+    "A100252",
+    "A100253",
+    "A100254"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 3,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

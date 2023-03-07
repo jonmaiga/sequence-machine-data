@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the least positive number such that in the representation of 2n+1, n>=4, as a sum of the form (2*A000695(k)+a(n))+2(2*A000695(l)+a(n)), both of numbers 2*A000695(k)+a(n) and 2*A000695(l)+a(n) are primes.",
+  "id": "A153401",
+  "mentions": [
+    "A000695",
+    "A046927",
+    "A103151",
+    "A145812",
+    "A147568"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 4,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

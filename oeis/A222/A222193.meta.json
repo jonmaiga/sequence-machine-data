@@ -1,0 +1,18 @@
+{
+  "description": "Records in A114183.",
+  "id": "A222193",
+  "mentions": [
+    "A114183",
+    "A222194"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:40",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Semiprimes k such that every permutation of the digits of k is a semiprime.",
+  "id": "A344468",
+  "mentions": [
+    "A000005",
+    "A001222",
+    "A001358",
+    "A003459",
+    "A085751",
+    "A263106"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

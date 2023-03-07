@@ -1,0 +1,23 @@
+{
+  "description": "Triangle A133232 read by rows with an additional column T(n,0)=1 added to the left.",
+  "id": "A133233",
+  "mentions": [
+    "A000961",
+    "A003418",
+    "A014963",
+    "A120112",
+    "A133232"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:21",
+    "offset": 0,
+    "size": 103,
+    "source": "oeis-bfile"
+  }
+}

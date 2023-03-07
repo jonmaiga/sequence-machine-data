@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that k! is the sum of two triangular numbers.",
+  "id": "A180590",
+  "mentions": [
+    "A000142",
+    "A000217",
+    "A001481",
+    "A076680",
+    "A152089",
+    "A171099"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

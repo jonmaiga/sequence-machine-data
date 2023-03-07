@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = minimal k such that n has a partition into k parts with the property that every number <= m can be partitioned into a subset of these parts.",
+  "id": "A100529",
+  "mentions": [
+    "A000123",
+    "A002033"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

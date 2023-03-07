@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = 81*n^2 - 44*n + 6.",
+  "id": "A156676",
+  "mentions": [
+    "A000290",
+    "A017137",
+    "A017245",
+    "A156772",
+    "A156774"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:38",
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

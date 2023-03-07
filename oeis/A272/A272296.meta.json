@@ -1,0 +1,28 @@
+{
+  "description": "Numbers n such that 5^n-4^(n-1) is prime.",
+  "id": "A272296",
+  "mentions": [
+    "A082103",
+    "A093713",
+    "A093717",
+    "A093793",
+    "A093794",
+    "A093795",
+    "A096185",
+    "A096186",
+    "A271883",
+    "A271884",
+    "A272345"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

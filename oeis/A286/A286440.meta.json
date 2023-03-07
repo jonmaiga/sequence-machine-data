@@ -1,0 +1,25 @@
+{
+  "description": "Number of ways to tile an n X n X n triangular area with five 2 X 2 X 2 triangular tiles and an appropriate number (= n^2-20) of 1 X 1 X 1 tiles.",
+  "id": "A286440",
+  "mentions": [
+    "A061998",
+    "A286436",
+    "A286437",
+    "A286438",
+    "A286439",
+    "A286441",
+    "A286442"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:07:39",
+    "offset": 5,
+    "size": 24,
+    "source": "joeis"
+  }
+}

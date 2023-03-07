@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that Sum_{k>=1} digits(k)/k = 1 where digits() are the digits of n in base 10, the least significant digit having index 1.",
+  "id": "A291256",
+  "mentions": [
+    "A272036"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:06",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

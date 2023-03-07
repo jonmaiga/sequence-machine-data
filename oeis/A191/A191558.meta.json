@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 0 if n prime, otherwise n.",
+  "id": "A191558",
+  "mentions": [
+    "A002808",
+    "A005171",
+    "A061397"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:15",
+    "offset": 1,
+    "size": 94,
+    "source": "oeis-bfile"
+  }
+}

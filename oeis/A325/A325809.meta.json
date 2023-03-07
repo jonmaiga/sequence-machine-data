@@ -1,0 +1,20 @@
+{
+  "description": "Let k = A228058(n). a(n) is the number of ways to partition the divisors of k into complementary subsets x and y so that the (k-Sum(x)) and (k-Sum(y)) are coprime.",
+  "id": "A325809",
+  "mentions": [
+    "A228058",
+    "A325807",
+    "A325819"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:52",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

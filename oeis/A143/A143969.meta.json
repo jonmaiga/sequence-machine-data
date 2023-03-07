@@ -1,0 +1,19 @@
+{
+  "description": "Eigentriangle by rows, n terms of (5 * A084057) followed by A084057(n).",
+  "id": "A143969",
+  "mentions": [
+    "A084057"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

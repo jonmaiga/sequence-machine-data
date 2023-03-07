@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that (k concatenated k times) + 1 = A000461(k) + 1 is a prime number.",
+  "id": "A116899",
+  "mentions": [
+    "A000461"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Partial sums of A000051, starting at n=1.",
+  "id": "A145071",
+  "mentions": [
+    "A000051",
+    "A000225",
+    "A000295",
+    "A052944",
+    "A127330",
+    "A308737",
+    "A336725"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

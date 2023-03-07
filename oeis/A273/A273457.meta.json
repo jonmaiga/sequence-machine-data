@@ -1,0 +1,22 @@
+{
+  "description": "Even numbers 2n that do not have a Goldbach partition 2n = p + q (p < q; p, q prime) satisfying sqrt(n) < p <= sqrt(2n).",
+  "id": "A273457",
+  "mentions": [
+    "A002373",
+    "A020481",
+    "A025018",
+    "A025019",
+    "A244408",
+    "A279040"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:38",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "description": "BII-numbers of set-systems with minimum vertex-degree > 1.",
+  "id": "A327107",
+  "mentions": [
+    "A000120",
+    "A029931",
+    "A048793",
+    "A058891",
+    "A059167",
+    "A070939",
+    "A245797",
+    "A326031",
+    "A326701",
+    "A326786",
+    "A327041",
+    "A327103",
+    "A327104",
+    "A327105",
+    "A327227",
+    "A327230"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

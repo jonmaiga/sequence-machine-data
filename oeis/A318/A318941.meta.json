@@ -1,0 +1,20 @@
+{
+  "description": "Number of Dyck paths with n nodes and altitude 2.",
+  "id": "A318941",
+  "mentions": [
+    "A005248",
+    "A318942"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:40",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

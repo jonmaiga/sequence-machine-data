@@ -1,0 +1,23 @@
+{
+  "description": "A006369(n) - A006368(n).",
+  "id": "A168223",
+  "mentions": [
+    "A006368",
+    "A006369",
+    "A047342",
+    "A168224"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "look",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:52",
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Coefficients of the A-Rogers mod 14 identity.",
+  "id": "A105780",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A010054",
+    "A010815",
+    "A105781",
+    "A105782",
+    "A121373"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:34:03",
+    "offset": 0,
+    "size": 49,
+    "source": "joeis"
+  }
+}

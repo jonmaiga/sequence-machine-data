@@ -1,0 +1,21 @@
+{
+  "description": "Minimal number of floors an elevator must move to transport n passengers initially waiting at floors i = 1, ..., n to their destinations, floor n+1-i (= n, ..., 1), if the elevator can transport at most C = 2 persons at a time and starts at floor 1, and no one may get off the elevator before reaching their destination.",
+  "id": "A162762",
+  "mentions": [
+    "A162761",
+    "A162763",
+    "A162764"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

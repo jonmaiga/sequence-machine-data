@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = Sum_{p|n} nextprime(n/p), where nextprime(m) is the smallest prime > m.",
+  "id": "A345281",
+  "mentions": [
+    "A151800",
+    "A345280"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

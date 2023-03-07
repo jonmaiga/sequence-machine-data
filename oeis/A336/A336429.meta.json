@@ -1,0 +1,18 @@
+{
+  "description": "First location of n in A331025 or 0 if number is absent.",
+  "id": "A336429",
+  "mentions": [
+    "A232803",
+    "A331025"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

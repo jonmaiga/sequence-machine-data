@@ -1,0 +1,18 @@
+{
+  "description": "The stopping time sequence for the 3x+1 function, restricted to its range and adjusted. Each term is the number of iterations of the function until it decreases.",
+  "id": "A340739",
+  "mentions": [
+    "A067745"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:13",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k) = binomial(2(n-k),n-k)/(1-2(n-k)).",
+  "id": "A106190",
+  "mentions": [
+    "A002420",
+    "A106187",
+    "A106191",
+    "A106192"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

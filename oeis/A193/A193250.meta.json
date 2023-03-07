@@ -1,0 +1,21 @@
+{
+  "description": "Small rhombicuboctahedron with faces of centered polygons.",
+  "id": "A193250",
+  "mentions": [
+    "A001844",
+    "A005448",
+    "A079414"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

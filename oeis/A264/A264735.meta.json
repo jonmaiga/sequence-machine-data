@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = prime(2^(n-1)*(2*n-1)), n >= 1.",
+  "id": "A264735",
+  "mentions": [
+    "A000040",
+    "A014480",
+    "A264731"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

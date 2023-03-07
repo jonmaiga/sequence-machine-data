@@ -1,0 +1,18 @@
+{
+  "description": "Triangle read by rows: T(n,k) = mobius(k)*T(n-1,k) + T(n-1,k-1).",
+  "id": "A124961",
+  "mentions": [
+    "A008683"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:13",
+    "offset": 1,
+    "size": 101,
+    "source": "oeis-bfile"
+  }
+}

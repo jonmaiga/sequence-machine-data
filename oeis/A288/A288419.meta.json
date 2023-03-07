@@ -1,0 +1,27 @@
+{
+  "description": "a(n) = Sum_{d|n} d^3*A000593(n/d).",
+  "id": "A288419",
+  "mentions": [
+    "A000578",
+    "A000593",
+    "A027847",
+    "A109386",
+    "A183700",
+    "A288414",
+    "A288417",
+    "A288418",
+    "A288420"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:01",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

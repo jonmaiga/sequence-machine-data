@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that phi(n) divides n+1, where phi is Euler's totient function (A000010).",
+  "id": "A203966",
+  "mentions": [
+    "A000010",
+    "A050474",
+    "A060473",
+    "A202855"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Numbers n such that 5n is squarefree.",
+  "id": "A274546",
+  "mentions": [
+    "A005117",
+    "A008587",
+    "A056911",
+    "A261034",
+    "A276378"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

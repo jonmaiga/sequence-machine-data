@@ -1,0 +1,21 @@
+{
+  "description": "Squarefree part of ((2n-1)!)^(2n-3).",
+  "id": "A197880",
+  "mentions": [
+    "A007913",
+    "A134367",
+    "A198480",
+    "A198481"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

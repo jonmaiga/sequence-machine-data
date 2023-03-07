@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the conversion factor of arcseconds to radians.",
+  "id": "A155970",
+  "mentions": [
+    "A019685",
+    "A217572"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 19:38:17",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

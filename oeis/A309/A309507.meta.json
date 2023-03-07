@@ -1,0 +1,25 @@
+{
+  "description": "Number of ways the n-th triangular number T(n) = A000217(n) can be written as the difference of two positive triangular numbers.",
+  "id": "A309507",
+  "mentions": [
+    "A000217",
+    "A001108",
+    "A046079",
+    "A053141",
+    "A068194",
+    "A100821",
+    "A309332",
+    "A333529"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:33",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

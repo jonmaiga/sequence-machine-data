@@ -1,0 +1,35 @@
+{
+  "description": "Irregular triangle read by rows where T(n,k) is the coefficient of y^k in polynomial P(n) defined by P(2n) = P(n) and P(2n+1) = y*P(n) + P(n+1) starting P(0) = 0, P(1) = 1.",
+  "id": "A359250",
+  "mentions": [
+    "A000120",
+    "A002487",
+    "A030101",
+    "A080791",
+    "A116528",
+    "A125184",
+    "A178239",
+    "A178243",
+    "A342603",
+    "A342633",
+    "A342634",
+    "A342635",
+    "A342636",
+    "A342637",
+    "A342638"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "easy",
+    "formulas",
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:33",
+    "offset": 0,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

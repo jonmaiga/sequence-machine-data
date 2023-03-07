@@ -1,0 +1,20 @@
+{
+  "description": "The classical Lie superfactorial of type Dr ~ SO(2r): When a Lie group G is simply laced, the classical Lie superfactorial sf_G is the product of s! where s belongs to the multiset E of exponents of G. Here G=Dr.",
+  "id": "A169657",
+  "mentions": [
+    "A000178",
+    "A169667",
+    "A169668"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 3,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Primes p = A007947(m) such that p+6 is also prime and p + 1 = A007947(m + 1).",
+  "id": "A141408",
+  "mentions": [
+    "A007947",
+    "A081083"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:30",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

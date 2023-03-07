@@ -1,0 +1,32 @@
+{
+  "description": "Superabundant numbers (A004394) that are highly composite (A002182).",
+  "id": "A166981",
+  "mentions": [
+    "A001221",
+    "A002110",
+    "A002182",
+    "A002201",
+    "A004394",
+    "A004490",
+    "A025487",
+    "A055932",
+    "A166735",
+    "A224078",
+    "A304234",
+    "A304235",
+    "A308913",
+    "A338786"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:50",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

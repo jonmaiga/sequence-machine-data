@@ -1,0 +1,18 @@
+{
+  "description": "Number of length n word structures using an infinite alphabet with all distinct run-lengths and the first run length of a symbol less than that of previous symbols.",
+  "id": "A351732",
+  "mentions": [
+    "A351638",
+    "A351645"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:26",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) is the number of prime knots with n crossings whose signatures are k in absolute value.",
+  "id": "A318051",
+  "mentions": [
+    "A002863",
+    "A172184",
+    "A172293",
+    "A172441",
+    "A172444",
+    "A172486",
+    "A173466",
+    "A318050",
+    "A318052"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "hard",
+    "more",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 3,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

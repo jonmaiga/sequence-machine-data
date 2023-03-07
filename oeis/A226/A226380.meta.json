@@ -1,0 +1,22 @@
+{
+  "description": "Smallest of 101 consecutive primes whose sum is prime.",
+  "id": "A226380",
+  "mentions": [
+    "A073681",
+    "A152468",
+    "A180948",
+    "A180950",
+    "A189571"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

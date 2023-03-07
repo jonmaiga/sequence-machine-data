@@ -1,0 +1,19 @@
+{
+  "description": "Denominator of Sum_{k=0..n^2-1}((-1)^k*sqrt(Pi)/(Gamma(1/2-k)*Gamma(1+k)))-n).",
+  "id": "A280656",
+  "mentions": [
+    "A280655"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

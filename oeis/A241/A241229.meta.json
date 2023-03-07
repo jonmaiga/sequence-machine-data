@@ -1,0 +1,22 @@
+{
+  "description": "Number of acute isosceles triangles on a centered hexagonal grid of size n.",
+  "id": "A241229",
+  "mentions": [
+    "A003215",
+    "A190317",
+    "A241228",
+    "A241230"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

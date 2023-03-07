@@ -1,0 +1,21 @@
+{
+  "description": "Number of positive integers that are not the sum of distinct centered n-gonal numbers.",
+  "id": "A352481",
+  "mentions": [
+    "A025524",
+    "A101321",
+    "A352349",
+    "A352585"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 3,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

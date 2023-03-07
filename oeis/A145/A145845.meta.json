@@ -1,0 +1,18 @@
+{
+  "description": "Number of permutations of length 2n+1 which are invariant under the reverse-complement map and have no decreasing subsequences of length 5.",
+  "id": "A145845",
+  "mentions": [
+    "A005802"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 16:43:21",
+    "offset": 0,
+    "size": 23,
+    "source": "joeis"
+  }
+}

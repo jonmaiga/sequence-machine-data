@@ -1,0 +1,21 @@
+{
+  "description": "Number of monohedral disk tilings of type C^t_{2n+1,2}.",
+  "id": "A296359",
+  "mentions": [
+    "A241926",
+    "A296360",
+    "A296361",
+    "A296362"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:15",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

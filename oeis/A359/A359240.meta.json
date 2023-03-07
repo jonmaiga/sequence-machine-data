@@ -1,0 +1,21 @@
+{
+  "description": "Number of divisors of 4*n-3 of form 4*k+3.",
+  "id": "A359240",
+  "mentions": [
+    "A001842",
+    "A359239",
+    "A359241"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:33",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

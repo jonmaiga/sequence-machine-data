@@ -1,0 +1,22 @@
+{
+  "description": "A(n, k) = (m*k)! [x^k] MittagLefflerE(m, x)^(-n), for m = 3, n >= 0, k >= 0; square array read by descending antidiagonals.",
+  "id": "A326475",
+  "mentions": [
+    "A000007",
+    "A002115",
+    "A326327",
+    "A326474",
+    "A326476"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

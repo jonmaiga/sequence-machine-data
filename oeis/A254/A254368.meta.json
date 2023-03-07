@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 5*2^n + 3^n + 15.",
+  "id": "A254368",
+  "mentions": [
+    "A168614",
+    "A254369",
+    "A254370"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:12",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

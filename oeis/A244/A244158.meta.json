@@ -1,0 +1,28 @@
+{
+  "description": "If n = Sum c_i * 10^i then a(n) = Sum c_i * Cat(i+1), where Cat(k) = A000108(k).",
+  "id": "A244158",
+  "mentions": [
+    "A000108",
+    "A014418",
+    "A028897",
+    "A081594",
+    "A156230",
+    "A197433",
+    "A244155",
+    "A244156",
+    "A244157",
+    "A244159"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-entry"
+  }
+}

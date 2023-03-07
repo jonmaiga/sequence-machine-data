@@ -1,0 +1,21 @@
+{
+  "description": "Positive integers that can't be written in the form a+b+c for some positive integers a, b, and c satisfying gcd(a,b)=1, gcd(a,c)>1, and gcd(b,c)>1.",
+  "id": "A347933",
+  "mentions": [
+    "A100951",
+    "A100952",
+    "A224535"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

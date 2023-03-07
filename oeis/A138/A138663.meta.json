@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = number of positive integers k, k <= n, where the number of ones in the binary representation of each k is coprime to n.",
+  "id": "A138663",
+  "mentions": [
+    "A000120",
+    "A138664"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:26",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

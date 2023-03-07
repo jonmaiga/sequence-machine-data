@@ -1,0 +1,20 @@
+{
+  "description": "x such that x^2 - 13*y^2 = 1.",
+  "id": "A114047",
+  "mentions": [
+    "A075871",
+    "A202155"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:04",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

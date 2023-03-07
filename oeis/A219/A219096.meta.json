@@ -1,0 +1,22 @@
+{
+  "description": "Indices of primes p such that the next two larger primes are p+6 and p+12.",
+  "id": "A219096",
+  "mentions": [
+    "A000720",
+    "A047948",
+    "A128940",
+    "A186311"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:37",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

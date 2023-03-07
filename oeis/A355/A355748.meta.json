@@ -1,0 +1,46 @@
+{
+  "description": "Number of ways to choose a sequence of divisors, one of each part of the n-th composition in standard order.",
+  "id": "A355748",
+  "mentions": [
+    "A000005",
+    "A000079",
+    "A000120",
+    "A003963",
+    "A005811",
+    "A029837",
+    "A066099",
+    "A124767",
+    "A175413",
+    "A238279",
+    "A274174",
+    "A326841",
+    "A333381",
+    "A333755",
+    "A353847",
+    "A353848",
+    "A353849",
+    "A353850",
+    "A353851",
+    "A353852",
+    "A354578",
+    "A354904",
+    "A354905",
+    "A355731",
+    "A355732",
+    "A355733",
+    "A355735",
+    "A355737",
+    "A355739",
+    "A355747"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

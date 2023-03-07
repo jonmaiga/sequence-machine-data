@@ -1,0 +1,21 @@
+{
+  "description": "Central terms of triangle A116071, which equals Pascal's triangle to the matrix power of Pascal's triangle.",
+  "id": "A116072",
+  "mentions": [
+    "A000108",
+    "A000248",
+    "A080108",
+    "A116071"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:33:55",
+    "offset": 0,
+    "size": 17,
+    "source": "joeis"
+  }
+}

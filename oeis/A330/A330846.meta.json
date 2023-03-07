@@ -1,0 +1,22 @@
+{
+  "description": "The number of vertices inside a hexagon formed by the straight line segments mutually connecting all vertices and all points that divide the sides into n equal parts.",
+  "id": "A330846",
+  "mentions": [
+    "A007569",
+    "A092866",
+    "A330845",
+    "A331931",
+    "A331932",
+    "A332599"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

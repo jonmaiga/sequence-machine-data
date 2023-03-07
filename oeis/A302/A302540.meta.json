@@ -1,0 +1,32 @@
+{
+  "description": "Numbers whose prime indices other than 1 are prime numbers.",
+  "id": "A302540",
+  "mentions": [
+    "A000961",
+    "A001222",
+    "A003963",
+    "A005117",
+    "A006450",
+    "A007716",
+    "A056239",
+    "A076610",
+    "A275024",
+    "A281113",
+    "A291686",
+    "A302242",
+    "A302243",
+    "A302534",
+    "A302539"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:26",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

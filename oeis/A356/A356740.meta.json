@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the least emirp that begins a sequence of exactly n emirps under the map p -> (p*R(p)) mod (p+R(p)), where R(p) is the digit reversal of p.",
+  "id": "A356740",
+  "mentions": [
+    "A004086",
+    "A006567",
+    "A355651"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "less",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

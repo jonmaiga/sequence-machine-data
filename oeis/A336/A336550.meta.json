@@ -1,0 +1,28 @@
+{
+  "description": "Numbers k such that A007947(k) divides sigma(k) and A003557(k)-1 either divides A326143(k) [= A001065(k) - A007947(k)], or both are zero.",
+  "id": "A336550",
+  "mentions": [
+    "A000396",
+    "A001065",
+    "A002023",
+    "A003557",
+    "A007947",
+    "A175200",
+    "A326143",
+    "A326145",
+    "A336551",
+    "A336552",
+    "A336641"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

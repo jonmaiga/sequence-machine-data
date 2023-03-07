@@ -1,0 +1,24 @@
+{
+  "description": "Number triangle T(n,k) = lcm(1,..,n+1)/lcm(1,..,k+1).",
+  "id": "A120108",
+  "mentions": [
+    "A003418",
+    "A025555",
+    "A120109",
+    "A120110",
+    "A120111"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:09",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

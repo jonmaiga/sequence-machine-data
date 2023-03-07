@@ -1,0 +1,19 @@
+{
+  "description": "Numerators of expansion of exp(1-sqrt(1-x-2*x^2)).",
+  "id": "A144577",
+  "mentions": [
+    "A144578"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

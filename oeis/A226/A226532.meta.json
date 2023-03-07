@@ -1,0 +1,22 @@
+{
+  "description": "If n = Product_{i>0} prime(i)^e(i), then a(n) = Product_{i>0} prime(i)^(XOR_{j>=i} e(j)), where XOR is bitwise XOR.",
+  "id": "A226532",
+  "mentions": [
+    "A000040",
+    "A002110",
+    "A006068",
+    "A019565",
+    "A067255",
+    "A226569"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

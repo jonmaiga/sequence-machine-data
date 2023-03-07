@@ -1,0 +1,26 @@
+{
+  "description": "Product of parts of integer partitions as ordered by the table A241918: a(n) = Product_{i=A203623(n-1)+2..A203623(n)+1} A241918(i).",
+  "id": "A243504",
+  "mentions": [
+    "A000040",
+    "A000079",
+    "A003963",
+    "A075158",
+    "A203623",
+    "A227184",
+    "A241909",
+    "A241918",
+    "A243503"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:59",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

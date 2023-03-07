@@ -1,0 +1,19 @@
+{
+  "description": "Word obtained from axiom 2 using the morphism 1-> 267, 2-> 13467, 3-> 247, 4-> 23567, 5-> 467, 6-> 12457, 7-> 123456.",
+  "id": "A135599",
+  "mentions": [
+    "A120714"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:23",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

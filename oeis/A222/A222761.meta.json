@@ -1,0 +1,18 @@
+{
+  "description": "Conjectured lower bounds for the Riemann hypothesis function floor(H(k) + exp(H(k))*log(H(k))) - sigma(k).",
+  "id": "A222761",
+  "mentions": [
+    "A057641",
+    "A176679"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

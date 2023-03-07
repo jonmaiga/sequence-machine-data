@@ -1,0 +1,21 @@
+{
+  "description": "Positions of 0 in A288132; complement of A288134.",
+  "id": "A288133",
+  "mentions": [
+    "A005126",
+    "A288132",
+    "A288134"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:47:23",
+    "offset": 1,
+    "size": 30,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Decimal expansion of the constant c_0 appearing in the asymptotic evaluation of the n-th Lebesgue constant (related to Fourier series) as L_n ~ (4/Pi^2)*log(n) + c_0.",
+  "id": "A260129",
+  "mentions": [
+    "A157165",
+    "A157166",
+    "A157167",
+    "A157168",
+    "A226654",
+    "A226655",
+    "A226656",
+    "A243277",
+    "A243278"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 103,
+    "source": "oeis-entry"
+  }
+}

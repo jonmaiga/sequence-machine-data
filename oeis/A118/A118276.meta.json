@@ -1,0 +1,22 @@
+{
+  "description": "Signature sequence of Phi^2 = 2.618033989... (A104457), where Phi is the golden ratio A001622.",
+  "id": "A118276",
+  "mentions": [
+    "A001622",
+    "A023119",
+    "A084531",
+    "A084532",
+    "A104457",
+    "A167970"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:07",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = Sum{k=0..n} (-1)^k*A002893(k)).",
+  "id": "A207322",
+  "mentions": [
+    "A002893"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

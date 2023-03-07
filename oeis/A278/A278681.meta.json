@@ -1,0 +1,21 @@
+{
+  "description": "Pisot sequence T(3,16).",
+  "id": "A278681",
+  "mentions": [
+    "A008776",
+    "A010920",
+    "A018920"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:59:36",
+    "offset": 0,
+    "size": 26,
+    "source": "joeis"
+  }
+}

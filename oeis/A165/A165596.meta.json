@@ -1,0 +1,25 @@
+{
+  "description": "Jacobi symbol (n,59881).",
+  "id": "A165596",
+  "mentions": [
+    "A005478",
+    "A011628",
+    "A019434",
+    "A117879",
+    "A165471",
+    "A165573",
+    "A165591",
+    "A165597"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "mult",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:48",
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

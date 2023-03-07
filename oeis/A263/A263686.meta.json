@@ -1,0 +1,24 @@
+{
+  "description": "Smallest prime factor of double Mersenne numbers.",
+  "id": "A263686",
+  "mentions": [
+    "A000043",
+    "A000668",
+    "A016047",
+    "A077586",
+    "A122094",
+    "A309130"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

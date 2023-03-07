@@ -1,0 +1,22 @@
+{
+  "description": "Number of self-avoiding walks on a 2-dimensional square lattice where the walk consists of steps with incrementing lengths equal to the square numbers, from 1 to n^2.",
+  "id": "A347506",
+  "mentions": [
+    "A000290",
+    "A001411",
+    "A334877",
+    "A336262"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

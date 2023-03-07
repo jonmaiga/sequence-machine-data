@@ -1,0 +1,19 @@
+{
+  "description": "Direct matrix (non-recursive) content of -n to n+1 symmetry matrices.",
+  "id": "A105110",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "obsc",
+    "tabf",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

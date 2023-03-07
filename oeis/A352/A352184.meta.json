@@ -1,0 +1,20 @@
+{
+  "description": "Coxeter-Catalan numbers for the Coxeter groups A_0, A_1, A_2, A_3 = D_3, D_4, D_5, E_6, E_7, E_8.",
+  "id": "A352184",
+  "mentions": [
+    "A000108",
+    "A051924"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

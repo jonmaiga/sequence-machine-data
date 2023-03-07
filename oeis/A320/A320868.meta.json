@@ -1,0 +1,26 @@
+{
+  "description": "Primes such that p + digitsum(p, base 8) is again a prime.",
+  "id": "A320868",
+  "mentions": [
+    "A006378",
+    "A047791",
+    "A048519",
+    "A048520",
+    "A107740",
+    "A243441",
+    "A243442",
+    "A320866",
+    "A320867"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:43",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

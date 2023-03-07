@@ -1,0 +1,25 @@
+{
+  "description": "Denominator of ratio A332994(n) / sigma(n).",
+  "id": "A348989",
+  "mentions": [
+    "A000203",
+    "A332994",
+    "A333784",
+    "A348978",
+    "A348979",
+    "A348987",
+    "A348988"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

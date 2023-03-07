@@ -1,0 +1,21 @@
+{
+  "description": "Primes p with property that p^2 is a concatenation of two 3-digit primes.",
+  "id": "A153164",
+  "mentions": [
+    "A153048",
+    "A153050"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

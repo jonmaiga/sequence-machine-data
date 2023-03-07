@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that Sum_digits(n) + Sum_digits(n+1) = Sum_digits(2*n+1).",
+  "id": "A135210",
+  "mentions": [
+    "A127273"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:23",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

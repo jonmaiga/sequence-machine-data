@@ -1,0 +1,18 @@
+{
+  "description": "Smallest prime number with prime(n) prime digits.",
+  "id": "A272796",
+  "mentions": [
+    "A272768"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:37",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

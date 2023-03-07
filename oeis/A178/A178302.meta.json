@@ -1,0 +1,22 @@
+{
+  "description": "Multiply the irregular Array A125108 by A178300;compute a(n)the vertical sums.",
+  "id": "A178302",
+  "mentions": [
+    "A007318",
+    "A038675",
+    "A125108",
+    "A178300",
+    "A178301"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

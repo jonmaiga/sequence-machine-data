@@ -1,0 +1,19 @@
+{
+  "description": "Number of chiral partitions of n; number of irreducible representations of the symmetric group S_n with nontrivial determinant.",
+  "id": "A272090",
+  "mentions": [
+    "A000041",
+    "A045923"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:09:21",
+    "offset": 1,
+    "size": 58,
+    "source": "joeis"
+  }
+}

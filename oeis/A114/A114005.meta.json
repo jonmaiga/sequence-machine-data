@@ -1,0 +1,21 @@
+{
+  "description": "First column of number triangle A114004.",
+  "id": "A114005",
+  "mentions": [
+    "A050328",
+    "A114004",
+    "A114006"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:04",
+    "offset": 1,
+    "size": 95,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Euler-Fibonacci pseudoprimes: odd composites k such that F(k) == 5^((k-1)/2) == +-1 (mod k), where F(k) = A000045(k), the Fibonacci numbers.",
+  "id": "A345753",
+  "mentions": [
+    "A000045",
+    "A094394",
+    "A094395",
+    "A262052"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

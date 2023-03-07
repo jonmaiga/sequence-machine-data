@@ -1,0 +1,27 @@
+{
+  "description": "a(1)=1. a(n) is smallest positive integer not occurring earlier in the sequence where a(n) is congruent to -1 (mod a(n-1)).",
+  "id": "A117120",
+  "mentions": [
+    "A054429",
+    "A063946",
+    "A071766",
+    "A092569",
+    "A229742",
+    "A245325",
+    "A245326",
+    "A258746",
+    "A258996"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:07",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

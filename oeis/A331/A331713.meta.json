@@ -1,0 +1,18 @@
+{
+  "description": "Number of nonnegative integer matrices with distinct nonzero rows, total sum n each column with the same sum and columns in nonincreasing lexicographic order.",
+  "id": "A331713",
+  "mentions": [
+    "A331572"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

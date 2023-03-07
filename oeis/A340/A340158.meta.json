@@ -1,0 +1,22 @@
+{
+  "description": "Numbers m such that m, m + 1, m + 2, m + 3 and m + 4 have k, 2k, 3k, 4k and 5k divisors respectively.",
+  "id": "A340158",
+  "mentions": [
+    "A000005",
+    "A063446",
+    "A294528",
+    "A339778",
+    "A340157",
+    "A340159"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

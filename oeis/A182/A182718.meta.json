@@ -1,0 +1,25 @@
+{
+  "description": "Largest part of the n-th row of the diagram of another version of the shell model of partitions in which each last section of partitions is represented by a tree.",
+  "id": "A182718",
+  "mentions": [
+    "A000027",
+    "A135010",
+    "A138121",
+    "A141285",
+    "A182742",
+    "A182743",
+    "A182982",
+    "A182983"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

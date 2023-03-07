@@ -1,0 +1,21 @@
+{
+  "description": "Smallest k such that k*n contains only prime digits, or 0 if no such k exists.",
+  "id": "A342992",
+  "mentions": [
+    "A046034",
+    "A227922",
+    "A276729",
+    "A300289"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:16",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

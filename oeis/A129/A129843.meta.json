@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = number of positive integers that are <= n and are coprime to n!! (n!! = A006882(n)).",
+  "id": "A129843",
+  "mentions": [
+    "A006882",
+    "A056171",
+    "A070939"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:17",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

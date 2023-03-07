@@ -1,0 +1,19 @@
+{
+  "description": "Size of the largest subset of {1,2,...,n} such that no two distinct elements differ by a perfect square > 1.",
+  "id": "A131754",
+  "mentions": [
+    "A100719",
+    "A131752",
+    "A131753"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:19",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

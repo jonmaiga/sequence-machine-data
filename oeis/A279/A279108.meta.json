@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that greatest prime dividing n = greatest prime dividing R(n), where R(n) is the digit reversal of n and n is a nonpalindromic number.",
+  "id": "A279108",
+  "mentions": [
+    "A004086",
+    "A006530",
+    "A136522"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:46",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

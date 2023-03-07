@@ -1,0 +1,29 @@
+{
+  "description": "Number of unitary factorizations of Heinz numbers of integer partitions of n. Number of multiset partitions of integer partitions of n with pairwise disjoint blocks.",
+  "id": "A305106",
+  "mentions": [
+    "A000110",
+    "A001055",
+    "A001221",
+    "A001970",
+    "A034444",
+    "A089233",
+    "A258466",
+    "A259936",
+    "A281116",
+    "A285572",
+    "A305078",
+    "A305079",
+    "A321878"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:29",
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

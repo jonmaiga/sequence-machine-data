@@ -1,0 +1,21 @@
+{
+  "description": "Number of ways to select 4 numbers from the set of the first n natural numbers avoiding 3-term arithmetic progressions.",
+  "id": "A300760",
+  "mentions": [
+    "A212964",
+    "A300761",
+    "A334187"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:34:51",
+    "offset": 4,
+    "size": 43,
+    "source": "joeis"
+  }
+}

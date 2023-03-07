@@ -1,0 +1,18 @@
+{
+  "description": "Ranks of letters in sequence of words that underlies A131744.",
+  "id": "A131285",
+  "mentions": [
+    "A131744"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

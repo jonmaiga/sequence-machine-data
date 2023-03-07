@@ -1,0 +1,20 @@
+{
+  "description": "Number of prime divisors of (A002997(n) - 2).",
+  "id": "A272772",
+  "mentions": [
+    "A001222",
+    "A002997",
+    "A135717"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

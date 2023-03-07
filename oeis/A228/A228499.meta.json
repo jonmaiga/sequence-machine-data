@@ -1,0 +1,20 @@
+{
+  "description": "Sums of two rational cubes, excluding cubes and twice cubes.",
+  "id": "A228499",
+  "mentions": [
+    "A020897",
+    "A020898",
+    "A060838",
+    "A159843"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

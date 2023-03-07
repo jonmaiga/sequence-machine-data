@@ -1,0 +1,22 @@
+{
+  "description": "Maximal gap between quadratic residues mod n.",
+  "id": "A248222",
+  "mentions": [
+    "A063987",
+    "A088190",
+    "A088191",
+    "A088192",
+    "A130290",
+    "A248376"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:04",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

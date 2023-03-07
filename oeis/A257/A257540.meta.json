@@ -1,0 +1,20 @@
+{
+  "description": "Irregular triangle read by rows: row n (n>=2) contains the degrees of the level 1 vertices of the rooted tree having Matula-Goebel number n; row 1: 0.",
+  "id": "A257540",
+  "mentions": [
+    "A001222",
+    "A196052"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-entry"
+  }
+}

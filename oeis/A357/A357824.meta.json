@@ -1,0 +1,31 @@
+{
+  "description": "Total number A(n,k) of k-tuples of semi-Dyck paths from (0,0) to (n,n-2*j) for j=0..floor(n/2); square array A(n,k), n>=0, k>=0, read by antidiagonals.",
+  "id": "A357824",
+  "mentions": [
+    "A000012",
+    "A000051",
+    "A000108",
+    "A001405",
+    "A001550",
+    "A003161",
+    "A007395",
+    "A008315",
+    "A008619",
+    "A074511",
+    "A120730",
+    "A129123",
+    "A357825"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:32",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

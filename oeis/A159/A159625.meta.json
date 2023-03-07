@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that 2^x + 3^y is never prime when max(x,y) = n",
+  "id": "A159625",
+  "mentions": [
+    "A123359",
+    "A159266",
+    "A159270"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

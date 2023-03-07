@@ -1,0 +1,20 @@
+{
+  "description": "Convergent of an infinite product, a*b*c,...; a = [1,1,1,...], b = [1,0,2,0,2,0,2,...], c = [1,0,0,3,0,0,3,0,0,3,...],...",
+  "id": "A162506",
+  "mentions": [
+    "A006906",
+    "A162507",
+    "A267007"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:44",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

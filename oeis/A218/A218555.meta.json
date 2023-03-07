@@ -1,0 +1,26 @@
+{
+  "description": "Order of (7,n) cage, i.e., minimal order of 7-regular graph of girth n.",
+  "id": "A218555",
+  "mentions": [
+    "A000066",
+    "A037233",
+    "A054760",
+    "A191595",
+    "A198307",
+    "A218553",
+    "A218554"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 3,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

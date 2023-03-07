@@ -1,0 +1,34 @@
+{
+  "description": "Number of balanced reduced multisystems whose atoms constitute an integer partition of n.",
+  "id": "A330679",
+  "mentions": [
+    "A000041",
+    "A000111",
+    "A000669",
+    "A001970",
+    "A002846",
+    "A005121",
+    "A141268",
+    "A196545",
+    "A213427",
+    "A318812",
+    "A318813",
+    "A320160",
+    "A330474",
+    "A330475",
+    "A330655",
+    "A330726"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

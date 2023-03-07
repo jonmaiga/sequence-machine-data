@@ -1,0 +1,19 @@
+{
+  "description": "Reduced numerators of integral of the Stirling numbers of first kind.",
+  "id": "A238683",
+  "mentions": [
+    "A048994",
+    "A238157"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

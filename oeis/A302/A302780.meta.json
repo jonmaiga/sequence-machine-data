@@ -1,0 +1,24 @@
+{
+  "description": "Restricted growth sequence transform of 4-tuple [H(H(n-1)), H(n-H(n-1)), Q(n-Q(n-1)), Q(n-Q(n-2))] where H = A004001 and Q = A005185.",
+  "id": "A302780",
+  "mentions": [
+    "A004001",
+    "A005185",
+    "A087740",
+    "A284019",
+    "A286541",
+    "A286560",
+    "A286569",
+    "A302779"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:27",
+    "offset": 1,
+    "size": 95,
+    "source": "oeis-bfile"
+  }
+}

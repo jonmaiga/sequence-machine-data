@@ -1,0 +1,18 @@
+{
+  "description": "a(1) = 4, a(2) = 6; a(3) = 9; thereafter a(n) is the smallest new semiprime such that the sum of four successive terms is semiprime.",
+  "id": "A354965",
+  "mentions": [
+    "A001358",
+    "A338309"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

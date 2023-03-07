@@ -1,0 +1,23 @@
+{
+  "description": "Concatenation of first n members of the Padovan sequence A000931.",
+  "id": "A132347",
+  "mentions": [
+    "A000931",
+    "A007908",
+    "A019523",
+    "A102397",
+    "A134732"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:27",
+    "offset": 1,
+    "size": 18,
+    "source": "joeis"
+  }
+}

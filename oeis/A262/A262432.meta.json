@@ -1,0 +1,22 @@
+{
+  "description": "Regular triangle read by rows: T(n, k) gives the number of times that the denominator of sigma(x,-1) (A017666) is equal to k when x goes from 1 to n.",
+  "id": "A262432",
+  "mentions": [
+    "A007691",
+    "A014567",
+    "A017666",
+    "A069059",
+    "A162657"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:22",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

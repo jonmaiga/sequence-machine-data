@@ -1,0 +1,33 @@
+{
+  "description": "Number A(n,k) of n-length words w over a k-ary alphabet {a1,a2,...,ak} such that #(w,a1) >= #(w,a2) >= ... >= #(w,ak) >= 0, where #(w,x) counts the letters x in word w; square array A(n,k), n>=0, k>=0, read by antidiagonals.",
+  "id": "A226873",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A005651",
+    "A027306",
+    "A092255",
+    "A092429",
+    "A131632",
+    "A182172",
+    "A226874",
+    "A226875",
+    "A226876",
+    "A226877",
+    "A226878",
+    "A226879",
+    "A226880"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

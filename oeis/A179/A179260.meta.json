@@ -1,0 +1,27 @@
+{
+  "description": "Decimal expansion of the connective constant of the honeycomb lattice.",
+  "id": "A179260",
+  "mentions": [
+    "A001668",
+    "A002193",
+    "A101464",
+    "A121601",
+    "A127672",
+    "A144981",
+    "A154739",
+    "A302711",
+    "A302715"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:43:21",
+    "offset": 1,
+    "size": 100,
+    "source": "joeis"
+  }
+}

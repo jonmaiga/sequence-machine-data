@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = k smallest exponent of N = 2^k of first prime(1) = 2 where string \"p(1) ... p(n)\" appears in the decimal representation of N (n=1,2,...).",
+  "id": "A173550",
+  "mentions": [
+    "A000079",
+    "A018802",
+    "A171132",
+    "A171242",
+    "A171489",
+    "A171652",
+    "A171768"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

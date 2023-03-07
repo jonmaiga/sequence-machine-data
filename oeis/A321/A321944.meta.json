@@ -1,0 +1,19 @@
+{
+  "description": "Starting from n, repeatedly compute the sum of the prime divisors until a fixed point or 0 is reached; a(n) is the number of terms, including n.",
+  "id": "A321944",
+  "mentions": [
+    "A002217",
+    "A008472",
+    "A075860"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:44",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

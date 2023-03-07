@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of series reversion of x*(1-8*x)/(1-x).",
+  "id": "A131869",
+  "mentions": [
+    "A086810"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:20",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

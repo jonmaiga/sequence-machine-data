@@ -1,0 +1,21 @@
+{
+  "description": "Martingale win/loss triangle, read by rows: T(n,k) = total number of dollars won (or lost) using the martingale method on all possible n trials that have exactly k losses and n-k wins, for 0 <= k <= n.",
+  "id": "A355659",
+  "mentions": [
+    "A000225",
+    "A070313",
+    "A165900"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

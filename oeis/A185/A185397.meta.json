@@ -1,0 +1,21 @@
+{
+  "description": "Largest number x such that the greatest prime factor of x^2+2 is A033203(n), the n-th prime not congruent to 5 or 7 mod 8.",
+  "id": "A185397",
+  "mentions": [
+    "A033203",
+    "A145606",
+    "A175607",
+    "A185389",
+    "A185396"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

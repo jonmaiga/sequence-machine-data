@@ -1,0 +1,20 @@
+{
+  "description": "Regular triangle in which the n-th row lists the least n-tuple of positive integers in which the sum of any two members is a square.",
+  "id": "A292158",
+  "mentions": [
+    "A115040",
+    "A195854"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

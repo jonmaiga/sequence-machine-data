@@ -1,0 +1,26 @@
+{
+  "description": "Self-inverse permutation of natural numbers: in prime factorization of n replace each positive prime exponent e with max + min - e, where max = A051903(n) and min = A051904(n).",
+  "id": "A295417",
+  "mentions": [
+    "A001221",
+    "A006530",
+    "A007947",
+    "A020639",
+    "A051903",
+    "A051904",
+    "A062760",
+    "A072774",
+    "A293448"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:13",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

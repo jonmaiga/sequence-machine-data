@@ -1,0 +1,22 @@
+{
+  "description": "O.g.f.: Sum_{n>=0} (n^4*x)^n/(1-n^4*x)^n * exp(-n^4*x/(1-n^4*x)) / n!.",
+  "id": "A222054",
+  "mentions": [
+    "A008277",
+    "A134055",
+    "A174845",
+    "A217913",
+    "A222053"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

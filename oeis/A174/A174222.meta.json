@@ -1,0 +1,21 @@
+{
+  "description": "Number of symmetric primes in the interval [prime(n)^2, prime(n)*prime(n+1)].",
+  "id": "A174222",
+  "mentions": [
+    "A001248",
+    "A006094",
+    "A090190",
+    "A090191"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

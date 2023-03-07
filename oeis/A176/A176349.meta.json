@@ -1,0 +1,17 @@
+{
+  "description": "Integers equal to sqrt(A169652(n)/900).",
+  "id": "A176349",
+  "mentions": [
+    "A169652"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

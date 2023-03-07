@@ -1,0 +1,21 @@
+{
+  "description": "Triangle with the coefficient [x^n] x/(1-m*x^2-x^3) in row n, columns m = 1..n+2.",
+  "id": "A117724",
+  "mentions": [
+    "A000931",
+    "A008346",
+    "A052931"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:07",
+    "offset": -1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

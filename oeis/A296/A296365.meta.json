@@ -1,0 +1,20 @@
+{
+  "description": "Numbers which appear prematurely in the binary Champernowne word (A030190).",
+  "id": "A296365",
+  "mentions": [
+    "A030190",
+    "A083655",
+    "A161373"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

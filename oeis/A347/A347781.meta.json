@@ -1,0 +1,20 @@
+{
+  "description": "Sequence composed of consecutive square matrices A(d) with dimension d=1,2,3,... Matrix elements are arranged by increasing row index i, and, within fixed i, by increasing column index j. Each block A(d) is related to the inverse of a class of integer Vandermonde matrices.",
+  "id": "A347781",
+  "mentions": [
+    "A002109",
+    "A335442"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of states in minimal deterministic finite automaton recognizing the set of binary Lyndon words of length n.",
+  "id": "A346986",
+  "mentions": [
+    "A001037"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

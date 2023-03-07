@@ -1,0 +1,25 @@
+{
+  "description": "a(n) is the maximum number of prime signatures of numbers with n divisors that have the same number of prime divisors (counted with multiplicity).",
+  "id": "A355032",
+  "mentions": [
+    "A000005",
+    "A001222",
+    "A118914",
+    "A162247",
+    "A355028",
+    "A355030",
+    "A355031",
+    "A355033"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:29",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

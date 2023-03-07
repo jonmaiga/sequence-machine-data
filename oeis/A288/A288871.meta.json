@@ -1,0 +1,20 @@
+{
+  "description": "Triangle t needed for the e.g.f.s of the column sequences of A288870 with leading zeros.",
+  "id": "A288871",
+  "mentions": [
+    "A288870"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "description": "Permutation of natural numbers: a(1) = 1, a(A087686(n)) = 2*a(n-1), a(A088359(n)) = 1+2*a(n), where A088359 and A087686 = numbers that occur only once (resp. more than once) in A004001, the Hofstadter-Conway $10000 sequence.",
+  "id": "A267111",
+  "mentions": [
+    "A004001",
+    "A006068",
+    "A054429",
+    "A080677",
+    "A087686",
+    "A088359",
+    "A093879",
+    "A135141",
+    "A233275",
+    "A233277",
+    "A265901",
+    "A265903",
+    "A266411",
+    "A266412",
+    "A267108",
+    "A267109",
+    "A267112",
+    "A276343",
+    "A276345",
+    "A276441",
+    "A276445"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:28",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

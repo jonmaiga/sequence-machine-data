@@ -1,0 +1,21 @@
+{
+  "description": "a(1) = 1; a(n+1) = a(n) + product of digits of a(n) + sum of digits of a(n).",
+  "id": "A248078",
+  "mentions": [
+    "A004207",
+    "A063108"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "easy",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:04",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

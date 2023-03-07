@@ -1,0 +1,38 @@
+{
+  "description": "Numbers in which 6 outnumbers all other digits together.",
+  "id": "A292736",
+  "mentions": [
+    "A292449",
+    "A292450",
+    "A292451",
+    "A292452",
+    "A292453",
+    "A292454",
+    "A292455",
+    "A292456",
+    "A292457",
+    "A292458",
+    "A292730",
+    "A292731",
+    "A292732",
+    "A292733",
+    "A292734",
+    "A292735",
+    "A292737",
+    "A292738",
+    "A292739"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "easy",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:08",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Permutation of nonnegative integers induced by wreath recursion a=s(b,c), b=s(c,a), c=(c,c), starting from state a, rewriting bits from the second most significant bit toward the least significant end.",
+  "id": "A154448",
+  "mentions": [
+    "A054429",
+    "A072376",
+    "A153141",
+    "A153142",
+    "A154435",
+    "A154436",
+    "A154439",
+    "A154446",
+    "A154447",
+    "A154458"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:36",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

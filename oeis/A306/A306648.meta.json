@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of 3 + 36/(5*sqrt(3)*Pi) + 48/(5*Pi^2).",
+  "id": "A306648",
+  "mentions": [
+    "A078797",
+    "A306712"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "cons",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:48:14",
+    "offset": 1,
+    "size": 100,
+    "source": "joeis"
+  }
+}

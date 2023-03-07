@@ -1,0 +1,21 @@
+{
+  "description": "Binomial(2n, n) - 2 mod n^4.",
+  "id": "A246134",
+  "mentions": [
+    "A000984",
+    "A088164",
+    "A246130",
+    "A246132",
+    "A246133"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:02",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

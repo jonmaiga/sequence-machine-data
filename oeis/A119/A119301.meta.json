@@ -1,0 +1,23 @@
+{
+  "description": "Number triangle binomial(3n-k,n-k).",
+  "id": "A119301",
+  "mentions": [
+    "A005809",
+    "A025174",
+    "A045721",
+    "A119302"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

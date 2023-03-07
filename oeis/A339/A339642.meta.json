@@ -1,0 +1,22 @@
+{
+  "description": "Number of rooted trees with n nodes colored using exactly 2 colors.",
+  "id": "A339642",
+  "mentions": [
+    "A000081",
+    "A000151",
+    "A038055",
+    "A141610",
+    "A339643"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:11",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

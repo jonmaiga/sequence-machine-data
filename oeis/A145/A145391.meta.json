@@ -1,0 +1,27 @@
+{
+  "description": "Number of inequivalent sublattices of index n in centered rectangular lattice.",
+  "id": "A145391",
+  "mentions": [
+    "A000203",
+    "A003051",
+    "A004525",
+    "A060594",
+    "A069734",
+    "A145390",
+    "A145392",
+    "A145393",
+    "A145394",
+    "A157223"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

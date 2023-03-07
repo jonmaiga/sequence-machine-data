@@ -1,0 +1,21 @@
+{
+  "description": "Smallest number m such that for 0 <= k < n, np(m+k) = np(m)+k, where np(t) is number of primes p with prime(t) < p < prime(t)^(1 + 1/t).",
+  "id": "A246791",
+  "mentions": [
+    "A000040",
+    "A182134",
+    "A246792",
+    "A247116"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

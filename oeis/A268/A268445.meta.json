@@ -1,0 +1,19 @@
+{
+  "description": "Integers n such that A005897(n) is the sum of two nonzero squares.",
+  "id": "A268445",
+  "mentions": [
+    "A000404",
+    "A005897"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

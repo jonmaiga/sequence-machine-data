@@ -1,0 +1,19 @@
+{
+  "description": "Number of connected bicubical graphs on 2n labeled nodes of two colors",
+  "id": "A246602",
+  "mentions": [
+    "A001501",
+    "A002831"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 3,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

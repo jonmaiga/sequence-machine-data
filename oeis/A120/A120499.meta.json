@@ -1,0 +1,20 @@
+{
+  "description": "Irregular triangle read by rows in which the n-th row consists of the positive integers which are <= n and divisible by exactly one prime dividing n (but are coprime to every other prime dividing n). (a(1) = 1).",
+  "id": "A120499",
+  "mentions": [
+    "A116512",
+    "A119790",
+    "A119794"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:09",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

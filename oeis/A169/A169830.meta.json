@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that 2*reverse(n) - n = 1.",
+  "id": "A169830",
+  "mentions": [
+    "A083818",
+    "A100412",
+    "A101155",
+    "A101849"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:53",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

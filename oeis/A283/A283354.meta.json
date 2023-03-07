@@ -1,0 +1,18 @@
+{
+  "description": "Primes of the form 6k + 5 arising from an alternative proof that there are infinitely many primes of that form.",
+  "id": "A283354",
+  "mentions": [
+    "A057206"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

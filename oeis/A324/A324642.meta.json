@@ -1,0 +1,23 @@
+{
+  "description": "Number of iterations of map x -> x + A002110(A235224(x)) required to reach a composite when starting from x = n. Here A002110(A235224(x)) gives the least primorial number > x.",
+  "id": "A324642",
+  "mentions": [
+    "A002110",
+    "A049345",
+    "A063377",
+    "A235224",
+    "A324550",
+    "A324656"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:50",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

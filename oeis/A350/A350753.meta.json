@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of unlabeled strongly connected digraphs with n arcs and k vertices, n >= 0, k = 1..n+1.",
+  "id": "A350753",
+  "mentions": [
+    "A035512",
+    "A057276",
+    "A350450",
+    "A350489",
+    "A350752"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:24",
+    "offset": 0,
+    "size": 78,
+    "source": "joeis"
+  }
+}

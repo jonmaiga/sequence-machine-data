@@ -1,0 +1,22 @@
+{
+  "description": "N-digit substring of 81654327 taken from the left.",
+  "id": "A324016",
+  "mentions": [
+    "A111456",
+    "A156071",
+    "A305714"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

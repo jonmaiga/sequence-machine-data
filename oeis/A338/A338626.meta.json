@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the least k such that the first k terms of the Kolakoski sequence (A000002) contain a length-n repeated block.",
+  "id": "A338626",
+  "mentions": [
+    "A000002",
+    "A304588",
+    "A338624"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:10",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

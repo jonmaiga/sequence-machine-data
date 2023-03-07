@@ -1,0 +1,19 @@
+{
+  "description": "Number of sawtooth patterns of length 1 in all Dyck paths of semilength n.",
+  "id": "A225015",
+  "mentions": [
+    "A024482",
+    "A097613"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

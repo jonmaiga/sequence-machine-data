@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that k^3 +/- k +/- 1 are prime for all four possibilities.",
+  "id": "A236764",
+  "mentions": [
+    "A049407",
+    "A126421",
+    "A236475",
+    "A236477"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:54",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

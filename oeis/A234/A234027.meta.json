@@ -1,0 +1,23 @@
+{
+  "description": "Self-inverse permutation of nonnegative integers, A054429-conjugate of blue code: a(n) = A054429(A193231(A054429(n))).",
+  "id": "A234027",
+  "mentions": [
+    "A054429",
+    "A059894",
+    "A193231",
+    "A234024",
+    "A234025",
+    "A234026"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:52",
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

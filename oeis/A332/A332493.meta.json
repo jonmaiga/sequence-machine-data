@@ -1,0 +1,26 @@
+{
+  "description": "The minimal Skewes number for prime n-tuplets, choosing the n-tuplet with latest occurrence of the first sign change relative to the Hardy-Littlewood prediction when more than one type of n-tuplets exists (A083409(n)>1) for the given n.",
+  "id": "A332493",
+  "mentions": [
+    "A008407",
+    "A083409",
+    "A210439",
+    "A269843",
+    "A271742",
+    "A333586",
+    "A333587",
+    "A348053"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 2,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

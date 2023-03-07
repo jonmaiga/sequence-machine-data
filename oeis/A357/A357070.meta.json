@@ -1,0 +1,23 @@
+{
+  "description": "Number of partitions of n into at most 2 distinct positive triangular numbers.",
+  "id": "A357070",
+  "mentions": [
+    "A000217",
+    "A024940",
+    "A052343",
+    "A307597",
+    "A347730",
+    "A357071",
+    "A357072"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 102,
+    "source": "oeis-entry"
+  }
+}

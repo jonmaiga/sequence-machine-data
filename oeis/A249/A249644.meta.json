@@ -1,0 +1,18 @@
+{
+  "description": "Primes p such that sigma(p-k) = sigma(p+k) has no solution, where sigma is A000203.",
+  "id": "A249644",
+  "mentions": [
+    "A000203",
+    "A070299"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:06",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

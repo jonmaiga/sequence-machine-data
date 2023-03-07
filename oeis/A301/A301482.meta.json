@@ -1,0 +1,22 @@
+{
+  "description": "Composite numbers whose sum of aliquot parts divide the sum of the squares of their aliquot parts.",
+  "id": "A301482",
+  "mentions": [
+    "A001065",
+    "A001157",
+    "A020487",
+    "A056824",
+    "A067558"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:26",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

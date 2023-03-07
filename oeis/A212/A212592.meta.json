@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the difference between multiples of 7 with even and odd digit sum in base 6 in interval [0,6^n).",
+  "id": "A212592",
+  "mentions": [
+    "A038754",
+    "A091042",
+    "A212500"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 18:49:26",
+    "offset": 1,
+    "size": 24,
+    "source": "joeis"
+  }
+}

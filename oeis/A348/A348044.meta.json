@@ -1,0 +1,23 @@
+{
+  "description": "The nearest common ancestor of n and n^2 in the Doudna tree (A005940).",
+  "id": "A348044",
+  "mentions": [
+    "A005940",
+    "A102750",
+    "A156552",
+    "A348041",
+    "A348042",
+    "A348043"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:21",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

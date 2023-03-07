@@ -1,0 +1,18 @@
+{
+  "description": "Maximal number of partitions of n into any number k of distinct prime parts or 0 if there are no such partitions.",
+  "id": "A219182",
+  "mentions": [
+    "A219180"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:37",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

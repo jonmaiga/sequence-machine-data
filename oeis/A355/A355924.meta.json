@@ -1,0 +1,26 @@
+{
+  "description": "Square array A(n,k) = A342671(A246278(n,k)), read by falling antidiagonals, where A342671(x) = gcd(sigma(x), A003961(x)).",
+  "id": "A355924",
+  "mentions": [
+    "A000203",
+    "A003961",
+    "A246278",
+    "A342671",
+    "A355833",
+    "A355925",
+    "A355926",
+    "A355927"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 729*n - 198.",
+  "id": "A156772",
+  "mentions": [
+    "A156676",
+    "A156774"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:38",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

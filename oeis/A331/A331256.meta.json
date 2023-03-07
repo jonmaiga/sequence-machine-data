@@ -1,0 +1,20 @@
+{
+  "description": "Triangles with integer sides i <= j <= k sorted by radius of circumcircle, and, in case of ties, lexicographically by side lengths (smallest first). The sequence gives the longest side k. The other sides are in A331254 and A331255.",
+  "id": "A331256",
+  "mentions": [
+    "A331227",
+    "A331228",
+    "A331254",
+    "A331255"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

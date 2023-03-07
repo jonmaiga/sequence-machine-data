@@ -1,0 +1,18 @@
+{
+  "description": "Replace the nonprimes in the prime gaps with primes. See Comments section for details.",
+  "id": "A354400",
+  "mentions": [
+    "A000040",
+    "A018252"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

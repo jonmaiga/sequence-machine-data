@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of e.g.f. log(1/(1-arctanh(x))).",
+  "id": "A202139",
+  "mentions": [
+    "A003704",
+    "A226968"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:22",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

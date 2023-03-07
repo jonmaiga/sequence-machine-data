@@ -1,0 +1,18 @@
+{
+  "description": "Number of double rises in all left factors of Dyck paths of length n (a double rise consists of two consecutive (1,1)-steps).",
+  "id": "A191524",
+  "mentions": [
+    "A191523"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:15",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

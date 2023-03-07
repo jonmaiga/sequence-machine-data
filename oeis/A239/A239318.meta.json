@@ -1,0 +1,17 @@
+{
+  "description": "Number of visible unit cubes, aligned with a three-dimensional Cartesian mesh, completely within the first octant of a sphere centered at the origin, ordered by increasing radius.",
+  "id": "A239318",
+  "mentions": [
+    "A237707"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

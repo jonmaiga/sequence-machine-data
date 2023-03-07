@@ -1,0 +1,21 @@
+{
+  "description": "Number of even parts appearing among the second largest parts of the partitions of n into 4 parts.",
+  "id": "A309795",
+  "mentions": [
+    "A026928",
+    "A309793",
+    "A309797"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:14:25",
+    "offset": 0,
+    "size": 60,
+    "source": "joeis"
+  }
+}

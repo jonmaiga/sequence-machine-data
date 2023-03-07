@@ -1,0 +1,27 @@
+{
+  "description": "Compound filter (2-adic valuation & deficiency/abundance): a(n) = P(A001511(n), A286449(n)), where P(n,k) is sequence A000027 used as a pairing function.",
+  "id": "A286595",
+  "mentions": [
+    "A000027",
+    "A001511",
+    "A033879",
+    "A033880",
+    "A286260",
+    "A286449",
+    "A286451",
+    "A286460",
+    "A286592",
+    "A286593"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:58",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

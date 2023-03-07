@@ -1,0 +1,25 @@
+{
+  "description": "n! - n^7.",
+  "id": "A196414",
+  "mentions": [
+    "A005008",
+    "A005096",
+    "A007339",
+    "A144768",
+    "A196411",
+    "A196412",
+    "A196413"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "less",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:18",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

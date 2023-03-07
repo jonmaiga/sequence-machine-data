@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that k is the substring identical to the most significant digits of its base-6 representation.",
+  "id": "A307257",
+  "mentions": [
+    "A038106"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:32",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

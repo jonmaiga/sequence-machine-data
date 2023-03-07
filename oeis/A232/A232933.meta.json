@@ -1,0 +1,23 @@
+{
+  "description": "Number T(n,k) of permutations of [n] with exactly k (possibly overlapping, cyclic wrap-around) occurrences of the consecutive step pattern UDU (U=up, D=down); triangle T(n,k), n>=0, 0<=k<=floor(n/2), read by rows.",
+  "id": "A232933",
+  "mentions": [
+    "A000142",
+    "A000182",
+    "A009752",
+    "A024283",
+    "A232899",
+    "A295987"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:51",
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

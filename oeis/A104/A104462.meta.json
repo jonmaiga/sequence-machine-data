@@ -1,0 +1,31 @@
+{
+  "description": "Convert the binary strings in A101305 to decimal.",
+  "id": "A104462",
+  "mentions": [
+    "A000120",
+    "A002110",
+    "A029931",
+    "A066099",
+    "A070826",
+    "A070939",
+    "A101305",
+    "A164894",
+    "A193973",
+    "A233564",
+    "A246534",
+    "A272919",
+    "A333218",
+    "A333255"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:55",
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

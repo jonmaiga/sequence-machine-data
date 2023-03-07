@@ -1,0 +1,20 @@
+{
+  "description": "Fixed points of A249129: numbers n such that A249129(n) = n.",
+  "id": "A246490",
+  "mentions": [
+    "A245057",
+    "A249129",
+    "A249161",
+    "A249168"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:02",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

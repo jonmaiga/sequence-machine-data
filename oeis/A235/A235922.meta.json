@@ -1,0 +1,19 @@
+{
+  "description": "Minimal k > 1 such that the base-k representation of the n-th palindrome in A002113, read in decimal, is also palindrome.",
+  "id": "A235922",
+  "mentions": [
+    "A002113",
+    "A235354"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-entry"
+  }
+}

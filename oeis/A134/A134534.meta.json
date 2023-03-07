@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that the sum of the digits of 11^n is prime.",
+  "id": "A134534",
+  "mentions": [
+    "A076203",
+    "A134532",
+    "A134533",
+    "A134535"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:22",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

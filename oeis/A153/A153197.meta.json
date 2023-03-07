@@ -1,0 +1,20 @@
+{
+  "description": "Binomial transform of Bessel numbers A006789.",
+  "id": "A153197",
+  "mentions": [
+    "A006789",
+    "A153198",
+    "A153199"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:45",
+    "offset": 0,
+    "size": 24,
+    "source": "joeis"
+  }
+}

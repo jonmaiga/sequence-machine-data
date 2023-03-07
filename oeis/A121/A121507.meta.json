@@ -1,0 +1,23 @@
+{
+  "description": "Conjectured list of numbers whose aliquot sequence eventually reaches a cycle of length two or more.",
+  "id": "A121507",
+  "mentions": [
+    "A008892",
+    "A063769",
+    "A063990",
+    "A072890",
+    "A072891",
+    "A098007",
+    "A121508"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

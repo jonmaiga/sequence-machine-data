@@ -1,0 +1,22 @@
+{
+  "description": "Squares visited by knight moves on a diagonally back and forth numbered board in two quadrants and moving to the lowest available unvisited square at every step.",
+  "id": "A341195",
+  "mentions": [
+    "A316328",
+    "A316588",
+    "A316667",
+    "A337170"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:13",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

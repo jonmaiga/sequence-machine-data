@@ -1,0 +1,22 @@
+{
+  "description": "Least positive integer k such that prime(prime(k)), prime(prime(k*n)), prime(p) and prime(q) form a 4-term arithmetic progression for some pair of primes p and q.",
+  "id": "A261462",
+  "mentions": [
+    "A000040",
+    "A006450",
+    "A232502",
+    "A238289",
+    "A261385",
+    "A261395"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:20",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

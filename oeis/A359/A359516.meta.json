@@ -1,0 +1,25 @@
+{
+  "description": "Number of compositions (ordered partitions) of n into at most 4 positive Fibonacci numbers (with a single type of 1).",
+  "id": "A359516",
+  "mentions": [
+    "A000045",
+    "A076739",
+    "A121548",
+    "A357688",
+    "A359513",
+    "A359514",
+    "A359515"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "changed",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

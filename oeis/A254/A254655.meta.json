@@ -1,0 +1,19 @@
+{
+  "description": "Run lengths of A254379 (Characteristic function of the even odious numbers).",
+  "id": "A254655",
+  "mentions": [
+    "A254378",
+    "A254379",
+    "A254651"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:12",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

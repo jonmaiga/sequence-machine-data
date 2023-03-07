@@ -1,0 +1,19 @@
+{
+  "description": "Lexicographically earliest sequence of distinct positive terms such that for any n > 0, n + a(n) is digitally balanced.",
+  "id": "A340258",
+  "mentions": [
+    "A031443",
+    "A306993"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:13",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Index of the column where n is located in array A277820: a(n) = 1 + A268389(n).",
+  "id": "A277818",
+  "mentions": [
+    "A268389",
+    "A268671",
+    "A277820",
+    "A277822"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:43",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

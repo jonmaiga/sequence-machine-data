@@ -1,0 +1,22 @@
+{
+  "description": "Complement of A051382.",
+  "id": "A249719",
+  "mentions": [
+    "A007089",
+    "A051382",
+    "A249720",
+    "A249721",
+    "A249733"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:06",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

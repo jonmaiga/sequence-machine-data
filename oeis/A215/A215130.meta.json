@@ -1,0 +1,18 @@
+{
+  "description": "Odd squarefree n not divisible by 3 such that n/phi(n) > 2, where phi is Euler's totient function.",
+  "id": "A215130",
+  "mentions": [
+    "A000010",
+    "A091495"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:33",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

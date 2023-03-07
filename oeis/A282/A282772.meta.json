@@ -1,0 +1,22 @@
+{
+  "description": "Starting from F(n), minimum number, greater than 1, of consecutive Fibonacci numbers whose average is an integer.",
+  "id": "A282772",
+  "mentions": [
+    "A000045",
+    "A101907",
+    "A111035",
+    "A254141"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:52",
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

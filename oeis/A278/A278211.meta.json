@@ -1,0 +1,21 @@
+{
+  "description": "Maximum total number of possible moves that any number of rooks of the same color can make on an n X n chessboard.",
+  "id": "A278211",
+  "mentions": [
+    "A275815",
+    "A278212",
+    "A278215"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

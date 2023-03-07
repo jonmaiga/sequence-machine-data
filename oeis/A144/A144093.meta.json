@@ -1,0 +1,21 @@
+{
+  "description": "Parity array of a matrix of Hankel transforms related to C(n,floor(n/2))",
+  "id": "A144093",
+  "mentions": [
+    "A061338",
+    "A144092"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 93,
+    "source": "oeis-entry"
+  }
+}

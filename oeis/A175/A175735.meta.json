@@ -1,0 +1,21 @@
+{
+  "description": "n-th non-Chen semiprime minus n-th Chen semiprime.",
+  "id": "A175735",
+  "mentions": [
+    "A001358",
+    "A175634",
+    "A175680"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "less",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

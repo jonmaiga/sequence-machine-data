@@ -1,0 +1,21 @@
+{
+  "description": "Number of compositions (ordered partitions) of n into 4 parts, where the first is at least as great as each of the others.",
+  "id": "A156039",
+  "mentions": [
+    "A109439",
+    "A156040",
+    "A156041",
+    "A156042"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 20:02:03",
+    "offset": 0,
+    "size": 50,
+    "source": "joeis"
+  }
+}

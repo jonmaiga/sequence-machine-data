@@ -1,0 +1,21 @@
+{
+  "description": "Triangle, read by rows, where T(n,k) equals the sum of (n-k) terms in row n of triangle A131338 starting at position nk - k(k-1)/2, with the main diagonal formed from the row sums.",
+  "id": "A183202",
+  "mentions": [
+    "A098568",
+    "A098569",
+    "A131338",
+    "A183203"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

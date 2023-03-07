@@ -1,0 +1,18 @@
+{
+  "description": "The factorization of n contains only lesser of twin primes.",
+  "id": "A274212",
+  "mentions": [
+    "A001359"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:39",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

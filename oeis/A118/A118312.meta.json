@@ -1,0 +1,22 @@
+{
+  "description": "Number of squares on infinite chessboard that a knight can reach in n moves from a fixed square.",
+  "id": "A118312",
+  "mentions": [
+    "A005892",
+    "A018836",
+    "A018842"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:34:47",
+    "offset": 0,
+    "size": 48,
+    "source": "joeis"
+  }
+}

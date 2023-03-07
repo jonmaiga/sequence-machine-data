@@ -1,0 +1,25 @@
+{
+  "description": "a(n) is the maximum Hamming weight of squares k^2 in the range 2^n <= k^2 < 2^(n+1).",
+  "id": "A357658",
+  "mentions": [
+    "A000120",
+    "A000290",
+    "A356878",
+    "A357304",
+    "A357659",
+    "A357660",
+    "A357753",
+    "A357754"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:31",
+    "offset": 2,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

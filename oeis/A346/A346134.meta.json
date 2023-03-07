@@ -1,0 +1,18 @@
+{
+  "description": "The sum S of the maximum number of consecutive primes starting with 2 such that S <= prime(n)^2.",
+  "id": "A346134",
+  "mentions": [
+    "A001248",
+    "A007504"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

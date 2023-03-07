@@ -1,0 +1,22 @@
+{
+  "description": "Products across consecutive rows of the denominators of the Leibniz harmonic triangle (A003506).",
+  "id": "A168510",
+  "mentions": [
+    "A001142",
+    "A003506",
+    "A007318",
+    "A074962"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

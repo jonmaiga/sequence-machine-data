@@ -1,0 +1,17 @@
+{
+  "description": "E.g.f.: Log( Sum_{n>=0} (n+1)^(2*n) * x^n/n! ).",
+  "id": "A266520",
+  "mentions": [
+    "A266519"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

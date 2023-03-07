@@ -1,0 +1,20 @@
+{
+  "description": "Number of (semi-)regular tournaments of order n.",
+  "id": "A255599",
+  "mentions": [
+    "A000568",
+    "A096368"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "First differences of A257339.",
+  "id": "A257111",
+  "mentions": [
+    "A257339"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

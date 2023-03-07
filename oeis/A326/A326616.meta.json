@@ -1,0 +1,27 @@
+{
+  "description": "Number T(n,k) of colored integer partitions of n using all colors of a k-set such that each block of part i with multiplicity j has a pattern of i*j distinct colors in increasing order; triangle T(n,k), n>=0, A185283(n)<=k<=n, read by rows.",
+  "id": "A326616",
+  "mentions": [
+    "A000203",
+    "A024916",
+    "A178682",
+    "A185283",
+    "A326617",
+    "A326648",
+    "A326649",
+    "A326650",
+    "A326651"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:53",
+    "offset": 0,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Triangle read by rows: T(n, k) = 1 if ((k mod 4 = 2) and (n mod 2 = 1)) or ((k mod 4 = 0) and (n mod 2 = 0)) else T(n, k) = 0.",
+  "id": "A230135",
+  "mentions": [
+    "A005044",
+    "A008624",
+    "A026922",
+    "A035317",
+    "A059169",
+    "A180662",
+    "A230447"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

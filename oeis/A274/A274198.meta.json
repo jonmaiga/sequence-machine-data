@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of limiting ratio described in Comments.",
+  "id": "A274198",
+  "mentions": [
+    "A274192",
+    "A274193",
+    "A274196",
+    "A274197",
+    "A274211"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

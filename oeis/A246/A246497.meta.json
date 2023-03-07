@@ -1,0 +1,25 @@
+{
+  "description": "Smallest k such that 9^^n is not congruent to 9^^(n-1) mod k, where 9^^n denotes the power tower 9^9^...^9 (in which 9 appears n times).",
+  "id": "A246497",
+  "mentions": [
+    "A027763",
+    "A082449",
+    "A246491",
+    "A246492",
+    "A246493",
+    "A246494",
+    "A246495",
+    "A246496"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

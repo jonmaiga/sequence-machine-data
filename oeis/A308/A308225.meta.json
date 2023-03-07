@@ -1,0 +1,18 @@
+{
+  "description": "Take the integer-sided triangles with perimeter n and mutually coprime sides a, b and c such that a <= b <= c. a(n) is the sum of all the b's.",
+  "id": "A308225",
+  "mentions": [
+    "A308224"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

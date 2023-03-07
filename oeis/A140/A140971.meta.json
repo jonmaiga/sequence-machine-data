@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that arithmetic mean of squares of the first n nonzero Fibonacci numbers is an integer.",
+  "id": "A140971",
+  "mentions": [
+    "A000045",
+    "A001654",
+    "A101907"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:29",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

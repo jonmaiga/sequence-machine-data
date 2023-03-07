@@ -1,0 +1,18 @@
+{
+  "description": "Number of (n+2)X(1+2) 0..3 arrays with no row, column, diagonal or antidiagonal in any 3X3 subblock summing to 2 4 5 or 7",
+  "id": "A251993",
+  "mentions": [
+    "A252000"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:09",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

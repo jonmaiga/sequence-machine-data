@@ -1,0 +1,19 @@
+{
+  "description": "Number of acyclic edge covers of the complete bipartite graph K_{n,n}.",
+  "id": "A328889",
+  "mentions": [
+    "A068087",
+    "A297077",
+    "A328888"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

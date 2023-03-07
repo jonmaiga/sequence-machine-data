@@ -1,0 +1,20 @@
+{
+  "description": "E.g.f.: Product_{n>=1} cosh(x^n).",
+  "id": "A229263",
+  "mentions": [
+    "A000262",
+    "A270294",
+    "A270662",
+    "A270663"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:46",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the number of indecomposable involutions of length n.",
+  "id": "A140456",
+  "mentions": [
+    "A000085",
+    "A000178",
+    "A000698",
+    "A001006",
+    "A003319",
+    "A258306"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:28",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

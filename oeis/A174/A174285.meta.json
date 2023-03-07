@@ -1,0 +1,26 @@
+{
+  "description": "Number of distinct resistances that can be produced using n equal resistors in series and/or parallel, confined to the five arms (four arms and the diagonal) of a bridge configuration. Since the bridge requires a minimum of five resistors, the first four terms are zero.",
+  "id": "A174285",
+  "mentions": [
+    "A048211",
+    "A153588",
+    "A174283",
+    "A174284",
+    "A174286",
+    "A176499",
+    "A176500",
+    "A176501",
+    "A176502"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

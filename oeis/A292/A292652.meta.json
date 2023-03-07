@@ -1,0 +1,18 @@
+{
+  "description": "Rank of n*cos(1) when all the numbers j*cos(1) and k*sin(1), for j>=1, k>=1, are jointly ranked.",
+  "id": "A292652",
+  "mentions": [
+    "A292653"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:08",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

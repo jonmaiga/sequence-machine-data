@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of the distance between the centers of two unit-radius circles such that the position of centroid of each of the two lunes created by their intersection is on its boundary.",
+  "id": "A348564",
+  "mentions": [
+    "A255899"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

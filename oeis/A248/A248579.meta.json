@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = the smallest numbers k such that n*T(k)-1 and n*T(k)+1 are twin primes or 0 if no solution exists for n where T(k) = A000217(k) = k-th triangular number.",
+  "id": "A248579",
+  "mentions": [
+    "A000217",
+    "A016754",
+    "A060544",
+    "A248580"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

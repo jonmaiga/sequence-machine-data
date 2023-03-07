@@ -1,0 +1,24 @@
+{
+  "description": "Composite numbers k congruent to 5 (mod 8) such that 2^((k-1)/2) mod k = k-1.",
+  "id": "A244626",
+  "mentions": [
+    "A001262",
+    "A001567",
+    "A003629",
+    "A007520",
+    "A020230",
+    "A047713",
+    "A070179",
+    "A175865"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:00",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

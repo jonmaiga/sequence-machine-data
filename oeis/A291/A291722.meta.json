@@ -1,0 +1,32 @@
+{
+  "description": "Number T(n,k) of permutations p of [n] such that in 0p the sum of all jumps equals k + n; triangle T(n,k), n >= 0, 0 <= k <= n*(n-1)/2, read by rows.",
+  "id": "A291722",
+  "mentions": [
+    "A000012",
+    "A000142",
+    "A000217",
+    "A002415",
+    "A005990",
+    "A008292",
+    "A123125",
+    "A173018",
+    "A258829",
+    "A263776",
+    "A289489",
+    "A291288",
+    "A316292",
+    "A316293"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:06",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

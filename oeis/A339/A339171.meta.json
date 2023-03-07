@@ -1,0 +1,28 @@
+{
+  "description": "Number of compositions (ordered partitions) of n into distinct parts, the least being 8.",
+  "id": "A339171",
+  "mentions": [
+    "A026801",
+    "A026829",
+    "A339109",
+    "A339162",
+    "A339163",
+    "A339164",
+    "A339165",
+    "A339166",
+    "A339169",
+    "A339170",
+    "A339172"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

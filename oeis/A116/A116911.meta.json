@@ -1,0 +1,25 @@
+{
+  "description": "Prime partial sums of pentagonal numbers with prime indices.",
+  "id": "A116911",
+  "mentions": [
+    "A000040",
+    "A000217",
+    "A000326",
+    "A034953",
+    "A085739",
+    "A116994",
+    "A116995"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:07",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

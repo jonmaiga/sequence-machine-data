@@ -1,0 +1,26 @@
+{
+  "description": "Numbers b > 1 such that the smallest two primes, i.e., 2 and 3 are base-b Wieferich primes.",
+  "id": "A339531",
+  "mentions": [
+    "A256236",
+    "A263941",
+    "A319059",
+    "A339532",
+    "A339533",
+    "A339534",
+    "A339535",
+    "A339536",
+    "A339537"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

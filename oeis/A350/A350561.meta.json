@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of ways of making n moves in English Peg Solitaire.",
+  "id": "A350561",
+  "mentions": [
+    "A335656",
+    "A350998"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "The prime factorization of a(n) corresponds to the left diagonal of the XOR-triangle built from prime factorization of n, with 2-adic valuation of a(n) given by last row.",
+  "id": "A335049",
+  "mentions": [
+    "A006530",
+    "A019565",
+    "A071178",
+    "A334727",
+    "A335019"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

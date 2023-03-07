@@ -1,0 +1,18 @@
+{
+  "description": "Integers k such that the sum of some number of initial decimal digits of sqrt(k) is equal to k.",
+  "id": "A357894",
+  "mentions": [
+    "A106039"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Positions of the odd partitions of (2k) in reverse lexicographic order converge to this limiting sequence.",
+  "id": "A186131",
+  "mentions": [
+    "A035399",
+    "A186130",
+    "A186204"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:10",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

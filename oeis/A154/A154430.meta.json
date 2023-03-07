@@ -1,0 +1,25 @@
+{
+  "description": "Odd squarefree numbers n such that the cyclotomic polynomial Phi(n,x) has height > 1.",
+  "id": "A154430",
+  "mentions": [
+    "A013590",
+    "A117223",
+    "A117318",
+    "A118678",
+    "A152940",
+    "A152941",
+    "A152942",
+    "A152943",
+    "A152955"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:36",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Indices n such that 16 = A123709(n) = number of nonzero terms in row n of triangle A123706.",
+  "id": "A123712",
+  "mentions": [
+    "A010766",
+    "A123706",
+    "A123709",
+    "A123710",
+    "A123711",
+    "A178212"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:12",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

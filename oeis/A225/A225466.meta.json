@@ -1,0 +1,38 @@
+{
+  "description": "Triangle read by rows, 3^k*S_3(n, k) where S_m(n, k) are the Stirling-Frobenius subset numbers of order m; n >= 0, k >= 0.",
+  "id": "A225466",
+  "mentions": [
+    "A000079",
+    "A000244",
+    "A005057",
+    "A006232",
+    "A006233",
+    "A016127",
+    "A016297",
+    "A025999",
+    "A048993",
+    "A154537",
+    "A225117",
+    "A225467",
+    "A225468",
+    "A225472",
+    "A282629",
+    "A284862",
+    "A284863",
+    "A284864",
+    "A284865"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-22 20:28:47",
+    "offset": 0,
+    "size": 43,
+    "source": "joeis"
+  }
+}

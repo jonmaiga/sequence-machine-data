@@ -1,0 +1,21 @@
+{
+  "description": "Primes of the form 2*n^2 + 54*n + 25.",
+  "id": "A217497",
+  "mentions": [
+    "A002144",
+    "A054723",
+    "A176549",
+    "A217494"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 18:03:23",
+    "offset": 1,
+    "size": 35,
+    "source": "joeis"
+  }
+}

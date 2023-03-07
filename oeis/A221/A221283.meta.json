@@ -1,0 +1,20 @@
+{
+  "description": "Number of totients up to 10^n.",
+  "id": "A221283",
+  "mentions": [
+    "A000010",
+    "A002202"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

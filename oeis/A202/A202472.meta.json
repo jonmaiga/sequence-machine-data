@@ -1,0 +1,17 @@
+{
+  "description": "Goldbach's Problem extended to subtraction: number of decompositions of 2n into unordered differences of two primes, p, q, where p < 2n < q.",
+  "id": "A202472",
+  "mentions": [
+    "A002375"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:23",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

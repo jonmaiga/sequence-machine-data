@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that rad(phi(n)) < phi(rad(n)), where rad(n) is the squarefree kernel of n, and phi is Euler's totient function.",
+  "id": "A226386",
+  "mentions": [
+    "A000010",
+    "A007947",
+    "A226384"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Consider the 10's complements mod 10 of the digits of a number k. Take their sum and repeat the process deleting the first addend and adding the previous sum. The sequence lists the numbers that after some iterations reach a sum equal to k.",
+  "id": "A263534",
+  "mentions": [
+    "A007629"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Number of ways of writing n as a sum of a prime and a squarefree semiprime.",
+  "id": "A282192",
+  "mentions": [
+    "A000040",
+    "A006881",
+    "A098983",
+    "A100949",
+    "A258139",
+    "A282318",
+    "A282355"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:51",
+    "offset": 0,
+    "size": 109,
+    "source": "oeis-bfile"
+  }
+}

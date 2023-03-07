@@ -1,0 +1,33 @@
+{
+  "description": "Number of ACI algebras (or semilattices) on n generators.",
+  "id": "A102897",
+  "mentions": [
+    "A102894",
+    "A102895",
+    "A102896",
+    "A108798",
+    "A108800",
+    "A121921",
+    "A193674",
+    "A193675",
+    "A306445",
+    "A326866",
+    "A326875",
+    "A326880",
+    "A326900",
+    "A326906"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

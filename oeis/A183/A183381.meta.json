@@ -1,0 +1,17 @@
+{
+  "description": "Half the number of n X n binary arrays with no element equal to a strict majority of its king-move neighbors",
+  "id": "A183381",
+  "mentions": [
+    "A183386"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

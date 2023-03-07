@@ -1,0 +1,21 @@
+{
+  "description": "Partition array giving in row n, for n >= 1, the coefficients of the Witt symmetric function w_n in terms of the elementary symmetric functions (using partitions in the Abramowitz-Stegun order).",
+  "id": "A324247",
+  "mentions": [
+    "A000041",
+    "A115131",
+    "A324253"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 138,
+    "source": "oeis-entry"
+  }
+}

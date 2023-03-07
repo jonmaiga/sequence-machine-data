@@ -1,0 +1,20 @@
+{
+  "description": "Greatest integer K(i)=A085427(n) such that A085427(n)=A085427(n-1)/2 and K(i+1)>K(i) with A085427(n)=least k such that k*2^n-1 is prime ( Mersenne prime when k=1).",
+  "id": "A135054",
+  "mentions": [
+    "A085427",
+    "A087425",
+    "A135053"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

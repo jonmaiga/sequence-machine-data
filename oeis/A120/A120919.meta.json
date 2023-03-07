@@ -1,0 +1,26 @@
+{
+  "description": "Cascadence of (1+x)^3; a triangle, read by rows of 3n+1 terms, that retains its original form upon convolving each row with [1,3,3,1] and then letting excess terms spill over from each row into the initial positions of the next row such that only 3n+1 terms remain in row n for n>=0.",
+  "id": "A120919",
+  "mentions": [
+    "A001764",
+    "A092683",
+    "A092686",
+    "A120894",
+    "A120898",
+    "A120920",
+    "A120922",
+    "A120923"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

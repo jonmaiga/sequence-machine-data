@@ -1,0 +1,20 @@
+{
+  "description": "Partial products of PartitionsQ numbers (A000009).",
+  "id": "A152827",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A058694"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:35",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

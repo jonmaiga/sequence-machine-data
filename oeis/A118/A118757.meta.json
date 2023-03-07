@@ -1,0 +1,25 @@
+{
+  "description": "Permutation of the natural numbers such that the Levenshtein distance between decimal representations of successive terms is 1, and a(n+1) is the largest such m < a(n) if it exists, or else the smallest such m > a(n); a(0) = 0.",
+  "id": "A118757",
+  "mentions": [
+    "A003100",
+    "A118758",
+    "A118759",
+    "A118761",
+    "A118762",
+    "A118763"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:08",
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

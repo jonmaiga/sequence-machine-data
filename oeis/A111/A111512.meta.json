@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of (abs(log(sine of 1 degree)))^(-1).",
+  "id": "A111512",
+  "mentions": [
+    "A019810"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:36",
+    "offset": 0,
+    "size": 100,
+    "source": "joeis"
+  }
+}

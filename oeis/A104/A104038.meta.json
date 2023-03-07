@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the least k such that k*(k+1)*Mersenne-prime(n)+1 is prime.",
+  "id": "A104038",
+  "mentions": [
+    "A000043",
+    "A000668"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

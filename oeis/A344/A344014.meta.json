@@ -1,0 +1,21 @@
+{
+  "description": "Coefficients (negated) of q-expansion of the operator U_2 applied to inverse of Klein j-invariant.",
+  "id": "A344014",
+  "mentions": [
+    "A000521",
+    "A344015",
+    "A344016",
+    "A344017"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

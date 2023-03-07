@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = 32805000*n^2 + 16200*n + 1.",
+  "id": "A157081",
+  "mentions": [
+    "A156856",
+    "A156868",
+    "A157078",
+    "A157079",
+    "A157080"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:39",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Hyperperfect brilliant numbers.",
+  "id": "A100713",
+  "mentions": [
+    "A001358",
+    "A007592",
+    "A028500",
+    "A078972"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:51",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

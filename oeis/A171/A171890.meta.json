@@ -1,0 +1,28 @@
+{
+  "description": "Octonomial coefficient array.",
+  "id": "A171890",
+  "mentions": [
+    "A001018",
+    "A007318",
+    "A008287",
+    "A016993",
+    "A027907",
+    "A035343",
+    "A063260",
+    "A063265",
+    "A213651",
+    "A213652"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:55",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

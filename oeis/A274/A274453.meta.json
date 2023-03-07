@@ -1,0 +1,22 @@
+{
+  "description": "Products of distinct numbers in A052963.",
+  "id": "A274453",
+  "mentions": [
+    "A052963",
+    "A160009",
+    "A274280",
+    "A274432",
+    "A274452"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:39",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

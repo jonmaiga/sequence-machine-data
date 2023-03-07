@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = n^4/6 - 2*n^3/3 - n^2/6 + 5*n/3 + 1.",
+  "id": "A299198",
+  "mentions": [
+    "A001263",
+    "A067998",
+    "A077415",
+    "A299120",
+    "A299146"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:34:19",
+    "offset": 1,
+    "size": 42,
+    "source": "joeis"
+  }
+}

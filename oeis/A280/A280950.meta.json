@@ -1,0 +1,24 @@
+{
+  "description": "Expansion of Product_{k>=0} 1/(1 - x^(3*k*(k+1)/2+1)).",
+  "id": "A280950",
+  "mentions": [
+    "A003633",
+    "A005448",
+    "A007294",
+    "A068980",
+    "A280951",
+    "A280952",
+    "A280953"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:49",
+    "offset": 0,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

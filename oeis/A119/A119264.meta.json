@@ -1,0 +1,22 @@
+{
+  "description": "Primes of the form k^6 + k^2 + 1.",
+  "id": "A119264",
+  "mentions": [
+    "A000040",
+    "A120479",
+    "A120480"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:13:13",
+    "offset": 1,
+    "size": 17,
+    "source": "joeis"
+  }
+}

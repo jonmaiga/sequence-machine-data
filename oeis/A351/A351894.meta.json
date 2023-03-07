@@ -1,0 +1,36 @@
+{
+  "description": "Numbers that contain only odd digits in their factorial-base representation.",
+  "id": "A351894",
+  "mentions": [
+    "A003462",
+    "A007489",
+    "A007623",
+    "A014261",
+    "A016945",
+    "A032911",
+    "A032912",
+    "A033032",
+    "A033033",
+    "A033034",
+    "A033035",
+    "A033036",
+    "A033037",
+    "A033038",
+    "A033039",
+    "A033040",
+    "A033041",
+    "A126646",
+    "A351893"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:26",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

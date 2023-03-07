@@ -1,0 +1,18 @@
+{
+  "description": "Number of base-p digits for which the Apéry numbers support a Lucas congruence modulo p^2, where p is the n-th prime.",
+  "id": "A348883",
+  "mentions": [
+    "A005259",
+    "A348884"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:23",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

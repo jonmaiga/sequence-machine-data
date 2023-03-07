@@ -1,0 +1,18 @@
+{
+  "description": "The revolver sequence.",
+  "id": "A165646",
+  "mentions": [
+    "A000031"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Voids left after packing 5-curves coins patterns into fountain of coins with base n.",
+  "id": "A230276",
+  "mentions": [
+    "A001399",
+    "A005169",
+    "A008795",
+    "A074148",
+    "A099837",
+    "A229093",
+    "A229154",
+    "A229593",
+    "A230267"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:59:07",
+    "offset": 1,
+    "size": 45,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Dimension sequence of the alternative operad in characteristics different from 2 and 3.",
+  "id": "A161392",
+  "mentions": [
+    "A161391",
+    "A161393"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

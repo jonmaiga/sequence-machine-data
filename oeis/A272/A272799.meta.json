@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that 2*k - 1 and 2*k + 1 are squarefree.",
+  "id": "A272799",
+  "mentions": [
+    "A005117",
+    "A065474",
+    "A069977",
+    "A226993"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:37",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

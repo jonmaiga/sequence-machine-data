@@ -1,0 +1,19 @@
+{
+  "description": "Union of missing numbers in first 10, 100, 1000, 10000, ... digits after the decimal point in expansion of Pi.",
+  "id": "A260628",
+  "mentions": [
+    "A228988",
+    "A260627"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

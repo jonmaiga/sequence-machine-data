@@ -1,0 +1,19 @@
+{
+  "description": "Primes p such that the largest prime divisor of p-1 is less than the largest prime divisor of p+1.",
+  "id": "A103666",
+  "mentions": [
+    "A023503",
+    "A023509",
+    "A103667"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:54",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

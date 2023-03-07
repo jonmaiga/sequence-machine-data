@@ -1,0 +1,27 @@
+{
+  "description": "List points (x,y) having integer coordinates, sorted first by radial coordinate r and in case of ties, by polar angle 0 <= phi < 2*Pi in a polar coordinate system. Sequence gives y-coordinates.",
+  "id": "A305576",
+  "mentions": [
+    "A000328",
+    "A004018",
+    "A283307",
+    "A283308",
+    "A305575",
+    "A307014",
+    "A307016",
+    "A307017",
+    "A308080",
+    "A308081"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "look",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:30",
+    "offset": 0,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

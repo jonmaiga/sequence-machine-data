@@ -1,0 +1,20 @@
+{
+  "description": "n-alternating permutations of length 3n.",
+  "id": "A211213",
+  "mentions": [
+    "A030662",
+    "A181985",
+    "A181991"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

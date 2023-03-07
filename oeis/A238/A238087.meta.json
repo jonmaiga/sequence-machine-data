@@ -1,0 +1,23 @@
+{
+  "description": "A129779(n+2)/A006954(n).",
+  "id": "A238087",
+  "mentions": [
+    "A000367",
+    "A000466",
+    "A004193",
+    "A006954",
+    "A097801",
+    "A129779"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

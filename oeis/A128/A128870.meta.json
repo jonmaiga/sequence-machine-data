@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n that are divisible by d, where a_i for 1 <= i <= k are the digits of n and d = Product_{i=1..k}Sum_of_digits_of_(a_i^k).",
+  "id": "A128870",
+  "mentions": [
+    "A002275",
+    "A005188"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

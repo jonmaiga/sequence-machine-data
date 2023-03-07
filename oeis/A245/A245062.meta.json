@@ -1,0 +1,33 @@
+{
+  "description": "Array read by upward antidiagonals: Niven (or Harshad) numbers arranged in rows by their digit sums.",
+  "id": "A245062",
+  "mentions": [
+    "A002998",
+    "A005349",
+    "A007953",
+    "A011557",
+    "A052217",
+    "A052223",
+    "A062768",
+    "A063416",
+    "A063997",
+    "A069537",
+    "A069540",
+    "A069543",
+    "A082259",
+    "A082260",
+    "A245065"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:01",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

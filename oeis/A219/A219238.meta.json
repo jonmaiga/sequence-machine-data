@@ -1,0 +1,24 @@
+{
+  "description": "Coefficient table for the first differences of table A047971: Coefficients of the difference of Gauss polynomials [n+3,3]_q - [n+2,3]_q.",
+  "id": "A219238",
+  "mentions": [
+    "A000217",
+    "A008967",
+    "A016777",
+    "A047971",
+    "A219237"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 117,
+    "source": "oeis-entry"
+  }
+}

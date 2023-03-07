@@ -1,0 +1,20 @@
+{
+  "description": "Indices in A006928 where the imbalance between 1's and 2's sets a new record.",
+  "id": "A274775",
+  "mentions": [
+    "A006928",
+    "A025506",
+    "A025507",
+    "A088568"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:39",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

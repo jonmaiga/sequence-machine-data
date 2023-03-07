@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = coefficient of x^n/(n-1)! in the 5-fold iteration of x*exp(x).",
+  "id": "A174495",
+  "mentions": [
+    "A080108",
+    "A174480",
+    "A174493",
+    "A174494",
+    "A174496"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

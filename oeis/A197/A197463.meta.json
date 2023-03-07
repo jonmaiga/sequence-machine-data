@@ -1,0 +1,19 @@
+{
+  "description": "Number of one-sided poly-[4.6.12]-tiles (holes allowed) with n cells (division into triangles is significant).",
+  "id": "A197463",
+  "mentions": [
+    "A197462",
+    "A197464"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

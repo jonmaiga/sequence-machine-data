@@ -1,0 +1,20 @@
+{
+  "description": "Primes with nonprime sums of digits.",
+  "id": "A104213",
+  "mentions": [
+    "A046704",
+    "A104211"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

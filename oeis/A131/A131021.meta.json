@@ -1,0 +1,20 @@
+{
+  "description": "Prime semiperimeters of quadrilaterals with sides which are four consecutive primes.",
+  "id": "A131021",
+  "mentions": [
+    "A000040",
+    "A131019"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:18",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

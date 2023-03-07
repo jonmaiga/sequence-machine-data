@@ -1,0 +1,26 @@
+{
+  "description": "Number of partitions of {1...n} containing 2 detached pairs of consecutive integers, i.e., partitions in which only 1- or 2-strings of consecutive integers can appear in a block and there are exactly two 2-strings.",
+  "id": "A105488",
+  "mentions": [
+    "A000110",
+    "A000217",
+    "A052889",
+    "A105479",
+    "A105484",
+    "A105489",
+    "A271023",
+    "A285362"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:56",
+    "offset": 4,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

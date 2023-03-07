@@ -1,0 +1,18 @@
+{
+  "description": "The Grundy number of restricted Nim with a pass move.",
+  "id": "A295041",
+  "mentions": [
+    "A025480"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

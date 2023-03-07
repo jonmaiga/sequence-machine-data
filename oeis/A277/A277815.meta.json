@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = the largest k < n for which A264977(k) = A264977(n), or 0 if no such k exists.",
+  "id": "A277815",
+  "mentions": [
+    "A264977",
+    "A277695",
+    "A277814",
+    "A277816",
+    "A277817"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:43",
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

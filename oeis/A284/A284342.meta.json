@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that A065642(n) < n*lpf(n), where lpf = least prime factor (A020639).",
+  "id": "A284342",
+  "mentions": [
+    "A007947",
+    "A020639",
+    "A065642",
+    "A285100",
+    "A285109",
+    "A285337"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:55",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Let f=A038554(n)+delta(n,1), where delta is the Kronecker symbol. Then a(n) is the fixed point that arises from iterating f (a(n)=0 or 1).",
+  "id": "A192082",
+  "mentions": [
+    "A038554"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:15",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

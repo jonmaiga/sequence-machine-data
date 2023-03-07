@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = n*bil(n) - 2^bil(n) where bil(0) = 0 and bil(n) = floor(log_2(n)) + 1 for n>0.",
+  "id": "A295513",
+  "mentions": [
+    "A001855",
+    "A003314",
+    "A033156",
+    "A054248",
+    "A061168",
+    "A083652",
+    "A097383",
+    "A123753",
+    "A295508"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

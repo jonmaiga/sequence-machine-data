@@ -1,0 +1,22 @@
+{
+  "description": "G.f.: A(x) = Sum_{n>=0} (3n)!/(n!)^3 * x^(3n)/(1-x-x^2)^(3n+1).",
+  "id": "A181545",
+  "mentions": [
+    "A001622",
+    "A006480",
+    "A051286",
+    "A181546",
+    "A217421"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:04",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

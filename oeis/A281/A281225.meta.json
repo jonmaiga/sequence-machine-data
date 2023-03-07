@@ -1,0 +1,20 @@
+{
+  "description": "The decimal representation of the Elias delta code for n (A281150(n)).",
+  "id": "A281225",
+  "mentions": [
+    "A171885",
+    "A281150",
+    "A281223"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:49",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

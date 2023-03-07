@@ -1,0 +1,26 @@
+{
+  "description": "\"Magic\" numbers: all numbers from 0 to 9 are magic; a number >= 10 is magic if it is divisible by the number of its digits and the number obtained by deleting the final digit is also magic.",
+  "id": "A144688",
+  "mentions": [
+    "A050278",
+    "A050289",
+    "A051883",
+    "A082399",
+    "A098952",
+    "A143671",
+    "A214437"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

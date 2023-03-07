@@ -1,0 +1,19 @@
+{
+  "description": "a(0)=1; thereafter a(n) = n*a(n-1) if n is even, otherwise a(n) = 2*n*a(n-1).",
+  "id": "A232205",
+  "mentions": [
+    "A065140",
+    "A122551"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

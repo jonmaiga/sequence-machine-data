@@ -1,0 +1,22 @@
+{
+  "description": "Numbers of the form 4^i*(8*j+1).",
+  "id": "A234000",
+  "mentions": [
+    "A004215",
+    "A055045",
+    "A055046",
+    "A059897"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:52",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

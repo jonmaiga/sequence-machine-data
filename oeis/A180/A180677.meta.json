@@ -1,0 +1,23 @@
+{
+  "description": "The Gi4 sums of the Pell-Jacobsthal triangle A013609.",
+  "id": "A180677",
+  "mentions": [
+    "A008999",
+    "A013609",
+    "A052942",
+    "A180662",
+    "A180676"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:03",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

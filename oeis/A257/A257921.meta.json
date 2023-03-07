@@ -1,0 +1,30 @@
+{
+  "description": "Expansion of f(x^2, -x^4) * f(-x, -x^5)^2 / f(-x^12, -x^12) in powers of x where f(, ) is Ramanujan's general theta functions.",
+  "id": "A257921",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A010054",
+    "A010815",
+    "A115660",
+    "A121373",
+    "A128580",
+    "A128591",
+    "A134177",
+    "A257920",
+    "A259668",
+    "A259896",
+    "A261119"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:43:29",
+    "offset": 0,
+    "size": 80,
+    "source": "joeis"
+  }
+}

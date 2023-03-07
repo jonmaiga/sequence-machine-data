@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the smallest number such that with the letters of the name of that number we can spell the name of n numbers smaller than a(n) in Spanish.",
+  "id": "A317423",
+  "mentions": [
+    "A317422"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

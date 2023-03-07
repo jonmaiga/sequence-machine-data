@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = coefficient of x^n*y^(3*n+1)/n! in log( Sum_{n>=0} (n + y)^(5*n) * x^n/n! ).",
+  "id": "A360341",
+  "mentions": [
+    "A266484",
+    "A360339",
+    "A360340"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:34",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

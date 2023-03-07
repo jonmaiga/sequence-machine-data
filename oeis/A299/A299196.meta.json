@@ -1,0 +1,26 @@
+{
+  "description": "Number of partitions of n into distinct parts that are lesser of twin primes (A001359).",
+  "id": "A299196",
+  "mentions": [
+    "A000586",
+    "A000607",
+    "A001097",
+    "A001359",
+    "A077608",
+    "A129363",
+    "A283875",
+    "A283876",
+    "A299197"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:34:23",
+    "offset": 0,
+    "size": 106,
+    "source": "joeis"
+  }
+}

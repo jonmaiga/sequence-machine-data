@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum((binomial(n,j)-j-1)*B(j), j=0..n-1), where B(j)=A000110(j) are the Bell numbers.",
+  "id": "A177257",
+  "mentions": [
+    "A000110",
+    "A005493",
+    "A177254",
+    "A177255",
+    "A177256"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:01",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "A diagonal of rectangular array A274391 of coefficients in functions that satisfy W_n(x) = W_{n-1}(x)^W_n(x), with W_0(x) = exp(x).",
+  "id": "A274387",
+  "mentions": [
+    "A274388",
+    "A274391"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:39",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

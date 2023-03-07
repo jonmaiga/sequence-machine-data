@@ -1,0 +1,18 @@
+{
+  "description": "Numbers (including primorials) that satisfy \"three rules that highly composite numbers must have\" (see Comments below) but are not highly composite numbers.",
+  "id": "A308508",
+  "mentions": [
+    "A002110",
+    "A002182"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:33",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

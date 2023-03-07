@@ -1,0 +1,18 @@
+{
+  "description": "The number of evenly tagged partitions: partitions of n elements together with an involution defined on the set of classes which has at most one fixed point, such that a class and its image have the same number of elements.",
+  "id": "A355194",
+  "mentions": [
+    "A350291"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:29",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

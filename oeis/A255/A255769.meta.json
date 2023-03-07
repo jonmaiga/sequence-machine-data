@@ -1,0 +1,17 @@
+{
+  "description": "Primes p such that there are a prime number of composite numbers less than p.",
+  "id": "A255769",
+  "mentions": [
+    "A072677"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:13",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

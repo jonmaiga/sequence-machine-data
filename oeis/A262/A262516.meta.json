@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = length of n-th run of odd terms in A259934.",
+  "id": "A262516",
+  "mentions": [
+    "A259934",
+    "A262514",
+    "A262517"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Number of initial spin configurations in two-colored rooted trees with n nodes.",
+  "id": "A198760",
+  "mentions": [
+    "A000081",
+    "A038055",
+    "A198761",
+    "A225823",
+    "A245870"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:19",
+    "offset": 2,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

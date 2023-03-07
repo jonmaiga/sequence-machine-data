@@ -1,0 +1,23 @@
+{
+  "description": "Arithmetic numbers (A003601) that are not harmonic (A001599).",
+  "id": "A328944",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A001599",
+    "A003601",
+    "A007340",
+    "A046999",
+    "A328945"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

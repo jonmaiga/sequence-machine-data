@@ -1,0 +1,26 @@
+{
+  "description": "Number of set-systems covering n vertices with spanning edge-connectivity 2.",
+  "id": "A327130",
+  "mentions": [
+    "A003465",
+    "A323818",
+    "A327069",
+    "A327108",
+    "A327109",
+    "A327111",
+    "A327144",
+    "A327145",
+    "A327146"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

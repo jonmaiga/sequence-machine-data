@@ -1,0 +1,27 @@
+{
+  "description": "Triangle read by rows: T(m,n) = number of quadrilateral regions in a \"frame\" of size m X n with m >= n >= 1 (see Comments in A331457 for definition of frame).",
+  "id": "A332611",
+  "mentions": [
+    "A324042",
+    "A324043",
+    "A331457",
+    "A332595",
+    "A332596",
+    "A332599",
+    "A332600",
+    "A332606",
+    "A332607"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Apply partial sum operator twice to sequence of squares of the first n primes.",
+  "id": "A157492",
+  "mentions": [
+    "A001223",
+    "A014148",
+    "A014150",
+    "A024450",
+    "A061789",
+    "A069482",
+    "A129701"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:39",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

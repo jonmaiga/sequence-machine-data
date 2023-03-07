@@ -1,0 +1,17 @@
+{
+  "description": "Number of n X n 0..1 arrays with no 1 equal to more than three of its horizontal, vertical and antidiagonal neighbors.",
+  "id": "A283408",
+  "mentions": [
+    "A283415"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

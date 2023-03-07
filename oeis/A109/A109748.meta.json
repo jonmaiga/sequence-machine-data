@@ -1,0 +1,18 @@
+{
+  "description": "Integers n such that n is prime and x is prime, where (x,y) is the smallest solution to the Pell equation with D = n.",
+  "id": "A109748",
+  "mentions": [
+    "A062326"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

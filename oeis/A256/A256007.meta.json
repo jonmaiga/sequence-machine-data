@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k satisfying |k + 1 - 2F| <= 1 for some positive Fibonacci number F.",
+  "id": "A256007",
+  "mentions": [
+    "A000045",
+    "A001588",
+    "A019274"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 18:22:19",
+    "offset": 0,
+    "size": 54,
+    "source": "joeis"
+  }
+}

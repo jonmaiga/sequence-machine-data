@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = gcd(sigma(n), n+1).",
+  "id": "A339964",
+  "mentions": [
+    "A000203",
+    "A009194",
+    "A049559",
+    "A062754",
+    "A339963",
+    "A339965",
+    "A339966"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:12",
+    "offset": 1,
+    "size": 101,
+    "source": "oeis-bfile"
+  }
+}

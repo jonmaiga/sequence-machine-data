@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of n-cell polyiamonds (triangular polyominoes) with perimeter n+2.",
+  "id": "A131481",
+  "mentions": [
+    "A000577",
+    "A057729"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

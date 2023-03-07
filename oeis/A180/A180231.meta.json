@@ -1,0 +1,19 @@
+{
+  "description": "Prime partial sums of digits of decimal expansion of e.",
+  "id": "A180231",
+  "mentions": [
+    "A000040",
+    "A046975"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

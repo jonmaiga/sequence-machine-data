@@ -1,0 +1,17 @@
+{
+  "description": "Numbers n of the form 4*k+3 such that 2^(m-1) == 1 (mod m) where m = (2*n-1)*n.",
+  "id": "A187923",
+  "mentions": [
+    "A004767"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = k is the least squarefree number with a run of zero nonsquarefree numbers immediately preceding k and a run of exactly n>=0 nonsquarefree numbers immediately succeeding k.",
+  "id": "A271041",
+  "mentions": [
+    "A005117",
+    "A268330",
+    "A270344",
+    "A270996"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

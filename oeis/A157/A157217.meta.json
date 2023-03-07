@@ -1,0 +1,20 @@
+{
+  "description": "Mix A091411 and its differences.",
+  "id": "A157217",
+  "mentions": [
+    "A091411",
+    "A091441"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

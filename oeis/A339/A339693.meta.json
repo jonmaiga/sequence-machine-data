@@ -1,0 +1,24 @@
+{
+  "description": "All pandigital squares which contain each digit exactly once in some base b >= 2. The numbers are written in base 10.",
+  "id": "A339693",
+  "mentions": [
+    "A036745",
+    "A134741",
+    "A225218",
+    "A258103",
+    "A260182",
+    "A340501"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:12",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

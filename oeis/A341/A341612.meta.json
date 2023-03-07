@@ -1,0 +1,23 @@
+{
+  "description": "Characteristic function of A341614: a(n) = 1 if sigma(n) <= 2n < A003961(n), 0 otherwise.",
+  "id": "A341612",
+  "mentions": [
+    "A000203",
+    "A003961",
+    "A252742",
+    "A294935",
+    "A341613",
+    "A341614"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:14",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

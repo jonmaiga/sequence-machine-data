@@ -1,0 +1,24 @@
+{
+  "description": "Numbers n > 1 for which sigma(A156552(n)) == 2 (mod 4).",
+  "id": "A324814",
+  "mentions": [
+    "A000203",
+    "A005940",
+    "A156552",
+    "A191217",
+    "A323243",
+    "A324812",
+    "A324813",
+    "A324824"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

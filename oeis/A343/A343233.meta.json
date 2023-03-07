@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: Riordan triangle T = (1 - x*c(x), x), with the generating function c of A000108 (Catalan).",
+  "id": "A343233",
+  "mentions": [
+    "A000108",
+    "A106270",
+    "A155586"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

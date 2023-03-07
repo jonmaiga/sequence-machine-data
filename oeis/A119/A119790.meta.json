@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the sum of the positive integers each of which is <= n and is divisible by exactly one prime dividing n (but is coprime to every other prime dividing n). (a(1) = 1).",
+  "id": "A119790",
+  "mentions": [
+    "A026741",
+    "A116512",
+    "A119794",
+    "A120499"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:08",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

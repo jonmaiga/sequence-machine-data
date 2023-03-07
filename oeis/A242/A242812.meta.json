@@ -1,0 +1,26 @@
+{
+  "description": "Decimal expansion of the expected number of returns to the origin of a random walk on a 4-d lattice.",
+  "id": "A242812",
+  "mentions": [
+    "A086230",
+    "A086231",
+    "A086232",
+    "A086233",
+    "A086234",
+    "A086235",
+    "A086236",
+    "A242813"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:59",
+    "offset": 1,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

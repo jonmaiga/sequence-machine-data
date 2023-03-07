@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: A128174 * X; X = an infinite lower triangular matrix with a shifted Fibonacci sequence: (1, 1, 1, 2, 3, 5, 8, ...) in the main diagonal and the rest zeros.",
+  "id": "A144152",
+  "mentions": [
+    "A000045",
+    "A128174"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

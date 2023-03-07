@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of 'lambda', a Sobolev isoperimetric constant related to the \"membrane inequality\", arising from the study of a vibrating membrane that is stretched across the unit disk and fastened at its boundary.",
+  "id": "A244355",
+  "mentions": [
+    "A115368",
+    "A244354"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 103,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the smallest k > 1 such that there are more primes in the interval [(k-1)*n + 1, k*n] than there are in the interval [(k-2)*n + 1, (k-1)*n].",
+  "id": "A342068",
+  "mentions": [
+    "A000040",
+    "A342069",
+    "A342070",
+    "A342071",
+    "A342839",
+    "A342852"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:15",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

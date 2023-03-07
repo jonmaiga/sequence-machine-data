@@ -1,0 +1,23 @@
+{
+  "description": "Irregular triangle read by rows in which row n lists the parities of the divisors of n.",
+  "id": "A247795",
+  "mentions": [
+    "A000005",
+    "A000035",
+    "A001227",
+    "A027750",
+    "A183063"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:04",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

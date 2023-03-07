@@ -1,0 +1,19 @@
+{
+  "description": "1/2048 the number of permutations of 0..n having exactly 7 maxima.",
+  "id": "A130663",
+  "mentions": [
+    "A100575",
+    "A179710"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:18",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of distinct pairs of externally tangent circles with radius sqrt(2) and center (p,q) where p and q are prime, p + q = A187797(n) and p <= q.",
+  "id": "A337006",
+  "mentions": [
+    "A187797",
+    "A302231"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 95,
+    "source": "oeis-entry"
+  }
+}

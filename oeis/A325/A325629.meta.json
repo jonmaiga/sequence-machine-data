@@ -1,0 +1,25 @@
+{
+  "description": "Floor of number of n-dimensional degrees in an n-sphere.",
+  "id": "A325629",
+  "mentions": [
+    "A019692",
+    "A019694",
+    "A091925",
+    "A125560",
+    "A164102",
+    "A164104",
+    "A164107",
+    "A164109"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

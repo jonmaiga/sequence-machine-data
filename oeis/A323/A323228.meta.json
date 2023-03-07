@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = binomial(n + 4, n - 1) + 1.",
+  "id": "A323228",
+  "mentions": [
+    "A000027",
+    "A000124",
+    "A040000",
+    "A050407",
+    "A145126"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 09:54:11",
+    "offset": 0,
+    "size": 39,
+    "source": "joeis"
+  }
+}

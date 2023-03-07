@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k that divide sigma(k^2) - 1.",
+  "id": "A283599",
+  "mentions": [
+    "A000040",
+    "A065764",
+    "A283744"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:54",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

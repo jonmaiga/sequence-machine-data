@@ -1,0 +1,31 @@
+{
+  "description": "Numbers k such that A276086(k) is a sum of distinct primorial numbers.",
+  "id": "A328836",
+  "mentions": [
+    "A008966",
+    "A143293",
+    "A276086",
+    "A276087",
+    "A276156",
+    "A328313",
+    "A328389",
+    "A328828",
+    "A328829",
+    "A328832",
+    "A328833",
+    "A328837",
+    "A328844"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

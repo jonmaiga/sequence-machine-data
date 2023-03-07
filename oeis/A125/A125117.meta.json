@@ -1,0 +1,22 @@
+{
+  "description": "First differences of A034887.",
+  "id": "A125117",
+  "mentions": [
+    "A034887",
+    "A144597",
+    "A276397"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 15:57:55",
+    "offset": 0,
+    "size": 106,
+    "source": "joeis"
+  }
+}

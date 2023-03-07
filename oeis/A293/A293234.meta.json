@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the number of proper divisors of n that are square.",
+  "id": "A293234",
+  "mentions": [
+    "A010052",
+    "A046951",
+    "A293227",
+    "A293235"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:09",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

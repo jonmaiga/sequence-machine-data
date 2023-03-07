@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the determinant of the Vandermonde matrix of the digits of n in factorial base.",
+  "id": "A307710",
+  "mentions": [
+    "A108731",
+    "A307651",
+    "A321682"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 82,
+    "source": "oeis-entry"
+  }
+}

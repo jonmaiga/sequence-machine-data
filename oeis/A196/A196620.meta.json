@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of the slope (negative) of the tangent line at the point of tangency of the curves y=cos(x) and y=(1/x)-c, where c is given by A196619.",
+  "id": "A196620",
+  "mentions": [
+    "A196617",
+    "A196618",
+    "A196619"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:18",
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-bfile"
+  }
+}

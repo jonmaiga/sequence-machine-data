@@ -1,0 +1,21 @@
+{
+  "description": "Number of symmetric 5 X 5 matrices of nonnegative integers with zeros on the main diagonal and every row and column adding to n.",
+  "id": "A244868",
+  "mentions": [
+    "A002721",
+    "A053494",
+    "A333351"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:50:39",
+    "offset": 0,
+    "size": 36,
+    "source": "joeis"
+  }
+}

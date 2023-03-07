@@ -1,0 +1,33 @@
+{
+  "description": "Least number k > 1 such that k^n + k + 1 is prime, or 0 if no such number exists.",
+  "id": "A245476",
+  "mentions": [
+    "A002384",
+    "A005097",
+    "A016789",
+    "A049407",
+    "A049408",
+    "A057732",
+    "A075713",
+    "A075714",
+    "A075715",
+    "A075716",
+    "A075717",
+    "A075718",
+    "A075719",
+    "A075720",
+    "A075722",
+    "A075723",
+    "A127599"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:01",
+    "offset": 1,
+    "size": 93,
+    "source": "oeis-bfile"
+  }
+}

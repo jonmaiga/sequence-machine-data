@@ -1,0 +1,20 @@
+{
+  "description": "Integers in the sequence of rationals defined by b(1) = 61, b(n) = b(n-1) + (n+60)/n for n > 1.",
+  "id": "A144970",
+  "mentions": [
+    "A033380"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "fini",
+    "full",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

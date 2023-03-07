@@ -1,0 +1,25 @@
+{
+  "description": "Irregular triangle read by rows in which row n has length A014153(n-1) and every column k lists the positive integers A000027, n >= 1, k >= 1.",
+  "id": "A340581",
+  "mentions": [
+    "A000027",
+    "A000041",
+    "A000070",
+    "A014153",
+    "A027750",
+    "A176206",
+    "A284870",
+    "A336811"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 96,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "9*4^n - 2.",
+  "id": "A153465",
+  "mentions": [
+    "A002063"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:35",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

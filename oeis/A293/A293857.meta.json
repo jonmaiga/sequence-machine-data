@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the number of permutations {c_1..c_n} of {1..n} for which c_1 - c_2 + ... + (-1)^(n-1)*c_n are squares.",
+  "id": "A293857",
+  "mentions": [
+    "A000290",
+    "A008794",
+    "A010551",
+    "A293783",
+    "A293984"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:10",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

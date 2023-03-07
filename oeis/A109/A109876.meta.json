@@ -1,0 +1,26 @@
+{
+  "description": "Triangle read by rows: a(n, n) = n! and for 1 <= k < n, a(n, k) = Sum_{i=0..n-1} Product_{j=i+1..i+k} f(j, n), where for x <= y, f(x, y) = x and for x > y, f(x, y) = x-y.",
+  "id": "A109876",
+  "mentions": [
+    "A000142",
+    "A000217",
+    "A000254",
+    "A001563",
+    "A006527",
+    "A062026",
+    "A062027",
+    "A109877"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Variation on Fermat's Diophantine m-tuple: 1 + the product of any two distinct terms is a prime power.",
+  "id": "A274694",
+  "mentions": [
+    "A030063",
+    "A034881",
+    "A246655"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

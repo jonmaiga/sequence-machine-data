@@ -1,0 +1,23 @@
+{
+  "description": "Numbers m such that all lengths of runs of 1's in the binary representation of m are prime numbers.",
+  "id": "A226228",
+  "mentions": [
+    "A005811",
+    "A010051",
+    "A030308",
+    "A033015",
+    "A226227",
+    "A226229"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

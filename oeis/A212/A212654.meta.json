@@ -1,0 +1,17 @@
+{
+  "description": "LCM of the first few p-smooth numbers for a prime number p if in A007416; otherwise smallest number with same number of divisors (see example for details).",
+  "id": "A212654",
+  "mentions": [
+    "A007416"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Numerator of generalized harmonic number H(p-1,p^2) = Sum_{k=1..p-1} 1/k^(p^2) divided by p^4 for prime p>3.",
+  "id": "A130682",
+  "mentions": [
+    "A119722"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "bref",
+    "formulas",
+    "frac",
+    "nonn",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:18",
+    "offset": 3,
+    "size": 2,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of pairs of divisors of 2n, (d1,d2), such that d1 < d2 and at least one of d1*d2 +- 1 is prime.",
+  "id": "A339021",
+  "mentions": [
+    "A010051",
+    "A337982"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

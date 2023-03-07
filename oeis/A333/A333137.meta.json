@@ -1,0 +1,24 @@
+{
+  "description": "The number of edges formed on a triangle with leg lengths equal to the Pythagorean triples by the straight line segments mutually connecting all vertices and all points that divide the sides into unit length parts.",
+  "id": "A333137",
+  "mentions": [
+    "A103605",
+    "A274586",
+    "A331765",
+    "A332600",
+    "A332978",
+    "A333135",
+    "A333136"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

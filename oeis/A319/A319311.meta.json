@@ -1,0 +1,18 @@
+{
+  "description": "Number of ordered pairs (i,j) with 0 < i < j < prime(n)/2 such that (i^2 mod prime(n)) > (j^2 mod prime(n)).",
+  "id": "A319311",
+  "mentions": [
+    "A000040",
+    "A000290"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:41",
+    "offset": 2,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

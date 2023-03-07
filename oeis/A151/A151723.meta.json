@@ -1,0 +1,32 @@
+{
+  "description": "Total number of ON states after n generations of cellular automaton based on hexagons.",
+  "id": "A151723",
+  "mentions": [
+    "A000695",
+    "A139250",
+    "A147562",
+    "A151724",
+    "A151725",
+    "A161206",
+    "A161644",
+    "A169779",
+    "A169780",
+    "A170898",
+    "A170905",
+    "A182632",
+    "A182840",
+    "A256536",
+    "A256537"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:34",
+    "offset": 0,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

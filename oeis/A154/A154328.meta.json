@@ -1,0 +1,20 @@
+{
+  "description": "Lexicographically earliest strictly increasing sequence having the property that a(n) is the sum of the first a(n) digits of the sequence.",
+  "id": "A154328",
+  "mentions": [
+    "A154329",
+    "A154330",
+    "A155817"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:36",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

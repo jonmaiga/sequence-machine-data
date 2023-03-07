@@ -1,0 +1,44 @@
+{
+  "description": "Class number, k, of n, i.e.; imaginary quadratic fields negated Q(sqrt(-n))=k, or 0 if n is not a fundamental discriminant (A003657).",
+  "id": "A191410",
+  "mentions": [
+    "A003657",
+    "A006203",
+    "A013658",
+    "A014602",
+    "A014603",
+    "A046002",
+    "A046003",
+    "A046004",
+    "A046005",
+    "A046006",
+    "A046007",
+    "A046008",
+    "A046009",
+    "A046010",
+    "A046011",
+    "A046012",
+    "A046013",
+    "A046014",
+    "A046015",
+    "A046016",
+    "A046018",
+    "A046020",
+    "A048925",
+    "A056987",
+    "A123563",
+    "A171724",
+    "A191408"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:15",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

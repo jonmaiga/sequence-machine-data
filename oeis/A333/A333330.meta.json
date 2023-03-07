@@ -1,0 +1,31 @@
+{
+  "description": "Array read by antidiagonals: T(n,k) is the number of k-regular loopless multigraphs on n unlabeled nodes, n >= 0, k >= 0.",
+  "id": "A333330",
+  "mentions": [
+    "A000012",
+    "A001399",
+    "A002865",
+    "A051031",
+    "A129416",
+    "A129418",
+    "A129420",
+    "A129422",
+    "A129424",
+    "A129426",
+    "A167625",
+    "A192517",
+    "A328682",
+    "A333351"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:03",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

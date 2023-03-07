@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of Product_{k>=1} (1 + x^k)^(sigma_7(k)).",
+  "id": "A301551",
+  "mentions": [
+    "A013955",
+    "A107742",
+    "A301545"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:26",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Half the number of (n+1)X9 0..3 arrays with every 2X2 subblock diagonal sum differing from its antidiagonal sum by more than 3",
+  "id": "A184230",
+  "mentions": [
+    "A184231"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:08",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

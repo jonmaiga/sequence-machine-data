@@ -1,0 +1,20 @@
+{
+  "description": "Number of integer partitions of n with at least two parts, each greater than 1, at least two kinds of parts and all with the same multiplicity.",
+  "id": "A334653",
+  "mentions": [
+    "A025147",
+    "A083751",
+    "A334652"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:06",
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

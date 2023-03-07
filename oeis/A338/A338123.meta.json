@@ -1,0 +1,20 @@
+{
+  "description": "Place three points evenly spaced around a circle, draw n evenly spaced rays from each of the points, a(n) is the number of vertices thus created. See Comments for details.",
+  "id": "A338123",
+  "mentions": [
+    "A338042",
+    "A338122",
+    "A338124"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:10",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

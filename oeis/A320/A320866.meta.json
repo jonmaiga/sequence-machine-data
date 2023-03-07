@@ -1,0 +1,26 @@
+{
+  "description": "Primes such that p + digitsum(p, base 4) is again a prime.",
+  "id": "A320866",
+  "mentions": [
+    "A006378",
+    "A047791",
+    "A048519",
+    "A048520",
+    "A107740",
+    "A243441",
+    "A243442",
+    "A320867",
+    "A320868"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:43",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

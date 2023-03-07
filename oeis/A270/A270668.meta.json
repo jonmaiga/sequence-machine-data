@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: The number of domino tilings of the (2n+1) X (2m+1) board with a central free square.",
+  "id": "A270668",
+  "mentions": [
+    "A059841",
+    "A098301",
+    "A143659",
+    "A189006"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

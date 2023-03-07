@@ -1,0 +1,29 @@
+{
+  "description": "Maximum number that can be obtained by iteratively adding or multiplying together parts of the integer partition with Heinz number n until only one part remains.",
+  "id": "A319856",
+  "mentions": [
+    "A000792",
+    "A001970",
+    "A048249",
+    "A056239",
+    "A066739",
+    "A066815",
+    "A070960",
+    "A201163",
+    "A318948",
+    "A318949",
+    "A319841",
+    "A319850",
+    "A319855"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-entry"
+  }
+}

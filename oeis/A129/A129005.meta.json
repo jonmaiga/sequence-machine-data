@@ -1,0 +1,21 @@
+{
+  "description": "(n^3+n^2)*5^n.",
+  "id": "A129005",
+  "mentions": [
+    "A036289",
+    "A081143",
+    "A128796"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:16",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

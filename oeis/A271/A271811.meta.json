@@ -1,0 +1,22 @@
+{
+  "description": "Number of non-abelian groups of order prime(n)^6.",
+  "id": "A271811",
+  "mentions": [
+    "A000688",
+    "A030516",
+    "A060689",
+    "A232106",
+    "A271664"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:36",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

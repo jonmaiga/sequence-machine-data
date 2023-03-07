@@ -1,0 +1,22 @@
+{
+  "description": "Highest exponent in prime factorization of the swinging factorial (A056040).",
+  "id": "A261129",
+  "mentions": [
+    "A000120",
+    "A000523",
+    "A051903",
+    "A056040",
+    "A263922"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 2,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

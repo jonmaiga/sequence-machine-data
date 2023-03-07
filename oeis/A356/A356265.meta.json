@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows. The reduced triangle of the partition triangle of reducible permutations (A356264). T(n, k) for n >= 1 and 0 <= k < n.",
+  "id": "A356265",
+  "mentions": [
+    "A356264",
+    "A356291"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

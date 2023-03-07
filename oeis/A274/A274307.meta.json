@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that n^2 is a term of A274306.",
+  "id": "A274307",
+  "mentions": [
+    "A001652",
+    "A274306"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

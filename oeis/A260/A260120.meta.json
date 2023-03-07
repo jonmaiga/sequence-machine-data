@@ -1,0 +1,21 @@
+{
+  "description": "Least integer k > 0 such that (prime(k*n)-1)^2 = prime(j*n)-1 for some j > 0.",
+  "id": "A260120",
+  "mentions": [
+    "A000040",
+    "A002496",
+    "A259731",
+    "A260082",
+    "A260121"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:18",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

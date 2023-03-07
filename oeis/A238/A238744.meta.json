@@ -1,0 +1,49 @@
+{
+  "description": "Irregular table read by rows: T (n, k) gives the number of primes p such that p^k divides n; table omits all zero values.",
+  "id": "A238744",
+  "mentions": [
+    "A000700",
+    "A000701",
+    "A000720",
+    "A001221",
+    "A001222",
+    "A003963",
+    "A008480",
+    "A046682",
+    "A051903",
+    "A056239",
+    "A088902",
+    "A112798",
+    "A118914",
+    "A122111",
+    "A124010",
+    "A124859",
+    "A212171",
+    "A217171",
+    "A238745",
+    "A238747",
+    "A258116",
+    "A296150",
+    "A319005",
+    "A321648",
+    "A321649",
+    "A321650",
+    "A329382",
+    "A330644",
+    "A352486",
+    "A352490",
+    "A352491"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 2,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

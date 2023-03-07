@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 19*a(n-1) - 41*a(n-2) + 19*a(n-3) - a(n-4).",
+  "id": "A143699",
+  "mentions": [
+    "A003733",
+    "A100047"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:32",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

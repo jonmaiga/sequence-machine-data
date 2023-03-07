@@ -1,0 +1,17 @@
+{
+  "description": "The least prime p of prime triple p,q,r such that q - p = 2n and r - q = 2n + 2.",
+  "id": "A282707",
+  "mentions": [
+    "A283145"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:52",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Triangular array resulting from summing three repeated Pascal sequences; (related to the generalized pentagonal sequence (A001318) and the classical modular tessellation (cf. A054886).",
+  "id": "A124458",
+  "mentions": [
+    "A000012",
+    "A001318",
+    "A001651",
+    "A004526",
+    "A008805",
+    "A028724",
+    "A054886",
+    "A058187",
+    "A093039"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

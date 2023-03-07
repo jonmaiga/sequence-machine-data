@@ -1,0 +1,23 @@
+{
+  "description": "Square array A(n,k), n>=0, k>=0, read by antidiagonals, where column k is the expansion of Im((k*i; x)_inf), and (a; q)_inf is the q-Pochhammer symbol, i = sqrt(-1).",
+  "id": "A292160",
+  "mentions": [
+    "A000004",
+    "A001477",
+    "A278400",
+    "A292140",
+    "A292159",
+    "A292162"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

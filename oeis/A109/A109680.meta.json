@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = 2^(4n-2) - A104403(n).",
+  "id": "A109680",
+  "mentions": [
+    "A102371",
+    "A104403"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:01",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

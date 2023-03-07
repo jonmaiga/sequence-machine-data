@@ -1,0 +1,19 @@
+{
+  "description": "k appears A283832(k+1) times.",
+  "id": "A285189",
+  "mentions": [
+    "A280774",
+    "A280864",
+    "A283832"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

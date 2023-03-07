@@ -1,0 +1,25 @@
+{
+  "description": "Irregular triangle read by rows in which the row n lists the partition of n into the minimum number of triangular parts.",
+  "id": "A354762",
+  "mentions": [
+    "A000041",
+    "A000217",
+    "A001477",
+    "A007294",
+    "A057944",
+    "A057945",
+    "A354763"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

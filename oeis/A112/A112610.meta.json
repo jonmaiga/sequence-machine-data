@@ -1,0 +1,25 @@
+{
+  "description": "Number of representations of n as a sum of two squares and two triangular numbers.",
+  "id": "A112610",
+  "mentions": [
+    "A000203",
+    "A004018",
+    "A008441",
+    "A193553",
+    "A237593",
+    "A239052",
+    "A239053",
+    "A239931"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:03",
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

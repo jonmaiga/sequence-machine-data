@@ -1,0 +1,22 @@
+{
+  "description": "T(n,k)=Number of length-n 0..k arrays with no following elements larger than the first repeated value.",
+  "id": "A267471",
+  "mentions": [
+    "A000027",
+    "A000290",
+    "A005126",
+    "A081436"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:29",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

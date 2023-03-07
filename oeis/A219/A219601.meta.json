@@ -1,0 +1,33 @@
+{
+  "description": "Number of partitions of n in which no parts are multiples of 6.",
+  "id": "A219601",
+  "mentions": [
+    "A000009",
+    "A000726",
+    "A001935",
+    "A035959",
+    "A035985",
+    "A097797",
+    "A104502",
+    "A261736",
+    "A261770",
+    "A261775",
+    "A261776",
+    "A284326",
+    "A320608",
+    "A328545",
+    "A328546"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:37",
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

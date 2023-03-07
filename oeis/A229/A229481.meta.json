@@ -1,0 +1,20 @@
+{
+  "description": "Final digit of 1^n + 2^n + ... + n^n.",
+  "id": "A229481",
+  "mentions": [
+    "A031971",
+    "A056849"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:40:31",
+    "offset": 0,
+    "size": 100,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "The 5th Hermite Polynomial evaluated at n: H_5(n) = 32*n^5 - 160*n^3 + 120*n.",
+  "id": "A247850",
+  "mentions": [
+    "A005843",
+    "A060626",
+    "A163322",
+    "A163323",
+    "A247851",
+    "A247852",
+    "A247853",
+    "A247854",
+    "A247855"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:13:45",
+    "offset": 0,
+    "size": 28,
+    "source": "joeis"
+  }
+}

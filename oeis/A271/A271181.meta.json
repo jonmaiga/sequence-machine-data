@@ -1,0 +1,18 @@
+{
+  "description": "Read A002942 digit-by-digit, beginning with an initial 0.",
+  "id": "A271181",
+  "mentions": [
+    "A002942"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

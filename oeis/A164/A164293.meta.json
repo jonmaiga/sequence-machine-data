@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of the twin prime constant associated with the binary constant in A164292.",
+  "id": "A164293",
+  "mentions": [
+    "A051006",
+    "A164292"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:17:57",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

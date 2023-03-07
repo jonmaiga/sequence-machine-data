@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of the absolute value of the imaginary part of i^(e^Pi), where i = sqrt(-1).",
+  "id": "A194554",
+  "mentions": [
+    "A039661",
+    "A194555"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:17",
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

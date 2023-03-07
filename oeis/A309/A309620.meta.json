@@ -1,0 +1,18 @@
+{
+  "description": "Start with a(1) = 5. For n>1, the sequence is always extended with a(n+1) = a(n) + 2*d if d is prime, and with a(n+1) = a(n) - 1 - d if d is not prime, where d is the n-th digit of the sequence.",
+  "id": "A309620",
+  "mentions": [
+    "A309521"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:33",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Row sums of triangle A112707 (partial sums of Catalan numbers multiplied by powers of negative numbers).",
+  "id": "A112708",
+  "mentions": [
+    "A112707",
+    "A112709"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

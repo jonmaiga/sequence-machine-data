@@ -1,0 +1,22 @@
+{
+  "description": "Using the lunar product (see A087062 for definition), numbers n such that if n divides a*b, then n must divide either a or b. The multiplicative identity, 9, is excluded by convention.",
+  "id": "A109752",
+  "mentions": [
+    "A087062",
+    "A087097"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

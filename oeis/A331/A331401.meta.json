@@ -1,0 +1,20 @@
+{
+  "description": "Table of distinct triples (A,B,C) such that A = B * C with B < C and A's digits being distinct and split between B and C.",
+  "id": "A331401",
+  "mentions": [
+    "A020342"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "fini",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:00",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

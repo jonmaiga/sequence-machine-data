@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the constant x whose continued fraction expansion equals A006519 (highest power of 2 dividing n).",
+  "id": "A100338",
+  "mentions": [
+    "A006519",
+    "A100863",
+    "A100864",
+    "A100865"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

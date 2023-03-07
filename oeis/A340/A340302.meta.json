@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that k and the least number that is larger than k and has the same prime signature as k also has the same set of distinct prime divisors as k.",
+  "id": "A340302",
+  "mentions": [
+    "A007947",
+    "A081761",
+    "A085079",
+    "A089247",
+    "A118914",
+    "A167747"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:13",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

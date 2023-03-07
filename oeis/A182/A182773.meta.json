@@ -1,0 +1,19 @@
+{
+  "description": "Beatty sequence for 1+2^(2/3).",
+  "id": "A182773",
+  "mentions": [
+    "A182760",
+    "A182774"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:07:43",
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

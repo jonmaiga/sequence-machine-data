@@ -1,0 +1,25 @@
+{
+  "description": "x-coordinates of a counterclockwise knight's tour on an infinite board starting at the origin and then successively visiting fields in concentric rings of width 2. y-coordinates are in A306660.",
+  "id": "A306659",
+  "mentions": [
+    "A068608",
+    "A068609",
+    "A068610",
+    "A068611",
+    "A068612",
+    "A068613",
+    "A068614",
+    "A068615",
+    "A306660"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

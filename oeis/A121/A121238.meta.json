@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = (-1)^(1+n+A088585(n)).",
+  "id": "A121238",
+  "mentions": [
+    "A023359",
+    "A088585"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-12-25 19:14:52",
+    "offset": 0,
+    "size": 53,
+    "source": "joeis"
+  }
+}

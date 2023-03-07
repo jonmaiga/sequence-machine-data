@@ -1,0 +1,20 @@
+{
+  "description": "Start with the fraction 1/1, list n when the numerator and denominator are both prime for fractions built according to the rule: Add old top and old bottom to get the new bottom, add old top and 6 times the old bottom to get the new top.",
+  "id": "A110908",
+  "mentions": [
+    "A002532",
+    "A002533"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

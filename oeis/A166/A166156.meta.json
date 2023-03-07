@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that phi(k) = number of perfect partitions of (k-1).",
+  "id": "A166156",
+  "mentions": [
+    "A000010",
+    "A000079",
+    "A002033",
+    "A074206"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

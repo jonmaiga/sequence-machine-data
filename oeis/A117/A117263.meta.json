@@ -1,0 +1,20 @@
+{
+  "description": "Row sums of triangle A117262; also, self-convolution of A117264.",
+  "id": "A117263",
+  "mentions": [
+    "A117261",
+    "A117262",
+    "A117264"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

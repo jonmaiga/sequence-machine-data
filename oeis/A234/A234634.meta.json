@@ -1,0 +1,19 @@
+{
+  "description": "Numbers of undirected cycles in the n-Sierpinski sieve graph.",
+  "id": "A234634",
+  "mentions": [
+    "A246957",
+    "A246958",
+    "A246959"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:52",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-bfile"
+  }
+}

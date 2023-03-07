@@ -1,0 +1,20 @@
+{
+  "description": "Number of partitions of n such that the (sum of distinct even parts) < n/2.",
+  "id": "A284616",
+  "mentions": [
+    "A284617",
+    "A284618",
+    "A284619"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

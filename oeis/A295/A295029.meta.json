@@ -1,0 +1,19 @@
+{
+  "description": "Lexicographically earliest sequence of distinct positive terms such that, for any n > 1 with binary expansion (b_1, b_2, ..., b_k) (where b_1 = 1 is the most significant bit of n), a(n) is a multiple of a(i) for each i such that b_i = 1.",
+  "id": "A295029",
+  "mentions": [
+    "A000120",
+    "A297499"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:13",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the smallest number which can be represented as the sum of n distinct positive cubes in exactly n ways, or 0 if no such number exists.",
+  "id": "A350270",
+  "mentions": [
+    "A000578",
+    "A025401",
+    "A025419",
+    "A025421",
+    "A275154",
+    "A350241"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

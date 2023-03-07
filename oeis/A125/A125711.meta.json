@@ -1,0 +1,19 @@
+{
+  "description": "In the \"3x+1\" problem, let 1 denote a halving step and 0 denote an x->3x+1 step. Then a(n) is obtained by writing the sequence of steps needed to reach 1 from 2n and reading it as a decimal number.",
+  "id": "A125711",
+  "mentions": [
+    "A125626",
+    "A125710"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

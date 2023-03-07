@@ -1,0 +1,27 @@
+{
+  "description": "Terms of A231922 written in base 10: the binary expansions of a(n) and a(n+1) taken together can be rearranged to form a palindrome.",
+  "id": "A231923",
+  "mentions": [
+    "A228407",
+    "A230892",
+    "A231921",
+    "A231922",
+    "A231925",
+    "A231927",
+    "A231929",
+    "A231931",
+    "A231933"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

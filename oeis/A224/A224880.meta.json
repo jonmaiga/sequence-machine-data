@@ -1,0 +1,28 @@
+{
+  "description": "a(n) = 2n + sum of divisors of n.",
+  "id": "A224880",
+  "mentions": [
+    "A000203",
+    "A001065",
+    "A005843",
+    "A008585",
+    "A033879",
+    "A033880",
+    "A075701",
+    "A155085",
+    "A237593",
+    "A245092",
+    "A299692"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:42",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

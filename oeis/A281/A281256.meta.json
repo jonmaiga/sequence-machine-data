@@ -1,0 +1,23 @@
+{
+  "description": "Runs of consecutive integers in A270877, which is produced by a decaying trapezoidal modification of the sieve of Eratosthenes.",
+  "id": "A281256",
+  "mentions": [
+    "A001359",
+    "A007530",
+    "A022008",
+    "A027570",
+    "A186702",
+    "A270877"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

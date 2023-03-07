@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of the Landau-Kolmogorov constant C(3,1) for derivatives in the case L_infinity(-infinity, infinity).",
+  "id": "A245198",
+  "mentions": [
+    "A050970",
+    "A050971",
+    "A244091"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:48:05",
+    "offset": 1,
+    "size": 104,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Triangle T(n,k) read by rows: Number of Dyck n-paths with midpoint at height k.",
+  "id": "A213600",
+  "mentions": [
+    "A000108",
+    "A001246",
+    "A053121",
+    "A338727"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

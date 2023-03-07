@@ -1,0 +1,22 @@
+{
+  "description": "Beginning of a polynomial relation of degree n in n+2 terms in the first half of Pascal's triangle. See A241201.",
+  "id": "A241202",
+  "mentions": [
+    "A008865",
+    "A062730",
+    "A241199",
+    "A241200",
+    "A241201"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

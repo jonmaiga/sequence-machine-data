@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of the solution to the Lane-Emden equation for a sphere of polytropic index n = 2.",
+  "id": "A248672",
+  "mentions": [
+    "A000796",
+    "A002194",
+    "A010480",
+    "A248673",
+    "A248674"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Triangle t(n,m) = -A000396(n)+A000396(m)+A000396(n-m) read by rows.",
+  "id": "A178062",
+  "mentions": [
+    "A000396",
+    "A092336"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

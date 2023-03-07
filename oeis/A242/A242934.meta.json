@@ -1,0 +1,19 @@
+{
+  "description": "Numbers which are not in A011373 = Hamming weights of Fibonacci numbers.",
+  "id": "A242934",
+  "mentions": [
+    "A000045",
+    "A000120",
+    "A011373"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

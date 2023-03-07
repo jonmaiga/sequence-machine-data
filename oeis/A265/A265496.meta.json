@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n resulting from alternately applying the operations +, -, *, / to the last term and second to last term.",
+  "id": "A265496",
+  "mentions": [
+    "A131183"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

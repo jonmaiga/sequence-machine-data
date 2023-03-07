@@ -1,0 +1,20 @@
+{
+  "description": "Number of 3-colored Schroeder paths of semilength n in which there are no (2,0)-steps at level 1.",
+  "id": "A257072",
+  "mentions": [
+    "A059231",
+    "A224071",
+    "A250307"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

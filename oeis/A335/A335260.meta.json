@@ -1,0 +1,27 @@
+{
+  "description": "Irregular triangle S(n,k) = numerators of k*A002110(n)/A005867(n) for 1 <= k <= A005867(n).",
+  "id": "A335260",
+  "mentions": [
+    "A000010",
+    "A002110",
+    "A005867",
+    "A038110",
+    "A060753",
+    "A309497",
+    "A335261"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Areas of integer side-length cyclic quadrilaterals, excluding rectangles and kites with two right angles, with integer area.",
+  "id": "A297790",
+  "mentions": [
+    "A131020",
+    "A210250",
+    "A218431",
+    "A219225",
+    "A230136",
+    "A233315",
+    "A242778",
+    "A273691",
+    "A273890",
+    "A298860",
+    "A298907"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

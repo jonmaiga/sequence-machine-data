@@ -1,0 +1,21 @@
+{
+  "description": "Zero-one sequence based on floor(sqrt(3)): a(A022838(k))=a(k); a(A054406(k))=1-a(k); a(1)=0.",
+  "id": "A189084",
+  "mentions": [
+    "A022838",
+    "A054406",
+    "A188967",
+    "A189085",
+    "A189086"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:47:11",
+    "offset": 1,
+    "size": 135,
+    "source": "joeis"
+  }
+}

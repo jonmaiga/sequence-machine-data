@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of the position of the real positive inflection point of Dawson's integral D_+(x).",
+  "id": "A133843",
+  "mentions": [
+    "A133841",
+    "A133842",
+    "A243433",
+    "A245262",
+    "A247445"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:21",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

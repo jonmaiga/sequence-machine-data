@@ -1,0 +1,20 @@
+{
+  "description": "Number of labeled 6-arch graphs on n nodes.",
+  "id": "A131315",
+  "mentions": [
+    "A098721",
+    "A098724",
+    "A131311",
+    "A131314"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

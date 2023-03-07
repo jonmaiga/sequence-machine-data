@@ -1,0 +1,23 @@
+{
+  "description": "Numbers with exactly one odd decimal digit.",
+  "id": "A294601",
+  "mentions": [
+    "A014263",
+    "A054684",
+    "A081040",
+    "A196564",
+    "A275775"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:12",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

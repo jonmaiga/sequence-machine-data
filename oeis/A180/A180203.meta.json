@@ -1,0 +1,19 @@
+{
+  "description": "Differences between prime powers of primes, offsetting the prime and the power by only one. (For purposes of this sequence, 0 and 1 are treated as primes; see Formula.)",
+  "id": "A180203",
+  "mentions": [
+    "A078422",
+    "A088385"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

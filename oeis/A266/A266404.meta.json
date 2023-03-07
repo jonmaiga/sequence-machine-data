@@ -1,0 +1,26 @@
+{
+  "description": "Self-inverse permutation of natural numbers: a(n) = A250470(A030101(A250469(n))).",
+  "id": "A266404",
+  "mentions": [
+    "A000035",
+    "A030101",
+    "A057889",
+    "A250469",
+    "A250470",
+    "A265329",
+    "A266402",
+    "A266403"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:27",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

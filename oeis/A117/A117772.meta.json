@@ -1,0 +1,19 @@
+{
+  "description": "Total number of palindromic primes in base 2 below 2^n.",
+  "id": "A117772",
+  "mentions": [
+    "A016041",
+    "A117697"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:07",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

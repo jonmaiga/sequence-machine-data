@@ -1,0 +1,23 @@
+{
+  "description": "Number of permutations i_0, i_1, ..., i_n of 0, 1, ..., n with i_0 = 0 and i_n = n such that the n+1 numbers i_0^2+i_1, i_1^2+i_2, ..., i_{n-1}^2+i_n, i_n^2+i_0 are all relatively prime to both n-1 and n+1.",
+  "id": "A229130",
+  "mentions": [
+    "A228886",
+    "A228917",
+    "A228956",
+    "A229005",
+    "A229038",
+    "A229082"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

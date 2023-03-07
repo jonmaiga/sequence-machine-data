@@ -1,0 +1,24 @@
+{
+  "description": "Number of simple chord-labeled chord diagrams with n chords.",
+  "id": "A278992",
+  "mentions": [
+    "A003436",
+    "A003437",
+    "A007474",
+    "A278990",
+    "A278991",
+    "A278993",
+    "A278994"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 17:28:06",
+    "offset": 1,
+    "size": 20,
+    "source": "joeis"
+  }
+}

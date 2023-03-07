@@ -1,0 +1,27 @@
+{
+  "description": "Triangle, read by rows, given by (2, -1, 0, 0, 0, 0, 0, 0, 0, ...) DELTA (2, -1/2, -1/2, 0, 0, 0, 0, 0, 0, 0, ...) where DELTA is the operator defined in A084938.",
+  "id": "A210239",
+  "mentions": [
+    "A000007",
+    "A000045",
+    "A026150",
+    "A040000",
+    "A067331",
+    "A084938",
+    "A112087",
+    "A122803"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:07:03",
+    "offset": 0,
+    "size": 55,
+    "source": "joeis"
+  }
+}

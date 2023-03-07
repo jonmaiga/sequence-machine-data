@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = (8*n^3 + 15*n^2 + 13*n)/6.",
+  "id": "A332698",
+  "mentions": [
+    "A331987",
+    "A332662"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:58:07",
+    "offset": 0,
+    "size": 42,
+    "source": "joeis"
+  }
+}

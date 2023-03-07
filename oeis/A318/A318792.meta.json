@@ -1,0 +1,17 @@
+{
+  "description": "Consider the numbers of the form k^2 + 1 = p*q, p, q primes, where each sum p + q is constant for all k in the set {k_1, k_2, ..., k_r} (A181177). The sequence lists the corresponding sums p + q.",
+  "id": "A318792",
+  "mentions": [
+    "A181177"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

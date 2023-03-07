@@ -1,0 +1,19 @@
+{
+  "description": "Strobogrammatic (A000787) composite numbers whose prime factors are strobogrammatic as well.",
+  "id": "A274831",
+  "mentions": [
+    "A000787",
+    "A007597"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:39",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

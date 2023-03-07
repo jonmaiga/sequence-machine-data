@@ -1,0 +1,21 @@
+{
+  "description": "Restricted growth sequence transform of A297174: a filter sequence recording the prime signatures of divisors of n, with divisors ordered by their magnitude.",
+  "id": "A300250",
+  "mentions": [
+    "A046523",
+    "A101296",
+    "A290110",
+    "A297174",
+    "A300716"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:24",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

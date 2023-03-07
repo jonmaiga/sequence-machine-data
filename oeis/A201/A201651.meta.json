@@ -1,0 +1,18 @@
+{
+  "description": "Bit-interleaved number addition table (cf. A054240) as triangle read by rows: T(n,k) = n and k added in binary representation, where carries shift 2 instead of 1, 0 <= k <= n.",
+  "id": "A201651",
+  "mentions": [
+    "A054240"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-27 17:32:19",
+    "offset": 0,
+    "size": 70,
+    "source": "joeis"
+  }
+}

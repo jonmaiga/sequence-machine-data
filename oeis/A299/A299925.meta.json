@@ -1,0 +1,30 @@
+{
+  "description": "Number of chains in Young's lattice from () to the partition with Heinz number n.",
+  "id": "A299925",
+  "mentions": [
+    "A000085",
+    "A001222",
+    "A056239",
+    "A063834",
+    "A112798",
+    "A122111",
+    "A138178",
+    "A153452",
+    "A238690",
+    "A296150",
+    "A296188",
+    "A296561",
+    "A297388",
+    "A299202"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

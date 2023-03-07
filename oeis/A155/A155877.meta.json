@@ -1,0 +1,28 @@
+{
+  "description": "Sums of three Fermat numbers.",
+  "id": "A155877",
+  "mentions": [
+    "A000215",
+    "A019434",
+    "A050922",
+    "A051179",
+    "A059919",
+    "A063486",
+    "A073617",
+    "A078303",
+    "A078304",
+    "A085866"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "changed",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

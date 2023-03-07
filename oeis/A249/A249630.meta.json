@@ -1,0 +1,17 @@
+{
+  "description": "Sums of the composite numbers placed between two consecutive prime numbers (A054265), sorted in increasing order.",
+  "id": "A249630",
+  "mentions": [
+    "A054265"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:06",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

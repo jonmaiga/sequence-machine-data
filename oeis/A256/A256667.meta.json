@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of Integral_{x=0..Pi/2} sqrt(2-sin(x)^2) dx, an elliptic integral once studied by John Landen.",
+  "id": "A256667",
+  "mentions": [
+    "A062539",
+    "A068465",
+    "A068467"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

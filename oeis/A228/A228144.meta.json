@@ -1,0 +1,18 @@
+{
+  "description": "Smallest k > n such that j*10^k + m*10^n - 1 is a prime number for at least a pair {j,m} with 0 < j < 10 and 0 < m < 10.",
+  "id": "A228144",
+  "mentions": [
+    "A213790",
+    "A213883"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:45",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

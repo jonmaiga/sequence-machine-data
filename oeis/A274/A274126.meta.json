@@ -1,0 +1,25 @@
+{
+  "description": "Numbers with digits larger than 1 sorted by product of digits minus sum of digits, then by size.",
+  "id": "A274126",
+  "mentions": [
+    "A002276",
+    "A011540",
+    "A037344",
+    "A062329",
+    "A062996",
+    "A254621",
+    "A261370",
+    "A274125"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:39",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of Sum_{k>=1} A089723(k)/2^k.",
+  "id": "A346402",
+  "mentions": [
+    "A089723"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

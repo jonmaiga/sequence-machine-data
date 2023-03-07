@@ -1,0 +1,28 @@
+{
+  "description": "Numbers in whose primorial base expansion only even digits appear.",
+  "id": "A328849",
+  "mentions": [
+    "A000196",
+    "A000290",
+    "A002110",
+    "A010052",
+    "A049345",
+    "A276086",
+    "A276156",
+    "A328770",
+    "A328834",
+    "A328850"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

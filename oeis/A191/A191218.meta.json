@@ -1,0 +1,25 @@
+{
+  "description": "Odd numbers n such that sigma(n) is congruent to 2 modulo 4.",
+  "id": "A191218",
+  "mentions": [
+    "A000203",
+    "A191217",
+    "A191219",
+    "A228058",
+    "A324647",
+    "A324718",
+    "A324719",
+    "A324898"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:15",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

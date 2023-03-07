@@ -1,0 +1,27 @@
+{
+  "description": "Number of digraphs with vertices {1..n} whose increasing edges are crossing.",
+  "id": "A326252",
+  "mentions": [
+    "A002416",
+    "A002720",
+    "A229865",
+    "A324170",
+    "A326209",
+    "A326210",
+    "A326237",
+    "A326251",
+    "A326258"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

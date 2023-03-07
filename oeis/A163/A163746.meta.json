@@ -1,0 +1,27 @@
+{
+  "description": "Expansion of (theta_3(q)^2 + 3 * theta_3(q^3)^2) / 4 - 1 in powers of q.",
+  "id": "A163746",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A010054",
+    "A010815",
+    "A121373",
+    "A122856",
+    "A122865",
+    "A125061",
+    "A138741"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:45",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

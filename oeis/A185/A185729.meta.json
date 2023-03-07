@@ -1,0 +1,18 @@
+{
+  "description": "Numbers that are the sum of their first k non-divisors for some k.",
+  "id": "A185729",
+  "mentions": [
+    "A064510",
+    "A185811"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:10",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

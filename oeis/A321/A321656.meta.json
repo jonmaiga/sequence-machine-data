@@ -1,0 +1,21 @@
+{
+  "description": "Fibonacci numbers with distinct digits.",
+  "id": "A321656",
+  "mentions": [
+    "A000045",
+    "A010784"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

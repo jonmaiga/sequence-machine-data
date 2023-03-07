@@ -1,0 +1,21 @@
+{
+  "description": "Defining sequence for an inverse Fredholm-Rueppel triangle.",
+  "id": "A104977",
+  "mentions": [
+    "A090678",
+    "A104975",
+    "A209229"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:56",
+    "offset": 0,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

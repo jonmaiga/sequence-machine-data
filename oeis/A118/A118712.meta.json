@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Determinant of n X n circulant matrix whose first row is A000001(1), A000001(2), ..., A000001(n) where A000001(n) = number of groups of order n.",
+  "id": "A118712",
+  "mentions": [
+    "A000001",
+    "A048954",
+    "A052182",
+    "A066933",
+    "A086459",
+    "A086569"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

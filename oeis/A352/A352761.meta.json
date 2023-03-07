@@ -1,0 +1,18 @@
+{
+  "description": "Number of partial order relations on [n] such that 1 and 2 are in the same connected component.",
+  "id": "A352761",
+  "mentions": [
+    "A001035",
+    "A352399"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 2,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

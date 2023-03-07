@@ -1,0 +1,18 @@
+{
+  "description": "Prime numbers n for which nontrivial cycles of the Ducci map do not all have the same length.",
+  "id": "A138005",
+  "mentions": [
+    "A138004"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

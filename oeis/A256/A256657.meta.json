@@ -1,0 +1,20 @@
+{
+  "description": "Numbers for which the minimal alternating Fibonacci representation has negative trace.",
+  "id": "A256657",
+  "mentions": [
+    "A000045",
+    "A256655",
+    "A256656"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

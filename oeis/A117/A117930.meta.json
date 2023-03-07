@@ -1,0 +1,19 @@
+{
+  "description": "Number of partitions of 2n into factorial parts (0! not allowed, i.e., only one kind of 1 can be a part). Also number of partitions of 2n+1 into factorial parts.",
+  "id": "A117930",
+  "mentions": [
+    "A064986",
+    "A090632"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:07",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

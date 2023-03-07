@@ -1,0 +1,17 @@
+{
+  "description": "Odd numbers n such that for all k >= 1 the numbers n*4^k - 1 and n*4^k + 1 do not form a twin prime pair.",
+  "id": "A282057",
+  "mentions": [
+    "A237592"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

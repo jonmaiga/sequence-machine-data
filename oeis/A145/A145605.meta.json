@@ -1,0 +1,21 @@
+{
+  "description": "Irregular triangle in which row n consists of all numbers x such that x and x+1 are both prime(n)-smooth numbers but not both prime(n-1)-smooth.",
+  "id": "A145605",
+  "mentions": [
+    "A138180",
+    "A145604",
+    "A145606",
+    "A252489"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

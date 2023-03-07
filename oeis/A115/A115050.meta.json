@@ -1,0 +1,17 @@
+{
+  "description": "Numbers n such that in the 3 X 3 square arrangement of the 9 primes p(n),..,p(n+8), totals of 3 rows and 3 columns, are all prime.",
+  "id": "A115050",
+  "mentions": [
+    "A116936"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

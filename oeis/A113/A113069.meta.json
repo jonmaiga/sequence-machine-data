@@ -1,0 +1,18 @@
+{
+  "description": "Number of highly composite numbers between two consecutive superior highly composite numbers.",
+  "id": "A113069",
+  "mentions": [
+    "A002182",
+    "A002201"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:03",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Number of partitions of n such that 4*(greatest part) >= (number of parts).",
+  "id": "A347868",
+  "mentions": [
+    "A064174",
+    "A237755",
+    "A347867",
+    "A347869",
+    "A348163"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

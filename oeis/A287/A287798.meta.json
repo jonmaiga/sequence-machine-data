@@ -1,0 +1,25 @@
+{
+  "description": "Least k such that A006667(k)/A006577(k) = 1/n.",
+  "id": "A287798",
+  "mentions": [
+    "A006577",
+    "A006666",
+    "A006667",
+    "A020714",
+    "A084215",
+    "A146523",
+    "A257113"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:00",
+    "offset": 3,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

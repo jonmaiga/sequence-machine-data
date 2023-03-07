@@ -1,0 +1,25 @@
+{
+  "description": "Triangle of coefficients of a polynomial sequence related to the Morgan-Voyce polynomials A085478.",
+  "id": "A211957",
+  "mentions": [
+    "A085478",
+    "A111125",
+    "A204021",
+    "A208513",
+    "A211955",
+    "A211956"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:12:13",
+    "offset": 0,
+    "size": 66,
+    "source": "joeis"
+  }
+}

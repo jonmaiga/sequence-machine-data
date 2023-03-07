@@ -1,0 +1,36 @@
+{
+  "description": "Numbers whose arithmetic derivative (A003415) is a primorial number (A002110) > 1.",
+  "id": "A327978",
+  "mentions": [
+    "A002110",
+    "A002375",
+    "A002620",
+    "A003415",
+    "A004709",
+    "A024451",
+    "A143293",
+    "A157037",
+    "A189553",
+    "A235992",
+    "A276086",
+    "A276150",
+    "A327859",
+    "A327862",
+    "A327969",
+    "A328232",
+    "A328233",
+    "A328234",
+    "A328243"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:56",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

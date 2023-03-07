@@ -1,0 +1,22 @@
+{
+  "description": "Triangle T(n, k) = n!*binomial(n, k) - n! + 1, read by rows.",
+  "id": "A174690",
+  "mentions": [
+    "A000165",
+    "A021012",
+    "A196347"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:58",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

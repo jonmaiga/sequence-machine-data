@@ -1,0 +1,26 @@
+{
+  "description": "Theta series of the 12-dimensional lattice of hyper-roots D_3(SU(3)).",
+  "id": "A288488",
+  "mentions": [
+    "A008434",
+    "A287329",
+    "A287944",
+    "A288489",
+    "A288776",
+    "A288779",
+    "A288909",
+    "A290654",
+    "A290655"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

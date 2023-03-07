@@ -1,0 +1,18 @@
+{
+  "description": "Number of morphically primitive words w in {1,2,3,...}^* of length n (modulo renaming), also the number of words (length n) which are fixed points of nontrivial morphisms, also the number of succinct patterns of length n in canonical form, also the number of words which have an unambiguous morphic image in {a,b}^*.",
+  "id": "A131747",
+  "mentions": [
+    "A000110"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

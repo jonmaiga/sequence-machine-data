@@ -1,0 +1,22 @@
+{
+  "description": "Triangle a(n,m) = (A000045(m) mod 3)+ (A000045(n) mod 7) read by rows.",
+  "id": "A117875",
+  "mentions": [
+    "A000045",
+    "A082115",
+    "A105870"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

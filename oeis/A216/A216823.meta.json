@@ -1,0 +1,21 @@
+{
+  "description": "Prime factors of Giuga numbers A007850 with 8 or fewer prime divisors.",
+  "id": "A216823",
+  "mentions": [
+    "A007850",
+    "A216824",
+    "A236434"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

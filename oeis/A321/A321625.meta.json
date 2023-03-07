@@ -1,0 +1,21 @@
+{
+  "description": "The Riordan square of the swinging factorial (A056040), triangle read by rows, T(n, k) for 0 <= k<= n.",
+  "id": "A321625",
+  "mentions": [
+    "A000007",
+    "A056040",
+    "A321620",
+    "A321626"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

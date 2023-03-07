@@ -1,0 +1,30 @@
+{
+  "description": "Riordan array (1, x*g(x)) where g(x) is g.f. of double factorials A001147.",
+  "id": "A111106",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A001147",
+    "A001477",
+    "A034430",
+    "A055998",
+    "A084938",
+    "A111088",
+    "A112934",
+    "A168441",
+    "A357368"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

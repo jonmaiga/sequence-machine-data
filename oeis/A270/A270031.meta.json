@@ -1,0 +1,27 @@
+{
+  "description": "a(n) is the smallest b for which the base-b representation of n contains at least one 5 (or 0 if no such base exists).",
+  "id": "A270031",
+  "mentions": [
+    "A216194",
+    "A270027",
+    "A270028",
+    "A270029",
+    "A270030",
+    "A270032",
+    "A270033",
+    "A270034",
+    "A270035",
+    "A270041"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:32",
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

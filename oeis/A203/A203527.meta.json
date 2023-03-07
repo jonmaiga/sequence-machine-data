@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Product_{1 <= i < j <= n} (A018252(i) + A018252(j)); A018252 = nonprime numbers.",
+  "id": "A203527",
+  "mentions": [
+    "A000178",
+    "A018252",
+    "A093883",
+    "A203415",
+    "A203528",
+    "A203529"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 05:38:00",
+    "offset": 1,
+    "size": 10,
+    "source": "joeis"
+  }
+}

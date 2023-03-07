@@ -1,0 +1,20 @@
+{
+  "description": "Number of ludic numbers (A003309) not greater than n.",
+  "id": "A192512",
+  "mentions": [
+    "A000720",
+    "A003309",
+    "A192490"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

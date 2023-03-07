@@ -1,0 +1,28 @@
+{
+  "description": "Table read by rows: T(n,k) is the number of integers in the interval [2^(n-1), 2^n - 1] that have the k-th least prime signature.",
+  "id": "A351380",
+  "mentions": [
+    "A000040",
+    "A001248",
+    "A006881",
+    "A007304",
+    "A025487",
+    "A030078",
+    "A030514",
+    "A054753",
+    "A065036",
+    "A162145"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 107,
+    "source": "oeis-entry"
+  }
+}

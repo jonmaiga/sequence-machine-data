@@ -1,0 +1,18 @@
+{
+  "description": "Carmichael numbers n such that n-1 is not a practical number.",
+  "id": "A265827",
+  "mentions": [
+    "A002997",
+    "A261614"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:25",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

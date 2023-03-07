@@ -1,0 +1,18 @@
+{
+  "description": "Initially there are n people in a room. At each step, if there are currently M people in the room, [M/k^2] of them leave, for k = 2, 3, ... Sequence gives number who are left at the end.",
+  "id": "A100618",
+  "mentions": [
+    "A100617",
+    "A250007"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:51",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

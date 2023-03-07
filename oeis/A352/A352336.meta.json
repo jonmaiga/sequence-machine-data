@@ -1,0 +1,21 @@
+{
+  "description": "The smallest unused numbers when A109812(n) is being calculated.",
+  "id": "A352336",
+  "mentions": [
+    "A109812",
+    "A113233",
+    "A352203",
+    "A352359"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:26",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

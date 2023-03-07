@@ -1,0 +1,25 @@
+{
+  "description": "Pseudo-safe-primes: numbers n = 2m+1 with 2^m congruent to n+1 or 3n-1 modulo m*n, but m composite.",
+  "id": "A300193",
+  "mentions": [
+    "A000040",
+    "A001262",
+    "A001567",
+    "A005384",
+    "A005385",
+    "A006935",
+    "A006970",
+    "A303008",
+    "A303448"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:24",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Dirichlet convolution of right-shifted Catalan numbers with A349452 (Dirichlet inverse of A011782, 2^(n-1)).",
+  "id": "A349563",
+  "mentions": [
+    "A000108",
+    "A011782",
+    "A034729",
+    "A034731",
+    "A349452",
+    "A349564",
+    "A349565",
+    "A349567",
+    "A349569"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:24",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

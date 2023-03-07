@@ -1,0 +1,23 @@
+{
+  "description": "Trajectory of 596 under repeated application of the map k -> A320486(k^2).",
+  "id": "A321012",
+  "mentions": [
+    "A320485",
+    "A320486",
+    "A321010",
+    "A321011"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 09:51:23",
+    "offset": 1,
+    "size": 40,
+    "source": "joeis"
+  }
+}

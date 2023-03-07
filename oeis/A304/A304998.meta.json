@@ -1,0 +1,24 @@
+{
+  "description": "Number of unlabeled antichains of finite sets spanning n vertices without singletons.",
+  "id": "A304998",
+  "mentions": [
+    "A006126",
+    "A261005",
+    "A304996",
+    "A304997",
+    "A304999",
+    "A305000",
+    "A305001"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

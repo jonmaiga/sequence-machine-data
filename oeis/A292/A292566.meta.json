@@ -1,0 +1,21 @@
+{
+  "description": "Primes that can be reached with their prime-index, if you start with the prime-index and use iterations of A062028.",
+  "id": "A292566",
+  "mentions": [
+    "A000720",
+    "A004207",
+    "A007618",
+    "A062028"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

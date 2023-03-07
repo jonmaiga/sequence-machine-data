@@ -1,0 +1,21 @@
+{
+  "description": "Total number of permutations p of [n] such that |p(i+3) - p(i)| is not equal to 3 for 1 <= i <= n-3.",
+  "id": "A117574",
+  "mentions": [
+    "A002464",
+    "A110128",
+    "A333706"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:07",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

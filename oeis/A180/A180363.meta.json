@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = Lucas(prime(n)).",
+  "id": "A180363",
+  "mentions": [
+    "A000032",
+    "A000040",
+    "A000045",
+    "A030426",
+    "A032170",
+    "A064723"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:03",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

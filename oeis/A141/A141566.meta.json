@@ -1,0 +1,18 @@
+{
+  "description": "Primes and exponents in the prime number decomposition of n replaced by primes at these positions.",
+  "id": "A141566",
+  "mentions": [
+    "A000040",
+    "A002808"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

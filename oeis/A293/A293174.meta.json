@@ -1,0 +1,19 @@
+{
+  "description": "Markoff spectrum N^(2)(Lambda).",
+  "id": "A293174",
+  "mentions": [
+    "A002559",
+    "A293173"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

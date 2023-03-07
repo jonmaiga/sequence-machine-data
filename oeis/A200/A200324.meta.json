@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = floor(10*(sqrt(prime(n+1)) - sqrt(prime(n)))).",
+  "id": "A200324",
+  "mentions": [
+    "A000040",
+    "A079063",
+    "A200474"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:21",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

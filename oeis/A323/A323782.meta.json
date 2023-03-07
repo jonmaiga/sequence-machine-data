@@ -1,0 +1,22 @@
+{
+  "description": "Prime numbers such that the reverse of the balanced ternary representation is a prime or a negated prime.",
+  "id": "A323782",
+  "mentions": [
+    "A000040",
+    "A134028",
+    "A224502",
+    "A323783",
+    "A323784"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

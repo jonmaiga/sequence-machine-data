@@ -1,0 +1,17 @@
+{
+  "description": "Values k for which rank of hyperelliptic curve y^2 = x^5 - k is 0.",
+  "id": "A198394",
+  "mentions": [
+    "A198393"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that the average of squarefree kernels of all positive integers <= k is an integer.",
+  "id": "A303480",
+  "mentions": [
+    "A007947",
+    "A073355",
+    "A226647",
+    "A284755",
+    "A285510"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the largest digit sum of m^2 for m in the interval 10^(n-1)..(10^n)-1.",
+  "id": "A348300",
+  "mentions": [
+    "A004159",
+    "A348303"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Triangle read by rows: even numbers as sums of two odd primes.",
+  "id": "A116366",
+  "mentions": [
+    "A001043",
+    "A001747",
+    "A048448",
+    "A065305",
+    "A065342",
+    "A100484",
+    "A113935",
+    "A116367",
+    "A116368"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:06",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

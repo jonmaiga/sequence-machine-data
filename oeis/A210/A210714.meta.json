@@ -1,0 +1,22 @@
+{
+  "description": "Number of disconnected regular simple graphs on n vertices with girth exactly 4.",
+  "id": "A210714",
+  "mentions": [
+    "A185214",
+    "A185215",
+    "A185244"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Least term p of A236568 with 2*n - p prime, or 0 if such a prime p does not exist.",
+  "id": "A236569",
+  "mentions": [
+    "A000040",
+    "A020481",
+    "A236566",
+    "A236568"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:54",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Triangular numbers composed of digits {4,6,9}.",
+  "id": "A119214",
+  "mentions": [
+    "A000217",
+    "A053961",
+    "A119033",
+    "A119215"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

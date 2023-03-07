@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of Sum_{k >= 1} (-1)^(k+1)/(k^2 + 4*k - 1).",
+  "id": "A358519",
+  "mentions": [
+    "A002162",
+    "A028875",
+    "A242023",
+    "A242024",
+    "A358516",
+    "A358517"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 95,
+    "source": "oeis-entry"
+  }
+}

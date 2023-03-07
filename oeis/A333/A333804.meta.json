@@ -1,0 +1,18 @@
+{
+  "description": "(1/16) times the number of permutations p of [n+2] such that |p(i+n) - p(i)| <> n for i in {1,2}.",
+  "id": "A333804",
+  "mentions": [
+    "A333706"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:04",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

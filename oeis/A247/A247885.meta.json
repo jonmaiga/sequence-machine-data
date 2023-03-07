@@ -1,0 +1,27 @@
+{
+  "description": "Smallest square that remains a square when prefixed with n.",
+  "id": "A247885",
+  "mentions": [
+    "A167035",
+    "A167036",
+    "A167037",
+    "A167038",
+    "A167039",
+    "A167041",
+    "A167042",
+    "A167043",
+    "A167044"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:04",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

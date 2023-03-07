@@ -1,0 +1,17 @@
+{
+  "description": "Number of nX6 0..1 arrays with every element equal to 0, 3, 4, 5, 6, 7 or 8 king-move adjacent elements, with upper left element zero.",
+  "id": "A300136",
+  "mentions": [
+    "A300138"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:24",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

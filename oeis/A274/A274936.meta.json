@@ -1,0 +1,25 @@
+{
+  "description": "Number of n-node unlabeled forests that have 2 non-isomorphic components.",
+  "id": "A274936",
+  "mentions": [
+    "A000055",
+    "A216785",
+    "A274934",
+    "A274935",
+    "A274937",
+    "A274938",
+    "A275165",
+    "A275166"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:40",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

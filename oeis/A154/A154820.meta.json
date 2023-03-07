@@ -1,0 +1,22 @@
+{
+  "description": "Numbers whose trajectory under iteration of sum of cubes of digits eventually turns out to follow the cyclic iteration of 133, 55, 250.",
+  "id": "A154820",
+  "mentions": [
+    "A055012",
+    "A154877",
+    "A165336",
+    "A165337",
+    "A165339"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

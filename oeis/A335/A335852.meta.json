@@ -1,0 +1,21 @@
+{
+  "description": "Product of the exponents in the prime factorization of n in the ring of Gaussian integers.",
+  "id": "A335852",
+  "mentions": [
+    "A005361",
+    "A062327",
+    "A335851"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:07",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

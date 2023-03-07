@@ -1,0 +1,28 @@
+{
+  "description": "Denominator of the sum of all elements in the n X n Hilbert matrix M(i,j) = 1/(i+j-1), where i,j = 1..n.",
+  "id": "A117664",
+  "mentions": [
+    "A001008",
+    "A002805",
+    "A005249",
+    "A058312",
+    "A058313",
+    "A082687",
+    "A086881",
+    "A091342",
+    "A098118",
+    "A111876",
+    "A117731"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

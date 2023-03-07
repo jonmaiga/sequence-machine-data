@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = (Sum_{i=1..n-1} i^(n-2)) mod n^3.",
+  "id": "A284759",
+  "mentions": [
+    "A000578",
+    "A076015",
+    "A088164",
+    "A284760"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:56",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

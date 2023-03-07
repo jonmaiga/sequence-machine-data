@@ -1,0 +1,30 @@
+{
+  "description": "A(n,k) = Sum_{j=0..floor(n/2)} binomial(n-j,j)^k, square array A(n,k) read by antidiagonals, for n >= 0, k >= 0.",
+  "id": "A323767",
+  "mentions": [
+    "A000012",
+    "A000045",
+    "A000051",
+    "A004526",
+    "A007395",
+    "A011973",
+    "A051286",
+    "A074506",
+    "A168607",
+    "A181545",
+    "A181546",
+    "A181547",
+    "A323769"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:48",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

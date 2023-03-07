@@ -1,0 +1,28 @@
+{
+  "description": "Numbers with exactly 5 distinct prime divisors {2,3,5,7,11}.",
+  "id": "A147572",
+  "mentions": [
+    "A000079",
+    "A033845",
+    "A051038",
+    "A060735",
+    "A143207",
+    "A147571",
+    "A147573",
+    "A147574",
+    "A147575",
+    "A147576",
+    "A147580"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:34",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

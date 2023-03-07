@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows, T(n,k) = (4n-3)*(4k-3); 1<=k<=n.",
+  "id": "A143254",
+  "mentions": [
+    "A000012",
+    "A016813",
+    "A100147"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:33:11",
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

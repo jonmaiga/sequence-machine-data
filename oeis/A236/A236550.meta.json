@@ -1,0 +1,18 @@
+{
+  "description": "The number of maximal independent sets in L(J_n), the line graph of the flower snark graph J_n.",
+  "id": "A236550",
+  "mentions": [
+    "A236549"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:54",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

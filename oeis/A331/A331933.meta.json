@@ -1,0 +1,37 @@
+{
+  "description": "Number of semi-lone-child-avoiding rooted trees with at most one distinct non-leaf branch directly under any vertex.",
+  "id": "A331933",
+  "mentions": [
+    "A000081",
+    "A001678",
+    "A003238",
+    "A004111",
+    "A050381",
+    "A214577",
+    "A291636",
+    "A306200",
+    "A320222",
+    "A320230",
+    "A320268",
+    "A320269",
+    "A331784",
+    "A331872",
+    "A331912",
+    "A331914",
+    "A331934",
+    "A331935",
+    "A331936",
+    "A331966"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:01",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

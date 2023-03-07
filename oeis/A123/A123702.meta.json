@@ -1,0 +1,19 @@
+{
+  "description": "a(1)=a(2)=1. For n >= 3, a(n) = (product{k=1 to n-1} a(k)) - (sum{j=1 to n-1} a(j)).",
+  "id": "A123702",
+  "mentions": [
+    "A123703"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

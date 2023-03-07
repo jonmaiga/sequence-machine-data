@@ -1,0 +1,19 @@
+{
+  "description": "Number of positive integer pairs (x,y) such that there exist positive integers p and q satisfying p*x + q*y = n.",
+  "id": "A302292",
+  "mentions": [
+    "A000005",
+    "A302294"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

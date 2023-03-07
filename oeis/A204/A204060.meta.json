@@ -1,0 +1,23 @@
+{
+  "description": "G.f.: Sum_{n>=1} Fibonacci(n^2)*x^(n^2).",
+  "id": "A204060",
+  "mentions": [
+    "A000045",
+    "A000204",
+    "A008836",
+    "A054783",
+    "A203847",
+    "A209614"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

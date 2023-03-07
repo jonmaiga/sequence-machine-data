@@ -1,0 +1,20 @@
+{
+  "description": "Triangular array of values of Wieferich primes p in A252232 read by rows.",
+  "id": "A252582",
+  "mentions": [
+    "A252232"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "hard",
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

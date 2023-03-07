@@ -1,0 +1,21 @@
+{
+  "description": "Number T(n,k) of partitions of n into distinct parts with standard deviation σ in the half-open interval [k,k+1); triangle T(n,k), n>=1, 0<=k<=max(0,floor(n/2)-1), read by rows.",
+  "id": "A239228",
+  "mentions": [
+    "A000009",
+    "A140106",
+    "A239140",
+    "A239223"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:56",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

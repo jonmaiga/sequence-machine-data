@@ -1,0 +1,17 @@
+{
+  "description": "Index of first occurrence of n in A281579.",
+  "id": "A281900",
+  "mentions": [
+    "A281579"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:51",
+    "offset": 2,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

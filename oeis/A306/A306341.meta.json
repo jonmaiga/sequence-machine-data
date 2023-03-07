@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of lambda(8) in Li's criterion.",
+  "id": "A306341",
+  "mentions": [
+    "A074760",
+    "A104539",
+    "A104540",
+    "A104541",
+    "A104542",
+    "A306339",
+    "A306340"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 110,
+    "source": "oeis-entry"
+  }
+}

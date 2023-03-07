@@ -1,0 +1,22 @@
+{
+  "description": "Primes of the form 2*x^2 + x*y + 3*y^2.",
+  "id": "A106867",
+  "mentions": [
+    "A000594",
+    "A028929",
+    "A086965",
+    "A106856",
+    "A278578"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:58",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

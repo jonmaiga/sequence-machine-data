@@ -1,0 +1,22 @@
+{
+  "description": "The number of upper-triangular matrices with integer entries whose absolute sum is equal to n and such that each row contains a nonzero entry.",
+  "id": "A289313",
+  "mentions": [
+    "A022493",
+    "A158691",
+    "A179525",
+    "A289312"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:03",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

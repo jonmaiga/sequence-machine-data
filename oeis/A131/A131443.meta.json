@@ -1,0 +1,21 @@
+{
+  "description": "Numerators of n-th approximation of factorial (also called harmonic) expansion of the golden section phi:=(1+sqrt(5))/2.",
+  "id": "A131443",
+  "mentions": [
+    "A068451",
+    "A131444"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

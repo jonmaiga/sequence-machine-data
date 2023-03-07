@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the difference between n! and the next smaller odd squarefree semiprime (A046388).",
+  "id": "A356207",
+  "mentions": [
+    "A000142",
+    "A046388",
+    "A131057"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 4,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

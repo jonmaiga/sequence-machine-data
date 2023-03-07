@@ -1,0 +1,21 @@
+{
+  "description": "Numbers of strongly carefree couples (a,b) with a,b <= n.",
+  "id": "A118259",
+  "mentions": [
+    "A005117",
+    "A065473",
+    "A118258",
+    "A118260"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

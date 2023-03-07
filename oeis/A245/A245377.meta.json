@@ -1,0 +1,19 @@
+{
+  "description": "Number of 2-alternating permutations of 1,2,...,n, that is, a(n) is the number of down/up permutations (A000111) of 1,2,...,n such that any two consecutive terms differ by at least two.",
+  "id": "A245377",
+  "mentions": [
+    "A000111",
+    "A002464"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

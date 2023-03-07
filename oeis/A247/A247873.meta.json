@@ -1,0 +1,20 @@
+{
+  "description": "For bases b = 2, 3, ..., n, let the base-b expansion of n be [c_{1,b} c_{2,b} .. c_{r_b,b}], with the most significant \"digit\" on the left, 0 <= c_{i,b} < b, and c_{1,b} != 0; then a(n) is the number whose base-n expansion is c_{1,n} c_{2,n} ... c_{r_n,n} c_{1,n-1} ... c_{1,2} c_{2,2} ... c_{r_2,2}.",
+  "id": "A247873",
+  "mentions": [
+    "A247878",
+    "A247880"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:04",
+    "offset": 2,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

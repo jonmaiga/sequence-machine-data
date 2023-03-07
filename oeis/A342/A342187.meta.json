@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that both k and k+1 are not exponentially odd numbers.",
+  "id": "A342187",
+  "mentions": [
+    "A068140",
+    "A068781",
+    "A072587",
+    "A268335",
+    "A342188",
+    "A342189"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:15",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Sum of GCD of cycle lengths over all permutations of [n].",
+  "id": "A346066",
+  "mentions": [
+    "A060014",
+    "A346085"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:19",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

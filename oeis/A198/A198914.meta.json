@@ -1,0 +1,32 @@
+{
+  "description": "T(n,k) = number of n X k 0..7 arrays with values 0..7 introduced in row major order and no element equal to any horizontal or vertical neighbor.",
+  "id": "A198914",
+  "mentions": [
+    "A099262",
+    "A198715",
+    "A198723",
+    "A198906",
+    "A198907",
+    "A198908",
+    "A198909",
+    "A198910",
+    "A198911",
+    "A198912",
+    "A198913",
+    "A198982",
+    "A207868",
+    "A207997",
+    "A222462"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:20",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

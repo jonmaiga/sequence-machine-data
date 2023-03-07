@@ -1,0 +1,23 @@
+{
+  "description": "E.g.f. exp( Integral A(x) dx ) = (B(x) + C(x))/9 where B(x) = 4 + Integral A(x)*C(x) dx and C(x) = 5 + Integral A(x)*B(x) dx such that A(x)^2 - 3^2 = B(x)^2 - 4^2 = C(x)^2 - 5^2.",
+  "id": "A323569",
+  "mentions": [
+    "A323563",
+    "A323564",
+    "A323565",
+    "A323566",
+    "A323567",
+    "A323568"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:48",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Array A(b,n) by upward antidiagonals (b>1, n>0): the eventual period of the RATS sequence in base b starting from n; 0 is for infinity.",
+  "id": "A288537",
+  "mentions": [
+    "A004000",
+    "A036839",
+    "A114611",
+    "A134067",
+    "A161593",
+    "A164338",
+    "A288535",
+    "A288536"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 2,
+    "size": 84,
+    "source": "oeis-entry"
+  }
+}

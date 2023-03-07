@@ -1,0 +1,25 @@
+{
+  "description": "Triangle read by rows in which row n lists the compositions (ordered partitions) of n (see Comments lines for definition).",
+  "id": "A228528",
+  "mentions": [
+    "A001787",
+    "A001792",
+    "A011782",
+    "A066099",
+    "A227736",
+    "A228351",
+    "A228369",
+    "A228525"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-entry"
+  }
+}

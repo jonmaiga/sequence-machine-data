@@ -1,0 +1,22 @@
+{
+  "description": "Number of compositions (ordered partitions) of n into at most 5 powers of 2.",
+  "id": "A347786",
+  "mentions": [
+    "A000079",
+    "A023359",
+    "A151761",
+    "A347784",
+    "A347785",
+    "A347787"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

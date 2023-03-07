@@ -1,0 +1,35 @@
+{
+  "description": "Triangular array C(n,r) = number of connected r-regular graphs, having girth exactly 3, with n nodes, for 0 <= r < n.",
+  "id": "A186733",
+  "mentions": [
+    "A006923",
+    "A068934",
+    "A184943",
+    "A184953",
+    "A184963",
+    "A184973",
+    "A184983",
+    "A184993",
+    "A186714",
+    "A186715",
+    "A186716",
+    "A186717",
+    "A186718",
+    "A186719",
+    "A186734",
+    "A186743"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "hard",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:11",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

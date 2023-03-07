@@ -1,0 +1,19 @@
+{
+  "description": "Square numbers s such that all the digits needed to write the consecutive square numbers from 0 to s fill exactly a square (no holes, no overlaps).",
+  "id": "A158028",
+  "mentions": [
+    "A158022",
+    "A158029"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "First differences of A176983.",
+  "id": "A177828",
+  "mentions": [
+    "A176983",
+    "A177829"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

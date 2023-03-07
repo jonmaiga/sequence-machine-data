@@ -1,0 +1,20 @@
+{
+  "description": "Numerators of fraction whose denominator is defined in A303612.",
+  "id": "A297367",
+  "mentions": [
+    "A303612"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "easy",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of nonequivalent proper colorings of the vertices of a 4D hypercube using at most n colors up to rotations and reflections of the cube.",
+  "id": "A334357",
+  "mentions": [
+    "A128767",
+    "A158348",
+    "A334356",
+    "A334358"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:18:01",
+    "offset": 1,
+    "size": 19,
+    "source": "joeis"
+  }
+}

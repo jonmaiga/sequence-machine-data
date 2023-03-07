@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the least number k such that k*n+1 is a prime dividing n^n-1.",
+  "id": "A187025",
+  "mentions": [
+    "A187023",
+    "A187024"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 2,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

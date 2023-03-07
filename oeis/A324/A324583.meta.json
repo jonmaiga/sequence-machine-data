@@ -1,0 +1,39 @@
+{
+  "description": "Numbers k such that k and A276086(k) are coprime, where A276086 is the primorial base exp-function.",
+  "id": "A324583",
+  "mentions": [
+    "A000005",
+    "A000010",
+    "A000203",
+    "A002110",
+    "A002182",
+    "A025487",
+    "A055932",
+    "A276086",
+    "A324198",
+    "A324580",
+    "A324584",
+    "A324650",
+    "A324653",
+    "A324655",
+    "A351250",
+    "A351254",
+    "A355821",
+    "A356162",
+    "A356302",
+    "A356303",
+    "A356309",
+    "A356311",
+    "A356316"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:50",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

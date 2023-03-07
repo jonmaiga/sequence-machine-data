@@ -1,0 +1,38 @@
+{
+  "description": "Number of loops of order n, considered to be equivalent when they are isomorphic or anti-isomorphic (by reversal of the operator).",
+  "id": "A328746",
+  "mentions": [
+    "A000001",
+    "A000688",
+    "A001423",
+    "A001426",
+    "A027623",
+    "A027851",
+    "A037289",
+    "A037291",
+    "A038036",
+    "A057771",
+    "A057991",
+    "A057992",
+    "A057996",
+    "A058129",
+    "A058131",
+    "A058133",
+    "A058171",
+    "A069513",
+    "A089925"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

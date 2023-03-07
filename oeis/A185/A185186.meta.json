@@ -1,0 +1,26 @@
+{
+  "description": "Numbers divisible by at least one of their digits other than 1.",
+  "id": "A185186",
+  "mentions": [
+    "A034293",
+    "A131629",
+    "A136291",
+    "A187238",
+    "A187398",
+    "A187516",
+    "A187533",
+    "A187534",
+    "A187551"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:09",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

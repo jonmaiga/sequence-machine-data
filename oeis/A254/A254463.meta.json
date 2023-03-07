@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = 15*2^n + 6*4^n + 10*3^n + 3*5^n + 6^n + 21.",
+  "id": "A254463",
+  "mentions": [
+    "A062709",
+    "A254362",
+    "A254363",
+    "A254364",
+    "A254464"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:12",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

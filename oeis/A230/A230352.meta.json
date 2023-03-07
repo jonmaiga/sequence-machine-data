@@ -1,0 +1,17 @@
+{
+  "description": "G.f.: A(x) = x*exp( Sum_{n>=1} Sum_{d|n} A(d*x^n) / n ).",
+  "id": "A230352",
+  "mentions": [
+    "A229807"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

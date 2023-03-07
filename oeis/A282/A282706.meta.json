@@ -1,0 +1,22 @@
+{
+  "description": "Smallest prime factor of A020549(n) = (n!)^2 + 1.",
+  "id": "A282706",
+  "mentions": [
+    "A020549",
+    "A046029",
+    "A083340",
+    "A083341",
+    "A104636",
+    "A282705"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:52",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

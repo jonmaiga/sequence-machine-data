@@ -1,0 +1,26 @@
+{
+  "description": "Multiples of 7 in base 8.",
+  "id": "A217009",
+  "mentions": [
+    "A007094",
+    "A008589",
+    "A216994",
+    "A216995",
+    "A216996",
+    "A216997",
+    "A216998"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 16:03:33",
+    "offset": 1,
+    "size": 53,
+    "source": "joeis"
+  }
+}

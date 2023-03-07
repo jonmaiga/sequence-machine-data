@@ -1,0 +1,22 @@
+{
+  "description": "Number of ways A005101(n)+1 can be written as sum of a subset of the proper divisors of A005101(n), the n-th abundant number.",
+  "id": "A357050",
+  "mentions": [
+    "A002975",
+    "A005101",
+    "A005835",
+    "A006037",
+    "A033880",
+    "A100696"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

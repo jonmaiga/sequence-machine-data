@@ -1,0 +1,18 @@
+{
+  "description": "Minimal multiplicative semigroup of numbers n > 1 such that in the prime factorization of n an initial product of primes is greater than a later prime in the factorization.",
+  "id": "A291046",
+  "mentions": [
+    "A212666",
+    "A289484"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:06",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

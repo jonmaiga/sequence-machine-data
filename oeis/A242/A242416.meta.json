@@ -1,0 +1,19 @@
+{
+  "description": "Numbers whose prime factorization viewed as a tuple of nonzero powers is not palindromic.",
+  "id": "A242416",
+  "mentions": [
+    "A059404",
+    "A069799",
+    "A242414"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

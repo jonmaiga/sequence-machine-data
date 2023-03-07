@@ -1,0 +1,28 @@
+{
+  "description": "Decimal expansion of the length ratio (largest diagonal)/side in the regular 7-gon (or heptagon).",
+  "id": "A231187",
+  "mentions": [
+    "A006054",
+    "A049310",
+    "A077998",
+    "A116425",
+    "A160389",
+    "A187360",
+    "A255240",
+    "A255241",
+    "A255249"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:06:49",
+    "offset": 1,
+    "size": 104,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Smallest primes of 3 X 3 semimagic squares formed from consecutive primes.",
+  "id": "A265139",
+  "mentions": [
+    "A256891",
+    "A265614",
+    "A270865"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

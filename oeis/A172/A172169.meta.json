@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of solution to x=Fibonacci(x) with 0",
+  "id": "A172169",
+  "mentions": [
+    "A000796",
+    "A001622",
+    "A171909",
+    "A172081"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 104,
+    "source": "oeis-entry"
+  }
+}

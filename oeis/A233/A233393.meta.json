@@ -1,0 +1,25 @@
+{
+  "description": "Primes of the form 2^k - 1 + q(m) with k > 0 and m > 0, where q(.) is the strict partition function (A000009).",
+  "id": "A233393",
+  "mentions": [
+    "A000009",
+    "A000040",
+    "A000225",
+    "A232504",
+    "A233307",
+    "A233346",
+    "A233359",
+    "A233360",
+    "A233390"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:51",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

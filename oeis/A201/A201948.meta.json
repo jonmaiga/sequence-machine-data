@@ -1,0 +1,23 @@
+{
+  "description": "Automorphic numbers: n^2 ends with n in base 18 (written in base 10).",
+  "id": "A201948",
+  "mentions": [
+    "A003226",
+    "A201821",
+    "A201918",
+    "A201919",
+    "A201921",
+    "A237583"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:22",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

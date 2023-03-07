@@ -1,0 +1,21 @@
+{
+  "description": "Number of symmetric 0-1 matrices with zero main diagonal and nondecreasing number of ones in the rows.",
+  "id": "A351287",
+  "mentions": [
+    "A016121",
+    "A295193",
+    "A351157",
+    "A351288"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

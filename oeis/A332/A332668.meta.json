@@ -1,0 +1,31 @@
+{
+  "description": "Number of strict integer partitions of n without three consecutive parts in arithmetic progression.",
+  "id": "A332668",
+  "mentions": [
+    "A003242",
+    "A005649",
+    "A006560",
+    "A007862",
+    "A049980",
+    "A049988",
+    "A238423",
+    "A238424",
+    "A295370",
+    "A307824",
+    "A325328",
+    "A325852",
+    "A325874",
+    "A333195",
+    "A333489"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:02",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "description": "Lesser of adjacent odd numbers with different parity of binary weight and both isolated from odd numbers of same parity of binary weight.",
+  "id": "A225822",
+  "mentions": [
+    "A000069",
+    "A000120",
+    "A001969",
+    "A044449",
+    "A047451",
+    "A047522",
+    "A079523",
+    "A092246",
+    "A129771",
+    "A131323",
+    "A199398"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:48:21",
+    "offset": 1,
+    "size": 53,
+    "source": "joeis"
+  }
+}

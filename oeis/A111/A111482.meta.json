@@ -1,0 +1,21 @@
+{
+  "description": "Least triangular number whose digits include a permutation of {0,1,...,n}.",
+  "id": "A111482",
+  "mentions": [
+    "A000217"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

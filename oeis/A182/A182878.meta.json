@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of lattice paths L_n of weight n having length k (0 <= k <= n). These are paths that start at (0,0) and end on the horizontal axis and whose steps are of the following four kinds: a (1,0)-step with weight 1, a (1,0)-step with weight 2, a (1,1)-step with weight 2, and a (1,-1)-step with weight 1.",
+  "id": "A182878",
+  "mentions": [
+    "A051286",
+    "A182879"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

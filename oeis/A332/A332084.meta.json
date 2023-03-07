@@ -1,0 +1,33 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the smallest m >= 0 such that floor(Pi*n^m) == k (mod n), -1 if one does not exist, k = 0..n-1.",
+  "id": "A332084",
+  "mentions": [
+    "A000796",
+    "A022844",
+    "A036974",
+    "A037000",
+    "A037001",
+    "A037002",
+    "A037003",
+    "A037004",
+    "A037005",
+    "A037006",
+    "A037007",
+    "A037008",
+    "A066643",
+    "A068425",
+    "A176341"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:01",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

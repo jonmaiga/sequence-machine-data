@@ -1,0 +1,17 @@
+{
+  "description": "a(0) = 0; thereafter, a(n+1) = (a(n) - 2)^2 - n.",
+  "id": "A143984",
+  "mentions": [
+    "A143985"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

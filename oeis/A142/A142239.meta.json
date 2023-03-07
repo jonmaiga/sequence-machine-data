@@ -1,0 +1,26 @@
+{
+  "description": "Denominators of continued fraction convergents to sqrt(3/2).",
+  "id": "A142239",
+  "mentions": [
+    "A000129",
+    "A001333",
+    "A041007",
+    "A115754",
+    "A142238",
+    "A153313",
+    "A153318"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:30",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

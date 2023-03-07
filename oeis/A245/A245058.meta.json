@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of the real part of Li_2(I), negated.",
+  "id": "A245058",
+  "mentions": [
+    "A006752",
+    "A007949",
+    "A072691",
+    "A222171",
+    "A242301"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:01",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(n)=b(n,1) where b(0,m)=m, b(n,m)=b(floor(n/4),m*2).",
+  "id": "A217871",
+  "mentions": [
+    "A000196",
+    "A029837"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

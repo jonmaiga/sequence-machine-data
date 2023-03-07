@@ -1,0 +1,23 @@
+{
+  "description": "Next n digits of sqrt(2).",
+  "id": "A267325",
+  "mentions": [
+    "A002193",
+    "A081368",
+    "A090897",
+    "A093473"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:29",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

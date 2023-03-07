@@ -1,0 +1,24 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) is the number of partitions of k into distinct parts p such that 2 <= p <= n.",
+  "id": "A334377",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A025147",
+    "A087897",
+    "A334305"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 2,
+    "size": 83,
+    "source": "oeis-entry"
+  }
+}

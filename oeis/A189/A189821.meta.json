@@ -1,0 +1,20 @@
+{
+  "description": "Smallest integer m such that m*j is a sum of two distinct positive cubes for j=1..n.",
+  "id": "A189821",
+  "mentions": [
+    "A024670",
+    "A191345",
+    "A191352",
+    "A191383"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

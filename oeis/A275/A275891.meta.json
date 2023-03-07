@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of i <= n such that A065188(i) < i.",
+  "id": "A275891",
+  "mentions": [
+    "A065188",
+    "A275890",
+    "A275892"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Chebyshev polynomial of the second kind U(3,n).",
+  "id": "A144138",
+  "mentions": [
+    "A100551",
+    "A123027",
+    "A144139"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:41:39",
+    "offset": 0,
+    "size": 38,
+    "source": "joeis"
+  }
+}

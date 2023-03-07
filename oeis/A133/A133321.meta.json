@@ -1,0 +1,24 @@
+{
+  "description": "Inserting any (identical) digit between adjacent digits of an odd semiprime k never yields a prime.",
+  "id": "A133321",
+  "mentions": [
+    "A001358",
+    "A001750",
+    "A050674",
+    "A050719",
+    "A050805",
+    "A050806"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:21",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

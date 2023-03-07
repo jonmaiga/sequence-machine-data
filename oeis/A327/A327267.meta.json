@@ -1,0 +1,20 @@
+{
+  "description": "Minimal determinant of a finite-dimensional integer lattice having an orthogonal basis containing a given vector with all entries positive.",
+  "id": "A327267",
+  "mentions": [
+    "A327269",
+    "A327271",
+    "A327272"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:54",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

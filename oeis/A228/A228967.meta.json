@@ -1,0 +1,21 @@
+{
+  "description": "Table read by rows; T(n,k) = 2n for k = 1, T(n,k) = 9n for k = 2.",
+  "id": "A228967",
+  "mentions": [
+    "A005843",
+    "A008591"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:35:35",
+    "offset": 1,
+    "size": 64,
+    "source": "joeis"
+  }
+}

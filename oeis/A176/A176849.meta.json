@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows which contains the (6n)-th row of the Pascal triangle in row n.",
+  "id": "A176849",
+  "mentions": [
+    "A007318",
+    "A089357",
+    "A164278"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

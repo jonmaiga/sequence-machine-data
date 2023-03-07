@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = one less than the first i >= 1 for which the Kronecker symbol K(i,n) is either 0 or -1. Or the maximal value u such that all K(1,n), K(2,n), ... up to K(u,n) have +1 as their values.",
+  "id": "A227195",
+  "mentions": [
+    "A000012",
+    "A112050",
+    "A227196"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 2,
+    "size": 104,
+    "source": "oeis-bfile"
+  }
+}

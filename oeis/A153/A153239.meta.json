@@ -1,0 +1,22 @@
+{
+  "description": "Balance of binary trees as ordered by A014486: number of vertices in the right subtree minus number of vertices in the left subtree.",
+  "id": "A153239",
+  "mentions": [
+    "A014137",
+    "A014138",
+    "A014486",
+    "A153240",
+    "A153241",
+    "A153243"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:35",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

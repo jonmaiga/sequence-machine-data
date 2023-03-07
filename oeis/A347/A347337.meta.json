@@ -1,0 +1,23 @@
+{
+  "description": "The prime numbers ordered by their distance from the origin of a square spiral which starts at 1. If two or more primes have the same distance from the origin the smaller prime appears first.",
+  "id": "A347337",
+  "mentions": [
+    "A000040",
+    "A063826",
+    "A115258",
+    "A136626",
+    "A214664",
+    "A214665",
+    "A331027"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

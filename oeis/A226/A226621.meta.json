@@ -1,0 +1,19 @@
+{
+  "description": "Irregular array read by rows in which a(n) is the number of primitive '3x+k' cycles associated with A226619(n).",
+  "id": "A226621",
+  "mentions": [
+    "A226619",
+    "A226620"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

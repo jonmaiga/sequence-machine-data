@@ -1,0 +1,23 @@
+{
+  "description": "Array read by antidiagonals: see A128195 for details.",
+  "id": "A126062",
+  "mentions": [
+    "A000290",
+    "A005917",
+    "A007526",
+    "A128195"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = smallest positive prime number of the form x^2 - n! (where x is a positive integer).",
+  "id": "A143932",
+  "mentions": [
+    "A121926",
+    "A143931",
+    "A143933"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of legal positions in Go played on an n X n+1 grid (each group must have at least one liberty).",
+  "id": "A268113",
+  "mentions": [
+    "A094777"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:30",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-bfile"
+  }
+}

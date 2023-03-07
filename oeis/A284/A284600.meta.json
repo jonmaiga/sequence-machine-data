@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = n/(largest prime power dividing n).",
+  "id": "A284600",
+  "mentions": [
+    "A000961",
+    "A003557",
+    "A007913",
+    "A034699",
+    "A052126",
+    "A052128",
+    "A114536",
+    "A121289",
+    "A278568"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:55",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

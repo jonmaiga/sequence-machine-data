@@ -1,0 +1,25 @@
+{
+  "description": "A000332(n) = a(n)*(3*a(n) - 1)/2.",
+  "id": "A145919",
+  "mentions": [
+    "A000326",
+    "A000332",
+    "A001318",
+    "A001840",
+    "A045943",
+    "A145920"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:07:43",
+    "offset": 0,
+    "size": 56,
+    "source": "joeis"
+  }
+}

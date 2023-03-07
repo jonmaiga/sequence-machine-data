@@ -1,0 +1,24 @@
+{
+  "description": "Numbers m such that m! has a palindromic number of decimal digits.",
+  "id": "A333598",
+  "mentions": [
+    "A000142",
+    "A002113",
+    "A006488",
+    "A034886",
+    "A035065",
+    "A056851",
+    "A333431"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

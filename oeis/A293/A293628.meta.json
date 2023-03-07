@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of Product_{k>0} ((1 - q^(2*k))^3*(1 - q^(6*k))*(1 - q^(12*k)))/((1 - q^k)^4*(1 - q^(4*k))).",
+  "id": "A293628",
+  "mentions": [
+    "A102186",
+    "A293426",
+    "A293629"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:10",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

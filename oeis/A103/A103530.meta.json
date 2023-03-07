@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 2^n - A103529(n).",
+  "id": "A103530",
+  "mentions": [
+    "A102371",
+    "A103529"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:54",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

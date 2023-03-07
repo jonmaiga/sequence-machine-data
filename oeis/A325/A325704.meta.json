@@ -1,0 +1,43 @@
+{
+  "description": "If n = prime(i_1)^j_1 * ... * prime(i_k)^j_k, then a(n) is the numerator of the reciprocal factorial sum j_1/i_1! + ... + j_k/i_k!.",
+  "id": "A325704",
+  "mentions": [
+    "A000142",
+    "A002966",
+    "A002982",
+    "A011371",
+    "A022559",
+    "A051908",
+    "A071626",
+    "A076934",
+    "A108731",
+    "A316855",
+    "A316856",
+    "A316857",
+    "A318573",
+    "A318574",
+    "A325272",
+    "A325508",
+    "A325618",
+    "A325619",
+    "A325620",
+    "A325621",
+    "A325622",
+    "A325623",
+    "A325624",
+    "A325703",
+    "A325709"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:52",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

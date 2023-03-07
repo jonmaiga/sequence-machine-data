@@ -1,0 +1,20 @@
+{
+  "description": "Positive integers b for which there is a (1/4)-Pythagorean triple (a,b,c) satisfying a<=b.",
+  "id": "A196260",
+  "mentions": [
+    "A195770",
+    "A196259",
+    "A196261",
+    "A196263"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

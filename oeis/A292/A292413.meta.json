@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the smallest k such that sigma(sigma(k)) = sigma(sigma(k) - k) + n*k, or 0 if no such k exists.",
+  "id": "A292413",
+  "mentions": [
+    "A000203",
+    "A051027",
+    "A272930",
+    "A291881"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

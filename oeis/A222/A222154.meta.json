@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that there are three distinct triples (k, k+n, k+2n) of squares.",
+  "id": "A222154",
+  "mentions": [
+    "A198387",
+    "A222155"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:40",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Numbers k such that k and k + 1 have the same norm of the sum of divisors in Gaussian integers.",
+  "id": "A332315",
+  "mentions": [
+    "A002961",
+    "A064125",
+    "A103228",
+    "A103229",
+    "A103230",
+    "A293183",
+    "A306985"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

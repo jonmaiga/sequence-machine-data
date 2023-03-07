@@ -1,0 +1,19 @@
+{
+  "description": "Number of homeomorphically irreducible leaf colored trees with n leaves using exactly 4 colors.",
+  "id": "A339787",
+  "mentions": [
+    "A339780",
+    "A339785",
+    "A339786"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:12",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "Positive integers whose square is the sum of 96 consecutive squares.",
+  "id": "A257827",
+  "mentions": [
+    "A001653",
+    "A180274",
+    "A218395",
+    "A257761",
+    "A257765",
+    "A257767",
+    "A257780",
+    "A257781",
+    "A257823",
+    "A257826",
+    "A257828"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:15",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Triangular numbers t such that distances from t to three nearest squares are three triangular numbers.",
+  "id": "A232608",
+  "mentions": [
+    "A000196",
+    "A000217",
+    "A000290",
+    "A010054",
+    "A232501"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

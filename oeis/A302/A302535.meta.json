@@ -1,0 +1,22 @@
+{
+  "description": "G.f. A(x) satisfies: A(x) = Sum_{n>=0} x^n * A(x)^n * Product_{k=0..n-1} (4*k + 1).",
+  "id": "A302535",
+  "mentions": [
+    "A007696",
+    "A088368",
+    "A301363",
+    "A302100",
+    "A302565"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:26",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

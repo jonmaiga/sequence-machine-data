@@ -1,0 +1,20 @@
+{
+  "description": "The number of permutations in S_n for which the number of reduced words is maximized with respect to the numbers of braid and commutation classes: |R(w)| = |B(w)| * |C(w)|.",
+  "id": "A290953",
+  "mentions": [
+    "A000108",
+    "A290954"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

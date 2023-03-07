@@ -1,0 +1,21 @@
+{
+  "description": "Infinite palindromic word (a(1),a(2),a(3),...) with initial word w(1) = (1,2,3) and midword sequence (a(n)); see Comments.",
+  "id": "A260449",
+  "mentions": [
+    "A260390",
+    "A260395",
+    "A260398",
+    "A260400"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:19",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

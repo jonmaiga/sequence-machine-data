@@ -1,0 +1,20 @@
+{
+  "description": "G.f. A(x) = Product_{n>=1} 1/(1 - 2^(n^2)*x^n).",
+  "id": "A157317",
+  "mentions": [
+    "A000041",
+    "A209495",
+    "A209803"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of unipotent commutative loops of order 2n.",
+  "id": "A350018",
+  "mentions": [
+    "A089925",
+    "A350017"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

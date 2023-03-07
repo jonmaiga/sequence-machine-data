@@ -1,0 +1,18 @@
+{
+  "description": "Terms of A301857 where both A301857(n) and its counterpart are composite.",
+  "id": "A301991",
+  "mentions": [
+    "A023900",
+    "A301857"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

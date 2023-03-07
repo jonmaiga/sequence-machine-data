@@ -1,0 +1,21 @@
+{
+  "description": "Number of partitions of n into two squarefree semiprimes.",
+  "id": "A280829",
+  "mentions": [
+    "A006881",
+    "A071068",
+    "A280710"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:49",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

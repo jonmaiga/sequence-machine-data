@@ -1,0 +1,46 @@
+{
+  "description": "a(n) is the number of nonnegative integers k less than 10^n such that the decimal representation of k lacks the digits 1,2,3, at least one of digits 4,5, at least one of digits 6,7 and at least one of digits 8,9.",
+  "id": "A126718",
+  "mentions": [
+    "A125630",
+    "A125858",
+    "A125880",
+    "A125904",
+    "A125908",
+    "A125909",
+    "A125910",
+    "A125945",
+    "A125946",
+    "A125947",
+    "A125948",
+    "A125987",
+    "A126627",
+    "A126628",
+    "A126631",
+    "A126632",
+    "A126633",
+    "A126634",
+    "A126635",
+    "A126639",
+    "A126640",
+    "A126641",
+    "A126642",
+    "A126643",
+    "A126644",
+    "A126645",
+    "A126646"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:14",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

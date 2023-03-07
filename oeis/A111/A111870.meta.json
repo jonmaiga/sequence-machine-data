@@ -1,0 +1,24 @@
+{
+  "description": "Prime p with prime gap q - p of n-th record merit, where q is smallest prime larger than p and the merit of a prime gap is (q-p)/log(p).",
+  "id": "A111870",
+  "mentions": [
+    "A000101",
+    "A002386",
+    "A111871",
+    "A111943",
+    "A205827",
+    "A214935",
+    "A277552"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

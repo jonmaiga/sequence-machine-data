@@ -1,0 +1,17 @@
+{
+  "description": "T(n,n-8), where T(*,*) is A350970.",
+  "id": "A350975",
+  "mentions": [
+    "A350970"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 8,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

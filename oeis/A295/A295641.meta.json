@@ -1,0 +1,19 @@
+{
+  "description": "Smallest k not divisible by 7 such that k*7^n + 1 is prime.",
+  "id": "A295641",
+  "mentions": [
+    "A057778",
+    "A295639",
+    "A295640"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:14",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

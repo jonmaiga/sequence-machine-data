@@ -1,0 +1,23 @@
+{
+  "description": "Least natural number in English which requires exactly n characters to spell including spaces and hyphens, or 0 if no such number exists. The inverse of A052360.",
+  "id": "A132363",
+  "mentions": [
+    "A005589",
+    "A052360",
+    "A119960",
+    "A129774",
+    "A134629"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 3,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

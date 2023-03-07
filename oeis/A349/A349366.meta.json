@@ -1,0 +1,17 @@
+{
+  "description": "Number of primes p such that prime(n) < p <= prime(n) + (log(prime(n)))^2 - log(prime(n)) - 1.",
+  "id": "A349366",
+  "mentions": [
+    "A182134"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:24",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "E.g.f.: 2 - exp(2) + Sum_{n>=1} 2^n * exp(x^n) / n!.",
+  "id": "A258899",
+  "mentions": [
+    "A258903"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:17",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

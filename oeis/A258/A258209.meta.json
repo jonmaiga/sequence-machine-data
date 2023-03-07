@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k for which A256999(A059893(k)) = k.",
+  "id": "A258209",
+  "mentions": [
+    "A029744",
+    "A059893",
+    "A256999",
+    "A257250"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:16",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

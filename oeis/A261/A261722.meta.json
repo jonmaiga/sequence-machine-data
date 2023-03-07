@@ -1,0 +1,21 @@
+{
+  "description": "Values of m such that 2^m + 3^m + 5^m + 7^m + 11^m + 13^m is a prime number.",
+  "id": "A261722",
+  "mentions": [
+    "A000040",
+    "A076515",
+    "A268064",
+    "A268067"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

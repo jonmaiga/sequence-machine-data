@@ -1,0 +1,20 @@
+{
+  "description": "Primes which divide some term of A000085 (numbers of involutions).",
+  "id": "A264737",
+  "mentions": [
+    "A000085",
+    "A245177"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:24",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k with property that the arithmetic mean of any subset of its digits is an integer.",
+  "id": "A306520",
+  "mentions": [
+    "A010785",
+    "A059708",
+    "A061383",
+    "A165165"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

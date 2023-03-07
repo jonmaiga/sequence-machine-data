@@ -1,0 +1,21 @@
+{
+  "description": "Decimal representation of n-th iteration of the Rule 188 elementary cellular automaton starting with a single black cell.",
+  "id": "A118173",
+  "mentions": [
+    "A118174",
+    "A265427"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:07",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

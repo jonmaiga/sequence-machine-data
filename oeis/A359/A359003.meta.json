@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the smallest n-gonal number whose sum of digits is n.",
+  "id": "A359003",
+  "mentions": [
+    "A007953",
+    "A051885",
+    "A062685",
+    "A062688",
+    "A358930"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 3,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

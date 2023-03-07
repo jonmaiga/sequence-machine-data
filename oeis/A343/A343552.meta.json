@@ -1,0 +1,21 @@
+{
+  "description": "Numbers m such that for some number k dividing n, m is formed by inserting a digit 0 between each pair of digits of k.",
+  "id": "A343552",
+  "mentions": [
+    "A051022",
+    "A285176",
+    "A343550",
+    "A343551"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

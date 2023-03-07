@@ -1,0 +1,24 @@
+{
+  "description": "Triangle read by rows: T(n, m) = number of painted forests on labeled vertex set [n] with m trees. Also number of painted forests with exactly n - m edges.",
+  "id": "A106834",
+  "mentions": [
+    "A000272",
+    "A101313",
+    "A105599",
+    "A106240",
+    "A106241"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:58",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

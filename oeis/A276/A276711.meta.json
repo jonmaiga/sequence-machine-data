@@ -1,0 +1,21 @@
+{
+  "description": "Number of primes p <= n such that n - p is a perfect power (including 0 and 1).",
+  "id": "A276711",
+  "mentions": [
+    "A000040",
+    "A001597",
+    "A276717",
+    "A276825",
+    "A276830"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

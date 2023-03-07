@@ -1,0 +1,19 @@
+{
+  "description": "Denominator of Sum_{i=1..n} 1/(i^3*C(2*i,i)).",
+  "id": "A112103",
+  "mentions": [
+    "A112102"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "changed",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Primes p such that p^2 + p + 41 is semiprime.",
+  "id": "A242708",
+  "mentions": [
+    "A000040",
+    "A001358",
+    "A228184",
+    "A238242",
+    "A242702"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:59",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

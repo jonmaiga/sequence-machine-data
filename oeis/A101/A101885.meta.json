@@ -1,0 +1,19 @@
+{
+  "description": "Natural numbers excluding A101884.",
+  "id": "A101885",
+  "mentions": [
+    "A101884",
+    "A101887",
+    "A101889"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

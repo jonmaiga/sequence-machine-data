@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of g.f.: 1/sqrt(1 - 10*x - 11*x^2).",
+  "id": "A322246",
+  "mentions": [
+    "A322247"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:45",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

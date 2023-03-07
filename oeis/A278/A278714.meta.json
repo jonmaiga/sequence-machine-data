@@ -1,0 +1,20 @@
+{
+  "description": "Denominators of (n-1)*(n-3)/(6*(2*n-1)), for n >= 1. Denominators of Dedekind sum s(2, 2*n-1).",
+  "id": "A278714",
+  "mentions": [
+    "A278713"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:45",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

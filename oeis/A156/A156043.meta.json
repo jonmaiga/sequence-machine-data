@@ -1,0 +1,22 @@
+{
+  "description": "A(n,n), where A(n,k) is the number of compositions (ordered partitions) of n into k parts (parts of size 0 being allowed), with the first part being greater than or equal to all the rest.",
+  "id": "A156043",
+  "mentions": [
+    "A156039",
+    "A156040",
+    "A156041",
+    "A156042",
+    "A188624",
+    "A188625"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:38",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "x-coordinates of a point moving counterclockwise on concentric squares of grid points rotated by Pi/4 with side length m*sqrt(2), m=1,2,..., with jump to next square on the positive x-axis.",
+  "id": "A305259",
+  "mentions": [
+    "A001844",
+    "A010751",
+    "A304587"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-entry"
+  }
+}

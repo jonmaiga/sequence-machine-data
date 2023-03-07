@@ -1,0 +1,42 @@
+{
+  "oi": 188886,
+  "ps": [
+    {
+      "d": "2021-11-01",
+      "ix": "contfrac[cot(atan(e)/2)]",
+      "mt": 50,
+      "px": [
+        "e",
+        "atan",
+        "2",
+        "/",
+        "cot",
+        "contfrac"
+      ]
+    },
+    {
+      "d": "2022-06-26",
+      "ix": "contfrac[cot(acot(exp(-1))/2)]",
+      "mt": 50,
+      "px": [
+        "1",
+        "neg",
+        "exp",
+        "acot",
+        "2",
+        "/",
+        "cot",
+        "contfrac"
+      ]
+    },
+    {
+      "d": "2021-11-01",
+      "ix": "contfrac[C188885]",
+      "mt": 50,
+      "px": [
+        "C188885",
+        "contfrac"
+      ]
+    }
+  ]
+}

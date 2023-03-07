@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = ceiling(n/2) - pi(2n) + pi(n-1).",
+  "id": "A226983",
+  "mentions": [
+    "A000720",
+    "A004526",
+    "A035250"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:28",
+    "offset": 1,
+    "size": 74,
+    "source": "joeis"
+  }
+}

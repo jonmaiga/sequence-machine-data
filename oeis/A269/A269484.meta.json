@@ -1,0 +1,19 @@
+{
+  "description": "Number of trees on n nodes with 2 forbidden limbs of sizes 7 and 8.",
+  "id": "A269484",
+  "mentions": [
+    "A014276",
+    "A014277"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

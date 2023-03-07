@@ -1,0 +1,17 @@
+{
+  "description": "Expansion of 1/(1 - x/(1 - x^32/(1 - x^243/(1 - x^1024/(1 - x^3125/(1 - x^7776/(1 - ... - x^(n^5)/(1 - ...)))))))), a continued fraction.",
+  "id": "A291168",
+  "mentions": [
+    "A290771"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 77,
+    "source": "oeis-entry"
+  }
+}

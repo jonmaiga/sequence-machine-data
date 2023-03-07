@@ -1,0 +1,21 @@
+{
+  "description": "Triangle T(n, k) = c(n)/(c(k)*c(n-k)) where c(n) = 12*Product_{j=3..n} ( 12 * binomial(j+2, 4) ) with c(0) = c(1) = 1, read by rows.",
+  "id": "A174151",
+  "mentions": [
+    "A174150"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "less",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:58",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

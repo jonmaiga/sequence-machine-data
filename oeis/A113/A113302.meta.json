@@ -1,0 +1,20 @@
+{
+  "description": "Number of k such that prime(n) divides T(k), the central trinomial coefficient A002426(k), with 0",
+  "id": "A113302",
+  "mentions": [
+    "A002426",
+    "A113303",
+    "A113304",
+    "A113305"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:04",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

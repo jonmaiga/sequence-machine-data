@@ -1,0 +1,23 @@
+{
+  "description": "Nonpalindromes which are products of two palindromes in base 10.",
+  "id": "A141322",
+  "mentions": [
+    "A002113",
+    "A004086",
+    "A115683",
+    "A140332"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:30",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

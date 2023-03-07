@@ -1,0 +1,21 @@
+{
+  "description": "Numbers that are both octagonal numbers (A000567) and octagonal pyramidal numbers (A002414).",
+  "id": "A344376",
+  "mentions": [
+    "A000567",
+    "A002414",
+    "A027568",
+    "A334012"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

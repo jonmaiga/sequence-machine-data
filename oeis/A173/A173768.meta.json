@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = (4*10^n-31)/9.",
+  "id": "A173768",
+  "mentions": [
+    "A093174"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:58",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

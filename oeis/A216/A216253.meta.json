@@ -1,0 +1,22 @@
+{
+  "description": "A213196 as table read layer by layer - layer clockwise, layer counterclockwise and so on.",
+  "id": "A216253",
+  "mentions": [
+    "A081344",
+    "A211377",
+    "A213196",
+    "A214929"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:34",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

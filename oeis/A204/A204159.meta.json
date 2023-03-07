@@ -1,0 +1,20 @@
+{
+  "description": "Array: row n shows the coefficients of the characteristic polynomial of the n-th principal submatrix of max(3i-2j, 3j-2i), as in A204158.",
+  "id": "A204159",
+  "mentions": [
+    "A202605",
+    "A204016",
+    "A204158"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:05:57",
+    "offset": 1,
+    "size": 37,
+    "source": "joeis"
+  }
+}

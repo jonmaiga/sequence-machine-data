@@ -1,0 +1,22 @@
+{
+  "description": "Least nonnegative integer which requires n letters to spell in English, excluding spaces and hyphens. A right inverse of A005589.",
+  "id": "A134629",
+  "mentions": [
+    "A001477",
+    "A005589",
+    "A052363",
+    "A080777"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "changed",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:22",
+    "offset": 3,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

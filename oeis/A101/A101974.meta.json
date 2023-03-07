@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: number of Dyck paths of semilength n with k peaks before the first return (1<= k",
+  "id": "A101974",
+  "mentions": [
+    "A000108",
+    "A014137",
+    "A014151",
+    "A101975"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

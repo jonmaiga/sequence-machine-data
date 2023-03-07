@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that k^6 + 82991 is prime.",
+  "id": "A126893",
+  "mentions": [
+    "A066386",
+    "A126894",
+    "A126895"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:38",
+    "offset": 1,
+    "size": 33,
+    "source": "joeis"
+  }
+}

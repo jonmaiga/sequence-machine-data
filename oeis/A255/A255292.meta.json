@@ -1,0 +1,20 @@
+{
+  "description": "Number of 2's in expansion of F^n mod 3, where F = 1/x+1+x+1/y+y.",
+  "id": "A255292",
+  "mentions": [
+    "A072272",
+    "A255288",
+    "A255291",
+    "A255294"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

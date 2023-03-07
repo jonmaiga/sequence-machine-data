@@ -1,0 +1,18 @@
+{
+  "description": "Start with first run [1,2] then, for n >= 2, the n-th run is a(n) times [a(1),...,a(n-1)].",
+  "id": "A205600",
+  "mentions": [
+    "A205883",
+    "A206767"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

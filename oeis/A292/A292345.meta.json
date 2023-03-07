@@ -1,0 +1,19 @@
+{
+  "description": "The second Zagreb index of the Aztec diamond AZ(n) (see the Ramanes et al. reference, Theorem 2.2).",
+  "id": "A292345",
+  "mentions": [
+    "A292344"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:21:11",
+    "offset": 1,
+    "size": 40,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Numbers n for which the sum of digits is even when n is written in the factorial base (A007623).",
+  "id": "A227148",
+  "mentions": [
+    "A001969",
+    "A007623",
+    "A034968",
+    "A055089",
+    "A055091",
+    "A195663",
+    "A227130",
+    "A227149"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

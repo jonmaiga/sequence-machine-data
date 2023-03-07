@@ -1,0 +1,25 @@
+{
+  "description": "For each y >= 1 there are only finitely many values of x >= 1 such that x-y and x+y are both squares; list all such pairs (x,y) with gcd(x,y) = 1 ordered by values of y; sequence gives y values.",
+  "id": "A120427",
+  "mentions": [
+    "A020887",
+    "A020888",
+    "A024355",
+    "A060829",
+    "A061408",
+    "A061409",
+    "A081925",
+    "A081935"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:35:31",
+    "offset": 1,
+    "size": 64,
+    "source": "joeis"
+  }
+}

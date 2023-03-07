@@ -1,0 +1,17 @@
+{
+  "description": "Smallest number m such that exactly n triples (p,q,r) of distinct primes exist with m=p*q+r.",
+  "id": "A160373",
+  "mentions": [
+    "A100951"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:42",
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

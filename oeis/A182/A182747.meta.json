@@ -1,0 +1,27 @@
+{
+  "description": "Bisection (odd part) of number of partitions that do not contain 1 as a part A002865.",
+  "id": "A182747",
+  "mentions": [
+    "A000041",
+    "A002865",
+    "A058695",
+    "A135010",
+    "A138121",
+    "A182740",
+    "A182742",
+    "A182743",
+    "A182746"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:06",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Smallest near-repdigit prime with digit n occurring n times, or 0 if no such prime exists.",
+  "id": "A160342",
+  "mentions": [
+    "A069569",
+    "A105975",
+    "A105982",
+    "A164937"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

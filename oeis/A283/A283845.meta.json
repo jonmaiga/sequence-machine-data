@@ -1,0 +1,20 @@
+{
+  "description": "Square array read by antidiagonals: T(1,1) = T(1,2) = T(2,1) = T(2,2) = 1; thereafter T(m,n) = min {T(m,n-2) + T(m,n-1), T(m-2,n) + T(m-1,n), T(m-2,n-2) + T(m-1,n-1)}.",
+  "id": "A283845",
+  "mentions": [
+    "A000045",
+    "A058071"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:54",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

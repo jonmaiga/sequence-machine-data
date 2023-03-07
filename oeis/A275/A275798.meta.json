@@ -1,0 +1,20 @@
+{
+  "description": "One half of the number of n X n square grids with squares of two colors modulo operations of the dihedral group D_4.",
+  "id": "A275798",
+  "mentions": [
+    "A054247",
+    "A054252"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:41",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

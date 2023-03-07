@@ -1,0 +1,20 @@
+{
+  "description": "Primes of the form (2n-1)^(2n-1) mod 2^(2n-1).",
+  "id": "A178966",
+  "mentions": [
+    "A000040",
+    "A000079",
+    "A000312",
+    "A178537"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

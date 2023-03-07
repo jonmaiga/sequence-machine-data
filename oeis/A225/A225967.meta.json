@@ -1,0 +1,18 @@
+{
+  "description": "Number of permutations of [n] having exactly 6 strong fixed blocks.",
+  "id": "A225967",
+  "mentions": [
+    "A186373"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 16,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

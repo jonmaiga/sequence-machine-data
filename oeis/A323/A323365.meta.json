@@ -1,0 +1,26 @@
+{
+  "description": "Sum of Stern's Diatomic sequence, A002487 and its Dirichlet inverse, A317843.",
+  "id": "A323365",
+  "mentions": [
+    "A002487",
+    "A317837",
+    "A317843",
+    "A319687",
+    "A323885",
+    "A323887",
+    "A323894",
+    "A323896"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "look",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:47",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

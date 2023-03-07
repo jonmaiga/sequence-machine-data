@@ -1,0 +1,23 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) is the number of inequivalent tilings by squares of an n X n square lattice that contain k nodes unconnected to any of their neighbors.",
+  "id": "A227004",
+  "mentions": [
+    "A224239",
+    "A226978",
+    "A226979",
+    "A226980",
+    "A226981"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

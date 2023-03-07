@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that n^4+(n+1)^4 is not prime.",
+  "id": "A241265",
+  "mentions": [
+    "A155211"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

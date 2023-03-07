@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{k=1..n} k * sigma_3(k).",
+  "id": "A356126",
+  "mentions": [
+    "A281372",
+    "A356043",
+    "A356124"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:30",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

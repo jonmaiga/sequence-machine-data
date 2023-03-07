@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = the number of U-frame polyominoes with n cells, reduced for symmetry.",
+  "id": "A360419",
+  "mentions": [
+    "A028247",
+    "A270060",
+    "A360420",
+    "A360421"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:34",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

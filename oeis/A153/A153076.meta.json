@@ -1,0 +1,22 @@
+{
+  "description": "Smallest number m such that sigma(m) = A002110(n) where A002110(n) is the product of the first n primes.",
+  "id": "A153076",
+  "mentions": [
+    "A000203",
+    "A002110",
+    "A051444",
+    "A153077",
+    "A153078"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:35",
+    "offset": 2,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

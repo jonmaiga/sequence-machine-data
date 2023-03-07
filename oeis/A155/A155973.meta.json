@@ -1,0 +1,17 @@
+{
+  "description": "Smallest x such that prime(2n)x^(2n-1) + prime(2n-1)x^(2n-2) + prime(2n-2)x^(2n-3) +...+ prime(2)x^1 + 2x^0 evaluates to an odd prime.",
+  "id": "A155973",
+  "mentions": [
+    "A013916"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:38",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

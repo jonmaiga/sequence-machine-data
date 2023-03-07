@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the denominator of the rational number whose \"factorization\" into terms of A186285 has the balanced ternary representation corresponding to n.",
+  "id": "A186287",
+  "mentions": [
+    "A052330",
+    "A185169",
+    "A186285",
+    "A186286"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:10",
+    "offset": 0,
+    "size": 89,
+    "source": "oeis-bfile"
+  }
+}

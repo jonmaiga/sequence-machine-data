@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = number of n-digit binary numbers in which the first k and last k digits have a Hamming distance of 1 or less, for all k from 1 to n.",
+  "id": "A288793",
+  "mentions": [
+    "A005434"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:02",
+    "offset": 2,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

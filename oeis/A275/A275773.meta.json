@@ -1,0 +1,19 @@
+{
+  "description": "Primes p congruent to 1 modulo 13 such that x^13 = 2 has a solution modulo p.",
+  "id": "A275773",
+  "mentions": [
+    "A049545",
+    "A059245",
+    "A268753"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

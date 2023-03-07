@@ -1,0 +1,25 @@
+{
+  "description": "A156348 * A000010",
+  "id": "A156834",
+  "mentions": [
+    "A000010",
+    "A054525",
+    "A156348",
+    "A156833",
+    "A157020",
+    "A157030",
+    "A343553"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:38",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "E.g.f. tan(x/(1-x)).",
+  "id": "A219613",
+  "mentions": [
+    "A000182",
+    "A080832"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:37",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

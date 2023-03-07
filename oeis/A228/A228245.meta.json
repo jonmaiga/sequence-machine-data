@@ -1,0 +1,20 @@
+{
+  "description": "The integers occurring in the song \"Ten green bottles\".",
+  "id": "A228245",
+  "mentions": [
+    "A096582"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

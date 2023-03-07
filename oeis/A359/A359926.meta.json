@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = coefficient of x^n*y^(n+1)/n! in (1/4) * log( Sum_{n>=0} (n + 2*y)^(2*n) * x^n/n! ).",
+  "id": "A359926",
+  "mentions": [
+    "A266485",
+    "A318634",
+    "A319834",
+    "A359928"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "changed",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:34",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of nondecreasing sequences of 2n positive integers with reciprocals adding up to n (1 <= n).",
+  "id": "A156870",
+  "mentions": [
+    "A156869"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

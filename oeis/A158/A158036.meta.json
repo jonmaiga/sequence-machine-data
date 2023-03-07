@@ -1,0 +1,21 @@
+{
+  "description": "Integer solutions f for f = (4^n - 2^n + 8n^2 - 2) / (2n * (2n + 1)) with n an integer",
+  "id": "A158036",
+  "mentions": [
+    "A002515",
+    "A145918",
+    "A158034",
+    "A158035",
+    "A235540"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:40",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-bfile"
+  }
+}

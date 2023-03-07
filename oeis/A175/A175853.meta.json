@@ -1,0 +1,24 @@
+{
+  "description": "(2*n-1)-perfect numbers.",
+  "id": "A175853",
+  "mentions": [
+    "A000005",
+    "A033880",
+    "A175522",
+    "A175837"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "bref",
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows, T(n, k) for 0 <= k <= n. T(n, 0) = 0^n; T(n, n) = n!; otherwise T(n, k) = (n + 1 - k)*(k - 1)!.",
+  "id": "A339033",
+  "mentions": [
+    "A092271",
+    "A339034"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-02 23:03:40",
+    "offset": 0,
+    "size": 66,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Half the number of (n+1) X 5 binary arrays with no 2 X 2 subblock having exactly 2 ones.",
+  "id": "A183777",
+  "mentions": [
+    "A183782"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:07",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

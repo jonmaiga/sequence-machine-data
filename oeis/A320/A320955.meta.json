@@ -1,0 +1,44 @@
+{
+  "description": "Square array read by ascending antidiagonals: A(n, k) (n >= 0, k >= 0) = Sum_{j=0..n-1} (!j/j!)*((n - j)^k/(n - j)!) if k > 0 and 1 if k = 0. Here !n denotes the subfactorial of n.",
+  "id": "A320955",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A000110",
+    "A000240",
+    "A000387",
+    "A000449",
+    "A008290",
+    "A011782",
+    "A053556",
+    "A056272",
+    "A056273",
+    "A103816",
+    "A124302",
+    "A124303",
+    "A137650",
+    "A211561",
+    "A278984",
+    "A284727",
+    "A305749",
+    "A320750",
+    "A320751",
+    "A320956",
+    "A320958",
+    "A320959",
+    "A320962",
+    "A320964"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

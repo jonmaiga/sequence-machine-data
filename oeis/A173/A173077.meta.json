@@ -1,0 +1,21 @@
+{
+  "description": "Triangle T(n, k, q) = binomial(n, k) - 1 + q^floor(n/2)*binomial(n-2, k-1) with T(n, 0, q) = T(n, n, q) = 1 and q = 3, read by rows.",
+  "id": "A173077",
+  "mentions": [
+    "A132044",
+    "A173075",
+    "A173076"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:57",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Rectangular array T(n,k) = number of nondecreasing sequences of n 1..k integers with no element dividing the sequence sum (for n, k >= 1), read by decreasing antidiagonals.",
+  "id": "A212868",
+  "mentions": [
+    "A161664",
+    "A212864",
+    "A212865",
+    "A212866",
+    "A212867",
+    "A212869",
+    "A212870",
+    "A212871",
+    "A212872",
+    "A212873",
+    "A212874"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:31",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

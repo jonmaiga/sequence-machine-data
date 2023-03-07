@@ -1,0 +1,21 @@
+{
+  "description": "Let n have j digits {d_j, d_(j-1), ..., d_2, d_1}. Sequence lists numbers n such that n = d_j^b_j + d_(j-1)^b_(j-1) + ... + d_2^b_2 + d_1^b_1 for some permutation {b_j, b_(j-1), ..., b_2, b_1} of the digits.",
+  "id": "A276170",
+  "mentions": [
+    "A046253",
+    "A166623"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "easy",
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

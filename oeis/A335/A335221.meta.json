@@ -1,0 +1,19 @@
+{
+  "description": "Number of Heronian triangles with perimeter A330869(n) whose side lengths are squarefree.",
+  "id": "A335221",
+  "mentions": [
+    "A008683",
+    "A330869"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 94,
+    "source": "oeis-entry"
+  }
+}

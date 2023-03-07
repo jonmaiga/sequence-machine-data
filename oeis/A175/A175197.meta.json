@@ -1,0 +1,30 @@
+{
+  "description": "Array A(k,n) of the number of points of the A_k lattice with maximum infinity norm n, read by antidiagonals.",
+  "id": "A175197",
+  "mentions": [
+    "A002426",
+    "A003215",
+    "A005191",
+    "A005408",
+    "A008458",
+    "A010006",
+    "A025012",
+    "A063496",
+    "A077042",
+    "A077044",
+    "A083669",
+    "A110907"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

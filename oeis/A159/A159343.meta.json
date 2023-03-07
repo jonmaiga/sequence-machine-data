@@ -1,0 +1,23 @@
+{
+  "description": "Transform of A056594 by the T_{0,1} transformation (see link).",
+  "id": "A159343",
+  "mentions": [
+    "A056594",
+    "A135364",
+    "A159340",
+    "A159441",
+    "A159442"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:41",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

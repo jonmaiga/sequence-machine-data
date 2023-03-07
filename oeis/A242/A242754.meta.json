@@ -1,0 +1,24 @@
+{
+  "description": "Positive integers k such that k*p == 1 (mod prime(k)) for some prime p < prime(k).",
+  "id": "A242754",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A242425",
+    "A242748",
+    "A242750",
+    "A242752",
+    "A242753",
+    "A242755"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:59",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

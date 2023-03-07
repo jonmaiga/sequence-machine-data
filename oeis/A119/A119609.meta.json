@@ -1,0 +1,19 @@
+{
+  "description": "p^2-p-1 that is not prime, where p is prime.",
+  "id": "A119609",
+  "mentions": [
+    "A038872",
+    "A091567",
+    "A091568"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:08",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

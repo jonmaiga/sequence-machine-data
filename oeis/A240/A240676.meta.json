@@ -1,0 +1,21 @@
+{
+  "description": "Number of digits in the decimal expansion of n^7.",
+  "id": "A240676",
+  "mentions": [
+    "A001015",
+    "A055642"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

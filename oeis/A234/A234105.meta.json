@@ -1,0 +1,23 @@
+{
+  "description": "Integers of the form (p*q*r*s - 1)/2, where p, q, r, s are distinct primes.",
+  "id": "A234105",
+  "mentions": [
+    "A234093",
+    "A234097",
+    "A234498",
+    "A234499",
+    "A234500"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

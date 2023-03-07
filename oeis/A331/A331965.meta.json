@@ -1,0 +1,39 @@
+{
+  "description": "Matula-Goebel numbers of lone-child-avoiding rooted semi-identity trees.",
+  "id": "A331965",
+  "mentions": [
+    "A001678",
+    "A004111",
+    "A007097",
+    "A061775",
+    "A122132",
+    "A196050",
+    "A276625",
+    "A291636",
+    "A300660",
+    "A306200",
+    "A306202",
+    "A316694",
+    "A320269",
+    "A331681",
+    "A331683",
+    "A331686",
+    "A331875",
+    "A331936",
+    "A331937",
+    "A331966",
+    "A331993",
+    "A331994"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

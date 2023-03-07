@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: frequency with which the number of values taken by cos(2*Pi/k) mod j occurs for each j >= 1, taken over k = 1..j-1.",
+  "id": "A164846",
+  "mentions": [
+    "A164822",
+    "A164823",
+    "A164831",
+    "A165252"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:47",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

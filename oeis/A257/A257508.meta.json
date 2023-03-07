@@ -1,0 +1,26 @@
+{
+  "description": "Next-to-leaf vertices in binary beanstalk; Numbers n for which A257265(n) = 1.",
+  "id": "A257508",
+  "mentions": [
+    "A005187",
+    "A011371",
+    "A079559",
+    "A179016",
+    "A213723",
+    "A213724",
+    "A257265",
+    "A257507",
+    "A257509",
+    "A257512"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:15",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Length of n-th run of zeros in A122276.",
+  "id": "A122277",
+  "mentions": [
+    "A096535",
+    "A122276",
+    "A122278",
+    "A122279"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

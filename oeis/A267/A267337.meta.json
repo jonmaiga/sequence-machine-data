@@ -1,0 +1,17 @@
+{
+  "description": "Number of n X n arrays containing n copies of 0..n-1 with every element equal to or 1 greater than any north, west or southwest neighbors modulo n and the upper left element equal to 0.",
+  "id": "A267337",
+  "mentions": [
+    "A267338"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

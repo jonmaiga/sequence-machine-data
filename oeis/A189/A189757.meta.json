@@ -1,0 +1,19 @@
+{
+  "description": "n+[nr/s]+[nt/s]; r=1, s=sin(1), t=cos(1).",
+  "id": "A189757",
+  "mentions": [
+    "A189756",
+    "A189758"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:55:31",
+    "offset": 1,
+    "size": 75,
+    "source": "joeis"
+  }
+}

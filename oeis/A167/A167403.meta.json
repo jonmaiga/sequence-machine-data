@@ -1,0 +1,22 @@
+{
+  "description": "Number of decimal numbers having n or fewer digits and having the sum of their digits equal to n.",
+  "id": "A167403",
+  "mentions": [
+    "A001700",
+    "A130835",
+    "A305161"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:51",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

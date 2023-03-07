@@ -1,0 +1,21 @@
+{
+  "description": "Arithmetic mean of two consecutive twin primes that is also the arithmetic mean of two consecutive non-twin primes.",
+  "id": "A244066",
+  "mentions": [
+    "A001097",
+    "A007510",
+    "A014574",
+    "A162734",
+    "A163656"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:00",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

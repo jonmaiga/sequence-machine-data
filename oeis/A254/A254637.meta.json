@@ -1,0 +1,19 @@
+{
+  "description": "Maximal element of Image^inf({ 2 }) under repeated base-n zero-split doubling.",
+  "id": "A254637",
+  "mentions": [
+    "A113917",
+    "A254638"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:12",
+    "offset": 2,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

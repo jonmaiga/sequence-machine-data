@@ -1,0 +1,21 @@
+{
+  "description": "Table A142978 (figurate numbers for n-dimensional cross polytope) extended by a top row.",
+  "id": "A217874",
+  "mentions": [
+    "A005843",
+    "A006527",
+    "A058331",
+    "A142978"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of solutions to x^(k+1) = x^k mod n for some k >= 1.",
+  "id": "A117658",
+  "mentions": [
+    "A117659"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:07",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

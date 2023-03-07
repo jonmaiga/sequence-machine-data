@@ -1,0 +1,24 @@
+{
+  "description": "a(n) is the number of prime factors of the n-th powerful number (counted with repetition).",
+  "id": "A360729",
+  "mentions": [
+    "A001222",
+    "A001694",
+    "A072047",
+    "A076399",
+    "A083342",
+    "A090699"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:34",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

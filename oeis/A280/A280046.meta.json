@@ -1,0 +1,17 @@
+{
+  "description": "Image of A053838 under the morphism 0 -> 0000, 1 -> 0100, 2 -> 0110.",
+  "id": "A280046",
+  "mentions": [
+    "A053838"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

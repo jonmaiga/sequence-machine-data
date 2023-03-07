@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that n*digsum(n) contains the same distinct digits as n.",
+  "id": "A248040",
+  "mentions": [
+    "A007953",
+    "A011557",
+    "A247887",
+    "A247888"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:04",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

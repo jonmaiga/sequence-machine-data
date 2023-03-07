@@ -1,0 +1,19 @@
+{
+  "description": "Number of doubly sorted permutations of [2n].",
+  "id": "A319253",
+  "mentions": [
+    "A180874",
+    "A317551"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

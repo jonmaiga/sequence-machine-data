@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = (A003309(n+2)-1) / 2; numbers n such that 2n+1 is a Ludic number (in A003309).",
+  "id": "A266409",
+  "mentions": [
+    "A003309",
+    "A005097",
+    "A192490",
+    "A266350",
+    "A266410",
+    "A266418",
+    "A266638"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:27",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Primes p such that 10p+1 divides 2^p-1.",
+  "id": "A188133",
+  "mentions": [
+    "A000040",
+    "A001348",
+    "A002515",
+    "A122095",
+    "A188130",
+    "A350702"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:12",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

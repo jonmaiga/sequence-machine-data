@@ -1,0 +1,30 @@
+{
+  "description": "Largest Fermi-Dirac factor of n.",
+  "id": "A223491",
+  "mentions": [
+    "A000040",
+    "A006530",
+    "A010055",
+    "A034699",
+    "A050376",
+    "A064547",
+    "A100995",
+    "A209229",
+    "A213925",
+    "A223490",
+    "A302776",
+    "A302785",
+    "A302789"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:41",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

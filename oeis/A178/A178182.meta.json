@@ -1,0 +1,22 @@
+{
+  "description": "Minimal polynomials of sin(2Pi/n) are mapped to those of cos(2Pi/a(n)).",
+  "id": "A178182",
+  "mentions": [
+    "A181872",
+    "A181875",
+    "A228786",
+    "A327921"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:01",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

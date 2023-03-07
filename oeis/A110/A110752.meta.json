@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of divisors of the concatenation of 1089 with itself n times.",
+  "id": "A110752",
+  "mentions": [
+    "A110751",
+    "A110753"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

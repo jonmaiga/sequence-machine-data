@@ -1,0 +1,21 @@
+{
+  "description": "Number of rationals in [0, 1) having exactly n preperiodic bits, then exactly n periodic bits.",
+  "id": "A119920",
+  "mentions": [
+    "A038199",
+    "A119918"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

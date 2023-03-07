@@ -1,0 +1,17 @@
+{
+  "description": "Primes in A343414.",
+  "id": "A343415",
+  "mentions": [
+    "A343414"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:16",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

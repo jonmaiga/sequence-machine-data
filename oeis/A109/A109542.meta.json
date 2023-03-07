@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = number of labeled 3-regular (trivalent) multi-graphs without self-loops on 2n vertices with a maximum of 2 edges between any pair of nodes. Also a(n) = number of labeled symmetric 2n X 2n matrices with {0,1,2}-entries with row sum equal to 3 for each row and trace 0.",
+  "id": "A109542",
+  "mentions": [
+    "A001205",
+    "A002829",
+    "A108243"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

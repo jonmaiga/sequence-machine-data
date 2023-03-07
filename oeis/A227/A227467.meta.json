@@ -1,0 +1,18 @@
+{
+  "description": "E.g.f.: exp( Sum_{n>=1} (1+x)^(n^2) * x^n/n ).",
+  "id": "A227467",
+  "mentions": [
+    "A167006",
+    "A206830"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

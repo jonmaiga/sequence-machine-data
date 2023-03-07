@@ -1,0 +1,19 @@
+{
+  "description": "Lexicographically earliest sequence of distinct positive integers such that the sum of the digits of a(n) is either the sum of all the digits of a(n-1) and a(n+1), or is the absolute difference |((sum of digits of a(n-1)) - ((sum of digits of a(n+1))|, for n > 1.",
+  "id": "A308075",
+  "mentions": [
+    "A007953",
+    "A307638"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:32",
+    "offset": 1,
+    "size": 77,
+    "source": "oeis-bfile"
+  }
+}

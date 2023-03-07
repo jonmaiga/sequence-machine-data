@@ -1,0 +1,42 @@
+{
+  "description": "Array read by ascending antidiagonals: A(n,k) the rising factorial, also known as Pochhammer symbol, for n >= 0 and k >= 0.",
+  "id": "A265609",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A000142",
+    "A000407",
+    "A001147",
+    "A001477",
+    "A001710",
+    "A002262",
+    "A002378",
+    "A007531",
+    "A007623",
+    "A008279",
+    "A025581",
+    "A052762",
+    "A052787",
+    "A053625",
+    "A124320",
+    "A132393",
+    "A159083",
+    "A173333",
+    "A239035",
+    "A257505",
+    "A265890",
+    "A265892"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

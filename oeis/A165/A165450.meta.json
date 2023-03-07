@@ -1,0 +1,20 @@
+{
+  "description": "Sequence gives prime numbers which occur in A033308 ahead of their natural place.",
+  "id": "A165450",
+  "mentions": [
+    "A033308",
+    "A116700"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

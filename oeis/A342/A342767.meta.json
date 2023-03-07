@@ -1,0 +1,24 @@
+{
+  "description": "Array T(n, k), n, k > 0, read by antidiagonals; a variant of lunar multiplication (A087062) based on prime factorizations of numbers (see Comments section for precise definition).",
+  "id": "A342767",
+  "mentions": [
+    "A006530",
+    "A061142",
+    "A079065",
+    "A087062",
+    "A342765",
+    "A342768"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:16",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

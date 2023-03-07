@@ -1,0 +1,17 @@
+{
+  "description": "Positive integers whose prime factors are congruent to 1 (mod 12).",
+  "id": "A354467",
+  "mentions": [
+    "A068228"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

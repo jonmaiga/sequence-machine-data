@@ -1,0 +1,19 @@
+{
+  "description": "Numbers that begin a run of consecutive integers k such that the denominator of the k-th harmonic number is lcm(1..k).",
+  "id": "A330680",
+  "mentions": [
+    "A002805",
+    "A003418",
+    "A098464"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:59",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

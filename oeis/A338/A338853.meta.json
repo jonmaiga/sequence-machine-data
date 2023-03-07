@@ -1,0 +1,19 @@
+{
+  "description": "List of numbers k > 1 such that there exists a group of order k without nontrivial normal Sylow subgroups.",
+  "id": "A338853",
+  "mentions": [
+    "A001034",
+    "A246655",
+    "A338757"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:11",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

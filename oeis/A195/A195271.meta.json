@@ -1,0 +1,27 @@
+{
+  "description": "1.5-gap primes: Prime p is a term iff there is no prime between 1.5*p and 1.5*q, where q is the next prime after p.",
+  "id": "A195271",
+  "mentions": [
+    "A080192",
+    "A164288",
+    "A164294",
+    "A164368",
+    "A193507",
+    "A194186",
+    "A194598",
+    "A194658",
+    "A194659",
+    "A194674",
+    "A195270"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

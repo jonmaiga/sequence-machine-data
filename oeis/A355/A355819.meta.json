@@ -1,0 +1,21 @@
+{
+  "description": "Dirichlet inverse of A270419, denominator of the rational number obtained when the exponents in prime factorization of n are reinterpreted as alternating binary sums (A065620).",
+  "id": "A355819",
+  "mentions": [
+    "A065620",
+    "A270419",
+    "A355826"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "mult",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:30",
+    "offset": 1,
+    "size": 96,
+    "source": "oeis-bfile"
+  }
+}

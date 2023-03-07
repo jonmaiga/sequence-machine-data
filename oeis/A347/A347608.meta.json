@@ -1,0 +1,18 @@
+{
+  "description": "Number of interlacing triangles of size n.",
+  "id": "A347608",
+  "mentions": [
+    "A003121"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Numbers divisible by at least three of their digits, all different and >1.",
+  "id": "A187398",
+  "mentions": [
+    "A187516"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:12",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

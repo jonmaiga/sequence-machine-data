@@ -1,0 +1,17 @@
+{
+  "description": "If m is the n-th composite, then a(n) = gcd(k + m/k), where k is over all divisors of m.",
+  "id": "A143772",
+  "mentions": [
+    "A143771"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

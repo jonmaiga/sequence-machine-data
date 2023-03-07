@@ -1,0 +1,18 @@
+{
+  "description": "There are at least n lucky numbers between x/2 and x for all x >= a(n).",
+  "id": "A186234",
+  "mentions": [
+    "A104272",
+    "A186233"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

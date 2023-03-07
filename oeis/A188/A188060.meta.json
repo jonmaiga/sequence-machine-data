@@ -1,0 +1,19 @@
+{
+  "description": "Numerator of 8^(2n-1) |B(2n)| / (2n)!, where B() are the Bernoulli numbers.",
+  "id": "A188060",
+  "mentions": [
+    "A002432",
+    "A036278",
+    "A046988"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

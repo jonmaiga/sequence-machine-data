@@ -1,0 +1,25 @@
+{
+  "description": "Smallest number of multiplicative-additive divisors persistence n.",
+  "id": "A319507",
+  "mentions": [
+    "A003001",
+    "A006050",
+    "A007953",
+    "A007954",
+    "A031346",
+    "A038367",
+    "A126789"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

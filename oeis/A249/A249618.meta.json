@@ -1,0 +1,19 @@
+{
+  "description": "Set partition (A231428) corresponding to the n-th finite permutation (A055089).",
+  "id": "A249618",
+  "mentions": [
+    "A055089",
+    "A231428"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

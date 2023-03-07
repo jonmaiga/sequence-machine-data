@@ -1,0 +1,21 @@
+{
+  "description": "a(0) = 0, a(1) = 1, a(n+1) = 5*(2*n+1)*a(n) + n^4*a(n-1).",
+  "id": "A143001",
+  "mentions": [
+    "A142999",
+    "A143000",
+    "A143002"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 11:23:53",
+    "offset": 0,
+    "size": 14,
+    "source": "joeis"
+  }
+}

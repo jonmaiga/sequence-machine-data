@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = Sum_{k=0..n} p(k)^k, where p(k) is the partition function A000041.",
+  "id": "A259436",
+  "mentions": [
+    "A000041",
+    "A133018",
+    "A259373",
+    "A259399",
+    "A259437",
+    "A259438",
+    "A265095"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:12",
+    "offset": 0,
+    "size": 16,
+    "source": "joeis"
+  }
+}

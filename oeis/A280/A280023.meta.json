@@ -1,0 +1,17 @@
+{
+  "description": "Least k such that A002375(k) = A002375(k+n), or 0 if no such k exists.",
+  "id": "A280023",
+  "mentions": [
+    "A002375"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:47",
+    "offset": 1,
+    "size": 103,
+    "source": "oeis-bfile"
+  }
+}

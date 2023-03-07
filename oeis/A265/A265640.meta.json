@@ -1,0 +1,26 @@
+{
+  "description": "Prime factorization palindromes (see comments for definition).",
+  "id": "A265640",
+  "mentions": [
+    "A000290",
+    "A000396",
+    "A000720",
+    "A002113",
+    "A013661",
+    "A119848",
+    "A229125",
+    "A229153",
+    "A265641"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:25",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

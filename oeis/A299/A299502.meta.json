@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of (1 - 6*x + x^2 + 8*x^3 + 16*x^4)^(-1/2).",
+  "id": "A299502",
+  "mentions": [
+    "A298611",
+    "A299500"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 14:13:32",
+    "offset": 0,
+    "size": 24,
+    "source": "joeis"
+  }
+}

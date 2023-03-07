@@ -1,0 +1,26 @@
+{
+  "description": "Dot product of the rows of triangle A046899 with vector (1,2,4,8,...) (= A000079).",
+  "id": "A178792",
+  "mentions": [
+    "A000079",
+    "A000108",
+    "A000984",
+    "A001700",
+    "A046899",
+    "A064062",
+    "A091811",
+    "A133460"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:02",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

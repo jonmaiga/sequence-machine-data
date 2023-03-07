@@ -1,0 +1,25 @@
+{
+  "description": "Irregular array of distinct terms read by rows: for n > 0, row n = [r(1),...,r(k)] with r(1) = n^2 (mod prime(n)), r(2) = r(1)^2 (mod prime(n)), ..., r(k) = r(k-1)^2 (mod prime(n)), where r(k) is the last term of the cycle.",
+  "id": "A307550",
+  "mentions": [
+    "A000040",
+    "A000224",
+    "A001122",
+    "A046071",
+    "A063987",
+    "A096008",
+    "A141305",
+    "A307551"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

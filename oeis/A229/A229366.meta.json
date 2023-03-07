@@ -1,0 +1,18 @@
+{
+  "description": "Number of n X 2 0..2 arrays avoiding 11 horizontally, 22 vertically and 00 antidiagonally.",
+  "id": "A229366",
+  "mentions": [
+    "A229372"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:46",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

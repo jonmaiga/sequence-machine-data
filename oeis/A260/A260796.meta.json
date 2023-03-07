@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that digit sum of prime(n) plus digit sum of prime(n+1) is prime.",
+  "id": "A260796",
+  "mentions": [
+    "A000040",
+    "A007605",
+    "A007953",
+    "A046704"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:19",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

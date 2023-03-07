@@ -1,0 +1,24 @@
+{
+  "description": "2n+1 appears n+1 times.",
+  "id": "A131507",
+  "mentions": [
+    "A000217",
+    "A000384",
+    "A001650",
+    "A002024",
+    "A003056",
+    "A005408"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:22:23",
+    "offset": 0,
+    "size": 78,
+    "source": "joeis"
+  }
+}

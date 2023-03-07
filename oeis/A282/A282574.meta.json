@@ -1,0 +1,19 @@
+{
+  "description": "The final position on a staircase of n steps during the following routine: Take steps of length 1 up a staircase until you can't step any further, then take steps of length 2 down until you can't step any further, and so on.",
+  "id": "A282574",
+  "mentions": [
+    "A282442",
+    "A282443",
+    "A282444"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:51",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

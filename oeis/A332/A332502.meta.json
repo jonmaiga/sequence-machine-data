@@ -1,0 +1,34 @@
+{
+  "description": "Rectangular array read by antidiagonals: T(n,k) = floor(n + k*r), where r = golden ratio = (1+sqrt(5))/2.",
+  "id": "A332502",
+  "mentions": [
+    "A000201",
+    "A000210",
+    "A001477",
+    "A001622",
+    "A001950",
+    "A003622",
+    "A019446",
+    "A026274",
+    "A026351",
+    "A026352",
+    "A026355",
+    "A026356",
+    "A084531",
+    "A099267",
+    "A167267"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 74,
+    "source": "oeis-entry"
+  }
+}

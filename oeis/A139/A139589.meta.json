@@ -1,0 +1,20 @@
+{
+  "description": "Fibonacci numbers with Fibonacci number of divisors.",
+  "id": "A139589",
+  "mentions": [
+    "A000005",
+    "A000045",
+    "A063375",
+    "A133021"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:27",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

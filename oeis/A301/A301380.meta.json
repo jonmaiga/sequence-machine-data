@@ -1,0 +1,21 @@
+{
+  "description": "Number of tied close American football games: number of ways for the game to have n scoring plays, never be separated by more than one score after each play, and be tied at the end.",
+  "id": "A301380",
+  "mentions": [
+    "A300998",
+    "A301379",
+    "A301381"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2022-05-03 12:44:04",
+    "offset": 0,
+    "size": 22,
+    "source": "joeis"
+  }
+}

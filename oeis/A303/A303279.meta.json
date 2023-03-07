@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of (1/(1 - x)^2) * Sum_{p prime, k>=1} x^(p^k)/(1 - x^(p^k)).",
+  "id": "A303279",
+  "mentions": [
+    "A000178",
+    "A001222",
+    "A022559",
+    "A303281"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:27",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

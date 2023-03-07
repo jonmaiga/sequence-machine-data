@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = A260351(n) - A023811(n), where A260351 is the limit of the orbit of 0 under x -> x + (largest digit not in x) and A023811 is the largest metadrome, both in base n.",
+  "id": "A260371",
+  "mentions": [
+    "A023811",
+    "A260351"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 2,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

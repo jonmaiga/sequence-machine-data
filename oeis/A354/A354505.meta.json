@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of e.g.f. ( Product_{k>0} (1 + x^k)^(1/k!) )^exp(x).",
+  "id": "A354505",
+  "mentions": [
+    "A354509",
+    "A356402"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

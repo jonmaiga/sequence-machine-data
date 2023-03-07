@@ -1,0 +1,25 @@
+{
+  "description": "Expansion of f(-x, -x) * f(x^2, x^4) in powers of x where f(, ) is Ramanujan's general theta function.",
+  "id": "A248886",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A010054",
+    "A010815",
+    "A121373",
+    "A123884",
+    "A131961",
+    "A131963"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:51:13",
+    "offset": 0,
+    "size": 78,
+    "source": "joeis"
+  }
+}

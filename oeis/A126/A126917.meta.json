@@ -1,0 +1,20 @@
+{
+  "description": "a(1)=1. a(n) = the (largest proper divisor of n)th integer from among those positive integers not occurring earlier in the sequence.",
+  "id": "A126917",
+  "mentions": [
+    "A032742",
+    "A126918",
+    "A243069",
+    "A243488"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:14",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

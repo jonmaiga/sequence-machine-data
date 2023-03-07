@@ -1,0 +1,17 @@
+{
+  "description": "Number of zeros in the left half-plane of the polynomial whose coefficients are the ordered divisors of n.",
+  "id": "A284154",
+  "mentions": [
+    "A084115"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

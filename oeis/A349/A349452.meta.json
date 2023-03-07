@@ -1,0 +1,26 @@
+{
+  "description": "Dirichlet inverse of A011782, 2^(n-1).",
+  "id": "A349452",
+  "mentions": [
+    "A011782",
+    "A349449",
+    "A349450",
+    "A349451",
+    "A349453",
+    "A349563",
+    "A349565",
+    "A349567",
+    "A349569"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:24",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

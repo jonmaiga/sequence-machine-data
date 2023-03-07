@@ -1,0 +1,25 @@
+{
+  "description": "Number of partitions of (2*n)! into parts that are at most n.",
+  "id": "A258670",
+  "mentions": [
+    "A236810",
+    "A237998",
+    "A238000",
+    "A238010",
+    "A238016",
+    "A258668",
+    "A258669",
+    "A258671"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:16",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-bfile"
+  }
+}

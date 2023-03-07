@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k) gives number of partitions of k, (k=1..n) into the prime factors of n, for n>=1.",
+  "id": "A107329",
+  "mentions": [
+    "A066882",
+    "A092976"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "look",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:59",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

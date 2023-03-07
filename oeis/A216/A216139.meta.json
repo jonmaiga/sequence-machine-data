@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = conjectured number of integers k such that n^k has no four consecutive identical digits.",
+  "id": "A216139",
+  "mentions": [
+    "A216063",
+    "A216064",
+    "A216065"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 2,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

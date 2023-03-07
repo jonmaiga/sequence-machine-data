@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of Pi-333/106.",
+  "id": "A226042",
+  "mentions": [
+    "A002485",
+    "A002486",
+    "A003077"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:52:37",
+    "offset": 0,
+    "size": 100,
+    "source": "joeis"
+  }
+}

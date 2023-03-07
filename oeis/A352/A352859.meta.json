@@ -1,0 +1,21 @@
+{
+  "description": "a(0) = 1; a(n) = Sum_{k=0..n-1} binomial(n,k+1) * 2^k * a(k).",
+  "id": "A352859",
+  "mentions": [
+    "A040027",
+    "A126443",
+    "A351756",
+    "A352860"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

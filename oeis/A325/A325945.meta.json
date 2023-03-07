@@ -1,0 +1,18 @@
+{
+  "description": "Let p(n) be the n-th composite squarefree number. a(n) is the smallest integer q that forms a pure idempotent product.",
+  "id": "A325945",
+  "mentions": [
+    "A120944",
+    "A306330"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:52",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

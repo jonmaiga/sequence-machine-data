@@ -1,0 +1,19 @@
+{
+  "description": "Union of {8, 9, 18}, S, 2S and 4S, where S = odd squarefree numbers (A056911).",
+  "id": "A121684",
+  "mentions": [
+    "A056911",
+    "A078779",
+    "A121176"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:10",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

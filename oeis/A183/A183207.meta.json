@@ -1,0 +1,19 @@
+{
+  "description": "Termwise products of the natural numbers and odd integers repeated",
+  "id": "A183207",
+  "mentions": [
+    "A093005"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:14:53",
+    "offset": 1,
+    "size": 45,
+    "source": "joeis"
+  }
+}

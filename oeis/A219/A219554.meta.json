@@ -1,0 +1,31 @@
+{
+  "description": "Number of bipartite partitions of (n,n) into distinct pairs.",
+  "id": "A219554",
+  "mentions": [
+    "A000009",
+    "A002774",
+    "A036469",
+    "A054242",
+    "A201377",
+    "A219560",
+    "A219561",
+    "A219565",
+    "A219585",
+    "A268345",
+    "A268346",
+    "A268347",
+    "A268348"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:37",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "description": "Number of alternately co-strong compositions of n.",
+  "id": "A332338",
+  "mentions": [
+    "A001462",
+    "A100883",
+    "A181819",
+    "A182850",
+    "A316496",
+    "A317256",
+    "A317257",
+    "A329744",
+    "A329746",
+    "A332274",
+    "A332275",
+    "A332292",
+    "A332296",
+    "A332339",
+    "A332340"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

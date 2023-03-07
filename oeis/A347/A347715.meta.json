@@ -1,0 +1,21 @@
+{
+  "description": "Number of compositions (ordered partitions) of n into at most 3 cubes.",
+  "id": "A347715",
+  "mentions": [
+    "A000578",
+    "A023358",
+    "A051344",
+    "A347714",
+    "A347716"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 82,
+    "source": "oeis-entry"
+  }
+}

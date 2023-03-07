@@ -1,0 +1,20 @@
+{
+  "description": "Number of unrooted maps with n edges of (orientable) genus 3.",
+  "id": "A104596",
+  "mentions": [
+    "A006386",
+    "A104595",
+    "A104742",
+    "A215019"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:55",
+    "offset": 6,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

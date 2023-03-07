@@ -1,0 +1,27 @@
+{
+  "description": "Residues modulo 100 of odd squares.",
+  "id": "A210251",
+  "mentions": [
+    "A002015",
+    "A008959",
+    "A010461",
+    "A016754",
+    "A030156",
+    "A174452",
+    "A192775"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Final diagonal of triangle in A144529.",
+  "id": "A144530",
+  "mentions": [
+    "A144529"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

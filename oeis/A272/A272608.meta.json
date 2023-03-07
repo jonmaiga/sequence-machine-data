@@ -1,0 +1,20 @@
+{
+  "description": "Number of positive integers k such that both n/(k + 2^x) and n/(n/k - 2^y) are integers for some nonnegative x, y.",
+  "id": "A272608",
+  "mentions": [
+    "A027750",
+    "A092506",
+    "A277994"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

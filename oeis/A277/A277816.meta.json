@@ -1,0 +1,27 @@
+{
+  "description": "a(n) = the least k > n for which A264977(k) = A264977(n), or 0 if no such k exists.",
+  "id": "A277816",
+  "mentions": [
+    "A264977",
+    "A277696",
+    "A277701",
+    "A277710",
+    "A277712",
+    "A277713",
+    "A277715",
+    "A277814",
+    "A277815",
+    "A277826"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:43",
+    "offset": 0,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "a(n) is the hafnian of a symmetric Toeplitz matrix M(2*n) whose first row consists of prime(2*n), prime(2*n-1), ..., prime(1).",
+  "id": "A356484",
+  "mentions": [
+    "A202038",
+    "A336114",
+    "A336286",
+    "A336400",
+    "A338456",
+    "A356481",
+    "A356482",
+    "A356483",
+    "A356492",
+    "A356493"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Primes of the form pi(n) + prime(n).",
+  "id": "A100917",
+  "mentions": [
+    "A065042",
+    "A100486"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:52",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

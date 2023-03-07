@@ -1,0 +1,26 @@
+{
+  "description": "Difference between the indices of the smallest and the largest primorial in the greedy sum of primorials adding to A108951(n).",
+  "id": "A329343",
+  "mentions": [
+    "A002110",
+    "A034386",
+    "A108951",
+    "A243055",
+    "A276086",
+    "A324886",
+    "A324888",
+    "A329040",
+    "A329051"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

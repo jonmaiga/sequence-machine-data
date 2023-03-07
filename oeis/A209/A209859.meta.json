@@ -1,0 +1,22 @@
+{
+  "description": "Rewrite the binary expansion of n from the most significant end, 1 -> 1, 0+1 (one or more zeros followed by one) -> 0, drop the trailing zeros of the original n.",
+  "id": "A209859",
+  "mentions": [
+    "A000265",
+    "A053644",
+    "A071162",
+    "A209639",
+    "A209862"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 109,
+    "source": "oeis-entry"
+  }
+}

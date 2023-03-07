@@ -1,0 +1,28 @@
+{
+  "description": "Triangle formed from the odd-numbered rows of A088855.",
+  "id": "A247644",
+  "mentions": [
+    "A055898",
+    "A055899",
+    "A055900",
+    "A055901",
+    "A055902",
+    "A055903",
+    "A055904",
+    "A088459",
+    "A088855",
+    "A157052",
+    "A157074"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:10:35",
+    "offset": 1,
+    "size": 81,
+    "source": "joeis"
+  }
+}

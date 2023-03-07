@@ -1,0 +1,23 @@
+{
+  "description": "Number of partitions of n that sorted in increasing order do not contain a part k in position k.",
+  "id": "A238394",
+  "mentions": [
+    "A000041",
+    "A001522",
+    "A064428",
+    "A238352",
+    "A238395",
+    "A238406"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

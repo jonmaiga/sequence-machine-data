@@ -1,0 +1,18 @@
+{
+  "description": "Number of n X 2 0..3 arrays with no element equal to the same number of vertical neighbors as horizontal neighbors, with new values 0..3 introduced in row major order.",
+  "id": "A241345",
+  "mentions": [
+    "A241349"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n)=sum{k=0..floor(n/2), binomial(n-k,k)*A186338(k)}.",
+  "id": "A186341",
+  "mentions": [
+    "A134751",
+    "A186338"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 21:06:08",
+    "offset": 0,
+    "size": 31,
+    "source": "joeis"
+  }
+}

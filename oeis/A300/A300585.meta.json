@@ -1,0 +1,23 @@
+{
+  "description": "Number of partitions of n into squarefree parts that do not divide n.",
+  "id": "A300585",
+  "mentions": [
+    "A005117",
+    "A073576",
+    "A098743",
+    "A128515",
+    "A225244",
+    "A300580",
+    "A300586"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: consider a figure made up of a row of n congruent rectangles and the diagonals of all possible rectangles; T(n,k) (1 <= k <= n-1) is the number of vertices on the edge separating rectangles k and k+1.",
+  "id": "A335074",
+  "mentions": [
+    "A159065",
+    "A306302",
+    "A331755",
+    "A333288",
+    "A335056"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 2,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

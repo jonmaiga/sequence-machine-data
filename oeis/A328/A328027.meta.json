@@ -1,0 +1,29 @@
+{
+  "description": "Irregular triangle read by rows where row n lists, in weakly increasing order, the differences between consecutive divisors of n.",
+  "id": "A328027",
+  "mentions": [
+    "A000005",
+    "A001477",
+    "A027750",
+    "A060680",
+    "A060681",
+    "A060682",
+    "A060683",
+    "A070211",
+    "A129308",
+    "A193829",
+    "A328024",
+    "A328025"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

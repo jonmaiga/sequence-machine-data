@@ -1,0 +1,22 @@
+{
+  "description": "Write the semiprimes backwards in base 10 and juxtapose (concatenate) their digits.",
+  "id": "A228586",
+  "mentions": [
+    "A000040",
+    "A001358",
+    "A228355"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-entry"
+  }
+}

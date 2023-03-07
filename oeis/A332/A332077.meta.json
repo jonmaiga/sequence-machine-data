@@ -1,0 +1,22 @@
+{
+  "description": "Square array of sunflower numbers Sun(m,n) = minimal number of distinct sets of cardinality <= m such that there is a sunflower with at least n sets among them, read by falling antidiagonals; m, n >= 1.",
+  "id": "A332077",
+  "mentions": [
+    "A236397",
+    "A266696"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "T(n, k) is the number of steps from the point (0, 0) to the point (k, n) along the space filling curve T defined in Comments section; square array T(n, k), n, k >= 0 read by antidiagonals downwards.",
+  "id": "A334474",
+  "mentions": [
+    "A334475",
+    "A334476"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

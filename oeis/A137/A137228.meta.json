@@ -1,0 +1,20 @@
+{
+  "description": "Minimal total number of edges in a polyiamond consisting of n triangular cells.",
+  "id": "A137228",
+  "mentions": [
+    "A000577",
+    "A067628",
+    "A135708"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

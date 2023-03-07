@@ -1,0 +1,33 @@
+{
+  "description": "Number of ways to write 2*n^2 as x^2 + y^2 + z^2 + w^2 with x,y,z,w nonnegative integers such that x + 3*y + 5*z + 15*w is a power of 4.",
+  "id": "A301891",
+  "mentions": [
+    "A000290",
+    "A000302",
+    "A271518",
+    "A281976",
+    "A299537",
+    "A299794",
+    "A299924",
+    "A300219",
+    "A300362",
+    "A300396",
+    "A300510",
+    "A301376",
+    "A301391",
+    "A301452",
+    "A301471",
+    "A301579",
+    "A301640"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:26",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

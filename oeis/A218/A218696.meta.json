@@ -1,0 +1,20 @@
+{
+  "description": "Number of components over all graphs on n labeled nodes with unicyclic components (graphs counted by A137916).",
+  "id": "A218696",
+  "mentions": [
+    "A057500",
+    "A106239",
+    "A137916"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:36",
+    "offset": 3,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Lexicographically smallest permutation of the nonnegative integers such that a(n) = a(2n) - a(2n-1) for all n >= 1.",
+  "id": "A293977",
+  "mentions": [
+    "A033485",
+    "A293976"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:10",
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

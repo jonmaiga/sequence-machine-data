@@ -1,0 +1,35 @@
+{
+  "description": "L-toothpick sequence starting with two opposite L-toothpicks.",
+  "id": "A172304",
+  "mentions": [
+    "A000695",
+    "A139250",
+    "A160120",
+    "A160170",
+    "A160172",
+    "A161206",
+    "A161328",
+    "A161330",
+    "A172305",
+    "A172306",
+    "A172307",
+    "A172308",
+    "A172309",
+    "A172310",
+    "A172311",
+    "A172312",
+    "A172313",
+    "A212008",
+    "A220500"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:56",
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

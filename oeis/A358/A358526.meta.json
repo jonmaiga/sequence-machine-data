@@ -1,0 +1,29 @@
+{
+  "description": "Numbers k whose prime indices have a different number of permutations than any number less than k.",
+  "id": "A358526",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A001221",
+    "A001222",
+    "A003963",
+    "A008480",
+    "A056239",
+    "A061395",
+    "A112798",
+    "A289509",
+    "A304938",
+    "A316524",
+    "A344606"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

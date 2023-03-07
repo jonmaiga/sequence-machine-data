@@ -1,0 +1,21 @@
+{
+  "description": "A set of eleven distinct positive odd numbers the sum of whose reciprocals is 1 and whose 11th term is as large as possible.",
+  "id": "A239036",
+  "mentions": [
+    "A201646",
+    "A238795"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "fini",
+    "full",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

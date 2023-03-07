@@ -1,0 +1,26 @@
+{
+  "description": "Square array A(n,k), n >= 0, k >= 0, read by antidiagonals, where column k is the expansion of the e.g.f. exp(-x)/(1 - k*x).",
+  "id": "A320032",
+  "mentions": [
+    "A000166",
+    "A000180",
+    "A000354",
+    "A001907",
+    "A001908",
+    "A033999",
+    "A319392",
+    "A320031"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:42",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

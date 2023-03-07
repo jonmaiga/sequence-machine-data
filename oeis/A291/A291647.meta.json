@@ -1,0 +1,25 @@
+{
+  "description": "Expansion of Product_{k>=1} (1 + x^prime(k))^prime(k).",
+  "id": "A291647",
+  "mentions": [
+    "A000040",
+    "A000586",
+    "A007441",
+    "A026007",
+    "A061151",
+    "A061152",
+    "A219224",
+    "A262736"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

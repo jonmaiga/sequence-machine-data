@@ -1,0 +1,21 @@
+{
+  "description": "Number of paths from {0}^n to {n}^n that always move closer to {n}^n.",
+  "id": "A316677",
+  "mentions": [
+    "A011782",
+    "A262810",
+    "A316674"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:35",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-bfile"
+  }
+}

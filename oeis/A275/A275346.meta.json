@@ -1,0 +1,19 @@
+{
+  "description": "In Go, minimum total number of liberties player 1 (black) can have on a standard 19 X 19 board after n moves when no player passes a move, with no repeating game positions allowed.",
+  "id": "A275346",
+  "mentions": [
+    "A089071",
+    "A094777",
+    "A269417"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

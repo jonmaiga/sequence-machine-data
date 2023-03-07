@@ -1,0 +1,19 @@
+{
+  "description": "a(n) equals the coefficient of x^n in the (2*n-1)-th iteration of x+x^2 for n>=1.",
+  "id": "A194972",
+  "mentions": [
+    "A112317",
+    "A122888",
+    "A194971"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

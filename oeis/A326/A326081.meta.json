@@ -1,0 +1,29 @@
+{
+  "description": "Number of subsets of {1..n} containing the product of any set of distinct elements whose product is <= n.",
+  "id": "A326081",
+  "mentions": [
+    "A007865",
+    "A051026",
+    "A103580",
+    "A196724",
+    "A308542",
+    "A326020",
+    "A326023",
+    "A326076",
+    "A326078",
+    "A326079",
+    "A326116",
+    "A326117"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

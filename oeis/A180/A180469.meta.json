@@ -1,0 +1,18 @@
+{
+  "description": "Primes of the form 100p + 1, where p is prime.",
+  "id": "A180469",
+  "mentions": [
+    "A158128"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:03",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

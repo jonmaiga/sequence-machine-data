@@ -1,0 +1,20 @@
+{
+  "description": "Primes of the form p + sum of squares of digits of p, where p is prime.",
+  "id": "A225519",
+  "mentions": [
+    "A048519",
+    "A048520",
+    "A076162"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

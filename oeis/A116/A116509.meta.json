@@ -1,0 +1,18 @@
+{
+  "description": "Values of c in a^2 + b^2 = c^2 where b - a = 31 and gcd(a,b)=1.",
+  "id": "A116509",
+  "mentions": [
+    "A058529"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:22",
+    "offset": 1,
+    "size": 25,
+    "source": "joeis"
+  }
+}

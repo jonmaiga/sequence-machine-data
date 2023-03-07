@@ -1,0 +1,20 @@
+{
+  "description": "Total number of reduced pipe dreams (a.k.a. rc-graphs) for all permutations in S_n.",
+  "id": "A331920",
+  "mentions": [
+    "A284661"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

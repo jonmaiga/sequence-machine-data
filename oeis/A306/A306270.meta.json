@@ -1,0 +1,20 @@
+{
+  "description": "Composite numbers k such that b^(k(k-1)) == 1 (mod k^2) for every b coprime to k.",
+  "id": "A306270",
+  "mentions": [
+    "A002322",
+    "A002997",
+    "A190275",
+    "A306259"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

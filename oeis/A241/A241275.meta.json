@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 6*a(n-1) + 5*(2^(n-1)-1) for n > 0, a(0) = 0.",
+  "id": "A241275",
+  "mentions": [
+    "A016129",
+    "A016200",
+    "A240523"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

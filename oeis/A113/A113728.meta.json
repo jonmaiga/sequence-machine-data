@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the integer between p(n) and p(n+2) which is divisible by (p(n+2)-p(n)), where p(n) is the n-th prime.",
+  "id": "A113728",
+  "mentions": [
+    "A000040",
+    "A031131",
+    "A113709",
+    "A113729"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:04",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

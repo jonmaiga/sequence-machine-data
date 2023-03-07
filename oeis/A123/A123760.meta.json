@@ -1,0 +1,22 @@
+{
+  "description": "Numbers whose binary expansion is 1xy100...0 where x,y = 0 or 1.",
+  "id": "A123760",
+  "mentions": [
+    "A029744",
+    "A070875",
+    "A070876",
+    "A093873"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:12",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "T(n,k) is the concatenation of n-k and n+k in binary; triangle T(n,k), n>=0, 0<=k<=n, read by rows.",
+  "id": "A246830",
+  "mentions": [
+    "A005843",
+    "A007088",
+    "A020330",
+    "A025581",
+    "A030308",
+    "A051162",
+    "A080565",
+    "A246520",
+    "A246831"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "look",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:03",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

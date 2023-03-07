@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of Sum_{m>=1} (-1)^floor(sqrt(m)) / m.",
+  "id": "A339799",
+  "mentions": [
+    "A196521",
+    "A228639",
+    "A231902"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

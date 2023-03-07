@@ -1,0 +1,20 @@
+{
+  "description": "Array read by antidiagonals: Sprague-Grundy values for the game NimHof with 5 rules [1,0], [1,1], [2,3], [1,2], [0,1].",
+  "id": "A307298",
+  "mentions": [
+    "A003987",
+    "A307296",
+    "A307297"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

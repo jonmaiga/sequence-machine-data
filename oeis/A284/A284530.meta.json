@@ -1,0 +1,17 @@
+{
+  "description": "Indices i such that A284486(i) = 1.",
+  "id": "A284530",
+  "mentions": [
+    "A284486"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

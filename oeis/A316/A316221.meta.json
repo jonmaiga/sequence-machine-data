@@ -1,0 +1,18 @@
+{
+  "description": "Let S(n) = set of divisors of n, excluding n; sequence gives n such that there is a unique relatively prime subset of S(n) that sums to n.",
+  "id": "A316221",
+  "mentions": [
+    "A005835",
+    "A064771"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

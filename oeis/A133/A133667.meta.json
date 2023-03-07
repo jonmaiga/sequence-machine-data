@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = a(n-1) - 25*a(n-2), a(0)=1, a(1)=5.",
+  "id": "A133667",
+  "mentions": [
+    "A133607"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:40:19",
+    "offset": 0,
+    "size": 22,
+    "source": "joeis"
+  }
+}

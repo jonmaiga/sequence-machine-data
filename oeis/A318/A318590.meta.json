@@ -1,0 +1,22 @@
+{
+  "description": "Number of connected balanced signed graphs on n unlabeled nodes.",
+  "id": "A318590",
+  "mentions": [
+    "A005142",
+    "A034892",
+    "A053465",
+    "A054919",
+    "A054921"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:39",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

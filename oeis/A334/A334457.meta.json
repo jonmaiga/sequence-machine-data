@@ -1,0 +1,23 @@
+{
+  "description": "Block sizes k of nontrivial biplanes.",
+  "id": "A334457",
+  "mentions": [
+    "A001109",
+    "A003409",
+    "A038723",
+    "A038725",
+    "A054490",
+    "A334456"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Imaginary part of multiplier m of the Gaussian multiperfect number associated with the real part A100889(n).",
+  "id": "A100890",
+  "mentions": [
+    "A100884",
+    "A100885",
+    "A100889"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "more",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

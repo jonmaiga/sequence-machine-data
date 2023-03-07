@@ -1,0 +1,26 @@
+{
+  "description": "Coefficients of a sequence of polynomials related to the Morgan-Voyce polynomials.",
+  "id": "A211956",
+  "mentions": [
+    "A005246",
+    "A085478",
+    "A123519",
+    "A204021",
+    "A208513",
+    "A211955",
+    "A211957"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

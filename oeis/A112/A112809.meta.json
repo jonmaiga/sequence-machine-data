@@ -1,0 +1,24 @@
+{
+  "description": "Positions of records in A110566.",
+  "id": "A112809",
+  "mentions": [
+    "A001008",
+    "A002805",
+    "A003418",
+    "A025529",
+    "A098464",
+    "A110566",
+    "A112810"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

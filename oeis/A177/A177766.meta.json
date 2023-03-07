@@ -1,0 +1,22 @@
+{
+  "description": "Terms of A177763 which have more than one such representation.",
+  "id": "A177766",
+  "mentions": [
+    "A152412",
+    "A177760",
+    "A177761",
+    "A177763",
+    "A177764",
+    "A177765"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:01",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

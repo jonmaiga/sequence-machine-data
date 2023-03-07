@@ -1,0 +1,18 @@
+{
+  "description": "Number of length-n binary strings achieving the maximum length of a minimal factorization (counted by A309077(n)).",
+  "id": "A309078",
+  "mentions": [
+    "A309077"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

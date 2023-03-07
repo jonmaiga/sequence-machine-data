@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k for which A359425(k) is odd, where A359425 is the Dirichlet convolution of the arithmetic derivative with the primorial base exp function.",
+  "id": "A360127",
+  "mentions": [
+    "A359425",
+    "A360125",
+    "A360126"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

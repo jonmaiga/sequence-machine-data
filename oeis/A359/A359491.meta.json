@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k with the property that the set of decimal digits of k matches the set of first digits of the prime factors of k.",
+  "id": "A359491",
+  "mentions": [
+    "A115024"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

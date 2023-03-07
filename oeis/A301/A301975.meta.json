@@ -1,0 +1,21 @@
+{
+  "description": "Numbers whose abundance is divisible by its number of divisors.",
+  "id": "A301975",
+  "mentions": [
+    "A000005",
+    "A000396",
+    "A033880",
+    "A056075",
+    "A065091"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:26",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

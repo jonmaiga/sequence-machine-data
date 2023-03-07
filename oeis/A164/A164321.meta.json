@@ -1,0 +1,20 @@
+{
+  "description": "Let s(n) be the smallest number x such that the decimal representation of n appears as a substring of the decimal representations of the numbers [0...x] more than x times.",
+  "id": "A164321",
+  "mentions": [
+    "A092175",
+    "A163500"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

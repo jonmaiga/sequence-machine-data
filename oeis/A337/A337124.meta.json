@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of primes p in the n-digit \"signed nonadjacent form\" such that p has three nonzero digits.",
+  "id": "A337124",
+  "mentions": [
+    "A334913",
+    "A337123"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

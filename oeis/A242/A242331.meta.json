@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that k^2 + 3 is a semiprime.",
+  "id": "A242331",
+  "mentions": [
+    "A049422",
+    "A049423",
+    "A085722",
+    "A242330",
+    "A242332",
+    "A242333"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

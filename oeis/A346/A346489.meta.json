@@ -1,0 +1,27 @@
+{
+  "description": "a(n) is the index of the smallest prime whose digits sum to n-th prime.",
+  "id": "A346489",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A007605",
+    "A028834",
+    "A046704",
+    "A046864",
+    "A054750",
+    "A075177"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "changed",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Freeman Dyson's list of values of k for which there is an identity of a certain type for the k-th power of the Dedekind eta function.",
+  "id": "A126581",
+  "mentions": [
+    "A003038"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:44",
+    "offset": 1,
+    "size": 58,
+    "source": "joeis"
+  }
+}

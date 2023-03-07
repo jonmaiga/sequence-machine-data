@@ -1,0 +1,20 @@
+{
+  "description": "A003754(n+1) - A003754(n).",
+  "id": "A107359",
+  "mentions": [
+    "A000071",
+    "A001911",
+    "A003754",
+    "A005578"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 102,
+    "source": "oeis-entry"
+  }
+}

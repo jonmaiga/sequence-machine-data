@@ -1,0 +1,18 @@
+{
+  "description": "Number of assembly trees for complete tripartite graph K_{n,n,n}.",
+  "id": "A217524",
+  "mentions": [
+    "A217523"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

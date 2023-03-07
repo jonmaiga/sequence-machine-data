@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = pi(A340063(n)) = A000720(A340063(n)) for prime A340063(n) and otherwise k such that A340063 is the k-th positive integer having its digitsum.",
+  "id": "A340294",
+  "mentions": [
+    "A000720",
+    "A254524",
+    "A340063"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:13",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

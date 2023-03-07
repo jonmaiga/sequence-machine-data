@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of Hypergeometric2F1[1, 1/8, 9/8, 1/16] used in BBP Pi formula.",
+  "id": "A145963",
+  "mentions": [
+    "A000796",
+    "A145960",
+    "A145961",
+    "A145962"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

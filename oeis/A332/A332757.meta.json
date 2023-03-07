@@ -1,0 +1,18 @@
+{
+  "description": "Number of involutions (plus identity) in the n-fold iterated wreath product of C_2.",
+  "id": "A332757",
+  "mentions": [
+    "A332758"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

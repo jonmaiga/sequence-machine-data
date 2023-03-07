@@ -1,0 +1,18 @@
+{
+  "description": "Primes with Hamming distance of one from those in A320102.",
+  "id": "A350591",
+  "mentions": [
+    "A320102"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

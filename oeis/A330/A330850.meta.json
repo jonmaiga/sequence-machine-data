@@ -1,0 +1,20 @@
+{
+  "description": "The number of vertices inside a cross with width 3 and height n (see Comments in A331455 for definition) formed by the straight line segments mutually connecting all vertices and all points.",
+  "id": "A330850",
+  "mentions": [
+    "A330848",
+    "A330851",
+    "A331455",
+    "A333035"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:00",
+    "offset": 2,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

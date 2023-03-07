@@ -1,0 +1,17 @@
+{
+  "description": "Smallest prime r such that p = (q + r + 1)/r, where p = prime(n) and q = A277878(n).",
+  "id": "A277879",
+  "mentions": [
+    "A277878"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 2,
+    "size": 85,
+    "source": "oeis-entry"
+  }
+}

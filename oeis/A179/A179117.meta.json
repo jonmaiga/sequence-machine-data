@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{d|n} phi(d^phi(d)).",
+  "id": "A179117",
+  "mentions": [
+    "A000010",
+    "A179116"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

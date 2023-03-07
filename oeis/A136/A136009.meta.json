@@ -1,0 +1,18 @@
+{
+  "description": "Primes p for which the least pentagonal number q=n(3n+/-1)/2 which makes p+q prime satisfies 2q > p.",
+  "id": "A136009",
+  "mentions": [
+    "A001318"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Irregular triangle T(n,k) read by rows: \"residual summands\" in reduced Collatz sequences (see Comments for definition and explanation).",
+  "id": "A327283",
+  "mentions": [
+    "A116623",
+    "A116641",
+    "A259663"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

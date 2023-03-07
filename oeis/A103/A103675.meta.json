@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = 1 if the binary representation of n! contains 7! (bit string \"1001110110000\"), otherwise a(n) = 0.",
+  "id": "A103675",
+  "mentions": [
+    "A000142",
+    "A007088",
+    "A036603",
+    "A102730",
+    "A103673",
+    "A103674",
+    "A103680",
+    "A103681"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:54",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

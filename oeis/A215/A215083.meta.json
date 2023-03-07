@@ -1,0 +1,22 @@
+{
+  "description": "Triangle T(n,k) = sum of the k first n-th powers",
+  "id": "A215083",
+  "mentions": [
+    "A000537",
+    "A000538",
+    "A000539",
+    "A215078"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:33",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

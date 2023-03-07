@@ -1,0 +1,22 @@
+{
+  "description": "For every positive integer m, let u(m) = (d(1),d(2),...,d(k)) be the unitary divisors of m. The sequence (a(n)) consists of successive numbers m which d(k)/d(1) + d(k-1)/d(2) + ... + d(k)/d(1) is an integer.",
+  "id": "A229996",
+  "mentions": [
+    "A034676",
+    "A046762",
+    "A077610",
+    "A229994",
+    "A229999"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

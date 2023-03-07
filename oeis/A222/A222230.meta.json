@@ -1,0 +1,26 @@
+{
+  "description": "In the number n, replace all (decimal) digits '2' with '6' and vice versa.",
+  "id": "A222230",
+  "mentions": [
+    "A171013",
+    "A171016",
+    "A171018",
+    "A171030",
+    "A171057",
+    "A175770",
+    "A222210",
+    "A222254"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:10:31",
+    "offset": 0,
+    "size": 76,
+    "source": "joeis"
+  }
+}

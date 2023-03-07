@@ -1,0 +1,25 @@
+{
+  "description": "Number of ones in the binary expansion of (n!)!.",
+  "id": "A348651",
+  "mentions": [
+    "A000120",
+    "A000142",
+    "A000197",
+    "A079584",
+    "A152168",
+    "A301861"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

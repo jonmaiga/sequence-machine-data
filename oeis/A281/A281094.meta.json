@@ -1,0 +1,19 @@
+{
+  "description": "Maximum number of nonisomorphic subtrees of a tree of order n.",
+  "id": "A281094",
+  "mentions": [
+    "A281578"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

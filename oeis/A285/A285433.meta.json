@@ -1,0 +1,18 @@
+{
+  "description": "Integers m such that m-k is the product of k+1 primes for k=0..6.",
+  "id": "A285433",
+  "mentions": [
+    "A093552",
+    "A113008"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

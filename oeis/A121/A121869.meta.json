@@ -1,0 +1,22 @@
+{
+  "description": "Monthly Problem 10791, first expression.",
+  "id": "A121869",
+  "mentions": [
+    "A024429",
+    "A024430",
+    "A121867",
+    "A121868",
+    "A121870"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:10",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

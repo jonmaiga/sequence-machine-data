@@ -1,0 +1,20 @@
+{
+  "description": "Cardinalities of the symmetric operad of dotted red and white trees.",
+  "id": "A231691",
+  "mentions": [
+    "A052878",
+    "A060006",
+    "A231690"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:49",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

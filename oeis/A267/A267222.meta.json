@@ -1,0 +1,18 @@
+{
+  "description": "T(n,k)=Number of nXk arrays containing k copies of 0..n-1 with no element 1 greater than its west, northeast or southeast neighbor modulo n and the upper left element equal to 0.",
+  "id": "A267222",
+  "mentions": [
+    "A000142"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:28",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

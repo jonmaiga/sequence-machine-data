@@ -1,0 +1,19 @@
+{
+  "description": "Number of comparisons needed for optimal merging of 2 elements with n elements.",
+  "id": "A200311",
+  "mentions": [
+    "A200310",
+    "A239100"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-entry"
+  }
+}

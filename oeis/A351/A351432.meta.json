@@ -1,0 +1,31 @@
+{
+  "description": "Decimal expansion of sqrt(3)/2 + Pi*tanh(Pi*sqrt(3)/2)/2.",
+  "id": "A351432",
+  "mentions": [
+    "A024006",
+    "A100554",
+    "A113319",
+    "A256919",
+    "A259171",
+    "A338815",
+    "A339135",
+    "A339529",
+    "A339530",
+    "A339604",
+    "A339605",
+    "A339606",
+    "A347292"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

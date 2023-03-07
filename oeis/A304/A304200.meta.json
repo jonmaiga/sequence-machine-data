@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of cyclic permutations with at most 2 ascents.",
+  "id": "A304200",
+  "mentions": [
+    "A001037",
+    "A027376",
+    "A303117"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

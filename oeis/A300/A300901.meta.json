@@ -1,0 +1,20 @@
+{
+  "description": "Number of closed meanders with 2n crossings and 5 digons.",
+  "id": "A300901",
+  "mentions": [
+    "A002618",
+    "A005315",
+    "A301940"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:25",
+    "offset": 4,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Theta series of hexagonal diamond or Lonsdaleite net with respect to an atom.",
+  "id": "A217511",
+  "mentions": [
+    "A004012",
+    "A005873",
+    "A005925",
+    "A008264"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:35",
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

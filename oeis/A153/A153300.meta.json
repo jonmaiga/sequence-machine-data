@@ -1,0 +1,22 @@
+{
+  "description": "Coefficient of x^(4n)/(4n)! in the Maclaurin expansion of cm4(x), which is a generalization of the Dixon elliptic function cm(x,0) defined by A104134.",
+  "id": "A153300",
+  "mentions": [
+    "A104134",
+    "A153301",
+    "A153302",
+    "A153303",
+    "A357801"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:35",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Hankel transform of A098278.",
+  "id": "A174827",
+  "mentions": [
+    "A000178",
+    "A074962",
+    "A098278",
+    "A174826"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

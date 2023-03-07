@@ -1,0 +1,19 @@
+{
+  "description": "Number of distinct prime divisors of 10^n - 3.",
+  "id": "A105068",
+  "mentions": [
+    "A001221",
+    "A173833"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:56",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

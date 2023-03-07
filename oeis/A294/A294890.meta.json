@@ -1,0 +1,22 @@
+{
+  "description": "Number of divisors of n that are primitively abundant (A091191).",
+  "id": "A294890",
+  "mentions": [
+    "A080224",
+    "A091191",
+    "A294929",
+    "A294930",
+    "A294937"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:13",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

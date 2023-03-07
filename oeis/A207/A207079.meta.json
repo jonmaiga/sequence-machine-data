@@ -1,0 +1,24 @@
+{
+  "description": "The only nonunique differences between powers of 3 and 2.",
+  "id": "A207079",
+  "mentions": [
+    "A053289",
+    "A074981",
+    "A076438",
+    "A219551"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "bref",
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

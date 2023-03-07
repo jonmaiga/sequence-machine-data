@@ -1,0 +1,18 @@
+{
+  "description": "Coefficients of the columns generating polynomials of the JacobiTheta3 array A319574 multiplied by n!, triangle read by rows, T(n,k) for 0 <= k <= n.",
+  "id": "A319934",
+  "mentions": [
+    "A319574"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

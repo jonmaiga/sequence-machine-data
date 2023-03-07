@@ -1,0 +1,18 @@
+{
+  "description": "The list of x-coordinates for which nonempty columns arise in the set arising from {(1, 0),(2, 0),(0, 1)}, the classical Ulam sequence on the x-axis augmented by a vector in the orthogonal direction.",
+  "id": "A286303",
+  "mentions": [
+    "A002858"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

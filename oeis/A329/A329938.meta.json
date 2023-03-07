@@ -1,0 +1,22 @@
+{
+  "description": "Beatty sequence for sinh x, where csch x + sech x = 1 .",
+  "id": "A329938",
+  "mentions": [
+    "A329825",
+    "A329831",
+    "A329937",
+    "A329939"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

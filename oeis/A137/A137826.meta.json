@@ -1,0 +1,21 @@
+{
+  "description": "Least prime number that produces the highest abundancy number when multiplied by the product of all previous n-1 terms.",
+  "id": "A137826",
+  "mentions": [
+    "A005101",
+    "A017665",
+    "A017666",
+    "A137825"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:26",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

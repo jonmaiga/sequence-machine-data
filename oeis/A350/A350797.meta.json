@@ -1,0 +1,25 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of digraphs on n unlabeled nodes with k arcs and a global source (or sink), n >= 1, k = 0..(n-1)^2.",
+  "id": "A350797",
+  "mentions": [
+    "A000081",
+    "A057277",
+    "A057278",
+    "A350360",
+    "A350793",
+    "A350794",
+    "A350795",
+    "A350798"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:25",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

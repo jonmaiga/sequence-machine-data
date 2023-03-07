@@ -1,0 +1,20 @@
+{
+  "description": "Total number of points on a sphere when both poles are on an x by x grid where x=8*n+1.",
+  "id": "A254527",
+  "mentions": [
+    "A051890",
+    "A054554"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:05:47",
+    "offset": 1,
+    "size": 44,
+    "source": "joeis"
+  }
+}

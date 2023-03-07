@@ -1,0 +1,21 @@
+{
+  "description": "Numbers that are the number of permutations of a set of balls of at least three distinct colors.",
+  "id": "A304391",
+  "mentions": [
+    "A002378",
+    "A027480",
+    "A304938"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

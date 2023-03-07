@@ -1,0 +1,19 @@
+{
+  "description": "A102370(n) modulo 6 .",
+  "id": "A159060",
+  "mentions": [
+    "A102370"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "description": "a(n) = product of indices of distinct prime factors of n, where index(prime(k)) = k.",
+  "id": "A156061",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A003963",
+    "A007947",
+    "A028234",
+    "A055396",
+    "A181819",
+    "A215366",
+    "A290103",
+    "A290105",
+    "A290106",
+    "A290107"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:38",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

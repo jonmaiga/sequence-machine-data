@@ -1,0 +1,21 @@
+{
+  "description": "Rational primes that decompose in the field Q(sqrt(-17)).",
+  "id": "A296929",
+  "mentions": [
+    "A296920",
+    "A296930",
+    "A296931"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

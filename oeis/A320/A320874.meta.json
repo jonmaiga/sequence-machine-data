@@ -1,0 +1,30 @@
+{
+  "description": "Lexicographically first 4 X 4 pandiagonal magic square made of consecutive primes.",
+  "id": "A320874",
+  "mentions": [
+    "A073519",
+    "A073520",
+    "A073521",
+    "A073522",
+    "A073523",
+    "A104157",
+    "A210710",
+    "A245721",
+    "A256234",
+    "A320872",
+    "A320873",
+    "A320876"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

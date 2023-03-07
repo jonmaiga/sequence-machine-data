@@ -1,0 +1,37 @@
+{
+  "description": "Numbers with exactly one prime prime index, counted with multiplicity.",
+  "id": "A331915",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A006450",
+    "A007097",
+    "A007821",
+    "A018252",
+    "A076610",
+    "A112798",
+    "A257994",
+    "A279952",
+    "A289509",
+    "A320628",
+    "A330944",
+    "A330945",
+    "A331386",
+    "A331784",
+    "A331785",
+    "A331913",
+    "A331914",
+    "A331916",
+    "A331995"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

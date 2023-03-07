@@ -1,0 +1,31 @@
+{
+  "description": "Number of permutations of [n] avoiding three consecutive terms in arithmetic progression.",
+  "id": "A295370",
+  "mentions": [
+    "A003407",
+    "A049988",
+    "A174080",
+    "A175342",
+    "A238423",
+    "A238424",
+    "A279945",
+    "A295390",
+    "A325545",
+    "A325849",
+    "A325850",
+    "A325851",
+    "A325874",
+    "A325875",
+    "A338765"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

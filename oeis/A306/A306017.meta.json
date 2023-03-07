@@ -1,0 +1,36 @@
+{
+  "description": "Number of non-isomorphic multiset partitions of weight n in which all parts have the same size.",
+  "id": "A306017",
+  "mentions": [
+    "A000005",
+    "A000041",
+    "A001315",
+    "A007716",
+    "A038041",
+    "A049311",
+    "A064573",
+    "A279787",
+    "A283877",
+    "A298422",
+    "A305551",
+    "A306018",
+    "A306019",
+    "A306020",
+    "A306021",
+    "A318951",
+    "A319056",
+    "A319616",
+    "A331485"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:30",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

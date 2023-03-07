@@ -1,0 +1,27 @@
+{
+  "description": "Number of compositions of n whose multiplicities cover an initial interval of positive integers.",
+  "id": "A329741",
+  "mentions": [
+    "A000740",
+    "A008965",
+    "A098504",
+    "A107429",
+    "A242882",
+    "A244164",
+    "A329738",
+    "A329739",
+    "A329740",
+    "A329748",
+    "A329766"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

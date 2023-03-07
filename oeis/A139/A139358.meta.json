@@ -1,0 +1,21 @@
+{
+  "description": "A non-monotonic analog of A139212 in which the sequence describes the positions of the consonants when the sequence is written in French (version 3).",
+  "id": "A139358",
+  "mentions": [
+    "A139212",
+    "A139356",
+    "A139357"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

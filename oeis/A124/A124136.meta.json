@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the smallest prime when larger number of primes arise between numbers and their doubles. Note for example that there are 8 primes between 34 and 2*34=68 and 35 and 2*35=70, but 34 and 35 are not primes and a(8)=37, which is the smallest prime where there are already nine primes between numbers 36, 37, 38, 39, 41, 43, 44, 47, 48 and their doubles.",
+  "id": "A124136",
+  "mentions": [
+    "A060715",
+    "A060756",
+    "A084139"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

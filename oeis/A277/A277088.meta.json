@@ -1,0 +1,23 @@
+{
+  "description": "Pisot sequences L(5,12), S(5,12).",
+  "id": "A277088",
+  "mentions": [
+    "A000129",
+    "A008776",
+    "A020736",
+    "A020737",
+    "A048583"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 15:16:32",
+    "offset": 0,
+    "size": 29,
+    "source": "joeis"
+  }
+}

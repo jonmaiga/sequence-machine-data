@@ -1,0 +1,21 @@
+{
+  "description": "Generalized Clausen numbers (table read by antidiagonals).",
+  "id": "A160014",
+  "mentions": [
+    "A007947",
+    "A027642",
+    "A027760",
+    "A141056"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:42",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

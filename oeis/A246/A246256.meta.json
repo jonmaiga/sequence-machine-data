@@ -1,0 +1,21 @@
+{
+  "description": "Triangular array read by rows. Row n lists the coefficients of the closed form of hypergeometric([1/2, -n/2, (1-n)/2], [], 4*z).",
+  "id": "A246256",
+  "mentions": [
+    "A081919",
+    "A138022",
+    "A246257"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

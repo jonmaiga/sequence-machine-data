@@ -1,0 +1,24 @@
+{
+  "description": "Number of positive odd solutions to equation x^2 + 8*y^2 = 8*n + 9.",
+  "id": "A286813",
+  "mentions": [
+    "A008441",
+    "A033761",
+    "A033762",
+    "A033764",
+    "A035162",
+    "A053692",
+    "A259896"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:58",
+    "offset": 0,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

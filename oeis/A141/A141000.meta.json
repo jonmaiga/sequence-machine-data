@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k for which there is a solution to the Jumping Grasshopper game.",
+  "id": "A141000",
+  "mentions": [
+    "A000980",
+    "A063865"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:15:11",
+    "offset": 1,
+    "size": 64,
+    "source": "joeis"
+  }
+}

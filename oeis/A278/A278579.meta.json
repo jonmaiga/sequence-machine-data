@@ -1,0 +1,22 @@
+{
+  "description": "Quadratic non-residues of 23: numbers n such that Jacobi(n,23) = -1.",
+  "id": "A278579",
+  "mentions": [
+    "A000594",
+    "A028736",
+    "A063987",
+    "A191065",
+    "A278580"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:28:49",
+    "offset": 1,
+    "size": 70,
+    "source": "joeis"
+  }
+}

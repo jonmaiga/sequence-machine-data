@@ -1,0 +1,17 @@
+{
+  "description": "Number of nonconstant irreducible polynomial divisors of the n-th polynomial given in A326926.",
+  "id": "A326933",
+  "mentions": [
+    "A326926"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-entry"
+  }
+}

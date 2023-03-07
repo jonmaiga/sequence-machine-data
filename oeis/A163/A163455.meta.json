@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = binomial(5*n-1,n).",
+  "id": "A163455",
+  "mentions": [
+    "A118971",
+    "A163142"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:45",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

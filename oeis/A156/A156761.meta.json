@@ -1,0 +1,26 @@
+{
+  "description": "Tribonacci primes that are also primes when their digits are reversed.",
+  "id": "A156761",
+  "mentions": [
+    "A000040",
+    "A000045",
+    "A000213",
+    "A004086",
+    "A006567",
+    "A056816",
+    "A115347"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 64*n - 11 for n >= 1. Third column of triangle A238476.",
+  "id": "A239124",
+  "mentions": [
+    "A004767",
+    "A082285",
+    "A238476"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:24:41",
+    "offset": 1,
+    "size": 38,
+    "source": "joeis"
+  }
+}

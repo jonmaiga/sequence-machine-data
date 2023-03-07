@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the minimal number of legal positions in Go played on connected graphs with n nodes.",
+  "id": "A337207",
+  "mentions": [
+    "A094777",
+    "A102620",
+    "A266278",
+    "A268113",
+    "A327821"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

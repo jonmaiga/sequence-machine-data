@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = Sum_{k=0..n} n CNIMPL k where CNIMPL = NOT(n) AND k is the bitwise logical converse non-implication operator (A102037).",
+  "id": "A350094",
+  "mentions": [
+    "A001196",
+    "A102037",
+    "A222423",
+    "A224915",
+    "A265736",
+    "A350093"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

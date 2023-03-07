@@ -1,0 +1,20 @@
+{
+  "description": "Sum of A034968(d) over divisors d of n, where A034968 gives the sum of digits in factorial base.",
+  "id": "A319712",
+  "mentions": [
+    "A034968",
+    "A319711",
+    "A319715"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:41",
+    "offset": 1,
+    "size": 95,
+    "source": "oeis-bfile"
+  }
+}

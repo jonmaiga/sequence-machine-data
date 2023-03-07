@@ -1,0 +1,17 @@
+{
+  "description": "Partial sums of A282717.",
+  "id": "A282731",
+  "mentions": [
+    "A282717"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 2^(n+1)*cos(n*arctan(sqrt(15))).",
+  "id": "A272931",
+  "mentions": [
+    "A002249",
+    "A087204",
+    "A106853"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:38",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

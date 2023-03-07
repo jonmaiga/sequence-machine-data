@@ -1,0 +1,21 @@
+{
+  "description": "a(1) = 1, a(2) = 2; for n>2, a(n) is the smallest positive integer not yet in the sequence which shares a digit with a(n-1) but not with a(n-2), and where a(n) contains at least one digit not in a(n-1).",
+  "id": "A343927",
+  "mentions": [
+    "A010785",
+    "A067581",
+    "A184992",
+    "A336957"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

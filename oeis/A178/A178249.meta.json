@@ -1,0 +1,20 @@
+{
+  "description": "Table T(n,k) counts the involutions of n with longest increasing contiguous subsequence of length k.",
+  "id": "A178249",
+  "mentions": [
+    "A000085",
+    "A008304",
+    "A047884"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

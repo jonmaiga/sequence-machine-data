@@ -1,0 +1,21 @@
+{
+  "description": "Numbers that are pandigital in Roman numerals using each of the symbols I, V, X, L, C, D and M exactly once.",
+  "id": "A105416",
+  "mentions": [
+    "A061493",
+    "A105417"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

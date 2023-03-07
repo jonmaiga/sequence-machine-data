@@ -1,0 +1,21 @@
+{
+  "description": "Lodumo_3 of A102370 (sloping binary numbers).",
+  "id": "A159963",
+  "mentions": [
+    "A102370",
+    "A158461"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

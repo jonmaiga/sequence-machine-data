@@ -1,0 +1,18 @@
+{
+  "description": "Squarefree numbers k for which Q(k) - 6*k/Pi^2 sets a new record minimum, where Q(x) is the number of squarefree numbers up to x.",
+  "id": "A339865",
+  "mentions": [
+    "A005117",
+    "A275390"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

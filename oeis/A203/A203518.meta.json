@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = Product_{2 <= i < j <= n+1} (F(i) + F(j)), where F = A000045 (Fibonacci numbers).",
+  "id": "A203518",
+  "mentions": [
+    "A000045",
+    "A000178",
+    "A001622",
+    "A093883",
+    "A203519",
+    "A203520"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 20:23:15",
+    "offset": 1,
+    "size": 10,
+    "source": "joeis"
+  }
+}

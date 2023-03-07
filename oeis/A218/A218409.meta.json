@@ -1,0 +1,23 @@
+{
+  "description": "Numbers n for which sigma(n)/n = k+2/7 with integer k.",
+  "id": "A218409",
+  "mentions": [
+    "A218410",
+    "A218411",
+    "A218412",
+    "A218413",
+    "A218428"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

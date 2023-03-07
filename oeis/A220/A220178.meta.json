@@ -1,0 +1,21 @@
+{
+  "description": "Triangle where the g.f. for row n equals d^n/dx^n (1+x+x^2)^n / n! for n>=0, as read by rows.",
+  "id": "A220178",
+  "mentions": [
+    "A000984",
+    "A002426",
+    "A122868"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:38",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

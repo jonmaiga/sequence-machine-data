@@ -1,0 +1,20 @@
+{
+  "description": "Table read by rows: list of prime 5-tuples of the form (p, p+4, p+6, p+10, p+12).",
+  "id": "A270999",
+  "mentions": [
+    "A022007",
+    "A270998"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:34",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

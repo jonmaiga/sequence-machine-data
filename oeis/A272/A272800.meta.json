@@ -1,0 +1,19 @@
+{
+  "description": "Flavius Josephus factor of n.",
+  "id": "A272800",
+  "mentions": [
+    "A000960",
+    "A100002",
+    "A100287"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:37",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

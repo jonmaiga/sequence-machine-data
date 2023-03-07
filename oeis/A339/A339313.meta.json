@@ -1,0 +1,26 @@
+{
+  "description": "Smallest prime numbers characterized by a convergence speed of n, assuming a(1) = 2 (since 2^2 <> 2^2^2 (mod 10) and 2^2^2 == 2^2^2^2 (mod 10)).",
+  "id": "A339313",
+  "mentions": [
+    "A000040",
+    "A063006",
+    "A091661",
+    "A290372",
+    "A290373",
+    "A290374",
+    "A290375",
+    "A317905",
+    "A337833"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

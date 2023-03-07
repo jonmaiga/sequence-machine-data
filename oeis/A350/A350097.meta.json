@@ -1,0 +1,21 @@
+{
+  "description": "Record numbers of counts of odd squarefree semiprimes (A046388) in an interval between 2 consecutive primes.",
+  "id": "A350097",
+  "mentions": [
+    "A046388",
+    "A350095",
+    "A350096"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

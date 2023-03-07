@@ -1,0 +1,17 @@
+{
+  "description": "Number of binary increasing trees with n nodes and \"min-path\" of length 4.",
+  "id": "A212258",
+  "mentions": [
+    "A186366"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 2,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

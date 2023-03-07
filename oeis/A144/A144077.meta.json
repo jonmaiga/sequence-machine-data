@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = z(n^2,n) with z(x,y) = if x>y then z(x-y,y+1) else y.",
+  "id": "A144077",
+  "mentions": [
+    "A022838"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

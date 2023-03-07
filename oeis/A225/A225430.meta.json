@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the smallest m for which there appears for the first time a prime p which equals odd part of sum of digits of m^2.",
+  "id": "A225430",
+  "mentions": [
+    "A221858",
+    "A225017",
+    "A225039",
+    "A225040",
+    "A225093"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "E.g.f. satisfies: A'(x) = A(x)^6 * A(-x)^2 with A(0) = 1.",
+  "id": "A235372",
+  "mentions": [
+    "A235370",
+    "A235371",
+    "A235373",
+    "A235374"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:53",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = Sum_{k=1..n} (-1)^isprime(k)*10^k.",
+  "id": "A243106",
+  "mentions": [
+    "A097454",
+    "A181482",
+    "A213203",
+    "A215940",
+    "A217626",
+    "A222739",
+    "A242002"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:59",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

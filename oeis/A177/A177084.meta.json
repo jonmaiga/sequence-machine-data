@@ -1,0 +1,24 @@
+{
+  "description": "Ceiling(n/3)-perfect numbers.",
+  "id": "A177084",
+  "mentions": [
+    "A000396",
+    "A002264",
+    "A175522",
+    "A175807",
+    "A175853",
+    "A177050"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

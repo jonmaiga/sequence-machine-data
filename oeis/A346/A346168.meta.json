@@ -1,0 +1,22 @@
+{
+  "description": "Primes p such that p*p! - 1 is prime.",
+  "id": "A346168",
+  "mentions": [
+    "A001563",
+    "A090703",
+    "A090704",
+    "A188914",
+    "A346167"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

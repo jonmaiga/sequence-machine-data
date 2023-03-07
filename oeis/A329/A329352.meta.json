@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = Product_{d|n} A019565(d)^A010051(n/d).",
+  "id": "A329352",
+  "mentions": [
+    "A010051",
+    "A019565",
+    "A048675",
+    "A069359",
+    "A300832",
+    "A329350",
+    "A329353"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 1,
+    "size": 77,
+    "source": "oeis-bfile"
+  }
+}

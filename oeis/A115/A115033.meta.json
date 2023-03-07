@@ -1,0 +1,20 @@
+{
+  "description": "Alternately multiply and divide, with a(1)=2 and a(2)=3.",
+  "id": "A115033",
+  "mentions": [
+    "A115034",
+    "A174348"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

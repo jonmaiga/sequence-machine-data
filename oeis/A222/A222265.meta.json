@@ -1,0 +1,23 @@
+{
+  "description": "Numbers n such that (13^n + 2^n)/15 is prime.",
+  "id": "A222265",
+  "mentions": [
+    "A057159",
+    "A125956",
+    "A125957",
+    "A128071",
+    "A213176"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "(Product of primes <= n) read modulo n.",
+  "id": "A340317",
+  "mentions": [
+    "A005117",
+    "A013929",
+    "A034386"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-entry"
+  }
+}

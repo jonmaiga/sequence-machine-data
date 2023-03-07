@@ -1,0 +1,26 @@
+{
+  "description": "Number of ordered multiset partitions of integer partitions of n where the sequence of LCMs of the blocks is weakly increasing.",
+  "id": "A319003",
+  "mentions": [
+    "A000837",
+    "A007716",
+    "A063834",
+    "A269134",
+    "A290103",
+    "A316222",
+    "A317545",
+    "A317546",
+    "A319001",
+    "A319004"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:40",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

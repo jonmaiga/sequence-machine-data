@@ -1,0 +1,34 @@
+{
+  "description": "Characteristic function of numbers relatively prime to 11.",
+  "id": "A145568",
+  "mentions": [
+    "A000007",
+    "A000035",
+    "A008593",
+    "A010880",
+    "A011558",
+    "A011655",
+    "A033443",
+    "A097325",
+    "A109720",
+    "A160542",
+    "A166486",
+    "A168181",
+    "A168182",
+    "A168184",
+    "A168185"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:02:33",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

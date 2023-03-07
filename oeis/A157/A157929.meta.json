@@ -1,0 +1,17 @@
+{
+  "description": "Numbers n such that n^2+4, n^2+8, and n^2+10 are prime.",
+  "id": "A157929",
+  "mentions": [
+    "A086220"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:40",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

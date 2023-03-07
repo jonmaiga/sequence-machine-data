@@ -1,0 +1,25 @@
+{
+  "description": "Number of combinations which can be taken from the integer partitions of n. Total number of cases in the (n,m)-fragmentation process.",
+  "id": "A122768",
+  "mentions": [
+    "A000041",
+    "A000079",
+    "A000262",
+    "A000712",
+    "A048574",
+    "A074139",
+    "A074141",
+    "A144064"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:11",
+    "offset": 0,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

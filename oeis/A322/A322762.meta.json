@@ -1,0 +1,23 @@
+{
+  "description": "Irregular triangle read by rows: to get row n, take partitions of n ordered as in A080577, and in each partition, change each j-th occurrence of k to j; use compressed notation as in A322761.",
+  "id": "A322762",
+  "mentions": [
+    "A066633",
+    "A080577",
+    "A322761",
+    "A322763"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:46",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

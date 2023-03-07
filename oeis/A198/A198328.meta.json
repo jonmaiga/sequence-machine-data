@@ -1,0 +1,22 @@
+{
+  "description": "The Matula-Goebel number of the rooted tree obtained from the rooted tree with Matula-Goebel number n after removing the leaves, together with their incident edges.",
+  "id": "A198328",
+  "mentions": [
+    "A000040",
+    "A020639",
+    "A049084",
+    "A198329"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:19",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

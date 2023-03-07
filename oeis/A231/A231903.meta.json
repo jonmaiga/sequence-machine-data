@@ -1,0 +1,17 @@
+{
+  "description": "Even numbers which are the sum of two different primes > 3 in exactly one way.",
+  "id": "A231903",
+  "mentions": [
+    "A007534"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

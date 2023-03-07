@@ -1,0 +1,21 @@
+{
+  "description": "Primes which start a Cunningham chain of length 5 where every prime in the chain is the smaller of a pair of twin primes.",
+  "id": "A237495",
+  "mentions": [
+    "A005602",
+    "A178421",
+    "A236443"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-bfile"
+  }
+}

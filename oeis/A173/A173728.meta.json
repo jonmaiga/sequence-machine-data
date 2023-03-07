@@ -1,0 +1,21 @@
+{
+  "description": "Number of reduced 3x3 semimagic squares with magic sum n.",
+  "id": "A173728",
+  "mentions": [
+    "A173547",
+    "A173724",
+    "A173725",
+    "A173726"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:38:39",
+    "offset": 12,
+    "size": 37,
+    "source": "joeis"
+  }
+}

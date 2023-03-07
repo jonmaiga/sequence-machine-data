@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = term at position 2^n in A107957.",
+  "id": "A107958",
+  "mentions": [
+    "A107946",
+    "A107947",
+    "A107948",
+    "A107957"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

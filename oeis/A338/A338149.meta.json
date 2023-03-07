@@ -1,0 +1,26 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of achiral colorings of the edges of a regular n-D orthoplex (or ridges of a regular n-D orthotope) using exactly k colors. Row 1 has 1 column; row n>1 has 2*n*(n-1) columns.",
+  "id": "A338149",
+  "mentions": [
+    "A325011",
+    "A325019",
+    "A327090",
+    "A337414",
+    "A338145",
+    "A338146",
+    "A338147",
+    "A338148"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

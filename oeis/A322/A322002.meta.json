@@ -1,0 +1,22 @@
+{
+  "description": "Roots of self-stuffable numbers A322323.",
+  "id": "A322002",
+  "mentions": [
+    "A007953",
+    "A010879",
+    "A055642",
+    "A322323"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:44",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Successive approximations up to 5^n for the 5-adic integer Sum_{k>=0} k!.",
+  "id": "A341682",
+  "mentions": [
+    "A007845",
+    "A341680",
+    "A341681",
+    "A341683",
+    "A341686"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:14",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of longest simple paths in the divisor graph of {1,...,n}.",
+  "id": "A339490",
+  "mentions": [
+    "A337125",
+    "A339491"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

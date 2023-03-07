@@ -1,0 +1,20 @@
+{
+  "description": "Primes that are round(3*(4/3)^k) for some k.",
+  "id": "A227531",
+  "mentions": [
+    "A000040",
+    "A227391"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

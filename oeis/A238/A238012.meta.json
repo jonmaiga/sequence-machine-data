@@ -1,0 +1,33 @@
+{
+  "description": "Number A(n,k) of partitions of k^n into parts that are at most n with at least one part of each size; square array A(n,k), n>=0, k>=0, read by antidiagonals.",
+  "id": "A238012",
+  "mentions": [
+    "A000004",
+    "A057427",
+    "A063524",
+    "A074148",
+    "A237999",
+    "A238001",
+    "A238010",
+    "A239162",
+    "A239163",
+    "A239164",
+    "A239165",
+    "A239166",
+    "A239167",
+    "A239168",
+    "A239169"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

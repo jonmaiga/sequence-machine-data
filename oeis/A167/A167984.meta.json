@@ -1,0 +1,27 @@
+{
+  "description": "Number of n-cycles on the graph of the regular 120-cell, 3 <= n <= 600.",
+  "id": "A167984",
+  "mentions": [
+    "A085452",
+    "A108997",
+    "A144151",
+    "A167981",
+    "A167982",
+    "A167983",
+    "A167985",
+    "A167986"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "fini",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 3,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Least splitter of n-th and (n+1)st partial sums of 1/0! + 1/1! + ... + 1/n! + ... = e.",
+  "id": "A227777",
+  "mentions": [
+    "A006258",
+    "A006259",
+    "A119014",
+    "A119015",
+    "A227631"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Integer values of n!!/S(n), where S(n) is the sum of all odd numbers minor or equal to n, if n is odd, or the sum of all even numbers minor or equal to n, if n is even.",
+  "id": "A130318",
+  "mentions": [
+    "A000290",
+    "A002378",
+    "A005408",
+    "A108552",
+    "A130319"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:18",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

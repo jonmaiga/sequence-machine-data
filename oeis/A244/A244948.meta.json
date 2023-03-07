@@ -1,0 +1,20 @@
+{
+  "description": "Least number k > n such that k^32 + n^32 is prime.",
+  "id": "A244948",
+  "mentions": [
+    "A089489",
+    "A158979",
+    "A174156",
+    "A242555"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:01",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

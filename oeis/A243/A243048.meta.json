@@ -1,0 +1,21 @@
+{
+  "description": "Number of simple graphs on n nodes having a non-unique Tutte polynomial.",
+  "id": "A243048",
+  "mentions": [
+    "A000088",
+    "A243049"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n with property that for each single digit d of n, we can also see the decimal expansions of d^2 and d^3 as substrings of n. Also n may not contain any 0 digits.",
+  "id": "A135463",
+  "mentions": [
+    "A134962"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:23",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

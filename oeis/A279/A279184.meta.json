@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that phi(6k) = phi(6k+2), where phi is Euler's totient function A000010.",
+  "id": "A279184",
+  "mentions": [
+    "A000010",
+    "A001602",
+    "A279011",
+    "A279183"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

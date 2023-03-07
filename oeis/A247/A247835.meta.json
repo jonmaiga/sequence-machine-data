@@ -1,0 +1,30 @@
+{
+  "description": "Indices of prime(n)^3 in A247834, or a(n)=0 if prime(n)^3 is not in A247834.",
+  "id": "A247835",
+  "mentions": [
+    "A000720",
+    "A030078",
+    "A156759",
+    "A247393",
+    "A247394",
+    "A247395",
+    "A247396",
+    "A247509",
+    "A247510",
+    "A247511",
+    "A247606",
+    "A247834",
+    "A247867"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

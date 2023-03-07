@@ -1,0 +1,34 @@
+{
+  "description": "Number A(n,k) of partitions of n with k sorts of part 1 which are introduced in ascending order; square array A(n,k), n>=0, k>=0, read by antidiagonals.",
+  "id": "A292745",
+  "mentions": [
+    "A000041",
+    "A002865",
+    "A292503",
+    "A292508",
+    "A292622",
+    "A292741",
+    "A292746",
+    "A320733",
+    "A320734",
+    "A320735",
+    "A320736",
+    "A320737",
+    "A320738",
+    "A320739",
+    "A320740",
+    "A320741"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:08",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

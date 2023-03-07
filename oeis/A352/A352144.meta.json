@@ -1,0 +1,19 @@
+{
+  "description": "The number of interior points that are intersections of exactly two chords for a 2n-gon where all its vertices are joined by lines (cf. A006561).",
+  "id": "A352144",
+  "mentions": [
+    "A006561",
+    "A292104",
+    "A335102"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:26",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

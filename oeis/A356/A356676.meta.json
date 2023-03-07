@@ -1,0 +1,19 @@
+{
+  "description": "A certain morphism applied to A007814 that is related to the lexicographically least infinite squarefree words over the nonnegative integers.",
+  "id": "A356676",
+  "mentions": [
+    "A007814",
+    "A356677",
+    "A356679"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:31",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

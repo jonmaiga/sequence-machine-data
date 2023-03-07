@@ -1,0 +1,21 @@
+{
+  "description": "Odd numbers k such that cos(2*Pi/k) is an algebraic number of a 3-smooth degree, but not 2-smooth.",
+  "id": "A125866",
+  "mentions": [
+    "A004729",
+    "A051913",
+    "A058383",
+    "A125867",
+    "A125878"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:14",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

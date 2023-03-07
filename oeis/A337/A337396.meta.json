@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of sqrt((1-8*x+sqrt(1+64*x^2)) / (2 * (1+64*x^2))).",
+  "id": "A337396",
+  "mentions": [
+    "A001448",
+    "A193619",
+    "A337397",
+    "A337419"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:09",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

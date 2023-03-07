@@ -1,0 +1,27 @@
+{
+  "description": "Riordan array (1/(1-x),xm(x)) where m(x) is the g.f. of Motzkin numbers A001006.",
+  "id": "A167630",
+  "mentions": [
+    "A001006",
+    "A003462",
+    "A006416",
+    "A034856",
+    "A064189",
+    "A082395",
+    "A086615",
+    "A094531",
+    "A140662"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:51",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

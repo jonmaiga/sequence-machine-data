@@ -1,0 +1,17 @@
+{
+  "description": "Semiprimes that are the sum of 2, 3, 4, and 5 consecutive semiprimes.",
+  "id": "A281838",
+  "mentions": [
+    "A001358"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:51",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

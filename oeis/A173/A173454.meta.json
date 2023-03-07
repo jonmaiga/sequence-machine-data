@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = A139250(n) - A173522(n).",
+  "id": "A173454",
+  "mentions": [
+    "A000695",
+    "A139250",
+    "A173069",
+    "A173522"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:57",
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Partial sums of A263250.",
+  "id": "A263252",
+  "mentions": [
+    "A263086",
+    "A263250",
+    "A263253"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:23",
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

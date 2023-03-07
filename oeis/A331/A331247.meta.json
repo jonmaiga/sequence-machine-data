@@ -1,0 +1,25 @@
+{
+  "description": "Numerator of the x-coordinate of the 3rd point (x,y) of the n-th triangle with integer sides i <= j <= k in a list sorted by increasing area, when the triangle is drawn with the shortest side from (0,0) to (0,i) and the middle side from (0,i) to (x,y). x = a(n)/A331248(n), y = sqrt(A331249(n))/A331248(n).",
+  "id": "A331247",
+  "mentions": [
+    "A331248",
+    "A331249",
+    "A331251",
+    "A331252",
+    "A331253",
+    "A331695",
+    "A331696",
+    "A331697"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

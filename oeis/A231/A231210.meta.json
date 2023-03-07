@@ -1,0 +1,23 @@
+{
+  "description": "Number T(n,k) of permutations of [n] with exactly k (possibly overlapping) occurrences of some of the consecutive patterns 123, 1432, 2431, 3421; triangle T(n,k), n>=0, 0<=k<=max(0,n-2), read by rows.",
+  "id": "A231210",
+  "mentions": [
+    "A000142",
+    "A049774",
+    "A177479",
+    "A228422",
+    "A231211",
+    "A231228"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:49",
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Indices of 6-almost prime triangular numbers.",
+  "id": "A114437",
+  "mentions": [
+    "A000217",
+    "A001222",
+    "A046306",
+    "A069904"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:04",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

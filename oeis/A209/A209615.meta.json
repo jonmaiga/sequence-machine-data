@@ -1,0 +1,32 @@
+{
+  "description": "Completely multiplicative with a(p^e) = 1 if p == 1 (mod 4), a(p^e) = (-1)^e otherwise.",
+  "id": "A209615",
+  "mentions": [
+    "A002144",
+    "A003324",
+    "A004767",
+    "A007814",
+    "A016813",
+    "A034947",
+    "A106665",
+    "A292077",
+    "A338690",
+    "A338691",
+    "A338692",
+    "A343500",
+    "A343501"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:29",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

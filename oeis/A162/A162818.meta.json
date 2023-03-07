@@ -1,0 +1,27 @@
+{
+  "description": "Strictly positive numbers n such that (42*n)/(42+n) is an integer.",
+  "id": "A162818",
+  "mentions": [
+    "A127730",
+    "A162688",
+    "A162689",
+    "A162690",
+    "A162691",
+    "A162692",
+    "A162693",
+    "A162694",
+    "A162817"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

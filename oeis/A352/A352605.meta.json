@@ -1,0 +1,17 @@
+{
+  "description": "Primes p such that the floor of the area of a triangle with sides p-1, p and p+1 is prime.",
+  "id": "A352605",
+  "mentions": [
+    "A096378"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:26",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

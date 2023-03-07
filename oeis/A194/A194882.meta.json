@@ -1,0 +1,25 @@
+{
+  "description": "Write n = C(i,4)+C(j,3)+C(k,2)+C(l,1) with i>j>k>l>=0; sequence gives i values.",
+  "id": "A194882",
+  "mentions": [
+    "A056558",
+    "A127321",
+    "A127324",
+    "A194847",
+    "A194848",
+    "A194849",
+    "A194883",
+    "A194884",
+    "A194885"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 119,
+    "source": "oeis-entry"
+  }
+}

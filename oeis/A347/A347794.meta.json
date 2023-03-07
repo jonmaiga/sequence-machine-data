@@ -1,0 +1,22 @@
+{
+  "description": "The 'Look and Say' version of the Inventory sequence A342585.",
+  "id": "A347794",
+  "mentions": [
+    "A005150",
+    "A032531",
+    "A181391",
+    "A342585",
+    "A347317"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 97,
+    "source": "oeis-entry"
+  }
+}

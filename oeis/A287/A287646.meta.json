@@ -1,0 +1,25 @@
+{
+  "description": "Irregular triangle read by rows where row n lists all odd primitive abundant numbers with n prime factors, counted with multiplicity.",
+  "id": "A287646",
+  "mentions": [
+    "A001221",
+    "A001222",
+    "A006038",
+    "A188439",
+    "A275449",
+    "A287581",
+    "A287728",
+    "A338133"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 5,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

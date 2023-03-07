@@ -1,0 +1,19 @@
+{
+  "description": "Number of matrices with elements 1..n in which every pair of adjacent elements are relatively prime",
+  "id": "A168078",
+  "mentions": [
+    "A000005",
+    "A076220"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = Sum_{k=1..n} phi(gcd(k, n))^n.",
+  "id": "A342539",
+  "mentions": [
+    "A000010",
+    "A029935",
+    "A332517",
+    "A342487",
+    "A342534",
+    "A342535",
+    "A342540",
+    "A342541",
+    "A342543"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:15",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

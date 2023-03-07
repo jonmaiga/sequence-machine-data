@@ -1,0 +1,26 @@
+{
+  "description": "Convolve A008619 with sequences which map to 2,3,5,7,11,13,17... A000040 then, by bending when needed, summarize the results in a triangular array.",
+  "id": "A164678",
+  "mentions": [
+    "A000040",
+    "A000097",
+    "A002620",
+    "A006918",
+    "A008619",
+    "A097701",
+    "A139672",
+    "A164680"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn",
+    "tabl",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Prime powers (A025475) such that the distance to the nearest prime power is an oblong number (A002378).",
+  "id": "A239521",
+  "mentions": [
+    "A002378",
+    "A025475",
+    "A239520",
+    "A239523"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

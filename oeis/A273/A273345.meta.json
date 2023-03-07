@@ -1,0 +1,19 @@
+{
+  "description": "Number of levels in all bargraphs having semiperimeter n (n>=2). A level in a bargraph is a maximal sequence of two or more adjacent horizontal steps; it is preceded and followed by either an up step or a down step.",
+  "id": "A273345",
+  "mentions": [
+    "A082582",
+    "A273344"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:24",
+    "offset": 2,
+    "size": 30,
+    "source": "joeis"
+  }
+}

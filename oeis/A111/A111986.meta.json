@@ -1,0 +1,20 @@
+{
+  "description": "Number of numbers having n quadratic residues.",
+  "id": "A111986",
+  "mentions": [
+    "A037041",
+    "A037046",
+    "A111987",
+    "A111988"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 96,
+    "source": "oeis-entry"
+  }
+}

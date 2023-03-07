@@ -1,0 +1,20 @@
+{
+  "description": "E.g.f. exp(2x)*(Bessel_I(0,2*sqrt(2)x) + Bessel_I(1,2*sqrt(2)x)/sqrt(2)).",
+  "id": "A119976",
+  "mentions": [
+    "A047781",
+    "A119975"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:09",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

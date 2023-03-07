@@ -1,0 +1,23 @@
+{
+  "description": "Primes of the form 159587584529 + 2*n^2.",
+  "id": "A271819",
+  "mentions": [
+    "A000040",
+    "A007641",
+    "A050265",
+    "A271348",
+    "A271366",
+    "A271818",
+    "A271820"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:08:15",
+    "offset": 1,
+    "size": 20,
+    "source": "joeis"
+  }
+}

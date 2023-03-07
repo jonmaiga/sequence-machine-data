@@ -1,0 +1,28 @@
+{
+  "description": "Irregular triangle read by rows in which row n lists the values in row n of A235791 whose indices are in row n of A341970; a number is signed when its index is even.",
+  "id": "A341971",
+  "mentions": [
+    "A001227",
+    "A060831",
+    "A235791",
+    "A237048",
+    "A237270",
+    "A237591",
+    "A237593",
+    "A249223",
+    "A280851",
+    "A341970"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

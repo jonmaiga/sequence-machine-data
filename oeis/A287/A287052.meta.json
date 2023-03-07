@@ -1,0 +1,17 @@
+{
+  "description": "Number of perfect matchings in the graph P_2 X P_8 X P_n.",
+  "id": "A287052",
+  "mentions": [
+    "A181206"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:59",
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

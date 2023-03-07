@@ -1,0 +1,30 @@
+{
+  "description": "Let n>=2 be a positive integer with divisors 1 = d_1 < d_2 < ... < d_k = n, and s = d_1*d_2 + d_2*d_3 + ... + d_(k-1)*d_k. The sequence lists the values a(n) = floor(n^2/s).",
+  "id": "A251758",
+  "mentions": [
+    "A000040",
+    "A005843",
+    "A016945",
+    "A020639",
+    "A055396",
+    "A078730",
+    "A083140",
+    "A083221",
+    "A084967",
+    "A084968",
+    "A084969",
+    "A084970",
+    "A250480"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:09",
+    "offset": 2,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

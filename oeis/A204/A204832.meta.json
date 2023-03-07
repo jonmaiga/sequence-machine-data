@@ -1,0 +1,17 @@
+{
+  "description": "Number of (n+1)X(n+1) 0..2 arrays with the permanents of all 2X2 subblocks equal and nonzero",
+  "id": "A204832",
+  "mentions": [
+    "A204840"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

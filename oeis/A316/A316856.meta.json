@@ -1,0 +1,25 @@
+{
+  "description": "Heinz numbers of integer partitions whose reciprocal sum is an integer.",
+  "id": "A316856",
+  "mentions": [
+    "A000041",
+    "A051908",
+    "A056239",
+    "A058360",
+    "A072411",
+    "A296150",
+    "A316854",
+    "A316855",
+    "A316857"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

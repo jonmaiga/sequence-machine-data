@@ -1,0 +1,21 @@
+{
+  "description": "Terminal point of the repeated application of usigma starting at 2^n.",
+  "id": "A151659",
+  "mentions": [
+    "A000265",
+    "A006519",
+    "A034448",
+    "A146892",
+    "A161946"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:34",
+    "offset": 0,
+    "size": 92,
+    "source": "oeis-bfile"
+  }
+}

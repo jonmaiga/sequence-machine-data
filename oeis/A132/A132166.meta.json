@@ -1,0 +1,28 @@
+{
+  "description": "A convolution triangle of numbers obtained from A036224.",
+  "id": "A132166",
+  "mentions": [
+    "A007318",
+    "A030523",
+    "A030526",
+    "A030527",
+    "A036068",
+    "A036224",
+    "A132167",
+    "A132168",
+    "A134141"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

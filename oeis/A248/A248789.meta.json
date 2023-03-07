@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of the variance associated with the fraction of guests without a napkin in Conway’s napkin problem.",
+  "id": "A248789",
+  "mentions": [
+    "A000670",
+    "A068996",
+    "A248788"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:47:31",
+    "offset": 0,
+    "size": 100,
+    "source": "joeis"
+  }
+}

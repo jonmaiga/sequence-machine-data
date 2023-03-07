@@ -1,0 +1,20 @@
+{
+  "description": "a(1) = 1, a(n + 1) = a(n) + Sum_{k = 1..n} floor(log_2(a(k)) + 1): add total number of bits of the terms so far.",
+  "id": "A332063",
+  "mentions": [
+    "A000120",
+    "A004006",
+    "A070939",
+    "A332064"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

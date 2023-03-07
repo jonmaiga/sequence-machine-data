@@ -1,0 +1,24 @@
+{
+  "description": "Coefficients of the eighth-order mock theta function T_0(q).",
+  "id": "A153155",
+  "mentions": [
+    "A153148",
+    "A153149",
+    "A153156",
+    "A153172",
+    "A153174",
+    "A153176",
+    "A153178"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:35",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

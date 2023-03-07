@@ -1,0 +1,31 @@
+{
+  "description": "Odd octagonal numbers indexed by triangular numbers.",
+  "id": "A243201",
+  "mentions": [
+    "A000217",
+    "A000567",
+    "A002061",
+    "A003215",
+    "A005408",
+    "A014641",
+    "A022522",
+    "A059259",
+    "A072024",
+    "A081297",
+    "A140676",
+    "A187156",
+    "A219069"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:36:45",
+    "offset": 0,
+    "size": 37,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Number of unoriented colorings of the edges of a regular 4-dimensional orthoplex with n available colors.",
+  "id": "A331355",
+  "mentions": [
+    "A063843",
+    "A331354",
+    "A331356",
+    "A331357",
+    "A331359",
+    "A337412",
+    "A337888",
+    "A338953",
+    "A338965"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:28",
+    "offset": 1,
+    "size": 12,
+    "source": "joeis"
+  }
+}

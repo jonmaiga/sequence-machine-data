@@ -1,0 +1,24 @@
+{
+  "description": "Initial digit of n-th even superperfect number A061652(n).",
+  "id": "A138124",
+  "mentions": [
+    "A000030",
+    "A019279",
+    "A061652",
+    "A077648",
+    "A135613",
+    "A135617",
+    "A138125"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

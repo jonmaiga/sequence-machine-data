@@ -1,0 +1,21 @@
+{
+  "description": "Number of tilings of a 12 X n rectangle using 3*n copies of the disconnected shape [o oo o].",
+  "id": "A320437",
+  "mentions": [
+    "A322473",
+    "A323352",
+    "A323423",
+    "A323483"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:43",
+    "offset": 0,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

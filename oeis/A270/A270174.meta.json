@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of different ways to seat a set of n married male-female couples at a straight table so that men and women alternate and every man is separated by at least two men from his wife.",
+  "id": "A270174",
+  "mentions": [
+    "A267060",
+    "A292574"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

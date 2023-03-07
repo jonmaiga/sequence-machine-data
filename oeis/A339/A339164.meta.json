@@ -1,0 +1,24 @@
+{
+  "description": "Number of compositions (ordered partitions) of n into distinct parts, the least being 3.",
+  "id": "A339164",
+  "mentions": [
+    "A026796",
+    "A026824",
+    "A339101",
+    "A339162",
+    "A339163",
+    "A339165",
+    "A339166"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

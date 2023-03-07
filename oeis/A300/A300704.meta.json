@@ -1,0 +1,24 @@
+{
+  "description": "Number of compositions (ordered partitions) of n into prime power parts (not including 1) that do not divide n.",
+  "id": "A300704",
+  "mentions": [
+    "A246655",
+    "A280195",
+    "A284465",
+    "A300580",
+    "A300584",
+    "A300702",
+    "A300703",
+    "A300706"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:25",
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

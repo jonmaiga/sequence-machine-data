@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the right-truncatable prime of n digits appearing as the initial digits of the smallest number of the form exp(k) for some positive integer k.",
+  "id": "A240174",
+  "mentions": [
+    "A024770"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

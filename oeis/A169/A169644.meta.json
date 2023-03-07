@@ -1,0 +1,19 @@
+{
+  "description": "Numbers with two or more distinct factorizations m*k such that m <= k <= 2*m.",
+  "id": "A169644",
+  "mentions": [
+    "A067742",
+    "A071562",
+    "A100345"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

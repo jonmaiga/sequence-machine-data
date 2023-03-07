@@ -1,0 +1,20 @@
+{
+  "description": "Number of edges in regular n-gon after 2 generations of mitosis.",
+  "id": "A349968",
+  "mentions": [
+    "A135565",
+    "A349807",
+    "A349967",
+    "A350000"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 3,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

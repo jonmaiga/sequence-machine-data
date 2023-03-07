@@ -1,0 +1,24 @@
+{
+  "description": "Smallest number for which Knuth's power tree method produces an addition chain n terms longer than the shortest possible chains for this number.",
+  "id": "A115616",
+  "mentions": [
+    "A003313",
+    "A113945",
+    "A114622",
+    "A115614",
+    "A115615"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "bref",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

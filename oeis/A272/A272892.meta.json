@@ -1,0 +1,19 @@
+{
+  "description": "Taxi-cab numbers n such that n-1 and n+1 are both prime.",
+  "id": "A272892",
+  "mentions": [
+    "A001235",
+    "A011541",
+    "A014574"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:37",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

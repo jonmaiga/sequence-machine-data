@@ -1,0 +1,26 @@
+{
+  "description": "Square array A(n,k) = A341530(A246278(n,k)), read by falling antidiagonals; A341530 as applied onto prime shift array A246278.",
+  "id": "A342674",
+  "mentions": [
+    "A000203",
+    "A003961",
+    "A246278",
+    "A341530",
+    "A341605",
+    "A341606",
+    "A341626",
+    "A341627"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

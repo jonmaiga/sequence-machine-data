@@ -1,0 +1,20 @@
+{
+  "description": "Height of steps in Recamán's sequence A064389.",
+  "id": "A126712",
+  "mentions": [
+    "A064389",
+    "A064489",
+    "A078758"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 96,
+    "source": "oeis-entry"
+  }
+}

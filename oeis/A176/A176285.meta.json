@@ -1,0 +1,20 @@
+{
+  "description": "a(1) = 1, and then 4*(2*n + 1)^2*a(n+1) + n^2*a(n) = (205*n^2 + 160*n + 32)*binomial(2n-1,n)^3 (n = 1, 2, 3, ...).",
+  "id": "A176285",
+  "mentions": [
+    "A000984",
+    "A001700",
+    "A173774"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

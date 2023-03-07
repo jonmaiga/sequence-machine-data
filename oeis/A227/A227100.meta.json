@@ -1,0 +1,18 @@
+{
+  "description": "Number of nX3 0,1 arrays indicating 2X2 subblocks of some larger (n+1)X4 binary array having a sum of two, with rows and columns of the latter in lexicographically nondecreasing order",
+  "id": "A227100",
+  "mentions": [
+    "A227103"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = Sum_[k unrelated to n and k",
+  "id": "A118657",
+  "mentions": [
+    "A002033",
+    "A045545",
+    "A045763",
+    "A070297",
+    "A111356"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

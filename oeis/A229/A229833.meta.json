@@ -1,0 +1,17 @@
+{
+  "description": "1/p^3 * numerator((sum_{j=1..p-1} j^(p-1)) - p*Bernoulli(p-1)) with p = prime(n).",
+  "id": "A229833",
+  "mentions": [
+    "A197630"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 3,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "1/9 the number of (n+1) X 7 0..2 arrays with all 2 X 2 subblocks having the same four values.",
+  "id": "A184045",
+  "mentions": [
+    "A184048"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 14:25:55",
+    "offset": 1,
+    "size": 31,
+    "source": "joeis"
+  }
+}

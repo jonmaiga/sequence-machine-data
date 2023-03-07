@@ -1,0 +1,17 @@
+{
+  "description": "a(0)=5, thereafter a(n) = chromatic number (or Heawood number) Chi(n) of surface of genus n.",
+  "id": "A213443",
+  "mentions": [
+    "A000934"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

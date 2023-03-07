@@ -1,0 +1,28 @@
+{
+  "description": "Number of achiral colorings of the 8 cubic facets of a tesseract or of the 8 vertices of a hyperoctahedron.",
+  "id": "A337958",
+  "mentions": [
+    "A132366",
+    "A234249",
+    "A325007",
+    "A331357",
+    "A331361",
+    "A337955",
+    "A337956",
+    "A337957",
+    "A338951",
+    "A338967"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:47:11",
+    "offset": 1,
+    "size": 27,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "(1/5)*A277592.",
+  "id": "A277599",
+  "mentions": [
+    "A277592",
+    "A277597",
+    "A277598",
+    "A277600",
+    "A277601"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:43",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

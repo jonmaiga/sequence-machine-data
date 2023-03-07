@@ -1,0 +1,22 @@
+{
+  "description": "Numbers for which the values of the Moebius function (A008683) and the Mertens function (A002321) are both 0.",
+  "id": "A100766",
+  "mentions": [
+    "A002321",
+    "A008683",
+    "A028442",
+    "A100306",
+    "A100765",
+    "A100767"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:51",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

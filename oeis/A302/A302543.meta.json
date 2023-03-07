@@ -1,0 +1,29 @@
+{
+  "description": "Expansion of e.g.f. arctanh(x)/cos(x) (odd powers only).",
+  "id": "A302543",
+  "mentions": [
+    "A000182",
+    "A000364",
+    "A000795",
+    "A002084",
+    "A003701",
+    "A003702",
+    "A010050",
+    "A012840",
+    "A296743",
+    "A301942",
+    "A302444",
+    "A302542"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:02:06",
+    "offset": 0,
+    "size": 16,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Smallest n such that A001353(a(n)) == 0 (mod n), i.e., x=A001075(a(n)) and y=A001353(a(n)) is the fundamental solution of the Pell equation x^2 - 3*(n*y)^2 = 1.",
+  "id": "A298211",
+  "mentions": [
+    "A001075",
+    "A001353",
+    "A002349",
+    "A002350",
+    "A005384",
+    "A005385",
+    "A038754",
+    "A091338",
+    "A238490",
+    "A298210",
+    "A298212"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:19",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

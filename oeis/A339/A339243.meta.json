@@ -1,0 +1,21 @@
+{
+  "description": "Number of partitions of n into divisors of n where every part appears at least 2 times.",
+  "id": "A339243",
+  "mentions": [
+    "A000040",
+    "A007690",
+    "A018818",
+    "A027750"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

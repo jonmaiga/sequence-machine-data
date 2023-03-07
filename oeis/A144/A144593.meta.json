@@ -1,0 +1,18 @@
+{
+  "description": "Records in A096915.",
+  "id": "A144593",
+  "mentions": [
+    "A096915",
+    "A137177"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

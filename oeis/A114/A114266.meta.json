@@ -1,0 +1,31 @@
+{
+  "description": "a(n) is the minimal number m that makes 2*prime(n)+prime(n+m) a prime.",
+  "id": "A114266",
+  "mentions": [
+    "A000040",
+    "A010051",
+    "A073703",
+    "A114227",
+    "A114228",
+    "A114230",
+    "A114231",
+    "A114233",
+    "A114235",
+    "A114236",
+    "A114262",
+    "A114263",
+    "A114265",
+    "A114267"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:04",
+    "offset": 1,
+    "size": 103,
+    "source": "oeis-bfile"
+  }
+}

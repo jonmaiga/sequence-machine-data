@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = number of steps needed to reach a Harshad number when the map k->A062028(l) is iterated starting at n, or -1 if a Harshad number is never reached.",
+  "id": "A181614",
+  "mentions": [
+    "A005349",
+    "A062028",
+    "A181664"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-entry"
+  }
+}

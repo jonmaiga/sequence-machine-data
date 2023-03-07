@@ -1,0 +1,23 @@
+{
+  "description": "Number triangle T(n,k)=sum{j=0..n-k, C(k,2j)C(n-k,2j)*2^j}.",
+  "id": "A119329",
+  "mentions": [
+    "A007318",
+    "A119326",
+    "A119330",
+    "A119331"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

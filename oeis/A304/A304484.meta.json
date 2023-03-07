@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = A033270(n)*A033270(2n), where A033270 counts the odd primes.",
+  "id": "A304484",
+  "mentions": [
+    "A000720",
+    "A033270",
+    "A304483"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:29",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

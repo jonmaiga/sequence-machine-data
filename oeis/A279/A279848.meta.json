@@ -1,0 +1,21 @@
+{
+  "description": "Partition an n X n square into multiple integer-sided rectangles where no one is a translation of any other. a(n) is ceiling(n/log(n)) - the least possible difference between the largest and smallest area.",
+  "id": "A279848",
+  "mentions": [
+    "A276523",
+    "A278970",
+    "A279596"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 3,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

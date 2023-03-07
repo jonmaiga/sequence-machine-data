@@ -1,0 +1,23 @@
+{
+  "description": "Irregular triangle: row n lists the odd numbers of the reduced residue system modulo n.",
+  "id": "A216319",
+  "mentions": [
+    "A038566",
+    "A055034",
+    "A203571",
+    "A216320"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:34",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of Dyck paths of semilength n such that each positive level up to the highest nonempty level has at least one peak.",
+  "id": "A287901",
+  "mentions": [
+    "A000108",
+    "A281874",
+    "A287846",
+    "A288386"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:00",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

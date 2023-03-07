@@ -1,0 +1,24 @@
+{
+  "description": "Numbers n that divide the sum of the first n nonzero Fibonacci numbers.",
+  "id": "A111035",
+  "mentions": [
+    "A000071",
+    "A101907",
+    "A111058",
+    "A124455",
+    "A124456",
+    "A331870",
+    "A331976"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:02",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

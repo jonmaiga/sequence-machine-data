@@ -1,0 +1,43 @@
+{
+  "description": "Number of partitions of n for which the number of odd parts is equal to the positive alternating sum of the parts.",
+  "id": "A277103",
+  "mentions": [
+    "A000041",
+    "A000070",
+    "A000097",
+    "A000290",
+    "A000700",
+    "A006330",
+    "A027187",
+    "A027193",
+    "A103919",
+    "A120452",
+    "A124754",
+    "A236559",
+    "A257991",
+    "A277579",
+    "A316524",
+    "A325039",
+    "A325534",
+    "A325535",
+    "A344607",
+    "A344610",
+    "A344611",
+    "A344612",
+    "A344616",
+    "A344618",
+    "A344651",
+    "A344741",
+    "A345196"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 0,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

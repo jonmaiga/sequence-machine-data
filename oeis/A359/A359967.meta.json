@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{d|n, d+1 is square} d.",
+  "id": "A359967",
+  "mentions": [
+    "A005563",
+    "A035316",
+    "A179952",
+    "A359937"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:34",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

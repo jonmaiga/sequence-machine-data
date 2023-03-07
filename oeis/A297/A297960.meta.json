@@ -1,0 +1,23 @@
+{
+  "description": "a(1) = number of 1-digit primes (that is, 4: 2,3,5,7); then a(n) = number of distinct n-digit prime numbers obtained by alternately right- and left-concatenating a digit to the a(n-1) primes obtained in the previous iteration.",
+  "id": "A297960",
+  "mentions": [
+    "A050986",
+    "A050987",
+    "A297961",
+    "A298048"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

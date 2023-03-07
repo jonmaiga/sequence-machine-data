@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the solid angle in steradians (sr) subtended by a cone with the polar angle of 1 radian (rad).",
+  "id": "A243596",
+  "mentions": [
+    "A231986",
+    "A243597"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:56:01",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

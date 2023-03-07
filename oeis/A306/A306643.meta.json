@@ -1,0 +1,20 @@
+{
+  "description": "Numbers that, for some x, are the concatenation of x, x+1 and x+2 and are divisible by at least two of x, x+1 and x+2.",
+  "id": "A306643",
+  "mentions": [
+    "A001703",
+    "A308527"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

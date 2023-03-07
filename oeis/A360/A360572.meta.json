@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the k-th Betti number of the cycle graph on n vertices, n >= 3, 0 <= k <= 2*n.",
+  "id": "A360572",
+  "mentions": [
+    "A360571",
+    "A360625"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "new",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 3,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

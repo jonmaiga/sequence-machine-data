@@ -1,0 +1,40 @@
+{
+  "description": "Number of odd-length twice-partitions of n into odd-length partitions.",
+  "id": "A358834",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A001970",
+    "A003712",
+    "A026424",
+    "A027193",
+    "A063834",
+    "A078408",
+    "A270995",
+    "A271619",
+    "A279374",
+    "A279785",
+    "A296122",
+    "A300301",
+    "A321449",
+    "A356932",
+    "A356935",
+    "A358334",
+    "A358823",
+    "A358824",
+    "A358826",
+    "A358827",
+    "A358837"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:32",
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

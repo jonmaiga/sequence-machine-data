@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of the sum 1/p^3 over primes == 1 (mod 3).",
+  "id": "A175645",
+  "mentions": [
+    "A002476",
+    "A003627",
+    "A085541",
+    "A086033",
+    "A175644",
+    "A343613"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:59",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

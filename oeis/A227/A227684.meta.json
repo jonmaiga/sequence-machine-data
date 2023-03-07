@@ -1,0 +1,20 @@
+{
+  "description": "Numerator of least splitting rational of log(n) and log(n+1).",
+  "id": "A227684",
+  "mentions": [
+    "A227631",
+    "A227634"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

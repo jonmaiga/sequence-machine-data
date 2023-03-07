@@ -1,0 +1,18 @@
+{
+  "description": "If b(n) is the number of 1's in the binary representation of n, then the positive integer n is included if n = k^b(n), for some k = integer.",
+  "id": "A161792",
+  "mentions": [
+    "A161793"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:47",
+    "offset": 1,
+    "size": 39,
+    "source": "joeis"
+  }
+}

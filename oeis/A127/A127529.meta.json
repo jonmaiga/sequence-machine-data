@@ -1,0 +1,24 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of ordered trees with n edges and jump-length equal to k (n >= 0, 0 <= k <= n-2).",
+  "id": "A127529",
+  "mentions": [
+    "A000108",
+    "A000337",
+    "A003516",
+    "A011782",
+    "A084938",
+    "A091894"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

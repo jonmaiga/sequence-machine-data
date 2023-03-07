@@ -1,0 +1,31 @@
+{
+  "description": "Number of integral quadratic forms ax^2 + bxy + cy^2 whose discriminant b^2-4ac is -n, 0 <= b <= a <= c and gcd(a,b,c) = 1.",
+  "id": "A107628",
+  "mentions": [
+    "A006203",
+    "A006641",
+    "A046002",
+    "A046004",
+    "A046006",
+    "A046008",
+    "A046010",
+    "A046012",
+    "A046014",
+    "A046016",
+    "A046018",
+    "A046020",
+    "A106856",
+    "A133675",
+    "A223708"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:59",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

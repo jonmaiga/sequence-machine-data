@@ -1,0 +1,27 @@
+{
+  "description": "Triangle T(n,k) = greatest prime factor of n*k+1.",
+  "id": "A231233",
+  "mentions": [
+    "A005408",
+    "A006530",
+    "A016777",
+    "A016813",
+    "A016861",
+    "A016921",
+    "A016993",
+    "A017077",
+    "A017173"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:49",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of partitions of n into {number of partitions of n into \"number of partitions of n into 'number of partitions of n into partition numbers' numbers\" numbers} numbers.",
+  "id": "A130900",
+  "mentions": [
+    "A000027",
+    "A000041",
+    "A007279",
+    "A130898",
+    "A130899"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:18",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

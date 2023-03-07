@@ -1,0 +1,26 @@
+{
+  "description": "Square array A(n,k), n>=0, k>=0, read by antidiagonals, where column k is the expansion of continued fraction 1/(1 - k*x/(1 - k*x^2/(1 - k*x^3/(1 - k*x^4/(1 - k*x^5/(1 - ...)))))).",
+  "id": "A286933",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A000290",
+    "A001477",
+    "A005169",
+    "A011379",
+    "A286932",
+    "A291274"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

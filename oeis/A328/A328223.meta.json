@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that both k and k+4 are sums of two squares.",
+  "id": "A328223",
+  "mentions": [
+    "A001481",
+    "A082982",
+    "A140612",
+    "A304441",
+    "A328224"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

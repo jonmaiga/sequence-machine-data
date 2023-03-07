@@ -1,0 +1,22 @@
+{
+  "description": "Powerful numbers A001694 divisible by a cube > 1.",
+  "id": "A320966",
+  "mentions": [
+    "A000578",
+    "A001694",
+    "A046099",
+    "A062503",
+    "A320965"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:43",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

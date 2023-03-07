@@ -1,0 +1,21 @@
+{
+  "description": "Primes p such that p^2=x^2+y^2-1 with x and y also prime.",
+  "id": "A167276",
+  "mentions": [
+    "A000040",
+    "A030431",
+    "A045636",
+    "A066872"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

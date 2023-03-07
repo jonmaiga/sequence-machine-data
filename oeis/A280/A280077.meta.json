@@ -1,0 +1,23 @@
+{
+  "description": "Partial sums of A007429 (Sum_{d|n} sigma(d)).",
+  "id": "A280077",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A007429",
+    "A211776",
+    "A237349",
+    "A280078"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:47",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

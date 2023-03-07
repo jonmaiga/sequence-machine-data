@@ -1,0 +1,22 @@
+{
+  "description": "Number of (undirected) Hamiltonian paths in the graph C_4 X C_n.",
+  "id": "A339798",
+  "mentions": [
+    "A003695",
+    "A268838",
+    "A339796",
+    "A339797",
+    "A358868",
+    "A358870"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:12",
+    "offset": 3,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

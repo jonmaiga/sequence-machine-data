@@ -1,0 +1,19 @@
+{
+  "description": "Discriminator of the primes: Least m > 0 such that (prime(1),...,prime(n)) are all different mod m; a(0) = 0 by convention.",
+  "id": "A272633",
+  "mentions": [
+    "A016726",
+    "A192419",
+    "A192420"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:37",
+    "offset": 0,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

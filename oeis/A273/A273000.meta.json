@@ -1,0 +1,21 @@
+{
+  "description": "The E_6-Eulerian numbers.",
+  "id": "A273000",
+  "mentions": [
+    "A008292",
+    "A060187",
+    "A066094"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

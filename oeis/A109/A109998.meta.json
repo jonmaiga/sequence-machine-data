@@ -1,0 +1,34 @@
+{
+  "description": "Non-Cunningham primes: primes isolated from any Cunningham chain under any iteration of 2p+-1 or (p+-1)/2.",
+  "id": "A109998",
+  "mentions": [
+    "A005382",
+    "A005383",
+    "A005384",
+    "A005385",
+    "A005602",
+    "A005603",
+    "A023272",
+    "A023302",
+    "A023330",
+    "A057326",
+    "A057328",
+    "A059455",
+    "A059762",
+    "A059764",
+    "A060254",
+    "A064812",
+    "A068497"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

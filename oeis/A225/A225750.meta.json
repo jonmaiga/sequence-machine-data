@@ -1,0 +1,19 @@
+{
+  "description": "Triangle T(n,k) giving denominator of integral_{x=0..1} B(n,x)*B(k,x) dx, B = Bernoulli polynomial, n >= 1, 1 <= k <= n.",
+  "id": "A225750",
+  "mentions": [
+    "A225749"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "frac",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

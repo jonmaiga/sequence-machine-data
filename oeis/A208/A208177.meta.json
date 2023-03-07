@@ -1,0 +1,26 @@
+{
+  "description": "Primes of the form 128*k + 1.",
+  "id": "A208177",
+  "mentions": [
+    "A002144",
+    "A007519",
+    "A065091",
+    "A076339",
+    "A094407",
+    "A133870",
+    "A142925",
+    "A208178"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:28",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Number of arithmetic progressions of 2 or more nonnegative integers, strictly increasing with sum n.",
+  "id": "A127938",
+  "mentions": [
+    "A000217",
+    "A007862",
+    "A014405",
+    "A014406",
+    "A049980",
+    "A049981",
+    "A049982",
+    "A049983",
+    "A049986",
+    "A049987",
+    "A049988"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:15",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

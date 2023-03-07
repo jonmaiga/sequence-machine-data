@@ -1,0 +1,21 @@
+{
+  "description": "Least prime p < prime(n) such that the Bernoulli number B_{p-1} is a primitive root modulo prime(n), or 0 if such a prime p does not exist.",
+  "id": "A242213",
+  "mentions": [
+    "A000040",
+    "A027641",
+    "A027642",
+    "A242193",
+    "A242210"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

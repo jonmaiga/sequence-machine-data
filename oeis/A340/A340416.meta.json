@@ -1,0 +1,19 @@
+{
+  "description": "Number of sets of nonempty words with a total of n letters over nonary alphabet such that within each word every letter of the alphabet is at least as frequent as the subsequent alphabet letter.",
+  "id": "A340416",
+  "mentions": [
+    "A226879",
+    "A292795"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:13",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

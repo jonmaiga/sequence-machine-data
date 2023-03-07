@@ -1,0 +1,23 @@
+{
+  "description": "Trajectory of 262 under repeated application of the permutation A264965: a(0) = 262; for n >= 1, a(n) = A264965(a(n-1))",
+  "id": "A264972",
+  "mentions": [
+    "A007088",
+    "A007089",
+    "A264965",
+    "A264969",
+    "A264973"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:24",
+    "offset": 0,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

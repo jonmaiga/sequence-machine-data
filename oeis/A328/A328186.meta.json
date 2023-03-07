@@ -1,0 +1,27 @@
+{
+  "description": "Write 1/(1 + sin x) = Product_{n>=1} (1 + f_n x^n); a(n) = denominator(f_n).",
+  "id": "A328186",
+  "mentions": [
+    "A099612",
+    "A099617",
+    "A157162",
+    "A170912",
+    "A170913",
+    "A170914",
+    "A170915",
+    "A279107",
+    "A328191"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

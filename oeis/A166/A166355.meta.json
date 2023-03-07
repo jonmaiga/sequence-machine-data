@@ -1,0 +1,21 @@
+{
+  "description": "Diagonal sums of exponential Riordan array [1+x*tan(x/2),x], A166353.",
+  "id": "A166355",
+  "mentions": [
+    "A110501",
+    "A166353",
+    "A256893"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Radius of largest circle among 4 circles each of which kisses the other three externally, and for which the radii are mutually coprime integers.",
+  "id": "A290508",
+  "mentions": [
+    "A290931"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:05",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Result of changing both the prime indices and the exponents in the prime factorization of n: increment odd values, decrement even values.",
+  "id": "A227324",
+  "mentions": [
+    "A003958",
+    "A003965",
+    "A011262",
+    "A011264",
+    "A045965",
+    "A045973"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that (n+2)*n!*Sum((-1)^k/k!),k=0..n+2 is prime.",
+  "id": "A166342",
+  "mentions": [
+    "A000255"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

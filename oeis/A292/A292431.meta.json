@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n with record numbers of unordered triples {a, b, c} of distinct positive integers from 1 to n such that a*b = c*n.",
+  "id": "A292431",
+  "mentions": [
+    "A278648",
+    "A292430"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

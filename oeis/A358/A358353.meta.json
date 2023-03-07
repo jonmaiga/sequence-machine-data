@@ -1,0 +1,23 @@
+{
+  "description": "Numbers that are not of the form m + (sum of digits of m) + (product of digits of m) for any m.",
+  "id": "A358353",
+  "mentions": [
+    "A003052",
+    "A161351",
+    "A230104",
+    "A358350",
+    "A358351",
+    "A358352"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:32",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

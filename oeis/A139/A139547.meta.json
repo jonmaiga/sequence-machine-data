@@ -1,0 +1,25 @@
+{
+  "description": "Triangle read by rows: T(n,k) = A003418(A010766).",
+  "id": "A139547",
+  "mentions": [
+    "A000142",
+    "A003418",
+    "A010766",
+    "A014963",
+    "A139550",
+    "A139552",
+    "A139554"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 89,
+    "source": "oeis-entry"
+  }
+}

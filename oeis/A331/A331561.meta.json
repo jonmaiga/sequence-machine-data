@@ -1,0 +1,26 @@
+{
+  "description": "The base-10 numbers with a digit product > 0 and which when written in bases 3,4,5,6,7,8,9 have three or more other base representations with the same digit product.",
+  "id": "A331561",
+  "mentions": [
+    "A007089",
+    "A007090",
+    "A007091",
+    "A007092",
+    "A007093",
+    "A007094",
+    "A007095",
+    "A007954",
+    "A331565"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:01",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

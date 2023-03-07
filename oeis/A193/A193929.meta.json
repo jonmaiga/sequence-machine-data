@@ -1,0 +1,25 @@
+{
+  "description": "Number of prime factors of n^4 + 1, counted with multiplicity.",
+  "id": "A193929",
+  "mentions": [
+    "A001222",
+    "A002522",
+    "A002523",
+    "A037896",
+    "A193330",
+    "A193432",
+    "A193562"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 0,
+    "size": 119,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = number of terms in A002182 that are of the form A002182(n)/p for some prime p|n.",
+  "id": "A328523",
+  "mentions": [
+    "A001222",
+    "A002182",
+    "A112778",
+    "A199337",
+    "A330737"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-entry"
+  }
+}

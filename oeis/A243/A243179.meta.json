@@ -1,0 +1,17 @@
+{
+  "description": "Numbers of the form 3x^2+xy+3y^2.",
+  "id": "A243179",
+  "mentions": [
+    "A106878"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

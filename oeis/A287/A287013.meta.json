@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of Sum_{n>=0} 1/A000178(n).",
+  "id": "A287013",
+  "mentions": [
+    "A000178",
+    "A137987"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:59",
+    "offset": 1,
+    "size": 109,
+    "source": "oeis-bfile"
+  }
+}

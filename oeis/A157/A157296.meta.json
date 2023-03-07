@@ -1,0 +1,27 @@
+{
+  "description": "Decimal expansion of 31185/(2*Pi^8).",
+  "id": "A157296",
+  "mentions": [
+    "A000040",
+    "A001248",
+    "A013661",
+    "A013668",
+    "A030514",
+    "A030516",
+    "A082020",
+    "A092748"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:46",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

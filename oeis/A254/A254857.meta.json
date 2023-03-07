@@ -1,0 +1,22 @@
+{
+  "description": "Octagonal numbers (A000567) that are also centered heptagonal numbers (A069099).",
+  "id": "A254857",
+  "mentions": [
+    "A000567",
+    "A069099",
+    "A254855",
+    "A254856"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:13",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

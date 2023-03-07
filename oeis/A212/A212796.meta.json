@@ -1,0 +1,32 @@
+{
+  "description": "Square array read by antidiagonals: T(m,n) = number of spanning trees in C_m X C_n.",
+  "id": "A212796",
+  "mentions": [
+    "A000027",
+    "A116469",
+    "A173958",
+    "A212797",
+    "A212798",
+    "A212799",
+    "A212800",
+    "A340560",
+    "A358810",
+    "A358811",
+    "A358812",
+    "A358813",
+    "A358814",
+    "A358815"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

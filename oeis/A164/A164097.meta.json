@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that 6*k + 7 is a perfect square.",
+  "id": "A164097",
+  "mentions": [
+    "A062717",
+    "A104777"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:11:49",
+    "offset": 1,
+    "size": 49,
+    "source": "joeis"
+  }
+}

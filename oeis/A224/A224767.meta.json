@@ -1,0 +1,19 @@
+{
+  "description": "Number of non-degenerate fanout-free Boolean functions of n variables having AND rank 3.",
+  "id": "A224767",
+  "mentions": [
+    "A225171"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 3,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

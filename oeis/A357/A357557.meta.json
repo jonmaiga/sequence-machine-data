@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the numerator of the coefficient c in the polynomial of the form y(x)=x^n+c such that starting with y(x)=x for n=1 each polynomial is C-1 continuous with the previous one.",
+  "id": "A357557",
+  "mentions": [
+    "A061464"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:31",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

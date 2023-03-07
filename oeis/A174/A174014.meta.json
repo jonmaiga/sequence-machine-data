@@ -1,0 +1,22 @@
+{
+  "description": "Deleham triangle [1,1,-1,1,1,-1,1,...] DELTA [1,0,0,1,0,0,1,0,...], DELTA defined in A084938.",
+  "id": "A174014",
+  "mentions": [
+    "A084938",
+    "A174013",
+    "A174015",
+    "A174016"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

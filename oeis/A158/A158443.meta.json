@@ -1,0 +1,21 @@
+{
+  "description": "16n^2 - 4.",
+  "id": "A158443",
+  "mentions": [
+    "A005843",
+    "A074377",
+    "A157914"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:40",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

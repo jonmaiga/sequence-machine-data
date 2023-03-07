@@ -1,0 +1,23 @@
+{
+  "description": "Number of steps required for n to reach a digit count invariant or cycle loop under the 'Look and Say' function A045918.",
+  "id": "A103618",
+  "mentions": [
+    "A005151",
+    "A045918",
+    "A047841",
+    "A104785",
+    "A104786",
+    "A104787"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:46:35",
+    "offset": 1,
+    "size": 90,
+    "source": "joeis"
+  }
+}

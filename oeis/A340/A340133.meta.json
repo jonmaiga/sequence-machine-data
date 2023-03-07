@@ -1,0 +1,20 @@
+{
+  "description": "The sequence lists the least prime numbers, in ascending order, such that each of them can be written, in a unique way, in the form x^2 + h*y^2, where x, y are natural numbers, while h takes all the values of the sequences A000926 (Idoneal numbers) and A003173 (Heegner numbers). See example.",
+  "id": "A340133",
+  "mentions": [
+    "A000926",
+    "A003173",
+    "A340055",
+    "A340132"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

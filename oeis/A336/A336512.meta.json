@@ -1,0 +1,21 @@
+{
+  "description": "Total sum of the left-to-right minima in all compositions of n.",
+  "id": "A336512",
+  "mentions": [
+    "A001563",
+    "A336484",
+    "A336511",
+    "A336516",
+    "A336770"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:08",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

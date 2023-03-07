@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is a decimal number k having a length n binary expansion which encodes, from left to right at digit j, the coprimality (0) or non-coprimality (1) of j to n, for 1 < j <= n, except for the first digit, which is always 1.",
+  "id": "A306388",
+  "mentions": [
+    "A054432"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

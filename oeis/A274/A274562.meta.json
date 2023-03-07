@@ -1,0 +1,25 @@
+{
+  "description": "Numbers k such that sigma(k) == 0 (mod k-8).",
+  "id": "A274562",
+  "mentions": [
+    "A000203",
+    "A045770",
+    "A067702",
+    "A088833",
+    "A181598",
+    "A274551",
+    "A274561",
+    "A274563",
+    "A274566"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

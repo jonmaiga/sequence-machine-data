@@ -1,0 +1,18 @@
+{
+  "description": "Column 3 of the array in A107735.",
+  "id": "A107734",
+  "mentions": [
+    "A107735"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 3,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

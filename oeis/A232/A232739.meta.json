@@ -1,0 +1,26 @@
+{
+  "description": "Iterates of Hofstadter's A030124: start with a(1) = A030124(1) = 2, thereafter a(n) = A030124(a(n-1)).",
+  "id": "A232739",
+  "mentions": [
+    "A000225",
+    "A005228",
+    "A030124",
+    "A225850",
+    "A232740",
+    "A232750",
+    "A232751",
+    "A232752",
+    "A232753"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:51",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

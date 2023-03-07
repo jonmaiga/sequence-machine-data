@@ -1,0 +1,22 @@
+{
+  "description": "Greater of twin primes (A006512) which are not Labos primes (A080359).",
+  "id": "A164372",
+  "mentions": [
+    "A001359",
+    "A006512",
+    "A080359",
+    "A104272",
+    "A164294",
+    "A164371"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Decimal expansion of the third derivative of the infinite power tower function x^x^x... at x = 1/2.",
+  "id": "A277524",
+  "mentions": [
+    "A033917",
+    "A104748",
+    "A277522",
+    "A277523",
+    "A277525",
+    "A277526",
+    "A277527",
+    "A277528",
+    "A277529",
+    "A277530",
+    "A277531"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:43",
+    "offset": 1,
+    "size": 107,
+    "source": "oeis-bfile"
+  }
+}

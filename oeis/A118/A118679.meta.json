@@ -1,0 +1,23 @@
+{
+  "description": "Absolute value of numerator of determinant of n X n matrix with M(i,j) = i/(i+1) if i=j otherwise 1.",
+  "id": "A118679",
+  "mentions": [
+    "A006530",
+    "A038889",
+    "A118680",
+    "A127852",
+    "A127853"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

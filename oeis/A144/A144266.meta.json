@@ -1,0 +1,18 @@
+{
+  "description": "Positive integers which do not occur in A144265.",
+  "id": "A144266",
+  "mentions": [
+    "A144265"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Least number d such that 10^n -/+ 3d form a prime pair.",
+  "id": "A117738",
+  "mentions": [
+    "A115564"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

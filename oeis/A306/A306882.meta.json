@@ -1,0 +1,23 @@
+{
+  "description": "Even numbers k such that phi(m) = k^2 has no solution.",
+  "id": "A306882",
+  "mentions": [
+    "A000010",
+    "A002202",
+    "A052291",
+    "A058277",
+    "A062732",
+    "A221284",
+    "A221285"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

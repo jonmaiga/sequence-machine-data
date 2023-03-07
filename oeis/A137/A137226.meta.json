@@ -1,0 +1,19 @@
+{
+  "description": "Lesser of twins prime p of A135170(n).",
+  "id": "A137226",
+  "mentions": [
+    "A001359",
+    "A135170"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

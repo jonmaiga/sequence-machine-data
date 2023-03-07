@@ -1,0 +1,17 @@
+{
+  "description": "a(1) = 1, for n > 1 the least composite number k > a(n-1) such that a(n-1) + k is also a composite number.",
+  "id": "A262159",
+  "mentions": [
+    "A072525"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:21",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

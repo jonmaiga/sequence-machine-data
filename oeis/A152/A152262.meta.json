@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = 14*a(n-1) - 43*a(n-2), n > 1; a(0)=1, a(1)=7.",
+  "id": "A152262",
+  "mentions": [
+    "A027907",
+    "A098158",
+    "A145301",
+    "A152263"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:35",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

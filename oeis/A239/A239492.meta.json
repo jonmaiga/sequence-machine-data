@@ -1,0 +1,19 @@
+{
+  "description": "The fifth bicycle lock sequence: a(n) is the maximum value of min{x*y, (5-x)*(n-y)} over 0 <= x <= 5, 0 <= y <= n for integers x, y.",
+  "id": "A239492",
+  "mentions": [
+    "A238158"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:32:37",
+    "offset": 0,
+    "size": 77,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the smallest number whose square uses all the digits but n.",
+  "id": "A347144",
+  "mentions": [
+    "A071519",
+    "A158931"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Odd numbers n such that binomial(6*n, 2*n) == -1 (mod 8).",
+  "id": "A268304",
+  "mentions": [
+    "A234839",
+    "A268303"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:30",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

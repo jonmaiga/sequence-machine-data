@@ -1,0 +1,23 @@
+{
+  "description": "Number of partitions of n into two parts such that the smaller part is a nonzero square.",
+  "id": "A339183",
+  "mentions": [
+    "A001105",
+    "A010052",
+    "A016825",
+    "A339184",
+    "A339186"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 99,
+    "source": "oeis-entry"
+  }
+}

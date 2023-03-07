@@ -1,0 +1,19 @@
+{
+  "description": "G.f. satisfies: A(x) = 1 + 4*x*AGM(A(x), A(x)^3).",
+  "id": "A272823",
+  "mentions": [
+    "A171454",
+    "A272822"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

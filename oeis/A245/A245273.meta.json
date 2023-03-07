@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of zeta''(0)+2, the coefficient of z^2 in the Laurent expansion of zeta(z) at the origin.",
+  "id": "A245273",
+  "mentions": [
+    "A082633",
+    "A110544"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 107,
+    "source": "oeis-entry"
+  }
+}

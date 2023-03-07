@@ -1,0 +1,17 @@
+{
+  "description": "1/4 the number of (n+1) X 3 binary arrays with equal numbers of 2 X 2 subblocks with sums 1 and 3.",
+  "id": "A184597",
+  "mentions": [
+    "A184604"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:08",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Table T(n,k) read by rows which contains in row n the 2^n terms of A171968 starting at the (n+1)st 3.",
+  "id": "A172097",
+  "mentions": [
+    "A006257",
+    "A007283",
+    "A171968",
+    "A181565"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

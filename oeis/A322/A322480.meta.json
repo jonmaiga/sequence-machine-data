@@ -1,0 +1,22 @@
+{
+  "description": "Irregular triangular array read by rows: T(n,k), n>=1, is the number of ordered factorizations corresponding to each unordered factorization, indexed by k.",
+  "id": "A322480",
+  "mentions": [
+    "A001055",
+    "A002033",
+    "A048996",
+    "A212171",
+    "A251683"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 134,
+    "source": "oeis-entry"
+  }
+}

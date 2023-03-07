@@ -1,0 +1,19 @@
+{
+  "description": "Total number of longest increasing runs in all permutations of [n].",
+  "id": "A258690",
+  "mentions": [
+    "A000142",
+    "A008304",
+    "A167999"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:16",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

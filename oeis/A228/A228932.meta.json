@@ -1,0 +1,21 @@
+{
+  "description": "Optimal ascending continued fraction expansion of sqrt(43) - 6.",
+  "id": "A228932",
+  "mentions": [
+    "A010134",
+    "A010497",
+    "A228929",
+    "A228931"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "cofr",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:46",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Strings of 4 digits from 1...9, such that no formula using the single digits in the given order exists that evaluates to 0.",
+  "id": "A288354",
+  "mentions": [
+    "A288350",
+    "A288351",
+    "A288353",
+    "A288355",
+    "A288356"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:01",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

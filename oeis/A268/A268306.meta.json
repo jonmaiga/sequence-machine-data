@@ -1,0 +1,22 @@
+{
+  "description": "The number of even permutations p of 1,2,...,n such that -1<=p(i)-i<=2 for i=1,2,...,n",
+  "id": "A268306",
+  "mentions": [
+    "A000073",
+    "A001710",
+    "A003221",
+    "A133872"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:30",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

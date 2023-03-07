@@ -1,0 +1,19 @@
+{
+  "description": "Triangular array read by rows, T(n,k) = number of partial functions on {1,2,...,n} with exactly k cycles.",
+  "id": "A216520",
+  "mentions": [
+    "A000169"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the least number k such that A349258(k) = A349258(k+1) = n.",
+  "id": "A349261",
+  "mentions": [
+    "A075036",
+    "A093548",
+    "A115186",
+    "A343818",
+    "A349258"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

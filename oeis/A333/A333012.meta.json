@@ -1,0 +1,21 @@
+{
+  "description": "Integers which can be written in exactly two ways as a sum of two distinct nonzero pentagonal numbers.",
+  "id": "A333012",
+  "mentions": [
+    "A000326",
+    "A333011",
+    "A333013",
+    "A333014",
+    "A333015"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

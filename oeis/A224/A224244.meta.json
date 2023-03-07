@@ -1,0 +1,18 @@
+{
+  "description": "Number of set partitions of {1,2,...,n} such that the size of the smallest block is unique and it contains the element 1.",
+  "id": "A224244",
+  "mentions": [
+    "A224219"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:42",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

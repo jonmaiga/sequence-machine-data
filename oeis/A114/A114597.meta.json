@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of hill-free Dyck paths of semilength n having pyramid weight k.",
+  "id": "A114597",
+  "mentions": [
+    "A000045",
+    "A000957",
+    "A091866"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 2,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "Square array A(n,k), n > 0 and k > 0, read by antidiagonals, with initial values A(1,k) = k and recurrence equations A(n+1,k) = A(n,k) for 0 < k <= n and A(n+1,k) = A(n,k) - A000035(n+k) for 0 < n < k.",
+  "id": "A305499",
+  "mentions": [
+    "A000012",
+    "A000027",
+    "A000035",
+    "A001651",
+    "A008619",
+    "A028310",
+    "A054977",
+    "A109613",
+    "A209229",
+    "A211538"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

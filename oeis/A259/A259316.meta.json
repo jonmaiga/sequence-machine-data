@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that the result of n multiplied by the reversal of n can be split into two numbers a and b of equal length (if the length is odd a leading zero is allowed), where a + b equals n (b can also have a leading zero).",
+  "id": "A259316",
+  "mentions": [
+    "A006886",
+    "A053816",
+    "A064942",
+    "A145875"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:17",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

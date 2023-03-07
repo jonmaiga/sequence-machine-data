@@ -1,0 +1,21 @@
+{
+  "description": "A014330 - A203577. Difference between the exponential convolution of A000108 (Catalan) with itself and the corresponding exponential half-convolution.",
+  "id": "A204452",
+  "mentions": [
+    "A000108",
+    "A014330",
+    "A203577"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:24:44",
+    "offset": 0,
+    "size": 23,
+    "source": "joeis"
+  }
+}

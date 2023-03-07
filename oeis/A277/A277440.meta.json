@@ -1,0 +1,20 @@
+{
+  "description": "Denominators of a sequence defined by a modified recurrence for the exponential of the von Mangoldt function.",
+  "id": "A277440",
+  "mentions": [
+    "A014574",
+    "A277439"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

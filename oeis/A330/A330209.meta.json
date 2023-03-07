@@ -1,0 +1,17 @@
+{
+  "description": "Nonzero coefficients of the polynomials (x + d/dx)^n x^2, in row-major order.",
+  "id": "A330209",
+  "mentions": [
+    "A096713"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

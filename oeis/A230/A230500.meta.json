@@ -1,0 +1,24 @@
+{
+  "description": "Indices of \"power odious-evil stability\" of odd integers 2*n-1 > 1 (see comment).",
+  "id": "A230500",
+  "mentions": [
+    "A000069",
+    "A001969",
+    "A230454",
+    "A230495",
+    "A230496",
+    "A230497",
+    "A230498"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:48",
+    "offset": 2,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

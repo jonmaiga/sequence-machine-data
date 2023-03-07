@@ -1,0 +1,21 @@
+{
+  "description": "First digit to appear n times in the decimal expansion of square root of 2.",
+  "id": "A195141",
+  "mentions": [
+    "A002193",
+    "A096567",
+    "A195138",
+    "A195139"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

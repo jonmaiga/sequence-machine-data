@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the least number with n factorizations into S-primes (numbers 4k+1 with no proper divisors > 1 of form 4m+1).",
+  "id": "A321337",
+  "mentions": [
+    "A025487",
+    "A054520",
+    "A057948",
+    "A057949"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:44",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

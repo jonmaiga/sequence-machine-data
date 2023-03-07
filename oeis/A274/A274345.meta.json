@@ -1,0 +1,21 @@
+{
+  "description": "Numerators of coefficients in the expansion of (log(q) - log(k^2/16))/(8*k^2/16) in powers of k^2/16, where q is the Jacobi nome and k^2 the parameter of elliptic functions.",
+  "id": "A274345",
+  "mentions": [
+    "A227503",
+    "A274346"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

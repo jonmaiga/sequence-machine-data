@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = pi(2*n) - pi(n). Number of primes in the interval (n,2n].",
+  "id": "A108954",
+  "mentions": [
+    "A000720",
+    "A010051",
+    "A060715",
+    "A067434",
+    "A074990",
+    "A128076",
+    "A193990"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:01",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

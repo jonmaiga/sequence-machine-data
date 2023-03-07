@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that k is the altitude of a Heronian triangle with sides m - 11, m, m + 11.",
+  "id": "A296796",
+  "mentions": [
+    "A296795"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:16",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

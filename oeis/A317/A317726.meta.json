@@ -1,0 +1,18 @@
+{
+  "description": "Length of runs of terms in A104381 which differ only in the last decimal place.",
+  "id": "A317726",
+  "mentions": [
+    "A104381"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

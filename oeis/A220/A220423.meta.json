@@ -1,0 +1,26 @@
+{
+  "description": "Cubefree products of primorials, cf. A002110.",
+  "id": "A220423",
+  "mentions": [
+    "A000040",
+    "A001221",
+    "A001222",
+    "A002110",
+    "A004709",
+    "A006530",
+    "A051903",
+    "A073491",
+    "A212793",
+    "A220264"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:38",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

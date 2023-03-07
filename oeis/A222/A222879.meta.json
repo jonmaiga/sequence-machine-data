@@ -1,0 +1,17 @@
+{
+  "description": "Number of 2Xn 0..3 arrays with no more than floor(2Xn/2) elements equal to at least one horizontal or antidiagonal neighbor, with new values introduced in row major 0..3 order",
+  "id": "A222879",
+  "mentions": [
+    "A222878"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:40",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

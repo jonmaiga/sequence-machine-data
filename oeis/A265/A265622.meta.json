@@ -1,0 +1,17 @@
+{
+  "description": "Number of 4Xn 0..4*n-1 arrays with upper left zero and lower right 4*n-1 and each element differing from its horizontal and diagonal neighbors by a power of two.",
+  "id": "A265622",
+  "mentions": [
+    "A265619"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:25",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

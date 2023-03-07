@@ -1,0 +1,18 @@
+{
+  "description": "n divided by the first lower diagonal of the array in A111618.",
+  "id": "A111621",
+  "mentions": [
+    "A109626",
+    "A111618"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 2,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

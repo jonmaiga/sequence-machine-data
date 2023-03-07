@@ -1,0 +1,22 @@
+{
+  "description": "Odious Fibonacci numbers.",
+  "id": "A196024",
+  "mentions": [
+    "A000045",
+    "A000069",
+    "A000120",
+    "A004685",
+    "A007088"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:17",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

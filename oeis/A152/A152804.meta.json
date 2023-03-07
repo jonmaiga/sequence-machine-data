@@ -1,0 +1,18 @@
+{
+  "description": "Largest term in rows of triangle A152800.",
+  "id": "A152804",
+  "mentions": [
+    "A000364",
+    "A152800"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

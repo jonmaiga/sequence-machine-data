@@ -1,0 +1,22 @@
+{
+  "description": "Number of (w,x,y) with all terms in {0,...,n} and |w-x| + |x-y| + |y-w| >= w+x+y.",
+  "id": "A213484",
+  "mentions": [
+    "A054925",
+    "A192447",
+    "A212959",
+    "A213485"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:48:55",
+    "offset": 0,
+    "size": 49,
+    "source": "joeis"
+  }
+}

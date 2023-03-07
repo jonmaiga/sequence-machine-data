@@ -1,0 +1,18 @@
+{
+  "description": "Floor(ksexp(n, 13/10)) where ksexp(n, z) = n^ksexp(n, z-1) is Kneser's superexponential.",
+  "id": "A225088",
+  "mentions": [
+    "A225086",
+    "A225087"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

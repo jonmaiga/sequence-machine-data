@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of Sum_{i > 0} 1/A001481(i)^4.",
+  "id": "A344125",
+  "mentions": [
+    "A000040",
+    "A001481",
+    "A013662",
+    "A055025",
+    "A344123",
+    "A344124"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

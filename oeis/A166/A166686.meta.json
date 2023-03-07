@@ -1,0 +1,18 @@
+{
+  "description": "Numbers m such that m plus the sum of the indices of the prime factors of the m-th composite (counted with multiplicity) is prime.",
+  "id": "A166686",
+  "mentions": [
+    "A000040",
+    "A002808"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

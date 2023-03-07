@@ -1,0 +1,22 @@
+{
+  "description": "a(1) = a(2) = 0; for n > 2, a(n) = A252736(n) - (1-A000035(n)).",
+  "id": "A285726",
+  "mentions": [
+    "A000035",
+    "A005940",
+    "A252463",
+    "A252736",
+    "A285725"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:57",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

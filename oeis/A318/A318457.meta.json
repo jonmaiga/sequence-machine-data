@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = n XOR A001065(n), where XOR is bitwise-xor (A003987) and A001065 = sum of proper divisors.",
+  "id": "A318457",
+  "mentions": [
+    "A000203",
+    "A000396",
+    "A001065",
+    "A003987",
+    "A033879",
+    "A318456",
+    "A318458",
+    "A318467"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:39",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

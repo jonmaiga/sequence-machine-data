@@ -1,0 +1,29 @@
+{
+  "description": "Number of ways to write n as an ordered sum of 8 nonprime numbers.",
+  "id": "A341485",
+  "mentions": [
+    "A005171",
+    "A018252",
+    "A052284",
+    "A076608",
+    "A340964",
+    "A341455",
+    "A341467",
+    "A341480",
+    "A341481",
+    "A341482",
+    "A341483",
+    "A341484",
+    "A341486"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 8,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

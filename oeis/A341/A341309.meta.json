@@ -1,0 +1,26 @@
+{
+  "description": "Sum of odd divisors of n that are <= A003056(n).",
+  "id": "A341309",
+  "mentions": [
+    "A000593",
+    "A003056",
+    "A082647",
+    "A131576",
+    "A204217",
+    "A333807",
+    "A341310",
+    "A352269",
+    "A352446"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

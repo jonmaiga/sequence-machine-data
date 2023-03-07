@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of Dyck paths of semilength n having k UUDU's starting at level 0.",
+  "id": "A135330",
+  "mentions": [
+    "A000108",
+    "A135336"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

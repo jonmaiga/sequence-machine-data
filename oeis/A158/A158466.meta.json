@@ -1,0 +1,20 @@
+{
+  "description": "Numerators of EH(n), the expected value of the height of a probabilistic skip list with n elements and p=1/2.",
+  "id": "A158466",
+  "mentions": [
+    "A158467",
+    "A278327"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:40",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

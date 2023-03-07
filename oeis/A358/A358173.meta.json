@@ -1,0 +1,21 @@
+{
+  "description": "First differences of A286708.",
+  "id": "A358173",
+  "mentions": [
+    "A001694",
+    "A053707",
+    "A076446",
+    "A246547",
+    "A286708"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:32",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "description": "Number of sequences of n coin flips that win on the last flip, if the sequence of flips ends with (1,1,0) or (1,0,0).",
+  "id": "A198442",
+  "mentions": [
+    "A000004",
+    "A002620",
+    "A004526",
+    "A004652",
+    "A005843",
+    "A008585",
+    "A008586",
+    "A023443",
+    "A028242",
+    "A035106",
+    "A047221",
+    "A047336",
+    "A052928",
+    "A079524",
+    "A110654",
+    "A238377",
+    "A242477",
+    "A265611"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:19",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

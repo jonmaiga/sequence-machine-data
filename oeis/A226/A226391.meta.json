@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = Sum_{k=0..n} binomial(k*n, k).",
+  "id": "A226391",
+  "mentions": [
+    "A072034",
+    "A086331",
+    "A096131",
+    "A167008",
+    "A167010",
+    "A349471"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

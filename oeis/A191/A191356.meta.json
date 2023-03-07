@@ -1,0 +1,19 @@
+{
+  "description": "Interpret the terms of A069748 having only decimal digits 0 and 1 as binary numbers and then convert those numbers to decimal.",
+  "id": "A191356",
+  "mentions": [
+    "A002780",
+    "A069748"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

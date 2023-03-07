@@ -1,0 +1,18 @@
+{
+  "description": "Primes of the form 2*k!! - 1.",
+  "id": "A215780",
+  "mentions": [
+    "A006882",
+    "A215779"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 11:12:56",
+    "offset": 1,
+    "size": 12,
+    "source": "joeis"
+  }
+}

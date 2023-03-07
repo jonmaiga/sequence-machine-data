@@ -1,0 +1,26 @@
+{
+  "description": "Number of factorizations of the square of n into factors k > 1 for which both A001222(k) and A056239(k) are even.",
+  "id": "A353334",
+  "mentions": [
+    "A000290",
+    "A001222",
+    "A003961",
+    "A056239",
+    "A340784",
+    "A348717",
+    "A353304",
+    "A353331",
+    "A353333"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:27",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

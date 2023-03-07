@@ -1,0 +1,19 @@
+{
+  "description": "Number of factorizations of n into even factors > 1 (a(1) = 1 by convention).",
+  "id": "A349906",
+  "mentions": [
+    "A001055",
+    "A340785",
+    "A349907"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:24",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

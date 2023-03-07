@@ -1,0 +1,23 @@
+{
+  "description": "Primes prime(k) such that prime(k)^2 + prime(k+1)^2 - 1 is a perfect square.",
+  "id": "A160054",
+  "mentions": [
+    "A000040",
+    "A000290",
+    "A050791",
+    "A069484",
+    "A129288",
+    "A271050"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Primes of the form 2^x - y^2, with y^2 < 2^x.",
+  "id": "A248346",
+  "mentions": [
+    "A038198",
+    "A051213",
+    "A056007",
+    "A060728",
+    "A248344"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

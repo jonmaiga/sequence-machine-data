@@ -1,0 +1,28 @@
+{
+  "description": "Numbers n such that 3n is a partition number.",
+  "id": "A213365",
+  "mentions": [
+    "A000041",
+    "A087183",
+    "A213179",
+    "A216258",
+    "A217725",
+    "A217726",
+    "A222175",
+    "A222178",
+    "A222179",
+    "A225317",
+    "A225323"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

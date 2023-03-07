@@ -1,0 +1,17 @@
+{
+  "description": "Primes that occur in A126990 only once.",
+  "id": "A134196",
+  "mentions": [
+    "A126990"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:22",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

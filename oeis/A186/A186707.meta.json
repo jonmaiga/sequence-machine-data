@@ -1,0 +1,20 @@
+{
+  "description": "Partial sums of A007202 (crystal ball sequence for hexagonal close-packing).",
+  "id": "A186707",
+  "mentions": [
+    "A007202"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:11",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

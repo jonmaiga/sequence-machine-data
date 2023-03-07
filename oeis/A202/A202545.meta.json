@@ -1,0 +1,18 @@
+{
+  "description": "Number of n X 4 nonnegative integer arrays each row and column an ascent sequence (interior element no greater than one plus up-steps preceding it).",
+  "id": "A202545",
+  "mentions": [
+    "A202549"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:23",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

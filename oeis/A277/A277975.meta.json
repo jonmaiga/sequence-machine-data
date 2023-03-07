@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = n*x^n + (n-1)*x^(n-1) + . . . + x + 1 for x=5.",
+  "id": "A277975",
+  "mentions": [
+    "A088581",
+    "A088582"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:44",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

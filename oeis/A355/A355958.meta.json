@@ -1,0 +1,18 @@
+{
+  "description": "Positions where primes occur in A104589.",
+  "id": "A355958",
+  "mentions": [
+    "A104589",
+    "A355967"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

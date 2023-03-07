@@ -1,0 +1,19 @@
+{
+  "description": "Isotopes of Conway's audioactive transuranic elements, in reversed lexicographic order.",
+  "id": "A215403",
+  "mentions": [
+    "A119566",
+    "A213979"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:33",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-bfile"
+  }
+}

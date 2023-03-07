@@ -1,0 +1,19 @@
+{
+  "description": "Four interlaced copies of A117373.",
+  "id": "A144476",
+  "mentions": [
+    "A117373"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:44:49",
+    "offset": 1,
+    "size": 51,
+    "source": "joeis"
+  }
+}

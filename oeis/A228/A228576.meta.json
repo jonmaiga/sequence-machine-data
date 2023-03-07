@@ -1,0 +1,31 @@
+{
+  "description": "A triangle formed like generalized Pascal's triangle. The rule is T(n,k) = 2*T(n-1,k-1) + T(n-1,k), the left border is n and the right border is n^2 instead of 1.",
+  "id": "A228576",
+  "mentions": [
+    "A000244",
+    "A002061",
+    "A038207",
+    "A105728",
+    "A112468",
+    "A112626",
+    "A119258",
+    "A119673",
+    "A119725",
+    "A119726",
+    "A119727",
+    "A209705",
+    "A228196"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-22 20:28:47",
+    "offset": 1,
+    "size": 66,
+    "source": "joeis"
+  }
+}

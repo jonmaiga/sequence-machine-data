@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = floor(13*n^2/4).",
+  "id": "A227541",
+  "mentions": [
+    "A002144",
+    "A005098",
+    "A032527",
+    "A119681"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:12:33",
+    "offset": 0,
+    "size": 44,
+    "source": "joeis"
+  }
+}

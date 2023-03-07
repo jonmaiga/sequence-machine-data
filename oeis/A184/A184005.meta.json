@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = n - 1 + ceiling(3*n^2/4); complement of A184004.",
+  "id": "A184005",
+  "mentions": [
+    "A002061",
+    "A002620",
+    "A007494",
+    "A016789",
+    "A016957",
+    "A017617",
+    "A184004"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:20:19",
+    "offset": 1,
+    "size": 60,
+    "source": "joeis"
+  }
+}

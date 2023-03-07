@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of 2*Pi^6/945.",
+  "id": "A257136",
+  "mentions": [
+    "A013664",
+    "A092732",
+    "A257134"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:48:07",
+    "offset": 1,
+    "size": 102,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Riordan array (1/(1-xc(3x)), xc(3x)/(1-xc(3x))), c(x) the g.f. of A000108.",
+  "id": "A110519",
+  "mentions": [
+    "A000108",
+    "A007318",
+    "A084938",
+    "A110517",
+    "A110518",
+    "A110520",
+    "A110521"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:02",
+    "offset": 0,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

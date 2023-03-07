@@ -1,0 +1,20 @@
+{
+  "description": "Palindromes of the form i^2 + reverse(i)^2.",
+  "id": "A256398",
+  "mentions": [
+    "A002113",
+    "A056964",
+    "A256437"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

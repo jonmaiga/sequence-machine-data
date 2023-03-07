@@ -1,0 +1,23 @@
+{
+  "description": "Partial sums of A286324: Sum_{k=1..n} bd(k) where bd(k) is the number of bi-unitary divisors of k.",
+  "id": "A306069",
+  "mentions": [
+    "A001620",
+    "A006218",
+    "A064608",
+    "A286324",
+    "A306071",
+    "A306072"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

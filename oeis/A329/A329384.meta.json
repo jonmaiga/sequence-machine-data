@@ -1,0 +1,23 @@
+{
+  "description": "G.f.: (1 + x) * (1 + x^2) * (1 + x^3) * Product_{k>=1} (1 + x^k).",
+  "id": "A329384",
+  "mentions": [
+    "A000009",
+    "A000098",
+    "A022567",
+    "A036469",
+    "A052816",
+    "A329289"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

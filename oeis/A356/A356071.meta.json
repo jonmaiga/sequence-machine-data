@@ -1,0 +1,22 @@
+{
+  "description": "Numbers whose square is in A108571.",
+  "id": "A356071",
+  "mentions": [
+    "A108571",
+    "A181392",
+    "A225886",
+    "A356072"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:30",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

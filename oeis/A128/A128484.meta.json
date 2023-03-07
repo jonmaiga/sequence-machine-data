@@ -1,0 +1,20 @@
+{
+  "description": "Structure constants for certain radical benzenoidal structures (see Cash and Dias paper for precise definition).",
+  "id": "A128484",
+  "mentions": [
+    "A008793",
+    "A128476",
+    "A128485"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "bref",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

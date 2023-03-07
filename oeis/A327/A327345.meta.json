@@ -1,0 +1,21 @@
+{
+  "description": "Irregular triangle read by rows: Maximal numbers of the Markoff triples at level L of the Markoff tree, with members of the triples ordered increasingly.",
+  "id": "A327345",
+  "mentions": [
+    "A001519",
+    "A002519",
+    "A002559"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": -2,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

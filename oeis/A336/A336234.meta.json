@@ -1,0 +1,22 @@
+{
+  "description": "Edge length of 'Prime squares': sum the four numbers at the corners of a square drawn on a diagonally numbered 2D board, with 1 at the corner of the square. The sequence gives the size of the square such that the sum is a prime number.",
+  "id": "A336234",
+  "mentions": [
+    "A000040",
+    "A000124",
+    "A000217",
+    "A185505",
+    "A282513"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:07",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

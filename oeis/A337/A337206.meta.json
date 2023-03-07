@@ -1,0 +1,20 @@
+{
+  "description": "Cardinality of maximal level sets of Gini index on integer partitions.",
+  "id": "A337206",
+  "mentions": [
+    "A076269",
+    "A161680",
+    "A264034"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:09",
+    "offset": 0,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

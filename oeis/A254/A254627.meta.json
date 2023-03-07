@@ -1,0 +1,26 @@
+{
+  "description": "Indices of centered pentagonal numbers (A005891) that are also triangular numbers (A000217).",
+  "id": "A254627",
+  "mentions": [
+    "A000217",
+    "A000384",
+    "A005891",
+    "A110679",
+    "A232970",
+    "A254626",
+    "A254628",
+    "A254962"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:12",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

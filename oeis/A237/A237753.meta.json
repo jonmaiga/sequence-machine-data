@@ -1,0 +1,25 @@
+{
+  "description": "Number of partitions of n such that 2*(greatest part) = (number of parts).",
+  "id": "A237753",
+  "mentions": [
+    "A064173",
+    "A237751",
+    "A237752",
+    "A237754",
+    "A237757",
+    "A350879",
+    "A350893"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

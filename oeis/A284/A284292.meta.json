@@ -1,0 +1,28 @@
+{
+  "description": "Primes containing a digit 8.",
+  "id": "A284292",
+  "mentions": [
+    "A011538",
+    "A056709",
+    "A062677",
+    "A106093",
+    "A208270",
+    "A208272",
+    "A212525",
+    "A257667",
+    "A257668",
+    "A284290",
+    "A284291"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:55",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

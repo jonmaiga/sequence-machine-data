@@ -1,0 +1,28 @@
+{
+  "description": "Triangle, read by rows, where row n lists the denominators of unit fraction coefficients of the products of {c_k}, in ascending order by indices of {c_k}, in the coefficient of x^n in exp(Sum_{k>=1} c_k/k*x^k).",
+  "id": "A110141",
+  "mentions": [
+    "A000041",
+    "A000142",
+    "A002865",
+    "A052560",
+    "A052849",
+    "A102189",
+    "A110142",
+    "A110143",
+    "A181897"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

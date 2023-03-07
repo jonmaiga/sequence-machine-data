@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that (2^k + 3^k)/13 is prime.",
+  "id": "A181628",
+  "mentions": [
+    "A057469"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

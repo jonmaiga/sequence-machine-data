@@ -1,0 +1,19 @@
+{
+  "description": "Position of first occurrence of n in A039819.",
+  "id": "A111172",
+  "mentions": [
+    "A033950",
+    "A039819"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

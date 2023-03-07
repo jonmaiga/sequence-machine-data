@@ -1,0 +1,21 @@
+{
+  "description": "Primes p = prime(k) of form 13//r, s//13 or t//13//u and sod(p) = sod(k).",
+  "id": "A169645",
+  "mentions": [
+    "A033548",
+    "A166573",
+    "A175017"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

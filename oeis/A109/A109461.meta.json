@@ -1,0 +1,19 @@
+{
+  "description": "Mersenne's original list of \"Mersenne\" exponents.",
+  "id": "A109461",
+  "mentions": [
+    "A000043"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

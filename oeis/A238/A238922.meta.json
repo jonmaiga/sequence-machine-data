@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that Sum_{i=1..j} 1/d(i) - Sum_{i=1..k} 1/p(i) is integer, where p are the prime factors of n, counted with multiplicity, and d its divisors.",
+  "id": "A238922",
+  "mentions": [
+    "A003415",
+    "A212128",
+    "A224346",
+    "A230164"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Carryless product n times n+1.",
+  "id": "A168294",
+  "mentions": [
+    "A004520",
+    "A059729"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

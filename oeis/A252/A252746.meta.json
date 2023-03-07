@@ -1,0 +1,26 @@
+{
+  "description": "Number of zeros on each row of irregular tables A252743 and A252744.",
+  "id": "A252746",
+  "mentions": [
+    "A000079",
+    "A000225",
+    "A003961",
+    "A005940",
+    "A252737",
+    "A252743",
+    "A252744",
+    "A252745"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

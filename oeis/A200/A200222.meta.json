@@ -1,0 +1,21 @@
+{
+  "description": "G.f. satisfies: A(x) = 1 + Sum_{n>=1} (x*A(x))^(n^2) * (A(x)^n + 1/A(x)^n).",
+  "id": "A200222",
+  "mentions": [
+    "A190791",
+    "A196354",
+    "A197707",
+    "A199576"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:21",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

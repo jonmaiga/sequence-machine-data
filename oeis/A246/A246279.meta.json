@@ -1,0 +1,24 @@
+{
+  "description": "Transpose of array A246278: A(row,1) = 2*row, and for col > 1, A(row,col) = A003961(A(row,col-1)).",
+  "id": "A246279",
+  "mentions": [
+    "A002260",
+    "A003961",
+    "A004736",
+    "A083140",
+    "A246273",
+    "A246278"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

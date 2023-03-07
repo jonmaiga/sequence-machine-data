@@ -1,0 +1,23 @@
+{
+  "description": "Fixed points of permutations A118757, A118758, A118759 and A118760.",
+  "id": "A118761",
+  "mentions": [
+    "A024657",
+    "A102491",
+    "A118757",
+    "A118758",
+    "A118759",
+    "A118760",
+    "A118767"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

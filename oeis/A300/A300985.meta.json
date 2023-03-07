@@ -1,0 +1,19 @@
+{
+  "description": "Number of isomorphism classes of n-elementary gammoids of rank 3.",
+  "id": "A300985",
+  "mentions": [
+    "A244197"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

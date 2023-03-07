@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Fibonacci(n) * Sum_{d|n} -(-1)^(n/d) / Fibonacci(d).",
+  "id": "A203802",
+  "mentions": [
+    "A000045",
+    "A000204",
+    "A111075"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:23",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

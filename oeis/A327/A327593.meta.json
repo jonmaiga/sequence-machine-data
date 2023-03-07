@@ -1,0 +1,27 @@
+{
+  "description": "Numbers n where an integer b that is a power of two > 2 with 1 < b < n exists such that n is a base-b repdigit.",
+  "id": "A327593",
+  "mentions": [
+    "A000051",
+    "A001220",
+    "A002450",
+    "A019434",
+    "A023001",
+    "A131865",
+    "A132469",
+    "A226542",
+    "A240719"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

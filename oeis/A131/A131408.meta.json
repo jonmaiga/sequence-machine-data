@@ -1,0 +1,23 @@
+{
+  "description": "Repeated integer partitions or nested integer partitions.",
+  "id": "A131408",
+  "mentions": [
+    "A000041",
+    "A008284",
+    "A022811",
+    "A022818",
+    "A131407",
+    "A246828"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:19",
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

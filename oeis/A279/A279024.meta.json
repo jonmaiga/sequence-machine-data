@@ -1,0 +1,21 @@
+{
+  "description": "Number of extradivisors of n (m < n is an extradivisor of n if for some positive k < n, m | n | k^(n+1) + m and n | (n-k)^(n+1) + m).",
+  "id": "A279024",
+  "mentions": [
+    "A000005",
+    "A002144",
+    "A027750",
+    "A278921",
+    "A279680"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:46",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

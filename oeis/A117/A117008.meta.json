@@ -1,0 +1,18 @@
+{
+  "description": "(A117000(8*n-1) - A117001(8*n-1))/2.",
+  "id": "A117008",
+  "mentions": [
+    "A117000",
+    "A117001"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 97,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Number of crossings in a regular drawing of the complete bipartite graph K(n,n).",
+  "id": "A159065",
+  "mentions": [
+    "A000537",
+    "A114999",
+    "A115004",
+    "A290131",
+    "A331755"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:41",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

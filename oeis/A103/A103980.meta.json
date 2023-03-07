@@ -1,0 +1,18 @@
+{
+  "description": "Reduced denominators of x^(2n) in the series expansion of erf(x)^2 Pi/4 about 0.",
+  "id": "A103980",
+  "mentions": [
+    "A103979"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

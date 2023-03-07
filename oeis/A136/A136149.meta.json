@@ -1,0 +1,20 @@
+{
+  "description": "Values n such that the sequences a(k+1)=sopfr(n a(k)) finish with a fixed point. Here sopfr=A001414 and a(1)=1.",
+  "id": "A136149",
+  "mentions": [
+    "A001414",
+    "A136140",
+    "A136147",
+    "A136148"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

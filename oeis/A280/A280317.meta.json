@@ -1,0 +1,17 @@
+{
+  "description": "Ordinate of points (x,y) of the square lattice such that x >= 0 and 0 <= y <= x, and ranked in order of increasing distance from the origin. Equidistant points are ranked in order of increasing ordinate.",
+  "id": "A280317",
+  "mentions": [
+    "A280079"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

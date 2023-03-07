@@ -1,0 +1,18 @@
+{
+  "description": "Number of lattice paths from (0,0) to (n,n) using steps (1,0),(2,0),(0,1),(0,2),(1,1),(2,2).",
+  "id": "A192365",
+  "mentions": [
+    "A092566"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

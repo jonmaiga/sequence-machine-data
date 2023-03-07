@@ -1,0 +1,35 @@
+{
+  "description": "Partial sums of diagonals of array of k-step Lucas numbers as in A125127, read by antidiagonals.",
+  "id": "A125129",
+  "mentions": [
+    "A000012",
+    "A000032",
+    "A000204",
+    "A000295",
+    "A001644",
+    "A001648",
+    "A048887",
+    "A048888",
+    "A074048",
+    "A074584",
+    "A092921",
+    "A104621",
+    "A105754",
+    "A105755",
+    "A125127",
+    "A127128"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

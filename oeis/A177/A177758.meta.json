@@ -1,0 +1,22 @@
+{
+  "description": "Number of ways to place 5 nonattacking bishops on an n X n toroidal board.",
+  "id": "A177758",
+  "mentions": [
+    "A172129",
+    "A177755",
+    "A177756",
+    "A177757"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:59:57",
+    "offset": 1,
+    "size": 23,
+    "source": "joeis"
+  }
+}

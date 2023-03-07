@@ -1,0 +1,18 @@
+{
+  "description": "Square root of the smallest square referenced in A049094 (Numbers n such that 2^n - 1 is divisible by a square > 1).",
+  "id": "A282243",
+  "mentions": [
+    "A049094",
+    "A282242"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:51",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

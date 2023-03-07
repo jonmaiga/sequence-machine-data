@@ -1,0 +1,23 @@
+{
+  "description": "Arithmetic table similar to multiplication with different rules for odd and even products, read by antidiagonals. T(n,k) = (n*k + A319929(n,k))/2.",
+  "id": "A322630",
+  "mentions": [
+    "A076274",
+    "A213037",
+    "A319929",
+    "A327263"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:45",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

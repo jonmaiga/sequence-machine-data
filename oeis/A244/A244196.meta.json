@@ -1,0 +1,21 @@
+{
+  "description": "Cumulative angle at the center of successive numbered sectors of a standard competition dartboard, with numbers traversed in order.",
+  "id": "A244196",
+  "mentions": [
+    "A003833",
+    "A008575",
+    "A244512"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Number of positive integers below 10^n, excluding perfect squares, which have a representation as a sum of 2 positive squares.",
+  "id": "A180416",
+  "mentions": [
+    "A000290",
+    "A000404",
+    "A000415",
+    "A002283",
+    "A049416",
+    "A167613",
+    "A167615",
+    "A180425"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

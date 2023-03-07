@@ -1,0 +1,20 @@
+{
+  "description": "A triangle of coefficients of a product polynomial sequence based on Chebyshev T[(x,n): p(x,n) = Product_{m=0..n} Sum_{i=0..m} T(x,i).",
+  "id": "A139808",
+  "mentions": [
+    "A008302"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabf",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

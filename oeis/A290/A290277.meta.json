@@ -1,0 +1,21 @@
+{
+  "description": "Inverse Euler Transform of the Motzkin Numbers.",
+  "id": "A290277",
+  "mentions": [
+    "A001006",
+    "A002426",
+    "A008683",
+    "A027376"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:05",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

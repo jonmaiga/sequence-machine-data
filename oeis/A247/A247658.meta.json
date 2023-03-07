@@ -1,0 +1,20 @@
+{
+  "description": "Partial sums of the sequence of (primes omitting A247657).",
+  "id": "A247658",
+  "mentions": [
+    "A000040",
+    "A109653",
+    "A247657"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

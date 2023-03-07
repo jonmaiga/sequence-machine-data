@@ -1,0 +1,18 @@
+{
+  "description": "Table array: T(n,m) is the number of non-crossings matchings of curves embedded within an annulus with n exterior endpoints and m interior endpoints.",
+  "id": "A268041",
+  "mentions": [
+    "A267998"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

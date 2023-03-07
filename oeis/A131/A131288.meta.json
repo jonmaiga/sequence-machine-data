@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = number of ways to choose a collection C of subsets of U = [1,2,...,n] such that Union_{S in C} = U, Intersection_{S in C} = empty set.",
+  "id": "A131288",
+  "mentions": [
+    "A000371",
+    "A003465"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

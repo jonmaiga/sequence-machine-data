@@ -1,0 +1,19 @@
+{
+  "description": "Triangular form sequence made from a version of A082605 Euler extension.",
+  "id": "A107448",
+  "mentions": [
+    "A082605"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

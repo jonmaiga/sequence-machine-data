@@ -1,0 +1,30 @@
+{
+  "description": "Triangle read by rows in which row n lists 3n-1 together with the first 2n-1 numbers <> 0 of A038608, in reverse order.",
+  "id": "A171177",
+  "mentions": [
+    "A016789",
+    "A038608",
+    "A161165",
+    "A161166",
+    "A171164",
+    "A171172",
+    "A171173",
+    "A171174",
+    "A171175",
+    "A171176",
+    "A171178",
+    "A172310"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

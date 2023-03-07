@@ -1,0 +1,19 @@
+{
+  "description": "T(n, k) = binomial(2*n + 1 - k, k)*hypergeom([1, 1, -k], [1, 2*(n - k + 1)], -1), triangle read by rows, T(n, k) for n >= 0 and 0 <= k <= n.",
+  "id": "A320904",
+  "mentions": [
+    "A097750",
+    "A105693"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

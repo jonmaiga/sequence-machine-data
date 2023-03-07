@@ -1,0 +1,19 @@
+{
+  "description": "Reciprocal of (Imaginary part of first zeta zero divided by 2*Pi).",
+  "id": "A199500",
+  "mentions": [
+    "A058303"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

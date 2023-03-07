@@ -1,0 +1,19 @@
+{
+  "description": "Values of A336957(k) where A336957(k)/k sets a new record.",
+  "id": "A338057",
+  "mentions": [
+    "A336957",
+    "A338056"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

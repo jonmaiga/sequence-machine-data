@@ -1,0 +1,20 @@
+{
+  "description": "Al-Antaakii's 15 X 15 magic square read by rows.",
+  "id": "A236301",
+  "mentions": [
+    "A124472"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "fini",
+    "full",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:54",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

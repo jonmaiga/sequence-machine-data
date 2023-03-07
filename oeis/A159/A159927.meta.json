@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: a(1,1) = 1. a(m,m) = sum of all terms in rows 1 through m-1. a(m,n) = a(m-1,n) + (sum of all terms in rows 1 through m-1), for n < m.",
+  "id": "A159927",
+  "mentions": [
+    "A075374",
+    "A159924",
+    "A159928"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:42",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

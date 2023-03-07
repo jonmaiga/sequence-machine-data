@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the least number k such that A046660(k) = A046660(k+1) = n.",
+  "id": "A358818",
+  "mentions": [
+    "A046660",
+    "A052215",
+    "A059737",
+    "A093548",
+    "A115186",
+    "A358817"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

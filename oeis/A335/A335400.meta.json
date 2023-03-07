@@ -1,0 +1,21 @@
+{
+  "description": "Numbers m such that sigma(m)/isigma(m) > sigma(k)/isigma(k) for all k < m, where sigma(m) is the sum of divisors of m (A000203) and isigma(m) is the sum of infinitary divisors of m (A049417).",
+  "id": "A335400",
+  "mentions": [
+    "A000203",
+    "A049417",
+    "A285906",
+    "A335396"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

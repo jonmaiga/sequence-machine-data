@@ -1,0 +1,29 @@
+{
+  "description": "Largest divisor of n such that all its prime factors are less than the square of the smallest prime factor of n, a(1) = 1.",
+  "id": "A284255",
+  "mentions": [
+    "A001221",
+    "A001222",
+    "A006530",
+    "A020639",
+    "A284252",
+    "A284253",
+    "A284254",
+    "A284256",
+    "A284257",
+    "A284258",
+    "A284259",
+    "A284260"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:55",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

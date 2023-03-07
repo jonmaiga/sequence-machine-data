@@ -1,0 +1,18 @@
+{
+  "description": "Harary index of the n-transposition graph.",
+  "id": "A296194",
+  "mentions": [
+    "A292062"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:15",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

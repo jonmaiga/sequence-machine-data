@@ -1,0 +1,18 @@
+{
+  "description": "Number of (n+1) X (2+1) 0..1 arrays with nondecreasing min(x(i,j),x(i,j-1)) in the i direction and nondecreasing absolute value of x(i,j)-x(i-1,j) in the j direction.",
+  "id": "A250791",
+  "mentions": [
+    "A250797"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 23:35:06",
+    "offset": 1,
+    "size": 25,
+    "source": "joeis"
+  }
+}

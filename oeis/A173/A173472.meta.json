@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that exactly one of prime(k)^2 - 2 and prime(k)^2 + 2 is prime.",
+  "id": "A173472",
+  "mentions": [
+    "A137291"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

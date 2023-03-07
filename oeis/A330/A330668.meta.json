@@ -1,0 +1,36 @@
+{
+  "description": "Number of non-isomorphic balanced reduced multisystems of weight n whose leaves (which are multisets of atoms) are all sets.",
+  "id": "A330668",
+  "mentions": [
+    "A000311",
+    "A004114",
+    "A005121",
+    "A005804",
+    "A007716",
+    "A048816",
+    "A141268",
+    "A283877",
+    "A306186",
+    "A318812",
+    "A318813",
+    "A320154",
+    "A330470",
+    "A330474",
+    "A330624",
+    "A330626",
+    "A330628",
+    "A330663",
+    "A330677"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Triangle formed by grouping the natural numbers so that the n-th row contains n numbers whose product has exactly n prime divisors, minimizing (1) final term of row and (2) product of terms of row.",
+  "id": "A101174",
+  "mentions": [
+    "A077172",
+    "A093451",
+    "A101175",
+    "A101176",
+    "A101177",
+    "A101178",
+    "A101179"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

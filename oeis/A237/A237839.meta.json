@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = |{0 < k <= n: q = |{p <= k*n: p and p + 2 are both prime}| and q + 2 are both prime}|.",
+  "id": "A237839",
+  "mentions": [
+    "A001359",
+    "A006512",
+    "A237578",
+    "A237769",
+    "A237817",
+    "A237838"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

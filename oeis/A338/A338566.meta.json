@@ -1,0 +1,19 @@
+{
+  "description": "Primes p such that (p*q) mod r is prime, where q and r are the next primes after p.",
+  "id": "A338566",
+  "mentions": [
+    "A338567",
+    "A338578"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the smallest k >= 1 such that k*n is a Moran number.",
+  "id": "A337731",
+  "mentions": [
+    "A001101",
+    "A007953",
+    "A144261"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

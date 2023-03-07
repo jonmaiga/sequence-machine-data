@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of semi-regular relations on n nodes with each node having out-degree k (0 <= k <= n).",
+  "id": "A259471",
+  "mentions": [
+    "A001372",
+    "A003286",
+    "A005535",
+    "A329228"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:17",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "description": "Triangle read by rows: row n lists the proper divisors of n-th even superperfect number A061652(n).",
+  "id": "A139248",
+  "mentions": [
+    "A000043",
+    "A000668",
+    "A018254",
+    "A018487",
+    "A019279",
+    "A061652",
+    "A090748",
+    "A133024",
+    "A133025",
+    "A133031",
+    "A133049",
+    "A135652",
+    "A135653",
+    "A135654",
+    "A135655",
+    "A139246"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

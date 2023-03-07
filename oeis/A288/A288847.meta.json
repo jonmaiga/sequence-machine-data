@@ -1,0 +1,23 @@
+{
+  "description": "Numbers whose trajectories under the map x -> A230625(x) never reach a prime.",
+  "id": "A288847",
+  "mentions": [
+    "A230625",
+    "A230626",
+    "A230627",
+    "A287874",
+    "A287875",
+    "A287878"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

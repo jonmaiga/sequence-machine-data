@@ -1,0 +1,26 @@
+{
+  "description": "Number of labeled simple graphs on n vertices where all non-isolated vertices have the same degree.",
+  "id": "A322555",
+  "mentions": [
+    "A000569",
+    "A005176",
+    "A038041",
+    "A059441",
+    "A295193",
+    "A306017",
+    "A306019",
+    "A319169",
+    "A320458"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Inverse permutation to A308317.",
+  "id": "A308328",
+  "mentions": [
+    "A001146",
+    "A005117",
+    "A308317"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

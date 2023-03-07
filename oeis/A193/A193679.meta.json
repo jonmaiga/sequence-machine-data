@@ -1,0 +1,20 @@
+{
+  "description": "Sequence related to discriminant of cyclotomic polynomials A004124.",
+  "id": "A193679",
+  "mentions": [
+    "A000010",
+    "A004124",
+    "A014963"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

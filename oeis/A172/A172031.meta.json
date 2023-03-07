@@ -1,0 +1,18 @@
+{
+  "description": "Denominator of the fraction c(n) defined in A172030.",
+  "id": "A172031",
+  "mentions": [
+    "A172030"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

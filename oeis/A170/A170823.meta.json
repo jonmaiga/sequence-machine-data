@@ -1,0 +1,25 @@
+{
+  "description": "An infinite word on the alphabet 1, 2, 3 by Bollobas.",
+  "id": "A170823",
+  "mentions": [
+    "A005678",
+    "A005679",
+    "A005680",
+    "A005681",
+    "A006156",
+    "A007413",
+    "A010060",
+    "A337004",
+    "A337005"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

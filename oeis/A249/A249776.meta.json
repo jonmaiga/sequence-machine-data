@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of the connective constant of the (3.12^2) lattice.",
+  "id": "A249776",
+  "mentions": [
+    "A179260"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:05:55",
+    "offset": 1,
+    "size": 72,
+    "source": "joeis"
+  }
+}

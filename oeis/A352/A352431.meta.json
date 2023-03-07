@@ -1,0 +1,22 @@
+{
+  "description": "Number T(n,k) of tilings of a 2k X n rectangle using dominoes and 2 X 2 tiles.",
+  "id": "A352431",
+  "mentions": [
+    "A001045",
+    "A083066",
+    "A351322",
+    "A352432",
+    "A352433"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

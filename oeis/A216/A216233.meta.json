@@ -1,0 +1,20 @@
+{
+  "description": "Numbers whose squares have 2R-1 digits, such that the number represented by leftmost R digits and number represented by rightmost R digits divide each other evenly.",
+  "id": "A216233",
+  "mentions": [
+    "A115528",
+    "A116501",
+    "A145848"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:34",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

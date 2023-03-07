@@ -1,0 +1,17 @@
+{
+  "description": "Number of n X n 0..3 matrices whose square is also a 0..3 matrix",
+  "id": "A213985",
+  "mentions": [
+    "A213990"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

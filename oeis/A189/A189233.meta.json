@@ -1,0 +1,33 @@
+{
+  "description": "Square array A(n,k), n >= 0, k >= 0, read by antidiagonals upwards, where the e.g.f. of column k is exp(k*(e^x-1)).",
+  "id": "A189233",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A000110",
+    "A000587",
+    "A001477",
+    "A001861",
+    "A002378",
+    "A027710",
+    "A033445",
+    "A078944",
+    "A144150",
+    "A144180",
+    "A144223",
+    "A144263",
+    "A242817"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:13",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

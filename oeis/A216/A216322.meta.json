@@ -1,0 +1,22 @@
+{
+  "description": "Number of primitive roots Modd n (see A216321).",
+  "id": "A216322",
+  "mentions": [
+    "A000010",
+    "A046144",
+    "A206551",
+    "A206552",
+    "A216321"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Number of ways of representing 2n-1 as sum of three integers with 3 distinct prime factors.",
+  "id": "A112802",
+  "mentions": [
+    "A000961",
+    "A001221",
+    "A007304",
+    "A033992",
+    "A112799",
+    "A112800",
+    "A112801"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:03",
+    "offset": 1,
+    "size": 107,
+    "source": "oeis-bfile"
+  }
+}

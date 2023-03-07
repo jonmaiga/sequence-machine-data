@@ -1,0 +1,21 @@
+{
+  "description": "Number of positive integers k such that A002805(k) is not divisible by n, or a(n) = 0 if there are infinitely many such numbers.",
+  "id": "A329293",
+  "mentions": [
+    "A001008",
+    "A002805",
+    "A329061"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

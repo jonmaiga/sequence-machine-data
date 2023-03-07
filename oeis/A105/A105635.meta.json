@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = (2*Pell(n+1) - (1+(-1)^n))/4.",
+  "id": "A105635",
+  "mentions": [
+    "A000129",
+    "A033539",
+    "A097076",
+    "A157901"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:56",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Largest term in A067128 having greatest prime divisor prime(n).",
+  "id": "A273057",
+  "mentions": [
+    "A067128",
+    "A273015",
+    "A273016",
+    "A273018"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

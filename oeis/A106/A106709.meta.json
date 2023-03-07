@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of g.f. -2*x/(1 - 5*x + 2*x^2).",
+  "id": "A106709",
+  "mentions": [
+    "A107839",
+    "A337277"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "less",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:58",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

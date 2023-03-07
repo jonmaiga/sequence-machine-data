@@ -1,0 +1,28 @@
+{
+  "description": "E.g.f.: exp(5*x*G(x)^4) / G(x) where G(x) = 1 + x*G(x)^5 is the g.f. of A002294.",
+  "id": "A251665",
+  "mentions": [
+    "A002294",
+    "A243953",
+    "A251575",
+    "A251663",
+    "A251664",
+    "A251666",
+    "A251667",
+    "A251668",
+    "A251669",
+    "A251670",
+    "A251695"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:19:59",
+    "offset": 0,
+    "size": 18,
+    "source": "joeis"
+  }
+}

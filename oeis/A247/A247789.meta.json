@@ -1,0 +1,20 @@
+{
+  "description": "Primes p such that sigma(2p-1) is a prime q.",
+  "id": "A247789",
+  "mentions": [
+    "A000203",
+    "A008438",
+    "A247820",
+    "A247836"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "description": "Number of distinct sums of contiguous constant subsequences (partial runs) of the n-th composition in standard order.",
+  "id": "A354907",
+  "mentions": [
+    "A000051",
+    "A000079",
+    "A005811",
+    "A029837",
+    "A066099",
+    "A124767",
+    "A124771",
+    "A238279",
+    "A246534",
+    "A274174",
+    "A330036",
+    "A333381",
+    "A333755",
+    "A334299",
+    "A334968",
+    "A351014",
+    "A351015",
+    "A353832",
+    "A353835",
+    "A353847",
+    "A353849",
+    "A353853",
+    "A353859",
+    "A353860",
+    "A353861",
+    "A353864",
+    "A353932",
+    "A354582",
+    "A354584"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

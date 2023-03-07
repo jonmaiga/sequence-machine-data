@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that 12*k - 5, 12*k - 1, 12*k + 1, and 12*k + 5 are primes.",
+  "id": "A174372",
+  "mentions": [
+    "A124519"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:58",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

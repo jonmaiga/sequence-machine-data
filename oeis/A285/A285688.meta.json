@@ -1,0 +1,17 @@
+{
+  "description": "a(1) = 2; a(n + 1) = smallest prime > a(n) such that a(n + 1) - a(n) is the product of three primes.",
+  "id": "A285688",
+  "mentions": [
+    "A255609"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

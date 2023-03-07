@@ -1,0 +1,19 @@
+{
+  "description": "a(1)=1. For n>1, a(n) = the smallest positive multiple of n such that phi(a(n)) >= phi(a(n-1)), where phi(m) is A000010(m).",
+  "id": "A143482",
+  "mentions": [
+    "A000010",
+    "A143480",
+    "A143483"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:32",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "description": "Solution to 1 = Sum_y Product_{k in y} a(k) for each n > 0, where the sum is over all integer partitions of n with an odd number of parts.",
+  "id": "A300862",
+  "mentions": [
+    "A027193",
+    "A063834",
+    "A220418",
+    "A279374",
+    "A290261",
+    "A290971",
+    "A298118",
+    "A299202",
+    "A299203",
+    "A300301",
+    "A300436",
+    "A300439",
+    "A300863",
+    "A300864",
+    "A300865",
+    "A300866"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

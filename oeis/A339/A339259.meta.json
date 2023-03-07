@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of the volume of the regular icosahedron inscribed in the unit sphere.",
+  "id": "A339259",
+  "mentions": [
+    "A001622",
+    "A102208"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

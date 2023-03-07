@@ -1,0 +1,28 @@
+{
+  "description": "Number of ways of placing n labeled balls into n unlabeled (but 5-colored) boxes.",
+  "id": "A144180",
+  "mentions": [
+    "A000110",
+    "A001861",
+    "A010716",
+    "A027710",
+    "A048993",
+    "A078944",
+    "A144223",
+    "A144263",
+    "A189233",
+    "A221159",
+    "A221176"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

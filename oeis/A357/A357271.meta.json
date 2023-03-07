@@ -1,0 +1,18 @@
+{
+  "description": "Lower bounds for the maximum number of stable matchings in the stable marriage problem based on composing smaller instances.",
+  "id": "A357271",
+  "mentions": [
+    "A069156",
+    "A357269"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

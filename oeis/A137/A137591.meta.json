@@ -1,0 +1,19 @@
+{
+  "description": "Number of parenthesizings of products formed by n factors assuming nonassociativity and partial commutativity: individual factors commute, but bracketed expressions don't commute with anything.",
+  "id": "A137591",
+  "mentions": [
+    "A001147",
+    "A137051"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:25",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

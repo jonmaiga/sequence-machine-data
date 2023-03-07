@@ -1,0 +1,24 @@
+{
+  "description": "Number of edges in the graph on n vertices, labeled 1 to n, where two vertices are joined just if their labels sum to a perfect square.",
+  "id": "A176615",
+  "mentions": [
+    "A000196",
+    "A022554",
+    "A103128",
+    "A281706",
+    "A281871"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:00",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "Smallest odd prime p such that (n+1)^p - n^p is prime.",
+  "id": "A125713",
+  "mentions": [
+    "A000043",
+    "A014076",
+    "A047845",
+    "A057468",
+    "A058013",
+    "A059801",
+    "A059802",
+    "A062572",
+    "A062585",
+    "A062666",
+    "A065913",
+    "A121091"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:13",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

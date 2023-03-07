@@ -1,0 +1,28 @@
+{
+  "description": "Number of integer partitions of the n-th Fermi-Dirac prime into Fermi-Dirac primes.",
+  "id": "A316210",
+  "mentions": [
+    "A000586",
+    "A000607",
+    "A050376",
+    "A064547",
+    "A213925",
+    "A279065",
+    "A299755",
+    "A299757",
+    "A305829",
+    "A316202",
+    "A316211",
+    "A316220"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

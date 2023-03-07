@@ -1,0 +1,19 @@
+{
+  "description": "The n-th iteration of (k -> k + sum of base-100 digits of k) applied to n.",
+  "id": "A292218",
+  "mentions": [
+    "A286660",
+    "A292202"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

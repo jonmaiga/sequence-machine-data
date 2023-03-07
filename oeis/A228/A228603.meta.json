@@ -1,0 +1,20 @@
+{
+  "description": "a(1) = 9, a(2) = 44, a(n) = 4*(a(n-1) + a(n-2)) (n >=3).",
+  "id": "A228603",
+  "mentions": [
+    "A057087",
+    "A228602"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 21:37:21",
+    "offset": 1,
+    "size": 23,
+    "source": "joeis"
+  }
+}

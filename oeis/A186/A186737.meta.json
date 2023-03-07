@@ -1,0 +1,19 @@
+{
+  "description": "G.f. satisfies: A(x) = Sum_{n>=0} Product_{k=1..n} ((1 + x*A(x))^k - 1).",
+  "id": "A186737",
+  "mentions": [
+    "A158690",
+    "A179525"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:11",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

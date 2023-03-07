@@ -1,0 +1,24 @@
+{
+  "description": "Partial sums of -(A033999(A179763(n))).",
+  "id": "A179766",
+  "mentions": [
+    "A000217",
+    "A033999",
+    "A179759",
+    "A179763",
+    "A179764",
+    "A179765",
+    "A179847"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:02",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

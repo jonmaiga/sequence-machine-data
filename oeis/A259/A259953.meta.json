@@ -1,0 +1,25 @@
+{
+  "description": "The sum (in nondecreasing order) of the two numbers in an amicable pair.",
+  "id": "A259953",
+  "mentions": [
+    "A000203",
+    "A063990",
+    "A161005",
+    "A180164",
+    "A259180",
+    "A259933",
+    "A260086",
+    "A260087"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

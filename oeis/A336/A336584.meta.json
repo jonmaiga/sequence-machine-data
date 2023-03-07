@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k with Goldbach partitions (p,q) and (r,s) such that k | (p*q -1) and k | (r*s +1).",
+  "id": "A336584",
+  "mentions": [
+    "A335495",
+    "A336582",
+    "A336583"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

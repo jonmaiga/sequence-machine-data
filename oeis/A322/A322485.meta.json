@@ -1,0 +1,24 @@
+{
+  "description": "The sum of the semi-unitary divisors of n.",
+  "id": "A322485",
+  "mentions": [
+    "A000203",
+    "A005117",
+    "A034448",
+    "A183699",
+    "A188999",
+    "A322483"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:45",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

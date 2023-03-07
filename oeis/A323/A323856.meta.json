@@ -1,0 +1,22 @@
+{
+  "description": "Sum of square displacements over all self-avoiding n-step walks on 4-d cubic lattice with first step specified, A242355(n)/8.",
+  "id": "A323856",
+  "mentions": [
+    "A010575",
+    "A078605",
+    "A118313",
+    "A242355",
+    "A323857"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

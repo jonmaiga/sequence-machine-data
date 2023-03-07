@@ -1,0 +1,21 @@
+{
+  "description": "Irregular triangular array: t(n,k) = number of times that the k-th condensed partition (in Mathematica order) of n occurs in the list of all the condensed partitions of n.",
+  "id": "A239319",
+  "mentions": [
+    "A000005",
+    "A000041",
+    "A239312"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:56",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

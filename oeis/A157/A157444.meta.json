@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 1331*n - 209.",
+  "id": "A157444",
+  "mentions": [
+    "A157443",
+    "A157445"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:39",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

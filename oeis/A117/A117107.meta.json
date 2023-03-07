@@ -1,0 +1,30 @@
+{
+  "description": "Number of permutations in S_n avoiding 21{bar 3}54 (i.e., every occurrence of 2154 is contained in an occurrence of a 21354) and such that the graph corresponding to the permutation is connected (see \"Forest-like permutations\" below).",
+  "id": "A117107",
+  "mentions": [
+    "A137536",
+    "A137537",
+    "A137538",
+    "A137539",
+    "A137540",
+    "A137541",
+    "A137542",
+    "A137543",
+    "A137544",
+    "A137545",
+    "A137546",
+    "A137547",
+    "A137548"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

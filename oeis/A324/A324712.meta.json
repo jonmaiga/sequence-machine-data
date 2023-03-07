@@ -1,0 +1,26 @@
+{
+  "description": "Xor-Moebius transform of A323243, where A323243(n) = sigma(A156552(n)).",
+  "id": "A324712",
+  "mentions": [
+    "A000040",
+    "A000225",
+    "A156552",
+    "A295901",
+    "A297106",
+    "A323243",
+    "A324543",
+    "A324713",
+    "A324714"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:50",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

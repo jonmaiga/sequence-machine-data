@@ -1,0 +1,19 @@
+{
+  "description": "E.g.f. A(x) satisfies: A( Integral 1/A(x)^3 dx ) = exp(x).",
+  "id": "A259822",
+  "mentions": [
+    "A214645",
+    "A233335"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Trajectory of 1 under repeated application of the map: n -> n + third-smallest number that does not divide n.",
+  "id": "A140490",
+  "mentions": [
+    "A140485",
+    "A140486",
+    "A140487",
+    "A140488",
+    "A140489",
+    "A140491",
+    "A140492",
+    "A140493",
+    "A140494"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:28",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

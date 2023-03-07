@@ -1,0 +1,17 @@
+{
+  "description": "Let df(n,k) = Product_{i=0..k-1} (n-i) be the descending factorial and let P(m,n) = df(n-1,m-1)^2*(2*n-m)/((m-1)!*m!). Sequence gives P(8,n).",
+  "id": "A132466",
+  "mentions": [
+    "A132458"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Numbers m such that Sum_{k=1..m} ( - ) < 0, where r=sqrt(8) and < > denotes fractional part.",
+  "id": "A194381",
+  "mentions": [
+    "A010466",
+    "A194368",
+    "A194382",
+    "A194383",
+    "A194384"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:48",
+    "offset": 1,
+    "size": 68,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Another version of A124250.",
+  "id": "A124251",
+  "mentions": [
+    "A124250"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "fini",
+    "full",
+    "nonn",
+    "unkn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

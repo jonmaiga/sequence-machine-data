@@ -1,0 +1,28 @@
+{
+  "description": "Array read by rows in which the n-th row contains odd numbers of all possible prime signatures with n divisors.",
+  "id": "A131997",
+  "mentions": [
+    "A001055",
+    "A025487",
+    "A050322",
+    "A057567",
+    "A077569",
+    "A108464",
+    "A122819",
+    "A130839",
+    "A131802",
+    "A131886"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "more",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

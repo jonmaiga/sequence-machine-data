@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is least number k >= 3 such that (k^(2^n) + (k-2)^(2^n))/2 is prime.",
+  "id": "A302387",
+  "mentions": [
+    "A253633",
+    "A291944",
+    "A301738"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

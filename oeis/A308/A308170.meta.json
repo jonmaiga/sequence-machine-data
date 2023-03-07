@@ -1,0 +1,21 @@
+{
+  "description": "Start with the number 7, repeatedly square every digit in place to get a new number; in the limit this process converges (reading from right to left) to the string shown here.",
+  "id": "A308170",
+  "mentions": [
+    "A048385",
+    "A061588",
+    "A082027",
+    "A308171"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:32",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Numbers m=2^(t-1)*(2^t-5), where 2^t-5 is prime.",
+  "id": "A181704",
+  "mentions": [
+    "A000396",
+    "A045769",
+    "A059608",
+    "A156560",
+    "A181595",
+    "A181701",
+    "A181703"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

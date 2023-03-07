@@ -1,0 +1,21 @@
+{
+  "description": "1 - A147850(n).",
+  "id": "A147781",
+  "mentions": [
+    "A147850"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

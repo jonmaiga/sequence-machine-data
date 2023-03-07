@@ -1,0 +1,19 @@
+{
+  "description": "Numerators of fractions converging to limiting value of Galois polynomials.",
+  "id": "A280036",
+  "mentions": [
+    "A280037",
+    "A280040"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:47",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

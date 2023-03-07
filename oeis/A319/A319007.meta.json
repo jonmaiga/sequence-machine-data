@@ -1,0 +1,22 @@
+{
+  "description": "Sum of the next n nonnegative integers repeated (A004526).",
+  "id": "A319007",
+  "mentions": [
+    "A004526",
+    "A027480",
+    "A101455",
+    "A319006"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 09:49:23",
+    "offset": 1,
+    "size": 47,
+    "source": "joeis"
+  }
+}

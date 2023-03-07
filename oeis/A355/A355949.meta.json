@@ -1,0 +1,23 @@
+{
+  "description": "Number of vertices formed in a square by straight line segments when connecting the four corner vertices to the points dividing the sides into n equal parts.",
+  "id": "A355949",
+  "mentions": [
+    "A108914",
+    "A331452",
+    "A335678",
+    "A355839",
+    "A355948",
+    "A355992"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

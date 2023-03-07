@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the smallest integer i such that binomial(2i,i) > n.",
+  "id": "A320065",
+  "mentions": [
+    "A000984"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 103,
+    "source": "oeis-entry"
+  }
+}

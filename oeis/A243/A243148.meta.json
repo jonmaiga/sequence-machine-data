@@ -1,0 +1,43 @@
+{
+  "description": "Triangle read by rows: T(n,k) = number of partitions of n into k nonzero squares; n >= 0, 0 <= k <= n.",
+  "id": "A243148",
+  "mentions": [
+    "A000007",
+    "A000290",
+    "A001156",
+    "A010052",
+    "A025284",
+    "A025321",
+    "A025357",
+    "A025426",
+    "A025427",
+    "A025428",
+    "A025429",
+    "A025430",
+    "A025431",
+    "A025432",
+    "A025433",
+    "A025434",
+    "A111178",
+    "A276559",
+    "A281541",
+    "A292520",
+    "A294675",
+    "A295670",
+    "A295797",
+    "A319435",
+    "A341040"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:59",
+    "offset": 0,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

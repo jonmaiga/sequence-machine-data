@@ -1,0 +1,28 @@
+{
+  "description": "A decomposition of the double factorials A001147.",
+  "id": "A185410",
+  "mentions": [
+    "A001147",
+    "A084938",
+    "A102365",
+    "A112857",
+    "A156919",
+    "A173018",
+    "A185411",
+    "A186695",
+    "A202038"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:11",
+    "offset": 0,
+    "size": 55,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Crystal ball sequence for the lattice C_5.",
+  "id": "A142994",
+  "mentions": [
+    "A019561",
+    "A063496",
+    "A142992",
+    "A142993"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:32",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

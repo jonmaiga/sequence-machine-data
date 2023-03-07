@@ -1,0 +1,18 @@
+{
+  "description": "From the coefficients (times n!) of the expansion of the Sum_{k>=1} cos(x^k).",
+  "id": "A176474",
+  "mentions": [
+    "A176473",
+    "A176475"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:00",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

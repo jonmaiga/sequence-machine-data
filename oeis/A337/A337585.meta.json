@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of integer multisets (partitions) for which the number of partitions of n with matching multiplicity multiset is odd.",
+  "id": "A337585",
+  "mentions": [
+    "A040051",
+    "A088887",
+    "A337583"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

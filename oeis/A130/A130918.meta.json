@@ -1,0 +1,26 @@
+{
+  "description": "Simple self-inverse permutation of natural numbers: List each block of A000108(n) numbers from A014137(n-1) to A014138(n-1) in reverse order.",
+  "id": "A130918",
+  "mentions": [
+    "A000108",
+    "A014137",
+    "A014138",
+    "A036987",
+    "A054429",
+    "A057163",
+    "A072643",
+    "A082853",
+    "A130380"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:18",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

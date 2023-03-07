@@ -1,0 +1,18 @@
+{
+  "description": "It seems that the n-th prime p will appear in A352187 at around position 2*p; if in fact A352187(w) = p then set a(n) = w-2*p, or set a(n) = -1 if p never appears in A352187.",
+  "id": "A352193",
+  "mentions": [
+    "A352187",
+    "A352192"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:26",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

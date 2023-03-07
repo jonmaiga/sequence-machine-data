@@ -1,0 +1,25 @@
+{
+  "description": "Row 1 of array A328250: numbers n whose k-th arithmetic derivative is never squarefree for any k >= 0.",
+  "id": "A328251",
+  "mentions": [
+    "A003415",
+    "A013929",
+    "A099309",
+    "A100716",
+    "A276079",
+    "A327929",
+    "A327934",
+    "A328248",
+    "A328250"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:56",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

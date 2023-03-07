@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = 3*a(n-1) - a(n-3) + 3*a(n-4), starting with 1, 2, 6, 20.",
+  "id": "A132353",
+  "mentions": [
+    "A057079",
+    "A128834",
+    "A129339",
+    "A132868",
+    "A132951"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:20",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

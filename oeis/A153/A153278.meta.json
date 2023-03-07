@@ -1,0 +1,22 @@
+{
+  "description": "Array read by antidiagonals of higher order Fubini numbers.",
+  "id": "A153278",
+  "mentions": [
+    "A000670",
+    "A083355",
+    "A099391",
+    "A153277"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:35",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

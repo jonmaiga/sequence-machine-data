@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of partitions of n having k even singletons (n,k>=0).",
+  "id": "A265253",
+  "mentions": [
+    "A024788",
+    "A265254"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:25",
+    "offset": 0,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

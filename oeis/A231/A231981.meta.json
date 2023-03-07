@@ -1,0 +1,29 @@
+{
+  "description": "Decimal expansion of one steradian (sr) expressed in square degrees.",
+  "id": "A231981",
+  "mentions": [
+    "A000796",
+    "A019685",
+    "A072097",
+    "A125560",
+    "A231982",
+    "A231983",
+    "A231984",
+    "A231985",
+    "A231986",
+    "A231987"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:19:33",
+    "offset": 4,
+    "size": 105,
+    "source": "joeis"
+  }
+}

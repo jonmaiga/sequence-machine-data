@@ -1,0 +1,53 @@
+{
+  "description": "Table of powers of squarefree numbers, powers of A019565(n) in increasing order in row n. Square array A(n,k) n >= 0, k >= 0 read by descending antidiagonals.",
+  "id": "A329332",
+  "mentions": [
+    "A000079",
+    "A000244",
+    "A000290",
+    "A000351",
+    "A000400",
+    "A000420",
+    "A001020",
+    "A001022",
+    "A001023",
+    "A001024",
+    "A001026",
+    "A003961",
+    "A003987",
+    "A005117",
+    "A009965",
+    "A009974",
+    "A011557",
+    "A019565",
+    "A059897",
+    "A062503",
+    "A062838",
+    "A072774",
+    "A113849",
+    "A113850",
+    "A113851",
+    "A113852",
+    "A182944",
+    "A225546",
+    "A285322",
+    "A297845",
+    "A306697",
+    "A319075",
+    "A329050",
+    "A329329",
+    "A334110"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

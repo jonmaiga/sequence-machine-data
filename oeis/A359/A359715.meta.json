@@ -1,0 +1,17 @@
+{
+  "description": "Column 2 of triangle A359670; a(n) = A359670(n+2,2) for n >= 0.",
+  "id": "A359715",
+  "mentions": [
+    "A359670"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

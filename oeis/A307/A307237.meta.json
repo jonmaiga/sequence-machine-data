@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of 2 + (-6 + (1+sqrt(3))*Pi)*sqrt(2/(15*(2*Pi-3 +(Pi-3)*sqrt(3)))).",
+  "id": "A307237",
+  "mentions": [
+    "A307234",
+    "A307235",
+    "A307238"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:38:53",
+    "offset": 1,
+    "size": 96,
+    "source": "joeis"
+  }
+}

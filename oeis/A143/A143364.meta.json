@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of {0-1-2}-trees with n edges and k protected vertices (0<=k<=n-1). A {0-1-2}-tree is an ordered tree in which the outdegree of every vertex is 0, 1, or 2. A protected vertex in an ordered tree is a vertex at least 2 edges away from its leaf descendants.",
+  "id": "A143364",
+  "mentions": [
+    "A001006",
+    "A016116",
+    "A143335"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

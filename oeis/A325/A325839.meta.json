@@ -1,0 +1,22 @@
+{
+  "description": "Exponentially-odd highly composite numbers: numbers with record values of the number of exponentially odd divisors (A325837).",
+  "id": "A325839",
+  "mentions": [
+    "A025487",
+    "A033634",
+    "A046951",
+    "A046952",
+    "A268335",
+    "A325837"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:52",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

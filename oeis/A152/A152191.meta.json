@@ -1,0 +1,21 @@
+{
+  "description": "a(n)=Product_{k=1..floor((n-1)/2)} (1 + 4*cos(k*Pi/n)^2)*(1 - 4*sin(k*Pi/n)^2).",
+  "id": "A152191",
+  "mentions": [
+    "A000045",
+    "A101675",
+    "A108196",
+    "A152189"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

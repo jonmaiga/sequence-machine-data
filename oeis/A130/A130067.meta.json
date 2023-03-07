@@ -1,0 +1,21 @@
+{
+  "description": "Binomial coefficients binomial(m,2^k) where m>=1 and 1<=2^k<=m.",
+  "id": "A130067",
+  "mentions": [
+    "A001855",
+    "A030308",
+    "A065040",
+    "A130068"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Length of shortest prefix of the Thue-Morse word (A010060) such that some length-n block appears twice.",
+  "id": "A304588",
+  "mentions": [
+    "A004756",
+    "A010060"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:29",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

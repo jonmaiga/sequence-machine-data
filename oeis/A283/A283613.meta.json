@@ -1,0 +1,20 @@
+{
+  "description": "T(n,k) = number of linear arrays of n 1's, n -1's, and k 0's such that no two adjacent elements are equal.",
+  "id": "A283613",
+  "mentions": [
+    "A110706",
+    "A199697"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

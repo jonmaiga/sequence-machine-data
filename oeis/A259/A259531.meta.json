@@ -1,0 +1,23 @@
+{
+  "description": "Least positive integer k such that p(k)^2 + p(k*n)^2 is prime, where p(.) is the partition function given by A000041, or 0 if no such k exists.",
+  "id": "A259531",
+  "mentions": [
+    "A000040",
+    "A000041",
+    "A258803",
+    "A258836",
+    "A259487",
+    "A259492",
+    "A259540"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:17",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

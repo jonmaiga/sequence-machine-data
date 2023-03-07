@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n that can be expressed as the sum of the arithmetic derivatives of k consecutive numbers starting from n for some k.",
+  "id": "A195333",
+  "mentions": [
+    "A003415",
+    "A051674",
+    "A187807",
+    "A216384"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

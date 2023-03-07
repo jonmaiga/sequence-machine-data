@@ -1,0 +1,17 @@
+{
+  "description": "Number of partitions of n into two sorts of parts having exactly 7 parts of the second sort.",
+  "id": "A258477",
+  "mentions": [
+    "A256193"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:16",
+    "offset": 7,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "BII-numbers of pairwise intersecting set-systems.",
+  "id": "A326910",
+  "mentions": [
+    "A006058",
+    "A048793",
+    "A051185",
+    "A305843",
+    "A326031",
+    "A326875",
+    "A326911",
+    "A326912",
+    "A326913"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

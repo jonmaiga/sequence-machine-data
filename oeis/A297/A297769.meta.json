@@ -1,0 +1,26 @@
+{
+  "description": "Rectangular array read by antidiagonals: row n gives the numbers whose base-2 digits d(m), d(m-1), ..., d(0) have maximal run-length n.",
+  "id": "A297769",
+  "mentions": [
+    "A000975",
+    "A007088",
+    "A037969",
+    "A037970",
+    "A037971",
+    "A297932",
+    "A297933"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

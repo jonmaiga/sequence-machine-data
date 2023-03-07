@@ -1,0 +1,24 @@
+{
+  "description": "Let phi be the one-to-one mapping between binary trees and natural numbers described in the Tychonievich link. Let a(n) = min({phi^{-1}(t)| size(t)=n}); i.e., a(n) is the rank -- starting from 0 -- of the first tree the size of which is n.",
+  "id": "A296689",
+  "mentions": [
+    "A014486",
+    "A059905",
+    "A059906",
+    "A072634",
+    "A072635",
+    "A072637",
+    "A072639",
+    "A072644"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

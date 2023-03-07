@@ -1,0 +1,24 @@
+{
+  "description": "Triangle read by rows: T(n,k) is number of (n-k) X k matrices, k=0..n, with nonnegative integer entries and every row and column sum <= 2.",
+  "id": "A131235",
+  "mentions": [
+    "A000217",
+    "A049088",
+    "A086885",
+    "A088699",
+    "A131236",
+    "A131237"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:19:31",
+    "offset": 0,
+    "size": 61,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{p in P} binomial(H(2,p),2), where P is the set of partitions of n, and H(2,p) = number of hooks of size 2 in p.",
+  "id": "A301313",
+  "mentions": [
+    "A024786",
+    "A138785"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:26",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

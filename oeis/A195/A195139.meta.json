@@ -1,0 +1,21 @@
+{
+  "description": "First digit to appear n times in the decimal expansion of the golden ratio phi.",
+  "id": "A195139",
+  "mentions": [
+    "A001622",
+    "A096567",
+    "A194141",
+    "A195138"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:17",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

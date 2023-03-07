@@ -1,0 +1,18 @@
+{
+  "description": "Lesser of a pair (x,y) of consecutive terms of A045572 (numbers coprime to 2*5), both semiprimes and such that the prime factors of x are adjacent primes to the factors of y.",
+  "id": "A213605",
+  "mentions": [
+    "A045572",
+    "A213606"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

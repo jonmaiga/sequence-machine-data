@@ -1,0 +1,20 @@
+{
+  "description": "Number of partitions of n into two positive integer parts that have the same number of decimal digits.",
+  "id": "A336430",
+  "mentions": [
+    "A055642"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-entry"
+  }
+}

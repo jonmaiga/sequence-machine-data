@@ -1,0 +1,22 @@
+{
+  "description": "Dirichlet inverse of the finite group count (A000001).",
+  "id": "A208769",
+  "mentions": [
+    "A000001",
+    "A000688",
+    "A129667",
+    "A185291"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "hard",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:28",
+    "offset": 1,
+    "size": 104,
+    "source": "oeis-bfile"
+  }
+}

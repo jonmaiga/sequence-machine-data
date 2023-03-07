@@ -1,0 +1,22 @@
+{
+  "description": "Numbers that are divisible by their digital sum but not by their digital root.",
+  "id": "A234814",
+  "mentions": [
+    "A005349",
+    "A007953",
+    "A010888",
+    "A064807",
+    "A234474"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:52",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

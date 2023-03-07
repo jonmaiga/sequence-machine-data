@@ -1,0 +1,26 @@
+{
+  "description": "Expansion of 1/theta_4(q)^3 in powers of q = exp(Pi i t).",
+  "id": "A319552",
+  "mentions": [
+    "A001934",
+    "A002131",
+    "A002448",
+    "A004404",
+    "A015128",
+    "A213384",
+    "A284286",
+    "A319553",
+    "A319554"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:41",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

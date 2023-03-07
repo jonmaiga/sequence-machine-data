@@ -1,0 +1,22 @@
+{
+  "description": "Number of disconnected regular simple graphs on n vertices with girth at least 8.",
+  "id": "A185218",
+  "mentions": [
+    "A068932",
+    "A185214",
+    "A185215",
+    "A185216",
+    "A185217"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:09",
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

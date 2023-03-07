@@ -1,0 +1,17 @@
+{
+  "description": "Primes p for which pi_{24,13}(p) - pi_{24,1}(p) = -1, where pi_{m,a}(x) is the number of primes <= x which are congruent to a (mod m).",
+  "id": "A295356",
+  "mentions": [
+    "A295355"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:13",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "a(1) = 1, a(n) = 3*a(n/2) if n is even, a(n) = n - a(n-1) if n is odd.",
+  "id": "A317825",
+  "mentions": [
+    "A001113",
+    "A085350",
+    "A318265",
+    "A318303"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "look",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:37",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

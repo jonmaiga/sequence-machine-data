@@ -1,0 +1,30 @@
+{
+  "description": "Total number of n-digit positive integers with multiplicative digital root value 8.",
+  "id": "A263481",
+  "mentions": [
+    "A000012",
+    "A000027",
+    "A000217",
+    "A031347",
+    "A034055",
+    "A052268",
+    "A263475",
+    "A263476",
+    "A263477",
+    "A263478",
+    "A263479",
+    "A263480"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:23",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

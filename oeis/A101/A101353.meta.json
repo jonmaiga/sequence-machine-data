@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{k=0..n} (2^k + Fibonacci(k)).",
+  "id": "A101353",
+  "mentions": [
+    "A117591"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:52",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

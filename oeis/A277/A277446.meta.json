@@ -1,0 +1,19 @@
+{
+  "description": "Longest partition of the binary digits of n read from left to right into contiguous blocks so that the value of a block divides the value of its successor and with no leading zeros in the blocks.",
+  "id": "A277446",
+  "mentions": [
+    "A277447",
+    "A277448"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 107,
+    "source": "oeis-entry"
+  }
+}

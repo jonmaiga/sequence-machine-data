@@ -1,0 +1,18 @@
+{
+  "description": "Numerators of e.g.f.: tan(arccosh(x)) = cot(arcsinh(x)).",
+  "id": "A102061",
+  "mentions": [
+    "A102062"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

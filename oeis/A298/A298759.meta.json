@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that bphi(k) = k/2, where bphi is the bi-unitary analog of Euler's totient function (A116550).",
+  "id": "A298759",
+  "mentions": [
+    "A000079",
+    "A030163",
+    "A047994",
+    "A116550"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

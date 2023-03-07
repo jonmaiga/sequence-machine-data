@@ -1,0 +1,21 @@
+{
+  "description": "Integers n such that n^2 is the difference of two Lucas numbers (A000204).",
+  "id": "A221472",
+  "mentions": [
+    "A000032",
+    "A000204",
+    "A113191",
+    "A219114",
+    "A221471"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

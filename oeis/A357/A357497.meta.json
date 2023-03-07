@@ -1,0 +1,30 @@
+{
+  "description": "Nonsquarefree numbers whose harmonic mean of nonsquarefree divisors in an integer.",
+  "id": "A357497",
+  "mentions": [
+    "A001248",
+    "A001599",
+    "A006086",
+    "A013929",
+    "A063947",
+    "A162296",
+    "A286325",
+    "A319745",
+    "A322609",
+    "A335387",
+    "A357493",
+    "A357494",
+    "A357495",
+    "A357496"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:31",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

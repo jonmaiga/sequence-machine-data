@@ -1,0 +1,18 @@
+{
+  "description": "Lexicographically earliest sequence of distinct nonnegative integers such that the sum of three consecutive terms is a palindrome in base 10.",
+  "id": "A347335",
+  "mentions": [
+    "A228730"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

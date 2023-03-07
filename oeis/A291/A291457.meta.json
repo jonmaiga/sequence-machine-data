@@ -1,0 +1,26 @@
+{
+  "description": "Numbers n having a proper divisor d such that sigma(n) - k*d = k*n. Case k = 3.",
+  "id": "A291457",
+  "mentions": [
+    "A000203",
+    "A023197",
+    "A068403",
+    "A068545",
+    "A111592",
+    "A204828",
+    "A204830",
+    "A291458",
+    "A291459"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:06",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

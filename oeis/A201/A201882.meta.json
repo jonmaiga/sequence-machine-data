@@ -1,0 +1,20 @@
+{
+  "description": "Where the first run of length n occurs in maximally unpredictable sequences A007061, A038219.",
+  "id": "A201882",
+  "mentions": [
+    "A007061",
+    "A038219",
+    "A201881"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

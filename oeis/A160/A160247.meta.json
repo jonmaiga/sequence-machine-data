@@ -1,0 +1,22 @@
+{
+  "description": "Table read by antidiagonals of \"less regular type 1\" truncated octahedron numbers built from face-centered-cubic sphere packing.",
+  "id": "A160247",
+  "mentions": [
+    "A005900",
+    "A005902",
+    "A005910"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Binary numbers with curling number 1.",
+  "id": "A219763",
+  "mentions": [
+    "A219764",
+    "A219896",
+    "A219897"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:37",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Numbers m such that m and m+1 are consecutive factorial base Niven numbers (A118363).",
+  "id": "A328205",
+  "mentions": [
+    "A007623",
+    "A034968",
+    "A118363"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:56",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

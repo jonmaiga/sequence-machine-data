@@ -1,0 +1,24 @@
+{
+  "description": "Array read by antidiagonals upwards: T(d,n) = number of d-dimensional permutations of n letters (d >= 0, n >= 1).",
+  "id": "A249026",
+  "mentions": [
+    "A000142",
+    "A002860",
+    "A098679",
+    "A100540",
+    "A132206",
+    "A249027",
+    "A249028"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

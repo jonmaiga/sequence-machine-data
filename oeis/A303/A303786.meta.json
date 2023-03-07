@@ -1,0 +1,21 @@
+{
+  "description": "Lexicographically earliest sequence of distinct terms such that what emerges from the mask rebuilds the sequence itself, term by term (see the Comment section for the mask explanation).",
+  "id": "A303786",
+  "mentions": [
+    "A303782",
+    "A303783",
+    "A303784",
+    "A303785"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:28",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-bfile"
+  }
+}

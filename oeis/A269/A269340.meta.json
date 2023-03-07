@@ -1,0 +1,21 @@
+{
+  "description": "A second sequence (see A268865) connected with negabinary expansions (cf. A039724) - see comments.",
+  "id": "A269340",
+  "mentions": [
+    "A010060",
+    "A039724",
+    "A268865",
+    "A269027"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:31",
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

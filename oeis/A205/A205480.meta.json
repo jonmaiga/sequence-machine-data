@@ -1,0 +1,25 @@
+{
+  "description": "G.f: exp( Sum_{n>=1} x^n/n * Product_{d|n} (1 + d*x^(n/d))^d ).",
+  "id": "A205480",
+  "mentions": [
+    "A205476",
+    "A205478",
+    "A205481",
+    "A205482",
+    "A205484",
+    "A205486",
+    "A205488",
+    "A205490"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

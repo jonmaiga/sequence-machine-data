@@ -1,0 +1,18 @@
+{
+  "description": "Binary representations of n and n^2 have no common 3-digit substring.",
+  "id": "A276692",
+  "mentions": [
+    "A177062"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

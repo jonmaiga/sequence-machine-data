@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of exp(x*arcsin(x)) (even powers only).",
+  "id": "A259647",
+  "mentions": [
+    "A006228",
+    "A191301"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

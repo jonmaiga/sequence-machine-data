@@ -1,0 +1,25 @@
+{
+  "description": "Even numbers sandwiched between 1's.",
+  "id": "A124625",
+  "mentions": [
+    "A000012",
+    "A000166",
+    "A005843",
+    "A009531",
+    "A093178",
+    "A129952",
+    "A152271"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 15:40:31",
+    "offset": 0,
+    "size": 86,
+    "source": "joeis"
+  }
+}

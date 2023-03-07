@@ -1,0 +1,41 @@
+{
+  "description": "Numbers k such that the k-th composition in standard order has the same number of even parts as odd.",
+  "id": "A355321",
+  "mentions": [
+    "A000069",
+    "A000712",
+    "A001405",
+    "A001969",
+    "A026424",
+    "A028260",
+    "A045931",
+    "A047993",
+    "A066099",
+    "A098123",
+    "A106529",
+    "A108949",
+    "A108950",
+    "A130780",
+    "A171966",
+    "A239241",
+    "A240009",
+    "A241638",
+    "A242498",
+    "A242821",
+    "A277579",
+    "A325698",
+    "A325700",
+    "A349157",
+    "A352129"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

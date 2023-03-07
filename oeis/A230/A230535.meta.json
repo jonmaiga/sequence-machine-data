@@ -1,0 +1,25 @@
+{
+  "description": "Expansion of q * (f(-q, -q^7) / f(-q^3, -q^5))^2 in powers of q where f(,) is Ramanujan's two-variable theta function.",
+  "id": "A230535",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A010054",
+    "A010815",
+    "A092869",
+    "A121373",
+    "A224216",
+    "A230534"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:02:49",
+    "offset": 1,
+    "size": 56,
+    "source": "joeis"
+  }
+}

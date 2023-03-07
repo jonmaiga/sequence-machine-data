@@ -1,0 +1,26 @@
+{
+  "description": "Expansion of the 2-adic integer sqrt(-3/5) that ends in 11.",
+  "id": "A341603",
+  "mentions": [
+    "A145231",
+    "A318962",
+    "A318963",
+    "A322217",
+    "A341540",
+    "A341601",
+    "A341602"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:14",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

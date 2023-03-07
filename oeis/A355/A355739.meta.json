@@ -1,0 +1,42 @@
+{
+  "description": "Number of ways to choose a sequence of all different divisors, one of each prime index of n (with multiplicity).",
+  "id": "A355739",
+  "mentions": [
+    "A000005",
+    "A000720",
+    "A001221",
+    "A001222",
+    "A001414",
+    "A003963",
+    "A056239",
+    "A076610",
+    "A112798",
+    "A120383",
+    "A289508",
+    "A289509",
+    "A302796",
+    "A355535",
+    "A355537",
+    "A355731",
+    "A355732",
+    "A355733",
+    "A355735",
+    "A355737",
+    "A355738",
+    "A355740",
+    "A355741",
+    "A355742",
+    "A355744",
+    "A355748"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

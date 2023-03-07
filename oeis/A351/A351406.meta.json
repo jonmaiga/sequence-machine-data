@@ -1,0 +1,21 @@
+{
+  "description": "For all a(2n) the cumulative sum of the odd digits used so far in the sequence [including a(2n)] is twice the cumulative sum of the even digits used so far in the sequence [including a(2n)]. This is the lexicographically earliest sequence of distinct numbers >= 0 with this property.",
+  "id": "A351406",
+  "mentions": [
+    "A001477",
+    "A036301",
+    "A351378"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:26",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

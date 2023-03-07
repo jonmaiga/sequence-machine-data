@@ -1,0 +1,23 @@
+{
+  "description": "Parity of curling number of binary expansion of n.",
+  "id": "A212412",
+  "mentions": [
+    "A000035",
+    "A181935",
+    "A212439",
+    "A212440",
+    "A212441",
+    "A212444"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:30",
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

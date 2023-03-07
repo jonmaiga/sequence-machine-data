@@ -1,0 +1,27 @@
+{
+  "description": "Decimal expansion of r_(5,1), a constant which is the residue at -4 of the distribution function of the distance travelled in a 5-step uniform random walk.",
+  "id": "A247447",
+  "mentions": [
+    "A244993",
+    "A244994",
+    "A244995",
+    "A244996",
+    "A244997",
+    "A244999",
+    "A245025",
+    "A245026"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:06:07",
+    "offset": 0,
+    "size": 103,
+    "source": "joeis"
+  }
+}

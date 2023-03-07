@@ -1,0 +1,24 @@
+{
+  "description": "Expansion of exp( Sum_{n>=1} -sigma_4(n)*x^n/n ) in powers of x.",
+  "id": "A283264",
+  "mentions": [
+    "A010815",
+    "A023872",
+    "A073592",
+    "A166861",
+    "A283263",
+    "A283271",
+    "A283272"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:54",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

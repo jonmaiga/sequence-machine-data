@@ -1,0 +1,24 @@
+{
+  "description": "Matrix inverse of triangle A121334, where A121334(n,k) = C( n*(n+1)/2 + n-k, n-k) for n>=k>=0.",
+  "id": "A121439",
+  "mentions": [
+    "A121334",
+    "A121412",
+    "A121435",
+    "A121438",
+    "A121440",
+    "A121441"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

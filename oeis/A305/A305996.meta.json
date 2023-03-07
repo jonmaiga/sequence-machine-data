@@ -1,0 +1,23 @@
+{
+  "description": "Rectangular array, by antidiagonals; row n consists of the numbers R(n)/n, where R(n) is row n of the array at A305995.",
+  "id": "A305996",
+  "mentions": [
+    "A077610",
+    "A229994",
+    "A229996",
+    "A229997",
+    "A229998",
+    "A305995"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

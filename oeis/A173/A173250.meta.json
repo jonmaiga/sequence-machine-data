@@ -1,0 +1,19 @@
+{
+  "description": "Positive odd nonprimes of the form prime-10.",
+  "id": "A173250",
+  "mentions": [
+    "A000040",
+    "A141468",
+    "A164384"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

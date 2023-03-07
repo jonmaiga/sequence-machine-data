@@ -1,0 +1,26 @@
+{
+  "description": "Numbers k such that k^2 can be represented as x^2 + x*y + y^2 in more ways than for any smaller k.",
+  "id": "A357302",
+  "mentions": [
+    "A002324",
+    "A003136",
+    "A004016",
+    "A050931",
+    "A087503",
+    "A088534",
+    "A230655",
+    "A246360",
+    "A344473",
+    "A357303"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

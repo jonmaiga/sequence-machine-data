@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{1 <= i < j <= n} F(i)*F(j), where F(k) is the k-th Fibonacci number.",
+  "id": "A190173",
+  "mentions": [
+    "A000045"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:14",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Numbers with a record number of abundant divisors.",
+  "id": "A335540",
+  "mentions": [
+    "A000203",
+    "A005101",
+    "A025487",
+    "A080224",
+    "A091191",
+    "A091193",
+    "A335541",
+    "A335542"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:07",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

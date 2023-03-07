@@ -1,0 +1,20 @@
+{
+  "description": "Irregular triangle read by rows: coefficients of polynomials p(x, n) where p(x,n) = x^2*p(x,n-1) + (-x-1)*p(x,n-2) + p(x,n-3).",
+  "id": "A137454",
+  "mentions": [
+    "A084610"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 89,
+    "source": "oeis-entry"
+  }
+}

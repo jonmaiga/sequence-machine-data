@@ -1,0 +1,21 @@
+{
+  "description": "A 3 X 3 semimagic square of odd squares, read by rows.",
+  "id": "A271142",
+  "mentions": [
+    "A267118",
+    "A271022"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "fini",
+    "full",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

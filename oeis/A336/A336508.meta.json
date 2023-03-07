@@ -1,0 +1,20 @@
+{
+  "description": "Numbers m such that every number 1 <= k <= s is the sum of a subset of the set {lambda(d) : d | m}, where s is the total sum of the set and lambda is the Carmichael lambda function (A002322).",
+  "id": "A336508",
+  "mentions": [
+    "A002322",
+    "A005153",
+    "A260653",
+    "A336506"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:08",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

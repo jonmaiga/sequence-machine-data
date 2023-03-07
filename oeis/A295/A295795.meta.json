@@ -1,0 +1,21 @@
+{
+  "description": "Largest number with exactly n representations as a sum of seven positive squares.",
+  "id": "A295795",
+  "mentions": [
+    "A025422",
+    "A025431",
+    "A295669",
+    "A295702"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

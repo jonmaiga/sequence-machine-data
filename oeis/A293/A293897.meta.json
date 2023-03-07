@@ -1,0 +1,21 @@
+{
+  "description": "Sum of proper divisors of the form 3k+1.",
+  "id": "A293897",
+  "mentions": [
+    "A078181",
+    "A293895",
+    "A293898",
+    "A293901"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:10",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

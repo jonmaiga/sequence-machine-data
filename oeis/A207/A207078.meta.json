@@ -1,0 +1,23 @@
+{
+  "description": "Nonnegative values x of solutions (x, y) to the Diophantine equation x^2 + (x+511)^2 = y^2.",
+  "id": "A207078",
+  "mentions": [
+    "A207060",
+    "A207061",
+    "A207075",
+    "A207076",
+    "A207077"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:59:54",
+    "offset": 1,
+    "size": 39,
+    "source": "joeis"
+  }
+}

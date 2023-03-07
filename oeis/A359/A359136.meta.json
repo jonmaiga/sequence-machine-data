@@ -1,0 +1,26 @@
+{
+  "description": "Primes such that there is a nontrivial permutation which when applied to the digits produces a prime (Version 1).",
+  "id": "A359136",
+  "mentions": [
+    "A007500",
+    "A055387",
+    "A061461",
+    "A069706",
+    "A090933",
+    "A225035",
+    "A359137",
+    "A359138",
+    "A359139"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:33",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

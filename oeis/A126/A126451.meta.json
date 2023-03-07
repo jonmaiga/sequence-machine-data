@@ -1,0 +1,22 @@
+{
+  "description": "Column 0 of triangle A126450; a(n) = C( C(n+2,3) + 1, n).",
+  "id": "A126451",
+  "mentions": [
+    "A126446",
+    "A126450",
+    "A126452",
+    "A126453",
+    "A126455",
+    "A126458"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:14",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

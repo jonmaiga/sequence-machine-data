@@ -1,0 +1,25 @@
+{
+  "description": "Number of binary search trees (BST) on n nodes which have the same height as the optimal BST.",
+  "id": "A328349",
+  "mentions": [
+    "A000225",
+    "A000523",
+    "A076615",
+    "A195581",
+    "A244108",
+    "A335919",
+    "A335920"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:57",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

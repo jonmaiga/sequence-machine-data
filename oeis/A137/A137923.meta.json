@@ -1,0 +1,21 @@
+{
+  "description": "Zerofree numbers k such that A061486(k) is prime.",
+  "id": "A137923",
+  "mentions": [
+    "A052382",
+    "A061486"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:26",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

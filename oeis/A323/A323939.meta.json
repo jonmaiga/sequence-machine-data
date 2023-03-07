@@ -1,0 +1,22 @@
+{
+  "description": "Number of unbranched tri-4-catafusenes under the symmetry point group C_{2v} as a function of the number of hexagons (see Cyvin et al. (1996) for precise definition).",
+  "id": "A323939",
+  "mentions": [
+    "A006331",
+    "A038207",
+    "A323940",
+    "A323941"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:49",
+    "offset": 3,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

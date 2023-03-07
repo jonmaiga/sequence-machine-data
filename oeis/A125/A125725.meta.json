@@ -1,0 +1,30 @@
+{
+  "description": "Numbers whose base-7 representation is 222....2.",
+  "id": "A125725",
+  "mentions": [
+    "A002276",
+    "A005610",
+    "A007310",
+    "A020988",
+    "A023000",
+    "A024023",
+    "A047522",
+    "A125831",
+    "A125835",
+    "A125857",
+    "A165759"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:13",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Number of partitions of n into distinct Fibonacci numbers that are all greater than 2.",
+  "id": "A239003",
+  "mentions": [
+    "A000009",
+    "A000045",
+    "A000119",
+    "A000201",
+    "A001950",
+    "A003622",
+    "A022342",
+    "A239002"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:56",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

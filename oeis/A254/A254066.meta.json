@@ -1,0 +1,21 @@
+{
+  "description": "Primitive numbers n such that the sums of the digits of n and n^2 coincide.",
+  "id": "A254066",
+  "mentions": [
+    "A058369",
+    "A090570",
+    "A111434",
+    "A114135"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:12",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

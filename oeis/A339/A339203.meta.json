@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the generating constant for the exponents of the Mersenne primes.",
+  "id": "A339203",
+  "mentions": [
+    "A000043",
+    "A249270",
+    "A339204"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-entry"
+  }
+}

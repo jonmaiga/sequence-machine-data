@@ -1,0 +1,20 @@
+{
+  "description": "Number of n-step up-side self-avoiding walks on the lattice strip {0,1,2,3} x Z (up-side means that the walks move up and sideways but not down).",
+  "id": "A171858",
+  "mentions": [
+    "A171856",
+    "A171857"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:33:09",
+    "offset": 0,
+    "size": 31,
+    "source": "joeis"
+  }
+}

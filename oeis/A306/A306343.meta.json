@@ -1,0 +1,39 @@
+{
+  "description": "Number T(n,k) of defective (binary) heaps on n elements with k defects; triangle T(n,k), n>=0, 0<=k<=max(0,n-1), read by rows.",
+  "id": "A306343",
+  "mentions": [
+    "A000142",
+    "A001286",
+    "A001710",
+    "A008292",
+    "A038720",
+    "A056971",
+    "A229039",
+    "A230056",
+    "A264902",
+    "A306356",
+    "A306393",
+    "A323957",
+    "A323958",
+    "A323959",
+    "A323960",
+    "A323961",
+    "A323962",
+    "A323963",
+    "A323964",
+    "A323965",
+    "A323966"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

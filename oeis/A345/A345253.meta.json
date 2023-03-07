@@ -1,0 +1,50 @@
+{
+  "description": "Maximal Fibonacci tree: Arrangement of the positive integers as labels of a complete binary tree.",
+  "id": "A345253",
+  "mentions": [
+    "A000045",
+    "A000201",
+    "A001950",
+    "A007931",
+    "A020988",
+    "A020989",
+    "A026351",
+    "A026352",
+    "A029837",
+    "A048680",
+    "A049651",
+    "A059893",
+    "A060143",
+    "A060144",
+    "A061547",
+    "A070939",
+    "A081242",
+    "A083047",
+    "A095903",
+    "A099919",
+    "A112310",
+    "A113473",
+    "A130233",
+    "A200648",
+    "A232560",
+    "A243571",
+    "A255773",
+    "A255774",
+    "A329395",
+    "A343152",
+    "A345252",
+    "A345254"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Number of uniformly normal integer partitions of n.",
+  "id": "A317588",
+  "mentions": [
+    "A181819",
+    "A182850",
+    "A275870",
+    "A317081",
+    "A317088",
+    "A317246",
+    "A317491",
+    "A317589",
+    "A317590"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Solution (c(n)) of the system of complementary equations defined in Comments.",
+  "id": "A304499",
+  "mentions": [
+    "A304497",
+    "A304498",
+    "A304500"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

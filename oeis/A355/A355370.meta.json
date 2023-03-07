@@ -1,0 +1,22 @@
+{
+  "description": "Irregular triangle read by rows in which row n lists the numbers that divide the sum of the digits of their n-th powers.",
+  "id": "A355370",
+  "mentions": [
+    "A046000",
+    "A152147",
+    "A309017",
+    "A355563"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

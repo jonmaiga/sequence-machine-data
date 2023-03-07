@@ -1,0 +1,19 @@
+{
+  "description": "Primes of form 5207*n + 1.",
+  "id": "A163612",
+  "mentions": [
+    "A059236",
+    "A194944",
+    "A194945"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:07:35",
+    "offset": 1,
+    "size": 30,
+    "source": "joeis"
+  }
+}

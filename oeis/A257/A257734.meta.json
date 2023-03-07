@@ -1,0 +1,30 @@
+{
+  "description": "Permutation of natural numbers: a(1) = 1, a(lucky(n)) = ludic(1+a(n-1)), a(unlucky(n)) = nonludic(a(n)), where lucky(n) = n-th lucky number A000959, unlucky(n) = n-th unlucky number A050505, and ludic = A003309, nonludic = A192607.",
+  "id": "A257734",
+  "mentions": [
+    "A000959",
+    "A003309",
+    "A050505",
+    "A109497",
+    "A145649",
+    "A192607",
+    "A237126",
+    "A255421",
+    "A256486",
+    "A256487",
+    "A257725",
+    "A257732",
+    "A257733"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:15",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of allowed patterns of length n of the map f(x) = 4x(1-x) on the unit interval. A permutation pi is an allowed pattern if there exists x in [0,1] such that the values x,f(x),f(f(x)),...,f^{n-1}(x) are different and in the same relative order as pi_1,pi_2,...,pi_n.",
+  "id": "A193284",
+  "mentions": [
+    "A000142",
+    "A193285"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

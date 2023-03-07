@@ -1,0 +1,20 @@
+{
+  "description": "E.g.f.: Sum_{n>=0} Product_{k=1..n} sin(k*x).",
+  "id": "A177387",
+  "mentions": [
+    "A177385",
+    "A177388"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:01",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

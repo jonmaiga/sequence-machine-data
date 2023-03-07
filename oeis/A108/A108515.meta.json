@@ -1,0 +1,20 @@
+{
+  "description": "Numbers m such that the permutation of the first m natural numbers T_m(n) = if(1<=n<=pi(m),prime(n),c(n-pi(m)-1)) is a cyclic permutation where c(k) is the k-th composite number and c(0)=1 (for each natural number k, c(k-1)=A018252(k)).",
+  "id": "A108515",
+  "mentions": [
+    "A018252",
+    "A108516",
+    "A108517"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = |{0 < k <= n: prime(prime(k)) - prime(k) + 1 and prime(prime(k*n)) - prime(k*n) + 1 are both prime}|.",
+  "id": "A238878",
+  "mentions": [
+    "A000040",
+    "A234695",
+    "A237715",
+    "A238573",
+    "A238576",
+    "A238756",
+    "A238766",
+    "A238776",
+    "A238814",
+    "A238881"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:56",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

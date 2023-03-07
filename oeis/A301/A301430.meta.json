@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of an analog of the Landau-Ramanujan constant for Loeschian numbers which are sums of two squares.",
+  "id": "A301430",
+  "mentions": [
+    "A003136",
+    "A064533",
+    "A167135",
+    "A301429",
+    "A340552"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Sum_{d|n, d-1 is cube} d.",
+  "id": "A359943",
+  "mentions": [
+    "A001093",
+    "A113061",
+    "A359937",
+    "A359942",
+    "A359944"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

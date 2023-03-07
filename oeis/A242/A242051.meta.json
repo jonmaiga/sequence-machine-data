@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of B, a constant appearing in the asymptotic number of integers the prime factorization of which has decreasing exponents.",
+  "id": "A242051",
+  "mentions": [
+    "A001620",
+    "A073002"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

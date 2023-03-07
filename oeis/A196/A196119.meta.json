@@ -1,0 +1,22 @@
+{
+  "description": "Positive integers a for which there is a 4-Pythagorean triple (a,b,c) satisfying a<=b.",
+  "id": "A196119",
+  "mentions": [
+    "A195770",
+    "A196120",
+    "A196121",
+    "A196122",
+    "A196123",
+    "A196124"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

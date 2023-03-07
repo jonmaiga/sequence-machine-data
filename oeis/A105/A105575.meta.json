@@ -1,0 +1,18 @@
+{
+  "description": "Largest primes < numbers of the form 6k (duplicates removed).",
+  "id": "A105575",
+  "mentions": [
+    "A105399"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

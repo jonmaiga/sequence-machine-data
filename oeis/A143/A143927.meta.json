@@ -1,0 +1,20 @@
+{
+  "description": "G.f. satisfies: A(x) = [1 + x*A(x) + x^2*A(x)^2]^2.",
+  "id": "A143927",
+  "mentions": [
+    "A006605",
+    "A027907",
+    "A143926"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:32",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

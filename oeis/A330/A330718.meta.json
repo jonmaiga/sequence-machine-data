@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = numerator(Sum_{k=1..n} (2^k-2)/k).",
+  "id": "A330718",
+  "mentions": [
+    "A001008",
+    "A007663",
+    "A027612",
+    "A088164",
+    "A159353",
+    "A225101",
+    "A279683",
+    "A330719"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:59",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

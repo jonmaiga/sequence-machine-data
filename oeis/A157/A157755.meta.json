@@ -1,0 +1,18 @@
+{
+  "description": "Primes that hit the value suggested by the prime number theorem \"on the nose\" according to Kontorovich.",
+  "id": "A157755",
+  "mentions": [
+    "A000040"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

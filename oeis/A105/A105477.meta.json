@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of compositions of n into k parts when there are two kinds of part 2.",
+  "id": "A105477",
+  "mentions": [
+    "A000012",
+    "A000384",
+    "A005843",
+    "A077998",
+    "A084938"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

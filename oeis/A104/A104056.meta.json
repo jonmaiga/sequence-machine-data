@@ -1,0 +1,21 @@
+{
+  "description": "Each number is the rank in the alphabet of a letter (and \"0\" stands for a space). After substitution one reads (in English): \"one five one four five zero six nine two two five zero ...\" which is the succession of the digits of the sequence itself: 1 5 1 4 5 0 6 9 2 2 5 0...",
+  "id": "A104056",
+  "mentions": [
+    "A104057",
+    "A169978"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

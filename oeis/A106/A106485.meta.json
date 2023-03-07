@@ -1,0 +1,19 @@
+{
+  "description": "CGT-tree negating involution of nonnegative integers.",
+  "id": "A106485",
+  "mentions": [
+    "A057300",
+    "A106486",
+    "A106487"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:57",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

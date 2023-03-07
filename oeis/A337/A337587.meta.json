@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the maximum size among sets of partitions of n with the same multiplicity multiset.",
+  "id": "A337587",
+  "mentions": [
+    "A337583"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

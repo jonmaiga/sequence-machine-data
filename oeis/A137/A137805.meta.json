@@ -1,0 +1,19 @@
+{
+  "description": "Self-inverse integer permutation induced by Beatty sequences for Sqrt(2)+1/2 and (4*Sqrt(2)+9)/7.",
+  "id": "A137805",
+  "mentions": [
+    "A137803",
+    "A137804"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-27 12:56:37",
+    "offset": 1,
+    "size": 72,
+    "source": "joeis"
+  }
+}

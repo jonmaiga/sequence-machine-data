@@ -1,0 +1,20 @@
+{
+  "description": "Sums of rows of the triangle in A116366.",
+  "id": "A116367",
+  "mentions": [
+    "A000040",
+    "A007504",
+    "A116366"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:06",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

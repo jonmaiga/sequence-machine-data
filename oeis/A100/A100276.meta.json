@@ -1,0 +1,19 @@
+{
+  "description": "a(0)=3; for n > 0, a(n) = smallest prime > a(n-1) such that Product_{i=0..n} a(i) - 2 is prime.",
+  "id": "A100276",
+  "mentions": [
+    "A085013",
+    "A100277",
+    "A100301"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "description": "Number A(n,k) of partitions of n with up to k distinct kinds of 1; square array A(n,k), n>=0, k>=0, read by antidiagonals.",
+  "id": "A292622",
+  "mentions": [
+    "A000012",
+    "A000124",
+    "A001477",
+    "A002865",
+    "A011826",
+    "A027336",
+    "A292507",
+    "A292508",
+    "A292741",
+    "A292745",
+    "A320689",
+    "A320690",
+    "A320691",
+    "A320692",
+    "A320693",
+    "A320694",
+    "A320695",
+    "A320696",
+    "A320697"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:08",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

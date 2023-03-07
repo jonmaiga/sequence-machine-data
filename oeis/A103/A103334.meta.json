@@ -1,0 +1,20 @@
+{
+  "description": "Number of closed walks of length 2n at any of the nodes of degree 1 on the graph of the (7,4) Hamming code.",
+  "id": "A103334",
+  "mentions": [
+    "A082412",
+    "A103333"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 11:54:03",
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

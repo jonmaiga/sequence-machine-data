@@ -1,0 +1,28 @@
+{
+  "description": "Square array T(n,k), n >= 0, k >= 0, read by descending antidiagonals, where column k is the expansion of (1 - (k-3)*x)/(1 - 2*(k-1)*x + ((k-3)*x)^2)^(3/2).",
+  "id": "A331511",
+  "mentions": [
+    "A000290",
+    "A002457",
+    "A108666",
+    "A307883",
+    "A331323",
+    "A331512",
+    "A331513",
+    "A331514",
+    "A331551",
+    "A331552"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:01",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

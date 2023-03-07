@@ -1,0 +1,19 @@
+{
+  "description": "Positions of 2's in the square spiral in A275609.",
+  "id": "A307190",
+  "mentions": [
+    "A275609",
+    "A307188",
+    "A307192"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:32",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

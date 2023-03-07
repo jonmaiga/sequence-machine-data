@@ -1,0 +1,23 @@
+{
+  "description": "Numbers n such that n, n+1, and n+2 are the product of 5 distinct primes.",
+  "id": "A192203",
+  "mentions": [
+    "A016813",
+    "A039833",
+    "A046387",
+    "A066509",
+    "A140077",
+    "A176167",
+    "A242608"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:15",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

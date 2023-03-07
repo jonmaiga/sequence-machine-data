@@ -1,0 +1,20 @@
+{
+  "description": "Number of squares k^2 < n with k^2*p == 1 (mod n) for some prime p < n.",
+  "id": "A242444",
+  "mentions": [
+    "A000040",
+    "A000290",
+    "A242425",
+    "A242441"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

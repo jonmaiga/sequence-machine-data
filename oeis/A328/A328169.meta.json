@@ -1,0 +1,31 @@
+{
+  "description": "GCD of the prime indices of n, all plus 1.",
+  "id": "A328169",
+  "mentions": [
+    "A000837",
+    "A003961",
+    "A056239",
+    "A112798",
+    "A116974",
+    "A258409",
+    "A289508",
+    "A289509",
+    "A290103",
+    "A318980",
+    "A318981",
+    "A328167",
+    "A328168",
+    "A328219"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-entry"
+  }
+}

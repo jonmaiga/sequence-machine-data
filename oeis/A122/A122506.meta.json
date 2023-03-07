@@ -1,0 +1,20 @@
+{
+  "description": "A symmetrical triangular array based on A018805 constructed by hand by adding ones between the primes and making the result symmetrical.",
+  "id": "A122506",
+  "mentions": [
+    "A018805"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

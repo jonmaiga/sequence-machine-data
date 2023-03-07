@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the number of times the map x -> A353314(x) needs to be applied to n to reach a multiple of 3, or -1 if the trajectory never reaches a multiple of 3.",
+  "id": "A349877",
+  "mentions": [
+    "A010872",
+    "A349876",
+    "A353311",
+    "A353313",
+    "A353314"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:24",
+    "offset": 0,
+    "size": 103,
+    "source": "oeis-bfile"
+  }
+}

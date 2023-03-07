@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the imaginary part of f(n) defined by f(0) = 0 and f(n+1) = f(n) + i^A000120(n) (where i denotes the imaginary unit). Sequence A332251 gives real parts.",
+  "id": "A332252",
+  "mentions": [
+    "A000120",
+    "A332251"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:01",
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

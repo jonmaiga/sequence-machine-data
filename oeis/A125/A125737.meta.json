@@ -1,0 +1,18 @@
+{
+  "description": "Numbers that appear in the successive application of the sequence A125736 (sum of the neighbors integer-log).",
+  "id": "A125737",
+  "mentions": [
+    "A125736"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

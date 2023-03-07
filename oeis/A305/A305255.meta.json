@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = [x^n] exp(Sum_{k>=1} (-1)^k*x^k/(k*(1 - x^k)^n)).",
+  "id": "A305255",
+  "mentions": [
+    "A255528",
+    "A293554",
+    "A294846",
+    "A305205",
+    "A305206"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

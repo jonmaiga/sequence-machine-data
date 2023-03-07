@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that 11410337850553 + 4609098694200*k is prime.",
+  "id": "A250395",
+  "mentions": [
+    "A002837",
+    "A056561",
+    "A180688",
+    "A250394"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:07",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows, T(n, k) = binomial(n, k)*hypergeom([k-n, n+1], [k+2], -4), for n >= 0 and 0 <= k <= n.",
+  "id": "A297899",
+  "mentions": [
+    "A103209",
+    "A131765",
+    "A133305",
+    "A297705"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:51",
+    "offset": 0,
+    "size": 45,
+    "source": "joeis"
+  }
+}

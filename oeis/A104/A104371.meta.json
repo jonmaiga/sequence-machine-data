@@ -1,0 +1,27 @@
+{
+  "description": "Euler's totient of A104365(n) = A104350(n) + 1.",
+  "id": "A104371",
+  "mentions": [
+    "A000010",
+    "A104350",
+    "A104363",
+    "A104365",
+    "A104366",
+    "A104367",
+    "A104368",
+    "A104369",
+    "A104370",
+    "A104372"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:55",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

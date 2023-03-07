@@ -1,0 +1,19 @@
+{
+  "description": "Indices k such that A107435(k) = A268057(k).",
+  "id": "A269331",
+  "mentions": [
+    "A107435",
+    "A268057",
+    "A269267"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:31",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

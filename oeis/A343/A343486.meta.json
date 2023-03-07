@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of (29/96)*sqrt(3).",
+  "id": "A343486",
+  "mentions": [
+    "A120011",
+    "A343485",
+    "A343487"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:16",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

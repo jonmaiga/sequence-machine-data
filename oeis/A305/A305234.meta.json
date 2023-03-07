@@ -1,0 +1,19 @@
+{
+  "description": "Number of successors of n having the same value of A001221 as n.",
+  "id": "A305234",
+  "mentions": [
+    "A001221",
+    "A077655",
+    "A305235"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

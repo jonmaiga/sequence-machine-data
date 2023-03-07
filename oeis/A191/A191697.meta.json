@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = r1^n + r2^n + r3^n where r1, r2, r3 are the three roots of x^3 - 2*x - 2 = 0.",
+  "id": "A191697",
+  "mentions": [
+    "A052907"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:15",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Let S denote the palindromes in the language {0,1,2,...,n-1}*; a(n) = number of words of length 4 in the language SS.",
+  "id": "A187277",
+  "mentions": [
+    "A007055",
+    "A284873"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:14:57",
+    "offset": 1,
+    "size": 45,
+    "source": "joeis"
+  }
+}

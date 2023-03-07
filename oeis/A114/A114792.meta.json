@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = ((p(n+1)-p(n+2))/2)-th integer among those positive integers not occurring earlier in the sequence, where p(n) is the n-th prime.",
+  "id": "A114792",
+  "mentions": [
+    "A028334",
+    "A119618"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

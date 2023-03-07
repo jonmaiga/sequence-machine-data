@@ -1,0 +1,24 @@
+{
+  "description": "a(n) is the number of permutations p of {1, 2, ..., 2*n} such that for any k in 1..2*n, k and p(k) do not share a common 1-bit.",
+  "id": "A351722",
+  "mentions": [
+    "A000225",
+    "A005326",
+    "A109468",
+    "A253515",
+    "A352857"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

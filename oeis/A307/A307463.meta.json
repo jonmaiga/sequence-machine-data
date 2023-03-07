@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the digit after the appearance of n in the decimal numbers of Pi after all the previous natural numbers of n have already appeared except for 0, and without overlap.",
+  "id": "A307463",
+  "mentions": [
+    "A000796",
+    "A103186"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-entry"
+  }
+}

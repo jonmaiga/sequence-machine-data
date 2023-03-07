@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = primorial(k) - prime(n) where k is the smallest number for which prime(n) <= primorial(k).",
+  "id": "A137330",
+  "mentions": [
+    "A000040",
+    "A002110",
+    "A136437"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:25",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

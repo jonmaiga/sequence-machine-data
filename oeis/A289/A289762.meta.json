@@ -1,0 +1,21 @@
+{
+  "description": "Triangular array T(m,k) = (m+1-k)^2 + k - 1 with m (row) >= 1 and k (column) >= 1, read by rows.",
+  "id": "A289762",
+  "mentions": [
+    "A000290",
+    "A060566"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:04",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

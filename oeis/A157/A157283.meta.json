@@ -1,0 +1,19 @@
+{
+  "description": "k X k determinants at the n-th row of A126988.",
+  "id": "A157283",
+  "mentions": [
+    "A007318",
+    "A126988"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-entry"
+  }
+}

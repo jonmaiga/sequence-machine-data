@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows, T(n, k) = (-1)^(n-k)*binomial(n,k)*hypergeom([k - n, n + 1], k + 1, 2), for n >= 0 and 0 <= k <= n.",
+  "id": "A297898",
+  "mentions": [
+    "A001850",
+    "A050146"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

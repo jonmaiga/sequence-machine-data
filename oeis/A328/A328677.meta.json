@@ -1,0 +1,31 @@
+{
+  "description": "Numbers whose distinct prime indices are relatively prime and pairwise indivisible.",
+  "id": "A328677",
+  "mentions": [
+    "A000837",
+    "A056239",
+    "A112798",
+    "A285573",
+    "A289508",
+    "A289509",
+    "A303362",
+    "A304713",
+    "A305148",
+    "A316476",
+    "A327393",
+    "A328460",
+    "A328671",
+    "A328676"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

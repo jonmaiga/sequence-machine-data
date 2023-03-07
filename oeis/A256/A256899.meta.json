@@ -1,0 +1,17 @@
+{
+  "description": "Number of (n+2)X(3+2) 0..1 arrays with every 3X3 subblock sum of the two medians of the central row and column plus the two sums of the diagonal and antidiagonal nondecreasing horizontally and vertically",
+  "id": "A256899",
+  "mentions": [
+    "A256904"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

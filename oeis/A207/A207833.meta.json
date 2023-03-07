@@ -1,0 +1,21 @@
+{
+  "description": "E.g.f.: T(T(x)), where T(x) is the e.g.f. for labeled rooted trees, A000169.",
+  "id": "A207833",
+  "mentions": [
+    "A000169",
+    "A185298",
+    "A227176",
+    "A227278"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:27",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

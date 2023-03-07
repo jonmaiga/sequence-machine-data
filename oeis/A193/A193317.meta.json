@@ -1,0 +1,19 @@
+{
+  "description": "Binomial(n,2)*B(n-1)*(B(n)-B(n-1)), where B() = A000110() are the Bell numbers.",
+  "id": "A193317",
+  "mentions": [
+    "A000110",
+    "A124104",
+    "A191200"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

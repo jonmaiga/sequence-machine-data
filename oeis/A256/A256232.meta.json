@@ -1,0 +1,21 @@
+{
+  "description": "Multiplicative with a(2^e) = 1-e, a(3^e) = 1, a(p^e) = e+1 if p>3.",
+  "id": "A256232",
+  "mentions": [
+    "A027748",
+    "A099751",
+    "A124010"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "mult",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

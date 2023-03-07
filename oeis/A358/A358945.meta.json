@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the positive root of 4*x^2 + x - 1.",
+  "id": "A358945",
+  "mentions": [
+    "A189038",
+    "A189039"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

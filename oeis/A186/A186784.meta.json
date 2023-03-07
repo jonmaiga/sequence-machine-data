@@ -1,0 +1,17 @@
+{
+  "description": "Number of (n+1)X3 0..3 arrays with every 2X2 subblock determinant equal to exactly one or two horizontal and vertical neighbor 2X2 subblock determinants",
+  "id": "A186784",
+  "mentions": [
+    "A186786"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:11",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

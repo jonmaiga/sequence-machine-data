@@ -1,0 +1,29 @@
+{
+  "description": "Numbers n for which nontrivial positive magic squares of exactly 7 different orders with magic sum n exist. For a definition of nontrivial positive magic squares, see A125005.",
+  "id": "A125014",
+  "mentions": [
+    "A125005",
+    "A125006",
+    "A125007",
+    "A125008",
+    "A125009",
+    "A125010",
+    "A125011",
+    "A125012",
+    "A125013",
+    "A125015",
+    "A125016",
+    "A125017"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

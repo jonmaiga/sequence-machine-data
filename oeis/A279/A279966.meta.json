@@ -1,0 +1,20 @@
+{
+  "description": "Square array read by antidiagonals upwards in which each term is the number of prior elements in the same row, column, diagonal, or antidiagonal that divide n; the array is seeded with an initial value a(1)=1.",
+  "id": "A279966",
+  "mentions": [
+    "A278436",
+    "A279967",
+    "A281533"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:47",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

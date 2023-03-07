@@ -1,0 +1,22 @@
+{
+  "description": "Round((10^n)/(log(10^n) - 1)).",
+  "id": "A226744",
+  "mentions": [
+    "A000720",
+    "A006880",
+    "A057834",
+    "A058289",
+    "A193257"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 13:01:24",
+    "offset": 1,
+    "size": 20,
+    "source": "joeis"
+  }
+}

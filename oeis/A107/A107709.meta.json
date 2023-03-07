@@ -1,0 +1,19 @@
+{
+  "description": "Least odd prime a(n) such that (a(n)*M(n))^2 + a(n)*M(n) - 1 is prime with M(n) = Mersenne-primes (A000043).",
+  "id": "A107709",
+  "mentions": [
+    "A000043"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

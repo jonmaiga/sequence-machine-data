@@ -1,0 +1,23 @@
+{
+  "description": "Exponent of A046021(n) (least inverse of Kempner function A002034) when written as a power of A006530(n) (largest prime dividing n), with a(1) = 1.",
+  "id": "A102048",
+  "mentions": [
+    "A002034",
+    "A006530",
+    "A046021",
+    "A276350",
+    "A294168",
+    "A299020"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 95,
+    "source": "oeis-entry"
+  }
+}

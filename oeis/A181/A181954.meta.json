@@ -1,0 +1,20 @@
+{
+  "description": "Weighted sum of all cyclic subgroups of prime order of the symmetric group S_n.",
+  "id": "A181954",
+  "mentions": [
+    "A181955",
+    "A186202",
+    "A214003"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:05",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

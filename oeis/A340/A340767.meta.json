@@ -1,0 +1,24 @@
+{
+  "description": "Number of primes p <= 6*n + 5 that are congruent to 2 modulo 3.",
+  "id": "A340767",
+  "mentions": [
+    "A003627",
+    "A167020",
+    "A172104",
+    "A296020",
+    "A296021",
+    "A340764"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:13",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

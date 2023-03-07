@@ -1,0 +1,20 @@
+{
+  "description": "Row sums of A179972 and also of A179974.",
+  "id": "A179973",
+  "mentions": [
+    "A172974",
+    "A179972",
+    "A179974"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

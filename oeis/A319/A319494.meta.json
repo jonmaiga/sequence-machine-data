@@ -1,0 +1,22 @@
+{
+  "description": "Triangle of the consecutive absolute differences between consecutive elements of the previous row, first row being the prime numbers (A000040), read by columns.",
+  "id": "A319494",
+  "mentions": [
+    "A000040",
+    "A001223",
+    "A036261",
+    "A036263",
+    "A036272"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: coefficients psi(n,k) arising from the study of completely transitive graphs on n nodes.",
+  "id": "A259972",
+  "mentions": [
+    "A005016",
+    "A005331",
+    "A005332",
+    "A259970",
+    "A259971"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

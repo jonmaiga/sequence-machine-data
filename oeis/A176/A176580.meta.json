@@ -1,0 +1,18 @@
+{
+  "description": "n^3+Largest square, (Largest square <= n^3).",
+  "id": "A176580",
+  "mentions": [
+    "A065733",
+    "A077116"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

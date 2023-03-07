@@ -1,0 +1,18 @@
+{
+  "description": "Number of ways to express 2n+1 as p+4q with p, q primes.",
+  "id": "A219254",
+  "mentions": [
+    "A046927",
+    "A219252"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:37",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

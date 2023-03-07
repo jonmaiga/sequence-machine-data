@@ -1,0 +1,17 @@
+{
+  "description": "Numbers that are the sum of distinct Fibonacci primes.",
+  "id": "A159556",
+  "mentions": [
+    "A005478"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:41",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

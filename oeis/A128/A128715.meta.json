@@ -1,0 +1,21 @@
+{
+  "description": "A131830 + A103451 - A000012 as infinite lower triangular matrices.",
+  "id": "A128715",
+  "mentions": [
+    "A000012",
+    "A005126",
+    "A103451",
+    "A131830"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Numbers which have only positive entries in the difference table of their divisors.",
+  "id": "A273130",
+  "mentions": [
+    "A014567",
+    "A187202",
+    "A273102",
+    "A273103",
+    "A273109",
+    "A273157"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:38",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

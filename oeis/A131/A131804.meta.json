@@ -1,0 +1,24 @@
+{
+  "description": "Antidiagonal sums of triangular array T: T(j,k) = -(k+1)/2 for odd k, T(j,k) = 0 for k = 0, T(j,k) = j+1-k/2 for even k > 0; 0 <= k <= j.",
+  "id": "A131804",
+  "mentions": [
+    "A000384",
+    "A001057",
+    "A001105",
+    "A014107",
+    "A056220",
+    "A129819",
+    "A131805"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:34:49",
+    "offset": 0,
+    "size": 62,
+    "source": "joeis"
+  }
+}

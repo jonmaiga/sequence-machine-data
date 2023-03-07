@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k where \"2\" appears as the second digit of the decimal representation.",
+  "id": "A285470",
+  "mentions": [
+    "A011532",
+    "A052404",
+    "A217394"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:57",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

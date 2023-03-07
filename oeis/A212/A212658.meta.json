@@ -1,0 +1,24 @@
+{
+  "description": "Number of multisets {1^k1, 2^k2, ..., n^kn}, ki >= 0, with the sum of reciprocals <= 1.",
+  "id": "A212658",
+  "mentions": [
+    "A003418",
+    "A020473",
+    "A092669",
+    "A092671",
+    "A208480",
+    "A212606",
+    "A212607",
+    "A212657"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:30",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

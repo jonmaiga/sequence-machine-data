@@ -1,0 +1,19 @@
+{
+  "description": "Sequence of pairs numerator(s(n)), denominator(s(n)) where s(n) is the n-th partial sum of 1/A119753(n).",
+  "id": "A120341",
+  "mentions": [
+    "A119751",
+    "A119753"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows, based on expansion of (x^2/(exp(x)-1))^m = x^m+sum(n>m T(n,m)*m!/((n-m)!*n!)*x^n).",
+  "id": "A191578",
+  "mentions": [
+    "A129814"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

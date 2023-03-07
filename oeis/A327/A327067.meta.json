@@ -1,0 +1,24 @@
+{
+  "description": "Expansion of Product_{k>=1} (Product_{j=1..k} 1/(1 - x^(k*j))^k).",
+  "id": "A327067",
+  "mentions": [
+    "A000294",
+    "A061256",
+    "A182269",
+    "A279216",
+    "A280540",
+    "A327064",
+    "A327066",
+    "A327068"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:53",
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

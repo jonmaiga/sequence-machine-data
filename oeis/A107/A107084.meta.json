@@ -1,0 +1,25 @@
+{
+  "description": "Integers k such that 10^k + 33 is prime.",
+  "id": "A107084",
+  "mentions": [
+    "A049054",
+    "A088274",
+    "A088275",
+    "A095688",
+    "A108049",
+    "A108050",
+    "A108052",
+    "A108054"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "description": "Square number array T(n,k) = (2*n^(k+1)-n-1)/(n-1), read by antidiagonals.",
+  "id": "A238339",
+  "mentions": [
+    "A000012",
+    "A001844",
+    "A005408",
+    "A036563",
+    "A058481",
+    "A083584",
+    "A137410",
+    "A165402",
+    "A211866",
+    "A233325",
+    "A233326",
+    "A233328",
+    "A238303"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

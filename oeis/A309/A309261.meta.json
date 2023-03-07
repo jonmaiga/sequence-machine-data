@@ -1,0 +1,18 @@
+{
+  "description": "The sum of the number of times each unique digit in the previous number occurred in the numbers before that with a(1) = 0.",
+  "id": "A309261",
+  "mentions": [
+    "A004207"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:33",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

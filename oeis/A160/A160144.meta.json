@@ -1,0 +1,25 @@
+{
+  "description": "Numerator of (2*n+1)/(2^(2*n+1)-1).",
+  "id": "A160144",
+  "mentions": [
+    "A005408",
+    "A009843",
+    "A036279",
+    "A156769",
+    "A160143",
+    "A160145",
+    "A303449"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:42",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

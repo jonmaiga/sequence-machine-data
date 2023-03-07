@@ -1,0 +1,39 @@
+{
+  "description": "Square array A(n,k), n >= 0, k >= 0, read by antidiagonals, where the e.g.f. of column k is 1+g^(k+1)(x) with g = x-> exp(x)-1.",
+  "id": "A144150",
+  "mentions": [
+    "A000012",
+    "A000027",
+    "A000110",
+    "A000142",
+    "A000258",
+    "A000307",
+    "A000326",
+    "A000357",
+    "A000405",
+    "A001669",
+    "A005945",
+    "A005946",
+    "A081624",
+    "A081629",
+    "A081697",
+    "A081740",
+    "A111672",
+    "A139383",
+    "A261280",
+    "A290353",
+    "A346802"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

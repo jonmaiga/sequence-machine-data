@@ -1,0 +1,18 @@
+{
+  "description": "Denominators of sequence of fractions of primes that minimize absolute value of difference between the fractions and 1/4.",
+  "id": "A161554",
+  "mentions": [
+    "A161555"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

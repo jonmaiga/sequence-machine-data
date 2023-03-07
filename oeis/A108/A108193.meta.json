@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that n shares at least one digit with both the sum of its digits and the product of its digits.",
+  "id": "A108193",
+  "mentions": [
+    "A050278"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:00",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

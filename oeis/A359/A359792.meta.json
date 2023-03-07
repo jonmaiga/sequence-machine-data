@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = (-1)^A003415(n), where A003415 is the arithmetic derivative of n.",
+  "id": "A359792",
+  "mentions": [
+    "A003415",
+    "A165560",
+    "A358680",
+    "A359793"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:33",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

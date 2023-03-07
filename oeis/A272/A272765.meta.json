@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of (1 + 80*x + 2592*x^2 + 29360*x^3 + 138124*x^4 + 295552*x^5 + 299984*x^6 + 144016*x^7 + 31146*x^8 + 2688*x^9 + 72*x^10)/(1-x)^16.",
+  "id": "A272765",
+  "mentions": [
+    "A271899"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:14:11",
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

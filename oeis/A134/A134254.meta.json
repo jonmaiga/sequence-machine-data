@@ -1,0 +1,28 @@
+{
+  "description": "Positions of 4 after decimal point in decimal expansion of 1/Pi.",
+  "id": "A134254",
+  "mentions": [
+    "A014777",
+    "A037000",
+    "A134251",
+    "A134252",
+    "A134253",
+    "A134255",
+    "A134256",
+    "A134257",
+    "A134258",
+    "A134259",
+    "A134260"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:22",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

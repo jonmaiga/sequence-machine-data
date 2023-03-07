@@ -1,0 +1,18 @@
+{
+  "description": "Numerator of Euler(n, 11/24).",
+  "id": "A156963",
+  "mentions": [
+    "A009968"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-02 22:32:19",
+    "offset": 0,
+    "size": 17,
+    "source": "joeis"
+  }
+}

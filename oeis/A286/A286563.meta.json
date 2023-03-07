@@ -1,0 +1,29 @@
+{
+  "description": "Triangular table T(n,k) read by rows: T(n,1) = 1, and for 1 < k <= n, T(n,k) = the highest exponent e such that k^e divides n.",
+  "id": "A286563",
+  "mentions": [
+    "A002024",
+    "A002260",
+    "A027750",
+    "A051731",
+    "A162306",
+    "A169594",
+    "A279907",
+    "A280269",
+    "A286158",
+    "A286561",
+    "A286564"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:58",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Primes p such that if 2p-1 = product_{k >= 1} A000040(k)^(c_k), then p <= product_{k >= 1} A000040(k-1)^(c_k).",
+  "id": "A246373",
+  "mentions": [
+    "A000040",
+    "A005382",
+    "A048674",
+    "A064216",
+    "A064989",
+    "A246281",
+    "A246372",
+    "A246374"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:02",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

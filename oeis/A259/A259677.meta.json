@@ -1,0 +1,22 @@
+{
+  "description": "Octagonal numbers (A000567) that are semiprimes (A001358).",
+  "id": "A259677",
+  "mentions": [
+    "A000567",
+    "A001358",
+    "A129521",
+    "A245365",
+    "A259676"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:18",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

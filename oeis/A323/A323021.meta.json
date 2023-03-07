@@ -1,0 +1,19 @@
+{
+  "description": "A way to generate a minimal generating set of (Z/nZ)* whose elements are multiplicatively independent for every n: row n lists the elements of S(n), where S(n) is defined in the comment section. Here (Z/nZ)* is the multiplicative group of integers modulo n.",
+  "id": "A323021",
+  "mentions": [
+    "A046072",
+    "A302257"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:46",
+    "offset": 3,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

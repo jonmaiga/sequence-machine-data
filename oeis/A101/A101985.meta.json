@@ -1,0 +1,19 @@
+{
+  "description": "Numbers that occur exactly once in A289493 (= number of primes between 2n and 3n).",
+  "id": "A101985",
+  "mentions": [
+    "A101984",
+    "A289493"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

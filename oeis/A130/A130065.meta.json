@@ -1,0 +1,28 @@
+{
+  "description": "a(n) = (n / GreatestPrimeFactor(n)) * SmallestPrimeFactor(n).",
+  "id": "A130065",
+  "mentions": [
+    "A000290",
+    "A000961",
+    "A001221",
+    "A001222",
+    "A006530",
+    "A020639",
+    "A046665",
+    "A052126",
+    "A066048",
+    "A074320",
+    "A130064"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:18",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

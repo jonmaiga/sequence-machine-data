@@ -1,0 +1,32 @@
+{
+  "description": "Record (maximal) gaps between prime triples (p, p+4, p+6).",
+  "id": "A201596",
+  "mentions": [
+    "A022004",
+    "A022005",
+    "A113274",
+    "A113404",
+    "A200503",
+    "A201051",
+    "A201062",
+    "A201073",
+    "A201251",
+    "A201597",
+    "A201598",
+    "A202281",
+    "A202361",
+    "A233435"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "changed",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:22",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

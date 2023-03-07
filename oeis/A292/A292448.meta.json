@@ -1,0 +1,19 @@
+{
+  "description": "Primes q of the form sigma((p + 1) / 2) where p is a prime.",
+  "id": "A292448",
+  "mentions": [
+    "A000203",
+    "A000668",
+    "A292447"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

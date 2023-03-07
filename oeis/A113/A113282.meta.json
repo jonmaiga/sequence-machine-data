@@ -1,0 +1,21 @@
+{
+  "description": "Logarithmic derivative of the g.f. of A113281.",
+  "id": "A113282",
+  "mentions": [
+    "A113224",
+    "A113281",
+    "A113283",
+    "A113284"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 22:52:47",
+    "offset": 0,
+    "size": 29,
+    "source": "joeis"
+  }
+}

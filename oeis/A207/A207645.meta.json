@@ -1,0 +1,23 @@
+{
+  "description": "Triangle where T(n,k) = Product_{j=1..k} floor(n/j - 1), as read by rows n>=0, columns k=0..[n/2].",
+  "id": "A207645",
+  "mentions": [
+    "A207643",
+    "A207644",
+    "A207646",
+    "A207647"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:27",
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

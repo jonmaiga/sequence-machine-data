@@ -1,0 +1,19 @@
+{
+  "description": "Conjectured number of primes p for which binomial(n*p,p) (mod p^3) does not equal n.",
+  "id": "A222759",
+  "mentions": [
+    "A000720",
+    "A056811",
+    "A096328"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:40",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

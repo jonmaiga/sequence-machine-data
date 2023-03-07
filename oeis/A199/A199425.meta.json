@@ -1,0 +1,19 @@
+{
+  "description": "Number of distinct primes in rows 0 through n of the triangle in A199333.",
+  "id": "A199425",
+  "mentions": [
+    "A126256",
+    "A199333",
+    "A199424"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:20",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

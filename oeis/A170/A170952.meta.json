@@ -1,0 +1,21 @@
+{
+  "description": "Take the Cantor set sequence A121153 and if the entry m = A121153(n) is in the range 3^k <= m < 3^(k+1), subtract 3^k from it.",
+  "id": "A170952",
+  "mentions": [
+    "A121153",
+    "A170943",
+    "A170944",
+    "A170951"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:54",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

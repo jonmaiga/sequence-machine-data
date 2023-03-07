@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the amplitude of a simple pendulum the period of which is twice the period in the small-amplitude approximation.",
+  "id": "A256514",
+  "mentions": [
+    "A175574",
+    "A226204"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:48:06",
+    "offset": 1,
+    "size": 102,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "The numbers n such that during dividing n by all positive integers not exceeding n the remainder 0 occurs most often.",
+  "id": "A230374",
+  "mentions": [
+    "A002182",
+    "A230399"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:47",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = (n - 2^floor(log(n)/log(2)) + 1)-th integer among those positive integers not among the earlier terms of the sequence.",
+  "id": "A120241",
+  "mentions": [
+    "A062050",
+    "A120242"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:09",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

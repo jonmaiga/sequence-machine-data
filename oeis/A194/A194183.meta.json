@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of the (finite) value of the sum_ { k >=1, k has no \"0\" digit in base 100 } 1/k.",
+  "id": "A194183",
+  "mentions": [
+    "A082839"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 3,
+    "size": 103,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the permanent of a square matrix M(n) whose general element M_{i,j} is defined by floor((j - i + 1)/2).",
+  "id": "A350549",
+  "mentions": [
+    "A002620",
+    "A004526",
+    "A010751",
+    "A040002",
+    "A060747",
+    "A110654",
+    "A142150"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

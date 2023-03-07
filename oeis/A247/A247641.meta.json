@@ -1,0 +1,17 @@
+{
+  "description": "G.f.: ((1+q)/(1-q))*q*Product_{k>=1} (1 - q^k)^2*(1 - q^(11*k))^2.",
+  "id": "A247641",
+  "mentions": [
+    "A006571"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:10:35",
+    "offset": 0,
+    "size": 78,
+    "source": "joeis"
+  }
+}

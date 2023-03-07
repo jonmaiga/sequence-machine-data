@@ -1,0 +1,23 @@
+{
+  "description": "Corner sequence (starting each round in the first quadrant).",
+  "id": "A171170",
+  "mentions": [
+    "A000695",
+    "A139250",
+    "A139251",
+    "A160410",
+    "A161411",
+    "A171171"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

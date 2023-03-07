@@ -1,0 +1,25 @@
+{
+  "description": "Reversals of tribonacci numbers (sorted).",
+  "id": "A215649",
+  "mentions": [
+    "A000045",
+    "A000073",
+    "A004086",
+    "A004091",
+    "A004170",
+    "A140463",
+    "A214855"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:33",
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

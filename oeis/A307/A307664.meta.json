@@ -1,0 +1,19 @@
+{
+  "description": "Lexicographically earliest sequence of positive terms, such that each value, say v, appears three times at indices k, k + v and k + 2*v for some k.",
+  "id": "A307664",
+  "mentions": [
+    "A026242",
+    "A307667",
+    "A307669"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:32",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

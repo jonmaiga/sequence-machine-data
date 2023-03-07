@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = prime(n+2) mod prime(n).",
+  "id": "A261468",
+  "mentions": [
+    "A031131",
+    "A075527"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

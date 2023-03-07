@@ -1,0 +1,22 @@
+{
+  "description": "Replace 2^k in the binary expansion of n with A000930(k+2), Narayana's cows sequence.",
+  "id": "A350311",
+  "mentions": [
+    "A000930",
+    "A022290",
+    "A048715",
+    "A350215",
+    "A350312"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

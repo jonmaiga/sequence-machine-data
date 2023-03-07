@@ -1,0 +1,25 @@
+{
+  "description": "Smaller of the two consecutive primes whose sum is a triangular number.",
+  "id": "A225077",
+  "mentions": [
+    "A000217",
+    "A061275",
+    "A074924",
+    "A075190",
+    "A154634",
+    "A175132",
+    "A181902",
+    "A225195"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

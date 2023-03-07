@@ -1,0 +1,23 @@
+{
+  "description": "Third partial sums of eighth powers (A001016).",
+  "id": "A254642",
+  "mentions": [
+    "A000542",
+    "A001016",
+    "A022524",
+    "A253636",
+    "A254640"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:06:57",
+    "offset": 1,
+    "size": 22,
+    "source": "joeis"
+  }
+}

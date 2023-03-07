@@ -1,0 +1,19 @@
+{
+  "description": "a(n+1) is the smallest integer greater than a(n) such that the sum of the squares of its decimal digits is equal to a(n).",
+  "id": "A126973",
+  "mentions": [
+    "A001273",
+    "A053612"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

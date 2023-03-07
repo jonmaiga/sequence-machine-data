@@ -1,0 +1,19 @@
+{
+  "description": "G.f. A(x) satisfies: A(x) = x + B(x)*C(x), where B(x) = x + 2*C(x)*A(x) and C(x) = x + 3*B(x)*A(x).",
+  "id": "A229811",
+  "mentions": [
+    "A229812",
+    "A229813"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:47",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

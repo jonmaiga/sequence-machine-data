@@ -1,0 +1,22 @@
+{
+  "description": "Triangle T, read by rows, such that the m-th matrix power satisfies T^m = I + m*(T - I), where T(n,k) = [T^-1](n-1,k) + [T^-1](n-1,k-1) for n>k>0, with T(n,0)=T(n,n)=1 for n>=0 and I is the identity matrix.",
+  "id": "A114700",
+  "mentions": [
+    "A064310",
+    "A112555",
+    "A116466",
+    "A116467"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

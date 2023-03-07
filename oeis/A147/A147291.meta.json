@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{k=1..n^2-1} binomial(2k,k).",
+  "id": "A147291",
+  "mentions": [
+    "A066796",
+    "A146977",
+    "A147304"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

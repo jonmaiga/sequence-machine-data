@@ -1,0 +1,19 @@
+{
+  "description": "Number of plane partitions of n into parts of sorts {1, 2, ... }.",
+  "id": "A319601",
+  "mentions": [
+    "A000219",
+    "A319600"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:41",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

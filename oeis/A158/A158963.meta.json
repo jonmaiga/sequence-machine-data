@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that A160691(n)=12.",
+  "id": "A158963",
+  "mentions": [
+    "A158964",
+    "A160689",
+    "A160690",
+    "A160691"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

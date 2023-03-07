@@ -1,0 +1,47 @@
+{
+  "description": "Standard composition numbers of compositions into divisors. Numbers k such that all parts of the k-th composition in standard order are divisors of the sum of parts.",
+  "id": "A349152",
+  "mentions": [
+    "A000120",
+    "A003242",
+    "A011782",
+    "A018818",
+    "A056239",
+    "A066099",
+    "A067538",
+    "A070939",
+    "A074761",
+    "A096199",
+    "A100346",
+    "A114994",
+    "A124758",
+    "A125297",
+    "A225620",
+    "A233564",
+    "A238279",
+    "A272919",
+    "A291165",
+    "A291166",
+    "A316413",
+    "A319333",
+    "A326836",
+    "A326841",
+    "A326842",
+    "A333218",
+    "A333255",
+    "A333256",
+    "A333766",
+    "A333768",
+    "A334028"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

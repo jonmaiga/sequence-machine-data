@@ -1,0 +1,20 @@
+{
+  "description": "T(n,k) is the number of order-decreasing partial isometries (of an n-chain) with exactly k fixed points.",
+  "id": "A184051",
+  "mentions": [
+    "A184052"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

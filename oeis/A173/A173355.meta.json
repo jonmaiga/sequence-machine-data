@@ -1,0 +1,21 @@
+{
+  "description": "Numbers x such that 0 < |x^10 - y^3| < x^(17/3) for some number y.",
+  "id": "A173355",
+  "mentions": [
+    "A078933",
+    "A116884",
+    "A173348",
+    "A173379"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "Decimal expansion of the sum of reciprocals of composite powers.",
+  "id": "A284748",
+  "mentions": [
+    "A002808",
+    "A066247",
+    "A077761",
+    "A136141",
+    "A152447",
+    "A154932",
+    "A154945",
+    "A179119",
+    "A185380",
+    "A275647",
+    "A278419"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-entry"
+  }
+}

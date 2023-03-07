@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that 58/111*(10^(3n)-1)-1 is prime.",
+  "id": "A178321",
+  "mentions": [
+    "A072394",
+    "A178322"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

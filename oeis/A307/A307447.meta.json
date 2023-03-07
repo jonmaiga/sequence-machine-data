@@ -1,0 +1,20 @@
+{
+  "description": "Second coordinate of a contiguous path on the odd numbered points of a square lattice leading to a distance-limited bijection with the even numbered points of a square lattice rotated by Pi/6 around the common point (0,0). A307446 gives the first coordinate.",
+  "id": "A307447",
+  "mentions": [
+    "A307110",
+    "A307446",
+    "A307482",
+    "A307483"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:32",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

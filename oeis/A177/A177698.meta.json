@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of e.g.f.: sin(arctan(x)).",
+  "id": "A177698",
+  "mentions": [
+    "A079484"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:01",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

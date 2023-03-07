@@ -1,0 +1,17 @@
+{
+  "description": "Number of (n+1) X 8 0..2 arrays with no 2 X 2 subblock having the same number of clockwise edge increases as its horizontal neighbors or the same number of counterclockwise edge increases as its vertical neighbors.",
+  "id": "A206675",
+  "mentions": [
+    "A206676"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

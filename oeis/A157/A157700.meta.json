@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of log(4/(1 + sqrt(2))).",
+  "id": "A157700",
+  "mentions": [
+    "A016627",
+    "A091648"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:39",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

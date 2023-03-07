@@ -1,0 +1,21 @@
+{
+  "description": "A000012 * A002865 as a diagonalized matrix.",
+  "id": "A133734",
+  "mentions": [
+    "A000012",
+    "A000041",
+    "A002865"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

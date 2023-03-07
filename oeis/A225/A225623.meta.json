@@ -1,0 +1,27 @@
+{
+  "description": "Number of ways to arrange 2n queens on an n X n chessboard, with no more than 2 queens in each row, column or diagonal.",
+  "id": "A225623",
+  "mentions": [
+    "A000170",
+    "A000769",
+    "A001499",
+    "A001501",
+    "A058528",
+    "A075754",
+    "A172541",
+    "A172544",
+    "A219760"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

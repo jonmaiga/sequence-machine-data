@@ -1,0 +1,28 @@
+{
+  "description": "Square array T(n,k) read by antidiagonals: number of tilings of an hexagon.",
+  "id": "A103905",
+  "mentions": [
+    "A000178",
+    "A000891",
+    "A000984",
+    "A002415",
+    "A008793",
+    "A047819",
+    "A047831",
+    "A047835",
+    "A120258",
+    "A133112"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

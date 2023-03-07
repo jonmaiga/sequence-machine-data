@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that 3^n is the highest power of 3 dividing A240751(n).",
+  "id": "A286003",
+  "mentions": [
+    "A005187",
+    "A240751"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

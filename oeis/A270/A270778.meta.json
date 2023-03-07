@@ -1,0 +1,23 @@
+{
+  "description": "Primes p such that sigma(p-1) - phi(p-1) = (3p-5)/2.",
+  "id": "A270778",
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A019434",
+    "A051612",
+    "A270779",
+    "A270836"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

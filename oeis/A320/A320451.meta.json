@@ -1,0 +1,31 @@
+{
+  "description": "Number of multiset partitions of uniform integer partitions of n in which all parts have the same length.",
+  "id": "A320451",
+  "mentions": [
+    "A001970",
+    "A047966",
+    "A047968",
+    "A050342",
+    "A089259",
+    "A257462",
+    "A257463",
+    "A258466",
+    "A261049",
+    "A305551",
+    "A319056",
+    "A319066",
+    "A320328",
+    "A320330",
+    "A320331"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:43",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

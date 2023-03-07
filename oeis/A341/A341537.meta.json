@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the number of digits from the end of the concatenation of all previous terms where n last appears. If n has not previously appeared then a(n) = n.",
+  "id": "A341537",
+  "mentions": [
+    "A007908",
+    "A116700",
+    "A131881",
+    "A333921",
+    "A337227"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

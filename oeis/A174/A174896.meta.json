@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = numbers k in increasing order such that A007955(m) = k has no solution for any m, where A007955(m) = product of divisors of m.",
+  "id": "A174896",
+  "mentions": [
+    "A007955",
+    "A174895",
+    "A174897",
+    "A174898"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

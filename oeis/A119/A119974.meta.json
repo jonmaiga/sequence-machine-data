@@ -1,0 +1,18 @@
+{
+  "description": "Embed zeros in A119972, thereby creating a signed triangular matrix illustrating the pattern of negative values.",
+  "id": "A119974",
+  "mentions": [
+    "A119972"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:09",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

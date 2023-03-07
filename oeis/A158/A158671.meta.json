@@ -1,0 +1,20 @@
+{
+  "description": "Frequency of 0's in a constant bit representation of primes.",
+  "id": "A158671",
+  "mentions": [
+    "A000040",
+    "A004676"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 2,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

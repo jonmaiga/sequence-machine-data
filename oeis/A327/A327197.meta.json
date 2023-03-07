@@ -1,0 +1,33 @@
+{
+  "description": "Number of set-systems covering n vertices with cut-connectivity 1.",
+  "id": "A327197",
+  "mentions": [
+    "A003465",
+    "A052442",
+    "A052443",
+    "A259862",
+    "A323818",
+    "A326786",
+    "A327040",
+    "A327098",
+    "A327101",
+    "A327112",
+    "A327113",
+    "A327114",
+    "A327126",
+    "A327128",
+    "A327229"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

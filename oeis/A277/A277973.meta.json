@@ -1,0 +1,20 @@
+{
+  "description": "Sum of horizontal positions of the first peak in all bargraphs of semiperimeter n.",
+  "id": "A277973",
+  "mentions": [
+    "A271941",
+    "A273345",
+    "A273720"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:20:02",
+    "offset": 1,
+    "size": 30,
+    "source": "joeis"
+  }
+}

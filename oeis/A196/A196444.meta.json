@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = the smallest number m such that GCQ_A(m, k) = LCQ_A(m, k) = 0 for all 1 <= k <= n (see definition in comments).",
+  "id": "A196444",
+  "mentions": [
+    "A196437",
+    "A196438",
+    "A196439",
+    "A196440",
+    "A196441",
+    "A196442",
+    "A196443"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

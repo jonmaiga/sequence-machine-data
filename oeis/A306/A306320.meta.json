@@ -1,0 +1,26 @@
+{
+  "description": "Number of square plane partitions of n with distinct row sums and distinct column sums.",
+  "id": "A306320",
+  "mentions": [
+    "A000219",
+    "A089299",
+    "A101509",
+    "A271619",
+    "A279785",
+    "A306318",
+    "A323429",
+    "A323529",
+    "A323530",
+    "A323531"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

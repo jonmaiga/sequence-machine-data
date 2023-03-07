@@ -1,0 +1,24 @@
+{
+  "description": "Smallest prime divisor of (A177941(n))^2-4.",
+  "id": "A177942",
+  "mentions": [
+    "A020639",
+    "A023200",
+    "A177929",
+    "A177930",
+    "A177941",
+    "A177943",
+    "A177945"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-entry"
+  }
+}

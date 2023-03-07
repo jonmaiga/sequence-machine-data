@@ -1,0 +1,36 @@
+{
+  "description": "Triangle read by rows where T(n,k) is the number of k-element sets of nonempty multisets of positive integers with total sum n.",
+  "id": "A330463",
+  "mentions": [
+    "A000041",
+    "A001970",
+    "A007716",
+    "A050342",
+    "A060016",
+    "A061260",
+    "A063834",
+    "A089259",
+    "A255906",
+    "A261049",
+    "A271619",
+    "A279785",
+    "A285229",
+    "A294617",
+    "A330460",
+    "A330462",
+    "A360742"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "changed",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:59",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

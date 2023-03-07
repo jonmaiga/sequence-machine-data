@@ -1,0 +1,23 @@
+{
+  "description": "Numbers n such that lambda(n) divides n, where lambda is Carmichael's function (A002322).",
+  "id": "A124240",
+  "mentions": [
+    "A002322",
+    "A027748",
+    "A068563",
+    "A124239",
+    "A124241",
+    "A140470",
+    "A141766"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:12",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

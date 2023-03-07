@@ -1,0 +1,24 @@
+{
+  "description": "Number of 2-colored graphs on n labeled nodes.",
+  "id": "A213441",
+  "mentions": [
+    "A047863",
+    "A058843",
+    "A191371",
+    "A213442",
+    "A223887",
+    "A224068"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:55:33",
+    "offset": 1,
+    "size": 20,
+    "source": "joeis"
+  }
+}

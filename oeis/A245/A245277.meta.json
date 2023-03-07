@@ -1,0 +1,19 @@
+{
+  "description": "Largest prime all of whose substrings in its base n representation are primes.",
+  "id": "A245277",
+  "mentions": [
+    "A085823",
+    "A213300"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:01",
+    "offset": 3,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

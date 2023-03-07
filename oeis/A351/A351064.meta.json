@@ -1,0 +1,20 @@
+{
+  "description": "Minimal number of positive perfect powers, with different exponents, whose sum is n (considering only minimal possible exponents for bases equal to 1).",
+  "id": "A351064",
+  "mentions": [
+    "A111151",
+    "A351062",
+    "A351063",
+    "A351066"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 106,
+    "source": "oeis-entry"
+  }
+}

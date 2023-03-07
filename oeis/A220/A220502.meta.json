@@ -1,0 +1,23 @@
+{
+  "description": "spt(7n+5) where spt(n) = A092269(n).",
+  "id": "A220502",
+  "mentions": [
+    "A017041",
+    "A092269",
+    "A213261",
+    "A220485",
+    "A220503",
+    "A220507"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Numbers k such that A345001(k)*A048250(k) is equal to A342001(k)*A344753(k) and A345001(n)/A342001(n) is an integer.",
+  "id": "A345004",
+  "mentions": [
+    "A000396",
+    "A003415",
+    "A003557",
+    "A048250",
+    "A342001",
+    "A344753",
+    "A344754",
+    "A345001",
+    "A345003"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

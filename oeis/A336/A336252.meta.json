@@ -1,0 +1,24 @@
+{
+  "description": "Infinitary barely deficient numbers: infinitary deficient numbers whose infinitary abundancy is closer to 2 than that of any smaller infinitary deficient number.",
+  "id": "A336252",
+  "mentions": [
+    "A049417",
+    "A129657",
+    "A228450",
+    "A262228",
+    "A302572",
+    "A307122",
+    "A335054",
+    "A336253"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

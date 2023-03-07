@@ -1,0 +1,28 @@
+{
+  "description": "a(n) is the sum of the unitary divisors of n that are squares.",
+  "id": "A358347",
+  "mentions": [
+    "A033634",
+    "A034448",
+    "A035316",
+    "A056624",
+    "A077610",
+    "A078434",
+    "A247041",
+    "A268335",
+    "A351568",
+    "A358346"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:32",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

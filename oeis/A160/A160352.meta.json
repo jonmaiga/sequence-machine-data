@@ -1,0 +1,18 @@
+{
+  "description": "Numbers of the form pqr, where p",
+  "id": "A160352",
+  "mentions": [
+    "A007304",
+    "A160353"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

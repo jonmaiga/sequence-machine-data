@@ -1,0 +1,27 @@
+{
+  "description": "Number of weakly alternating permutations of the multiset {1,1,2,2,...,n,n}.",
+  "id": "A275829",
+  "mentions": [
+    "A000111",
+    "A000459",
+    "A001250",
+    "A004075",
+    "A005799",
+    "A114938",
+    "A137729",
+    "A137730",
+    "A137737",
+    "A137749",
+    "A275801"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:41",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

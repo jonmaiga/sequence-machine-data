@@ -1,0 +1,23 @@
+{
+  "description": "Triangle T(n,k), n>=2, 2 <= k <= A214046(n), read by rows, where T(n,k) = n! mod k^n.",
+  "id": "A340810",
+  "mentions": [
+    "A000142",
+    "A068496",
+    "A074184",
+    "A212309",
+    "A212310",
+    "A214046"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:13",
+    "offset": 2,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

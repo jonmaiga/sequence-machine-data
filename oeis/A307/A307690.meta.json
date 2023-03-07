@@ -1,0 +1,22 @@
+{
+  "description": "Integers with only one prime factor and whose Euler's totient is a perfect biquadrate.",
+  "id": "A307690",
+  "mentions": [
+    "A013776",
+    "A013806",
+    "A037896",
+    "A054755",
+    "A078164",
+    "A246655"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

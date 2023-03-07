@@ -1,0 +1,27 @@
+{
+  "description": "The length of primorial base expansion (number of significant digits) of A276086(A276086(n)), where A276086(n) converts primorial base expansion of n into its prime product form.",
+  "id": "A328405",
+  "mentions": [
+    "A000040",
+    "A061395",
+    "A143293",
+    "A235224",
+    "A276086",
+    "A276087",
+    "A328394",
+    "A328403",
+    "A328404",
+    "A328406"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:57",
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

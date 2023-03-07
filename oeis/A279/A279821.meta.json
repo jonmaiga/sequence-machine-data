@@ -1,0 +1,21 @@
+{
+  "description": "Composite numbers m with sqrt(m) not prime such that T(m) == 1 (mod m), where the central trinomial coefficient T(m) is the coefficient of x^m in the expansion of (x^2+x+1)^m.",
+  "id": "A279821",
+  "mentions": [
+    "A000040",
+    "A002426",
+    "A002808",
+    "A277640"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

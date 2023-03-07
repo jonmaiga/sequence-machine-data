@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k > 1 with sigma(k)/(k * log(log(k))) > sigma(m)/(m * log(log(m))) for all m > k, sigma(k) being A000203(k), the sum of the divisors of k.",
+  "id": "A350299",
+  "mentions": [
+    "A000203",
+    "A001620",
+    "A002093",
+    "A004394",
+    "A004490",
+    "A067698",
+    "A073004"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

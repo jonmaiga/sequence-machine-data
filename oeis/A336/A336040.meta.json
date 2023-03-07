@@ -1,0 +1,25 @@
+{
+  "description": "Characteristic function of refactorable numbers (A033950).",
+  "id": "A336040",
+  "mentions": [
+    "A000005",
+    "A033950",
+    "A054008",
+    "A335182",
+    "A335665",
+    "A336041",
+    "A349322"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:07",
+    "offset": 1,
+    "size": 92,
+    "source": "oeis-bfile"
+  }
+}

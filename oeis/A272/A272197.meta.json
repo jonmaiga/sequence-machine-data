@@ -1,0 +1,21 @@
+{
+  "description": "Number of solutions of the congruence y^2 == x^3 + 1 (mod p) as p runs through the primes.",
+  "id": "A272197",
+  "mentions": [
+    "A000040",
+    "A000727",
+    "A272198"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:37",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

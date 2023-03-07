@@ -1,0 +1,31 @@
+{
+  "description": "Trajectory of 3 under repeated application of the morphism sigma: 3 -> 3656, 5 -> 365656, 6 -> 3656656.",
+  "id": "A275925",
+  "mentions": [
+    "A000073",
+    "A080843",
+    "A092782",
+    "A140100",
+    "A140101",
+    "A140103",
+    "A273059",
+    "A276788",
+    "A276790",
+    "A276796",
+    "A276797",
+    "A276798",
+    "A277745",
+    "A305373"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:41",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

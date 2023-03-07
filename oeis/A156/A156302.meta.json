@@ -1,0 +1,21 @@
+{
+  "description": "G.f.: A(x) = exp( Sum_{n>=1} sigma(n)^2*x^n/n ), a power series in x with integer coefficients.",
+  "id": "A156302",
+  "mentions": [
+    "A000041",
+    "A000203",
+    "A001615",
+    "A060648"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 22:23:58",
+    "offset": 0,
+    "size": 32,
+    "source": "joeis"
+  }
+}

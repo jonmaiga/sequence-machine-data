@@ -1,0 +1,22 @@
+{
+  "description": "Positions of odd terms in A001001, where A001001(n) = Sum_{d|n} d*sigma(d).",
+  "id": "A353511",
+  "mentions": [
+    "A000265",
+    "A001001",
+    "A122132",
+    "A209635",
+    "A353456",
+    "A353628"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:28",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

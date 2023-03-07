@@ -1,0 +1,23 @@
+{
+  "description": "Sum of the second largest parts of the partitions of n into 4 squarefree parts.",
+  "id": "A308769",
+  "mentions": [
+    "A008683",
+    "A308762",
+    "A308767",
+    "A308768",
+    "A308770",
+    "A308783"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

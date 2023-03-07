@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = 1 for n= 0, a(n+1) = 2*a(n-a(n)).",
+  "id": "A330772",
+  "mentions": [
+    "A004001",
+    "A070867",
+    "A281130"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-entry"
+  }
+}

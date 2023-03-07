@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = floor(Pi^(n/2)).",
+  "id": "A102475",
+  "mentions": [
+    "A000796",
+    "A102477"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 12:47:20",
+    "offset": 0,
+    "size": 37,
+    "source": "joeis"
+  }
+}

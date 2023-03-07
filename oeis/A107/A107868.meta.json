@@ -1,0 +1,18 @@
+{
+  "description": "Column 0 of triangle A107867; a(n) = C( n*(n-1)/2 + n + 1, n).",
+  "id": "A107868",
+  "mentions": [
+    "A107867",
+    "A107869"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 16:49:54",
+    "offset": 0,
+    "size": 18,
+    "source": "joeis"
+  }
+}

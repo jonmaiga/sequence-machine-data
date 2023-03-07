@@ -1,0 +1,20 @@
+{
+  "description": "Conjectured number of positive even numbers that can be represented as the sum of two twin primes p + q in exactly n ways, with p >= q.",
+  "id": "A212888",
+  "mentions": [
+    "A001097",
+    "A007534",
+    "A129363",
+    "A212613"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:31",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Length of shortest prefix of the Möbius sequence (A008683) containing all possible length-n blocks that appear.",
+  "id": "A280468",
+  "mentions": [
+    "A008683",
+    "A280466"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

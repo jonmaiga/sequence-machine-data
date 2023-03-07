@@ -1,0 +1,19 @@
+{
+  "description": "Irregular triangle read by rows in which row n (n >= 1) lists the base-10 lunar divisors of n.",
+  "id": "A189506",
+  "mentions": [
+    "A087029",
+    "A087062"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

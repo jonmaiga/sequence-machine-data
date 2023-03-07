@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = (tan(1*Pi/13))^(2*n) + (tan(2*Pi/13))^(2*n) + (tan(3*Pi/13))^(2*n) + (tan(4*Pi/13))^(2*n) + (tan(5*Pi/13))^(2*n) + (tan(6*Pi/13))^(2*n).",
+  "id": "A353411",
+  "mentions": [
+    "A000244",
+    "A108716",
+    "A165225",
+    "A275546",
+    "A353410"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-10-18 14:56:45",
+    "offset": 0,
+    "size": 16,
+    "source": "joeis"
+  }
+}

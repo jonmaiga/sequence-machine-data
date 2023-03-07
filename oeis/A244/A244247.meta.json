@@ -1,0 +1,19 @@
+{
+  "description": "First prime in set of 3 palindromic primes in arithmetic progression ordered by the largest term in the progression.",
+  "id": "A244247",
+  "mentions": [
+    "A002385",
+    "A120627"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:00",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

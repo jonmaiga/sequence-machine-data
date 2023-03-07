@@ -1,0 +1,34 @@
+{
+  "description": "The length of a shortest path from n to a power of 2, when applying the nondeterministic maps k -> k - k/p and k -> k + k/p, where p can be any of the odd prime factors of k, and the maps can be applied in any order.",
+  "id": "A335885",
+  "mentions": [
+    "A000043",
+    "A000079",
+    "A000244",
+    "A001222",
+    "A046051",
+    "A052126",
+    "A171462",
+    "A209229",
+    "A335875",
+    "A335876",
+    "A335881",
+    "A335884",
+    "A335904",
+    "A335907",
+    "A335910",
+    "A335911",
+    "A335912"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:07",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

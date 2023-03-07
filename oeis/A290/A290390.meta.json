@@ -1,0 +1,25 @@
+{
+  "description": "Double repunit numbers: repunits with repunit indices.",
+  "id": "A290390",
+  "mentions": [
+    "A002275",
+    "A004022",
+    "A004023",
+    "A055642",
+    "A077585"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "bref",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Table read by rows: numbers m such that (2*n-m, 2*n+m) is a prime pair.",
+  "id": "A260689",
+  "mentions": [
+    "A010051",
+    "A040040",
+    "A069360",
+    "A088763",
+    "A264526",
+    "A264527"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:19",
+    "offset": 2,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

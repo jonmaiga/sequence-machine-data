@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of Sum_{p = prime} 1/(p*log p)^2.",
+  "id": "A319232",
+  "mentions": [
+    "A016627",
+    "A016650",
+    "A115563",
+    "A137245",
+    "A221711",
+    "A319231"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-entry"
+  }
+}

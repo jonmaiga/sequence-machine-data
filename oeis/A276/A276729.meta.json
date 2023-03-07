@@ -1,0 +1,28 @@
+{
+  "description": "Number of nonprime digits in the decimal expansion of n.",
+  "id": "A276729",
+  "mentions": [
+    "A011557",
+    "A046034",
+    "A055642",
+    "A084984",
+    "A085557",
+    "A085558",
+    "A193238",
+    "A202267",
+    "A202268"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

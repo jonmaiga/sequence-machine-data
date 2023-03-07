@@ -1,0 +1,21 @@
+{
+  "description": "Array read by columns: T(n,m) = number of unlabeled graphs with n vertices and m unicyclic components.",
+  "id": "A137918",
+  "mentions": [
+    "A001429",
+    "A137917",
+    "A138386"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:26",
+    "offset": 3,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

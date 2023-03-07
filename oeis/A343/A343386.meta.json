@@ -1,0 +1,23 @@
+{
+  "description": "Number of odd Motzkin n-paths, i.e., Motzkin n-paths with an odd number of up steps.",
+  "id": "A343386",
+  "mentions": [
+    "A000108",
+    "A001006",
+    "A024492",
+    "A100223",
+    "A107587"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:16",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

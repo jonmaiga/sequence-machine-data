@@ -1,0 +1,22 @@
+{
+  "description": "Square array T(m,n) = Card({ (i, j) : 1 <= i <= m, 1 <= j <= min(n, i), GCD(i, j) = 1 }), read by antidiagonals upwards.",
+  "id": "A355474",
+  "mentions": [
+    "A001221",
+    "A002088",
+    "A191743",
+    "A290110"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

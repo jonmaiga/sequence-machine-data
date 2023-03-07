@@ -1,0 +1,22 @@
+{
+  "description": "Primes containing 888 as a substring.",
+  "id": "A167290",
+  "mentions": [
+    "A166571",
+    "A166573",
+    "A166579",
+    "A166582",
+    "A167281",
+    "A167282"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:50",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

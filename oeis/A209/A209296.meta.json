@@ -1,0 +1,17 @@
+{
+  "description": "Primes obtained from recursively adding to a 0th term of 1 the product of the first k (current number of addends) primes not dividing the predecessor.",
+  "id": "A209296",
+  "mentions": [
+    "A187750"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

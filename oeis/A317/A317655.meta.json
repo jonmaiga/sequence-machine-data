@@ -1,0 +1,28 @@
+{
+  "description": "Number of free pure symmetric multifunctions with leaves a multiset whose multiplicities are the integer partition with Heinz number n.",
+  "id": "A317655",
+  "mentions": [
+    "A001003",
+    "A052893",
+    "A053492",
+    "A255906",
+    "A277996",
+    "A279944",
+    "A280000",
+    "A317652",
+    "A317653",
+    "A317654",
+    "A317656",
+    "A317658"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

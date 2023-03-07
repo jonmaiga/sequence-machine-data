@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that d(k) = 3^i*5*j with i,j >= 0, where d(k) is the number of divisors of k (A000005).",
+  "id": "A354180",
+  "mentions": [
+    "A000005",
+    "A000290",
+    "A003593"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:28",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

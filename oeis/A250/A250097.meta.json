@@ -1,0 +1,17 @@
+{
+  "description": "Denominator of the harmonic mean of the prime factors, without multiplicity, of n.",
+  "id": "A250097",
+  "mentions": [
+    "A250096"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:06",
+    "offset": 2,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

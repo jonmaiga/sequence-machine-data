@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of 1/Sum_{k>=0} (k+1)^(k+1)*x^k.",
+  "id": "A296617",
+  "mentions": [
+    "A000312",
+    "A077607",
+    "A294372",
+    "A296715"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:16",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

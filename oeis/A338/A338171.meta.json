@@ -1,0 +1,26 @@
+{
+  "description": "a(n) is the sum of those divisors d of n such that tau(d) divides sigma(d).",
+  "id": "A338171",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A003601",
+    "A065091",
+    "A334420",
+    "A334421",
+    "A338170",
+    "A338172"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:10",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

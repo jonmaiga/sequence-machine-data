@@ -1,0 +1,23 @@
+{
+  "description": "Lerch primes: odd primes that divide their Lerch quotients A197630.",
+  "id": "A197632",
+  "mentions": [
+    "A000720",
+    "A007540",
+    "A197630",
+    "A197631",
+    "A308963"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

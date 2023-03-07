@@ -1,0 +1,20 @@
+{
+  "description": "First occurrence of n in A213859.",
+  "id": "A213861",
+  "mentions": [
+    "A036236",
+    "A213407",
+    "A213859"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Number of permutations on [n] admitting a tenth root.",
+  "id": "A247008",
+  "mentions": [
+    "A247005"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:03",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

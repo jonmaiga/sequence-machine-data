@@ -1,0 +1,22 @@
+{
+  "description": "Indices of Catalan numbers that are divisible by 3.",
+  "id": "A111018",
+  "mentions": [
+    "A000108",
+    "A005836",
+    "A074940",
+    "A085296",
+    "A265100",
+    "A265104"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:02",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

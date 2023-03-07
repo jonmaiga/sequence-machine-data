@@ -1,0 +1,19 @@
+{
+  "description": "E.g.f.: sec(x)^3+(sec(x)^2*tan(x)).",
+  "id": "A225688",
+  "mentions": [
+    "A000111",
+    "A225689"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

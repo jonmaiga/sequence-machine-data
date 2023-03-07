@@ -1,0 +1,25 @@
+{
+  "description": "Smallest n-Knödel number, i.e., smallest composite c > n such that each b < c coprime to c satisfies b^(c-n) == 1 (mod c).",
+  "id": "A265261",
+  "mentions": [
+    "A033553",
+    "A050990",
+    "A050992",
+    "A050993",
+    "A208154",
+    "A208155",
+    "A208156",
+    "A208157",
+    "A208158"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:25",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

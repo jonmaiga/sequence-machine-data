@@ -1,0 +1,20 @@
+{
+  "description": "Central symmetric closed knight's tour on an 8 X 8 board, attributed to Euler. (n,m) position after (a(n,m)-1)th move.",
+  "id": "A226697",
+  "mentions": [
+    "A226698"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "fini",
+    "full",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

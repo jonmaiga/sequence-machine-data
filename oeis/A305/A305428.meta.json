@@ -1,0 +1,24 @@
+{
+  "description": "Permutation of nonnegative integers: a(1) = 0, a(2) = 1, a(2n) = 2*a(n), a(2n+1) = 1 + 2*a(A305422(2n+1)).",
+  "id": "A305428",
+  "mentions": [
+    "A054429",
+    "A091225",
+    "A243071",
+    "A305418",
+    "A305419",
+    "A305422",
+    "A305427"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:30",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

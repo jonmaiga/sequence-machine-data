@@ -1,0 +1,20 @@
+{
+  "description": "Values for b in abc-triples with a=1.",
+  "id": "A216323",
+  "mentions": [
+    "A007947",
+    "A216324",
+    "A216370"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

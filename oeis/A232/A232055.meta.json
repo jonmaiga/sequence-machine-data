@@ -1,0 +1,22 @@
+{
+  "description": "Triangular array read by rows: T(n,k) is the number of forests of rooted labeled trees such that the vertex labeled with 1 is in a component (rooted tree) of size k, n>=1, 1<=k<=n.",
+  "id": "A232055",
+  "mentions": [
+    "A000169",
+    "A000272",
+    "A000312",
+    "A081132"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

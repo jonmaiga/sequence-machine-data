@@ -1,0 +1,35 @@
+{
+  "description": "Triangle T that satisfies the matrix products: C*[T^-1]*C = T and T*[C^-1]*T = C, where C is Pascal's triangle.",
+  "id": "A118801",
+  "mentions": [
+    "A007051",
+    "A007318",
+    "A024537",
+    "A032807",
+    "A080956",
+    "A097805",
+    "A103595",
+    "A112857",
+    "A118800",
+    "A118802",
+    "A119258",
+    "A130595",
+    "A145661",
+    "A156644",
+    "A167374",
+    "A200139",
+    "A239473"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:42:05",
+    "offset": 0,
+    "size": 66,
+    "source": "joeis"
+  }
+}

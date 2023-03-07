@@ -1,0 +1,25 @@
+{
+  "description": "Row 2 of table A124560; also, the self-convolution square equals A124552, which is row 2 of table A124550.",
+  "id": "A124562",
+  "mentions": [
+    "A124550",
+    "A124551",
+    "A124552",
+    "A124560",
+    "A124563",
+    "A124564",
+    "A124565",
+    "A124566"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

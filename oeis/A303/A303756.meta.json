@@ -1,0 +1,21 @@
+{
+  "description": "Number of values of k, 1 <= k <= n, with A002322(k) = A002322(n), where A002322 is Carmichael lambda.",
+  "id": "A303756",
+  "mentions": [
+    "A002322",
+    "A081373",
+    "A303755",
+    "A303758"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:28",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

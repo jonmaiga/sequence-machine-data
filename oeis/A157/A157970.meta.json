@@ -1,0 +1,19 @@
+{
+  "description": "Evil twin locations: first members of pairs of consecutive evil numbers.",
+  "id": "A157970",
+  "mentions": [
+    "A000069",
+    "A001969",
+    "A157971"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:40",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

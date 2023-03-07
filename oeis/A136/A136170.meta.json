@@ -1,0 +1,24 @@
+{
+  "description": "Triangle T, read by rows, where row n of T = row n-1 of T^fibonacci(n) with appended '1' for n>=1 starting with a single '1' in row 0.",
+  "id": "A136170",
+  "mentions": [
+    "A101479",
+    "A132610",
+    "A132615",
+    "A136171",
+    "A136172",
+    "A136173"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

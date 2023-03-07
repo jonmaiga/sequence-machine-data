@@ -1,0 +1,27 @@
+{
+  "description": "Dirichlet g.f.: Product_{k>=2} (1 + k^(-s))^4.",
+  "id": "A339336",
+  "mentions": [
+    "A022569",
+    "A045778",
+    "A328706",
+    "A339319",
+    "A339335",
+    "A339337",
+    "A339338",
+    "A339339",
+    "A339340",
+    "A339341"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

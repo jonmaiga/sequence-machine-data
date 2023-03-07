@@ -1,0 +1,20 @@
+{
+  "description": "Number of anagrams of A342226(n) in A066310.",
+  "id": "A342227",
+  "mentions": [
+    "A066310",
+    "A342226"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = w_n(2), Wainer's fast-growing hierarchy function applied to two.",
+  "id": "A154714",
+  "mentions": [
+    "A275000"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "bref",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

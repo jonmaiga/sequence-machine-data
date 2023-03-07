@@ -1,0 +1,22 @@
+{
+  "description": "Pentagonal numbers (A000326) which are also centered hexagonal numbers (A003215).",
+  "id": "A254138",
+  "mentions": [
+    "A000326",
+    "A003215",
+    "A254136",
+    "A254137"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:12",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

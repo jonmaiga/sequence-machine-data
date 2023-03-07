@@ -1,0 +1,18 @@
+{
+  "description": "Nonprime integers n such that n divides A120492(n).",
+  "id": "A120329",
+  "mentions": [
+    "A120492",
+    "A121166"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

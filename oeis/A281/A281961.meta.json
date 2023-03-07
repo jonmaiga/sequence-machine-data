@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of one chronon (in seconds).",
+  "id": "A281961",
+  "mentions": [
+    "A003678",
+    "A078302",
+    "A081799",
+    "A081801",
+    "A081823",
+    "A183000"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "cons",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": -23,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

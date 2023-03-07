@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is obtained by replacing 2's by n's in the hereditary base-2 expansion of n.",
+  "id": "A343255",
+  "mentions": [
+    "A054382",
+    "A342707"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

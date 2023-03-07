@@ -1,0 +1,17 @@
+{
+  "description": "Index of first multiple of prime(n) in A282841.",
+  "id": "A282842",
+  "mentions": [
+    "A282841"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:53",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

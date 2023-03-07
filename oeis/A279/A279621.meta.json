@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that 1/phi(x) + 1/phi(y) = 1/phi(k), for some x + y = k and phi(k) is the Euler totient function of k.",
+  "id": "A279621",
+  "mentions": [
+    "A000010"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:47",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

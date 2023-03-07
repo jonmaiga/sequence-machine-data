@@ -1,0 +1,20 @@
+{
+  "description": "Triangular array T(m,n) read by antidiagonals: T(m,n) = prime(m+n) - prime(m) - prime(n).",
+  "id": "A360206",
+  "mentions": [
+    "A000040",
+    "A066066"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

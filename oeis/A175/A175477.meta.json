@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of the dimension in which the sphere of unit radius has unit volume.",
+  "id": "A175477",
+  "mentions": [
+    "A074455",
+    "A074457"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:59",
+    "offset": 2,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

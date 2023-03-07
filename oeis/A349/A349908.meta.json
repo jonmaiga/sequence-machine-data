@@ -1,0 +1,19 @@
+{
+  "description": "Positions of records in A351089.",
+  "id": "A349908",
+  "mentions": [
+    "A003415",
+    "A276086",
+    "A351089"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

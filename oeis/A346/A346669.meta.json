@@ -1,0 +1,22 @@
+{
+  "description": "Numbers r such that the number of nonnegative m < r such that m^k == m {mod r) is equal to k*(the number of nonnegative m < r such that -m^k == m (mod r)), where k = 2^A007814(r-1) + 1.",
+  "id": "A346669",
+  "mentions": [
+    "A002997",
+    "A007814",
+    "A065091",
+    "A182816",
+    "A333570",
+    "A340281"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

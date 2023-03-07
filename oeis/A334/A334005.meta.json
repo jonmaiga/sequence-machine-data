@@ -1,0 +1,18 @@
+{
+  "description": "Number of spanning trees in the graph P_10 x P_n.",
+  "id": "A334005",
+  "mentions": [
+    "A116469"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:05",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-bfile"
+  }
+}

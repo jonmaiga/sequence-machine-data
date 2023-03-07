@@ -1,0 +1,21 @@
+{
+  "description": "Let f(n) = maximal value of the weak Goodstein function g_k(n) for k >= 0; then a(n) = minimal value of k such that g_k(n) = f(n).",
+  "id": "A268689",
+  "mentions": [
+    "A266202",
+    "A266203",
+    "A268687",
+    "A268688"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

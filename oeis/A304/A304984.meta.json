@@ -1,0 +1,26 @@
+{
+  "description": "Number of labeled clutters (connected antichains) spanning some subset of {1,...,n} with singleton edges allowed.",
+  "id": "A304984",
+  "mentions": [
+    "A048143",
+    "A198085",
+    "A261006",
+    "A304912",
+    "A304981",
+    "A304982",
+    "A304983",
+    "A304985",
+    "A304986"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

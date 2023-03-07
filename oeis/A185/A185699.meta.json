@@ -1,0 +1,26 @@
+{
+  "description": "Expansion of (11 * E_2(x^11) - E_2(x)) / 2 in powers of x where E_2() is an Eisenstein series.",
+  "id": "A185699",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A006352",
+    "A006571",
+    "A010054",
+    "A010815",
+    "A121373",
+    "A272196"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:10",
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

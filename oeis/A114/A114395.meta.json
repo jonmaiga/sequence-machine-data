@@ -1,0 +1,18 @@
+{
+  "description": "Positions where A115873 takes for the first time a value distinct from any of its earlier values.",
+  "id": "A114395",
+  "mentions": [
+    "A114396",
+    "A115873"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

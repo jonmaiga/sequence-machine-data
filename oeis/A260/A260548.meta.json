@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = prime(1)^prime(2)^prime(3)^...^prime(n).",
+  "id": "A260548",
+  "mentions": [
+    "A140319",
+    "A248012"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Bitwise XOR of Pi base 2 and e base 2 (A114915) converted to decimal.",
+  "id": "A114916",
+  "mentions": [
+    "A114915",
+    "A291854",
+    "A291858"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that abs(n - rev(n)) is a square, where rev(n) is the decimal reverse of n (A004086).",
+  "id": "A278328",
+  "mentions": [
+    "A000290",
+    "A002113",
+    "A004086",
+    "A016766",
+    "A056965"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:45",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

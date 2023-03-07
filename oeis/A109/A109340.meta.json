@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of x^2*(1+x+4*x^2)/((1+x+x^2)*(1-x)^3).",
+  "id": "A109340",
+  "mentions": [
+    "A007980",
+    "A047240",
+    "A056107",
+    "A105770"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:49:25",
+    "offset": 0,
+    "size": 51,
+    "source": "joeis"
+  }
+}

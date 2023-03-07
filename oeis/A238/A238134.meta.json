@@ -1,0 +1,24 @@
+{
+  "description": "Number of primes p < n with q = floor((n-p)/4) and prime(q) - q + 1 both prime.",
+  "id": "A238134",
+  "mentions": [
+    "A000040",
+    "A045917",
+    "A046927",
+    "A234694",
+    "A234695",
+    "A235189",
+    "A237705",
+    "A238701"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

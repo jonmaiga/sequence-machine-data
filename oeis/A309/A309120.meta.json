@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the least k > 1 such that n*k is adjacent to a prime.",
+  "id": "A309120",
+  "mentions": [
+    "A104278",
+    "A147820",
+    "A307833"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:33",
+    "offset": 1,
+    "size": 94,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of 2Xn binary arrays with top left value 1 and no two ones adjacent horizontally, diagonally or antidiagonally.",
+  "id": "A228661",
+  "mentions": [
+    "A006130",
+    "A228660"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 19:26:51",
+    "offset": 1,
+    "size": 30,
+    "source": "joeis"
+  }
+}

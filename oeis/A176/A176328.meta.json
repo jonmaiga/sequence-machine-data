@@ -1,0 +1,22 @@
+{
+  "description": "Numerators of the rational sequence with e.g.f. (x/2)*(exp(-x) + 1)/(exp(x) - 1).",
+  "id": "A176328",
+  "mentions": [
+    "A027642",
+    "A141056",
+    "A176327",
+    "A176591"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

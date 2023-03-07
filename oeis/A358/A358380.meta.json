@@ -1,0 +1,27 @@
+{
+  "description": "a(n) = Sum_{d|n} tau(d^5), where tau(n) = number of divisors of n, cf. A000005.",
+  "id": "A358380",
+  "mentions": [
+    "A000005",
+    "A007425",
+    "A035116",
+    "A061391",
+    "A321348",
+    "A356574",
+    "A359037",
+    "A359038"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

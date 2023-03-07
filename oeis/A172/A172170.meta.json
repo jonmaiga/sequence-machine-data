@@ -1,0 +1,22 @@
+{
+  "description": "1 followed by the duplicated entries of A090368.",
+  "id": "A172170",
+  "mentions": [
+    "A000142",
+    "A034428",
+    "A090368",
+    "A099612",
+    "A099617"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

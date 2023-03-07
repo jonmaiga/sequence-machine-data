@@ -1,0 +1,19 @@
+{
+  "description": "Floor(A152170(n)/n^n). Floor of the expected value of the cardinality of the image of a function from [n] to [n].",
+  "id": "A209081",
+  "mentions": [
+    "A152170",
+    "A208846"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

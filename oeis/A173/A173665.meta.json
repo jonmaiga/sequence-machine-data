@@ -1,0 +1,19 @@
+{
+  "description": "Primes formed by the initial digits of the decimal expansion of 1/Catalan's constant.",
+  "id": "A173665",
+  "mentions": [
+    "A006752",
+    "A014538"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

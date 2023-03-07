@@ -1,0 +1,32 @@
+{
+  "description": "Square array, read by antidiagonals, where T(n,k) = binomial(2^k + n-1, k).",
+  "id": "A136555",
+  "mentions": [
+    "A014070",
+    "A060690",
+    "A132625",
+    "A132683",
+    "A132684",
+    "A132685",
+    "A132686",
+    "A132687",
+    "A132688",
+    "A132689",
+    "A136505",
+    "A136506",
+    "A136556",
+    "A136557"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:24",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

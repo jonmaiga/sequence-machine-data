@@ -1,0 +1,22 @@
+{
+  "description": "All friendly numbers, with smallest member of each club listed just before the second-smallest one.",
+  "id": "A259917",
+  "mentions": [
+    "A014567",
+    "A050973",
+    "A069059",
+    "A074902",
+    "A095301",
+    "A259918"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:18",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

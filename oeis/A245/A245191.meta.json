@@ -1,0 +1,19 @@
+{
+  "description": "Successive states of one-sided one-dimensional cellular automaton using Rule 90, starting with a single ON cell, converted to decimal.",
+  "id": "A245191",
+  "mentions": [
+    "A038183",
+    "A189007"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:01",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

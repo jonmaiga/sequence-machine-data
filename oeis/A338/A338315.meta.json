@@ -1,0 +1,44 @@
+{
+  "description": "Number of integer partitions of n with no 1's whose distinct parts are pairwise coprime, where a singleton is not considered coprime unless it is (1).",
+  "id": "A338315",
+  "mentions": [
+    "A007359",
+    "A051424",
+    "A101268",
+    "A200976",
+    "A220377",
+    "A302568",
+    "A302696",
+    "A304709",
+    "A304711",
+    "A305713",
+    "A318717",
+    "A327516",
+    "A328673",
+    "A328867",
+    "A333227",
+    "A333228",
+    "A337462",
+    "A337485",
+    "A337561",
+    "A337563",
+    "A337665",
+    "A337666",
+    "A337667",
+    "A337697",
+    "A337984",
+    "A337987",
+    "A338316",
+    "A338317"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Difference between 10^n and the first prime of gap 6 > 10^n.",
+  "id": "A227435",
+  "mentions": [
+    "A124001",
+    "A227432"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

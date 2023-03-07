@@ -1,0 +1,20 @@
+{
+  "description": "Row sums of A197208.",
+  "id": "A197209",
+  "mentions": [
+    "A007318",
+    "A197208"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:18",
+    "offset": 2,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

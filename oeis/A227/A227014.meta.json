@@ -1,0 +1,19 @@
+{
+  "description": "Floor(M(g(n-1)+1,..,g(n))), where M = harmonic mean and g(n) = n^5.",
+  "id": "A227014",
+  "mentions": [
+    "A227012",
+    "A227013"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

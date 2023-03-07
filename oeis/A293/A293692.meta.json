@@ -1,0 +1,19 @@
+{
+  "description": "Numbers z such that x^2 + y^7 = z^2 for positive integers x and y.",
+  "id": "A293692",
+  "mentions": [
+    "A070745",
+    "A228946",
+    "A293284"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

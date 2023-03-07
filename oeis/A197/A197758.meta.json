@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of least x>0 having sin(2x)=4*sin(8x).",
+  "id": "A197758",
+  "mentions": [
+    "A003881",
+    "A019692",
+    "A197739",
+    "A197759",
+    "A197760",
+    "A197761"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:55",
+    "offset": 0,
+    "size": 99,
+    "source": "joeis"
+  }
+}

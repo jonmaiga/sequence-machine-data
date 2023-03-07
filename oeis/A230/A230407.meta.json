@@ -1,0 +1,25 @@
+{
+  "description": "Absolute value of a(n) tells the size of the n-th side-tree (\"tendril\", A230430(n)) in the factorial beanstalk; the sign tells on which side of the infinite trunk (A219666) it is.",
+  "id": "A230407",
+  "mentions": [
+    "A007623",
+    "A218618",
+    "A219651",
+    "A219666",
+    "A230408",
+    "A230409",
+    "A230427",
+    "A230430"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:48",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

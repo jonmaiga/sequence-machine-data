@@ -1,0 +1,21 @@
+{
+  "description": "Primes q with result 1 under iterations of {r mod (max prime p < r)} starting at r = q.",
+  "id": "A175073",
+  "mentions": [
+    "A025584",
+    "A156828",
+    "A175071",
+    "A175074",
+    "A175080"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

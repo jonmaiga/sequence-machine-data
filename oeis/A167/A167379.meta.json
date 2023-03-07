@@ -1,0 +1,19 @@
+{
+  "description": "Let p and q be twin primes, excluding the pair (3,5). Then p+q is always divisible by 6 and we set a(n) = (p+q)/6.",
+  "id": "A167379",
+  "mentions": [
+    "A001359",
+    "A002822"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:43:23",
+    "offset": 1,
+    "size": 57,
+    "source": "joeis"
+  }
+}

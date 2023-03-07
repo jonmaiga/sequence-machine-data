@@ -1,0 +1,34 @@
+{
+  "description": "Number of cyclic arrangements of {0,1,...,n-1} such that both the difference and the sum of any two neighbors are prime.",
+  "id": "A242528",
+  "mentions": [
+    "A227050",
+    "A242519",
+    "A242520",
+    "A242521",
+    "A242522",
+    "A242523",
+    "A242524",
+    "A242525",
+    "A242526",
+    "A242527",
+    "A242529",
+    "A242530",
+    "A242531",
+    "A242532",
+    "A242533",
+    "A242534"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

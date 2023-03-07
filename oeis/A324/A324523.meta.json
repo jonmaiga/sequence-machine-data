@@ -1,0 +1,18 @@
+{
+  "description": "Number of colored set partitions of [2n] where elements of subsets have distinct colors and exactly n colors are used.",
+  "id": "A324523",
+  "mentions": [
+    "A323128"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:50",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

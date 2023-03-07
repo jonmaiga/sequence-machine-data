@@ -1,0 +1,26 @@
+{
+  "description": "Least prime divisor of the n-th Domb number D(n) which does not divide any D(k) with k < n, or 1 if such a primitive prime divisor of D(n) does not exist.",
+  "id": "A242207",
+  "mentions": [
+    "A000040",
+    "A002895",
+    "A242169",
+    "A242170",
+    "A242171",
+    "A242173",
+    "A242174",
+    "A242193",
+    "A242194",
+    "A242195"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

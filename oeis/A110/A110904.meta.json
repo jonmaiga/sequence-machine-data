@@ -1,0 +1,18 @@
+{
+  "description": "Integers that can be expressed as a product of triangular numbers in 3 different ways.",
+  "id": "A110904",
+  "mentions": [
+    "A085780",
+    "A264961"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:02",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

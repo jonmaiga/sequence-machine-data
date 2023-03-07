@@ -1,0 +1,19 @@
+{
+  "description": "Start with three pennies touching each other on a tabletop. In each generation, add pennies subject to the rule that a penny can be placed only when (at least) two pennies are already in position to determine its position; sequence gives number of pennies added at generation n.",
+  "id": "A136289",
+  "mentions": [
+    "A136290",
+    "A204259"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

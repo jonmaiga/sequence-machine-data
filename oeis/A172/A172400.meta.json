@@ -1,0 +1,22 @@
+{
+  "description": "G.f.: 1/(1-x) = (1-x*y) * Sum_{k>=0} Sum_{n>=k} T(n,k)*x^n*y^k/(1+x)^(2^n-2^k).",
+  "id": "A172400",
+  "mentions": [
+    "A001192",
+    "A172401",
+    "A172402",
+    "A172403"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Numbers which can be represented as a sum of 3 relatively prime positive integers such that each pair of them is not coprime.",
+  "id": "A230035",
+  "mentions": [
+    "A230034",
+    "A284825"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = lambda(n)*E(n), where lambda(n) = A008836(n) and E(n) = A005361(n).",
+  "id": "A303915",
+  "mentions": [
+    "A005361",
+    "A008836",
+    "A048691",
+    "A092520"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Main diagonal of array in A320500.",
+  "id": "A320501",
+  "mentions": [
+    "A320500"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

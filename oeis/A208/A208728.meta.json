@@ -1,0 +1,25 @@
+{
+  "description": "Composite numbers n such that b^(n+1) == 1 (mod n) for every b coprime to n.",
+  "id": "A208728",
+  "mentions": [
+    "A002322",
+    "A002997",
+    "A006972",
+    "A033553",
+    "A050990",
+    "A050992",
+    "A050993",
+    "A208154",
+    "A208158"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:28",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

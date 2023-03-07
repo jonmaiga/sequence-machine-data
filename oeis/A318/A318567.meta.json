@@ -1,0 +1,31 @@
+{
+  "description": "Number of pairs (c, y) where c is an integer composition and y is an integer partition and y can be obtained from c by choosing a partition of each part, flattening, and sorting.",
+  "id": "A318567",
+  "mentions": [
+    "A000041",
+    "A007716",
+    "A011782",
+    "A034691",
+    "A255906",
+    "A265947",
+    "A269134",
+    "A317533",
+    "A317791",
+    "A318396",
+    "A318559",
+    "A318560",
+    "A318562",
+    "A318565"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

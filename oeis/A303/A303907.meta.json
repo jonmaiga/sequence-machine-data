@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of Product_{k>=2} (1 + x^(k*(k+1)/2)).",
+  "id": "A303907",
+  "mentions": [
+    "A000217",
+    "A024940",
+    "A025147",
+    "A280129",
+    "A303906"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:28",
+    "offset": 0,
+    "size": 96,
+    "source": "oeis-bfile"
+  }
+}

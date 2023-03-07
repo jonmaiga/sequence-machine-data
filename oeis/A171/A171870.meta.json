@@ -1,0 +1,18 @@
+{
+  "description": "For odd numbers x, a(x) is the number of complex numbers z in the zx + 1 problem giving the same number of iterations as the 3x + 1 problem requires to reach 1.",
+  "id": "A171870",
+  "mentions": [
+    "A075680"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

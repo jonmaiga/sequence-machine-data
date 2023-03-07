@@ -1,0 +1,19 @@
+{
+  "description": "Positive values of k such that A014286(k) is divisible by k.",
+  "id": "A263578",
+  "mentions": [
+    "A000045",
+    "A014286"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Squared numerator of y-coordinate of 3rd point of the n-th triangle with integer sides in a sorted list corresponding to A331695. The y-coordinate is given by sqrt(a(n))/A331696(n).",
+  "id": "A331697",
+  "mentions": [
+    "A316841",
+    "A316843",
+    "A316844",
+    "A316845",
+    "A331695",
+    "A331696"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

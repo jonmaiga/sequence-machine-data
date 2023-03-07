@@ -1,0 +1,19 @@
+{
+  "description": "Number of times each term of the sequence A025586 (largest value in Collatz trajectory of n) occurs.",
+  "id": "A275109",
+  "mentions": [
+    "A025586",
+    "A033496",
+    "A095387"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

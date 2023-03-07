@@ -1,0 +1,21 @@
+{
+  "description": "Maximum number of different possible residues of the division of prime(k) by primorial(n), with k such that prime(k) > primorial(n).",
+  "id": "A276497",
+  "mentions": [
+    "A000849",
+    "A048862",
+    "A276435"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

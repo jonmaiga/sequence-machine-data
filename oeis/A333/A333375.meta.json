@@ -1,0 +1,17 @@
+{
+  "description": "Start with a(0) = a(1) = 1. If a(n) = n is the rightmost term defined so far, let a(m) = m := n + a(n-1). If the terms between a(n) and a(m) are undefined, let a(n+1) = a(n) + a(m) and if m > n+1, a(m-1) = a(n+1) + a(m).",
+  "id": "A333375",
+  "mentions": [
+    "A000045"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

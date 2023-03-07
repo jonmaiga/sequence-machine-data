@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = (prime(n) mod 9) + (prime(n) mod 10).",
+  "id": "A302660",
+  "mentions": [
+    "A007652",
+    "A038194"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:27",
+    "offset": 1,
+    "size": 95,
+    "source": "oeis-bfile"
+  }
+}

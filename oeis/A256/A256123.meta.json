@@ -1,0 +1,17 @@
+{
+  "description": "Primes p such that all six iterations of the map p->2p+nextprime(p) give primes.",
+  "id": "A256123",
+  "mentions": [
+    "A255694"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

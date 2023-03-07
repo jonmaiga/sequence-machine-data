@@ -1,0 +1,17 @@
+{
+  "description": "Equals two maps: number of n X n binary arrays indicating the locations of corresponding elements equal to exactly two of their horizontal and antidiagonal neighbors in a random 0..3 n X n array",
+  "id": "A221287",
+  "mentions": [
+    "A221290"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

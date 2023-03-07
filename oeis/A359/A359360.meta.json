@@ -1,0 +1,39 @@
+{
+  "description": "Length times minimum part of the integer partition with Heinz number n. Least prime index of n times number of prime indices of n.",
+  "id": "A359360",
+  "mentions": [
+    "A001222",
+    "A006141",
+    "A055396",
+    "A056239",
+    "A061395",
+    "A112798",
+    "A124010",
+    "A241916",
+    "A243055",
+    "A246277",
+    "A268192",
+    "A316413",
+    "A325352",
+    "A326836",
+    "A326837",
+    "A326844",
+    "A326846",
+    "A355534",
+    "A356958",
+    "A358172",
+    "A358195",
+    "A359358"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-entry"
+  }
+}

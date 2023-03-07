@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of e.g.f. BesselI(0,2*log(1 + x)) + BesselI(1,2*log(1 + x)).",
+  "id": "A306335",
+  "mentions": [
+    "A001405",
+    "A048994",
+    "A086672",
+    "A305560"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

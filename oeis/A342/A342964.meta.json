@@ -1,0 +1,22 @@
+{
+  "description": "Constant term in the expansion of ( (Sum_{j=0..n} x^(2*j+1)+1/x^(2*j+1)) * (Sum_{j=0..n} y^(2*j+1)+1/y^(2*j+1)) - (Sum_{j=0..n-1} x^(2*j+1)+1/x^(2*j+1)) * (Sum_{j=0..n-1} y^(2*j+1)+1/y^(2*j+1)) )^(2*n).",
+  "id": "A342964",
+  "mentions": [
+    "A002894",
+    "A328716",
+    "A329024",
+    "A329066",
+    "A329067",
+    "A329076"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

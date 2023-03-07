@@ -1,0 +1,21 @@
+{
+  "description": "Semiprimes of the form floor(e^k).",
+  "id": "A117836",
+  "mentions": [
+    "A000040",
+    "A000149",
+    "A001358",
+    "A074496"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:07",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-bfile"
+  }
+}

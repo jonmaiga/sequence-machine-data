@@ -1,0 +1,17 @@
+{
+  "description": "Number of primes < (highest prime dividing any composite between the n-th and (n+1)th prime) that are coprime to every composite between the n-th and (n+1)th prime.",
+  "id": "A116992",
+  "mentions": [
+    "A052248"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:07",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

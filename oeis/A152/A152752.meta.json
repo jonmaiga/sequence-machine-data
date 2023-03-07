@@ -1,0 +1,17 @@
+{
+  "description": "Terms of A118962 that are == 9 (mod 10).",
+  "id": "A152752",
+  "mentions": [
+    "A118962"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

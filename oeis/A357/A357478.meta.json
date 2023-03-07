@@ -1,0 +1,17 @@
+{
+  "description": "Numbers n such that both n and n+1 are in A175729.",
+  "id": "A357478",
+  "mentions": [
+    "A175729"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:31",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

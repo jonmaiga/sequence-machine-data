@@ -1,0 +1,22 @@
+{
+  "description": "Number of hook length posets with n elements.",
+  "id": "A124480",
+  "mentions": [
+    "A000112",
+    "A124016",
+    "A124481",
+    "A124482",
+    "A124483"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

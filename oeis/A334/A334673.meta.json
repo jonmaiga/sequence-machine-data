@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = 23*a(n-1) - a(n-2) + 1 for n > 1, a(0)=0, a(1)=1.",
+  "id": "A334673",
+  "mentions": [
+    "A004254",
+    "A097778",
+    "A160695",
+    "A212336"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:06",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

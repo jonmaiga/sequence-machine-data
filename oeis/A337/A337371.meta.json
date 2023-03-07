@@ -1,0 +1,23 @@
+{
+  "description": "Integers k with abs(sin(k)) < 1/k.",
+  "id": "A337371",
+  "mentions": [
+    "A002485",
+    "A046965",
+    "A088306",
+    "A092328",
+    "A096456",
+    "A332095",
+    "A337249"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

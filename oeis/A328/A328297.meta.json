@@ -1,0 +1,26 @@
+{
+  "description": "Number T(n,k) of n-step walks on cubic lattice starting at (0,0,0), ending at (x,y,z) with x=k, remaining in the first (nonnegative) octant and using steps (0,0,1), (0,1,0), (1,0,0), (-1,1,1), (1,-1,1), and (1,1,-1); triangle T(n,k), n>=0, 0<=k<=n, read by rows.",
+  "id": "A328297",
+  "mentions": [
+    "A000012",
+    "A000918",
+    "A038207",
+    "A328295",
+    "A328296",
+    "A328299",
+    "A328300",
+    "A328427"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabl",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:57",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

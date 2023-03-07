@@ -1,0 +1,23 @@
+{
+  "description": "Sums of three consecutive heptagonal numbers.",
+  "id": "A129111",
+  "mentions": [
+    "A000566",
+    "A007667",
+    "A034961",
+    "A129803",
+    "A129863"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:54:11",
+    "offset": 0,
+    "size": 44,
+    "source": "joeis"
+  }
+}

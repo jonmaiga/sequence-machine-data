@@ -1,0 +1,19 @@
+{
+  "description": "Triangle T(n,k), 1<=k<=n, read by rows given by T(n,k) = A003266(n)/A000045(k).",
+  "id": "A121284",
+  "mentions": [
+    "A000045",
+    "A003266"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

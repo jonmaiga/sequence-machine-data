@@ -1,0 +1,18 @@
+{
+  "description": "Differences between adjacent digits of square root of 2.",
+  "id": "A153012",
+  "mentions": [
+    "A002193"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

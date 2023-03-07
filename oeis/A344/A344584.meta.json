@@ -1,0 +1,25 @@
+{
+  "description": "Difference between the inverse Möbius transform of the arithmetic derivative of n and the sum of the proper divisors of n: a(n) = A319684(n) - A001065(n).",
+  "id": "A344584",
+  "mentions": [
+    "A000203",
+    "A001065",
+    "A003415",
+    "A168036",
+    "A211991",
+    "A319683",
+    "A319684",
+    "A344178"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:17",
+    "offset": 1,
+    "size": 96,
+    "source": "oeis-bfile"
+  }
+}

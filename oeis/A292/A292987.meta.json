@@ -1,0 +1,21 @@
+{
+  "description": "Beatty sequence of the real root of x^5 - x^4 - x^2 - 1; complement of A292988.",
+  "id": "A292987",
+  "mentions": [
+    "A140758",
+    "A187342",
+    "A292988",
+    "A293506"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 114,
+    "source": "oeis-entry"
+  }
+}

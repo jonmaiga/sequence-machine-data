@@ -1,0 +1,26 @@
+{
+  "description": "Numbers with digits 2 and 7 only.",
+  "id": "A284921",
+  "mentions": [
+    "A007931",
+    "A020459",
+    "A032810",
+    "A072961",
+    "A169965",
+    "A284632",
+    "A284920",
+    "A284922",
+    "A284923"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:23:17",
+    "offset": 1,
+    "size": 44,
+    "source": "joeis"
+  }
+}

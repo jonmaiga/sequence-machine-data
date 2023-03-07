@@ -1,0 +1,19 @@
+{
+  "description": "Smallest prime factor of 6*n+1.",
+  "id": "A107744",
+  "mentions": [
+    "A107745",
+    "A107746",
+    "A107747"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

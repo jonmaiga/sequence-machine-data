@@ -1,0 +1,28 @@
+{
+  "description": "Number of strict square plane partitions of n.",
+  "id": "A323529",
+  "mentions": [
+    "A000219",
+    "A008289",
+    "A039622",
+    "A047966",
+    "A089299",
+    "A101509",
+    "A319066",
+    "A323429",
+    "A323434",
+    "A323522",
+    "A323530"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:47",
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

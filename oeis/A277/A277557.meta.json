@@ -1,0 +1,39 @@
+{
+  "description": "The ordered image of the 1-to-1 mapping of an integer ordered pair (x,y) into an integer using Cantor's pairing function, where 0 < x < y, gcd(x,y)=1 and x+y odd.",
+  "id": "A277557",
+  "mentions": [
+    "A001477",
+    "A002262",
+    "A008846",
+    "A020882",
+    "A020887",
+    "A020888",
+    "A024362",
+    "A024406",
+    "A025581",
+    "A046079",
+    "A046087",
+    "A048147",
+    "A070151",
+    "A120427",
+    "A156678",
+    "A156679",
+    "A156680",
+    "A156683",
+    "A156685",
+    "A222946",
+    "A243808",
+    "A277632",
+    "A278147"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

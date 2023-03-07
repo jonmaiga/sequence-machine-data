@@ -1,0 +1,24 @@
+{
+  "description": "Differences between successive permutations of 1,2,3,4,5 regarded as decimal numbers arranged in increasing order.",
+  "id": "A107346",
+  "mentions": [
+    "A030299",
+    "A209280",
+    "A219664"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:59",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

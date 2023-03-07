@@ -1,0 +1,18 @@
+{
+  "description": "Indices of 0's in A047999.",
+  "id": "A268232",
+  "mentions": [
+    "A047999",
+    "A268231"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:30",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

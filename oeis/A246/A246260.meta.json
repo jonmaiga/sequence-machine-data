@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = 1 if A003961(n) is of the form 4k+1, otherwise a(n) = 0, (when A003961(n) is of the form 4k+3). [A003961 is fully multiplicative with a(p) = nextprime(p)].",
+  "id": "A246260",
+  "mentions": [
+    "A000035",
+    "A003961",
+    "A048673",
+    "A246261",
+    "A246262",
+    "A246271",
+    "A341346"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:02",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Starting with a(1) = 6, a(n) is the smallest number whose sum of prime divisors (taken with multiplicity) is a(n-1). In other words, a(n) = A056240(a(n-1)).",
+  "id": "A318387",
+  "mentions": [
+    "A001414",
+    "A002217",
+    "A048133",
+    "A056240"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

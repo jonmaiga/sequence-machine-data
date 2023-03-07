@@ -1,0 +1,31 @@
+{
+  "description": "Lexicographically earliest sequence of positive integers that have at most one prime index already in the sequence, counting multiplicity.",
+  "id": "A331784",
+  "mentions": [
+    "A000002",
+    "A000040",
+    "A000720",
+    "A001222",
+    "A001462",
+    "A112798",
+    "A324694",
+    "A324695",
+    "A324696",
+    "A331683",
+    "A331785",
+    "A331873",
+    "A331912",
+    "A331913",
+    "A331914"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

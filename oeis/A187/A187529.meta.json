@@ -1,0 +1,17 @@
+{
+  "description": "Number of 3X3 0..n arrays with each 2X2 subblock determinant nonzero and the array of 2X2 subblock determinants symmetric under 90 degree rotation",
+  "id": "A187529",
+  "mentions": [
+    "A187528"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:12",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

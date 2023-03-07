@@ -1,0 +1,20 @@
+{
+  "description": "a(1) = 1. a(n) is the smallest unlisted number, the name of which does not contain the first letter of the name of a(n-1) in US English.",
+  "id": "A350218",
+  "mentions": [
+    "A277971",
+    "A277972",
+    "A350217"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "The p values which produce new terms in A112037.",
+  "id": "A112038",
+  "mentions": [
+    "A061303",
+    "A112037",
+    "A114461"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

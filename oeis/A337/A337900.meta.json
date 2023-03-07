@@ -1,0 +1,26 @@
+{
+  "description": "The number of walks of length 2n on the square lattice that start from the origin (0,0) and end at the vertex (2,0).",
+  "id": "A337900",
+  "mentions": [
+    "A001791",
+    "A002894",
+    "A060150",
+    "A135389",
+    "A337869",
+    "A337901",
+    "A337902"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2022-05-03 00:31:57",
+    "offset": 1,
+    "size": 19,
+    "source": "joeis"
+  }
+}

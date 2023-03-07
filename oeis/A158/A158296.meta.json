@@ -1,0 +1,19 @@
+{
+  "description": "Primes p such that 12*p^2 -+ 1 are twin primes.",
+  "id": "A158296",
+  "mentions": [
+    "A088483",
+    "A120364",
+    "A158295"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:40",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

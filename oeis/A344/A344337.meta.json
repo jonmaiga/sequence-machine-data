@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = 9^omega(n), where omega(n) is the number of distinct primes dividing n.",
+  "id": "A344337",
+  "mentions": [
+    "A000005",
+    "A001019",
+    "A001221",
+    "A034444",
+    "A074816",
+    "A082476"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:24",
+    "offset": 1,
+    "size": 76,
+    "source": "joeis"
+  }
+}

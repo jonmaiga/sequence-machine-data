@@ -1,0 +1,24 @@
+{
+  "description": "(-1)^(n+1)*A091137(n)*a(0,n), where a(i,j) = Integral_{x=i..i+1} x*(x-1)*(x-2)*...*(x-j+1)/j! dx.",
+  "id": "A141417",
+  "mentions": [
+    "A002196",
+    "A027760",
+    "A048994",
+    "A091137",
+    "A140811",
+    "A140825",
+    "A141047"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

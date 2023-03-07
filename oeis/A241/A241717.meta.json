@@ -1,0 +1,23 @@
+{
+  "description": "The number of P-positions in the game of Nim with up to 3 piles, allowing for piles of zero, such that the number of objects in the largest pile is n.",
+  "id": "A241717",
+  "mentions": [
+    "A000302",
+    "A011782",
+    "A068156",
+    "A236305",
+    "A241718",
+    "A241731"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

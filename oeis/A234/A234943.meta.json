@@ -1,0 +1,30 @@
+{
+  "description": "Array read by antidiagonals: T(i,j) = size of optimal difference triangle set M(i,j).",
+  "id": "A234943",
+  "mentions": [
+    "A000027",
+    "A003022",
+    "A010895",
+    "A010896",
+    "A010897",
+    "A010898",
+    "A010899",
+    "A013574",
+    "A013575",
+    "A013576",
+    "A013577",
+    "A234947"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

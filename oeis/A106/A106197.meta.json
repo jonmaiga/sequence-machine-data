@@ -1,0 +1,20 @@
+{
+  "description": "Analog of A094091 for S=4.",
+  "id": "A106197",
+  "mentions": [
+    "A094091",
+    "A105306"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of permutations on [n+4] with no circular 4-successions.",
+  "id": "A284845",
+  "mentions": [
+    "A277609"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

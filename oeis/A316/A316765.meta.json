@@ -1,0 +1,22 @@
+{
+  "description": "A self-\"read and extend\" sequence built following the three rules given in the Comments section.",
+  "id": "A316765",
+  "mentions": [
+    "A316749",
+    "A316750",
+    "A316758",
+    "A316764"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:35",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

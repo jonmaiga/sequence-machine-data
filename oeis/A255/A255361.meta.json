@@ -1,0 +1,20 @@
+{
+  "description": "Number of ways n can be represented as x*y+x+y where x>=y>1.",
+  "id": "A255361",
+  "mentions": [
+    "A000005",
+    "A253975",
+    "A254636"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:13",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

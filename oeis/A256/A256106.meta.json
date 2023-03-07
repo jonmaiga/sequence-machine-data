@@ -1,0 +1,19 @@
+{
+  "description": "Number of ways to write n as w + x + 2*y + 4*z, where w,x,y,z are hexagonal numbers with w <= x.",
+  "id": "A256106",
+  "mentions": [
+    "A000326",
+    "A000384",
+    "A255350"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Integral factorial ratio sequence: a(n) = (2*n)!*(8*n)!/(n!*(4*n)!*(5*n)!).",
+  "id": "A182400",
+  "mentions": [
+    "A000984",
+    "A005810",
+    "A211419"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:06",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

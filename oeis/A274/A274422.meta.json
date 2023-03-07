@@ -1,0 +1,21 @@
+{
+  "description": "Numbers m such that there exists a j for which m = Sum_{k=1..j} (m mod k), where k runs through the largest j primes less than m.",
+  "id": "A274422",
+  "mentions": [
+    "A000040",
+    "A024934",
+    "A274423",
+    "A274424"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:39",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

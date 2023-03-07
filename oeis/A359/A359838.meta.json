@@ -1,0 +1,26 @@
+{
+  "description": "Continued fraction for binary expansion of A359456 interpreted in base 2.",
+  "id": "A359838",
+  "mentions": [
+    "A014710",
+    "A317538",
+    "A317539",
+    "A359456",
+    "A359457",
+    "A359458"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "cofr",
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

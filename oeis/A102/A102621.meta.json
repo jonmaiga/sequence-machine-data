@@ -1,0 +1,23 @@
+{
+  "description": "Number of distinct prime factors of (nonprime A018252(n) concatenated A018252(n) times).",
+  "id": "A102621",
+  "mentions": [
+    "A001221",
+    "A018252",
+    "A101081",
+    "A102622"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Decimal expansion of the pearl of the Riemann zeta function.",
+  "id": "A352495",
+  "mentions": [
+    "A072449",
+    "A099874",
+    "A099876",
+    "A099877",
+    "A105546",
+    "A105817",
+    "A151558",
+    "A239349",
+    "A277313",
+    "A278812"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:26",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

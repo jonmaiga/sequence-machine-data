@@ -1,0 +1,24 @@
+{
+  "description": "The Matula-Goebel numbers of the rooted trees having 8 vertices.",
+  "id": "A214572",
+  "mentions": [
+    "A000081",
+    "A005517",
+    "A005518",
+    "A061773",
+    "A061775"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 115,
+    "source": "oeis-entry"
+  }
+}

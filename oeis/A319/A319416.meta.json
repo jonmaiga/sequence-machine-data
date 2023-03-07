@@ -1,0 +1,32 @@
+{
+  "description": "Cuts-resistance of n: number of applications of Lernormand's \"raboter\" map needed to transform the binary expansion of n to the empty string.",
+  "id": "A319416",
+  "mentions": [
+    "A000975",
+    "A318921",
+    "A318928",
+    "A319411",
+    "A319419",
+    "A319420",
+    "A319421",
+    "A320487",
+    "A329744",
+    "A329767",
+    "A329860",
+    "A329861",
+    "A329862",
+    "A329863",
+    "A329865"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:41",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

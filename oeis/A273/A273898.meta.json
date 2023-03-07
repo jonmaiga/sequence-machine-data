@@ -1,0 +1,19 @@
+{
+  "description": "Sum of the abscissae of the first descents of all bargraphs of semiperimeter n (n>=2).",
+  "id": "A273898",
+  "mentions": [
+    "A082582",
+    "A273897"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:38",
+    "offset": 2,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

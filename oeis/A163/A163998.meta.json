@@ -1,0 +1,22 @@
+{
+  "description": "Primes p having the same parity as the number of partitions of p.",
+  "id": "A163998",
+  "mentions": [
+    "A000040",
+    "A000041",
+    "A040051",
+    "A052002",
+    "A163997",
+    "A194798"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

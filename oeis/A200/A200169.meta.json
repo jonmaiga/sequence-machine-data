@@ -1,0 +1,17 @@
+{
+  "description": "Number of -n..n arrays x(0..5) of 6 elements with nonzero sum and with zero through 5 differences all nonzero",
+  "id": "A200169",
+  "mentions": [
+    "A200165"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:21",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

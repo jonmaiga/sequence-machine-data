@@ -1,0 +1,27 @@
+{
+  "description": "Triangle read by rows, T(n,k) = spt_k(n), in which column k lists the k-th order spt-function (without the first k-1 zeros), n >= 1, k >= 1.",
+  "id": "A211977",
+  "mentions": [
+    "A000041",
+    "A092269",
+    "A220908",
+    "A220909",
+    "A221140",
+    "A221141",
+    "A221142",
+    "A221143",
+    "A221144"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

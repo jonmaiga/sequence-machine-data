@@ -1,0 +1,22 @@
+{
+  "description": "Positive integers of the form (2*m^2+1)/11.",
+  "id": "A179088",
+  "mentions": [
+    "A000290",
+    "A113338",
+    "A179337",
+    "A179370"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:42:13",
+    "offset": 1,
+    "size": 46,
+    "source": "joeis"
+  }
+}

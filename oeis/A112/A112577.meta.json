@@ -1,0 +1,22 @@
+{
+  "description": "A Chebyshev-related transform of the Jacobsthal numbers.",
+  "id": "A112577",
+  "mentions": [
+    "A000045",
+    "A000129",
+    "A001045",
+    "A039834"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:03",
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

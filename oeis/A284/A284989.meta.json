@@ -1,0 +1,25 @@
+{
+  "description": "Triangle T(n,k) read by rows: the number of n X n {0,1} matrices with trace k where each row sum and each column sum is 2.",
+  "id": "A284989",
+  "mentions": [
+    "A000166",
+    "A001499",
+    "A007107",
+    "A008290",
+    "A098825",
+    "A284990",
+    "A284991"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:56",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

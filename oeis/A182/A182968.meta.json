@@ -1,0 +1,19 @@
+{
+  "description": "G.f.: A(x) = Product_{n>=1} 1/(1 - G_n(x)^n) where G(x) = x+x^2 and G_n(x) denotes the n-th iteration of G(x): G_n(x) = G_{n-1}(G(x)) with G_0(x)=x.",
+  "id": "A182968",
+  "mentions": [
+    "A122888",
+    "A182970"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

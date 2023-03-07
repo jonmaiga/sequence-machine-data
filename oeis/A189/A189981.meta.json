@@ -1,0 +1,20 @@
+{
+  "description": "E.g.f. satisfies: A(x) = Sum_{n>=0} log(1 + x*A(x)^n)^n/n!.",
+  "id": "A189981",
+  "mentions": [
+    "A014070",
+    "A221101",
+    "A224797"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:14",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

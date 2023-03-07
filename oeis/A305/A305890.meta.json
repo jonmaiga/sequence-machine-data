@@ -1,0 +1,22 @@
+{
+  "description": "Filter sequence for all such sequences b, for which b(A176997(k)) = constant for all k > 1, where A176997 is the union of odd primes and Fermat pseudoprimes.",
+  "id": "A305890",
+  "mentions": [
+    "A001567",
+    "A062173",
+    "A176997",
+    "A257531",
+    "A305801"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:30",
+    "offset": 1,
+    "size": 97,
+    "source": "oeis-bfile"
+  }
+}

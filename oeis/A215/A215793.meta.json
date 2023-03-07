@@ -1,0 +1,17 @@
+{
+  "description": "Number of permutations of 0..floor((7*n-1)/2) on even squares of an 7*n array such that each row, column, diagonal and (downwards) antidiagonal of even squares is increasing",
+  "id": "A215793",
+  "mentions": [
+    "A215788"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

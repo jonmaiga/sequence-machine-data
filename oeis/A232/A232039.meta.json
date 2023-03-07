@@ -1,0 +1,20 @@
+{
+  "description": "Primes p congruent to 1 mod 12 such that (p + 1)/2 does not divide the numerator of the Bernoulli number B(p + 1).",
+  "id": "A232039",
+  "mentions": [
+    "A000367",
+    "A000928",
+    "A068228",
+    "A232040"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

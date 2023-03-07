@@ -1,0 +1,27 @@
+{
+  "description": "Number T(n,k) of ways k L-tiles can be placed on an n X n square; triangle T(n,k), n>=0, 0<=k<=A229093(n), read by rows.",
+  "id": "A243608",
+  "mentions": [
+    "A000012",
+    "A000290",
+    "A066864",
+    "A226444",
+    "A229093",
+    "A243645",
+    "A243646",
+    "A243647",
+    "A243648",
+    "A243649"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:00",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

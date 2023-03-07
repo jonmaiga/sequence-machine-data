@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of the base x for which the double logarithm of 2 equals the natural log of 2, that is, log_x log_x 2 = log 2.",
+  "id": "A181171",
+  "mentions": [
+    "A002162",
+    "A030797"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

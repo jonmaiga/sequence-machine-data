@@ -1,0 +1,18 @@
+{
+  "description": "Number of partitions of n such that if the smallest part is k, then both k and k+1 occur exactly once.",
+  "id": "A118267",
+  "mentions": [
+    "A000041"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

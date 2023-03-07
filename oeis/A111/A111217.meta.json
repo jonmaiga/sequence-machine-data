@@ -1,0 +1,28 @@
+{
+  "description": "d_7(n), tau_7(n), number of ordered factorizations of n as n = rstuvwx (7-factorizations).",
+  "id": "A111217",
+  "mentions": [
+    "A000005",
+    "A000012",
+    "A007425",
+    "A007426",
+    "A034695",
+    "A061200",
+    "A077592",
+    "A111218",
+    "A111221",
+    "A111306"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:02",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

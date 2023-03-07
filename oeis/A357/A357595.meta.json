@@ -1,0 +1,18 @@
+{
+  "description": "Lexicographically earliest infinite sequence of distinct positive integers such that a(n+1) is the least k != j, for which gcd(k, j) > 1; j = n + a(n).",
+  "id": "A357595",
+  "mentions": [
+    "A347113",
+    "A349472"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

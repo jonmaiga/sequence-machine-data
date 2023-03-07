@@ -1,0 +1,24 @@
+{
+  "description": "Squares of composite numbers k that are abelian orders.",
+  "id": "A350345",
+  "mentions": [
+    "A001248",
+    "A050384",
+    "A051532",
+    "A350323",
+    "A350341",
+    "A350343",
+    "A350344"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:24",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Signature sequence of Salem number 1.1762808182599176...",
+  "id": "A167288",
+  "mentions": [
+    "A007337",
+    "A084531"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 95,
+    "source": "oeis-entry"
+  }
+}

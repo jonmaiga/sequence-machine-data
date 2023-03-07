@@ -1,0 +1,19 @@
+{
+  "description": "Number of self-avoiding walks from NW to SE corners on an n X n grid which pass through all points on the diagonal connecting NE and SW corners.",
+  "id": "A333464",
+  "mentions": [
+    "A007764",
+    "A333455"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Sequence S such that 1 is in S and if x is in S, then 5x-3 and 5x-1 are in S.",
+  "id": "A153776",
+  "mentions": [
+    "A047850",
+    "A083065",
+    "A153773",
+    "A153775"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:35",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

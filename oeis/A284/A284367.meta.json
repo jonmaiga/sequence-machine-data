@@ -1,0 +1,18 @@
+{
+  "description": "Square array T(n,k) = number of separable polynomials of degree <= k in Z/n[x], n>=1, k>=1, read by antidiagonals.",
+  "id": "A284367",
+  "mentions": [
+    "A007434"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Jumping divisor sequence (see Comments lines for definition).",
+  "id": "A168007",
+  "mentions": [
+    "A000005",
+    "A002808",
+    "A004280",
+    "A020639",
+    "A168008",
+    "A168009"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:52",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

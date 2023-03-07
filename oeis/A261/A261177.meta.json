@@ -1,0 +1,20 @@
+{
+  "description": "Maximum value of (1/2)*Sum_{i=1..n} Sum_{j=1..n} Sum_{k=1..n} Sum_{l=1..n} gcd(b(i,j),b(k,l)) * ((i-k)^2+(j-l)^2) for an n X n matrix b filled with the integers 1 to n^2.",
+  "id": "A261177",
+  "mentions": [
+    "A003989",
+    "A018782",
+    "A261176"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

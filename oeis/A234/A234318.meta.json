@@ -1,0 +1,21 @@
+{
+  "description": "Squares t^2 = (p+q+r+s)/4 which are the arithmetic mean of four consecutive primes such that p < t^2 < q < r < s.",
+  "id": "A234318",
+  "mentions": [
+    "A000290",
+    "A062703",
+    "A069495",
+    "A234240",
+    "A234297"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:52",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

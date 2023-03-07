@@ -1,0 +1,21 @@
+{
+  "description": "Concatenate prime factorization written in base 3, convert back to decimal.",
+  "id": "A289667",
+  "mentions": [
+    "A080670",
+    "A195264",
+    "A230625",
+    "A230627"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:04",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

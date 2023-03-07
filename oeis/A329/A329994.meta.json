@@ -1,0 +1,21 @@
+{
+  "description": "Beatty sequence for 2^x, where 1/x^2 + 1/2^x = 1.",
+  "id": "A329994",
+  "mentions": [
+    "A329825",
+    "A329992",
+    "A329993"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

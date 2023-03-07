@@ -1,0 +1,22 @@
+{
+  "description": "Position where the last of all n! permutations of { 0 .. n-1 } occurs in the digits of Pi written in base n.",
+  "id": "A307583",
+  "mentions": [
+    "A068987",
+    "A121280",
+    "A307581",
+    "A307582"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 2,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

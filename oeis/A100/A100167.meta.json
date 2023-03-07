@@ -1,0 +1,20 @@
+{
+  "description": "Structured pentagonal icositetrahedral numbers (vertex structure 13).",
+  "id": "A100167",
+  "mentions": [
+    "A100145",
+    "A100168"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:31:05",
+    "offset": 1,
+    "size": 32,
+    "source": "joeis"
+  }
+}

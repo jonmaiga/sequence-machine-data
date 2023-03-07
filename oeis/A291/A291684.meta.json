@@ -1,0 +1,33 @@
+{
+  "description": "Number T(n,k) of permutations p of [n] such that 0p has a nonincreasing jump sequence beginning with k; triangle T(n,k), n>=0, 0<=k<=n, read by rows.",
+  "id": "A291684",
+  "mentions": [
+    "A000007",
+    "A057427",
+    "A291685",
+    "A291688",
+    "A292168",
+    "A292169",
+    "A292170",
+    "A292171",
+    "A292172",
+    "A292173",
+    "A292174",
+    "A292175",
+    "A292176",
+    "A303203",
+    "A303204"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:06",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

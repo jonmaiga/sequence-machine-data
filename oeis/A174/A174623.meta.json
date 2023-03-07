@@ -1,0 +1,18 @@
+{
+  "description": "(2^p+1)^2 where p is prime.",
+  "id": "A174623",
+  "mentions": [
+    "A098640"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:58",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

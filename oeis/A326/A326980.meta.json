@@ -1,0 +1,22 @@
+{
+  "description": "Indices of the compositions (ordered partitions) that are not in nonincreasing order in the list of compositions of j in colexicographic order, if 1 <= k <= 2^(j-1), j >= 1.",
+  "id": "A326980",
+  "mentions": [
+    "A000041",
+    "A187219",
+    "A211992",
+    "A228354",
+    "A228525",
+    "A228720"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

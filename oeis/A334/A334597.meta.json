@@ -1,0 +1,21 @@
+{
+  "description": "Dimensions of the finite-dimensional Lie algebras of type E_n (n=3,...,8)",
+  "id": "A334597",
+  "mentions": [
+    "A113907",
+    "A272764"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 3,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

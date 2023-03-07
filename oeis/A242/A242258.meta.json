@@ -1,0 +1,21 @@
+{
+  "description": "Number of summands in s-greedy sum of s(n), where s(n) = A000041(n), the partitions numbers.",
+  "id": "A242258",
+  "mentions": [
+    "A000041",
+    "A241833",
+    "A242252",
+    "A242259"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 2,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

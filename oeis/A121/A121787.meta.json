@@ -1,0 +1,19 @@
+{
+  "description": "\"Crossing walks hitting the center\" on the square lattice (see Jensen web site for further information).",
+  "id": "A121787",
+  "mentions": [
+    "A333674",
+    "A333685"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:10",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-bfile"
+  }
+}

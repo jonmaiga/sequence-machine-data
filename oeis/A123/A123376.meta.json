@@ -1,0 +1,19 @@
+{
+  "description": "Sum of the first s(n) primes, where s(n) is the sum of the first p(n) primes, where p(n) is the n-th prime. Note that s(n) is A022094.",
+  "id": "A123376",
+  "mentions": [
+    "A022094",
+    "A119411"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

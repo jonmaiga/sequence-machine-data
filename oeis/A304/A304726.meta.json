@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = n^4 + 4*n^2 + 3.",
+  "id": "A304726",
+  "mentions": [
+    "A005563",
+    "A058071",
+    "A059100",
+    "A217554"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:29",
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

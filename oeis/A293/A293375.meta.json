@@ -1,0 +1,18 @@
+{
+  "description": "Triangle read by rows: T(n, k), for 1 <= k <= n, where T(n, k) is defined in A192763.",
+  "id": "A293375",
+  "mentions": [
+    "A192763"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-entry"
+  }
+}

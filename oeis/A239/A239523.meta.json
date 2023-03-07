@@ -1,0 +1,20 @@
+{
+  "description": "Prime powers (A025475) such that the distances to the two nearest prime powers are primes.",
+  "id": "A239523",
+  "mentions": [
+    "A025475",
+    "A239520",
+    "A239522"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

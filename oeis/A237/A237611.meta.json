@@ -1,0 +1,18 @@
+{
+  "description": "Squarefree numbers of form 16*k^4 + 40*k^3 + 33*k^2 + 12*k + 2, k>0.",
+  "id": "A237611",
+  "mentions": [
+    "A003285",
+    "A020351"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

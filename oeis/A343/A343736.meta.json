@@ -1,0 +1,25 @@
+{
+  "description": "a(n) is the number of divisors of A343735(n).",
+  "id": "A343736",
+  "mentions": [
+    "A000005",
+    "A002113",
+    "A029950",
+    "A076888",
+    "A343735",
+    "A344422",
+    "A345250"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

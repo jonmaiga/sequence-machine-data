@@ -1,0 +1,18 @@
+{
+  "description": "Number of meanders of order 2n+1 (4*n+2 crossings of the infinite line) with only central 1-1 cut (no other 1-1 cuts).",
+  "id": "A207851",
+  "mentions": [
+    "A005315",
+    "A192927"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:27",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of n X 5 0..1 arrays with each 1 horizontally, vertically or antidiagonally adjacent to 3 or 6 neighboring 1s.",
+  "id": "A296551",
+  "mentions": [
+    "A296554"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:16",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

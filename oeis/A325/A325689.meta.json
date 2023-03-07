@@ -1,0 +1,29 @@
+{
+  "description": "Number of length-3 compositions of n such that no part is the sum of the other two.",
+  "id": "A325689",
+  "mentions": [
+    "A000079",
+    "A001399",
+    "A005044",
+    "A008642",
+    "A069905",
+    "A124278",
+    "A266223",
+    "A325676",
+    "A325688",
+    "A325690",
+    "A325691",
+    "A325694"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 09:54:43",
+    "offset": 0,
+    "size": 56,
+    "source": "joeis"
+  }
+}

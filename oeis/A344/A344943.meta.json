@@ -1,0 +1,22 @@
+{
+  "description": "Numbers that are the sum of five fourth powers in exactly seven ways.",
+  "id": "A344943",
+  "mentions": [
+    "A344923",
+    "A344941",
+    "A344942",
+    "A344945",
+    "A345181",
+    "A345819"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:18",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

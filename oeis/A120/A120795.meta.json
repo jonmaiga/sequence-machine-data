@@ -1,0 +1,17 @@
+{
+  "description": "Number of monocyclic skeletons with n carbon atoms and a ring size of 8.",
+  "id": "A120795",
+  "mentions": [
+    "A305059"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:09",
+    "offset": 8,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

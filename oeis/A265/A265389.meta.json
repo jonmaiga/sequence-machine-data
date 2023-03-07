@@ -1,0 +1,18 @@
+{
+  "description": "The sums from the following procedure: from the list of positive integers, repeatedly remove the first three numbers and their sum.",
+  "id": "A265389",
+  "mentions": [
+    "A075326",
+    "A297464"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:25",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

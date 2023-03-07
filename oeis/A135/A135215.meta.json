@@ -1,0 +1,24 @@
+{
+  "description": "Maximal number of zero digits in square of number with n digits and without zero digits.",
+  "id": "A135215",
+  "mentions": [
+    "A134843",
+    "A134844",
+    "A134845",
+    "A134846",
+    "A134847",
+    "A134848",
+    "A134849"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

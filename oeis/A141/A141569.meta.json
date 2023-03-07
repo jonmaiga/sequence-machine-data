@@ -1,0 +1,18 @@
+{
+  "description": "Bases and exponents in the prime decomposition of n replaced by composites with these indices.",
+  "id": "A141569",
+  "mentions": [
+    "A000040",
+    "A002808"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

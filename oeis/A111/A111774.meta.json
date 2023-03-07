@@ -1,0 +1,30 @@
+{
+  "description": "Numbers that can be written as a sum of at least three consecutive positive integers.",
+  "id": "A111774",
+  "mentions": [
+    "A000040",
+    "A000079",
+    "A000096",
+    "A000217",
+    "A049777",
+    "A055034",
+    "A055998",
+    "A055999",
+    "A056000",
+    "A066542",
+    "A174090",
+    "A337940",
+    "A338428"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:02",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

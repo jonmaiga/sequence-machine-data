@@ -1,0 +1,26 @@
+{
+  "description": "Number of non-isomorphic multiset partitions of weight n with all parts of odd size.",
+  "id": "A320664",
+  "mentions": [
+    "A001055",
+    "A001222",
+    "A007716",
+    "A298118",
+    "A300300",
+    "A300301",
+    "A318871",
+    "A320663",
+    "A320665",
+    "A339645"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:43",
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

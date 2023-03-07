@@ -1,0 +1,25 @@
+{
+  "description": "Square array read by antidiagonals: T(n,k) is the number of pairs of partitions of n and k respectively, such that the pair of partitions have no part in common.",
+  "id": "A284592",
+  "mentions": [
+    "A000041",
+    "A002865",
+    "A015128",
+    "A054440",
+    "A260669",
+    "A284593"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:55",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

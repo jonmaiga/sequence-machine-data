@@ -1,0 +1,20 @@
+{
+  "description": "Fibonacci numbers that are divisible by their index.",
+  "id": "A168041",
+  "mentions": [
+    "A000045",
+    "A023172",
+    "A167745"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:52",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

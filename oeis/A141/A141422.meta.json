@@ -1,0 +1,18 @@
+{
+  "description": "Positions of highly powerful numbers in the EKG sequence.",
+  "id": "A141422",
+  "mentions": [
+    "A005934",
+    "A064413"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

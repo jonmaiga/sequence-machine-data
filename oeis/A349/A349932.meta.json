@@ -1,0 +1,20 @@
+{
+  "description": "Product of n and its binary ones' complement.",
+  "id": "A349932",
+  "mentions": [
+    "A035327"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

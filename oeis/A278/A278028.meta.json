@@ -1,0 +1,24 @@
+{
+  "description": "Let {c(i)} = A007916 denote the sequence of numbers > 1 which are not perfect powers. Every positive integer n has a unique representation as a tower n = c(x_1)^c(x_2)^c(x_3)^...^c(x_k), where the exponents are nested from the right. The sequence is an irregular triangle read by rows, where the n-th row lists x_1, ..., x_k.",
+  "id": "A278028",
+  "mentions": [
+    "A007916",
+    "A052409",
+    "A089723",
+    "A277562",
+    "A277564",
+    "A278029",
+    "A288636"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:44",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

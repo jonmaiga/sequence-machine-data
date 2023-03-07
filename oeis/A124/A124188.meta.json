@@ -1,0 +1,18 @@
+{
+  "description": "Number of 3-good permutations on {1,2,...,n}, i.e., permutations that contain each of the six patterns {123, 132, 213, 231, 312, 321} as a subsequence.",
+  "id": "A124188",
+  "mentions": [
+    "A000045"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:12",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

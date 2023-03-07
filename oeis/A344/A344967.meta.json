@@ -1,0 +1,36 @@
+{
+  "description": "Decimal expansion of Sum_{k>=0} 1/(x_k^2 - 1), where x_k is the k-th zero of the digamma function.",
+  "id": "A344967",
+  "mentions": [
+    "A000796",
+    "A001620",
+    "A030169",
+    "A072691",
+    "A175472",
+    "A175473",
+    "A175474",
+    "A256681",
+    "A256682",
+    "A256683",
+    "A256684",
+    "A256685",
+    "A256686",
+    "A256687",
+    "A344964",
+    "A344965",
+    "A344966",
+    "A344968"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

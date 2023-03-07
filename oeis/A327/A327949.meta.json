@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of deuteron g factor.",
+  "id": "A327949",
+  "mentions": [
+    "A081814",
+    "A195022",
+    "A254279",
+    "A254280",
+    "A254281"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "cons",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

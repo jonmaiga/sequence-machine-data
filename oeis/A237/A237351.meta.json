@@ -1,0 +1,22 @@
+{
+  "description": "Positive integers k such that x^2 - 5xy + y^2 + k = 0 has integer solutions.",
+  "id": "A237351",
+  "mentions": [
+    "A004253",
+    "A031363",
+    "A084917",
+    "A141160",
+    "A237254",
+    "A237255"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

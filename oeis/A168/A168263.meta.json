@@ -1,0 +1,29 @@
+{
+  "description": "For any m < n, and for all values of k, d(n^k) > d(m^k). (Let k, m, and n represent positive integers only.)",
+  "id": "A168263",
+  "mentions": [
+    "A000005",
+    "A002182",
+    "A003418",
+    "A025487",
+    "A060735",
+    "A116998",
+    "A146289",
+    "A146290",
+    "A168262",
+    "A168264"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

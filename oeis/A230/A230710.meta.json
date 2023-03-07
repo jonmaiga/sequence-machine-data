@@ -1,0 +1,22 @@
+{
+  "description": "Values of x such that x^2 + y^2 = 5^n with x and y coprime and 0 < x < y.",
+  "id": "A230710",
+  "mentions": [
+    "A000351",
+    "A139011",
+    "A188948",
+    "A230622",
+    "A230644",
+    "A230711"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:48",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

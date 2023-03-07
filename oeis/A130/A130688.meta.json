@@ -1,0 +1,23 @@
+{
+  "description": "Numbers n with following property: suppose n^6 = d1 d2 d3 ...dk in decimal; then d1! + d2! + ... + dk! is a square.",
+  "id": "A130688",
+  "mentions": [
+    "A061602",
+    "A089185",
+    "A126076",
+    "A126077",
+    "A126078",
+    "A130687"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(1) = 1; a(n) = sum of exponential unitary divisors of n for n > 1.",
+  "id": "A322857",
+  "mentions": [
+    "A051377",
+    "A077610",
+    "A278908"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:46",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

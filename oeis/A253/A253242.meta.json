@@ -1,0 +1,32 @@
+{
+  "description": "Least k>=0 such that n^(2^k)+1 is prime (for even n), or (n^(2^k)+1)/2 is prime (for odd n); -1 if no such k exists.",
+  "id": "A253242",
+  "mentions": [
+    "A006093",
+    "A057856",
+    "A058064",
+    "A070265",
+    "A076274",
+    "A077659",
+    "A079706",
+    "A080121",
+    "A084712",
+    "A122900",
+    "A123669",
+    "A130536",
+    "A228101"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 2,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

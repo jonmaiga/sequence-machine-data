@@ -1,0 +1,20 @@
+{
+  "description": "Number of refactorable numbers m such that tau(m) = n, or 0 if there are infinitely many such numbers.",
+  "id": "A281188",
+  "mentions": [
+    "A000005",
+    "A033950",
+    "A039819"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:49",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

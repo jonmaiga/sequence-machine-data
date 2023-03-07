@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) = Fibonacci(k+2) - 1.",
+  "id": "A115346",
+  "mentions": [
+    "A000045",
+    "A000071"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "less",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

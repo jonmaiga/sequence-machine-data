@@ -1,0 +1,23 @@
+{
+  "description": "Sum of divisors of n that have a square factor.",
+  "id": "A162296",
+  "mentions": [
+    "A000203",
+    "A001248",
+    "A005117",
+    "A013929",
+    "A048250"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:44",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

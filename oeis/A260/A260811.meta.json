@@ -1,0 +1,27 @@
+{
+  "description": "Number of trivalent bipartite connected simple graphs with 2n nodes and girth at least 6.",
+  "id": "A260811",
+  "mentions": [
+    "A002851",
+    "A006823",
+    "A014371",
+    "A014372",
+    "A014374",
+    "A014375",
+    "A014376",
+    "A185131",
+    "A260813"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

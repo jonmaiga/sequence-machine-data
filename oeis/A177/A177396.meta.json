@@ -1,0 +1,20 @@
+{
+  "description": "G.f. satisfies: x = A(x) - 2*A(A(x))^2 + A(A(A(x)))^3.",
+  "id": "A177396",
+  "mentions": [
+    "A139702",
+    "A171780",
+    "A177395"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:01",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that n^2 + (n+1)^2 + (n+2)^2 is equal to the sum of the heptagonal numbers H(m), H(m+1) and H(m+2) for some m.",
+  "id": "A251770",
+  "mentions": [
+    "A000290",
+    "A000566",
+    "A251769"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:09",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

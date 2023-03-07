@@ -1,0 +1,35 @@
+{
+  "description": "Triangle T(n,k), 0 <= k <= n, given by (0, 1, 0, 2, 0, 3, 0, 4, 0, 5, 0, ...) DELTA (1, 0, 3, 0, 5, 0, 7, 0, 9, 0, ...) where DELTA is the operator defined in A084938.",
+  "id": "A211399",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A000340",
+    "A001147",
+    "A014307",
+    "A050488",
+    "A084938",
+    "A102365",
+    "A142965",
+    "A142966",
+    "A142968",
+    "A156920",
+    "A156922",
+    "A156923",
+    "A156924",
+    "A185411"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-22 20:28:47",
+    "offset": 0,
+    "size": 50,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "description": "Numbers k such that k^(2^20) + 1 is prime (a generalized Fermat prime).",
+  "id": "A321323",
+  "mentions": [
+    "A000068",
+    "A005574",
+    "A006313",
+    "A006314",
+    "A006315",
+    "A006316",
+    "A056993",
+    "A056994",
+    "A056995",
+    "A057002",
+    "A057465",
+    "A088361",
+    "A088362",
+    "A226528",
+    "A226529",
+    "A226530",
+    "A243959",
+    "A244150",
+    "A251597",
+    "A253854"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

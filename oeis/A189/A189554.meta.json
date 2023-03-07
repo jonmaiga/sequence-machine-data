@@ -1,0 +1,21 @@
+{
+  "description": "Composite numbers n such that x' = n has no integer solution, where x' is the arithmetic derivative (A003415) of x.",
+  "id": "A189554",
+  "mentions": [
+    "A003415",
+    "A098700",
+    "A099302",
+    "A189483"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:13",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

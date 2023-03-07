@@ -1,0 +1,20 @@
+{
+  "description": "Decimal Goedelization of contingent WFFs (well-formed formulas) from propositional calculus, in Richard C. Schroeppel's metatheory of A101273. Truth value depends on truth value of variables, but is neither always true (theorem) nor always false (antitheorem).",
+  "id": "A101248",
+  "mentions": [
+    "A100200",
+    "A101273"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "changed",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:52",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

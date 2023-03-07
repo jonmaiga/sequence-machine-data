@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of digits in the decimal representation of the smallest power of 7 that contains n consecutive identical digits.",
+  "id": "A217189",
+  "mentions": [
+    "A215730",
+    "A215736"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

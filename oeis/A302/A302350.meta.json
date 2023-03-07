@@ -1,0 +1,17 @@
+{
+  "description": "Instance of a permutation of the positive integers such that lcm(a(n), a(n+1)) <= c*n*log(n)^2.",
+  "id": "A302350",
+  "mentions": [
+    "A064736"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:26",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

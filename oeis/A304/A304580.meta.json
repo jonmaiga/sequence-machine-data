@@ -1,0 +1,21 @@
+{
+  "description": "Period length 16: repeat 1,8,3,6,5,4,7,2,9,0,7,2,5,4,3,6.",
+  "id": "A304580",
+  "mentions": [
+    "A172423",
+    "A172430",
+    "A304583"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:12:19",
+    "offset": 1,
+    "size": 86,
+    "source": "joeis"
+  }
+}

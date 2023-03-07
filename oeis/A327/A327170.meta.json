@@ -1,0 +1,30 @@
+{
+  "description": "Number of divisors d of n such that A327171(d) (= phi(d)*core(d)) is equal to n.",
+  "id": "A327170",
+  "mentions": [
+    "A000010",
+    "A002618",
+    "A003557",
+    "A007913",
+    "A019554",
+    "A082473",
+    "A102631",
+    "A173557",
+    "A194507",
+    "A327153",
+    "A327166",
+    "A327169",
+    "A327171"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:54",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

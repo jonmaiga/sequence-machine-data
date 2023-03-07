@@ -1,0 +1,23 @@
+{
+  "description": "Primes of the form n^2 + n + 1, where n is semiprime.",
+  "id": "A193144",
+  "mentions": [
+    "A000040",
+    "A001358",
+    "A018252",
+    "A185632",
+    "A192321"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

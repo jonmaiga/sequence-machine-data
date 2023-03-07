@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the number of tuples of length n corresponding to cycles of a \"pseudo-Collatz\" iteration.",
+  "id": "A354883",
+  "mentions": [
+    "A006577",
+    "A208981",
+    "A347270"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

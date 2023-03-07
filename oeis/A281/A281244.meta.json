@@ -1,0 +1,27 @@
+{
+  "description": "Expansion of Product_{k>=1} (1 + x^(6*k-1)).",
+  "id": "A281244",
+  "mentions": [
+    "A098884",
+    "A147599",
+    "A169975",
+    "A261612",
+    "A262928",
+    "A280454",
+    "A280456",
+    "A280457",
+    "A281243",
+    "A281245"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:49",
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

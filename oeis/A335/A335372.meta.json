@@ -1,0 +1,22 @@
+{
+  "description": "a(0) = 0, a(1) = 1; for n > 1, a(n) = a(n-1) - A001065(n) if nonnegative and not already in the sequence, otherwise a(n) = a(n-1) + A001065(n), where A001065(n) is the sum of the proper divisors of n.",
+  "id": "A335372",
+  "mentions": [
+    "A000040",
+    "A001065",
+    "A005132",
+    "A335382",
+    "A336760",
+    "A336761"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

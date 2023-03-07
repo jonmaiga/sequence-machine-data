@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the minimum number of steps to a terminal state during the following procedure: start with n piles each containing one stone; any number of stones can be transferred between piles of equal size.",
+  "id": "A292836",
+  "mentions": [
+    "A011371",
+    "A121924",
+    "A292726",
+    "A292729"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

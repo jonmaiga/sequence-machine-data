@@ -1,0 +1,26 @@
+{
+  "description": "Number of collections of subsets of {1, 2, ..., n} that are closed under union and intersection.",
+  "id": "A306445",
+  "mentions": [
+    "A000798",
+    "A001930",
+    "A102895",
+    "A102896",
+    "A102897",
+    "A326866",
+    "A326876",
+    "A326878",
+    "A326882"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the smallest k such that A342068(k) = n.",
+  "id": "A342069",
+  "mentions": [
+    "A342068",
+    "A342070",
+    "A342071",
+    "A342839"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 2,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

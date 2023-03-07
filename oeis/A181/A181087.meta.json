@@ -1,0 +1,22 @@
+{
+  "description": "Partitions of n in the order of increasing smallest numbers of prime signatures.",
+  "id": "A181087",
+  "mentions": [
+    "A025487",
+    "A036036",
+    "A036037",
+    "A080576",
+    "A095904"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:04",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

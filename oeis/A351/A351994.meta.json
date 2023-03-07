@@ -1,0 +1,22 @@
+{
+  "description": "Number of spanning trees in a hexagon of size n in the triangular grid.",
+  "id": "A351994",
+  "mentions": [
+    "A003215",
+    "A007341",
+    "A116469",
+    "A174579",
+    "A351888",
+    "A352022"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "description": "Prime(k), where k is such that (Sum_{i=1..k} prime(i)^10) / k is an integer.",
+  "id": "A233132",
+  "mentions": [
+    "A007504",
+    "A024450",
+    "A045345",
+    "A050247",
+    "A050248",
+    "A085450",
+    "A111441",
+    "A128165",
+    "A128166",
+    "A131264",
+    "A171399",
+    "A217599",
+    "A217600",
+    "A217601",
+    "A233523",
+    "A233862"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Odd numbers n containing 256 as the highest power of 2 in their Collatz (3x+1) iteration.",
+  "id": "A247272",
+  "mentions": [
+    "A008908",
+    "A010120"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:03",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

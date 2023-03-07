@@ -1,0 +1,24 @@
+{
+  "description": "G.f. A(x) satisfies: A(x)^3 + A(-x)^3 = 2 and A(x)^-3 - A(-x)^-3 = -18*x.",
+  "id": "A196864",
+  "mentions": [
+    "A193618",
+    "A193619",
+    "A196865",
+    "A196866",
+    "A196867",
+    "A196868",
+    "A196869"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:28",
+    "offset": 0,
+    "size": 20,
+    "source": "joeis"
+  }
+}

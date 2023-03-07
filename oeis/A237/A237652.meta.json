@@ -1,0 +1,18 @@
+{
+  "description": "G.f. satisfies: [x^n] A(x)^(n^2) = [x^n] A(x)^(n^2-1) for n>1 with A(0)=A'(0)=1.",
+  "id": "A237652",
+  "mentions": [
+    "A158882",
+    "A171791"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

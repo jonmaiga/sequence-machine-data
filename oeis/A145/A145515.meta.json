@@ -1,0 +1,31 @@
+{
+  "description": "Square array A(n,k), n>=0, k>=0, read by antidiagonals: A(n,k) is the number of partitions of k^n into powers of k.",
+  "id": "A145515",
+  "mentions": [
+    "A000012",
+    "A002577",
+    "A007318",
+    "A078125",
+    "A078537",
+    "A111822",
+    "A111827",
+    "A111832",
+    "A111837",
+    "A145512",
+    "A145513",
+    "A145514",
+    "A189890"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

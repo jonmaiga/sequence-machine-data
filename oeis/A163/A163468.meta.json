@@ -1,0 +1,22 @@
+{
+  "description": "Indices k such that half of the k-th nonprime nonnegative integer is prime.",
+  "id": "A163468",
+  "mentions": [
+    "A000040",
+    "A065897",
+    "A141468"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:45",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

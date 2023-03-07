@@ -1,0 +1,22 @@
+{
+  "description": "Superior 2-highly composite numbers: 3-smooth numbers (A003586) k for which there is a real number e > 0 such that d(k)/k^e >= d(j)/j^e for all 3-smooth numbers j, where d(k) is the number of divisors of k (A000005).",
+  "id": "A309016",
+  "mentions": [
+    "A000005",
+    "A000705",
+    "A002110",
+    "A002201",
+    "A003586",
+    "A309015"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:33",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

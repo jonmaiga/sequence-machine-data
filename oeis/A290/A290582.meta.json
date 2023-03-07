@@ -1,0 +1,18 @@
+{
+  "description": "Numbers m > 2 such that every divisor > 2 is the sum of two or more consecutive divisors.",
+  "id": "A290582",
+  "mentions": [
+    "A008776",
+    "A025192"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

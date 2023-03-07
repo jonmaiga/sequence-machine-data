@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = (1/2) * A241102(n).",
+  "id": "A360490",
+  "mentions": [
+    "A014574",
+    "A030078",
+    "A103739",
+    "A241102",
+    "A243761",
+    "A270249"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

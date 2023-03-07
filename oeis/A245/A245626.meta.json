@@ -1,0 +1,20 @@
+{
+  "description": "a(n)= 1 (respectively, a(n)= 3) if up to 2^n the number of A245622-terms is more (respectively, less) than the number of A245623-terms; or a(n)=0 if these numbers are equal.",
+  "id": "A245626",
+  "mentions": [
+    "A245622",
+    "A245623"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

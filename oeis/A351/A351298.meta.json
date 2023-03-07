@@ -1,0 +1,18 @@
+{
+  "description": "Concatenation of the lexicographically earliest 6-term closed circuits formed on a square grid by distinct segments of length a(n) at right angle.",
+  "id": "A351298",
+  "mentions": [
+    "A101544"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:25",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Primes p with property that the sum of the 4th powers of the successive gaps between primes <= p is a prime number.",
+  "id": "A251623",
+  "mentions": [
+    "A006512",
+    "A140299",
+    "A247177",
+    "A247178"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:09",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

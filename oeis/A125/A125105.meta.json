@@ -1,0 +1,25 @@
+{
+  "description": "Triangular array with the first half of the odd-indexed rows of A048004.",
+  "id": "A125105",
+  "mentions": [
+    "A000079",
+    "A008464",
+    "A045623",
+    "A048004",
+    "A105147",
+    "A125104"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

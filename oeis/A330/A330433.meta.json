@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that if there is a prime partition of k with least part p, then there exists at least one other prime partition of k with least part p.",
+  "id": "A330433",
+  "mentions": [
+    "A000040",
+    "A000607",
+    "A051034",
+    "A331634",
+    "A332861",
+    "A333365"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

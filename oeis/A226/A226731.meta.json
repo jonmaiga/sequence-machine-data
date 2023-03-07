@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = (2n - 1)!/(2n).",
+  "id": "A226731",
+  "mentions": [
+    "A001105",
+    "A002674",
+    "A005843",
+    "A009445",
+    "A093353",
+    "A143623",
+    "A211374"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 3,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

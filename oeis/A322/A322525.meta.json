@@ -1,0 +1,17 @@
+{
+  "description": "Numbers such that the list of exponents of their factorization is a palindromic list of primes.",
+  "id": "A322525",
+  "mentions": [
+    "A242414"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

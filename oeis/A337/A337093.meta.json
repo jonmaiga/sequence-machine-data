@@ -1,0 +1,20 @@
+{
+  "description": "Difference between the number of unordered factorizations and the number of distinct sums of terms in these unordered factorizations for those integers where this difference is positive.",
+  "id": "A337093",
+  "mentions": [
+    "A001055",
+    "A069016",
+    "A337080"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-entry"
+  }
+}

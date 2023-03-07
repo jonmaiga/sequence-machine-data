@@ -1,0 +1,19 @@
+{
+  "description": "Super pseudoprimes to base 3 (A328662) with more than two prime factors (counted with multiplicity).",
+  "id": "A328663",
+  "mentions": [
+    "A005935",
+    "A178997",
+    "A328662"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:57",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

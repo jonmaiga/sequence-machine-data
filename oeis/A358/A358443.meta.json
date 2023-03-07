@@ -1,0 +1,18 @@
+{
+  "description": "a(1) = 1. After each newly determined a(n-1), cross out every n-th number in the line of the positive integers. a(n) will be the smallest unused number that has not been crossed out.",
+  "id": "A358443",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

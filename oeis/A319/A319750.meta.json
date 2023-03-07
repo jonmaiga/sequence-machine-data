@@ -1,0 +1,25 @@
+{
+  "description": "a(n) is the denominator of the Heron sequence with h(0) = 3.",
+  "id": "A319750",
+  "mentions": [
+    "A010122",
+    "A041018",
+    "A041019",
+    "A041047",
+    "A078370",
+    "A319749"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

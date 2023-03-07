@@ -1,0 +1,20 @@
+{
+  "description": "13^a(n) is smallest power of 13 beginning with n.",
+  "id": "A180694",
+  "mentions": [
+    "A180692",
+    "A180693",
+    "A180696"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:03",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

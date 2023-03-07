@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = sum_{i+j+k=n} (-1)^k*binomial(3*i+2*j+k,k) * (i/(2*j+i)) * binomial(2*j+i,j) *2^(i+j) * Catalan(i).",
+  "id": "A153233",
+  "mentions": [
+    "A000108",
+    "A009766"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

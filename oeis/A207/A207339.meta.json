@@ -1,0 +1,23 @@
+{
+  "description": "Triangular numbers T from A000217 such that (4*T+1)/5 is prime.",
+  "id": "A207339",
+  "mentions": [
+    "A000217",
+    "A002731",
+    "A002733",
+    "A027862",
+    "A129307",
+    "A207337"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:27",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

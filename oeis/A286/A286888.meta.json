@@ -1,0 +1,18 @@
+{
+  "description": "Floor of the average gap between consecutive primes among the first n primes, for n > 1.",
+  "id": "A286888",
+  "mentions": [
+    "A001223"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:58",
+    "offset": 2,
+    "size": 114,
+    "source": "oeis-bfile"
+  }
+}

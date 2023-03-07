@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: A130321 + A059268 - A000012 as infinite lower triangular matrices, where A130321 = (1; 2,1; 4,2,1; ...), A059268 = (1; 1,2; 1,2,4; ...) and A000012 = (1; 1,1; 1,1,1; ...).",
+  "id": "A131816",
+  "mentions": [
+    "A000012",
+    "A000295",
+    "A059268",
+    "A130321"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:19",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

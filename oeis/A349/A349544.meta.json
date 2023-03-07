@@ -1,0 +1,21 @@
+{
+  "description": "Smallest possible value of |Sum_{k=0..n} (+-) 2^k * 3^(n-k)|, where each (+-) can be either plus or minus sign, independently for each term in the sum.",
+  "id": "A349544",
+  "mentions": [
+    "A001047",
+    "A036561",
+    "A232111",
+    "A232112"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

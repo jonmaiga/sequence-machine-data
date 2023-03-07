@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = 1 if binary expansion of n encodes a squarefree (0,1)-polynomial when the factorization is done in polynomial ring GF(2)[X], 0 otherwise.",
+  "id": "A304109",
+  "mentions": [
+    "A091219",
+    "A304107",
+    "A304108",
+    "A304110",
+    "A304111"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:28",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

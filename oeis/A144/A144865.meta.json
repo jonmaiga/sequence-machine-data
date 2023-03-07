@@ -1,0 +1,19 @@
+{
+  "description": "Shadow transform of C(n+3,4) = A000332(n+3).",
+  "id": "A144865",
+  "mentions": [
+    "A000332",
+    "A007318",
+    "A144871"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 1,
+    "size": 101,
+    "source": "oeis-bfile"
+  }
+}

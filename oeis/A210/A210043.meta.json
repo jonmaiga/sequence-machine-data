@@ -1,0 +1,21 @@
+{
+  "description": "G.f. A(x) satisfies: A(x) = 1 / Product_{n>=1} (1 - x^n*A(x)^(n-1)).",
+  "id": "A210043",
+  "mentions": [
+    "A109085",
+    "A145267",
+    "A145268",
+    "A196150"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:29",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "First 6-fold decimation of A061039. First bisection of A144454.",
+  "id": "A145909",
+  "mentions": [
+    "A061039",
+    "A144454"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:07:43",
+    "offset": 0,
+    "size": 46,
+    "source": "joeis"
+  }
+}

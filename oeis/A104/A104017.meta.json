@@ -1,0 +1,18 @@
+{
+  "description": "Devaraj numbers (A104016) which are not Carmichael numbers.",
+  "id": "A104017",
+  "mentions": [
+    "A002997",
+    "A104016"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:54",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

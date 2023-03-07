@@ -1,0 +1,17 @@
+{
+  "description": "Number of pairs of factors of n^2*(n^2-1) which differ by n.",
+  "id": "A299068",
+  "mentions": [
+    "A299159"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:22",
+    "offset": 2,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

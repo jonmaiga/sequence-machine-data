@@ -1,0 +1,25 @@
+{
+  "description": "Square array read by antidiagonals downwards: A(n, 1) = smallest base-prime(n) Wieferich prime and A(n, k) = smallest base-A(n, k-1) Wieferich prime for k > 1.",
+  "id": "A288097",
+  "mentions": [
+    "A039951",
+    "A252801",
+    "A252802",
+    "A252812",
+    "A268479",
+    "A269111",
+    "A281001",
+    "A281002"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

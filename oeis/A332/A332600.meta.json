@@ -1,0 +1,26 @@
+{
+  "description": "Triangle read by rows: T(n,k) = number of edges in a \"frame\" of size n X k (see Comments in A331457 for definition).",
+  "id": "A332600",
+  "mentions": [
+    "A331457",
+    "A331757",
+    "A331765",
+    "A331776",
+    "A332597",
+    "A332599",
+    "A332610",
+    "A332611"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

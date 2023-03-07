@@ -1,0 +1,19 @@
+{
+  "description": "Integers of the form (2^(k+1) - 1)/C(k+2,2).",
+  "id": "A246637",
+  "mentions": [
+    "A007318",
+    "A246636"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

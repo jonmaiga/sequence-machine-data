@@ -1,0 +1,27 @@
+{
+  "description": "Semiprimes whose prime factors are of equal binary length and which differ from each other in one bit position only.",
+  "id": "A261073",
+  "mentions": [
+    "A000523",
+    "A001222",
+    "A006530",
+    "A020639",
+    "A071697",
+    "A085721",
+    "A101080",
+    "A261074",
+    "A261075",
+    "A261077"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:20",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

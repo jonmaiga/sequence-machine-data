@@ -1,0 +1,22 @@
+{
+  "description": "Side s of squares of type 1 that can be tiled with squares of two different sizes so that the number of large or small squares is the same.",
+  "id": "A344331",
+  "mentions": [
+    "A034262",
+    "A071253",
+    "A344330",
+    "A344332",
+    "A344333",
+    "A344334"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

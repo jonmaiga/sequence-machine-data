@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = |{0 < k < n: p(k)^2 + q(n-k)^2 is prime}|, where p(.) is the partition function (A000041) and q(.) is the strict partition function (A000009).",
+  "id": "A233307",
+  "mentions": [
+    "A000009",
+    "A000040",
+    "A000041",
+    "A231201",
+    "A232504"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:51",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

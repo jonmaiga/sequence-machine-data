@@ -1,0 +1,36 @@
+{
+  "description": "Number of non-isomorphic series/singleton-reduced rooted trees on a multiset of size n.",
+  "id": "A330470",
+  "mentions": [
+    "A000311",
+    "A000669",
+    "A005121",
+    "A005804",
+    "A141268",
+    "A213427",
+    "A292504",
+    "A292505",
+    "A316651",
+    "A318812",
+    "A318848",
+    "A318849",
+    "A330465",
+    "A330467",
+    "A330469",
+    "A330471",
+    "A330474",
+    "A330624",
+    "A330626",
+    "A339645"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

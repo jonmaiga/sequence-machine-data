@@ -1,0 +1,17 @@
+{
+  "description": "a(1)=2 and a(2)=3, then a(n+1) is the smallest integer larger than a(n) that can be written as the sum of two (not necessarily distinct) earlier terms in exactly one way.",
+  "id": "A303600",
+  "mentions": [
+    "A004280"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:27",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

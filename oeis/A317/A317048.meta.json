@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that both k and k + 2 are consecutive deficient numbers.",
+  "id": "A317048",
+  "mentions": [
+    "A005100",
+    "A317047",
+    "A317049"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:35",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

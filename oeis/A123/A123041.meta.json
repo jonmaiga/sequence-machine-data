@@ -1,0 +1,21 @@
+{
+  "description": "Numbers m such that UnitarySigma(m)^2 = k*Sigma(m)*UnitaryPhi(m), for some integer k.",
+  "id": "A123041",
+  "mentions": [
+    "A000203",
+    "A034448",
+    "A047994",
+    "A121556",
+    "A123042"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:11",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

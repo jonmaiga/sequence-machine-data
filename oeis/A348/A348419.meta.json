@@ -1,0 +1,23 @@
+{
+  "description": "Triangular table read by rows: T(n,k) is the k-th entry of the main diagonal of the inverse Hilbert matrix of order n.",
+  "id": "A348419",
+  "mentions": [
+    "A000515",
+    "A005249",
+    "A189765",
+    "A189766",
+    "A210356",
+    "A210357"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:22",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

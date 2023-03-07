@@ -1,0 +1,20 @@
+{
+  "description": "Positive numbers k such that the ternary representation of k^k ends with that of k.",
+  "id": "A338130",
+  "mentions": [
+    "A082576",
+    "A338128",
+    "A338129"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:10",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

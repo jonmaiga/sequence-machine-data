@@ -1,0 +1,18 @@
+{
+  "description": "Self-convolution of A265264.",
+  "id": "A265265",
+  "mentions": [
+    "A265264"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:25",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

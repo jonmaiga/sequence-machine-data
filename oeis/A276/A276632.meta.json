@@ -1,0 +1,20 @@
+{
+  "description": "Integer part of the geometric mean of the prime factors of n.",
+  "id": "A276632",
+  "mentions": [
+    "A001221",
+    "A007947",
+    "A079866"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

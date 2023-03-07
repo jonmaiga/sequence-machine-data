@@ -1,0 +1,19 @@
+{
+  "description": "Cardinalities of the sub-operad FF_6 of the operad MFF.",
+  "id": "A231690",
+  "mentions": [
+    "A213667",
+    "A231691"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:49",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

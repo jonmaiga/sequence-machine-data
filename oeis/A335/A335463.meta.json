@@ -1,0 +1,36 @@
+{
+  "description": "Numbers k such that there exists a permutation of the prime indices of k matching both (1,2,1) and (2,1,2).",
+  "id": "A335463",
+  "mentions": [
+    "A000670",
+    "A008480",
+    "A056239",
+    "A056986",
+    "A102726",
+    "A112798",
+    "A118914",
+    "A124010",
+    "A126706",
+    "A158005",
+    "A181796",
+    "A333175",
+    "A333217",
+    "A333221",
+    "A335451",
+    "A335452",
+    "A335454",
+    "A335460",
+    "A335462",
+    "A335465"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

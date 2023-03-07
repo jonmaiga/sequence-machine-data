@@ -1,0 +1,21 @@
+{
+  "description": "Antidiagonal sums of triangle A118180: a(n) = Sum_{k=0..[n/2]} (3^k)^(n-2*k) for n>=0.",
+  "id": "A118182",
+  "mentions": [
+    "A118180",
+    "A118181",
+    "A118183",
+    "A118184"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:07",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

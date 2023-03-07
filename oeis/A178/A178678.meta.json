@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the sum of alternating reciprocal square roots, omitting terms where n is a perfect square.",
+  "id": "A178678",
+  "mentions": [
+    "A002162",
+    "A002193",
+    "A059750"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:02",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Beginning with 0, smallest positive integer not yet in the sequence such that the concatenation of two digits of the sequence separated by a comma is prime.",
+  "id": "A354839",
+  "mentions": [
+    "A074721",
+    "A152136",
+    "A152604",
+    "A152607",
+    "A152609",
+    "A158652"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

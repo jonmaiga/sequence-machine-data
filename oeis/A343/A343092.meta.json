@@ -1,0 +1,28 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of rooted toroidal maps with n edges and k faces and without isthmuses, n >= 2, k = 1..n-1.",
+  "id": "A343092",
+  "mentions": [
+    "A000292",
+    "A002802",
+    "A006425",
+    "A006426",
+    "A006427",
+    "A006469",
+    "A269921",
+    "A342981",
+    "A342989",
+    "A343090",
+    "A343093"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:16",
+    "offset": 2,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Subsequence of triangular numbers obtained by adding a square and two smaller triangles, a(n) = n^2 + 2*A000217(A052928(n)).",
+  "id": "A276914",
+  "mentions": [
+    "A000217",
+    "A004526",
+    "A016813",
+    "A042948",
+    "A052928",
+    "A079291",
+    "A168277",
+    "A275496",
+    "A276915"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

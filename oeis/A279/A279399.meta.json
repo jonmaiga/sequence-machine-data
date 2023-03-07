@@ -1,0 +1,25 @@
+{
+  "description": "Irregular triangle read by rows. Row n gives the primes of the smallest positive restricted residue system modulo A033949(n).",
+  "id": "A279399",
+  "mentions": [
+    "A000040",
+    "A033949",
+    "A038566",
+    "A112484",
+    "A279398",
+    "A279400",
+    "A279401"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Triangle of the sum of squared coefficients of q in the q-binomial coefficients, read by rows.",
+  "id": "A125806",
+  "mentions": [
+    "A063075",
+    "A125807",
+    "A125808",
+    "A125809"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:13",
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

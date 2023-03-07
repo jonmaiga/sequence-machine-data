@@ -1,0 +1,25 @@
+{
+  "description": "Starting from 1, successively take the smallest \"Choix de Bruxelles\" (A323286) which is not already in the sequence.",
+  "id": "A358708",
+  "mentions": [
+    "A307635",
+    "A323286",
+    "A323454",
+    "A323460"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "changed",
+    "easy",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 84,
+    "source": "oeis-entry"
+  }
+}

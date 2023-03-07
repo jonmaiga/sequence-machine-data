@@ -1,0 +1,21 @@
+{
+  "description": "Numbers a(n) are obtained by the application of an algorithm which is similar to sieve of Eratosthenes for A000045: retaining A000045(3)=2, we delete all multiples of 2, which are more than 2; retaining A000045(4)=3, we delete all multiples of 3, which are more than 3, etc.",
+  "id": "A152114",
+  "mentions": [
+    "A000045",
+    "A005478",
+    "A030426",
+    "A075736"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

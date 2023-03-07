@@ -1,0 +1,19 @@
+{
+  "description": "Integers k such that (k^3 + k^2) -+ 1 are primes.",
+  "id": "A154732",
+  "mentions": [
+    "A111503",
+    "A154731"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

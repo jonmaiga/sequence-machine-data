@@ -1,0 +1,25 @@
+{
+  "description": "Number of connected k-regular graphs on 2*n nodes with maximal diameter D(n,k) A296525 written as array T(n,k), 2 <= k < 2*n.",
+  "id": "A296526",
+  "mentions": [
+    "A068934",
+    "A204329",
+    "A294733",
+    "A296524",
+    "A296525",
+    "A296621"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "hard",
+    "more",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 2,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

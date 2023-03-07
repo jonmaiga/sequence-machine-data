@@ -1,0 +1,43 @@
+{
+  "description": "Number of compositions of n into parts with distinct multiplicities and with exactly three parts.",
+  "id": "A321773",
+  "mentions": [
+    "A000212",
+    "A000217",
+    "A001399",
+    "A001523",
+    "A001840",
+    "A007318",
+    "A013929",
+    "A014311",
+    "A032020",
+    "A047967",
+    "A097805",
+    "A115981",
+    "A128422",
+    "A140106",
+    "A156040",
+    "A235451",
+    "A242771",
+    "A242887",
+    "A261982",
+    "A285508",
+    "A332834",
+    "A335488",
+    "A337461",
+    "A337484",
+    "A337603",
+    "A337604"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 09:51:47",
+    "offset": 3,
+    "size": 66,
+    "source": "joeis"
+  }
+}

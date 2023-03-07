@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) (n >= 3, 3 <= k <= n) = number of possible graphical partitions for simple graphs with n non-isolated nodes and k edges.",
+  "id": "A259873",
+  "mentions": [
+    "A000088",
+    "A004250",
+    "A004251"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 3,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

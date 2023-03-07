@@ -1,0 +1,24 @@
+{
+  "description": "Permutational numbers (numbers with k different digits in k-positional system).",
+  "id": "A134640",
+  "mentions": [
+    "A000142",
+    "A003422",
+    "A007489",
+    "A023811",
+    "A061845",
+    "A062813"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:22",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Convolution of J(n)*n! and n! where J(n)=A001045(n), n-th Jacobsthal number.",
+  "id": "A110469",
+  "mentions": [
+    "A001045"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:01",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

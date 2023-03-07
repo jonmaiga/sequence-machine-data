@@ -1,0 +1,18 @@
+{
+  "description": "A007376(8n+6).",
+  "id": "A128423",
+  "mentions": [
+    "A007376"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

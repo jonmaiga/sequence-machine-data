@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n,k) = Sum_{1<=j*k<=n} cos(Pi*(j*k-1)/2).",
+  "id": "A327580",
+  "mentions": [
+    "A002321",
+    "A008683",
+    "A056594"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:55",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

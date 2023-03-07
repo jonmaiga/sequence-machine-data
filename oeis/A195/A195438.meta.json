@@ -1,0 +1,20 @@
+{
+  "description": "Six-digit exclusionary squares: 6-digit numbers whose squares comprise digits none of which appears in the number itself.",
+  "id": "A195438",
+  "mentions": [
+    "A195363"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:17",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

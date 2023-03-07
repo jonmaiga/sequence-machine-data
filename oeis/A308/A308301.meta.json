@@ -1,0 +1,17 @@
+{
+  "description": "Inverse permutation to A109852.",
+  "id": "A308301",
+  "mentions": [
+    "A109852"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:32",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Regular triangle of certain polynomial expansion coefficients for the n-th power series.",
+  "id": "A355570",
+  "mentions": [
+    "A000142",
+    "A202365"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:30",
+    "offset": 2,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

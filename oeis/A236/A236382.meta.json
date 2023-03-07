@@ -1,0 +1,18 @@
+{
+  "description": "Values of y corresponding to the smallest value of x such that x^2 + y^2 = P, where P is the product of the first n primes of the form 4k + 1, and 0 < x < y.",
+  "id": "A236382",
+  "mentions": [
+    "A002144",
+    "A236381"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

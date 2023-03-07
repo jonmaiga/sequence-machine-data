@@ -1,0 +1,32 @@
+{
+  "description": "Least Matula-Goebel number of a tree with exactly n permutations.",
+  "id": "A358508",
+  "mentions": [
+    "A000081",
+    "A000108",
+    "A001263",
+    "A032027",
+    "A061775",
+    "A127301",
+    "A196050",
+    "A206487",
+    "A214577",
+    "A358377",
+    "A358378",
+    "A358506",
+    "A358507",
+    "A358521",
+    "A358522"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

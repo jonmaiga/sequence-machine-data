@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of the least number x satisfying 2*x^2=e^(-x).",
+  "id": "A201936",
+  "mentions": [
+    "A126583",
+    "A201741",
+    "A201937",
+    "A201938",
+    "A201940",
+    "A201941"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:58",
+    "offset": 1,
+    "size": 99,
+    "source": "joeis"
+  }
+}

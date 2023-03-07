@@ -1,0 +1,20 @@
+{
+  "description": "Products of 2 distinct Fibonacci numbers and products of two distinct Lucas numbers (including 2), arranged in increasing order.",
+  "id": "A274375",
+  "mentions": [
+    "A049862",
+    "A274349",
+    "A274374"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:39",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

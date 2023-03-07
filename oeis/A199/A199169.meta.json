@@ -1,0 +1,20 @@
+{
+  "description": "Primes such that the sum of the squares of their digits equals the number of their digits.",
+  "id": "A199169",
+  "mentions": [
+    "A003132",
+    "A055642",
+    "A069710"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

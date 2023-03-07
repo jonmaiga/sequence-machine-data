@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that k^2 divides 13^k + 1.",
+  "id": "A292338",
+  "mentions": [
+    "A015963",
+    "A128393",
+    "A177813"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:07",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

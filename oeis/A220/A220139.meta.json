@@ -1,0 +1,18 @@
+{
+  "description": "The highest value of the Collatz iteration (3x+1) starting at a(n-1) + 1, with a(1) = 1.",
+  "id": "A220139",
+  "mentions": [
+    "A070165",
+    "A220140"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:38",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

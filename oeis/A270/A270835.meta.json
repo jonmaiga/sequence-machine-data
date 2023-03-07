@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = smallest k such that A004431(n) +/- k are both positive squares.",
+  "id": "A270835",
+  "mentions": [
+    "A001844",
+    "A004431",
+    "A055096"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

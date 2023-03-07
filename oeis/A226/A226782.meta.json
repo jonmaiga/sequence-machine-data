@@ -1,0 +1,25 @@
+{
+  "description": "If n == 0 (mod 2) then a(n) = 0, otherwise a(n) = 4^(-1) in Z/nZ*.",
+  "id": "A226782",
+  "mentions": [
+    "A092092",
+    "A225126",
+    "A226783",
+    "A226784",
+    "A226785",
+    "A226786",
+    "A226787"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "description": "Sum of third powers of two consecutive primes.",
+  "id": "A133534",
+  "mentions": [
+    "A030078",
+    "A034963",
+    "A069484",
+    "A133524",
+    "A133525",
+    "A133526",
+    "A133527",
+    "A133528",
+    "A133529",
+    "A133530",
+    "A133531",
+    "A133532",
+    "A133535",
+    "A133536",
+    "A133537",
+    "A133538"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:03:13",
+    "offset": 1,
+    "size": 30,
+    "source": "joeis"
+  }
+}

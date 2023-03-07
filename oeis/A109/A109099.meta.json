@@ -1,0 +1,25 @@
+{
+  "description": "Numbers n such that n! can be expressed as the product of smaller factorials > 2.",
+  "id": "A109099",
+  "mentions": [
+    "A001013",
+    "A003135",
+    "A034878",
+    "A058295",
+    "A075082",
+    "A109095",
+    "A109096",
+    "A109097",
+    "A109098"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

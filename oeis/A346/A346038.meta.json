@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows T(n, k) such that Fib(n, x+1) = Sum_{k=1..n} T(n, k)*Fib(k, x) where Fib(n, x) is the n-th Fibonacci polynomial.",
+  "id": "A346038",
+  "mentions": [
+    "A000012",
+    "A000027",
+    "A000217",
+    "A005581",
+    "A162515",
+    "A168561"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:19",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

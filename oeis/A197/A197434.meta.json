@@ -1,0 +1,17 @@
+{
+  "description": "Number of n X n 0..2 arrays with no element equal to the average of its horizontal and vertical neighbors",
+  "id": "A197434",
+  "mentions": [
+    "A197442"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

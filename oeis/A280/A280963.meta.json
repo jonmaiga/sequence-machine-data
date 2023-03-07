@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that for all divisors of n, ratios of 2 consecutive divisors of n will always reduce to lowest terms to a fraction with numerator=denominator+2.",
+  "id": "A280963",
+  "mentions": [
+    "A000244",
+    "A006093",
+    "A140110"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "For any n >= 0 and k > 0, the prime(k)-adic valuation of a(n) equals the prime(k)-adic valuation of n + k (where prime(k) denotes the k-th prime).",
+  "id": "A298155",
+  "mentions": [
+    "A000040",
+    "A002110",
+    "A007814",
+    "A007949",
+    "A060175",
+    "A073605",
+    "A102370",
+    "A112765",
+    "A214411",
+    "A298161"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:19",
+    "offset": 0,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

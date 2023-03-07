@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = number of the row of the Wythoff array (A035513) that includes prime(n).",
+  "id": "A360377",
+  "mentions": [
+    "A000040",
+    "A000045",
+    "A001622",
+    "A035513",
+    "A332938",
+    "A360378",
+    "A360379",
+    "A360380"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

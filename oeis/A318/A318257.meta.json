@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows, expansion of the e.g.f. given below related to partitions of {1,2,...,5n} into sets of size 5, nonzero coefficients of z.",
+  "id": "A318257",
+  "mentions": [
+    "A048993",
+    "A156289",
+    "A291451",
+    "A291452"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

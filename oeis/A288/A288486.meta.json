@@ -1,0 +1,26 @@
+{
+  "description": "Square rings obtained by adding four identical cuboids from A169938, a(n) = 4*n*(n+1)*(n*(n+1)+1).",
+  "id": "A288486",
+  "mentions": [
+    "A000584",
+    "A001844",
+    "A002061",
+    "A002378",
+    "A007204",
+    "A033996",
+    "A169938",
+    "A288487"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:01",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

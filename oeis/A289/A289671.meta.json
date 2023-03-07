@@ -1,0 +1,23 @@
+{
+  "description": "Consider the Post tag system defined in A284116; a(n) = number of binary words of length n which terminate in a cycle.",
+  "id": "A289671",
+  "mentions": [
+    "A284116",
+    "A284119",
+    "A284121",
+    "A289670",
+    "A289674",
+    "A289675"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:04",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

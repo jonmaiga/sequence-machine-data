@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of the surface index of a regular octahedron.",
+  "id": "A232811",
+  "mentions": [
+    "A010469",
+    "A131594",
+    "A232808",
+    "A232809",
+    "A232810",
+    "A232812"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:48:04",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

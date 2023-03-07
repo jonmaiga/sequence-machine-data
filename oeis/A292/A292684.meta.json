@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the number of positive integers k not divisible by 10 such that f(kN) = f(N) for N = A292683(n) and f(x) = x / (x without its first digit: A217657(x)).",
+  "id": "A292684",
+  "mentions": [
+    "A000030",
+    "A217657",
+    "A292683",
+    "A292685"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

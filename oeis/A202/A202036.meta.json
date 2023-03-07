@@ -1,0 +1,20 @@
+{
+  "description": "Smallest prime residue of x^n (mod n) for x=0..n-1, or 0 if no such prime exists.",
+  "id": "A202036",
+  "mentions": [
+    "A195812",
+    "A196082",
+    "A202034",
+    "A202035"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:22",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

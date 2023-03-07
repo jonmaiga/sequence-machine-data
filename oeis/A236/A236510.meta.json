@@ -1,0 +1,20 @@
+{
+  "description": "Numbers whose prime factorization viewed as a tuple of powers is palindromic, when viewed from the least to the largest prime present, including also any zero-exponents for the intermediate primes.",
+  "id": "A236510",
+  "mentions": [
+    "A085924",
+    "A242414",
+    "A242418"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Square array A(n,k) = A156552(lcm(A005940(1+n), A005940(1+k))), read by antidiagonals.",
+  "id": "A351962",
+  "mentions": [
+    "A001477",
+    "A003990",
+    "A005940",
+    "A156552",
+    "A341520",
+    "A351960",
+    "A351961"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

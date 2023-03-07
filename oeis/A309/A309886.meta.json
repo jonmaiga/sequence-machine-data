@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the smallest number that cannot be obtained from the first n powers of two {2^0,2^1,...,2^(n-1)} using each power exactly once and the operations +,-,*,/. Parentheses are allowed.",
+  "id": "A309886",
+  "mentions": [
+    "A071314",
+    "A309885"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

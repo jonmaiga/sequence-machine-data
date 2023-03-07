@@ -1,0 +1,17 @@
+{
+  "description": "Sequence following Van Eck's sequence unless a prime which was previously encountered is found, in which case, a(n+1) = n - m, where m is the largest possible value such that a(m) is also prime.",
+  "id": "A336891",
+  "mentions": [
+    "A181391"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

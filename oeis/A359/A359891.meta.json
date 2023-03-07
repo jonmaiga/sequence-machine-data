@@ -1,0 +1,43 @@
+{
+  "description": "Members of A026424 (numbers with an odd number of prime factors) whose prime indices have the same mean as median.",
+  "id": "A359891",
+  "mentions": [
+    "A001222",
+    "A008284",
+    "A026424",
+    "A056239",
+    "A058398",
+    "A112798",
+    "A240219",
+    "A316413",
+    "A326567",
+    "A326568",
+    "A327473",
+    "A327482",
+    "A359889",
+    "A359890",
+    "A359892",
+    "A359893",
+    "A359894",
+    "A359895",
+    "A359899",
+    "A359901",
+    "A359902",
+    "A359908",
+    "A359910",
+    "A360005",
+    "A360007",
+    "A360009"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

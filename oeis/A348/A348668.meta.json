@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the probability that a triangle formed by three points uniformly and independently chosen at random in a rectangle with dimensions 1 X 2 is obtuse.",
+  "id": "A348668",
+  "mentions": [
+    "A093072",
+    "A341942"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn",
+    "unsolved"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

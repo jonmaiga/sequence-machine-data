@@ -1,0 +1,24 @@
+{
+  "description": "Primes p such that 2*p+11 is prime.",
+  "id": "A171517",
+  "mentions": [
+    "A000040",
+    "A005382",
+    "A005384",
+    "A023204",
+    "A023207",
+    "A063908",
+    "A063912"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:55",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "Number of triangles after n-th stage in a cellular automaton based in isosceles triangles of two sizes (see Comments lines for precise definition).",
+  "id": "A231348",
+  "mentions": [
+    "A006046",
+    "A047999",
+    "A139250",
+    "A151566",
+    "A160406",
+    "A173530",
+    "A182634",
+    "A194444",
+    "A220478",
+    "A220524",
+    "A230981",
+    "A231349",
+    "A233780"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Expansion of (1+2*x+x^2+x^3+2*x^4+x^5)/(1-2*x^3+x^6).",
+  "id": "A226122",
+  "mentions": [
+    "A005408",
+    "A016754",
+    "A130823",
+    "A131534",
+    "A131561",
+    "A226023"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:53:31",
+    "offset": 0,
+    "size": 60,
+    "source": "joeis"
+  }
+}

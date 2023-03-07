@@ -1,0 +1,18 @@
+{
+  "description": "Number of strings of numbers x(i=1..6) in 0..n with sum i*x(i) equal to n*6",
+  "id": "A184706",
+  "mentions": [
+    "A184703"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-10-18 14:56:45",
+    "offset": 1,
+    "size": 34,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Sequence of distinct least nonnegative numbers such that the average of the first n terms is a triangular number.",
+  "id": "A249264",
+  "mentions": [
+    "A000217",
+    "A000566",
+    "A248983"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

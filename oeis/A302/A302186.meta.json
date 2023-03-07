@@ -1,0 +1,31 @@
+{
+  "description": "Number of 3D walks of type ace.",
+  "id": "A302186",
+  "mentions": [
+    "A000108",
+    "A000984",
+    "A002212",
+    "A002896",
+    "A005572",
+    "A026375",
+    "A064037",
+    "A081671",
+    "A138547",
+    "A145847",
+    "A145867",
+    "A150500",
+    "A202814"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

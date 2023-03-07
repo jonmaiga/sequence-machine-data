@@ -1,0 +1,23 @@
+{
+  "description": "Number of 2n-move closed knight paths on an unbounded chessboard from a given square to the same square.",
+  "id": "A254129",
+  "mentions": [
+    "A025600",
+    "A094061",
+    "A253974",
+    "A254459",
+    "A307347"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:12",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

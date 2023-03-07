@@ -1,0 +1,19 @@
+{
+  "description": "Triangle T(n, k) = round(c(n)/(c(k)*c(n-k))) where c(n) = ((n-1)! * n! * (n+1)!)/ 2^(n-1) if n >= 2, otherwise 1, read by rows.",
+  "id": "A174150",
+  "mentions": [
+    "A174151"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:58",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

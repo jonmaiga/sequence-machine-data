@@ -1,0 +1,24 @@
+{
+  "description": "Triangle T(n, k) = (k+1)*(n-k+1), read by rows.",
+  "id": "A141429",
+  "mentions": [
+    "A003991",
+    "A004247",
+    "A005581",
+    "A144329",
+    "A158823"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:18:45",
+    "offset": 1,
+    "size": 78,
+    "source": "joeis"
+  }
+}

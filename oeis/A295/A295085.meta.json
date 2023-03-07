@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that {k*phi} < 0.25 or {k*phi} > 0.75, where phi is the golden ratio (1 + sqrt(5))/2 and { } denotes fractional part.",
+  "id": "A295085",
+  "mentions": [
+    "A001622",
+    "A190249",
+    "A190250",
+    "A190251"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:13",
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

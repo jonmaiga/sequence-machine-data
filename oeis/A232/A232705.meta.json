@@ -1,0 +1,19 @@
+{
+  "description": "Number of Gaussian integers z satisfying (n-1)/2 < |z| < n/2.",
+  "id": "A232705",
+  "mentions": [
+    "A036705",
+    "A047077",
+    "A333462"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:51",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

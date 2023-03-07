@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of ordered partitions of 24*n + 4 into four squares of primes (A001248).",
+  "id": "A323016",
+  "mentions": [
+    "A001248",
+    "A024702",
+    "A323015"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

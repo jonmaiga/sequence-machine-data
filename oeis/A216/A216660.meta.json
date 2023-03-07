@@ -1,0 +1,17 @@
+{
+  "description": "Number of horizontal, vertical or knight-move neighbor colorings of an nX2 array with new integer colors introduced in row major order",
+  "id": "A216660",
+  "mentions": [
+    "A216663"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

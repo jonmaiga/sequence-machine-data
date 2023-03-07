@@ -1,0 +1,25 @@
+{
+  "description": "Abundant numbers (A005101) whose abundance is odd.",
+  "id": "A156903",
+  "mentions": [
+    "A000203",
+    "A005101",
+    "A028982",
+    "A033880",
+    "A083211",
+    "A204825",
+    "A204826",
+    "A204827",
+    "A259231"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:39",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

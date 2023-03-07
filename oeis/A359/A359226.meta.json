@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the least k >= 0 such that A006370^k(A070167(n)) = n (where A006370^k denotes the k-th iterate of A006370).",
+  "id": "A359226",
+  "mentions": [
+    "A006370",
+    "A070167",
+    "A177729"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:33",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

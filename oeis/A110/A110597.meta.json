@@ -1,0 +1,21 @@
+{
+  "description": "Balanced numbers (A020492) k such that k mod 12 = 1.",
+  "id": "A110597",
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A017533",
+    "A020492",
+    "A062699"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:02",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

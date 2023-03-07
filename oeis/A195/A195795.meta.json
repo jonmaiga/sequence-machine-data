@@ -1,0 +1,18 @@
+{
+  "description": "Positive integers c for which there is a (-1)-Pythagorean triple (a,b,c) satisfying a<=b.",
+  "id": "A195795",
+  "mentions": [
+    "A195770",
+    "A195778"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 15:06:17",
+    "offset": 1,
+    "size": 67,
+    "source": "joeis"
+  }
+}

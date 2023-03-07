@@ -1,0 +1,19 @@
+{
+  "description": "Multiplicities for A111774(n), for n >= 1.",
+  "id": "A338428",
+  "mentions": [
+    "A111774",
+    "A337940"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

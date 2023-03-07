@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = Sum_{i=1..Fibonacci(n)} sigma_0(i) where sigma_0(n) is A000005(n).",
+  "id": "A158568",
+  "mentions": [
+    "A000005",
+    "A000045",
+    "A006218",
+    "A062550",
+    "A085831",
+    "A153568",
+    "A153816",
+    "A153817",
+    "A153876"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:41",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

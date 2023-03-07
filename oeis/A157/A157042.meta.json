@@ -1,0 +1,18 @@
+{
+  "description": "Primes p such that 6p-7, 6p-5, 6p-1 are all prime.",
+  "id": "A157042",
+  "mentions": [
+    "A157043"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:39",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

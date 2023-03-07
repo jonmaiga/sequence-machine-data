@@ -1,0 +1,21 @@
+{
+  "description": "Signature permutation of a nonrecursive Catalan automorphism: rotate a binary tree left if possible, otherwise apply *A089863.",
+  "id": "A123499",
+  "mentions": [
+    "A074679",
+    "A089840",
+    "A089863",
+    "A123500",
+    "A123503"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

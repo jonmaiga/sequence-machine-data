@@ -1,0 +1,21 @@
+{
+  "description": "Number of 2-colorings of edges of the n-cube up to isometry.",
+  "id": "A333444",
+  "mentions": [
+    "A000165",
+    "A001787",
+    "A199406",
+    "A331359",
+    "A333418"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:03",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Primes p such that (p reversed)+3 is also a prime.",
+  "id": "A235147",
+  "mentions": [
+    "A165446",
+    "A166501",
+    "A167460",
+    "A167466",
+    "A167473"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:52",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

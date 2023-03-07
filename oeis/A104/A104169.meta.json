@@ -1,0 +1,20 @@
+{
+  "description": "Highly decomposable Smith numbers. A Smith number which sets a record for the number of prime factors (counting multiplicity) starting from first Smith number is called a highly decomposable Smith number.",
+  "id": "A104169",
+  "mentions": [
+    "A006753",
+    "A104168"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "G.f.: Sum_{n>=0} n! * (2*x)^n * Product_{k=1..n} (1 + k*x)/(1 + 2*k*x + 2*k^2*x^2).",
+  "id": "A221988",
+  "mentions": [
+    "A136127",
+    "A208237",
+    "A221973",
+    "A221987"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

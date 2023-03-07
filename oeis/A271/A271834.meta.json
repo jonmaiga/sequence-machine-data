@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 2^n - Sum_{m=0..n} binomial(n/gcd(n,m), m/gcd(n,m)) = 2^n - A082906.",
+  "id": "A271834",
+  "mentions": [
+    "A082905",
+    "A082906"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:36",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

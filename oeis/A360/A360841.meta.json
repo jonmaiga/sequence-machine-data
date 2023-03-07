@@ -1,0 +1,21 @@
+{
+  "description": "4-full numbers (A036967) sandwiched between twin primes.",
+  "id": "A360841",
+  "mentions": [
+    "A014574",
+    "A036967",
+    "A113839",
+    "A360840"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:34",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

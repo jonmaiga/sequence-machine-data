@@ -1,0 +1,19 @@
+{
+  "description": "Number of partitions of n into exactly 2 types of parts: one odd and one even.",
+  "id": "A117956",
+  "mentions": [
+    "A002133",
+    "A117955"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:07",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

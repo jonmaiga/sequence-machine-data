@@ -1,0 +1,22 @@
+{
+  "description": "Non-palindromic composite numbers such that n' = [Rev(n)]', where n' is the arithmetic derivative of n.",
+  "id": "A259077",
+  "mentions": [
+    "A003415",
+    "A004086",
+    "A085329",
+    "A097647"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

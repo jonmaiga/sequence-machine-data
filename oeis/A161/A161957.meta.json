@@ -1,0 +1,21 @@
+{
+  "description": "Fixed points of A161955.",
+  "id": "A161957",
+  "mentions": [
+    "A065091",
+    "A161594",
+    "A161597",
+    "A161955"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

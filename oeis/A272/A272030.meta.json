@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of C = log(2*Pi) + B_3 (where B_3 is A083343), one of Euler totient constants.",
+  "id": "A272030",
+  "mentions": [
+    "A001620",
+    "A005596",
+    "A065484",
+    "A065485",
+    "A080130",
+    "A082695",
+    "A083343"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 98,
+    "source": "oeis-entry"
+  }
+}

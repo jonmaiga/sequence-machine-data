@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of the upper limit x such that Integral_{u=0..Pi*x} u*cot(u) du = 0.",
+  "id": "A175638",
+  "mentions": [
+    "A086054"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

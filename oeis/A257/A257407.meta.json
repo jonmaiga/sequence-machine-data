@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of E(1/sqrt(2)) = 1.35064..., where E is the complete elliptic integral.",
+  "id": "A257407",
+  "mentions": [
+    "A010466",
+    "A053004",
+    "A062539",
+    "A076390",
+    "A093341",
+    "A105419"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:15",
+    "offset": 1,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "description": "Number of reduced words of length n in the Weyl group B_12.",
+  "id": "A161858",
+  "mentions": [
+    "A008137",
+    "A008576",
+    "A128084",
+    "A161409",
+    "A161696",
+    "A161699",
+    "A161716",
+    "A161717",
+    "A161733",
+    "A161755",
+    "A161776",
+    "A267167",
+    "A267175"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 17:17:55",
+    "offset": 0,
+    "size": 28,
+    "source": "joeis"
+  }
+}

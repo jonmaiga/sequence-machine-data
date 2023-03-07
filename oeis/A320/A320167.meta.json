@@ -1,0 +1,33 @@
+{
+  "description": "Regular triangle where T(n,k) = Sum (-1)^i, where the sum is over all factorizations of n into i factors that are all > 1 and <= k.",
+  "id": "A320167",
+  "mentions": [
+    "A001055",
+    "A045778",
+    "A066032",
+    "A114592",
+    "A162247",
+    "A195017",
+    "A281118",
+    "A316441",
+    "A317145",
+    "A317176",
+    "A319237",
+    "A319238",
+    "A320835",
+    "A320836",
+    "A330935"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-entry"
+  }
+}

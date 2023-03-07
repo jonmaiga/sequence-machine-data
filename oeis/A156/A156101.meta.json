@@ -1,0 +1,18 @@
+{
+  "description": "L.g.f.: A(x) = Sum_{n>=1} a(n)*x^n/n = Sum_{n>=1} (1 + 2^n*x)^n*x^n/n .",
+  "id": "A156101",
+  "mentions": [
+    "A156100"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

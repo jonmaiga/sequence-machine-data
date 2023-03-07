@@ -1,0 +1,30 @@
+{
+  "description": "Number of set-systems with n vertices and at least one endpoint/leaf.",
+  "id": "A327228",
+  "mentions": [
+    "A058891",
+    "A059167",
+    "A245797",
+    "A327098",
+    "A327103",
+    "A327104",
+    "A327105",
+    "A327107",
+    "A327197",
+    "A327227",
+    "A327229",
+    "A327230",
+    "A330059"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:54",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-bfile"
+  }
+}

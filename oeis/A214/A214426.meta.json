@@ -1,0 +1,24 @@
+{
+  "description": "Numbers n palindromic in exactly four bases b, 2 <= b <= 10.",
+  "id": "A214426",
+  "mentions": [
+    "A050812",
+    "A050813",
+    "A214423",
+    "A214424",
+    "A214425"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

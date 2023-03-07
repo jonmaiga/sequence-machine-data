@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = s!/(s-n)! where s = (n*(n+1)/2)+1.",
+  "id": "A129893",
+  "mentions": [
+    "A000124",
+    "A000142",
+    "A107868",
+    "A129933"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:17",
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

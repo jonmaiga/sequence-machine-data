@@ -1,0 +1,25 @@
+{
+  "description": "Down-sortable primes: Primes that are also primes after digits are sorted into decreasing order.",
+  "id": "A211655",
+  "mentions": [
+    "A003459",
+    "A004186",
+    "A007500",
+    "A028864",
+    "A028867",
+    "A056709",
+    "A211654"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:30",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

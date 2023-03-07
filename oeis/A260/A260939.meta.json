@@ -1,0 +1,24 @@
+{
+  "description": "Thirteen primes in arithmetic progression with difference 60060 and minimal initial term.",
+  "id": "A260939",
+  "mentions": [
+    "A002110",
+    "A033290",
+    "A113827",
+    "A260751"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:19:29",
+    "offset": 1,
+    "size": 13,
+    "source": "joeis"
+  }
+}

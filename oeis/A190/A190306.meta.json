@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = n + [n*r/t] + [n*s/t]; r=1, s=csch(1), t=sech(1).",
+  "id": "A190306",
+  "mentions": [
+    "A190304",
+    "A190305"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:14",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

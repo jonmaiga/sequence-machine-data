@@ -1,0 +1,28 @@
+{
+  "description": "Numbers k such that the decimal expansion of 3^k contains no 9.",
+  "id": "A131613",
+  "mentions": [
+    "A007377",
+    "A030700",
+    "A131614",
+    "A131615",
+    "A131616",
+    "A131617",
+    "A131618",
+    "A131625",
+    "A131627",
+    "A131629"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of palindromic primes in base 2 with exactly n binary digits.",
+  "id": "A117773",
+  "mentions": [
+    "A016041",
+    "A095741",
+    "A117697"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:07",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

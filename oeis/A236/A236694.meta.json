@@ -1,0 +1,20 @@
+{
+  "description": "Fibonacci numbers whose difference between the greatest prime divisor and the smallest prime divisor equals twice a Fibonacci number.",
+  "id": "A236694",
+  "mentions": [
+    "A000045",
+    "A008472",
+    "A216893"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "Largest possible side length, a, of a Heronian triangle with perimeter A051518(n), such that a <= b <= c.",
+  "id": "A330917",
+  "mentions": [
+    "A051516",
+    "A051518",
+    "A070138",
+    "A096468",
+    "A298079",
+    "A298614",
+    "A305717",
+    "A330912",
+    "A330915",
+    "A330916",
+    "A330921",
+    "A330923",
+    "A331199"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

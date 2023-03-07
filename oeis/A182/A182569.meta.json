@@ -1,0 +1,24 @@
+{
+  "description": "Primes that have two terms in their Zeckendorf representation.",
+  "id": "A182569",
+  "mentions": [
+    "A000040",
+    "A014417",
+    "A179242",
+    "A179253",
+    "A182535",
+    "A182570",
+    "A182574"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Numbers m such that m^2+1 is prime and m^2-7 = prevprime(m^2) (= A007917(m^2)).",
+  "id": "A157934",
+  "mentions": [
+    "A005574",
+    "A007917",
+    "A028882",
+    "A028883",
+    "A157183",
+    "A157935"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:40",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

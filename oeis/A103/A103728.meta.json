@@ -1,0 +1,29 @@
+{
+  "description": "Coefficients of numerator polynomials of g.f.s for a certain necklace problem involving prime numbers.",
+  "id": "A103728",
+  "mentions": [
+    "A000012",
+    "A000040",
+    "A000720",
+    "A008646",
+    "A032191",
+    "A040976",
+    "A103718",
+    "A103729",
+    "A103914",
+    "A103915"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

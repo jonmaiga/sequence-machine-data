@@ -1,0 +1,19 @@
+{
+  "description": "The number of unordered pairs (f,g) of functions from {1..n} to itself such that fg=gf (i.e., f(g(i))=g(f(i)) for all i) where f and g are distinct.",
+  "id": "A254570",
+  "mentions": [
+    "A181162",
+    "A254569"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

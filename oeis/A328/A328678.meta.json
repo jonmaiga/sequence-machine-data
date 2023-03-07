@@ -1,0 +1,29 @@
+{
+  "description": "Number of strict, pairwise indivisible, relatively prime integer partitions of n.",
+  "id": "A328678",
+  "mentions": [
+    "A000837",
+    "A078374",
+    "A285572",
+    "A285573",
+    "A303362",
+    "A304713",
+    "A305148",
+    "A316476",
+    "A328171",
+    "A328671",
+    "A328676",
+    "A328677"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

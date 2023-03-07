@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = floor( exp(gamma) k log log k ) - sigma(k), where gamma is Euler's constant (A001620) and sigma(k) is sum of divisors of k (A000203), the n-th colossally abundant number (A004490).",
+  "id": "A279702",
+  "mentions": [
+    "A000203",
+    "A001620",
+    "A004490",
+    "A058209"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 2,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

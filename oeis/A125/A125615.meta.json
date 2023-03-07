@@ -1,0 +1,27 @@
+{
+  "description": "Sum of the quadratic nonresidues of prime(n).",
+  "id": "A125615",
+  "mentions": [
+    "A076409",
+    "A076410",
+    "A125613",
+    "A125618",
+    "A171555",
+    "A282035",
+    "A282036",
+    "A282037",
+    "A282038"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:13",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

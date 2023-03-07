@@ -1,0 +1,23 @@
+{
+  "description": "1 together with the odd numbers m >= 3 for which phi(2*m)/2 = phi(m)/2 is odd, where phi = A000010 (Euler's totient).",
+  "id": "A197504",
+  "mentions": [
+    "A000010",
+    "A002145",
+    "A055035",
+    "A196445",
+    "A327922"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:19",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

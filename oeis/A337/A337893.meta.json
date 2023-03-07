@@ -1,0 +1,28 @@
+{
+  "description": "Array read by descending antidiagonals: T(n,k) is the number of chiral pairs of colorings of the faces of a regular n-dimensional orthoplex (cross polytope) using k or fewer colors.",
+  "id": "A337893",
+  "mentions": [
+    "A000004",
+    "A325006",
+    "A331360",
+    "A337413",
+    "A337885",
+    "A337889",
+    "A337891",
+    "A337892",
+    "A337894",
+    "A337896"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 2,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

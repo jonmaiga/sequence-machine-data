@@ -1,0 +1,33 @@
+{
+  "description": "Number A(n,k) of solid standard Young tableaux of shape [[n*k,n],[n]]; square array A(n,k), n>=0, k>=0, read by antidiagonals.",
+  "id": "A176129",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A002378",
+    "A006335",
+    "A214801",
+    "A215123",
+    "A215686",
+    "A215687",
+    "A215688",
+    "A246619",
+    "A246620",
+    "A246621",
+    "A246632",
+    "A246633",
+    "A246634",
+    "A246635"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:00",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

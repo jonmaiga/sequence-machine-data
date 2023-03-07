@@ -1,0 +1,38 @@
+{
+  "description": "Numbers that yield a prime whenever a '3' is inserted between any two digits.",
+  "id": "A304248",
+  "mentions": [
+    "A068673",
+    "A068674",
+    "A068677",
+    "A068679",
+    "A069246",
+    "A069832",
+    "A069833",
+    "A158232",
+    "A158594",
+    "A159236",
+    "A164329",
+    "A215417",
+    "A215419",
+    "A215420",
+    "A215421",
+    "A216169",
+    "A304243",
+    "A304244",
+    "A304245",
+    "A304246",
+    "A304247"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:28",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

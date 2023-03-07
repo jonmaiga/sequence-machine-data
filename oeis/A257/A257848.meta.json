@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = floor(n/8) * (n mod 8).",
+  "id": "A257848",
+  "mentions": [
+    "A115273",
+    "A142150",
+    "A257844",
+    "A257850"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:40:33",
+    "offset": 0,
+    "size": 74,
+    "source": "joeis"
+  }
+}

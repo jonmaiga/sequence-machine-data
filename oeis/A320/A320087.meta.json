@@ -1,0 +1,22 @@
+{
+  "description": "Number of primitive (=aperiodic) ternary words with length less than or equal to n which are earlier in lexicographic order than any other word derived by cyclic shifts of the alphabet.",
+  "id": "A320087",
+  "mentions": [
+    "A008683",
+    "A034741",
+    "A143325",
+    "A143326",
+    "A143327"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:42",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

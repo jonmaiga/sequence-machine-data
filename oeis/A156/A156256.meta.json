@@ -1,0 +1,21 @@
+{
+  "description": "Number of 1's separating successive 2's in the Kolakoski sequence A000002.",
+  "id": "A156256",
+  "mentions": [
+    "A000002",
+    "A078649",
+    "A100428",
+    "A248806"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

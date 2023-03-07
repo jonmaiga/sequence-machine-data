@@ -1,0 +1,21 @@
+{
+  "description": "Number of main classes of doubly symmetric diagonal Latin squares of order n.",
+  "id": "A340550",
+  "mentions": [
+    "A287650",
+    "A292517",
+    "A340545"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

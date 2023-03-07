@@ -1,0 +1,17 @@
+{
+  "description": "Integers a(n) = Sum_{i=1..q} 1/d(i) where d(i) are the divisors of A225110(n) for some q.",
+  "id": "A226774",
+  "mentions": [
+    "A225110"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

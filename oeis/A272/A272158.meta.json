@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of e.g.f.: (sin(x) + sin(4*x)) / sin(5*x), even-indexed terms only.",
+  "id": "A272158",
+  "mentions": [
+    "A272467"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:36",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

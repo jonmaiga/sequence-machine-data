@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: T(n,k) (1 <= k <= n) defined by T(n,n) = (n-1)^(n-1), T(n,k) = T(n,k+1) - (n-1)*T(n-1,k) for k = n-1 .. 1.",
+  "id": "A241580",
+  "mentions": [
+    "A231797",
+    "A241581"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Smallest palindromic number >= 3^n.",
+  "id": "A333770",
+  "mentions": [
+    "A000244",
+    "A002113",
+    "A262038",
+    "A333016"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:04",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

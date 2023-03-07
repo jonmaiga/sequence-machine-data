@@ -1,0 +1,31 @@
+{
+  "description": "Number of labeled hyperforests spanning n vertices without singleton edges.",
+  "id": "A304911",
+  "mentions": [
+    "A006126",
+    "A030019",
+    "A035053",
+    "A048143",
+    "A054921",
+    "A134954",
+    "A134955",
+    "A134957",
+    "A144959",
+    "A293993",
+    "A293994",
+    "A304716",
+    "A304717",
+    "A304867"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

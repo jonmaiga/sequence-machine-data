@@ -1,0 +1,18 @@
+{
+  "description": "Number of closed factors of length n in Thue-Morse sequence A010060.",
+  "id": "A268241",
+  "mentions": [
+    "A010060"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:30",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

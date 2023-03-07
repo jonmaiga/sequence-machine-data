@@ -1,0 +1,21 @@
+{
+  "description": "Fixed points of the permutation of the nonnegative integers defined by A105025 (i.e., n such that A105025(n) = n).",
+  "id": "A105271",
+  "mentions": [
+    "A104235",
+    "A105025",
+    "A214414",
+    "A214417",
+    "A214433"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:56",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

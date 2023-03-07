@@ -1,0 +1,27 @@
+{
+  "description": "The left hand column of the triangle A160468.",
+  "id": "A160469",
+  "mentions": [
+    "A000265",
+    "A002425",
+    "A002430",
+    "A036279",
+    "A048896",
+    "A089170",
+    "A117972",
+    "A156769",
+    "A160468"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

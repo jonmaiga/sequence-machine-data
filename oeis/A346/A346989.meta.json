@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of Sum_{k >= 0} A333922(n)/2^n.",
+  "id": "A346989",
+  "mentions": [
+    "A002487",
+    "A333922"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 98,
+    "source": "oeis-entry"
+  }
+}

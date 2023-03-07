@@ -1,0 +1,21 @@
+{
+  "description": "Triangle of nonzero (even) coefficients of the matching polynomials for the hypercube graphs Q_n.",
+  "id": "A192437",
+  "mentions": [
+    "A045310",
+    "A302235"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "changed",
+    "hard",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

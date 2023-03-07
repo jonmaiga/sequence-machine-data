@@ -1,0 +1,22 @@
+{
+  "description": "Number of partitions of n into distinct unitary divisors of n.",
+  "id": "A349542",
+  "mentions": [
+    "A033630",
+    "A066874",
+    "A077610",
+    "A286851",
+    "A293188"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:24",
+    "offset": 0,
+    "size": 115,
+    "source": "oeis-bfile"
+  }
+}

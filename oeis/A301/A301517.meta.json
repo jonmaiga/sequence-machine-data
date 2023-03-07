@@ -1,0 +1,25 @@
+{
+  "description": "Numbers whose ratio (sum of nonsquarefree divisors)/(sum of squarefree divisors) is a positive integer.",
+  "id": "A301517",
+  "mentions": [
+    "A001248",
+    "A004171",
+    "A005117",
+    "A030078",
+    "A048250",
+    "A056824",
+    "A162296",
+    "A268335",
+    "A335989"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:26",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

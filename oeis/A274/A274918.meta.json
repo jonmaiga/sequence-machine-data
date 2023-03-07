@@ -1,0 +1,28 @@
+{
+  "description": "Numbers n such that the sum of numbers less than n that do not divide n is odd.",
+  "id": "A274918",
+  "mentions": [
+    "A000035",
+    "A000203",
+    "A000217",
+    "A014601",
+    "A024816",
+    "A028982",
+    "A028983",
+    "A042963",
+    "A053868",
+    "A053869",
+    "A279064"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:40",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

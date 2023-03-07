@@ -1,0 +1,22 @@
+{
+  "description": "Number of n-bead necklace structures with beads of exactly three colors and no adjacent beads having the same color.",
+  "id": "A327397",
+  "mentions": [
+    "A000035",
+    "A056296",
+    "A306888",
+    "A327396",
+    "A328130"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:55",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

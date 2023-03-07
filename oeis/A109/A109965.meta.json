@@ -1,0 +1,19 @@
+{
+  "description": "Sum_i {i",
+  "id": "A109965",
+  "mentions": [
+    "A002984",
+    "A109964"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

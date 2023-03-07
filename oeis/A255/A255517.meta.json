@@ -1,0 +1,37 @@
+{
+  "description": "Number A(n,k) of rooted identity trees with n nodes and k-colored non-root nodes; square array A(n,k), n>=0, k>=0, read by antidiagonals.",
+  "id": "A255517",
+  "mentions": [
+    "A000004",
+    "A000012",
+    "A000326",
+    "A001477",
+    "A004111",
+    "A005753",
+    "A051662",
+    "A052757",
+    "A052772",
+    "A052797",
+    "A242249",
+    "A246169",
+    "A246312",
+    "A255518",
+    "A255519",
+    "A255520",
+    "A255521",
+    "A255522",
+    "A255523",
+    "A256068"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:13",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

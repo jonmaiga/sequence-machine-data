@@ -1,0 +1,26 @@
+{
+  "description": "Number of strict Golomb partitions of n.",
+  "id": "A325876",
+  "mentions": [
+    "A002033",
+    "A143823",
+    "A275972",
+    "A325325",
+    "A325853",
+    "A325856",
+    "A325858",
+    "A325868",
+    "A325879",
+    "A325992"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:52",
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

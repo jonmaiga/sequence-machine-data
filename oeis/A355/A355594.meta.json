@@ -1,0 +1,24 @@
+{
+  "description": "a(n) is the smallest integer that has exactly n alternating divisors.",
+  "id": "A355594",
+  "mentions": [
+    "A005179",
+    "A030141",
+    "A355303",
+    "A355593",
+    "A355595",
+    "A355596"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:30",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

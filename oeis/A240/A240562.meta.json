@@ -1,0 +1,20 @@
+{
+  "description": "Integers whose squares are in A000073 (tribonacci numbers).",
+  "id": "A240562",
+  "mentions": [
+    "A000073",
+    "A128911"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that at least one other integer m exists with the same smallest prime factor, same largest prime factor, and same set of decimal digits as n.",
+  "id": "A214619",
+  "mentions": [
+    "A214620",
+    "A214621"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "description": "Divisors of 496 (the 3rd perfect number), written in base 2.",
+  "id": "A135653",
+  "mentions": [
+    "A000043",
+    "A000079",
+    "A000396",
+    "A000668",
+    "A018487",
+    "A019279",
+    "A061645",
+    "A061652"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "easy",
+    "fini",
+    "formulas",
+    "full",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

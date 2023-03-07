@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = p is the first twin prime (p, p+2) for which p+1 has n prime factors (n>=2, multiplicity counted).",
+  "id": "A164291",
+  "mentions": [
+    "A060213",
+    "A102168",
+    "A164289",
+    "A164290"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:46",
+    "offset": 2,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

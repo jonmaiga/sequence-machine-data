@@ -1,0 +1,19 @@
+{
+  "description": "Table, read by rows, of the number of quivers of type Ã_(n-1) according to the parameter k (n >= 2, 1 <= k <= [n/2]).",
+  "id": "A189942",
+  "mentions": [
+    "A000108",
+    "A000888"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 2,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

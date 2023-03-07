@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the largest number of distinct integer-sided right triangles in which some n-digit number can appear as the length of a side.",
+  "id": "A354048",
+  "mentions": [
+    "A046081",
+    "A269929",
+    "A353875"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of binary words of length n with exactly one occurrence of subword 010 and exactly one occurrence of subword 101.",
+  "id": "A255386",
+  "mentions": [
+    "A118430",
+    "A260697"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:13",
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

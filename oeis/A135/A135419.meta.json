@@ -1,0 +1,22 @@
+{
+  "description": "Array read by rows, showing the ways of splitting the numbers from 1 to 16 into two groups so that the numbers in each group have the same sum (68) and the same sum of squares (748).",
+  "id": "A135419",
+  "mentions": [
+    "A133483",
+    "A133484",
+    "A135418"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "fini",
+    "full",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 101,
+    "source": "oeis-entry"
+  }
+}

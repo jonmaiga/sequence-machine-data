@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that A247985(k+1) - A247985(k) = 2.",
+  "id": "A247986",
+  "mentions": [
+    "A247985",
+    "A247987"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:04",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

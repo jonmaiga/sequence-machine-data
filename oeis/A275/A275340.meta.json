@@ -1,0 +1,19 @@
+{
+  "description": "Nontrivial centered polygonal numbers: numbers of the form A101321(n,k) where n>=1 and k>=2.",
+  "id": "A275340",
+  "mentions": [
+    "A090466",
+    "A101321"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:40",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

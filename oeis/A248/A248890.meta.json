@@ -1,0 +1,20 @@
+{
+  "description": "Number of rooted trees with n nodes such that for each inner node no more than k subtrees corresponding to its children have exactly k nodes.",
+  "id": "A248890",
+  "mentions": [
+    "A000081",
+    "A032305",
+    "A045648",
+    "A213920"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:05",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

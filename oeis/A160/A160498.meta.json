@@ -1,0 +1,24 @@
+{
+  "description": "Number of cubic primitive Dirichlet characters modulo n.",
+  "id": "A160498",
+  "mentions": [
+    "A005088",
+    "A060839",
+    "A114643",
+    "A121940",
+    "A160499",
+    "A343023"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:42",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

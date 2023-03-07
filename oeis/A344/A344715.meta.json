@@ -1,0 +1,23 @@
+{
+  "description": "Number of partitions of n containing a prime number of distinct primes and an arbitrary number of nonprimes.",
+  "id": "A344715",
+  "mentions": [
+    "A000040",
+    "A058698",
+    "A085755",
+    "A235945",
+    "A343753",
+    "A344677",
+    "A344890"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

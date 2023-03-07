@@ -1,0 +1,36 @@
+{
+  "description": "Number of integer partitions of n whose run-sums are not weakly decreasing.",
+  "id": "A357878",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A047966",
+    "A098859",
+    "A239312",
+    "A275870",
+    "A304405",
+    "A304406",
+    "A304428",
+    "A304430",
+    "A304442",
+    "A353832",
+    "A353837",
+    "A353864",
+    "A353932",
+    "A354584",
+    "A357850",
+    "A357865",
+    "A357875",
+    "A357876"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

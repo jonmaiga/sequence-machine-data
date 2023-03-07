@@ -1,0 +1,26 @@
+{
+  "description": "T(n,k)=Number of -k..k arrays of n elements with adjacent element differences also in -k..k",
+  "id": "A201042",
+  "mentions": [
+    "A001333",
+    "A003215",
+    "A004273",
+    "A063494",
+    "A126392",
+    "A126475",
+    "A126504",
+    "A126532"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:21",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

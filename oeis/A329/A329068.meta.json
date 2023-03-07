@@ -1,0 +1,19 @@
+{
+  "description": "a(1) = 1; thereafter if the sum of digits of all previous terms up to a(n) is even then a(n+1) = (sum of digits of all previous terms)/2, otherwise a(n+1) = (sum of digits of all previous terms)*3 + 1.",
+  "id": "A329068",
+  "mentions": [
+    "A004207",
+    "A105801"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

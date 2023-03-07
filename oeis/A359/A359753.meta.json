@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of subsets of the divisors of k which sum to k+1 where k is a number all of whose prime divisors are consecutive primes starting at 2.",
+  "id": "A359753",
+  "mentions": [
+    "A055932",
+    "A359196",
+    "A359197"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

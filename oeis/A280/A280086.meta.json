@@ -1,0 +1,22 @@
+{
+  "description": "Partial products of A206032 (Product_{d|n} sigma(d)).",
+  "id": "A280086",
+  "mentions": [
+    "A000203",
+    "A007429",
+    "A206032",
+    "A280078",
+    "A280085"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Irregular table read by rows: row n gives the number of edges with k facing edges for a regular n-gon with all diagonals drawn, with n>=3 and k>=2.",
+  "id": "A351045",
+  "mentions": [
+    "A135565",
+    "A342222",
+    "A342236",
+    "A344899",
+    "A349784"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 3,
+    "size": 77,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Numbers with at least one 1 and one 2 in ternary representation.",
+  "id": "A125293",
+  "mentions": [
+    "A007089",
+    "A062756",
+    "A081603",
+    "A125290",
+    "A125291",
+    "A125292"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

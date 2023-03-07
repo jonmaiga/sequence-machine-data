@@ -1,0 +1,23 @@
+{
+  "description": "The \"Reverse and Add!\" problem in base 12: sequence lists the final palindrome number for n, or -1 if no palindrome is ever reached. (Written in base 10.)",
+  "id": "A253241",
+  "mentions": [
+    "A016016",
+    "A029957",
+    "A060382",
+    "A061563",
+    "A062129"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

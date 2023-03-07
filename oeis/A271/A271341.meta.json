@@ -1,0 +1,24 @@
+{
+  "description": "Somos's sequence {a(4,n)} defined in comment in A018896.",
+  "id": "A271341",
+  "mentions": [
+    "A006720",
+    "A018896",
+    "A102276",
+    "A271831",
+    "A271835",
+    "A271837",
+    "A271838",
+    "A271839"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:35",
+    "offset": 0,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

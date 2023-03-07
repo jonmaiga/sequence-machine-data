@@ -1,0 +1,17 @@
+{
+  "description": "Number of (n+1)X(4+1) 0..2 arrays with the difference between each 2X2 subblock maximum and minimum lexicographically nondecreasing columnwise and nonincreasing rowwise",
+  "id": "A236488",
+  "mentions": [
+    "A236490"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:54",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

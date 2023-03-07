@@ -1,0 +1,20 @@
+{
+  "description": "Number of tilings of a 4 X n rectangle using integer-sided rectangular tiles of area 4.",
+  "id": "A220123",
+  "mentions": [
+    "A005178",
+    "A220122"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:38",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Lexicographically earliest such sequence a that a(i) = a(j) => f(i) = f(j) for all i, j, where f(n) = 0 if n is an odd squarefree number > 1, and f(n) = n for all other numbers.",
+  "id": "A322810",
+  "mentions": [
+    "A056911",
+    "A305801",
+    "A305980",
+    "A322808"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:46",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

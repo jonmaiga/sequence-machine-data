@@ -1,0 +1,18 @@
+{
+  "description": "G.f. A(x) satisfies the condition that G(A(x)) is a power series in x consisting entirely of positive integer coefficients such that G(A(x) - x^k) has negative coefficients for k>0, where G(x) = 1 + x*G(x)^3 is the g.f. of A001764.",
+  "id": "A251690",
+  "mentions": [
+    "A001764",
+    "A251691"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:09",
+    "offset": 1,
+    "size": 127,
+    "source": "oeis-bfile"
+  }
+}

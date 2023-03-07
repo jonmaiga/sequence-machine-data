@@ -1,0 +1,19 @@
+{
+  "description": "Partial sums of A048200.",
+  "id": "A176690",
+  "mentions": [
+    "A048200"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

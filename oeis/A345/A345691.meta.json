@@ -1,0 +1,21 @@
+{
+  "description": "For 1<=x<=n, 1<=y<=n, write gcd(x,y) = u*x+v*y with u,v minimal; a(n) = n^4*s, where s is the population variance of the values of u^2+v^2.",
+  "id": "A345691",
+  "mentions": [
+    "A345434",
+    "A345687",
+    "A345688",
+    "A345689",
+    "A345690"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

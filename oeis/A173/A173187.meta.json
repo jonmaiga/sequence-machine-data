@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = binomial(n + 3, 3)*9^n.",
+  "id": "A173187",
+  "mentions": [
+    "A081139",
+    "A173000"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:57",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

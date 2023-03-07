@@ -1,0 +1,18 @@
+{
+  "description": "Number of branches of length 1 in all hex trees with n edges.",
+  "id": "A126323",
+  "mentions": [
+    "A126321"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 08:45:47",
+    "offset": 0,
+    "size": 23,
+    "source": "joeis"
+  }
+}

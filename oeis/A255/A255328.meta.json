@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = total number of nodes in the finite subtrees branching \"left\" (to the \"smaller side\") from the node n in the infinite trunk of \"number-of-runs beanstalk\" (A255056).",
+  "id": "A255328",
+  "mentions": [
+    "A091067",
+    "A255056",
+    "A255057",
+    "A255327",
+    "A255329",
+    "A255330",
+    "A255331"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:13",
+    "offset": 0,
+    "size": 119,
+    "source": "oeis-bfile"
+  }
+}

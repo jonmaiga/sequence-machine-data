@@ -1,0 +1,20 @@
+{
+  "description": "Numbers whose divisors increase by a factor of 3 or less.",
+  "id": "A196149",
+  "mentions": [
+    "A027750",
+    "A052287",
+    "A174973"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:17",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

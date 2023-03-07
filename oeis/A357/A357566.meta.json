@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = ( Sum_{k = 0..n} binomial(n+k-1,k)^2 )^3 * ( Sum_{k = 0..n} binomial(n+k-1,k)^3 )^2.",
+  "id": "A357566",
+  "mentions": [
+    "A357565",
+    "A357671",
+    "A357672",
+    "A357673",
+    "A357674"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

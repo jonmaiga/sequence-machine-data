@@ -1,0 +1,27 @@
+{
+  "description": "Matula-Goebel numbers of powerful rooted trees.",
+  "id": "A318612",
+  "mentions": [
+    "A000081",
+    "A001694",
+    "A061775",
+    "A111299",
+    "A214577",
+    "A276625",
+    "A303431",
+    "A317102",
+    "A317705",
+    "A317707",
+    "A317719"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

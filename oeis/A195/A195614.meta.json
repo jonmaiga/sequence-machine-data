@@ -1,0 +1,22 @@
+{
+  "description": "Denominators a(n) of Pythagorean approximations b(n)/a(n) to 2.",
+  "id": "A195614",
+  "mentions": [
+    "A007805",
+    "A014445",
+    "A195500",
+    "A195615"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:17",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "If b(n) is the smallest positive integer and c(n) is the largest positive integer such that n = b(n)^c(n), then a(n) = b(n)^c(n+1).",
+  "id": "A112537",
+  "mentions": [
+    "A052409",
+    "A052410"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-12-25 19:14:52",
+    "offset": 1,
+    "size": 66,
+    "source": "joeis"
+  }
+}

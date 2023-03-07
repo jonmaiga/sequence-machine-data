@@ -1,0 +1,28 @@
+{
+  "description": "Zero followed by infinitely many 9's.",
+  "id": "A180599",
+  "mentions": [
+    "A007953",
+    "A010785",
+    "A010888",
+    "A057427",
+    "A180592",
+    "A180594",
+    "A180595",
+    "A180596",
+    "A180597",
+    "A180598"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:05:35",
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

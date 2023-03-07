@@ -1,0 +1,21 @@
+{
+  "description": "a(0) = 0, a(1) = 1; for n >= 1, a(2*n) = a(2*n-1) - 2*a(n), a(2*n+1) = n - 2*a(n).",
+  "id": "A303404",
+  "mentions": [
+    "A002487",
+    "A020714",
+    "A305299"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "look",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:27",
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

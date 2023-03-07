@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of the negative derivative of Dawson integral at its inflection points.",
+  "id": "A247445",
+  "mentions": [
+    "A133841",
+    "A133842",
+    "A133843",
+    "A243433",
+    "A245262"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:03",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

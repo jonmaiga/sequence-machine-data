@@ -1,0 +1,24 @@
+{
+  "description": "Triangle T(n,m) with the denominator of 1/(n-m)^2-1/n^2, read by rows, 1<=m",
+  "id": "A174413",
+  "mentions": [
+    "A061036",
+    "A120073",
+    "A165441",
+    "A172370"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "frac",
+    "look",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:58",
+    "offset": 2,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

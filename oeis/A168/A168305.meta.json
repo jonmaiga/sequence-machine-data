@@ -1,0 +1,23 @@
+{
+  "description": "The fourth left hand column of triangle A167580.",
+  "id": "A168305",
+  "mentions": [
+    "A014480",
+    "A167580",
+    "A167581",
+    "A167582",
+    "A168306"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:52",
+    "offset": 4,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

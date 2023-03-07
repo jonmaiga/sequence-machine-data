@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of the \"e*Pi\" constant c_0*d_0 + c_1*d_1/10 + c_2*d_2/100 + c_3*d_3/1000 + ... where c_0 + c_1/10 + c_2/100 + c_3/1000 + ... and d_0 + d_1/10 + d_2/100 + d_3/1000 + ... (with c_k, d_k in the range 0 to 9) are the decimal expansions of e and Pi.",
+  "id": "A292101",
+  "mentions": [
+    "A000796",
+    "A001113",
+    "A073177",
+    "A228239",
+    "A231325",
+    "A292107"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

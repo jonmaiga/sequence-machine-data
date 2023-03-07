@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = 3*n - 2*phi(n) - sigma(n); Difference between the deficiency of n and its Moebius-transform.",
+  "id": "A297159",
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A008683",
+    "A033879",
+    "A051709",
+    "A083254",
+    "A296074"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:17",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the number of terms in the expansion of (x-y)(x^2-y^2)*(x^3-y^3)*(x^5-y^5)*...*(x^p_i-y^p_i), where p_i is the i-th prime.",
+  "id": "A221991",
+  "mentions": [
+    "A000124",
+    "A086781",
+    "A086795",
+    "A086796",
+    "A086817",
+    "A225549"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Indices of maximal gaps between consecutive nontrivial zeros of the Riemann zeta function.",
+  "id": "A208436",
+  "mentions": [
+    "A002410",
+    "A161914"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "hard",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

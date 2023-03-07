@@ -1,0 +1,18 @@
+{
+  "description": "1/2048 the number of permutations of 0..n having exactly 8 maxima.",
+  "id": "A130672",
+  "mentions": [
+    "A100575"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:18",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

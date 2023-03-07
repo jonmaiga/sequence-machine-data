@@ -1,0 +1,17 @@
+{
+  "description": "Number of 2*n-element subsets that can be chosen from {1,2,...,16*n} having element sum n*(16*n+1).",
+  "id": "A204464",
+  "mentions": [
+    "A204459"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:23",
+    "offset": 0,
+    "size": 15,
+    "source": "joeis"
+  }
+}

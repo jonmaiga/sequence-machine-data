@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of connected graphs on n vertices having independence number k.",
+  "id": "A294490",
+  "mentions": [
+    "A001349",
+    "A243781",
+    "A243782",
+    "A243783",
+    "A243784",
+    "A263341"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:12",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

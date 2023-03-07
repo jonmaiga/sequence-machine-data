@@ -1,0 +1,20 @@
+{
+  "description": "Number of partitions of n such that the (sum of all even parts) = floor(n/2).",
+  "id": "A284611",
+  "mentions": [
+    "A284610",
+    "A284624",
+    "A284625"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

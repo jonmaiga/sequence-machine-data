@@ -1,0 +1,17 @@
+{
+  "description": "Number of partitions of n into Catalan numbers A000108 where every part appears at least 12 times",
+  "id": "A161237",
+  "mentions": [
+    "A000108"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:22",
+    "offset": 1,
+    "size": 95,
+    "source": "joeis"
+  }
+}

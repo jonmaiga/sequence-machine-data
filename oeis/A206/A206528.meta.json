@@ -1,0 +1,23 @@
+{
+  "description": "5^n concatenated with itself.",
+  "id": "A206528",
+  "mentions": [
+    "A000351",
+    "A020338",
+    "A178664",
+    "A206527"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:26",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

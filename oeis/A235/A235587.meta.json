@@ -1,0 +1,17 @@
+{
+  "description": "Number of (n+1)X(4+1) 0..2 arrays with the difference of the upper median and minimum value of each 2X2 subblock in lexicographically nondecreasing order rowwise and columnwise",
+  "id": "A235587",
+  "mentions": [
+    "A235588"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:53",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

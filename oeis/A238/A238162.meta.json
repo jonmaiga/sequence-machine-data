@@ -1,0 +1,17 @@
+{
+  "description": "Least common multiple of the prime factors of n, each increased by 1.",
+  "id": "A238162",
+  "mentions": [
+    "A006972"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 2,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

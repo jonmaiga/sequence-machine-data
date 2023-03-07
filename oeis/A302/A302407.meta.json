@@ -1,0 +1,21 @@
+{
+  "description": "Euler transform is q*(j - 744) where j is j-function (A000521).",
+  "id": "A302407",
+  "mentions": [
+    "A000521",
+    "A014708",
+    "A192731",
+    "A304020"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:26",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

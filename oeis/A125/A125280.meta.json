@@ -1,0 +1,18 @@
+{
+  "description": "Row sums of triangle A125280, which is the convolution triangle of A030266.",
+  "id": "A125280",
+  "mentions": [
+    "A030266"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

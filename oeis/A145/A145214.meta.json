@@ -1,0 +1,17 @@
+{
+  "description": "Primes of the form : (n plus OR minus 2 = prime) and (n plus OR minus 4 = prime) and (n plus OR minus 6 = prime) ...and (n plus OR minus 12 = prime).",
+  "id": "A145214",
+  "mentions": [
+    "A145213"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

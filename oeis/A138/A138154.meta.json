@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that sigma(sigma(n))-phi(phi(n)) = 2n.",
+  "id": "A138154",
+  "mentions": [
+    "A136131",
+    "A136132",
+    "A137600"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "bref",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

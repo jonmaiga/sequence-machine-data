@@ -1,0 +1,20 @@
+{
+  "description": "Smallest positive integer k (or 0 if no such k) with a primitive cycle of n positive integers under iteration by the Collatz-like 3x-k function.",
+  "id": "A226676",
+  "mentions": [
+    "A226625",
+    "A226660",
+    "A226677"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

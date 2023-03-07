@@ -1,0 +1,24 @@
+{
+  "description": "Numbers with prime factorization p^4*q^6.",
+  "id": "A190464",
+  "mentions": [
+    "A030629",
+    "A085964",
+    "A085966",
+    "A175745",
+    "A179692",
+    "A179699",
+    "A179705"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:14",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

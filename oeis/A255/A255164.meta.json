@@ -1,0 +1,18 @@
+{
+  "description": "Numbers m such that, starting with prime(m), 10 consecutive primes plus 1 are a product of the same number k of primes (i.e., are k-almost primes).",
+  "id": "A255164",
+  "mentions": [
+    "A023514",
+    "A254787"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

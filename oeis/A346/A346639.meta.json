@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of the Hausdorff dimension of Hironaka's curve and equivalent carpets.",
+  "id": "A346639",
+  "mentions": [
+    "A346640"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

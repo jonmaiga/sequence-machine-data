@@ -1,0 +1,21 @@
+{
+  "description": "The trinomial transform (A027907) gives powers of 2, while the trinomial transform of this sequence shift one place left gives powers of 3.",
+  "id": "A100321",
+  "mentions": [
+    "A000045",
+    "A000079",
+    "A000244",
+    "A027907"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:51",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

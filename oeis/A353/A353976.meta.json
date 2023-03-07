@@ -1,0 +1,19 @@
+{
+  "description": "Product of the divisors of n whose arithmetic derivative is even.",
+  "id": "A353976",
+  "mentions": [
+    "A003415",
+    "A353975"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Irregular triangle which lists the three positions of 2*n-1 in A060819 in row n.",
+  "id": "A225055",
+  "mentions": [
+    "A000027",
+    "A026741",
+    "A042968",
+    "A043547",
+    "A047592",
+    "A060819",
+    "A106609",
+    "A106617",
+    "A147587"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

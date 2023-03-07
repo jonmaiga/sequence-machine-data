@@ -1,0 +1,19 @@
+{
+  "description": "A higher order recursion triangle sequence: m=4;l=4;e(n,k,m)=(l*k + m - 1)e(n - 1, k, m) + (m*n - l*k + 1 - m)e(n - 1, k - 1, m).",
+  "id": "A156280",
+  "mentions": [
+    "A008517"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

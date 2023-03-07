@@ -1,0 +1,30 @@
+{
+  "description": "Numerator of Euler(n,2).",
+  "id": "A143074",
+  "mentions": [
+    "A002425",
+    "A006519",
+    "A157805",
+    "A157808",
+    "A157812",
+    "A157827",
+    "A157835",
+    "A157856",
+    "A157864",
+    "A157875",
+    "A157886",
+    "A157907"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:32",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

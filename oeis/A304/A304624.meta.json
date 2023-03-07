@@ -1,0 +1,21 @@
+{
+  "description": "For any positive number n with binary expansion (1, b_0, ..., b_i), a(n) is the least k > 0 such that T^j(k) has the same parity as b_j for j = 0..i (where T^i denotes the i-th iterate of the Collatz function A014682).",
+  "id": "A304624",
+  "mentions": [
+    "A014682",
+    "A081254"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:29",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

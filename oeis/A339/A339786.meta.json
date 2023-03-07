@@ -1,0 +1,22 @@
+{
+  "description": "Number of homeomorphically irreducible leaf colored trees with n leaves using exactly 3 colors.",
+  "id": "A339786",
+  "mentions": [
+    "A007827",
+    "A339780",
+    "A339782",
+    "A339783",
+    "A339785"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:12",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "The (1,5)-entry in the 5 X 5 matrix M^n, where M={{5, 3, 2, 1, 1}, {3, 2, 1, 1, 0}, {2, 1, 1, 0, 0}, {1, 1, 0, 0, 0}, {1, 0, 0, 0, 0}}.",
+  "id": "A123943",
+  "mentions": [
+    "A122099",
+    "A122100",
+    "A123942"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:12",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Number of terms in the greedy sum for n^3.",
+  "id": "A242294",
+  "mentions": [
+    "A000578",
+    "A241833",
+    "A242284",
+    "A242293",
+    "A242295",
+    "A242296"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 2,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

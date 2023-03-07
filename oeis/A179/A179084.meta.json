@@ -1,0 +1,25 @@
+{
+  "description": "Odd numbers having an even sum of digits in their decimal representation.",
+  "id": "A179084",
+  "mentions": [
+    "A000035",
+    "A005408",
+    "A007953",
+    "A054683",
+    "A179081",
+    "A179082",
+    "A179085"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:42:11",
+    "offset": 1,
+    "size": 58,
+    "source": "joeis"
+  }
+}

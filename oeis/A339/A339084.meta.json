@@ -1,0 +1,28 @@
+{
+  "description": "Smaller term p1 of the first of two consecutive cousin prime pairs (p1,p1+4) and (p2,p2+4) such that the distance (p2-p1) is a square.",
+  "id": "A339084",
+  "mentions": [
+    "A000290",
+    "A023200",
+    "A046132",
+    "A053320",
+    "A094343",
+    "A138198",
+    "A161002",
+    "A161533",
+    "A161534",
+    "A176130",
+    "A338812"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

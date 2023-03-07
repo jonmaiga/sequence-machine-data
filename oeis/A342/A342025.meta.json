@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = 1 if n has the same numbers of prime factors of forms 4*k+1 and 4*k+3 when counted with multiplicity, otherwise 0.",
+  "id": "A342025",
+  "mentions": [
+    "A072202"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:15",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

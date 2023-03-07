@@ -1,0 +1,20 @@
+{
+  "description": "Lexicographically last solution to Erdős's Last Equation in n variables, x_1*...*x_n = n*(x_1 + ... + x_n), with 1 <= x_1 <= ... <= x_n, written as triangle T(n,k), 1<=k<=n.",
+  "id": "A329205",
+  "mentions": [
+    "A328910",
+    "A328980",
+    "A329206"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

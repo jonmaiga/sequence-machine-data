@@ -1,0 +1,32 @@
+{
+  "description": "Number T(n,k) of labeled cyclic chord diagrams with n chords such that every chord has length at least k; triangle T(n,k), n>=1, 1<=k<=n, read by rows.",
+  "id": "A324428",
+  "mentions": [
+    "A000204",
+    "A001147",
+    "A003436",
+    "A293157",
+    "A293881",
+    "A306386",
+    "A324429",
+    "A324430",
+    "A324431",
+    "A324432",
+    "A324433",
+    "A324434",
+    "A324435",
+    "A324436"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:50",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

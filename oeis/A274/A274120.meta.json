@@ -1,0 +1,23 @@
+{
+  "description": "Squares that are the sum of the first n odd primes for some n.",
+  "id": "A274120",
+  "mentions": [
+    "A000290",
+    "A007504",
+    "A033997",
+    "A061890",
+    "A065091",
+    "A071148"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that 11*n + 2 is prime.",
+  "id": "A111312",
+  "mentions": [
+    "A017413",
+    "A090187"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:02",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of prime factors with multiplicity of the difference between consecutive primes.",
+  "id": "A106149",
+  "mentions": [
+    "A001222",
+    "A001223"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

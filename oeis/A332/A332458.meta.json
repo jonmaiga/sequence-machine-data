@@ -1,0 +1,24 @@
+{
+  "description": "Odd numbers k, not powers of primes, such that sigma(k) == 2 modulo 8 and sigma(sigma(k)) == 6 modulo 8.",
+  "id": "A332458",
+  "mentions": [
+    "A000203",
+    "A000961",
+    "A051027",
+    "A228058",
+    "A332228",
+    "A332445",
+    "A332456",
+    "A332457"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:01",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

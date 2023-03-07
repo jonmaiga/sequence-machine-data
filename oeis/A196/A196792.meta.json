@@ -1,0 +1,28 @@
+{
+  "description": "a(n)=T(10,n), array T given by A047848.",
+  "id": "A196792",
+  "mentions": [
+    "A001022",
+    "A047848",
+    "A047849",
+    "A047850",
+    "A047851",
+    "A047852",
+    "A047853",
+    "A047854",
+    "A047855",
+    "A047856"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:18",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

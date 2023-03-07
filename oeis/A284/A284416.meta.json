@@ -1,0 +1,19 @@
+{
+  "description": "Number of self-avoiding planar walks of length 2n starting at (0,0), ending at (n,0), remaining in the first quadrant and using steps (0,1), (1,0), (1,1), (-1,1), and (1,-1) with the restriction that (0,1) is never used below the diagonal and (1,0) is never used above the diagonal.",
+  "id": "A284416",
+  "mentions": [
+    "A284414"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:55",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

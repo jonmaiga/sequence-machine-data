@@ -1,0 +1,32 @@
+{
+  "description": "A(n,k) is the n-th prime whose decimal expansion begins with the decimal expansion of k; square array A(n,k), n>=1, k>=1, read by antidiagonals.",
+  "id": "A262369",
+  "mentions": [
+    "A018800",
+    "A045707",
+    "A045708",
+    "A045709",
+    "A045710",
+    "A045711",
+    "A045712",
+    "A045713",
+    "A045714",
+    "A045715",
+    "A077344",
+    "A077345",
+    "A262365"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "look",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:22",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

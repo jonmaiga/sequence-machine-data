@@ -1,0 +1,25 @@
+{
+  "description": "Triangle read by rows: T(n,k) = (n#)/(k#), 1 <= k <= n.",
+  "id": "A201146",
+  "mentions": [
+    "A000012",
+    "A000040",
+    "A034386",
+    "A068111",
+    "A073838",
+    "A089026",
+    "A144186",
+    "A201156"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:22",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

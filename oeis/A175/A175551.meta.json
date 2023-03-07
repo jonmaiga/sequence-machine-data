@@ -1,0 +1,22 @@
+{
+  "description": "Decimal form of the period of 1/Fibonacci(n) for n such that gcd(10,Fibonacci(n)) = 1.",
+  "id": "A175551",
+  "mentions": [
+    "A000045",
+    "A002329",
+    "A045572",
+    "A175545",
+    "A178505"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

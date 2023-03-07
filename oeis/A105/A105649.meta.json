@@ -1,0 +1,22 @@
+{
+  "description": "Smallest member of set of 4 consecutive numbers which are Smith numbers.",
+  "id": "A105649",
+  "mentions": [
+    "A006753",
+    "A050219",
+    "A059754",
+    "A105648",
+    "A105650"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:56",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

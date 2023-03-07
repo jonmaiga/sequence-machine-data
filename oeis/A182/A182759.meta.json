@@ -1,0 +1,17 @@
+{
+  "description": "a(1) = 1, a(2) = 3, for n >= 3; a(n) = the smallest number h > a(n-1) such that [[a(n-2) + a(n-1)] * [a(n-2) + h] * [a(n-1) + h]] / [a(n-2) + a(n-1) + h] is integer.",
+  "id": "A182759",
+  "mentions": [
+    "A182758"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:06",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

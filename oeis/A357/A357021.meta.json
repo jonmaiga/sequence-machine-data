@@ -1,0 +1,25 @@
+{
+  "description": "First coordinate x of points in the triangular lattice, sorted first by the distance from the origin and then by the circumferential angle phi restricted to the sector 0 <= phi < Pi/6. y is given in A357022.",
+  "id": "A357021",
+  "mentions": [
+    "A003136",
+    "A280079",
+    "A280317",
+    "A305575",
+    "A305576",
+    "A307012",
+    "A355565",
+    "A355585",
+    "A357022"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

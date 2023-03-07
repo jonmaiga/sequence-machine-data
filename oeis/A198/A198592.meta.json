@@ -1,0 +1,17 @@
+{
+  "description": "Odd numbers producing 9 odd numbers in the Collatz iteration.",
+  "id": "A198592",
+  "mentions": [
+    "A198584"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:19",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

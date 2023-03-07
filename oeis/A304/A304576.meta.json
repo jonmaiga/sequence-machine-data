@@ -1,0 +1,28 @@
+{
+  "description": "a(n) = Sum_{k < n, k squarefree and relatively prime to n} (-1)^(k-1).",
+  "id": "A304576",
+  "mentions": [
+    "A000010",
+    "A001221",
+    "A005117",
+    "A008683",
+    "A073311",
+    "A111972",
+    "A112399",
+    "A139555",
+    "A265675",
+    "A304573",
+    "A304574",
+    "A304575"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

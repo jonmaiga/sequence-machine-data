@@ -1,0 +1,21 @@
+{
+  "description": "Primes in A152535.",
+  "id": "A152563",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A001223",
+    "A141042",
+    "A152535"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:46",
+    "offset": 1,
+    "size": 40,
+    "source": "joeis"
+  }
+}

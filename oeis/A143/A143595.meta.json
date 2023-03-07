@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows, A000012 * (an infinite lower triangular matrix with 1's in the first column and the rest 2's); 1<=k<=n.",
+  "id": "A143595",
+  "mentions": [
+    "A000012",
+    "A056944"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Numerator([x^n] (4*sinh(sqrt(x)/2)^2*cosh(sqrt(x)))/x).",
+  "id": "A327497",
+  "mentions": [
+    "A002675",
+    "A002677",
+    "A327986"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

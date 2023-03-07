@@ -1,0 +1,27 @@
+{
+  "description": "Number of non-constant factorizations of n whose distinct factors are pairwise coprime.",
+  "id": "A327695",
+  "mentions": [
+    "A001055",
+    "A089723",
+    "A281116",
+    "A302569",
+    "A304711",
+    "A318721",
+    "A319269",
+    "A327399",
+    "A327407",
+    "A327517"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

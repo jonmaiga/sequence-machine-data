@@ -1,0 +1,32 @@
+{
+  "description": "Number of 7-regular graphs (septic graphs) on 2n vertices.",
+  "id": "A165628",
+  "mentions": [
+    "A000012",
+    "A005176",
+    "A005195",
+    "A005638",
+    "A008483",
+    "A014377",
+    "A033301",
+    "A051031",
+    "A059841",
+    "A165626",
+    "A165627",
+    "A165877",
+    "A180260"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that w(k), w(k+1), and w(k+2) are all odd, where w is A336957.",
+  "id": "A337644",
+  "mentions": [
+    "A336957",
+    "A338070",
+    "A338071"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:09",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

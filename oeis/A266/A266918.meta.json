@@ -1,0 +1,21 @@
+{
+  "description": "Perfect power Löschian numbers.",
+  "id": "A266918",
+  "mentions": [
+    "A001597",
+    "A003136",
+    "A202822",
+    "A260682",
+    "A266836"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:28",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

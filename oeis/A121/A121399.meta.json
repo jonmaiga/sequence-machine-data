@@ -1,0 +1,19 @@
+{
+  "description": "G.f. satisfies: A(x) = G(x)*A(x^2*G(x)) where G(x) is the g.f. of the Motzkin numbers (A001006): G = (1 + x*G + x^2*G^2).",
+  "id": "A121399",
+  "mentions": [
+    "A001006",
+    "A121398",
+    "A121400"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

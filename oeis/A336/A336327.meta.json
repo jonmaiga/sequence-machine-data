@@ -1,0 +1,21 @@
+{
+  "description": "Period of orbit of Post's tag system ({0,1},{(0,0),(1,01101)},3,100^n).",
+  "id": "A336327",
+  "mentions": [
+    "A284119",
+    "A291793",
+    "A292091",
+    "A336287"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:02:09",
+    "offset": 1,
+    "size": 64,
+    "source": "joeis"
+  }
+}

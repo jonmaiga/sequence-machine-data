@@ -1,0 +1,18 @@
+{
+  "description": "The number s(j) such that n divides s(k)-s(j)>0, where k is the least positive integer for which such a j exists, and s(j)=3^j-2^j.",
+  "id": "A205109",
+  "mentions": [
+    "A204892",
+    "A205000"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-07 10:37:48",
+    "offset": 1,
+    "size": 60,
+    "source": "joeis"
+  }
+}

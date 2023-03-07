@@ -1,0 +1,20 @@
+{
+  "description": "Triangle T, read by rows, equal to the matrix square of triangle A113095, which satisfies the recurrence: A113095(n,k) = [A113095^4](n-1,k-1) + [A113095^4](n-1,k).",
+  "id": "A113097",
+  "mentions": [
+    "A113095",
+    "A113098",
+    "A113099"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

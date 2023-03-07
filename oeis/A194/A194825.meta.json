@@ -1,0 +1,21 @@
+{
+  "description": "Digital roots of the nonzero 9-gonal (nonagonal) numbers.",
+  "id": "A194825",
+  "mentions": [
+    "A001106",
+    "A010888"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:16:33",
+    "offset": 1,
+    "size": 86,
+    "source": "joeis"
+  }
+}

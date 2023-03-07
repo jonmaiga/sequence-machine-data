@@ -1,0 +1,19 @@
+{
+  "description": "Numbers for which the number of their semiprime divisors sets a new record.",
+  "id": "A350424",
+  "mentions": [
+    "A129912",
+    "A220264",
+    "A350425"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

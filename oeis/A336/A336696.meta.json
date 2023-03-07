@@ -1,0 +1,27 @@
+{
+  "description": "Sum of odd divisors of 1+sigma(n).",
+  "id": "A336696",
+  "mentions": [
+    "A000203",
+    "A000593",
+    "A088580",
+    "A193337",
+    "A324294",
+    "A332459",
+    "A336691",
+    "A336692",
+    "A336693",
+    "A336694"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:08",
+    "offset": 1,
+    "size": 77,
+    "source": "oeis-bfile"
+  }
+}

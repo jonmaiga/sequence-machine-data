@@ -1,0 +1,19 @@
+{
+  "description": "Generalized multiplicative Euler phi function of order 2 (see El Hindi et al. link).",
+  "id": "A349867",
+  "mentions": [
+    "A000010",
+    "A010554"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Cubes which do not have a partition as the sum of 2 squares.",
+  "id": "A125111",
+  "mentions": [
+    "A000578",
+    "A022544",
+    "A125084",
+    "A125110"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:13",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Odd numbers that are the sum of two consecutive nonprimes.",
+  "id": "A166685",
+  "mentions": [
+    "A118134",
+    "A141468",
+    "A163467"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:49",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

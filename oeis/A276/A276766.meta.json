@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = smallest nonnegative integer not yet in the sequence with no repeated digits and no digits in common with a(n-1), starting with a(0)=0.",
+  "id": "A276766",
+  "mentions": [
+    "A054659",
+    "A067581",
+    "A276512",
+    "A276633"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

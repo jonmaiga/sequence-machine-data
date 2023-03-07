@@ -1,0 +1,20 @@
+{
+  "description": "Smallest set of distinct numbers such that the sum of their reciprocals is 1 and each number is of the form p^i*q^j where p and q are distinct primes and i and j are positive.",
+  "id": "A237051",
+  "mentions": [
+    "A007774",
+    "A201463"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

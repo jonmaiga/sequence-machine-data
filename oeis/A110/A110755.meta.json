@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Tau(N), where N = the number obtained as a concatenation of 9801 with itself n times. Tau(n) = number of divisors of n.",
+  "id": "A110755",
+  "mentions": [
+    "A110751",
+    "A110752",
+    "A110753",
+    "A110754"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that, when computing A247476(k), all previous terms have been paired.",
+  "id": "A309063",
+  "mentions": [
+    "A247476"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

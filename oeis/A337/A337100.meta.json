@@ -1,0 +1,23 @@
+{
+  "description": "Numbers that have at least 4 different representations as the product of a number and of its decimal digits.",
+  "id": "A337100",
+  "mentions": [
+    "A098736",
+    "A336826",
+    "A336876",
+    "A336944",
+    "A337051",
+    "A337054"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:08",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

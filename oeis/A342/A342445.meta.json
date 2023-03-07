@@ -1,0 +1,22 @@
+{
+  "description": "Numbers that are divisible by their nonzero digits but are not divisible by the product of their nonzero digits.",
+  "id": "A342445",
+  "mentions": [
+    "A002796",
+    "A007602",
+    "A034838",
+    "A055471",
+    "A337163"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Triangle V, read by rows, where column k of V^(j+1) = column j of P^(3k+2), for j>=0, k>=0 and where P=A136220.",
+  "id": "A136230",
+  "mentions": [
+    "A136217",
+    "A136218",
+    "A136220",
+    "A136225",
+    "A136226",
+    "A136228",
+    "A136229",
+    "A136231",
+    "A136234",
+    "A136237"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

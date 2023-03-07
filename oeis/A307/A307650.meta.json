@@ -1,0 +1,19 @@
+{
+  "description": "Number of regions in the Shi-threshold arrangement STn.",
+  "id": "A307650",
+  "mentions": [
+    "A000108",
+    "A008277"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "For any nonnegative number n with binary expansion Sum_{k >= 0} b_k * 2^k, a(n) is the real part of f(n) = Sum_{k >= 0} ((-1)^Sum_{j = 0..k-1} b_j) * (1+i)^k (where i denotes the imaginary unit); sequence A348761 gives the imaginary part.",
+  "id": "A348760",
+  "mentions": [
+    "A000120",
+    "A070939",
+    "A146559",
+    "A348690",
+    "A348761"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:23",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

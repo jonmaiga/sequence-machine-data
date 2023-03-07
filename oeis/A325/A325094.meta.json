@@ -1,0 +1,32 @@
+{
+  "description": "Write n as a sum of distinct powers of 2, then take the primes of those powers of 2 and multiply them together.",
+  "id": "A325094",
+  "mentions": [
+    "A000720",
+    "A001222",
+    "A005117",
+    "A018819",
+    "A019565",
+    "A033844",
+    "A056239",
+    "A102378",
+    "A112798",
+    "A247935",
+    "A318400",
+    "A325091",
+    "A325092",
+    "A325093",
+    "A325106"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:51",
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

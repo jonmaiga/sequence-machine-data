@@ -1,0 +1,19 @@
+{
+  "description": "Triangular array: t(n,k) = number of partitions of n that include a partition of k.",
+  "id": "A235130",
+  "mentions": [
+    "A000041"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:52",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

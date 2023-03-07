@@ -1,0 +1,22 @@
+{
+  "description": "Binomial(n+9, 9)*7^n",
+  "id": "A197192",
+  "mentions": [
+    "A139641",
+    "A140107",
+    "A140404",
+    "A170932"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:18",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Number of non-equivalent ways to place n non-attacking kings on an n X n board.",
+  "id": "A279117",
+  "mentions": [
+    "A201513",
+    "A236679",
+    "A279111",
+    "A279112",
+    "A279113",
+    "A279114",
+    "A279115",
+    "A279116"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

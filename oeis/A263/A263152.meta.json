@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the greatest common unitary divisor of the friendly pairs, A050972(n) and A050973(n).",
+  "id": "A263152",
+  "mentions": [
+    "A050972",
+    "A050973",
+    "A165430",
+    "A263118"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:23",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

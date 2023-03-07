@@ -1,0 +1,22 @@
+{
+  "description": "Primes p such that sum of digits of p^3 is semiprime.",
+  "id": "A290963",
+  "mentions": [
+    "A000040",
+    "A001358",
+    "A007605",
+    "A235398",
+    "A235399"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:06",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

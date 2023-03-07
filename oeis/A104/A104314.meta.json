@@ -1,0 +1,19 @@
+{
+  "description": "Prime coefficient of x^(2*k) in (x^4 + x^3 + x^2 + x + 1)^k for k in A104313.",
+  "id": "A104314",
+  "mentions": [
+    "A005191",
+    "A104312",
+    "A104313"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

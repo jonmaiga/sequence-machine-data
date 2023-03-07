@@ -1,0 +1,19 @@
+{
+  "description": "Numbers N such that N = P//Q = R//S, where // is the concatenation function, satisfying the following properties: P and S are m-digit integers, Q and R are k-digit integers, k and m are distinct positive integers, and P*Q = R*S.",
+  "id": "A245385",
+  "mentions": [
+    "A245364",
+    "A245386"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

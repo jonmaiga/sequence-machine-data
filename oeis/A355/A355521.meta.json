@@ -1,0 +1,17 @@
+{
+  "description": "Primes that cannot be represented as 2*p+q where p, q and (2*p^2+q^2)/3 are prime.",
+  "id": "A355521",
+  "mentions": [
+    "A355518"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

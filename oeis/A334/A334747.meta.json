@@ -1,0 +1,46 @@
+{
+  "description": "Let p be the smallest prime not dividing the squarefree part of n. Multiply n by p and divide by the product of all smaller primes.",
+  "id": "A334747",
+  "mentions": [
+    "A000037",
+    "A002110",
+    "A003159",
+    "A003961",
+    "A003986",
+    "A007417",
+    "A007913",
+    "A008833",
+    "A016825",
+    "A019565",
+    "A034386",
+    "A036554",
+    "A036668",
+    "A048675",
+    "A053669",
+    "A145204",
+    "A225546",
+    "A267116",
+    "A325424",
+    "A329575",
+    "A331590",
+    "A332820",
+    "A332821",
+    "A332822",
+    "A334748",
+    "A334860",
+    "A334866",
+    "A334870"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Number of length-n binary strings where some nonempty proper prefix is the reverse of a cyclic shift (conjugate) of a suffix.",
+  "id": "A323445",
+  "mentions": [
+    "A094536"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:47",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

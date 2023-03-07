@@ -1,0 +1,20 @@
+{
+  "description": "Integers that are exactly 3-deficient-perfect numbers.",
+  "id": "A331629",
+  "mentions": [
+    "A000203",
+    "A271816",
+    "A331627",
+    "A331628"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Write sin(x)/x = Product_{n>=1} (1 + g_n*x^(2*n)); a(n) = denominator(g_n).",
+  "id": "A170917",
+  "mentions": [
+    "A157162",
+    "A170912",
+    "A170913",
+    "A170915",
+    "A170916"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

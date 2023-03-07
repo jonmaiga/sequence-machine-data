@@ -1,0 +1,18 @@
+{
+  "description": "Consider a number n with m decimal digits. The sequence lists the numbers n having the prefix of length m-1 in the middle of the decimal expansion of prime(n).",
+  "id": "A242956",
+  "mentions": [
+    "A242957"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

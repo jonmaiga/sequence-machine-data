@@ -1,0 +1,19 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) is the number of graphs with n vertices with matching number k (0 <= k <= floor(n/2)).",
+  "id": "A286951",
+  "mentions": [
+    "A000088",
+    "A218462"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

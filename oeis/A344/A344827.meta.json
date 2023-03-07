@@ -1,0 +1,24 @@
+{
+  "description": "a(n) is the smallest b > 1 such that prime(n), prime(n+1) and prime(n+2) are all base-b Wieferich primes.",
+  "id": "A344827",
+  "mentions": [
+    "A039678",
+    "A259075",
+    "A286816",
+    "A344828",
+    "A344829",
+    "A344830",
+    "A344831",
+    "A344832"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

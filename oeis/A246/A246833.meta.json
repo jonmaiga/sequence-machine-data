@@ -1,0 +1,26 @@
+{
+  "description": "Expansion of psi(-x)^2 * psi(x^4) in powers of x where psi() is a Ramanujan theta function.",
+  "id": "A246833",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A010054",
+    "A010815",
+    "A033763",
+    "A121373",
+    "A213624",
+    "A246815",
+    "A246832"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:58:59",
+    "offset": 0,
+    "size": 70,
+    "source": "joeis"
+  }
+}

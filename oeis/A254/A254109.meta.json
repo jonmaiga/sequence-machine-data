@@ -1,0 +1,22 @@
+{
+  "description": "If n <= 63, a(n) = n; for n > 63: a(32n + 14) = 8*n + 5, a(64n + 30) = 4*n + 3, and for other cases with n > 63: a(2n) = 2*a(n), a(2n+1) = 2*a(n) + 1.",
+  "id": "A254109",
+  "mentions": [
+    "A255561",
+    "A255568",
+    "A258009",
+    "A258012"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:12",
+    "offset": 0,
+    "size": 95,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "a(n)=sqrt(A178825(n)+A178825(n+1)).",
+  "id": "A177867",
+  "mentions": [
+    "A178825"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:01",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

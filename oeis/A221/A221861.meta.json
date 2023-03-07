@@ -1,0 +1,17 @@
+{
+  "description": "The least number k that maximizes k! mod n.",
+  "id": "A221861",
+  "mentions": [
+    "A062170"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:39",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

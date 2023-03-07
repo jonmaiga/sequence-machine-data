@@ -1,0 +1,19 @@
+{
+  "description": "Choose a(n) to be the smallest number not yet used such that: a(1) = 1, a(2n) = composite, a(2n+1) = prime and partial sums are alternately prime or composite.",
+  "id": "A103825",
+  "mentions": [
+    "A075593",
+    "A075594",
+    "A103824"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:54",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

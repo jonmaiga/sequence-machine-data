@@ -1,0 +1,22 @@
+{
+  "description": "Filter sequence combined from those proper divisors of n that are multiples of 3; Restricted growth sequence transform of A319990.",
+  "id": "A320010",
+  "mentions": [
+    "A019565",
+    "A319990",
+    "A320003",
+    "A320011",
+    "A320012",
+    "A320014"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:42",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

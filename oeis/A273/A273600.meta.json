@@ -1,0 +1,27 @@
+{
+  "description": "Numbers n such that (11^n - 8^n)/3 is prime.",
+  "id": "A273600",
+  "mentions": [
+    "A005808",
+    "A062577",
+    "A128027",
+    "A128347",
+    "A210506",
+    "A216181",
+    "A273598",
+    "A273599",
+    "A273601"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

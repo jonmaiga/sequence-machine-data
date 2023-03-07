@@ -1,0 +1,19 @@
+{
+  "description": "Minimum number of moves to rearrange a Tower of Hanoi puzzle with 3 colors. There are 3 rods with n discs in descending sizes. On the first rod there are n red discs, on the 2nd n blue discs and on the 3rd n white ones.",
+  "id": "A290187",
+  "mentions": [
+    "A000225",
+    "A055622"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

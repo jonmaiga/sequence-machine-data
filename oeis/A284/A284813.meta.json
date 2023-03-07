@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that n' = d_1^k + d_2^(k-2) + ... + d_k^1 where d_1, d_2, ..., d_k are the digits of n, with MSD(n) = d_1 and LSD(n) = d_k, and n' is the arithmetic derivative of n.",
+  "id": "A284813",
+  "mentions": [
+    "A003415",
+    "A284812"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Let phi^(k) denote the k-th iterate of phi (A000010); a(n) is smallest positive k such that phi^(k)(Fibonacci(n)) = 1.",
+  "id": "A350969",
+  "mentions": [
+    "A000010",
+    "A000045",
+    "A003434",
+    "A049108",
+    "A060607"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:25",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of lim_{i->oo} c(i)/i, where c(i) is the number of integers k such that sigma(k) < i (A074753).",
+  "id": "A308039",
+  "mentions": [
+    "A000203",
+    "A001620",
+    "A074753",
+    "A345327"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:32",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

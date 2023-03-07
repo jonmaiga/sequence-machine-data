@@ -1,0 +1,23 @@
+{
+  "description": "Primes p such that p^6-p^3+1 is also prime.",
+  "id": "A175205",
+  "mentions": [
+    "A000040",
+    "A002476",
+    "A060891",
+    "A164989",
+    "A175170"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:59",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

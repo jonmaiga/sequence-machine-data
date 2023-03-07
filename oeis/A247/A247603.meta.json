@@ -1,0 +1,24 @@
+{
+  "description": "Least integer m > 0 with pi(m*n) = sigma(m), where sigma(m) is the sum of all positive divisors of m.",
+  "id": "A247603",
+  "mentions": [
+    "A000203",
+    "A000720",
+    "A247600",
+    "A247601",
+    "A247602",
+    "A247604",
+    "A247672",
+    "A247673"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:03",
+    "offset": 2,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

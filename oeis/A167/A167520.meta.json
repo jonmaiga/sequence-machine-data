@@ -1,0 +1,19 @@
+{
+  "description": "Positions of nonzero digits in this sequence, when all terms are concatenated.",
+  "id": "A167520",
+  "mentions": [
+    "A167500",
+    "A167502"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

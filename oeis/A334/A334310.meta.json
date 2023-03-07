@@ -1,0 +1,25 @@
+{
+  "description": "Starts of runs of 3 consecutive base phi Niven numbers (A334308).",
+  "id": "A334310",
+  "mentions": [
+    "A154701",
+    "A328206",
+    "A328210",
+    "A328214",
+    "A330932",
+    "A333428",
+    "A334308",
+    "A334309"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:05",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

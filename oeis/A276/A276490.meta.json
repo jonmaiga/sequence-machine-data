@@ -1,0 +1,18 @@
+{
+  "description": "Number of paths starting at {n}^n to a border position where one component equals 0 using steps that decrement one component by 1.",
+  "id": "A276490",
+  "mentions": [
+    "A210472"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

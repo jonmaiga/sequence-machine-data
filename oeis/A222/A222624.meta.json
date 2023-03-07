@@ -1,0 +1,18 @@
+{
+  "description": "Sequence of dimensions of a regular simplex with unit edge that has at least one inter-hypersphere with a rational radius (including the radii of the in-hypersphere and circum-hypersphere).",
+  "id": "A222624",
+  "mentions": [
+    "A155946"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

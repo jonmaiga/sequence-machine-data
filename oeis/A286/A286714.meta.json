@@ -1,0 +1,20 @@
+{
+  "description": "Difference phi(p-1) - phi(p+1) for lesser of twin primes.",
+  "id": "A286714",
+  "mentions": [
+    "A001359",
+    "A006512",
+    "A008330",
+    "A286715"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:58",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

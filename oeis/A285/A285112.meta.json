@@ -1,0 +1,28 @@
+{
+  "description": "Permutation of natural numbers: a(0) = 1, a(1) = 2, a(2n) = A005117(1+a(n)), a(2n+1) = A065642(a(n)).",
+  "id": "A285112",
+  "mentions": [
+    "A005117",
+    "A065642",
+    "A243344",
+    "A243346",
+    "A252753",
+    "A277696",
+    "A284311",
+    "A284457",
+    "A284572",
+    "A285111"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:56",
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

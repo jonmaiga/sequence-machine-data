@@ -1,0 +1,21 @@
+{
+  "description": "Starting digits (after the leading \"0.\") of the smallest possible arbitrarily-long Type-2 Trott-like Constant (see A178160 for definition).",
+  "id": "A178163",
+  "mentions": [
+    "A091694",
+    "A113307",
+    "A178160"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:01",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

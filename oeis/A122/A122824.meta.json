@@ -1,0 +1,22 @@
+{
+  "description": "Prime(semiprime(n)) - semiprime(prime(n)). Commutator [A000040,A001358] at n.",
+  "id": "A122824",
+  "mentions": [
+    "A000040",
+    "A001358",
+    "A106349",
+    "A106350"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:11",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

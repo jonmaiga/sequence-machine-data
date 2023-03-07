@@ -1,0 +1,22 @@
+{
+  "description": "Numbers that have 4 terms in their Zeckendorf representation.",
+  "id": "A179244",
+  "mentions": [
+    "A007895",
+    "A035517",
+    "A111458",
+    "A135709",
+    "A179242",
+    "A179253"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:02",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

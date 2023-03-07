@@ -1,0 +1,19 @@
+{
+  "description": "Number of ordered direct sum decompositions of the vector space GF(2)^n.",
+  "id": "A303533",
+  "mentions": [
+    "A002884",
+    "A270881"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Filter sequence combining A278222(n) and A294898(n).",
+  "id": "A318311",
+  "mentions": [
+    "A005187",
+    "A033879",
+    "A278222",
+    "A286622",
+    "A294898",
+    "A318310"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:38",
+    "offset": 1,
+    "size": 89,
+    "source": "oeis-bfile"
+  }
+}

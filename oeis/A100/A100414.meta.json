@@ -1,0 +1,23 @@
+{
+  "description": "Numbers n such that n is R(n)-th composite number where R(n) is the digit reversal of n (A002808(A004086(n))=n).",
+  "id": "A100414",
+  "mentions": [
+    "A002808",
+    "A004086",
+    "A100412",
+    "A100413",
+    "A100415"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

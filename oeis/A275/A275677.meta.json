@@ -1,0 +1,17 @@
+{
+  "description": "a(0)=0; for n > 0, a(n) is the least number not yet used having the property that a(n) added to the next n+1 terms is a Fibonacci number.",
+  "id": "A275677",
+  "mentions": [
+    "A000045"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

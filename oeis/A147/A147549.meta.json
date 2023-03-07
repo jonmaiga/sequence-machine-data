@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the number of n-digit numbers m such that phi(m)=phi(10^n+1), gcd(10^n+1,m)=1 and 10 doesn't divide m.",
+  "id": "A147549",
+  "mentions": [
+    "A147547",
+    "A147548",
+    "A147619"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

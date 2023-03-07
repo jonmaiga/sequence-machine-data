@@ -1,0 +1,22 @@
+{
+  "description": "Triangle of triangular numbers, read by rows, constructed like this: Given a sequence t, start row 0 with t(0). Compute row n for n > 0 by reversing row n-1 and prepending t(n). The sequence t is here chosen as the triangular numbers.",
+  "id": "A335262",
+  "mentions": [
+    "A000217",
+    "A000292",
+    "A112367",
+    "A181940"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

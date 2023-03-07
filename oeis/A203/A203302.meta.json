@@ -1,0 +1,17 @@
+{
+  "description": "Cumulative sums of A201206.",
+  "id": "A203302",
+  "mentions": [
+    "A201206"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

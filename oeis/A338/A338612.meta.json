@@ -1,0 +1,26 @@
+{
+  "description": "Decimal expansion of Sum_{k>=1} (-1)^(k+1)/L(k) where L(k) is the k-th Lucas number (A000032).",
+  "id": "A338612",
+  "mentions": [
+    "A000032",
+    "A000045",
+    "A001622",
+    "A079586",
+    "A093540",
+    "A153415",
+    "A153416",
+    "A158933"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of ways to write n = q + sum_{k=1}^m(-1)^{m-k}p_k, where p_k is the k-th prime, and q is a practical number with q-4 and q+4 also practical.",
+  "id": "A213325",
+  "mentions": [
+    "A005153",
+    "A008347",
+    "A208246",
+    "A213202"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:31",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

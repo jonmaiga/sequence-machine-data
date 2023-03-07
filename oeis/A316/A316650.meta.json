@@ -1,0 +1,21 @@
+{
+  "description": "Result when n is divided by the sum of its digits and the resulting integer is concatenated to the remainder.",
+  "id": "A316650",
+  "mentions": [
+    "A007953",
+    "A052224"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:35",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

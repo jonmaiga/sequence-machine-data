@@ -1,0 +1,19 @@
+{
+  "description": "Numbers which are the sums of consecutive fifth powers.",
+  "id": "A217845",
+  "mentions": [
+    "A034705",
+    "A217843",
+    "A217850"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:35",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

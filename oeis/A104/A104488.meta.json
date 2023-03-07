@@ -1,0 +1,24 @@
+{
+  "description": "Number of Hamiltonian groups of order n.",
+  "id": "A104488",
+  "mentions": [
+    "A000265",
+    "A000688",
+    "A104404",
+    "A104452",
+    "A104453"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:55",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

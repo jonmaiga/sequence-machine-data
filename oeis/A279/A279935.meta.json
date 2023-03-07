@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that n + sopf(n) + rad(n) = m and m - sopf(m) - rad(m) = n, where sopf(n) is the sum of the distinct primes dividing n and rad(n) is the squarefree kernel of n.",
+  "id": "A279935",
+  "mentions": [
+    "A007947",
+    "A008472",
+    "A050780",
+    "A050781",
+    "A175760"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:47",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

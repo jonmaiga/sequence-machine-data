@@ -1,0 +1,17 @@
+{
+  "description": "Second differences of A130845.",
+  "id": "A130717",
+  "mentions": [
+    "A130845"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:13:17",
+    "offset": 0,
+    "size": 84,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Numbers that are the sum of eight fifth powers in exactly two ways.",
+  "id": "A346327",
+  "mentions": [
+    "A345610",
+    "A345834",
+    "A346279",
+    "A346326",
+    "A346328",
+    "A346337"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:20",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

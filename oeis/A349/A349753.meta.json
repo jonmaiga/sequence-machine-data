@@ -1,0 +1,26 @@
+{
+  "description": "Odd numbers k for which A003961(k)-2k divides A003961(k)-sigma(k), where A003961 shifts the prime factorization one step towards larger primes, and sigma is the sum of divisors function.",
+  "id": "A349753",
+  "mentions": [
+    "A000203",
+    "A003961",
+    "A048674",
+    "A252748",
+    "A286385",
+    "A319630",
+    "A326057",
+    "A326134",
+    "A348514",
+    "A349169"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:24",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Squarefree numbers which are also isolated numbers.",
+  "id": "A168270",
+  "mentions": [
+    "A005117",
+    "A007510",
+    "A014574",
+    "A167706",
+    "A168252"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

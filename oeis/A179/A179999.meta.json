@@ -1,0 +1,27 @@
+{
+  "description": "Length of the n-th term in the modified Look and Say sequence A110393.",
+  "id": "A179999",
+  "mentions": [
+    "A001622",
+    "A005341",
+    "A049194",
+    "A098596",
+    "A110393",
+    "A134972",
+    "A139339",
+    "A239798"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:03",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

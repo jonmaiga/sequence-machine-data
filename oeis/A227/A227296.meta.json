@@ -1,0 +1,20 @@
+{
+  "description": "Number of partitions of n into parts <= phi(n), where phi is Euler's totient function (cf. A000010).",
+  "id": "A227296",
+  "mentions": [
+    "A000010",
+    "A057562",
+    "A079124"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

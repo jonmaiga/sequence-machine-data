@@ -1,0 +1,21 @@
+{
+  "description": "a(0) = 0; a(1) = 1; a(n) = n - a(phi(a(n-1))), where phi() is the Euler totient function (A000010).",
+  "id": "A287415",
+  "mentions": [
+    "A000010",
+    "A005206",
+    "A005374",
+    "A135528"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

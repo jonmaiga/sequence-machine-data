@@ -1,0 +1,18 @@
+{
+  "description": "An absolute difference sequence based on A087655: a(n)=If[Mod[A087655(n), 3] == 1, a(n - 1) - (-1)^n*n, a(n - 1) + (-1)^n*n]",
+  "id": "A174218",
+  "mentions": [
+    "A087655"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "sign",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

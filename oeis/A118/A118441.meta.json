@@ -1,0 +1,25 @@
+{
+  "description": "Triangle L, read by rows, equal to the matrix log of A118435, with the property that L^2 consists of a single diagonal (two rows down from the main diagonal).",
+  "id": "A118441",
+  "mentions": [
+    "A001789",
+    "A001815",
+    "A027471",
+    "A118433",
+    "A118435",
+    "A118442",
+    "A118443"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

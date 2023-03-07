@@ -1,0 +1,18 @@
+{
+  "description": "Indices of records in A260073: Numbers n such that, for all 0 < m < n, there are more triples {x, y, x mod y} of three distinct divisors of n than of m.",
+  "id": "A261476",
+  "mentions": [
+    "A260073"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:20",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

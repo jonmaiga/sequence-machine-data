@@ -1,0 +1,21 @@
+{
+  "description": "Numbers m such that in base m no number greater than 1 exists such that the sum of the digits of its divisors equals m.",
+  "id": "A346561",
+  "mentions": [
+    "A027750",
+    "A045884",
+    "A045885",
+    "A346560"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "Triangle read by rows, number of subsets S of [n] with |distset(S)| = k. T(n, k) for 0 <= k <= n.",
+  "id": "A349976",
+  "mentions": [
+    "A000012",
+    "A000027",
+    "A000079",
+    "A000217",
+    "A002620",
+    "A103295",
+    "A349972",
+    "A349973",
+    "A349974",
+    "A349975",
+    "A350103"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "hard",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:24",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

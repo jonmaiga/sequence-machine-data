@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 1 if both 1+phi(k) and 1+sigma(k) are squares, 0 otherwise.",
+  "id": "A296213",
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A010052",
+    "A063532"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:15",
+    "offset": 1,
+    "size": 123,
+    "source": "oeis-bfile"
+  }
+}

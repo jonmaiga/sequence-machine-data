@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: n-th row gives the indices of the n repunits that divide A340549(n).",
+  "id": "A356184",
+  "mentions": [
+    "A002275",
+    "A004023",
+    "A083230",
+    "A340549"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 98,
+    "source": "oeis-entry"
+  }
+}

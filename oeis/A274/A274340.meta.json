@@ -1,0 +1,29 @@
+{
+  "description": "The period 4 sequence of the iterated sum of deficient divisors function (A187793) starting at 19.",
+  "id": "A274340",
+  "mentions": [
+    "A001065",
+    "A005100",
+    "A005101",
+    "A071395",
+    "A125310",
+    "A187793",
+    "A274338",
+    "A274339",
+    "A274380",
+    "A274549",
+    "A275082"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:25:25",
+    "offset": 1,
+    "size": 60,
+    "source": "joeis"
+  }
+}

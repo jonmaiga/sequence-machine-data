@@ -1,0 +1,21 @@
+{
+  "description": "Number of minimal dominating sets in the n X n king graph.",
+  "id": "A286881",
+  "mentions": [
+    "A133791",
+    "A286849",
+    "A286871",
+    "A290382"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

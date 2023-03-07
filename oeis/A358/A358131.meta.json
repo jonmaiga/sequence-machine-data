@@ -1,0 +1,22 @@
+{
+  "description": "Triangle T(n,k) read by rows, where each row lists the value of n coins, in cents, using k dimes (10 cents) and n-k quarters (25 cents).",
+  "id": "A358131",
+  "mentions": [
+    "A008592",
+    "A008607",
+    "A351726"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

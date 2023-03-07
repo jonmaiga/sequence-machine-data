@@ -1,0 +1,37 @@
+{
+  "description": "Semiprime(3almostprime(n))-3almostprime(semiprime(n)). Commutator[A001358, A014612] at n.",
+  "id": "A124319",
+  "mentions": [
+    "A000040",
+    "A001358",
+    "A014612",
+    "A065516",
+    "A106349",
+    "A106350",
+    "A114403",
+    "A122824",
+    "A124268",
+    "A124269",
+    "A124270",
+    "A124282",
+    "A124283",
+    "A124284",
+    "A124308",
+    "A124309",
+    "A124310",
+    "A124317",
+    "A124318"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "less",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 2^(2n+2) F(n) where F(n) is Ramanujan's F(n) = Sum_{k>=1} k^(4n-1)/(e^(Pi*k)-1) - 16^n* Sum_{k>=1} k^(4n-1)/(e^(4*Pi*k)-1).",
+  "id": "A273352",
+  "mentions": [
+    "A000182",
+    "A002105",
+    "A293951",
+    "A318258"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

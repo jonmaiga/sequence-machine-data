@@ -1,0 +1,22 @@
+{
+  "description": "Generalized Lucas-Carmichael numbers for D=9697.",
+  "id": "A290560",
+  "mentions": [
+    "A005845",
+    "A164824",
+    "A217120",
+    "A217255",
+    "A217719",
+    "A227905"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

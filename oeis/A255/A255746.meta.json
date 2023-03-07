@@ -1,0 +1,21 @@
+{
+  "description": "Squarefree semiprimes n such that n+4 is also a squarefree semiprime.",
+  "id": "A255746",
+  "mentions": [
+    "A000005",
+    "A001358",
+    "A005117",
+    "A175648"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:13",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "The number of quadratic residues (mod p) greater than p/2, where p=prime(n).",
+  "id": "A178152",
+  "mentions": [
+    "A063987",
+    "A178151",
+    "A178153",
+    "A178154"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 2,
+    "size": 74,
+    "source": "oeis-entry"
+  }
+}

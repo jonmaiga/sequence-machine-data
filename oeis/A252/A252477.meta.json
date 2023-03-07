@@ -1,0 +1,19 @@
+{
+  "description": "Integer part of 1/(sqrt(prime(n+1))-sqrt(prime(n))).",
+  "id": "A252477",
+  "mentions": [
+    "A000006",
+    "A000040",
+    "A074976"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:10",
+    "offset": 1,
+    "size": 92,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "The smallest k such that prime(k) == -1 (mod n).",
+  "id": "A219109",
+  "mentions": [
+    "A000720",
+    "A038700",
+    "A221861"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:37",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

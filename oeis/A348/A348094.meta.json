@@ -1,0 +1,21 @@
+{
+  "description": "If the Collatz trajectory of n reaches 1, say after k steps, and there is an integer m > n such that T^i(m) and T^i(n) have the same parity for i = 0..k (where T^i denotes the i-th iterate of the Collatz map A006370), then a(n) is the least such m, otherwise a(n) is -1.",
+  "id": "A348094",
+  "mentions": [
+    "A006370",
+    "A006666",
+    "A070165",
+    "A125711"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

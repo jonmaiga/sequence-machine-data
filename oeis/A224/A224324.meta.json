@@ -1,0 +1,20 @@
+{
+  "description": "First of three consecutive primes with a gap of 30n.",
+  "id": "A224324",
+  "mentions": [
+    "A052187",
+    "A224325"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

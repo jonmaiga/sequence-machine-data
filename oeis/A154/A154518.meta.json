@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 216*n - 12.",
+  "id": "A154518",
+  "mentions": [
+    "A154514",
+    "A154516"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:36",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

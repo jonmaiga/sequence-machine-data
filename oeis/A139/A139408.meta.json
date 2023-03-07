@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that phi(n)=d_1!!*d_2!!*...*d_k!! where d_1 d_2 ... d_k is the decimal expansion of n.",
+  "id": "A139408",
+  "mentions": [
+    "A066457",
+    "A139182"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "easy",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: R(n,k)=2^(semiprime(n)-semiprime(k)) mod semiprime(n).",
+  "id": "A177266",
+  "mentions": [
+    "A000079",
+    "A001358",
+    "A173622",
+    "A174479",
+    "A176066",
+    "A181615"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-entry"
+  }
+}

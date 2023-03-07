@@ -1,0 +1,22 @@
+{
+  "description": "Number of cyclic cubic fields with discriminant n^2.",
+  "id": "A343023",
+  "mentions": [
+    "A121940",
+    "A160498",
+    "A343000",
+    "A343001"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:16",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

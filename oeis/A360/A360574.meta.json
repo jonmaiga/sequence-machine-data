@@ -1,0 +1,25 @@
+{
+  "description": "Binary expansions of odd numbers with three zeros in their binary expansion.",
+  "id": "A360574",
+  "mentions": [
+    "A000042",
+    "A000292",
+    "A007088",
+    "A190619",
+    "A357774",
+    "A360573"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

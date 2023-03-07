@@ -1,0 +1,21 @@
+{
+  "description": "Partition the integers from 1 to n into three groups with consecutive numbers, then a(n) is the maximum value of the sum of the numbers in the second group multiplied by the minimum of the sum of the numbers in the first and third groups.",
+  "id": "A342713",
+  "mentions": [
+    "A000217",
+    "A006011",
+    "A007294",
+    "A008443",
+    "A286430"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 3,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Squares that become prime when their most significant (or leftmost) digit is removed.",
+  "id": "A225873",
+  "mentions": [
+    "A225885",
+    "A249589"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Let R_1 = {1, 2, ...}; for any n > 0, let r_n be the colexicographically earliest finite subset of R_n summing to a prime number, say p; a(n) = p and R_{n+1} = R_n \\ r_n.",
+  "id": "A338141",
+  "mentions": [
+    "A338240"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:10",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

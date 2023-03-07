@@ -1,0 +1,19 @@
+{
+  "description": "Even numbers in an alternating 1-based sum up to some odd nonprime.",
+  "id": "A162886",
+  "mentions": [
+    "A014076",
+    "A064455"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

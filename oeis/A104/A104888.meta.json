@@ -1,0 +1,20 @@
+{
+  "description": "Class number of binary quadratic forms with radicand A005117(n).",
+  "id": "A104888",
+  "mentions": [
+    "A000924",
+    "A003646",
+    "A005117",
+    "A087048"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 2,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

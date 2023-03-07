@@ -1,0 +1,21 @@
+{
+  "description": "Lexicographically earliest sequence of distinct positive integers such that a(1) = 2 and for any n > 0, a(n) AND a(n+1) is prime (where AND denotes the bitwise AND operator).",
+  "id": "A352722",
+  "mentions": [
+    "A102211",
+    "A308334",
+    "A336817",
+    "A352723"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:27",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

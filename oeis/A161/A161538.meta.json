@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that composite (n) + n is a prime, where composite (n) denotes the n-th composite number.",
+  "id": "A161538",
+  "mentions": [
+    "A002808",
+    "A161539"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

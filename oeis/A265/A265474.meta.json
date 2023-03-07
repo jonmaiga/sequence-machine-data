@@ -1,0 +1,17 @@
+{
+  "description": "Number of n X 2 0..n+2-2 arrays with upper left zero and lower right n+2-2 and each element differing from its diagonal and antidiagonal neighbors by one or two.",
+  "id": "A265474",
+  "mentions": [
+    "A265480"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:25",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

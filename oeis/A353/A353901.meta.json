@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that A353900(k) is divisible by k.",
+  "id": "A353901",
+  "mentions": [
+    "A007691",
+    "A189000",
+    "A327158",
+    "A348601",
+    "A353900"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

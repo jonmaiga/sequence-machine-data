@@ -1,0 +1,31 @@
+{
+  "description": "a(0) = 0, and for n > 0, a(n) = largest k such that A002110(k-1) <= n, where A002110(k) gives the k-th primorial number.",
+  "id": "A235224",
+  "mentions": [
+    "A000040",
+    "A002110",
+    "A049345",
+    "A055642",
+    "A061395",
+    "A061720",
+    "A084558",
+    "A235168",
+    "A267263",
+    "A276086",
+    "A328114",
+    "A328404",
+    "A328405",
+    "A328406"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:52",
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

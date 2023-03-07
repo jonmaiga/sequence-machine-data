@@ -1,0 +1,45 @@
+{
+  "description": "Van Eck's sequence: For n >= 1, if there exists an m < n such that a(m) = a(n), take the largest such m and set a(n+1) = n-m; otherwise a(n+1) = 0. Start with a(1)=0.",
+  "id": "A181391",
+  "mentions": [
+    "A025480",
+    "A171862",
+    "A171863",
+    "A171864",
+    "A171865",
+    "A171866",
+    "A171867",
+    "A171887",
+    "A171888",
+    "A171889",
+    "A171896",
+    "A171897",
+    "A171898",
+    "A171899",
+    "A171911",
+    "A171918",
+    "A171951",
+    "A171956",
+    "A171957",
+    "A171958",
+    "A175041",
+    "A175100",
+    "A268755",
+    "A274425",
+    "A276457",
+    "A309363",
+    "A337980"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:04",
+    "offset": 1,
+    "size": 97,
+    "source": "oeis-bfile"
+  }
+}

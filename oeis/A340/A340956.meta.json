@@ -1,0 +1,21 @@
+{
+  "description": "Integers n such that s(n^2) = s(n)*(s(n)+1)/2, where s(n) is the sum of binary digits of n (A000120).",
+  "id": "A340956",
+  "mentions": [
+    "A000120",
+    "A000217",
+    "A000290",
+    "A159918"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:13",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

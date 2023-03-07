@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = n + floor(nr/t) + floor(ns/t), where r = sqrt(5) - 2, s = sqrt(5) - 1, t = sqrt(5).",
+  "id": "A330176",
+  "mentions": [
+    "A016789",
+    "A330175"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:15:15",
+    "offset": 1,
+    "size": 65,
+    "source": "joeis"
+  }
+}

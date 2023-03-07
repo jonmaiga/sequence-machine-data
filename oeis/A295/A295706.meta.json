@@ -1,0 +1,18 @@
+{
+  "description": "Primes p for which the difference between p^2 and the square of the next prime is both 1 more and 1 less than a prime.",
+  "id": "A295706",
+  "mentions": [
+    "A014574",
+    "A069482"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:14",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

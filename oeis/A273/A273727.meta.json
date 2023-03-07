@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that 3n - 1 divides 3^n - 1 and 3 does not divide n.",
+  "id": "A273727",
+  "mentions": [
+    "A233415",
+    "A273614"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

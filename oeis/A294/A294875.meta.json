@@ -1,0 +1,29 @@
+{
+  "description": "a(n) = Product_{d|n, d = x^k, with x,k > 1} prime(A052409(d)-1).",
+  "id": "A294875",
+  "mentions": [
+    "A000040",
+    "A001222",
+    "A001597",
+    "A008578",
+    "A046951",
+    "A052409",
+    "A061704",
+    "A064989",
+    "A091050",
+    "A293524",
+    "A294873",
+    "A294874"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:13",
+    "offset": 1,
+    "size": 116,
+    "source": "oeis-bfile"
+  }
+}

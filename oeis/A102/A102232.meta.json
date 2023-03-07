@@ -1,0 +1,22 @@
+{
+  "description": "Number of preferential arrangements of n labeled elements when at least k=three ranks are required.",
+  "id": "A102232",
+  "mentions": [
+    "A000225",
+    "A000295",
+    "A000670",
+    "A025875",
+    "A052875"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 02:35:44",
+    "offset": 0,
+    "size": 22,
+    "source": "joeis"
+  }
+}

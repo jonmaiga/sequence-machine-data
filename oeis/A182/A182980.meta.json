@@ -1,0 +1,24 @@
+{
+  "description": "Version \"mirror\" of the shell model of partitions of A135010. Triangle read by rows: row n lists the parts of the last section of the set of partitions of n.",
+  "id": "A182980",
+  "mentions": [
+    "A135010",
+    "A141285",
+    "A182742",
+    "A182743",
+    "A182982",
+    "A182983",
+    "A182985"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

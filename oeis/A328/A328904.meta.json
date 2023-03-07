@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of x = 0.7271601514124259243... solution to 1 + 3^x = 5^x.",
+  "id": "A328904",
+  "mentions": [
+    "A242208",
+    "A328900",
+    "A328905",
+    "A329334"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:48:19",
+    "offset": 0,
+    "size": 85,
+    "source": "joeis"
+  }
+}

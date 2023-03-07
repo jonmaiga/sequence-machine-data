@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the y-coordinate of the inflection point of product{1 + x^k, k >= 1} that has minimal x-coordinate.",
+  "id": "A257395",
+  "mentions": [
+    "A257394",
+    "A257396",
+    "A257397"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 104,
+    "source": "oeis-entry"
+  }
+}

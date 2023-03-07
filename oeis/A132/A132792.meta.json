@@ -1,0 +1,25 @@
+{
+  "description": "The infinitesimal Lah matrix: generator of unsigned A111596.",
+  "id": "A132792",
+  "mentions": [
+    "A002378",
+    "A111596",
+    "A129185",
+    "A132440",
+    "A132710",
+    "A133314"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

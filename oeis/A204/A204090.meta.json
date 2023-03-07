@@ -1,0 +1,21 @@
+{
+  "description": "The number of 1 X n Haunted Mirror Maze puzzles with a unique solution where mirror orientation is fixed.",
+  "id": "A204090",
+  "mentions": [
+    "A204089",
+    "A204091",
+    "A204092"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:24",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

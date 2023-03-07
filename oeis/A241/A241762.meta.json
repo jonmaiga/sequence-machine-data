@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the least number k > 0 such that sigma(k/n) = phi(k).",
+  "id": "A241762",
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A087979"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

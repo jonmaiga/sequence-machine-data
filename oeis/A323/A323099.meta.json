@@ -1,0 +1,27 @@
+{
+  "description": "Number T(n,k) of colored set partitions of [n] where exactly k colors are used for the elements; triangle T(n,k), n>=0, 0<=k<=n, read by rows.",
+  "id": "A323099",
+  "mentions": [
+    "A000007",
+    "A000110",
+    "A000142",
+    "A008277",
+    "A019538",
+    "A048993",
+    "A121017",
+    "A131689",
+    "A137341"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:46",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

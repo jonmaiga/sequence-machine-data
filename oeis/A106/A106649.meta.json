@@ -1,0 +1,29 @@
+{
+  "description": "Replace each digit d (except the leading one) of n with 9-d.",
+  "id": "A106649",
+  "mentions": [
+    "A003100",
+    "A054429",
+    "A115303",
+    "A115304",
+    "A115305",
+    "A115306",
+    "A115307",
+    "A115308",
+    "A115309",
+    "A115310",
+    "A305238"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that not all exponents in the prime power factorization of k are in A005836.",
+  "id": "A177880",
+  "mentions": [
+    "A005836"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:01",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

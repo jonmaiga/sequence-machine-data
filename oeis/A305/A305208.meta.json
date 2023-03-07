@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of the real part of the continued exponential i/Pi.",
+  "id": "A305208",
+  "mentions": [
+    "A049006",
+    "A077589",
+    "A077590",
+    "A305200",
+    "A305202",
+    "A305210"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-entry"
+  }
+}

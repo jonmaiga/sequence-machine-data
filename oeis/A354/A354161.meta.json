@@ -1,0 +1,21 @@
+{
+  "description": "Index of A354160(n) in A090252.",
+  "id": "A354161",
+  "mentions": [
+    "A090252",
+    "A354159",
+    "A354160",
+    "A354162",
+    "A354163"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:28",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

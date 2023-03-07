@@ -1,0 +1,19 @@
+{
+  "description": "Triangle T(n,k) defined by: T(0,0)=1, T(n,k)=0 if k < 0 or k > n, T(n,k) = T(n-1,k-1) + k*T(n-1,k) + Sum_{j>=1} T(n-1,k+j}.",
+  "id": "A116155",
+  "mentions": [
+    "A098742"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-03 12:42:34",
+    "offset": 0,
+    "size": 55,
+    "source": "joeis"
+  }
+}

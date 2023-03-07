@@ -1,0 +1,21 @@
+{
+  "description": "Numbers that are the sum of eight cubes in exactly ten ways.",
+  "id": "A345792",
+  "mentions": [
+    "A345540",
+    "A345782",
+    "A345791",
+    "A345802",
+    "A345842"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:19",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

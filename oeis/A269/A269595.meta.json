@@ -1,0 +1,21 @@
+{
+  "description": "Irregular triangle in which n-th row the gives quadratic residues prime(n)- m modulo prime(n), for m from {1, 2, ..., prime(n)-1}, in increasing order.",
+  "id": "A269595",
+  "mentions": [
+    "A000040",
+    "A063987"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

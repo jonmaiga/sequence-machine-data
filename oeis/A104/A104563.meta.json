@@ -1,0 +1,30 @@
+{
+  "description": "A floretion-generated sequence relating to centered square numbers.",
+  "id": "A104563",
+  "mentions": [
+    "A001844",
+    "A004525",
+    "A007877",
+    "A010000",
+    "A011848",
+    "A033999",
+    "A047599",
+    "A054925",
+    "A059100",
+    "A098180",
+    "A104564",
+    "A280560"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:47:11",
+    "offset": 0,
+    "size": 51,
+    "source": "joeis"
+  }
+}

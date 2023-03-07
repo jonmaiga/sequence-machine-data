@@ -1,0 +1,22 @@
+{
+  "description": "Let P1, P2, P3, P4 be consecutive primes, with P2-P1=P4-P3=2. a(n)=(P1+P2)/12 when P3-P2 sets a new record.",
+  "id": "A329164",
+  "mentions": [
+    "A053778",
+    "A329158",
+    "A329159",
+    "A329160",
+    "A329161",
+    "A329165"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Sequencing of all multinomial coefficients arranged in an s X r array of Pascal simplices P(s,r) and sequenced along the array's antidiagonals. Each P(s,r) is, in turn, a sequence of terms representing the coefficients of a_1,...,a_s in the expansion of (Sum_{i=1..s} a_i)^r with r starting at zero.",
+  "id": "A191358",
+  "mentions": [
+    "A007318",
+    "A046816",
+    "A189225"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 348,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Integer part of sqrt(n)+sqrt(n+1)+sqrt(n+2)+sqrt(n+3).",
+  "id": "A114459",
+  "mentions": [
+    "A000267",
+    "A114458",
+    "A114460"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

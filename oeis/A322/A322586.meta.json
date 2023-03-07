@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 1 if n is a highly composite number (A002182), 0 otherwise.",
+  "id": "A322586",
+  "mentions": [
+    "A002182",
+    "A181801",
+    "A261100",
+    "A322585"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:45",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

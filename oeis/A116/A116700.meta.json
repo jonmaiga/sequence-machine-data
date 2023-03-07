@@ -1,0 +1,26 @@
+{
+  "description": "\"Early bird\" numbers: write the natural numbers in a string 12345678910111213.... Sequence gives numbers that occur in the string ahead of their natural place, sorted into increasing order (cf. A117804).",
+  "id": "A116700",
+  "mentions": [
+    "A007908",
+    "A048991",
+    "A048992",
+    "A117804",
+    "A131881",
+    "A220376"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "formulas",
+    "look",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:06",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

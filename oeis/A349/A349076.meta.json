@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = U(n, 3*n), where U(n, x) is the Chebyshev polynomial of the second kind.",
+  "id": "A349076",
+  "mentions": [
+    "A323118",
+    "A349071",
+    "A349072",
+    "A349074",
+    "A349075"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:23",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

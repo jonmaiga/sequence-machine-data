@@ -1,0 +1,22 @@
+{
+  "description": "Characteristic function of A254614, numbers that are either odd or evil (or both).",
+  "id": "A254651",
+  "mentions": [
+    "A128309",
+    "A254377",
+    "A254379",
+    "A254614",
+    "A254655"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:12",
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-bfile"
+  }
+}

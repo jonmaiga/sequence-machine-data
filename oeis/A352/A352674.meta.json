@@ -1,0 +1,20 @@
+{
+  "description": "Beatty sequence for (3/2)(1+sqrt(3)).",
+  "id": "A352674",
+  "mentions": [
+    "A352672",
+    "A352675",
+    "A352676"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

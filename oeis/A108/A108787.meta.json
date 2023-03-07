@@ -1,0 +1,22 @@
+{
+  "description": "Binary numbers such that the first differences give the same sequence written as a string of individual digits.",
+  "id": "A108787",
+  "mentions": [
+    "A100787",
+    "A108788",
+    "A108789",
+    "A108790"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:00",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

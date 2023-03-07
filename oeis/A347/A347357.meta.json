@@ -1,0 +1,23 @@
+{
+  "description": "The numbers visited on a square spiral when starting at 1 and then stepping to the smallest unvisited number that is not visible from the current number.",
+  "id": "A347357",
+  "mentions": [
+    "A063826",
+    "A214664",
+    "A214665",
+    "A330979",
+    "A331400",
+    "A332767",
+    "A347518"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 77,
+    "source": "oeis-entry"
+  }
+}

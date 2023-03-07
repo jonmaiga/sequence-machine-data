@@ -1,0 +1,27 @@
+{
+  "description": "Powers of factorials A000142.",
+  "id": "A100685",
+  "mentions": [
+    "A000079",
+    "A000142",
+    "A000400",
+    "A001013",
+    "A009968",
+    "A036740",
+    "A046882",
+    "A055209",
+    "A331373"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:51",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

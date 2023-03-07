@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = A000045(A032742(n)) / A000045(A054576(n)), where A000045(n) gives the n-th Fibonacci number, A032742(n) = the largest proper divisor of n, and A054576(n) = A032742(A032742(n)).",
+  "id": "A280689",
+  "mentions": [
+    "A000045",
+    "A032742",
+    "A054576",
+    "A105800",
+    "A280688",
+    "A280690",
+    "A280691"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:49",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

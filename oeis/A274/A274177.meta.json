@@ -1,0 +1,20 @@
+{
+  "description": "Smallest number whose shortest possible name when spelled in Japanese in 'On' reading has exactly n mora.",
+  "id": "A274177",
+  "mentions": [
+    "A080777",
+    "A261126"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

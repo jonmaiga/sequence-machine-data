@@ -1,0 +1,30 @@
+{
+  "description": "Triangle T(n,k) = number of permutations of n elements with k 2-cycles.",
+  "id": "A114320",
+  "mentions": [
+    "A000090",
+    "A000138",
+    "A000142",
+    "A000266",
+    "A008290",
+    "A060725",
+    "A060726",
+    "A086659",
+    "A088436",
+    "A105114",
+    "A105422"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:04",
+    "offset": 0,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

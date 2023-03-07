@@ -1,0 +1,24 @@
+{
+  "description": "Numbers whose exponent of 2 in their canonical prime factorization is larger than all the other exponents.",
+  "id": "A360013",
+  "mentions": [
+    "A000079",
+    "A000265",
+    "A007814",
+    "A051903",
+    "A056911",
+    "A360014",
+    "A360015"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:34",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

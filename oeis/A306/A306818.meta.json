@@ -1,0 +1,20 @@
+{
+  "description": "Number of non-derogatory n X n matrices with elements {0, 1, 2}.",
+  "id": "A306818",
+  "mentions": [
+    "A272659",
+    "A306783"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

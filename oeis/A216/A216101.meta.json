@@ -1,0 +1,21 @@
+{
+  "description": "Primes which are the integer harmonic mean of the previous prime and the following prime.",
+  "id": "A216101",
+  "mentions": [
+    "A001008",
+    "A006562",
+    "A102928",
+    "A216098",
+    "A216124"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

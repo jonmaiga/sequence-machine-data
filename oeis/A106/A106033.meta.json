@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the least number k such that n*prime(n)+k is a perfect square.",
+  "id": "A106033",
+  "mentions": [
+    "A033286",
+    "A080883"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

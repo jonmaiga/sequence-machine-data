@@ -1,0 +1,19 @@
+{
+  "description": "Semiprimes of the form 2^(2^k) + 1 or 2^(2^k) + 2 for some k >= 0.",
+  "id": "A242866",
+  "mentions": [
+    "A000215",
+    "A019434",
+    "A242832"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

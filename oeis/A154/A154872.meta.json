@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that smallest decimal digit of prime(n) is 1 and the largest digit of n is in {2, 3, 5, 7}.",
+  "id": "A154872",
+  "mentions": [
+    "A000027",
+    "A000040",
+    "A141468"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

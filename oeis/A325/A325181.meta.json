@@ -1,0 +1,28 @@
+{
+  "description": "Number of integer partitions of n such that the difference between the length of the minimal square containing and the maximal square contained in the Young diagram is 1.",
+  "id": "A325181",
+  "mentions": [
+    "A006918",
+    "A084835",
+    "A096771",
+    "A257990",
+    "A263297",
+    "A325178",
+    "A325179",
+    "A325182",
+    "A325191",
+    "A325192",
+    "A325198"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:51",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Values of x in x^2 - 49 = 2*y^2.",
+  "id": "A106525",
+  "mentions": [
+    "A001109",
+    "A001541",
+    "A106526",
+    "A275793",
+    "A275794",
+    "A275795",
+    "A275796",
+    "A276600"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:57",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Least k such that d(k*n) = d(k*(n+1)), or 0 if no such k exists (d = A000005).",
+  "id": "A275279",
+  "mentions": [
+    "A000005"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

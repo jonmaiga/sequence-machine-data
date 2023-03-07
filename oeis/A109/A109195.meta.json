@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k) is number of Grand Motzkin paths of length n having k returns to the x-axis from above (i.e., d steps hitting the x-axis).",
+  "id": "A109195",
+  "mentions": [
+    "A001006",
+    "A002426",
+    "A089942",
+    "A109196"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

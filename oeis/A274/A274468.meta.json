@@ -1,0 +1,18 @@
+{
+  "description": "The length of the initial uninterrupted number of tau numbers in the chain defined by repeated subtraction of the number of divisors, starting with the n'th tau number.",
+  "id": "A274468",
+  "mentions": [
+    "A033950",
+    "A049820"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 95,
+    "source": "oeis-entry"
+  }
+}

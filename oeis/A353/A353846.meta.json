@@ -1,0 +1,46 @@
+{
+  "description": "Triangle read by rows where T(n,k) is the number of integer partitions of n with partition run-sum trajectory of length k.",
+  "id": "A353846",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A005811",
+    "A008284",
+    "A047966",
+    "A181819",
+    "A225485",
+    "A237685",
+    "A237750",
+    "A275870",
+    "A300273",
+    "A304442",
+    "A325239",
+    "A325277",
+    "A325280",
+    "A326371",
+    "A353832",
+    "A353833",
+    "A353834",
+    "A353836",
+    "A353837",
+    "A353838",
+    "A353840",
+    "A353841",
+    "A353845",
+    "A353847",
+    "A353858",
+    "A353859",
+    "A353865"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

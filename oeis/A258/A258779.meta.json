@@ -1,0 +1,27 @@
+{
+  "description": "Expansion of (f(-x) * phi(x))^2 in powers of x where phi(), f() are Ramanujan theta functions.",
+  "id": "A258779",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A000727",
+    "A010054",
+    "A010815",
+    "A106508",
+    "A121373",
+    "A143378",
+    "A187076",
+    "A187149"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:55:37",
+    "offset": 0,
+    "size": 65,
+    "source": "joeis"
+  }
+}

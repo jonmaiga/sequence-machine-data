@@ -1,0 +1,19 @@
+{
+  "description": "Numbers that share a (decimal) digit with the sum of their proper divisors.",
+  "id": "A358068",
+  "mentions": [
+    "A001065",
+    "A357929"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

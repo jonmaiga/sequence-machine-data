@@ -1,0 +1,22 @@
+{
+  "description": "a(0) = 0, a(n) = 10*a(n-1) + n*(n+1)*(n+2)/6.",
+  "id": "A262183",
+  "mentions": [
+    "A014824",
+    "A030512",
+    "A052262",
+    "A060011"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:22",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "a(1) = a(3) = a(4) = 2, a(2) = 4; a(n) = a(n-a(n-1)) + a(n-a(n-2)) for n > 4.",
+  "id": "A294354",
+  "mentions": [
+    "A005185"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-entry"
+  }
+}

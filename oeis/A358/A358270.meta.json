@@ -1,0 +1,26 @@
+{
+  "description": "Numbers whose sum of digits is even and that have an even number of even digits.",
+  "id": "A358270",
+  "mentions": [
+    "A001637",
+    "A014263",
+    "A054683",
+    "A054684",
+    "A137233",
+    "A179081",
+    "A356929"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

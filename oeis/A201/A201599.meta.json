@@ -1,0 +1,18 @@
+{
+  "description": "Initial primes in prime triples (p, p+2, p+6) preceding the maximal gaps in A201598.",
+  "id": "A201599",
+  "mentions": [
+    "A022004",
+    "A201598"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:22",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

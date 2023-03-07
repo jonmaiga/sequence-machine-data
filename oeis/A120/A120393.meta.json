@@ -1,0 +1,21 @@
+{
+  "description": "Sequence a(n) defined as follows: let p(0) = 2 be the first prime; then p(n+1) = least prime of the form a(n)*p(n)*(a(n)*p(n)+1)-1.",
+  "id": "A120393",
+  "mentions": [
+    "A120392",
+    "A120394",
+    "A120395",
+    "A120396",
+    "A143181"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

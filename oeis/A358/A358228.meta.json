@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that A276086(k) mod A003415(k) is an odd number, where A003415 is the arithmetic derivative and A276086 is the primorial base exp-function.",
+  "id": "A358228",
+  "mentions": [
+    "A003415",
+    "A276086",
+    "A328382",
+    "A358225",
+    "A358227",
+    "A358229",
+    "A358232"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

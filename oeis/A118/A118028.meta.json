@@ -1,0 +1,22 @@
+{
+  "description": "a(0)=1. a(n) = a(n-1) + (smallest integer which is >= n and is missing from the earlier terms of the sequence).",
+  "id": "A118028",
+  "mentions": [
+    "A094589",
+    "A118026",
+    "A118027",
+    "A118029",
+    "A118030"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:07",
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

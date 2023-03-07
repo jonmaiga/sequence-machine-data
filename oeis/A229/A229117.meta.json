@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k where d/k reaches a new record, with d the distance from the k-th triangular number to the nearest square.",
+  "id": "A229117",
+  "mentions": [
+    "A010503",
+    "A229118"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:46",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

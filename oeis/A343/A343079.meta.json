@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the smallest number that is the sum of n positive 6th powers in two ways.",
+  "id": "A343079",
+  "mentions": [
+    "A116643",
+    "A230563",
+    "A342902",
+    "A343077",
+    "A343078"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:59:43",
+    "offset": 3,
+    "size": 63,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Primes in A130774.",
+  "id": "A134070",
+  "mentions": [
+    "A000204",
+    "A019523",
+    "A038399",
+    "A130774",
+    "A134069",
+    "A134071",
+    "A134072"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "bref",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

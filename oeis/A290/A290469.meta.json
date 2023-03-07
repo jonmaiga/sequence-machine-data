@@ -1,0 +1,19 @@
+{
+  "description": "Numbers x such that x = Sum_{i=1..k} (x mod d_(x+i)) for some k, where d_(x+i) is the aliquot parts of (x+i).",
+  "id": "A290469",
+  "mentions": [
+    "A286873",
+    "A290468"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

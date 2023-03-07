@@ -1,0 +1,22 @@
+{
+  "description": "Primes p such that sigma(p) = 1 + p is a partition number (sorted increasingly).",
+  "id": "A252892",
+  "mentions": [
+    "A000040",
+    "A000041",
+    "A000065",
+    "A000203",
+    "A052001",
+    "A252891"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 15:11:57",
+    "offset": 1,
+    "size": 21,
+    "source": "joeis"
+  }
+}

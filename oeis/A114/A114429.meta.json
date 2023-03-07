@@ -1,0 +1,20 @@
+{
+  "description": "Larger of the greatest twin prime pair with n digits.",
+  "id": "A114429",
+  "mentions": [
+    "A092250"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:04",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of 1/zeta(8).",
+  "id": "A342683",
+  "mentions": [
+    "A013666",
+    "A059956",
+    "A215267",
+    "A343359"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:15",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

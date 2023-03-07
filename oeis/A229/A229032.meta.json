@@ -1,0 +1,21 @@
+{
+  "description": "Triangle T(n,k), 0 <= k <= n, read by rows, defined by T(n,k) = 4^k * C(n+1,2*k+1).",
+  "id": "A229032",
+  "mentions": [
+    "A085841",
+    "A089627",
+    "A105070"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

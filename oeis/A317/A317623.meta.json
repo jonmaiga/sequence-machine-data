@@ -1,0 +1,21 @@
+{
+  "description": "Number of distinct values of X*(3*X-1) mod n.",
+  "id": "A317623",
+  "mentions": [
+    "A000224",
+    "A290731",
+    "A290732"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:37",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

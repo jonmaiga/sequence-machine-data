@@ -1,0 +1,29 @@
+{
+  "description": "Number of covering antichains of subsets of {1..n} with no singletons and different edge-sizes.",
+  "id": "A326569",
+  "mentions": [
+    "A000372",
+    "A003182",
+    "A006126",
+    "A007837",
+    "A306021",
+    "A307249",
+    "A326565",
+    "A326570",
+    "A326571",
+    "A326572",
+    "A326573"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

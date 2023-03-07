@@ -1,0 +1,43 @@
+{
+  "description": "Inventory sequence: record the number of zeros thus far in the sequence, then the number of ones thus far, then the number of twos thus far and so on, until a zero is recorded; the inventory then starts again, recording the number of zeros.",
+  "id": "A342585",
+  "mentions": [
+    "A003056",
+    "A011784",
+    "A012257",
+    "A030717",
+    "A174382",
+    "A181391",
+    "A333867",
+    "A343878",
+    "A343880",
+    "A347062",
+    "A347299",
+    "A347305",
+    "A347315",
+    "A347316",
+    "A347317",
+    "A347738",
+    "A348782",
+    "A355916",
+    "A355917",
+    "A355918",
+    "A356784",
+    "A357317",
+    "A357443",
+    "A358066"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "look",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:15",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

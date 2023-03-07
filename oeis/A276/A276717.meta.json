@@ -1,0 +1,19 @@
+{
+  "description": "Least prime p < n^2 such that n^2 - p = x^k for some integers x > 1 and k > 1, or 1 if such a prime p does not exist.",
+  "id": "A276717",
+  "mentions": [
+    "A000040",
+    "A001597",
+    "A276711"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

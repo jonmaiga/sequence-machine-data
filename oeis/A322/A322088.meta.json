@@ -1,0 +1,26 @@
+{
+  "description": "Digits of one of the two 13-adic integers sqrt(3).",
+  "id": "A322088",
+  "mentions": [
+    "A051277",
+    "A286838",
+    "A286839",
+    "A322086",
+    "A322087",
+    "A322091",
+    "A322092"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:44",
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

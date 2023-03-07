@@ -1,0 +1,21 @@
+{
+  "description": "Numbers with 5 distinct digits {1,2,3,4,5} such that all adjacent digits (as well as first and last digits) are coprime.",
+  "id": "A104972",
+  "mentions": [
+    "A104971",
+    "A104973"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

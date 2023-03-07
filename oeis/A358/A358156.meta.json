@@ -1,0 +1,26 @@
+{
+  "description": "a(n) is the smallest number k such that the sum of k consecutive prime numbers starting with the n-th prime is a square.",
+  "id": "A358156",
+  "mentions": [
+    "A000040",
+    "A000290",
+    "A064397",
+    "A072849",
+    "A076305",
+    "A105720",
+    "A166255",
+    "A166261",
+    "A230327",
+    "A287027"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

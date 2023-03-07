@@ -1,0 +1,24 @@
+{
+  "description": "Irregular triangle T read by rows: T(n, k) is the sum of the consecutive integers placed along the k-th turn of the spiral of the n X n matrix defined in A126224.",
+  "id": "A343155",
+  "mentions": [
+    "A000007",
+    "A000290",
+    "A033585",
+    "A037270",
+    "A110654",
+    "A126224"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

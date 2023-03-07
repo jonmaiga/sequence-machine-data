@@ -1,0 +1,25 @@
+{
+  "description": "Sum of all parts of all partitions of n into equal parts that do not contain 1 as a part.",
+  "id": "A168014",
+  "mentions": [
+    "A000005",
+    "A000041",
+    "A032741",
+    "A038040",
+    "A168015",
+    "A168020",
+    "A168021"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:44:35",
+    "offset": 0,
+    "size": 55,
+    "source": "joeis"
+  }
+}

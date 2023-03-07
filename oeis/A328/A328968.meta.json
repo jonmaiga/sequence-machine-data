@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of Integral_{x>=0} exp(-x^2*erf(x)) dx.",
+  "id": "A328968",
+  "mentions": [
+    "A103988"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

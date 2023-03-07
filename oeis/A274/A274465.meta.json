@@ -1,0 +1,22 @@
+{
+  "description": "Primes which are the sum of cousin prime pairs - 1.",
+  "id": "A274465",
+  "mentions": [
+    "A023200",
+    "A040117",
+    "A072669",
+    "A089531",
+    "A145471",
+    "A152091"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:39",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

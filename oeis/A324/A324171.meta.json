@@ -1,0 +1,34 @@
+{
+  "description": "Number of non-crossing multiset partitions of normal multisets of size n.",
+  "id": "A324171",
+  "mentions": [
+    "A000108",
+    "A000124",
+    "A001006",
+    "A001055",
+    "A001263",
+    "A007297",
+    "A054726",
+    "A099947",
+    "A194560",
+    "A255906",
+    "A306438",
+    "A324166",
+    "A324167",
+    "A324168",
+    "A324169",
+    "A324170",
+    "A324173"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

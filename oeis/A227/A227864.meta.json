@@ -1,0 +1,23 @@
+{
+  "description": "Smallest base in which n's digital reversal is prime, or 0 if no such base exists.",
+  "id": "A227864",
+  "mentions": [
+    "A006567",
+    "A038179",
+    "A095179",
+    "A114018",
+    "A204232"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 0,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

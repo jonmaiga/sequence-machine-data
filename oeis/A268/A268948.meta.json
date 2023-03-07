@@ -1,0 +1,18 @@
+{
+  "description": "Number of length-7 0..n arrays with no repeated value unequal to the previous repeated value plus one mod n+1.",
+  "id": "A268948",
+  "mentions": [
+    "A268944"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:09:09",
+    "offset": 1,
+    "size": 23,
+    "source": "joeis"
+  }
+}

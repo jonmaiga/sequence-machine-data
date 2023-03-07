@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = number of 5 X 5 permutation matrices with trace n",
+  "id": "A171906",
+  "mentions": [
+    "A171806",
+    "A171808",
+    "A171809",
+    "A171907",
+    "A171908"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

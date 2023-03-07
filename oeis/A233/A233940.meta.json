@@ -1,0 +1,45 @@
+{
+  "description": "Number T(n,k) of binary words of length n with exactly k (possibly overlapping) occurrences of the subword given by the binary expansion of n; triangle T(n,k), n>=0, read by rows.",
+  "id": "A233940",
+  "mentions": [
+    "A000079",
+    "A007318",
+    "A034867",
+    "A045623",
+    "A076791",
+    "A118390",
+    "A118424",
+    "A118429",
+    "A118869",
+    "A118884",
+    "A118890",
+    "A209972",
+    "A228612",
+    "A229293",
+    "A229905",
+    "A234005",
+    "A236231",
+    "A236232",
+    "A236233",
+    "A236234",
+    "A236235",
+    "A236236",
+    "A236237",
+    "A236238",
+    "A236239"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "look",
+    "nice",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:52",
+    "offset": 0,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

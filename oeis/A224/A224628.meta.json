@@ -1,0 +1,17 @@
+{
+  "description": "Number of (n+5)X(n+5) 0..2 matrices with each 6X6 subblock idempotent",
+  "id": "A224628",
+  "mentions": [
+    "A224636"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

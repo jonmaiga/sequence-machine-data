@@ -1,0 +1,27 @@
+{
+  "description": "Coefficients of replicable function number \"48h\".",
+  "id": "A112192",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A010054",
+    "A010815",
+    "A058578",
+    "A112186",
+    "A112187",
+    "A121373",
+    "A187091",
+    "A262771"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:34:07",
+    "offset": 0,
+    "size": 54,
+    "source": "joeis"
+  }
+}

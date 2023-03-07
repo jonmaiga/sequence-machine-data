@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the number of reduced stable marriage problem instances of order 4 that generate n possible stable matchings.",
+  "id": "A351430",
+  "mentions": [
+    "A010790",
+    "A344667",
+    "A351409"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

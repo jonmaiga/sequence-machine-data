@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the number of connected transitive relations over n unlabeled nodes.",
+  "id": "A296105",
+  "mentions": [
+    "A006905",
+    "A022562",
+    "A091073",
+    "A245731"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

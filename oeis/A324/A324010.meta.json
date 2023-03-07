@@ -1,0 +1,21 @@
+{
+  "description": "The sum of squares of the number of common points in all pairs of lattice paths from (0,0) to (x,y), for x >= 0, y >= 0 (the unnormalized second moment). The table is read by antidiagonals.",
+  "id": "A324010",
+  "mentions": [
+    "A091044",
+    "A306687"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

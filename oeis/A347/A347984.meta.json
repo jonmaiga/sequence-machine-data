@@ -1,0 +1,20 @@
+{
+  "description": "Variation of the Enots Wolley sequence A336957: earliest infinite sequence of distinct positive integers such that a(n) has a common factor with a(n-1) but not with a(n-2), and has a different number of divisors than a(n-1).",
+  "id": "A347984",
+  "mentions": [
+    "A000005",
+    "A064413",
+    "A098550",
+    "A336957"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

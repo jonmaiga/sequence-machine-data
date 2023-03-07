@@ -1,0 +1,27 @@
+{
+  "description": "Expansion of Product_{k>=1} (1+x^k)^(k*(k+1)).",
+  "id": "A258341",
+  "mentions": [
+    "A002117",
+    "A027998",
+    "A027999",
+    "A028377",
+    "A258342",
+    "A258343",
+    "A258344",
+    "A258345",
+    "A258346",
+    "A258347"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:16",
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

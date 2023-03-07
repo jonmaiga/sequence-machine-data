@@ -1,0 +1,19 @@
+{
+  "description": "Number of triples of primes (p,q,r) that satisfy p+q^2+r^3=n.",
+  "id": "A261887",
+  "mentions": [
+    "A181149",
+    "A261888"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

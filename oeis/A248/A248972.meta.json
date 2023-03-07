@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the smallest b such that b^((p-1)/2) == -1 (mod p) where p = A080076(n) is the n-th Proth prime.",
+  "id": "A248972",
+  "mentions": [
+    "A020649",
+    "A053760",
+    "A080076"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 92,
+    "source": "oeis-entry"
+  }
+}

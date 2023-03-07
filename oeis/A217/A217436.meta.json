@@ -1,0 +1,20 @@
+{
+  "description": "Triangular array read by rows. T(n,k) is the number of labeled relations on n elements with exactly k vertices of indegree and outdegree = 0.",
+  "id": "A217436",
+  "mentions": [
+    "A173403",
+    "A197927"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

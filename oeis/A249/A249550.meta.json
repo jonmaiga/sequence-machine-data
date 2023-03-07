@@ -1,0 +1,29 @@
+{
+  "description": "Numbers n such that there are precisely 7 groups of order n.",
+  "id": "A249550",
+  "mentions": [
+    "A000001",
+    "A003277",
+    "A054395",
+    "A054396",
+    "A054397",
+    "A055561",
+    "A135850",
+    "A249551",
+    "A249552",
+    "A249553",
+    "A249554",
+    "A249555"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:06",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

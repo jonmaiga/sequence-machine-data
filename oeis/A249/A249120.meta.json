@@ -1,0 +1,29 @@
+{
+  "description": "Triangle read by rows: T(n,k), n>=1, k>=1, in which column k lists the numbers of A210843 multiplied by A000330(k), and the first element of column k is in row A000217(k).",
+  "id": "A249120",
+  "mentions": [
+    "A000203",
+    "A000217",
+    "A000330",
+    "A002492",
+    "A003056",
+    "A024916",
+    "A195825",
+    "A196020",
+    "A210843",
+    "A211970",
+    "A236104",
+    "A252117"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

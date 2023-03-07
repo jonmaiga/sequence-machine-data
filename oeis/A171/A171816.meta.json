@@ -1,0 +1,32 @@
+{
+  "description": "Smallest number of rank n in the poset of lunar numbers.",
+  "id": "A171816",
+  "mentions": [
+    "A087061",
+    "A087062",
+    "A087097",
+    "A144171",
+    "A144175",
+    "A161813",
+    "A171786",
+    "A171787",
+    "A171788",
+    "A171789",
+    "A171794",
+    "A171795",
+    "A171796",
+    "A191752",
+    "A191753"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

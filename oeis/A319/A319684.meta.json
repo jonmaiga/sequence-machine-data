@@ -1,0 +1,23 @@
+{
+  "description": "Sum of A003415(d) over the divisors d of n, where A003415 is arithmetic derivative.",
+  "id": "A319684",
+  "mentions": [
+    "A003415",
+    "A300251",
+    "A300252",
+    "A305809",
+    "A317835",
+    "A319683"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:41",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

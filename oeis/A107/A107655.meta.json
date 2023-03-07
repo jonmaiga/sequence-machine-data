@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the smallest number m greater than 1 such that phi(m) = d(m)^n, where d(m) is number of positive divisors of m; if there is no such m, a(n)=1.",
+  "id": "A107655",
+  "mentions": [
+    "A000005",
+    "A000215",
+    "A033844"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:59",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

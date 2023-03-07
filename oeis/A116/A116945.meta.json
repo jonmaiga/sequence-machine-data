@@ -1,0 +1,26 @@
+{
+  "description": "Numbers in both A002731(n) and A002731(A002731(n)).",
+  "id": "A116945",
+  "mentions": [
+    "A000040",
+    "A002731",
+    "A027861",
+    "A027862",
+    "A091277",
+    "A187431",
+    "A188546",
+    "A188547"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:07",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

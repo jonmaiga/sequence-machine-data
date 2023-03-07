@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that the smallest digit of k is equal to the additive digital root of k (in base 10).",
+  "id": "A317110",
+  "mentions": [
+    "A010888",
+    "A054054",
+    "A107085"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

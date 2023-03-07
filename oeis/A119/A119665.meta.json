@@ -1,0 +1,18 @@
+{
+  "description": "Sign in the term (2q +/- 1) for triangular numbers of the form q * (2q +/- 1) where both factors are primes (or prime powers).",
+  "id": "A119665",
+  "mentions": [
+    "A000217",
+    "A068443"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 103,
+    "source": "oeis-entry"
+  }
+}

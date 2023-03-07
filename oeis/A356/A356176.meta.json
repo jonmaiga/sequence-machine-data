@@ -1,0 +1,25 @@
+{
+  "description": "Numbers that can be written as the product of three divisors greater than 1 such that the number in binary is contained in the string concatenation of the divisors in binary.",
+  "id": "A356176",
+  "mentions": [
+    "A027750",
+    "A030190",
+    "A210959",
+    "A355790",
+    "A355791",
+    "A355852",
+    "A355857",
+    "A356143"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

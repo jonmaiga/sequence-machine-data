@@ -1,0 +1,22 @@
+{
+  "description": "Numbers m such that A131851(m) = 0.",
+  "id": "A131854",
+  "mentions": [
+    "A131851",
+    "A131853",
+    "A131855",
+    "A131859",
+    "A131861",
+    "A131863"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:20",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

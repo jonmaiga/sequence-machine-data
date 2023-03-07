@@ -1,0 +1,22 @@
+{
+  "description": "Write n = C(i,3)+C(j,2)+C(k,1) with i>j>k>=0; let L[n] = [i,j,k]; sequence gives list of triples L[n], n >= 0.",
+  "id": "A194849",
+  "mentions": [
+    "A056556",
+    "A056557",
+    "A056558",
+    "A194847",
+    "A194848"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 125,
+    "source": "oeis-entry"
+  }
+}

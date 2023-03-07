@@ -1,0 +1,21 @@
+{
+  "description": "Non-palindromes numbers not ending in 0 whose square is the product of a number and its reverse in only one way.",
+  "id": "A325151",
+  "mentions": [
+    "A076750",
+    "A207373",
+    "A325149",
+    "A325150"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:51",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

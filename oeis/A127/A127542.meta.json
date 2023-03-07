@@ -1,0 +1,21 @@
+{
+  "description": "Number of subsets of {1,2,3,...,n} whose sum is prime.",
+  "id": "A127542",
+  "mentions": [
+    "A010051",
+    "A053632",
+    "A126024",
+    "A181522",
+    "A282516"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:15",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

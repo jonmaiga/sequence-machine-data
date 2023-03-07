@@ -1,0 +1,18 @@
+{
+  "description": "Least odd number k such that sigma(k)/k >= n.",
+  "id": "A119240",
+  "mentions": [
+    "A023199",
+    "A119239"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:08",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-bfile"
+  }
+}

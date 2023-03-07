@@ -1,0 +1,20 @@
+{
+  "description": "Even numbers n such that the least e with n^e a totient is a new record.",
+  "id": "A227534",
+  "mentions": [
+    "A001747",
+    "A227533",
+    "A227535"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

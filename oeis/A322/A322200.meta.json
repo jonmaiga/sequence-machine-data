@@ -1,0 +1,26 @@
+{
+  "description": "L.g.f.: L(x,y) = log( Product_{n>=1} 1/(1 - (x^n + y^n)) ), where L(x,y) = Sum_{n>=0} Sum_{k>=0} T(n,k) * x^n*y^k / (n+k) such that L(0,0) = 0, as a symmetric square table of coefficients T(n,k) read by antidiagonals starting with T(0,0) = 0.",
+  "id": "A322200",
+  "mentions": [
+    "A054598",
+    "A054599",
+    "A322201",
+    "A322203",
+    "A322205",
+    "A322207",
+    "A322209",
+    "A322210"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:45",
+    "offset": 0,
+    "size": 153,
+    "source": "oeis-bfile"
+  }
+}

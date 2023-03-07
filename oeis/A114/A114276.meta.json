@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of Dyck paths of semilength n having length of second ascent equal to k (0<=k<=n-1).",
+  "id": "A114276",
+  "mentions": [
+    "A000108",
+    "A001453",
+    "A014138",
+    "A114277"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

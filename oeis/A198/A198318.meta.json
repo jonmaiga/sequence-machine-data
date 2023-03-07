@@ -1,0 +1,28 @@
+{
+  "description": "Number of, not necessarily connected, regular simple graphs on n vertices with girth exactly 8.",
+  "id": "A198318",
+  "mentions": [
+    "A185318",
+    "A185319",
+    "A186748",
+    "A198313",
+    "A198314",
+    "A198315",
+    "A198316",
+    "A198317",
+    "A210718"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

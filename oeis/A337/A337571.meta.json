@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the real positive solution to x^4 = x+4.",
+  "id": "A337571",
+  "mentions": [
+    "A060007",
+    "A294644",
+    "A337570"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:45:55",
+    "offset": 1,
+    "size": 97,
+    "source": "joeis"
+  }
+}

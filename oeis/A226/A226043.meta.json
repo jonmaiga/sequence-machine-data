@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of 355/113-Pi.",
+  "id": "A226043",
+  "mentions": [
+    "A002485",
+    "A002486",
+    "A003077",
+    "A226042"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:52:39",
+    "offset": 0,
+    "size": 100,
+    "source": "joeis"
+  }
+}

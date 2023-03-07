@@ -1,0 +1,18 @@
+{
+  "description": "Number of reduced words of length n in the alphabet {U,U^(-1),S,S^(-1)} that are equal to unity if U^3 = S^2 = 1.",
+  "id": "A276409",
+  "mentions": [
+    "A265434",
+    "A276408"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

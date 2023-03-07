@@ -1,0 +1,24 @@
+{
+  "description": "The curvature of touching circles inscribed in a special way in the larger segment of circle of radius 1/6 divided by a chord of length sqrt(8/75).",
+  "id": "A248833",
+  "mentions": [
+    "A078986",
+    "A097315",
+    "A240926",
+    "A247335",
+    "A247512",
+    "A248834"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:05",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

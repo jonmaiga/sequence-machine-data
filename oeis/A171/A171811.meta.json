@@ -1,0 +1,18 @@
+{
+  "description": "After the sixth term of A171810, number of 1s between nonunits.",
+  "id": "A171811",
+  "mentions": [
+    "A171810",
+    "A171812"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

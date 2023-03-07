@@ -1,0 +1,18 @@
+{
+  "description": "Continued fraction expansion of the Madelung constant for the NaCl structure (A085469).",
+  "id": "A108778",
+  "mentions": [
+    "A085469"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "cofr",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:00",
+    "offset": 1,
+    "size": 98,
+    "source": "oeis-bfile"
+  }
+}

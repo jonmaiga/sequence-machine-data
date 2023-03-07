@@ -1,0 +1,25 @@
+{
+  "description": "Numbers n such that n^2 + 2, n^2 - 2, n + 2 and n - 2 are all semiprimes.",
+  "id": "A268186",
+  "mentions": [
+    "A001358",
+    "A086005",
+    "A096173",
+    "A096175",
+    "A105571",
+    "A124936",
+    "A237037",
+    "A268043"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:30",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

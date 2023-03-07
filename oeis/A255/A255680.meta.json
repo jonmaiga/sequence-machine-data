@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = n*(n mod 3)*(n mod 5).",
+  "id": "A255680",
+  "mentions": [
+    "A010872",
+    "A010874",
+    "A255642"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:20:43",
+    "offset": 0,
+    "size": 88,
+    "source": "joeis"
+  }
+}

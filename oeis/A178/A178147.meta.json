@@ -1,0 +1,24 @@
+{
+  "description": "Sum of squares d^2 of distinct divisors of n, d in {2, 3, 5}.",
+  "id": "A178147",
+  "mentions": [
+    "A005063",
+    "A098002",
+    "A178142",
+    "A178144",
+    "A178146"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:23:35",
+    "offset": 1,
+    "size": 79,
+    "source": "joeis"
+  }
+}

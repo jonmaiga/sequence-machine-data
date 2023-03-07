@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Stirling2(n, floor(n/2)).",
+  "id": "A343279",
+  "mentions": [
+    "A007820",
+    "A048993",
+    "A129506",
+    "A343278"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

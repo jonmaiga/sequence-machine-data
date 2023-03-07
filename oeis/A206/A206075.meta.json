@@ -1,0 +1,17 @@
+{
+  "description": "Nonprimes in A206074 (a coding of irreducible polynomials).",
+  "id": "A206075",
+  "mentions": [
+    "A206074"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:26",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

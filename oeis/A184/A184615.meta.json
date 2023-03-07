@@ -1,0 +1,21 @@
+{
+  "description": "Positive parts of the nonadjacent forms for n.",
+  "id": "A184615",
+  "mentions": [
+    "A007302",
+    "A184616",
+    "A184617"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "changed",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:09",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

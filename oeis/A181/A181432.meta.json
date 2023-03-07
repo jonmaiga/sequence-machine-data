@@ -1,0 +1,18 @@
+{
+  "description": "Symmetric square array T(n,k) read by antidiagonals. T(n,k)=A008836(n)*A008836(k).",
+  "id": "A181432",
+  "mentions": [
+    "A008836"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-entry"
+  }
+}

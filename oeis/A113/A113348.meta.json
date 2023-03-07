@@ -1,0 +1,22 @@
+{
+  "description": "Column 2 of triangle A113345, also equals column 0 of A113350^5.",
+  "id": "A113348",
+  "mentions": [
+    "A113340",
+    "A113345",
+    "A113346",
+    "A113347",
+    "A113349",
+    "A113350"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

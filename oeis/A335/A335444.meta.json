@@ -1,0 +1,25 @@
+{
+  "description": "Define the Fibonacci polynomials by F[1] = 1, F[2] = x; for n > 2, F[n] = x*F[n-1] + F[n-2] (cf. A049310, A053119). Swamy's inequality states that F[n]^2 <= G[n] = (x^2 + 1)^2*(x^2 + 2)^(n-3) for all n >= 3 and all real x. The sequence gives a triangle of the coefficients of the even exponents of G[n] - F[n]^2 read by rows.",
+  "id": "A335444",
+  "mentions": [
+    "A002620",
+    "A045623",
+    "A049310",
+    "A051890",
+    "A053119",
+    "A128932",
+    "A166920"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 3,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

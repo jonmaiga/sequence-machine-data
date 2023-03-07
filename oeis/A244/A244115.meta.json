@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of -zeta'(3) (the first derivative of the zeta function at 3).",
+  "id": "A244115",
+  "mentions": [
+    "A073002",
+    "A261506",
+    "A288391"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

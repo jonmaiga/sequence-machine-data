@@ -1,0 +1,17 @@
+{
+  "description": "Number of n-node unlabeled rooted trees with thinning limbs and root outdegree (branching factor) 7.",
+  "id": "A244708",
+  "mentions": [
+    "A244657"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:00",
+    "offset": 8,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

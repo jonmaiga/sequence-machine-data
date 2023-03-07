@@ -1,0 +1,25 @@
+{
+  "description": "Addends k > 0 such that the polynomial x^2 + x + k produces a record of its Hardy-Littlewood Constant.",
+  "id": "A331940",
+  "mentions": [
+    "A002837",
+    "A007635",
+    "A014556",
+    "A116206",
+    "A221712",
+    "A221713",
+    "A331877"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

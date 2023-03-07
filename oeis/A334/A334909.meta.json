@@ -1,0 +1,21 @@
+{
+  "description": "Area/6 of primitive Pythagorean triangles given in A334638 as triples.",
+  "id": "A334909",
+  "mentions": [
+    "A010036",
+    "A171477",
+    "A334638"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 19:51:14",
+    "offset": 0,
+    "size": 18,
+    "source": "joeis"
+  }
+}

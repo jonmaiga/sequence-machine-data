@@ -1,0 +1,21 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) is the number of Dyck prefixes of length n having k inversions (n >= 0, k >= 0).",
+  "id": "A221057",
+  "mentions": [
+    "A001405",
+    "A129176",
+    "A221058"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:39",
+    "offset": 0,
+    "size": 107,
+    "source": "oeis-bfile"
+  }
+}

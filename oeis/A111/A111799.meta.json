@@ -1,0 +1,31 @@
+{
+  "description": "Triangle T(h, w) = number of rotes of height h and wayage w.",
+  "id": "A111799",
+  "mentions": [
+    "A001221",
+    "A007097",
+    "A050924",
+    "A061396",
+    "A062504",
+    "A062537",
+    "A062860",
+    "A109300",
+    "A109301",
+    "A111791",
+    "A111792",
+    "A111793",
+    "A111798",
+    "A111800"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

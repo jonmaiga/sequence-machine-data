@@ -1,0 +1,18 @@
+{
+  "description": "Take apart the sides of each of the integer-sided triangles with perimeter n (at their vertices) and rearrange them orthogonally in 3-space so that their endpoints coincide at a single point. a(n) is the total volume of all rectangular prisms enclosed in this way.",
+  "id": "A308233",
+  "mentions": [
+    "A005044"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

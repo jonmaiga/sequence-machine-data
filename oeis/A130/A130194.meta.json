@@ -1,0 +1,21 @@
+{
+  "description": "Let M = lower triangular matrix with 1's on and below the main diagonal, with columns multiplied by +1, +1, -1, -1, repeated; form M^2; read across rows of resulting triangle.",
+  "id": "A130194",
+  "mentions": [
+    "A000012",
+    "A009531",
+    "A058074",
+    "A130195"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Negative van Eck's sequence: For n >= 1, if there exists an m < n such that a(m) = a(n), take the largest such m and set a(n+1) = n-m, otherwise a(n+1) = -a(n). Start with a(1)=0.",
+  "id": "A308619",
+  "mentions": [
+    "A181391"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

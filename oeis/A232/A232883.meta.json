@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of sum( i>=0, 1/(2*i^2+1) ).",
+  "id": "A232883",
+  "mentions": [
+    "A072691",
+    "A113319"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:46:55",
+    "offset": 1,
+    "size": 88,
+    "source": "joeis"
+  }
+}

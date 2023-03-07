@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 14641*n^2 - 4598*n + 362.",
+  "id": "A157445",
+  "mentions": [
+    "A157443",
+    "A157444"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:39",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

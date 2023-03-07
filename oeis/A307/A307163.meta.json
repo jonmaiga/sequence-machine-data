@@ -1,0 +1,22 @@
+{
+  "description": "Minimum number of intercalates in a diagonal Latin square of order n.",
+  "id": "A307163",
+  "mentions": [
+    "A092237",
+    "A307164",
+    "A307166",
+    "A307170"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

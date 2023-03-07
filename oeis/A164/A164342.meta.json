@@ -1,0 +1,17 @@
+{
+  "description": "Row sums of table A164341.",
+  "id": "A164342",
+  "mentions": [
+    "A164341"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

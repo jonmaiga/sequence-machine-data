@@ -1,0 +1,20 @@
+{
+  "description": "Records in A318928, written in base 2.",
+  "id": "A319418",
+  "mentions": [
+    "A318928",
+    "A319103",
+    "A319417"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

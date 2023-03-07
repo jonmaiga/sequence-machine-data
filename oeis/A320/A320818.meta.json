@@ -1,0 +1,20 @@
+{
+  "description": "Number of partitions of n with exactly five sorts of part 1 which are introduced in ascending order.",
+  "id": "A320818",
+  "mentions": [
+    "A292746",
+    "A320735",
+    "A320736"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:43",
+    "offset": 5,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

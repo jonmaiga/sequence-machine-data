@@ -1,0 +1,18 @@
+{
+  "description": "Primes that can be represented as a sum of 2 and also as a sum of 3 distinct nonzero squares, sharing a term in the sums.",
+  "id": "A161665",
+  "mentions": [
+    "A002114",
+    "A085317"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

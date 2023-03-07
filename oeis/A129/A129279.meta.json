@@ -1,0 +1,18 @@
+{
+  "description": "a(0)=1. a(n) = the sum of the earlier terms which are <= n.",
+  "id": "A129279",
+  "mentions": [
+    "A129280"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

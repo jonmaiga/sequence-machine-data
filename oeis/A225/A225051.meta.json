@@ -1,0 +1,23 @@
+{
+  "description": "Numbers of the form x^3 + SumOfCubedDigits(x).",
+  "id": "A225051",
+  "mentions": [
+    "A000290",
+    "A000578",
+    "A055012",
+    "A209303"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:28",
+    "offset": 0,
+    "size": 42,
+    "source": "joeis"
+  }
+}

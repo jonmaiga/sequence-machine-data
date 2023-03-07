@@ -1,0 +1,18 @@
+{
+  "description": "Exponential transform of A003024, number of acyclic digraphs with n labeled nodes.",
+  "id": "A188490",
+  "mentions": [
+    "A003024"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

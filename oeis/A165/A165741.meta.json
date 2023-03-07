@@ -1,0 +1,22 @@
+{
+  "description": "Positive integers n such that the toric n X n \"Lights Out\" puzzle has a unique solution (up to the order of flippings; each flipping appears at most once).",
+  "id": "A165741",
+  "mentions": [
+    "A075462",
+    "A076436",
+    "A159257",
+    "A165738",
+    "A165740"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:48",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

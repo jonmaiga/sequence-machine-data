@@ -1,0 +1,30 @@
+{
+  "description": "Number of n-digit numbers having exactly n prime factors (counted with multiplicity).",
+  "id": "A124033",
+  "mentions": [
+    "A006880",
+    "A036335",
+    "A066265",
+    "A109251",
+    "A114106",
+    "A114453",
+    "A120047",
+    "A120048",
+    "A120049",
+    "A120050",
+    "A120051",
+    "A120052",
+    "A120053"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Partial sums of A011627.",
+  "id": "A165578",
+  "mentions": [
+    "A011627",
+    "A165472",
+    "A165477",
+    "A165482",
+    "A165575",
+    "A165579",
+    "A165582",
+    "A165587",
+    "A165592",
+    "A165597"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:29:45",
+    "offset": 0,
+    "size": 99,
+    "source": "joeis"
+  }
+}

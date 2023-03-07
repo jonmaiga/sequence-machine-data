@@ -1,0 +1,21 @@
+{
+  "description": "Lucas-Carmichael numbers whose Dedekind psi value is a square.",
+  "id": "A292571",
+  "mentions": [
+    "A001615",
+    "A006972",
+    "A272798",
+    "A292572",
+    "A292573"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

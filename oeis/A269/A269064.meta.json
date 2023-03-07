@@ -1,0 +1,28 @@
+{
+  "description": "At stage 1, start with a unit equilateral triangle. At each successive stage add 3*(n-1) new triangles around outside with vertex-to-vertex contacts. Sequence gives number of triangles at n-th stage.",
+  "id": "A269064",
+  "mentions": [
+    "A003215",
+    "A005448",
+    "A005993",
+    "A006003",
+    "A033428",
+    "A039623",
+    "A061600",
+    "A064412",
+    "A102214",
+    "A265282"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:09:49",
+    "offset": 0,
+    "size": 49,
+    "source": "joeis"
+  }
+}

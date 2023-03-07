@@ -1,0 +1,27 @@
+{
+  "description": "Expansion of Product_{k>=1} (1 + x^k) / (1 + x^(10*k)).",
+  "id": "A261772",
+  "mentions": [
+    "A000700",
+    "A003105",
+    "A070048",
+    "A096938",
+    "A097793",
+    "A112193",
+    "A145707",
+    "A261770",
+    "A261771",
+    "A290307"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:21",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

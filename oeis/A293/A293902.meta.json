@@ -1,0 +1,21 @@
+{
+  "description": "If n = p_1^e_1 * ... * p_k^e_k, p_1, ..., p_k primes, then a(n) = Product c! where c ranges over products of all combinations of exponents e_1, ..., e_k as {e_1, e_1*e_2, e_1*e_3, e_2*e_3, e_1*e_2*e_3, ..., e_1*e_2*...*e_k}.",
+  "id": "A293902",
+  "mentions": [
+    "A000142",
+    "A001221",
+    "A163820",
+    "A293900"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:10",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

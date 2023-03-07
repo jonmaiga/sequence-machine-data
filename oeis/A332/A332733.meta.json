@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the smallest positive k such that n!*prime(n) + k is a prime.",
+  "id": "A332733",
+  "mentions": [
+    "A000040",
+    "A000142",
+    "A151800",
+    "A332731"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Greatest number of primes < prime(n) forming an arithmetic progression such that also prime(n) is a term.",
+  "id": "A109831",
+  "mentions": [
+    "A000040",
+    "A109832",
+    "A109833"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 2,
+    "size": 102,
+    "source": "oeis-entry"
+  }
+}

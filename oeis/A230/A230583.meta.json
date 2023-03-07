@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = floor(s(n) - n*(log(n) + 2*Gamma - 1)), where s(n) = sum_{k=1..n} tau(k), where tau(k) is the number of divisors of k.",
+  "id": "A230583",
+  "mentions": [
+    "A000005",
+    "A001620",
+    "A006218",
+    "A230501"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:48",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

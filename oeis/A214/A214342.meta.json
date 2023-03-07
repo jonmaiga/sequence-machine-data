@@ -1,0 +1,23 @@
+{
+  "description": "Count of the decimal descendants of the n-th prime.",
+  "id": "A214342",
+  "mentions": [
+    "A038800",
+    "A055781",
+    "A055782",
+    "A055783",
+    "A055784",
+    "A214280"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:32",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

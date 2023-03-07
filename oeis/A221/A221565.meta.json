@@ -1,0 +1,32 @@
+{
+  "description": "Number of toothpicks or D-toothpicks added at n-th stage to the structure of A220512.",
+  "id": "A221565",
+  "mentions": [
+    "A000079",
+    "A011782",
+    "A139251",
+    "A194271",
+    "A194433",
+    "A194443",
+    "A194701",
+    "A220501",
+    "A220512",
+    "A220521",
+    "A220523",
+    "A220525",
+    "A220527",
+    "A221528"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "more",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

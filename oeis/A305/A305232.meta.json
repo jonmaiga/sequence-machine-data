@@ -1,0 +1,26 @@
+{
+  "description": "Number of ordered ways to write 2*n+1 as p + binomial(2k,k) + 2*binomial(2m,m), where p is an odd prime, and k and m are nonnegative integers.",
+  "id": "A305232",
+  "mentions": [
+    "A000040",
+    "A000984",
+    "A303540",
+    "A303656",
+    "A303702",
+    "A303821",
+    "A303934",
+    "A304034",
+    "A304081",
+    "A305030"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:29",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

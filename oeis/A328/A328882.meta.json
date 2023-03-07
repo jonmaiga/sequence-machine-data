@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = n - 2^(sum of digits of n).",
+  "id": "A328882",
+  "mentions": [
+    "A007953",
+    "A010888",
+    "A329002",
+    "A329492",
+    "A329493"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

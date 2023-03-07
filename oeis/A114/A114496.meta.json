@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = Sum of binomial(n,k)*binomial(2n+k,k) over all k.",
+  "id": "A114496",
+  "mentions": [
+    "A001850",
+    "A003168",
+    "A005259",
+    "A029635",
+    "A114497",
+    "A114498",
+    "A156886",
+    "A156894"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:04",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Number of ways 2/n can be expressed as the sum of three distinct unit fractions: 2/n = 1/x + 1/y + 1/z with 0 < x < y < z.",
+  "id": "A227611",
+  "mentions": [
+    "A002966",
+    "A073101",
+    "A073546",
+    "A075248",
+    "A075785",
+    "A227610",
+    "A227612"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

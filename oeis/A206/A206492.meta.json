@@ -1,0 +1,22 @@
+{
+  "description": "Sums of rows of the sequence of triangles with nonnegative integers and row widths defined by A004738.",
+  "id": "A206492",
+  "mentions": [
+    "A004738",
+    "A007290",
+    "A027480",
+    "A051925",
+    "A084990"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

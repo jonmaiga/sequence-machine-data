@@ -1,0 +1,19 @@
+{
+  "description": "A puzzle - explanation is not known.",
+  "id": "A199715",
+  "mentions": [
+    "A007468",
+    "A199714"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn",
+    "unkn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

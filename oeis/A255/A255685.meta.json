@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of the alternating double sum U(3,1) = Sum_{i>=2} (Sum_{j=1..i-1} (-1)^(i+j)/(i^3*j)) (negated).",
+  "id": "A255685",
+  "mentions": [
+    "A099218"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 103,
+    "source": "oeis-entry"
+  }
+}

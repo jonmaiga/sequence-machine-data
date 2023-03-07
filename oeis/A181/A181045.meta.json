@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of A060295/24.",
+  "id": "A181045",
+  "mentions": [
+    "A018253",
+    "A060295",
+    "A166528",
+    "A166529",
+    "A166530",
+    "A166531",
+    "A166532"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:30:37",
+    "offset": 17,
+    "size": 105,
+    "source": "joeis"
+  }
+}

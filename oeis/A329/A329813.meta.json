@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = denominator(b(n)), where b(0) = b(1) = 1 and b(n) = n*b(n-1)/b(n-2) for n >= 1.",
+  "id": "A329813",
+  "mentions": [
+    "A145102",
+    "A145103",
+    "A329654"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

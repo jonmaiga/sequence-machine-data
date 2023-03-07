@@ -1,0 +1,22 @@
+{
+  "description": "Second quadrisection of A133058.",
+  "id": "A326992",
+  "mentions": [
+    "A016813",
+    "A133058",
+    "A326991",
+    "A326993",
+    "A326994"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:08:13",
+    "offset": 0,
+    "size": 65,
+    "source": "joeis"
+  }
+}

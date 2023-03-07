@@ -1,0 +1,17 @@
+{
+  "description": "The sequence S(n,n) that enumerates a certain class of lattice paths from (0,0) to (n,n).",
+  "id": "A232969",
+  "mentions": [
+    "A232973"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:51",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

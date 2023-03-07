@@ -1,0 +1,19 @@
+{
+  "description": "Length of shortest prefix of the characteristic sequence of the primes A010051 that contains all possible length-n blocks appearing in that sequence.",
+  "id": "A280418",
+  "mentions": [
+    "A010051",
+    "A280417"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

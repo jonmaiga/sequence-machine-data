@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the last term of the first run of A331786(n) consecutive numbers whose sum of digits (A007953) is not divisible by n.",
+  "id": "A352689",
+  "mentions": [
+    "A007953",
+    "A331786",
+    "A331788",
+    "A352688"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 2,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

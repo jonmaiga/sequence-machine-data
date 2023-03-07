@@ -1,0 +1,19 @@
+{
+  "description": "The terms of A308007 appear to lie on two lines; set a(n) = 0 if A308007(n) is on the lower line (defined by A308009(n) <= n), a(n) = 1 if it is on the upper line (defined by a(n) >= n).",
+  "id": "A308016",
+  "mentions": [
+    "A081145",
+    "A308007",
+    "A308009"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:32",
+    "offset": 1,
+    "size": 95,
+    "source": "oeis-bfile"
+  }
+}

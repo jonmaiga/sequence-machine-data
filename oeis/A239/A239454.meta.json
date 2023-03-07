@@ -1,0 +1,21 @@
+{
+  "description": "Array: row n shows the Look-and-Say partitions of n >=1, in Mathematica order.",
+  "id": "A239454",
+  "mentions": [
+    "A005150",
+    "A098859",
+    "A239455"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:56",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

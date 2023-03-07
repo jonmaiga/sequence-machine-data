@@ -1,0 +1,28 @@
+{
+  "description": "Write down the binary representation of n. Partition the string which is this binary representation by placing a '+' just left of every 1. Add the resulting base 2 numbers. a(n) = decimal equivalent of this sum.",
+  "id": "A162439",
+  "mentions": [
+    "A023359",
+    "A124771",
+    "A233249",
+    "A233312",
+    "A233416",
+    "A233420",
+    "A233564",
+    "A233569",
+    "A233655"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:44",
+    "offset": 1,
+    "size": 94,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that 5^k-1 contains a divisor which is an overpseudoprime to base 5.",
+  "id": "A140509",
+  "mentions": [
+    "A003463",
+    "A004061",
+    "A020231",
+    "A141232",
+    "A141350",
+    "A141390"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

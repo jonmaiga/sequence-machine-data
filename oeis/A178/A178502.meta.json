@@ -1,0 +1,17 @@
+{
+  "description": "Numbers n such that prime(n) modulo n is less than n/2.",
+  "id": "A178502",
+  "mentions": [
+    "A178462"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

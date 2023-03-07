@@ -1,0 +1,18 @@
+{
+  "description": "Number of length 2+4 0..n arrays with no disjoint pairs in any consecutive five terms having the same sum",
+  "id": "A247406",
+  "mentions": [
+    "A247404"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:03",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

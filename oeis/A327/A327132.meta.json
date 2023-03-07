@@ -1,0 +1,18 @@
+{
+  "description": "Last cell visited by knight moves on a spirally numbered hexagonal board of edge-length n, moving to the lowest unvisited cell at each step.",
+  "id": "A327132",
+  "mentions": [
+    "A308312",
+    "A327131"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:54",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

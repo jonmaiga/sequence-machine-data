@@ -1,0 +1,17 @@
+{
+  "description": "Odiousness of triangular numbers.",
+  "id": "A153638",
+  "mentions": [
+    "A000217"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

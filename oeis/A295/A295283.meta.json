@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 1 + number of distinct earlier terms that have common one bits with n in binary representation.",
+  "id": "A295283",
+  "mentions": [
+    "A000120",
+    "A295277"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:13",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Consider sets of 3 consecutive primes a, b, c such that c - a = 100, then sequence gives the values of b.",
+  "id": "A217603",
+  "mentions": [
+    "A166251",
+    "A217561",
+    "A217566",
+    "A217577"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

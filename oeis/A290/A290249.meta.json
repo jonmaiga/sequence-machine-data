@@ -1,0 +1,23 @@
+{
+  "description": "Numbers that are the sum of distinct primorial numbers (A002110) (not including 1).",
+  "id": "A290249",
+  "mentions": [
+    "A002110",
+    "A059589",
+    "A059590",
+    "A143293",
+    "A177711",
+    "A276156"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

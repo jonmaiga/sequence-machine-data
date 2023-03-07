@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k that are the numerator of a harmonic number such that k is divisible by the square of a prime >= 5.",
+  "id": "A322434",
+  "mentions": [
+    "A001008",
+    "A076637"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

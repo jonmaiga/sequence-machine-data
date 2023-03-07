@@ -1,0 +1,20 @@
+{
+  "description": "a(1)=0, a(n) = n^3 - a(n-1).",
+  "id": "A153026",
+  "mentions": [
+    "A000578",
+    "A125577"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:52:35",
+    "offset": 1,
+    "size": 42,
+    "source": "joeis"
+  }
+}

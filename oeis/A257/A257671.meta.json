@@ -1,0 +1,20 @@
+{
+  "description": "Numbers of the form floor(r^i + s^j), where r = (1 + sqrt(5))/2, s = r^2, i >= 0, j >= 0.",
+  "id": "A257671",
+  "mentions": [
+    "A001622",
+    "A104457",
+    "A257672"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

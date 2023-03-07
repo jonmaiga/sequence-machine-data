@@ -1,0 +1,23 @@
+{
+  "description": "Let B_m be set of divisors 1<=d<=m/2 of binomial(m-d-1,d-1) such that gcd(m,d)>1. The sequence lists m for which the intersection of B_m and B_(m+1) is not empty.",
+  "id": "A178100",
+  "mentions": [
+    "A138389",
+    "A178071",
+    "A178098",
+    "A178099",
+    "A178101",
+    "A178109",
+    "A178110"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:01",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

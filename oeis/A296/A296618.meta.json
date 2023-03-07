@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of the e.g.f. exp(-x)/sqrt(1-4*x).",
+  "id": "A296618",
+  "mentions": [
+    "A052143"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 19:46:58",
+    "offset": 0,
+    "size": 18,
+    "source": "joeis"
+  }
+}

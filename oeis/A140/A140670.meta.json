@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = 1 if n is odd; otherwise, a(n) = 2^k - 1 where 2^k is the largest power of 2 that divides n.",
+  "id": "A140670",
+  "mentions": [
+    "A001620",
+    "A006519",
+    "A135481",
+    "A160467"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:29",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

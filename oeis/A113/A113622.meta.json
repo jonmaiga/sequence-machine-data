@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that the reverse of the representation of phi(k) is a substring of k, in base 10.",
+  "id": "A113622",
+  "mentions": [
+    "A000010",
+    "A069215"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

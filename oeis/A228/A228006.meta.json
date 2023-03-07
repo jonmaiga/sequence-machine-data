@@ -1,0 +1,21 @@
+{
+  "description": "Smallest composite numbers with multiplicative digital root value 0 <= n <= 9.",
+  "id": "A228006",
+  "mentions": [
+    "A198378",
+    "A198487"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

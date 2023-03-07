@@ -1,0 +1,22 @@
+{
+  "description": "Primes p such that 2^pi(p-1) - p is also prime.",
+  "id": "A244913",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A078686",
+    "A227126"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

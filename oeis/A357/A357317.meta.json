@@ -1,0 +1,18 @@
+{
+  "description": "Inventory count sequence: record what you see and where it is located.",
+  "id": "A357317",
+  "mentions": [
+    "A342585"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:31",
+    "offset": 0,
+    "size": 93,
+    "source": "oeis-bfile"
+  }
+}

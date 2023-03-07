@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of sqrt(1 - 1/sqrt(2)), the abscissa of the point of bisection of the arc of the unit lemniscate (x^2 + y^2)^2 = x^2 - y^2 in the first quadrant.",
+  "id": "A154739",
+  "mentions": [
+    "A085565",
+    "A154740",
+    "A154741",
+    "A154742",
+    "A154743",
+    "A154747"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:54:43",
+    "offset": 0,
+    "size": 91,
+    "source": "joeis"
+  }
+}

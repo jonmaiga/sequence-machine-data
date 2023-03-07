@@ -1,0 +1,19 @@
+{
+  "description": "Numbers that contain the digital reverse of their square root.",
+  "id": "A179803",
+  "mentions": [
+    "A115761"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:02",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

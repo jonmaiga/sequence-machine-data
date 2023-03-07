@@ -1,0 +1,25 @@
+{
+  "description": "Čiurlionis sequence A342002, reduced modulo 4.",
+  "id": "A353640",
+  "mentions": [
+    "A010873",
+    "A166486",
+    "A328572",
+    "A342002",
+    "A353630",
+    "A353641",
+    "A353642"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:28",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

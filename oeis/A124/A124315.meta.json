@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = Sum_{ d divides n } tau(gcd(d,n/d)), where tau = sigma_0 = A000005.",
+  "id": "A124315",
+  "mentions": [
+    "A000005",
+    "A001616",
+    "A001620",
+    "A046951",
+    "A061884",
+    "A124316",
+    "A306016"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:12",
+    "offset": 1,
+    "size": 98,
+    "source": "oeis-bfile"
+  }
+}

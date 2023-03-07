@@ -1,0 +1,23 @@
+{
+  "description": "A generator matrix for the Leech lattice, multiplied by sqrt(8), read by rows.",
+  "id": "A353294",
+  "mentions": [
+    "A008408",
+    "A260646",
+    "A351831"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "fini",
+    "formulas",
+    "full",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:27",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

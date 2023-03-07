@@ -1,0 +1,18 @@
+{
+  "description": "Binomial(n,4) mod n.",
+  "id": "A175677",
+  "mentions": [
+    "A000332"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:21:25",
+    "offset": 1,
+    "size": 93,
+    "source": "joeis"
+  }
+}

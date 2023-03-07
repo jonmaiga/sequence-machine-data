@@ -1,0 +1,20 @@
+{
+  "description": "Smallest prime factor of smaller of amicable pair.",
+  "id": "A171092",
+  "mentions": [
+    "A002025",
+    "A002046",
+    "A020639"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:54",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "E.g.f. A(x) satisfies: A(x) = exp( Integral A(x)^3 * Integral 1/A(x)^9 dx dx ).",
+  "id": "A258658",
+  "mentions": [
+    "A159600",
+    "A258657",
+    "A258659"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:16",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

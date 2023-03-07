@@ -1,0 +1,22 @@
+{
+  "description": "Numbers a(n) = 2^(n-1) * f(n), where n >= 1 and f(n) is the smallest prime number larger than 2^n (A014210).",
+  "id": "A246956",
+  "mentions": [
+    "A000203",
+    "A014210",
+    "A237270",
+    "A237271",
+    "A237593",
+    "A246955"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:03",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

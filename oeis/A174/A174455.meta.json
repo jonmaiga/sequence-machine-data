@@ -1,0 +1,22 @@
+{
+  "description": "Number of partitions where the number of 1's and 2's are equal.",
+  "id": "A174455",
+  "mentions": [
+    "A008483",
+    "A027336",
+    "A182713",
+    "A220504",
+    "A240056"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:58",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

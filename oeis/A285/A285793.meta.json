@@ -1,0 +1,28 @@
+{
+  "description": "Sum T(n,k) of the k-th entries in all cycles of all permutations of [n]; triangle T(n,k), n>=1, 1<=k<=n, read by rows.",
+  "id": "A285793",
+  "mentions": [
+    "A000142",
+    "A000217",
+    "A001563",
+    "A038720",
+    "A180119",
+    "A285439",
+    "A285595",
+    "A285795",
+    "A286175",
+    "A286231"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

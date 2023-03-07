@@ -1,0 +1,23 @@
+{
+  "description": "For terms of A354169 that are the sum of two distinct powers of 2, the exponent of the larger power of 2.",
+  "id": "A354774",
+  "mentions": [
+    "A354169",
+    "A354680",
+    "A354767",
+    "A354773",
+    "A354775",
+    "A354798"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:29",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

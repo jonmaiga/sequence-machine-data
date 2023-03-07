@@ -1,0 +1,26 @@
+{
+  "description": "Heinz numbers of integer partitions whose length is itself a part.",
+  "id": "A325761",
+  "mentions": [
+    "A001222",
+    "A002865",
+    "A056239",
+    "A093641",
+    "A109298",
+    "A110295",
+    "A112798",
+    "A118914",
+    "A325762",
+    "A325763"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

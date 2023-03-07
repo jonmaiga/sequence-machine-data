@@ -1,0 +1,21 @@
+{
+  "description": "Heptagonal numbers (A000566) that are the sum of five consecutive heptagonal numbers.",
+  "id": "A257975",
+  "mentions": [
+    "A000566",
+    "A133324",
+    "A257954"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:15",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-bfile"
+  }
+}

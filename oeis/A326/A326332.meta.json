@@ -1,0 +1,28 @@
+{
+  "description": "Number of integer partitions of n with unsortable prime factors.",
+  "id": "A326332",
+  "mentions": [
+    "A000041",
+    "A000108",
+    "A001055",
+    "A056239",
+    "A058681",
+    "A112798",
+    "A326209",
+    "A326211",
+    "A326212",
+    "A326258",
+    "A326333"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

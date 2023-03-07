@@ -1,0 +1,19 @@
+{
+  "description": "Least m > 0 such that for every r and s in the set S = {{h*(1+sqrt(5))/2} : h = 1,..,n} of fractional parts, if r < s, then r < k/m < s for some integer k; m is the least separator of S as defined at A001000.",
+  "id": "A214964",
+  "mentions": [
+    "A001000",
+    "A214961",
+    "A214965"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:32",
+    "offset": 2,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = A118443(n)/(n+1), where A118443 is the row sums of triangle A118441.",
+  "id": "A118444",
+  "mentions": [
+    "A118435",
+    "A118441",
+    "A118443"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:31:08",
+    "offset": 0,
+    "size": 33,
+    "source": "joeis"
+  }
+}

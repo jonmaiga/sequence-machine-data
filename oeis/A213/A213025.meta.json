@@ -1,0 +1,22 @@
+{
+  "description": "Balanced semiprimes (of order one): semiprimes which are the average of the previous semiprime and the following semiprime.",
+  "id": "A213025",
+  "mentions": [
+    "A001358",
+    "A006562",
+    "A065516",
+    "A086005",
+    "A212820"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:31",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

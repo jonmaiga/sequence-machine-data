@@ -1,0 +1,27 @@
+{
+  "description": "Nonnegative values x of solutions (x, y) to the Diophantine equation x^2 + (x+199)^2 = y^2.",
+  "id": "A129993",
+  "mentions": [
+    "A001652",
+    "A066436",
+    "A118673",
+    "A118674",
+    "A129836",
+    "A156035",
+    "A159548",
+    "A159549",
+    "A159550"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:17",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

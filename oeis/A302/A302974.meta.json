@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = numerator of tau(n)^n / n^tau(n).",
+  "id": "A302974",
+  "mentions": [
+    "A000005",
+    "A120737",
+    "A302975",
+    "A302976"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Numerators to Dirichlet inverse of Euler totient based version of series expansion for x/LambertW(x).",
+  "id": "A230283",
+  "mentions": [
+    "A177885",
+    "A191898",
+    "A230284"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:47",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

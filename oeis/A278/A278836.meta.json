@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that 2^n == 1 (mod sigma(n)).",
+  "id": "A278836",
+  "mentions": [
+    "A000203",
+    "A000225",
+    "A028982",
+    "A058891",
+    "A279039"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:45",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

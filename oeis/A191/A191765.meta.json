@@ -1,0 +1,23 @@
+{
+  "description": "Integers that are a sum of two nonzero triangular numbers and also the sum of two nonzero square numbers.",
+  "id": "A191765",
+  "mentions": [
+    "A000217",
+    "A000290",
+    "A000404",
+    "A051533",
+    "A134422",
+    "A191766"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

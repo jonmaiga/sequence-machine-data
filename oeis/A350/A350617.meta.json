@@ -1,0 +1,21 @@
+{
+  "description": "Odd-valued terms in A350877.",
+  "id": "A350617",
+  "mentions": [
+    "A350615",
+    "A350616",
+    "A350618",
+    "A350619",
+    "A350877"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:25",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

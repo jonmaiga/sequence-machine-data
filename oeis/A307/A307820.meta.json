@@ -1,0 +1,25 @@
+{
+  "description": "The number of infinitary abundant numbers below 10^n.",
+  "id": "A307820",
+  "mentions": [
+    "A049417",
+    "A129656",
+    "A302992",
+    "A302993",
+    "A302994",
+    "A307821",
+    "A307823"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

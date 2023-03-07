@@ -1,0 +1,23 @@
+{
+  "description": "Triangle, read by rows, where T(n,k) equals the dot product of the vector of terms in row n that are to the right of T(n,k) with the vector of terms in column k that are above T(n,k) for n>k+1>0, with the odd numbers in the secondary diagonal and all 1's in the main diagonal.",
+  "id": "A128320",
+  "mentions": [
+    "A115080",
+    "A128321",
+    "A128322",
+    "A128323",
+    "A128324"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

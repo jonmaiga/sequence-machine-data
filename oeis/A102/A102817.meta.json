@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of Gamma(delta)^2 where delta is the Feigenbaum bifurcation velocity constant (A006890).",
+  "id": "A102817",
+  "mentions": [
+    "A006890",
+    "A006891"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 3,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

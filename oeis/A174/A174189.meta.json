@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that A000040(k) +/- A163300(k) are both prime.",
+  "id": "A174189",
+  "mentions": [
+    "A000040",
+    "A112529",
+    "A163300"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

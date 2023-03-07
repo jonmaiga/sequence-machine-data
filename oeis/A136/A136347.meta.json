@@ -1,0 +1,18 @@
+{
+  "description": "a(1)=1. Let m be the number of terms in the longest run of consecutive equal terms from among the first n terms of the sequence. a(n+1) = the number of terms, from among the first n terms of the sequence, that are coprime to m.",
+  "id": "A136347",
+  "mentions": [
+    "A136348"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:24",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

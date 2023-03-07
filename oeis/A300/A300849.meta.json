@@ -1,0 +1,20 @@
+{
+  "description": "Number of 6-cycles in the n-Keller graph.",
+  "id": "A300849",
+  "mentions": [
+    "A300818",
+    "A300842",
+    "A300848"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:25",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

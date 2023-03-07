@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows, T(n,k) for 0<=k<=n, generalizes the colored Motzkin paths of A129400.",
+  "id": "A201641",
+  "mentions": [
+    "A129400"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-10-18 14:56:45",
+    "offset": 0,
+    "size": 55,
+    "source": "joeis"
+  }
+}

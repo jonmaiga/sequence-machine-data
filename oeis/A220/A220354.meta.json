@@ -1,0 +1,22 @@
+{
+  "description": "Irregular triangle T(n,k), read by rows; row n gives coefficients in expansion of P_n(x), which is defined by: P_0(x) = 1, P_n(x) = P_(n-1)(x)+x if n odd, P_n(x) = P_(n-1)(x)*x if n even.",
+  "id": "A220354",
+  "mentions": [
+    "A008619",
+    "A019590",
+    "A123208",
+    "A219605"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

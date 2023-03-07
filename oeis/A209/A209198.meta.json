@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = 1 if n not == 2 (mod 4) and relatively prime to 63 otherwise 0.",
+  "id": "A209198",
+  "mentions": [
+    "A119952"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:23",
+    "offset": 1,
+    "size": 86,
+    "source": "joeis"
+  }
+}

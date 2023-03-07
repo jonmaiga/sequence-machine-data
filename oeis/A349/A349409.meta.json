@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of planar tanglegrams of size n with 0 <= k < n leaf-matched pairs. A leaf matched pair is a pair of non-leaf vertices (u,v) in the tanglegram such that the induced subtrees rooted and u and v also form a tanglegram (equivalently, the leaves in these two subtrees are matched by the matching that forms the original tanglegram).",
+  "id": "A349409",
+  "mentions": [
+    "A001190",
+    "A257887",
+    "A349408"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

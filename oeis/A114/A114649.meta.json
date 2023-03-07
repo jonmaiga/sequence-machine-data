@@ -1,0 +1,22 @@
+{
+  "description": "Denominators of BernoulliB ranked by frequency of occurrence.",
+  "id": "A114649",
+  "mentions": [
+    "A002445",
+    "A010704",
+    "A090126",
+    "A090801",
+    "A100194"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

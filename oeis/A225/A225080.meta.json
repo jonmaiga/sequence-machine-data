@@ -1,0 +1,18 @@
+{
+  "description": "Number of ON cells in n-th row of space-time diagram for Thue-Morse sequence.",
+  "id": "A225080",
+  "mentions": [
+    "A010060"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": -2,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

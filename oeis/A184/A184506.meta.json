@@ -1,0 +1,20 @@
+{
+  "description": "G.f.: A(x) = 1 + x*G(x)/F(x) where F(x) = A(x/F(x)) and G(x) = A(x*G(x)).",
+  "id": "A184506",
+  "mentions": [
+    "A184507",
+    "A184508",
+    "A184509"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

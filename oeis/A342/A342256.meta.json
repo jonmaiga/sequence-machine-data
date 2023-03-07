@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that gcd(k, Phi_k(a)) > 1 for some a, where Phi_k is the k-th cyclotomic polynomial.",
+  "id": "A342256",
+  "mentions": [
+    "A253235",
+    "A342255",
+    "A342257"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:15",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

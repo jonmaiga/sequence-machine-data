@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = floor(n/(1-Pi/(sqrt(5)+1))).",
+  "id": "A277113",
+  "mentions": [
+    "A000796",
+    "A001622",
+    "A094881",
+    "A094882",
+    "A277112"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

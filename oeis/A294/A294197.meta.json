@@ -1,0 +1,21 @@
+{
+  "description": "Floor of log base n! of product of all primes between n!+1 and (n+1)!.",
+  "id": "A294197",
+  "mentions": [
+    "A061232",
+    "A294195",
+    "A294196"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 2,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

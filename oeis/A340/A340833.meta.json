@@ -1,0 +1,40 @@
+{
+  "description": "a(n) is the number of vertices in the diagram of the symmetric representation of sigma(n).",
+  "id": "A340833",
+  "mentions": [
+    "A000203",
+    "A071561",
+    "A071562",
+    "A196020",
+    "A235791",
+    "A236104",
+    "A237048",
+    "A237270",
+    "A237271",
+    "A237590",
+    "A237591",
+    "A237593",
+    "A239660",
+    "A239931",
+    "A239934",
+    "A245092",
+    "A262626",
+    "A294723",
+    "A340846",
+    "A340847",
+    "A340848",
+    "A348327"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:13",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

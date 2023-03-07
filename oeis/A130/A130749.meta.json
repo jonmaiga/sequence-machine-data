@@ -1,0 +1,28 @@
+{
+  "description": "Triangle A007318*A090181 (as infinite lower triangular matrices) .",
+  "id": "A130749",
+  "mentions": [
+    "A000012",
+    "A000217",
+    "A000225",
+    "A001263",
+    "A001788",
+    "A003472",
+    "A007317",
+    "A007318",
+    "A014205",
+    "A090181"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

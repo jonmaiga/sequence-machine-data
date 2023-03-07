@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the least k such that k-n and k are adjacent powerful numbers.",
+  "id": "A103955",
+  "mentions": [
+    "A001694",
+    "A023056",
+    "A074954",
+    "A103952",
+    "A103954"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:54",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

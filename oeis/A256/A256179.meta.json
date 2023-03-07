@@ -1,0 +1,22 @@
+{
+  "description": "Sequence of power towers in ascending order, using all possible permutations of 2s and 3s.",
+  "id": "A256179",
+  "mentions": [
+    "A032810",
+    "A075877",
+    "A185969",
+    "A248907",
+    "A256229"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

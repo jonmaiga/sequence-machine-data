@@ -1,0 +1,20 @@
+{
+  "description": "Indices of terms of A288349 that are powers of 2.",
+  "id": "A288492",
+  "mentions": [
+    "A059268",
+    "A288349"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:01",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

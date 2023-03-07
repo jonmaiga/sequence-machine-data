@@ -1,0 +1,20 @@
+{
+  "description": "Coefficients of q-expansion of Eisenstein series G_{5/2}(tau) multiplied by 120.",
+  "id": "A306934",
+  "mentions": [
+    "A259825",
+    "A306935",
+    "A306937"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

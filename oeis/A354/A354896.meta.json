@@ -1,0 +1,21 @@
+{
+  "description": "A fixed point of the two-block substitution 00->001, 01->010, 10->101, 11->110",
+  "id": "A354896",
+  "mentions": [
+    "A000002",
+    "A289001",
+    "A357448"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "changed",
+    "nonn",
+    "unsolved"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:29",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

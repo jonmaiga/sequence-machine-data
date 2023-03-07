@@ -1,0 +1,18 @@
+{
+  "description": "Least value of x arising in A154777(n).",
+  "id": "A201592",
+  "mentions": [
+    "A154777",
+    "A201593"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-entry"
+  }
+}

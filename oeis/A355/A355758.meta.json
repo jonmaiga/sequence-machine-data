@@ -1,0 +1,24 @@
+{
+  "description": "Irregular triangle read by rows in which row n lists the divisors of n that are Fibonacci numbers.",
+  "id": "A355758",
+  "mentions": [
+    "A000012",
+    "A000045",
+    "A005086",
+    "A005092",
+    "A010056",
+    "A027750",
+    "A054494"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

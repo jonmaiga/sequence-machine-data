@@ -1,0 +1,19 @@
+{
+  "description": "G.f.: exp( Sum_{n>=1} (2^n + (-1)^n)^n * x^n/n ).",
+  "id": "A211897",
+  "mentions": [
+    "A155200",
+    "A211898"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

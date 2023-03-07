@@ -1,0 +1,17 @@
+{
+  "description": "Consider A098550(x_n)=2*prime(n). Let a(n) be number of even numbers<=2*prime(n) in A098550 in positions <=x_n.",
+  "id": "A254669",
+  "mentions": [
+    "A098550"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:12",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

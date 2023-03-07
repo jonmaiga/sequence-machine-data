@@ -1,0 +1,22 @@
+{
+  "description": "a(n)*(a(n)+1) + A002973(n)^2 = A005098(n), n>=1.",
+  "id": "A208295",
+  "mentions": [
+    "A002144",
+    "A002378",
+    "A002972",
+    "A002973",
+    "A005098"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

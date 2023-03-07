@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the smallest number that has not appeared yet in the sequence and has only one digit in common with a(n-1).",
+  "id": "A350444",
+  "mentions": [
+    "A115853",
+    "A350445"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-entry"
+  }
+}

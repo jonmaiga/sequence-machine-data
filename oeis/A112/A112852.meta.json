@@ -1,0 +1,24 @@
+{
+  "description": "Table with row lengths 1 1 2 3 5 9 17 33 65 ... which counts the objects described in A047970 and A112508.",
+  "id": "A112852",
+  "mentions": [
+    "A000124",
+    "A002415",
+    "A047970",
+    "A051836",
+    "A051947",
+    "A112508",
+    "A112851"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Square array T(n,m) read by antidiagonals, T(n,m) is the number of (m,n)-parking functions.",
+  "id": "A260419",
+  "mentions": [
+    "A027306",
+    "A071201"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:19",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

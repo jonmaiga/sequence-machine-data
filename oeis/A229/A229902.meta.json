@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the smallest m such that 19*m^k+1 is prime for k=1, 2,...,n.",
+  "id": "A229902",
+  "mentions": [
+    "A106759",
+    "A166459",
+    "A229626",
+    "A229906"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

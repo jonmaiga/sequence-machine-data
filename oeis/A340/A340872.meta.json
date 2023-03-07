@@ -1,0 +1,18 @@
+{
+  "description": "Primes p such that p, p - 1, p - 2 and p - 3 have 2, 4, 6 and 8 divisors respectively.",
+  "id": "A340872",
+  "mentions": [
+    "A000005",
+    "A340871"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

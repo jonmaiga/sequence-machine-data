@@ -1,0 +1,17 @@
+{
+  "description": "Smallest integer m such that f(m) = 2^m + 3^m + 5^m + 7^m is divisible by 13^n.",
+  "id": "A241860",
+  "mentions": [
+    "A241541"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Smallest natural n = n(k) that concatenation (n-k)//n (k = 0, 1, 2, ...) is a prime number.",
+  "id": "A174583",
+  "mentions": [
+    "A089712",
+    "A171154",
+    "A173976",
+    "A174031",
+    "A174414"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

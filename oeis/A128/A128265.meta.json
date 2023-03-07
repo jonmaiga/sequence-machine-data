@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{m=1..n} lcm(s(n,m),S(n,m)), where s(n,m) is an unsigned Stirling number of the first kind and S(n,m) is a Stirling number of the second kind. (a(n) = sum of terms in n-th row of triangle A128264.)",
+  "id": "A128265",
+  "mentions": [
+    "A008275",
+    "A008277",
+    "A128264"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

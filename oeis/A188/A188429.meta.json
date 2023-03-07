@@ -1,0 +1,24 @@
+{
+  "description": "L(n) is the minimum of the largest elements of all n-full sets, or 0 if no such set exists.",
+  "id": "A188429",
+  "mentions": [
+    "A002262",
+    "A010054",
+    "A012345",
+    "A127648",
+    "A188430",
+    "A188431"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:12",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Counts 3-wild partitions. In general p-wild partitions of n are defined so that they are in bijection with geometric equivalence classes of degree n algebra extensions of the p-adic field Q_p. Here two algebra extensions are equivalent if they become isomorphic after tensoring with the maximal unramified extension of Q_p.",
+  "id": "A131140",
+  "mentions": [
+    "A000041",
+    "A033687",
+    "A131139"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

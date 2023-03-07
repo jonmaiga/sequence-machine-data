@@ -1,0 +1,22 @@
+{
+  "description": "a(1)=1 followed by 2^k appearing 2^(2*k-1) times for k>0.",
+  "id": "A164632",
+  "mentions": [
+    "A000079",
+    "A004171",
+    "A053644",
+    "A056753",
+    "A081294"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:47",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

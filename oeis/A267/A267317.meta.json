@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = final digit of 2^n-1.",
+  "id": "A267317",
+  "mentions": [
+    "A000225",
+    "A000689",
+    "A010688",
+    "A010703",
+    "A010879",
+    "A080172"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:22:29",
+    "offset": 0,
+    "size": 93,
+    "source": "joeis"
+  }
+}

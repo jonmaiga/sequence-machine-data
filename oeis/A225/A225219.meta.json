@@ -1,0 +1,20 @@
+{
+  "description": "Indices n of Fibonacci numbers Fib(n) (A000045) that are divisible by n-1 and n+1.",
+  "id": "A225219",
+  "mentions": [
+    "A000045",
+    "A100992",
+    "A100993"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

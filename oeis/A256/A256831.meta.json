@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of Pell factorial constant.",
+  "id": "A256831",
+  "mentions": [
+    "A000129",
+    "A062073",
+    "A099929",
+    "A218490",
+    "A253924",
+    "A256832"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

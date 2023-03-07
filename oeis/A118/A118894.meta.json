@@ -1,0 +1,25 @@
+{
+  "description": "Numbers m such that the Pell equation x^2-m*y^2=1 has fundamental solution with x even.",
+  "id": "A118894",
+  "mentions": [
+    "A001075",
+    "A001081",
+    "A001085",
+    "A001091",
+    "A002350",
+    "A023038",
+    "A076445",
+    "A077424",
+    "A097310"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

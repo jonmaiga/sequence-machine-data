@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of the probability of a normal-error variable exceeding the mean by more than six standard deviations.",
+  "id": "A239387",
+  "mentions": [
+    "A239382",
+    "A239383",
+    "A239384",
+    "A239385",
+    "A239386"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:30:29",
+    "offset": -9,
+    "size": 67,
+    "source": "joeis"
+  }
+}

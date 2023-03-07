@@ -1,0 +1,23 @@
+{
+  "description": "Triangle T(n, k, q) = q-binomial(n, k, q^2), for q = 5, read by rows.",
+  "id": "A173583",
+  "mentions": [
+    "A000012",
+    "A007318",
+    "A022168",
+    "A022173",
+    "A022180"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:57",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

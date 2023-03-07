@@ -1,0 +1,18 @@
+{
+  "description": "Number of even permutations on n letters that have a root.",
+  "id": "A338575",
+  "mentions": [
+    "A003483"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 2,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Number of ways to write n as n = x*y*z with 1",
+  "id": "A122179",
+  "mentions": [
+    "A033942",
+    "A034836",
+    "A037143",
+    "A088432",
+    "A088433",
+    "A088434",
+    "A122180"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:10",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

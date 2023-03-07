@@ -1,0 +1,19 @@
+{
+  "description": "Number of tilings of a 5 X n rectangle using integer-sided square tiles of area > 1.",
+  "id": "A226369",
+  "mentions": [
+    "A226206"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 16:35:35",
+    "offset": 0,
+    "size": 60,
+    "source": "joeis"
+  }
+}

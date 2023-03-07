@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of Motzkin paths of length n and having k weak ascents (1 <= k <= ceiling(n/2)).",
+  "id": "A114690",
+  "mentions": [
+    "A000045",
+    "A001006",
+    "A005773",
+    "A114655"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:05",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

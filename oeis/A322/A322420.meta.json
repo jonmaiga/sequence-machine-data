@@ -1,0 +1,25 @@
+{
+  "description": "Sum of the first n*(n+1) primes.",
+  "id": "A322420",
+  "mentions": [
+    "A002378",
+    "A007504",
+    "A109722",
+    "A109726",
+    "A122207",
+    "A122208",
+    "A322421",
+    "A322422"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:45",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 3*(Sum_{k=1..n} phi(k)) - 1, where phi = A000010.",
+  "id": "A278049",
+  "mentions": [
+    "A000010",
+    "A002088",
+    "A015614",
+    "A018805"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:44",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

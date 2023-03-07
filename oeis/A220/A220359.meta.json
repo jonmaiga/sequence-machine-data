@@ -1,0 +1,27 @@
+{
+  "description": "Decimal expansion of the root of the equation (1-r)^(2*r-1) = r^(2*r).",
+  "id": "A220359",
+  "mentions": [
+    "A167008",
+    "A184731",
+    "A206154",
+    "A206156",
+    "A206158",
+    "A219206",
+    "A219207",
+    "A228808",
+    "A237421",
+    "A295611"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:48:02",
+    "offset": 0,
+    "size": 107,
+    "source": "joeis"
+  }
+}

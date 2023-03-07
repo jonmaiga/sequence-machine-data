@@ -1,0 +1,28 @@
+{
+  "description": "a(n) is the number of m's, 1 <= m <= n, where gcd(m,n) is prime.",
+  "id": "A117494",
+  "mentions": [
+    "A000010",
+    "A005117",
+    "A008683",
+    "A010051",
+    "A069359",
+    "A085548",
+    "A122410",
+    "A122411",
+    "A175787",
+    "A300251",
+    "A349338"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:07",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

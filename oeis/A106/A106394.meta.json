@@ -1,0 +1,23 @@
+{
+  "description": "Table read by rows, where n-th row is denominators of Egyptian fraction, derived using the greedy algorithm, of the n-th harmonic number (Sum_{k=1..n} 1/k).",
+  "id": "A106394",
+  "mentions": [
+    "A001008",
+    "A002805",
+    "A105401",
+    "A106395",
+    "A112330"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:57",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

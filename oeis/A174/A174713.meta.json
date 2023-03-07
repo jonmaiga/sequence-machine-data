@@ -1,0 +1,27 @@
+{
+  "description": "Triangle read by rows, A173305 (A000009 shifted down twice) * A174712 (diagonalized variant of A000041.",
+  "id": "A174713",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A000716",
+    "A000726",
+    "A001935",
+    "A173305",
+    "A174712",
+    "A174714",
+    "A174715"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

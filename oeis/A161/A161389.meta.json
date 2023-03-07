@@ -1,0 +1,19 @@
+{
+  "description": "Spelling n in Spanish requires a new letter of the alphabet.",
+  "id": "A161389",
+  "mentions": [
+    "A050933"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "fini",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

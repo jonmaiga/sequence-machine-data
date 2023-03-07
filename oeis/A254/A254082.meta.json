@@ -1,0 +1,17 @@
+{
+  "description": "Number of primitive (=aperiodic) n-bead necklaces with colored beads of exactly 10 different colors.",
+  "id": "A254082",
+  "mentions": [
+    "A254040"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:12",
+    "offset": 10,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

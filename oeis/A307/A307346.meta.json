@@ -1,0 +1,18 @@
+{
+  "description": "Number of uniquely sorted permutations of [2n+1] that avoid the patterns 231 and 4123.",
+  "id": "A307346",
+  "mentions": [
+    "A180874"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

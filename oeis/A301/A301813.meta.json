@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of Integral_{-infinity..infinity} -log((z^2+1/4)^(1/4))* sech(Pi*z)^2 dz.",
+  "id": "A301813",
+  "mentions": [
+    "A000796",
+    "A001620",
+    "A301816"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:26",
+    "offset": 0,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

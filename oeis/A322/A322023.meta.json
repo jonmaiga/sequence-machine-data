@@ -1,0 +1,23 @@
+{
+  "description": "Lexicographically earliest such sequence a that a(i) = a(j) => A081373(i) = A081373(j) and A303756(i) = A303756(j), for all i, j. Here A081373 and A303756 are the ordinal transforms of Euler phi and Carmichael lambda.",
+  "id": "A322023",
+  "mentions": [
+    "A000010",
+    "A002322",
+    "A081373",
+    "A303756",
+    "A319339",
+    "A322024",
+    "A322025"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:44",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

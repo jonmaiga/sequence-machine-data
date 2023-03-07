@@ -1,0 +1,18 @@
+{
+  "description": "G.f. (x^10 +x^9 +x^8 +.... +x+1) / (x^10 +x^9 -x^7 -x^6 -x^5 -x^4 -x^3 +x +1).",
+  "id": "A173244",
+  "mentions": [
+    "A029826"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 04:08:08",
+    "offset": 0,
+    "size": 59,
+    "source": "joeis"
+  }
+}

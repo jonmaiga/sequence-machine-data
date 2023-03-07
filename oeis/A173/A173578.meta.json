@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = a(n-1) + A073053(a(n-1)).",
+  "id": "A173578",
+  "mentions": [
+    "A073053"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:57",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

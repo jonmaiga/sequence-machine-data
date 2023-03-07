@@ -1,0 +1,23 @@
+{
+  "description": "The number of solutions to phi(x) = rad(x)^n, where phi is the Euler totient function (A000010) and rad is the squarefree kernel function (A007947).",
+  "id": "A328276",
+  "mentions": [
+    "A000010",
+    "A007947",
+    "A105261",
+    "A211413",
+    "A328274",
+    "A328275"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the smallest k > 0 such that sigma(n+k) = sigma(n); if such k > 0 does not exist, then a(n) = 0.",
+  "id": "A333947",
+  "mentions": [
+    "A000203",
+    "A002961",
+    "A007365",
+    "A054973",
+    "A211658"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:05",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

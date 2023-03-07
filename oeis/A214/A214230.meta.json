@@ -1,0 +1,28 @@
+{
+  "description": "Sum of the eight nearest neighbors of n in a right triangular type-1 spiral with positive integers.",
+  "id": "A214230",
+  "mentions": [
+    "A006137",
+    "A038764",
+    "A064225",
+    "A081267",
+    "A081589",
+    "A117625",
+    "A140064",
+    "A214226",
+    "A214231",
+    "A214251",
+    "A214252"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

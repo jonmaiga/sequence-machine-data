@@ -1,0 +1,19 @@
+{
+  "description": "E.g.f.: exp( Sum_{n>=1} x^(n^2) / n^n ).",
+  "id": "A226838",
+  "mentions": [
+    "A226839",
+    "A226890"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

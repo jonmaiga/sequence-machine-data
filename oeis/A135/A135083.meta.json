@@ -1,0 +1,20 @@
+{
+  "description": "Column 2 of triangle A135080.",
+  "id": "A135083",
+  "mentions": [
+    "A122888",
+    "A135080",
+    "A135081",
+    "A135082"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

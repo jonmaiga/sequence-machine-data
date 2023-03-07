@@ -1,0 +1,23 @@
+{
+  "description": "Even numbers that are not semiprimes, or, twice the nonprimes.",
+  "id": "A176100",
+  "mentions": [
+    "A001358",
+    "A005843",
+    "A100484",
+    "A139270",
+    "A141468"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:33:23",
+    "offset": 1,
+    "size": 61,
+    "source": "joeis"
+  }
+}

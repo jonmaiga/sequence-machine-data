@@ -1,0 +1,26 @@
+{
+  "description": "Square array read by antidiagonals containing in row n the multiples of prime(n) in A098550 in order of appearance.",
+  "id": "A251637",
+  "mentions": [
+    "A000040",
+    "A001221",
+    "A098550",
+    "A098551",
+    "A251541",
+    "A251544",
+    "A251618",
+    "A251715",
+    "A251716"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:09",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

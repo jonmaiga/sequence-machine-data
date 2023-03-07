@@ -1,0 +1,29 @@
+{
+  "description": "Numbers that are powers of a prime number whose prime index is either 1 or also a prime number.",
+  "id": "A302602",
+  "mentions": [
+    "A000961",
+    "A001222",
+    "A003963",
+    "A005117",
+    "A007425",
+    "A007716",
+    "A056239",
+    "A275024",
+    "A281113",
+    "A295931",
+    "A301764",
+    "A302242",
+    "A302243"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

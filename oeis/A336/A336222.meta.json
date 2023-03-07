@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that the square root of the largest square dividing k has an even number of prime divisors (counted with multiplicity).",
+  "id": "A336222",
+  "mentions": [
+    "A000188",
+    "A001222",
+    "A005117",
+    "A028260",
+    "A030231",
+    "A057521",
+    "A333634"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:07",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

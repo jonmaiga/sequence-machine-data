@@ -1,0 +1,19 @@
+{
+  "description": "Position of n-th taxi-cab number A001235(n) in the sequence A003325 of sums of two positive cubes.",
+  "id": "A197719",
+  "mentions": [
+    "A001235",
+    "A003325"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:19",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

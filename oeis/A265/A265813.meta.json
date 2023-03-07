@@ -1,0 +1,27 @@
+{
+  "description": "Denominators of primes-only best approximates (POBAs) to Pi; see Comments.",
+  "id": "A265813",
+  "mentions": [
+    "A000040",
+    "A265759",
+    "A265801",
+    "A265806",
+    "A265808",
+    "A265809",
+    "A265810",
+    "A265811",
+    "A265812"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "frac",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

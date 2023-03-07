@@ -1,0 +1,18 @@
+{
+  "description": "Least Fibonacci number Fibonacci(j) greater than the previous term a(n-1) such that Fibonacci(j) - a(n-1) == 0 (mod n-1) with a(1)=1.",
+  "id": "A131349",
+  "mentions": [
+    "A000045",
+    "A129896"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

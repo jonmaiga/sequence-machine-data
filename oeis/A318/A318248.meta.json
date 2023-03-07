@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of Product_{k>=1} (1 + Fibonacci(k)*x^k).",
+  "id": "A318248",
+  "mentions": [
+    "A000045",
+    "A001622",
+    "A022629",
+    "A300520",
+    "A318263",
+    "A318264"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:38",
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

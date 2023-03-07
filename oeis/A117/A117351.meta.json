@@ -1,0 +1,18 @@
+{
+  "description": "Where n appears in A082224, provided A082224 is read as a sequence rather than as an array.",
+  "id": "A117351",
+  "mentions": [
+    "A082224",
+    "A082228"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

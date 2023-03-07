@@ -1,0 +1,20 @@
+{
+  "description": "Natural fractal sequence of A194106.",
+  "id": "A194107",
+  "mentions": [
+    "A194029",
+    "A194106",
+    "A194108",
+    "A194109"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 89,
+    "source": "oeis-entry"
+  }
+}

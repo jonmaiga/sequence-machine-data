@@ -1,0 +1,22 @@
+{
+  "description": "Number of nondecreasing sequences of n positive integers with reciprocals adding up to an integer.",
+  "id": "A156871",
+  "mentions": [
+    "A002966",
+    "A156869",
+    "A280517",
+    "A280518"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

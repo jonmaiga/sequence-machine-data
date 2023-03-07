@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that usigma(k) >= 3*k, where usigma(k) = sum of unitary divisors of k (A034448).",
+  "id": "A285615",
+  "mentions": [
+    "A023197",
+    "A034448",
+    "A034683",
+    "A070826"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:57",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

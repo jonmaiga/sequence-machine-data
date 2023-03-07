@@ -1,0 +1,18 @@
+{
+  "description": "Let A001358(n) = prime(m)*prime(k). Then a(n) = abs(prime(m)*k - prime(k)*m).",
+  "id": "A176887",
+  "mentions": [
+    "A001358"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-entry"
+  }
+}

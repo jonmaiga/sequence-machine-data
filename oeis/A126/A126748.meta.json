@@ -1,0 +1,19 @@
+{
+  "description": "Number of connected graphs on n nodes with clique number 6.",
+  "id": "A126748",
+  "mentions": [
+    "A126744"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Volume of torus (rounded down) with major radius = n and minor radius = n/3.",
+  "id": "A228641",
+  "mentions": [
+    "A228272"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:45",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

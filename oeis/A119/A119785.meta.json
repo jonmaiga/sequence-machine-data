@@ -1,0 +1,21 @@
+{
+  "description": "Numerator of the product of the n-th square pyramidal number and the n-th generalized harmonic number in power 2.",
+  "id": "A119785",
+  "mentions": [
+    "A000330",
+    "A007406",
+    "A007407"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

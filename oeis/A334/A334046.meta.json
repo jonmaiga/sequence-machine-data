@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the number of points of the set { (k, prime(k)), k = 1..n-1 } that are not visible from the point (n, prime(n)) (where prime(n) denotes the n-th prime number).",
+  "id": "A334046",
+  "mentions": [
+    "A000040",
+    "A334043"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:05",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

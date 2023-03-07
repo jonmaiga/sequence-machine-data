@@ -1,0 +1,19 @@
+{
+  "description": "The length of the longest sequence of consecutive integers, each equal 1 or -1 modulo at least one of the first n primes.",
+  "id": "A144311",
+  "mentions": [
+    "A058989"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

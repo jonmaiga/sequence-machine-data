@@ -1,0 +1,22 @@
+{
+  "description": "Sturmian word: equals the limit word S(infinity) where S(0) = 0, S(1) = 1 and for n >= 1, S(n+1) = S(n)S(n)S(n)S(n-1).",
+  "id": "A230901",
+  "mentions": [
+    "A003688",
+    "A006190",
+    "A080764",
+    "A180148"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:48",
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

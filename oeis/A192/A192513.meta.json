@@ -1,0 +1,21 @@
+{
+  "description": "Number of Hamiltonian cycles in the 3-ary de Bruijn graph.",
+  "id": "A192513",
+  "mentions": [
+    "A003473",
+    "A003474",
+    "A027362",
+    "A094678"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

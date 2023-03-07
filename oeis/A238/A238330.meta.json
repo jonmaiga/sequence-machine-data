@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that rad(sigma(n)) = 2*rad(n), where the \"radical\" of n, rad(n), is A007947 and sigma(n) is the sum of the divisors of n.",
+  "id": "A238330",
+  "mentions": [
+    "A000203",
+    "A007947"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

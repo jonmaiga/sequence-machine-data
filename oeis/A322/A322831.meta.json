@@ -1,0 +1,39 @@
+{
+  "description": "Average path length to self-trapping, rounded to nearest integer, of self-avoiding two-dimensional random walks using unit steps and direction changes from the set Pi*(2*k/n - 1), k = 1..n-1.",
+  "id": "A322831",
+  "mentions": [
+    "A001334",
+    "A001411",
+    "A001668",
+    "A077482",
+    "A122223",
+    "A122224",
+    "A122226",
+    "A127399",
+    "A127400",
+    "A127401",
+    "A300665",
+    "A306175",
+    "A306177",
+    "A306178",
+    "A306179",
+    "A306180",
+    "A306181",
+    "A306182",
+    "A323141",
+    "A323560",
+    "A323562",
+    "A323699"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 3,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

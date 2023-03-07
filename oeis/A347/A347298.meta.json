@@ -1,0 +1,18 @@
+{
+  "description": "Numbers that contain an even digit d immediately followed by a digit <= d.",
+  "id": "A347298",
+  "mentions": [
+    "A342042"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

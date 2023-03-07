@@ -1,0 +1,21 @@
+{
+  "description": "Semiprimes in Gica-Panaitopol recursion A193298.",
+  "id": "A193801",
+  "mentions": [
+    "A001358",
+    "A193298",
+    "A193299"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

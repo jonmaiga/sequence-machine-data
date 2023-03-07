@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that the decimal expansion of 2^n+5^n contains no 2's and no 5's (probably 11 is the last term).",
+  "id": "A152520",
+  "mentions": [
+    "A007496",
+    "A074600",
+    "A152493"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

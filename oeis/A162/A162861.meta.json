@@ -1,0 +1,18 @@
+{
+  "description": "Primes of the form n^10 + n^9 + n^8 + n^7 + n^6 + n^5 + n^4 + n^3 + n^2 + n + 1.",
+  "id": "A162861",
+  "mentions": [
+    "A060885",
+    "A162862"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-07 17:54:04",
+    "offset": 1,
+    "size": 11,
+    "source": "joeis"
+  }
+}

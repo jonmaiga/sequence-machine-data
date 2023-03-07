@@ -1,0 +1,36 @@
+{
+  "description": "Smallest positive integer that cannot be computed using exactly n n's, the four basic arithmetic operations (+, -, *, /), and the parentheses.",
+  "id": "A182002",
+  "mentions": [
+    "A003037",
+    "A003313",
+    "A005245",
+    "A005421",
+    "A005520",
+    "A025280",
+    "A061373",
+    "A064097",
+    "A076091",
+    "A076142",
+    "A117618",
+    "A171826",
+    "A171827",
+    "A171828",
+    "A171829",
+    "A258068",
+    "A258069",
+    "A258070",
+    "A258071"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

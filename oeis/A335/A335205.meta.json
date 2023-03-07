@@ -1,0 +1,21 @@
+{
+  "description": "Numbers of m digits which are equal to the absolute value of the sum of the m-th powers of their digits, with alternating signs.",
+  "id": "A335205",
+  "mentions": [
+    "A005188",
+    "A335151"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "fini",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

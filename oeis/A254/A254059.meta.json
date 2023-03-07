@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the numerator of the generalized continued fraction with terms sigma(m)/m for m=1 to n.",
+  "id": "A254059",
+  "mentions": [
+    "A017665",
+    "A017666",
+    "A254060",
+    "A254061"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

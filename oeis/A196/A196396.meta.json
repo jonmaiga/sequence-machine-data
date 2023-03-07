@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of the positive number x satisfying e^x=2*cos(x).",
+  "id": "A196396",
+  "mentions": [
+    "A196397",
+    "A196398",
+    "A196399",
+    "A196400",
+    "A196401",
+    "A196407"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:55",
+    "offset": 0,
+    "size": 101,
+    "source": "joeis"
+  }
+}

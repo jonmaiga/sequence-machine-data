@@ -1,0 +1,22 @@
+{
+  "description": "Number of polygons formed when every pair of vertices of a row of n adjacent congruent rectangles are joined by an infinite line.",
+  "id": "A344993",
+  "mentions": [
+    "A255843",
+    "A306302",
+    "A332612",
+    "A347750",
+    "A347751"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:18",
+    "offset": 0,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

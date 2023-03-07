@@ -1,0 +1,27 @@
+{
+  "description": "Least number with complexity height of n, under integer complexity A005245.",
+  "id": "A117618",
+  "mentions": [
+    "A003037",
+    "A003313",
+    "A005245",
+    "A005421",
+    "A005520",
+    "A025280",
+    "A061373",
+    "A064097",
+    "A076091",
+    "A076142"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

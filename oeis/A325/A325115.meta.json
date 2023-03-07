@@ -1,0 +1,19 @@
+{
+  "description": "Number of simple graphs on n unlabeled nodes with exactly 1 endpoint (node of degree 1).",
+  "id": "A325115",
+  "mentions": [
+    "A277072",
+    "A325125",
+    "A327371"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:51",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

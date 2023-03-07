@@ -1,0 +1,21 @@
+{
+  "description": "a(1) = floor(Pi) = 3; a(n+1) = floor(a(n)*Pi).",
+  "id": "A115239",
+  "mentions": [
+    "A022844",
+    "A038130",
+    "A054386",
+    "A085839",
+    "A108591"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:05",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the maximum height achieved in the Collatz ('3x+1') problem when starting from numbers in the range [2^n, 2^(n+1)).",
+  "id": "A335569",
+  "mentions": [
+    "A006577",
+    "A280341",
+    "A339769"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

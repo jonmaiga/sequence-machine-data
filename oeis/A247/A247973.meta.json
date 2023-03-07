@@ -1,0 +1,20 @@
+{
+  "description": "Least k such that Pi - (4*k+2)/v(2*k+2)^2 < 1/n, where the sequence v is defined in Comments.",
+  "id": "A247973",
+  "mentions": [
+    "A247971",
+    "A247972",
+    "A247974"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

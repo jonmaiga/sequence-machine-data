@@ -1,0 +1,31 @@
+{
+  "description": "Heinz numbers of integer partitions whose augmented differences are weakly decreasing.",
+  "id": "A325389",
+  "mentions": [
+    "A056239",
+    "A093641",
+    "A112798",
+    "A320466",
+    "A320509",
+    "A325325",
+    "A325350",
+    "A325351",
+    "A325361",
+    "A325364",
+    "A325366",
+    "A325394",
+    "A325395",
+    "A325396",
+    "A325397"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

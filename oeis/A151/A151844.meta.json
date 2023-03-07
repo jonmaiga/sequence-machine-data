@@ -1,0 +1,19 @@
+{
+  "description": "If A151843 is regarded as a triangle then the rows converge to this sequence.",
+  "id": "A151844",
+  "mentions": [
+    "A151843",
+    "A151874"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:11",
+    "offset": 0,
+    "size": 100,
+    "source": "joeis"
+  }
+}

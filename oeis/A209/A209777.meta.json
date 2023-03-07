@@ -1,0 +1,18 @@
+{
+  "description": "Number of q in the range 0<=q<=n for which k(n)+k(q) is prime, with k(n) := n*(n+1)^2/2.",
+  "id": "A209777",
+  "mentions": [
+    "A006002",
+    "A130504"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

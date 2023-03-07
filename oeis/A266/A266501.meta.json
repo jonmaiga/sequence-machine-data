@@ -1,0 +1,20 @@
+{
+  "description": "Number of n X n (0,1)-matrices such that there is a row and a column with equal sums.",
+  "id": "A266501",
+  "mentions": [
+    "A266500"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

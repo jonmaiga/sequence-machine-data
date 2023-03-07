@@ -1,0 +1,20 @@
+{
+  "description": "Number of inequivalent binary linear codes of length n minus 2^n.",
+  "id": "A250003",
+  "mentions": [
+    "A000079",
+    "A076766",
+    "A250002"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

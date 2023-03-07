@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the least number k such that 2*k+1 has exactly n expressions as p+2*q where p and q are primes, or 0 if there is no such k.",
+  "id": "A339652",
+  "mentions": [
+    "A046927",
+    "A339709"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:12",
+    "offset": 0,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

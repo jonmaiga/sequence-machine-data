@@ -1,0 +1,18 @@
+{
+  "description": "Number of standard Young tableaux of shape [7n,7].",
+  "id": "A215547",
+  "mentions": [
+    "A214776"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:45:37",
+    "offset": 0,
+    "size": 23,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "A close cousin of A222313 (see Cobeli et al. 2015 for precise definition).",
+  "id": "A275913",
+  "mentions": [
+    "A222313"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

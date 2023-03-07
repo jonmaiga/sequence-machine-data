@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of minimal balanced collections on a ground set of n labeled elements.",
+  "id": "A355042",
+  "mentions": [
+    "A000110"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "changed",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

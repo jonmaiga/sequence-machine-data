@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = numerator of Product_{k=1..n} (1 + {n/k}), where {x} is the fractional part of x, {x} = x - floor(x).",
+  "id": "A128778",
+  "mentions": [
+    "A128779"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Consider all consecutive integer Pythagorean quintuples (X, X+1, X+2, Z-1, Z) ordered by increasing Z; sequence gives X values.",
+  "id": "A157084",
+  "mentions": [
+    "A001652",
+    "A054320",
+    "A087125",
+    "A157085",
+    "A157088",
+    "A157092",
+    "A157096"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:39",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

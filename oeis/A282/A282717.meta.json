@@ -1,0 +1,19 @@
+{
+  "description": "Number of nonzero entries in row n of A282716.",
+  "id": "A282717",
+  "mentions": [
+    "A282716",
+    "A282731"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:52",
+    "offset": 0,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

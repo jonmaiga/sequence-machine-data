@@ -1,0 +1,17 @@
+{
+  "description": "A number m is included if k + m/k divides m for at least one divisor k of m.",
+  "id": "A139719",
+  "mentions": [
+    "A139718"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:27",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

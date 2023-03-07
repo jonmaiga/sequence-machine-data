@@ -1,0 +1,23 @@
+{
+  "description": "Union of positive squares (A000290 \\ {0}) and squarefree numbers (A005117).",
+  "id": "A210490",
+  "mentions": [
+    "A000290",
+    "A005117",
+    "A008966",
+    "A010052",
+    "A051144",
+    "A124010"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:29",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

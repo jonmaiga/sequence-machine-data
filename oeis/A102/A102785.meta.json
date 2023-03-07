@@ -1,0 +1,20 @@
+{
+  "description": "G.f.: (x-1)/(-2*x^2 + 3*x^3 + 2*x - 1).",
+  "id": "A102785",
+  "mentions": [
+    "A052102",
+    "A077952",
+    "A078017"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 16:52:19",
+    "offset": 0,
+    "size": 33,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "First differences of A160720.",
+  "id": "A160721",
+  "mentions": [
+    "A000120",
+    "A000695",
+    "A001316",
+    "A011782",
+    "A038573",
+    "A139250",
+    "A139251",
+    "A160720",
+    "A160722",
+    "A160723",
+    "A173033"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

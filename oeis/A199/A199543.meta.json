@@ -1,0 +1,18 @@
+{
+  "description": "G.f.: A(x) = Sum_{n>=0} x^n * A(x)^(n*(n+1)/2) * (1 - A(x)^(n+1))/(1 - A(x)).",
+  "id": "A199543",
+  "mentions": [
+    "A199410",
+    "A199544"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

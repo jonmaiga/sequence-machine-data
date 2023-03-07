@@ -1,0 +1,25 @@
+{
+  "description": "a(1) = 0, a(2n) = 0, and for odd numbers n > 1, a(n) = a(A064989(n)) + [n == 3 (mod 4)].",
+  "id": "A292376",
+  "mentions": [
+    "A004767",
+    "A038802",
+    "A055396",
+    "A064989",
+    "A246271",
+    "A246278",
+    "A292374",
+    "A292377"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:07",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

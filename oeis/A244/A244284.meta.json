@@ -1,0 +1,27 @@
+{
+  "description": "Number of ways to place n nonattacking zebras on an n X n chessboard.",
+  "id": "A244284",
+  "mentions": [
+    "A172137",
+    "A172138",
+    "A172139",
+    "A172140",
+    "A201511",
+    "A201513",
+    "A201540",
+    "A201861"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

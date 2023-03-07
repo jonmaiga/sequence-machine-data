@@ -1,0 +1,23 @@
+{
+  "description": "Triangular array read by rows: row n shows the coefficients of the polynomial p(x,n) constructed as in Comments; these polynomials form a strong divisibility sequence.",
+  "id": "A327323",
+  "mentions": [
+    "A327320",
+    "A327321",
+    "A327322",
+    "A329014",
+    "A329015",
+    "A329016"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

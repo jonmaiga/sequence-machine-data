@@ -1,0 +1,29 @@
+{
+  "description": "Number of ways to choose a stable partition of a connected antichain of sets spanning n vertices.",
+  "id": "A322065",
+  "mentions": [
+    "A000110",
+    "A001187",
+    "A006125",
+    "A048143",
+    "A229048",
+    "A240936",
+    "A245883",
+    "A277203",
+    "A321911",
+    "A321979",
+    "A322063",
+    "A322064"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

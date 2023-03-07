@@ -1,0 +1,17 @@
+{
+  "description": "Odd numbers not in the trajectory of a smaller number under the Collatz (3x+1) iteration.",
+  "id": "A187108",
+  "mentions": [
+    "A061641"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

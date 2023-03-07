@@ -1,0 +1,24 @@
+{
+  "description": "Expansion of q*(psi(-q)psi(-q^3))^2 in powers of q where psi() is a Ramanujan theta function.",
+  "id": "A121456",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A010054",
+    "A010815",
+    "A111932",
+    "A121373"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "mult",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:00:07",
+    "offset": 1,
+    "size": 76,
+    "source": "joeis"
+  }
+}

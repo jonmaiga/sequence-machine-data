@@ -1,0 +1,23 @@
+{
+  "description": "Number of compositions (ordered partitions) of the n-th n-gonal number into n-gonal numbers.",
+  "id": "A337764",
+  "mentions": [
+    "A011782",
+    "A060354",
+    "A224366",
+    "A224677",
+    "A337762",
+    "A337763"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

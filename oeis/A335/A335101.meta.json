@@ -1,0 +1,22 @@
+{
+  "description": "Perimeters of Heronian triangles whose middle side length is a square.",
+  "id": "A335101",
+  "mentions": [
+    "A010052",
+    "A334606",
+    "A334825",
+    "A335100",
+    "A335103",
+    "A335104"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:06",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Sum of legs of Pythagorean triangles (without multiple entries).",
+  "id": "A118905",
+  "mentions": [
+    "A001132",
+    "A009096",
+    "A058529",
+    "A118903",
+    "A118904",
+    "A120681",
+    "A198390",
+    "A331671"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:08",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

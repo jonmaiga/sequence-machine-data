@@ -1,0 +1,24 @@
+{
+  "description": "Number of ways to write n as u^4 + (v*(v+1)/2)^2 + (x*(3x+1)/2)^2 + (y*(5y+1)/2)^2 + (z*(9z+1)/2)^2, where u and v are nonnegative integers and x,y,z are integers.",
+  "id": "A306690",
+  "mentions": [
+    "A000118",
+    "A000217",
+    "A000290",
+    "A000583",
+    "A001318",
+    "A057569",
+    "A306606",
+    "A306614"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-bfile"
+  }
+}

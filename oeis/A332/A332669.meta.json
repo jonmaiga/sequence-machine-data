@@ -1,0 +1,39 @@
+{
+  "description": "Number of compositions of n whose negation is not unimodal.",
+  "id": "A332669",
+  "mentions": [
+    "A001523",
+    "A007052",
+    "A059204",
+    "A072706",
+    "A072707",
+    "A115981",
+    "A227038",
+    "A328509",
+    "A329398",
+    "A332281",
+    "A332282",
+    "A332284",
+    "A332578",
+    "A332638",
+    "A332639",
+    "A332642",
+    "A332670",
+    "A332728",
+    "A332742",
+    "A332744",
+    "A332832",
+    "A332870"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:02",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

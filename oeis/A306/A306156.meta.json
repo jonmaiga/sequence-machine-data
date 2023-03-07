@@ -1,0 +1,23 @@
+{
+  "description": "Inverse Weigh transform of 2^n.",
+  "id": "A306156",
+  "mentions": [
+    "A000079",
+    "A038067",
+    "A102866",
+    "A306157",
+    "A306158",
+    "A306159"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

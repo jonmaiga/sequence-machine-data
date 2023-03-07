@@ -1,0 +1,19 @@
+{
+  "description": "Numbers such that the product of their digits is equal to 10 times the sum of their prime factors, without multiplicity.",
+  "id": "A306313",
+  "mentions": [
+    "A099542"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

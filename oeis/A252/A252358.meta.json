@@ -1,0 +1,18 @@
+{
+  "description": "Smallest prime p such that (2^n)^(p-1) == 1 (mod p^2), i.e., smallest Wieferich prime to base 2^n.",
+  "id": "A252358",
+  "mentions": [
+    "A001220",
+    "A039951"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:10",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

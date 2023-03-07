@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that the n-th digit (after the decimal point) in the decimal expansion of Pi are the occurrence of the least significant digit represented by the more significant digits",
+  "id": "A201545",
+  "mentions": [
+    "A000796",
+    "A057680"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

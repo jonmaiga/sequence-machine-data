@@ -1,0 +1,19 @@
+{
+  "description": "Semiprimes in A007504 (the sum of first n primes).",
+  "id": "A189072",
+  "mentions": [
+    "A001358",
+    "A007504",
+    "A013918"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:13",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

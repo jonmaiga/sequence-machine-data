@@ -1,0 +1,26 @@
+{
+  "description": "Irregular array read by rows: n-th row contains (in ascending order) the nondivisors 1 <= k < n such that all the prime divisors p of k also divide n.",
+  "id": "A272618",
+  "mentions": [
+    "A000005",
+    "A010846",
+    "A027750",
+    "A045763",
+    "A133995",
+    "A162306",
+    "A243822",
+    "A243823",
+    "A272619"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:37",
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

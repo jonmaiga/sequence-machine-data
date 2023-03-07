@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of dominating subsets with cardinality k of the cycle C_n (n >= 1, 1 <= k <= n).",
+  "id": "A212634",
+  "mentions": [
+    "A001644",
+    "A125127",
+    "A212635",
+    "A284966",
+    "A322057"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

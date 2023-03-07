@@ -1,0 +1,25 @@
+{
+  "description": "Triangle T(n, k) = [t^n] Gamma(n + k + m + t)/Gamma(k + m + t) for m = 2 and 0 <= k <= n, read by rows.",
+  "id": "A325139",
+  "mentions": [
+    "A000142",
+    "A001711",
+    "A001717",
+    "A001723",
+    "A307419",
+    "A325137",
+    "A325140"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

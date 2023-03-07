@@ -1,0 +1,18 @@
+{
+  "description": "Number of endofunctions on [2n] with exactly n cycles.",
+  "id": "A273442",
+  "mentions": [
+    "A060281"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:38",
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

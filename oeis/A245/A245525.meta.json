@@ -1,0 +1,22 @@
+{
+  "description": "Unique integer r with -prime(n)/2 < r <= prime(n)/2 such that p(n) == r (mod prime(n)), where p(.) is the partition function given by A000041.",
+  "id": "A245525",
+  "mentions": [
+    "A000040",
+    "A000041",
+    "A094252",
+    "A245526",
+    "A245662"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:01",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

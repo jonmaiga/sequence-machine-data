@@ -1,0 +1,20 @@
+{
+  "description": "The fifth power of the unsigned Lah triangular matrix A105278.",
+  "id": "A308282",
+  "mentions": [
+    "A105278"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

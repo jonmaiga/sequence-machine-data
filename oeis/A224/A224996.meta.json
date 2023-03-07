@@ -1,0 +1,26 @@
+{
+  "description": "Floor(1/f(x^(1/n))) for x = 2, where f computes the fractional part.",
+  "id": "A224996",
+  "mentions": [
+    "A001651",
+    "A047203",
+    "A047211",
+    "A047290",
+    "A047332",
+    "A224995",
+    "A224997",
+    "A224998"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:27:05",
+    "offset": 2,
+    "size": 67,
+    "source": "joeis"
+  }
+}

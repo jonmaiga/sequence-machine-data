@@ -1,0 +1,22 @@
+{
+  "description": "E.g.f. C(x) satisfies: A(x)^2 + B(x)^2 = C(x)^2, such that C'(x) = C(x) + 2*A(x)*B(x).",
+  "id": "A292183",
+  "mentions": [
+    "A153302",
+    "A193543",
+    "A289695",
+    "A292181",
+    "A292182"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:07",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

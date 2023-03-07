@@ -1,0 +1,20 @@
+{
+  "description": "a(0) = 1, a(n) = Sum_{k=1..n} a(n-k)*ceiling(sin(k)).",
+  "id": "A265826",
+  "mentions": [
+    "A059633",
+    "A088353"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:25",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

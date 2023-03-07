@@ -1,0 +1,17 @@
+{
+  "description": "Number of linear extensions of the one-level grid poset G[(1^n), (0^(n-1)), (0^(n-1))].",
+  "id": "A274644",
+  "mentions": [
+    "A000108"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(0)=1, a(n) = n*(a(n-1)-1) for n>0.",
+  "id": "A166554",
+  "mentions": [
+    "A000142",
+    "A038156",
+    "A165793",
+    "A165814"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:49",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

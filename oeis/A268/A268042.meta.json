@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Ann(2n) where Ann(n) is the number of annular non-crossing matchings with n total endpoints.",
+  "id": "A268042",
+  "mentions": [
+    "A267998",
+    "A268041"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

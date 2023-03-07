@@ -1,0 +1,22 @@
+{
+  "description": "2*alpha^4*e^(Pi/(4*alpha))*(e/2)^(1/4), where alpha is the fine structure constant A003673.",
+  "id": "A164040",
+  "mentions": [
+    "A003673",
+    "A161771",
+    "A162916"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn",
+    "obsc"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 39,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

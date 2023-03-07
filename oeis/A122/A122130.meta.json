@@ -1,0 +1,32 @@
+{
+  "description": "Expansion of f(-x^4, -x^16) / psi(-x) in powers of x where psi() is a Ramanujan theta function and f(, ) is Ramanujan's general theta function.",
+  "id": "A122130",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A010054",
+    "A010815",
+    "A035363",
+    "A035457",
+    "A053251",
+    "A121373",
+    "A122129",
+    "A122134",
+    "A122135",
+    "A351005",
+    "A351008",
+    "A351594",
+    "A351595"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:11:53",
+    "offset": 0,
+    "size": 54,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "The number of sparse union-closed sets. That is, the number of union-closed sets on n elements containing the empty set and the universe, such that in average each set (not counting the empty set) has at most n/2 elements.",
+  "id": "A299116",
+  "mentions": [
+    "A102894",
+    "A102896",
+    "A108798",
+    "A193674"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

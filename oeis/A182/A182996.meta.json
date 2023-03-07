@@ -1,0 +1,18 @@
+{
+  "description": "Numbers congruent to 2 (mod 4) that are not in A182991.",
+  "id": "A182996",
+  "mentions": [
+    "A016825",
+    "A182991"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

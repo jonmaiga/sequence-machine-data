@@ -1,0 +1,22 @@
+{
+  "description": "Let d_1 ... d_k be the divisors of n. Then a(n) = min_{ e_1 = +-1, ... e_k = +-1 } | Sum_i e_i d_i |.",
+  "id": "A103977",
+  "mentions": [
+    "A005835",
+    "A023196",
+    "A083207",
+    "A125732",
+    "A125733"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:54",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

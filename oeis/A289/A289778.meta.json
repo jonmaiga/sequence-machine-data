@@ -1,0 +1,22 @@
+{
+  "description": "Number T(n,k) of reduced decompositions for all permutations of [n] with exactly k inversions; triangle T(n,k), n>=0, 0<=k<=n*(n-1)/2, read by rows.",
+  "id": "A289778",
+  "mentions": [
+    "A000217",
+    "A005118",
+    "A008302",
+    "A246865"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:04",
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

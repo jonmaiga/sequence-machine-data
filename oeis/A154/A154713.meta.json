@@ -1,0 +1,24 @@
+{
+  "description": "Cubes such that cube-+5 are primes.",
+  "id": "A154713",
+  "mentions": [
+    "A000578",
+    "A087696",
+    "A144938",
+    "A154709",
+    "A154710",
+    "A154711",
+    "A154712"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:36",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

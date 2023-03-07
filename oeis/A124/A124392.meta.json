@@ -1,0 +1,23 @@
+{
+  "description": "A Fine number related number triangle.",
+  "id": "A124392",
+  "mentions": [
+    "A000957",
+    "A001700",
+    "A014300",
+    "A114590"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:12",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

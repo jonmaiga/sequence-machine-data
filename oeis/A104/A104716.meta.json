@@ -1,0 +1,23 @@
+{
+  "description": "Triangle T(n,k) = (2k-3+4n)*(k-1-n)*(k-2-n)/6, 1<=k<=n.",
+  "id": "A104716",
+  "mentions": [
+    "A002419",
+    "A004736",
+    "A104715",
+    "A158405",
+    "A177877"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:47:11",
+    "offset": 1,
+    "size": 66,
+    "source": "joeis"
+  }
+}

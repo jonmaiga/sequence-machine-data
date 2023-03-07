@@ -1,0 +1,20 @@
+{
+  "description": "G.f. A(x) satisfies: A(x)^4 = A(x^2)^2 + 4*x.",
+  "id": "A107086",
+  "mentions": [
+    "A107087",
+    "A107088",
+    "A187814",
+    "A228711"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:59",
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

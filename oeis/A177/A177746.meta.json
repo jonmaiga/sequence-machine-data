@@ -1,0 +1,19 @@
+{
+  "description": "Primes p such that prime(p-1) mod (p-1) = (prime(p) mod p) - 1.",
+  "id": "A177746",
+  "mentions": [
+    "A000040",
+    "A004648"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

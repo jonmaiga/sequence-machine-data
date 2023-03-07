@@ -1,0 +1,28 @@
+{
+  "description": "Magnanimous numbers: numbers such that the sum obtained by inserting a \"+\" anywhere between two digits gives a prime.",
+  "id": "A252996",
+  "mentions": [
+    "A028834",
+    "A088134",
+    "A089392",
+    "A089393",
+    "A089394",
+    "A182175",
+    "A221699",
+    "A227823"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:11",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

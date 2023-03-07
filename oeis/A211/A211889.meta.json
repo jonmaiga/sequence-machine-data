@@ -1,0 +1,21 @@
+{
+  "description": "Smallest positive d such that prime(n)+k*d is prime for 0 <= k <= n.",
+  "id": "A211889",
+  "mentions": [
+    "A000040",
+    "A010051",
+    "A211890"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

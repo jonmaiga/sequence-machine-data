@@ -1,0 +1,18 @@
+{
+  "description": "Prime numbers arising from A057856.",
+  "id": "A130536",
+  "mentions": [
+    "A057856"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

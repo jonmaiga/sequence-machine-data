@@ -1,0 +1,18 @@
+{
+  "description": "Triangle T(n, d) = the number of isomorphism classes of smooth Fano d-polytopes with n vertices, read by rows (n >= 2, 1 <= d < n).",
+  "id": "A127709",
+  "mentions": [
+    "A140296"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 2,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

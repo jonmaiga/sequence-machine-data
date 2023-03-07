@@ -1,0 +1,20 @@
+{
+  "description": "The number of degree sequences with degree sum 2n representable by a non-separable graph (with multiple edges allowed).",
+  "id": "A147877",
+  "mentions": [
+    "A000041",
+    "A000070",
+    "A147878"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:34",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

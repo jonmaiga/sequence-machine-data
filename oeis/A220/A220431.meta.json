@@ -1,0 +1,26 @@
+{
+  "description": "Number of ways to write n=x+y (x>0, y>0) with 3x-1, 3x+1 and xy-1 all prime",
+  "id": "A220431",
+  "mentions": [
+    "A001359",
+    "A006512",
+    "A109909",
+    "A173587",
+    "A219842",
+    "A219864",
+    "A219923",
+    "A220272",
+    "A220413",
+    "A220419"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:38",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

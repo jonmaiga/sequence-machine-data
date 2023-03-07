@@ -1,0 +1,21 @@
+{
+  "description": "Sum of the even singletons in all partitions of n (n>=0). A singleton in a partition is a part that occurs exactly once.",
+  "id": "A276425",
+  "mentions": [
+    "A103628",
+    "A276422",
+    "A276423",
+    "A276424"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 0,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

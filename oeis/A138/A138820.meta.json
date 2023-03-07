@@ -1,0 +1,23 @@
+{
+  "description": "Concatenation of n-th even superperfect number, n-th Mersenne prime A000668(n) and n-th perfect number.",
+  "id": "A138820",
+  "mentions": [
+    "A000396",
+    "A000668",
+    "A019279",
+    "A061652",
+    "A138818",
+    "A138819"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

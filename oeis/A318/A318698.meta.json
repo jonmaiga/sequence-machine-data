@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the smallest nonnegative integer of the same parity as n, not yet in the sequence, that shares a digit with a(n-1); a(0)=0.",
+  "id": "A318698",
+  "mentions": [
+    "A107353",
+    "A297352",
+    "A297353"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:40",
+    "offset": 0,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Primes p such that the polynomial x^2 + x + p generates only primes for x=1..12.",
+  "id": "A253592",
+  "mentions": [
+    "A164926",
+    "A191458"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

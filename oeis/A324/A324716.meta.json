@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = 2*A156552(n) - bitand(2*A156552(n), A323243(n)), where bitand is bitwise-AND, A004198.",
+  "id": "A324716",
+  "mentions": [
+    "A003987",
+    "A004198",
+    "A156552",
+    "A323243",
+    "A324717",
+    "A324722"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:50",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

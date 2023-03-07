@@ -1,0 +1,21 @@
+{
+  "description": "Number of distinct representations of n as the sum of two nonzero squares nontrivially divides the number of distinct representations of n as the sum of two primes.",
+  "id": "A115592",
+  "mentions": [
+    "A000040",
+    "A025284",
+    "A025293"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

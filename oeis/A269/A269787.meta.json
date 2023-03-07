@@ -1,0 +1,20 @@
+{
+  "description": "Primes p such that 2*p + 43 is a square.",
+  "id": "A269787",
+  "mentions": [
+    "A000040",
+    "A002145",
+    "A045409",
+    "A269784"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Triangle read by rows: T(n, k) (0<=k<=2n) is the number of Delannoy paths of length n, having k steps.",
+  "id": "A109983",
+  "mentions": [
+    "A000984",
+    "A001850",
+    "A002426",
+    "A063007",
+    "A104684",
+    "A109984"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:01",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

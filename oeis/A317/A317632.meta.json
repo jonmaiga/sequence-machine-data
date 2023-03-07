@@ -1,0 +1,24 @@
+{
+  "description": "Number of connected induced nonempty non-singleton subgraphs of labeled connected graphs with n vertices.",
+  "id": "A317632",
+  "mentions": [
+    "A001187",
+    "A006125",
+    "A048143",
+    "A293510",
+    "A304717",
+    "A317631",
+    "A317634",
+    "A317635"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:37",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

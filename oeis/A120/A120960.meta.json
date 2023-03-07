@@ -1,0 +1,23 @@
+{
+  "description": "Pythagorean prime powers.",
+  "id": "A120960",
+  "mentions": [
+    "A000961",
+    "A001844",
+    "A002144",
+    "A008846",
+    "A024362",
+    "A024409",
+    "A146945"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:09",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

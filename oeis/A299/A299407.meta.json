@@ -1,0 +1,19 @@
+{
+  "description": "Solution b( ) of the complementary equation a(n) = b(n-1) + b(n-2), where a(0) = 1, a(1) = 4; see Comments.",
+  "id": "A299407",
+  "mentions": [
+    "A022424",
+    "A022425"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:34:21",
+    "offset": 0,
+    "size": 66,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "A246316(2^n-1).",
+  "id": "A246317",
+  "mentions": [
+    "A246316"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

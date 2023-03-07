@@ -1,0 +1,18 @@
+{
+  "description": "The digital sum of a(n) is not a substring of a(n+1), a(n+1) being the smallest integer not yet present in the sequence that doesn't lead to a contradiction.",
+  "id": "A302589",
+  "mentions": [
+    "A173821"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:26",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

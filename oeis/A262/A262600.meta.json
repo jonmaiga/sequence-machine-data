@@ -1,0 +1,21 @@
+{
+  "description": "Number of Dyck paths of semilength n and height exactly 4.",
+  "id": "A262600",
+  "mentions": [
+    "A001519",
+    "A080936",
+    "A124302"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:22",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

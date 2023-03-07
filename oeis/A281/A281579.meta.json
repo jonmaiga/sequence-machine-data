@@ -1,0 +1,22 @@
+{
+  "description": "Lexicographically earliest sequence such that, for any n>0, a(n)=length of the n-th run of consecutive terms in arithmetic progression in this sequence.",
+  "id": "A281579",
+  "mentions": [
+    "A000002",
+    "A001462",
+    "A113138",
+    "A281772",
+    "A281783",
+    "A281900"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:50",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

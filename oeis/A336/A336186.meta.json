@@ -1,0 +1,23 @@
+{
+  "description": "Side length of a square block of integers, with 1 at the top-left corner, on a diagonally numbered 2D board such that the sum of the integers in the square is a perfect square.",
+  "id": "A336186",
+  "mentions": [
+    "A000124",
+    "A000217",
+    "A000290",
+    "A185505",
+    "A336189"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "a(1) = 1; for n > 1, a(n) = sigma((2^n)-1) - sigma((2^(n-1))-1), where sigma is A000203, the sum of divisors.",
+  "id": "A329890",
+  "mentions": [
+    "A000203",
+    "A075708",
+    "A329637",
+    "A329891",
+    "A329892"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

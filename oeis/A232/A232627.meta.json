@@ -1,0 +1,20 @@
+{
+  "description": "Discriminants of the minimal polynomials of 2*sin(2*Pi/n) for n >= 1.",
+  "id": "A232627",
+  "mentions": [
+    "A093819",
+    "A231188"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

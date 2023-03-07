@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that k*(k+4) gives the concatenation of a number m with itself.",
+  "id": "A116288",
+  "mentions": [
+    "A116125",
+    "A116275",
+    "A116287",
+    "A116289",
+    "A116297"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-10-18 14:56:44",
+    "offset": 1,
+    "size": 27,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that both 2*n^2+11 and 2*(n+1)^2+11 are prime.",
+  "id": "A260352",
+  "mentions": [
+    "A092968"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:18",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

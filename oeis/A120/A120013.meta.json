@@ -1,0 +1,23 @@
+{
+  "description": "Square table, read by antidiagonals, of coefficients of x^k in the n-th self-composition of the g.f. of A120009, so that: T(n,k) = [x^k] { (x-x^2) o x/(1-n*x) o (1-sqrt(1-4*x))/2 } for n>=1, k>=1.",
+  "id": "A120013",
+  "mentions": [
+    "A120009",
+    "A120012",
+    "A120014",
+    "A120015",
+    "A127275"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Numbers with as many zeros as the sum of their digits.",
+  "id": "A354410",
+  "mentions": [
+    "A007953",
+    "A011540",
+    "A031443",
+    "A055641",
+    "A061384"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

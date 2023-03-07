@@ -1,0 +1,26 @@
+{
+  "description": "Number T(n,k) of colored integer partitions of n using all colors of a k-set such that parts i have distinct color patterns in arbitrary order and each pattern for a part i has i colors in (weakly) increasing order; triangle T(n,k), n>=0, 0<=k<=n, read by rows.",
+  "id": "A309973",
+  "mentions": [
+    "A000007",
+    "A000009",
+    "A005651",
+    "A327116",
+    "A327679",
+    "A327680",
+    "A327681",
+    "A327890"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:34",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

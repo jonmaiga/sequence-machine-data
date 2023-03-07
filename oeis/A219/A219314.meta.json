@@ -1,0 +1,20 @@
+{
+  "description": "Composition of the inverse binomial transform of Fibonacci numbers and the Catalan transform of Fibonacci numbers.",
+  "id": "A219314",
+  "mentions": [
+    "A000045",
+    "A219312"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:37",
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

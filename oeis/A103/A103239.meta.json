@@ -1,0 +1,19 @@
+{
+  "description": "Column 0 of triangular matrix T = A103238, which satisfies: T^2 + T = SHIFTUP(T) where diagonal(T)={1,2,3,...}.",
+  "id": "A103239",
+  "mentions": [
+    "A082161",
+    "A103238"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

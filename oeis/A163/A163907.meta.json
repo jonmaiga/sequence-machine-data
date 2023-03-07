@@ -1,0 +1,23 @@
+{
+  "description": "Permutation A163905 shown in N x N grid.",
+  "id": "A163907",
+  "mentions": [
+    "A054238",
+    "A163355",
+    "A163357",
+    "A163905",
+    "A163908",
+    "A163917"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:46",
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

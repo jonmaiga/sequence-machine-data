@@ -1,0 +1,19 @@
+{
+  "description": "Replace all '11' => '101' in the binary representation of n, treat the result as representation of a(n) in base of Fibonacci numbers (A014417).",
+  "id": "A229047",
+  "mentions": [
+    "A000045",
+    "A014417"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

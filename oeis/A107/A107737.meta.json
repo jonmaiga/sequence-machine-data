@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that, in prime decomposition of n, sum of all prime factors and their orders is prime.",
+  "id": "A107737",
+  "mentions": [
+    "A008474",
+    "A107738"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:59",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

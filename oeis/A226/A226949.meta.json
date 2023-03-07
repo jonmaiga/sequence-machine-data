@@ -1,0 +1,18 @@
+{
+  "description": "Number of twin prime pairs of the form k*n +/- 1 with k <= n.",
+  "id": "A226949",
+  "mentions": [
+    "A014574",
+    "A071558"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

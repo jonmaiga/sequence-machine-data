@@ -1,0 +1,18 @@
+{
+  "description": "The number of order-decreasing partial isometries (of an n-chain)",
+  "id": "A184052",
+  "mentions": [
+    "A184051"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 19:39:24",
+    "offset": 0,
+    "size": 36,
+    "source": "joeis"
+  }
+}

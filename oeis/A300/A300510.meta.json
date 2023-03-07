@@ -1,0 +1,29 @@
+{
+  "description": "Number of ways to write n^2 as 4^k*(m^2+1) + x^2 + y^2, where m is 1 or 2, and k,x,y are nonnegative integers with x <= y.",
+  "id": "A300510",
+  "mentions": [
+    "A000118",
+    "A000302",
+    "A001481",
+    "A271518",
+    "A281976",
+    "A299537",
+    "A299794",
+    "A299924",
+    "A300362",
+    "A300396",
+    "A300448",
+    "A301452",
+    "A301471"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:25",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

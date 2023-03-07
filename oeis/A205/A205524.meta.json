@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that gcd(n, sigma(n)) is not equal to sigma(n) mod n.",
+  "id": "A205524",
+  "mentions": [
+    "A000040",
+    "A000203",
+    "A009194",
+    "A054024",
+    "A205523",
+    "A205525"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

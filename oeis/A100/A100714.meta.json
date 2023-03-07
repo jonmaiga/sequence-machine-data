@@ -1,0 +1,22 @@
+{
+  "description": "Number of runs in binary expansion of A000040(n) (the n-th prime number) for n > 0.",
+  "id": "A100714",
+  "mentions": [
+    "A000040",
+    "A005811"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "changed",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:44:51",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

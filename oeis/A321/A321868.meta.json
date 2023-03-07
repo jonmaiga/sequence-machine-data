@@ -1,0 +1,22 @@
+{
+  "description": "Fermat pseudoprimes to base 2 that are octagonal.",
+  "id": "A321868",
+  "mentions": [
+    "A000567",
+    "A001567",
+    "A216170",
+    "A293623",
+    "A293624",
+    "A321869"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:44",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

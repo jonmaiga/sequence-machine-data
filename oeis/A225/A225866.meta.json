@@ -1,0 +1,17 @@
+{
+  "description": "Numbers n such that the sum of the numbers in the Collatz (3x+1) iteration of n is a perfect square.",
+  "id": "A225866",
+  "mentions": [
+    "A033493"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

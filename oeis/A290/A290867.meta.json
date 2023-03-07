@@ -1,0 +1,23 @@
+{
+  "description": "Irregular triangle read by rows: the number of points that are the intersections of k semicircles in the configuration A290447(n).",
+  "id": "A290867",
+  "mentions": [
+    "A290447",
+    "A290726",
+    "A290865",
+    "A290866",
+    "A331452"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:05",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

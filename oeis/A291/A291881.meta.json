@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that sigma(sigma(n)) = sigma(sigma(n)-n) + sigma(n); that is, f(g(n)) = g(f(n)) where f = A000203 and g = A001065.",
+  "id": "A291881",
+  "mentions": [
+    "A000203",
+    "A001065",
+    "A051027",
+    "A072869"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

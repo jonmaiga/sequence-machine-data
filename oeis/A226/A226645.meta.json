@@ -1,0 +1,23 @@
+{
+  "description": "Number of ways to express 6/n as Egyptian fractions in just three terms; i.e., 6/n = 1/x + 1/y + 1/z satisfying 1<=x<=y<=z.",
+  "id": "A226645",
+  "mentions": [
+    "A004194",
+    "A073101",
+    "A192787",
+    "A226640",
+    "A226642",
+    "A226644",
+    "A226646"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

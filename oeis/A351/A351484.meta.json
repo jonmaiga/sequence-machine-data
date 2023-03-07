@@ -1,0 +1,25 @@
+{
+  "description": "a(n) is the number of primitive triangulations of a 5 X n rectangle.",
+  "id": "A351484",
+  "mentions": [
+    "A082640",
+    "A351480",
+    "A351481",
+    "A351482",
+    "A351483",
+    "A351485",
+    "A351486",
+    "A351487",
+    "A351488"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

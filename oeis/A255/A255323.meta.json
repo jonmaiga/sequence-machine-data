@@ -1,0 +1,23 @@
+{
+  "description": "Product_{k=1..n} k^(k^4).",
+  "id": "A255323",
+  "mentions": [
+    "A002109",
+    "A013663",
+    "A051675",
+    "A243264",
+    "A255321",
+    "A255344"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:13",
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "description": "Expansion of (c(q^3) - c(q^6) - 2*c(q^12)) / 3 in powers of q where c(q) is a cubic AGM theta function.",
+  "id": "A123863",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A004016",
+    "A005882",
+    "A005928",
+    "A010054",
+    "A010815",
+    "A033687",
+    "A097195",
+    "A113448",
+    "A121361",
+    "A121373",
+    "A123884",
+    "A227696"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "mult",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:45:35",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

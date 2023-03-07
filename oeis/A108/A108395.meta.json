@@ -1,0 +1,20 @@
+{
+  "description": "Number of pluperfect Latin squares of order n.",
+  "id": "A108395",
+  "mentions": [
+    "A002860",
+    "A107739"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "hard",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

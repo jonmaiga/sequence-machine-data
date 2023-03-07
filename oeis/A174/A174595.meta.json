@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 5*n^2/8 - n + 1/2 + (-1)^n*(-3*n^2/8 + n - 1/2).",
+  "id": "A174595",
+  "mentions": [
+    "A000290",
+    "A029578",
+    "A174571"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:53:13",
+    "offset": 0,
+    "size": 61,
+    "source": "joeis"
+  }
+}

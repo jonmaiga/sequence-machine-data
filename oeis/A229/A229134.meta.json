@@ -1,0 +1,18 @@
+{
+  "description": "Square numbers that are the sum of two non-consecutive triangular numbers.",
+  "id": "A229134",
+  "mentions": [
+    "A000217",
+    "A001110"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:46",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

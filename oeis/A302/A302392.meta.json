@@ -1,0 +1,18 @@
+{
+  "description": "Number of odd parts in the partitions of 3n into 3 parts.",
+  "id": "A302392",
+  "mentions": [
+    "A302393"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:36:05",
+    "offset": 1,
+    "size": 50,
+    "source": "joeis"
+  }
+}

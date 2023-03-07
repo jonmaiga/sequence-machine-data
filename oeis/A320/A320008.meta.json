@@ -1,0 +1,22 @@
+{
+  "description": "a(0) = 1; for n > 0, a(n) = A000120(n) * a(n-A000120(n)), where A000120(n) is the binary weight of n.",
+  "id": "A320008",
+  "mentions": [
+    "A000120",
+    "A011371",
+    "A179016",
+    "A320002",
+    "A320009"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:42",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = smallest integer >= n which is coprime to A118000(n-1). a(n) = A118000(n) - A118000(n-1).",
+  "id": "A118001",
+  "mentions": [
+    "A118000",
+    "A118003"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

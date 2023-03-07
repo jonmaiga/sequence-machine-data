@@ -1,0 +1,41 @@
+{
+  "description": "Number of multiset partitions into gapless blocks of a size-n multiset covering an initial interval with weakly decreasing multiplicities.",
+  "id": "A356943",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A000670",
+    "A011782",
+    "A019536",
+    "A034296",
+    "A035310",
+    "A055887",
+    "A063834",
+    "A072233",
+    "A073491",
+    "A270995",
+    "A304969",
+    "A330783",
+    "A333217",
+    "A349050",
+    "A349055",
+    "A356233",
+    "A356934",
+    "A356938",
+    "A356941",
+    "A356942",
+    "A356944",
+    "A356954"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

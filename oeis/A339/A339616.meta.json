@@ -1,0 +1,18 @@
+{
+  "description": "The Judd Trump's \"infinite plant\" sequence: prime numbers become nonprime numbers by striking the cue ball 2 with a cue stick to the right (see the Comments section).",
+  "id": "A339616",
+  "mentions": [
+    "A339467"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

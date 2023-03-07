@@ -1,0 +1,24 @@
+{
+  "description": "Recurrence a(n+2) = Sum_{k=0..n} binomial(n,k)*a(k)*a(n+1-k) with a(0)=3, a(1)=1.",
+  "id": "A289066",
+  "mentions": [
+    "A000111",
+    "A289064",
+    "A289065",
+    "A289067",
+    "A289068",
+    "A289069",
+    "A289070"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:03",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

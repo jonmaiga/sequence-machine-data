@@ -1,0 +1,21 @@
+{
+  "description": "Start with decimal expansion of Champernowne constant (A033307) and repeatedly remove the first digit between two neighbors (after the decimal point) having the same parity.",
+  "id": "A228584",
+  "mentions": [
+    "A033307",
+    "A133872",
+    "A228585"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:45",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

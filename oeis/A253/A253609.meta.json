@@ -1,0 +1,22 @@
+{
+  "description": "Array read by upwards antidiagonals: a(n,k) = index of prime(k)^n in A098550.",
+  "id": "A253609",
+  "mentions": [
+    "A098550",
+    "A251239",
+    "A251240",
+    "A251241"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

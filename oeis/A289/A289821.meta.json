@@ -1,0 +1,18 @@
+{
+  "description": "Primes of the form k!3-729, where k!3 is the triple factorial number (A007661).",
+  "id": "A289821",
+  "mentions": [
+    "A007661",
+    "A247466"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:04",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-bfile"
+  }
+}

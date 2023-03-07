@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = n! - Fibonacci(n).",
+  "id": "A255139",
+  "mentions": [
+    "A000045",
+    "A000142",
+    "A080568"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 12:04:54",
+    "offset": 0,
+    "size": 22,
+    "source": "joeis"
+  }
+}

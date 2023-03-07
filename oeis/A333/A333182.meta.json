@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of Sum_{k>=1} mu(k)^2 / 2^k.",
+  "id": "A333182",
+  "mentions": [
+    "A005117",
+    "A008683",
+    "A008966",
+    "A051006",
+    "A332905"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

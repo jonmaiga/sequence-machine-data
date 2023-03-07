@@ -1,0 +1,25 @@
+{
+  "description": "Least number with the prime signature of the n-th Jacobsthal number.",
+  "id": "A278165",
+  "mentions": [
+    "A001045",
+    "A046523",
+    "A107036",
+    "A278245",
+    "A278248",
+    "A278258",
+    "A286565",
+    "A286567"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:45",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

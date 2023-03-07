@@ -1,0 +1,21 @@
+{
+  "description": "Number of different, not necessarily connected, unlabeled trivalent diagrams of size n.",
+  "id": "A121352",
+  "mentions": [
+    "A005133",
+    "A121350",
+    "A121355",
+    "A121356",
+    "A121357"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

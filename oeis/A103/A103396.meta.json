@@ -1,0 +1,22 @@
+{
+  "description": "Semiprimes in A103376.",
+  "id": "A103396",
+  "mentions": [
+    "A001358",
+    "A103376",
+    "A103386",
+    "A103392",
+    "A103401"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

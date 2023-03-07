@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that the multiplicative order of 2 modulo k is psi(k), psi = A002322.",
+  "id": "A319009",
+  "mentions": [
+    "A001122",
+    "A002322",
+    "A002326",
+    "A167791"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:40",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

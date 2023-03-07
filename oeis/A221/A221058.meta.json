@@ -1,0 +1,19 @@
+{
+  "description": "Number of inversions in all Dyck prefixes of length n.",
+  "id": "A221058",
+  "mentions": [
+    "A129176",
+    "A221057"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:39",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

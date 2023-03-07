@@ -1,0 +1,20 @@
+{
+  "description": "Primes of the form p*q*r + 2, where p, q and r are distinct primes.",
+  "id": "A182477",
+  "mentions": [
+    "A000040",
+    "A007304",
+    "A115267"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

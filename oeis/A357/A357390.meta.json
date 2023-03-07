@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that A071626(k) > A071626(k+1).",
+  "id": "A357390",
+  "mentions": [
+    "A071626",
+    "A342091",
+    "A357385",
+    "A357388"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:31",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

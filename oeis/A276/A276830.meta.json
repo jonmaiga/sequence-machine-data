@@ -1,0 +1,22 @@
+{
+  "description": "Number of ways to write n as ((p-1)/2)^2 + P_2, where p is an odd prime and P_2 is a product of at most two primes.",
+  "id": "A276830",
+  "mentions": [
+    "A000040",
+    "A000290",
+    "A037143",
+    "A235645",
+    "A276711",
+    "A276825"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Smallest number \"c-equivalent\" to n.",
+  "id": "A267508",
+  "mentions": [
+    "A003714",
+    "A020330",
+    "A114994",
+    "A118113",
+    "A163382",
+    "A171791",
+    "A233249",
+    "A233312"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

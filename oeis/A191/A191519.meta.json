@@ -1,0 +1,19 @@
+{
+  "description": "Number of dispersed Dyck paths of semilength n (i.e., Motzkin paths of length n with no (1,0)-steps at positive heights) having no UUU's (U=(1,1)).",
+  "id": "A191519",
+  "mentions": [
+    "A001405",
+    "A191518"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:15",
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

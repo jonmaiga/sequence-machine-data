@@ -1,0 +1,28 @@
+{
+  "description": "Lexicographically earliest sequence of distinct positive integers with no finite subset summing to a power of 2.",
+  "id": "A353889",
+  "mentions": [
+    "A000079",
+    "A008585",
+    "A052349",
+    "A133662",
+    "A299174",
+    "A353918",
+    "A353919",
+    "A353966",
+    "A353969",
+    "A353980",
+    "A353983",
+    "A354005"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

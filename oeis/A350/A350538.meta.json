@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the smallest proper multiple of n which contains only even digits.",
+  "id": "A350538",
+  "mentions": [
+    "A014263",
+    "A061807",
+    "A350536"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:25",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

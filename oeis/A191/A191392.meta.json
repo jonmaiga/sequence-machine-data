@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of dispersed Dyck paths of length n (i.e., Motzkin paths of length n with no (1,0)-steps at positive heights) having k base pyramids. A base pyramid is a factor of the form U^j D^j (j > 0), starting at the horizontal axis. Here U = (1,1) and D = (1,-1).",
+  "id": "A191392",
+  "mentions": [
+    "A001405",
+    "A191393",
+    "A191394"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:15",
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

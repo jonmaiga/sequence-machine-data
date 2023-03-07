@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that phi(k) = rad(k) * sopfr(k), where phi(k) is the Euler totient function of k, rad(k) the squarefree kernel of k and sopfr(k) the integer log of k.",
+  "id": "A280936",
+  "mentions": [
+    "A000010",
+    "A001414",
+    "A007947"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

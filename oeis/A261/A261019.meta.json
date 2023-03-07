@@ -1,0 +1,32 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) (0 <= k <= A261017(n)) = number of binary strings of length n such that the smallest number whose binary representation is not visible in the string is k.",
+  "id": "A261019",
+  "mentions": [
+    "A000079",
+    "A001891",
+    "A001911",
+    "A030308",
+    "A076478",
+    "A261015",
+    "A261016",
+    "A261017",
+    "A261392",
+    "A261441",
+    "A261442",
+    "A261443",
+    "A261473",
+    "A261474",
+    "A261475"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:20",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

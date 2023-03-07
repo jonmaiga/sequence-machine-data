@@ -1,0 +1,19 @@
+{
+  "description": "Numbers with digits in nondecreasing order whose digit sum is prime and whose digit product is a perfect square > 0.",
+  "id": "A344842",
+  "mentions": [
+    "A009994",
+    "A344825"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:18",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

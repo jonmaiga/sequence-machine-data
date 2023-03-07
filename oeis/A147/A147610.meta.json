@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = 3^(wt(n-1)-1), where wt() = A000120().",
+  "id": "A147610",
+  "mentions": [
+    "A000120",
+    "A000302",
+    "A048881",
+    "A048883",
+    "A079314",
+    "A147582",
+    "A151920"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:33:01",
+    "offset": 2,
+    "size": 88,
+    "source": "joeis"
+  }
+}

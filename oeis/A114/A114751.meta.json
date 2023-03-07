@@ -1,0 +1,22 @@
+{
+  "description": "The following triangle contains n consecutive numbers beginning from n in ascending order if n is odd else in descending order. Sequence contains the triangle by rows.",
+  "id": "A114751",
+  "mentions": [
+    "A114752",
+    "A114753",
+    "A210530"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "description": "List points (x,y,z) having integer coordinates, sorted first by R^2 = x^2 + y^2 + z^2 and in case of ties, then by z and last by polar angle 0 <= phi < 2*Pi in a polar coordinate system. Sequence gives x-coordinates.",
+  "id": "A342561",
+  "mentions": [
+    "A005875",
+    "A117609",
+    "A305575",
+    "A305576",
+    "A340631",
+    "A340632",
+    "A340641",
+    "A340642",
+    "A342562",
+    "A342563",
+    "A343630",
+    "A343633",
+    "A343640",
+    "A343643"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:15",
+    "offset": 0,
+    "size": 93,
+    "source": "oeis-bfile"
+  }
+}

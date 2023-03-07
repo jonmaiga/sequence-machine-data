@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the position of phi(A038568(n)^2)/phi(A038569(n)^2) in the enumeration of the rationals by A038568 and A038569, where phi is A000010.",
+  "id": "A340922",
+  "mentions": [
+    "A000010",
+    "A038568",
+    "A038569"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:13",
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Prime numbers with five partitions into a square and cube.",
+  "id": "A122034",
+  "mentions": [
+    "A123388"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

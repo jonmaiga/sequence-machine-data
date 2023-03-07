@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = binomial(n+4,4)*gcd(n,5)/5.",
+  "id": "A234042",
+  "mentions": [
+    "A107711",
+    "A109009",
+    "A208950"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:52",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Trajectory of 2 under repeated application of the map n -> A102370(n).",
+  "id": "A103747",
+  "mentions": [
+    "A102370",
+    "A132417"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:54",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of Pi in base 27.",
+  "id": "A224751",
+  "mentions": [
+    "A000796",
+    "A068437",
+    "A224750"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:21:35",
+    "offset": 1,
+    "size": 76,
+    "source": "joeis"
+  }
+}

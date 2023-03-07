@@ -1,0 +1,19 @@
+{
+  "description": "Balanced primes p of the form (r+q+s-1)/2, where r, q, s are consecutive primes and q is a balanced prime.",
+  "id": "A129242",
+  "mentions": [
+    "A006562",
+    "A129191",
+    "A129241"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

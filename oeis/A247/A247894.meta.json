@@ -1,0 +1,19 @@
+{
+  "description": "Integer part of square root of A010807: a(n) = floor(sqrt(n^19)).",
+  "id": "A247894",
+  "mentions": [
+    "A000196",
+    "A010807"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:04",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

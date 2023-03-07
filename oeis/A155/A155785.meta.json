@@ -1,0 +1,19 @@
+{
+  "description": "Nonprimes where the first digit equals the final digit and also equals the number of digits.",
+  "id": "A155785",
+  "mentions": [
+    "A018252"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

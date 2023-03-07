@@ -1,0 +1,30 @@
+{
+  "description": "a(n) is the smallest number that has exactly n evil divisors (A001969).",
+  "id": "A356019",
+  "mentions": [
+    "A001969",
+    "A087997",
+    "A093688",
+    "A227872",
+    "A327328",
+    "A333456",
+    "A355303",
+    "A355699",
+    "A355968",
+    "A356018",
+    "A356020",
+    "A356040"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:30",
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

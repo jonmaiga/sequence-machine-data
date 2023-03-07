@@ -1,0 +1,25 @@
+{
+  "description": "Arithmetic numbers (A003601) that are not balanced numbers (A020492).",
+  "id": "A342105",
+  "mentions": [
+    "A000005",
+    "A000010",
+    "A000203",
+    "A003601",
+    "A020492",
+    "A102187",
+    "A342103",
+    "A342104",
+    "A342106"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

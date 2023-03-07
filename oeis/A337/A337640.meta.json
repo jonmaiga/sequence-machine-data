@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = one-half of the number of cells in the central rectangle of the graph described in row 2n+1 of A333288.",
+  "id": "A337640",
+  "mentions": [
+    "A306302",
+    "A331452",
+    "A333288"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

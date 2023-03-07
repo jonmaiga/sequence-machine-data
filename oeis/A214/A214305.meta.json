@@ -1,0 +1,20 @@
+{
+  "description": "Fermat pseudoprimes to base 2 with two prime factors.",
+  "id": "A214305",
+  "mentions": [
+    "A001567",
+    "A050217",
+    "A085014",
+    "A180471"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:32",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

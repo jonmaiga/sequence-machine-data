@@ -1,0 +1,24 @@
+{
+  "description": "Square array T(n,k), n>=0, k>=0, read by antidiagonals, where column k is the expansion of e.g.f. 1/(1 + x^k/k! * log(1 - x)).",
+  "id": "A355652",
+  "mentions": [
+    "A007840",
+    "A052830",
+    "A351505",
+    "A351506",
+    "A355610",
+    "A355665"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:30",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

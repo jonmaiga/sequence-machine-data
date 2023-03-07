@@ -1,0 +1,20 @@
+{
+  "description": "Odd numbers n for which A137576((n-1)/2)-1 is a multiple of A000010(n).",
+  "id": "A138217",
+  "mentions": [
+    "A000010",
+    "A002326",
+    "A006694",
+    "A137576"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:26",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

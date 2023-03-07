@@ -1,0 +1,20 @@
+{
+  "description": "Integers d such that the Diophantine equation p^x - 2^y = d has more than one solution in positive integers (x, y), where p is a positive prime number. Terms sorted first after increasing size of p, then in increasing order.",
+  "id": "A277125",
+  "mentions": [
+    "A001220"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "bref",
+    "hard",
+    "more",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

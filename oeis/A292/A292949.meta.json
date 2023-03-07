@@ -1,0 +1,17 @@
+{
+  "description": "Subsequence of terms of A019278 whose sum of divisors is also a term of A019278.",
+  "id": "A292949",
+  "mentions": [
+    "A019278"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:08",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

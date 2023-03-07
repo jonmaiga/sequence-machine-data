@@ -1,0 +1,20 @@
+{
+  "description": "T(n,k)=Number of 0..k arrays x(0..n+1) of n+2 elements without any interior element greater than both neighbors or less than both neighbors",
+  "id": "A200871",
+  "mentions": [
+    "A006355",
+    "A084990"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:21",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

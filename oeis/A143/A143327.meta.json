@@ -1,0 +1,36 @@
+{
+  "description": "Table T(n,k) by antidiagonals. T(n,k) is the number of primitive (=aperiodic) k-ary words (n,k >= 1) with length less than or equal to n which are earlier in lexicographic order than any other word derived by cyclic shifts of the alphabet.",
+  "id": "A143327",
+  "mentions": [
+    "A000012",
+    "A000027",
+    "A003777",
+    "A008683",
+    "A028387",
+    "A085945",
+    "A134541",
+    "A143325",
+    "A143326",
+    "A320087",
+    "A320088",
+    "A320089",
+    "A320090",
+    "A320091",
+    "A320092",
+    "A320093",
+    "A320094",
+    "A320095"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:32",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

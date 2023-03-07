@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of gamma + log(2), where gamma is Euler's constant (A001620).",
+  "id": "A350763",
+  "mentions": [
+    "A001620",
+    "A002162",
+    "A002206",
+    "A002207"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

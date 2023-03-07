@@ -1,0 +1,17 @@
+{
+  "description": "Number of 6Xn arrays containing n copies of 0..6-1 with every element equal to or 1 greater than any north or west neighbors modulo 6 and the upper left element equal to 0.",
+  "id": "A268122",
+  "mentions": [
+    "A268115"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

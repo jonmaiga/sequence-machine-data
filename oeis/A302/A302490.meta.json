@@ -1,0 +1,22 @@
+{
+  "description": "Fewest number of distinct prime factors in any product of a_1*a_2*...*a_t where n = a_1 < a_2 < ... < a_t = A006255(n) and the product is square.",
+  "id": "A302490",
+  "mentions": [
+    "A001221",
+    "A006255",
+    "A066400",
+    "A245530",
+    "A280244"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

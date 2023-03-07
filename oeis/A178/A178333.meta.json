@@ -1,0 +1,26 @@
+{
+  "description": "Characteristic function of mountain numbers.",
+  "id": "A178333",
+  "mentions": [
+    "A000030",
+    "A011540",
+    "A052383",
+    "A134941",
+    "A134951",
+    "A171901",
+    "A178334",
+    "A196368"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:02",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Rectangular array: R(n,k)=n^3+[(n^3)/2)]+...+[(n^3)/k], where [ ]=floor, by antidiagonals.",
+  "id": "A211785",
+  "mentions": [
+    "A211701"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

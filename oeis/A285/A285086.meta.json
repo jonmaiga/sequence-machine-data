@@ -1,0 +1,25 @@
+{
+  "description": "Numbers n such that the number of partitions of n^2+1 (=A000041(n^2+1)) is prime.",
+  "id": "A285086",
+  "mentions": [
+    "A000041",
+    "A046063",
+    "A072213",
+    "A284594",
+    "A285087",
+    "A285088"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "bref",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

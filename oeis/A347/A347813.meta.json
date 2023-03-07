@@ -1,0 +1,19 @@
+{
+  "description": "Number of cubic lattice walks from (n,n,n) to (0,0,0) using steps that decrease the Euclidean distance to the origin and that change each coordinate by at most 1.",
+  "id": "A347813",
+  "mentions": [
+    "A347811",
+    "A348201"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:21",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

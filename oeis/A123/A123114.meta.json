@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{r>0,s>0} binomial(r*s-1,n-1)/2^(r+s).",
+  "id": "A123114",
+  "mentions": [
+    "A000629",
+    "A101370"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:11",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

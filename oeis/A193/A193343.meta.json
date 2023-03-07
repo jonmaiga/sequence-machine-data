@@ -1,0 +1,20 @@
+{
+  "description": "a(1) = 42; a(n) = 10*(sum of digits of a(n-1)) + (last digit of a(n-1)) + 1 for n >= 2.",
+  "id": "A193343",
+  "mentions": [
+    "A007953",
+    "A010879"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 92,
+    "source": "oeis-entry"
+  }
+}

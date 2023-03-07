@@ -1,0 +1,18 @@
+{
+  "description": "Number of arrangements of n+2 numbers in 0..2 with each number being the sum mod 3 of two others.",
+  "id": "A183877",
+  "mentions": [
+    "A183884"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 16:25:55",
+    "offset": 1,
+    "size": 24,
+    "source": "joeis"
+  }
+}

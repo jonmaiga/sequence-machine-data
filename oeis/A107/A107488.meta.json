@@ -1,0 +1,20 @@
+{
+  "description": "Number of letters in the words formed by the digital recitation of Pi in the English language.",
+  "id": "A107488",
+  "mentions": [
+    "A052384"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:44",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

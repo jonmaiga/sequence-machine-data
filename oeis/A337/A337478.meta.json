@@ -1,0 +1,25 @@
+{
+  "description": "Primorial deflation of A336389.",
+  "id": "A337478",
+  "mentions": [
+    "A319626",
+    "A329900",
+    "A336389",
+    "A337474",
+    "A337476",
+    "A337477"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

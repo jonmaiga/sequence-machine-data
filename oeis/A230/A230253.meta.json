@@ -1,0 +1,20 @@
+{
+  "description": "Coefficients of power series A(x) such that coefficient of x^n in A(x)^(n+1) equals (n+1)*(n+2)!/2 for n>=0.",
+  "id": "A230253",
+  "mentions": [
+    "A075834",
+    "A090753",
+    "A111546"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

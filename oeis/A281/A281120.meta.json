@@ -1,0 +1,18 @@
+{
+  "description": "For n odd, a(n) is the least positive integer not already used. For n even, a(n) is the least positive integer not already used that is not coprime to a(n/2).",
+  "id": "A281120",
+  "mentions": [
+    "A082746",
+    "A281121"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:49",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

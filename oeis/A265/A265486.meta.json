@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that 64^n - 8^n - 1 is prime.",
+  "id": "A265486",
+  "mentions": [
+    "A098845",
+    "A265481"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

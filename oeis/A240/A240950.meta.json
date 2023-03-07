@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n with the property that the continued fraction for sqrt(n) has odd period length, omitting those values of n of the form m^2+1.",
+  "id": "A240950",
+  "mentions": [
+    "A002522",
+    "A003814",
+    "A031396"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:57",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Numbers k such that k^5 = a^5 + b^5 + c^5 + d^5 + e^5 has at least two primitive solutions in nonnegative integers.",
+  "id": "A331674",
+  "mentions": [
+    "A003294",
+    "A003828",
+    "A023041",
+    "A039664",
+    "A063922",
+    "A063923",
+    "A134341",
+    "A175610",
+    "A331675"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

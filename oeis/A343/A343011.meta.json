@@ -1,0 +1,21 @@
+{
+  "description": "Integers whose variance of their divisors is also an integer.",
+  "id": "A343011",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A001157",
+    "A003601",
+    "A065091"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

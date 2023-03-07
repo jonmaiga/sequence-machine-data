@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of sum of reciprocals of all prime triples.",
+  "id": "A275519",
+  "mentions": [
+    "A275515",
+    "A275516"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "cons",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

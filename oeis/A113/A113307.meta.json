@@ -1,0 +1,21 @@
+{
+  "description": "Trott's third constant: decimal expansion coincides with its non-simple continued fraction read serially.",
+  "id": "A113307",
+  "mentions": [
+    "A039662",
+    "A091694"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "cofr",
+    "cons",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-entry"
+  }
+}

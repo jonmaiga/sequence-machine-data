@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = 1 if sigma(n) is divisible by all proper divisors of n, 0 otherwise.",
+  "id": "A323152",
+  "mentions": [
+    "A166070",
+    "A323153"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:47",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

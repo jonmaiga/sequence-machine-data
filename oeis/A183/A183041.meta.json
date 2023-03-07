@@ -1,0 +1,22 @@
+{
+  "description": "Least number of knight's moves from (0,0) to (n,1) on infinite chessboard.",
+  "id": "A183041",
+  "mentions": [
+    "A018837",
+    "A065775",
+    "A162330",
+    "A183042",
+    "A183053"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:13:17",
+    "offset": 0,
+    "size": 70,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = m/A006939(A001221(m)) with m = A347284(n).",
+  "id": "A347356",
+  "mentions": [
+    "A001221",
+    "A002110",
+    "A006939",
+    "A089576",
+    "A347284",
+    "A347354"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:20",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Numbers obtained by alternatively adding centered pentagonal layers of 5*(2^n-1) and 5*(3^n-1) elements.",
+  "id": "A276917",
+  "mentions": [
+    "A005891"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

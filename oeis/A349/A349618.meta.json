@@ -1,0 +1,22 @@
+{
+  "description": "Dirichlet convolution of arithmetic derivative with A325126 [Dirichlet inverse of rad(n)].",
+  "id": "A349618",
+  "mentions": [
+    "A003415",
+    "A007947",
+    "A325126",
+    "A349394",
+    "A349612"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:24",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

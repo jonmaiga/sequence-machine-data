@@ -1,0 +1,21 @@
+{
+  "description": "Second term in Fibonacci-type sequence described by A015134.",
+  "id": "A179392",
+  "mentions": [
+    "A015134",
+    "A179390",
+    "A179391",
+    "A179393"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 104,
+    "source": "oeis-entry"
+  }
+}

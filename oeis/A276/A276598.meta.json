@@ -1,0 +1,29 @@
+{
+  "description": "Values of m such that m^2 + 3 is a triangular number (A000217).",
+  "id": "A276598",
+  "mentions": [
+    "A000129",
+    "A000217",
+    "A001109",
+    "A077241",
+    "A106328",
+    "A230044",
+    "A276599",
+    "A276600",
+    "A276601",
+    "A276602",
+    "A328791"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

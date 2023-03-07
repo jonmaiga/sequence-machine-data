@@ -1,0 +1,18 @@
+{
+  "description": "Triangular Kaprekar-like numbers: numbers k such that the base-10 representation of T(k) = k*(k+1)/2 is the concatenation of two numbers x and y such that x + y = k.",
+  "id": "A110939",
+  "mentions": [
+    "A006886"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:02",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

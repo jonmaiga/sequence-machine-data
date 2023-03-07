@@ -1,0 +1,28 @@
+{
+  "description": "Numbers k such that every integer partition of k contains a 1, a squarefree number, or a prime power.",
+  "id": "A322547",
+  "mentions": [
+    "A000607",
+    "A002095",
+    "A005117",
+    "A023893",
+    "A023894",
+    "A064573",
+    "A078135",
+    "A101417",
+    "A246655",
+    "A322546"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

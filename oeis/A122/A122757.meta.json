@@ -1,0 +1,19 @@
+{
+  "description": "Process number as a vertex through put triangular product function: m (In)-> {n-states}->m (Out) T(n,m)=m^2*g(n): g(n)=A084221[n].",
+  "id": "A122757",
+  "mentions": [
+    "A084221"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

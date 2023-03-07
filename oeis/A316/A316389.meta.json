@@ -1,0 +1,18 @@
+{
+  "description": "Continued fraction expansion of largest root of x^3 - 7*x + 7.",
+  "id": "A316389",
+  "mentions": [
+    "A039921"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "cofr",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

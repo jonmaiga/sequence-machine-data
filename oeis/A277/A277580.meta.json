@@ -1,0 +1,19 @@
+{
+  "description": "Numbers that are both Smith (A006753) and Lucas-Carmichael (A006972).",
+  "id": "A277580",
+  "mentions": [
+    "A006753",
+    "A006972"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

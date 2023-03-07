@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = least Lucas-Carmichael number which is divisible by b(n), where {b(n)} (A255602) is the list of all numbers which could be a divisor of a Lucas-Carmichael number.",
+  "id": "A253598",
+  "mentions": [
+    "A006972",
+    "A253597",
+    "A255602"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "changed",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:12",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

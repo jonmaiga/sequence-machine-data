@@ -1,0 +1,20 @@
+{
+  "description": "T(n,k)=Number of nXk 1..(max n,k) arrays with each row and column having unrepeated values",
+  "id": "A221438",
+  "mentions": [
+    "A000142",
+    "A002860",
+    "A082491"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:39",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

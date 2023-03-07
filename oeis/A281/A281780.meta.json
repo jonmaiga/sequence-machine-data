@@ -1,0 +1,27 @@
+{
+  "description": "Number of distinct topologies on an n-set that have exactly 12 open sets.",
+  "id": "A281780",
+  "mentions": [
+    "A000012",
+    "A000918",
+    "A028244",
+    "A281773",
+    "A281774",
+    "A281775",
+    "A281776",
+    "A281777",
+    "A281778",
+    "A281779"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

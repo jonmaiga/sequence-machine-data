@@ -1,0 +1,21 @@
+{
+  "description": "Number of ways to write n as w^2 + T(x)^2 + Pen(y)^2 + 2*Pen(z)^2, where w,x,y,z are integers with w > 0 and x >= 0, and T(m) = m*(m+1)/2 and Pen(m) = m*(3m-1)/2.",
+  "id": "A306606",
+  "mentions": [
+    "A000217",
+    "A000290",
+    "A001318",
+    "A275344",
+    "A306614"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

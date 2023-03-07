@@ -1,0 +1,39 @@
+{
+  "description": "Number of integer partitions of n with at least two adjacent parts of quotient 2.",
+  "id": "A350846",
+  "mentions": [
+    "A000041",
+    "A000929",
+    "A003000",
+    "A003114",
+    "A018819",
+    "A045690",
+    "A045691",
+    "A116931",
+    "A120641",
+    "A154402",
+    "A320340",
+    "A323092",
+    "A323093",
+    "A342094",
+    "A342095",
+    "A342096",
+    "A342098",
+    "A350837",
+    "A350838",
+    "A350840",
+    "A350842",
+    "A350844",
+    "A350845"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

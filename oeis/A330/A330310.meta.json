@@ -1,0 +1,17 @@
+{
+  "description": "Let p = prime(n); a(n) = (p-1)/2 if that is prime, or (p+1)/2 if that is prime, and otherwise p itself.",
+  "id": "A330310",
+  "mentions": [
+    "A328686"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:59",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

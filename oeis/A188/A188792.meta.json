@@ -1,0 +1,21 @@
+{
+  "description": "Table with T(n,k) the number of word structures of length n which can be decomposed into k palindromes but not fewer.",
+  "id": "A188792",
+  "mentions": [
+    "A000110",
+    "A165137",
+    "A188164"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:13",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

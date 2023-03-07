@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = A163659(n^3), where A163659 is the logarithmic derivative of Stern's diatomic series (A002487).",
+  "id": "A237649",
+  "mentions": [
+    "A002487",
+    "A163659",
+    "A237646"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "mult",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

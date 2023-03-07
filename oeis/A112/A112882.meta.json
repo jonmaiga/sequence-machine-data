@@ -1,0 +1,19 @@
+{
+  "description": "Indices of prime Padovan numbers; values of n such that A000931(n+5) is prime.",
+  "id": "A112882",
+  "mentions": [
+    "A000931",
+    "A100891"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

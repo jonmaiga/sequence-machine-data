@@ -1,0 +1,18 @@
+{
+  "description": "Let S = smallest missing positive number, adjoin S, 3*S, 9*S, 27*S, 81*S, ... to the sequence until reaching a term that has S as a substring; reset S to the smallest missing positive number, repeat.",
+  "id": "A331631",
+  "mentions": [
+    "A331440"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:01",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

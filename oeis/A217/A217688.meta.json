@@ -1,0 +1,21 @@
+{
+  "description": "Values of n such that 10^n gets increasingly closer to a Fibonacci number (measured by the ratio between the power of 10 and the nearest Fibonacci number).",
+  "id": "A217688",
+  "mentions": [
+    "A217684",
+    "A217685",
+    "A217686",
+    "A217687"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

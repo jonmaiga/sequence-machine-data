@@ -1,0 +1,21 @@
+{
+  "description": "Record gaps between palindromic primes (upper end) (compare A327428, which gives lower ends of these gaps).",
+  "id": "A327429",
+  "mentions": [
+    "A000101",
+    "A002385",
+    "A327427",
+    "A327428"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = n OR A001065(n), where OR is bitwise-or (A003986) and A001065 = sum of proper divisors.",
+  "id": "A318456",
+  "mentions": [
+    "A000203",
+    "A001065",
+    "A003986",
+    "A318457",
+    "A318458",
+    "A318466"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:39",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

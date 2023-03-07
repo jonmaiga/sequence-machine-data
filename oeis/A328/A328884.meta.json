@@ -1,0 +1,21 @@
+{
+  "description": "Improved version of A002685; main diagonal of A324124.",
+  "id": "A328884",
+  "mentions": [
+    "A002685",
+    "A002686",
+    "A324124",
+    "A328866",
+    "A328885"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Square array A(n,k) (n>=1, k>=1) read by antidiagonals: A(n,k) is the number of n-colorings of the Möbius ladder M_k on 2k vertices.",
+  "id": "A277444",
+  "mentions": [
+    "A000004",
+    "A002378",
+    "A010673",
+    "A052762",
+    "A182406",
+    "A277443"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the number formed by removing from n each digit if it is a duplicate of the previous digit, from left to right.",
+  "id": "A337864",
+  "mentions": [
+    "A043096",
+    "A090079",
+    "A106612",
+    "A137564",
+    "A337857"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:09",
+    "offset": 0,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

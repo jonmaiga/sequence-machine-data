@@ -1,0 +1,22 @@
+{
+  "description": "E.g.f.: A(x) = exp(x*sinh(x*G(x))) where G(x) = cosh(x*G(x)) is the e.g.f. of A143601.",
+  "id": "A143598",
+  "mentions": [
+    "A007106",
+    "A058014",
+    "A143599",
+    "A143600",
+    "A143601"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

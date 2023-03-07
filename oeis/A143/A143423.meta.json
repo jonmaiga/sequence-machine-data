@@ -1,0 +1,19 @@
+{
+  "description": "Least even number k such that phi(k) = n, where n runs through the values (A002202) taken by phi.",
+  "id": "A143423",
+  "mentions": [
+    "A002181",
+    "A002202",
+    "A006511"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:32",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

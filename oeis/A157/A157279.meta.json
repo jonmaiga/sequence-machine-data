@@ -1,0 +1,19 @@
+{
+  "description": "Product 1*2*...*r mod n, where r = integer part of sqrt(n).",
+  "id": "A157279",
+  "mentions": [
+    "A000142",
+    "A000196"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-entry"
+  }
+}

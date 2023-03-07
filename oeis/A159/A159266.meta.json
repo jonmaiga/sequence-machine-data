@@ -1,0 +1,20 @@
+{
+  "description": "Least positive integer m such that 2^n+3^m is prime.",
+  "id": "A159266",
+  "mentions": [
+    "A123340",
+    "A123359",
+    "A159625"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:41",
+    "offset": 1,
+    "size": 89,
+    "source": "oeis-bfile"
+  }
+}

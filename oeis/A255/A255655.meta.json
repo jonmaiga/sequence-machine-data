@@ -1,0 +1,23 @@
+{
+  "description": "The sum of the odd terms in row n of A050873.",
+  "id": "A255655",
+  "mentions": [
+    "A000010",
+    "A001620",
+    "A018804",
+    "A050873",
+    "A193356"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:24",
+    "offset": 1,
+    "size": 60,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Numbers with 40 divisors.",
+  "id": "A175749",
+  "mentions": [
+    "A000005",
+    "A175747",
+    "A175748"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:25:51",
+    "offset": 1,
+    "size": 42,
+    "source": "joeis"
+  }
+}

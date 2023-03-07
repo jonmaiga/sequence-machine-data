@@ -1,0 +1,21 @@
+{
+  "description": "Number of hands a bartender needs to have in order to win at the blind bartender's problem with n glasses in a cycle.",
+  "id": "A171462",
+  "mentions": [
+    "A006530",
+    "A060681",
+    "A191898"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:55",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Primes p such that p - 1 is a binary Keith number (A162724).",
+  "id": "A265426",
+  "mentions": [
+    "A000079",
+    "A007629",
+    "A019434",
+    "A162363",
+    "A162724"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

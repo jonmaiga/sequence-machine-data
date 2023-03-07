@@ -1,0 +1,27 @@
+{
+  "description": "The largest prime whose square divides n, 1 if n is squarefree.",
+  "id": "A249740",
+  "mentions": [
+    "A003557",
+    "A005117",
+    "A006530",
+    "A013929",
+    "A052126",
+    "A070003",
+    "A071773",
+    "A241917",
+    "A249718",
+    "A249739"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:06",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

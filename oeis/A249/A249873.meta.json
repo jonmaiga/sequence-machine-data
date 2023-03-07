@@ -1,0 +1,20 @@
+{
+  "description": "In decimal representation: replace each even positioned digit with the digit sum of its double.",
+  "id": "A249873",
+  "mentions": [
+    "A007953",
+    "A028897",
+    "A093017"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:06",
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

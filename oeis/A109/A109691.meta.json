@@ -1,0 +1,20 @@
+{
+  "description": "Smallest 5th power that contains exactly n occurrences of the string n.",
+  "id": "A109691",
+  "mentions": [
+    "A109689",
+    "A109690"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Numbers whose least primitive root is an odd prime.",
+  "id": "A317649",
+  "mentions": [
+    "A033948",
+    "A048976"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:37",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

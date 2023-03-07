@@ -1,0 +1,20 @@
+{
+  "description": "Numbers whose fifth powers have a partition as a sum of fifth powers of four positive integers.",
+  "id": "A134341",
+  "mentions": [
+    "A003828",
+    "A063922",
+    "A063923",
+    "A175610"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

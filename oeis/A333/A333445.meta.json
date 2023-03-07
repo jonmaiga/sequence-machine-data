@@ -1,0 +1,19 @@
+{
+  "description": "Table T(n,k) read by upward antidiagonals. T(n,k) = Product_{i=1..n} Sum_{j=1..k} (i-1)*k+j",
+  "id": "A333445",
+  "mentions": [
+    "A333420"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Number of steps needed to reach 1 or to enter the cycle in the \"sqrt(3)*x+1\" problem.",
+  "id": "A264789",
+  "mentions": [
+    "A006577"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:24",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

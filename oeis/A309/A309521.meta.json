@@ -1,0 +1,18 @@
+{
+  "description": "The sequence is always extended by subtracting the n-th digit of the sequence from a(n) if a(n) is prime, else adding it to a(n), starting with a(1) = 4.",
+  "id": "A309521",
+  "mentions": [
+    "A309529"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:33",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

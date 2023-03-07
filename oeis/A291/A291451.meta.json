@@ -1,0 +1,32 @@
+{
+  "description": "Triangle read by rows, expansion of e.g.f. exp(x*(exp(z)/3 + 2*exp(-z/2)* cos(z*sqrt(3)/2)/3 - 1)), nonzero coefficients of z.",
+  "id": "A291451",
+  "mentions": [
+    "A000012",
+    "A000110",
+    "A000587",
+    "A001147",
+    "A005046",
+    "A025035",
+    "A025036",
+    "A048993",
+    "A156289",
+    "A260884",
+    "A291452",
+    "A291973",
+    "A291974",
+    "A291975",
+    "A291976"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

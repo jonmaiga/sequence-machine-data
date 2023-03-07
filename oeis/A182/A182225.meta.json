@@ -1,0 +1,19 @@
+{
+  "description": "Numbers m such that the sum of their divisors smaller than A033880(m) is greater than A033880(m).",
+  "id": "A182225",
+  "mentions": [
+    "A005101",
+    "A033880",
+    "A100696"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:05",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

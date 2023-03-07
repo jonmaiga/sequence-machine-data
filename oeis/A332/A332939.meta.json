@@ -1,0 +1,21 @@
+{
+  "description": "The number of steps to return to the origin for a walk on a 2D square grid where the walk changes direction to move as close as possible toward the origin after it has taken a prime number of steps; backtracking on its previous step is not allowed.",
+  "id": "A332939",
+  "mentions": [
+    "A000040",
+    "A065358",
+    "A265843",
+    "A330339"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

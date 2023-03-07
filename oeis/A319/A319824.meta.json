@@ -1,0 +1,20 @@
+{
+  "description": "Numbers that are not the sum of distinct lucky-indexed lucky numbers.",
+  "id": "A319824",
+  "mentions": [
+    "A000959",
+    "A032639",
+    "A213356",
+    "A318487"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:42",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

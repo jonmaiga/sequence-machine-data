@@ -1,0 +1,19 @@
+{
+  "description": "Primes q with prime gap q - p of n-th record merit.",
+  "id": "A277552",
+  "mentions": [
+    "A111870",
+    "A111871"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

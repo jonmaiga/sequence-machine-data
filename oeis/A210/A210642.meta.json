@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = least integer m > 1 such that k! == n! (mod m) for no 0 < k < n.",
+  "id": "A210642",
+  "mentions": [
+    "A000040",
+    "A207982",
+    "A208494",
+    "A208643",
+    "A210144",
+    "A210186",
+    "A210393",
+    "A210394",
+    "A210640"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:29",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

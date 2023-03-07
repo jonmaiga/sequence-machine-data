@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = |{0 < k < n: (k+1)^{phi(n-k)} + k is prime}|, where phi(.) is Euler's totient function.",
+  "id": "A234360",
+  "mentions": [
+    "A000010",
+    "A000040",
+    "A234309",
+    "A234310",
+    "A234337",
+    "A234344",
+    "A234346",
+    "A234347",
+    "A234359"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:52",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

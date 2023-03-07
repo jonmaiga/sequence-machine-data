@@ -1,0 +1,22 @@
+{
+  "description": "a(n)=10*a(n-1)-12*a(n-2), n>1 ; a(0)=1, a(1)=4 .",
+  "id": "A152599",
+  "mentions": [
+    "A006012",
+    "A052961",
+    "A147703",
+    "A152596"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 02:00:16",
+    "offset": 0,
+    "size": 20,
+    "source": "joeis"
+  }
+}

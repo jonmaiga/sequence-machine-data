@@ -1,0 +1,25 @@
+{
+  "description": "a(n) is the least value of k such that the decimal expansion of Fibonacci(k) contains n consecutive identical digits.",
+  "id": "A217165",
+  "mentions": [
+    "A000045",
+    "A045875",
+    "A215727",
+    "A215728",
+    "A215729",
+    "A215730",
+    "A215731"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

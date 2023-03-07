@@ -1,0 +1,18 @@
+{
+  "description": "Number of permutations on [n] admitting a ninth root.",
+  "id": "A247007",
+  "mentions": [
+    "A102736",
+    "A247005"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:03",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

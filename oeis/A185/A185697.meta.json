@@ -1,0 +1,20 @@
+{
+  "description": "Array to be read by rows: Number of ways of placing n rods of length L in a LxLxL simple cubic lattice without any two rods intersecting. (Consecutive rows are for L>=0; in each row, 0<=n<=L^2.)",
+  "id": "A185697",
+  "mentions": [
+    "A181323",
+    "A185702"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:10",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

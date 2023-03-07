@@ -1,0 +1,26 @@
+{
+  "description": "Fixed points for the operation of repeatedly replacing a number with the sum of the ninth powers of its digits.",
+  "id": "A226970",
+  "mentions": [
+    "A003321",
+    "A046197",
+    "A052455",
+    "A052464",
+    "A124068",
+    "A124069",
+    "A252648"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

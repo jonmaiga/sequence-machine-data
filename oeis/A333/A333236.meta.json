@@ -1,0 +1,21 @@
+{
+  "description": "Largest digit in the decimal expansion of 1/n.",
+  "id": "A333236",
+  "mentions": [
+    "A333237",
+    "A333402"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

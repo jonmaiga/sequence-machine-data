@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = n*( a(n-1)+1 ), initialized by a(1) = -1.",
+  "id": "A224869",
+  "mentions": [
+    "A007526",
+    "A038156",
+    "A121662",
+    "A166554"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:19:35",
+    "offset": 1,
+    "size": 22,
+    "source": "joeis"
+  }
+}

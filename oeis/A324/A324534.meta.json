@@ -1,0 +1,21 @@
+{
+  "description": "The smallest common prime factor of sigma(n) and A276086(n), or 1 if no such prime exists.",
+  "id": "A324534",
+  "mentions": [
+    "A000203",
+    "A020639",
+    "A276086",
+    "A324644"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:50",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

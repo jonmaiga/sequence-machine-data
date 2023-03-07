@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the smallest prime p which is greater than the exponent of the n-th Mersenne prime.",
+  "id": "A342692",
+  "mentions": [
+    "A000043",
+    "A000668",
+    "A151800"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "hard",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "description": "Decimal expansion of the semiprime nested radical.",
+  "id": "A105815",
+  "mentions": [
+    "A001358",
+    "A072449",
+    "A083869",
+    "A099874",
+    "A099876",
+    "A099877",
+    "A099878",
+    "A099879",
+    "A105546",
+    "A105548",
+    "A105816",
+    "A239349"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

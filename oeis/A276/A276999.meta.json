@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows, T(n,k) = n^k - 2^(k/2)*KummerU(-k/2,1/2,n^2/2) for 0<=k<=n.",
+  "id": "A276999",
+  "mentions": [
+    "A008585",
+    "A127694",
+    "A224334",
+    "A244490"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

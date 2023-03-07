@@ -1,0 +1,19 @@
+{
+  "description": "E.g.f. A(x) satisfies A'(x) = 1 + 2 * A(1 - exp(-x)).",
+  "id": "A355207",
+  "mentions": [
+    "A355093",
+    "A355203"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:29",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

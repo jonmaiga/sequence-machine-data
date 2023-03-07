@@ -1,0 +1,23 @@
+{
+  "description": "Numbers such that in base-4 representation all sums of two adjacent digits are odd.",
+  "id": "A179970",
+  "mentions": [
+    "A000975",
+    "A007088",
+    "A007090",
+    "A166535"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:03",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

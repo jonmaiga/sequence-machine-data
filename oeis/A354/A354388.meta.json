@@ -1,0 +1,22 @@
+{
+  "description": "Table read upward by antidiagonals: the n-th row gives the sums of each weakly decreasing nonnegative integer sequence of length n, listed in lexicographic order.",
+  "id": "A354388",
+  "mentions": [
+    "A001477",
+    "A051162",
+    "A070770",
+    "A070771",
+    "A070772"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:29",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

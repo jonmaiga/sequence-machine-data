@@ -1,0 +1,23 @@
+{
+  "description": "Number of closed normal forms of size n in lambda calculus with size 0 for the variables.",
+  "id": "A224345",
+  "mentions": [
+    "A135501",
+    "A195691",
+    "A220894",
+    "A220895",
+    "A220896",
+    "A220897"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:42",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

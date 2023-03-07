@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = number of n-digit numbers not divisible by any of their digits.",
+  "id": "A147963",
+  "mentions": [
+    "A038772"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:34",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

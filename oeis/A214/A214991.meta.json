@@ -1,0 +1,21 @@
+{
+  "description": "Second nearest integer to n*(1+golden ratio).",
+  "id": "A214991",
+  "mentions": [
+    "A000027",
+    "A001950",
+    "A004976",
+    "A214990"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:32",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

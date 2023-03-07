@@ -1,0 +1,20 @@
+{
+  "description": "Number of twins of prime quadruples < 10^n.",
+  "id": "A338866",
+  "mentions": [
+    "A007530",
+    "A059925",
+    "A338868"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the smallest centered n-gonal number with exactly n distinct prime factors.",
+  "id": "A358894",
+  "mentions": [
+    "A001221",
+    "A358862",
+    "A358863",
+    "A358864",
+    "A358865"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 3,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

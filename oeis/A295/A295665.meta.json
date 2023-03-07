@@ -1,0 +1,44 @@
+{
+  "description": "Fully multiplicative with a(prime(m)) = prime(k) when m = prime(k), and a(prime(m)) = 1 when m is not a prime.",
+  "id": "A295665",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A001222",
+    "A003963",
+    "A006450",
+    "A007097",
+    "A007821",
+    "A010051",
+    "A018252",
+    "A032742",
+    "A055396",
+    "A056239",
+    "A076610",
+    "A112798",
+    "A257538",
+    "A257994",
+    "A294876",
+    "A295666",
+    "A320628",
+    "A320633",
+    "A322027",
+    "A330944",
+    "A330945",
+    "A330947",
+    "A330948",
+    "A331386"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:14",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

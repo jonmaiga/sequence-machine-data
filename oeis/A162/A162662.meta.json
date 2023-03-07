@@ -1,0 +1,20 @@
+{
+  "description": "Sequence of alternating increasing odd and increasing even numbers such that the sum of any two terms of opposite parity is a prime number.",
+  "id": "A162662",
+  "mentions": [
+    "A000034",
+    "A115760",
+    "A180743"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Composite numbers n with k digits such that each sum of 1 to k digits of n is substring of n.",
+  "id": "A205530",
+  "mentions": [
+    "A202272",
+    "A205529"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

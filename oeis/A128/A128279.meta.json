@@ -1,0 +1,20 @@
+{
+  "description": "an=n-th smallest integer of the form m=p1*p2 where pi are odd primes such that d+2m/d are all primes for d dividing 2m.",
+  "id": "A128279",
+  "mentions": [
+    "A045536",
+    "A128276",
+    "A128277",
+    "A128278"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

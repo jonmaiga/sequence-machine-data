@@ -1,0 +1,30 @@
+{
+  "description": "Dirichlet inverse of A353627, the characteristic function of the squarefree numbers multiplied by binary powers.",
+  "id": "A358839",
+  "mentions": [
+    "A008586",
+    "A008683",
+    "A008836",
+    "A166486",
+    "A166698",
+    "A353627",
+    "A355689",
+    "A359370",
+    "A359371",
+    "A359372",
+    "A359373",
+    "A359378"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "mult",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:32",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

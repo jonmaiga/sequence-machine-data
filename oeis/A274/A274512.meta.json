@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the only number m such that 10^(2^m) + 1 is divisible by A072982(n+1).",
+  "id": "A274512",
+  "mentions": [
+    "A072982",
+    "A197224"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

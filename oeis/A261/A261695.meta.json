@@ -1,0 +1,26 @@
+{
+  "description": "First differences of A256534.",
+  "id": "A261695",
+  "mentions": [
+    "A011782",
+    "A139251",
+    "A147582",
+    "A161411",
+    "A161415",
+    "A241717",
+    "A256531",
+    "A256534"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

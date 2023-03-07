@@ -1,0 +1,19 @@
+{
+  "description": "Composite numbers k such that sum of proper divisors of k divides 2^k-1.",
+  "id": "A278315",
+  "mentions": [
+    "A000225",
+    "A001065",
+    "A001146"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:45",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

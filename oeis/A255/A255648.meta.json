@@ -1,0 +1,28 @@
+{
+  "description": "Expansion of (a(q) + a(q^2) + a(q^3) + a(q^6) - 4) / 6 in powers of q where a() is a cubic AGM theta function.",
+  "id": "A255648",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A004016",
+    "A005882",
+    "A005928",
+    "A010054",
+    "A010815",
+    "A033687",
+    "A035178",
+    "A121373"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:13",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

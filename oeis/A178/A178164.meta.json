@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of the largest arbitrarily-long Type-2 Trott-like constant (see A178160 for definition).",
+  "id": "A178164",
+  "mentions": [
+    "A091694",
+    "A113307",
+    "A178160"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:01",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of ordered solutions (x,y,z) to x^3 + y^3 == z^3 mod n with 1 <= x,y,z <= n-1.",
+  "id": "A137401",
+  "mentions": [
+    "A000189",
+    "A063454",
+    "A087786"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:25",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

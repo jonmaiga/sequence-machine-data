@@ -1,0 +1,24 @@
+{
+  "description": "For any number n > 0, let f(n) be the function that associates k to the prime(k)-adic valuation of n (where prime(k) denotes the k-th prime); f establishes a bijection between the positive numbers and the arithmetic functions with nonnegative integer values and a finite number of nonzero values; let g be the inverse of f; a(n) = g(f(n) * f(n)) (where i * j denotes the Dirichlet convolution of i and j).",
+  "id": "A296857",
+  "mentions": [
+    "A000040",
+    "A001221",
+    "A001222",
+    "A011757",
+    "A055396",
+    "A061395",
+    "A248601"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:16",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

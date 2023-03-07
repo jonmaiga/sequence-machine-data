@@ -1,0 +1,18 @@
+{
+  "description": "Number of (w,x,y,z) with all terms in {0,...,n} and w=[R/2], where R=max{w,x,y,z}-min{w,x,y,z} and [ ]=floor.",
+  "id": "A212758",
+  "mentions": [
+    "A211795"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:35:17",
+    "offset": 0,
+    "size": 39,
+    "source": "joeis"
+  }
+}

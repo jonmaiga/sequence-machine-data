@@ -1,0 +1,18 @@
+{
+  "description": "Smallest m such that |A259029(m)| = n.",
+  "id": "A259031",
+  "mentions": [
+    "A259024",
+    "A259029"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that n'' = n'+1 where n' and n'' are respectively the first and the second arithmetic derivative of n (A003415).",
+  "id": "A189639",
+  "mentions": [
+    "A003415",
+    "A007850",
+    "A054377",
+    "A132632"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:13",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

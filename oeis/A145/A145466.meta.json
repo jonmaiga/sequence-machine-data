@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of q^(1/6) * eta(q) / eta(q^5) in powers of q.",
+  "id": "A145466",
+  "mentions": [
+    "A035959",
+    "A035969",
+    "A058511",
+    "A116073",
+    "A145467",
+    "A145468"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 0,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

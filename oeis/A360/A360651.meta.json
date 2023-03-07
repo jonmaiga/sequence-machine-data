@@ -1,0 +1,22 @@
+{
+  "description": "Triangle T(n, m) = (n - m + 1)*C(2*n + 1, m)*C(2*n - m + 2, n - m + 1)/(2*n - m + 2).",
+  "id": "A360651",
+  "mentions": [
+    "A001700",
+    "A069720",
+    "A085880"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "new",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

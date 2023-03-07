@@ -1,0 +1,21 @@
+{
+  "description": "Index of the largest maximal subgroup of PSL(3,q) as q runs through the prime powers (A000961).",
+  "id": "A138077",
+  "mentions": [
+    "A000961",
+    "A003807",
+    "A335865"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "A ten-out-of-twelve fractal substitution sequence based on 7th like chords: 1->{1,5,9,12}->{A,Db,F,Ab}, 3->{3,7,11,2}->{B,E, G,Bb}, 4->{4,8,12,3}->{C,Eb,Ab,B}.",
+  "id": "A132361",
+  "mentions": [
+    "A132150",
+    "A132160"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 94,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "A(n,k) = Fibonacci(n) represented in bijective base-k numeration; square array A(n,k), n>=1, k>=1, read by antidiagonals.",
+  "id": "A214679",
+  "mentions": [
+    "A000045",
+    "A085652",
+    "A108047",
+    "A214676",
+    "A282234",
+    "A282235",
+    "A282236",
+    "A282237",
+    "A282238",
+    "A282239",
+    "A282240"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:32",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

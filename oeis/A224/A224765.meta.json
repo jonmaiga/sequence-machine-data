@@ -1,0 +1,20 @@
+{
+  "description": "Denominator of fractional curling number of binary expansion of n.",
+  "id": "A224765",
+  "mentions": [
+    "A181935",
+    "A224762",
+    "A224764"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:42",
+    "offset": 0,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of -2B = sum(r in Z, 1/(r*(1-r))), where Z is the set of zeros of the Riemann zeta-function which lie in the strip 0 <= Re(z) <= 1.",
+  "id": "A195423",
+  "mentions": [
+    "A002410",
+    "A074760",
+    "A233825"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "A self-descriptive fractal sequence: if 1 is subtracted from every term and any zero terms are omitted, the original sequence is recovered (this process may be called \"lower trimming\").",
+  "id": "A112377",
+  "mentions": [
+    "A000045",
+    "A112378",
+    "A112379",
+    "A112380",
+    "A112382"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 99,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Greatest Ramanujan prime index less than x, eta(x).",
+  "id": "A191228",
+  "mentions": [
+    "A104272",
+    "A174602",
+    "A190874",
+    "A191225",
+    "A191226",
+    "A191227"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

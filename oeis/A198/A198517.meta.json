@@ -1,0 +1,25 @@
+{
+  "description": "Period 5: repeat [1,0,1,0,0].",
+  "id": "A198517",
+  "mentions": [
+    "A011658",
+    "A057354",
+    "A079998",
+    "A105385",
+    "A156174",
+    "A177706",
+    "A232990"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:54:25",
+    "offset": 0,
+    "size": 88,
+    "source": "joeis"
+  }
+}

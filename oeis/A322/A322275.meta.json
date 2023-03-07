@@ -1,0 +1,24 @@
+{
+  "description": "Smallest multiplication factors f, prime or 1, for all b (mod 120120), coprime to 120120 (= 4*13#), so that b*f is a square mod 8, and modulo all primes up to 13.",
+  "id": "A322275",
+  "mentions": [
+    "A008366",
+    "A322269",
+    "A322271",
+    "A322272",
+    "A322273",
+    "A322274"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:45",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

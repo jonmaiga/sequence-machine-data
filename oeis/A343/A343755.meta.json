@@ -1,0 +1,24 @@
+{
+  "description": "Number of regions formed by infinite lines when connecting all vertices and all points that divide the sides of an equilateral triangle into n equal parts.",
+  "id": "A343755",
+  "mentions": [
+    "A092867",
+    "A121205",
+    "A344279",
+    "A344657",
+    "A344896",
+    "A345025",
+    "A346446"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

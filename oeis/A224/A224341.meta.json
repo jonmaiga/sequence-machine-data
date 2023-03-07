@@ -1,0 +1,19 @@
+{
+  "description": "Apparently solves the identity: Find sequence A that represents the numbers of ordered compositions of n into the elements of the set {B}; and vice versa.",
+  "id": "A224341",
+  "mentions": [
+    "A079958",
+    "A224342"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

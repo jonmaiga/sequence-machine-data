@@ -1,0 +1,21 @@
+{
+  "description": "3*A046854 - 2*I.",
+  "id": "A131241",
+  "mentions": [
+    "A046854",
+    "A111314",
+    "A131240"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

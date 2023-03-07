@@ -1,0 +1,27 @@
+{
+  "description": "a(n) is the hafnian of a symmetric Toeplitz matrix M(2n) whose first row consists of a single zero followed by successive positive integers repeated (A004526).",
+  "id": "A338456",
+  "mentions": [
+    "A002378",
+    "A004526",
+    "A083392",
+    "A202038",
+    "A332566",
+    "A333119",
+    "A336114",
+    "A336286",
+    "A336400"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

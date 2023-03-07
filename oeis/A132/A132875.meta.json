@@ -1,0 +1,23 @@
+{
+  "description": "Triangle T, read by rows, where g.f. of row n of T^n = (y + n*(n+1))^n for n>=0 and T^n denotes the n-th matrix power of T.",
+  "id": "A132875",
+  "mentions": [
+    "A132870",
+    "A132876",
+    "A132877",
+    "A132878",
+    "A132879"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

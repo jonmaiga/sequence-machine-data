@@ -1,0 +1,19 @@
+{
+  "description": "Maximal period-length associated with binary fractility of n.",
+  "id": "A269572",
+  "mentions": [
+    "A269570",
+    "A269571"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 2,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

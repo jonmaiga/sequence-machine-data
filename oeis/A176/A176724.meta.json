@@ -1,0 +1,22 @@
+{
+  "description": "Triangle for number of partitions which define multiset repetition classes.",
+  "id": "A176724",
+  "mentions": [
+    "A000217",
+    "A007294",
+    "A176723"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

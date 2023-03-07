@@ -1,0 +1,25 @@
+{
+  "description": "Numerators of coefficients for numerical integration of certain differential systems (Array A(i,k) read by ascending antidiagonals).",
+  "id": "A348220",
+  "mentions": [
+    "A002681",
+    "A002682",
+    "A003215",
+    "A005843",
+    "A007395",
+    "A348221"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "frac",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

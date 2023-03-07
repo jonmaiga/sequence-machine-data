@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of the unique positive real root of the equation x^x^(x - 1) = x + 1.",
+  "id": "A356805",
+  "mentions": [
+    "A124930",
+    "A356562"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Tally the digits of n: list the distinct digits of n in order of appearance, each followed by the respective count, concatenate.",
+  "id": "A330286",
+  "mentions": [
+    "A010784",
+    "A045918"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

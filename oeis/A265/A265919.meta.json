@@ -1,0 +1,18 @@
+{
+  "description": "Numerator of the probability that Bob wins the following game: Alice and Bob take turn (Alice starts first) to gain 1 or 2 chips randomly and independently with 1/2 chance, and the first player that collects at least n chips is the winner.",
+  "id": "A265919",
+  "mentions": [
+    "A265920"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:26",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

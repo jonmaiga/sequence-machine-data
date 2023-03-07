@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of sum_(n>=1) (H(n)^3/(n+1)^2) where H(n) is the n-th harmonic number.",
+  "id": "A244667",
+  "mentions": [
+    "A001008",
+    "A002117",
+    "A002805",
+    "A013663"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:00",
+    "offset": 1,
+    "size": 101,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "SumXOR of divisors of n, up to, but not including the second largest of them A032742(n); a(1) = 0 by convention.",
+  "id": "A318504",
+  "mentions": [
+    "A003987",
+    "A032742",
+    "A106409",
+    "A178910",
+    "A227320",
+    "A318505",
+    "A318507",
+    "A318517"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:39",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

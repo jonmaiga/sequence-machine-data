@@ -1,0 +1,18 @@
+{
+  "description": "G.f. satisfies: A(x) = B(x*A(x)) where B(x) = Sum_{n>=0} x^n/n!^2 and A(x) = Sum_{n>=0} a(n)*x^n/n!^2.",
+  "id": "A179156",
+  "mentions": [
+    "A217567"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

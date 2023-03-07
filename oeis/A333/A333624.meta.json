@@ -1,0 +1,25 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) = number of triangles of zeros with side length k in the XOR-triangle with first row generated from the binary expansion of n.",
+  "id": "A333624",
+  "mentions": [
+    "A038554",
+    "A067255",
+    "A070939",
+    "A333625",
+    "A334556",
+    "A334591",
+    "A334769",
+    "A334896"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:04",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the smallest even number whose n smallest divisors > 2 are all odd.",
+  "id": "A352127",
+  "mentions": [
+    "A080359"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

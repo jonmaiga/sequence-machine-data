@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(0,0)=1; for n>=1 T(n,k) is the numerator of the coefficient of x^k in the characteristic polynomial of the matrix realizing the transformation to Jacobi coordinates for a system of n particles on a line.",
+  "id": "A223256",
+  "mentions": [
+    "A001008",
+    "A223257"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "frac",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

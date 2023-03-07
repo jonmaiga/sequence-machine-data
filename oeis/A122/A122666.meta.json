@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = n_d(n) where d() = A000005.",
+  "id": "A122666",
+  "mentions": [
+    "A000005",
+    "A122618"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

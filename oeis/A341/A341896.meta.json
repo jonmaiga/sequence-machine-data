@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of words of length n over the alphabet {a,b,c} with an even number of appearances of the letter 'a' and the sum of appearances of the letters 'b' and 'c' add up to at most 3.",
+  "id": "A341896",
+  "mentions": [
+    "A080856"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:47:45",
+    "offset": 0,
+    "size": 46,
+    "source": "joeis"
+  }
+}

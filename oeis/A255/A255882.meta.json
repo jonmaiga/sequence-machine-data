@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of exp( Sum_{n >= 1} A210657(n)*(-x)^n/n ).",
+  "id": "A255882",
+  "mentions": [
+    "A188514",
+    "A210657",
+    "A255881",
+    "A255883",
+    "A255884"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:13",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

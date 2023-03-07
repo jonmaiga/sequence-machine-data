@@ -1,0 +1,20 @@
+{
+  "description": "Least prime p(1) beginning a chain of primes p(i) = i*p(i-1) - (i-1) for i = 2, 3, ..., n.",
+  "id": "A226935",
+  "mentions": [
+    "A005603",
+    "A088251"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

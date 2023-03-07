@@ -1,0 +1,18 @@
+{
+  "description": "Number of permutations of 1..n with each sum of three adjacent terms unique.",
+  "id": "A147634",
+  "mentions": [
+    "A091217"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

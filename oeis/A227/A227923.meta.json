@@ -1,0 +1,26 @@
+{
+  "description": "Number of ways to write n = x + y (x, y > 0) such that 6*x-1 is a Sophie Germain prime and {6*y-1, 6*y+1} is a twin prime pair.",
+  "id": "A227923",
+  "mentions": [
+    "A001359",
+    "A005384",
+    "A006512",
+    "A046132",
+    "A176130",
+    "A187757",
+    "A199920",
+    "A227920",
+    "A230037",
+    "A230040"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

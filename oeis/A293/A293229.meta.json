@@ -1,0 +1,20 @@
+{
+  "description": "a(0) = 0; and for n > 0, a(n) = a(n-1) + (A008966(4n+3) - A008966(4n+1)).",
+  "id": "A293229",
+  "mentions": [
+    "A008966",
+    "A293428",
+    "A293429"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:09",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

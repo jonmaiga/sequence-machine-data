@@ -1,0 +1,17 @@
+{
+  "description": "Suppose n has prime factorization n=p1^a1*p2^a2*...*pk^ak and that D(n) is A006218, then n has all D(ai) even.",
+  "id": "A197917",
+  "mentions": [
+    "A006218"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

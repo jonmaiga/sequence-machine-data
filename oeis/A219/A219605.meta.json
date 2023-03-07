@@ -1,0 +1,28 @@
+{
+  "description": "Square array T(n,k), read by antidiagonals: T(n,2*k) = T(n,2*k-1)*n, T(n,2*k+1) = T(n,2*k)+n, T(n,0) = 1.",
+  "id": "A219605",
+  "mentions": [
+    "A000012",
+    "A000027",
+    "A002378",
+    "A005563",
+    "A008619",
+    "A019590",
+    "A035287",
+    "A045991",
+    "A123208",
+    "A152618"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 74,
+    "source": "oeis-entry"
+  }
+}

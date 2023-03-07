@@ -1,0 +1,21 @@
+{
+  "description": "Square array of distinct positive integers T(n, k), n > 0, k > 0, read by antidiagonals upwards, filled the greedy way such that for any n > 0 and k > 0, Sum_{ i = 1..n, j = 1..k } T(i, j) is divisible by n * k.",
+  "id": "A338872",
+  "mentions": [
+    "A019444",
+    "A338918",
+    "A338919"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "look",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:11",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

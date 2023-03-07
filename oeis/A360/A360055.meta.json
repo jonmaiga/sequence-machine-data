@@ -1,0 +1,18 @@
+{
+  "description": "Number of L-connected free polyominoes with n cells (see comments for definition).",
+  "id": "A360055",
+  "mentions": [
+    "A000105",
+    "A126764"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:34",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

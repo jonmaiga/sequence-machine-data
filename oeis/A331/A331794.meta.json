@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{k=0..n} n^k * binomial(n+1,k) * binomial(n+1,k+1).",
+  "id": "A331794",
+  "mentions": [
+    "A331791",
+    "A331795"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:01",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

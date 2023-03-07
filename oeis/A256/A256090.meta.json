@@ -1,0 +1,23 @@
+{
+  "description": "Non-palindromic balanced primes in base 16.",
+  "id": "A256090",
+  "mentions": [
+    "A029732",
+    "A256075",
+    "A256076",
+    "A256080",
+    "A256082",
+    "A256089"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

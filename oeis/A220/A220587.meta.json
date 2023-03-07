@@ -1,0 +1,18 @@
+{
+  "description": "Number of Lyndon words appearing as n-th degree terms in Baker-Campbell-Hausdorff series.",
+  "id": "A220587",
+  "mentions": [
+    "A001037"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Indices k of tribonacci numbers T(k) such that T(k+1) - (tribonacci constant)*T(k) is negative.",
+  "id": "A352748",
+  "mentions": [
+    "A000073",
+    "A058265",
+    "A352719"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of permutations of length n containing exactly 1 occurrence of 1234 and 1 occurrence of 1243.",
+  "id": "A224293",
+  "mentions": [
+    "A006318",
+    "A224292"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Triangle, read by rows, T(n,k) = k*Sum_{i=0..n-k} C(2*i+2*k,i)*C(n-i-1,k-1)/(i+k) for 1 <= k <= n.",
+  "id": "A257488",
+  "mentions": [
+    "A000108",
+    "A014138",
+    "A062728"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

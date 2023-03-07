@@ -1,0 +1,22 @@
+{
+  "description": "Least m > 0 such that gcd(m^n+13, (m+1)^n+13) > 1, or 0 if there is no such m.",
+  "id": "A255863",
+  "mentions": [
+    "A118119",
+    "A255832",
+    "A255852",
+    "A255869"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

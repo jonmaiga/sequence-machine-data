@@ -1,0 +1,20 @@
+{
+  "description": "Maximum number of intercalates in a diagonal Latin square of order n.",
+  "id": "A307164",
+  "mentions": [
+    "A092237",
+    "A307163"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

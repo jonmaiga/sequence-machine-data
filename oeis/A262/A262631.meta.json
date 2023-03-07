@@ -1,0 +1,21 @@
+{
+  "description": "Minimal nested base-3 palindromic primes with seed 1.",
+  "id": "A262631",
+  "mentions": [
+    "A117698",
+    "A261881",
+    "A262627",
+    "A262632"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:22",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Enumeration table T(n,k) by descending antidiagonals. The order of the list - if n is odd: T(n,1), T(2,n-1), T(n-2,3), ..., T(n-1,2), T(1,n); if n is even: T(1,n), T(n-1,2), T(3,n-2), ..., T(2,n-1), T(n,1).",
+  "id": "A188568",
+  "mentions": [
+    "A056011",
+    "A056023",
+    "A057027",
+    "A064578",
+    "A064790",
+    "A194280",
+    "A194981",
+    "A194982",
+    "A208233",
+    "A208234"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:13",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

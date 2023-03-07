@@ -1,0 +1,30 @@
+{
+  "description": "Number T(n,k) of unlabeled rooted trees with n nodes and maximal outdegree (branching factor) k; triangle T(n,k), n>=1, 0<=k<=n-1, read by rows.",
+  "id": "A244372",
+  "mentions": [
+    "A000081",
+    "A244398",
+    "A244399",
+    "A244400",
+    "A244401",
+    "A244402",
+    "A244403",
+    "A244404",
+    "A244405",
+    "A244406",
+    "A244407",
+    "A244410",
+    "A244454"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:00",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

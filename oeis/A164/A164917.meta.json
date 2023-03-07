@@ -1,0 +1,23 @@
+{
+  "description": "Smallest number of steps to reach prime(n) by applying the map x->A060308(x) starting from any member of A164368.",
+  "id": "A164917",
+  "mentions": [
+    "A000040",
+    "A006992",
+    "A059788",
+    "A060308",
+    "A104272",
+    "A164288",
+    "A164368"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 106,
+    "source": "oeis-entry"
+  }
+}

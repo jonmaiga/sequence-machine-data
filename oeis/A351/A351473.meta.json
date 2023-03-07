@@ -1,0 +1,27 @@
+{
+  "description": "Numbers m such that the largest digit in the decimal expansion of 1/m is 7.",
+  "id": "A351473",
+  "mentions": [
+    "A073551",
+    "A333236",
+    "A333237",
+    "A333402",
+    "A341383",
+    "A350814",
+    "A351470",
+    "A351471",
+    "A351472",
+    "A351474"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Triangle T, read by rows, that satisfies the recurrence: T(n,k) = [T^5](n-1,k-1) + [T^5](n-1,k) for n>k>=0, with T(n,n)=1 for n>=0, where T^5 is the matrix 5th power of T.",
+  "id": "A113106",
+  "mentions": [
+    "A097710",
+    "A113084",
+    "A113095",
+    "A113103",
+    "A113107",
+    "A113108",
+    "A113110",
+    "A113112",
+    "A113113",
+    "A113114"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

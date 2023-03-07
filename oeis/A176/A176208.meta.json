@@ -1,0 +1,21 @@
+{
+  "description": "An irregular table with shape sequence A058884 measuring the length of ordered partitions defined by A176207.",
+  "id": "A176208",
+  "mentions": [
+    "A058884",
+    "A176206",
+    "A176207"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn",
+    "tabf",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 3,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

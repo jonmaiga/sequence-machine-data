@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that psi(k) is the sum of 2 squares, where psi is the Dedekind psi function (A001615).",
+  "id": "A333910",
+  "mentions": [
+    "A001481",
+    "A001615",
+    "A079545",
+    "A333909",
+    "A333911"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:05",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

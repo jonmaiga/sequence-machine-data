@@ -1,0 +1,32 @@
+{
+  "description": "Dirichlet inverse of A358680, where A358680 is the characteristic function of the numbers with even arithmetic derivative (A003415).",
+  "id": "A359780",
+  "mentions": [
+    "A003415",
+    "A003961",
+    "A016825",
+    "A067019",
+    "A235991",
+    "A235992",
+    "A353348",
+    "A358680",
+    "A359763",
+    "A359781",
+    "A359782",
+    "A359783",
+    "A359784",
+    "A359793",
+    "A359823"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:33",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

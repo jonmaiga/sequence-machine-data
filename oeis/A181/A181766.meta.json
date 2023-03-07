@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that 3*k + 7 is not prime.",
+  "id": "A181766",
+  "mentions": [
+    "A089953",
+    "A153282",
+    "A153309"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:05",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

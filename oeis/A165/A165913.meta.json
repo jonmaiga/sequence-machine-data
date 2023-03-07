@@ -1,0 +1,18 @@
+{
+  "description": "Irregular triangle read by rows: Squarefree nonzero quadratic residues.",
+  "id": "A165913",
+  "mentions": [
+    "A046071"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:49",
+    "offset": 1,
+    "size": 89,
+    "source": "oeis-bfile"
+  }
+}

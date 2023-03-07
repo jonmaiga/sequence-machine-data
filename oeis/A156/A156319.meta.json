@@ -1,0 +1,23 @@
+{
+  "description": "Triangle by columns: (1, 2, 0, 0, 0, ...) in every column.",
+  "id": "A156319",
+  "mentions": [
+    "A001045",
+    "A084938",
+    "A097806",
+    "A110813"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:38",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

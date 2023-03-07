@@ -1,0 +1,19 @@
+{
+  "description": "Numbers such that the numerator of floor(sqrt(n))/n, when reduced to its lowest terms, is equal to 2.",
+  "id": "A153192",
+  "mentions": [
+    "A153194"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:35",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

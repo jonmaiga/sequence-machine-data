@@ -1,0 +1,19 @@
+{
+  "description": "Reversible Smith numbers, i.e., Smith numbers whose reversal is also a Smith number.",
+  "id": "A104171",
+  "mentions": [
+    "A006753",
+    "A098834"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:54",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

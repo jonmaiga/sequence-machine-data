@@ -1,0 +1,22 @@
+{
+  "description": "G.f. A(x) satisfies: x = Sum_{n>=1} x^n*A(-x)^A022998(n), where A022998 is defined as \"if n is odd then n else 2*n.\".",
+  "id": "A193037",
+  "mentions": [
+    "A022998",
+    "A193036",
+    "A193038",
+    "A193039",
+    "A193040"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

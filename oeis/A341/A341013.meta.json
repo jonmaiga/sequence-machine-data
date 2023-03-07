@@ -1,0 +1,20 @@
+{
+  "description": "The cumulative sum of the prime digits so far in the sequence and the cumulative sum of the nonprime digits so far differ by n for all a(n) values.",
+  "id": "A341013",
+  "mentions": [
+    "A085562",
+    "A085563",
+    "A341012"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:13",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of Product_{k>=1} (1 + x^k)^ceiling(k/2).",
+  "id": "A319106",
+  "mentions": [
+    "A003293",
+    "A006054",
+    "A026007",
+    "A110654",
+    "A263140"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 16:37:54",
+    "offset": 0,
+    "size": 46,
+    "source": "joeis"
+  }
+}

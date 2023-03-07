@@ -1,0 +1,27 @@
+{
+  "description": "a(n) = R(f(n)), where R = A004086 = reverse (decimal) digits, f = A071786 = reverse digits of prime factors.",
+  "id": "A161594",
+  "mentions": [
+    "A004086",
+    "A010051",
+    "A071786",
+    "A151764",
+    "A161597",
+    "A161598",
+    "A161600"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "formulas",
+    "look",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:43",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

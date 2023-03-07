@@ -1,0 +1,26 @@
+{
+  "description": "Irregular table read by rows: T(n,k) is the number of k-gons, k>=3, formed inside a right triangle by the straight line segments mutually connecting all vertices and points on the two shorter edges whose positions on one edge equal the Farey series of order n while on the other they divide its length into n equal segments.",
+  "id": "A359977",
+  "mentions": [
+    "A005728",
+    "A358889",
+    "A358951",
+    "A359694",
+    "A359971",
+    "A359974",
+    "A359975",
+    "A359976"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

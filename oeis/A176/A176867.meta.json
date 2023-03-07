@@ -1,0 +1,19 @@
+{
+  "description": "Least odd number that requires n Collatz (3x+1) iterations to reach 1, or zero if there is no such number.",
+  "id": "A176867",
+  "mentions": [
+    "A033491",
+    "A176866",
+    "A176868"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:00",
+    "offset": 0,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

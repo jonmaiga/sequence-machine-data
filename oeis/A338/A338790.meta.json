@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = rad(n)^2 - sigma(n), where rad(n) is the squarefree kernel of n (A007947) and sigma(n) is the sum of divisors of n (A000203).",
+  "id": "A338790",
+  "mentions": [
+    "A000203",
+    "A007947",
+    "A078615",
+    "A326142"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:10",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

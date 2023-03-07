@@ -1,0 +1,19 @@
+{
+  "description": "Partial sums of A252748: a(0) = 0, a(n) = A252748(n) + a(n-1).",
+  "id": "A252749",
+  "mentions": [
+    "A252748",
+    "A252751"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:11",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

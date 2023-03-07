@@ -1,0 +1,20 @@
+{
+  "description": "Numerator in fraction A180878/A060818.",
+  "id": "A180878",
+  "mentions": [
+    "A046161",
+    "A060818",
+    "A180403"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of rooted connected unlabeled planar graphs on n nodes.",
+  "id": "A126201",
+  "mentions": [
+    "A005470",
+    "A039735",
+    "A126100"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

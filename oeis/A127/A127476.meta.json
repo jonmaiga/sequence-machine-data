@@ -1,0 +1,22 @@
+{
+  "description": "Triangle T(n,k) = sum_{j=k..n, gcd(n,j)=1, k|j} phi(k).",
+  "id": "A127476",
+  "mentions": [
+    "A000010",
+    "A023896",
+    "A054521",
+    "A054522"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

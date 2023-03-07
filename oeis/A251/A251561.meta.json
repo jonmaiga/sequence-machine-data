@@ -1,0 +1,21 @@
+{
+  "description": "A permutation of the natural numbers: interchange p and 2p for every prime p.",
+  "id": "A251561",
+  "mentions": [
+    "A001751",
+    "A010051",
+    "A020639",
+    "A064614",
+    "A253046"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:09",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of (1+x)*(1+x+x^2)*(1-x+x^2-4*x+x^4-x^5+x^6)/(1+x^4)^3.",
+  "id": "A188444",
+  "mentions": [
+    "A100754",
+    "A166300"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:20:43",
+    "offset": 0,
+    "size": 51,
+    "source": "joeis"
+  }
+}

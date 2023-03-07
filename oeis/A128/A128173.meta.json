@@ -1,0 +1,19 @@
+{
+  "description": "Numbers in ternary reflected Gray code order.",
+  "id": "A128173",
+  "mentions": [
+    "A003188",
+    "A105529",
+    "A105530"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:15",
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

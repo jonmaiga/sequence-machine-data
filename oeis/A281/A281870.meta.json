@@ -1,0 +1,17 @@
+{
+  "description": "Number of sets of exactly ten positive integers <= n having a square element sum.",
+  "id": "A281870",
+  "mentions": [
+    "A281871"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:51",
+    "offset": 10,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

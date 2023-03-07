@@ -1,0 +1,22 @@
+{
+  "description": "Denominators of an Egyptian Fraction for sqrt(2), using only prime numbers and allowing repetitions.",
+  "id": "A139521",
+  "mentions": [
+    "A139514",
+    "A139520",
+    "A139522",
+    "A139523"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

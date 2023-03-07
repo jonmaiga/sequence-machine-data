@@ -1,0 +1,18 @@
+{
+  "description": "Number of connected induced subgraphs in the n-polygon diagonal intersection graph.",
+  "id": "A300528",
+  "mentions": [
+    "A300527"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 3,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

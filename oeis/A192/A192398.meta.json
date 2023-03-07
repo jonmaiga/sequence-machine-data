@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = n^4 + 3*n^3 - 3*n.",
+  "id": "A192398",
+  "mentions": [
+    "A028387",
+    "A054142",
+    "A123972",
+    "A162997"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

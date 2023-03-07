@@ -1,0 +1,26 @@
+{
+  "description": "Number of 2 X 2 matrices with entries in {0,1,...,n} with determinant = permanent with no entries repeated.",
+  "id": "A280058",
+  "mentions": [
+    "A000292",
+    "A002522",
+    "A005563",
+    "A005843",
+    "A007531",
+    "A015237",
+    "A016742",
+    "A099761"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:08:45",
+    "offset": 0,
+    "size": 41,
+    "source": "joeis"
+  }
+}

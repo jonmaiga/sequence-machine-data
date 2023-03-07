@@ -1,0 +1,20 @@
+{
+  "description": "Let R = Z((1+sqrt{5})/2) denote the ring of integers in the real quadratic number field of discriminant 5. Let nu in R be a totally positive element of norm m = A031363(n). Then a(n) is the number of ways of writing nu as a sum of three squares in R.",
+  "id": "A263849",
+  "mentions": [
+    "A031363",
+    "A035187",
+    "A263850"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

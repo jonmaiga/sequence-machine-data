@@ -1,0 +1,19 @@
+{
+  "description": "Number of ways to label the cells of an m-by-n grid such that no (orthogonally) adjacent cells have adjacent labels; square array A(m,n) read by antidiagonals",
+  "id": "A229429",
+  "mentions": [
+    "A002464",
+    "A229430"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

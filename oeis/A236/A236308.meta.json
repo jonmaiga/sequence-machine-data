@@ -1,0 +1,23 @@
+{
+  "description": "Number of primes q < prime(n)/2 such that the Catalan number C(q) is a primitive root modulo prime(n).",
+  "id": "A236308",
+  "mentions": [
+    "A000040",
+    "A000108",
+    "A234972",
+    "A235709",
+    "A235712",
+    "A236306",
+    "A236966"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:54",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

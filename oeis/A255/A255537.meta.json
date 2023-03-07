@@ -1,0 +1,19 @@
+{
+  "description": "Number of connected pointed-irreducible digital images of n points up to homotopy equivalence.",
+  "id": "A255537",
+  "mentions": [
+    "A248571"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

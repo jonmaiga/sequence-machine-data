@@ -1,0 +1,19 @@
+{
+  "description": "Denominator of Sum_{k=1..n} 1/sigma(k).",
+  "id": "A212718",
+  "mentions": [
+    "A000203",
+    "A212717"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(n,k), where each row begins with the Catalan number for n nonintersecting arches and transitions through k generations of eliminating and reducing arch configurations to an end row entry equal to number of semi-meander solutions for n arches.",
+  "id": "A287548",
+  "mentions": [
+    "A000108",
+    "A000245",
+    "A000682",
+    "A067324"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

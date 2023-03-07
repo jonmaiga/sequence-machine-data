@@ -1,0 +1,37 @@
+{
+  "description": "Semiprimes where the larger prime factor is greater than the square of the smaller prime factor, short: semiprimes p*q, p^2 < q.",
+  "id": "A138511",
+  "mentions": [
+    "A000290",
+    "A001222",
+    "A001358",
+    "A006530",
+    "A020639",
+    "A054272",
+    "A083140",
+    "A083221",
+    "A084127",
+    "A088381",
+    "A138510",
+    "A162319",
+    "A174956",
+    "A245729",
+    "A251719",
+    "A251727",
+    "A251728",
+    "A252375",
+    "A253569"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:26",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

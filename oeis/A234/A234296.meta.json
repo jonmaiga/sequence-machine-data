@@ -1,0 +1,18 @@
+{
+  "description": "E.g.f.: 1 + Integral (1 + Integral (1 + Integral (1 + Integral (1 + ...)^16 dx)^8 dx)^4 dx)^2 dx.",
+  "id": "A234296",
+  "mentions": [
+    "A120959",
+    "A234301"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:52",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

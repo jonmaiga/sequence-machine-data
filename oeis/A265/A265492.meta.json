@@ -1,0 +1,17 @@
+{
+  "description": "Number of nX6 0..n*6-1 arrays with upper left zero and lower right n*6-1 and each element differing from its horizontal, vertical and diagonal neighbors by a power of two.",
+  "id": "A265492",
+  "mentions": [
+    "A265494"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

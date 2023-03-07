@@ -1,0 +1,28 @@
+{
+  "description": "Lexicographically earliest permutation of primes such that for n>1 forms 4*k+1 and 4*k+3 alternate.",
+  "id": "A108546",
+  "mentions": [
+    "A000040",
+    "A002144",
+    "A002145",
+    "A102261",
+    "A108547",
+    "A108548",
+    "A111745",
+    "A267101",
+    "A332211",
+    "A332806",
+    "A332807"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:00",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

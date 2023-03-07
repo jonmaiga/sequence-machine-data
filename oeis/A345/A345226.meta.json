@@ -1,0 +1,25 @@
+{
+  "description": "Irregular triangle, row sums equal A000041; in the format of A233932.",
+  "id": "A345226",
+  "mentions": [
+    "A000041",
+    "A001511",
+    "A070939",
+    "A079559",
+    "A135764",
+    "A187219",
+    "A233932"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-entry"
+  }
+}

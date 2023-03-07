@@ -1,0 +1,19 @@
+{
+  "description": "Lexicographically earliest sequence of positive integers such that for any distinct m and n, Sum_{k = m+1-a(m)..m} a(k) <> Sum_{k = n+1-a(n)..n} a(k).",
+  "id": "A338283",
+  "mentions": [
+    "A336346",
+    "A338285",
+    "A338292"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:10",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Numbers k for which A353749(k) <= A353749(sigma(k)), where A353749(k) = phi(k) * A064989(k), and A064989 shifts the prime factorization one step towards lower primes.",
+  "id": "A353759",
+  "mentions": [
+    "A007691",
+    "A064989",
+    "A348749",
+    "A353684",
+    "A353685",
+    "A353749",
+    "A353750",
+    "A353757",
+    "A353758",
+    "A353760",
+    "A353764"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

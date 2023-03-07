@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of 30*x*(1 + x) / (1 - x)^4.",
+  "id": "A316459",
+  "mentions": [
+    "A000330",
+    "A316349",
+    "A316457",
+    "A316458"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 09:48:21",
+    "offset": 1,
+    "size": 36,
+    "source": "joeis"
+  }
+}

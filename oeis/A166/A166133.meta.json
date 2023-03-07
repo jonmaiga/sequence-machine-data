@@ -1,0 +1,43 @@
+{
+  "description": "After initial 1,2,4, a(n+1) is the smallest divisor of a(n)^2-1 that has not yet appeared in the sequence.",
+  "id": "A166133",
+  "mentions": [
+    "A000027",
+    "A005563",
+    "A027750",
+    "A122280",
+    "A166134",
+    "A244080",
+    "A255833",
+    "A256403",
+    "A256404",
+    "A256405",
+    "A256406",
+    "A256407",
+    "A256408",
+    "A256409",
+    "A256422",
+    "A256423",
+    "A256541",
+    "A256542",
+    "A256543",
+    "A256557",
+    "A256559",
+    "A256564",
+    "A256578",
+    "A256703",
+    "A256751"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "hear",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:49",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

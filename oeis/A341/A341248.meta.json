@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = 5*a(n-1) - 4*a(n-3) for n >= 4, where a(1) = 1, a(2) = 4, a(3) = 18.",
+  "id": "A341248",
+  "mentions": [
+    "A022804",
+    "A339828",
+    "A341240",
+    "A341250"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 16:20:24",
+    "offset": 1,
+    "size": 24,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Lexicographically earliest infinite cubefree word over alphabet {0,1}.",
+  "id": "A282317",
+  "mentions": [
+    "A010060",
+    "A028445",
+    "A195264",
+    "A269027",
+    "A282133",
+    "A285196",
+    "A285930",
+    "A286940"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 130,
+    "source": "oeis-entry"
+  }
+}

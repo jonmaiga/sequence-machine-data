@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of Product_{k>=0} (1 - x^(5*k+1)) in powers of x.",
+  "id": "A284314",
+  "mentions": [
+    "A081362",
+    "A280454",
+    "A284097",
+    "A284312",
+    "A284313"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:55",
+    "offset": 0,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

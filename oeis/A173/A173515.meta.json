@@ -1,0 +1,19 @@
+{
+  "description": "Consider positive integer solutions to x^3+ y^3 = z^3 - n or 'Fermat near misses' of 1, 2, 3 ... Arrange known solutions by increasing values of n. Sequence gives value of lowest z for a given n.",
+  "id": "A173515",
+  "mentions": [
+    "A050788",
+    "A159935"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

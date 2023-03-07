@@ -1,0 +1,26 @@
+{
+  "description": "Partial sums of A140081.",
+  "id": "A140201",
+  "mentions": [
+    "A002265",
+    "A004524",
+    "A004526",
+    "A042948",
+    "A047624",
+    "A057353",
+    "A121262",
+    "A140081"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:07:37",
+    "offset": 0,
+    "size": 75,
+    "source": "joeis"
+  }
+}

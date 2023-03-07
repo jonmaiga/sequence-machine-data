@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the maximum number of distinct directions between n non-attacking rooks on an n X n chessboard.",
+  "id": "A321531",
+  "mentions": [
+    "A320448"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

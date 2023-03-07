@@ -1,0 +1,19 @@
+{
+  "description": "Smallest prime factor of Fibonacci(3n)-1, i.e., A020639(A000071(3n)).",
+  "id": "A138859",
+  "mentions": [
+    "A000071",
+    "A020639"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:26",
+    "offset": 2,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Number of chiral pairs of rows of n colors with exactly 5 different colors.",
+  "id": "A305625",
+  "mentions": [
+    "A001118",
+    "A008277",
+    "A056312",
+    "A056456",
+    "A305622"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:28",
+    "offset": 1,
+    "size": 31,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Array: row n shows the coefficients of the characteristic polynomial of the n-th principal submatrix of (f(i,j)), where f(i,j)=(1 if max(i,j) is even, and 0 otherwise) as in A204175.",
+  "id": "A204176",
+  "mentions": [
+    "A202605",
+    "A204016",
+    "A204175"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2022-05-07 12:26:44",
+    "offset": 1,
+    "size": 72,
+    "source": "joeis"
+  }
+}

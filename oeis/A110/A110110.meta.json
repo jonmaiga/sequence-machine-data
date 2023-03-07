@@ -1,0 +1,21 @@
+{
+  "description": "Number of symmetric Schroeder paths of length 2n (A Schroeder path of length 2n is a lattice path from (0,0) to (2n,0) consisting of U=(1,1), D=(1,-1) and H=(2,0) steps and never going below the x-axis).",
+  "id": "A110110",
+  "mentions": [
+    "A006318",
+    "A026003",
+    "A050146",
+    "A247630"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:01",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

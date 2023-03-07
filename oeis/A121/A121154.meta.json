@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = the n-th divisor of r(n)^n, where r(n) = (10^n-1)/9 the repunits and the positive divisors of r(n)^n are written in order from smallest to largest.",
+  "id": "A121154",
+  "mentions": [
+    "A121067"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:09",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Number of unoriented colorings of the 30 edges of a regular dodecahedron or icosahedron using n or fewer colors.",
+  "id": "A337963",
+  "mentions": [
+    "A063842",
+    "A199406",
+    "A252704",
+    "A252705",
+    "A282670",
+    "A337953",
+    "A337964"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 11:11:09",
+    "offset": 1,
+    "size": 9,
+    "source": "joeis"
+  }
+}

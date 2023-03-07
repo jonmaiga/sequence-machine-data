@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k with property that if k has m divisors, there are m/2 divisors of k whose sum is k.",
+  "id": "A342119",
+  "mentions": [
+    "A000203",
+    "A005835",
+    "A293188"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

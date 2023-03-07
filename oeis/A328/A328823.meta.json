@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the least prime factor of A000096(n) = n*(n+3)/2.",
+  "id": "A328823",
+  "mentions": [
+    "A000096",
+    "A000217",
+    "A020639"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:56",
+    "offset": 1,
+    "size": 77,
+    "source": "joeis"
+  }
+}

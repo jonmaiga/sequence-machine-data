@@ -1,0 +1,18 @@
+{
+  "description": "Eigensequence of A053121.",
+  "id": "A130018",
+  "mentions": [
+    "A053121"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

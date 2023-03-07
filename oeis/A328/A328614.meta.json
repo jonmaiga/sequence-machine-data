@@ -1,0 +1,26 @@
+{
+  "description": "Number of 1-digits in primorial base expansion of n.",
+  "id": "A328614",
+  "mentions": [
+    "A002110",
+    "A049345",
+    "A056169",
+    "A143293",
+    "A257511",
+    "A267263",
+    "A276086",
+    "A328615",
+    "A328616"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:57",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

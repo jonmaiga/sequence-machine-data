@@ -1,0 +1,31 @@
+{
+  "description": "Numbers whose multiset of prime factors has at least two multiset partitions that are isomorphic.",
+  "id": "A357874",
+  "mentions": [
+    "A000612",
+    "A001055",
+    "A001221",
+    "A001222",
+    "A007716",
+    "A055621",
+    "A056239",
+    "A112798",
+    "A283877",
+    "A300913",
+    "A302545",
+    "A317533",
+    "A317791",
+    "A321194",
+    "A357873"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

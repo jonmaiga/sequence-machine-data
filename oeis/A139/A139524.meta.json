@@ -1,0 +1,23 @@
+{
+  "description": "Triangle T(n,k) read by rows: the coefficient of [x^k] of the polynomial 2*(x+1)^n + 2^n in row n, column k.",
+  "id": "A139524",
+  "mentions": [
+    "A007283",
+    "A028326",
+    "A052548"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "less",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:27",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

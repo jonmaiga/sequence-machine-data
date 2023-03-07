@@ -1,0 +1,26 @@
+{
+  "description": "Decimal expansion of Shanks's constant: the Hardy-Littlewood constant for A000068.",
+  "id": "A337607",
+  "mentions": [
+    "A000068",
+    "A005597",
+    "A037896",
+    "A088367",
+    "A331941",
+    "A334826",
+    "A337606",
+    "A337608"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-entry"
+  }
+}

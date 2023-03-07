@@ -1,0 +1,22 @@
+{
+  "description": "tau(n)^omega(n), where tau=A000005 and omega=A001221.",
+  "id": "A110088",
+  "mentions": [
+    "A000005",
+    "A001221",
+    "A110085",
+    "A110086",
+    "A110087",
+    "A240960"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:01",
+    "offset": 1,
+    "size": 77,
+    "source": "oeis-bfile"
+  }
+}

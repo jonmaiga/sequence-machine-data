@@ -1,0 +1,22 @@
+{
+  "description": "Primes of form 3*k^k + 2.",
+  "id": "A301811",
+  "mentions": [
+    "A160360",
+    "A216146",
+    "A216148",
+    "A301644",
+    "A301808"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

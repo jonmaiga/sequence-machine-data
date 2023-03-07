@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Fibonacci(n) represented in bijective base-5 numeration.",
+  "id": "A282236",
+  "mentions": [
+    "A000045",
+    "A084545",
+    "A214679"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:51",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

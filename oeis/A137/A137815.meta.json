@@ -1,0 +1,23 @@
+{
+  "description": "Year numbers: numbers n such that phi(n) = 2 phi(sigma(n)).",
+  "id": "A137815",
+  "mentions": [
+    "A006872",
+    "A067704",
+    "A082897",
+    "A137816",
+    "A137817",
+    "A137819"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:26",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

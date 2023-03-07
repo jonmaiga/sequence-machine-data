@@ -1,0 +1,17 @@
+{
+  "description": "Number of nXnXn triangular 0..2 arrays with every horizontal row having the same average value",
+  "id": "A214589",
+  "mentions": [
+    "A214595"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:32",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

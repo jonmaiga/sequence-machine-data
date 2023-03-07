@@ -1,0 +1,27 @@
+{
+  "description": "Array of coefficients of numerator polynomials (divided by x) of the n-th approximation of the continued fraction x/(1+x/(2+x/(3+...",
+  "id": "A221913",
+  "mentions": [
+    "A001053",
+    "A008619",
+    "A058798",
+    "A066667",
+    "A084950",
+    "A103921",
+    "A105278",
+    "A221915"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

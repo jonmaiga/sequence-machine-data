@@ -1,0 +1,18 @@
+{
+  "description": "Numbers with prime factorization pqrs^6.",
+  "id": "A190292",
+  "mentions": [
+    "A162144",
+    "A190115"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:14",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

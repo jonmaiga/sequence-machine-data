@@ -1,0 +1,19 @@
+{
+  "description": "Least positive number missing from row n of Stern's diatomic array (see A049456 or A002487).",
+  "id": "A135510",
+  "mentions": [
+    "A002487",
+    "A049456",
+    "A293160"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

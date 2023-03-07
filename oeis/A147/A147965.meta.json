@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = n + 1 - A001223(n) = n - A046933(n). In words, a(n) is the difference between n+1 and the n-th gap between primes.",
+  "id": "A147965",
+  "mentions": [
+    "A000040",
+    "A001223",
+    "A046933",
+    "A141042"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:45:39",
+    "offset": 1,
+    "size": 60,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Locations of records in A177930.",
+  "id": "A177931",
+  "mentions": [
+    "A001359",
+    "A020639",
+    "A174216",
+    "A174217",
+    "A174514",
+    "A177929",
+    "A177930"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

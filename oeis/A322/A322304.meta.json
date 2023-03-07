@@ -1,0 +1,19 @@
+{
+  "description": "Total number of colors in all partitions of n into colored blocks of equal parts, such that all colors from a given set are used and the colors are introduced in increasing order.",
+  "id": "A322304",
+  "mentions": [
+    "A003056",
+    "A321878"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:45",
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

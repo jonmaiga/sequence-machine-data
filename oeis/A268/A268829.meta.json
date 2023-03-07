@@ -1,0 +1,24 @@
+{
+  "description": "Square array A(row,col) = B(row,(2*col)-1), where B(p,q) = 0 if gcd(p,q) > 1, and 1 + 2*F(p,q) otherwise, where F is defined as in A269158. Array is read by descending antidiagonals as A(1,1), A(1,2), A(2,1), A(1,3), A(2,2), A(3,1), ...",
+  "id": "A268829",
+  "mentions": [
+    "A002260",
+    "A003987",
+    "A004198",
+    "A004736",
+    "A268728",
+    "A269158"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

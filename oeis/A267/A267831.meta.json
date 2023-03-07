@@ -1,0 +1,24 @@
+{
+  "description": "Expansion of (1 + 5*x - 7*x^2 - 3*x^3)/((1 - x)*(1 + x^2)^2).",
+  "id": "A267831",
+  "mentions": [
+    "A000217",
+    "A001477",
+    "A004767",
+    "A021913",
+    "A042948",
+    "A083392"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:34:01",
+    "offset": 0,
+    "size": 67,
+    "source": "joeis"
+  }
+}

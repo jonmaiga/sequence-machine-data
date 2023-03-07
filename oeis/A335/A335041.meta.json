@@ -1,0 +1,21 @@
+{
+  "description": "Numbers whose binary representation encodes a (binary) min-heap on elements from the set {0,1} with root at the least significant bit.",
+  "id": "A335041",
+  "mentions": [
+    "A000225",
+    "A335039",
+    "A335040",
+    "A335042"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:06",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

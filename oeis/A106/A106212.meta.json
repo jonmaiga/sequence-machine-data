@@ -1,0 +1,17 @@
+{
+  "description": "Fourth root of theta series of lattice {D_12}^{+} (cf. A004533).",
+  "id": "A106212",
+  "mentions": [
+    "A004533"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:57",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

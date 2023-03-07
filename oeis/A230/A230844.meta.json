@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of m_p*c in SI units (kg*m/s), where m_p is the proton mass and c is the speed of light in vacuum.",
+  "id": "A230844",
+  "mentions": [
+    "A003676",
+    "A003678",
+    "A070059",
+    "A229952",
+    "A229962",
+    "A230438",
+    "A230845"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": -18,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

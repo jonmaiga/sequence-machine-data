@@ -1,0 +1,20 @@
+{
+  "description": "Numerators of second column of the inverse of the triangle of polynomial coefficients P(0,x)=1, 2P(n,x)=(1+x)*[(1+x)^(n-1)+x^(n-1)].",
+  "id": "A141424",
+  "mentions": [
+    "A033999",
+    "A051717",
+    "A053644",
+    "A133135"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

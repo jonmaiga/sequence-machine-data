@@ -1,0 +1,22 @@
+{
+  "description": "Signature permutation of a Catalan automorphism: apply *A123497 at the root, then recurse into the left subtree of the right hand side subtree of a binary tree.",
+  "id": "A123501",
+  "mentions": [
+    "A057123",
+    "A057501",
+    "A083927",
+    "A085159",
+    "A123497",
+    "A123502"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

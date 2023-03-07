@@ -1,0 +1,23 @@
+{
+  "description": "Number of partitions of n into distinct tetranacci numbers (with a single type of 1) (A000078).",
+  "id": "A287656",
+  "mentions": [
+    "A000078",
+    "A000119",
+    "A000121",
+    "A003263",
+    "A117546",
+    "A288120"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-entry"
+  }
+}

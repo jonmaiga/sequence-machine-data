@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the number of solutions when placing the numbers 1..n in an n X n square according to the rules in the Comments section.",
+  "id": "A329094",
+  "mentions": [
+    "A308353"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

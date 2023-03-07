@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of Sum_{k>=1} (-1)^k * log(k) / k^4.",
+  "id": "A349252",
+  "mentions": [
+    "A013662",
+    "A091812",
+    "A210593",
+    "A256358",
+    "A261506",
+    "A267315",
+    "A349220"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 121,
+    "source": "oeis-entry"
+  }
+}

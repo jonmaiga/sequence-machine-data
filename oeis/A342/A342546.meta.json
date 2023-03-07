@@ -1,0 +1,21 @@
+{
+  "description": "a(n)^2 is the least square with exactly n 1's in base n.",
+  "id": "A342546",
+  "mentions": [
+    "A000290",
+    "A342260",
+    "A342545"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 2,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

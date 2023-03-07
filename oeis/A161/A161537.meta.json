@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = n-th composite + n.",
+  "id": "A161537",
+  "mentions": [
+    "A000027",
+    "A002808",
+    "A171511"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:43",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

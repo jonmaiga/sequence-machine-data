@@ -1,0 +1,20 @@
+{
+  "description": "Primes p such that 3*p-10 and 3*p+10 are prime numbers.",
+  "id": "A274505",
+  "mentions": [
+    "A023211",
+    "A164568",
+    "A230227"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:39",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

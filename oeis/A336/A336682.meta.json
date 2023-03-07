@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of iterations needed to reach a fixed point starting with n and repeatedly applying f(x) = x - (the product of the digits of x).",
+  "id": "A336682",
+  "mentions": [
+    "A003001",
+    "A070565",
+    "A336383"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:08",
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

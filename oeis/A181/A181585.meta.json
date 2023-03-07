@@ -1,0 +1,20 @@
+{
+  "description": "\"Early bird\" squares: write the square numbers in a string 149162536496481100... . Sequence gives numbers k such that k^2 occurs in the string ahead of its natural place.",
+  "id": "A181585",
+  "mentions": [
+    "A000290",
+    "A116700",
+    "A141817"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:04",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

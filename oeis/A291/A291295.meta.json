@@ -1,0 +1,18 @@
+{
+  "description": "Domination number of n-Fibonacci cube graph.",
+  "id": "A291295",
+  "mentions": [
+    "A291573"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

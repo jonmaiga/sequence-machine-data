@@ -1,0 +1,28 @@
+{
+  "description": "Expansion of Product_{k>=0} (1 - x^(k^2+1)) in powers of x.",
+  "id": "A359936",
+  "mentions": [
+    "A002522",
+    "A081362",
+    "A276516",
+    "A284312",
+    "A284313",
+    "A284314",
+    "A284499",
+    "A284585",
+    "A357911",
+    "A359937"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "look",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:34",
+    "offset": 0,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

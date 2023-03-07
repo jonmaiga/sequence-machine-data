@@ -1,0 +1,26 @@
+{
+  "description": "Composite numbers such that exactly two distinct permutations of digits give primes.",
+  "id": "A163554",
+  "mentions": [
+    "A163555",
+    "A163556",
+    "A163557",
+    "A163558",
+    "A163559",
+    "A163560",
+    "A163561",
+    "A163562"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:45",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

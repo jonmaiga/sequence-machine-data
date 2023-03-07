@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that k and k+2 both have an equal number of odd and even digits in their factorial-base representations.",
+  "id": "A351896",
+  "mentions": [
+    "A007623",
+    "A337238",
+    "A351893",
+    "A351894",
+    "A351895"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:26",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

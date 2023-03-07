@@ -1,0 +1,21 @@
+{
+  "description": "Numbers m > 1 such that W(m) > W(k) for all 1 < k < m, where W(k) = omega(k)*log(log(k))/log(k).",
+  "id": "A342476",
+  "mentions": [
+    "A001221",
+    "A002110",
+    "A073226"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

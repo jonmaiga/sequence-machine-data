@@ -1,0 +1,20 @@
+{
+  "description": "The sequence denoted by r_n used in the calculation of A323260.",
+  "id": "A323268",
+  "mentions": [
+    "A323260",
+    "A323269"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 13:41:45",
+    "offset": 1,
+    "size": 30,
+    "source": "joeis"
+  }
+}

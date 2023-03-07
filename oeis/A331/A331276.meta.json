@@ -1,0 +1,17 @@
+{
+  "description": "The numbers formed by removing the required digits to form the number from a set of digits which is initially empty and that has digits added via the addition of numbers which cannot be created from the digits currently in the set. Start by trying to create the number 0.",
+  "id": "A331276",
+  "mentions": [
+    "A007376"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

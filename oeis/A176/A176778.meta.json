@@ -1,0 +1,22 @@
+{
+  "description": "2^n-n*(n+2).",
+  "id": "A176778",
+  "mentions": [
+    "A014846",
+    "A142974",
+    "A176776",
+    "A176777"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:55:24",
+    "offset": 0,
+    "size": 32,
+    "source": "joeis"
+  }
+}

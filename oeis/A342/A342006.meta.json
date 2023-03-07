@@ -1,0 +1,26 @@
+{
+  "description": "Numbers k where the maximal prime exponent in the arithmetic derivative of A276086(k) attains the maximal exponent in A276086(k), where A276086 gives the prime product form of primorial base expansion of its argument.",
+  "id": "A342006",
+  "mentions": [
+    "A003415",
+    "A051903",
+    "A276086",
+    "A327860",
+    "A328114",
+    "A328391",
+    "A342004",
+    "A342005",
+    "A342018"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:14",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

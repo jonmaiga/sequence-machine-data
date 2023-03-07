@@ -1,0 +1,21 @@
+{
+  "description": "Product_{n>=1} 1 / (1 - a(n)*x^n/n!) = 1 + arcsinh(x).",
+  "id": "A353914",
+  "mentions": [
+    "A001818",
+    "A353819",
+    "A353910",
+    "A353913",
+    "A353915"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "G.f.: Sum_{n>=0} x^n / (1-2*x)^(2*n+1) * [Sum_{k=0..n} C(n,k)^2 * x^k] * [Sum_{k=0..n} C(n,k)^2 * 2^k * x^k].",
+  "id": "A246455",
+  "mentions": [
+    "A243948",
+    "A246538"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 21:08:56",
+    "offset": 0,
+    "size": 23,
+    "source": "joeis"
+  }
+}

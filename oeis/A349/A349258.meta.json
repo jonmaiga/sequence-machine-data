@@ -1,0 +1,25 @@
+{
+  "description": "a(n) is the number of prime powers (not including 1) that are infinitary divisors of n.",
+  "id": "A349258",
+  "mentions": [
+    "A000120",
+    "A000961",
+    "A001222",
+    "A036537",
+    "A037445",
+    "A050376",
+    "A077609",
+    "A246655"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:24",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Ordered sums 3*f+5*g, where f and g are Fibonacci numbers (A000045).",
+  "id": "A191887",
+  "mentions": [
+    "A000045",
+    "A191876",
+    "A191883",
+    "A191888",
+    "A191889",
+    "A191890"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

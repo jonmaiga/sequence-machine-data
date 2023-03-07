@@ -1,0 +1,20 @@
+{
+  "description": "Symmetric matrix based on f(i,j)=(i if i=j and 1 otherwise), by antidiagonals.",
+  "id": "A204125",
+  "mentions": [
+    "A202453",
+    "A204016",
+    "A204126"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:04:59",
+    "offset": 1,
+    "size": 99,
+    "source": "joeis"
+  }
+}

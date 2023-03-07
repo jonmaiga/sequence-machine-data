@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that phi(n)=(d_1+d_2+...+d_k)*(d_1!+d_2!+...+d_k!) where d_1 d_2...d_k is the decimal expansion of n.",
+  "id": "A107119",
+  "mentions": [
+    "A058265"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

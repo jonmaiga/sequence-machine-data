@@ -1,0 +1,21 @@
+{
+  "description": "Triangle where g.f. of row n = Product_{i=0..n} [F(i+1) + F(i)*x] for n>=0, where F(i) = A000045(i) is the i-th Fibonacci number.",
+  "id": "A130405",
+  "mentions": [
+    "A000045",
+    "A003266",
+    "A130406",
+    "A130407"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that n > sigma(n) - sigma(n-1).",
+  "id": "A231711",
+  "mentions": [
+    "A024816",
+    "A163553",
+    "A231545",
+    "A231546",
+    "A231547",
+    "A231548"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:49",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

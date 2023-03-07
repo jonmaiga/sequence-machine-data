@@ -1,0 +1,25 @@
+{
+  "description": "Squarefree numbers n for which A019565(n) < n and A048675(n) is also squarefree.",
+  "id": "A285319",
+  "mentions": [
+    "A008683",
+    "A019565",
+    "A048675",
+    "A285317",
+    "A285320",
+    "A285331",
+    "A285332"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

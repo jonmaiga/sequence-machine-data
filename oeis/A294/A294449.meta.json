@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = index where A088568 (or equally A294448) first reaches or exceeds n in magnitude.",
+  "id": "A294449",
+  "mentions": [
+    "A000002",
+    "A088568",
+    "A294448"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:12",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "a(n)=number of 1's (\"live\" cells) at stage n of a 2-dimensional cellular automaton evolving by the rule: 1 if N+S+E+W is 1 or 2, else 0, starting from a single live cell.",
+  "id": "A122108",
+  "mentions": [
+    "A048883"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:44",
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

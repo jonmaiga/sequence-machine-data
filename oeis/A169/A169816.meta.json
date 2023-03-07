@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of down-up permutations of {1,2,...,n} having genus k.",
+  "id": "A169816",
+  "mentions": [
+    "A000111",
+    "A001003"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "more",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

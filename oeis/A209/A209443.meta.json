@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = Pell(n)*A000118(n) for n>=1 with a(0)=1, where A000118(n) is the number of ways of writing n as a sum of 4 squares.",
+  "id": "A209443",
+  "mentions": [
+    "A000118",
+    "A002203",
+    "A204270",
+    "A205508",
+    "A205963",
+    "A209444"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:28",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Primes-greedy summable primes, as defined at A242252.",
+  "id": "A242255",
+  "mentions": [
+    "A000040",
+    "A241833",
+    "A242252",
+    "A242253",
+    "A242254",
+    "A242256"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

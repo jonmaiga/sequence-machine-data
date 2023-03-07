@@ -1,0 +1,20 @@
+{
+  "description": "a(1) = 0, and for n > 0, a(n+1) = floor(k / 3) where k is the number of terms equal to a(n) among the first n terms.",
+  "id": "A329981",
+  "mentions": [
+    "A329982",
+    "A329984",
+    "A329985",
+    "A330004"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:59",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

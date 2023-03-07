@@ -1,0 +1,17 @@
+{
+  "description": "Number of arrays of the median of three adjacent elements of some length n+2 0..6 array.",
+  "id": "A228738",
+  "mentions": [
+    "A228740"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:45",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

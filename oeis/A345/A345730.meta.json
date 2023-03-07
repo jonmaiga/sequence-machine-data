@@ -1,0 +1,18 @@
+{
+  "description": "Variation on the Inventory Sequence A342585: record the number of occurrences of previous terms with an incrementing number of given divisors until 0 is recorded, then restart the divisor count from 0. See the Comments.",
+  "id": "A345730",
+  "mentions": [
+    "A000005",
+    "A342585"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

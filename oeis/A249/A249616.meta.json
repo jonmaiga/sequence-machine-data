@@ -1,0 +1,18 @@
+{
+  "description": "Number of elements in non-singleton blocks in the n-th set partition (A231428).",
+  "id": "A249616",
+  "mentions": [
+    "A231428",
+    "A249615"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:06",
+    "offset": 0,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

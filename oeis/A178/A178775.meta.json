@@ -1,0 +1,22 @@
+{
+  "description": "Smallest prime factors of zerofull restricted pandigital numbers.",
+  "id": "A178775",
+  "mentions": [
+    "A000035",
+    "A020639",
+    "A050278"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "fini",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

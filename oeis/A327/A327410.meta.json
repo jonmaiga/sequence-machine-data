@@ -1,0 +1,23 @@
+{
+  "description": "Numbers represented by the partition coefficients of prime partitions.",
+  "id": "A327410",
+  "mentions": [
+    "A000607",
+    "A000680",
+    "A014606",
+    "A036038",
+    "A325306",
+    "A327411",
+    "A327412"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

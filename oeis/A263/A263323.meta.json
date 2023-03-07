@@ -1,0 +1,24 @@
+{
+  "description": "The greater of maximal exponent and maximal prime index in the prime factorization of n.",
+  "id": "A263323",
+  "mentions": [
+    "A000169",
+    "A001221",
+    "A002110",
+    "A051903",
+    "A061395",
+    "A178922",
+    "A263297"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:23",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

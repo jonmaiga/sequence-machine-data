@@ -1,0 +1,24 @@
+{
+  "description": "(Round(c^prime(n)) - 1)/prime(n), where c is the tetranacci constant (A086088).",
+  "id": "A239544",
+  "mentions": [
+    "A007619",
+    "A007663",
+    "A086088",
+    "A238693",
+    "A238697",
+    "A238698",
+    "A238700",
+    "A239502"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 4,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "description": "Triangle read by rows: T(n, k) = c(n, q)/(c(k, q)*c(n-k, q)), where c(n, q) = Product_{j=1..n} (j+q)!/(j-1)! and q = 8.",
+  "id": "A174109",
+  "mentions": [
+    "A000178",
+    "A001263",
+    "A007318",
+    "A056939",
+    "A056940",
+    "A056941",
+    "A142465",
+    "A142467",
+    "A142468",
+    "A342889",
+    "A342890",
+    "A342891"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:58",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Areas of primitive Pythagorean triangles which are palindromes.",
+  "id": "A101439",
+  "mentions": [
+    "A101450"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

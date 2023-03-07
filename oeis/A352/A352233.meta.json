@@ -1,0 +1,27 @@
+{
+  "description": "Numbers that can be expressed as the sum of two primes in exactly 10 ways.",
+  "id": "A352233",
+  "mentions": [
+    "A014092",
+    "A066722",
+    "A067187",
+    "A067188",
+    "A067189",
+    "A067190",
+    "A067191",
+    "A352229",
+    "A352230",
+    "A352231"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

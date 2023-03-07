@@ -1,0 +1,25 @@
+{
+  "description": "Expansion of x*(1 + 4*x + x^2)/((1 - x)^5*(1 + x)^4).",
+  "id": "A290055",
+  "mentions": [
+    "A001082",
+    "A002414",
+    "A002419",
+    "A002624",
+    "A027656",
+    "A195152",
+    "A287143"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:56:09",
+    "offset": 0,
+    "size": 52,
+    "source": "joeis"
+  }
+}

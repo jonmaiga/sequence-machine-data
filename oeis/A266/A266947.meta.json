@@ -1,0 +1,18 @@
+{
+  "description": "Number of permutations p of [2n] such that the up-down signature of 0,p has nonnegative partial sums with a maximal value of n.",
+  "id": "A266947",
+  "mentions": [
+    "A258829"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:28",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

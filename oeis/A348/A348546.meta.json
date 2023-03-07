@@ -1,0 +1,27 @@
+{
+  "description": "Number of positive integers with n digits that are equal both to the product of two integers ending with 3 and to that of two integers ending with 7.",
+  "id": "A348546",
+  "mentions": [
+    "A052268",
+    "A346950",
+    "A346952",
+    "A348054",
+    "A348055",
+    "A348544",
+    "A348547"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

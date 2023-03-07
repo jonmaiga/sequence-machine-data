@@ -1,0 +1,28 @@
+{
+  "description": "Length of the longest path to 1 when starting from x=n and on each iteration step one may always choose either transition x -> A032742(x) or x -> A302042(x).",
+  "id": "A326191",
+  "mentions": [
+    "A001222",
+    "A020639",
+    "A032742",
+    "A078898",
+    "A253557",
+    "A302042",
+    "A323888",
+    "A326075",
+    "A326139",
+    "A326189",
+    "A326190"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:53",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

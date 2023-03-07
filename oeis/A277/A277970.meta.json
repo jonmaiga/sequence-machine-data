@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k = A005574(m) such that k = (A005574(m-1)+A005574(m+1))/2.",
+  "id": "A277970",
+  "mentions": [
+    "A002496",
+    "A005574",
+    "A006562"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:44",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

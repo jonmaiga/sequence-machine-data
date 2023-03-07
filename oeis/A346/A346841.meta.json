@@ -1,0 +1,23 @@
+{
+  "description": "E.g.f.: Product_{k>=1} 1 / (1 - x^k)^sin(x).",
+  "id": "A346841",
+  "mentions": [
+    "A000203",
+    "A053529",
+    "A335626",
+    "A346547",
+    "A346941",
+    "A347774"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

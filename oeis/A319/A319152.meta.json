@@ -1,0 +1,30 @@
+{
+  "description": "Nonprime Heinz numbers of superperiodic integer partitions.",
+  "id": "A319152",
+  "mentions": [
+    "A001597",
+    "A056239",
+    "A072774",
+    "A181819",
+    "A182850",
+    "A289509",
+    "A296150",
+    "A298748",
+    "A304464",
+    "A305732",
+    "A317246",
+    "A317257",
+    "A319149",
+    "A319151"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

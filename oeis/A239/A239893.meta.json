@@ -1,0 +1,22 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) is the number of sensed 3-connected planar maps with n >= 4 faces and k >= 4 vertices.",
+  "id": "A239893",
+  "mentions": [
+    "A005645",
+    "A119501",
+    "A212438",
+    "A342057"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:57",
+    "offset": 4,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

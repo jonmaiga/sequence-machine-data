@@ -1,0 +1,20 @@
+{
+  "description": "Euler primary pretenders: a(n) is the smallest odd composite k such that n^((k+1)/2) == +-n (mod k).",
+  "id": "A309316",
+  "mentions": [
+    "A000790",
+    "A033181",
+    "A108574"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 83,
+    "source": "oeis-entry"
+  }
+}

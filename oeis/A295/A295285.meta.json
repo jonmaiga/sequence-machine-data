@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that for positive integers i, the union of sequences n+22i contains the positive roots of floor(tan(k)) = 1 (A293698).",
+  "id": "A295285",
+  "mentions": [
+    "A000503",
+    "A293698"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:13",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Hurwitz inverse of [1 followed by primes], [1,2,3,5,7,...].",
+  "id": "A302194",
+  "mentions": [
+    "A302189",
+    "A302191",
+    "A302192"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:26",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

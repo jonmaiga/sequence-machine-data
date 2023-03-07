@@ -1,0 +1,20 @@
+{
+  "description": "Number of decomposable binary self-dual codes of length 2n (up to permutation equivalence).",
+  "id": "A322429",
+  "mentions": [
+    "A003178",
+    "A003179"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

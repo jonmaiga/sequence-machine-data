@@ -1,0 +1,18 @@
+{
+  "description": "Indices of record values of A307437(k)/k.",
+  "id": "A341888",
+  "mentions": [
+    "A307437"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

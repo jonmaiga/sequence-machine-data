@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = ( Sum_{k=0..n} (-1)^(n-k)*binomial(n, k)*Bell(k) )*( Sum_{k=1..n} (k-1)!*binomial(n-1, k-1)*binomial(n, k-1) ).",
+  "id": "A100524",
+  "mentions": [
+    "A000262",
+    "A000296"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:51",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

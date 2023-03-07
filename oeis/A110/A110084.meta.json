@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n with even length such that sigma(n)=d_1^d_2*d_3^d_4 *...*d_(k-1)^d_k where d_1 d_2 ... d_k is the decimal expansion of n.",
+  "id": "A110084",
+  "mentions": [
+    "A112009",
+    "A112010",
+    "A112011"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:01",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

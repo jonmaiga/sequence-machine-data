@@ -1,0 +1,23 @@
+{
+  "description": "Number of order-preserving or order-reversing full contraction mappings (of an n-chain) with height exactly k.",
+  "id": "A221877",
+  "mentions": [
+    "A221876",
+    "A221878",
+    "A221879",
+    "A221880",
+    "A221881",
+    "A221882"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

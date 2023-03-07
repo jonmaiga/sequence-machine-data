@@ -1,0 +1,18 @@
+{
+  "description": "The set N such that each positive integer can be written in the form s^2 + n, s>=0, n in N, in an even number of ways.",
+  "id": "A108345",
+  "mentions": [
+    "A132229"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:00",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of divisors of n that are greater than phi(n)/2, where phi is Euler's totient function.",
+  "id": "A161506",
+  "mentions": [
+    "A000005",
+    "A000010",
+    "A161507"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:43",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

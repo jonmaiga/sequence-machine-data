@@ -1,0 +1,18 @@
+{
+  "description": "Number of Dyck paths with no UUU's and no DDD's, of semilength n having no peak plateaux (U=(1,1), D=(1,-1)).",
+  "id": "A166286",
+  "mentions": [
+    "A166285"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:23",
+    "offset": 0,
+    "size": 32,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Multiplication table from A337946, read by antidiagonals.",
+  "id": "A337975",
+  "mentions": [
+    "A337662",
+    "A337946",
+    "A337973",
+    "A337974",
+    "A338017",
+    "A338034"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:09",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

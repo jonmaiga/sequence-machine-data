@@ -1,0 +1,23 @@
+{
+  "description": "A binomial conjugate of the Narayana numbers",
+  "id": "A177896",
+  "mentions": [
+    "A001006",
+    "A001263",
+    "A007318",
+    "A071356",
+    "A078481"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

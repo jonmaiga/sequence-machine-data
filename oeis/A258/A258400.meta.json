@@ -1,0 +1,22 @@
+{
+  "description": "Perfect powers m^k such that m, k and m+k are primes.",
+  "id": "A258400",
+  "mentions": [
+    "A000079",
+    "A000961",
+    "A001248",
+    "A001597",
+    "A108605",
+    "A109611"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

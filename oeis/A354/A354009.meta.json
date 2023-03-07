@@ -1,0 +1,28 @@
+{
+  "description": "Irregular triangle read by rows in which row n lists the partitions of n into an odd number of equal parts, in nonincreasing order.",
+  "id": "A354009",
+  "mentions": [
+    "A000027",
+    "A000079",
+    "A000203",
+    "A000593",
+    "A001227",
+    "A006519",
+    "A237593",
+    "A244051",
+    "A245579",
+    "A279387",
+    "A299765"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 107,
+    "source": "oeis-entry"
+  }
+}

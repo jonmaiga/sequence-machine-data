@@ -1,0 +1,22 @@
+{
+  "description": "Digital sum of the 2^n-th Partition number.",
+  "id": "A129491",
+  "mentions": [
+    "A000041",
+    "A068413",
+    "A070177",
+    "A129490"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

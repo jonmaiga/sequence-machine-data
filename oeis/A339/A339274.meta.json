@@ -1,0 +1,23 @@
+{
+  "description": "Number of times the n-th prime (=A000040(n)) occurs in A033933.",
+  "id": "A339274",
+  "mentions": [
+    "A000040",
+    "A033932",
+    "A033933",
+    "A339959",
+    "A340006",
+    "A340007"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:11",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

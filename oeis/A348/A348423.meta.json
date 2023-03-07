@@ -1,0 +1,20 @@
+{
+  "description": "Odd composite numbers k such that 2*k-3 is prime.",
+  "id": "A348423",
+  "mentions": [
+    "A002145",
+    "A348421"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:22",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of A(x) = x*F'(x)/(F(x) - F(x)^2), where F(x) = (-1 - sqrt(1-8*x) + sqrt(2 + 2*sqrt(1-8*x) + 8*x))/4.",
+  "id": "A243034",
+  "mentions": [
+    "A186997"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:59",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

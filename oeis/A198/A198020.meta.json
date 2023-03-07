@@ -1,0 +1,18 @@
+{
+  "description": "Number of distinct residues of x^n (mod 2n+1), x=0..2n.",
+  "id": "A198020",
+  "mentions": [
+    "A195637",
+    "A197929"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:19",
+    "offset": 0,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

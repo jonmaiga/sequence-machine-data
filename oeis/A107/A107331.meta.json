@@ -1,0 +1,20 @@
+{
+  "description": "SquareRootSigma(n): Floor of sum of square root of divisors of n. If n = Product p_i^r_i then SRSigma(n) = Product Floor[(p_i^(r_i/2+1/2)-1)/(p_i^(1/2)-1)].",
+  "id": "A107331",
+  "mentions": [
+    "A033635",
+    "A058266",
+    "A086671"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-entry"
+  }
+}

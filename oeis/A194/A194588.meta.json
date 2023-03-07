@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = A189912(n-1)-a(n-1) for n>0, a(0) = 1; extended Riordan numbers.",
+  "id": "A194588",
+  "mentions": [
+    "A005043",
+    "A056040",
+    "A189912",
+    "A194589"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

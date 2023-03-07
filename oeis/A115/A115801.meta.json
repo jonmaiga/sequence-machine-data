@@ -1,0 +1,20 @@
+{
+  "description": "Integers i such that 9*i = 25 X i.",
+  "id": "A115801",
+  "mentions": [
+    "A048720",
+    "A115802",
+    "A115809",
+    "A115811"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

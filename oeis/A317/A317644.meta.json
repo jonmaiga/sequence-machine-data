@@ -1,0 +1,25 @@
+{
+  "description": "Triangle read by rows: multiplicative version of Pascal's triangle except n-th row begins and ends with (n+1)-st prime.",
+  "id": "A317644",
+  "mentions": [
+    "A000040",
+    "A007318",
+    "A007949",
+    "A028326",
+    "A051599",
+    "A080046",
+    "A112765"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

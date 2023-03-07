@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: coefficients of the partition polynomials for the reciprocal of the derivative of a power series, g(x)= 1/h'(x).",
+  "id": "A253722",
+  "mentions": [
+    "A003480",
+    "A133314",
+    "A133437",
+    "A145271",
+    "A181289"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

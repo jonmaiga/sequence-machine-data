@@ -1,0 +1,21 @@
+{
+  "description": "Number of simple connected graphs on n nodes whose independence number a(g)=5.",
+  "id": "A243784",
+  "mentions": [
+    "A243781",
+    "A243782",
+    "A243783",
+    "A294490"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

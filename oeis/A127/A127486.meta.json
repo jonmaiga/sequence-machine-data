@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that A127483(k) = A127483(k+1) - 1 = A127483(k+2) - 2 = A127483(k+3) - 3.",
+  "id": "A127486",
+  "mentions": [
+    "A100662",
+    "A100705",
+    "A127483",
+    "A127484",
+    "A127485"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:15",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

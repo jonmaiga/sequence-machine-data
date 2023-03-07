@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of 2*sqrt(3)*log(2)/Pi.",
+  "id": "A131266",
+  "mentions": [
+    "A000796",
+    "A002162",
+    "A010469",
+    "A030699",
+    "A257639"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:19",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

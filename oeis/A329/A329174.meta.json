@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the least positive exponent k such that the decimal expansion of 7^k contains n consecutive zeros.",
+  "id": "A329174",
+  "mentions": [
+    "A006889",
+    "A195269",
+    "A329172"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

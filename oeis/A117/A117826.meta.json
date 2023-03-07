@@ -1,0 +1,22 @@
+{
+  "description": "First four terms of the sequence are doubled, then those numbers are tripled and then those numbers are quadrupled, etc.",
+  "id": "A117826",
+  "mentions": [
+    "A000142",
+    "A052560",
+    "A052578",
+    "A052849",
+    "A115425"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-12-25 19:14:52",
+    "offset": 1,
+    "size": 42,
+    "source": "joeis"
+  }
+}

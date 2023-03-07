@@ -1,0 +1,21 @@
+{
+  "description": "Triangle T(n,k) read by rows: left edge is 0, 1, 2, ... (cf. A001477); otherwise each entry is sum of entry to left and entries immediately above it to left and right, with 1 for the missing right term at right edge.",
+  "id": "A224791",
+  "mentions": [
+    "A001477",
+    "A051601",
+    "A059283"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:42",
+    "offset": 0,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

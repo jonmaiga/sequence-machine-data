@@ -1,0 +1,20 @@
+{
+  "description": "Denominator of Bernoulli(n, 1/2).",
+  "id": "A157780",
+  "mentions": [
+    "A033469",
+    "A157779"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:46",
+    "offset": 0,
+    "size": 36,
+    "source": "joeis"
+  }
+}

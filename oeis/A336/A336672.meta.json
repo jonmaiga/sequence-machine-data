@@ -1,0 +1,23 @@
+{
+  "description": "Unitary barely 3-deficient numbers: numbers m such that usigma(k)/k < usigma(m)/m < 3 for all numbers k < m, where usigma is the sum of unitary divisors function (A034448).",
+  "id": "A336672",
+  "mentions": [
+    "A034448",
+    "A129487",
+    "A285615",
+    "A302572",
+    "A307122",
+    "A336671"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

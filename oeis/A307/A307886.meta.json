@@ -1,0 +1,27 @@
+{
+  "description": "Array of coefficients of the minimal polynomial of (2*cos(Pi/15))^n, for n >= 1 (ascending powers).",
+  "id": "A307886",
+  "mentions": [
+    "A019815",
+    "A019851",
+    "A019875",
+    "A019887",
+    "A187360",
+    "A306603",
+    "A306610",
+    "A306611"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

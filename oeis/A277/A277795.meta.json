@@ -1,0 +1,19 @@
+{
+  "description": "Number of trees with n unlabeled nodes such that all nodes with degree >2 lie on a single path with length equal to the tree's diameter.",
+  "id": "A277795",
+  "mentions": [
+    "A000055",
+    "A130131"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

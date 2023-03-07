@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = least odd k > 1 such that n and n*k have the same Hamming weight, or -1 if no such k exists.",
+  "id": "A295827",
+  "mentions": [
+    "A000120",
+    "A020515",
+    "A057168",
+    "A077459",
+    "A292849"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:14",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

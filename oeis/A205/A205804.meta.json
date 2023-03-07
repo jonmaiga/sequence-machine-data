@@ -1,0 +1,18 @@
+{
+  "description": "E.g.f.: -log( Sum_{n>=0} (-x)^(n^2) / (n^2)! ).",
+  "id": "A205804",
+  "mentions": [
+    "A205802",
+    "A205803"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

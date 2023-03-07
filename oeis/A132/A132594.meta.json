@@ -1,0 +1,20 @@
+{
+  "description": "Values X satisfying the equation: X(X + 1) - 7*Y^2 = 0.",
+  "id": "A132594",
+  "mentions": [
+    "A001080",
+    "A001081",
+    "A007654"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 12:18:24",
+    "offset": 0,
+    "size": 12,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Number of sequences of 5 throws of an n-sided die (with faces numbered 1, 2, ..., n) in which the sum of the throws first reaches or exceeds n on the 5th throw.",
+  "id": "A264750",
+  "mentions": [
+    "A000096",
+    "A051925",
+    "A185508",
+    "A215862"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:27:37",
+    "offset": 5,
+    "size": 36,
+    "source": "joeis"
+  }
+}

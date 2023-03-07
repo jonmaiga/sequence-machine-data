@@ -1,0 +1,18 @@
+{
+  "description": "Numbers ((binomial (j*k*prime(n), j*prime(n)) - binomial(k*j, j))/(k*prime(n)^3) for k=4, j=3 and n>=2.",
+  "id": "A223886",
+  "mentions": [
+    "A034602",
+    "A217772"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 2,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "G.f.: Product_{k>=1, j>=1} (1+x^(j*k^2)).",
+  "id": "A280451",
+  "mentions": [
+    "A004101",
+    "A006171",
+    "A107742",
+    "A280663",
+    "A280664"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:48",
+    "offset": 0,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

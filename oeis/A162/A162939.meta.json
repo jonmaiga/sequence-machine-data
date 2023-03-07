@@ -1,0 +1,18 @@
+{
+  "description": "A 1-based alternate sum over the numbers from 0 to prime(n).",
+  "id": "A162939",
+  "mentions": [
+    "A000040",
+    "A014682"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:44",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

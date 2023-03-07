@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = f(n,n) where f(m,n) = max(m,n) if m < 2 or n < 2; f(m,n) = f(m-1,n-1) + f(m-1,n-2) + f(m-2,n-1) otherwise. Diagonal of A342859.",
+  "id": "A342600",
+  "mentions": [
+    "A001850",
+    "A342859"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

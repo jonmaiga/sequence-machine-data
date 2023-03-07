@@ -1,0 +1,20 @@
+{
+  "description": "Inverse Möbius transform of A181819, prime shadow function.",
+  "id": "A358223",
+  "mentions": [
+    "A046523",
+    "A181819"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:32",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

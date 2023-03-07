@@ -1,0 +1,17 @@
+{
+  "description": "Number of permutations p of [n] such that in 0p the largest up-jump equals ten and no down-jump is larger than 2.",
+  "id": "A321117",
+  "mentions": [
+    "A291680"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:43",
+    "offset": 10,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

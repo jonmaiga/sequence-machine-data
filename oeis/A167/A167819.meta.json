@@ -1,0 +1,21 @@
+{
+  "description": "Numbers with a distinct frequency for each ternary digit.",
+  "id": "A167819",
+  "mentions": [
+    "A031948",
+    "A044951",
+    "A121977"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

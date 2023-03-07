@@ -1,0 +1,22 @@
+{
+  "description": "Numbers of the form Phi_k(m) with k > 2 and |m| > 1.",
+  "id": "A206942",
+  "mentions": [
+    "A006511",
+    "A194712",
+    "A206225",
+    "A206292",
+    "A206710",
+    "A206864"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

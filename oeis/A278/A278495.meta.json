@@ -1,0 +1,30 @@
+{
+  "description": "a(n) = number of primes in range [n^2, (n+1)^2] that are leaves in \"the least squares beanstalk\" tree.",
+  "id": "A278495",
+  "mentions": [
+    "A000290",
+    "A002828",
+    "A010051",
+    "A010052",
+    "A014085",
+    "A277486",
+    "A277487",
+    "A277488",
+    "A277888",
+    "A278216",
+    "A278487",
+    "A278494",
+    "A278496"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:45",
+    "offset": 1,
+    "size": 112,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Triangle in which n-th row (n>1) gives prime factors of n^2 + 1 with repetition.",
+  "id": "A166376",
+  "mentions": [
+    "A002522",
+    "A027746"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

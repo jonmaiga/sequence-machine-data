@@ -1,0 +1,25 @@
+{
+  "description": "Number of prime factors in n!+7 (counted with multiplicity).",
+  "id": "A100013",
+  "mentions": [
+    "A002981",
+    "A037083",
+    "A055487",
+    "A062701",
+    "A062702",
+    "A085146",
+    "A085148",
+    "A085150"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 82,
+    "source": "oeis-entry"
+  }
+}

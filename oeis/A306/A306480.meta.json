@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that A054404(k) is not floor(k/e - 1/(2*e) + 1/2).",
+  "id": "A306480",
+  "mentions": [
+    "A001113",
+    "A054404",
+    "A226082",
+    "A226242",
+    "A226243"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

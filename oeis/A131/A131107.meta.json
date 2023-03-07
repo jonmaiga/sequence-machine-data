@@ -1,0 +1,20 @@
+{
+  "description": "Rectangular array read by antidiagonals: k objects are each put into one of n boxes, independently with equal probability. a(n, k) is the expected number of boxes with exactly one object (n, k >= 1). Sequence gives the denominators.",
+  "id": "A131107",
+  "mentions": [
+    "A131106"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "frac",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

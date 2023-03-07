@@ -1,0 +1,22 @@
+{
+  "description": "Concatenation of terms of n-th row of the triangle of primes A138139.",
+  "id": "A138140",
+  "mentions": [
+    "A000040",
+    "A002113",
+    "A089182",
+    "A138139"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

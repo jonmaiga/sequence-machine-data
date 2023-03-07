@@ -1,0 +1,28 @@
+{
+  "description": "Numerators of expansion for Debye function for n=1: D(1,x).",
+  "id": "A120082",
+  "mentions": [
+    "A000367",
+    "A002445",
+    "A027641",
+    "A060054",
+    "A060055",
+    "A120083",
+    "A182918",
+    "A227540",
+    "A227830",
+    "A358625"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:09",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

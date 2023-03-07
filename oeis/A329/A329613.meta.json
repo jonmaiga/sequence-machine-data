@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that A071187(k) <> A329614(k).",
+  "id": "A329613",
+  "mentions": [
+    "A000290",
+    "A034386",
+    "A071187",
+    "A108951",
+    "A329611",
+    "A329614"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

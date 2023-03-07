@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = d(A163511(n)), where d(n) is A000005, the number of divisors of n.",
+  "id": "A324183",
+  "mentions": [
+    "A000005",
+    "A054429",
+    "A106737",
+    "A163511",
+    "A286531",
+    "A324184",
+    "A324187"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:49",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

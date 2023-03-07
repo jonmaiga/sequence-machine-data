@@ -1,0 +1,24 @@
+{
+  "description": "Number of ordered ways to write n as w^2 + x^2*(1+y^2+z^2), where w,x,y,z are nonnegative integers with x > 0, y <= z and y == z (mod 2).",
+  "id": "A275738",
+  "mentions": [
+    "A000118",
+    "A000290",
+    "A271518",
+    "A275648",
+    "A275656",
+    "A275675",
+    "A275676",
+    "A275678"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:41",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

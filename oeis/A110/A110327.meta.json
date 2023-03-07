@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(n,k) = n!*Pell(n-k+1)/k!, where Pell(n)=A000129(n).",
+  "id": "A110327",
+  "mentions": [
+    "A000129",
+    "A110328",
+    "A110329",
+    "A110330"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

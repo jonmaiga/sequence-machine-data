@@ -1,0 +1,19 @@
+{
+  "description": "Emirps that become their own reversals when rotated through 180 degrees (including on calculator display).",
+  "id": "A209620",
+  "mentions": [
+    "A006567",
+    "A155512"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

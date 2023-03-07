@@ -1,0 +1,24 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of partitions of the set {1,2,...,n}, having exactly k blocks consisting only even entries (0<=k<=floor(n/2)).",
+  "id": "A124422",
+  "mentions": [
+    "A000110",
+    "A124418",
+    "A124419",
+    "A124420",
+    "A124421",
+    "A124423"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:12",
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

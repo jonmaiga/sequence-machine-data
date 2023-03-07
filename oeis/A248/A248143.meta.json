@@ -1,0 +1,28 @@
+{
+  "description": "Least integer m > 0 such that m + n divides p(m) + p(n), where p(.) is the partition function given by A000041.",
+  "id": "A248143",
+  "mentions": [
+    "A000041",
+    "A247824",
+    "A247937",
+    "A247940",
+    "A248124",
+    "A248125",
+    "A248133",
+    "A248136",
+    "A248137",
+    "A248139",
+    "A248142",
+    "A248144"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:04",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: row n gives coefficients (lowest degree first) of P_n(x), where P_0(x) = P_1(x) = 1; P_n(x) = P_{n-1}(x) + x^(n-1)*P_{n-2}(x).",
+  "id": "A127836",
+  "mentions": [
+    "A000045",
+    "A002620",
+    "A003114",
+    "A119469",
+    "A128915"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:15",
+    "offset": 0,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

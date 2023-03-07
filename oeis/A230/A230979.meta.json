@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of the time taken by light to travel one astronomical unit in a vacuum, measured in seconds.",
+  "id": "A230979",
+  "mentions": [
+    "A003678",
+    "A163103",
+    "A182998",
+    "A356070"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:05:13",
+    "offset": 3,
+    "size": 106,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Numerators of the sequence with g.f. x*B(x)/(1-2*x), where B(x) denotes the \"original\" Bernoulli numbers.",
+  "id": "A172030",
+  "mentions": [
+    "A027642",
+    "A164555",
+    "A172031"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

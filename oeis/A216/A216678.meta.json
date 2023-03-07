@@ -1,0 +1,23 @@
+{
+  "description": "On an n X n grid, number of ways to draw arrows between adjacent nodes such that each node has one outgoing and one incoming arrow, of which the one is not the opposite of the other (i.e., without 2-loops).",
+  "id": "A216678",
+  "mentions": [
+    "A216675",
+    "A216796",
+    "A216797",
+    "A216798",
+    "A216799",
+    "A216800"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

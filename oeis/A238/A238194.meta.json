@@ -1,0 +1,18 @@
+{
+  "description": "Conjectured numbers n for which n^n + (-1)^n (n-1)^(n-1) is not squarefree.",
+  "id": "A238194",
+  "mentions": [
+    "A086797"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

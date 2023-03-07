@@ -1,0 +1,21 @@
+{
+  "description": "Composite numbers k such that the sum of their aliquot parts divides k-1.",
+  "id": "A306531",
+  "mentions": [
+    "A059047",
+    "A203966",
+    "A246547",
+    "A306532"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of Product_{k>=1} 1 / (1 + x^Fibonacci(k)).",
+  "id": "A357381",
+  "mentions": [
+    "A000045",
+    "A000121",
+    "A298949",
+    "A357380"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:29",
+    "offset": 0,
+    "size": 55,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Exponential Riordan array [exp(sinh(x)*exp(x)), sinh(x)*exp(x)].",
+  "id": "A154602",
+  "mentions": [
+    "A004211",
+    "A055882",
+    "A084938",
+    "A256893"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

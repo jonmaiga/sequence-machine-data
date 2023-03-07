@@ -1,0 +1,17 @@
+{
+  "description": "Products of two distinct lesser twin primes A001359.",
+  "id": "A357934",
+  "mentions": [
+    "A001359"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

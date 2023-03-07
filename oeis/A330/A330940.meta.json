@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the least value whose binary representation can be obtained by interleaving (or shuffling) two copies of the binary representation of n.",
+  "id": "A330940",
+  "mentions": [
+    "A007582",
+    "A024036",
+    "A191755",
+    "A193020",
+    "A330941"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:00",
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

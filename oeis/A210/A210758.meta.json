@@ -1,0 +1,25 @@
+{
+  "description": "Primes less than 1000 sorted lexicographically in decimal representation.",
+  "id": "A210758",
+  "mentions": [
+    "A000040",
+    "A006880",
+    "A210757",
+    "A210759",
+    "A210760",
+    "A210761"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:29",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

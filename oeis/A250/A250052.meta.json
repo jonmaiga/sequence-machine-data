@@ -1,0 +1,20 @@
+{
+  "description": "Conjoined Twin Primes: primes p such that p written in base 10 has a prefix q and a suffix r, where q and r are a pair of twin primes (in either order), and q and r overlap (i.e., strlen(q)+strlen(r)>strlen(p)).",
+  "id": "A250052",
+  "mentions": [
+    "A001097",
+    "A001359",
+    "A006512"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

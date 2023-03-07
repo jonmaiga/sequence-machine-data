@@ -1,0 +1,21 @@
+{
+  "description": "Number n such that there are no primes of the form sigma(n)/k where 1 < k < n is a (proper) nondivisor of n.",
+  "id": "A283147",
+  "mentions": [
+    "A000203",
+    "A019279",
+    "A023194",
+    "A061652",
+    "A173540"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

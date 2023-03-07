@@ -1,0 +1,18 @@
+{
+  "description": "Numbers whose factors are primes raised to powers >= 2 and are not perfect squares.",
+  "id": "A102834",
+  "mentions": [
+    "A001694"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

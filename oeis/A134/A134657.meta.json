@@ -1,0 +1,18 @@
+{
+  "description": "Numbers of the form p^2 + q^3 + r^4 with p, q and r primes.",
+  "id": "A134657",
+  "mentions": [
+    "A045701"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

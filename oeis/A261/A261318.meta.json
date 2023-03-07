@@ -1,0 +1,21 @@
+{
+  "description": "Number of set partitions T'_t(n) of {1,2,...,t} into exactly n parts, with an even number of elements in each part distinguished by marks, and such that no part contains both 1 and t with 1 unmarked or both i and i+1 with i+1 unmarked for some i with 1 <= i < t; triangle T'_t(n), t>=0, 0<=n<=t, read by rows.",
+  "id": "A261318",
+  "mentions": [
+    "A261137",
+    "A261139",
+    "A261275"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

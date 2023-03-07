@@ -1,0 +1,20 @@
+{
+  "description": "Fibonacci entry points: a(n) = smallest m such that prime(A075702(n)) divides Fibonacci(m).",
+  "id": "A175026",
+  "mentions": [
+    "A001177",
+    "A001602",
+    "A075702"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

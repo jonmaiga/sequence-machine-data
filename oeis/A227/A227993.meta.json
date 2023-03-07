@@ -1,0 +1,18 @@
+{
+  "description": "Let d(1) < d(2) < ... < d(q) denote the divisors of k. Sequence lists numbers k > 1 such that d(1)/d(2) + d(2)/d(3) + ... + d(q-1)/d(q) is an integer.",
+  "id": "A227993",
+  "mentions": [
+    "A000302",
+    "A009971"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

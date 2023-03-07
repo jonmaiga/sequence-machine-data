@@ -1,0 +1,27 @@
+{
+  "description": "Triangle read by rows, coefficients of polynomials in t = log(x) of the n-th derivative of x^x, evaluated at x = 1. T(n, k) with n >= 0 and 0 <= k <= n.",
+  "id": "A293472",
+  "mentions": [
+    "A005727",
+    "A203852",
+    "A215524",
+    "A215703",
+    "A215704",
+    "A290268",
+    "A293239",
+    "A293297",
+    "A293473",
+    "A293474"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

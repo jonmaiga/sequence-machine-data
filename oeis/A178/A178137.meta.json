@@ -1,0 +1,22 @@
+{
+  "description": "Partial sums of A068148.",
+  "id": "A178137",
+  "mentions": [
+    "A000040",
+    "A007504",
+    "A068148"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

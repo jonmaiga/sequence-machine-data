@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the least k such that A197433(k) >= n.",
+  "id": "A244230",
+  "mentions": [
+    "A000108",
+    "A176137",
+    "A197433"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:00",
+    "offset": 0,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

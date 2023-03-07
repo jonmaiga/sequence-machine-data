@@ -1,0 +1,30 @@
+{
+  "description": "Number of fully normal integer partitions of n.",
+  "id": "A317491",
+  "mentions": [
+    "A181819",
+    "A182850",
+    "A182857",
+    "A275870",
+    "A304660",
+    "A305563",
+    "A317081",
+    "A317086",
+    "A317088",
+    "A317245",
+    "A317246",
+    "A317492",
+    "A317493"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

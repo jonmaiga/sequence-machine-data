@@ -1,0 +1,22 @@
+{
+  "description": "Excess of n-th semiprime over previous prime.",
+  "id": "A121884",
+  "mentions": [
+    "A000040",
+    "A001358",
+    "A062721",
+    "A077068"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:10",
+    "offset": 1,
+    "size": 103,
+    "source": "oeis-bfile"
+  }
+}

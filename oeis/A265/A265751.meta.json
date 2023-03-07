@@ -1,0 +1,30 @@
+{
+  "description": "Square array A(row,col): A(row,0) = row and for col >= 1, if A082284(row) is 0, then A(row,col) = 0, otherwise A(row,col) = A(A082284(row),col-1).",
+  "id": "A265751",
+  "mentions": [
+    "A000005",
+    "A001477",
+    "A002262",
+    "A025581",
+    "A045765",
+    "A060990",
+    "A082284",
+    "A262686",
+    "A263267",
+    "A263271",
+    "A266111",
+    "A266116"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 120,
+    "source": "oeis-entry"
+  }
+}

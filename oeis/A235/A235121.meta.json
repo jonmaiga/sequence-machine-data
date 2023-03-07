@@ -1,0 +1,20 @@
+{
+  "description": "Irregular triangle read by rows: row n contains in increasing order the Matula numbers of the rooted trees that are isomorphic as trees to the rooted tree with Matula number n (n>=1).",
+  "id": "A235121",
+  "mentions": [
+    "A235122",
+    "A257539"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

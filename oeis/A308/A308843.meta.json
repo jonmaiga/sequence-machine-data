@@ -1,0 +1,24 @@
+{
+  "description": "Sum of the third largest parts in the partitions of n into 5 squarefree parts.",
+  "id": "A308843",
+  "mentions": [
+    "A008683",
+    "A308839",
+    "A308840",
+    "A308841",
+    "A308842",
+    "A308844",
+    "A308845"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:33",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

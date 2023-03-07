@@ -1,0 +1,22 @@
+{
+  "description": "Numbers whose binary expansion has only the digit \"1\" as first, central and final digit.",
+  "id": "A135576",
+  "mentions": [
+    "A001576",
+    "A006995",
+    "A135577"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:23",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the number of occurrences of the most frequently seen difference between adjacent digits in the concatenation of a(0) to a(n-1), with a(0) = 0, a(1) = 0.",
+  "id": "A331163",
+  "mentions": [
+    "A040115"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:00",
+    "offset": 0,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

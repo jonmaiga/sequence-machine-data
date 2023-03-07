@@ -1,0 +1,18 @@
+{
+  "description": "Number of lattice paths from (0,0) to (n,n) using steps (1,0), (0,1), (1,1), (-1,1) and whose points lie entirely in the integer square of lattice points {(i,j): 0 <= i,j <= n}.",
+  "id": "A339654",
+  "mentions": [
+    "A232968"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:12",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

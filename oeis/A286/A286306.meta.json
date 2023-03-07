@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = coefficient of x^(2*n)/(2*n)! in exp( integral ( sn(x, 1/2) / cd(x, 1/2) ) dx).",
+  "id": "A286306",
+  "mentions": [
+    "A159600",
+    "A159601",
+    "A190904",
+    "A193541",
+    "A193544",
+    "A242240"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:58",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

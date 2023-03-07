@@ -1,0 +1,17 @@
+{
+  "description": "Number of nX5 0..2 arrays avoiding the patterns z z+1 z or z z-1 z in any row or column",
+  "id": "A207012",
+  "mentions": [
+    "A207015"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:27",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

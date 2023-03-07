@@ -1,0 +1,17 @@
+{
+  "description": "Number of nX7 0..2 arrays with all horizontally or vertically connected equal values in a straight line, and new values 0..2 introduced in row major order",
+  "id": "A223386",
+  "mentions": [
+    "A223387"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:41",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

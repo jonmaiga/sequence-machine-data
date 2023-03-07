@@ -1,0 +1,20 @@
+{
+  "description": "Dragon curve triple point numerators: When a(n) in 0, 1, 2, ..., (5*2^k), Dragon(a(n)/(5*2^k)) has exactly three distinct, rational preimages.",
+  "id": "A260482",
+  "mentions": [
+    "A260747",
+    "A260750",
+    "A261120"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-entry"
+  }
+}

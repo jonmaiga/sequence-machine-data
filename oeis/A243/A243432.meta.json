@@ -1,0 +1,18 @@
+{
+  "description": "Primes of the form 2^n + 47.",
+  "id": "A243432",
+  "mentions": [
+    "A243429"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "bref",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:59",
+    "offset": 1,
+    "size": 2,
+    "source": "oeis-bfile"
+  }
+}

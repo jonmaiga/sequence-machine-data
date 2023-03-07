@@ -1,0 +1,22 @@
+{
+  "description": "Denominators of an Egyptian fraction for Catalan constant, using only prime numbers and allowing repetitions.",
+  "id": "A139520",
+  "mentions": [
+    "A139514",
+    "A139519",
+    "A139521",
+    "A139523"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

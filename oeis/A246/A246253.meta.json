@@ -1,0 +1,18 @@
+{
+  "description": "Number of permutations of [n] with exactly eight occurrences of the consecutive step pattern up, down, down.",
+  "id": "A246253",
+  "mentions": [
+    "A242819"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:02",
+    "offset": 25,
+    "size": 9,
+    "source": "oeis-bfile"
+  }
+}

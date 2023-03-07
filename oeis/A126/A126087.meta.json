@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of c(2*x^2)/(1-x*c(2*x^2)), where c(x) = (1-sqrt(1-4*x))/(2*x) is the g.f. of the Catalan numbers (A000108).",
+  "id": "A126087",
+  "mentions": [
+    "A000108",
+    "A089022",
+    "A120730"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 13:09:06",
+    "offset": 0,
+    "size": 29,
+    "source": "joeis"
+  }
+}

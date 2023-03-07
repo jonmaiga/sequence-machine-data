@@ -1,0 +1,26 @@
+{
+  "description": "Primes in the bisected Lucas sequence A002878.",
+  "id": "A285992",
+  "mentions": [
+    "A000032",
+    "A000040",
+    "A001606",
+    "A002878",
+    "A005479",
+    "A121534",
+    "A180363",
+    "A269254",
+    "A294099"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

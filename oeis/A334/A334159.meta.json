@@ -1,0 +1,23 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) is the number of colorings of the n-hypercube graph using exactly k unlabeled colors, k = 1..2^n.",
+  "id": "A334159",
+  "mentions": [
+    "A091940",
+    "A140986",
+    "A158348",
+    "A295176",
+    "A296914",
+    "A334247"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:05",
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Number of partitions of n into 6 distinct primes (counting 1 as a prime).",
+  "id": "A341977",
+  "mentions": [
+    "A008578",
+    "A036497",
+    "A219200",
+    "A341949",
+    "A341973",
+    "A341974",
+    "A341975",
+    "A341976"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:14",
+    "offset": 29,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

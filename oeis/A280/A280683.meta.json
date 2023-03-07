@@ -1,0 +1,25 @@
+{
+  "description": "Number of ways to write n as an ordered sum of two positive squarefree semiprimes (A006881).",
+  "id": "A280683",
+  "mentions": [
+    "A001222",
+    "A001358",
+    "A005117",
+    "A006881",
+    "A008683",
+    "A073610",
+    "A098235",
+    "A199331"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 106,
+    "source": "oeis-entry"
+  }
+}

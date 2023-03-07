@@ -1,0 +1,18 @@
+{
+  "description": "Primes congruent to 31 or 179 mod 210.",
+  "id": "A140587",
+  "mentions": [
+    "A000040"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:13:33",
+    "offset": 1,
+    "size": 43,
+    "source": "joeis"
+  }
+}

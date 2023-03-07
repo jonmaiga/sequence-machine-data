@@ -1,0 +1,22 @@
+{
+  "description": "Consider the Post tag system described in A284116 (but adapted to the alphabet {1,2}); sequence lists the words that belong to cycles.",
+  "id": "A289674",
+  "mentions": [
+    "A284116",
+    "A284119",
+    "A284121",
+    "A289670",
+    "A289671",
+    "A289675"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:04",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

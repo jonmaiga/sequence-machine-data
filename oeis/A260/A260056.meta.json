@@ -1,0 +1,31 @@
+{
+  "description": "Irregular triangle read by rows: coefficients T(n, k) of certain polynomials p(n, x) with exponents in increasing order, n >= 0 and 0 <= k <= 2*n.",
+  "id": "A260056",
+  "mentions": [
+    "A000027",
+    "A000217",
+    "A000292",
+    "A001590",
+    "A002426",
+    "A004524",
+    "A005582",
+    "A008937",
+    "A027907",
+    "A095662",
+    "A113682",
+    "A246437"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:18",
+    "offset": 0,
+    "size": 92,
+    "source": "oeis-bfile"
+  }
+}

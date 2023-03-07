@@ -1,0 +1,18 @@
+{
+  "description": "Number of n-ascent sequences of length n with no consecutive repeated letters.",
+  "id": "A264916",
+  "mentions": [
+    "A264909"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:24",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

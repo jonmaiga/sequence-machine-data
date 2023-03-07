@@ -1,0 +1,19 @@
+{
+  "description": "Central terms of triangles A001497 and A001498.",
+  "id": "A245066",
+  "mentions": [
+    "A001497",
+    "A001498"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:01",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

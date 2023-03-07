@@ -1,0 +1,19 @@
+{
+  "description": "Denominators of the ratios (in lowest terms) of numbers of primes in one square interval to that of the interval and its successor.",
+  "id": "A161622",
+  "mentions": [
+    "A014085",
+    "A161621"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

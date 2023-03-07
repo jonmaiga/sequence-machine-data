@@ -1,0 +1,22 @@
+{
+  "description": "The smallest first term of a sequence of n primes such that, after the first, each is equal to the previous prime plus the sum of all of its digits, plus the product of all of its nonzero digits.",
+  "id": "A235680",
+  "mentions": [
+    "A090009",
+    "A233692",
+    "A233783"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

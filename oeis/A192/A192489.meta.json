@@ -1,0 +1,21 @@
+{
+  "description": "Numbers m such that A099427(m) = 2.",
+  "id": "A192489",
+  "mentions": [
+    "A000040",
+    "A000430",
+    "A001248",
+    "A038179",
+    "A099427"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

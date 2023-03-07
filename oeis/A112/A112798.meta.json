@@ -1,0 +1,31 @@
+{
+  "description": "Table where n-th row is factorization of n, with each prime p_i replaced by i.",
+  "id": "A112798",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A001222",
+    "A003963",
+    "A027746",
+    "A036036",
+    "A049084",
+    "A056239",
+    "A082288",
+    "A215366",
+    "A241918",
+    "A265146",
+    "A275024"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:03",
+    "offset": 2,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

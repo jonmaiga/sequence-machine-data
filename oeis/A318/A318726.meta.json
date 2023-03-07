@@ -1,0 +1,27 @@
+{
+  "description": "Number of integer compositions of n that have only one part or whose consecutive parts are indivisible and the last and first part are also indivisible.",
+  "id": "A318726",
+  "mentions": [
+    "A000740",
+    "A008965",
+    "A167606",
+    "A285573",
+    "A296302",
+    "A303362",
+    "A304713",
+    "A316476",
+    "A318727",
+    "A328598"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:40",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

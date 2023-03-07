@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = n * pod(n) where pod(n) = the product of divisors of n (A007955).",
+  "id": "A338576",
+  "mentions": [
+    "A000040",
+    "A007955",
+    "A007956",
+    "A038040",
+    "A064987",
+    "A174935"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 06:27:55",
+    "offset": 1,
+    "size": 41,
+    "source": "joeis"
+  }
+}

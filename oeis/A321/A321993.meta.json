@@ -1,0 +1,20 @@
+{
+  "description": "Numbers having less than 3 unique partitions into exactly 3 parts with the same product: complement of A119028.",
+  "id": "A321993",
+  "mentions": [
+    "A103277",
+    "A119028"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

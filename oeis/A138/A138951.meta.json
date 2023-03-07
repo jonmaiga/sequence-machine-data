@@ -1,0 +1,24 @@
+{
+  "description": "Expansion of eta(q^2)^7 * eta(q^3)^2 * eta(q^12) / (eta(q)^2 * eta(q^4)^3 * eta(q^6)^3) in powers of q.",
+  "id": "A138951",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A010054",
+    "A010815",
+    "A121373",
+    "A129447",
+    "A138949"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:26",
+    "offset": 0,
+    "size": 77,
+    "source": "oeis-bfile"
+  }
+}

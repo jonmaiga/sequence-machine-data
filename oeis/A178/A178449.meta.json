@@ -1,0 +1,21 @@
+{
+  "description": "Conjectured expansion of exp(Pi*sqrt(163)) in powers of t, where t = 1/(640320)^3.",
+  "id": "A178449",
+  "mentions": [
+    "A000521",
+    "A066396",
+    "A091406",
+    "A178451"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "more",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": -1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

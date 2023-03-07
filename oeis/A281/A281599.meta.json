@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that A000005(k) = A000005(A000041(k)).",
+  "id": "A281599",
+  "mentions": [
+    "A000005",
+    "A000041",
+    "A281597",
+    "A281598"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:50",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Coefficient array for powers of x^2 of the square of Chebyshev's C(2*n+1,x)/x =: tau(n,x) polynomials.",
+  "id": "A220669",
+  "mentions": [
+    "A005408",
+    "A111125",
+    "A156308"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

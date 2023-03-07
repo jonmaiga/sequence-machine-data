@@ -1,0 +1,18 @@
+{
+  "description": "Limit of rows in triangle A232433 when read in reverse order.",
+  "id": "A232434",
+  "mentions": [
+    "A232433"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

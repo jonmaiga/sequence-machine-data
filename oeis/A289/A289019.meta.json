@@ -1,0 +1,18 @@
+{
+  "description": "Length of n-th iterate of the mapping 00->0010, 01->010, 10->000, starting with 00.",
+  "id": "A289019",
+  "mentions": [
+    "A289016"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

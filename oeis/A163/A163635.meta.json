@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = 3*A022004(n) + 8.",
+  "id": "A163635",
+  "mentions": [
+    "A022004",
+    "A073648",
+    "A098412",
+    "A242215"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:08:17",
+    "offset": 1,
+    "size": 40,
+    "source": "joeis"
+  }
+}

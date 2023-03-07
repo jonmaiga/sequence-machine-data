@@ -1,0 +1,17 @@
+{
+  "description": "T(2n, 2n-1)/n of A109626.",
+  "id": "A111628",
+  "mentions": [
+    "A109626"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

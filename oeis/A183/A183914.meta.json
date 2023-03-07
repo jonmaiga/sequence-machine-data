@@ -1,0 +1,18 @@
+{
+  "description": "Number of nondecreasing arrangements of n numbers in -6..6 with sum zero",
+  "id": "A183914",
+  "mentions": [
+    "A183917"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:08",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

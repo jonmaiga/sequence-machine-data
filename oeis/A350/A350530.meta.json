@@ -1,0 +1,26 @@
+{
+  "description": "Square array read by antidiagonals downwards: T(n,k) is the number of sequences of length n with terms in 0..k such that the (n-1)-st difference is zero, but no earlier iterated difference is zero, n, k >= 1.",
+  "id": "A350530",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A001477",
+    "A007590",
+    "A019590",
+    "A130706",
+    "A200154",
+    "A350365",
+    "A350529"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:25",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

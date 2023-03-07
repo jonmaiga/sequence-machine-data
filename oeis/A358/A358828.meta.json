@@ -1,0 +1,29 @@
+{
+  "description": "Number of twice-partitions of n with no singletons.",
+  "id": "A358828",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A000219",
+    "A001970",
+    "A002865",
+    "A063834",
+    "A072233",
+    "A296122",
+    "A304966",
+    "A321449",
+    "A358824",
+    "A358829"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

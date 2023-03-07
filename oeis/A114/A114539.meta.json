@@ -1,0 +1,20 @@
+{
+  "description": "Number of correct decimal digits given by the n-th convergent to e.",
+  "id": "A114539",
+  "mentions": [
+    "A007676",
+    "A007677"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that the sequence A127644 with a(1) = n is conjectured to give a permutation of the natural numbers.",
+  "id": "A253897",
+  "mentions": [
+    "A127644",
+    "A252984"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

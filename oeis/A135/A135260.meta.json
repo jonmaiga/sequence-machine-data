@@ -1,0 +1,23 @@
+{
+  "description": "Fibonacci Connell sequence: 1 odd, 1 even, 2 odd, 3 even, 5 odd, 8 even, ....",
+  "id": "A135260",
+  "mentions": [
+    "A000045",
+    "A000079",
+    "A005408",
+    "A005843",
+    "A049039"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

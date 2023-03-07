@@ -1,0 +1,25 @@
+{
+  "description": "a(n) is the smallest number k such that k and 2^k have the same last n digits. Here k may have fewer than n digits and can be padded with leading zeros (cf. A121319).",
+  "id": "A113627",
+  "mentions": [
+    "A003226",
+    "A007185",
+    "A016090",
+    "A035383",
+    "A064540",
+    "A064541",
+    "A109405",
+    "A121319"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:04",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

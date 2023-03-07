@@ -1,0 +1,20 @@
+{
+  "description": "If, for some m, A098550(m-2) is a prime p and A098550(m) = 3p, add 3p to the sequence.",
+  "id": "A253052",
+  "mentions": [
+    "A098550",
+    "A251544",
+    "A253053",
+    "A253054"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

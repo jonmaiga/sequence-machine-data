@@ -1,0 +1,20 @@
+{
+  "description": "Consider the array of sequences defined to be \"the least previously nonoccurring positive integer such that partial sum + k is prime\" beginning with k=0. This sequence is the main diagonal of that array.",
+  "id": "A122866",
+  "mentions": [
+    "A054408",
+    "A121861",
+    "A121862",
+    "A122867"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:11",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

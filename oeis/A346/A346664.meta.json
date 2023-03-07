@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = Sum_{k=0..n} (-1)^(n-k) * binomial(n,k) * binomial(4*k,k) / (3*k + 1).",
+  "id": "A346664",
+  "mentions": [
+    "A002293",
+    "A005043",
+    "A188678",
+    "A346628",
+    "A346646",
+    "A346665",
+    "A346666",
+    "A346667",
+    "A346668"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:20",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

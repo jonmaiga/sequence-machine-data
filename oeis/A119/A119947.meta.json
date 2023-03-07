@@ -1,0 +1,31 @@
+{
+  "description": "Triangle of numerators in the square of the matrix A[i,j] = 1/i for j <= i, 0 otherwise.",
+  "id": "A119947",
+  "mentions": [
+    "A001008",
+    "A002024",
+    "A027446",
+    "A027447",
+    "A027448",
+    "A064169",
+    "A119932",
+    "A119935",
+    "A119948",
+    "A119949",
+    "A188386"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

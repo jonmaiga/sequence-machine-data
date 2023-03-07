@@ -1,0 +1,21 @@
+{
+  "description": "Even numbers n for which lpf(n-1) < lpf(n-3), where lpf = least prime factor.",
+  "id": "A245024",
+  "mentions": [
+    "A001359",
+    "A020639",
+    "A242719",
+    "A242720",
+    "A243937"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:01",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

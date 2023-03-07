@@ -1,0 +1,32 @@
+{
+  "description": "Peano curve in an n X n grid, starting downwards from the top left corner, listed antidiagonally as A(0,0), A(0,1), A(1,0), A(0,2), A(1,1), A(2,0), ...",
+  "id": "A163336",
+  "mentions": [
+    "A061579",
+    "A163327",
+    "A163328",
+    "A163330",
+    "A163332",
+    "A163333",
+    "A163334",
+    "A163337",
+    "A163340",
+    "A163342",
+    "A163343",
+    "A163357",
+    "A163359",
+    "A163480",
+    "A163481"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:45",
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

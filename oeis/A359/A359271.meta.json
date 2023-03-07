@@ -1,0 +1,23 @@
+{
+  "description": "Number of odd digits necessary to write all nonnegative n-digit integers.",
+  "id": "A359271",
+  "mentions": [
+    "A113119",
+    "A196564",
+    "A279766",
+    "A358439"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

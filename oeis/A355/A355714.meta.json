@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k > 0 such that A090252(A355176(k)) does not equal prime(k)^2.",
+  "id": "A355714",
+  "mentions": [
+    "A000040",
+    "A001248",
+    "A090252",
+    "A354169",
+    "A355176"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

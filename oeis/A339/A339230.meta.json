@@ -1,0 +1,18 @@
+{
+  "description": "Number of oriented series-parallel networks with integer valued elements summing to n.",
+  "id": "A339230",
+  "mentions": [
+    "A339228",
+    "A339229"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

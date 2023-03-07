@@ -1,0 +1,18 @@
+{
+  "description": "Sums m of 2 successive primes such that m is divisible by some lesser sum of 2 successive primes.",
+  "id": "A284174",
+  "mentions": [
+    "A000040",
+    "A001043"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:55",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Coefficients of the v=1 member of a family of certain orthogonal polynomials.",
+  "id": "A130182",
+  "mentions": [
+    "A000217",
+    "A010790",
+    "A129065",
+    "A130183",
+    "A130184",
+    "A130185",
+    "A130186"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "a(n) = smallest square containing n copies of the same nonzero digit.",
+  "id": "A137434",
+  "mentions": [
+    "A036508",
+    "A036509",
+    "A036510",
+    "A036511",
+    "A036512",
+    "A036513",
+    "A036514",
+    "A036515",
+    "A036516"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of the maximum value of the q-Pochhammer symbol along [ -1, 1].",
+  "id": "A143440",
+  "mentions": [
+    "A143441",
+    "A242168",
+    "A258232"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:32",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

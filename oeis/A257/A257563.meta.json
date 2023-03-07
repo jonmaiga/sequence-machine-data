@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows, coefficients T(n,k) of polynomials related to the Bell polynomials, for n>=0 and 0<=k<=n.",
+  "id": "A257563",
+  "mentions": [
+    "A000110",
+    "A048993",
+    "A186021"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

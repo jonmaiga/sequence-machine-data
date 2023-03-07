@@ -1,0 +1,18 @@
+{
+  "description": "Number of squarefree words of length 7 in an (n+1)-ary alphabet.",
+  "id": "A214946",
+  "mentions": [
+    "A214943"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:16:41",
+    "offset": 1,
+    "size": 24,
+    "source": "joeis"
+  }
+}

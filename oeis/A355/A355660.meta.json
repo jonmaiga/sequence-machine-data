@@ -1,0 +1,21 @@
+{
+  "description": "Numbers m such that the smallest number of pentagonal numbers (A000326) which sum to m is exactly 4.",
+  "id": "A355660",
+  "mentions": [
+    "A000326",
+    "A003679",
+    "A100878",
+    "A133929"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

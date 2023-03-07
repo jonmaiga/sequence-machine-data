@@ -1,0 +1,28 @@
+{
+  "description": "Number of powers of 4 having exactly n digits '0' (in base 10), conjectured.",
+  "id": "A305944",
+  "mentions": [
+    "A007496",
+    "A020665",
+    "A030701",
+    "A063575",
+    "A238940",
+    "A305924",
+    "A305938",
+    "A305939",
+    "A305942",
+    "A305947"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "nonn",
+    "unsolved"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

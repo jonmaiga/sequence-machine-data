@@ -1,0 +1,19 @@
+{
+  "description": "Number of connected squarefree bipartite graphs on n vertices.",
+  "id": "A300749",
+  "mentions": [
+    "A138347"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

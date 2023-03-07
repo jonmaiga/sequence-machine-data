@@ -1,0 +1,20 @@
+{
+  "description": "Record (maximal) gaps between primes of the form 10k + 9.",
+  "id": "A269261",
+  "mentions": [
+    "A000010",
+    "A030433",
+    "A269262",
+    "A269263"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

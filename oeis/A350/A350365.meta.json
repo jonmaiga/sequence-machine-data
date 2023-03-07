@@ -1,0 +1,24 @@
+{
+  "description": "Array read by antidiagonals: T(n,k) is the number of sequences of length 2*n+1 with terms in 0..k such that the Hankel matrix of the sequence is singular, but the Hankel matrix of any proper subsequence with an odd number of consecutive terms is invertible, n, k >= 0.",
+  "id": "A350365",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A019590",
+    "A132188",
+    "A350330",
+    "A350364"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

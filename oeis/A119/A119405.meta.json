@@ -1,0 +1,19 @@
+{
+  "description": "Primes p such that p and p-th prime do not share any decimal digit.",
+  "id": "A119405",
+  "mentions": [
+    "A000040"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:08",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Read (exponents of primes in the factorization of n!) modulo 2 and convert to decimal.",
+  "id": "A240504",
+  "mentions": [
+    "A055204",
+    "A240502",
+    "A336510"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "changed",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:57",
+    "offset": 2,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

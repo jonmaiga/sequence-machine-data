@@ -1,0 +1,20 @@
+{
+  "description": "Sequence A048138, the number of times that a positive integer occurs as the sum of proper divisors, if Goldbach partitions (two odd primes, which account for most of the values) are ignored.",
+  "id": "A104886",
+  "mentions": [
+    "A001065",
+    "A048138",
+    "A061358"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 2,
+    "size": 96,
+    "source": "oeis-entry"
+  }
+}

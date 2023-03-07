@@ -1,0 +1,36 @@
+{
+  "description": "Square array A(n,k), n >= 1, k >= 0, read by antidiagonals: A(n,k) = Sum_{d|n, d==1 (mod 4)} d^k - Sum_{d|n, d==3 (mod 4)} d^k.",
+  "id": "A322143",
+  "mentions": [
+    "A002173",
+    "A002654",
+    "A050456",
+    "A050457",
+    "A050459",
+    "A109974",
+    "A321821",
+    "A321822",
+    "A321823",
+    "A321824",
+    "A321825",
+    "A321826",
+    "A321827",
+    "A321828",
+    "A322081",
+    "A322082",
+    "A322083",
+    "A322084"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "a(n)*S is the sum of all positive integers whose decimal expansion is up to n digits and uses seven distinct nonzero digits d1,d2,d3,d4,d5,d6,d7 such that d1+d2+d3+d4+d5+d6+d7=S.",
+  "id": "A328354",
+  "mentions": [
+    "A328348",
+    "A328350",
+    "A328351",
+    "A328352",
+    "A328353",
+    "A328355",
+    "A328356"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 19:01:27",
+    "offset": 0,
+    "size": 18,
+    "source": "joeis"
+  }
+}

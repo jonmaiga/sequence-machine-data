@@ -1,0 +1,20 @@
+{
+  "description": "Number of primes (with repetition) that can be formed from digits of the n-th prime.",
+  "id": "A101988",
+  "mentions": [
+    "A039992",
+    "A045719"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-entry"
+  }
+}

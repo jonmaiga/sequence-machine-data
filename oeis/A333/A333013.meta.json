@@ -1,0 +1,21 @@
+{
+  "description": "Integers which can be written in exactly three ways as sum of two distinct nonzero pentagonal numbers.",
+  "id": "A333013",
+  "mentions": [
+    "A000326",
+    "A333011",
+    "A333012",
+    "A333014",
+    "A333015"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

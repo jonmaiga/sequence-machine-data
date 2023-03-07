@@ -1,0 +1,20 @@
+{
+  "description": "A100802(m) where A100802(m) > A100802(m-1).",
+  "id": "A100803",
+  "mentions": [
+    "A001223",
+    "A100802"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:44:53",
+    "offset": 1,
+    "size": 84,
+    "source": "joeis"
+  }
+}

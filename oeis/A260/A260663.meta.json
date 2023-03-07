@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the logarithm of the generalized Glaisher-Kinkelin constant A(13).",
+  "id": "A260663",
+  "mentions": [
+    "A260660",
+    "A260662"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:19",
+    "offset": 0,
+    "size": 113,
+    "source": "oeis-bfile"
+  }
+}

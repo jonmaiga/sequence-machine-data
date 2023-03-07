@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = (n+1)^2/4 + (floor((n+5)/6) - 1/4) * ((n+1) mod 2).",
+  "id": "A146994",
+  "mentions": [
+    "A000290",
+    "A010892",
+    "A057078"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:30:11",
+    "offset": 1,
+    "size": 57,
+    "source": "joeis"
+  }
+}

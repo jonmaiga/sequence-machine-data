@@ -1,0 +1,28 @@
+{
+  "description": "a(0)=0, a(1)=1, for n>1, a(n) = n<*>n, where k<*>m = k<+>k<+>...<+>k is the m-1-fold iteration of the operation <+> defined in A206853.",
+  "id": "A206960",
+  "mentions": [
+    "A010060",
+    "A122565",
+    "A205302",
+    "A205509",
+    "A205510",
+    "A205511",
+    "A205533",
+    "A205649",
+    "A206852",
+    "A206853"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

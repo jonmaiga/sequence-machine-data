@@ -1,0 +1,24 @@
+{
+  "description": "Triangle read by rows, T(n,k) = EL(n,k)/(n-k+1)! and EL(n,k) the matrix-exponential of the unsigned Lah numbers scaled by exp(-1), for n>=0 and 0<=k<=n.",
+  "id": "A256550",
+  "mentions": [
+    "A000110",
+    "A000217",
+    "A008911",
+    "A105479",
+    "A256551"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

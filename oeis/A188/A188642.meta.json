@@ -1,0 +1,23 @@
+{
+  "description": "Characteristic function of numbers that are divisible by the product of their digits.",
+  "id": "A188642",
+  "mentions": [
+    "A007602",
+    "A007954",
+    "A038186",
+    "A168046",
+    "A188641",
+    "A188643"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:13",
+    "offset": 0,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

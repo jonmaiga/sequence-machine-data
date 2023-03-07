@@ -1,0 +1,21 @@
+{
+  "description": "Representation of n = sum_k b_k*(k!!) in the double-factorial base by some b_k-fold concatenation of the indices k.",
+  "id": "A181521",
+  "mentions": [
+    "A006882",
+    "A019513",
+    "A111095"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

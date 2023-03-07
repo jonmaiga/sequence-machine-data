@@ -1,0 +1,17 @@
+{
+  "description": "Number of nX6 0..2 arrays with no element unequal to a strict majority of its horizontal, vertical and antidiagonal neighbors, with the exception of exactly one element, and with new values introduced in order 0 sequentially upwards.",
+  "id": "A280122",
+  "mentions": [
+    "A280124"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:47",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

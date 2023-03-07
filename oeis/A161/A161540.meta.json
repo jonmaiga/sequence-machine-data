@@ -1,0 +1,17 @@
+{
+  "description": "Primes which are the sum of a smaller n and its composite(n) subscript. A002808 + a(n) (= prime)",
+  "id": "A161540",
+  "mentions": [
+    "A002808"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

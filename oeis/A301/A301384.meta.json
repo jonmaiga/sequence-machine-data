@@ -1,0 +1,21 @@
+{
+  "description": "Number of integer-sided triangles of area A188158(n).",
+  "id": "A301384",
+  "mentions": [
+    "A024153",
+    "A051516",
+    "A051584",
+    "A051585",
+    "A188158"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:26",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "Expansion of the 2-adic integer 17^(1/4) that ends in 11.",
+  "id": "A341754",
+  "mentions": [
+    "A322217",
+    "A324085",
+    "A324086",
+    "A324087",
+    "A324153",
+    "A325489",
+    "A325490",
+    "A325491",
+    "A325492",
+    "A341752",
+    "A341753"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:14",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

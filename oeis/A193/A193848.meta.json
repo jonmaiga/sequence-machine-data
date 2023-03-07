@@ -1,0 +1,18 @@
+{
+  "description": "Triangular array: (1/2)*A193846.",
+  "id": "A193848",
+  "mentions": [
+    "A193846"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

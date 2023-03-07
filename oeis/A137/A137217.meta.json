@@ -1,0 +1,18 @@
+{
+  "description": "A self-describing sequence: 2 odd digits between two even, then 3 odd digits between two even, then 5 odd digits between two even, then 6, then 7... The length of each run of odd digits is given by the sequence itself (the smallest available integer is used when needed). Zero is an even digit.",
+  "id": "A137217",
+  "mentions": [
+    "A135604"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

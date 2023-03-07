@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that the heptagonal number H(n) is equal to the sum of the hexagonal numbers X(m), X(m+1), X(m+2) and X(m+3) for some m.",
+  "id": "A252631",
+  "mentions": [
+    "A000384",
+    "A000566",
+    "A252630"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:10",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

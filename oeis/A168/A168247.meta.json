@@ -1,0 +1,18 @@
+{
+  "description": "Integers of the form (prime(p) - p)/10 for some prime p.",
+  "id": "A168247",
+  "mentions": [
+    "A168152"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

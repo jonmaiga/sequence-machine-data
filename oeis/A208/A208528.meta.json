@@ -1,0 +1,23 @@
+{
+  "description": "Number of permutations of n>1 having exactly 3 points P on the boundary of their bounding square.",
+  "id": "A208528",
+  "mentions": [
+    "A001620",
+    "A091725",
+    "A098916",
+    "A099285",
+    "A208529",
+    "A233440"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:28",
+    "offset": 2,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

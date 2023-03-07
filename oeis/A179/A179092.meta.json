@@ -1,0 +1,23 @@
+{
+  "description": "Variant of Sylvester's sequence: a(n + 1) = a(n)^2 - a(n) + 1, with a(1) = 16",
+  "id": "A179092",
+  "mentions": [
+    "A144779",
+    "A144780",
+    "A144781",
+    "A144782",
+    "A144783",
+    "A144784",
+    "A144785"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

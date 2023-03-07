@@ -1,0 +1,21 @@
+{
+  "description": "Number of snake-like polyominoes in an n X n square that start at the NW corner and end at the SE corner and have the maximum length.",
+  "id": "A357516",
+  "mentions": [
+    "A331986",
+    "A357234"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "hard",
+    "more",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

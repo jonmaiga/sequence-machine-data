@@ -1,0 +1,18 @@
+{
+  "description": "Number of 1-dimensional sandpiles with n grains piling up against the wall.",
+  "id": "A291896",
+  "mentions": [
+    "A186085",
+    "A291895"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:06",
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

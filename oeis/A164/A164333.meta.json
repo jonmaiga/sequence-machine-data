@@ -1,0 +1,32 @@
+{
+  "description": "Primes prime(k) such that all integers in the interval [(prime(k-1)+1)/2, (prime(k)-1)/2] are composite numbers.",
+  "id": "A164333",
+  "mentions": [
+    "A001262",
+    "A001567",
+    "A062568",
+    "A080359",
+    "A104272",
+    "A141232",
+    "A164288",
+    "A164294",
+    "A164332",
+    "A164368",
+    "A164554",
+    "A166251",
+    "A166252",
+    "A166307",
+    "A166308"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

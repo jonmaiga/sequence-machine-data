@@ -1,0 +1,19 @@
+{
+  "description": "The number of flips to go from Hamiltonian cycle beta_n to gamma_n in the Cameron graph of size n using Thomason's algorithm.",
+  "id": "A332751",
+  "mentions": [
+    "A332750"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:02",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

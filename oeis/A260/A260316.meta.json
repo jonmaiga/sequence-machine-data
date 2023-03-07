@@ -1,0 +1,19 @@
+{
+  "description": "n/3 if 3 divides n, else n-1.",
+  "id": "A260316",
+  "mentions": [
+    "A029578"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:10:45",
+    "offset": 0,
+    "size": 70,
+    "source": "joeis"
+  }
+}

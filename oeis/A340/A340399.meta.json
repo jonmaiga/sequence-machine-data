@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the least Fibonacci number >= 2^n.",
+  "id": "A340399",
+  "mentions": [
+    "A000045",
+    "A000079",
+    "A340400"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

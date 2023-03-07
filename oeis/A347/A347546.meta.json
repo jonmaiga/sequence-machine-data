@@ -1,0 +1,17 @@
+{
+  "description": "Number of involutions of doubly alternating Baxter permutations of length n.",
+  "id": "A347546",
+  "mentions": [
+    "A001181"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

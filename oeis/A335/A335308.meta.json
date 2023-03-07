@@ -1,0 +1,23 @@
+{
+  "description": "Number of permutations p of [n] such that the sequence of ascents and descents of p is encoded by the 0's and 1's, respectively, in the binary expansion of n (read from right to left and using leading 0's if necessary).",
+  "id": "A335308",
+  "mentions": [
+    "A060351",
+    "A242783",
+    "A242784",
+    "A242785"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:06",
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

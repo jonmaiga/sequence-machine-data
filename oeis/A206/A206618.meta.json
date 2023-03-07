@@ -1,0 +1,17 @@
+{
+  "description": "Number of (n+1) X 6 0..2 arrays with every 2 X 3 or 3 X 2 subblock having no more than two equal edges, and new values 0..2 introduced in row major order.",
+  "id": "A206618",
+  "mentions": [
+    "A206621"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:26",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "description": "Number A(n,k) of Dyck paths of semilength n such that no level has more than k peaks; square array A(n,k), n >= 0, k >= 0, read by descending antidiagonals.",
+  "id": "A287847",
+  "mentions": [
+    "A000007",
+    "A000108",
+    "A001453",
+    "A120304",
+    "A281874",
+    "A287822",
+    "A287966",
+    "A287967",
+    "A287968",
+    "A287969",
+    "A287970",
+    "A287971",
+    "A287972",
+    "A287973",
+    "A287974"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:00",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

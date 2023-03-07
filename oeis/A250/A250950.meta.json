@@ -1,0 +1,17 @@
+{
+  "description": "Number of (n+1)X(n+1) 0..1 arrays with no 2X2 subblock having its maximum diagonal element less than its minimum antidiagonal element",
+  "id": "A250950",
+  "mentions": [
+    "A250956"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:08",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-bfile"
+  }
+}

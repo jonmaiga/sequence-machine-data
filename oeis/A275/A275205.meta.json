@@ -1,0 +1,19 @@
+{
+  "description": "Partial sums of the Dirichlet inverse of the Euler totient function.",
+  "id": "A275205",
+  "mentions": [
+    "A023900",
+    "A191898"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:40",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

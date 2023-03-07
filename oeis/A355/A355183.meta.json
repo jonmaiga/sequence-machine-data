@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of the area of the region that represents the set of points in a unit square that are closer to the center of the square than to the closest edge.",
+  "id": "A355183",
+  "mentions": [
+    "A021058",
+    "A103712",
+    "A244921",
+    "A254140",
+    "A352453",
+    "A355184",
+    "A355185"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

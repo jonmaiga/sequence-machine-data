@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: n-th row consists of lexicographically least set of n distinct terms of A001043 whose sum is minimal prime.",
+  "id": "A102729",
+  "mentions": [
+    "A001043",
+    "A102724",
+    "A102725"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

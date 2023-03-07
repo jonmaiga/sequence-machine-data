@@ -1,0 +1,21 @@
+{
+  "description": "n-th nonprime - (-1)^(n-th nonprime).",
+  "id": "A163975",
+  "mentions": [
+    "A103889",
+    "A141468"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "less",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:46",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

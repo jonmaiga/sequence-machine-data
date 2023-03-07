@@ -1,0 +1,21 @@
+{
+  "description": "Number of 3 X 3 magic squares with magic sum 3n.",
+  "id": "A108578",
+  "mentions": [
+    "A055328",
+    "A108576",
+    "A108577",
+    "A108579"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:00",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

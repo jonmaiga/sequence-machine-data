@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of the ratio of segment areas for arclength 1 on the unit circle; see Comments.",
+  "id": "A336079",
+  "mentions": [
+    "A336073"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 2,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

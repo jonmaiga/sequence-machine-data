@@ -1,0 +1,19 @@
+{
+  "description": "A triangle of coefficients from a polynomial set: p(x,n)=((1 - x)^(2*n)/(n*x))*Sum[Binomial[k + n - 1, k]*k^n*x^k, {k, 0, Infinity}]; t(n,m)=Coefficient(p(x,n)).",
+  "id": "A152260",
+  "mentions": [
+    "A123125"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Largest m<=n such that no carry occurs when adding m to n in ternary arithmetic.",
+  "id": "A167877",
+  "mentions": [
+    "A007089",
+    "A030341",
+    "A035327",
+    "A167831",
+    "A167878"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:52",
+    "offset": 0,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

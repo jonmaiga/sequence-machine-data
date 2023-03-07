@@ -1,0 +1,40 @@
+{
+  "description": "Number of integer partitions of n covering an initial interval of positive integers with non-unimodal run-lengths.",
+  "id": "A332579",
+  "mentions": [
+    "A000009",
+    "A001523",
+    "A007052",
+    "A059204",
+    "A100883",
+    "A107429",
+    "A115981",
+    "A227038",
+    "A328509",
+    "A332280",
+    "A332281",
+    "A332282",
+    "A332283",
+    "A332284",
+    "A332286",
+    "A332577",
+    "A332638",
+    "A332639",
+    "A332640",
+    "A332671",
+    "A332672",
+    "A332727",
+    "A332728",
+    "A332743"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

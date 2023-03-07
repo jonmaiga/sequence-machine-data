@@ -1,0 +1,19 @@
+{
+  "description": "Number of unbiased free polyominoes with 2n squares.",
+  "id": "A234012",
+  "mentions": [
+    "A000105",
+    "A001933"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

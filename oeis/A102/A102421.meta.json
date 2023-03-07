@@ -1,0 +1,20 @@
+{
+  "description": "To get a(n), start with 2n+1, multiply by 3 and add 1 and divide out any power of 2; then multiply by 3 and subtract 1 and divide out any power of 2.",
+  "id": "A102421",
+  "mentions": [
+    "A000265",
+    "A102423",
+    "A337349"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:53",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

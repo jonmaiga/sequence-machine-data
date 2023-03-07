@@ -1,0 +1,27 @@
+{
+  "description": "Numbers k such that 5*k - 4 is a square.",
+  "id": "A298950",
+  "mentions": [
+    "A001481",
+    "A020668",
+    "A036404",
+    "A036666",
+    "A081068",
+    "A106833",
+    "A140612",
+    "A195162",
+    "A245042"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:34:17",
+    "offset": 1,
+    "size": 53,
+    "source": "joeis"
+  }
+}

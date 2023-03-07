@@ -1,0 +1,25 @@
+{
+  "description": "G.f. A(x) satisfies: A(x) = 1 + x + x^2 * A(x/(1 + 2*x)) / (1 + 2*x).",
+  "id": "A350456",
+  "mentions": [
+    "A007472",
+    "A009235",
+    "A010739",
+    "A051139",
+    "A351184",
+    "A351185",
+    "A351186",
+    "A351187"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

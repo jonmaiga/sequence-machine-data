@@ -1,0 +1,19 @@
+{
+  "description": "Number of simple non-bipartite graphs on n nodes.",
+  "id": "A236525",
+  "mentions": [
+    "A000088",
+    "A033995"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:54",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

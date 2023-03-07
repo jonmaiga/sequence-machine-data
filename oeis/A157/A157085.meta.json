@@ -1,0 +1,23 @@
+{
+  "description": "Consider all Consecutive Integer Pythagorean quintuples (X, X+1, X+2, Z-1, Z) ordered by increasing Z; sequence gives Z values.",
+  "id": "A157085",
+  "mentions": [
+    "A001653",
+    "A157084",
+    "A157089",
+    "A157093",
+    "A157097",
+    "A253175"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 11:19:16",
+    "offset": 0,
+    "size": 18,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of irreducible polynomials in the n-th generation of polynomials generated as in Comments.",
+  "id": "A264293",
+  "mentions": [
+    "A000045",
+    "A001906",
+    "A262841",
+    "A264292"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

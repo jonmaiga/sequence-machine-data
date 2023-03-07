@@ -1,0 +1,20 @@
+{
+  "description": "Maximum number of inequivalent orientations of an n-node graph.",
+  "id": "A352766",
+  "mentions": [
+    "A352764",
+    "A352767"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

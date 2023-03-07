@@ -1,0 +1,23 @@
+{
+  "description": "E.g.f. satisfies A(x) = x * exp( 3*(x + A(x))/2 ).",
+  "id": "A360545",
+  "mentions": [
+    "A100526",
+    "A216857",
+    "A360482",
+    "A360544",
+    "A360548"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "changed",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "description": "Triangle read by rows: T(n,k) gives the number of ballot sequences of length n having exactly k flat steps, n>=0, 0<=k<=n.",
+  "id": "A238125",
+  "mentions": [
+    "A000085",
+    "A237770",
+    "A238126",
+    "A238127",
+    "A241774",
+    "A241775",
+    "A241776",
+    "A241777",
+    "A241778",
+    "A241779",
+    "A241780",
+    "A241781",
+    "A241785"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

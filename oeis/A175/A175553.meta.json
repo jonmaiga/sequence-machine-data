@@ -1,0 +1,20 @@
+{
+  "description": "Product of first k triangular numbers divided by the sum of first k triangular numbers is an integer.",
+  "id": "A175553",
+  "mentions": [
+    "A000292",
+    "A006472",
+    "A133653"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:59",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

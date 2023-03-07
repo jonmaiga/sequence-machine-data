@@ -1,0 +1,17 @@
+{
+  "description": "Least number having exactly two odd prime factors that differ by 2^n.",
+  "id": "A190358",
+  "mentions": [
+    "A190052"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:14",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

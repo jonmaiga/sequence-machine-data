@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Product_{1 <= i < j <= n} 2*(i+j-1).",
+  "id": "A203516",
+  "mentions": [
+    "A000178",
+    "A005408",
+    "A034910",
+    "A093883",
+    "A203517"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 13:40:45",
+    "offset": 1,
+    "size": 10,
+    "source": "joeis"
+  }
+}

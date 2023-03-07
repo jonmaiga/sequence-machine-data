@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = sum_(d|n) ((product_(d|n) d) / d).",
+  "id": "A220846",
+  "mentions": [
+    "A007955"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:39",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

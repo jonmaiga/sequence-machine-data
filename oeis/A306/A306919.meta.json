@@ -1,0 +1,20 @@
+{
+  "description": "Sum over all partitions of n into distinct parts of the power tower evaluation x^y^...^z, where x, y, ..., z are the parts in increasing order.",
+  "id": "A306919",
+  "mentions": [
+    "A022629",
+    "A066189",
+    "A306895",
+    "A306918"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

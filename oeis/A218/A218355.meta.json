@@ -1,0 +1,19 @@
+{
+  "description": "Number of partitions into distinct parts where all differences between consecutive parts are odd and the minimal part is even.",
+  "id": "A218355",
+  "mentions": [
+    "A179049",
+    "A179080"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:35",
+    "offset": 0,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

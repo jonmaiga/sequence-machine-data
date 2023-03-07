@@ -1,0 +1,23 @@
+{
+  "description": "Number of (undirected) cycles in the graph C_5 X C_n.",
+  "id": "A358855",
+  "mentions": [
+    "A296527",
+    "A339074",
+    "A339075",
+    "A358810",
+    "A358853",
+    "A358856"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 3,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

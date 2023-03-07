@@ -1,0 +1,19 @@
+{
+  "description": "Emirps p such that both p and its reversal are sums of three consecutive primes.",
+  "id": "A345472",
+  "mentions": [
+    "A006567",
+    "A034962"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:18",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

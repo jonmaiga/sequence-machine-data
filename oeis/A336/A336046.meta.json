@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of e.g.f. Product_{k>0} (1 + tan(x)^k / k!).",
+  "id": "A336046",
+  "mentions": [
+    "A007837",
+    "A335630",
+    "A335638",
+    "A335643",
+    "A335644"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

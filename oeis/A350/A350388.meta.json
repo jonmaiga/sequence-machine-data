@@ -1,0 +1,28 @@
+{
+  "description": "a(n) is the largest unitary divisor of n that is a square.",
+  "id": "A350388",
+  "mentions": [
+    "A000290",
+    "A001222",
+    "A008833",
+    "A056623",
+    "A071974",
+    "A268335",
+    "A335275",
+    "A350386",
+    "A350389"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:25",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

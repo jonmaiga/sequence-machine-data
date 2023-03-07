@@ -1,0 +1,25 @@
+{
+  "description": "Smallest prime factors of powerful numbers (A001694).",
+  "id": "A258567",
+  "mentions": [
+    "A000040",
+    "A001694",
+    "A020639",
+    "A258568",
+    "A258569",
+    "A258570",
+    "A258571",
+    "A258599"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:16",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

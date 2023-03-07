@@ -1,0 +1,18 @@
+{
+  "description": "E.g.f. equals the series reversion of tanh(x) / exp(x).",
+  "id": "A227466",
+  "mentions": [
+    "A227465"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:23:44",
+    "offset": 1,
+    "size": 19,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Triangle, read by rows, which equals the matrix logarithm of the triangle A110503.",
+  "id": "A110504",
+  "mentions": [
+    "A110503",
+    "A110505"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "description": "Number of non-isomorphic multiset partitions of weight n in which all parts are aperiodic and all parts of the dual are also aperiodic.",
+  "id": "A320807",
+  "mentions": [
+    "A000740",
+    "A000837",
+    "A007716",
+    "A007916",
+    "A100953",
+    "A301700",
+    "A303386",
+    "A303546",
+    "A303707",
+    "A303708",
+    "A316983",
+    "A320800",
+    "A320810"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

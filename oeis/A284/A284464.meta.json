@@ -1,0 +1,23 @@
+{
+  "description": "Number of compositions (ordered partitions) of n into squarefree divisors of n.",
+  "id": "A284464",
+  "mentions": [
+    "A005117",
+    "A008683",
+    "A100346",
+    "A225244",
+    "A225245",
+    "A280194"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:55",
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

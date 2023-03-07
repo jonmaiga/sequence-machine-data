@@ -1,0 +1,22 @@
+{
+  "description": "Table read by rows: T(d,k) (d >= 1, k >= 1) = smallest prime p of k (not necessarily consecutive) primes in arithmetic progression with common difference d.",
+  "id": "A124064",
+  "mentions": [
+    "A087242",
+    "A123556",
+    "A124570",
+    "A249207"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

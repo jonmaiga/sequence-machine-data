@@ -1,0 +1,33 @@
+{
+  "description": "BII-numbers of set-systems with spanning edge-connectivity 1.",
+  "id": "A327111",
+  "mentions": [
+    "A013922",
+    "A048793",
+    "A095983",
+    "A322395",
+    "A326749",
+    "A327041",
+    "A327069",
+    "A327071",
+    "A327097",
+    "A327098",
+    "A327099",
+    "A327108",
+    "A327109",
+    "A327130",
+    "A327144",
+    "A327145",
+    "A327146"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

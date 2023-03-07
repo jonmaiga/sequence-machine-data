@@ -1,0 +1,39 @@
+{
+  "description": "Triangle T(n,k) read by rows in which n-th row lists in increasing order all partitions lambda of n encoded as Product_{i in lambda} prime(i); n>=0, 1<=k<=A000041(n).",
+  "id": "A215366",
+  "mentions": [
+    "A000027",
+    "A000040",
+    "A000041",
+    "A000079",
+    "A007283",
+    "A008578",
+    "A056239",
+    "A063008",
+    "A080577",
+    "A088850",
+    "A100484",
+    "A112798",
+    "A129129",
+    "A138534",
+    "A145518",
+    "A145519",
+    "A215369",
+    "A215501",
+    "A246867",
+    "A324939"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:33",
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

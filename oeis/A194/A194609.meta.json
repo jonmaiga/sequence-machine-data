@@ -1,0 +1,17 @@
+{
+  "description": "Half the number of lower triangles of an (n+1)X(n+1) 0..2 array with no element equal to the average of its horizontal and vertical neighbors",
+  "id": "A194609",
+  "mentions": [
+    "A194615"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:17",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

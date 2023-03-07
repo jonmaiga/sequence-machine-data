@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of e.g.f. (2-exp(-x))*exp(x)/(x-1)^2.",
+  "id": "A306495",
+  "mentions": [
+    "A324224"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

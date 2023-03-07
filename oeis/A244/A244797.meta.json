@@ -1,0 +1,20 @@
+{
+  "description": "Number of moduli m such that (prime(n) mod m) = 2.",
+  "id": "A244797",
+  "mentions": [
+    "A244740",
+    "A244796",
+    "A244798"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:01",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

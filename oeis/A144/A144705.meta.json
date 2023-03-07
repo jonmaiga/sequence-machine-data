@@ -1,0 +1,19 @@
+{
+  "description": "An example of a sequence produced by the Basveo Algorithm.",
+  "id": "A144705",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "more",
+    "nonn",
+    "obsc",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Smallest fixed point summed over all non-derangement permutations of {1,2,...,n}.",
+  "id": "A155521",
+  "mentions": [
+    "A000166",
+    "A047920"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:37",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

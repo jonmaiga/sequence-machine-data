@@ -1,0 +1,25 @@
+{
+  "description": "Numbers whose divisors are partition numbers.",
+  "id": "A236102",
+  "mentions": [
+    "A000041",
+    "A027750",
+    "A049575",
+    "A236103",
+    "A236105",
+    "A236107",
+    "A236108",
+    "A236110",
+    "A236111"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

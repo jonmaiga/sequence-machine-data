@@ -1,0 +1,19 @@
+{
+  "description": "Define f_i as the i-th iterate of A260187. a(n) is the least prime for which f_i(a(n)) is prime for all i such that 0 <= i < n and f_n(a(n)) is not prime.",
+  "id": "A258937",
+  "mentions": [
+    "A260187",
+    "A260188"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

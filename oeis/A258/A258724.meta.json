@@ -1,0 +1,26 @@
+{
+  "description": "Expansion of f(-x)^11 / f(-x^3) + 27 * x * f(-x^3)^11 / f(-x) in powers of x where f() is a Ramanujan theta function.",
+  "id": "A258724",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A000731",
+    "A010054",
+    "A010815",
+    "A030206",
+    "A033687",
+    "A121373",
+    "A130539"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:16",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

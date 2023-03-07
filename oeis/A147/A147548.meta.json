@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the largest n-digit number m such that phi(10^n+1)=phi(m), gcd(10^n+1,m)=1 & 10 doesn't divide m and zero if there is no such m.",
+  "id": "A147548",
+  "mentions": [
+    "A147547",
+    "A147549",
+    "A147619"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Table read by antidiagonals upward: T(n,k) is the number of ways to move a chess queen from (1,1) to (n,k) in the first quadrant using only right, diagonal up-right, and diagonal up-left moves.",
+  "id": "A334016",
+  "mentions": [
+    "A035002",
+    "A059450",
+    "A071945",
+    "A094727",
+    "A132439",
+    "A279212",
+    "A334017"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:05",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

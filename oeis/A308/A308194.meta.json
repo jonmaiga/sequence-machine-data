@@ -1,0 +1,20 @@
+{
+  "description": "Number of steps to reach 5 when iterating x -> A063655(x) starting at x=n.",
+  "id": "A308194",
+  "mentions": [
+    "A063655",
+    "A111234",
+    "A308190",
+    "A308195"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:32",
+    "offset": 5,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

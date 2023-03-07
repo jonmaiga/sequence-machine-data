@@ -1,0 +1,19 @@
+{
+  "description": "When computing A229037, the value of the n-th term will add up to n-1 new constraints on the n-1 following terms; a(n) is the number of new constraints that the computation of A229037(n) brings.",
+  "id": "A344264",
+  "mentions": [
+    "A229037",
+    "A293866"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:17",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "G.f.: exp( Sum_{n>=1} (x^n/n)*Sum_{k=0..n} C(3n,3k)*x^k ).",
+  "id": "A185619",
+  "mentions": [
+    "A051286"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

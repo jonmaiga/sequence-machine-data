@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the first prime that starts a string of exactly n consecutive primes that are in A347702.",
+  "id": "A356374",
+  "mentions": [
+    "A007605",
+    "A136251",
+    "A209871",
+    "A347702"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

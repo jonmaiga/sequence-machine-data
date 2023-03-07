@@ -1,0 +1,21 @@
+{
+  "description": "Number of n-digit right-truncatable primes in base 16.",
+  "id": "A237601",
+  "mentions": [
+    "A050986",
+    "A237600",
+    "A237602"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:03:01",
+    "offset": 1,
+    "size": 38,
+    "source": "joeis"
+  }
+}

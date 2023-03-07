@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of a constant related to A152686.",
+  "id": "A253267",
+  "mentions": [
+    "A062073",
+    "A062381",
+    "A152686"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

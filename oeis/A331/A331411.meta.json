@@ -1,0 +1,18 @@
+{
+  "description": "Position of the start of a 5-digit sequence in the decimal digits of Pi such that the first, third, and fifth terms of that 5-digit sequence are the same.",
+  "id": "A331411",
+  "mentions": [
+    "A000796"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

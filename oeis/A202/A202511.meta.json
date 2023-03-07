@@ -1,0 +1,18 @@
+{
+  "description": "T(n,k)=Number of zero-sum -k..k arrays of n elements with first through third differences also in -k..k.",
+  "id": "A202511",
+  "mentions": [
+    "A201874"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:23",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Prime subtrahends of nearest cubes producing prime differences",
+  "id": "A146318",
+  "mentions": [
+    "A146315",
+    "A146316",
+    "A146317"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

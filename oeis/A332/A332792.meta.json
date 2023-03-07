@@ -1,0 +1,23 @@
+{
+  "description": "a(1) = 1; a(n) = Sum_{d|n, d < n} phi(d) * a(d).",
+  "id": "A332792",
+  "mentions": [
+    "A000010",
+    "A006874",
+    "A008578",
+    "A038045",
+    "A057660",
+    "A332791"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

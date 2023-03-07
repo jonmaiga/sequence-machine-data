@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = Product_{d|A000265(n)} A019565(A289814(d)); a product obtained from the 2-digits present in ternary expansions of the odd divisors of n.",
+  "id": "A351092",
+  "mentions": [
+    "A000265",
+    "A019565",
+    "A289814",
+    "A351082",
+    "A351091",
+    "A351094"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 94,
+    "source": "oeis-entry"
+  }
+}

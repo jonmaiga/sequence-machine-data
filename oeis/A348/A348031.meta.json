@@ -1,0 +1,23 @@
+{
+  "description": "Multiply-perfect numbers k that have a divisor d such that sigma(d)*d = k.",
+  "id": "A348031",
+  "mentions": [
+    "A000396",
+    "A005820",
+    "A007691",
+    "A064987",
+    "A327165",
+    "A348032",
+    "A348035"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

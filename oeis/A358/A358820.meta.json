@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the least novel k such that d(k)|n, where d is the divisor counting function A000005.",
+  "id": "A358820",
+  "mentions": [
+    "A000005",
+    "A005179",
+    "A061286",
+    "A128555"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:32",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

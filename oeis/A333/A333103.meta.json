@@ -1,0 +1,22 @@
+{
+  "description": "Quasiperfect cototient numbers: numbers k such that the sum of the iterated cototient function of k is equal to k+1.",
+  "id": "A333103",
+  "mentions": [
+    "A050475",
+    "A051953",
+    "A082897",
+    "A286067",
+    "A330273"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

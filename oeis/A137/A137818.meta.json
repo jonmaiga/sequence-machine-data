@@ -1,0 +1,22 @@
+{
+  "description": "Non-biquadratefree \"year numbers\": phi(n) = 2 phi(sigma(n)) and p^4 | n for some p>1.",
+  "id": "A137818",
+  "mentions": [
+    "A046099",
+    "A046101",
+    "A137815",
+    "A137816",
+    "A137817",
+    "A137819"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:26",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

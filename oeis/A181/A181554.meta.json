@@ -1,0 +1,19 @@
+{
+  "description": "The number E_{n,2} of n-state topological epsilon-machines over a binary alphabet.",
+  "id": "A181554",
+  "mentions": [
+    "A181621"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

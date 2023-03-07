@@ -1,0 +1,25 @@
+{
+  "description": "Divisors of 453060.",
+  "id": "A134950",
+  "mentions": [
+    "A018509",
+    "A064730",
+    "A134888",
+    "A134960",
+    "A135639",
+    "A135640"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

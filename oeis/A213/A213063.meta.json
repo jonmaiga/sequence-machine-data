@@ -1,0 +1,25 @@
+{
+  "description": "Balanced numbers (of order one): k-almost primes that are the average of three successive k-almost primes.",
+  "id": "A213063",
+  "mentions": [
+    "A001222",
+    "A006562",
+    "A014612",
+    "A014613",
+    "A014614",
+    "A046306",
+    "A046308",
+    "A082077",
+    "A213025"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:31",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) = number of trees on n nodes with radius k, n>=1, 1 <= k <= floor(n/2).",
+  "id": "A283826",
+  "mentions": [
+    "A000055",
+    "A000088",
+    "A000664",
+    "A000676",
+    "A000677",
+    "A004250",
+    "A008406",
+    "A027416",
+    "A034853",
+    "A102911",
+    "A283827"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-entry"
+  }
+}

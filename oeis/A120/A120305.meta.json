@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = Sum_{i=0..n} Sum_{j=0..n} (-1)^(i+j) * (i+j)!/(i!j!).",
+  "id": "A120305",
+  "mentions": [
+    "A000108",
+    "A006134",
+    "A007519",
+    "A033200",
+    "A072547",
+    "A092785",
+    "A307354"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:09",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

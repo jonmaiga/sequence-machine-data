@@ -1,0 +1,21 @@
+{
+  "description": "Number of pairs (C,D) where C is a composition of u, D is a composition into distinct parts of v, and u + v = n.",
+  "id": "A238439",
+  "mentions": [
+    "A011782",
+    "A015128",
+    "A032020",
+    "A236002"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

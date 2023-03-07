@@ -1,0 +1,25 @@
+{
+  "description": "Difference between the number of occurrences of prime gaps not divisible by 3, versus number of prime gaps that are multiples of 3, up to n-th prime gap: a(n) = A269849(n) - A269850(n).",
+  "id": "A269364",
+  "mentions": [
+    "A001223",
+    "A038698",
+    "A137264",
+    "A269849",
+    "A269850",
+    "A270189",
+    "A270190",
+    "A270310"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:31",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

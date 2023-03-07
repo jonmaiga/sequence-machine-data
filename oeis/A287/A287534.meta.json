@@ -1,0 +1,19 @@
+{
+  "description": "Composite numbers whose digits are restricted to 1, 3, 7, and 9.",
+  "id": "A287534",
+  "mentions": [
+    "A091633",
+    "A136333"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

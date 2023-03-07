@@ -1,0 +1,22 @@
+{
+  "description": "Numbers that yield a prime when any single digit is replaced by its digital complement.",
+  "id": "A345343",
+  "mentions": [
+    "A055120",
+    "A089740",
+    "A318785"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "easy",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

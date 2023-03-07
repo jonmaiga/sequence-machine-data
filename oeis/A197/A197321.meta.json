@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = binomial(n+10, 10)*8^n.",
+  "id": "A197321",
+  "mentions": [
+    "A140406",
+    "A140802",
+    "A141054",
+    "A173155",
+    "A196280"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:19",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Position of the first occurrence of an element in the continued fraction of zeta(n) which is larger than the second element.",
+  "id": "A343244",
+  "mentions": [
+    "A013631",
+    "A013679",
+    "A013680",
+    "A013681",
+    "A013682",
+    "A013683",
+    "A013684",
+    "A013685",
+    "A013697"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 2,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

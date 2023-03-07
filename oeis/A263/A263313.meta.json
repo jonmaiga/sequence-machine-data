@@ -1,0 +1,20 @@
+{
+  "description": "Permutation of the nonnegative integers: [4k+3, 4k, 4k+1, 4k+2, ...].",
+  "id": "A263313",
+  "mentions": [
+    "A005843",
+    "A166519"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:16:39",
+    "offset": 0,
+    "size": 67,
+    "source": "joeis"
+  }
+}

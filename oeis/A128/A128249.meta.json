@@ -1,0 +1,19 @@
+{
+  "description": "T(n,k) is the number of unlabeled acyclic single-source automata with n transient states on a (k+1)-letter input alphabet.",
+  "id": "A128249",
+  "mentions": [
+    "A082161",
+    "A082162"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

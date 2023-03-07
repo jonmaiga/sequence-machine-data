@@ -1,0 +1,32 @@
+{
+  "description": "Triangle T(n,k), 0<=k<=n, read by rows defined by: T(n,k) = T(n-1,k-1) + 2*T(n-1,k) + T(n-2,k-2) - T(n-2,k), T(0,0) = 1, T(n,k) = 0 if k < 0 or if n < k.",
+  "id": "A102756",
+  "mentions": [
+    "A000012",
+    "A000027",
+    "A000045",
+    "A000244",
+    "A000292",
+    "A001629",
+    "A008999",
+    "A015530",
+    "A015544",
+    "A051747",
+    "A084938",
+    "A124400",
+    "A209130",
+    "A254006"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 19:23:21",
+    "offset": 0,
+    "size": 55,
+    "source": "joeis"
+  }
+}

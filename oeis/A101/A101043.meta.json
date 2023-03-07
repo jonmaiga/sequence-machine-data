@@ -1,0 +1,21 @@
+{
+  "description": "A101042 sorted. There exists a prime p for which a(n) is the smallest positive d such that p is the smallest prime where p+d is also prime.",
+  "id": "A101043",
+  "mentions": [
+    "A020483",
+    "A101042",
+    "A101044",
+    "A101045",
+    "A101046"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

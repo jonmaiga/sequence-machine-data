@@ -1,0 +1,25 @@
+{
+  "description": "G.f. A(x) satisfies: A(x) = x + x^2 * A(x/(1 - 5*x)) / (1 - 5*x).",
+  "id": "A351132",
+  "mentions": [
+    "A000995",
+    "A005011",
+    "A351028",
+    "A351053",
+    "A351056",
+    "A351128",
+    "A351151",
+    "A351161"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

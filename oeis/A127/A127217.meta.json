@@ -1,0 +1,18 @@
+{
+  "description": "Half-indexed Fibonacci numbers a(n)=round(sqrt((1+sqrt(5))/2)^n/sqrt(5)) a(2n)=F(n)=A000045, so a(n)=F(n/2).",
+  "id": "A127217",
+  "mentions": [
+    "A000045"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

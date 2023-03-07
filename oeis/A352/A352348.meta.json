@@ -1,0 +1,21 @@
+{
+  "description": "Maximum determinant of n X n matrix composed of {-1, 0, 1} with pairwise orthogonal rows.",
+  "id": "A352348",
+  "mentions": [
+    "A000952",
+    "A003432",
+    "A003433"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

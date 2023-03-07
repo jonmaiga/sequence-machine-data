@@ -1,0 +1,21 @@
+{
+  "description": "Numbers where A049820 takes a unique value; numbers n for which A060990(A049820(n)) = 1.",
+  "id": "A262513",
+  "mentions": [
+    "A049820",
+    "A060990",
+    "A262509",
+    "A262511",
+    "A262512"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:22",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

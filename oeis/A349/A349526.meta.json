@@ -1,0 +1,23 @@
+{
+  "description": "Modified lexicographic ordering of all pairs i,j with 1 <= i <= j; every pair i,j of positive integers occurs exactly once.",
+  "id": "A349526",
+  "mentions": [
+    "A097283",
+    "A097285",
+    "A329949",
+    "A339399",
+    "A349520",
+    "A349946",
+    "A349947"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

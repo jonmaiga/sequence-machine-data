@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = Bell(n) + n - 2 (cf. A000110).",
+  "id": "A338735",
+  "mentions": [
+    "A000110"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:48:20",
+    "offset": 1,
+    "size": 25,
+    "source": "joeis"
+  }
+}

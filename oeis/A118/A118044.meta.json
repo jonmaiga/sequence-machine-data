@@ -1,0 +1,21 @@
+{
+  "description": "Row sums of triangle A118040, which is the matrix square of triangle A118032; also equals a bisection of A118037, which is the antidiagonal sums of A118032.",
+  "id": "A118044",
+  "mentions": [
+    "A118032",
+    "A118037",
+    "A118040",
+    "A118045",
+    "A118049"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

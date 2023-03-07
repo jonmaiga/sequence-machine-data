@@ -1,0 +1,20 @@
+{
+  "description": "G.f. satisfies: A(x) = exp( Sum_{n>=1} [A(x)^n + A(x)^-n]*x^n/n ).",
+  "id": "A171199",
+  "mentions": [
+    "A143330",
+    "A171190",
+    "A171191"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 15:22:51",
+    "offset": 0,
+    "size": 25,
+    "source": "joeis"
+  }
+}

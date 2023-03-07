@@ -1,0 +1,21 @@
+{
+  "description": "Lesser of emirp pairs that are merely reversals of their end digits.",
+  "id": "A263241",
+  "mentions": [
+    "A006567",
+    "A109308",
+    "A263240",
+    "A263242"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

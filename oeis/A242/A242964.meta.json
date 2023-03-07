@@ -1,0 +1,19 @@
+{
+  "description": "Consider a number n with m decimal digits. The sequence lists the numbers n having the suffix of length m-1 in the middle of the decimal expansion of n^2.",
+  "id": "A242964",
+  "mentions": [
+    "A000290",
+    "A242942"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Number of rooted trees with n generators.",
+  "id": "A108521",
+  "mentions": [
+    "A000081",
+    "A000669",
+    "A007151",
+    "A108522",
+    "A108529",
+    "A335342"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:00",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

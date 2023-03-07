@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{k=0..n} C(n,k) * (1 + 2^k)^(n-k).",
+  "id": "A244754",
+  "mentions": [
+    "A047863",
+    "A243918",
+    "A244755"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:00",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

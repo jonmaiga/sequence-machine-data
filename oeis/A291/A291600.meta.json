@@ -1,0 +1,26 @@
+{
+  "description": "First 10-digit number to appear n times in the decimal expansion of Pi.",
+  "id": "A291600",
+  "mentions": [
+    "A000796",
+    "A096567",
+    "A197123",
+    "A276686",
+    "A276992",
+    "A276993",
+    "A277171",
+    "A291599"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

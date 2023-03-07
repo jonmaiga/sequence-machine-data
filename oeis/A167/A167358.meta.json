@@ -1,0 +1,19 @@
+{
+  "description": "Totally multiplicative sequence with a(p) = (p+2)^2 = p^2+4p+4 for prime p.",
+  "id": "A167358",
+  "mentions": [
+    "A166590"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:23",
+    "offset": 1,
+    "size": 44,
+    "source": "joeis"
+  }
+}

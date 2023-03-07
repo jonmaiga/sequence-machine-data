@@ -1,0 +1,21 @@
+{
+  "description": "Number of distinct n-ary operators in a quaternary logic.",
+  "id": "A137840",
+  "mentions": [
+    "A001146",
+    "A055777",
+    "A137841"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

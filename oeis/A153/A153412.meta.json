@@ -1,0 +1,21 @@
+{
+  "description": "Differences in the first known 3 X 3 X 3 generalized arithmetic progression consisting of only prime numbers.",
+  "id": "A153412",
+  "mentions": [
+    "A113830",
+    "A113831"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "bref",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

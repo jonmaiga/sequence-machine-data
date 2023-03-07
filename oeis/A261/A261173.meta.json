@@ -1,0 +1,26 @@
+{
+  "description": "Table read by antidiagonals: T(n,k) = smallest prime p containing only digits 0 and 1 with n 0's and k 1's, or 0 if no such p exists.",
+  "id": "A261173",
+  "mentions": [
+    "A004023",
+    "A007953",
+    "A008585",
+    "A020449",
+    "A036929",
+    "A062397",
+    "A157709",
+    "A168586"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:20",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

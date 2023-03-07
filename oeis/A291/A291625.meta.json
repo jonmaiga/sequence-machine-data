@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that 0 is the smallest decimal digit of k^2.",
+  "id": "A291625",
+  "mentions": [
+    "A291626",
+    "A291627",
+    "A291628",
+    "A291629",
+    "A291630",
+    "A291631"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

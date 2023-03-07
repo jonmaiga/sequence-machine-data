@@ -1,0 +1,30 @@
+{
+  "description": "Least k > 0 such that (2n-1)^k + 2 is prime, or 0 if no such number exists.",
+  "id": "A138066",
+  "mentions": [
+    "A051783",
+    "A084713",
+    "A087885",
+    "A087886",
+    "A090649",
+    "A109076",
+    "A113480",
+    "A113481",
+    "A138048",
+    "A138049",
+    "A138050",
+    "A138051",
+    "A138067"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-entry"
+  }
+}

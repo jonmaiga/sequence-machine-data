@@ -1,0 +1,21 @@
+{
+  "description": "Number of permutations p of [n] such that max_{j=1..n} |p(j)-j| = 6.",
+  "id": "A323802",
+  "mentions": [
+    "A130152",
+    "A154654",
+    "A154655"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:48",
+    "offset": 6,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Primes that do not divide any term of the Lucas 4-step sequence A073817.",
+  "id": "A106300",
+  "mentions": [
+    "A053028",
+    "A073817",
+    "A106299",
+    "A106301"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Starting with a(1)=1 and excluding the digit 0 in any term in the sequence, a(n)=smallest nonnegative integer not yet in the sequence such that a(n-1) and a(n) altogether have exactly one consecutive digit for at most one digit.",
+  "id": "A287205",
+  "mentions": [
+    "A283430"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

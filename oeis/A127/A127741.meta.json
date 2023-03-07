@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = (n+1) * A005493(n).",
+  "id": "A127741",
+  "mentions": [
+    "A000110",
+    "A005493",
+    "A011971",
+    "A052889",
+    "A127740"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:15",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

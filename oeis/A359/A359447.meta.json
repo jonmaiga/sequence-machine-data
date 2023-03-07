@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the least number that is the sum of two cubes of primes and is 2^n times an odd prime, or -1 if there is no such number.",
+  "id": "A359447",
+  "mentions": [
+    "A086119",
+    "A359448"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Permutation of natural numbers: a(n) = A246264(A064216(2*n)).",
+  "id": "A246268",
+  "mentions": [
+    "A064216",
+    "A064989",
+    "A246264",
+    "A246266",
+    "A246267"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:02",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

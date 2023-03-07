@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of 18*sin(Pi/18).",
+  "id": "A280633",
+  "mentions": [
+    "A010466",
+    "A019819",
+    "A019827",
+    "A280533",
+    "A280585",
+    "A280725",
+    "A280819"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:25:29",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

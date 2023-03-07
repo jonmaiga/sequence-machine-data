@@ -1,0 +1,19 @@
+{
+  "description": "Minimal number of generators of the monoid of n X n Boolean matrices.",
+  "id": "A346686",
+  "mentions": [
+    "A346687"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

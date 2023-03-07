@@ -1,0 +1,18 @@
+{
+  "description": "Least number k such that k*n/(k-n) is prime or 0 if no such number exists.",
+  "id": "A243015",
+  "mentions": [
+    "A006093"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

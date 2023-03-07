@@ -1,0 +1,22 @@
+{
+  "description": "Nearest integer to 1/frac(Pi^A137994(n)), where frac(x) = x - floor(x).",
+  "id": "A137995",
+  "mentions": [
+    "A001203",
+    "A001672",
+    "A137299",
+    "A137994",
+    "A138324"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

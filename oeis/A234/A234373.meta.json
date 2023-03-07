@@ -1,0 +1,20 @@
+{
+  "description": "Row 4 of the square array A234951.",
+  "id": "A234373",
+  "mentions": [
+    "A233779",
+    "A234951"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

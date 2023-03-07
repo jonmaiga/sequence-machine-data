@@ -1,0 +1,27 @@
+{
+  "description": "Number of primes p < n with pi(n-p) - 1 and pi(n-p) + 1 both prime, where pi(.) is given by A000720.",
+  "id": "A237769",
+  "mentions": [
+    "A000010",
+    "A000040",
+    "A000720",
+    "A001359",
+    "A006512",
+    "A014574",
+    "A022004",
+    "A022005",
+    "A237705",
+    "A237706",
+    "A237768"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

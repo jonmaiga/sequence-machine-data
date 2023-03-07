@@ -1,0 +1,18 @@
+{
+  "description": "Triameter of the n-polygon diagonal intersection graph.",
+  "id": "A302340",
+  "mentions": [
+    "A300526"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 3,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

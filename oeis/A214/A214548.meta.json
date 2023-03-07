@@ -1,0 +1,17 @@
+{
+  "description": "List of k such that A214686(k) = 1.",
+  "id": "A214548",
+  "mentions": [
+    "A214686"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

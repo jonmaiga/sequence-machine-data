@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = 1 if n is composite and the n-th Stern polynomial B(n,x) is irreducible, 0 otherwise.",
+  "id": "A305892",
+  "mentions": [
+    "A010051",
+    "A186891",
+    "A186892",
+    "A283991",
+    "A284011",
+    "A305821"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:30",
+    "offset": 1,
+    "size": 121,
+    "source": "oeis-bfile"
+  }
+}

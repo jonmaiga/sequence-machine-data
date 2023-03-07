@@ -1,0 +1,24 @@
+{
+  "description": "Triangle read by rows: T(n,k) = number of primes in the interval [k..n], n >= 1, 1 <= k <= n.",
+  "id": "A143537",
+  "mentions": [
+    "A000012",
+    "A000720",
+    "A010051",
+    "A034387",
+    "A035250",
+    "A143536"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

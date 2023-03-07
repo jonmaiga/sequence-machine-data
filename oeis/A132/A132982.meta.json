@@ -1,0 +1,18 @@
+{
+  "description": "The non-prime-power \"antimutinous\" numbers. (Antimutinous numbers are those integers m, m >1, where m/p^k < p, p = largest prime divisor of m, p^k = largest power of p that divides m.)",
+  "id": "A132982",
+  "mentions": [
+    "A027854",
+    "A027855"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:20",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

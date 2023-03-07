@@ -1,0 +1,24 @@
+{
+  "description": "Binary encoding of 2-digits in ternary representation of A048673(n).",
+  "id": "A291759",
+  "mentions": [
+    "A048673",
+    "A286585",
+    "A286586",
+    "A289814",
+    "A291760",
+    "A291763"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:06",
+    "offset": 1,
+    "size": 113,
+    "source": "oeis-bfile"
+  }
+}

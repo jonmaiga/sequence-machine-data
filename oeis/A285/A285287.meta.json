@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of Product_{k>=0} 1/(1 + x^(4*k+1))^(4*k+1).",
+  "id": "A285287",
+  "mentions": [
+    "A284628",
+    "A285048",
+    "A285286",
+    "A285288"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:56",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

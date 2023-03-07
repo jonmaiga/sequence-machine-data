@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n which are neither palindromes nor the sum of two palindromes, with property that the largest palindrome which when subtracted from n yields the sum of two palindromes is not the palindromic floor of n (A261423(n)), but rather the next palindrome below that.",
+  "id": "A261911",
+  "mentions": [
+    "A002113",
+    "A261423",
+    "A261910",
+    "A261912",
+    "A261913"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:21",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

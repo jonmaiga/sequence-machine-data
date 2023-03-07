@@ -1,0 +1,35 @@
+{
+  "description": "Number of ways to tile the diagram of the integer partition with Heinz number n using connected skew partitions.",
+  "id": "A300123",
+  "mentions": [
+    "A000085",
+    "A000898",
+    "A006958",
+    "A056239",
+    "A238690",
+    "A259479",
+    "A259480",
+    "A296150",
+    "A296561",
+    "A297388",
+    "A299699",
+    "A299925",
+    "A299926",
+    "A300060",
+    "A300118",
+    "A300120",
+    "A300121",
+    "A300122",
+    "A300124"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

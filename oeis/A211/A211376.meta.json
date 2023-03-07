@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the smallest 5-smooth number k such that both prime(n) - k and prime(n) + k are prime.",
+  "id": "A211376",
+  "mentions": [
+    "A001031",
+    "A051037",
+    "A078611"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:30",
+    "offset": 3,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

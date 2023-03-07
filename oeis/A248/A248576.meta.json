@@ -1,0 +1,17 @@
+{
+  "description": "Least prime p such that m^n+1 is divisible by p^2, where m = min{ b>0 | b^n+1 not squarefree} = A248214(n).",
+  "id": "A248576",
+  "mentions": [
+    "A248214"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-entry"
+  }
+}

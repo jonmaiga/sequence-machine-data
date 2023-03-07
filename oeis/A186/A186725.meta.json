@@ -1,0 +1,30 @@
+{
+  "description": "Number of connected regular graphs with n nodes and girth at least 5.",
+  "id": "A186725",
+  "mentions": [
+    "A005177",
+    "A014372",
+    "A058343",
+    "A185115",
+    "A186715",
+    "A186724",
+    "A186726",
+    "A186727",
+    "A186728",
+    "A186729",
+    "A205295"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "a(n)=greatest integer p such that a^p + b^p > c^p, where (a,b,c) is the n-th integer-sided triangle listed at A107572.",
+  "id": "A107577",
+  "mentions": [
+    "A107572"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

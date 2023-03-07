@@ -1,0 +1,19 @@
+{
+  "description": "Triangle T(n, k) = H(n, k+1) - 2*H(n, k) - H(n, k-1), where H(n, k) = A060821(n+3, k), read by rows.",
+  "id": "A140873",
+  "mentions": [
+    "A060821"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:29",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

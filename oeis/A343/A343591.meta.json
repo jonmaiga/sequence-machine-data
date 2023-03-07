@@ -1,0 +1,22 @@
+{
+  "description": "Smoothly undulating alternating primes.",
+  "id": "A343591",
+  "mentions": [
+    "A030144",
+    "A032758",
+    "A059758",
+    "A242541",
+    "A343590"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

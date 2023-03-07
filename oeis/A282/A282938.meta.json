@@ -1,0 +1,23 @@
+{
+  "description": "Recursive 2-parameter sequence allowing calculation of the Möbius function (not the same as A266378)",
+  "id": "A282938",
+  "mentions": [
+    "A000124",
+    "A000217",
+    "A008683",
+    "A231599",
+    "A266378"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

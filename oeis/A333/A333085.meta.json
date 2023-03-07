@@ -1,0 +1,18 @@
+{
+  "description": "Sequence of primes in which each term a(n) = 10*i + d gives the position i and value d of a digit in the concatenation of all terms (see comments).",
+  "id": "A333085",
+  "mentions": [
+    "A264646"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:03",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

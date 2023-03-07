@@ -1,0 +1,26 @@
+{
+  "description": "Equal to A171368*A007318.",
+  "id": "A171839",
+  "mentions": [
+    "A000957",
+    "A005043",
+    "A007318",
+    "A099323",
+    "A114586",
+    "A117641",
+    "A126120",
+    "A171368"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 74,
+    "source": "oeis-entry"
+  }
+}

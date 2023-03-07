@@ -1,0 +1,25 @@
+{
+  "description": "Numbers n having factorial fractility A269982(n) = 5.",
+  "id": "A269987",
+  "mentions": [
+    "A000142",
+    "A269570",
+    "A269982",
+    "A269983",
+    "A269984",
+    "A269985",
+    "A269986",
+    "A269988",
+    "A270000"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:32",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

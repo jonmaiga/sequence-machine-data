@@ -1,0 +1,25 @@
+{
+  "description": "Equals A162956 convolved with (1, 3, 3, 3, ...).",
+  "id": "A162958",
+  "mentions": [
+    "A000695",
+    "A139250",
+    "A151548",
+    "A152548",
+    "A160552",
+    "A162956",
+    "A162957",
+    "A163267",
+    "A163311"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:44",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

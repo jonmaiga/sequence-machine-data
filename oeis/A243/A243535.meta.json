@@ -1,0 +1,33 @@
+{
+  "description": "Numbers whose list of divisors contains 2 distinct digits (in base 10).",
+  "id": "A243535",
+  "mentions": [
+    "A010785",
+    "A037278",
+    "A095048",
+    "A095050",
+    "A176558",
+    "A203897",
+    "A243360",
+    "A243534",
+    "A243536",
+    "A243537",
+    "A243538",
+    "A243539",
+    "A243540",
+    "A243541",
+    "A243542",
+    "A243543"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:59",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Primes p such that 5*p is a sum of 3 consecutive primes.",
+  "id": "A163488",
+  "mentions": [
+    "A006562",
+    "A034961",
+    "A118134",
+    "A163487"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Greatest number m such that the fractional part of (11/10^A153688(n) >= 1-(1/m).",
+  "id": "A153692",
+  "mentions": [
+    "A153664",
+    "A153672",
+    "A153680",
+    "A153684",
+    "A153688",
+    "A153700",
+    "A153708",
+    "A153716",
+    "A153724",
+    "A154130"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

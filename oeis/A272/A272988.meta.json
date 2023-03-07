@@ -1,0 +1,19 @@
+{
+  "description": "Convolution of the sequence of derangement numbers A000166 with itself.",
+  "id": "A272988",
+  "mentions": [
+    "A000166"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:38",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "For 0 <= R <= 255, let s(R,n) = eventual period of a single cell in a Rule R cellular automaton operating in a cyclic universe of width n; a(n) = max_R s(R,n).",
+  "id": "A334499",
+  "mentions": [
+    "A085587",
+    "A180001",
+    "A334496",
+    "A334500",
+    "A334508",
+    "A334515",
+    "A357950"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

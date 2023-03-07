@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: binomial transform of a diagonalized matrix of A026741.",
+  "id": "A139633",
+  "mentions": [
+    "A007318",
+    "A026741",
+    "A084860"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

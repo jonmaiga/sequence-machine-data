@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = A028242(A110654(n)).",
+  "id": "A110659",
+  "mentions": [
+    "A008624",
+    "A028242",
+    "A110654"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:08:43",
+    "offset": 0,
+    "size": 82,
+    "source": "joeis"
+  }
+}

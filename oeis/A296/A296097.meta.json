@@ -1,0 +1,19 @@
+{
+  "description": "Triangular numbers that can be represented as a product of two triangular numbers greater than 1, as a product of three triangular numbers greater than 1, and as a product of four triangular numbers greater than 1.",
+  "id": "A296097",
+  "mentions": [
+    "A000217",
+    "A188630",
+    "A295769"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

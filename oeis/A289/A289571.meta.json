@@ -1,0 +1,19 @@
+{
+  "description": "Coefficients in expansion of q * Product_{n>=1} (1 - q^n)^24/E_6^(3/2).",
+  "id": "A289571",
+  "mentions": [
+    "A000594",
+    "A289570"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:03",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

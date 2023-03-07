@@ -1,0 +1,19 @@
+{
+  "description": "Sum_{k = 1 to n} [d(k)*d_3(k)], where d = A000005, d_3 = A007425.",
+  "id": "A331077",
+  "mentions": [
+    "A000005",
+    "A007425",
+    "A330570"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

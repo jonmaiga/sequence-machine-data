@@ -1,0 +1,25 @@
+{
+  "description": "Primes of the form 10x^2 + 19y^2.",
+  "id": "A139886",
+  "mentions": [
+    "A003171",
+    "A003629",
+    "A028416",
+    "A045468",
+    "A106856",
+    "A139827",
+    "A191063"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:28",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

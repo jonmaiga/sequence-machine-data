@@ -1,0 +1,17 @@
+{
+  "description": "Integers k such that A122102(k) + 1 is prime.",
+  "id": "A264900",
+  "mentions": [
+    "A122102"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

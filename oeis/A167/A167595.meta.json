@@ -1,0 +1,21 @@
+{
+  "description": "The number of nonisolated primes between the n-th nonisolated nonprime and the n-th isolated nonprime.",
+  "id": "A167595",
+  "mentions": [
+    "A001097",
+    "A014574",
+    "A164276",
+    "A167511"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

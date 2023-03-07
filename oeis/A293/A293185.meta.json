@@ -1,0 +1,20 @@
+{
+  "description": "Bi-unitary highly composite numbers: where the number of bi-unitary divisors of n (A286324) increases to a record.",
+  "id": "A293185",
+  "mentions": [
+    "A000005",
+    "A002182",
+    "A286324",
+    "A292984"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:09",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

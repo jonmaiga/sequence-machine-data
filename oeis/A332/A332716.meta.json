@@ -1,0 +1,25 @@
+{
+  "description": "Number of compositions of n^2 where each part is less than or equal to n.",
+  "id": "A332716",
+  "mentions": [
+    "A000079",
+    "A000290",
+    "A008464",
+    "A048004",
+    "A090667",
+    "A103488",
+    "A332721",
+    "A332796"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:02",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

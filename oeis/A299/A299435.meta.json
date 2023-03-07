@@ -1,0 +1,19 @@
+{
+  "description": "G.f.: Sum_{n>=0} binomial((n+1)^2, n)/(n+1) * x^n / (1 + x)^((n+1)^2).",
+  "id": "A299435",
+  "mentions": [
+    "A091144",
+    "A298695",
+    "A298696"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "description": "Decimal expansion of the Fibonacci nested radical.",
+  "id": "A105817",
+  "mentions": [
+    "A000045",
+    "A072449",
+    "A083869",
+    "A099874",
+    "A099876",
+    "A099877",
+    "A099878",
+    "A099879",
+    "A105546",
+    "A105548",
+    "A105815",
+    "A105816",
+    "A105818",
+    "A151558",
+    "A239349",
+    "A257574"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:57",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

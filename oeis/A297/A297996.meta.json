@@ -1,0 +1,20 @@
+{
+  "description": "a(1)=2, a(2)=3, a(3)=5 and a(n) = (a(1) + a(2) + a(3) + ... + a(n-1))/a(n-1).",
+  "id": "A297996",
+  "mentions": [
+    "A168230"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:33:59",
+    "offset": 1,
+    "size": 70,
+    "source": "joeis"
+  }
+}

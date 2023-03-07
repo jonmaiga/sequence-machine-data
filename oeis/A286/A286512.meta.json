@@ -1,0 +1,31 @@
+{
+  "description": "Numbers N for which there is k > 0 such that sum of digits(N^k) = N, but the least such k is larger than the least k for which sum of digits(N^k) > N*11/10.",
+  "id": "A286512",
+  "mentions": [
+    "A001370",
+    "A004166",
+    "A007953",
+    "A065713",
+    "A065999",
+    "A066001",
+    "A066002",
+    "A066003",
+    "A066004",
+    "A066005",
+    "A066006",
+    "A247889"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

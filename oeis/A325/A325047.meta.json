@@ -1,0 +1,19 @@
+{
+  "description": "Odd coefficients in Sum_{n>=0} x^n * (1 + x^n)^n / (1 - x^(n+1))^(n+1).",
+  "id": "A325047",
+  "mentions": [
+    "A323679",
+    "A325046"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:51",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

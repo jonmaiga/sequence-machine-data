@@ -1,0 +1,29 @@
+{
+  "description": "Triangle read by rows: T(n,k) is number of partitions of n having k distinct parts (n>=1, k>=1).",
+  "id": "A116608",
+  "mentions": [
+    "A000005",
+    "A000041",
+    "A000070",
+    "A000217",
+    "A000712",
+    "A002133",
+    "A002134",
+    "A003056",
+    "A060177",
+    "A274174"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:06",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

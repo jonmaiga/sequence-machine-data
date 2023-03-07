@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n for which all nontrivial cycles of the Ducci map have the same length.",
+  "id": "A138004",
+  "mentions": [
+    "A001122",
+    "A038553",
+    "A138005",
+    "A138006"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

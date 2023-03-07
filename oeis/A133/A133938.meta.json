@@ -1,0 +1,24 @@
+{
+  "description": "A007318 * (A129686 + A133080 - I), where I is the identity matrix.",
+  "id": "A133938",
+  "mentions": [
+    "A000124",
+    "A007318",
+    "A129686",
+    "A133080",
+    "A133124"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

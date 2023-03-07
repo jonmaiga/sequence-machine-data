@@ -1,0 +1,18 @@
+{
+  "description": "Smallest squarefree integer > the n-th term of the Fibonacci sequence.",
+  "id": "A111077",
+  "mentions": [
+    "A000045",
+    "A005117"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

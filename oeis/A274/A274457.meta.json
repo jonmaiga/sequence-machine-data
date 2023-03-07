@@ -1,0 +1,22 @@
+{
+  "description": "Shortest possible antipower period of a binary string of length n.",
+  "id": "A274457",
+  "mentions": [
+    "A036289",
+    "A274409",
+    "A274449",
+    "A274450",
+    "A274451"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:39",
+    "offset": 1,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

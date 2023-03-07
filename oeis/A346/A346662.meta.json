@@ -1,0 +1,20 @@
+{
+  "description": "Number of n-digit left- or right-truncatable primes with no consecutive zero digits.",
+  "id": "A346662",
+  "mentions": [
+    "A137812",
+    "A347864"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

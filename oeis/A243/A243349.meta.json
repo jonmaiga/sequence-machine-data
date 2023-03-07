@@ -1,0 +1,23 @@
+{
+  "description": "Difference between the n-th squarefree number and the index of its largest prime factor.",
+  "id": "A243349",
+  "mentions": [
+    "A005117",
+    "A061395",
+    "A243289",
+    "A243290",
+    "A243291",
+    "A243348"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:59",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

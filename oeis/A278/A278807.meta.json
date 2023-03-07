@@ -1,0 +1,21 @@
+{
+  "description": "T(n,k)=Number of nXk 0..2 arrays with rows in nondecreasing lexicographic order and columns in nonincreasing lexicographic order.",
+  "id": "A278807",
+  "mentions": [
+    "A000217",
+    "A229770",
+    "A257200"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:45",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

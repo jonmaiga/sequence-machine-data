@@ -1,0 +1,21 @@
+{
+  "description": "Number of n-expodigital numbers (i.e., numbers m such that m^n has exactly n decimal digits).",
+  "id": "A102690",
+  "mentions": [
+    "A102691",
+    "A216653"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

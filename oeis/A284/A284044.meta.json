@@ -1,0 +1,22 @@
+{
+  "description": "Largest positive k among all primes p < n such that n^(p-1) == 1 (mod p^k).",
+  "id": "A284044",
+  "mentions": [
+    "A255920",
+    "A258045",
+    "A268310",
+    "A273786",
+    "A278701",
+    "A282902"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 3,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

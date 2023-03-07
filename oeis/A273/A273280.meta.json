@@ -1,0 +1,19 @@
+{
+  "description": "Number of topologically-distinct slicings of a square by n lines in general position.",
+  "id": "A273280",
+  "mentions": [
+    "A090338",
+    "A272906"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

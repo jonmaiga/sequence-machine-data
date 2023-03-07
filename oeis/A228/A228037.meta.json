@@ -1,0 +1,18 @@
+{
+  "description": "Odd-indexed terms of Agoh's congruence A046094: a(n) is conjectured to be 1 iff 2n+1 is prime.",
+  "id": "A228037",
+  "mentions": [
+    "A046094"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 0,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

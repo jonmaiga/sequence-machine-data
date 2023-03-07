@@ -1,0 +1,26 @@
+{
+  "description": "Numbers k congruent to 1 or 5 mod 6, for which A064989(A064989(sigma(k))) < A064989(A064989(k)), where A064989 shifts the prime factorization one step towards lower primes, and sigma is the sum of divisors function.",
+  "id": "A348753",
+  "mentions": [
+    "A003961",
+    "A007310",
+    "A064989",
+    "A276378",
+    "A348748",
+    "A348750",
+    "A348751",
+    "A348754",
+    "A348931",
+    "A348935"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

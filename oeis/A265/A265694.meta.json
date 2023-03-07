@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = n!! mod n^2 where n!! is a double factorial number (A006882).",
+  "id": "A265694",
+  "mentions": [
+    "A006882",
+    "A009188",
+    "A264828"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

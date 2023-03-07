@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 2^n mod M(n) where M(n) = A014963(n) is the exponential of the Mangoldt function.",
+  "id": "A174275",
+  "mentions": [
+    "A000079",
+    "A014963",
+    "A062173"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:58",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

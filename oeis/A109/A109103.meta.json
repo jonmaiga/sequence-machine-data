@@ -1,0 +1,29 @@
+{
+  "description": "Smallest a(n) such that a(n)! can be expressed as the product of smaller factorials, using n distinct factorials greater than 1 (with repetitions allowed).",
+  "id": "A109103",
+  "mentions": [
+    "A001013",
+    "A003135",
+    "A034878",
+    "A058295",
+    "A075082",
+    "A109095",
+    "A109096",
+    "A109097",
+    "A109098",
+    "A109099",
+    "A109100",
+    "A109101",
+    "A109102"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 2,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

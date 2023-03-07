@@ -1,0 +1,20 @@
+{
+  "description": "Least prime p < n with pi(n-p) a square, or 0 if such a prime p does not exist.",
+  "id": "A237710",
+  "mentions": [
+    "A000040",
+    "A000290",
+    "A000720",
+    "A237706"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Number of integers 0 < k <= n, which have an even representation in Greedy Catalan Base (A014418).",
+  "id": "A244229",
+  "mentions": [
+    "A014418",
+    "A244220",
+    "A244222",
+    "A244224",
+    "A244225"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:28",
+    "offset": 0,
+    "size": 75,
+    "source": "joeis"
+  }
+}

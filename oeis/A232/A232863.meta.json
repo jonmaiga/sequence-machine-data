@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that (2*k-1)!! mod k! is greater than (2k+1)!! mod (k+1)!.",
+  "id": "A232863",
+  "mentions": [
+    "A000142",
+    "A006882",
+    "A232620",
+    "A232701"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

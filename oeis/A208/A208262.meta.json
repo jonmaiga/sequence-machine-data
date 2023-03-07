@@ -1,0 +1,20 @@
+{
+  "description": "Numbers with all divisors starting and ending with digit 1.",
+  "id": "A208262",
+  "mentions": [
+    "A062332",
+    "A208259",
+    "A208261"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

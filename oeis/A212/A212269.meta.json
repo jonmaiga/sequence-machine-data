@@ -1,0 +1,24 @@
+{
+  "description": "Number of ways to place k non-attacking kings on an n X n cylindrical chessboard, summed over all k >= 0.",
+  "id": "A212269",
+  "mentions": [
+    "A063443",
+    "A067958",
+    "A182407",
+    "A194650",
+    "A194654",
+    "A247413"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:30",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

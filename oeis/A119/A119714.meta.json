@@ -1,0 +1,28 @@
+{
+  "description": "a(n) is the least k such that the remainder when 8^k is divided by k is n.",
+  "id": "A119714",
+  "mentions": [
+    "A036236",
+    "A078457",
+    "A119678",
+    "A119679",
+    "A119715",
+    "A127816",
+    "A127817",
+    "A127818",
+    "A127819",
+    "A127820",
+    "A127821"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

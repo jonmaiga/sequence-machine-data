@@ -1,0 +1,25 @@
+{
+  "description": "Powerful 3-smooth numbers: numbers of the form 2^i * 3^j with i, j != 1.",
+  "id": "A355580",
+  "mentions": [
+    "A000244",
+    "A001694",
+    "A003586",
+    "A007283",
+    "A008776",
+    "A151821",
+    "A355581"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:30",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

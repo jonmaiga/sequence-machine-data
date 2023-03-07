@@ -1,0 +1,22 @@
+{
+  "description": "Number of connected loopless multigraphs with n edges rooted at two noninterchangeable vertices whose removal leaves a connected graph.",
+  "id": "A339045",
+  "mentions": [
+    "A338999",
+    "A339036",
+    "A339037",
+    "A339065"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "changed",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

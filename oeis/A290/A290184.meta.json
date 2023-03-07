@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that k mod phi(k) = lambda(k).",
+  "id": "A290184",
+  "mentions": [
+    "A000010",
+    "A002322",
+    "A068494",
+    "A124240"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:05",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

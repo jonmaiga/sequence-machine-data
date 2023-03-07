@@ -1,0 +1,21 @@
+{
+  "description": "Primes of the form 9*k^4 - 204*k^3 + 1777*k^2 - 7038*k + 10729, for k >= 0, listed by increasing k.",
+  "id": "A117090",
+  "mentions": [
+    "A005846",
+    "A117624"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:22:27",
+    "offset": 1,
+    "size": 32,
+    "source": "joeis"
+  }
+}

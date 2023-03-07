@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of phi(x^3)^2 / f(x) in powers of x where phi(), f() are Ramanujan theta functions.",
+  "id": "A260221",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A010054",
+    "A010815",
+    "A121373",
+    "A259538"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:06:09",
+    "offset": 0,
+    "size": 64,
+    "source": "joeis"
+  }
+}

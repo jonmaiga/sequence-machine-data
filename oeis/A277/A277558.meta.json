@@ -1,0 +1,18 @@
+{
+  "description": "A variation on Recamán's sequence (A005132): to get a(n), we first try to subtract n from a(n-1): a(n) = a(n-1)-n if positive and not already in the sequence; if not then a(n) = a(n-1)+n-i, where i >= 0 is the smallest number such that a(n-1)+n-i has not already appeared.",
+  "id": "A277558",
+  "mentions": [
+    "A005132",
+    "A064387"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:43",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

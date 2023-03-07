@@ -1,0 +1,19 @@
+{
+  "description": "Number of ways to dissect a nonsquare rectangle into n rectangles of equal area up to symmetry.",
+  "id": "A219861",
+  "mentions": [
+    "A108066",
+    "A189243"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

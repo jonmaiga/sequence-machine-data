@@ -1,0 +1,21 @@
+{
+  "description": "a(1)=1; thereafter, if n even, a(n) = a(n-1)-st prime, and if n odd, a(n) = a(n-1)-st nonprime.",
+  "id": "A280028",
+  "mentions": [
+    "A000040",
+    "A018252",
+    "A141436",
+    "A280029",
+    "A280030"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

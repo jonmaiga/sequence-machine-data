@@ -1,0 +1,22 @@
+{
+  "description": "A046854^2 as an infinite lower triangular matrix.",
+  "id": "A131245",
+  "mentions": [
+    "A046854",
+    "A065941",
+    "A131243",
+    "A131244",
+    "A131246"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

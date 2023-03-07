@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = A252738(n) / A191555(n).",
+  "id": "A266639",
+  "mentions": [
+    "A191555",
+    "A252738",
+    "A267096"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

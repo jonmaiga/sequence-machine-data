@@ -1,0 +1,18 @@
+{
+  "description": "Numbers of the form x^3 + x^2*y + x*y^2 + y^3, where x and y are positive integers.",
+  "id": "A336607",
+  "mentions": [
+    "A024614"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:08",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

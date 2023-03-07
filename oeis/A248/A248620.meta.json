@@ -1,0 +1,20 @@
+{
+  "description": "Lesser of twin primes of (29n + 1, 29n + 3).",
+  "id": "A248620",
+  "mentions": [
+    "A001359",
+    "A141977",
+    "A141979",
+    "A195819"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:45:19",
+    "offset": 1,
+    "size": 38,
+    "source": "joeis"
+  }
+}

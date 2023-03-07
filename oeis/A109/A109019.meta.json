@@ -1,0 +1,24 @@
+{
+  "description": "Numbers whose digit reversal is different and has the same number of prime factors (with multiplicity).",
+  "id": "A109019",
+  "mentions": [
+    "A006567",
+    "A097393",
+    "A109018",
+    "A109023",
+    "A109024",
+    "A109131"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

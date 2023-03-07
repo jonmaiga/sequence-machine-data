@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = smallest base-10 palindrome m >= n such that every base-10 digit of n is <= the corresponding digit of m.",
+  "id": "A265558",
+  "mentions": [
+    "A175298",
+    "A206913",
+    "A206914",
+    "A261423",
+    "A262038",
+    "A265509",
+    "A265525",
+    "A265543"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:25",
+    "offset": 0,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "The Griesmer lower bound q_4(5,n) on the length of a linear code over GF(4) of dimension 5 and minimal distance n.",
+  "id": "A201472",
+  "mentions": [
+    "A201512"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

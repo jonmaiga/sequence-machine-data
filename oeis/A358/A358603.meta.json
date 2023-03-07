@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{k=0..floor(n/2)} (-1)^k * (n-k)!/(n-2*k)!.",
+  "id": "A358603",
+  "mentions": [
+    "A122852",
+    "A358604",
+    "A358605",
+    "A358606"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:32",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

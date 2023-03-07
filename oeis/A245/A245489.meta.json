@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = (1^n + (-2)^n + 4^n)/3.",
+  "id": "A245489",
+  "mentions": [
+    "A001045",
+    "A018240",
+    "A129362"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:01",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of G/(3*c^2), where G is the Newtonian constant of gravitation and c is the speed of light in vacuum, in SI units.",
+  "id": "A236629",
+  "mentions": [
+    "A003678",
+    "A070058",
+    "A228818",
+    "A228819",
+    "A235997"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": -27,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

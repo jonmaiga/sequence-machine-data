@@ -1,0 +1,30 @@
+{
+  "description": "Period of cubes mod n.",
+  "id": "A282779",
+  "mentions": [
+    "A000035",
+    "A000578",
+    "A008960",
+    "A010872",
+    "A010875",
+    "A046530",
+    "A070471",
+    "A070472",
+    "A109718",
+    "A109753",
+    "A167176",
+    "A186646"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

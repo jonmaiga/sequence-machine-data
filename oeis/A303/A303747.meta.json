@@ -1,0 +1,22 @@
+{
+  "description": "Totients t for which gcd({x: phi(x)=t}) equals the largest prime factor of each member of {x: phi(x)=t}.",
+  "id": "A303747",
+  "mentions": [
+    "A000010",
+    "A002202",
+    "A058340",
+    "A085713",
+    "A303745",
+    "A303746"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:28",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = (1/2^n) * Sum_{i=0..n} (-1)^(n-i) * binomial(n,i) * A000364(i).",
+  "id": "A135594",
+  "mentions": [
+    "A000364",
+    "A000657",
+    "A005799"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

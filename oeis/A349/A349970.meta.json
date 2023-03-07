@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{k=0..n} (2*k)^(n-k).",
+  "id": "A349970",
+  "mentions": [
+    "A349963",
+    "A349969"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:24",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

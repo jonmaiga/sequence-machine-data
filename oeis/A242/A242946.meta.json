@@ -1,0 +1,21 @@
+{
+  "description": "Palindromes of length greater than 1 in decimal expansion of Blazys's constant (A233588).",
+  "id": "A242946",
+  "mentions": [
+    "A002113",
+    "A068046",
+    "A226536",
+    "A233588"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

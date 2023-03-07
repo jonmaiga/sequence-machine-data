@@ -1,0 +1,22 @@
+{
+  "description": "Stepping through the Mersenne sequence (A000225) one step back, two steps forward.",
+  "id": "A316742",
+  "mentions": [
+    "A000225",
+    "A024036",
+    "A083420"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:57:01",
+    "offset": 0,
+    "size": 46,
+    "source": "joeis"
+  }
+}

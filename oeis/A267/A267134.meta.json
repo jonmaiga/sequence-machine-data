@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = n minus the number of primes of form 6m + 1 that are less than n-th prime of form 6m - 1.",
+  "id": "A267134",
+  "mentions": [
+    "A002476",
+    "A007528"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

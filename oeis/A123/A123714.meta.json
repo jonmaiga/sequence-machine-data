@@ -1,0 +1,21 @@
+{
+  "description": "Signature permutation of a nonrecursive Catalan automorphism: row 1786785 of table A089840.",
+  "id": "A123714",
+  "mentions": [
+    "A057515",
+    "A072796",
+    "A089840",
+    "A089857",
+    "A123713"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:12",
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

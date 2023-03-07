@@ -1,0 +1,25 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of sequences of k <= n throws of an n-sided die (with faces numbered 1, 2, ..., n) in which the sum of the throws first reaches or exceeds n on the k-th throw.",
+  "id": "A264751",
+  "mentions": [
+    "A000012",
+    "A000096",
+    "A002064",
+    "A007318",
+    "A051925",
+    "A215862",
+    "A264750"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

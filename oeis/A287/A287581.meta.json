@@ -1,0 +1,21 @@
+{
+  "description": "Largest squarefree odd primitive abundant number with n prime factors.",
+  "id": "A287581",
+  "mentions": [
+    "A001222",
+    "A249263",
+    "A287590",
+    "A287646"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 5,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Primes corresponding to terms of A225430.",
+  "id": "A225516",
+  "mentions": [
+    "A221858",
+    "A225017",
+    "A225039",
+    "A225040",
+    "A225093",
+    "A225430"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

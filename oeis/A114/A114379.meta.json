@@ -1,0 +1,20 @@
+{
+  "description": "Sums of p-th to the q-th prime where p and q are twin primes.",
+  "id": "A114379",
+  "mentions": [
+    "A000040",
+    "A077800"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:04",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

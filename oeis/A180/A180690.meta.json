@@ -1,0 +1,22 @@
+{
+  "description": "11^a(n) is smallest power of 11 beginning with n.",
+  "id": "A180690",
+  "mentions": [
+    "A018856",
+    "A018870",
+    "A180689",
+    "A180692"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:03",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(0) = 1; a(n) = Sum_{k=0..floor((n-1)/4)} binomial(n,4*k+1) * a(k) * a(n-4*k-1).",
+  "id": "A352437",
+  "mentions": [
+    "A351969",
+    "A352435",
+    "A352436"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

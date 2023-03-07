@@ -1,0 +1,23 @@
+{
+  "description": "Numbers which are coprime to their digital sum (A007953).",
+  "id": "A339076",
+  "mentions": [
+    "A001651",
+    "A005349",
+    "A007953",
+    "A011557",
+    "A088245",
+    "A094387"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:11",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

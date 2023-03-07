@@ -1,0 +1,21 @@
+{
+  "description": "G.f. A(x) satisfies: Sum_{n>=0} A(x)^((n+1)^2) * x^n = Sum_{n>=0} (1 + A(x)^(n+1))^n * x^n.",
+  "id": "A326275",
+  "mentions": [
+    "A326287",
+    "A326560",
+    "A326561",
+    "A326562"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:53",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

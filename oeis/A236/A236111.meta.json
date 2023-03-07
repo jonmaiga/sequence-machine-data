@@ -1,0 +1,24 @@
+{
+  "description": "Numbers that set a record for the number of divisors that are partition numbers.",
+  "id": "A236111",
+  "mentions": [
+    "A000041",
+    "A236102",
+    "A236103",
+    "A236105",
+    "A236107",
+    "A236108",
+    "A236110"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Least multiple of n in which the n-th digit from left is 9.",
+  "id": "A113564",
+  "mentions": [
+    "A113556",
+    "A113557",
+    "A113558",
+    "A113559",
+    "A113560",
+    "A113561",
+    "A113562",
+    "A113563"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

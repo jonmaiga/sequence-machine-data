@@ -1,0 +1,22 @@
+{
+  "description": "Difference of base and exponent of prime powers (cf. A000961).",
+  "id": "A192133",
+  "mentions": [
+    "A000961",
+    "A006093",
+    "A025473",
+    "A025474",
+    "A090076",
+    "A192134"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:15",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

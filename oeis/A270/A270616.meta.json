@@ -1,0 +1,35 @@
+{
+  "description": "Number of ordered ways to write n as the sum of a positive square, the square of a triangular number, and a generalized pentagonal number (A001318).",
+  "id": "A270616",
+  "mentions": [
+    "A000217",
+    "A000290",
+    "A001318",
+    "A262813",
+    "A262815",
+    "A262816",
+    "A262941",
+    "A262944",
+    "A262945",
+    "A262954",
+    "A262955",
+    "A262956",
+    "A270469",
+    "A270488",
+    "A270516",
+    "A270533",
+    "A270559",
+    "A270566",
+    "A270594"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:34",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

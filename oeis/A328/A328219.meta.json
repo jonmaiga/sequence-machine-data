@@ -1,0 +1,32 @@
+{
+  "description": "LCM of the prime indices of n, all plus 1.",
+  "id": "A328219",
+  "mentions": [
+    "A000040",
+    "A003961",
+    "A056239",
+    "A112798",
+    "A258409",
+    "A289508",
+    "A289509",
+    "A290103",
+    "A318980",
+    "A318981",
+    "A328167",
+    "A328168",
+    "A328169",
+    "A328451",
+    "A328456"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-entry"
+  }
+}

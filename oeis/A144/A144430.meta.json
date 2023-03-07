@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 1 + A144429(n).",
+  "id": "A144430",
+  "mentions": [
+    "A047259",
+    "A144429"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:44:49",
+    "offset": 1,
+    "size": 66,
+    "source": "joeis"
+  }
+}

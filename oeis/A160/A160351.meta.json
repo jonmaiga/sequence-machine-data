@@ -1,0 +1,20 @@
+{
+  "description": "Characteristic function of A057166.",
+  "id": "A160351",
+  "mentions": [
+    "A057166",
+    "A076213",
+    "A160357"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:11",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

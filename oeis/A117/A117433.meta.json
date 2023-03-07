@@ -1,0 +1,35 @@
+{
+  "description": "Number of planar partitions of n with all part sizes distinct.",
+  "id": "A117433",
+  "mentions": [
+    "A000009",
+    "A000085",
+    "A000219",
+    "A001970",
+    "A007716",
+    "A008289",
+    "A068313",
+    "A072706",
+    "A114736",
+    "A117434",
+    "A120733",
+    "A319646",
+    "A321645",
+    "A321652",
+    "A321653",
+    "A321655",
+    "A321659",
+    "A321660"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:07",
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Primes of form 6*k^k - 5.",
+  "id": "A302124",
+  "mentions": [
+    "A301870",
+    "A302091",
+    "A302123"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

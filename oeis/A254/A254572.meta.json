@@ -1,0 +1,19 @@
+{
+  "description": "Least multiple of n that is abundant or perfect (A023196).",
+  "id": "A254572",
+  "mentions": [
+    "A023196",
+    "A064162",
+    "A254571"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:12",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

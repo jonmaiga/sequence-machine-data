@@ -1,0 +1,21 @@
+{
+  "description": "Number of primitive (period n) n-bead bracelet structures which are not periodic palindromes using a maximum of three different colored beads.",
+  "id": "A328657",
+  "mentions": [
+    "A056362",
+    "A056514",
+    "A309784",
+    "A328038"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:28",
+    "offset": 1,
+    "size": 32,
+    "source": "joeis"
+  }
+}

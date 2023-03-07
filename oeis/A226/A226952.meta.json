@@ -1,0 +1,20 @@
+{
+  "description": "Triangle of coefficients of Faber polynomials for (3*x - sqrt(x^2 - 4*x))/2.",
+  "id": "A226952",
+  "mentions": [
+    "A026641",
+    "A181933"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that n is both the average of some twin prime pair p, q (q = p+2) (i.e., n = p+1 = q-1) and is also the arithmetic mean of the four numbers consisting of the two primes before p and the two primes after q.",
+  "id": "A256620",
+  "mentions": [
+    "A014574",
+    "A077800"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

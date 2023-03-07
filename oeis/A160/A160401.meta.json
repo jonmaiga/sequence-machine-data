@@ -1,0 +1,18 @@
+{
+  "description": "Table read by antidiagonals: a(m,n) = the smallest composite multiple of both m and n.",
+  "id": "A160401",
+  "mentions": [
+    "A003990"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

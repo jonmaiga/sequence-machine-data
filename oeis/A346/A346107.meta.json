@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = A108951(A346097(n)), where A346097(n) gives the denominator of the primorial deflation of A276086(A108951(n)).",
+  "id": "A346107",
+  "mentions": [
+    "A064989",
+    "A108951",
+    "A276086",
+    "A319627",
+    "A324886",
+    "A346097",
+    "A346106",
+    "A346109"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

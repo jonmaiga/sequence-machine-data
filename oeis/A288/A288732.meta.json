@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = a(n-1) + 2*a(n-4) - 2*a(n-5) for n >= 5, where a(0) = 2, a(1) = 4, a(2) = 6, a(3) = 8, a(4) = 10.",
+  "id": "A288732",
+  "mentions": [
+    "A007283",
+    "A020714",
+    "A048489",
+    "A131130",
+    "A288729"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:02",
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

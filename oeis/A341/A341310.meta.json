@@ -1,0 +1,22 @@
+{
+  "description": "Sum of odd divisors of n that are > A003056(n).",
+  "id": "A341310",
+  "mentions": [
+    "A000593",
+    "A003056",
+    "A082647",
+    "A131576",
+    "A333807",
+    "A341309"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

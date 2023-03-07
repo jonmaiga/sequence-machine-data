@@ -1,0 +1,22 @@
+{
+  "description": "Number of compositions (ordered partitions) of n into distinct parts where no part is a multiple of 4.",
+  "id": "A332310",
+  "mentions": [
+    "A001935",
+    "A032020",
+    "A032021",
+    "A070048",
+    "A332309",
+    "A332311"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

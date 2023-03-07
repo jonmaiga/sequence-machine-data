@@ -1,0 +1,20 @@
+{
+  "description": "Least integer k > 1 such that pi(k)*pi(k*n) is a square, where pi(.) is the prime-counting function given by A000720.",
+  "id": "A259789",
+  "mentions": [
+    "A000040",
+    "A000290",
+    "A000720",
+    "A259712"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:18",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

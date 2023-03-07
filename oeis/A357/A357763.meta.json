@@ -1,0 +1,22 @@
+{
+  "description": "Numbers m such that A357761(m) > A357761(k) for all k < m.",
+  "id": "A357763",
+  "mentions": [
+    "A330289",
+    "A355969",
+    "A356020",
+    "A357761",
+    "A357764"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

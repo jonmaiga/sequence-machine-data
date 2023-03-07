@@ -1,0 +1,26 @@
+{
+  "description": "Highest minimal Hamming distance of any Type 3 ternary self-dual code of length 4n.",
+  "id": "A105676",
+  "mentions": [
+    "A016729",
+    "A066016",
+    "A105674",
+    "A105675",
+    "A105677",
+    "A105678",
+    "A105681",
+    "A105682",
+    "A105683"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

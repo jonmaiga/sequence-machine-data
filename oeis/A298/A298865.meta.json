@@ -1,0 +1,21 @@
+{
+  "description": "The primes p and products 4*p in increasing order.",
+  "id": "A298865",
+  "mentions": [
+    "A000040",
+    "A257408",
+    "A298866",
+    "A298867"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:21",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

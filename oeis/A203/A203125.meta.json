@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of (1/8)! = Gamma(9/8).",
+  "id": "A203125",
+  "mentions": [
+    "A011006",
+    "A068467",
+    "A202623",
+    "A203126",
+    "A203142",
+    "A203144",
+    "A231863"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:58",
+    "offset": 0,
+    "size": 99,
+    "source": "joeis"
+  }
+}

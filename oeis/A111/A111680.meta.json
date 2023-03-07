@@ -1,0 +1,18 @@
+{
+  "description": "Leading diagonal of array in A111679.",
+  "id": "A111680",
+  "mentions": [
+    "A111679",
+    "A111681"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

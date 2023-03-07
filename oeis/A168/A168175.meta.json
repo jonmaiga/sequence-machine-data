@@ -1,0 +1,25 @@
+{
+  "description": "Expansion of 1/(1 - 4*x + 7*x^2).",
+  "id": "A168175",
+  "mentions": [
+    "A000727",
+    "A023000",
+    "A049310",
+    "A087455",
+    "A088138",
+    "A128018",
+    "A213421"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:52",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

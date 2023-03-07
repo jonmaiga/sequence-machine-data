@@ -1,0 +1,18 @@
+{
+  "description": "Number of nodes with index 2^2k in a dyadic tree build alternatively with the schema \"l\" between the index 2^2k and 2^(2k+1) - 1, and the schema \"^\" between the index 2^(2k+1) and 2^(2k+2) - 1.",
+  "id": "A174736",
+  "mentions": [
+    "A007583"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

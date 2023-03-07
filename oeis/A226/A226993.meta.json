@@ -1,0 +1,17 @@
+{
+  "description": "Primes p such that 2p - 1 and 2p + 1 are squarefree.",
+  "id": "A226993",
+  "mentions": [
+    "A005117"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

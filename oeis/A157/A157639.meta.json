@@ -1,0 +1,19 @@
+{
+  "description": "Least number of lattice points from which every point of a square n X n lattice is visible.",
+  "id": "A157639",
+  "mentions": [
+    "A141224"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "hard",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

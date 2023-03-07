@@ -1,0 +1,18 @@
+{
+  "description": "Determinant of power series of gamma matrix with determinant 2!.",
+  "id": "A158040",
+  "mentions": [
+    "A111490"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

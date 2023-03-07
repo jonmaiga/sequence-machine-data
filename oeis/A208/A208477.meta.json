@@ -1,0 +1,21 @@
+{
+  "description": "Difference between the sum of odd parts and the sum of even parts in all the partitions of n.",
+  "id": "A208477",
+  "mentions": [
+    "A066186",
+    "A066966",
+    "A066967",
+    "A209423"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:28",
+    "offset": 0,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Irregular triangle read by rows: T(n, k) gives the coefficients of x^k of the minimal polynomials of the algebraic number over the rationals rho(n)^2, with rho(n) = 2*cos(Pi/n), for n >= 1.",
+  "id": "A334429",
+  "mentions": [
+    "A023022",
+    "A055034",
+    "A127672",
+    "A187360",
+    "A232631",
+    "A232632",
+    "A232633",
+    "A334431",
+    "A334432"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-entry"
+  }
+}

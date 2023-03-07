@@ -1,0 +1,17 @@
+{
+  "description": "Number of sequences in {1,...,n}^n with longest increasing subsequence of length five.",
+  "id": "A268872",
+  "mentions": [
+    "A245667"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 5,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

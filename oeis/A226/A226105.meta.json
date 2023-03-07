@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that phi(n)+3 divides n+3 and floor(n/6) is not a prime.",
+  "id": "A226105",
+  "mentions": [
+    "A226104"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "bref",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

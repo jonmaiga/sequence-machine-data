@@ -1,0 +1,19 @@
+{
+  "description": "Number of distinct prime divisors of 5^n + n.",
+  "id": "A181572",
+  "mentions": [
+    "A001221",
+    "A104745"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:04",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

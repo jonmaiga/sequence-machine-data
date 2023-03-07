@@ -1,0 +1,18 @@
+{
+  "description": "Primes of form R_n + 2 {= (10^n + 17)/9}, R_n being the n-th repunit, i.e., primes consisting of a string of 1's followed by a terminal 3.",
+  "id": "A105431",
+  "mentions": [
+    "A097683",
+    "A098406"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

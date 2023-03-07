@@ -1,0 +1,22 @@
+{
+  "description": "Number of sequences of length n with elements {-2,-1,+1,+2}, counted up to simultaneous reversal and negation, such that the sum of elements of the whole sequence but of no proper subsequence equals 0 modulo n. For n>=4, the number of Hamiltonian (undirected) cycles on the circulant graph C_n(1,2).",
+  "id": "A137726",
+  "mentions": [
+    "A000930",
+    "A069241",
+    "A124353",
+    "A137725"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:25",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

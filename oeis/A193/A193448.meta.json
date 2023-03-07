@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 4*(5*n^2 - 5*n + 1).",
+  "id": "A193448",
+  "mentions": [
+    "A062786",
+    "A158491"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

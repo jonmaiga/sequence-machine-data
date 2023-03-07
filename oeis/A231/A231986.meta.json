@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of the solid angle (in steradians) subtended by a spherical square of one radian side.",
+  "id": "A231986",
+  "mentions": [
+    "A019685",
+    "A072097",
+    "A231981",
+    "A231982",
+    "A231984",
+    "A231987"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:48:03",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

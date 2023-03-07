@@ -1,0 +1,23 @@
+{
+  "description": "Number of finite sets of pairwise indivisible positive integers with least common multiple n.",
+  "id": "A285572",
+  "mentions": [
+    "A000666",
+    "A006126",
+    "A048143",
+    "A054921",
+    "A076078",
+    "A076413",
+    "A285573"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:57",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

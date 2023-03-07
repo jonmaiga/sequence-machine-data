@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the smallest m such that A000720(m) - A000006(m) = n.",
+  "id": "A137415",
+  "mentions": [
+    "A000006",
+    "A000720"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": -1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Continued fraction expansion of log_2(sqrt(5)+1)/2) = 0.6942419... = A242208.",
+  "id": "A328912",
+  "mentions": [
+    "A000012",
+    "A001622",
+    "A242208"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "cofr",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 83,
+    "source": "oeis-entry"
+  }
+}

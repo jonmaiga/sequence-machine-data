@@ -1,0 +1,21 @@
+{
+  "description": "Numbers m such that exactly one editing step (insert or substitute) is necessary to transform the binary representation of m into the least prime not less than m.",
+  "id": "A171401",
+  "mentions": [
+    "A006093",
+    "A007918",
+    "A036987",
+    "A171400"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:55",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

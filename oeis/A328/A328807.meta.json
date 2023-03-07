@@ -1,0 +1,27 @@
+{
+  "description": "Square array T(n,k), n >= 0, k >= 0, read by antidiagonals, where T(n,k) is Sum_{i=0..n} binomial(n,i)*Sum_{j=0..i} binomial(i,j)^k.",
+  "id": "A328807",
+  "mentions": [
+    "A000244",
+    "A001792",
+    "A002893",
+    "A026375",
+    "A309010",
+    "A328747",
+    "A328748",
+    "A328808",
+    "A328809",
+    "A328810"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

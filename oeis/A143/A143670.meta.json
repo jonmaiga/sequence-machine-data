@@ -1,0 +1,22 @@
+{
+  "description": "Array of higher spin alternating sign matrices, read by antidiagonals.",
+  "id": "A143670",
+  "mentions": [
+    "A000012",
+    "A000027",
+    "A005130"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

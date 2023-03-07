@@ -1,0 +1,18 @@
+{
+  "description": "Numbers m such that b^sigma(m) == b^phi(m) == b^numdiv(m) == b^m (mod m) for every integer b.",
+  "id": "A277173",
+  "mentions": [
+    "A058383",
+    "A124240"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

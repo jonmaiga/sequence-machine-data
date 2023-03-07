@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = n mod floor(log_2(n)).",
+  "id": "A112248",
+  "mentions": [
+    "A000523",
+    "A112249",
+    "A112250",
+    "A112251"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 2,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

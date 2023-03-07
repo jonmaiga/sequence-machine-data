@@ -1,0 +1,23 @@
+{
+  "description": "Cubefree superabundant numbers: cubefree numbers (A004709) k such that sigma(k)/k > sigma(j)/j for all cubefree numbers j < k.",
+  "id": "A308618",
+  "mentions": [
+    "A000203",
+    "A002110",
+    "A004394",
+    "A004709",
+    "A025487",
+    "A073185",
+    "A220423"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:33",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

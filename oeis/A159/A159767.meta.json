@@ -1,0 +1,18 @@
+{
+  "description": "Continued fraction expansion of A006891.",
+  "id": "A159767",
+  "mentions": [
+    "A006891"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "cofr",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:41",
+    "offset": 0,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

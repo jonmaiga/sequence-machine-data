@@ -1,0 +1,23 @@
+{
+  "description": "A finite sum of products of binomial coefficients: Sum_(m=0..n) binomial(-1/4, m)^2*binomial(-1/4, n-m)^2 (C. C. Grosjean's problem, denominators).",
+  "id": "A241756",
+  "mentions": [
+    "A005187",
+    "A241755",
+    "A277232",
+    "A277234",
+    "A278143"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

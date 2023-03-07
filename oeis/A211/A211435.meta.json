@@ -1,0 +1,18 @@
+{
+  "description": "Number of ordered triples (w,x,y) with all terms in {-n,...,0,...,n} and w+4x+5y=0.",
+  "id": "A211435",
+  "mentions": [
+    "A211422"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:20:25",
+    "offset": 0,
+    "size": 49,
+    "source": "joeis"
+  }
+}

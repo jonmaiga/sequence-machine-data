@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = n + sod(n, sod(n, 10)), where sod(n,b) is the sum of base-b digits of n.",
+  "id": "A339541",
+  "mentions": [
+    "A007953",
+    "A138530"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:11",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

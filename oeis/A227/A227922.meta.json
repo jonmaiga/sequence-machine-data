@@ -1,0 +1,18 @@
+{
+  "description": "Numbers whose digits are prime and which retain this property when multiplied by some 1-digit prime (i.e., one of 2, 3, 5 or 7).",
+  "id": "A227922",
+  "mentions": [
+    "A046034"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

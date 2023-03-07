@@ -1,0 +1,25 @@
+{
+  "description": "Let S be the concatenation of natural numbers in ternary representation: a(n) = position of first occurrence of n in S, then this occurrence in S is replaced by a(n) in ternary.",
+  "id": "A132597",
+  "mentions": [
+    "A003137",
+    "A007089",
+    "A132575",
+    "A132598",
+    "A132599",
+    "A132600",
+    "A132601"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:20",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

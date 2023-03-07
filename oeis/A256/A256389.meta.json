@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that one or more primes can be the arithmetic mean of 2 semiprimes whose difference is 2*n.",
+  "id": "A256389",
+  "mentions": [
+    "A105571",
+    "A124936",
+    "A256381",
+    "A256382",
+    "A256387",
+    "A256388"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

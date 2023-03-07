@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = ( binomial(7*n,2*n)*binomial(7*n/2,2*n)*binomial(2*n,n)^2 ) / binomial(7*n/2,n)^2.",
+  "id": "A352652",
+  "mentions": [
+    "A006480",
+    "A071549",
+    "A275654",
+    "A276098",
+    "A276100",
+    "A276101",
+    "A276102",
+    "A352651"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

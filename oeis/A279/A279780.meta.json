@@ -1,0 +1,23 @@
+{
+  "description": "Coefficients in the expansion of 1/([r] + [2r]x + [3r]x^2 + ...); [ ] = floor, r = 8/5.",
+  "id": "A279780",
+  "mentions": [
+    "A279634",
+    "A279778",
+    "A279779",
+    "A279781",
+    "A289260"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:47",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

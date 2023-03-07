@@ -1,0 +1,18 @@
+{
+  "description": "Numbers with a unique smallest prime exponent.",
+  "id": "A359178",
+  "mentions": [
+    "A130091",
+    "A356862"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:33",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

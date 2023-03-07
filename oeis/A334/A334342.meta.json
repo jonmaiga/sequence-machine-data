@@ -1,0 +1,19 @@
+{
+  "description": "Tatsuru Watanabe's set of 47 squarefree numbers whose reciprocals add to 1, with the property that each number has exactly two distinct prime factors.",
+  "id": "A334342",
+  "mentions": [
+    "A201650"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "The prime numbers that are prime-indexed primes and whose reversal, digit sum, sum of digits to their own power, adjacent digit sum concatenation, and adjacent digit difference concatenation are also primes.",
+  "id": "A329527",
+  "mentions": [
+    "A000040",
+    "A004086",
+    "A006450",
+    "A007500",
+    "A007953",
+    "A040115",
+    "A045503",
+    "A046704",
+    "A053392",
+    "A330653",
+    "A331031"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

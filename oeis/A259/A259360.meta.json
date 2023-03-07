@@ -1,0 +1,21 @@
+{
+  "description": "Initial prime in the least set of exactly n+1 consecutive primes with n gaps all multiples of 4.",
+  "id": "A259360",
+  "mentions": [
+    "A054678",
+    "A054679",
+    "A054680",
+    "A080378",
+    "A098059"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:17",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

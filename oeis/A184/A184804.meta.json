@@ -1,0 +1,19 @@
+{
+  "description": "Numbers m such that prime(m) is of the form floor(k*sqrt(5)); complement of A184807.",
+  "id": "A184804",
+  "mentions": [
+    "A184802",
+    "A184803",
+    "A184807"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-entry"
+  }
+}

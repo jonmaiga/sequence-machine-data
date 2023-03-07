@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of f(-x^5, -x^7) in powers of x where f() is a Ramanujan theta function.",
+  "id": "A247223",
+  "mentions": [
+    "A010815"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:04:09",
+    "offset": 0,
+    "size": 85,
+    "source": "joeis"
+  }
+}

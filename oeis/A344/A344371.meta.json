@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = Sum_{k=1..n} (-1)^(n-k) gcd(k,n).",
+  "id": "A344371",
+  "mentions": [
+    "A090423",
+    "A106475",
+    "A199084",
+    "A344372",
+    "A344373"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:17",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

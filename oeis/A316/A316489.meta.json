@@ -1,0 +1,17 @@
+{
+  "description": "Positive numbers of the form 8*k + 4 that cannot be expressed as the sum of four distinct odd squares.",
+  "id": "A316489",
+  "mentions": [
+    "A316834"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

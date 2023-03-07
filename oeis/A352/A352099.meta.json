@@ -1,0 +1,21 @@
+{
+  "description": "Number of inequivalent {-1,1} matrices of order n, up to permutation of rows and/or columns and multiplication of rows and/or columns by -1.",
+  "id": "A352099",
+  "mentions": [
+    "A007299",
+    "A111368",
+    "A353052"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

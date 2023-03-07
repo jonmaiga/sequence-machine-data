@@ -1,0 +1,18 @@
+{
+  "description": "Number of permutations sigma of [n] such that all values k * sigma(k) for 1 <= k <= n are pairwise distinct.",
+  "id": "A333083",
+  "mentions": [
+    "A333082"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

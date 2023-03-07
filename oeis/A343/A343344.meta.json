@@ -1,0 +1,35 @@
+{
+  "description": "Number of integer partitions of n that are either empty, or do not have smallest part dividing all the others, but do have greatest part divisible by all the others.",
+  "id": "A343344",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A000070",
+    "A006128",
+    "A015723",
+    "A083710",
+    "A097986",
+    "A130689",
+    "A130714",
+    "A264401",
+    "A338470",
+    "A339562",
+    "A341450",
+    "A342193",
+    "A343339",
+    "A343342",
+    "A343345",
+    "A343346",
+    "A343380"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

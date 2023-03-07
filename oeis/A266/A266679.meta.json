@@ -1,0 +1,18 @@
+{
+  "description": "Positive integers not shotgun (or Schrotschuss) numbers, in order of the first number to be permuted forward by the transformations T[k] where k = 2 or k is odd.",
+  "id": "A266679",
+  "mentions": [
+    "A064494",
+    "A064627"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

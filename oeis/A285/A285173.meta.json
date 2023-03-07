@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that A002496(n+1) < A002496(n)^(1+1/n).",
+  "id": "A285173",
+  "mentions": [
+    "A000027",
+    "A002496"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

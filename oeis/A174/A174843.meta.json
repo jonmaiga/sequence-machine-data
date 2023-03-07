@@ -1,0 +1,18 @@
+{
+  "description": "Irregular triangle in which row n lists the divisors of prime(n)-1.",
+  "id": "A174843",
+  "mentions": [
+    "A008328"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:58",
+    "offset": 1,
+    "size": 92,
+    "source": "oeis-bfile"
+  }
+}

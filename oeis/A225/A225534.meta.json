@@ -1,0 +1,25 @@
+{
+  "description": "Numbers whose sum of cubed digits is prime.",
+  "id": "A225534",
+  "mentions": [
+    "A023194",
+    "A046197",
+    "A046459",
+    "A046704",
+    "A055012",
+    "A165330",
+    "A197039",
+    "A225535"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

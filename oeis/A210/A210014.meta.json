@@ -1,0 +1,25 @@
+{
+  "description": "Pandigital numbers (A050278) with each product of four adjacent digits visible as a substring of the digits.",
+  "id": "A210014",
+  "mentions": [
+    "A050278",
+    "A198298",
+    "A203566",
+    "A203569",
+    "A210013",
+    "A210020"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

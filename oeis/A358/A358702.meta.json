@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the least k > 0 such that the sum of the decimal digits of k^2 is n, or 0 if no such k exists.",
+  "id": "A358702",
+  "mentions": [
+    "A056991",
+    "A067179",
+    "A231897"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

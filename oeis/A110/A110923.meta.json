@@ -1,0 +1,20 @@
+{
+  "description": "Final two digits of prime(n), with leading zero omitted.",
+  "id": "A110923",
+  "mentions": [
+    "A007652",
+    "A242119"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:02",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

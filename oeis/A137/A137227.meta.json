@@ -1,0 +1,21 @@
+{
+  "description": "Triangle T(n, k) = n^(n-1) * Fibonacci(k)^(n+1) - (n-1)! * (Fibonacci(k) - 1) * Sum_{j=0..n} (n*Fibonacci(k))^j/j!, with T(n, 0) = n! and T(n, 1) = n^(n-1), read by rows.",
+  "id": "A137227",
+  "mentions": [
+    "A000045",
+    "A122525",
+    "A137216"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:25",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

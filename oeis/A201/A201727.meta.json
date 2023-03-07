@@ -1,0 +1,17 @@
+{
+  "description": "Number of nX6 0..4 arrays with rows and columns lexicographically nondecreasing and no element equal to the number of horizontal and vertical neighbors equal to itself",
+  "id": "A201727",
+  "mentions": [
+    "A201729"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

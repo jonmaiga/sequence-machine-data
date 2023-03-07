@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the probability of intersection of 2 random chords in a sphere when they are projected onto a plane that passes the center, where each chord is selected by 2 random points within the sphere.",
+  "id": "A301864",
+  "mentions": [
+    "A301862",
+    "A301863",
+    "A301865"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

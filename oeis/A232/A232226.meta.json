@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = number of crossing connected diagrams in a disk having n crossings.",
+  "id": "A232226",
+  "mentions": [
+    "A232225",
+    "A232227"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

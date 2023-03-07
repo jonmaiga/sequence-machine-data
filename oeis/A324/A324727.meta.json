@@ -1,0 +1,23 @@
+{
+  "description": "Odd numbers such that 2n is equal to A318466(n), bitor(2*n,sigma(n)), where bitor is A003986.",
+  "id": "A324727",
+  "mentions": [
+    "A000203",
+    "A003986",
+    "A318466",
+    "A324647",
+    "A324718",
+    "A324719",
+    "A324726"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:50",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of n-digit semiprimes whose prime factors concatenated larger to the right of smaller form an n-digit prime (in decimal).",
+  "id": "A259493",
+  "mentions": [
+    "A220296"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

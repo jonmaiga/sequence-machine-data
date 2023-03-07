@@ -1,0 +1,21 @@
+{
+  "description": "Number of maximum induced cycles in the n X n grid graph.",
+  "id": "A360914",
+  "mentions": [
+    "A297664",
+    "A357357",
+    "A360913"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "more",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "a(n) is the product of those divisors d of n such that tau(d) divides sigma(d).",
+  "id": "A338172",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A003601",
+    "A007955",
+    "A065091",
+    "A334420",
+    "A334421",
+    "A338170",
+    "A338171"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

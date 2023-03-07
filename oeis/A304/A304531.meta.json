@@ -1,0 +1,33 @@
+{
+  "description": "Suspected divisor-or-multiple permutation: a(1) = 1, and for n > 1, a(n) is either the least unitary divisor of a(n-1) not already present, or (if all unitary divisors already used), a(n) = a(n-1) * {the least power of the least prime not dividing a(n-1) such that the term is not already present}.",
+  "id": "A304531",
+  "mentions": [
+    "A002110",
+    "A019565",
+    "A052331",
+    "A053669",
+    "A064547",
+    "A113552",
+    "A215366",
+    "A257993",
+    "A282291",
+    "A303751",
+    "A304530",
+    "A304532",
+    "A304533",
+    "A304535",
+    "A304536",
+    "A304537"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:29",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

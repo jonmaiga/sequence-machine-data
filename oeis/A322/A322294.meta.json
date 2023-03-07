@@ -1,0 +1,19 @@
+{
+  "description": "Number of permutations of [n] with exactly floor(n/2) rising or falling successions.",
+  "id": "A322294",
+  "mentions": [
+    "A001100",
+    "A322295"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:45",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

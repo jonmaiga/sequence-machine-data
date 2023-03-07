@@ -1,0 +1,18 @@
+{
+  "description": "Number of Cohen-Macaulay graphs on n nodes.",
+  "id": "A286284",
+  "mentions": [
+    "A286285"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

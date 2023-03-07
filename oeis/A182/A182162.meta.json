@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: number of extensional acyclic digraphs on n labeled nodes with k sources.",
+  "id": "A182162",
+  "mentions": [
+    "A001192",
+    "A182161",
+    "A182163",
+    "A182220"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

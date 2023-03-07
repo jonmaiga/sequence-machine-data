@@ -1,0 +1,25 @@
+{
+  "description": "a(n) is the sum of the lengths of all the segments used to draw a square of side n representing a basketweave pattern where all the multiple strands are of unit width, the horizontal ones appearing as 1 X 3 rectangles, while the vertical ones as unit area squares.",
+  "id": "A345118",
+  "mentions": [
+    "A000035",
+    "A004773",
+    "A056594",
+    "A115067",
+    "A211014",
+    "A316316",
+    "A316317"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:31:39",
+    "offset": 0,
+    "size": 50,
+    "source": "joeis"
+  }
+}

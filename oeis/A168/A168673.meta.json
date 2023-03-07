@@ -1,0 +1,26 @@
+{
+  "description": "Binomial transform of A169609.",
+  "id": "A168673",
+  "mentions": [
+    "A024495",
+    "A062092",
+    "A083595",
+    "A130151",
+    "A130772",
+    "A144437",
+    "A168615",
+    "A169609"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:52",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

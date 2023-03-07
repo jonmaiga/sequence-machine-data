@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = least number m of A191837 for which the product of the first n+1 primes divides m.",
+  "id": "A215893",
+  "mentions": [
+    "A191837"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

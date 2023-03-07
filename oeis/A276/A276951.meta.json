@@ -1,0 +1,29 @@
+{
+  "description": "Index of column where n is located in array A276953 (equally: row in A276955).",
+  "id": "A276951",
+  "mentions": [
+    "A257681",
+    "A260736",
+    "A266193",
+    "A273663",
+    "A273670",
+    "A275847",
+    "A276949",
+    "A276950",
+    "A276952",
+    "A276953",
+    "A276955"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 0,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

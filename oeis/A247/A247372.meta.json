@@ -1,0 +1,19 @@
+{
+  "description": "List of b, where b is positive integer solutions of 1/a + 1/b = 1/c and a>b>c and gcd(a,b,c)=1, sorted by ascending a, then b.",
+  "id": "A247372",
+  "mentions": [
+    "A106430",
+    "A246429"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:03",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

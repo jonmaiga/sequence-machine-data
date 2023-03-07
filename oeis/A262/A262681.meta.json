@@ -1,0 +1,25 @@
+{
+  "description": "Odd bisection of A262680.",
+  "id": "A262681",
+  "mentions": [
+    "A000005",
+    "A000290",
+    "A010052",
+    "A049820",
+    "A155043",
+    "A262677",
+    "A262680",
+    "A262682"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:22",
+    "offset": 0,
+    "size": 116,
+    "source": "oeis-bfile"
+  }
+}

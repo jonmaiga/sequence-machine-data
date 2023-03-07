@@ -1,0 +1,33 @@
+{
+  "description": "The tribonacci representation of a(n) is obtained by appending 0,1 to the tribonacci representation of n (cf. A278038).",
+  "id": "A278040",
+  "mentions": [
+    "A003144",
+    "A003145",
+    "A003146",
+    "A003622",
+    "A080843",
+    "A276789",
+    "A276796",
+    "A278038",
+    "A278039",
+    "A278041",
+    "A319198",
+    "A319966",
+    "A319968",
+    "A319972"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:44",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

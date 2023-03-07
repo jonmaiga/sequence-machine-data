@@ -1,0 +1,19 @@
+{
+  "description": "a(n) begins the first run of least n consecutive numbers whose sum of divisors has the same set of distinct prime divisors.",
+  "id": "A303693",
+  "mentions": [
+    "A000203",
+    "A007947"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

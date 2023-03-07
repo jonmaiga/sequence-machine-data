@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that n*9^n+1 is semiprime.",
+  "id": "A242272",
+  "mentions": [
+    "A064747",
+    "A242203"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

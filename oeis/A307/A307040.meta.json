@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{k=0..floor(n/6)} (-1)^k*binomial(n,6*k).",
+  "id": "A307040",
+  "mentions": [
+    "A306847",
+    "A307039"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

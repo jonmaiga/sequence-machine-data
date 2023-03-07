@@ -1,0 +1,21 @@
+{
+  "description": "Triangular numbers (A000217) with arithmetic derivative (A003415) a palindrome (A002113).",
+  "id": "A353217",
+  "mentions": [
+    "A000217",
+    "A002113",
+    "A003415",
+    "A068312"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

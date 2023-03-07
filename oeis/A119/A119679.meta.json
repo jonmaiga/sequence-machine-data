@@ -1,0 +1,28 @@
+{
+  "description": "a(n) = least k such that the remainder when 5^k is divided by k is n.",
+  "id": "A119679",
+  "mentions": [
+    "A015951",
+    "A036236",
+    "A078457",
+    "A119678",
+    "A119714",
+    "A119715",
+    "A127816",
+    "A127817",
+    "A127818",
+    "A127819",
+    "A127820",
+    "A127821"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

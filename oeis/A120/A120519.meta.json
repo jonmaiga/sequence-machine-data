@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = min{j : A120508(j) = n}.",
+  "id": "A120519",
+  "mentions": [
+    "A120508",
+    "A120530"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

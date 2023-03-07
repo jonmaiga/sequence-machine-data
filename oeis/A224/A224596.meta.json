@@ -1,0 +1,17 @@
+{
+  "description": "Number of (n+7)X14 0..1 matrices with each 8X8 subblock idempotent",
+  "id": "A224596",
+  "mentions": [
+    "A224597"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:42",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

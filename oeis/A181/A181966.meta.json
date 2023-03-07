@@ -1,0 +1,20 @@
+{
+  "description": "Sum of the sizes of normalizers of all prime order cyclic subgroups of the symmetric group S_n.",
+  "id": "A181966",
+  "mentions": [
+    "A013939",
+    "A181954",
+    "A181967"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:05",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

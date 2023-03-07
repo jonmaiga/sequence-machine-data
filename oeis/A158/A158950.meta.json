@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows, A158948 * (an infinite lower triangular matrix with A000071 prefaced with a 1 as the right border; and the rest zeros).",
+  "id": "A158950",
+  "mentions": [
+    "A000071",
+    "A158948"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "eigen",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

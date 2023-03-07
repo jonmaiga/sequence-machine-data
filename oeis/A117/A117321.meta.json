@@ -1,0 +1,18 @@
+{
+  "description": "Heights of right triangles that are solutions to Leech's problem A117319.",
+  "id": "A117321",
+  "mentions": [
+    "A117319",
+    "A117320"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

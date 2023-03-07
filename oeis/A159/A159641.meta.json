@@ -1,0 +1,23 @@
+{
+  "description": "Positive numbers y such that y^2 is of the form x^2+(x+647)^2 with integer x.",
+  "id": "A159641",
+  "mentions": [
+    "A001653",
+    "A130013",
+    "A156035",
+    "A159642",
+    "A159643"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 19:43:29",
+    "offset": 1,
+    "size": 27,
+    "source": "joeis"
+  }
+}

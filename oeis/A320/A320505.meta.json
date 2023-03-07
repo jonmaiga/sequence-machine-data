@@ -1,0 +1,17 @@
+{
+  "description": "Index of the first occurrence of n consecutive 0's in A164349.",
+  "id": "A320505",
+  "mentions": [
+    "A164349"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:43",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-bfile"
+  }
+}

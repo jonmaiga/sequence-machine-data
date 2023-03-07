@@ -1,0 +1,18 @@
+{
+  "description": "Conjectured number of ordered trees on n edges for which the conjugate and transpose commute.",
+  "id": "A123050",
+  "mentions": [
+    "A079438"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

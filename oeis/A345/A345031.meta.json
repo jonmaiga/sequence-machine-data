@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 6*a(n-1) - 7*a(n-2) - 2*a(n-3) for n >= 3, with a(0) = a(1) = 0, a(2) = 1.",
+  "id": "A345031",
+  "mentions": [
+    "A100484",
+    "A343575"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:18",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

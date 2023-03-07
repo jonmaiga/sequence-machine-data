@@ -1,0 +1,35 @@
+{
+  "description": "Heinz numbers of widely totally co-strongly normal integer partitions.",
+  "id": "A332293",
+  "mentions": [
+    "A000009",
+    "A055932",
+    "A056239",
+    "A133808",
+    "A181819",
+    "A182850",
+    "A304660",
+    "A317089",
+    "A317246",
+    "A317257",
+    "A317492",
+    "A329747",
+    "A332276",
+    "A332277",
+    "A332278",
+    "A332289",
+    "A332290",
+    "A332291"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

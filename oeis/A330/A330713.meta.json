@@ -1,0 +1,25 @@
+{
+  "description": "Numbers k such that both k and k+1 are Zeckendorf-Niven numbers (A328208) and lazy-Fibonacci-Niven numbers (A328212).",
+  "id": "A330713",
+  "mentions": [
+    "A007895",
+    "A112310",
+    "A328208",
+    "A328209",
+    "A328210",
+    "A328212",
+    "A328213",
+    "A328214",
+    "A330711"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:59",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

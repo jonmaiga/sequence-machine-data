@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k whose decimal expansion ends in the sum of the first three digits of k.",
+  "id": "A352441",
+  "mentions": [
+    "A352438",
+    "A352440"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "Factorial-nested interval sequence of 1/e.",
+  "id": "A269970",
+  "mentions": [
+    "A000142",
+    "A269971",
+    "A269972",
+    "A269973",
+    "A269974",
+    "A269975",
+    "A269976",
+    "A269977",
+    "A269978",
+    "A269979",
+    "A269980",
+    "A269981"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

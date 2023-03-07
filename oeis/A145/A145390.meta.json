@@ -1,0 +1,23 @@
+{
+  "description": "Number of sublattices of index n of a centered rectangular lattice fixed by a reflection.",
+  "id": "A145390",
+  "mentions": [
+    "A000012",
+    "A001620",
+    "A060594",
+    "A098178",
+    "A145391"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 1,
+    "size": 101,
+    "source": "oeis-bfile"
+  }
+}

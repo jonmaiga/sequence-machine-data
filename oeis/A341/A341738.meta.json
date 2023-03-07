@@ -1,0 +1,22 @@
+{
+  "description": "Square array T(n,k), n >= 1, k >= 1, read by antidiagonals, where T(n,k) = sqrt( Product_{a=1..n} Product_{b=1..k-1} (4*sin((2*a-1)*Pi/(2*n))^2 + 4*sin(2*b*Pi/k)^2) ).",
+  "id": "A341738",
+  "mentions": [
+    "A341533",
+    "A341739",
+    "A341741",
+    "A341782"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

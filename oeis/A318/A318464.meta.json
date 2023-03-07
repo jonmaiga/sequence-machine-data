@@ -1,0 +1,23 @@
+{
+  "description": "Additive with a(p^e) = A007895(e), where A007895(n) gives the number of terms in Zeckendorf representation of n.",
+  "id": "A318464",
+  "mentions": [
+    "A001222",
+    "A007814",
+    "A007895",
+    "A072649",
+    "A318465",
+    "A318469"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:39",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

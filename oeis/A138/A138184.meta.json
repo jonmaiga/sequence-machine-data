@@ -1,0 +1,25 @@
+{
+  "description": "Largest prime not exceeding Fibonacci(n) = A000045(n).",
+  "id": "A138184",
+  "mentions": [
+    "A000040",
+    "A000045",
+    "A054782",
+    "A138181",
+    "A138182",
+    "A138183",
+    "A138185"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:26",
+    "offset": 3,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

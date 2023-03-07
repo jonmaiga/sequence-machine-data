@@ -1,0 +1,18 @@
+{
+  "description": "Number of (n+1) X (5+1) 0..1 arrays with every 2 X 2 subblock diagonal minimum minus antidiagonal minimum nondecreasing horizontally and diagonal maximum minus antidiagonal maximum nondecreasing vertically.",
+  "id": "A253228",
+  "mentions": [
+    "A253231"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:20:27",
+    "offset": 1,
+    "size": 26,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{k=1..n} |Stirling1(n,k)| * Catalan(k-1).",
+  "id": "A355292",
+  "mentions": [
+    "A000108",
+    "A052851",
+    "A086662"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

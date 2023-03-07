@@ -1,0 +1,18 @@
+{
+  "description": "For the imaginary quadratic field of discriminant -47, odd primes p such that the Iwasawa lambda invariant lambda_p exceeds 1.",
+  "id": "A354772",
+  "mentions": [
+    "A239902"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

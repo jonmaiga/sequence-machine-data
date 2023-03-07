@@ -1,0 +1,19 @@
+{
+  "description": "Squares that remain squares when prefixed with a 5.",
+  "id": "A167039",
+  "mentions": [
+    "A000290",
+    "A055642"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:50",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

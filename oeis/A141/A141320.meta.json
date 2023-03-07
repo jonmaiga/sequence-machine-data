@@ -1,0 +1,22 @@
+{
+  "description": "Both n and the smallest number with n divisors are in A002182.",
+  "id": "A141320",
+  "mentions": [
+    "A000005",
+    "A002182",
+    "A002183",
+    "A189394"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

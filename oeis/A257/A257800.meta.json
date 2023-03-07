@@ -1,0 +1,25 @@
+{
+  "description": "Sequence A233271 reduced modulo 2: a(n) = A000035(A233271(n)); the parity of each term in the infinite trunk of inverted binary beanstalk.",
+  "id": "A257800",
+  "mentions": [
+    "A000035",
+    "A213729",
+    "A218602",
+    "A233271",
+    "A257799",
+    "A257803",
+    "A257804",
+    "A257807"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:15",
+    "offset": 0,
+    "size": 124,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Numbers m with exactly 2 groups of order m, where one is abelian and the other is nonabelian.",
+  "id": "A350586",
+  "mentions": [
+    "A000001",
+    "A005117",
+    "A054395",
+    "A060650",
+    "A064899",
+    "A350322"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:25",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

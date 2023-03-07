@@ -1,0 +1,21 @@
+{
+  "description": "a(1)=1; for n >1 a(n) is the smallest prime divisor of the number obtained from concatenation of 1 and the first n-1 composites.",
+  "id": "A241845",
+  "mentions": [
+    "A018252",
+    "A075019",
+    "A104644",
+    "A132934"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

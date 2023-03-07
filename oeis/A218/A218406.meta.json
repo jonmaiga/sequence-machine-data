@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n for which sigma(n)/n = k+1/5 with integer k.",
+  "id": "A218406",
+  "mentions": [
+    "A218407",
+    "A218408",
+    "A218427"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

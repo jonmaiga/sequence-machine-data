@@ -1,0 +1,25 @@
+{
+  "description": "a(n) is the least number k such that k and k+1 both have n Fermi-Dirac factors (A064547).",
+  "id": "A343818",
+  "mentions": [
+    "A037445",
+    "A045920",
+    "A052215",
+    "A064547",
+    "A075036",
+    "A093548",
+    "A115186",
+    "A343819"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

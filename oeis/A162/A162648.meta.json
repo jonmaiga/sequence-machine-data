@@ -1,0 +1,32 @@
+{
+  "description": "Locations of patterns 1001 or 0110 in the Thue-Morse sequence A010060.",
+  "id": "A162648",
+  "mentions": [
+    "A010060",
+    "A036554",
+    "A079523",
+    "A081706",
+    "A121539",
+    "A131323",
+    "A161579",
+    "A161580",
+    "A161627",
+    "A161639",
+    "A161641",
+    "A161673",
+    "A161674",
+    "A161817",
+    "A161824"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:44",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "description": "The Fuss-Catalan triangle of order 1, read by rows. Related to binary trees.",
+  "id": "A355173",
+  "mentions": [
+    "A000027",
+    "A000096",
+    "A000108",
+    "A000245",
+    "A000344",
+    "A000588",
+    "A000958",
+    "A002057",
+    "A009766",
+    "A030237",
+    "A071724",
+    "A099376",
+    "A115144",
+    "A115145",
+    "A115147",
+    "A115148",
+    "A123110",
+    "A130020",
+    "A262394",
+    "A355172",
+    "A355174",
+    "A355262"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

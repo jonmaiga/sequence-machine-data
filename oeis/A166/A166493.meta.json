@@ -1,0 +1,19 @@
+{
+  "description": "A Per Bak sand pile collapse sequence using Hofstadter Q:A005185, of the A153112 form.",
+  "id": "A166493",
+  "mentions": [
+    "A005185",
+    "A153112"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

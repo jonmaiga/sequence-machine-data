@@ -1,0 +1,21 @@
+{
+  "description": "Primes p for which s=2 is the least positive integer such that sp-t(sp) is a triangular number, where t(n) is the maximal triangular number not exceeding n",
+  "id": "A145043",
+  "mentions": [
+    "A000217",
+    "A145016",
+    "A145022",
+    "A145023",
+    "A145032"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

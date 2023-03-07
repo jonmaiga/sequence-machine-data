@@ -1,0 +1,28 @@
+{
+  "description": "Period 3: repeat [1, 4, 2] ; Trajectory of 3x+1 sequence starting at 1.",
+  "id": "A153727",
+  "mentions": [
+    "A006370",
+    "A008585",
+    "A016777",
+    "A016789",
+    "A080425",
+    "A130196",
+    "A131534",
+    "A178236",
+    "A179133",
+    "A347270"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:15:27",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

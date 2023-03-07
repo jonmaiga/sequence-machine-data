@@ -1,0 +1,26 @@
+{
+  "description": "Primes p such that (p reversed)-2 is also a prime.",
+  "id": "A243457",
+  "mentions": [
+    "A167216",
+    "A167488",
+    "A167496",
+    "A167497",
+    "A167513",
+    "A243458",
+    "A243459",
+    "A243460",
+    "A243461"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:59",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

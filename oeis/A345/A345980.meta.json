@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = spum of a path P_n.",
+  "id": "A345980",
+  "mentions": [
+    "A345979",
+    "A345981"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 4,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

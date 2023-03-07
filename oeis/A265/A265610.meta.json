@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = rf(n, n+2)/(n+2)! - rf(n, n)/n!, rf the rising factorial A265609.",
+  "id": "A265610",
+  "mentions": [
+    "A002054",
+    "A088218",
+    "A265609"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-02 20:55:41",
+    "offset": 0,
+    "size": 27,
+    "source": "joeis"
+  }
+}

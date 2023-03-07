@@ -1,0 +1,20 @@
+{
+  "description": "Table of A(n,k) read by antidiagonals, where A(n,1)=2, and every n+1 consecutive terms in row n are pairwise coprime. Terms are chosen to be the least increasing value compatible with these constraints.",
+  "id": "A328739",
+  "mentions": [
+    "A047255",
+    "A062062",
+    "A062063"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-entry"
+  }
+}

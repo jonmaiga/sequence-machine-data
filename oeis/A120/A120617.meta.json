@@ -1,0 +1,20 @@
+{
+  "description": "Hankel transform of g.f. 1/sqrt(1+4x^2).",
+  "id": "A120617",
+  "mentions": [
+    "A082590",
+    "A098331"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-03 15:08:02",
+    "offset": 0,
+    "size": 34,
+    "source": "joeis"
+  }
+}

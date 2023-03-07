@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the trace of the n-th power of the 2 X 2 matrix [1 2; 3 4].",
+  "id": "A327765",
+  "mentions": [
+    "A100638",
+    "A124610",
+    "A233020"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:55",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

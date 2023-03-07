@@ -1,0 +1,25 @@
+{
+  "description": "Number of integer pairs (x,y) such that 0",
+  "id": "A211267",
+  "mentions": [
+    "A056924",
+    "A181972",
+    "A211159",
+    "A211261",
+    "A211262",
+    "A211263",
+    "A211264",
+    "A211265",
+    "A211266"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:30",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

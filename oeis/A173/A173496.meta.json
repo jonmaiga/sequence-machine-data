@@ -1,0 +1,23 @@
+{
+  "description": "Partial sums of A005036.",
+  "id": "A173496",
+  "mentions": [
+    "A000207",
+    "A004127",
+    "A005036",
+    "A005038",
+    "A005040",
+    "A005419"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 16:53:30",
+    "offset": 1,
+    "size": 22,
+    "source": "joeis"
+  }
+}

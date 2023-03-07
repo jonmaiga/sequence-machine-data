@@ -1,0 +1,32 @@
+{
+  "description": "a(n) is the number of acyclic orientations of the edges of the n-antiprism.",
+  "id": "A338154",
+  "mentions": [
+    "A033815",
+    "A058809",
+    "A077263",
+    "A124352",
+    "A124353",
+    "A192742",
+    "A284699",
+    "A284700",
+    "A284701",
+    "A287988",
+    "A294152",
+    "A297384",
+    "A334247",
+    "A338152",
+    "A338153"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:10",
+    "offset": 3,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

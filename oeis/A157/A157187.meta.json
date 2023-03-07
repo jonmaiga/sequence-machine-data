@@ -1,0 +1,18 @@
+{
+  "description": "Number of ways to write n as p*q-(p+q) with primes p <= q.",
+  "id": "A157187",
+  "mentions": [
+    "A218862"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:39",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

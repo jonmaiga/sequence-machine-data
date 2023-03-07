@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that the arithmetic, geometric and harmonic means of phi(n) and psi(n) are all integers, where phi(n) is the Euler totient function (A000010) and psi(n) is the Dedekind psi function (A001615).",
+  "id": "A291959",
+  "mentions": [
+    "A000010",
+    "A001615",
+    "A065146"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:06",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Primes which remain prime after all even digits are removed.",
+  "id": "A306084",
+  "mentions": [
+    "A030096",
+    "A306085",
+    "A306086"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

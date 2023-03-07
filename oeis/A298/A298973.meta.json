@@ -1,0 +1,25 @@
+{
+  "description": "Squarefree primitive abundant numbers (first definition: having only deficient proper divisors).",
+  "id": "A298973",
+  "mentions": [
+    "A002975",
+    "A005117",
+    "A034448",
+    "A034683",
+    "A071395",
+    "A091191",
+    "A249242",
+    "A249263",
+    "A295369"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:22",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

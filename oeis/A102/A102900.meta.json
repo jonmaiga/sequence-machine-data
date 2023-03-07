@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = 3*a(n-1) + 4*a(n-2), a(0)=a(1)=1.",
+  "id": "A102900",
+  "mentions": [
+    "A001045",
+    "A004171",
+    "A046717",
+    "A086901",
+    "A102901",
+    "A247666"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:53",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

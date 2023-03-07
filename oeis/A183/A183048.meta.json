@@ -1,0 +1,19 @@
+{
+  "description": "Sums of least number of knight's moves on boundaries of squares [-n,n]x[-n,n] on infinite chessboard.",
+  "id": "A183048",
+  "mentions": [
+    "A065775",
+    "A183047"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

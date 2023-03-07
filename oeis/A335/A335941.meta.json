@@ -1,0 +1,19 @@
+{
+  "description": "Number of partitions of n such that the set s of parts and multiplicities satisfies s = {1..max(s)}.",
+  "id": "A335941",
+  "mentions": [
+    "A317081",
+    "A317088",
+    "A335942"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:07",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

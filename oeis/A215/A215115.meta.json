@@ -1,0 +1,21 @@
+{
+  "description": "G.f. A(x) satisfies: A(A(A(x))) = G(x) where G(x) = x + 2*x^2 + x*G(G(G(x))) is the g.f. of A215114.",
+  "id": "A215115",
+  "mentions": [
+    "A213009",
+    "A215114",
+    "A215117",
+    "A215119"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

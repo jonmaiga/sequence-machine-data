@@ -1,0 +1,22 @@
+{
+  "description": "Lexicographically earliest sequence of distinct prime terms such that the English names of the entries form the sequence A000040 (the prime numbers). See how in the Comments section.",
+  "id": "A345713",
+  "mentions": [
+    "A000040",
+    "A131744",
+    "A345711",
+    "A345712",
+    "A345714"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

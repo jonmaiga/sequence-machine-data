@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = A326053(n) - n, where A326053 gives the sum of all other divisors of n except the largest square divisor.",
+  "id": "A326054",
+  "mentions": [
+    "A000203",
+    "A008833",
+    "A033879",
+    "A326053",
+    "A326055"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:52",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

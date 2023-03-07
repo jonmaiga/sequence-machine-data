@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the number of partitions of n of the form [k,k,b(1),b(2),...], where k>=b(1)>b(2)>...>=2.",
+  "id": "A334305",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A025147",
+    "A087897"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:05",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

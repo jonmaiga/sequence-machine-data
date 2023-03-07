@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the position in A344953 of the reversal of the n-th word in A344953.",
+  "id": "A344962",
+  "mentions": [
+    "A341258",
+    "A342910",
+    "A344682",
+    "A344953"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

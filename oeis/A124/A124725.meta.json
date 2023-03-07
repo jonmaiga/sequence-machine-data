@@ -1,0 +1,25 @@
+{
+  "description": "Triangle read by rows: T(n,k) = binomial(n,k) + binomial(n,k+2) (0 <= k <= n).",
+  "id": "A124725",
+  "mentions": [
+    "A000125",
+    "A000325",
+    "A002663",
+    "A027660",
+    "A055795",
+    "A055796",
+    "A098574"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 15:40:33",
+    "offset": 0,
+    "size": 73,
+    "source": "joeis"
+  }
+}

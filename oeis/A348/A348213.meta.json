@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of iterations that n requires to reach a fixed point under the map x -> A348158(x).",
+  "id": "A348213",
+  "mentions": [
+    "A000035",
+    "A003434",
+    "A326835",
+    "A348158"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:22",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = (1/2) * ( 3*n^2 + n*(-1)^n ).",
+  "id": "A104584",
+  "mentions": [
+    "A000326",
+    "A005449",
+    "A033568",
+    "A033570",
+    "A049453",
+    "A104585",
+    "A104586"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:47:11",
+    "offset": 0,
+    "size": 41,
+    "source": "joeis"
+  }
+}

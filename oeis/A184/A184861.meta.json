@@ -1,0 +1,20 @@
+{
+  "description": "Numbers m such that prime(m) is of the form floor(nr+h), where r=(1+sqrt(5))/2 and h=1/2; complement of A184864.",
+  "id": "A184861",
+  "mentions": [
+    "A007067",
+    "A184859",
+    "A184860",
+    "A184864"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

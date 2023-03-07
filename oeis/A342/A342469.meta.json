@@ -1,0 +1,23 @@
+{
+  "description": "Positive numbers that are triangular, square or pentagonal.",
+  "id": "A342469",
+  "mentions": [
+    "A000217",
+    "A000290",
+    "A000326",
+    "A005214",
+    "A245646",
+    "A245647",
+    "A245648"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

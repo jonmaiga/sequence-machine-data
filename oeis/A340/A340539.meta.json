@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the least prime that is the concatenation of two n-digit primes, and such that the concatenation of the same primes in the other order is also prime or 0 if no such prime exists.",
+  "id": "A340539",
+  "mentions": [
+    "A003617",
+    "A340487"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:13",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

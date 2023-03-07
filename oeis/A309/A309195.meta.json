@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = smallest number missing from A111273 after A111273(n) has been found.",
+  "id": "A309195",
+  "mentions": [
+    "A111273",
+    "A113658",
+    "A309196",
+    "A309197"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:33",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

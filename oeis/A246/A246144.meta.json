@@ -1,0 +1,23 @@
+{
+  "description": "Limiting block extension of A000002 (Kolakoski sequence) with first term as initial block.",
+  "id": "A246144",
+  "mentions": [
+    "A000002",
+    "A245920",
+    "A246127",
+    "A246128",
+    "A246140",
+    "A246142",
+    "A246145"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

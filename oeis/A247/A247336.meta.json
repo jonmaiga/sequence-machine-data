@@ -1,0 +1,21 @@
+{
+  "description": "Numbers of the form m^k - k - 1 with k > 0 and m > 1.",
+  "id": "A247336",
+  "mentions": [
+    "A057897",
+    "A099226",
+    "A099228"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

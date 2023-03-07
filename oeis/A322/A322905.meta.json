@@ -1,0 +1,21 @@
+{
+  "description": "Sequence consists of all pairs of numbers x and y such that x is the reverse of y, and there exist numbers i and j such that x = i-j and y=i*j; the list of the numbers x and y is then sorted into ascending order and duplicates are removed.",
+  "id": "A322905",
+  "mentions": [
+    "A004086",
+    "A166749"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

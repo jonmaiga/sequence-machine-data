@@ -1,0 +1,21 @@
+{
+  "description": "Numerators of certain constants c_n = A180609(n)/n! related to Hurwitz numbers.",
+  "id": "A134242",
+  "mentions": [
+    "A134243",
+    "A180609"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

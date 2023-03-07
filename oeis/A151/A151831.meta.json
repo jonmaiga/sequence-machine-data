@@ -1,0 +1,24 @@
+{
+  "description": "Number of fixed 5-dimensional polycubes with n cells.",
+  "id": "A151831",
+  "mentions": [
+    "A001931",
+    "A048666",
+    "A151830",
+    "A151832",
+    "A151833",
+    "A151834",
+    "A151835"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Column 0 of triangle A152406; also, column 1 of matrix square of A152406.",
+  "id": "A152407",
+  "mentions": [
+    "A152406",
+    "A152408",
+    "A152409",
+    "A152410"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:35",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Number of singular vector tuples for a general 7-dimensional {n}^7 tensor.",
+  "id": "A287083",
+  "mentions": [
+    "A284308"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

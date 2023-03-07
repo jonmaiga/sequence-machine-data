@@ -1,0 +1,19 @@
+{
+  "description": "Smaller member p of a twin prime pair (p,p+2) with a cube sum N^3.",
+  "id": "A172271",
+  "mentions": [
+    "A001359",
+    "A061308",
+    "A069496"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:56",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

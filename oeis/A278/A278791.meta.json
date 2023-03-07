@@ -1,0 +1,19 @@
+{
+  "description": "Number of complex cubic fields with discriminant >= -10^n.",
+  "id": "A278791",
+  "mentions": [
+    "A023679",
+    "A278790"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

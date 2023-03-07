@@ -1,0 +1,21 @@
+{
+  "description": "Prime p1 of consecutive primes p1, p2, where p2 - p1 = 8, and p1, p2 are in different centuries.",
+  "id": "A287049",
+  "mentions": [
+    "A001359",
+    "A158277",
+    "A160370",
+    "A160440",
+    "A160500"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:59",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

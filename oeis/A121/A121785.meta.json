@@ -1,0 +1,24 @@
+{
+  "description": "\"Spanning walks\" on the square lattice (see Jensen web site for further information).",
+  "id": "A121785",
+  "mentions": [
+    "A000532",
+    "A001184",
+    "A121789",
+    "A215527",
+    "A333323",
+    "A354511",
+    "A356610",
+    "A356616"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:10",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Multiples of 5 where Pisano periods of Fibonacci numbers A001175 and Lucas numbers A106291 agree.",
+  "id": "A275124",
+  "mentions": [
+    "A001175",
+    "A106291"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

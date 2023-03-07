@@ -1,0 +1,24 @@
+{
+  "description": "a(n) is the smallest triangular number that is a multiple of the product of the members of the n-th pair of twin primes.",
+  "id": "A344886",
+  "mentions": [
+    "A000217",
+    "A001359",
+    "A002820",
+    "A006512",
+    "A011772",
+    "A145061",
+    "A308344"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

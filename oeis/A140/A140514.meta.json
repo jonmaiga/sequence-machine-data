@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Padovan(n+4) - ThueMorse(n).",
+  "id": "A140514",
+  "mentions": [
+    "A000931",
+    "A010060",
+    "A060006"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:28",
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

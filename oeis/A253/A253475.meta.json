@@ -1,0 +1,27 @@
+{
+  "description": "Indices of centered square numbers (A001844) which are also centered hexagonal numbers (A003215).",
+  "id": "A253475",
+  "mentions": [
+    "A000384",
+    "A000539",
+    "A001844",
+    "A003215",
+    "A054318",
+    "A054320",
+    "A072256",
+    "A193218",
+    "A253175"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:12",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

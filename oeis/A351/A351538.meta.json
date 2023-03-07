@@ -1,0 +1,24 @@
+{
+  "description": "Numbers k such that both k and sigma(k) are congruent to 2 modulo 4 and the 3-adic valuation of sigma(k) is exactly 1.",
+  "id": "A351538",
+  "mentions": [
+    "A191218",
+    "A329963",
+    "A349745",
+    "A351537",
+    "A351543",
+    "A351550",
+    "A351555"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:26",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of distinct prime factors of p^p + 1 where p is prime(n).",
+  "id": "A115973",
+  "mentions": [
+    "A125137"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

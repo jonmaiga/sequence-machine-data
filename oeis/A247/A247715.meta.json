@@ -1,0 +1,18 @@
+{
+  "description": "Odd numbers n containing 16384 as the highest power of 2 in the Collatz (3x+1) iteration.",
+  "id": "A247715",
+  "mentions": [
+    "A008908",
+    "A010120"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

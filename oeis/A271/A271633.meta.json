@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that sigma(phi(k)) - phi(k) = phi(sigma(k)), where phi(k) is the Euler totient function of k and sigma(k) is the sum of the divisors of k.",
+  "id": "A271633",
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A001065",
+    "A033632",
+    "A062401"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:36",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

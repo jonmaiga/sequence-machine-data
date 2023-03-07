@@ -1,0 +1,19 @@
+{
+  "description": "Coefficients of the invariant of degree 20 associated with the icosahedral group.",
+  "id": "A128808",
+  "mentions": [
+    "A128809"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "fini",
+    "full",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

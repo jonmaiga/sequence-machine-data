@@ -1,0 +1,29 @@
+{
+  "description": "If n = Product (p_j^k_j) then a(n) = Product ((-1)^k_j * binomial(n, k_j)).",
+  "id": "A341837",
+  "mentions": [
+    "A007427",
+    "A007428",
+    "A008683",
+    "A163767",
+    "A247343",
+    "A341831",
+    "A341832",
+    "A341833",
+    "A341834",
+    "A341835",
+    "A341836",
+    "A346148"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:14",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

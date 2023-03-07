@@ -1,0 +1,18 @@
+{
+  "description": "Ramsey number r(K_{2,2}, K_{2,n}).",
+  "id": "A123938",
+  "mentions": [
+    "A123939"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

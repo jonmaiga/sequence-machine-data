@@ -1,0 +1,25 @@
+{
+  "description": "G.f. A(x) satisfies: A(x) = (1 + x * A(x)^7) / (1 - x).",
+  "id": "A349313",
+  "mentions": [
+    "A002296",
+    "A006318",
+    "A346626",
+    "A346649",
+    "A349310",
+    "A349311",
+    "A349312",
+    "A349314"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:24",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

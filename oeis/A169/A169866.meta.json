@@ -1,0 +1,23 @@
+{
+  "description": "The sequence S of a pair of complementary sequences (S, T) which are similar to the pairs (A093848, A169863), (A169864, A169865), except that here the lengths of the equal-parity runs of one sequence are given by the other.",
+  "id": "A169866",
+  "mentions": [
+    "A001462",
+    "A093848",
+    "A169863",
+    "A169864",
+    "A169865",
+    "A169867"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

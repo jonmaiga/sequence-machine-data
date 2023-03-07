@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of e.g.f. log(1 + x*tanh(x/2)) (even powers only).",
+  "id": "A296838",
+  "mentions": [
+    "A001469",
+    "A003707",
+    "A009379",
+    "A009399",
+    "A110501",
+    "A296837"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:16",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

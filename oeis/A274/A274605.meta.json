@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that there is no prime between the n-th perfect power and the (n+1)-st perfect power.",
+  "id": "A274605",
+  "mentions": [
+    "A000720",
+    "A001597",
+    "A080769",
+    "A116086"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

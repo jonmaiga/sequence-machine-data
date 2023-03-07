@@ -1,0 +1,21 @@
+{
+  "description": "Number of conjugacy classes for a non-abelian group of order p^3, where p is prime: a(n) = p^2 + p - 1 where p = prime(n).",
+  "id": "A319597",
+  "mentions": [
+    "A000040",
+    "A028387",
+    "A065480",
+    "A065489"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:41",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Alternate adding and multiplying prime numbers: a(2n) = a(2n-1) * prime(2n+1) and a(2n-1) = a(2n) + prime(2n-2) for n >= 1.",
+  "id": "A332657",
+  "mentions": [
+    "A047904",
+    "A047905",
+    "A077138",
+    "A222559",
+    "A332659",
+    "A332660"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

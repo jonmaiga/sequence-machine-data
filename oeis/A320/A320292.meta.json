@@ -1,0 +1,19 @@
+{
+  "description": "Zerofree numbers k such that the product (m+n)*p, where m,n are the first and the last digits of k, and p is the number which is the part of k between m and n, is a divisor of k.",
+  "id": "A320292",
+  "mentions": [
+    "A052382",
+    "A320121"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

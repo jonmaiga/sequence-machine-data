@@ -1,0 +1,21 @@
+{
+  "description": "Table read downwards by antidiagonals: T(n,k) is the number of partitions of k into n distinct positive parts, k, n >= 0.",
+  "id": "A218218",
+  "mentions": [
+    "A000120",
+    "A000217",
+    "A008289",
+    "A029931"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:35",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

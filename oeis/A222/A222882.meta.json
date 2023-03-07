@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of Sierpiński's second constant, K2 = lim_{n->infinity} ((1/n) * (Sum_{i=1..n} A004018(i^2)) - 4/Pi * log(n)).",
+  "id": "A222882",
+  "mentions": [
+    "A001620",
+    "A004018",
+    "A014549",
+    "A062089",
+    "A062539",
+    "A074962",
+    "A222883"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:40",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

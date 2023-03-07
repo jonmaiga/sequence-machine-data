@@ -1,0 +1,20 @@
+{
+  "description": "Pythagorean triples (X, Y, Z) that are the componentwise products of 2 primitive Pythagorean triples (x,y,z) and (r,s,t), that is, X=x*r, Y=y*s, ordered by increasing Z.",
+  "id": "A340790",
+  "mentions": [
+    "A020882",
+    "A046086",
+    "A046087"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

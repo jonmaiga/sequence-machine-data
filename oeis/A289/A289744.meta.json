@@ -1,0 +1,26 @@
+{
+  "description": "Coefficients in expansion of q*E'_8 where E_8 is the Eisenstein Series (A008410).",
+  "id": "A289744",
+  "mentions": [
+    "A008410",
+    "A013955",
+    "A076835",
+    "A145094",
+    "A145095",
+    "A282060",
+    "A289638",
+    "A289745",
+    "A289746"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:04",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

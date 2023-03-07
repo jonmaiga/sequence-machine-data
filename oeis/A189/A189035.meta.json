@@ -1,0 +1,18 @@
+{
+  "description": "Positions of 1 in the zero-one sequence s based on the sequence lower Wythoff sequence p: s(p(k))=s(k); s(q(k))=1-s(k); s(1)=0, q=(upper Wythoff sequence).",
+  "id": "A189035",
+  "mentions": [
+    "A095076",
+    "A189034"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Records in A144262.",
+  "id": "A144375",
+  "mentions": [
+    "A005349",
+    "A144262",
+    "A144376"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

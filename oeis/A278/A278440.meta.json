@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that A244112(n) | n.",
+  "id": "A278440",
+  "mentions": [
+    "A237605",
+    "A244112",
+    "A278439",
+    "A278441"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:45",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

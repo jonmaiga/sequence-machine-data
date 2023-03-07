@@ -1,0 +1,27 @@
+{
+  "description": "Möbius transform of Kimberling's paraphrases, A003602.",
+  "id": "A349136",
+  "mentions": [
+    "A000004",
+    "A000010",
+    "A003602",
+    "A008683",
+    "A055034",
+    "A072451",
+    "A347233",
+    "A349127",
+    "A349134",
+    "A349137"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:23",
+    "offset": 1,
+    "size": 95,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = 2*a(n - 2) - a(n - 1) for n>1, a(0) = 4, a(1) = 5.",
+  "id": "A268741",
+  "mentions": [
+    "A084247",
+    "A140683",
+    "A140966",
+    "A154570",
+    "A171382"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-03 12:53:54",
+    "offset": 0,
+    "size": 34,
+    "source": "joeis"
+  }
+}

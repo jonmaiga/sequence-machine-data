@@ -1,0 +1,23 @@
+{
+  "description": "Number of ordered ways to write n as p + 2^k + pi(2^m), where p is prime, and k and m are nonnegative integers, and pi(x) denotes the number of primes not exceeding x.",
+  "id": "A262980",
+  "mentions": [
+    "A000040",
+    "A000079",
+    "A000720",
+    "A007053",
+    "A156695",
+    "A232398",
+    "A262976"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:22",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

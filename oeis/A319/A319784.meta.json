@@ -1,0 +1,33 @@
+{
+  "description": "Number of non-isomorphic intersecting T_0 set systems of weight n.",
+  "id": "A319784",
+  "mentions": [
+    "A007716",
+    "A049311",
+    "A283877",
+    "A305843",
+    "A305854",
+    "A306006",
+    "A316980",
+    "A317752",
+    "A319755",
+    "A319759",
+    "A319760",
+    "A319765",
+    "A319779",
+    "A319782",
+    "A319787",
+    "A319789"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

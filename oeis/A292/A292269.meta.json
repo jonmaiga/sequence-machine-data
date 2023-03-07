@@ -1,0 +1,26 @@
+{
+  "description": "If n is 1 or a prime, then a(n) = 1, otherwise a(n) = the third smallest divisor of n.",
+  "id": "A292269",
+  "mentions": [
+    "A000005",
+    "A000290",
+    "A008578",
+    "A020639",
+    "A119288",
+    "A171783",
+    "A283050",
+    "A284255",
+    "A284260"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:07",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

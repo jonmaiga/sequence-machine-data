@@ -1,0 +1,19 @@
+{
+  "description": "Let pal(k) denote the k-th palindrome, A002113(k), and let a(0)=0 and a(1)=1. For n >= 2, if a(n-1) = pal(k), then a(n) = pal(k+i), where i = a(n-1)-a(n-2).",
+  "id": "A246008",
+  "mentions": [
+    "A002113",
+    "A007097"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:02",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

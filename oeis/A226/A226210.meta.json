@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the Zeckendorf distance between n and Fibonacci(n).",
+  "id": "A226210",
+  "mentions": [
+    "A000045",
+    "A226080",
+    "A226207"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

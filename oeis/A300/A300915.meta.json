@@ -1,0 +1,20 @@
+{
+  "description": "Order of the group PSL(2,Z_n).",
+  "id": "A300915",
+  "mentions": [
+    "A000056",
+    "A060594"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:28",
+    "offset": 1,
+    "size": 40,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Integers k such that k = d1^(c) + d2^(c) + ... + dc^(c), where d^(c) denotes the rising factorial of d, c is the length of k and di is the i-th digit of k in base 10.",
+  "id": "A345406",
+  "mentions": [
+    "A014080",
+    "A265609",
+    "A345405"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "fini",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

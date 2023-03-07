@@ -1,0 +1,20 @@
+{
+  "description": "Lexicographically earliest sequence of distinct positive terms such that the sum of two consecutive terms has Hamming weight <= 4.",
+  "id": "A288139",
+  "mentions": [
+    "A000120",
+    "A287639"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:00",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

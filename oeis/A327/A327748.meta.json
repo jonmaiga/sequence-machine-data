@@ -1,0 +1,20 @@
+{
+  "description": "Primes p such that the sum of p and the prime before p is not a multiple of 3.",
+  "id": "A327748",
+  "mentions": [
+    "A000040",
+    "A008585",
+    "A151800",
+    "A258578"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

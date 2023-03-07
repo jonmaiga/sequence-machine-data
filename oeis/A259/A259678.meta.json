@@ -1,0 +1,19 @@
+{
+  "description": "Primes of the form p(k)^2 + p(m)^2, where k and m are positive integers, and p(.) is the partition function given by A000041.",
+  "id": "A259678",
+  "mentions": [
+    "A000040",
+    "A000041",
+    "A259531"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:18",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

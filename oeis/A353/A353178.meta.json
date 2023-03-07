@@ -1,0 +1,21 @@
+{
+  "description": "The row numbers of the Trithoff (tribonacci) array that correspond to difference sequences of other rows of the Trithoff array.",
+  "id": "A353178",
+  "mentions": [
+    "A000073",
+    "A000213",
+    "A001590",
+    "A136175",
+    "A353193"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

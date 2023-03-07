@@ -1,0 +1,19 @@
+{
+  "description": "G.f. = 1-1/H(x) where H(x) = 1 + 2*x + 6*x^2 + 22*x^3 + 92*x^4 + 422*x^5 + 2074*x^6 + ... is a g.f. for the Baxter sequence A001181 with a different offset.",
+  "id": "A342282",
+  "mentions": [
+    "A001181",
+    "A342283",
+    "A342284"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:15",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

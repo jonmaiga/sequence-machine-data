@@ -1,0 +1,19 @@
+{
+  "description": "a(n)=sigma(A128607(n)), where A128607(n) is the sequence of perfect (or pure) powers such that a(n) is a perfect power.",
+  "id": "A128608",
+  "mentions": [
+    "A000203",
+    "A001597",
+    "A128607"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:16",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

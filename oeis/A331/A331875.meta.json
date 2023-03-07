@@ -1,0 +1,29 @@
+{
+  "description": "Number of enriched identity p-trees of weight n.",
+  "id": "A331875",
+  "mentions": [
+    "A000669",
+    "A004111",
+    "A141268",
+    "A196545",
+    "A289501",
+    "A300660",
+    "A306200",
+    "A316471",
+    "A331683",
+    "A331684",
+    "A331685",
+    "A331686",
+    "A331783"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:01",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

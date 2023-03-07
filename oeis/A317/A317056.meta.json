@@ -1,0 +1,27 @@
+{
+  "description": "Depth of the free pure symmetric multifunction (with empty expressions allowed) with e-number n.",
+  "id": "A317056",
+  "mentions": [
+    "A007916",
+    "A052409",
+    "A052410",
+    "A109082",
+    "A277576",
+    "A277996",
+    "A300626",
+    "A316112",
+    "A317658",
+    "A317765",
+    "A317994"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-entry"
+  }
+}

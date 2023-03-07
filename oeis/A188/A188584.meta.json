@@ -1,0 +1,20 @@
+{
+  "description": "Numerator in first column of matrix exponential of A175992.",
+  "id": "A188584",
+  "mentions": [
+    "A001113",
+    "A175992",
+    "A188583"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 95,
+    "source": "oeis-entry"
+  }
+}

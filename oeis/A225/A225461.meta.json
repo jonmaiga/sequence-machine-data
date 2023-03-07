@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = (prime(k) + prime(k+1))/2 where k = A098015(n).",
+  "id": "A225461",
+  "mentions": [
+    "A000040",
+    "A001223",
+    "A024675",
+    "A098015",
+    "A136798",
+    "A136799"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

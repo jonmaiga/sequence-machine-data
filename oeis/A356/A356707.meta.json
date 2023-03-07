@@ -1,0 +1,26 @@
+{
+  "description": "Number of integral solutions to Mordell's equation y^2 = x^3 + n^3 with y positive.",
+  "id": "A356707",
+  "mentions": [
+    "A081119",
+    "A356706",
+    "A356708",
+    "A356709",
+    "A356710",
+    "A356711",
+    "A356712"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

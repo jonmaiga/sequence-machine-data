@@ -1,0 +1,22 @@
+{
+  "description": "Numbers such that the absolute difference of any two adjacent (decimal) digits is prime.",
+  "id": "A219248",
+  "mentions": [
+    "A182175",
+    "A182177",
+    "A182178",
+    "A219249",
+    "A219250"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:37",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

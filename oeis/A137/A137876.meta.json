@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = (nextprime(18n)-previousprime(18n))/2.",
+  "id": "A137876",
+  "mentions": [
+    "A124519",
+    "A135023",
+    "A135368",
+    "A137877"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:26",
+    "offset": 1,
+    "size": 101,
+    "source": "oeis-bfile"
+  }
+}

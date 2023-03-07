@@ -1,0 +1,23 @@
+{
+  "description": "Number of partitions of n into at most 4 distinct positive Fibonacci numbers (with a single type of 1).",
+  "id": "A359539",
+  "mentions": [
+    "A000045",
+    "A000119",
+    "A357722",
+    "A359513",
+    "A359516",
+    "A359537",
+    "A359538"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 95,
+    "source": "oeis-entry"
+  }
+}

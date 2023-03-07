@@ -1,0 +1,18 @@
+{
+  "description": "Triangle read by rows: T(n,k)=k*binomial(n-2k,3k) (n>=5, 1<=k<=n/5).",
+  "id": "A138778",
+  "mentions": [
+    "A137359"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 5,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

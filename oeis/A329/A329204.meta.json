@@ -1,0 +1,17 @@
+{
+  "description": "Number of integers less than n having at least as many totatives as n.",
+  "id": "A329204",
+  "mentions": [
+    "A000010"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

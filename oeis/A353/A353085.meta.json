@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = nextprime(A138198(n-1)). Largest of a pair of consecutive primes whose prime gap is the first occurrence of n^2 or -1 if such a gap never occurs.",
+  "id": "A353085",
+  "mentions": [
+    "A138198",
+    "A151800"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

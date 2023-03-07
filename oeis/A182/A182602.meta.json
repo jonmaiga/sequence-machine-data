@@ -1,0 +1,22 @@
+{
+  "description": "Smallest Fibonacci number in a sequence of at least n consecutive composite Fibonacci numbers.",
+  "id": "A182602",
+  "mentions": [
+    "A000045",
+    "A002808",
+    "A005478",
+    "A090206",
+    "A182601"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Smallest prime greater than n*(n+1)^2/2.",
+  "id": "A181956",
+  "mentions": [
+    "A006002",
+    "A097050"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:05",
+    "offset": 0,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

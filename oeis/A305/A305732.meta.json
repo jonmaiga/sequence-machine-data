@@ -1,0 +1,30 @@
+{
+  "description": "Heinz numbers of reducible integer partitions. Numbers n > 1 that are prime or whose prime indices are relatively prime and such that A181819(n) is already in the sequence.",
+  "id": "A305732",
+  "mentions": [
+    "A000837",
+    "A007916",
+    "A056239",
+    "A181819",
+    "A182850",
+    "A289508",
+    "A289509",
+    "A298748",
+    "A304465",
+    "A304687",
+    "A304818",
+    "A305563",
+    "A305731",
+    "A305733"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of permutations p() of 1..n+8 with centered difference p(i+1)-p(i-1) < 0 exactly 7 times",
+  "id": "A180885",
+  "mentions": [
+    "A000892",
+    "A180887"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:03",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

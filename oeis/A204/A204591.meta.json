@@ -1,0 +1,27 @@
+{
+  "description": "Nearest integer to 1.1^n.",
+  "id": "A204591",
+  "mentions": [
+    "A204581",
+    "A204582",
+    "A204583",
+    "A204584",
+    "A204585",
+    "A204586",
+    "A204587",
+    "A204588",
+    "A204589",
+    "A204590"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:25",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

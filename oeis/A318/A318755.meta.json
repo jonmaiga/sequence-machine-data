@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = Sum_{k=1..n} tau(k)^3, where tau is A000005.",
+  "id": "A318755",
+  "mentions": [
+    "A000005",
+    "A006218",
+    "A061502",
+    "A143127",
+    "A319085",
+    "A319089",
+    "A320895",
+    "A320896",
+    "A320897"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:40",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

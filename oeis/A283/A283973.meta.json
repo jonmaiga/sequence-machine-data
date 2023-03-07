@@ -1,0 +1,23 @@
+{
+  "description": "Numbers n such that A007306(n) = A283986(n); positions of zeros in A283988.",
+  "id": "A283973",
+  "mentions": [
+    "A002487",
+    "A007306",
+    "A283974",
+    "A283986",
+    "A283987",
+    "A283988"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:55",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Smallest b-a such that a < prime(n) < b, where a,b are semiprimes.",
+  "id": "A283267",
+  "mentions": [
+    "A000040",
+    "A001358",
+    "A037143",
+    "A102414",
+    "A102415"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:54",
+    "offset": 3,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

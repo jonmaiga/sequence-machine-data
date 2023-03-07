@@ -1,0 +1,19 @@
+{
+  "description": "Number of Q graphs with 2*n vertices symmetrical about a distinguished edge.",
+  "id": "A294728",
+  "mentions": [
+    "A003168",
+    "A007165"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 18:27:35",
+    "offset": 1,
+    "size": 31,
+    "source": "joeis"
+  }
+}

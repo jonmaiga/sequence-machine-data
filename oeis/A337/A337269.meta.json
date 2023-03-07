@@ -1,0 +1,21 @@
+{
+  "description": "A335703(4n).",
+  "id": "A337269",
+  "mentions": [
+    "A328078",
+    "A335703",
+    "A337267",
+    "A337268"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

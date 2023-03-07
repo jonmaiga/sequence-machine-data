@@ -1,0 +1,21 @@
+{
+  "description": "Number of partitions of n into 1, 2 or 3 nonprime parts.",
+  "id": "A307857",
+  "mentions": [
+    "A005171",
+    "A018252",
+    "A071335"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

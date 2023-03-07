@@ -1,0 +1,25 @@
+{
+  "description": "a(n) is the smallest prime whose square divides at least one entry in the n-th row of Pascal's triangle, or 0 if there is no such prime.",
+  "id": "A249441",
+  "mentions": [
+    "A005117",
+    "A007913",
+    "A048278",
+    "A052955",
+    "A249695",
+    "A249714",
+    "A249715",
+    "A249723"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:06",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

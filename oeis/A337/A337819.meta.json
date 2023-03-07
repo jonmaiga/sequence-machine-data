@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the smallest number k for which k*d is a Niven number, for any divisor d of n, n >= 1.",
+  "id": "A337819",
+  "mentions": [
+    "A005349",
+    "A144261",
+    "A337741"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-entry"
+  }
+}

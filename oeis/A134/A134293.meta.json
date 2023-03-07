@@ -1,0 +1,19 @@
+{
+  "description": "Number of ways to pair up {2..2n+1} so the sum of each pair is prime.",
+  "id": "A134293",
+  "mentions": [
+    "A000341",
+    "A073364"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:22",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

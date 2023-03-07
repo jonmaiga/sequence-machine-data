@@ -1,0 +1,25 @@
+{
+  "description": "McKay-Thompson series of class 92A for the Monster group with a(0) = 1.",
+  "id": "A225956",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A010054",
+    "A010815",
+    "A058688",
+    "A112216",
+    "A121373",
+    "A132322"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:52:19",
+    "offset": -1,
+    "size": 66,
+    "source": "joeis"
+  }
+}

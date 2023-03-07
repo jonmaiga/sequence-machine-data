@@ -1,0 +1,26 @@
+{
+  "description": "Number of n X 2 binary arrays with all 1's connected, all corners 1, and no 1 having more than two 1's adjacent.",
+  "id": "A163733",
+  "mentions": [
+    "A000045",
+    "A006355",
+    "A055389",
+    "A072405",
+    "A118658",
+    "A128588",
+    "A163695",
+    "A163714",
+    "A169985"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:11",
+    "offset": 1,
+    "size": 40,
+    "source": "joeis"
+  }
+}

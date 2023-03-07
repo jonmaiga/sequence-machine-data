@@ -1,0 +1,23 @@
+{
+  "description": "Index of Fibonacci numbers having last digit greater than corresponding tribonacci number.",
+  "id": "A186078",
+  "mentions": [
+    "A000045",
+    "A000213",
+    "A186077"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:10",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

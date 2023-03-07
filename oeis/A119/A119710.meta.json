@@ -1,0 +1,18 @@
+{
+  "description": "Radical narcissistic numbers: numbers n that can be expressed using just the digits of n (each digit used once only and in order from left to right) and the operators + - * / ^ and the radical symbol, but which are not already 'Good' Friedman numbers (i.e., the radical is needed for the solution to exist). Concatenation is allowed.",
+  "id": "A119710",
+  "mentions": [
+    "A080035"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

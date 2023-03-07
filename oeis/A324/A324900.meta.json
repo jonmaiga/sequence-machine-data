@@ -1,0 +1,23 @@
+{
+  "description": "Fully multiplicative with a(prime(k)) = Lucas(2*(k+1)) for k-th prime p, where Lucas(n) = A000032(n).",
+  "id": "A324900",
+  "mentions": [
+    "A000032",
+    "A000045",
+    "A000720",
+    "A003965",
+    "A324901"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:51",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

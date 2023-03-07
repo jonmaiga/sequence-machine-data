@@ -1,0 +1,19 @@
+{
+  "description": "Ulam numbers k such that 4*k is also an Ulam number.",
+  "id": "A287612",
+  "mentions": [
+    "A002858",
+    "A068791",
+    "A285885"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

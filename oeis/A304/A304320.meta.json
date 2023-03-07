@@ -1,0 +1,24 @@
+{
+  "description": "Table of coefficients in row functions R(n,x) such that [x^k] exp( k^n * x ) / R(n,x) = 0 for k>=1 and n>=1.",
+  "id": "A304320",
+  "mentions": [
+    "A304321",
+    "A304322",
+    "A304323",
+    "A304324",
+    "A304325",
+    "A337551"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:28",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

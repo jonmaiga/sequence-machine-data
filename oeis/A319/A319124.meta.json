@@ -1,0 +1,18 @@
+{
+  "description": "Three successive terms spelling the acronym T.E.N. when the sequence is translated in English, have a sum divisible by 10.",
+  "id": "A319124",
+  "mentions": [
+    "A319125"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-entry"
+  }
+}

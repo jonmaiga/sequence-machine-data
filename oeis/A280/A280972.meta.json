@@ -1,0 +1,23 @@
+{
+  "description": "Numbers that appear in both A278909 and A280967 but not in A280971.",
+  "id": "A280972",
+  "mentions": [
+    "A020342",
+    "A176670",
+    "A278909",
+    "A280928",
+    "A280967",
+    "A280971"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:49",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

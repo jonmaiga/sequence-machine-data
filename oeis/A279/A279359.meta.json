@@ -1,0 +1,20 @@
+{
+  "description": "Even numbers whose sum of proper divisors is a Fibonacci number.",
+  "id": "A279359",
+  "mentions": [
+    "A000045",
+    "A001065",
+    "A272412"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

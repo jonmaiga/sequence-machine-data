@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{p|n} (p #).",
+  "id": "A345284",
+  "mentions": [
+    "A002110",
+    "A062797"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

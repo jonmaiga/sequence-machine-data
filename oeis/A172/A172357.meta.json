@@ -1,0 +1,19 @@
+{
+  "description": "n such that the Liouville function lambda(n) take successively, from n, the values 1,-1,1,-1,1,-1",
+  "id": "A172357",
+  "mentions": [
+    "A002819",
+    "A028488",
+    "A051470"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:56",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

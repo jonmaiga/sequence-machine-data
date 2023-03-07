@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows in which row n contains the first column of the n-th triangle of A164002.",
+  "id": "A163994",
+  "mentions": [
+    "A159800",
+    "A163993",
+    "A164002"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

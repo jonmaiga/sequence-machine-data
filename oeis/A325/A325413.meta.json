@@ -1,0 +1,32 @@
+{
+  "description": "Largest sum of the omega-sequence of an integer partition of n.",
+  "id": "A325413",
+  "mentions": [
+    "A008284",
+    "A116608",
+    "A181819",
+    "A225485",
+    "A225486",
+    "A323014",
+    "A323023",
+    "A325238",
+    "A325242",
+    "A325249",
+    "A325268",
+    "A325280",
+    "A325412",
+    "A325414",
+    "A325415",
+    "A325416"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

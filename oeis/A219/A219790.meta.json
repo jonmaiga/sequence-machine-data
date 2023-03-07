@@ -1,0 +1,26 @@
+{
+  "description": "Smallest prime not neighboring a prime(n)-smooth number.",
+  "id": "A219790",
+  "mentions": [
+    "A000040",
+    "A002473",
+    "A051037",
+    "A051038",
+    "A080194",
+    "A219528",
+    "A219697",
+    "A219785"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:37",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

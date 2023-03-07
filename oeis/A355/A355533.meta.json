@@ -1,0 +1,42 @@
+{
+  "description": "Irregular triangle read by rows where row n lists the differences between adjacent prime indices of n; if n is prime(k), then row n is just (k).",
+  "id": "A355533",
+  "mentions": [
+    "A001222",
+    "A056239",
+    "A066312",
+    "A112798",
+    "A124010",
+    "A243056",
+    "A286469",
+    "A286470",
+    "A287352",
+    "A325160",
+    "A325325",
+    "A325328",
+    "A325351",
+    "A325352",
+    "A325368",
+    "A325390",
+    "A355523",
+    "A355524",
+    "A355525",
+    "A355526",
+    "A355531",
+    "A355534",
+    "A355535",
+    "A355536"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 2,
+    "size": 74,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "The odd part of the digit sum of 7^n.",
+  "id": "A225091",
+  "mentions": [
+    "A000265",
+    "A066003",
+    "A221858",
+    "A225017",
+    "A225039",
+    "A225040"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 0,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

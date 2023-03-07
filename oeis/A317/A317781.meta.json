@@ -1,0 +1,19 @@
+{
+  "description": "Number of binary words of length n containing exactly two (possibly overlapping) occurrences of the subword 01101.",
+  "id": "A317781",
+  "mentions": [
+    "A277751"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:37",
+    "offset": 8,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

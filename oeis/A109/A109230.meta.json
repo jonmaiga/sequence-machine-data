@@ -1,0 +1,19 @@
+{
+  "description": "Number of indecomposable groups with n conjugacy classes.",
+  "id": "A109230",
+  "mentions": [
+    "A073043",
+    "A090751"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

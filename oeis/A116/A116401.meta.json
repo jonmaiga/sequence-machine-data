@@ -1,0 +1,22 @@
+{
+  "description": "Triangle whose k-th column has e.g.f. exp(x)*sum{j=0..k, Bessel_I(k+j,2x)}.",
+  "id": "A116401",
+  "mentions": [
+    "A002426",
+    "A005574",
+    "A014532"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

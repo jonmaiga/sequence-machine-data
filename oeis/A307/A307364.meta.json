@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of 1/(1 - Sum_{k>=1} prime(k)#*x^k), where prime(k)# is the product of first k primes (A002110).",
+  "id": "A307364",
+  "mentions": [
+    "A002110",
+    "A030017",
+    "A051296"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

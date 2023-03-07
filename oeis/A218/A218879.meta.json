@@ -1,0 +1,17 @@
+{
+  "description": "Number of minimal elements in the poset PIT(n) arising from classification of primitive integral triangles with rectangular defect n.",
+  "id": "A218879",
+  "mentions": [
+    "A218878"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "Number of plane trees with n nodes where the sequence of branches directly under any given node is a chain of multisets.",
+  "id": "A319379",
+  "mentions": [
+    "A000081",
+    "A000108",
+    "A001003",
+    "A005043",
+    "A007562",
+    "A118376",
+    "A143363",
+    "A316470",
+    "A319122",
+    "A319378",
+    "A319380",
+    "A319381"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

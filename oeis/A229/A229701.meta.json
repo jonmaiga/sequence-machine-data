@@ -1,0 +1,20 @@
+{
+  "description": "Squares of triangular numbers, written backwards.",
+  "id": "A229701",
+  "mentions": [
+    "A004158"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:47",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

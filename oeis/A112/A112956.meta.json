@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = number of ways the set {1,2,...,n} can be split into proper subsets with equal sums.",
+  "id": "A112956",
+  "mentions": [
+    "A035470",
+    "A164977",
+    "A164978"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

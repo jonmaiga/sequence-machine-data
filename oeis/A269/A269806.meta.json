@@ -1,0 +1,22 @@
+{
+  "description": "Numbers having harmonic fractility A270000(n) = 3.",
+  "id": "A269806",
+  "mentions": [
+    "A269804",
+    "A269805",
+    "A269807",
+    "A269808",
+    "A269809",
+    "A270000"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:32",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Number of distinct numbers appearing as numerators in row n of Kepler's triangle A294442.",
+  "id": "A294443",
+  "mentions": [
+    "A002487",
+    "A293160",
+    "A294442",
+    "A294444",
+    "A295783"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Maximum number of parts in a partition of n into pairwise coprime parts that are >= 2.",
+  "id": "A184956",
+  "mentions": [
+    "A000837",
+    "A007359",
+    "A007360",
+    "A051424",
+    "A187718"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:09",
+    "offset": 2,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

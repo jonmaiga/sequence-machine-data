@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n with property that n and n^2 use only prime digits.",
+  "id": "A153025",
+  "mentions": [
+    "A046034",
+    "A275971"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "bref",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

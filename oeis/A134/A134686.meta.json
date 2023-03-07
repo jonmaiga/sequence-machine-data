@@ -1,0 +1,21 @@
+{
+  "description": "Number of social welfare functions according to the definition given by Kim and Roush for m=n, where m = number of persons and n = number of alternatives.",
+  "id": "A134686",
+  "mentions": [
+    "A000670",
+    "A082677",
+    "A082678"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "bref",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:22",
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-bfile"
+  }
+}

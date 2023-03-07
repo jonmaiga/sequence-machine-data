@@ -1,0 +1,19 @@
+{
+  "description": "Number of possible ordered pairs (n_1, S) where (n_1, n_2, ..., n_k) is a partition of n, n_1 is the largest element of the partition, and S = Sum_{j=1..k} n_j^2.",
+  "id": "A354468",
+  "mentions": [
+    "A000041",
+    "A069999",
+    "A354800"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:29",
+    "offset": 0,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

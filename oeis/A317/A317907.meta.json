@@ -1,0 +1,27 @@
+{
+  "description": "Number of binary places to which n-th convergent of continued fraction expansion of Khintchine's constant matches the correct value.",
+  "id": "A317907",
+  "mentions": [
+    "A002210",
+    "A002211",
+    "A086702",
+    "A100199",
+    "A305607",
+    "A305879",
+    "A317557",
+    "A317906",
+    "A317908"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:37",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

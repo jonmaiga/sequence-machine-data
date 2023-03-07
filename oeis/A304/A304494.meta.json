@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of e.g.f. Product_{k>=1} (1 + x^k)^H(k), where H(k) is the k-th harmonic number.",
+  "id": "A304494",
+  "mentions": [
+    "A001008",
+    "A002805",
+    "A168243",
+    "A303970",
+    "A304496"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:29",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

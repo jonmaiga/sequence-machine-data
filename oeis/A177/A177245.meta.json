@@ -1,0 +1,22 @@
+{
+  "description": "Fibonacci numbers whose decimal expansion does not contain any digit 3.",
+  "id": "A177245",
+  "mentions": [
+    "A000045",
+    "A176253",
+    "A177194",
+    "A177195",
+    "A177231"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

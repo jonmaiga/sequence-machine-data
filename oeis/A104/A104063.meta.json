@@ -1,0 +1,18 @@
+{
+  "description": "Triangle read by rows: T(n,k) = (-1)^k*3^(n-1-2k)*binomial(n-k,k)*(4n-5k)/(n-k) (0 <= k <= floor(n/2), n >= 1).",
+  "id": "A104063",
+  "mentions": [
+    "A002878"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

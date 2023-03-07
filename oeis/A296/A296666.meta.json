@@ -1,0 +1,25 @@
+{
+  "description": "Table read by rows, the even rows of A296664, T(n, k) for n >= 0 and 0 <= k <= 2n.",
+  "id": "A296666",
+  "mentions": [
+    "A000108",
+    "A000984",
+    "A050157",
+    "A063524",
+    "A296662",
+    "A296664",
+    "A296665"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:16",
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

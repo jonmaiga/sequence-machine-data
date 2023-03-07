@@ -1,0 +1,26 @@
+{
+  "description": "Nonprimitive terms of A246282: numbers k that have more than one divisor d|k such that A003961(d) > 2*d.",
+  "id": "A341610",
+  "mentions": [
+    "A003961",
+    "A005101",
+    "A033942",
+    "A091191",
+    "A246282",
+    "A337345",
+    "A337346",
+    "A337372",
+    "A341611",
+    "A341614"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:14",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

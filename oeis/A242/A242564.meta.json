@@ -1,0 +1,21 @@
+{
+  "description": "Least prime p such that p*10^n+1, p*10^n+3, p*10^n+7 and p*10^n+9 are all prime.",
+  "id": "A242564",
+  "mentions": [
+    "A064281",
+    "A067267",
+    "A236042",
+    "A242562"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

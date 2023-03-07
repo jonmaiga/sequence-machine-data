@@ -1,0 +1,26 @@
+{
+  "description": "Numbers with a 3-almost prime number of prime divisors (counted with multiplicity).",
+  "id": "A114987",
+  "mentions": [
+    "A001222",
+    "A014612",
+    "A014613",
+    "A063989",
+    "A069273",
+    "A069279",
+    "A069281",
+    "A110893"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:05",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

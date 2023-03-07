@@ -1,0 +1,25 @@
+{
+  "description": "Numbers k such that k and 4*k, taken together, are zeroless pandigital, that is, use all the digits 1-9 exactly once.",
+  "id": "A115929",
+  "mentions": [
+    "A054383",
+    "A064160",
+    "A115927",
+    "A115930",
+    "A115931",
+    "A115932"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

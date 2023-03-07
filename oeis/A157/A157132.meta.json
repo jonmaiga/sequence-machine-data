@@ -1,0 +1,21 @@
+{
+  "description": "Factorial of primes divided by prime numbers' respective places in the sequence of primes.",
+  "id": "A157132",
+  "mentions": [
+    "A000027",
+    "A039716",
+    "A177946"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

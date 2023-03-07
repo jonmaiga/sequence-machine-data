@@ -1,0 +1,44 @@
+{
+  "description": "Number of multiset partitions of the multiset of prime indices of n into intervals. Number of factorizations of n into members of A073485.",
+  "id": "A356936",
+  "mentions": [
+    "A000012",
+    "A000688",
+    "A001055",
+    "A001221",
+    "A001222",
+    "A001227",
+    "A001414",
+    "A003963",
+    "A050320",
+    "A050330",
+    "A056239",
+    "A073485",
+    "A073491",
+    "A107742",
+    "A112798",
+    "A287170",
+    "A322585",
+    "A328195",
+    "A356069",
+    "A356224",
+    "A356225",
+    "A356233",
+    "A356234",
+    "A356931",
+    "A356937",
+    "A356938",
+    "A356939",
+    "A356945"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

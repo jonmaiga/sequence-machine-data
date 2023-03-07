@@ -1,0 +1,20 @@
+{
+  "description": "First differences of A132355.",
+  "id": "A147601",
+  "mentions": [
+    "A132355",
+    "A147587"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:33:01",
+    "offset": 0,
+    "size": 51,
+    "source": "joeis"
+  }
+}

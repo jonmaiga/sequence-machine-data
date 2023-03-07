@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n,m) (n>=0, 1 <= m <= n+1) = number of unlabeled rigid interval posets with n non-maximal and m maximal elements.",
+  "id": "A193344",
+  "mentions": [
+    "A138265",
+    "A194530"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

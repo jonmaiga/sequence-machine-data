@@ -1,0 +1,17 @@
+{
+  "description": "Prime factors of Carmichael numbers divisible by 7, taken just once each as it appears first time, in order of the size of the Carmichael number respectively in order of their size if they are prime factors of the same Carmichael number.",
+  "id": "A216830",
+  "mentions": [
+    "A002997"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:34",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

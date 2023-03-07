@@ -1,0 +1,18 @@
+{
+  "description": "Number of monic irreducible polynomials of degree 3 in GF(7)[x1,...,xn].",
+  "id": "A115486",
+  "mentions": [
+    "A115457",
+    "A115505"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

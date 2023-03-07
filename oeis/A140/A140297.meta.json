@@ -1,0 +1,18 @@
+{
+  "description": "Values of records set by A138570.",
+  "id": "A140297",
+  "mentions": [
+    "A135060",
+    "A138570"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

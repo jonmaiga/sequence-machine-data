@@ -1,0 +1,24 @@
+{
+  "description": "If n is a power of a prime, then a(n) = 0, otherwise a(n) = 1 + a(A322990(n)).",
+  "id": "A322989",
+  "mentions": [
+    "A000961",
+    "A001221",
+    "A010055",
+    "A289271",
+    "A289272",
+    "A322823",
+    "A322990"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:46",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

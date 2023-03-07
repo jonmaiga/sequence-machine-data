@@ -1,0 +1,20 @@
+{
+  "description": "Least m>0 such that gcd(2*n-1+m, n-m) > 1.",
+  "id": "A214060",
+  "mentions": [
+    "A214057",
+    "A214061",
+    "A214062"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:32",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

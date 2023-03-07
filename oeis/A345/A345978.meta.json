@@ -1,0 +1,20 @@
+{
+  "description": "Third coordinate of the points of a counterclockwise spiral on an hexagonal grid in a symmetric redundant hexagonal coordinate system.",
+  "id": "A345978",
+  "mentions": [
+    "A307011",
+    "A307012",
+    "A307013"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

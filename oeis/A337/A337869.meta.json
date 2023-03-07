@@ -1,0 +1,20 @@
+{
+  "description": "The number of random walks on the simple square lattice that return to the origin (0,0) after 2n steps and do not pass through (0,0) or (1,0) at intermediate steps.",
+  "id": "A337869",
+  "mentions": [
+    "A002894",
+    "A060150",
+    "A337870"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

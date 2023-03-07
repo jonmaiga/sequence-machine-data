@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k that are a substring of (k-1)*k*(k+1).",
+  "id": "A316943",
+  "mentions": [
+    "A305670",
+    "A316263"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:35",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

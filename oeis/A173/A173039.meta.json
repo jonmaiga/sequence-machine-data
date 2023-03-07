@@ -1,0 +1,21 @@
+{
+  "description": "Odd numerators of the fractions (1/4-1/n^2), n>= -2.",
+  "id": "A173039",
+  "mentions": [
+    "A000466",
+    "A003185",
+    "A061037",
+    "A085027"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:47",
+    "offset": 1,
+    "size": 41,
+    "source": "joeis"
+  }
+}

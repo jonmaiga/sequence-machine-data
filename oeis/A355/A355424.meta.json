@@ -1,0 +1,22 @@
+{
+  "description": "Positive integers m such that the real quadratic fields of the form Q(sqrt(m^2+4)) have class number 1.",
+  "id": "A355424",
+  "mentions": [
+    "A050950",
+    "A053329",
+    "A308420"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that 4^k + k^4 + 1 is prime.",
+  "id": "A216423",
+  "mentions": [
+    "A100357",
+    "A215434",
+    "A215446",
+    "A216375"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

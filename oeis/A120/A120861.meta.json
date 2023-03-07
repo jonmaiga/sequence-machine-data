@@ -1,0 +1,29 @@
+{
+  "description": "Fixed-k dispersion for Q = 8: Square array D(g,h) (g, h >= 1), read by ascending antidiagonals.",
+  "id": "A120861",
+  "mentions": [
+    "A001542",
+    "A002315",
+    "A087056",
+    "A087059",
+    "A120858",
+    "A120859",
+    "A120860",
+    "A120862",
+    "A120863",
+    "A253811",
+    "A336109"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

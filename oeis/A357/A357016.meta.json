@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of the asymptotic density of numbers whose exponents in their prime factorization are squares (A197680).",
+  "id": "A357016",
+  "mentions": [
+    "A000290",
+    "A010052",
+    "A049419",
+    "A197680",
+    "A357017"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

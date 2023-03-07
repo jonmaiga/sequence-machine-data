@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = n!/(floor(n/2)!*floor(n/3)!*floor(n/6)!).",
+  "id": "A347304",
+  "mentions": [
+    "A081125",
+    "A347302"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:20",
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

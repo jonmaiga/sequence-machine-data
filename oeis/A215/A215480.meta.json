@@ -1,0 +1,20 @@
+{
+  "description": "Characteristic function of numbers n with exactly two distinct prime factors.",
+  "id": "A215480",
+  "mentions": [
+    "A001221",
+    "A007774",
+    "A143731"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:25:25",
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

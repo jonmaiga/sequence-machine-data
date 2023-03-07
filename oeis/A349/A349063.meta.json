@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that k and k+1 have the same sum of powerful divisors (A183097) and this sum is larger than 1.",
+  "id": "A349063",
+  "mentions": [
+    "A002961",
+    "A064115",
+    "A064125",
+    "A183097",
+    "A293183",
+    "A306985"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:23",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

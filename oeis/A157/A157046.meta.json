@@ -1,0 +1,20 @@
+{
+  "description": "Maximum number of partitions of n into exactly k parts, each <= k. a(n) is maximum in each row of A157044.",
+  "id": "A157046",
+  "mentions": [
+    "A002569",
+    "A008284",
+    "A047993",
+    "A157044"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:39",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Denominator of Sum(A159990(k)/A159991(k): 0<=k<=n), numerator=A159992.",
+  "id": "A159993",
+  "mentions": [
+    "A051037",
+    "A159990",
+    "A159991",
+    "A159992"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:42",
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

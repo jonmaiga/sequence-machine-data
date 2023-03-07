@@ -1,0 +1,17 @@
+{
+  "description": "Number of paths through the subset array of {1,2,...,n} that have range a subset of {1,2}; see Comments at A208650.",
+  "id": "A208661",
+  "mentions": [
+    "A208650"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 15:46:11",
+    "offset": 1,
+    "size": 14,
+    "source": "joeis"
+  }
+}

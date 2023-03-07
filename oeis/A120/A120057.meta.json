@@ -1,0 +1,23 @@
+{
+  "description": "Table T(n,k) = sum over all set partitions of n of number at index k.",
+  "id": "A120057",
+  "mentions": [
+    "A000110",
+    "A087648",
+    "A120058",
+    "A120095",
+    "A346772"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:09",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

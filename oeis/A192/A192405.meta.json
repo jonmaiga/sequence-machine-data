@@ -1,0 +1,21 @@
+{
+  "description": "G.f. satisfies: A(x) = 1 + Sum_{n>=1} x^(n+1) * A(x)^n/(1 - x*A(x)^(2*n)).",
+  "id": "A192405",
+  "mentions": [
+    "A192399",
+    "A192401",
+    "A192404",
+    "A192406"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

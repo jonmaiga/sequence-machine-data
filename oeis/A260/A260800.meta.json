@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of (sqrt(e*e+4*Pi)-e)/2.",
+  "id": "A260800",
+  "mentions": [
+    "A000796",
+    "A001113",
+    "A260799"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:18:21",
+    "offset": 0,
+    "size": 83,
+    "source": "joeis"
+  }
+}

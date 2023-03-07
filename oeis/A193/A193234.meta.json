@@ -1,0 +1,17 @@
+{
+  "description": "G.f.: A(x) = ( 1 + Sum_{n>=1} 2*(-2)^n * x^(n^2) )^(-1/2).",
+  "id": "A193234",
+  "mentions": [
+    "A193235"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

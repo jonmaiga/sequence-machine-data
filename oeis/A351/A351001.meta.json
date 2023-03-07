@@ -1,0 +1,22 @@
+{
+  "description": "a(0) = 0, a(1) = 1; for n > 1, a(n) is the smallest positive number which has not appeared which has a common factor with a(n-2) + a(n-1) but does not equal a(n-2) + a(n-1).",
+  "id": "A351001",
+  "mentions": [
+    "A064413",
+    "A089088",
+    "A098550",
+    "A251622",
+    "A336957",
+    "A337136"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

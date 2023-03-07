@@ -1,0 +1,29 @@
+{
+  "description": "Triangle read by rows: T(n, k) = 1 + k*(n - 1) + (2*k - n - 1)*(k mod 2) with 0 < k <= n.",
+  "id": "A340804",
+  "mentions": [
+    "A000012",
+    "A005408",
+    "A006010",
+    "A060747",
+    "A074147",
+    "A241016",
+    "A317614",
+    "A317617",
+    "A322277",
+    "A323723",
+    "A323724"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:13",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

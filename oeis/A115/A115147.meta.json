@@ -1,0 +1,26 @@
+{
+  "description": "Eighth convolution of A115140.",
+  "id": "A115147",
+  "mentions": [
+    "A000108",
+    "A003518",
+    "A034807",
+    "A115139",
+    "A115140",
+    "A115146",
+    "A115148",
+    "A115149"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:05",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

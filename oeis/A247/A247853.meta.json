@@ -1,0 +1,19 @@
+{
+  "description": "The 8th Hermite Polynomial evaluated at n: H_8(n) = 256*n^8-3584*n^6+13440*n^4-13440*n^2+1680.",
+  "id": "A247853",
+  "mentions": [
+    "A247850"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:13:45",
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

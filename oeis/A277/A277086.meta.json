@@ -1,0 +1,23 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) = number of size k subsets of S_n with respect to the symmetries of the square.",
+  "id": "A277086",
+  "mentions": [
+    "A038507",
+    "A277080",
+    "A277081",
+    "A277083",
+    "A277085"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

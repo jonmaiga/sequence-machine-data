@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of the sum of the reciprocals of the squares of the perfect powers > 1.",
+  "id": "A335590",
+  "mentions": [
+    "A001597",
+    "A013661",
+    "A085548",
+    "A275647",
+    "A335086",
+    "A335589",
+    "A340588"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

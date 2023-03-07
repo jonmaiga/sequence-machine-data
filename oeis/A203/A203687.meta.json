@@ -1,0 +1,21 @@
+{
+  "description": "Vandermonde sequence using x^2 - x*y + y^2 applied to (1,2,6,...,n!).",
+  "id": "A203687",
+  "mentions": [
+    "A093883",
+    "A203685",
+    "A203688",
+    "A203689"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

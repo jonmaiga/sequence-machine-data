@@ -1,0 +1,20 @@
+{
+  "description": "Dimensions of finite-dimensional real division algebras.",
+  "id": "A222011",
+  "mentions": [
+    "A222010"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

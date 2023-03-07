@@ -1,0 +1,23 @@
+{
+  "description": "Lexicographically earliest permutation of the natural numbers such that in decimal representation the initial digit for each term is equal to the last nonzero digit of its predecessor; a(1)=1.",
+  "id": "A162501",
+  "mentions": [
+    "A000030",
+    "A065881",
+    "A076654",
+    "A130571",
+    "A162502",
+    "A162503"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:44",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

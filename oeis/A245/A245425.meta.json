@@ -1,0 +1,20 @@
+{
+  "description": "Number of nonnegative integers with the property that their base 9/4 expansion (see A024652) has n digits.",
+  "id": "A245425",
+  "mentions": [
+    "A024652",
+    "A081848",
+    "A245356"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 19:37:01",
+    "offset": 1,
+    "size": 30,
+    "source": "joeis"
+  }
+}

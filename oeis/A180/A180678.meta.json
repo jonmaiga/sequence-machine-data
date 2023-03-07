@@ -1,0 +1,23 @@
+{
+  "description": "The Ze2 sums of the Pell-Jacobsthal triangle A013609.",
+  "id": "A180678",
+  "mentions": [
+    "A013609",
+    "A055588",
+    "A097117",
+    "A140413",
+    "A180662"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:03",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of Barlow packings that repeat after n (or a divisor of n) layers.",
+  "id": "A114438",
+  "mentions": [
+    "A011768",
+    "A027671",
+    "A056353"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:04",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

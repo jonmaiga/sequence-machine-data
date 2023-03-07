@@ -1,0 +1,22 @@
+{
+  "description": "Number of ways to place 5 nonattacking wazirs on a 5 X n board.",
+  "id": "A172231",
+  "mentions": [
+    "A061991",
+    "A172228",
+    "A172229",
+    "A172230"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:16:27",
+    "offset": 1,
+    "size": 20,
+    "source": "joeis"
+  }
+}

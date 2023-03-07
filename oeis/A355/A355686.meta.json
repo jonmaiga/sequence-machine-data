@@ -1,0 +1,21 @@
+{
+  "description": "Dirichlet inverse of A276150, where A276150(n) is the sum of digits when n is written in primorial base.",
+  "id": "A355686",
+  "mentions": [
+    "A276150",
+    "A319715",
+    "A355687"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:30",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

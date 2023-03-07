@@ -1,0 +1,21 @@
+{
+  "description": "Number of ordered triples of primes (p,q,r) such that pqr = n.",
+  "id": "A123074",
+  "mentions": [
+    "A001221",
+    "A001222",
+    "A014612",
+    "A101605",
+    "A123073"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:11",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

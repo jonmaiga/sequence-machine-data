@@ -1,0 +1,24 @@
+{
+  "description": "a(n) is a binary representation of the primes that divide sigma(n) [the sum of divisors of n function], shown in decimal.",
+  "id": "A351560",
+  "mentions": [
+    "A000203",
+    "A003986",
+    "A007947",
+    "A048675",
+    "A080398",
+    "A087207",
+    "A351559"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:26",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

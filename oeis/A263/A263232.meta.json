@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of partitions of n having exactly k parts equal to 3 (n >= 0, 0 <= k <= floor(n/3)).",
+  "id": "A263232",
+  "mentions": [
+    "A000041",
+    "A024787",
+    "A027337",
+    "A116599"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:23",
+    "offset": 0,
+    "size": 77,
+    "source": "oeis-bfile"
+  }
+}

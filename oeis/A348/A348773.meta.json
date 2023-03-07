@@ -1,0 +1,21 @@
+{
+  "description": "First differences of A307632.",
+  "id": "A348773",
+  "mentions": [
+    "A307632",
+    "A307720",
+    "A307730",
+    "A348774",
+    "A348775"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:23",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

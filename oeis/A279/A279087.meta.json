@@ -1,0 +1,18 @@
+{
+  "description": "Smallest number k such that k^j is (at least conjecturally) pandigital in base n for every j > 0.",
+  "id": "A279087",
+  "mentions": [
+    "A049363"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 2,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

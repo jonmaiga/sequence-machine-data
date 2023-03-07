@@ -1,0 +1,20 @@
+{
+  "description": "Numbers with a prime number of raised dots in their Braille representation.",
+  "id": "A281020",
+  "mentions": [
+    "A072283",
+    "A281015",
+    "A281017"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:49",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

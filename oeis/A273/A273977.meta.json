@@ -1,0 +1,21 @@
+{
+  "description": "Words of length n over an alphabet of size 9 that are in standard order with at least one letter is repeated.",
+  "id": "A273977",
+  "mentions": [
+    "A278984",
+    "A278986",
+    "A278987"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:38",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

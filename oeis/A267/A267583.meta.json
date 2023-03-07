@@ -1,0 +1,18 @@
+{
+  "description": "Total number of ON (black) cells after n iterations of the \"Rule 167\" elementary cellular automaton starting with a single ON (black) cell.",
+  "id": "A267583",
+  "mentions": [
+    "A267576"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:28:09",
+    "offset": 0,
+    "size": 51,
+    "source": "joeis"
+  }
+}

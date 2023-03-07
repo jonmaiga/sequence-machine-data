@@ -1,0 +1,26 @@
+{
+  "description": "Array T(n,k) read by ascending antidiagonals, where T(n,k) is the numerator of polygamma(n, 1) - polygamma(n, k).",
+  "id": "A255008",
+  "mentions": [
+    "A001008",
+    "A002805",
+    "A007406",
+    "A007407",
+    "A255006",
+    "A255007",
+    "A255009"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

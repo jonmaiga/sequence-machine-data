@@ -1,0 +1,18 @@
+{
+  "description": "Numerators of the Nash equilibrium of guesses for the number guessing game for n numbers.",
+  "id": "A286676",
+  "mentions": [
+    "A286677"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

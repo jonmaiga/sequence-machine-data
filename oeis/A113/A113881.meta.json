@@ -1,0 +1,32 @@
+{
+  "description": "Table of smallest number of squares, T(m,n), needed to tile an m X n rectangle, read by antidiagonals.",
+  "id": "A113881",
+  "mentions": [
+    "A001477",
+    "A030451",
+    "A219158",
+    "A219924",
+    "A226545",
+    "A226576",
+    "A226577",
+    "A226578",
+    "A226579",
+    "A226580",
+    "A226581",
+    "A226582",
+    "A226583",
+    "A338573"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "look",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:04",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

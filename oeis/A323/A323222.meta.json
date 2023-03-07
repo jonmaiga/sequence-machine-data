@@ -1,0 +1,30 @@
+{
+  "description": "A(n, k) = [x^k] (1 - 4*x)^(-n/2)*x/(1 - x), square array read by ascending antidiagonals with n >= 0 and k >= 0.",
+  "id": "A323222",
+  "mentions": [
+    "A002450",
+    "A005408",
+    "A006134",
+    "A014916",
+    "A057427",
+    "A059993",
+    "A277178",
+    "A323217",
+    "A323218",
+    "A323219",
+    "A323223",
+    "A323224"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

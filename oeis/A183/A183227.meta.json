@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the base-5 digit sum of 10^n-1.",
+  "id": "A183227",
+  "mentions": [
+    "A053824",
+    "A183226",
+    "A183228"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

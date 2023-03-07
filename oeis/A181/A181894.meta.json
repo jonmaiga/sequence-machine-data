@@ -1,0 +1,22 @@
+{
+  "description": "Sum of factors from A050376 in Fermi-Dirac representation of n.",
+  "id": "A181894",
+  "mentions": [
+    "A001414",
+    "A008472",
+    "A050376",
+    "A064547",
+    "A213925"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:05",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

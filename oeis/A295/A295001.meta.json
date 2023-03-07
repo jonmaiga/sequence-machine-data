@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = nextprime(1/(2/sigma[-1](P(n)) - 1)) where P(n) = Product_{0 <= k < n} a(k), sigma[-1](x) = sigma(x)/x, a(0) = 4.",
+  "id": "A295001",
+  "mentions": [
+    "A000203",
+    "A002975",
+    "A151799",
+    "A151800",
+    "A262228"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:13",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-bfile"
+  }
+}

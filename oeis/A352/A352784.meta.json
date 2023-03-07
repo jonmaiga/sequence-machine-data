@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = w(n - w(n)), where w(n) is the binary weight of n, A000120(n).",
+  "id": "A352784",
+  "mentions": [
+    "A000120",
+    "A011371",
+    "A280700"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:27",
+    "offset": 0,
+    "size": 108,
+    "source": "oeis-bfile"
+  }
+}

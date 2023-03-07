@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that 26*k+1 is a square.",
+  "id": "A217441",
+  "mentions": [
+    "A174768",
+    "A175886",
+    "A219257"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 17:54:57",
+    "offset": 1,
+    "size": 45,
+    "source": "joeis"
+  }
+}

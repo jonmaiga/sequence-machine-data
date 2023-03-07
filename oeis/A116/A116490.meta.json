@@ -1,0 +1,20 @@
+{
+  "description": "Numbers that can be written as a product of evil numbers (A001969) and of odious numbers (A000069).",
+  "id": "A116490",
+  "mentions": [
+    "A000069",
+    "A001969",
+    "A116488",
+    "A116489"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:06",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

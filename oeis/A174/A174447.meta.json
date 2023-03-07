@@ -1,0 +1,20 @@
+{
+  "description": "Triangle T(n, k, q) = ceiling(binomial(n, k)/f(n, q)) with T(0, 0) = 1, f(n, q) = 1 + tanh((n-1)/q), and q = 4, read by rows.",
+  "id": "A174447",
+  "mentions": [
+    "A174446",
+    "A174448"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:58",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

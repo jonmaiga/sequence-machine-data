@@ -1,0 +1,21 @@
+{
+  "description": "Least prime p such that (p,q) is a Double Wieferich prime pair for q=A124121(n).",
+  "id": "A124122",
+  "mentions": [
+    "A124121",
+    "A196511",
+    "A196733"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

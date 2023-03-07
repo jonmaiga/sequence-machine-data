@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that the smallest m such that k | psi(m) is even, psi = A002322.",
+  "id": "A341886",
+  "mentions": [
+    "A002322",
+    "A007814",
+    "A307437",
+    "A341887"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:14",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

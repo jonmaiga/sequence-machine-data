@@ -1,0 +1,22 @@
+{
+  "description": "Antidiagonal sums of square array A108998, in which row n equals the coordination sequence of B_n lattice.",
+  "id": "A109000",
+  "mentions": [
+    "A108553",
+    "A108555",
+    "A108998",
+    "A108999",
+    "A109001"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "description": "Numbers k such that k and k + 1 are both Gray-code Niven numbers (A344341).",
+  "id": "A344342",
+  "mentions": [
+    "A005811",
+    "A014550",
+    "A328205",
+    "A328209",
+    "A328213",
+    "A330927",
+    "A330931",
+    "A331086",
+    "A331820",
+    "A333427",
+    "A334309",
+    "A342427",
+    "A344341",
+    "A344343",
+    "A344344"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:17",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

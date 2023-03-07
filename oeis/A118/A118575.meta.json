@@ -1,0 +1,26 @@
+{
+  "description": "Dividuus numbers: numbers which are divisible by (1) the sum of their digits,(2) the product of their digits,(3) the digital root and (4) the multiplicative digital root.",
+  "id": "A118575",
+  "mentions": [
+    "A005349",
+    "A007602",
+    "A007953",
+    "A007954",
+    "A010888",
+    "A031347",
+    "A038186",
+    "A064700",
+    "A064807"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:08",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

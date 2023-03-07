@@ -1,0 +1,21 @@
+{
+  "description": "Triangular array: T(n,k) = number of partitions x(1) > x(2) > ... > x(k) of n+2 such that x(1) = x(2) + k, for n >= 1.",
+  "id": "A239302",
+  "mentions": [
+    "A000009",
+    "A087897",
+    "A111133"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:56",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

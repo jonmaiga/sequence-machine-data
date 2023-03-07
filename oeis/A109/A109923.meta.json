@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = lcm(1,2,3,...,prime(n))/(1 + 2 + ... + prime(n)).",
+  "id": "A109923",
+  "mentions": [
+    "A006254",
+    "A034953",
+    "A056604",
+    "A099795",
+    "A109922"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-12-25 19:14:52",
+    "offset": 2,
+    "size": 17,
+    "source": "joeis"
+  }
+}

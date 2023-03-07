@@ -1,0 +1,23 @@
+{
+  "description": "Number of partitions of n into nontrivial divisors of n.",
+  "id": "A293813",
+  "mentions": [
+    "A018818",
+    "A027750",
+    "A070824",
+    "A210442",
+    "A211110",
+    "A293814"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:10",
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Triangle, read by rows, where T(n,k) = T(n,k-1)^2 - T(k-1,k-1)^2 for n>=k>1, with T(n,1) = n for n>=1.",
+  "id": "A166994",
+  "mentions": [
+    "A083869"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

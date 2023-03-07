@@ -1,0 +1,18 @@
+{
+  "description": "Number of (n+2)X(1+2) 0..1 arrays with every 3X3 subblock sum of the two maximums of the central row and the central column and the two medians of the diagonal and antidiagonal nondecreasing horizontally and vertically",
+  "id": "A254721",
+  "mentions": [
+    "A254728"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:12",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

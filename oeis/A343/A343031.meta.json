@@ -1,0 +1,27 @@
+{
+  "description": "Table read by antidiagonals: T(n, k) is the sum of the numbers on the k-th line of length n when these lines are drawn on the square spiral, where each line contains numbers which sum to the minimum possible value, and each number on the spiral can only be in one line.",
+  "id": "A343031",
+  "mentions": [
+    "A174344",
+    "A274923",
+    "A275161",
+    "A296030",
+    "A340974",
+    "A341160",
+    "A341278",
+    "A341327",
+    "A341363"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

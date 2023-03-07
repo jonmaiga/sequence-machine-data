@@ -1,0 +1,18 @@
+{
+  "description": "Primes p having a record value of least k such that 4*k^2*p^2 + 1 is prime.",
+  "id": "A309499",
+  "mentions": [
+    "A309498"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

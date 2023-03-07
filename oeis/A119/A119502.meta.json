@@ -1,0 +1,25 @@
+{
+  "description": "Triangle read by rows, T(n,k) = (n-k)!, for n>=0 and 0<=k<=n.",
+  "id": "A119502",
+  "mentions": [
+    "A009998",
+    "A025581",
+    "A119052",
+    "A133314",
+    "A152650",
+    "A152656"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Odd part of sum of unitary divisors of n.",
+  "id": "A161946",
+  "mentions": [
+    "A000265",
+    "A034448",
+    "A151659",
+    "A161942"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:44",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

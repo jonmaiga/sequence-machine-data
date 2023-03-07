@@ -1,0 +1,26 @@
+{
+  "description": "Squarefree numbers larger than one for which A268669(A048675(n)) is a power of two.",
+  "id": "A276579",
+  "mentions": [
+    "A000040",
+    "A000120",
+    "A005117",
+    "A008683",
+    "A008966",
+    "A048675",
+    "A209229",
+    "A255483",
+    "A268669",
+    "A276578"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that k+1 divides tau(k), where tau(k)=A000594(k) is Ramanujan's tau function.",
+  "id": "A299157",
+  "mentions": [
+    "A000594",
+    "A063938",
+    "A079334",
+    "A296991",
+    "A299158",
+    "A299163"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:22",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

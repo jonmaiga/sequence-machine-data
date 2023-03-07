@@ -1,0 +1,23 @@
+{
+  "description": "Product of nonzero digits of n-th prime.",
+  "id": "A101987",
+  "mentions": [
+    "A038618",
+    "A051801",
+    "A053666",
+    "A056709"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 17:53:13",
+    "offset": 1,
+    "size": 77,
+    "source": "joeis"
+  }
+}

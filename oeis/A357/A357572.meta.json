@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of e.g.f. sinh(sqrt(3) * (exp(x)-1)) / sqrt(3).",
+  "id": "A357572",
+  "mentions": [
+    "A024429",
+    "A027710",
+    "A264037",
+    "A357598",
+    "A357615",
+    "A357737"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:31",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

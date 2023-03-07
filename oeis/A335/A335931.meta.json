@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of (1/Pi)*arclength on y = sin(x) from (0,0) to (Pi,0).",
+  "id": "A335931",
+  "mentions": [
+    "A335928",
+    "A335929",
+    "A335930",
+    "A335932"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

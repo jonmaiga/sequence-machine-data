@@ -1,0 +1,19 @@
+{
+  "description": "Number of (n+1)X(3+1) 0..2 arrays with every element next to itself plus and minus one within the range 0..2 horizontally or antidiagonally, with no adjacent elements equal",
+  "id": "A232584",
+  "mentions": [
+    "A122678",
+    "A232589"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:50",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

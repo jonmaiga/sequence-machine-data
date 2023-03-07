@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that n^2 > P(n)!, where P(n) is the greatest prime factor of n.",
+  "id": "A122380",
+  "mentions": [
+    "A000290",
+    "A006530",
+    "A057109",
+    "A102068",
+    "A122378",
+    "A122379"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:11",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

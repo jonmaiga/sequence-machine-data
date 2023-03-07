@@ -1,0 +1,19 @@
+{
+  "description": "Number of columns of even length in all deco polyominoes of height n. A deco polyomino is a directed column-convex polyomino in which the height, measured along the diagonal, is attained only in the last column.",
+  "id": "A121750",
+  "mentions": [
+    "A121747",
+    "A121748"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

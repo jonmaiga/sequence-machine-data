@@ -1,0 +1,21 @@
+{
+  "description": "E.g.f.: sec(sec(x)-1) (even-indexed coefficients only).",
+  "id": "A228841",
+  "mentions": [
+    "A000364",
+    "A003718",
+    "A059386",
+    "A080832",
+    "A219613"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:45",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = gcd(sum{k=1...n} p(k), product{j=1...n} p(j)), where p(k) is the k-th prime.",
+  "id": "A132995",
+  "mentions": [
+    "A002110",
+    "A005117",
+    "A007504",
+    "A239070"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:20",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

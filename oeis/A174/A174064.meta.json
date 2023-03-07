@@ -1,0 +1,19 @@
+{
+  "description": "Irregular triangle, row sums = n; a generator for sequence A174026",
+  "id": "A174064",
+  "mentions": [
+    "A174026"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

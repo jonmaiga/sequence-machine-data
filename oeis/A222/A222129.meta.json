@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the imaginary part of 1/i^Pi, where i=sqrt(-1).",
+  "id": "A222129",
+  "mentions": [
+    "A102753",
+    "A211884",
+    "A222128"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:08:31",
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

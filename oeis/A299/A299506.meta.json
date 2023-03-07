@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = hypergeom([-n, n - 1/2], [1], -4).",
+  "id": "A299506",
+  "mentions": [
+    "A001622",
+    "A084769",
+    "A243946",
+    "A243947",
+    "A299845",
+    "A300945",
+    "A300946"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 19:20:26",
+    "offset": 0,
+    "size": 20,
+    "source": "joeis"
+  }
+}

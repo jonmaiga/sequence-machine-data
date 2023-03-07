@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: T(n,k) = binomial(n,k)*r(k), where r(k) are the Riordan numbers (r(k) = A005043(k); 0 <= k <= n).",
+  "id": "A124926",
+  "mentions": [
+    "A000108",
+    "A005043"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:13",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

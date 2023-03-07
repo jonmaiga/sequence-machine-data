@@ -1,0 +1,18 @@
+{
+  "description": "Number of ways of writing n^2 as a sum of n squares.",
+  "id": "A232173",
+  "mentions": [
+    "A066535"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:50",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

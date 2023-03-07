@@ -1,0 +1,24 @@
+{
+  "description": "Number of iterations of number of distinct prime factors (A001221) needed to reach 1 starting at n (n is counted).",
+  "id": "A287841",
+  "mentions": [
+    "A001221",
+    "A036430",
+    "A036459",
+    "A049108",
+    "A073855",
+    "A115658",
+    "A246655"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:00",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

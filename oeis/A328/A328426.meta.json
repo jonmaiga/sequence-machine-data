@@ -1,0 +1,19 @@
+{
+  "description": "Number of 2n-step walks on cubic lattice starting at (0,0,0), ending at (0,n,n) and using steps (0,0,1), (0,1,0), (1,0,0), (-1,1,1), (1,-1,1), and (1,1,-1).",
+  "id": "A328426",
+  "mentions": [
+    "A328347"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:57",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

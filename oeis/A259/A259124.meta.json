@@ -1,0 +1,19 @@
+{
+  "description": "If n is representable as x*y+x+y, with x>=y>1, then a(n) is the sum of all x's and y's in all such representations. Otherwise a(n)=0.",
+  "id": "A259124",
+  "mentions": [
+    "A254636",
+    "A255361"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:17",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

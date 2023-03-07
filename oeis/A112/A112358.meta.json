@@ -1,0 +1,23 @@
+{
+  "description": "The following triangle is based on Pascal's triangle. The r-th term of the n-th row is sum of C(n,r) successive integers so that the sum of all the terms of the row is (2^n)*(2^n+1)/2, the 2^n -th triangular number. Sequence contains the triangle read by rows.",
+  "id": "A112358",
+  "mentions": [
+    "A008949",
+    "A112356",
+    "A112357",
+    "A112359"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = (n - 1)! * d(n), where d(n) = number of divisors of n (A000005).",
+  "id": "A318249",
+  "mentions": [
+    "A000005",
+    "A028342",
+    "A038048",
+    "A318250",
+    "A338805",
+    "A338814"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:38",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

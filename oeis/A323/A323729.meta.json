@@ -1,0 +1,18 @@
+{
+  "description": "Non-prime-powers k at which the variance of the first differences of the logarithms of the divisors of k, scaled by log(k), reaches a new minimum.",
+  "id": "A323729",
+  "mentions": [
+    "A000396",
+    "A240436"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

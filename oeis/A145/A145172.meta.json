@@ -1,0 +1,21 @@
+{
+  "description": "Number of pentagonal numbers needed to represent n with greedy algorithm.",
+  "id": "A145172",
+  "mentions": [
+    "A000326",
+    "A053610",
+    "A057945",
+    "A180447",
+    "A192988"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

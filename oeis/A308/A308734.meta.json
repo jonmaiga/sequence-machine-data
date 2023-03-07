@@ -1,0 +1,34 @@
+{
+  "description": "Number of ordered ways to write n as (2^a*3^b)^2 + (2^c*5^d)^2 + x^2 + y^2, where a,b,c,d,x,y are nonnegative integers with x <= y.",
+  "id": "A308734",
+  "mentions": [
+    "A000079",
+    "A000118",
+    "A000244",
+    "A000290",
+    "A000351",
+    "A271518",
+    "A281976",
+    "A303656",
+    "A308566",
+    "A308584",
+    "A308621",
+    "A308623",
+    "A308640",
+    "A308641",
+    "A308644",
+    "A308656",
+    "A308661",
+    "A308662"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:33",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

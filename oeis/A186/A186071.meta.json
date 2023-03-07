@@ -1,0 +1,22 @@
+{
+  "description": "Irregular triangle, read by rows, of primes with suffix n and digits \"3\" prepended , otherwise 0.",
+  "id": "A186071",
+  "mentions": [
+    "A185682",
+    "A185684",
+    "A185685",
+    "A185687"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

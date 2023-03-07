@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of skew Dyck paths of semilength n and having height of the last peak equal to k (1 <= k <= n).",
+  "id": "A128745",
+  "mentions": [
+    "A002212",
+    "A033321",
+    "A128746"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

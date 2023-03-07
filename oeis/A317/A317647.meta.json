@@ -1,0 +1,21 @@
+{
+  "description": "The even members of the \"Almost natural numbers\" (A007376).",
+  "id": "A317647",
+  "mentions": [
+    "A007376",
+    "A033307",
+    "A316988"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

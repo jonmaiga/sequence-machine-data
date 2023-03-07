@@ -1,0 +1,23 @@
+{
+  "description": "A007318 * a tridiagonal matrix with (1, 4, 1, 0, 0, 0, ...) in every column.",
+  "id": "A135855",
+  "mentions": [
+    "A007318",
+    "A022815",
+    "A052905",
+    "A101945",
+    "A134465"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:24:25",
+    "offset": 0,
+    "size": 55,
+    "source": "joeis"
+  }
+}

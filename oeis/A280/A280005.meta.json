@@ -1,0 +1,19 @@
+{
+  "description": "Least prime p such that p^n + 1 is the product of n distinct primes.",
+  "id": "A280005",
+  "mentions": [
+    "A000961",
+    "A005117"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

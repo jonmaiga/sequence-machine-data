@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of the natural logarithm of Pi^(1/Pi).",
+  "id": "A231737",
+  "mentions": [
+    "A000796",
+    "A053510",
+    "A073238",
+    "A231736"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:15:45",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

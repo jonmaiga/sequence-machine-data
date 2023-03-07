@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the smallest omega(A061214(k)) sampled over all indices k of prime gaps prime(k+1) - prime(k) = 2n, where omega = A001221.",
+  "id": "A219611",
+  "mentions": [
+    "A001221",
+    "A038664",
+    "A052297",
+    "A061214"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of ways to write n = i_1 + i_2 + i_3 + i_4 + i_5 (0 < i_1 <= i_2 <= i_3 <= i_4 <= i_5) with i_1, i_2, ..., i_5 not all equal such that the product i_1*i_2*i_3*i_4*i_5 is a fifth power.",
+  "id": "A237050",
+  "mentions": [
+    "A000584",
+    "A233386",
+    "A236998",
+    "A237016",
+    "A237049"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:54",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

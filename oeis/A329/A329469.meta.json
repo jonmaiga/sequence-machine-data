@@ -1,0 +1,20 @@
+{
+  "description": "Perfectly cyclic numbers: numbers k such that the iterations of the mapping x -> f(x) = x^2 + c (mod k), starting at x = f(c), is purely periodic for all 0 <= c <= k.",
+  "id": "A329469",
+  "mentions": [
+    "A051037"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

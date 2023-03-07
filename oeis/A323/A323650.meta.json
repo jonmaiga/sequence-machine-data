@@ -1,0 +1,38 @@
+{
+  "description": "Flower garden sequence (see Comments for precise definition).",
+  "id": "A323650",
+  "mentions": [
+    "A002450",
+    "A103454",
+    "A139250",
+    "A147562",
+    "A147582",
+    "A160120",
+    "A161206",
+    "A194270",
+    "A194700",
+    "A220500",
+    "A289840",
+    "A290220",
+    "A294020",
+    "A294962",
+    "A294980",
+    "A296612",
+    "A299770",
+    "A323641",
+    "A323642",
+    "A323649",
+    "A323651"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:48",
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

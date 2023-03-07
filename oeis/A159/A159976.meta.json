@@ -1,0 +1,24 @@
+{
+  "description": "Denominators (with multiplicity) of proper solutions up to 3-digit denominators of fractions with anomalous cancellation.",
+  "id": "A159976",
+  "mentions": [
+    "A159975",
+    "A290462",
+    "A290463"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "fini",
+    "formulas",
+    "frac",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

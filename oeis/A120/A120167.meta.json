@@ -1,0 +1,19 @@
+{
+  "description": "a(1)=9; a(n)=floor((39+sum(a(1) to a(n-1)))/4).",
+  "id": "A120167",
+  "mentions": [
+    "A072493",
+    "A073941",
+    "A112088"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 13:46:03",
+    "offset": 1,
+    "size": 40,
+    "source": "joeis"
+  }
+}

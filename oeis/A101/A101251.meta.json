@@ -1,0 +1,23 @@
+{
+  "description": "Primes that are a concatenation of 2, 3, 5 and a prime.",
+  "id": "A101251",
+  "mentions": [
+    "A101218",
+    "A101219",
+    "A101249",
+    "A101250",
+    "A101252"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:52",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

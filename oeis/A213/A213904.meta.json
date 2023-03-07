@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the initial member of the least pair of prime quadruples (of the form p, p+2, p+6, p+8) with a difference of 30*n, with no other prime quadruple between the pair.",
+  "id": "A213904",
+  "mentions": [
+    "A007530",
+    "A047385",
+    "A059925",
+    "A157967"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:31",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

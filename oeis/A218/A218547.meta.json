@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = A218617(n)+1.",
+  "id": "A218547",
+  "mentions": [
+    "A213728",
+    "A213729",
+    "A218617"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

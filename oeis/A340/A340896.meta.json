@@ -1,0 +1,22 @@
+{
+  "description": "Irregular triangle in which the n-th row consists of all multiples of n that have fewer than twice as many divisors as n.",
+  "id": "A340896",
+  "mentions": [
+    "A000005",
+    "A000027",
+    "A000961",
+    "A225004",
+    "A285109"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

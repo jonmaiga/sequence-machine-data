@@ -1,0 +1,17 @@
+{
+  "description": "Number of 4Xn arrays containing n copies of 0..4-1 avoiding the pattern down-up in every row and column.",
+  "id": "A269508",
+  "mentions": [
+    "A269505"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

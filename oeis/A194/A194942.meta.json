@@ -1,0 +1,20 @@
+{
+  "description": "List of seven normalized ternary Abelian squarefree words.",
+  "id": "A194942",
+  "mentions": [
+    "A194923"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "fini",
+    "full",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 97,
+    "source": "oeis-entry"
+  }
+}

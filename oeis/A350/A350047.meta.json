@@ -1,0 +1,18 @@
+{
+  "description": "Perimeters of more than one primitive 120-degree integer triangle.",
+  "id": "A350047",
+  "mentions": [
+    "A350039",
+    "A350045"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:24",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = (n*(n+1))^6.",
+  "id": "A249076",
+  "mentions": [
+    "A002378",
+    "A035282",
+    "A059978",
+    "A060459",
+    "A248619"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:51:15",
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

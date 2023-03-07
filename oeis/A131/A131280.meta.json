@@ -1,0 +1,21 @@
+{
+  "description": "Sums of exactly 4 positive octahedral numbers A005900.",
+  "id": "A131280",
+  "mentions": [
+    "A005900",
+    "A053676",
+    "A053678",
+    "A133330"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

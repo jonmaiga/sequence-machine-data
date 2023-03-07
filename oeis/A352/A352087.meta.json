@@ -1,0 +1,26 @@
+{
+  "description": "Numbers whose minimal (or greedy) tribonacci representation (A278038) is palindromic.",
+  "id": "A352087",
+  "mentions": [
+    "A000073",
+    "A002113",
+    "A006995",
+    "A014190",
+    "A094202",
+    "A278038",
+    "A331191",
+    "A351712",
+    "A351717"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:26",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

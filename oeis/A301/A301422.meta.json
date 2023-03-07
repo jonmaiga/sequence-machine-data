@@ -1,0 +1,33 @@
+{
+  "description": "Regular triangle where T(n,k) is the number of r-trees of size n with k leaves.",
+  "id": "A301422",
+  "mentions": [
+    "A000081",
+    "A003238",
+    "A004111",
+    "A032305",
+    "A055277",
+    "A093637",
+    "A127524",
+    "A196545",
+    "A289501",
+    "A290689",
+    "A291443",
+    "A297791",
+    "A300443",
+    "A301342",
+    "A301345",
+    "A301364"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:26",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

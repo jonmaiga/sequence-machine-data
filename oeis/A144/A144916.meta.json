@@ -1,0 +1,19 @@
+{
+  "description": "Integers k for which |A144912| attains a new maximal odd value.",
+  "id": "A144916",
+  "mentions": [
+    "A016742",
+    "A144912"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:52:03",
+    "offset": 1,
+    "size": 46,
+    "source": "joeis"
+  }
+}

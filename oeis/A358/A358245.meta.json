@@ -1,0 +1,23 @@
+{
+  "description": "Number of n-regular, N_0-weighted pseudographs on 2 vertices with total edge weight 5, up to isomorphism.",
+  "id": "A358245",
+  "mentions": [
+    "A358243",
+    "A358244",
+    "A358246",
+    "A358247",
+    "A358248",
+    "A358249"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:32",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Number of partitions of n into at least two distinct parts.",
+  "id": "A111133",
+  "mentions": [
+    "A000009",
+    "A026906",
+    "A058377",
+    "A258259"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:35:49",
+    "offset": 0,
+    "size": 56,
+    "source": "joeis"
+  }
+}

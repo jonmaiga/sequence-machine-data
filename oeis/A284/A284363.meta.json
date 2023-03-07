@@ -1,0 +1,21 @@
+{
+  "description": "Sum_{d|n, d = 0, 1, or 6 mod 7} d.",
+  "id": "A284363",
+  "mentions": [
+    "A000203",
+    "A232714",
+    "A284361",
+    "A284362",
+    "A284372"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:55",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

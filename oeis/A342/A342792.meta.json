@@ -1,0 +1,19 @@
+{
+  "description": "Positions in A342753 of words in which #0's - #1's is even.",
+  "id": "A342792",
+  "mentions": [
+    "A342753",
+    "A342791"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

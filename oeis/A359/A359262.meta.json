@@ -1,0 +1,28 @@
+{
+  "description": "a(n) is the largest number m such that prime(n)^m is in A359260.",
+  "id": "A359262",
+  "mentions": [
+    "A000720",
+    "A002110",
+    "A002476",
+    "A005867",
+    "A040976",
+    "A073102",
+    "A073917",
+    "A132230",
+    "A359260",
+    "A359261"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:33",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

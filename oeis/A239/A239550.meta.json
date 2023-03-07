@@ -1,0 +1,29 @@
+{
+  "description": "Number A(n,k) of compositions of n such that the first part is 1 and the second differences of the parts are in {-k,...,k}; square array A(n,k), n>=0, k>=0, read by antidiagonals.",
+  "id": "A239550",
+  "mentions": [
+    "A129654",
+    "A239551",
+    "A239552",
+    "A239553",
+    "A239554",
+    "A239555",
+    "A239556",
+    "A239557",
+    "A239558",
+    "A239559",
+    "A239560",
+    "A239561"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:56",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that d(k)/k >= d(m)/m for all m > k, where d(k) is the number-of-divisors function A000005(k).",
+  "id": "A354768",
+  "mentions": [
+    "A000005",
+    "A066523",
+    "A354769"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

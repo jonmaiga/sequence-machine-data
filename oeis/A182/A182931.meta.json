@@ -1,0 +1,24 @@
+{
+  "description": "Generalized Bell numbers; square array read by ascending antidiagonals, A(n, k) for n >= 0 and k >= 1.",
+  "id": "A182931",
+  "mentions": [
+    "A000110",
+    "A000296",
+    "A006505",
+    "A057814",
+    "A057837",
+    "A097147"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

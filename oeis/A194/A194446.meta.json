@@ -1,0 +1,41 @@
+{
+  "description": "Number of parts in the n-th region of the set of partitions of j, if 1<=n<=A000041(j).",
+  "id": "A194446",
+  "mentions": [
+    "A000041",
+    "A002865",
+    "A006128",
+    "A006519",
+    "A135010",
+    "A138121",
+    "A138137",
+    "A139250",
+    "A141285",
+    "A186114",
+    "A186412",
+    "A187219",
+    "A193870",
+    "A194436",
+    "A194437",
+    "A194438",
+    "A194439",
+    "A194447",
+    "A206437",
+    "A211978",
+    "A220517",
+    "A225600",
+    "A225610"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:17",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

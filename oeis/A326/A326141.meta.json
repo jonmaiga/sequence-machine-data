@@ -1,0 +1,27 @@
+{
+  "description": "Odd numbers n for which A318879(n) is not zero and A318879(n) divides A318878(n); odd numbers such that A326140(n) = A318879(n).",
+  "id": "A326141",
+  "mentions": [
+    "A033879",
+    "A036798",
+    "A083254",
+    "A228058",
+    "A318878",
+    "A318879",
+    "A325981",
+    "A326131",
+    "A326137",
+    "A326140"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

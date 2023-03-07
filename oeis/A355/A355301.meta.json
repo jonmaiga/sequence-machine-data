@@ -1,0 +1,28 @@
+{
+  "description": "Normal undulating numbers where 'undulating' means that the alternate digits go up and down (or down and up) and 'normal' means that the absolute difference values between two adjacent digits may differ.",
+  "id": "A355301",
+  "mentions": [
+    "A010784",
+    "A033619",
+    "A043096",
+    "A046075",
+    "A059168",
+    "A160542",
+    "A241157",
+    "A241158",
+    "A355302",
+    "A355303",
+    "A355304"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 110,
+    "source": "oeis-entry"
+  }
+}

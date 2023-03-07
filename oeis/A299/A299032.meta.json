@@ -1,0 +1,32 @@
+{
+  "description": "Number of ordered ways of writing n-th triangular number as a sum of n squares of positive integers.",
+  "id": "A299032",
+  "mentions": [
+    "A000217",
+    "A000290",
+    "A066535",
+    "A072964",
+    "A104383",
+    "A126683",
+    "A196010",
+    "A224677",
+    "A224679",
+    "A278340",
+    "A288126",
+    "A298330",
+    "A298858",
+    "A298939",
+    "A299031"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:22",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

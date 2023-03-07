@@ -1,0 +1,29 @@
+{
+  "description": "Triangle T(n,k) = k*(4*n+k+2), read by rows.",
+  "id": "A169603",
+  "mentions": [
+    "A000330",
+    "A005563",
+    "A028560",
+    "A098603",
+    "A098848",
+    "A098850",
+    "A132764",
+    "A132768",
+    "A132772",
+    "A169607"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:47:11",
+    "offset": 0,
+    "size": 66,
+    "source": "joeis"
+  }
+}

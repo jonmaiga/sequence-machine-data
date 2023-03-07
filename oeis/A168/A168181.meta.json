@@ -1,0 +1,37 @@
+{
+  "description": "Characteristic function of numbers that are not multiples of 8.",
+  "id": "A168181",
+  "mentions": [
+    "A000007",
+    "A000035",
+    "A008590",
+    "A010877",
+    "A011558",
+    "A011655",
+    "A019590",
+    "A033440",
+    "A047592",
+    "A097325",
+    "A109720",
+    "A145568",
+    "A166486",
+    "A168182",
+    "A168184",
+    "A168185",
+    "A244413",
+    "A253513"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:52",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

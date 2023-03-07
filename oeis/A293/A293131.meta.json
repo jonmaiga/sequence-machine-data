@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = floor( Product_{k=0..n-1} (k + t) ), where t = Sum_{n>=1} 1/a(n) is given by A293130.",
+  "id": "A293131",
+  "mentions": [
+    "A008275",
+    "A293130"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:09",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

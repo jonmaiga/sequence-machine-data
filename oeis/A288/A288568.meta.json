@@ -1,0 +1,26 @@
+{
+  "description": "Number of non-isomorphic connected arrangements of n pseudo-circles on a sphere, in the sense that the union of the pseudo-circles is a connected set, reduced for mirror symmetry.",
+  "id": "A288568",
+  "mentions": [
+    "A006248",
+    "A250001",
+    "A275923",
+    "A275924",
+    "A288554",
+    "A296406",
+    "A296407",
+    "A296412"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

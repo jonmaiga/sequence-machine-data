@@ -1,0 +1,23 @@
+{
+  "description": "Numbers which are elements of a cycle under iterations of the digit-census function A348783.",
+  "id": "A349248",
+  "mentions": [
+    "A348783",
+    "A349249",
+    "A349250"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

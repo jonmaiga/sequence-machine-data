@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = sigma(n) * A276086(n), pointwise product of the sum of divisors function and the primorial base exp-function.",
+  "id": "A351252",
+  "mentions": [
+    "A000203",
+    "A276086",
+    "A324580",
+    "A341529",
+    "A351458"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Five steps forward, four steps back.",
+  "id": "A271800",
+  "mentions": [
+    "A008611",
+    "A058207",
+    "A260644"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:08:09",
+    "offset": 0,
+    "size": 81,
+    "source": "joeis"
+  }
+}

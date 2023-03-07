@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = 2^n + 3^n + 6^n - 1.",
+  "id": "A330170",
+  "mentions": [
+    "A000079",
+    "A000244",
+    "A000400",
+    "A318760"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:59",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

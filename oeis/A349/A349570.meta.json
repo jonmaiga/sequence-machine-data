@@ -1,0 +1,29 @@
+{
+  "description": "Dirichlet convolution of A011782 [2^(n-1))] with A055615 (Dirichlet inverse of n).",
+  "id": "A349570",
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A000740",
+    "A011782",
+    "A018804",
+    "A034729",
+    "A034738",
+    "A055615",
+    "A349564",
+    "A349566",
+    "A349568",
+    "A349569"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:24",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of subgroups of the dihedral group Dn that are intersections of some maximal subgroups.",
+  "id": "A248671",
+  "mentions": [
+    "A007503"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Partition array a(n,k) with the total number of bracelets (D_n symmetry) with n beads, each available in n colors, with color signature given by the k-th partition of n in Abramowitz-Stegun(A-St) order.",
+  "id": "A213941",
+  "mentions": [
+    "A000041",
+    "A035206",
+    "A081721",
+    "A212359",
+    "A213938",
+    "A213939",
+    "A214306"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

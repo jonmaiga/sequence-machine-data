@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of constant mu(ell) arising in study of complexity of Euclidean algorithm.",
+  "id": "A345987",
+  "mentions": [
+    "A081845"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 104,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Middle side (or long leg) of primitive Pythagorean triangle corresponding to hypotenuse A121727.",
+  "id": "A121728",
+  "mentions": [
+    "A121727",
+    "A121729"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

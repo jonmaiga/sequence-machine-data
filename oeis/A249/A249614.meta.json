@@ -1,0 +1,21 @@
+{
+  "description": "Integers that reach the (47360, 29127) cycle described in A234534, after iterations of numerator(sigma(n)/n) = A017665(n).",
+  "id": "A249614",
+  "mentions": [
+    "A017665",
+    "A234534",
+    "A249611",
+    "A249612",
+    "A249613"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

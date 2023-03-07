@@ -1,0 +1,22 @@
+{
+  "description": "Suspected divisor-or-multiple permutation: a(1) = 1, and for n > 1, a(n) is either the second smallest divisor of a(n-1) not already present in sequence, or the smallest divisor if it is the only one not yet used, or (if all divisors have been already encountered), a(n) = a(n-1) * {the least power of the least prime not dividing a(n-1) such that the term is not already present}.",
+  "id": "A304755",
+  "mentions": [
+    "A053669",
+    "A282291",
+    "A303751",
+    "A304531",
+    "A304756",
+    "A304757"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:29",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

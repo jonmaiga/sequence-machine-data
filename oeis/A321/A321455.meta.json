@@ -1,0 +1,31 @@
+{
+  "description": "Number of ways to factor n into factors > 1 all having the same sum of prime indices.",
+  "id": "A321455",
+  "mentions": [
+    "A001055",
+    "A035470",
+    "A038041",
+    "A056239",
+    "A112798",
+    "A279787",
+    "A305551",
+    "A321453",
+    "A321454",
+    "A321469",
+    "A322794",
+    "A326515",
+    "A326516",
+    "A326518",
+    "A326534"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Smallest k such that phi(k) = n*phi(k+1), where phi(n) = A000010(n) gives the value of Euler's totient function at n.",
+  "id": "A257865",
+  "mentions": [
+    "A000010",
+    "A001274",
+    "A098026",
+    "A171262",
+    "A256907",
+    "A256937",
+    "A257550"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

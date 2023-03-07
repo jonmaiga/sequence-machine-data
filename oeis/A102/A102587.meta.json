@@ -1,0 +1,22 @@
+{
+  "description": "T(n, k) = (-1)^n*2*[x^k] ChebyshevT(n, (1 - x)/2) with T(0,0) = 1, for 0 <= k <= n, triangle read by rows.",
+  "id": "A102587",
+  "mentions": [
+    "A002426",
+    "A027907",
+    "A094531",
+    "A102588"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 19:11:19",
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

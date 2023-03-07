@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = A109812(1) XOR ... XOR A109812(n) (where XOR denotes the bitwise XOR operator).",
+  "id": "A352709",
+  "mentions": [
+    "A109812"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:26",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

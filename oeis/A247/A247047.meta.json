@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that k^2 contains exactly 2 distinct digits and k^3 contains exactly 3 distinct digits.",
+  "id": "A247047",
+  "mentions": [
+    "A016069",
+    "A155146",
+    "A155150"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

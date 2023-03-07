@@ -1,0 +1,18 @@
+{
+  "description": "Coefficient a(n) of x^n in power series A(x), n >= 0, such that A(x) = Sum_{n=-oo..+oo} (-x*A(x))^n * (1 - (-x*A(x))^(n-1))^n.",
+  "id": "A359463",
+  "mentions": [
+    "A290003"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:33",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

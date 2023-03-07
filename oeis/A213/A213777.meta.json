@@ -1,0 +1,25 @@
+{
+  "description": "Rectangular array: (row n) = b**c, where b(h) = F(h), c(h) = F(h+1), F=A000045 (Fibonacci numbers), n>=1, h>=1, and ** = convolution.",
+  "id": "A213777",
+  "mentions": [
+    "A000045",
+    "A001870",
+    "A023610",
+    "A067331",
+    "A152881",
+    "A213500"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-02 14:51:04",
+    "offset": 1,
+    "size": 59,
+    "source": "joeis"
+  }
+}

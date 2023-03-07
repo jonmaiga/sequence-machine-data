@@ -1,0 +1,22 @@
+{
+  "description": "Ceiling(4/3*Pi*n^3).",
+  "id": "A135973",
+  "mentions": [
+    "A066643",
+    "A066644",
+    "A066645",
+    "A135039"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:24:25",
+    "offset": 0,
+    "size": 37,
+    "source": "joeis"
+  }
+}

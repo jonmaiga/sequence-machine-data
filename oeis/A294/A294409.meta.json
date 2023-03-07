@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = n! * [x^n] exp(n*x)*BesselI(0,2*n*x).",
+  "id": "A294409",
+  "mentions": [
+    "A000312",
+    "A002426",
+    "A098453",
+    "A186925",
+    "A292629"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:12",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

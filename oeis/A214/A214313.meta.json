@@ -1,0 +1,26 @@
+{
+  "description": "a(n) is the number of all five-color bracelets (necklaces with turning over allowed) with n beads and the four colors are from a repertoire of n distinct colors, for n >= 5.",
+  "id": "A214313",
+  "mentions": [
+    "A008284",
+    "A035206",
+    "A056345",
+    "A213939",
+    "A213941",
+    "A214306",
+    "A214311",
+    "A214312",
+    "A214314"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:32",
+    "offset": 5,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Primes p of the form 4*n^2 + 1 such that 4*p^2+1 is also prime.",
+  "id": "A121834",
+  "mentions": [
+    "A001912",
+    "A002496",
+    "A052291",
+    "A121326"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

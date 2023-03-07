@@ -1,0 +1,17 @@
+{
+  "description": "Signed denominators of the reduced form of the coefficients of degree 2n terms of the Maclaurin series of (t/sinh(t))^x in t.",
+  "id": "A262179",
+  "mentions": [
+    "A202367"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Let f = A008477; nonsquarefree numbers m such that f(m) <> m or f(f(m)) <> m.",
+  "id": "A342973",
+  "mentions": [
+    "A005117",
+    "A008477",
+    "A008478",
+    "A013929",
+    "A062307",
+    "A126706",
+    "A342551"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

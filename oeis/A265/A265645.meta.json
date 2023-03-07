@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = n^2 * floor(n/2).",
+  "id": "A265645",
+  "mentions": [
+    "A000290",
+    "A004526"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:46:03",
+    "offset": 0,
+    "size": 51,
+    "source": "joeis"
+  }
+}

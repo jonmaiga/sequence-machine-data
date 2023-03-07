@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the least k such that k divides Sum_{i=k..k+n-1} A001414(i).",
+  "id": "A355416",
+  "mentions": [
+    "A001414"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:30",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Third column of triangle in A179898.",
+  "id": "A181571",
+  "mentions": [
+    "A005700",
+    "A005701",
+    "A179898"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

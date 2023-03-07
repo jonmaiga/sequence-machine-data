@@ -1,0 +1,19 @@
+{
+  "description": "Denominator of sum(1/(phi(k)sigma(k)),k=1..n), where phi(k) is the totient function and sigma(k) is the sum of the divisors function.",
+  "id": "A104527",
+  "mentions": [
+    "A093827",
+    "A104526"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

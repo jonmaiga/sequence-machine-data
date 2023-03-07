@@ -1,0 +1,20 @@
+{
+  "description": "Number of 2143-avoiding Dumont paths of the 2nd kind of length 2n.",
+  "id": "A123922",
+  "mentions": [
+    "A001469",
+    "A047749"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-12-25 19:14:52",
+    "offset": 0,
+    "size": 24,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Minimal lengths of formulas representing n only using addition, exponentiation and the constant 1.",
+  "id": "A213924",
+  "mentions": [
+    "A003037",
+    "A025280",
+    "A213923",
+    "A214843"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:31",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

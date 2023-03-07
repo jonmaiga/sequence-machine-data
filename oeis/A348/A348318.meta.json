@@ -1,0 +1,25 @@
+{
+  "description": "Number of n-digit Niven (or Harshad) numbers not containing the digit 0.",
+  "id": "A348318",
+  "mentions": [
+    "A005349",
+    "A009994",
+    "A140866",
+    "A217973",
+    "A348150",
+    "A348316",
+    "A348317"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of sum_{n >= 1} sin(1/n^2).",
+  "id": "A248946",
+  "mentions": [
+    "A248945",
+    "A248947",
+    "A248949"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:05",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

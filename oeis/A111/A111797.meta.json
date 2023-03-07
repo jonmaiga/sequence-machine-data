@@ -1,0 +1,25 @@
+{
+  "description": "Triangle T(g, w) = number of rotes of weight g and wayage w.",
+  "id": "A111797",
+  "mentions": [
+    "A001221",
+    "A061396",
+    "A062504",
+    "A062537",
+    "A062860",
+    "A111796",
+    "A111798",
+    "A111800"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

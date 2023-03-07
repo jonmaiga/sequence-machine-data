@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = position of A045392(n) in A042997.",
+  "id": "A179474",
+  "mentions": [
+    "A042997",
+    "A045392"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

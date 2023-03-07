@@ -1,0 +1,22 @@
+{
+  "description": "Numbers with at least two 3s in their prime signature.",
+  "id": "A109399",
+  "mentions": [
+    "A000578",
+    "A001235",
+    "A176297",
+    "A176313",
+    "A176350"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:01",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

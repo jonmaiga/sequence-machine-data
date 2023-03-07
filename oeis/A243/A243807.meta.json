@@ -1,0 +1,19 @@
+{
+  "description": "G.f.: exp( Integral Sum_{n>=1} n!*n^(n-1)*x^(n-1) / Product_{k=1..n} (1+k*n*x) dx ).",
+  "id": "A243807",
+  "mentions": [
+    "A092552",
+    "A243809"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(1)=1, a(2)=...=a(8)=0, a(n) = a(n-8)+a(n-7) for n>8.",
+  "id": "A127842",
+  "mentions": [
+    "A017857"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:55:40",
+    "offset": 1,
+    "size": 79,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Permutation of the positive integers: this permutation transforms the enumeration system of positive irreducible fractions A007305/A047679 (Stern-Brocot) into the enumeration system A162909/A162910 (Bird), and vice versa.",
+  "id": "A258746",
+  "mentions": [
+    "A007305",
+    "A047679",
+    "A054429",
+    "A063946",
+    "A065190",
+    "A092569",
+    "A117120",
+    "A162909",
+    "A162910",
+    "A165199",
+    "A258996"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:16",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

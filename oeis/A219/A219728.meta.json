@@ -1,0 +1,20 @@
+{
+  "description": "Squares of the form x^3 + 2*y^3, with x, y > 0.",
+  "id": "A219728",
+  "mentions": [
+    "A173587",
+    "A219722",
+    "A219725",
+    "A219726"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:37",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

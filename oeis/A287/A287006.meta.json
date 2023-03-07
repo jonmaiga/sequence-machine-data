@@ -1,0 +1,20 @@
+{
+  "description": "a(1) = 1; a(n+1) = Sum_{k=1..n} lcm(a(k),a(n))/a(n).",
+  "id": "A287006",
+  "mentions": [
+    "A056147",
+    "A057661",
+    "A286946"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:59",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

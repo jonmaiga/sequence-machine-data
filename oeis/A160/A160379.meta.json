@@ -1,0 +1,25 @@
+{
+  "description": "Number of ON cells at n-th stage of three-dimensional version of the cellular automaton A160117 using cubes.",
+  "id": "A160379",
+  "mentions": [
+    "A000695",
+    "A116119",
+    "A139250",
+    "A139251",
+    "A160117",
+    "A160118",
+    "A160160"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 17:14:09",
+    "offset": 0,
+    "size": 39,
+    "source": "joeis"
+  }
+}

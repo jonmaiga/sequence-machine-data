@@ -1,0 +1,23 @@
+{
+  "description": "Number of partitions of n into parts of sorts {1, 2, ... } which are introduced in ascending order.",
+  "id": "A258466",
+  "mentions": [
+    "A000110",
+    "A035310",
+    "A256130",
+    "A262496",
+    "A278644",
+    "A319731"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:16",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

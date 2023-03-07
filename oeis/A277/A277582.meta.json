@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of f(-x^5) * f(-x^7) - x * f(-x) * f(-x^35) in powers of q where f() is a Ramanujan theta function.",
+  "id": "A277582",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A010054",
+    "A010815",
+    "A030216",
+    "A121373"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:43",
+    "offset": 0,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

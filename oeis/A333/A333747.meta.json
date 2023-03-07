@@ -1,0 +1,25 @@
+{
+  "description": "Numbers that are either the product of two consecutive primes or two primes with a prime in between.",
+  "id": "A333747",
+  "mentions": [
+    "A000040",
+    "A001358",
+    "A006094",
+    "A090076",
+    "A110654",
+    "A332765",
+    "A332877"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:04",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

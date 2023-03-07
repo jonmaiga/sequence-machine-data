@@ -1,0 +1,32 @@
+{
+  "description": "Triangle read by rows where T(n,k) is the number of labeled simple graphs covering n vertices with cut-connectivity k.",
+  "id": "A327126",
+  "mentions": [
+    "A001187",
+    "A006125",
+    "A006129",
+    "A013922",
+    "A259862",
+    "A322389",
+    "A326786",
+    "A327069",
+    "A327070",
+    "A327114",
+    "A327125",
+    "A327127",
+    "A327198",
+    "A327237"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

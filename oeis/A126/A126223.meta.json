@@ -1,0 +1,19 @@
+{
+  "description": "Number of level steps in all 2-Motzkin paths (i.e., Motzkin paths with blue and red level steps) of length n, without red level steps on the x-axis.",
+  "id": "A126223",
+  "mentions": [
+    "A126222",
+    "A245894"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:14",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

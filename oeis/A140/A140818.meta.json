@@ -1,0 +1,21 @@
+{
+  "description": "Coefficients of Hodge diamond binomial 'X' matrices as polynomials: matrix example; M={{1,0,1}. {0,2,0], {1,0,1}: M(d, x, y)= Sum[Sum[If[n == m, Binomial[d - 1, m - 1], If[n == d - m + 1, Binomial[d - 1, n - 1], 0]]*x^(n - 1)*y^(m - 1), {n, 1, d}], {m, 1, d}] .",
+  "id": "A140818",
+  "mentions": [
+    "A139813",
+    "A140685"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

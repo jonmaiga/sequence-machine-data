@@ -1,0 +1,19 @@
+{
+  "description": "G.f.: Sum_{n>=0} arcsinh(4^n*x)^n/n!, a power series in x having only integer coefficients.",
+  "id": "A141367",
+  "mentions": [
+    "A136647",
+    "A141368"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:30",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-bfile"
+  }
+}

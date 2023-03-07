@@ -1,0 +1,23 @@
+{
+  "description": "Integers k such that the concatenation of k consecutive primes starting at 31 is prime.",
+  "id": "A359406",
+  "mentions": [
+    "A030996",
+    "A069151",
+    "A280894",
+    "A309191"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "changed",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

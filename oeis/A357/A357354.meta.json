@@ -1,0 +1,21 @@
+{
+  "description": "Number of partitions of n into distinct positive squares such that the number of parts is a square.",
+  "id": "A357354",
+  "mentions": [
+    "A000290",
+    "A033461",
+    "A045450",
+    "A089333",
+    "A357352"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:31",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

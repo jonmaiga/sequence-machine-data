@@ -1,0 +1,21 @@
+{
+  "description": "Divisors of 2^1092 - 1.",
+  "id": "A177855",
+  "mentions": [
+    "A000005",
+    "A046801",
+    "A172290",
+    "A172291"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:01",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "The sequence a(n,m) of the m polynomial coefficients of the n-th order B-spline scaled by n!, read by rows, with n in {0,1,2,...} and m in {1,2,3,...,(n+1)^2}.",
+  "id": "A289358",
+  "mentions": [
+    "A007318",
+    "A276321"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:03",
+    "offset": 0,
+    "size": 77,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of 123-avoiding permutations p of [n] (A000108) such that k is maximal with the property that the k largest entries of p, taken in order, avoid 132.",
+  "id": "A273821",
+  "mentions": [
+    "A000108",
+    "A000245",
+    "A071718"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

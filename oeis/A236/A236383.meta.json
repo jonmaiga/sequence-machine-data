@@ -1,0 +1,18 @@
+{
+  "description": "Smallest k such that k^2 is a concatenation of two numbers x and y where y = x + n^2 and x and y have the same number of digits.",
+  "id": "A236383",
+  "mentions": [
+    "A030467"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:54",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

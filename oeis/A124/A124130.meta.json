@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that L_n = a^2 + b^2, where L_n is the n-th Lucas number with a and b integers.",
+  "id": "A124130",
+  "mentions": [
+    "A000032",
+    "A000204",
+    "A001481",
+    "A215809",
+    "A215906",
+    "A215907"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

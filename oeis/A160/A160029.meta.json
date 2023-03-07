@@ -1,0 +1,19 @@
+{
+  "description": "Primes of the form 2^(2^n)+51.",
+  "id": "A160029",
+  "mentions": [
+    "A019434",
+    "A160027",
+    "A160030"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

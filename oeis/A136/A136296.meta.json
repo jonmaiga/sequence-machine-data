@@ -1,0 +1,19 @@
+{
+  "description": "\"Special augmented primes\": primes p such that the decimal number 1p1 is divisible by p.",
+  "id": "A136296",
+  "mentions": [
+    "A000040",
+    "A116436"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

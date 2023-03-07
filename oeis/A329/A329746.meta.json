@@ -1,0 +1,32 @@
+{
+  "description": "Triangle read by rows where T(n,k) is the number of integer partitions of n > 0 with runs-resistance k, 0 <= k <= n - 1.",
+  "id": "A329746",
+  "mentions": [
+    "A000041",
+    "A032741",
+    "A098504",
+    "A182850",
+    "A225485",
+    "A242882",
+    "A318921",
+    "A318928",
+    "A323014",
+    "A325280",
+    "A325410",
+    "A329744",
+    "A329745",
+    "A329747",
+    "A329767"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

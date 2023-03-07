@@ -1,0 +1,18 @@
+{
+  "description": "Squares equal to the sum of the first n primes minus 1.",
+  "id": "A110979",
+  "mentions": [
+    "A007504",
+    "A110997"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

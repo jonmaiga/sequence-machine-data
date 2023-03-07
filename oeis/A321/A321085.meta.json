@@ -1,0 +1,18 @@
+{
+  "description": "O.g.f. A(x) satisfies: [x^n] exp(-n*A(x)) / (1 - n*x - n*x^2) = 0, for n > 0.",
+  "id": "A321085",
+  "mentions": [
+    "A319938",
+    "A321086"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

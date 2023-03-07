@@ -1,0 +1,27 @@
+{
+  "description": "Index of n-th low point in A008348 (see Comments for definition).",
+  "id": "A309226",
+  "mentions": [
+    "A005132",
+    "A008344",
+    "A008348",
+    "A022837",
+    "A076042",
+    "A135025",
+    "A309222",
+    "A324782",
+    "A324783"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

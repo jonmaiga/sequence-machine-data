@@ -1,0 +1,26 @@
+{
+  "description": "Number of ordered set partitions of [n] where equal-sized blocks are ordered with increasing least elements.",
+  "id": "A120774",
+  "mentions": [
+    "A000041",
+    "A032011",
+    "A049019",
+    "A096161",
+    "A096162",
+    "A179233",
+    "A196301",
+    "A285824",
+    "A327244"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:09",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

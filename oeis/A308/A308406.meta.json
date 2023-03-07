@@ -1,0 +1,18 @@
+{
+  "description": "Lexicographically earliest sequence of distinct terms such that reading one-by-one the central digit of each term is the same as reading one-by-one the successive digits of the sequence itself.",
+  "id": "A308406",
+  "mentions": [
+    "A308407"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:32",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

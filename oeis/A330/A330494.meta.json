@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Sum_{k=1..n} (-1)^(n-k) * Stirling1(n,k) * (k-1)! * sigma(k), where sigma = A000203.",
+  "id": "A330494",
+  "mentions": [
+    "A000203",
+    "A330353",
+    "A330354",
+    "A330493",
+    "A330495"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:59",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

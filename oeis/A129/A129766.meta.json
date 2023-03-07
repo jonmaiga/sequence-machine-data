@@ -1,0 +1,23 @@
+{
+  "description": "Triangular array read by rows, made up of traditional exceptional groups plus A1: as A1,G2,F4,E6,E7,E8 as m(i) exponents as in A005556, A005763, A005776.",
+  "id": "A129766",
+  "mentions": [
+    "A005556",
+    "A005763",
+    "A005776"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "fini",
+    "full",
+    "nonn",
+    "tabf",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

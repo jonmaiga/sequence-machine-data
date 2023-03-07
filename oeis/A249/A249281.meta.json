@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of length of one Gaussian year in mean solar days.",
+  "id": "A249281",
+  "mentions": [
+    "A248363"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 3,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "The hyper-Wiener index of the tetrathiafulvalene dendrimer defined pictorially as D[n] in the Shabani reference.",
+  "id": "A224464",
+  "mentions": [
+    "A224463"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 20:49:19",
+    "offset": 1,
+    "size": 15,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Triangle which contains the first differences of the Catalan triangle A001263 constructed along rows.",
+  "id": "A178655",
+  "mentions": [
+    "A000007",
+    "A001263"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:02",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of fixed points under iteration of sum of squares of digits in base b.",
+  "id": "A193583",
+  "mentions": [
+    "A000005",
+    "A002654",
+    "A007770",
+    "A193432"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 2,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

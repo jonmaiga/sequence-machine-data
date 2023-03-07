@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = phi(lcm(1,2,3,...,n)), where phi is Euler's totient function.",
+  "id": "A217863",
+  "mentions": [
+    "A000010",
+    "A003418",
+    "A072211",
+    "A096180",
+    "A173557"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:35",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

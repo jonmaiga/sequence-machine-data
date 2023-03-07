@@ -1,0 +1,18 @@
+{
+  "description": "Number of integer triples (x,y,z) satisfying |x|^3 + |y|^3 + |z|^3 = n, -n <= x,y,z <= n.",
+  "id": "A175365",
+  "mentions": [
+    "A175362"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:59",
+    "offset": 0,
+    "size": 96,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Least number k such that k*n^k + 1 is prime, or 0 if no such number exists.",
+  "id": "A240234",
+  "mentions": [
+    "A089001",
+    "A116954"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

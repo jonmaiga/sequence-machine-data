@@ -1,0 +1,19 @@
+{
+  "description": "Primes p such that theta(p)/p < theta(q)/q for all primes q > p, where theta(x) = log(x#)/x is Chebyshev's theta function and x# is the product of primes <= x, A034386(x).",
+  "id": "A215013",
+  "mentions": [
+    "A034386",
+    "A108310"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:33",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

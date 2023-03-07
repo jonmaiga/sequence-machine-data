@@ -1,0 +1,19 @@
+{
+  "description": "a(1) = 1; skipping over integers occurring earlier in the sequence, count down c(n) (c(n) = n-th composite) from a(n) to get a(n+1). If this is <= 0, instead count up from a(n) c(n) positions (skipping already occurring integers) to get a(n+1).",
+  "id": "A111118",
+  "mentions": [
+    "A002808",
+    "A100298",
+    "A110080"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

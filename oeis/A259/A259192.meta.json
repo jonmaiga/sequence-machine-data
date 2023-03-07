@@ -1,0 +1,21 @@
+{
+  "description": "Triangle, such that the g.f. satisfies: A(x,y) = (1 + x*A(x*y,y)) / (1 - x*A(x*y,y)).",
+  "id": "A259192",
+  "mentions": [
+    "A006318",
+    "A165941"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:17",
+    "offset": 0,
+    "size": 93,
+    "source": "oeis-bfile"
+  }
+}

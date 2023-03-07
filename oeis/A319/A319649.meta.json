@@ -1,0 +1,27 @@
+{
+  "description": "Square array A(n,k), n >= 1, k >= 0, read by antidiagonals: A(n,k) = Sum_{j=1..n} j^k * floor(n/j).",
+  "id": "A319649",
+  "mentions": [
+    "A006218",
+    "A024916",
+    "A064602",
+    "A064603",
+    "A064604",
+    "A082771",
+    "A109974",
+    "A248076",
+    "A319194"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

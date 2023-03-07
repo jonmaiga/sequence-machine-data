@@ -1,0 +1,19 @@
+{
+  "description": "Lexicographically earliest sequence of distinct natural numbers such that, for any number n in the sequence, the positions of the 1's in the binary representation of n are in the sequence, whereas the positions of the 0's are not.",
+  "id": "A229072",
+  "mentions": [
+    "A098645"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:46",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

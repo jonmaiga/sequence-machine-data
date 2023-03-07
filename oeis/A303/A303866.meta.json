@@ -1,0 +1,19 @@
+{
+  "description": "Number of noncrossing path sets on 4*n nodes up to rotation with each path having exactly 4 nodes.",
+  "id": "A303866",
+  "mentions": [
+    "A303864",
+    "A303865",
+    "A303867"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:28",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

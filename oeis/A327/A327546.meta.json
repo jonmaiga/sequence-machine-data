@@ -1,0 +1,26 @@
+{
+  "description": "Indices n of j-points j(n) for successive positive maxima of the Riemann zeta function on critical line.",
+  "id": "A327546",
+  "mentions": [
+    "A114856",
+    "A254297",
+    "A255739",
+    "A255742",
+    "A325932",
+    "A326502",
+    "A326890",
+    "A326891",
+    "A327543"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

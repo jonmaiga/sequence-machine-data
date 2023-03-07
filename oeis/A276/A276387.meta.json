@@ -1,0 +1,22 @@
+{
+  "description": "Write A003512(n) in the base {1, 3, 4, 11, 15, 41, 56, 153, 209, ...} (see A002530).",
+  "id": "A276387",
+  "mentions": [
+    "A002530",
+    "A003511",
+    "A003512",
+    "A276386",
+    "A276388"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:41",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

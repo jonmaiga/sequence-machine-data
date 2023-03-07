@@ -1,0 +1,21 @@
+{
+  "description": "E.g.f. A(x) satisfies: [x^(n-1)] A(x)^(n^4) = [x^n] A(x)^(n^4) for n>=1.",
+  "id": "A296174",
+  "mentions": [
+    "A296170",
+    "A296172",
+    "A296175",
+    "A296176"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:15",
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Irregular triangle T(n,k) read by rows in which row n lists the terms of the 3x+1 trajectory of n, but the row ends when a term is a power of 2 or when a term is less than n, with n >= 1 and k >= 0.",
+  "id": "A347271",
+  "mentions": [
+    "A000079",
+    "A006370",
+    "A014682",
+    "A056959",
+    "A070165",
+    "A235795",
+    "A235800",
+    "A263716",
+    "A347270"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

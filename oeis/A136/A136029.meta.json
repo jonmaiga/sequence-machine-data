@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of central ideals of a garland of order 2n, i.e., a(n) = g(2n,n), where g(n,k) is the number of ideals of size k in a garland (or double fence) of order n (see A137278).",
+  "id": "A136029",
+  "mentions": [
+    "A137278"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 11:48:57",
+    "offset": 0,
+    "size": 31,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Irregular triangle read by rows: T(n,m) = number of lattice paths of type A^H terminating at point (n, m).",
+  "id": "A291081",
+  "mentions": [
+    "A273055"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

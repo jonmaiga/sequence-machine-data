@@ -1,0 +1,18 @@
+{
+  "description": "Least number k such that 2*k+n | sigma(k) + sigma(k+n), -1 if such a number is unknown.",
+  "id": "A281526",
+  "mentions": [
+    "A000203"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

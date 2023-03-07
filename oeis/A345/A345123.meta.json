@@ -1,0 +1,24 @@
+{
+  "description": "Number T(n,k) of ordered subsequences of {1,...,n} containing at least k elements and such that the first differences contain only odd numbers; triangle T(n,k), n>=0, 0<=k<=n, read by rows.",
+  "id": "A345123",
+  "mentions": [
+    "A000071",
+    "A001911",
+    "A001924",
+    "A073044",
+    "A105438",
+    "A340766",
+    "A344004"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:18",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

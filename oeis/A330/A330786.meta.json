@@ -1,0 +1,18 @@
+{
+  "description": "Number of steps to reach 1 by iterating the absolute alternating sum-of-divisors function (A206369).",
+  "id": "A330786",
+  "mentions": [
+    "A206369"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

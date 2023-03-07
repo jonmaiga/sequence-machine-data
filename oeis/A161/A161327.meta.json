@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = A161326(n)/3.",
+  "id": "A161327",
+  "mentions": [
+    "A160120",
+    "A160121",
+    "A161326"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

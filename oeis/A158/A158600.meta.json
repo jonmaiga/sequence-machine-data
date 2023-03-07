@@ -1,0 +1,18 @@
+{
+  "description": "Denominators of x^(2n-1) in the series expansion of Steinhaus's approximate angle trisection.",
+  "id": "A158600",
+  "mentions": [
+    "A158599"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

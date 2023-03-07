@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that the iteration k -> (sigma(k)+phi(k))/2 terminates at a fraction later than at the first step.",
+  "id": "A290001",
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A028982",
+    "A289997",
+    "A290447",
+    "A291790",
+    "A291791"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:04",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

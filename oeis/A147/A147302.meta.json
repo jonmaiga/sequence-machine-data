@@ -1,0 +1,24 @@
+{
+  "description": "Numbers k where records occur in the expression log(k) / log(A147298(k)).",
+  "id": "A147302",
+  "mentions": [
+    "A085152",
+    "A085153",
+    "A147298",
+    "A147299",
+    "A147300",
+    "A147301",
+    "A147307"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

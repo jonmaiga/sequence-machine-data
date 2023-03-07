@@ -1,0 +1,30 @@
+{
+  "description": "Multiples of 9 and odd numbers interleaved.",
+  "id": "A195312",
+  "mentions": [
+    "A001477",
+    "A022998",
+    "A026741",
+    "A080512",
+    "A165998",
+    "A175885",
+    "A195140",
+    "A195151",
+    "A195159",
+    "A195161",
+    "A195313"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:17",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

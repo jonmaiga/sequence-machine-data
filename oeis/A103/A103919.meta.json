@@ -1,0 +1,41 @@
+{
+  "description": "Triangle of numbers of partitions of n with total number of odd parts equal to k from {0,...,n}.",
+  "id": "A103919",
+  "mentions": [
+    "A000041",
+    "A000070",
+    "A000097",
+    "A000098",
+    "A000710",
+    "A000712",
+    "A006330",
+    "A027187",
+    "A035363",
+    "A066897",
+    "A116406",
+    "A152146",
+    "A152157",
+    "A239829",
+    "A239830",
+    "A344607",
+    "A344608",
+    "A344612",
+    "A344649",
+    "A344651",
+    "A344654",
+    "A344739"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:54",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

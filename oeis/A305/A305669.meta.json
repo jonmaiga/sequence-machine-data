@@ -1,0 +1,19 @@
+{
+  "description": "Take the sum of the digits of a number, put it at the left side and delete the same number of digits at the right side. Repeat the process. Sequence lists numbers that reach themselves after some steps.",
+  "id": "A305669",
+  "mentions": [
+    "A007953"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

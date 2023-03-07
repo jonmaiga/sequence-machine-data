@@ -1,0 +1,24 @@
+{
+  "description": "Number of partitions p of n into distinct parts, including floor(mean(p)) or ceiling(mean(p)).",
+  "id": "A241322",
+  "mentions": [
+    "A000009",
+    "A241312",
+    "A241318",
+    "A241319",
+    "A241320",
+    "A241321"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

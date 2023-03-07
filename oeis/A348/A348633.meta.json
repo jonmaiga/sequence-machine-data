@@ -1,0 +1,19 @@
+{
+  "description": "Lexicographically earliest sequence of distinct primes where the concatenation of all terms alternates a 1 digit with a not-1 digit.",
+  "id": "A348633",
+  "mentions": [
+    "A000040",
+    "A276103"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:23",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

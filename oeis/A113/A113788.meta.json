@@ -1,0 +1,22 @@
+{
+  "description": "Number of irreducible multiple zeta values at weight n.",
+  "id": "A113788",
+  "mentions": [
+    "A001608",
+    "A060006",
+    "A125951",
+    "A127687"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:04",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

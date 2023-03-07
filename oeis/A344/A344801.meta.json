@@ -1,0 +1,22 @@
+{
+  "description": "Numbers that are the sum of five squares in eight or more ways.",
+  "id": "A344801",
+  "mentions": [
+    "A025373",
+    "A294742",
+    "A344800",
+    "A344802",
+    "A344812",
+    "A345183"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:18",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

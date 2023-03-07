@@ -1,0 +1,17 @@
+{
+  "description": "2-abelian complexity of the Thue-Morse word (A010060).",
+  "id": "A245186",
+  "mentions": [
+    "A010060"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

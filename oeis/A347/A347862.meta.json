@@ -1,0 +1,18 @@
+{
+  "description": "Total number of polygons left out in all partitions of the set of vertices of a convex n-gon into nonintersecting polygons.",
+  "id": "A347862",
+  "mentions": [
+    "A350116",
+    "A350248"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 3,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

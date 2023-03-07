@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = a(n-1) + p(n) if p(n) > a(n-1), otherwise a(n) = a(n-1) - p(n), where p is the partition function A000041 (assuming a(n) = 0 for n < 0).",
+  "id": "A331165",
+  "mentions": [
+    "A000041",
+    "A008344",
+    "A008345",
+    "A008348",
+    "A076042",
+    "A111466",
+    "A126646",
+    "A327442",
+    "A330725"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:00",
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

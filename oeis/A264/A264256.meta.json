@@ -1,0 +1,17 @@
+{
+  "description": "Number of (n+1)X(7+1) arrays of permutations of 0..n*8+7 with each element having directed index change 0,1 0,-1 0,2 1,0 or -1,0.",
+  "id": "A264256",
+  "mentions": [
+    "A264257"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:24",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

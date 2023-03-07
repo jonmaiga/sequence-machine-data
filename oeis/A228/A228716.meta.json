@@ -1,0 +1,27 @@
+{
+  "description": "Triangle read by rows in which row n lists the rows (including 0's) of the n-th section of the set of partitions (in colexicographic order) of any integer >= n.",
+  "id": "A228716",
+  "mentions": [
+    "A000041",
+    "A006128",
+    "A135010",
+    "A138121",
+    "A138879",
+    "A182703",
+    "A187219",
+    "A207031",
+    "A211992",
+    "A230440"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

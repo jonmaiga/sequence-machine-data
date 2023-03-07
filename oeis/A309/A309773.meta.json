@@ -1,0 +1,18 @@
+{
+  "description": "n directly precedes a(n) in Sharkovskii ordering.",
+  "id": "A309773",
+  "mentions": [
+    "A007814"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 2,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the number of symmetric anti-Hadamard matrices of order n whose sum of the inverse squares of their singular values is maximal.",
+  "id": "A351984",
+  "mentions": [
+    "A005312",
+    "A005313",
+    "A119002",
+    "A351153"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

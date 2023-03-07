@@ -1,0 +1,21 @@
+{
+  "description": "Maximum determinant of an n X n circulant (1,-1)-matrix.",
+  "id": "A215723",
+  "mentions": [
+    "A003433",
+    "A086432",
+    "A215724",
+    "A215897"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

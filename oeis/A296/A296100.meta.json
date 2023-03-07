@@ -1,0 +1,20 @@
+{
+  "description": "Number of maximum cliques in the n-Keller graph.",
+  "id": "A296100",
+  "mentions": [
+    "A202604",
+    "A295902",
+    "A296101"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

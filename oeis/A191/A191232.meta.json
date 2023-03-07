@@ -1,0 +1,21 @@
+{
+  "description": "Concatenation of primes written in base 2 (A004676).",
+  "id": "A191232",
+  "mentions": [
+    "A004676",
+    "A033308",
+    "A066747",
+    "A190480"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:28",
+    "offset": 1,
+    "size": 92,
+    "source": "joeis"
+  }
+}

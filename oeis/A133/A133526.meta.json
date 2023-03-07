@@ -1,0 +1,24 @@
+{
+  "description": "Sum of fourth powers of four consecutive primes.",
+  "id": "A133526",
+  "mentions": [
+    "A030514",
+    "A034963",
+    "A133524",
+    "A133525",
+    "A133527",
+    "A133528",
+    "A133531"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:21",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

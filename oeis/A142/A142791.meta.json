@@ -1,0 +1,19 @@
+{
+  "description": "Primes congruent to 29 mod 60.",
+  "id": "A142791",
+  "mentions": [
+    "A000040"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:28:35",
+    "offset": 1,
+    "size": 45,
+    "source": "joeis"
+  }
+}

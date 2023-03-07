@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the dot product of the vectors of the first n primes and the next n primes.",
+  "id": "A337574",
+  "mentions": [
+    "A000040",
+    "A033994",
+    "A337573"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:09",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

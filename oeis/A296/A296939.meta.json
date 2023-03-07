@@ -1,0 +1,28 @@
+{
+  "description": "Expansion of e.g.f. sec(x*tan(x/2)) (even powers only).",
+  "id": "A296939",
+  "mentions": [
+    "A000364",
+    "A001469",
+    "A009010",
+    "A110501",
+    "A296839",
+    "A296841",
+    "A296842",
+    "A296853",
+    "A296854",
+    "A296856",
+    "A296940"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:56:19",
+    "offset": 0,
+    "size": 17,
+    "source": "joeis"
+  }
+}

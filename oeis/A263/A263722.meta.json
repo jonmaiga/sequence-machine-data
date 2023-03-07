@@ -1,0 +1,26 @@
+{
+  "description": "Integers k > 0 such that k^2 + p^2 is composite for all primes p.",
+  "id": "A263722",
+  "mentions": [
+    "A002313",
+    "A007591",
+    "A045637",
+    "A062324",
+    "A185086",
+    "A240130",
+    "A240131",
+    "A263466",
+    "A263726",
+    "A263977"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

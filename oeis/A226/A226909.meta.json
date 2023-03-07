@@ -1,0 +1,20 @@
+{
+  "description": "Number of placements of brackets in a monomial of degree n in an algebra with two commutative multiplications.",
+  "id": "A226909",
+  "mentions": [
+    "A001190",
+    "A241555"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

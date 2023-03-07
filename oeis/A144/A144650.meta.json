@@ -1,0 +1,27 @@
+{
+  "description": "Triangle read by rows where T(m,n) = 2m*n + m + n + 1.",
+  "id": "A144650",
+  "mentions": [
+    "A003307",
+    "A016789",
+    "A016885",
+    "A017029",
+    "A017221",
+    "A017461",
+    "A104275",
+    "A160378"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:45:05",
+    "offset": 1,
+    "size": 66,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Prime numbers p such that p^2 divides 41^(p-1) - 1.",
+  "id": "A331427",
+  "mentions": [
+    "A001220",
+    "A014127",
+    "A039951",
+    "A090968",
+    "A123692",
+    "A123693",
+    "A128667",
+    "A128668",
+    "A128669",
+    "A331424",
+    "A331426"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

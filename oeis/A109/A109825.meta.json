@@ -1,0 +1,18 @@
+{
+  "description": "Initial terms of groups in the partition of the sequence of natural numbers A109411.",
+  "id": "A109825",
+  "mentions": [
+    "A109411",
+    "A109826"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

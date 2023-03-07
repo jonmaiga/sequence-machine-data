@@ -1,0 +1,22 @@
+{
+  "description": "Number of prime knots up to nine crossings with determinant 2n+1 and signature 6.",
+  "id": "A172486",
+  "mentions": [
+    "A002863",
+    "A172184",
+    "A172293",
+    "A172441"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

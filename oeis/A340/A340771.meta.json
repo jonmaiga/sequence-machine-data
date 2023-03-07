@@ -1,0 +1,18 @@
+{
+  "description": "Numbers which are the sum of some number of consecutive prime squares.",
+  "id": "A340771",
+  "mentions": [
+    "A001248",
+    "A034707"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

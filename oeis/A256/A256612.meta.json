@@ -1,0 +1,30 @@
+{
+  "description": "Decimal expansion of log(Gamma(1/10)).",
+  "id": "A256612",
+  "mentions": [
+    "A155968",
+    "A255306",
+    "A255888",
+    "A256066",
+    "A256165",
+    "A256166",
+    "A256167",
+    "A256609",
+    "A256610",
+    "A256611",
+    "A256614",
+    "A256615",
+    "A256616"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 1,
+    "size": 104,
+    "source": "oeis-bfile"
+  }
+}

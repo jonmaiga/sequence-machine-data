@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = lcm(n!,n!')/gcd(n!,n!'), where n!' is the arithmetic derivative of n! (A068311).",
+  "id": "A189100",
+  "mentions": [
+    "A000142",
+    "A068311",
+    "A083346",
+    "A085731",
+    "A086130"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:13",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

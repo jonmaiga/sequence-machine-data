@@ -1,0 +1,21 @@
+{
+  "description": "Sum of positive even numbers up to n^2.",
+  "id": "A235367",
+  "mentions": [
+    "A002620",
+    "A083374",
+    "A110660"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:27:59",
+    "offset": 1,
+    "size": 42,
+    "source": "joeis"
+  }
+}

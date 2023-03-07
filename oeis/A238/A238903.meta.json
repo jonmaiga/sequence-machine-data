@@ -1,0 +1,21 @@
+{
+  "description": "Integers n such that (n^2+(n+1)^2) has no square proper substring.",
+  "id": "A238903",
+  "mentions": [
+    "A001844",
+    "A130448",
+    "A238334",
+    "A238335"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

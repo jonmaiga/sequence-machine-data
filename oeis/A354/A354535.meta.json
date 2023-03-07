@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of different tile sizes after n iterations of the \"Square Multiscale\" substitution.",
+  "id": "A354535",
+  "mentions": [
+    "A329919",
+    "A329927"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:29",
+    "offset": 0,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

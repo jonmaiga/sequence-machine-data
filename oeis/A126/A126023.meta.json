@@ -1,0 +1,20 @@
+{
+  "description": "a(0)=0, a(1)=1; for n>1, a(n) = a(n-1)*(a(n-1)+a(n-2)).",
+  "id": "A126023",
+  "mentions": [
+    "A064183",
+    "A072042"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

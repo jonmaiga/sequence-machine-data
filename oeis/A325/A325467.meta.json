@@ -1,0 +1,31 @@
+{
+  "description": "Heinz numbers of integer partitions y such that the k-th differences of y are distinct (independently) for all k >= 0.",
+  "id": "A325467",
+  "mentions": [
+    "A005117",
+    "A056239",
+    "A112798",
+    "A301899",
+    "A319315",
+    "A325325",
+    "A325366",
+    "A325367",
+    "A325368",
+    "A325397",
+    "A325398",
+    "A325399",
+    "A325400",
+    "A325405",
+    "A325468"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "E.g.f.: Sum_{n>=0} x^n * exp(n^2*x).",
+  "id": "A193421",
+  "mentions": [
+    "A006153",
+    "A193467"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

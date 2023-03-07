@@ -1,0 +1,18 @@
+{
+  "description": "First value for longest side common to exactly n primitive Heronian triangles.",
+  "id": "A120130",
+  "mentions": [
+    "A120131",
+    "A306626"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:09",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

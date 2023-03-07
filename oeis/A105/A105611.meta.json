@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the LCM of the Jacobsthal sequence {J(1),...,J(n)}.",
+  "id": "A105611",
+  "mentions": [
+    "A001045"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

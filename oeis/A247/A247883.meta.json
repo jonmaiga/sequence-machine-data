@@ -1,0 +1,18 @@
+{
+  "description": "Consecutive exclusionary cubes: Digits of n are not present in n^3 and digits of n+1 are not present in n+1.",
+  "id": "A247883",
+  "mentions": [
+    "A029785"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

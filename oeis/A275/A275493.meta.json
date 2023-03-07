@@ -1,0 +1,24 @@
+{
+  "description": "Number of primitive weird numbers (A002975) below 2^n.",
+  "id": "A275493",
+  "mentions": [
+    "A002975",
+    "A006037",
+    "A258333",
+    "A258882",
+    "A275491",
+    "A275492",
+    "A275494"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

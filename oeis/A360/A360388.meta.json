@@ -1,0 +1,20 @@
+{
+  "description": "Positive integers with binary expansion (b(1), ..., b(m)) such that Sum_{i = 1..m-k} b(i)*b(i+k) is odd for all k = 0..m-1.",
+  "id": "A360388",
+  "mentions": [
+    "A030101",
+    "A053006",
+    "A092246"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

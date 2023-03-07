@@ -1,0 +1,19 @@
+{
+  "description": "Conjectured record-breaking maximal values, for ascending positive integers k, of the minimal elements of the primitive cycles of positive integers under iteration by the Collatz-like 3x+k function.",
+  "id": "A226665",
+  "mentions": [
+    "A226607",
+    "A226666",
+    "A226681"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

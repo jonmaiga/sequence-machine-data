@@ -1,0 +1,23 @@
+{
+  "description": "The number of antichains in the Tamari lattice of order n.",
+  "id": "A358562",
+  "mentions": [
+    "A000372",
+    "A027686",
+    "A143673",
+    "A302250",
+    "A358391"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

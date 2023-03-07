@@ -1,0 +1,25 @@
+{
+  "description": "Rectangular array (T(n,k)), by downward antidiagonals: T(n,k) = position of k in the ordering of {h*r^m, r = 1/(golden ratio), h >= 1, 0 <= m <= n}.",
+  "id": "A347068",
+  "mentions": [
+    "A001950",
+    "A020956",
+    "A190508",
+    "A283234",
+    "A347065",
+    "A347066",
+    "A347067",
+    "A347069"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

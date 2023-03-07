@@ -1,0 +1,22 @@
+{
+  "description": "Number of ways to place n nonattacking ferses on an n X n board.",
+  "id": "A201861",
+  "mentions": [
+    "A002465",
+    "A067965",
+    "A201243",
+    "A201248"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Refactorable numbers (or tau numbers, A033950) k such that k/tau(k) is even, where tau(k) = A000005(k).",
+  "id": "A341781",
+  "mentions": [
+    "A000005",
+    "A000720",
+    "A033950",
+    "A036762",
+    "A039819",
+    "A281188"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:14",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

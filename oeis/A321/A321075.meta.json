@@ -1,0 +1,25 @@
+{
+  "description": "Digits of one of the two 11-adic integers sqrt(3).",
+  "id": "A321075",
+  "mentions": [
+    "A051277",
+    "A174253",
+    "A321073",
+    "A321074",
+    "A714196",
+    "A771916"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:43",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "Numbers k such that k is strictly greater than f(k), where f(k) = 1 if k is prime, 2 * rad(k) if 4 divides k and rad(k) otherwise.",
+  "id": "A144100",
+  "mentions": [
+    "A000040",
+    "A007947",
+    "A013929",
+    "A071139",
+    "A082377",
+    "A086486",
+    "A089352",
+    "A133810",
+    "A133811",
+    "A144907"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

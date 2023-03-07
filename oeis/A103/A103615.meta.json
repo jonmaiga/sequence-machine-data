@@ -1,0 +1,23 @@
+{
+  "description": "Number of zeros in A103542(n) (binary equivalent of A102370(n)).",
+  "id": "A103615",
+  "mentions": [
+    "A023416",
+    "A089400",
+    "A102370",
+    "A103542"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

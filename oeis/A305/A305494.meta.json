@@ -1,0 +1,19 @@
+{
+  "description": "Let s(D) = Sum_{(a,b,c)} j((-b+sqrt(D))/(2*a)) where (a,b,c) is taken over all the primitive reduced binary quadratic forms a*x^2+b*xy+c*y^2 with b^2-4*ac = D. This sequence is s(D) as D runs through the numbers -3, -4, -7, -8, -11, -12, ... .",
+  "id": "A305494",
+  "mentions": [
+    "A014601",
+    "A032354",
+    "A305474"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:30",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

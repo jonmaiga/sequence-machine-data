@@ -1,0 +1,19 @@
+{
+  "description": "Sum of base and exponent of prime powers.",
+  "id": "A112376",
+  "mentions": [
+    "A008474",
+    "A064438",
+    "A112375"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

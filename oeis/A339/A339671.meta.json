@@ -1,0 +1,23 @@
+{
+  "description": "a(1) = 1, a(2) = 2; for n>2, a(n) = smallest number not already used that shares a prime factor with a(n-1) and has a prime factor not in a(n-2).",
+  "id": "A339671",
+  "mentions": [
+    "A020639",
+    "A064413",
+    "A098550",
+    "A169837",
+    "A255582",
+    "A336957",
+    "A339670"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

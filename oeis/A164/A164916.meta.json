@@ -1,0 +1,24 @@
+{
+  "description": "Denominators of a BBP series for Pi/4.",
+  "id": "A164916",
+  "mentions": [
+    "A048581",
+    "A066968",
+    "A154925",
+    "A154962",
+    "A156269",
+    "A157142"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:47",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

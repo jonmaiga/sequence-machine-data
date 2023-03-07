@@ -1,0 +1,17 @@
+{
+  "description": "4^(n+1)^2 - 3.",
+  "id": "A237419",
+  "mentions": [
+    "A141725"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:54",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-bfile"
+  }
+}

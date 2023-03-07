@@ -1,0 +1,25 @@
+{
+  "description": "Numerators of T(n,k), n>=0, 0<=k<=n, read by rows: T(n,k) is the coefficient of x^(2k+1) in polynomial t_n(x), used to define continuous and n times differentiable sigmoidal transfer functions.",
+  "id": "A144815",
+  "mentions": [
+    "A001790",
+    "A001803",
+    "A144702",
+    "A144703",
+    "A144816"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "frac",
+    "look",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

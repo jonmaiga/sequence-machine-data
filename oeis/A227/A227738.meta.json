@@ -1,0 +1,32 @@
+{
+  "description": "Irregular table read by rows: each row n (n>=1) lists the positions where the runs of bits change between 0's and 1's in the binary expansion of n, when scanning it from the least significant to the most significant end.",
+  "id": "A227738",
+  "mentions": [
+    "A003188",
+    "A005811",
+    "A101211",
+    "A136480",
+    "A227188",
+    "A227192",
+    "A227736",
+    "A227737",
+    "A227739",
+    "A227740",
+    "A318926",
+    "A318927",
+    "A360287"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 89,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of rooted maps with n edges whose core comprises k edges, 1 <= k <= n.",
+  "id": "A318106",
+  "mentions": [
+    "A000139",
+    "A000168"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:38",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

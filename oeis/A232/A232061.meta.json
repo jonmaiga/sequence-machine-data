@@ -1,0 +1,18 @@
+{
+  "description": "Number of nX4 0..2 arrays with every 0 next to a 1 and every 1 next to a 2 horizontally or vertically, with no adjacent values equal",
+  "id": "A232061",
+  "mentions": [
+    "A232065"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:50",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

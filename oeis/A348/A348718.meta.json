@@ -1,0 +1,24 @@
+{
+  "description": "Numbers whose divisors can be partitioned into two disjoint sets without singletons whose arithmetic means are both integers.",
+  "id": "A348718",
+  "mentions": [
+    "A003601",
+    "A027750",
+    "A057020",
+    "A057021",
+    "A080257",
+    "A083207",
+    "A343311",
+    "A348715"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:23",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Triangle, read by rows, where T(n,k) = C( C(n+2,3) - C(k+2,3) + 2, n-k) for n>=k>=0.",
+  "id": "A126454",
+  "mentions": [
+    "A107870",
+    "A126445",
+    "A126450",
+    "A126455",
+    "A126456",
+    "A126457",
+    "A126460",
+    "A126465"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

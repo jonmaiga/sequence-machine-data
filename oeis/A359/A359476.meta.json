@@ -1,0 +1,20 @@
+{
+  "description": "The sequence {-a(n)}_{n>=1} gives all negative integers that are properly represented by each primitive binary quadratic forms of discriminant 28 that is properly equivalent to the reduced principal form [1, 4, -3].",
+  "id": "A359476",
+  "mentions": [
+    "A242666",
+    "A358946",
+    "A358947",
+    "A359477"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

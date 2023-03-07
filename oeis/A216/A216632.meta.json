@@ -1,0 +1,17 @@
+{
+  "description": "Number of nondecreasing arrays of n 0..n-1 integers with the sum of their 4th powers equal to sum(i^4,i=0..n-1)",
+  "id": "A216632",
+  "mentions": [
+    "A216635"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

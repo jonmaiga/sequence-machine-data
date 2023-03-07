@@ -1,0 +1,23 @@
+{
+  "description": "Numbers such that n+R(n) | n*R(n), where R(n) is the digits reverse of n.",
+  "id": "A277258",
+  "mentions": [
+    "A004086",
+    "A029951",
+    "A056964",
+    "A061205",
+    "A131058"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

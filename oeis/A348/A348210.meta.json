@@ -1,0 +1,28 @@
+{
+  "description": "Varma's Kosta numbers of semi-standard tableaux: array A(n>=2, k>=0) read by rising antidiagonals.",
+  "id": "A348210",
+  "mentions": [
+    "A005043",
+    "A005408",
+    "A005891",
+    "A005917",
+    "A007043",
+    "A012249",
+    "A264608",
+    "A272393",
+    "A348211"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 2,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

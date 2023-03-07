@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Sum_{k=0..floor(n/5)} (-1)^k * binomial(n-4*k,k) * Catalan(k).",
+  "id": "A360027",
+  "mentions": [
+    "A000108",
+    "A346074",
+    "A360024",
+    "A360025",
+    "A360026"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:34",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

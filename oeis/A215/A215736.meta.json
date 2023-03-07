@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the first digit to appear n times in succession in a power of 7.",
+  "id": "A215736",
+  "mentions": [
+    "A045875",
+    "A215730",
+    "A215732"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

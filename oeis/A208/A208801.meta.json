@@ -1,0 +1,17 @@
+{
+  "description": "Number of n-bead necklaces labeled with numbers -4..4 allowing reversal, with sum zero and three times sum of squares <= n*(4)*(4+1).",
+  "id": "A208801",
+  "mentions": [
+    "A208805"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:28",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

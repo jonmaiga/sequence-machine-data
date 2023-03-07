@@ -1,0 +1,20 @@
+{
+  "description": "Numbers that are representable in at least two ways as sums of four distinct nonvanishing cubes.",
+  "id": "A259060",
+  "mentions": [
+    "A259058",
+    "A261241"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:03:01",
+    "offset": 0,
+    "size": 33,
+    "source": "joeis"
+  }
+}

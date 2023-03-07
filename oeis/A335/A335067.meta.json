@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k where records occur for sigma(k+1)/sigma(k), where sigma(k) is the sum of divisors of k (A000203).",
+  "id": "A335067",
+  "mentions": [
+    "A000203",
+    "A282531",
+    "A326393",
+    "A335068"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

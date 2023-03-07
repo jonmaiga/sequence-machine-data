@@ -1,0 +1,20 @@
+{
+  "description": "Democratic primes: primes such that the left half of the prime is prime and the right half is not.",
+  "id": "A125523",
+  "mentions": [
+    "A125524",
+    "A125525"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 2,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

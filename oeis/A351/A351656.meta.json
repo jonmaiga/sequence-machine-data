@@ -1,0 +1,24 @@
+{
+  "description": "Dirichlet g.f.: Product_{p prime} 1 / (1 - p^(-s) - p^(-2*s) - p^(-3*s) - p^(-4*s)).",
+  "id": "A351656",
+  "mentions": [
+    "A000078",
+    "A351219",
+    "A351346",
+    "A351347",
+    "A351348",
+    "A351655"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

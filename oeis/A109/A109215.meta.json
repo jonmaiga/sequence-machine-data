@@ -1,0 +1,18 @@
+{
+  "description": "Smallest factor of 3^(2n)+(2n)^3.",
+  "id": "A109215",
+  "mentions": [
+    "A109216"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

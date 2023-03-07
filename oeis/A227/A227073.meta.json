@@ -1,0 +1,20 @@
+{
+  "description": "Positive numbers without the digit 0 such that sum of cubes of the digits equals the square of the sum of the digits.",
+  "id": "A227073",
+  "mentions": [
+    "A225567",
+    "A227072"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

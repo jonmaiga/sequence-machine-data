@@ -1,0 +1,20 @@
+{
+  "description": "a(0) = 1; thereafter a(n) = A144422(n)/n.",
+  "id": "A144906",
+  "mentions": [
+    "A001515",
+    "A105749",
+    "A144422",
+    "A144905"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

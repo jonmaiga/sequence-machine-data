@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that A055023(k) != A323071(k), where A323071(k) = gcd(k, 1+A060681(k)).",
+  "id": "A323070",
+  "mentions": [
+    "A055023",
+    "A055032",
+    "A060681",
+    "A323071",
+    "A323072"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

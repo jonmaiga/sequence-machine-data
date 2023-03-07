@@ -1,0 +1,32 @@
+{
+  "description": "Consider the array T(n, m) where the n-th row is the sequence of integer coefficients of A(x), where 1<=a(n)<=n, such that A(x)^(1/n) consists entirely of integer coefficients and where m is the (m+1)-th coefficient. This is the antidiagonal read zig-zag.",
+  "id": "A111604",
+  "mentions": [
+    "A083945",
+    "A083946",
+    "A083947",
+    "A083948",
+    "A083949",
+    "A083950",
+    "A083952",
+    "A083953",
+    "A083954",
+    "A084066",
+    "A084067",
+    "A109626",
+    "A111603",
+    "A111613",
+    "A111627"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-entry"
+  }
+}

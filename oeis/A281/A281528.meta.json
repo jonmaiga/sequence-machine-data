@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = least numerator k such that the proper fraction k/n needs three or more terms as a signed sum of distinct unit fraction, or 0 if no such numerator exists.",
+  "id": "A281528",
+  "mentions": [
+    "A281527"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 2,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

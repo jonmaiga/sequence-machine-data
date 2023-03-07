@@ -1,0 +1,26 @@
+{
+  "description": "Nonnegative integers n containing each digit between n's smallest and largest decimal digits.",
+  "id": "A134336",
+  "mentions": [
+    "A010785",
+    "A032981",
+    "A033075",
+    "A050278",
+    "A108965",
+    "A171102",
+    "A178403"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

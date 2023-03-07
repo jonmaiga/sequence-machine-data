@@ -1,0 +1,19 @@
+{
+  "description": "Regular triangle: T(n, k) Manhattan distance between n and k in a left-aligned triangle with next M natural numbers in row M.",
+  "id": "A236459",
+  "mentions": [
+    "A051162",
+    "A236345"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

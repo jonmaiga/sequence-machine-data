@@ -1,0 +1,20 @@
+{
+  "description": "Analog of A244020, but starting with 6 points instead of 4.",
+  "id": "A244023",
+  "mentions": [
+    "A140468",
+    "A244020",
+    "A244026"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

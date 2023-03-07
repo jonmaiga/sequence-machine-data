@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of e+gamma+Pi+phi, where gamma is the Euler-Mascheroni constant and phi is the golden ratio.",
+  "id": "A135001",
+  "mentions": [
+    "A000796",
+    "A001113",
+    "A001620",
+    "A001622",
+    "A133055"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:40",
+    "offset": 1,
+    "size": 100,
+    "source": "joeis"
+  }
+}

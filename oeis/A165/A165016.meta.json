@@ -1,0 +1,29 @@
+{
+  "description": "List of fixed points of the base-4 Kaprekar map A165012",
+  "id": "A165016",
+  "mentions": [
+    "A099009",
+    "A163205",
+    "A164997",
+    "A165012",
+    "A165017",
+    "A165019",
+    "A165027",
+    "A165036",
+    "A165055",
+    "A165075",
+    "A165094",
+    "A165114"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:47",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

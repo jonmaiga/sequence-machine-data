@@ -1,0 +1,26 @@
+{
+  "description": "Nonunitary doubly superperfect numbers: numbers k such that nusigma(nusigma(k)) = 2*k, where nusigma(k) = sigma(k) - usigma(k) is the sum of nonunitary divisors of k (A048146).",
+  "id": "A329881",
+  "mentions": [
+    "A000043",
+    "A000396",
+    "A019279",
+    "A034448",
+    "A038843",
+    "A048146",
+    "A064592",
+    "A328120",
+    "A329884"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

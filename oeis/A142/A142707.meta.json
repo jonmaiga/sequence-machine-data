@@ -1,0 +1,20 @@
+{
+  "description": "Coefficients of derivatives of MacMahon polynomials (A060187): p(x,n)=2^n*(1 - x)^(1 + n)*LerchPhi[x, -n, 1/2]; p'(x,n)=(d/dx)p{x,n).",
+  "id": "A142707",
+  "mentions": [
+    "A014479",
+    "A060187"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

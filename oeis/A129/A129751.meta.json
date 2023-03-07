@@ -1,0 +1,19 @@
+{
+  "description": "The natural numbers represented by their set theoretic Von Neumann construction, where the empty set is replaced by '0', the left set bracket '{' is replaced by 1, the right bracket '}' is replaced by 2 and the set construct contents are ordered by increasing cardinality.",
+  "id": "A129751",
+  "mentions": [
+    "A129754"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

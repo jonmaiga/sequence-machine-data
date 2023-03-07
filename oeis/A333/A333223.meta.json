@@ -1,0 +1,45 @@
+{
+  "description": "Numbers k such that every distinct consecutive subsequence of the k-th composition in standard order has a different sum.",
+  "id": "A333223",
+  "mentions": [
+    "A000120",
+    "A003022",
+    "A029931",
+    "A048793",
+    "A059519",
+    "A066099",
+    "A070939",
+    "A103295",
+    "A108917",
+    "A124770",
+    "A124771",
+    "A143823",
+    "A169942",
+    "A233564",
+    "A275972",
+    "A299702",
+    "A325676",
+    "A325680",
+    "A325683",
+    "A325687",
+    "A325768",
+    "A325769",
+    "A325770",
+    "A325778",
+    "A325779",
+    "A333217",
+    "A333222",
+    "A333224",
+    "A333257"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(1) = 11; for n >= 1, a(n+1) is obtained by replacing the k-th digit of a(n) with the sum of all the less significant digits starting from the k-th digit.",
+  "id": "A110402",
+  "mentions": [
+    "A110403"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Numbers m such that floor(m/2) is a square.",
+  "id": "A247375",
+  "mentions": [
+    "A001105",
+    "A055792",
+    "A058331",
+    "A130404",
+    "A213037"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:03",
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

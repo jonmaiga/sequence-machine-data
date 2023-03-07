@@ -1,0 +1,25 @@
+{
+  "description": "Let f(n) = exp(Pi*sqrt(n)); sequence gives numbers n such that f(n) - floor(f(n)) < 1/10^4.",
+  "id": "A127029",
+  "mentions": [
+    "A035484",
+    "A127022",
+    "A127023",
+    "A127024",
+    "A127025",
+    "A127026",
+    "A127027",
+    "A127028",
+    "A127030"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

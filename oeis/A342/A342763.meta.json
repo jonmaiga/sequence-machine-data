@@ -1,0 +1,17 @@
+{
+  "description": "Fold a square sheet of paper alternately vertically to the left and horizontally downwards; after each fold, draw a line along each inward crease; after n folds, the resulting graph has a(n) regions with minimal area.",
+  "id": "A342763",
+  "mentions": [
+    "A342759"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

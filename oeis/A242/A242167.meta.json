@@ -1,0 +1,21 @@
+{
+  "description": "Number of length n binary words that contain 000 and 001 and 010 and 011 and 100 and 101 and 110 and 111 as contiguous subsequences. The 3 letter subsequences are allowed to overlap.",
+  "id": "A242167",
+  "mentions": [
+    "A242206",
+    "A242257",
+    "A242323",
+    "A243882"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 10,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

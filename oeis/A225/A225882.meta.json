@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that core(k) is equal to the sum of the proper square divisors of k, where core(k) = A007913(k).",
+  "id": "A225882",
+  "mentions": [
+    "A007913",
+    "A035316",
+    "A225880",
+    "A225881"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{k=0..n} (-1)^k * binomial(5*k,n-k) * Catalan(k).",
+  "id": "A360086",
+  "mentions": [
+    "A000108",
+    "A360084",
+    "A360085"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

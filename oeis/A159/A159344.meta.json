@@ -1,0 +1,25 @@
+{
+  "description": "Number of Hamiltonian cycles in the n-hypercube up to automorphism.",
+  "id": "A159344",
+  "mentions": [
+    "A000165",
+    "A003042",
+    "A006069",
+    "A066037",
+    "A091302"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "description": "Unsorted q-signature of n!. Irregular triangle read by rows where T(n,k) is the multiplicity of q(k) in the factorization of n! into factors q(i) = prime(i)/i.",
+  "id": "A325609",
+  "mentions": [
+    "A000142",
+    "A000720",
+    "A007097",
+    "A011371",
+    "A022559",
+    "A056239",
+    "A061775",
+    "A067255",
+    "A071626",
+    "A109129",
+    "A112798",
+    "A115627",
+    "A118914",
+    "A124010",
+    "A196050",
+    "A317713",
+    "A324922",
+    "A324923",
+    "A324924",
+    "A324935",
+    "A325276",
+    "A325543",
+    "A325544",
+    "A325614",
+    "A325615",
+    "A325660"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-entry"
+  }
+}

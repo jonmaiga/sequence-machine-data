@@ -1,0 +1,21 @@
+{
+  "description": "Permutation of the integers: 3 positives, 2 negatives.",
+  "id": "A166871",
+  "mentions": [
+    "A001057",
+    "A016578",
+    "A166711"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:41:07",
+    "offset": 0,
+    "size": 68,
+    "source": "joeis"
+  }
+}

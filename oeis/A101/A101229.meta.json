@@ -1,0 +1,24 @@
+{
+  "description": "Perfect inverse \"3x+1 conjecture\" (See comments for rules).",
+  "id": "A101229",
+  "mentions": [
+    "A003953",
+    "A006577",
+    "A006666",
+    "A006667",
+    "A070165",
+    "A070167"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:52",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

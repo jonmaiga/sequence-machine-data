@@ -1,0 +1,21 @@
+{
+  "description": "Primes p == 1 (mod 3) such that ((p-1)/3)! == 1 (mod p).",
+  "id": "A152217",
+  "mentions": [
+    "A002407",
+    "A003215",
+    "A055939",
+    "A058302"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

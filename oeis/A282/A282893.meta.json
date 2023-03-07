@@ -1,0 +1,25 @@
+{
+  "description": "The difference between the number of partitions of 2n into odd parts (A000009) and the number of partitions of 2n into even parts (A035363).",
+  "id": "A282893",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A010815",
+    "A035294",
+    "A035363",
+    "A078408",
+    "A214264",
+    "A282892"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:53",
+    "offset": 0,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

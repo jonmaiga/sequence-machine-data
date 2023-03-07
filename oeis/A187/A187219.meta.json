@@ -1,0 +1,28 @@
+{
+  "description": "Number of partitions of n that do not contain parts less than the smallest part of the partitions of n-1.",
+  "id": "A187219",
+  "mentions": [
+    "A000041",
+    "A002865",
+    "A083751",
+    "A135010",
+    "A186114",
+    "A193870",
+    "A194799",
+    "A206437",
+    "A225600",
+    "A225610"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "changed",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:12",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

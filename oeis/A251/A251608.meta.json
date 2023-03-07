@@ -1,0 +1,19 @@
+{
+  "description": "Lexicographically earliest subsequence of the Fibonacci numbers (cf. A000045), such that gcd(a(n-2), a(n)) > 1 and gcd(a(n-1), a(n)) = 1.",
+  "id": "A251608",
+  "mentions": [
+    "A000045",
+    "A098550",
+    "A249357"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:09",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

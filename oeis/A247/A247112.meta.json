@@ -1,0 +1,22 @@
+{
+  "description": "Floor of sums of the cubes of the non-integer square roots of n, as partitioned by the integer roots: floor( sum( j from n^2+1 to (n+1)^2-1, j^(3/2) ) ).",
+  "id": "A247112",
+  "mentions": [
+    "A014105",
+    "A248575",
+    "A248621",
+    "A248698"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:02:39",
+    "offset": 0,
+    "size": 35,
+    "source": "joeis"
+  }
+}

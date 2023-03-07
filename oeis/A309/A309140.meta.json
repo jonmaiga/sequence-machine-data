@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that k^(k + 1) + k - 1 is prime.",
+  "id": "A309140",
+  "mentions": [
+    "A155499",
+    "A268987"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Length of largest (i.e., leftmost) Lyndon word in Lyndon factorization of binary vectors of lengths 1, 2, 3, ...",
+  "id": "A211098",
+  "mentions": [
+    "A001037",
+    "A102659",
+    "A211095",
+    "A211096",
+    "A211097",
+    "A211099",
+    "A211100"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 121,
+    "source": "oeis-entry"
+  }
+}

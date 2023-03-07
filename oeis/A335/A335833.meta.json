@@ -1,0 +1,24 @@
+{
+  "description": "Triangle read by rows. T(n,k) is the number of full binary trees with n leaves and with k internal nodes whose left and right children have the same number of leaf descendants, where n > 0 and 0 <= k < n.",
+  "id": "A335833",
+  "mentions": [
+    "A000012",
+    "A000992",
+    "A002620",
+    "A011371",
+    "A096351",
+    "A268289"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

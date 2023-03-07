@@ -1,0 +1,21 @@
+{
+  "description": "Number of integers x smaller than n and that satisfy sigma(x)/x > sigma(n)/n where sigma is the sum of divisors.",
+  "id": "A247015",
+  "mentions": [
+    "A000203",
+    "A004394",
+    "A017665",
+    "A017666"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:03",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

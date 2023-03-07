@@ -1,0 +1,25 @@
+{
+  "description": "Expansion of phi(-x) * f(-x^2)^3 / f(-x^3) in powers of x where phi(), f() are Ramanujan theta functions.",
+  "id": "A263501",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A010054",
+    "A010815",
+    "A121373",
+    "A212907",
+    "A263456",
+    "A263527"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:20:47",
+    "offset": 0,
+    "size": 63,
+    "source": "joeis"
+  }
+}

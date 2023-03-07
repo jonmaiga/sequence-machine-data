@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = repeating period of the digital roots of the sequence {m^n, m=1,2,3...}.",
+  "id": "A100406",
+  "mentions": [
+    "A100579",
+    "A100601"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:36:23",
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Characteristic function of numbers that can be written as p+2^k, where p is prime and p less than 2^k (A118957).",
+  "id": "A118952",
+  "mentions": [
+    "A000040",
+    "A109925",
+    "A118953",
+    "A118956",
+    "A118957"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

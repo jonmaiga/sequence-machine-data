@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of number with continued fraction expansion 0, 1, 12, 123, 1234, 12345, 123456, ... (A007908).",
+  "id": "A293577",
+  "mentions": [
+    "A007908",
+    "A030167",
+    "A052119",
+    "A264934"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:10",
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

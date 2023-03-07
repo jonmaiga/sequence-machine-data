@@ -1,0 +1,36 @@
+{
+  "description": "Array of N X N grid hopping \"almost-walk\", read by antidiagonals.",
+  "id": "A147995",
+  "mentions": [
+    "A054238",
+    "A057300",
+    "A061579",
+    "A088696",
+    "A163233",
+    "A163235",
+    "A163237",
+    "A163239",
+    "A163334",
+    "A163336",
+    "A163357",
+    "A163359",
+    "A163484",
+    "A163485",
+    "A163544",
+    "A163545"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn",
+    "obsc",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:34",
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

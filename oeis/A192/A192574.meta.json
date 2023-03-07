@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = sum(binomial(n,k)*floor(sqrt(Bell(k)))*floor(sqrt(Bell(n-k))),k=0..n).",
+  "id": "A192574",
+  "mentions": [
+    "A192570",
+    "A192571",
+    "A192572",
+    "A192573"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

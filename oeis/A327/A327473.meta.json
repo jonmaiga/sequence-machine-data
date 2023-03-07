@@ -1,0 +1,29 @@
+{
+  "description": "Heinz numbers of integer partitions whose mean A326567/A326568 is a part.",
+  "id": "A327473",
+  "mentions": [
+    "A000016",
+    "A056239",
+    "A065795",
+    "A067538",
+    "A112798",
+    "A237984",
+    "A240850",
+    "A316413",
+    "A325706",
+    "A326567",
+    "A326568",
+    "A327476",
+    "A327478"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

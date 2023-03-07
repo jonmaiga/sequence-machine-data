@@ -1,0 +1,24 @@
+{
+  "description": "Intersection of A154777 and A154778: N = a^2 + 2b^2 = c^2 + 5d^2 for some positive integers a,b,c,d.",
+  "id": "A155577",
+  "mentions": [
+    "A000404",
+    "A092572",
+    "A097268",
+    "A154777",
+    "A154778",
+    "A155567",
+    "A155716"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

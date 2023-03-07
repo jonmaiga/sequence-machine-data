@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = n! * [x^n] exp(Sum_{k=1..n, gcd(n,k) = 1} x^k / k).",
+  "id": "A335088",
+  "mentions": [
+    "A074759",
+    "A226388",
+    "A335797"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:06",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

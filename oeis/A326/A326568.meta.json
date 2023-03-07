@@ -1,0 +1,30 @@
+{
+  "description": "Denominator of the average of the multiset of prime indices of n.",
+  "id": "A326568",
+  "mentions": [
+    "A001222",
+    "A001414",
+    "A056239",
+    "A067629",
+    "A112798",
+    "A123528",
+    "A123529",
+    "A289508",
+    "A289509",
+    "A290103",
+    "A316413",
+    "A316428",
+    "A326567"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

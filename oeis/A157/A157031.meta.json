@@ -1,0 +1,18 @@
+{
+  "description": "Triangle A054521 * A157019, where A054521 = an infinite lower triangular matrix and A157019 = a vector [1, 2, 2, 4, 2, 8, 2, 10, 8, ...].",
+  "id": "A157031",
+  "mentions": [
+    "A054521",
+    "A157019"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

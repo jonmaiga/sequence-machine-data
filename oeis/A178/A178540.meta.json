@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the smallest n-digit non-palindromic number m such that sum of the prime factors of m is equal to sum of the prime factors of reversal(m).",
+  "id": "A178540",
+  "mentions": [
+    "A001414",
+    "A004086"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 2,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

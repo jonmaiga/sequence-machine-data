@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the number of binary (0,1) sequences of length n that have at most two zeros in a window of seven consecutive symbols.",
+  "id": "A334251",
+  "mentions": [
+    "A118647",
+    "A120118",
+    "A133523"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 22:30:09",
+    "offset": 0,
+    "size": 43,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "'Even' fractal sequence for the natural numbers: Deleting every even-index term results in the same sequence.",
+  "id": "A103391",
+  "mentions": [
+    "A003602",
+    "A220466",
+    "A331743"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:54",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

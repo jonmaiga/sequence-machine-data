@@ -1,0 +1,31 @@
+{
+  "description": "Triangle read by rows: T(n,k) gives the number of ballot sequences of length n having k largest parts, n >= k >= 0.",
+  "id": "A238123",
+  "mentions": [
+    "A000007",
+    "A000085",
+    "A000108",
+    "A026794",
+    "A238124",
+    "A244099",
+    "A244100",
+    "A244101",
+    "A244102",
+    "A244103",
+    "A244104",
+    "A244105",
+    "A244106",
+    "A244107"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "description": "Number of odd digits in decimal representation of n.",
+  "id": "A196564",
+  "mentions": [
+    "A007957",
+    "A014261",
+    "A014263",
+    "A027868",
+    "A046034",
+    "A055640",
+    "A055641",
+    "A055642",
+    "A061217",
+    "A102669",
+    "A102685",
+    "A122640",
+    "A196563"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:18",
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

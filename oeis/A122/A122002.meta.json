@@ -1,0 +1,20 @@
+{
+  "description": "a(0)=5; otherwise a(n) = (n mod 4) if n is odd, a(n) = h + 4, where h = (highest odd divisor of n) mod 4 if n is even.",
+  "id": "A122002",
+  "mentions": [
+    "A003324",
+    "A112658",
+    "A125047"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-entry"
+  }
+}

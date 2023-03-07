@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) = number of rectangles all of whose vertices lie on an (n+1) X (k+1) rectangular grid.",
+  "id": "A289832",
+  "mentions": [
+    "A000217",
+    "A085582",
+    "A096948",
+    "A140229"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

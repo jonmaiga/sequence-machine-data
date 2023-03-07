@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = index of n-th prime in A247665.",
+  "id": "A248387",
+  "mentions": [
+    "A247665",
+    "A248379",
+    "A248388",
+    "A248918"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:04",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

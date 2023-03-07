@@ -1,0 +1,19 @@
+{
+  "description": "Values of A076336(n) such that A076336(n) = A101036(n) + 2843318.",
+  "id": "A271112",
+  "mentions": [
+    "A076336",
+    "A101036",
+    "A271110"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

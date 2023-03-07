@@ -1,0 +1,26 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of partitions of weight k among the complements of the partitions of n.",
+  "id": "A268192",
+  "mentions": [
+    "A000005",
+    "A000041",
+    "A002620",
+    "A033638",
+    "A070824",
+    "A188814",
+    "A326844",
+    "A326849"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:30",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

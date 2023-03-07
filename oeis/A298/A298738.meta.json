@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of (1/2)(1 + sqrt(7 + 2*sqrt(5))).",
+  "id": "A298738",
+  "mentions": [
+    "A001622",
+    "A190157",
+    "A275828",
+    "A298522",
+    "A298523"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:21",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Numbers such that the sum of the their nonprime divisors and the sum of their prime divisors are both primes.",
+  "id": "A194594",
+  "mentions": [
+    "A008472",
+    "A023890",
+    "A114522",
+    "A194579"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:17",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

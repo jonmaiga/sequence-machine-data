@@ -1,0 +1,27 @@
+{
+  "description": "a(n) = prime(n) - k! where k is the greatest number such that k! <= prime(n).",
+  "id": "A136437",
+  "mentions": [
+    "A000040",
+    "A000142",
+    "A002981",
+    "A062701",
+    "A088332",
+    "A135996",
+    "A212266",
+    "A212598",
+    "A346425"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:24",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "n+[nr/t]+[ns/t]; r=1, s=sqrt(e), t=e.",
+  "id": "A189401",
+  "mentions": [
+    "A189399",
+    "A189400"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:50:59",
+    "offset": 1,
+    "size": 84,
+    "source": "joeis"
+  }
+}

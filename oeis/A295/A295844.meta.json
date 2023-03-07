@@ -1,0 +1,18 @@
+{
+  "description": "Number of nX5 0..1 arrays with each 1 adjacent to 1 or 2 king-move neighboring 1s.",
+  "id": "A295844",
+  "mentions": [
+    "A295847"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:14",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

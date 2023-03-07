@@ -1,0 +1,27 @@
+{
+  "description": "Expansion of e.g.f. -Sum_{k>=1} log(1 - log(1 + x)^k) / k.",
+  "id": "A330352",
+  "mentions": [
+    "A000005",
+    "A002744",
+    "A008275",
+    "A028342",
+    "A089064",
+    "A318249",
+    "A330351",
+    "A330353",
+    "A330354",
+    "A330493"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:59",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

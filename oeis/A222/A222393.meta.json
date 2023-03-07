@@ -1,0 +1,33 @@
+{
+  "description": "Nonnegative integers m such that 18*m*(m+1)+1 is a square.",
+  "id": "A222393",
+  "mentions": [
+    "A001477",
+    "A001652",
+    "A001921",
+    "A053141",
+    "A053606",
+    "A061278",
+    "A077259",
+    "A101180",
+    "A104240",
+    "A105038",
+    "A105040",
+    "A105063",
+    "A105838",
+    "A156164",
+    "A222390"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:40",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

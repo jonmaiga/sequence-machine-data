@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = floor(n*Pi*e).",
+  "id": "A121283",
+  "mentions": [
+    "A032739",
+    "A062541"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:55:31",
+    "offset": 0,
+    "size": 55,
+    "source": "joeis"
+  }
+}

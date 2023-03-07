@@ -1,0 +1,21 @@
+{
+  "description": "Riordan array (1-4x, x(1-x)^3).",
+  "id": "A119305",
+  "mentions": [
+    "A119304",
+    "A119306"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:13:13",
+    "offset": 0,
+    "size": 64,
+    "source": "joeis"
+  }
+}

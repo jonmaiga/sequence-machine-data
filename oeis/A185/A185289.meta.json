@@ -1,0 +1,18 @@
+{
+  "description": "In a bipartite graph with 2n vertices (|V_1|=|V_2|=n), this sequence gives the number of ways to create n edges, one for each vertex of V_1, and to rank the vertices of V_2 which have incident edges.",
+  "id": "A185289",
+  "mentions": [
+    "A090657"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:10",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

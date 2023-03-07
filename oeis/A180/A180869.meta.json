@@ -1,0 +1,19 @@
+{
+  "description": "E.g.f.: A(x) = Sum_{n>=0} log(1+x)^[n*phi] / [n*phi]!, where [n*phi] = A000201(n), the lower Wythoff sequence, and phi = (1+sqrt(5))/2.",
+  "id": "A180869",
+  "mentions": [
+    "A000201",
+    "A001950"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

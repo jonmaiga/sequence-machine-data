@@ -1,0 +1,23 @@
+{
+  "description": "Characteristic function of natural numbers with number of divisors equal to a Fibonacci number.",
+  "id": "A122895",
+  "mentions": [
+    "A000005",
+    "A010056",
+    "A115568",
+    "A123193",
+    "A123240"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:11",
+    "offset": 1,
+    "size": 103,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "a(n) = 1 if the arithmetic derivative of n is of the form 4k+1, otherwise 0.",
+  "id": "A358771",
+  "mentions": [
+    "A003415",
+    "A003961",
+    "A010051",
+    "A010873",
+    "A165560",
+    "A353494",
+    "A353495",
+    "A358751",
+    "A358772",
+    "A358773"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:32",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

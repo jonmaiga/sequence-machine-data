@@ -1,0 +1,22 @@
+{
+  "description": "a(1) = 1113; thereafter a(n) = (a(n-1) with digits sorted into descending order) - (a(n-1) with digits sorted into ascending order) (see the Kaprekar map, A151949).",
+  "id": "A151951",
+  "mentions": [
+    "A069746",
+    "A099009",
+    "A151947",
+    "A151949",
+    "A151950"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:13:21",
+    "offset": 1,
+    "size": 40,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "For 1<=x<=n, 1<=y<=n, with gcd(x,y)=1, write 1 = gcd(x,y) = u*x+v*y with u,v minimal; a(n) = sum of the values of u.",
+  "id": "A345423",
+  "mentions": [
+    "A345415",
+    "A345424",
+    "A345425",
+    "A345426",
+    "A345427",
+    "A345428"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

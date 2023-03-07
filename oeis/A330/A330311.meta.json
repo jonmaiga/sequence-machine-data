@@ -1,0 +1,21 @@
+{
+  "description": "Where n appears in A329544, or -1 if n never appears.",
+  "id": "A330311",
+  "mentions": [
+    "A104444",
+    "A328798",
+    "A329544",
+    "A329797"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:59",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

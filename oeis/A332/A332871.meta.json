@@ -1,0 +1,38 @@
+{
+  "description": "Number of compositions of n whose run-lengths are not weakly increasing.",
+  "id": "A332871",
+  "mentions": [
+    "A001523",
+    "A056823",
+    "A071365",
+    "A072704",
+    "A100883",
+    "A112769",
+    "A115981",
+    "A181819",
+    "A329738",
+    "A329744",
+    "A329766",
+    "A332641",
+    "A332669",
+    "A332726",
+    "A332727",
+    "A332745",
+    "A332746",
+    "A332833",
+    "A332834",
+    "A332835",
+    "A332836"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:03",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

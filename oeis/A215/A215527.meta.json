@@ -1,0 +1,19 @@
+{
+  "description": "Number of nonintersecting (or self-avoiding) rook paths joining opposite poles of a sphere with n horizontal sectors and n vertical sectors (demarcated by longitudes and latitudes).",
+  "id": "A215527",
+  "mentions": [
+    "A007764",
+    "A268894"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

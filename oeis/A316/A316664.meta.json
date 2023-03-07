@@ -1,0 +1,19 @@
+{
+  "description": "Number of indecomposable binary relations on [n].",
+  "id": "A316664",
+  "mentions": [
+    "A053763"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

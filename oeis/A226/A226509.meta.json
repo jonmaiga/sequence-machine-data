@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of (3-2*x)/(1-x-x^3)+x/(1-x)^2+x/(1-x^2).",
+  "id": "A226509",
+  "mentions": [
+    "A137726"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

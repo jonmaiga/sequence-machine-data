@@ -1,0 +1,21 @@
+{
+  "description": "'AT(n,k)' triangle read by rows. AT(n,k) is the number of aperiodic k-compositions of n.",
+  "id": "A179968",
+  "mentions": [
+    "A008965",
+    "A051168",
+    "A056278"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:03",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

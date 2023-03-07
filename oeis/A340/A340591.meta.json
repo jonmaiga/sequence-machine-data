@@ -1,0 +1,26 @@
+{
+  "description": "Number A(n,k) of n*(k+1)-step k-dimensional nonnegative closed lattice walks starting at the origin and using steps that increment all components or decrement one component by 1; square array A(n,k), n>=0, k>=0, read by antidiagonals.",
+  "id": "A340591",
+  "mentions": [
+    "A000012",
+    "A000108",
+    "A000142",
+    "A006335",
+    "A055546",
+    "A335570",
+    "A340540",
+    "A340590"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabl",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:13",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

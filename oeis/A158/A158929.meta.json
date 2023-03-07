@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the smallest integer not yet in the sequence with no common base-4 digit with a(n-1).",
+  "id": "A158929",
+  "mentions": [
+    "A031945",
+    "A067581",
+    "A158928",
+    "A158930"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

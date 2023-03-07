@@ -1,0 +1,21 @@
+{
+  "description": "The number of solutions to sigma(x) = sigma(x+1) below 10^n, where sigma(x) is the sum of divisors function (A000203).",
+  "id": "A317474",
+  "mentions": [
+    "A000203",
+    "A002961",
+    "A300285"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "description": "Smallest number k such that the symmetric representation of sigma(k) has maximum width n for those k whose representation has nondecreasing width up to the diagonal.",
+  "id": "A250071",
+  "mentions": [
+    "A000203",
+    "A237048",
+    "A237270",
+    "A237271",
+    "A237593",
+    "A241008",
+    "A241010",
+    "A246955",
+    "A247687",
+    "A249223",
+    "A250068",
+    "A250070",
+    "A340506"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

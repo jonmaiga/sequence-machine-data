@@ -1,0 +1,22 @@
+{
+  "description": "G.f.: C(x)^2 - S(x)^2 where C(x) = Sum_{n>=0} log(1 - 2^(2n)*x)^(2n)/(2n)! and S(x) = Sum_{n>=0} -log(1 - 2^(2n+1)*x)^(2n+1)/(2n+1)! are the g.f.s of A166995 and A166996, respectively.",
+  "id": "A166997",
+  "mentions": [
+    "A014070",
+    "A060690",
+    "A166995",
+    "A166996",
+    "A166998"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

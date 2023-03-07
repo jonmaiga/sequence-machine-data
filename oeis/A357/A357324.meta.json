@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that there is a unique m for which the sum of the aliquot unitary divisors of m (A034460) is k.",
+  "id": "A357324",
+  "mentions": [
+    "A034460",
+    "A057709",
+    "A063948",
+    "A324938",
+    "A357325"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:31",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

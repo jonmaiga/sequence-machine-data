@@ -1,0 +1,23 @@
+{
+  "description": "Numerator of sigma_3(n)/sigma_2(n).",
+  "id": "A298754",
+  "mentions": [
+    "A000203",
+    "A001157",
+    "A001158",
+    "A091258",
+    "A091259",
+    "A091260"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:21",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

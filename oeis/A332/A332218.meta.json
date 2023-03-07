@@ -1,0 +1,24 @@
+{
+  "description": "Numbers k such that A332221(k) = A156552(sigma(k)) is 2*{an odd square}.",
+  "id": "A332218",
+  "mentions": [
+    "A000203",
+    "A028982",
+    "A067051",
+    "A156552",
+    "A332216",
+    "A332217",
+    "A332221"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

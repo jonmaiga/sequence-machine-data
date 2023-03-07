@@ -1,0 +1,36 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the total number of k's in all partitions of n into consecutive parts, (1 <= k <= n).",
+  "id": "A328361",
+  "mentions": [
+    "A000012",
+    "A000079",
+    "A001227",
+    "A010054",
+    "A065091",
+    "A066633",
+    "A204217",
+    "A237048",
+    "A237593",
+    "A245579",
+    "A266531",
+    "A285898",
+    "A285899",
+    "A285900",
+    "A285914",
+    "A286000",
+    "A286001",
+    "A299765",
+    "A328362"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

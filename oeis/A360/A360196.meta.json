@@ -1,0 +1,26 @@
+{
+  "description": "Array read by antidiagonals: T(m,n) is the number of induced cycles in the grid graph P_m X P_n.",
+  "id": "A360196",
+  "mentions": [
+    "A000027",
+    "A000096",
+    "A231829",
+    "A287151",
+    "A297664",
+    "A360197",
+    "A360198",
+    "A360199"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 2,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

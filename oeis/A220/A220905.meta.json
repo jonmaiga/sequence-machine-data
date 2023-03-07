@@ -1,0 +1,18 @@
+{
+  "description": "Triangle read by rows: rook numbers of certain \"probleme des rencontres\" boards of the second kind of size n X k (0 <= k <= n).",
+  "id": "A220905",
+  "mentions": [
+    "A000186"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

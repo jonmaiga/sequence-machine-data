@@ -1,0 +1,22 @@
+{
+  "description": "Solutions y to the negative Pell equation y^2 = 72*x^2 - 288 with x,y >= 0.",
+  "id": "A281234",
+  "mentions": [
+    "A001109",
+    "A003499",
+    "A077420",
+    "A280761"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:49",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

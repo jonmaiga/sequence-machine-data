@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that sigma(n) is powerful.",
+  "id": "A180097",
+  "mentions": [
+    "A000203",
+    "A001694",
+    "A180090",
+    "A180098"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:03",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

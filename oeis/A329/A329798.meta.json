@@ -1,0 +1,19 @@
+{
+  "description": "Where record high water marks appear in A329544.",
+  "id": "A329798",
+  "mentions": [
+    "A329544",
+    "A329797",
+    "A330311"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

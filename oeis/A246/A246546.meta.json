@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of 'c', a binary search tree constant associated with an asymptotic probability.",
+  "id": "A246546",
+  "mentions": [
+    "A094720",
+    "A094721"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-entry"
+  }
+}

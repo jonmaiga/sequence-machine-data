@@ -1,0 +1,24 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of Delannoy paths of length n, having k EE's and NN's crossing the line y = x (i.e., two consecutive E steps from the line y = x+1 to the line y = x-1 or two consecutive N steps from the line y = x-1 to the line y = x+1).",
+  "id": "A110123",
+  "mentions": [
+    "A001003",
+    "A001850",
+    "A006318",
+    "A100127",
+    "A110121",
+    "A110127"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

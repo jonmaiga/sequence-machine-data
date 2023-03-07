@@ -1,0 +1,18 @@
+{
+  "description": "Constants r_n arising in study of polynomials of least deviation from zero in several variables.",
+  "id": "A210627",
+  "mentions": [
+    "A038049"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 3,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

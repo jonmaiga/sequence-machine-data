@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that the first 9 decimal digits of the n-th Fibonacci number is 1-9 pandigital.",
+  "id": "A112516",
+  "mentions": [
+    "A000045",
+    "A112371"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

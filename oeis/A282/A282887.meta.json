@@ -1,0 +1,21 @@
+{
+  "description": "Sum_{k=0..n} -(-1)^issquare(p(k))*p(k), where p = A282887 is the lexicographic-first permutation of the nonnegative integers such that these sums always remain nonnegative.",
+  "id": "A282887",
+  "mentions": [
+    "A282840",
+    "A282846",
+    "A282864",
+    "A282865",
+    "A282886"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:53",
+    "offset": 0,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

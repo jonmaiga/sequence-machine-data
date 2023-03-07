@@ -1,0 +1,20 @@
+{
+  "description": "Number of new lattice points created at each step in an n X n grid that are not visible.",
+  "id": "A140435",
+  "mentions": [
+    "A018805",
+    "A100613",
+    "A140434"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

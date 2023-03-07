@@ -1,0 +1,20 @@
+{
+  "description": "Semi-unitary perfect numbers: numbers k such that susigma(k) = 2k, where susigma(k) is the sum of the semi-unitary divisors of k (A322485).",
+  "id": "A322486",
+  "mentions": [
+    "A000396",
+    "A002827",
+    "A322485"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

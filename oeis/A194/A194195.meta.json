@@ -1,0 +1,22 @@
+{
+  "description": "First inverse function (numbers of rows) for pairing function A060734",
+  "id": "A194195",
+  "mentions": [
+    "A060734",
+    "A060736",
+    "A220603",
+    "A220604"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

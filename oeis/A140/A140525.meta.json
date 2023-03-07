@@ -1,0 +1,17 @@
+{
+  "description": "a(1)=2. For n >=2, a(n) = the least integer >= a(n-1) that is not coprime to both a(n-1)+1 and a(n-1).",
+  "id": "A140525",
+  "mentions": [
+    "A144751"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Congruentfree numbers: positive integers that are not divisible by any congruent number (A003273).",
+  "id": "A253278",
+  "mentions": [
+    "A003273",
+    "A257604"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Smallest number m such that m is not a multiple of 10 and m^n has two or more identical adjacent decimal digits.",
+  "id": "A324309",
+  "mentions": [
+    "A171901",
+    "A217157"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:50",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

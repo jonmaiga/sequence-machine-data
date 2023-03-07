@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k that are highly norm-abundant in Gaussian integers, i.e., A103230(m) < A103230(k) for all m < k.",
+  "id": "A332320",
+  "mentions": [
+    "A000203",
+    "A002093",
+    "A103228",
+    "A103229",
+    "A103230",
+    "A279254",
+    "A332321"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:01",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

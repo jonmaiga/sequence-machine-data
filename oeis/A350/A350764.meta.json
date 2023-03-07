@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the maximum number that can be reached following the rules of the stepping stone puzzle of A337663 restricted to the n X k grid, allowing any number of initial 1's, 1 <= k <= n.",
+  "id": "A350764",
+  "mentions": [
+    "A337663",
+    "A350765"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

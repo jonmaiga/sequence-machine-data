@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that A072473(n)=A072473(n+1).",
+  "id": "A114042",
+  "mentions": [
+    "A072473",
+    "A115867"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

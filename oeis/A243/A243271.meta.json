@@ -1,0 +1,19 @@
+{
+  "description": "Number of graphs with n nodes that are Hamiltonian and distance-regular.",
+  "id": "A243271",
+  "mentions": [
+    "A003216",
+    "A241814"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

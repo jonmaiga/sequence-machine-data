@@ -1,0 +1,26 @@
+{
+  "description": "Number of bases b > 1 for which the base-b digital sum of n is b.",
+  "id": "A239703",
+  "mentions": [
+    "A000005",
+    "A000040",
+    "A007953",
+    "A008864",
+    "A018900",
+    "A079696",
+    "A187813",
+    "A239707",
+    "A239708"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:56",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "The smallest prime, a(n), larger than prime(n) for which every even difference from 2 to prime(n) - 1 occurs at least once for some pair of primes from prime(n) to a(n) inclusive.",
+  "id": "A309158",
+  "mentions": [
+    "A000040",
+    "A006512",
+    "A046117",
+    "A046132"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 2,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

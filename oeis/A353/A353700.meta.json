@@ -1,0 +1,20 @@
+{
+  "description": "Numerator of squared radius of smallest circle passing through exactly n integral points.",
+  "id": "A353700",
+  "mentions": [
+    "A353701"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "frac",
+    "hard",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 2,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

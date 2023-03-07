@@ -1,0 +1,21 @@
+{
+  "description": "Triangular array T(n,k) (n >= 1, 1 <= k <= n) read by rows: row n gives the lexicographically earliest solution to the n queens problem, or n zeros if no solution exists. The k-th queen is placed in square (k, T(n, k)).",
+  "id": "A141843",
+  "mentions": [
+    "A000170",
+    "A065188",
+    "A140450"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:30",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

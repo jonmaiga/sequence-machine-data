@@ -1,0 +1,29 @@
+{
+  "description": "Triangle read by rows, 0<=k<=n: T(n,k) = Levenshtein distance of n and k in binary representation.",
+  "id": "A152487",
+  "mentions": [
+    "A000004",
+    "A000290",
+    "A000523",
+    "A057427",
+    "A070939",
+    "A091090",
+    "A091092",
+    "A106348",
+    "A152488",
+    "A322285"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:35",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

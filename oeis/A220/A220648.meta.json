@@ -1,0 +1,18 @@
+{
+  "description": "Number of ways to reciprocally link elements of an nX3 array either to themselves or to exactly two king-move neighbors, without 3-loops",
+  "id": "A220648",
+  "mentions": [
+    "A220652"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:38",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

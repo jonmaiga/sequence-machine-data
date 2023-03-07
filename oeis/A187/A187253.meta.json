@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of 3-noncrossing RNA structures on n vertices having k isolated vertices.",
+  "id": "A187253",
+  "mentions": [
+    "A000108",
+    "A133365",
+    "A187254",
+    "A187255"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

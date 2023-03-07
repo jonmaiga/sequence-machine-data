@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the smallest number consisting of digits {1,...,n} that contains all the permutations of {1,...,n} as subsequences.",
+  "id": "A136094",
+  "mentions": [
+    "A062714"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

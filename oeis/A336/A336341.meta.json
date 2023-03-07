@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = (1/2)A336339(n).",
+  "id": "A336341",
+  "mentions": [
+    "A002808",
+    "A336338",
+    "A336339",
+    "A336340"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

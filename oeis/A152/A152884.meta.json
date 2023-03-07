@@ -1,0 +1,26 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of permutations of {1,2,...,n} with excedance set equal to the k-th subset of {1,2,...,n-1} (n>=0, 0<=k<=ceiling(2^(n-1))-1). The subsets of {1,2,...,n-1} are ordered according to size, while the subsets of the same size follow the lexicographic order.",
+  "id": "A152884",
+  "mentions": [
+    "A000142",
+    "A011782",
+    "A082185",
+    "A136126",
+    "A193360",
+    "A329369",
+    "A360288",
+    "A360289"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:35",
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

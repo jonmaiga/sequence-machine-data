@@ -1,0 +1,19 @@
+{
+  "description": "Largest m associated with n-th Pillai prime (A063980).",
+  "id": "A211411",
+  "mentions": [
+    "A063828",
+    "A063980"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:30",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

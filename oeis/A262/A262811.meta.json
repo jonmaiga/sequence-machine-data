@@ -1,0 +1,26 @@
+{
+  "description": "Expansion of Product_{k>=1} 1/(1-x^(2*k-1))^(2*k-1).",
+  "id": "A262811",
+  "mentions": [
+    "A000219",
+    "A002117",
+    "A003293",
+    "A035528",
+    "A050999",
+    "A074962",
+    "A161870",
+    "A262736",
+    "A292038"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:22",
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

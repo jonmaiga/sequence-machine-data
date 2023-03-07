@@ -1,0 +1,25 @@
+{
+  "description": "Numbers k such that {k + 2, k + 4} and {k^2 + 2, k^2 + 4} are both twin prime pairs.",
+  "id": "A284014",
+  "mentions": [
+    "A000040",
+    "A001359",
+    "A007591",
+    "A010051",
+    "A067201",
+    "A086381",
+    "A178336",
+    "A178337",
+    "A256388"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:55",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

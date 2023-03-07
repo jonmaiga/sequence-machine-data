@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = n for n = 1, 2, 3; for n > 3: a(n) = number of partitions of n into preceding terms.",
+  "id": "A229362",
+  "mentions": [
+    "A000041",
+    "A007279"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:46",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

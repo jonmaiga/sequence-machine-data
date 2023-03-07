@@ -1,0 +1,27 @@
+{
+  "description": "Number of chiral pairs of colorings of the edges of a regular 4-dimensional orthoplex with n available colors.",
+  "id": "A331356",
+  "mentions": [
+    "A331352",
+    "A331354",
+    "A331355",
+    "A331357",
+    "A331360",
+    "A337413",
+    "A337889",
+    "A338954",
+    "A338966"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:32:13",
+    "offset": 1,
+    "size": 12,
+    "source": "joeis"
+  }
+}

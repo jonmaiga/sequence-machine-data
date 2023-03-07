@@ -1,0 +1,21 @@
+{
+  "description": "G.f.: 1/(1 + x/(1 + x^3/(1 + x^6/(1 + x^10/(1 + x^15/(1 + ... + x^(k*(k+1)/2)/(1 + ...))))))), a continued fraction.",
+  "id": "A285484",
+  "mentions": [
+    "A000217",
+    "A002105",
+    "A206740",
+    "A285408"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "The number T(n) of isometries of all subspaces of the finite metric space {1,2,...,n} (as a subspace of the reals with the Euclidean metric).",
+  "id": "A183156",
+  "mentions": [
+    "A183157",
+    "A183158",
+    "A295909",
+    "A295910"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:06",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

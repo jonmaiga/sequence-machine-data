@@ -1,0 +1,20 @@
+{
+  "description": "Coefficients of a symmetric matrix representation of the 9th falling factorial power, read by antidiagonals.",
+  "id": "A145836",
+  "mentions": [
+    "A008277",
+    "A068424"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

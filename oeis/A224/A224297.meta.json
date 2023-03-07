@@ -1,0 +1,18 @@
+{
+  "description": "Number of permutations of length n containing exactly 1 occurrence of 12345 and 1 occurrence of 12354.",
+  "id": "A224297",
+  "mentions": [
+    "A224295",
+    "A224296"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n representable as x*y + x + y, where x >= y > 1, such that all x's and y's in all representation(s) of n are primes.",
+  "id": "A256073",
+  "mentions": [
+    "A008864",
+    "A254671"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-bfile"
+  }
+}

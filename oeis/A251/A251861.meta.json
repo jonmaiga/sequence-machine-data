@@ -1,0 +1,24 @@
+{
+  "description": "Number of non-palindromic words (length n>0) over the alphabet of 26 letters.",
+  "id": "A251861",
+  "mentions": [
+    "A000004",
+    "A056450",
+    "A233411",
+    "A240437",
+    "A242026",
+    "A242278"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:09",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Primes p such that prime(p)=2 (mod p), where prime(p)=A000040(p) is the p-th prime.",
+  "id": "A156154",
+  "mentions": [
+    "A000040",
+    "A023144",
+    "A156153",
+    "A156155"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

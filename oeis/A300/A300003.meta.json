@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(n, k) = number of permutations that are k \"block reversals\" away from 12...n, for n >= 0, and (for n>0) 0 <= k <= n-1.",
+  "id": "A300003",
+  "mentions": [
+    "A000142",
+    "A000217",
+    "A007972",
+    "A007973",
+    "A007974",
+    "A007975"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:24",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

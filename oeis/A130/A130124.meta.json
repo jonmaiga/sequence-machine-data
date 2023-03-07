@@ -1,0 +1,21 @@
+{
+  "description": "Triangle defined by A130123 * A002260, read by rows.",
+  "id": "A130124",
+  "mentions": [
+    "A001780",
+    "A002260",
+    "A130123"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:18",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

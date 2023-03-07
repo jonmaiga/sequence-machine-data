@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = [(2n+4)r] - [nr+4r] - [nr], where [ ] = floor and r = sqrt(2).",
+  "id": "A327222",
+  "mentions": [
+    "A327223",
+    "A327224"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:54",
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

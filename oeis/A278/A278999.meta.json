@@ -1,0 +1,17 @@
+{
+  "description": "Numbers of the form (5h+2)*5^k-1 or (5h+3)*5^k-1 for h,k in N.",
+  "id": "A278999",
+  "mentions": [
+    "A278998"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:46",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

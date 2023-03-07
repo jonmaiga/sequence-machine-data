@@ -1,0 +1,20 @@
+{
+  "description": "G.f.: A(x) = 1/(1 - x*B(x^2)), where B(x) = Sum_{n>=0} a(n)^2*x^n is the g.f. of A121648.",
+  "id": "A121649",
+  "mentions": [
+    "A121648",
+    "A121650",
+    "A121651"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

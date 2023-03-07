@@ -1,0 +1,22 @@
+{
+  "description": "Prime numbers that are not the sum of one or more consecutive triangular numbers.",
+  "id": "A257974",
+  "mentions": [
+    "A000217",
+    "A000292",
+    "A034706",
+    "A050941",
+    "A125602",
+    "A269414"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:15",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

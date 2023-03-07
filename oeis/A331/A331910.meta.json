@@ -1,0 +1,17 @@
+{
+  "description": "Lexicographically earliest sequence of positive terms such that a(n) is the length of the n-th run of consecutive, equal terms and such that no two runs are identical.",
+  "id": "A331910",
+  "mentions": [
+    "A000002"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:01",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

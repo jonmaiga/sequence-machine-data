@@ -1,0 +1,18 @@
+{
+  "description": "n-alternating permutations of length n^2.",
+  "id": "A181992",
+  "mentions": [
+    "A181937",
+    "A181985"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:05",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-bfile"
+  }
+}

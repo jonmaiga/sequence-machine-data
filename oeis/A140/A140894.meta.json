@@ -1,0 +1,20 @@
+{
+  "description": "Triangle T(n,k) = sum_{0<=j<=k/2} A034867(k,j)*prime(n)^j, read by rows, 0<=k",
+  "id": "A140894",
+  "mentions": [
+    "A034867",
+    "A117809"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

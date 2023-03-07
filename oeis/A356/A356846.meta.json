@@ -1,0 +1,38 @@
+{
+  "description": "Number of integer compositions of n into parts not covering an interval of positive integers.",
+  "id": "A356846",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A001227",
+    "A011782",
+    "A034296",
+    "A053251",
+    "A055932",
+    "A060142",
+    "A066208",
+    "A073491",
+    "A073492",
+    "A080259",
+    "A107428",
+    "A107429",
+    "A188575",
+    "A239327",
+    "A239955",
+    "A356604",
+    "A356605",
+    "A356841",
+    "A356842"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

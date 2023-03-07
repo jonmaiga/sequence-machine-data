@@ -1,0 +1,20 @@
+{
+  "description": "Prime numbers q such that q, q+1, q+2, q+3, q+4 have 2, 4, 8, 16, 32 divisors respectively.",
+  "id": "A100365",
+  "mentions": [
+    "A000005",
+    "A063446",
+    "A100363",
+    "A100364"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:51",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

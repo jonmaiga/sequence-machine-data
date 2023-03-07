@@ -1,0 +1,20 @@
+{
+  "description": "Hexagonal numbers (A000384) which are sum of 2 other hexagonal numbers > 0.",
+  "id": "A133215",
+  "mentions": [
+    "A000326",
+    "A000384",
+    "A136117"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:21",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

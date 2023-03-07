@@ -1,0 +1,19 @@
+{
+  "description": "Number of n-bead necklaces with n+1 colors for n>0, with a(0)=1.",
+  "id": "A121773",
+  "mentions": [
+    "A056665",
+    "A121774"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

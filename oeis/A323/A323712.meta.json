@@ -1,0 +1,20 @@
+{
+  "description": "Number of the following described shuffles required to return a deck of n cards to its original state. Create two piles by alternating a card from the top of the deck left-right-left-right until the deck is exhausted. Then, placing the left pile on top of the right pile constitutes one shuffle.",
+  "id": "A323712",
+  "mentions": [
+    "A022998",
+    "A024222",
+    "A163776"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:48",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of the coefficient c appearing in the expression of the asymptotic expected shortest cycle in a random n-cyclation as c*sqrt(n).",
+  "id": "A245422",
+  "mentions": [
+    "A143297"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-entry"
+  }
+}

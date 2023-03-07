@@ -1,0 +1,24 @@
+{
+  "description": "Numbers n such that n and n+5 are consecutive semiprimes.",
+  "id": "A264045",
+  "mentions": [
+    "A001358",
+    "A065516",
+    "A123375",
+    "A131109",
+    "A136196",
+    "A264043",
+    "A264044"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:23",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

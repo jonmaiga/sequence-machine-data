@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that a+n and a*n+1 are prime, case a=6.",
+  "id": "A120222",
+  "mentions": [
+    "A106057",
+    "A106066",
+    "A120226",
+    "A120227",
+    "A120228"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:09",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

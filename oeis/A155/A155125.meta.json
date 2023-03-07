@@ -1,0 +1,17 @@
+{
+  "description": "Indices of Bernoulli numbers of the form 4k+2 whose fractional part is < 2/3.",
+  "id": "A155125",
+  "mentions": [
+    "A155126"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

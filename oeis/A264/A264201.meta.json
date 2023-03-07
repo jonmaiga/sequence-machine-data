@@ -1,0 +1,19 @@
+{
+  "description": "Numerator of sum of numbers in set g(n) generated as in Comments",
+  "id": "A264201",
+  "mentions": [
+    "A264200"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

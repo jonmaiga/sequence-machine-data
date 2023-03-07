@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the constant rho = lim f(n)^(1/n), where f(n) = A214833(n) is the number of arithmetic formulas for n (cf. comments).",
+  "id": "A242970",
+  "mentions": [
+    "A214833",
+    "A242955"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

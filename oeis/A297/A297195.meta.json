@@ -1,0 +1,19 @@
+{
+  "description": "Number of bitriangular permutations (row sums of A272644 if that triangle is prefixed with a row for n=1).",
+  "id": "A297195",
+  "mentions": [
+    "A272644",
+    "A274105"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

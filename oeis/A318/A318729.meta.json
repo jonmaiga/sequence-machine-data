@@ -1,0 +1,30 @@
+{
+  "description": "Number of cyclic compositions (necklaces of positive integers) summing to n that have only one part or whose consecutive parts (including the last with first) are indivisible.",
+  "id": "A318729",
+  "mentions": [
+    "A000740",
+    "A008965",
+    "A059966",
+    "A167606",
+    "A285573",
+    "A303362",
+    "A304713",
+    "A316476",
+    "A318726",
+    "A318727",
+    "A318728",
+    "A318730",
+    "A328600"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:40",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Fully multiplicative with a(p) = A332806(A000720(p)).",
+  "id": "A332808",
+  "mentions": [
+    "A000720",
+    "A108548",
+    "A108549",
+    "A332806",
+    "A332818",
+    "A332819"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:02",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of the conjectured generating function for the number of \"almost avoiding\" permutations in the set Av(321)^{+1}.",
+  "id": "A174193",
+  "mentions": [
+    "A174195"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:17:04",
+    "offset": 0,
+    "size": 30,
+    "source": "joeis"
+  }
+}

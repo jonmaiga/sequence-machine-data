@@ -1,0 +1,24 @@
+{
+  "description": "Characteristic function for A091191, primitive abundant numbers: abundant numbers (A005101) having no abundant proper divisor.",
+  "id": "A294930",
+  "mentions": [
+    "A005101",
+    "A080224",
+    "A091191",
+    "A187795",
+    "A294890",
+    "A294929",
+    "A294937"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:13",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the length of the longest induced path in the n-dimensional hypercube, such that the end points of the path are at Hamming distance k, 0 <= k <= n.",
+  "id": "A357499",
+  "mentions": [
+    "A099155",
+    "A357360"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "hard",
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

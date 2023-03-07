@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n equal to the sum of all the four-digit numbers formed without repetition from the digits of n.",
+  "id": "A241946",
+  "mentions": [
+    "A056524",
+    "A241899"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Self-avoiding walks with n steps on the truncated trihexagonal tiling or (4,6,12) lattice.",
+  "id": "A249795",
+  "mentions": [
+    "A001334",
+    "A001411",
+    "A249565",
+    "A249796",
+    "A326743",
+    "A326744",
+    "A326745"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:06",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

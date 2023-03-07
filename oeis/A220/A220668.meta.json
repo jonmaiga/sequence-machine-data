@@ -1,0 +1,21 @@
+{
+  "description": "Coefficient array for the powers of x^2 of the square of the even-indexed Chebyshev C polynomials.",
+  "id": "A220668",
+  "mentions": [
+    "A005408",
+    "A127672"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

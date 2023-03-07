@@ -1,0 +1,41 @@
+{
+  "description": "Numbers k such that the k-th composition in standard order (A066099) is not a singleton nor pairwise coprime.",
+  "id": "A335236",
+  "mentions": [
+    "A000120",
+    "A007360",
+    "A048793",
+    "A051424",
+    "A066099",
+    "A070939",
+    "A087087",
+    "A101268",
+    "A124758",
+    "A228351",
+    "A272919",
+    "A291166",
+    "A302569",
+    "A316438",
+    "A326674",
+    "A326675",
+    "A333219",
+    "A333226",
+    "A333227",
+    "A333228",
+    "A335235",
+    "A335237",
+    "A335238",
+    "A335239",
+    "A335240"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

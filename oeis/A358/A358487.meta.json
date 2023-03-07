@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the maximal permanent of an n X n matrix using the integers 0 to n^2 - 1.",
+  "id": "A358487",
+  "mentions": [
+    "A350566",
+    "A358486"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

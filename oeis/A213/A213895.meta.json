@@ -1,0 +1,32 @@
+{
+  "description": "Fixed points of a sequence h(n) defined by the minimum number of 6's in the relation n*[n,6,6,...,6,n] = [x,...,x] between simple continued fractions.",
+  "id": "A213895",
+  "mentions": [
+    "A000057",
+    "A005668",
+    "A015451",
+    "A179237",
+    "A213358",
+    "A213648",
+    "A213891",
+    "A213894",
+    "A213896",
+    "A213899",
+    "A213900",
+    "A261311",
+    "A262211",
+    "A262212",
+    "A262216",
+    "A262220"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

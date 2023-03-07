@@ -1,0 +1,18 @@
+{
+  "description": "Numbers that are the maximum value attained by the Collatz (3x+1) iteration of some odd number.",
+  "id": "A176869",
+  "mentions": [
+    "A025586",
+    "A033496"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:00",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Sequence shifts left when Weigh transform is applied seven times with a(n) = n for n",
+  "id": "A316107",
+  "mentions": [
+    "A144039",
+    "A316101"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "eigen",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:34",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

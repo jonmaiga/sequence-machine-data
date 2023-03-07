@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k, excluding primes and squares of primes, such that gcd(k, numerator of H(k-1)) > 1, where the harmonic number H(j) = Sum_{i=1..j} 1/i.",
+  "id": "A228810",
+  "mentions": [
+    "A000430",
+    "A001008",
+    "A228811"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

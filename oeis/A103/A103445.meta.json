@@ -1,0 +1,17 @@
+{
+  "description": "Sum of the numbers of unitary divisors of the binomial coefficients C[n,k], k=0..n.",
+  "id": "A103445",
+  "mentions": [
+    "A103444"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Smallest number m in a set of at least three consecutive triangular numbers with three distinct prime factors.",
+  "id": "A349539",
+  "mentions": [
+    "A000217",
+    "A128896",
+    "A348185"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

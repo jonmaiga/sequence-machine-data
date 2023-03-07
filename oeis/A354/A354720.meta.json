@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = n for n <= 3; let i = a(n-2) and j = a(n-1); a(n+1) = least k not already in the sequence such that (j, k) = 1 and (i, k) = m > 1 and only one of either omega(i) or omega(k) exceed omega(m), where omega = A001221.",
+  "id": "A354720",
+  "mentions": [
+    "A001221",
+    "A064413",
+    "A098550",
+    "A353916"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:29",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

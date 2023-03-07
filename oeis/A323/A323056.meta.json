@@ -1,0 +1,32 @@
+{
+  "description": "Numbers with exactly five distinct exponents in their prime factorization, or five distinct parts in their prime signature.",
+  "id": "A323056",
+  "mentions": [
+    "A001221",
+    "A001222",
+    "A006939",
+    "A051270",
+    "A059404",
+    "A062770",
+    "A071625",
+    "A072774",
+    "A118914",
+    "A181819",
+    "A182855",
+    "A323014",
+    "A323022",
+    "A323024",
+    "A323025",
+    "A323055"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:46",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

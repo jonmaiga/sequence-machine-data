@@ -1,0 +1,21 @@
+{
+  "description": "Numbers > 1 not of the form 2n*k - A319929(n,k) where n and k > 1.",
+  "id": "A327261",
+  "mentions": [
+    "A319929",
+    "A327259",
+    "A327260",
+    "A327263",
+    "A345357"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:54",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

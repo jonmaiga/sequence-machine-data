@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = position of n in the lexicographical ordering A119589 of natural numbers from 1 to 100.",
+  "id": "A119590",
+  "mentions": [
+    "A119589",
+    "A190016",
+    "A190017"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

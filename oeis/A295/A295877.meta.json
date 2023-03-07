@@ -1,0 +1,19 @@
+{
+  "description": "Restricted growth sequence transform of A173557, Product_{p|n} (p-1).",
+  "id": "A295877",
+  "mentions": [
+    "A173557",
+    "A295876"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:14",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

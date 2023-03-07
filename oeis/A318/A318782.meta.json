@@ -1,0 +1,17 @@
+{
+  "description": "Numbers m such that a^(s-1) + b^(s-1) + c^(s-1) + ... is prime, where a, b, c, ... are the distinct primes dividing m and s is their sum.",
+  "id": "A318782",
+  "mentions": [
+    "A008472"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Numbers that divide primorial numbers plus one (p#+1).",
+  "id": "A113165",
+  "mentions": [
+    "A000945",
+    "A002110",
+    "A006862",
+    "A018239"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:03",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

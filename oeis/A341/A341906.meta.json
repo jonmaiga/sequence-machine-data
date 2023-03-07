@@ -1,0 +1,29 @@
+{
+  "description": "Decimal expansion of the moment of inertia of a solid regular dodecahedron with a unit mass and a unit edge length.",
+  "id": "A341906",
+  "mentions": [
+    "A000007",
+    "A001622",
+    "A020761",
+    "A020793",
+    "A102769",
+    "A104457",
+    "A131595",
+    "A179296",
+    "A232810",
+    "A237603",
+    "A239798"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:49:09",
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

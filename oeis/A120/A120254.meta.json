@@ -1,0 +1,19 @@
+{
+  "description": "Number of independent nonempty subsets of integers in the interval [n^2+1, (n+1)^2-1] whose product is a square. Independence is over GF(2^m).",
+  "id": "A120254",
+  "mentions": [
+    "A099500",
+    "A099501",
+    "A120253"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

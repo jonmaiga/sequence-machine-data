@@ -1,0 +1,26 @@
+{
+  "description": "Number of integer pairs (x,y) satisfying |x|^3 + |y|^3 = n, -n <= x,y <= n.",
+  "id": "A175362",
+  "mentions": [
+    "A001235",
+    "A004018",
+    "A010057",
+    "A011541",
+    "A025446",
+    "A025455",
+    "A025464",
+    "A025468",
+    "A121980"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:59",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

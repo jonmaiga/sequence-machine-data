@@ -1,0 +1,22 @@
+{
+  "description": "Irregular table read by rows: T(n,k) = (2*k+1)^(-1/3) mod 2^n, 0 <= k <= 2^(n-1) - 1.",
+  "id": "A323553",
+  "mentions": [
+    "A007814",
+    "A323495",
+    "A323554",
+    "A323555",
+    "A323556"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-entry"
+  }
+}

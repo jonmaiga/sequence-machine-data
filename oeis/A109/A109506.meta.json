@@ -1,0 +1,29 @@
+{
+  "description": "Expansion of (1 - phi(-q)^4)/ 8 in powers of q where phi() is a Ramanujan theta function.",
+  "id": "A109506",
+  "mentions": [
+    "A000122",
+    "A000593",
+    "A000700",
+    "A008438",
+    "A010054",
+    "A010815",
+    "A046897",
+    "A096727",
+    "A097723",
+    "A112610",
+    "A121373"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "mult",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:01",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Dual-Zeckendorf-infinitary perfect numbers: numbers k such that A331110(k) = 2*k.",
+  "id": "A331111",
+  "mentions": [
+    "A007357",
+    "A038182",
+    "A074849",
+    "A097464",
+    "A331108",
+    "A331110"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

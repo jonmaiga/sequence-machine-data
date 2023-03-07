@@ -1,0 +1,25 @@
+{
+  "description": "Integers that can be written m = k*tau(k) = q*tau(q) where (k, q) is a primitive solution of this equation and tau(k) is the number of divisors of k.",
+  "id": "A338384",
+  "mentions": [
+    "A000005",
+    "A038040",
+    "A337875",
+    "A337876",
+    "A338381",
+    "A338382",
+    "A338383",
+    "A338385",
+    "A338519"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

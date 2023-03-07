@@ -1,0 +1,26 @@
+{
+  "description": "a(n) is the smallest nonnegative integer that can be written as a sum of two distinct nonzero triangular numbers in exactly n ways or -1 if no such integer exists.",
+  "id": "A342326",
+  "mentions": [
+    "A000217",
+    "A051533",
+    "A260647",
+    "A262749",
+    "A265134",
+    "A265136",
+    "A265138",
+    "A265140",
+    "A307597"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:15",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

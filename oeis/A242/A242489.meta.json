@@ -1,0 +1,22 @@
+{
+  "description": "Smallest even k such that lpf(k-1) = prime(n), while lpf(k-3) > prime(n), where lpf=least prime factor (A020639).",
+  "id": "A242489",
+  "mentions": [
+    "A001359",
+    "A006512",
+    "A020639",
+    "A062326",
+    "A242716"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 2,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

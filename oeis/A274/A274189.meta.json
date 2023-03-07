@@ -1,0 +1,23 @@
+{
+  "description": "Even numbers 2n that satisfy an extended Goldbach conjecture: They have at least one Goldbach partition 2n = p + q (p <= q; p, q prime) that satisfies p <= sqrt(n), at least one with sqrt(n) < p <= sqrt(2n) and at least one with p > sqrt(2n).",
+  "id": "A274189",
+  "mentions": [
+    "A002373",
+    "A020481",
+    "A025018",
+    "A025019",
+    "A244408",
+    "A273457",
+    "A279040"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:39",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

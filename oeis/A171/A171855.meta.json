@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of binary words of length n that have no pair of adjacent 1's and have k subwords 0000 (n>=0; k=0 for n=0,1,2; 0<=k<=n-3 for n>=3).",
+  "id": "A171855",
+  "mentions": [
+    "A000045",
+    "A003410",
+    "A004798"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 82,
+    "source": "oeis-entry"
+  }
+}

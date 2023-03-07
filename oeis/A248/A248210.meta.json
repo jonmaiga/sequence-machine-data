@@ -1,0 +1,21 @@
+{
+  "description": "Zeroless numbers k (numbers in A052382) such that k - DigitProduct(k) contains the same distinct digits as k.",
+  "id": "A248210",
+  "mentions": [
+    "A007954",
+    "A052382",
+    "A247888"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

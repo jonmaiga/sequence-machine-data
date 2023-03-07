@@ -1,0 +1,22 @@
+{
+  "description": "Nine times hexagonal numbers: a(n) = 9*n*(2*n-1).",
+  "id": "A152994",
+  "mentions": [
+    "A000384",
+    "A094159",
+    "A195160",
+    "A316466"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:44:53",
+    "offset": 0,
+    "size": 43,
+    "source": "joeis"
+  }
+}

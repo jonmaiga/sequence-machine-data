@@ -1,0 +1,19 @@
+{
+  "description": "Indices m for which A317413(m) = 1.",
+  "id": "A317538",
+  "mentions": [
+    "A073089",
+    "A317413"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:56",
+    "offset": 1,
+    "size": 69,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Earliest start of a run of n numbers divisible by a ninth power larger than one.",
+  "id": "A330484",
+  "mentions": [
+    "A045882",
+    "A271443",
+    "A330480",
+    "A330481",
+    "A330482",
+    "A330483",
+    "A330485",
+    "A330486"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

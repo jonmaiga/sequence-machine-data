@@ -1,0 +1,27 @@
+{
+  "description": "Primes p such that (p+1)/2, (p+2)/3 and (p+3)/4 are also primes.",
+  "id": "A163573",
+  "mentions": [
+    "A005383",
+    "A036570",
+    "A050498",
+    "A091180",
+    "A163623",
+    "A163624",
+    "A163625",
+    "A278583",
+    "A278585",
+    "A339883"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:45",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

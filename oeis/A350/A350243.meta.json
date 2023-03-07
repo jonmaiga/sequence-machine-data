@@ -1,0 +1,18 @@
+{
+  "description": "Number of achiral hexagonal polyominoes with 3n cells and threefold rotational symmetry centered at a vertex.",
+  "id": "A350243",
+  "mentions": [
+    "A001207",
+    "A006535"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

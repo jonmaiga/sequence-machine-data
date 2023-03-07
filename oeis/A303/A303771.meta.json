@@ -1,0 +1,42 @@
+{
+  "description": "Divisor-or-multiple permutation of natural numbers, \"Fermi-Dirac piano played with May code\": a(n) = A052330(A303767(n)).",
+  "id": "A303771",
+  "mentions": [
+    "A003188",
+    "A005117",
+    "A006068",
+    "A019565",
+    "A048675",
+    "A050376",
+    "A052330",
+    "A053669",
+    "A064736",
+    "A113552",
+    "A207901",
+    "A281978",
+    "A282291",
+    "A284003",
+    "A302033",
+    "A302350",
+    "A302781",
+    "A302783",
+    "A303751",
+    "A303760",
+    "A303767",
+    "A303772",
+    "A304085",
+    "A304531",
+    "A304537"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:28",
+    "offset": 0,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

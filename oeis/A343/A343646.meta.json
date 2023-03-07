@@ -1,0 +1,20 @@
+{
+  "description": "a(0) = 0, and for any n > 0 such that F(k) <= n < F(k+1) for some k > 1, a(n) = F(k) + a(F(k+1) - n - 1) (where F(k) = A000045(k) is the k-th Fibonacci number).",
+  "id": "A343646",
+  "mentions": [
+    "A000045",
+    "A003188",
+    "A343647"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:17",
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

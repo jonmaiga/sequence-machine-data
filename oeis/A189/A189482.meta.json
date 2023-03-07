@@ -1,0 +1,18 @@
+{
+  "description": "The anti-derivative of the numbers in A189481.",
+  "id": "A189482",
+  "mentions": [
+    "A003415",
+    "A189481"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:13",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

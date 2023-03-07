@@ -1,0 +1,30 @@
+{
+  "description": "Number of non-necklace compositions of n.",
+  "id": "A329145",
+  "mentions": [
+    "A000031",
+    "A000740",
+    "A001037",
+    "A008965",
+    "A019536",
+    "A059966",
+    "A070211",
+    "A178472",
+    "A318731",
+    "A328595",
+    "A329138",
+    "A329141",
+    "A329142"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 14:56:22",
+    "offset": 1,
+    "size": 34,
+    "source": "joeis"
+  }
+}

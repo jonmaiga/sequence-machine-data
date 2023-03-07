@@ -1,0 +1,17 @@
+{
+  "description": "Discriminator of the first n Fermat numbers A000215.",
+  "id": "A273037",
+  "mentions": [
+    "A000215"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

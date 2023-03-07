@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows in which row n lists the parts > 1 of the last section of the set of partitions of n in an order similar to A138136 but in this case the partitions with the least number of parts are listed first.",
+  "id": "A182711",
+  "mentions": [
+    "A135010",
+    "A138121",
+    "A138136",
+    "A138151",
+    "A138880",
+    "A182710"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 96,
+    "source": "oeis-entry"
+  }
+}

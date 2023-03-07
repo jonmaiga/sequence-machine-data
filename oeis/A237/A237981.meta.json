@@ -1,0 +1,25 @@
+{
+  "description": "Array: row n gives the NW partitions of n; see Comments.",
+  "id": "A237981",
+  "mentions": [
+    "A003114",
+    "A051924",
+    "A237982",
+    "A237983",
+    "A237985",
+    "A238325",
+    "A238326"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

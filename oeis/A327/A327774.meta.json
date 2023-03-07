@@ -1,0 +1,29 @@
+{
+  "description": "Composite numbers m such that tau_k(m) = m for some k, where tau_k is the k-th Piltz divisor function (A077592).",
+  "id": "A327774",
+  "mentions": [
+    "A007425",
+    "A007426",
+    "A034695",
+    "A061200",
+    "A077592",
+    "A097989",
+    "A111217",
+    "A111218",
+    "A111219",
+    "A111220",
+    "A111221",
+    "A111306",
+    "A163272"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

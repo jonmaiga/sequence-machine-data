@@ -1,0 +1,24 @@
+{
+  "description": "Expansion of (1/q) * (f(q) / f(q^9))^3 in powers of q where f() is a Ramanujan theta function.",
+  "id": "A227498",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A010054",
+    "A010815",
+    "A058091",
+    "A121373",
+    "A227454"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:12:31",
+    "offset": -1,
+    "size": 70,
+    "source": "joeis"
+  }
+}

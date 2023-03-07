@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of Sum_{k>=0} x^k / (1 - k*x^2)^(k+1).",
+  "id": "A360782",
+  "mentions": [
+    "A000045",
+    "A000248",
+    "A360592",
+    "A360783"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "easy",
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

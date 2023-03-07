@@ -1,0 +1,18 @@
+{
+  "description": "Smallest prime that begins with at least n digits of Pi.",
+  "id": "A276199",
+  "mentions": [
+    "A005042"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:41",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

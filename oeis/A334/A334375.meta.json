@@ -1,0 +1,22 @@
+{
+  "description": "a(n) equals the n-th Moran number (A001101) divided by its sum of digits.",
+  "id": "A334375",
+  "mentions": [
+    "A001101",
+    "A007953",
+    "A113315"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:05",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Smallest prime factor of the n-th highly totient number (A097942(n)) plus 1.",
+  "id": "A209195",
+  "mentions": [
+    "A020639",
+    "A097942"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:28",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of permutations of 2 indistinguishable copies of 1..n arranged in a circle with exactly k local maxima.",
+  "id": "A334778",
+  "mentions": [
+    "A000007",
+    "A000680",
+    "A027261",
+    "A159716",
+    "A159717",
+    "A159718",
+    "A159719",
+    "A159720",
+    "A263789",
+    "A334218",
+    "A334774",
+    "A334779",
+    "A334780"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:06",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

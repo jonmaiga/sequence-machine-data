@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: number of 0-1-2 trees (i.e., ordered trees with vertices of outdegrees 0, 1, or 2) with n edges and exactly k vertices that have 2 children, both being leaves (n >= 0, 0 <= k <= floor((n+2)/4)).",
+  "id": "A126191",
+  "mentions": [
+    "A001006",
+    "A002426",
+    "A025243"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

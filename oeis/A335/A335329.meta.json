@@ -1,0 +1,18 @@
+{
+  "description": "Primes p of the form 4k+1 such that the sum up to p of the primes of the same form is a square.",
+  "id": "A335329",
+  "mentions": [
+    "A033998"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

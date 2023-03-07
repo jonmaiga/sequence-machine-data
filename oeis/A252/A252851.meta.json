@@ -1,0 +1,28 @@
+{
+  "description": "Decimal expansion of G(5/6) where G is the Barnes G-function.",
+  "id": "A252851",
+  "mentions": [
+    "A074962",
+    "A087013",
+    "A087014",
+    "A087015",
+    "A087016",
+    "A087017",
+    "A252798",
+    "A252799",
+    "A252850"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 99,
+    "source": "oeis-entry"
+  }
+}

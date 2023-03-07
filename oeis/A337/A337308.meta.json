@@ -1,0 +1,17 @@
+{
+  "description": "Natural numbers that yield a coprime pair representing a proper fraction under the inverse of Cantor's pairing function.",
+  "id": "A337308",
+  "mentions": [
+    "A277557"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

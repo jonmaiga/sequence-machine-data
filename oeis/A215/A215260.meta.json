@@ -1,0 +1,21 @@
+{
+  "description": "Nearest integer to log(A002110(n)).",
+  "id": "A215260",
+  "mentions": [
+    "A002110",
+    "A057872",
+    "A092777",
+    "A215259"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:33",
+    "offset": 0,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

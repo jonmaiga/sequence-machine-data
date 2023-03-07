@@ -1,0 +1,24 @@
+{
+  "description": "Primes p which give primes when 1331 = 11^3 is prefixed (see A173579).",
+  "id": "A173733",
+  "mentions": [
+    "A102006",
+    "A167535",
+    "A168147",
+    "A168219",
+    "A168274",
+    "A173579"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:58",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

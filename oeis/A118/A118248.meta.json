@@ -1,0 +1,23 @@
+{
+  "description": "Least nonnegative integer whose binary representation does not occur in the concatenation of the binary representations of all earlier terms.",
+  "id": "A118248",
+  "mentions": [
+    "A048991",
+    "A048992",
+    "A118247",
+    "A118250",
+    "A118252",
+    "A161373"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:07",
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

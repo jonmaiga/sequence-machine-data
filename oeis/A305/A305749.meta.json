@@ -1,0 +1,27 @@
+{
+  "description": "T(n,k) is the number of achiral color patterns (set partitions) in a row or loop of length n with k or fewer colors (sets).",
+  "id": "A305749",
+  "mentions": [
+    "A016116",
+    "A057427",
+    "A080107",
+    "A182522",
+    "A304972",
+    "A305750",
+    "A305751",
+    "A305752"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

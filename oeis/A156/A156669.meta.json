@@ -1,0 +1,18 @@
+{
+  "description": "Positive integers k such that k^2 = (m^5 + n^5)/(m + n) for some nonnegative coprime integers m, n.",
+  "id": "A156669",
+  "mentions": [
+    "A156668",
+    "A156670"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

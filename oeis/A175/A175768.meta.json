@@ -1,0 +1,21 @@
+{
+  "description": "Primes of the form k * b^b + 1, with b > 1.",
+  "id": "A175768",
+  "mentions": [
+    "A000040",
+    "A002144",
+    "A180362",
+    "A285015"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:59",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

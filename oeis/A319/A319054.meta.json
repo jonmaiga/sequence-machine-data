@@ -1,0 +1,26 @@
+{
+  "description": "Maximum product of an aperiodic integer partition of n.",
+  "id": "A319054",
+  "mentions": [
+    "A000740",
+    "A000792",
+    "A000793",
+    "A000837",
+    "A007916",
+    "A100953",
+    "A281116",
+    "A289508",
+    "A289509",
+    "A296302"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 3*n + floor(sqrt(2)*n), complement of A187328.",
+  "id": "A187338",
+  "mentions": [
+    "A001951",
+    "A187328",
+    "A190329",
+    "A190330"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:12",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

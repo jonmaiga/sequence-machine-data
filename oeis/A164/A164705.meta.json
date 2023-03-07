@@ -1,0 +1,18 @@
+{
+  "description": "T(n,k)=Binomial(2n-k,n)*2^(k-1) for n>=1,0<=k<=n",
+  "id": "A164705",
+  "mentions": [
+    "A001700"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

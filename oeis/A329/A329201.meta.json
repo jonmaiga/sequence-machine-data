@@ -1,0 +1,23 @@
+{
+  "description": "The ghost iteration (B): add or subtract the number formed by absolute differences of digits (A040115), according to parity (odd or even).",
+  "id": "A329201",
+  "mentions": [
+    "A010785",
+    "A040115",
+    "A329200",
+    "A329342"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 77,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the least m such that A008284(m,n+1) > A008284(m,n).",
+  "id": "A274383",
+  "mentions": [
+    "A008284"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

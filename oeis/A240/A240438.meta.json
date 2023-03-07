@@ -1,0 +1,24 @@
+{
+  "description": "Greatest minimal difference between numbers of adjacent cells in a regular hexagonal honeycomb of order n with cells numbered from 1 through the total number of cells, the order n corresponding to the number of cells on one side of the honeycomb.",
+  "id": "A240438",
+  "mentions": [
+    "A042965",
+    "A047234",
+    "A057682",
+    "A099838",
+    "A130784",
+    "A131713"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:43:01",
+    "offset": 1,
+    "size": 52,
+    "source": "joeis"
+  }
+}

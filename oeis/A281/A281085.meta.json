@@ -1,0 +1,26 @@
+{
+  "description": "Numerator of sum of reciprocals of numbers less than n that do not divide n.",
+  "id": "A281085",
+  "mentions": [
+    "A000203",
+    "A001008",
+    "A002805",
+    "A017665",
+    "A017666",
+    "A024816",
+    "A277790",
+    "A281086"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

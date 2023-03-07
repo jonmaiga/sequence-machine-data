@@ -1,0 +1,20 @@
+{
+  "description": "Irregular triangle where the n-th row lists the positive integers k such that phi(k) = A002034(k^n).",
+  "id": "A336711",
+  "mentions": [
+    "A000010",
+    "A002034",
+    "A337029"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:08",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

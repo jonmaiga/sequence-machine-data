@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = |{0 < k < n: p = k + phi(n-k) and 2*(n-p) + 1 are both prime}|, where phi(.) is Euler's totient function.",
+  "id": "A234809",
+  "mentions": [
+    "A000010",
+    "A000040",
+    "A046927",
+    "A234470",
+    "A234475",
+    "A234514",
+    "A234567",
+    "A234615",
+    "A234694",
+    "A234808"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:52",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

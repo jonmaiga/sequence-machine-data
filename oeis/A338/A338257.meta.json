@@ -1,0 +1,19 @@
+{
+  "description": "Positive integers k with digits in nondecreasing order for which the digital sum contains the same distinct digits as the digital product.",
+  "id": "A338257",
+  "mentions": [
+    "A009994",
+    "A249334"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

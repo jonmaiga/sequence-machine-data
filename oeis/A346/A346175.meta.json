@@ -1,0 +1,19 @@
+{
+  "description": "a(0)=0. If a(n) is a novel term, a(n+1)=a(a(n)). If a(n) has appeared before, a(n+1)=number of prior terms equal to a(n).",
+  "id": "A346175",
+  "mentions": [
+    "A025480",
+    "A181391"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:19",
+    "offset": 0,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: number of k-ary n-tuples (a_1,..,a_n) such that the string a_1...a_n is preprime.",
+  "id": "A215474",
+  "mentions": [
+    "A054630",
+    "A056665",
+    "A143328",
+    "A215475"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:33",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

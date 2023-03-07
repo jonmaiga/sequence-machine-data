@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the maximum number of connected endofunctions that are spanning subgraphs of a semi-regular loopless digraph on n vertices each with out-degree k.",
+  "id": "A359628",
+  "mentions": [
+    "A000435"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "more",
+    "new",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 2,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

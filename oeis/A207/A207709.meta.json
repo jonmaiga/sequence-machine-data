@@ -1,0 +1,21 @@
+{
+  "description": "Floor((H(n) + exp(H(n))*log(H(n)))/sigma(n)), where H(n) is the harmonic number sum_{i=1..n} 1/i.",
+  "id": "A207709",
+  "mentions": [
+    "A000203",
+    "A008594",
+    "A057641",
+    "A076633",
+    "A215640"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:27",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

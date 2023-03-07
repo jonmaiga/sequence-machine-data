@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of the greatest negative number x satisfying 2*x^2=e^(-x).",
+  "id": "A201937",
+  "mentions": [
+    "A201936",
+    "A201938"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:58",
+    "offset": 1,
+    "size": 99,
+    "source": "joeis"
+  }
+}

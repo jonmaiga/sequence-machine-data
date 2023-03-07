@@ -1,0 +1,23 @@
+{
+  "description": "L.g.f.: Sum_{n>=1} [ Sum_{k>=1} k^n * x^k ]^n / n.",
+  "id": "A276750",
+  "mentions": [
+    "A008292",
+    "A156170",
+    "A276753",
+    "A276754",
+    "A276906",
+    "A292502"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

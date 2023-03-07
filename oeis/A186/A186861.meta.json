@@ -1,0 +1,19 @@
+{
+  "description": "Array read by antidiagonals: T(n,k) is the number of n-step king's tours on a k X k board summed over all starting positions.",
+  "id": "A186861",
+  "mentions": [
+    "A033586"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:11",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

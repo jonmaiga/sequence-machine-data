@@ -1,0 +1,17 @@
+{
+  "description": "Number of nondecreasing -n..n vectors of length 7 whose dot product with some nondecreasing -n..n vector equals 7",
+  "id": "A226415",
+  "mentions": [
+    "A226410"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

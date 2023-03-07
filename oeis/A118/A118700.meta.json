@@ -1,0 +1,18 @@
+{
+  "description": "Odd n such that 2*phi(n) < n, but there does not exist an even k < n with phi(k) = phi(n).",
+  "id": "A118700",
+  "mentions": [
+    "A036798",
+    "A119434"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:08",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

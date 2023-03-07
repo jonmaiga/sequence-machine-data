@@ -1,0 +1,22 @@
+{
+  "description": "Coefficients in the power series A(x) such that: A(x)^2 = Sum_{n=-oo..+oo} x^(2*n+1) * (1 - x^n)^(n+1) * A(x)^n.",
+  "id": "A357152",
+  "mentions": [
+    "A356783",
+    "A357151",
+    "A357153",
+    "A357154",
+    "A357155"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:31",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

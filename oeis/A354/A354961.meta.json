@@ -1,0 +1,19 @@
+{
+  "description": "Coordination sequence for the Manhattan cubic lattice.",
+  "id": "A354961",
+  "mentions": [
+    "A005899",
+    "A336627",
+    "A354957"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

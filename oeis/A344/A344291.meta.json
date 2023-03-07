@@ -1,0 +1,35 @@
+{
+  "description": "Numbers whose sum of prime indices is at least twice their number of prime indices (counted with multiplicity).",
+  "id": "A344291",
+  "mentions": [
+    "A001221",
+    "A001222",
+    "A001358",
+    "A025065",
+    "A035363",
+    "A056239",
+    "A084127",
+    "A110618",
+    "A112798",
+    "A244990",
+    "A322109",
+    "A340387",
+    "A344292",
+    "A344293",
+    "A344294",
+    "A344296",
+    "A344414",
+    "A344415"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

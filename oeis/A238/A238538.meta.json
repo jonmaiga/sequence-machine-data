@@ -1,0 +1,28 @@
+{
+  "description": "A fourth-order linear divisibility sequence: a(n) = (2^n + 1)*(2^(3*n) - 1)/ ( (2 + 1)*(2^3 - 1) ).",
+  "id": "A238538",
+  "mentions": [
+    "A000051",
+    "A024088",
+    "A215466",
+    "A236536",
+    "A236537",
+    "A238536",
+    "A238537",
+    "A238539",
+    "A238540",
+    "A238541"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

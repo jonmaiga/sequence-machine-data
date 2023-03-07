@@ -1,0 +1,20 @@
+{
+  "description": "Smallest k such that n^4 = a_1^4+...+a_k^4 and all a_i are positive integers less than n.",
+  "id": "A161884",
+  "mentions": [
+    "A099591",
+    "A161882",
+    "A161883",
+    "A161885"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:44",
+    "offset": 2,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

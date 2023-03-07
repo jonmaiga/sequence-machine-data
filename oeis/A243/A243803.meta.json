@@ -1,0 +1,22 @@
+{
+  "description": "Number of numbers k in interval [(p_n)^2+1, (p_n)^4] for which lpf(k-3)>lpf(k-1)>=p_n, where p_n=prime(n) and lpf = A020639.",
+  "id": "A243803",
+  "mentions": [
+    "A020639",
+    "A242719",
+    "A242720",
+    "A242758",
+    "A242847",
+    "A243804"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 3,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Number of nX6 arrays of the minimum value of corresponding elements and their horizontal or diagonal neighbors in a random, but sorted with lexicographically nondecreasing rows and nonincreasing columns, 0..2 nX6 array",
+  "id": "A220151",
+  "mentions": [
+    "A220153"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:38",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

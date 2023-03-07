@@ -1,0 +1,21 @@
+{
+  "description": "Inverse to sequence matrix for natural numbers.",
+  "id": "A185018",
+  "mentions": [
+    "A004736",
+    "A167194"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:27:01",
+    "offset": 0,
+    "size": 91,
+    "source": "joeis"
+  }
+}

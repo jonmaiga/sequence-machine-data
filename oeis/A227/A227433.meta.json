@@ -1,0 +1,18 @@
+{
+  "description": "Number of pairs of 2 X 2 matrices over Z/nZ that do not commute.",
+  "id": "A227433",
+  "mentions": [
+    "A227479"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

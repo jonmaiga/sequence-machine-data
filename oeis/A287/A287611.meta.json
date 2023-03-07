@@ -1,0 +1,20 @@
+{
+  "description": "Numbers which are twice an Ulam number but not the sum of two distinct Ulam numbers.",
+  "id": "A287611",
+  "mentions": [
+    "A002858",
+    "A285882"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

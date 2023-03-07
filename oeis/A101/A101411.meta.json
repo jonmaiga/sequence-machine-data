@@ -1,0 +1,18 @@
+{
+  "description": "Denominator when the numerator of the continued fraction rational approximation of sqrt(2) is prime. Also the denominators of A086395(n).",
+  "id": "A101411",
+  "mentions": [
+    "A086395"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

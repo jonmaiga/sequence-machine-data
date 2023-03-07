@@ -1,0 +1,19 @@
+{
+  "description": "Number of fixed polyominoes in equilibrium; a fixed polyomino is in equilibrium when its center of mass is vertically aligned with a cell with minimal coordinate.",
+  "id": "A171579",
+  "mentions": [
+    "A001168"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

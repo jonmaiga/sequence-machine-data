@@ -1,0 +1,22 @@
+{
+  "description": "Fixed points of permutation A267099.",
+  "id": "A354192",
+  "mentions": [
+    "A000079",
+    "A048630",
+    "A072202",
+    "A267099",
+    "A354189",
+    "A354193"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of e.g.f. 1/(1 - x)^exp(-x).",
+  "id": "A298374",
+  "mentions": [
+    "A002741",
+    "A007116",
+    "A009198",
+    "A191365"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:19",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

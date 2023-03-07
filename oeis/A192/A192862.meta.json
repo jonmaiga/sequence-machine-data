@@ -1,0 +1,21 @@
+{
+  "description": "Flat primes: odd primes p such that p+1 is a squarefree number times a power of two.",
+  "id": "A192862",
+  "mentions": [
+    "A005596",
+    "A192861",
+    "A192863",
+    "A192864"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

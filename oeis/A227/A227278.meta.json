@@ -1,0 +1,20 @@
+{
+  "description": "E.g.f.: T(T(T(x))), where T(x) = -LambertW(-x) is Euler's tree function (A000169).",
+  "id": "A227278",
+  "mentions": [
+    "A000169",
+    "A207833",
+    "A268653"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

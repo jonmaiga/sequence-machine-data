@@ -1,0 +1,21 @@
+{
+  "description": "a(0)=-1; a(n)=Floor[n^a(n-1)-a(n-1)^n].",
+  "id": "A152837",
+  "mentions": [
+    "A084964",
+    "A152832",
+    "A152833",
+    "A152835",
+    "A152836"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

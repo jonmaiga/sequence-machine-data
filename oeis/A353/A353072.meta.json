@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that nextprime(k)-k is a positive square.",
+  "id": "A353072",
+  "mentions": [
+    "A006093",
+    "A013632",
+    "A029710"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:27",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "a(n) is the least number of squares needed to form n edge-disjoint 1 X 1 holes inside a rectangle of squares with a solid border.",
+  "id": "A168339",
+  "mentions": [
+    "A000982",
+    "A118797",
+    "A143082",
+    "A145288",
+    "A161357",
+    "A161358",
+    "A161359",
+    "A161369"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

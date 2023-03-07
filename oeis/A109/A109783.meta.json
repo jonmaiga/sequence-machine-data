@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the largest possible K such that there exists a K-digit in base n integer M such that for each N=1,2,...,K, the integer given by the first N digits of M in base n is divisible by N.",
+  "id": "A109783",
+  "mentions": [
+    "A109032"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 2,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

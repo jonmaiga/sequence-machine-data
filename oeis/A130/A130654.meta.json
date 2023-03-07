@@ -1,0 +1,25 @@
+{
+  "description": "Exponent m such that 2^m = A092505(n) = A002430(n) / A046990(n).",
+  "id": "A130654",
+  "mentions": [
+    "A002430",
+    "A006502",
+    "A007814",
+    "A046990",
+    "A062354",
+    "A092505",
+    "A131262",
+    "A171499"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:18",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

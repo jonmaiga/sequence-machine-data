@@ -1,0 +1,22 @@
+{
+  "description": "Irregular table read by rows: T(n,k) is the number of regions formed after k diagonals, with k>=0, are drawn between vertices of a regular n-gon, with n>=3, when each vertex in turn is connected to the vertex floor(n/2) vertices to its left, then floor(n/2)-1 vertices to its left, then floor(n/2)-2 vertices ... until all vertices are connected by diagonals.",
+  "id": "A352883",
+  "mentions": [
+    "A007678",
+    "A344857",
+    "A350000",
+    "A352533",
+    "A352866"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 3,
+    "size": 84,
+    "source": "oeis-entry"
+  }
+}

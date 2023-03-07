@@ -1,0 +1,24 @@
+{
+  "description": "Permutation of natural numbers: a(n) = (A305421(n)+1)/2.",
+  "id": "A305423",
+  "mentions": [
+    "A014580",
+    "A048673",
+    "A091225",
+    "A304521",
+    "A305420",
+    "A305421",
+    "A305424"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:29",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

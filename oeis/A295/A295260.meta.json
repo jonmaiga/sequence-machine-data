@@ -1,0 +1,28 @@
+{
+  "description": "Array read by antidiagonals: T(n,k) = number of nonequivalent dissections of a polygon into n k-gons by nonintersecting diagonals up to rotation and reflection (k >= 3).",
+  "id": "A295260",
+  "mentions": [
+    "A000207",
+    "A004127",
+    "A005036",
+    "A005040",
+    "A005419",
+    "A033282",
+    "A070914",
+    "A295222",
+    "A295224",
+    "A295259"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:13",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

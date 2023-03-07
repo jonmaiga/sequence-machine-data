@@ -1,0 +1,26 @@
+{
+  "description": "Triangle read by rows in which row n lists all the pairs of prime numbers that are equidistant from n, or only n if there is no such pair, as shown below in the example.",
+  "id": "A154727",
+  "mentions": [
+    "A000040",
+    "A154720",
+    "A154721",
+    "A154722",
+    "A154723",
+    "A154724",
+    "A154725",
+    "A154726"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:36",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

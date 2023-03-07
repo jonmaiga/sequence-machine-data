@@ -1,0 +1,29 @@
+{
+  "description": "Number of steps to go from 2^(n+1)-1 to (2^n)-1 using the iterative process described in A071542.",
+  "id": "A213709",
+  "mentions": [
+    "A000120",
+    "A011782",
+    "A071542",
+    "A179016",
+    "A213710",
+    "A213711",
+    "A213722",
+    "A218542",
+    "A218543",
+    "A218600",
+    "A219661",
+    "A226060"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:31",
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

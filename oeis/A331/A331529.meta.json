@@ -1,0 +1,27 @@
+{
+  "description": "a(n) is the number of nonnegative integers that can be represented in a 7-segment display by using only n segments (version A006942).",
+  "id": "A331529",
+  "mentions": [
+    "A002426",
+    "A004526",
+    "A006942",
+    "A074458",
+    "A216261",
+    "A331530",
+    "A343314",
+    "A343315"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:01",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

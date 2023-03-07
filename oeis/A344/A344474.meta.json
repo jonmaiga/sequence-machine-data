@@ -1,0 +1,24 @@
+{
+  "description": "Least number k such that half of the numbers from 0 to k inclusive contain the digit n.",
+  "id": "A344474",
+  "mentions": [
+    "A016189",
+    "A344634",
+    "A344636"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "easy",
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

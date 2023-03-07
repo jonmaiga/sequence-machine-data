@@ -1,0 +1,20 @@
+{
+  "description": "Lexicographically earliest sequence of distinct nonprime numbers such that for any n > 0, a(n+1) = a(n) XOR 2^k for some k >= 0 as small as possible (where XOR denotes the bitwise XOR operator).",
+  "id": "A343765",
+  "mentions": [
+    "A003188",
+    "A018252",
+    "A059459"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:17",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

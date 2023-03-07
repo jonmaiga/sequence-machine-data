@@ -1,0 +1,22 @@
+{
+  "description": "Primitive prime factors of the cyclotomic polynomial sequence Phi(5,k) in the order in which they occur.",
+  "id": "A256153",
+  "mentions": [
+    "A005529",
+    "A248874",
+    "A256144",
+    "A256145",
+    "A256146",
+    "A256148"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

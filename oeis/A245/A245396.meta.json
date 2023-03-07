@@ -1,0 +1,28 @@
+{
+  "description": "Largest prime not exceeding prime(n)^(1 + 1/n).",
+  "id": "A245396",
+  "mentions": [
+    "A000040",
+    "A001223",
+    "A006530",
+    "A007917",
+    "A151799",
+    "A182134",
+    "A244365",
+    "A245722",
+    "A246778",
+    "A246782",
+    "A249669"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

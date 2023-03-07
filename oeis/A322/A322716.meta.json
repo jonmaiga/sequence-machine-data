@@ -1,0 +1,30 @@
+{
+  "description": "Number of times the digit 1 appears in the first 10^n decimal digits of Euler's number e = exp(1), counting starts after the decimal point.",
+  "id": "A322716",
+  "mentions": [
+    "A001113",
+    "A099292",
+    "A322642",
+    "A322715",
+    "A322717",
+    "A322718",
+    "A322719",
+    "A322720",
+    "A322721",
+    "A322722",
+    "A322723",
+    "A322724"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

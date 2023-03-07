@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that n + (sum of digits of n) is a palindrome.",
+  "id": "A229545",
+  "mentions": [
+    "A062028"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:46",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

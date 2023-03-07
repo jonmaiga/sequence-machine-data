@@ -1,0 +1,22 @@
+{
+  "description": "G.f.: S(x) = Sum_{n>=0} -log(1 - 2^(2n+1)*x)^(2n+1)/(2n+1)!, a power series in x with integer coefficients.",
+  "id": "A166996",
+  "mentions": [
+    "A014070",
+    "A060690",
+    "A166995",
+    "A166997",
+    "A166998"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:50",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the least k such that {1^n, 2^n, 3^n, ..., k^n} can be partitioned into 3 sets whose sums are equal.",
+  "id": "A240070",
+  "mentions": [
+    "A019568"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

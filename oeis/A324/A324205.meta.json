@@ -1,0 +1,22 @@
+{
+  "description": "The largest zeroless polydivisible number in base n (written in base 10).",
+  "id": "A324205",
+  "mentions": [
+    "A109032",
+    "A324019",
+    "A324020",
+    "A997795"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 2,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

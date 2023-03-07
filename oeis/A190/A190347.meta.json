@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = n + [n*s/r] + [n*t/r]; r=1, s=sqrt(5/3), t=sqrt(3/5).",
+  "id": "A190347",
+  "mentions": [
+    "A190348",
+    "A190349"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:14",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

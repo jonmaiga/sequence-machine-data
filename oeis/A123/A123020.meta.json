@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of (1 -5*x +5*x^2)/((1 -2*x)*(1 -4*x +x^2)).",
+  "id": "A123020",
+  "mentions": [
+    "A001075",
+    "A001519",
+    "A080937"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:11",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "description": "Square array T(n,k) (n >= 1, k >= 0) read by antidiagonals: coordination sequence for root lattice A_n.",
+  "id": "A103881",
+  "mentions": [
+    "A001621",
+    "A002376",
+    "A005901",
+    "A008383",
+    "A008385",
+    "A008387",
+    "A008389",
+    "A008391",
+    "A008393",
+    "A008395",
+    "A008458",
+    "A035837",
+    "A035838",
+    "A035839",
+    "A035840",
+    "A035841",
+    "A035876",
+    "A040000",
+    "A103882"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:54",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

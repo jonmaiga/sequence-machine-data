@@ -1,0 +1,26 @@
+{
+  "description": "a(n) is the greatest number k having for every prime <= prime(n) at least one prime partition with least part p, and no such partition having least part > prime(n). If no such k exists then a(n) = 0.",
+  "id": "A333417",
+  "mentions": [
+    "A000040",
+    "A002110",
+    "A051034",
+    "A330507",
+    "A331634",
+    "A332861",
+    "A333129",
+    "A333238",
+    "A333259",
+    "A333365"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

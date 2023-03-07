@@ -1,0 +1,18 @@
+{
+  "description": "Largest exponent e such that n^e that divides A001142(n).",
+  "id": "A109874",
+  "mentions": [
+    "A001142",
+    "A109873"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 2,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "description": "Permutation of the natural numbers partitioned into quadruples [4k-2, 4k-1, 4k-3, 4k] for k > 0.",
+  "id": "A298364",
+  "mentions": [
+    "A005843",
+    "A008586",
+    "A014601",
+    "A042948",
+    "A042963",
+    "A042964",
+    "A056699",
+    "A067060",
+    "A068073",
+    "A080412",
+    "A092486",
+    "A103889",
+    "A116966",
+    "A132400",
+    "A133256",
+    "A140081",
+    "A166519",
+    "A168269",
+    "A256008",
+    "A284307",
+    "A292576"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:19",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

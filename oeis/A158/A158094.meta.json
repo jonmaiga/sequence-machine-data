@@ -1,0 +1,19 @@
+{
+  "description": "G.f. Product_{n>=1} (1 + a(n)*x^n) = Sum_{n>=0} n!*x^n.",
+  "id": "A158094",
+  "mentions": [
+    "A113869",
+    "A316084"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:40",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

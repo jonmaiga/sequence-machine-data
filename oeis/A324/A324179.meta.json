@@ -1,0 +1,26 @@
+{
+  "description": "Number of distinct values A297167 obtains over divisors > 1 of n, minus number of prime factors of n counted with multiplicity: a(n) = A324190(n) - A001222(n).",
+  "id": "A324179",
+  "mentions": [
+    "A000961",
+    "A001222",
+    "A061395",
+    "A297112",
+    "A297167",
+    "A324120",
+    "A324190",
+    "A324191",
+    "A324192"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:49",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

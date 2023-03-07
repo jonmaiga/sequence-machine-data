@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = degree in N of the number of orbits under S_N of the set of n-tuples of partitions of {1,...,N} into n subsets.",
+  "id": "A140124",
+  "mentions": [
+    "A000312"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 2,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Number of steps for n to join the main line of A003508.",
+  "id": "A105593",
+  "mentions": [
+    "A003508"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-entry"
+  }
+}

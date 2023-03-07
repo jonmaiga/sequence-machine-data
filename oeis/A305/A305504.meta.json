@@ -1,0 +1,30 @@
+{
+  "description": "Heinz numbers of integer partitions whose distinct parts plus 1 are connected.",
+  "id": "A305504",
+  "mentions": [
+    "A001221",
+    "A048143",
+    "A056239",
+    "A112798",
+    "A275024",
+    "A286518",
+    "A290103",
+    "A302242",
+    "A304714",
+    "A304716",
+    "A305052",
+    "A305078",
+    "A305079",
+    "A305501"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

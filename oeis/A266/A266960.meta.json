@@ -1,0 +1,21 @@
+{
+  "description": "Integer averages of first n Fibonacci numbers (beginning with F(0)).",
+  "id": "A266960",
+  "mentions": [
+    "A000071",
+    "A101907",
+    "A219612"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Triple-safe primes p: p, (p-1)/2, (p-3)/4, and (p-7)/8 are all prime.",
+  "id": "A157358",
+  "mentions": [
+    "A005385",
+    "A066179",
+    "A157357"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

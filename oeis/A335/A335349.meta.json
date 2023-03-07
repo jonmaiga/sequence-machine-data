@@ -1,0 +1,22 @@
+{
+  "description": "a(n) counts anti-chains of size three in \"0,1,2\" Motzkin trees on n edges.",
+  "id": "A335349",
+  "mentions": [
+    "A000108",
+    "A001006",
+    "A002426",
+    "A005717",
+    "A178834"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 4,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

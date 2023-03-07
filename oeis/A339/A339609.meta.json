@@ -1,0 +1,20 @@
+{
+  "description": "Consider a triangle drawn on the perimeter of a triangular lattice with side length n. a(n) is the number of regions inside the triangle after drawing unit circles centered at each lattice point inside the triangle.",
+  "id": "A339609",
+  "mentions": [
+    "A005476",
+    "A339623"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:19:47",
+    "offset": 1,
+    "size": 50,
+    "source": "joeis"
+  }
+}

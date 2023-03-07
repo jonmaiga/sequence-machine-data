@@ -1,0 +1,20 @@
+{
+  "description": "Perfect powers equal to the sum of 4 factorial numbers.",
+  "id": "A227645",
+  "mentions": [
+    "A082920",
+    "A114377",
+    "A227644",
+    "A227651"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

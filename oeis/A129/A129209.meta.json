@@ -1,0 +1,20 @@
+{
+  "description": "Fourth sequence in solution to congruent number 5 problem.",
+  "id": "A129209",
+  "mentions": [
+    "A129206",
+    "A129207",
+    "A129208"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:17",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

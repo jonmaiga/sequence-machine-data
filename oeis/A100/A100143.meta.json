@@ -1,0 +1,21 @@
+{
+  "description": "Unique sequence with a(1)=1 where each a(n) occurs in the same order a(n) times consecutively in its sequence of first differences which contains no other terms.",
+  "id": "A100143",
+  "mentions": [
+    "A001462",
+    "A002024",
+    "A075349",
+    "A100144",
+    "A100250"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

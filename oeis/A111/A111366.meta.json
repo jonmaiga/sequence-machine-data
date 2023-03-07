@@ -1,0 +1,19 @@
+{
+  "description": "Numbers such that the sum of the digits of floor(phi^n) is also the sum of the digits of the n-th Fibonacci number (in base 10), where phi is the golden ratio.",
+  "id": "A111366",
+  "mentions": [
+    "A001999",
+    "A066212"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

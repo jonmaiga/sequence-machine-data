@@ -1,0 +1,27 @@
+{
+  "description": "a(n) = A156552(n) XOR A324865(n), where XOR is bitwise-xor, A003987.",
+  "id": "A324867",
+  "mentions": [
+    "A001065",
+    "A003986",
+    "A003987",
+    "A156552",
+    "A318457",
+    "A323243",
+    "A324398",
+    "A324865",
+    "A324866",
+    "A324877"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:51",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

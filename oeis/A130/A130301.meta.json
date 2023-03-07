@@ -1,0 +1,25 @@
+{
+  "description": "Lower triangular matrix, read by rows: A130296 * A007318, as infinite lower triangular matrices.",
+  "id": "A130301",
+  "mentions": [
+    "A000217",
+    "A007318",
+    "A051340",
+    "A083706",
+    "A121775",
+    "A130296",
+    "A130300"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

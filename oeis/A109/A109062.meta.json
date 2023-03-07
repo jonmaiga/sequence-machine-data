@@ -1,0 +1,27 @@
+{
+  "description": "Triangle read by rows: number of atomic set compositions of size n and length k (see description in A095989) 1 <= k <= n.",
+  "id": "A109062",
+  "mentions": [
+    "A000295",
+    "A003319",
+    "A008277",
+    "A019538",
+    "A059438",
+    "A074664",
+    "A084938",
+    "A087903",
+    "A095989"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

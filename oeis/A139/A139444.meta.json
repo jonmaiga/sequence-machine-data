@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that primorial(n)/2 - 16 is prime.",
+  "id": "A139444",
+  "mentions": [
+    "A067026",
+    "A067027",
+    "A103514",
+    "A139439",
+    "A139457"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

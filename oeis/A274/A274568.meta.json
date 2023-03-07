@@ -1,0 +1,21 @@
+{
+  "description": "Irregular triangle read by rows in which the n-th row (n>1) lists distinct \"factors\" of n for the sieve described in A262775.",
+  "id": "A274568",
+  "mentions": [
+    "A027748",
+    "A262775",
+    "A264940",
+    "A272565"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:39",
+    "offset": 0,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

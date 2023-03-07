@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the smallest prime q such that (r-q)/(q-p) = n, where p",
+  "id": "A179210",
+  "mentions": [
+    "A001223",
+    "A179256",
+    "A181994",
+    "A278574"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:02",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

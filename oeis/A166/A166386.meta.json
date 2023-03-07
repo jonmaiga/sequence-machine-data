@@ -1,0 +1,18 @@
+{
+  "description": "The count of primes between the (2*n-1)-th betrothed number and the (2n)-th betrothed number.",
+  "id": "A166386",
+  "mentions": [
+    "A000040",
+    "A005276"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

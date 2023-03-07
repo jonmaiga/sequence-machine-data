@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = sigma(n) + sigma(n+1) + sigma(n+2) - sigma(n+3), where sigma is the sum of divisors.",
+  "id": "A348688",
+  "mentions": [
+    "A000203",
+    "A348335",
+    "A348689",
+    "A348698"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:23",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

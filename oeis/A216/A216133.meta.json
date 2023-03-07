@@ -1,0 +1,18 @@
+{
+  "description": "In the decimal expansion of Pi, the first occurrence of these primes begins at a prime position.",
+  "id": "A216133",
+  "mentions": [
+    "A000796"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

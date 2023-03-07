@@ -1,0 +1,34 @@
+{
+  "description": "Permutation of natural numbers which maps between the partitions as encoded in A227739 (binary based system, zero-based) to A112798 (prime-index based system, one-based).",
+  "id": "A243353",
+  "mentions": [
+    "A002110",
+    "A003188",
+    "A003963",
+    "A005940",
+    "A037481",
+    "A056239",
+    "A075157",
+    "A112798",
+    "A226062",
+    "A227183",
+    "A227184",
+    "A227451",
+    "A227739",
+    "A241909",
+    "A242424",
+    "A243054",
+    "A243354"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:59",
+    "offset": 0,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

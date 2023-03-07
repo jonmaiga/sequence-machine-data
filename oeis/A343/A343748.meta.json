@@ -1,0 +1,21 @@
+{
+  "description": "The y coordinates of the points visited by a knight on a 3D cubic lattice using the step rules given in A343678.",
+  "id": "A343748",
+  "mentions": [
+    "A343678",
+    "A343746",
+    "A343747",
+    "A343749"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "fini",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

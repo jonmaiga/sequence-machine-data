@@ -1,0 +1,24 @@
+{
+  "description": "Last 3 digits of n-th even superperfect number A061652(n).",
+  "id": "A138871",
+  "mentions": [
+    "A019279",
+    "A061652",
+    "A138865",
+    "A138867",
+    "A138870",
+    "A138872"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = the denominator of the continued fraction [1;floor(n/(n-1)),floor(n/(n-2)),...,floor(n/1)].",
+  "id": "A128601",
+  "mentions": [
+    "A128599",
+    "A128600"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

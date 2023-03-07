@@ -1,0 +1,22 @@
+{
+  "description": "Denominators of rational valued sequence whose Dirichlet convolution with itself yields Euler's phi (A000010).",
+  "id": "A317926",
+  "mentions": [
+    "A000010",
+    "A046644",
+    "A317832",
+    "A317925"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:37",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

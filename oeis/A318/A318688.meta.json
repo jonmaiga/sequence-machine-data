@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that 2^(3^j) == 1 (mod k) for some j.",
+  "id": "A318688",
+  "mentions": [
+    "A000244",
+    "A002326"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:40",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "description": "Sum of elements in Catalan numerals, A239903.",
+  "id": "A236855",
+  "mentions": [
+    "A000108",
+    "A000217",
+    "A001453",
+    "A007953",
+    "A009766",
+    "A014420",
+    "A034968",
+    "A060130",
+    "A071155",
+    "A081288",
+    "A081291",
+    "A236859",
+    "A237449",
+    "A239903"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:54",
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

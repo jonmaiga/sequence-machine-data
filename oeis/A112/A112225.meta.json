@@ -1,0 +1,20 @@
+{
+  "description": "Number of elements of a Weyl group of order 2^{n-1} n! of type D for which a reduced word contains all of the simple reflections.",
+  "id": "A112225",
+  "mentions": [
+    "A003319",
+    "A109253",
+    "A260952"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:03",
+    "offset": 2,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

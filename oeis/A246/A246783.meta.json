@@ -1,0 +1,21 @@
+{
+  "description": "Smallest number m such that all the n numbers np(m+k-1), 0 < k < n+1 are equal, where np(t) is number of primes p with prime(t) < p < prime(t)^(1+1/t).",
+  "id": "A246783",
+  "mentions": [
+    "A000040",
+    "A182134",
+    "A245098",
+    "A245101"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

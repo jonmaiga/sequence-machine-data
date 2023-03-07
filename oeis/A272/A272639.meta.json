@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that the sequence defined by {b(1)=1, b(2)=n, b(k) = squarefree part of b(k-1)+b(k-2) for k>2} does not eventually merge with the period-6 sequence A272636.",
+  "id": "A272639",
+  "mentions": [
+    "A007913",
+    "A272636",
+    "A272637",
+    "A272638"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:37",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

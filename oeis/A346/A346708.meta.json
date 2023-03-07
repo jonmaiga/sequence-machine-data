@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the least k > 1 such that p(n) divides p(n^k), or 0 if no such k exists (p = A000041).",
+  "id": "A346708",
+  "mentions": [
+    "A000041"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

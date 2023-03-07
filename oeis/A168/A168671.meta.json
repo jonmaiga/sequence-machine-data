@@ -1,0 +1,19 @@
+{
+  "description": "Numbers that are congruent to {1, 10} mod 13.",
+  "id": "A168671",
+  "mentions": [
+    "A169599"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:47:03",
+    "offset": 1,
+    "size": 58,
+    "source": "joeis"
+  }
+}

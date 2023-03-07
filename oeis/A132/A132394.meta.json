@@ -1,0 +1,20 @@
+{
+  "description": "Left-truncatable primes in the order generated (with no zero digits).",
+  "id": "A132394",
+  "mentions": [
+    "A024785"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:20",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

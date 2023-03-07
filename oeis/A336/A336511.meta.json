@@ -1,0 +1,21 @@
+{
+  "description": "Total sum of the left-to-right maxima in all compositions of n.",
+  "id": "A336511",
+  "mentions": [
+    "A001705",
+    "A336482",
+    "A336512",
+    "A336516",
+    "A336771"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:08",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

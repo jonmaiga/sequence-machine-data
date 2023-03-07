@@ -1,0 +1,20 @@
+{
+  "description": "Number of distinct greater twin primes which are in Goldbach partitions of 2n.",
+  "id": "A294186",
+  "mentions": [
+    "A002372",
+    "A006512",
+    "A294185",
+    "A295424"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-entry"
+  }
+}

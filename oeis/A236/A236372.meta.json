@@ -1,0 +1,20 @@
+{
+  "description": "Terms of A050973 that give minimum record values for A050973(k)/A050972(k).",
+  "id": "A236372",
+  "mentions": [
+    "A050972",
+    "A050973",
+    "A236355"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

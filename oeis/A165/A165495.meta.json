@@ -1,0 +1,20 @@
+{
+  "description": "First result not divisible by 4 when iterating k -> k+tau(k) from 2(2n-1)^2",
+  "id": "A165495",
+  "mentions": [
+    "A064491",
+    "A165494",
+    "A165496"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

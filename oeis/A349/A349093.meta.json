@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the smallest nonprime number m (m = A018252(t)) such that n divides the product P(t) of all nonprime numbers up to and including m (P(t) = A036691(t-1)).",
+  "id": "A349093",
+  "mentions": [
+    "A002034",
+    "A006530",
+    "A018252",
+    "A036691",
+    "A048839"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

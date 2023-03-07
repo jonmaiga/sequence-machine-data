@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k that are norm-superabundant in Gaussian integers, i.e., A103230(m)/m^2 < A103230(k)/k^2 for all m < k.",
+  "id": "A332321",
+  "mentions": [
+    "A000203",
+    "A004394",
+    "A103228",
+    "A103229",
+    "A103230",
+    "A279254",
+    "A332320"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:01",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

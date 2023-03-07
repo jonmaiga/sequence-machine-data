@@ -1,0 +1,18 @@
+{
+  "description": "a(-3) = a(-2) = a(-1) = 0, a(0) = 1, a(n) = a(n-1) + 2*a(n-2) + 2*a(n-3) + a(n-4), for n>0.",
+  "id": "A123392",
+  "mentions": [
+    "A016095"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:12",
+    "offset": -3,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

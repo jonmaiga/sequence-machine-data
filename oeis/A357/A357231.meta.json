@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = coefficient of x^(2*n)/(2*n)! in the expansion of the even function C(x) = sqrt(1 + S(x)^2) where S(x) is defined by A357230.",
+  "id": "A357231",
+  "mentions": [
+    "A357230",
+    "A357551"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:31",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

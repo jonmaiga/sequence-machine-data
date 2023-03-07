@@ -1,0 +1,20 @@
+{
+  "description": "These are the x coordinates of the isolated visible lattice points in the plane.",
+  "id": "A178794",
+  "mentions": [
+    "A157428",
+    "A157429",
+    "A178793",
+    "A216467"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

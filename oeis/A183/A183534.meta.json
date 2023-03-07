@@ -1,0 +1,28 @@
+{
+  "description": "Square array of generalized Ulam numbers U(n,k), n>=1, k>=2, read by antidiagonals: U(n,k) = n if n<=k; for n>k, U(n,k) = least number > U(n-1,k) which is a unique sum of k distinct terms U(i,k) with i",
+  "id": "A183534",
+  "mentions": [
+    "A002858",
+    "A007086",
+    "A135737",
+    "A183527",
+    "A183528",
+    "A183529",
+    "A183530",
+    "A183531",
+    "A183532",
+    "A183533"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "look",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:07",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

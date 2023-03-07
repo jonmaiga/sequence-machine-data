@@ -1,0 +1,33 @@
+{
+  "description": "P_n(k) with P_0(z) = z+1 and P_n(z) = z + P_(n-1)(z)*(P_(n-1)(z)-z) for n>1; square array P_n(k), n>=0, k>=0, read by antidiagonals.",
+  "id": "A177888",
+  "mentions": [
+    "A000012",
+    "A000027",
+    "A000058",
+    "A000215",
+    "A000289",
+    "A000324",
+    "A001543",
+    "A001544",
+    "A005408",
+    "A056220",
+    "A067686",
+    "A110360",
+    "A110368",
+    "A110383",
+    "A177701",
+    "A252730"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:01",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

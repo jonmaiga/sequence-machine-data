@@ -1,0 +1,19 @@
+{
+  "description": "Sum of distinct products i*j with 1 <= i, j <= n",
+  "id": "A321165",
+  "mentions": [
+    "A027424",
+    "A321163"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:44",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

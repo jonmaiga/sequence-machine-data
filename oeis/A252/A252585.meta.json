@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that the sum of the pentagonal numbers P(n) and P(n+1) is equal to the heptagonal number H(m) for some m.",
+  "id": "A252585",
+  "mentions": [
+    "A000326",
+    "A000566",
+    "A252586"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:10",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

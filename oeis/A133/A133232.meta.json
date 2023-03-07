@@ -1,0 +1,24 @@
+{
+  "description": "Triangle T(n,k) read by rows with a minimum number of prime powers A100994 for which the least common multiple of T(n,1),..,T(n,n) is A003418(n).",
+  "id": "A133232",
+  "mentions": [
+    "A003418",
+    "A014963",
+    "A100994",
+    "A120112",
+    "A133936",
+    "A134579"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:21",
+    "offset": 1,
+    "size": 103,
+    "source": "oeis-bfile"
+  }
+}

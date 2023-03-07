@@ -1,0 +1,21 @@
+{
+  "description": "Number of ordered triples (w,x,y) with all terms in {-n,...,0,...,n} and w + 2x + 3y = 1.",
+  "id": "A211480",
+  "mentions": [
+    "A005449",
+    "A014642",
+    "A016754",
+    "A211422"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:22:53",
+    "offset": 1,
+    "size": 47,
+    "source": "joeis"
+  }
+}

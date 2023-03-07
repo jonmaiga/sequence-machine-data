@@ -1,0 +1,22 @@
+{
+  "description": "Number of unitary divisors d of n such that sigma(d)*d is equal to n.",
+  "id": "A348033",
+  "mentions": [
+    "A000203",
+    "A019278",
+    "A327153",
+    "A348034",
+    "A348035"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-entry"
+  }
+}

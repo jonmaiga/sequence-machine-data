@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that the n X n queens graph is colorable with n colors.",
+  "id": "A275645",
+  "mentions": [
+    "A088202"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

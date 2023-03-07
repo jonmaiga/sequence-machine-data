@@ -1,0 +1,17 @@
+{
+  "description": "Number of 7Xn 0..1 arrays with no 1 equal to more than one of its horizontal, diagonal and antidiagonal neighbors, with the exception of exactly one element.",
+  "id": "A283578",
+  "mentions": [
+    "A283572"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:54",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

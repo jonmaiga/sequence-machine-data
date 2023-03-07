@@ -1,0 +1,18 @@
+{
+  "description": "If n is odd then a(n)/a(n+1) = (digit sum of a(n))/(digit sum of a(n+1)) = (digit product of a(n))/(digit product of a(n+1)).",
+  "id": "A342703",
+  "mentions": [
+    "A038186"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:16",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of terms in the mixed binary-ternary representation of n. See Comments.",
+  "id": "A336005",
+  "mentions": [
+    "A336004",
+    "A336006"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:07",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

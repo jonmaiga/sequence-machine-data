@@ -1,0 +1,20 @@
+{
+  "description": "Weak irregular primes. A prime is weak irregular iff it is a Bernoulli irregular prime or an Euler irregular prime.",
+  "id": "A250216",
+  "mentions": [
+    "A000928",
+    "A120337",
+    "A128197",
+    "A241601"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

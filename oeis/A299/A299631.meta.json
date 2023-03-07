@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of e^(2*W(3/2)) = (9/4)/(W(3/2))^2, where W is the Lambert W function (or PowerLog); see Comments.",
+  "id": "A299631",
+  "mentions": [
+    "A299613",
+    "A299630"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

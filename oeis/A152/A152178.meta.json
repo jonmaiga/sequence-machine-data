@@ -1,0 +1,18 @@
+{
+  "description": "Smallest prime factor of G-n, where G is any sufficiently large power tower of 3, e.g., Graham's number.",
+  "id": "A152178",
+  "mentions": [
+    "A152177",
+    "A240162"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:35",
+    "offset": 0,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

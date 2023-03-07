@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the largest value of k such that binomial(2*m-1, m-1) == 1 (mod m^k) for m = 2*n + 1.",
+  "id": "A343533",
+  "mentions": [
+    "A005408",
+    "A088164",
+    "A136327",
+    "A228562",
+    "A267824"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

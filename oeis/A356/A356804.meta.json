@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is a binary encoded version of A356803(n).",
+  "id": "A356804",
+  "mentions": [
+    "A354765",
+    "A354790",
+    "A356803"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:31",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

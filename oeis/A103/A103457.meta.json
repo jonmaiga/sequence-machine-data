@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = 3^n + 1 - 0^n.",
+  "id": "A103457",
+  "mentions": [
+    "A011782",
+    "A027649",
+    "A034472",
+    "A034772",
+    "A094388",
+    "A110593"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:58:25",
+    "offset": 0,
+    "size": 26,
+    "source": "joeis"
+  }
+}

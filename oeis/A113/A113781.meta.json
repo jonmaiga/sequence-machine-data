@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that the representation of phi(k) is a cyclic permutation of that of k, in base 10.",
+  "id": "A113781",
+  "mentions": [
+    "A000010",
+    "A082060",
+    "A115921"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

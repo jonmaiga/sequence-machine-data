@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of area under the curve d^2/(Gamma(x) dx^2) from zero to infinity.",
+  "id": "A245635",
+  "mentions": [
+    "A058655"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

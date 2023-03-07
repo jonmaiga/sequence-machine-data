@@ -1,0 +1,36 @@
+{
+  "description": "Number of ordered triples (i,j,k) with |i| + |j| + |k| <= n and gcd(i,j,k) <= 1.",
+  "id": "A100450",
+  "mentions": [
+    "A000012",
+    "A000124",
+    "A000217",
+    "A000292",
+    "A001477",
+    "A001845",
+    "A005408",
+    "A005899",
+    "A018805",
+    "A027430",
+    "A048240",
+    "A048241",
+    "A100448",
+    "A100449",
+    "A213207",
+    "A213208",
+    "A213212",
+    "A213213"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:51",
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of (1 - x)*(1 + x)^2*(1 + x^2)*(1 - x^2 + 2*x^3 + x^4) / ((1 - x^2 - x^4)*(1 + x^2 + 2*x^4 - x^6 + x^8)).",
+  "id": "A107363",
+  "mentions": [
+    "A000045",
+    "A048876"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:59",
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

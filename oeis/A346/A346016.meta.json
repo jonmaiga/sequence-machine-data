@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k where the average number of distinct prime factors of the divisors of k sets a new record.",
+  "id": "A346016",
+  "mentions": [
+    "A002110",
+    "A025487",
+    "A282472",
+    "A346009",
+    "A346010"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:19",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

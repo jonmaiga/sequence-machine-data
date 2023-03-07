@@ -1,0 +1,21 @@
+{
+  "description": "Primes p such that p+2 = 0 (mod pi(p)), where pi(p)=A000720(p) is the prime counting function.",
+  "id": "A156151",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A092044",
+    "A156152"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

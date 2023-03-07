@@ -1,0 +1,17 @@
+{
+  "description": "Fermat pseudoprimes to base 2 of the form m*n^2 + (11*m - 23)*n + 19*m - 49, where m, n >= 0.",
+  "id": "A215326",
+  "mentions": [
+    "A001567"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:33",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

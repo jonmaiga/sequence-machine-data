@@ -1,0 +1,35 @@
+{
+  "description": "Number of ordered ways to write n as u^2 + v^3 + x^4 + y^5 + z^6, where u is a positive integer, and v, x, y, z are nonnegative integers.",
+  "id": "A271365",
+  "mentions": [
+    "A000290",
+    "A000578",
+    "A000583",
+    "A000584",
+    "A001014",
+    "A262813",
+    "A262824",
+    "A262827",
+    "A262857",
+    "A266968",
+    "A270488",
+    "A270516",
+    "A270533",
+    "A270559",
+    "A270566",
+    "A270920",
+    "A271026",
+    "A271106",
+    "A271325"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:35",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

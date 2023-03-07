@@ -1,0 +1,21 @@
+{
+  "description": "Primes of the form: smallest prime factor of n + largest prime factor of n, n > 1.",
+  "id": "A144567",
+  "mentions": [
+    "A002808",
+    "A006512",
+    "A119689"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of meanders of order n without 1-1 cuts.",
+  "id": "A208358",
+  "mentions": [
+    "A005315",
+    "A192927"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

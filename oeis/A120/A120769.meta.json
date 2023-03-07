@@ -1,0 +1,22 @@
+{
+  "description": "Starting from a(0)=1, recursively a(2^k+r) = (2^k-r)*a(2^k-1-r), 0<=r < 2^(k+1).",
+  "id": "A120769",
+  "mentions": [
+    "A120405",
+    "A120768",
+    "A120770"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:09",
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

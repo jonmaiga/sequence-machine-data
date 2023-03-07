@@ -1,0 +1,21 @@
+{
+  "description": "E.g.f. satisfies: A(x) = Sum_{n>=0} log(1 + x*A(x)^(3*n))^n/n!.",
+  "id": "A221097",
+  "mentions": [
+    "A189981",
+    "A221096",
+    "A221098",
+    "A221099"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Number of domino tilings of a 5-pillow of order n.",
+  "id": "A112836",
+  "mentions": [
+    "A112833",
+    "A112835",
+    "A112837",
+    "A112838",
+    "A112839",
+    "A112841",
+    "A112842",
+    "A112844"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

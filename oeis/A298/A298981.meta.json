@@ -1,0 +1,23 @@
+{
+  "description": "Numbers m such that there does not exist an integer k < m for which the initial decimal digits of k/m are m.",
+  "id": "A298981",
+  "mentions": [
+    "A051626",
+    "A298232",
+    "A298980",
+    "A298982"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

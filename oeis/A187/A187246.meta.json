@@ -1,0 +1,18 @@
+{
+  "description": "Number of cycles with 2 alternating runs in all permutations of [n] (it is assumed that the smallest element of the cycle is in the first position).",
+  "id": "A187246",
+  "mentions": [
+    "A187244"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:12",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

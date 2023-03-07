@@ -1,0 +1,17 @@
+{
+  "description": "Numbers n such that 379*10^n+9 is a (\"Google\") probable prime.",
+  "id": "A159264",
+  "mentions": [
+    "A159265"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

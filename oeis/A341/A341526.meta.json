@@ -1,0 +1,31 @@
+{
+  "description": "Numerator of ratio n*sigma(A003961(n)) / sigma(n)*A003961(n), where sigma is the sum of divisors of n, and A003961 shifts the prime factorization of n one step towards larger primes.",
+  "id": "A341526",
+  "mentions": [
+    "A000203",
+    "A003961",
+    "A003973",
+    "A017665",
+    "A017666",
+    "A246278",
+    "A336849",
+    "A341525",
+    "A341527",
+    "A341528",
+    "A341529",
+    "A341530",
+    "A341626"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:14",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

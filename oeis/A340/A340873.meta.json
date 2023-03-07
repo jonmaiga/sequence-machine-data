@@ -1,0 +1,25 @@
+{
+  "description": "a(n) is the number of iterations of A245471 needed to reach 1 starting from n.",
+  "id": "A340873",
+  "mentions": [
+    "A006577",
+    "A245471",
+    "A341194",
+    "A341218",
+    "A341220",
+    "A341231",
+    "A341235"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:13",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

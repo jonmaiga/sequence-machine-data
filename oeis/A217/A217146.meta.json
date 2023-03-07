@@ -1,0 +1,18 @@
+{
+  "description": "Numbers palindromic in 5 digits in at least 4 different (large) bases.",
+  "id": "A217146",
+  "mentions": [
+    "A171704"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:35",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

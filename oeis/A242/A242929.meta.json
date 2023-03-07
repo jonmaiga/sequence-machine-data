@@ -1,0 +1,21 @@
+{
+  "description": "Primes p such that 2^p - p^2 is prime.",
+  "id": "A242929",
+  "mentions": [
+    "A072180",
+    "A098105",
+    "A117587"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

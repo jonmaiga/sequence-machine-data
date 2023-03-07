@@ -1,0 +1,31 @@
+{
+  "description": "Weak Goodstein sequence beginning with 266.",
+  "id": "A265034",
+  "mentions": [
+    "A014221",
+    "A056004",
+    "A056041",
+    "A056193",
+    "A057650",
+    "A059933",
+    "A059934",
+    "A059935",
+    "A059936",
+    "A137411",
+    "A211378",
+    "A215409",
+    "A222112",
+    "A222113",
+    "A222117"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:24",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

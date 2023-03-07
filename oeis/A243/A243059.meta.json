@@ -1,0 +1,27 @@
+{
+  "description": "If n = p_a * p_b * ... * p_h * p_i * p_j * p_k, with p_a <= p_b <= ... <= p_k, then a(n) = p_{k-j} * p_{k-i} * p_{k-h} * ... * p_{k-a} * p_k, where p_{0} = 0 and for k>=1, p_{k} = A000040(k). a(1)=1 by convention.",
+  "id": "A243059",
+  "mentions": [
+    "A000040",
+    "A032742",
+    "A070003",
+    "A102750",
+    "A242419",
+    "A242420",
+    "A243056",
+    "A243057",
+    "A243058",
+    "A243286"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:59",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

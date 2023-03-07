@@ -1,0 +1,20 @@
+{
+  "description": "Triangular sequence of coefficients based on a Hilbert Transform of A053120: Chebyshev T(x,n); Coefficients(A053120[n,m])-Floor[Imaginary part of( HilbertTransform(A053120(n,m))];.",
+  "id": "A137363",
+  "mentions": [
+    "A053120"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

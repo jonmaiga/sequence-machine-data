@@ -1,0 +1,21 @@
+{
+  "description": "Minimal value of positive discriminants of number fields of degree n.",
+  "id": "A343690",
+  "mentions": [
+    "A006557",
+    "A343772"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

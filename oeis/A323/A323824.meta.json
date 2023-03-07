@@ -1,0 +1,20 @@
+{
+  "description": "a(0) = 6; thereafter a(n) = 4*a(n-1) + 1.",
+  "id": "A323824",
+  "mentions": [
+    "A178415",
+    "A347834"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:48",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

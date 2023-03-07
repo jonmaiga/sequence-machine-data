@@ -1,0 +1,19 @@
+{
+  "description": "T(n,k)=Equals two maps: number of nXk binary arrays indicating the locations of corresponding elements equal to exactly two of their horizontal and antidiagonal neighbors in a random 0..2 nXk array",
+  "id": "A220935",
+  "mentions": [
+    "A005251",
+    "A099098"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

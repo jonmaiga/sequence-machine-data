@@ -1,0 +1,32 @@
+{
+  "description": "Irregular triangle read by rows where row n gives the lengths of the factors in the co-Lyndon factorization of the binary expansion of n.",
+  "id": "A329359",
+  "mentions": [
+    "A001037",
+    "A059966",
+    "A070939",
+    "A211097",
+    "A211100",
+    "A275692",
+    "A296372",
+    "A328596",
+    "A329312",
+    "A329313",
+    "A329314",
+    "A329315",
+    "A329318",
+    "A329325",
+    "A329357"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

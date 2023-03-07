@@ -1,0 +1,19 @@
+{
+  "description": "Primes of form Sum[ Prime[k]^4, {k,1,n} ] or primes in A122102[n].",
+  "id": "A122128",
+  "mentions": [
+    "A122102",
+    "A122127"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

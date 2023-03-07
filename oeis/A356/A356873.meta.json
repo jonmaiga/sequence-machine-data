@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the smallest number k such that 2^k+1 has at least n distinct prime factors.",
+  "id": "A356873",
+  "mentions": [
+    "A046799",
+    "A071852",
+    "A180278",
+    "A219108",
+    "A356872"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

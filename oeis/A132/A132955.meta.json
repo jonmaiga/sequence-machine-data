@@ -1,0 +1,22 @@
+{
+  "description": "Smallest prime in a sequence of n consecutive primes which add to a perfect square.",
+  "id": "A132955",
+  "mentions": [
+    "A000290",
+    "A073887",
+    "A132956",
+    "A132957"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:20",
+    "offset": 2,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

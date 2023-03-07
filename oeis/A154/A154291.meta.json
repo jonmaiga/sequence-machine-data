@@ -1,0 +1,19 @@
+{
+  "description": "Primes of the form 4x^3 + 27y^2, with x",
+  "id": "A154291",
+  "mentions": [
+    "A129806",
+    "A153635",
+    "A153636"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "The (finite) list of ternary abelian squarefree words.",
+  "id": "A194923",
+  "mentions": [
+    "A001285",
+    "A005679",
+    "A006156",
+    "A007413",
+    "A036584",
+    "A099054",
+    "A099951",
+    "A100337",
+    "A138036",
+    "A194942"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "fini",
+    "full",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:17",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

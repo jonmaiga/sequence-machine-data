@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the sum of all products of pairs of numbers joined by the diagonals of an n-gon when its vertices are numbered from 1 to n in order.",
+  "id": "A337130",
+  "mentions": [
+    "A000914",
+    "A006527",
+    "A007569",
+    "A007678",
+    "A117560"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:39:15",
+    "offset": 1,
+    "size": 40,
+    "source": "joeis"
+  }
+}

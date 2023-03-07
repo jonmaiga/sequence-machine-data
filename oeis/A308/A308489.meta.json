@@ -1,0 +1,19 @@
+{
+  "description": "Number of 5-regular polyhedra with 2n nodes.",
+  "id": "A308489",
+  "mentions": [
+    "A000944",
+    "A301425"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 6,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Gosper island perimeter (rounded to the nearest integer) after n iterations, let starting perimeter = 1.",
+  "id": "A229977",
+  "mentions": [
+    "A000420",
+    "A017926",
+    "A020764",
+    "A227381"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

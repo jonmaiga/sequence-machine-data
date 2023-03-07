@@ -1,0 +1,27 @@
+{
+  "description": "n appears 3n times.",
+  "id": "A111651",
+  "mentions": [
+    "A000122",
+    "A000194",
+    "A000700",
+    "A008585",
+    "A010054",
+    "A010815",
+    "A111650",
+    "A111652",
+    "A121373"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

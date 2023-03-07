@@ -1,0 +1,22 @@
+{
+  "description": "Least positive integer k such that both k and k*n belong to the set {m>0: m+1, m^2+1 and m^2+prime(m)^2 are all prime}.",
+  "id": "A261339",
+  "mentions": [
+    "A000040",
+    "A005574",
+    "A236193",
+    "A259492",
+    "A259540",
+    "A260120"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:20",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Hexagonal spiral constructed on the nodes of the triangular net in which every 1 of A275606 is replaced with the least positive integer not yet in the sequence.",
+  "id": "A275610",
+  "mentions": [
+    "A274820",
+    "A274821",
+    "A274920",
+    "A274921",
+    "A275606"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

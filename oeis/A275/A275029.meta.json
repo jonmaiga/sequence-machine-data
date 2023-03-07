@@ -1,0 +1,20 @@
+{
+  "description": "Partition numbers (A000041) congruent to 2 (mod 4).",
+  "id": "A275029",
+  "mentions": [
+    "A000041",
+    "A016825",
+    "A213179",
+    "A237280"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:40",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

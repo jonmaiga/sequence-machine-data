@@ -1,0 +1,21 @@
+{
+  "description": "Triangular matrix, read by rows, where row k is formed from the first differences of row (k-1) of its matrix square, with an appended '1' for the main diagonal.",
+  "id": "A102225",
+  "mentions": [
+    "A102226",
+    "A102227",
+    "A102228"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of indecomposable (by shuffling) alternating n-anagrams.",
+  "id": "A218827",
+  "mentions": [
+    "A000366",
+    "A218826",
+    "A239895"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

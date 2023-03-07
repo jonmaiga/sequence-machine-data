@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = number of zeros of the Mertens function M(x) in the interval 0 < x < 10^n (M(x) is the matching summatory function for the Moebius function).",
+  "id": "A171910",
+  "mentions": [
+    "A002321",
+    "A008683",
+    "A028442"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

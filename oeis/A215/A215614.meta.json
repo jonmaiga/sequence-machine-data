@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n that are not multiples of 10 such that sum of digits of n^2 is 7.",
+  "id": "A215614",
+  "mentions": [
+    "A004159",
+    "A062397"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

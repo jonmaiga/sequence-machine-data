@@ -1,0 +1,20 @@
+{
+  "description": "Consider the weighted Farey tree A177405/A177407; a(n) = row at which the denominator 2n+1 first appears (assumes first row is labeled row 0).",
+  "id": "A177903",
+  "mentions": [
+    "A177405",
+    "A177407",
+    "A178031",
+    "A178042"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-entry"
+  }
+}

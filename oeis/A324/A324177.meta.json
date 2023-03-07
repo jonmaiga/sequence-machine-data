@@ -1,0 +1,20 @@
+{
+  "description": "Integers k such that floor(sqrt(k)) + floor(sqrt(k/4)) divides k.",
+  "id": "A324177",
+  "mentions": [
+    "A324174",
+    "A324175",
+    "A324176",
+    "A324178"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:49",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(2n) = (n^2-n-1) + a(2n-2), a(2n+1) = (n^2-n-1)*a(2n-1), with a(0)=0 and a(1)=1.",
+  "id": "A154232",
+  "mentions": [
+    "A077415",
+    "A130031"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:36",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "description": "Sum of coefficients of forgotten symmetric functions in the Schur function of the integer partition with Heinz number n.",
+  "id": "A321893",
+  "mentions": [
+    "A000085",
+    "A008480",
+    "A056239",
+    "A082733",
+    "A124794",
+    "A124795",
+    "A153452",
+    "A296150",
+    "A296188",
+    "A300121",
+    "A321742",
+    "A321765",
+    "A321892"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

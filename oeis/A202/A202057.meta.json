@@ -1,0 +1,19 @@
+{
+  "description": "Numbers which are not perfect squares and such that all prime divisors are congruent to 1 or 2 mod 4.",
+  "id": "A202057",
+  "mentions": [
+    "A004613",
+    "A072437",
+    "A201278"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:22",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

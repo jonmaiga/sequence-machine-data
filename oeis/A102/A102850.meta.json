@@ -1,0 +1,21 @@
+{
+  "description": "Non-monotonic \"True so far\" sequence: In the first n terms, the digit (a(n) mod 10) occurs floor(a(n)/10) times; a(n) is the smallest such number.",
+  "id": "A102850",
+  "mentions": [
+    "A102357"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "fini",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:53",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Taxi-cab numbers (A001235) n such that n+1 is the sum of two positive cubes (A003325).",
+  "id": "A273186",
+  "mentions": [
+    "A001235",
+    "A003325"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

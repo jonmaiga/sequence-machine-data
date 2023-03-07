@@ -1,0 +1,21 @@
+{
+  "description": "A028403 written in base 2.",
+  "id": "A163450",
+  "mentions": [
+    "A007088",
+    "A028403"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:45",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

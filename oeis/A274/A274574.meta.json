@@ -1,0 +1,22 @@
+{
+  "description": "Central terms of triangle A274570.",
+  "id": "A274574",
+  "mentions": [
+    "A000169",
+    "A274390",
+    "A274570",
+    "A274571",
+    "A274572",
+    "A274573"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

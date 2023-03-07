@@ -1,0 +1,22 @@
+{
+  "description": "Number of primes <= n-th Catalan number.",
+  "id": "A273974",
+  "mentions": [
+    "A000108",
+    "A000720",
+    "A054782",
+    "A277062",
+    "A277063"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

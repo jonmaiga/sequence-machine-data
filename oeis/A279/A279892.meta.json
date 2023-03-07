@@ -1,0 +1,31 @@
+{
+  "description": "Eisenstein series E_18(q) (alternate convention E_9(q)), multiplied by 43867.",
+  "id": "A279892",
+  "mentions": [
+    "A004009",
+    "A006352",
+    "A008410",
+    "A013965",
+    "A013973",
+    "A013974",
+    "A029828",
+    "A029829",
+    "A029830",
+    "A029831",
+    "A058550",
+    "A279893",
+    "A282000",
+    "A282253"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:47",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

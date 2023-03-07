@@ -1,0 +1,23 @@
+{
+  "description": "Indices of the centered 12-gonal numbers which are also 12-gonal number, or numbers X such that 120*X^2-120*X+36 is a square.",
+  "id": "A133285",
+  "mentions": [
+    "A003215",
+    "A005891",
+    "A077422",
+    "A133141",
+    "A254782"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:21",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

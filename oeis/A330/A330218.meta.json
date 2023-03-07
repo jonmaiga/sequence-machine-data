@@ -1,0 +1,36 @@
+{
+  "description": "Least BII-number of a set-system with n distinct representatives obtainable by permuting the vertices.",
+  "id": "A330218",
+  "mentions": [
+    "A000120",
+    "A003238",
+    "A007716",
+    "A016031",
+    "A048793",
+    "A055621",
+    "A070939",
+    "A083323",
+    "A214577",
+    "A326031",
+    "A326702",
+    "A330098",
+    "A330101",
+    "A330195",
+    "A330217",
+    "A330226",
+    "A330229",
+    "A330230",
+    "A330231",
+    "A330233"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

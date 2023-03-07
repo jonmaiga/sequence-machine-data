@@ -1,0 +1,22 @@
+{
+  "description": "Odd nonprimes that are preceded by but not followed by primes.",
+  "id": "A134099",
+  "mentions": [
+    "A007510",
+    "A083370",
+    "A124582",
+    "A134100",
+    "A134101"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:22",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

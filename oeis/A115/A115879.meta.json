@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the least positive x satisfying the Diophantine equation x^2=y(y+n). a(n)=0 if there are no solutions.",
+  "id": "A115879",
+  "mentions": [
+    "A067721",
+    "A115878",
+    "A115880",
+    "A115881"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

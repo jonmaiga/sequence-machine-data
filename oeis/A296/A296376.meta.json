@@ -1,0 +1,20 @@
+{
+  "description": "Natural numbers x such that 7*y^2 = x^2 + x + 1 has a solution in natural numbers.",
+  "id": "A296376",
+  "mentions": [
+    "A077412",
+    "A296377"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:15",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of composite numbers between 2^n and 2^(n+1).",
+  "id": "A182095",
+  "mentions": [
+    "A036378",
+    "A075084"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:05",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

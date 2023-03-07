@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the largest integer of the form 2^k - 1 that divides n.",
+  "id": "A161788",
+  "mentions": [
+    "A000225",
+    "A161789",
+    "A161790"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 101,
+    "source": "oeis-entry"
+  }
+}

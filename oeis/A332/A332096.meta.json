@@ -1,0 +1,26 @@
+{
+  "description": "Irregular table where T(n,m) = min_{A subset {1..m-1}} |m^n - Sum_{x in A} x^n|, for 1 <= m <= A332098(n) = largest m for which this is nonzero.",
+  "id": "A332096",
+  "mentions": [
+    "A000012",
+    "A000225",
+    "A001661",
+    "A030052",
+    "A078607",
+    "A083321",
+    "A332066",
+    "A332097",
+    "A332098"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

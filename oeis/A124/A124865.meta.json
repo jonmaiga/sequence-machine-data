@@ -1,0 +1,20 @@
+{
+  "description": "Numbers of the form p^2-q^2 with p > q prime.",
+  "id": "A124865",
+  "mentions": [
+    "A045636",
+    "A124866",
+    "A177713"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:13",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

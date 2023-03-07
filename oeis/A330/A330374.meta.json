@@ -1,0 +1,30 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of partitions of n whose absolute value of Dyson's rank is equal to k, with 0 <= k < n.",
+  "id": "A330374",
+  "mentions": [
+    "A000004",
+    "A000041",
+    "A040000",
+    "A047993",
+    "A063995",
+    "A105805",
+    "A194547",
+    "A194549",
+    "A195822",
+    "A208478",
+    "A209616",
+    "A330368"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 97,
+    "source": "oeis-entry"
+  }
+}

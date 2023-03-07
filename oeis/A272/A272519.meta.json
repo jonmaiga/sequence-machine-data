@@ -1,0 +1,19 @@
+{
+  "description": "Number of set partitions of [n] into seven blocks with distinct sizes.",
+  "id": "A272519",
+  "mentions": [
+    "A131632"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "changed",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:37",
+    "offset": 28,
+    "size": 10,
+    "source": "oeis-bfile"
+  }
+}

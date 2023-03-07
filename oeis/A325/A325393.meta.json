@@ -1,0 +1,29 @@
+{
+  "description": "Number of integer partitions of n whose k-th differences are strictly decreasing for all k >= 0.",
+  "id": "A325393",
+  "mentions": [
+    "A049988",
+    "A320466",
+    "A325325",
+    "A325353",
+    "A325354",
+    "A325358",
+    "A325391",
+    "A325396",
+    "A325399",
+    "A325404",
+    "A325406",
+    "A325457",
+    "A325468"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

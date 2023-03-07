@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the product of n-th prime number with the distance to the next prime.",
+  "id": "A291463",
+  "mentions": [
+    "A000040",
+    "A001223",
+    "A048852"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 15:01:33",
+    "offset": 1,
+    "size": 53,
+    "source": "joeis"
+  }
+}

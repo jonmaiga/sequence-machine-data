@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k that divide 3*sigma(k).",
+  "id": "A245774",
+  "mentions": [
+    "A000203",
+    "A007691",
+    "A227303",
+    "A245775",
+    "A272027"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

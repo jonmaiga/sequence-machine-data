@@ -1,0 +1,19 @@
+{
+  "description": "A (0,1)-matrix in the first quadrant read by downward antidiagonals: an example of a uniformly recurrent 2-D word in which row 0 is non-recurrent.",
+  "id": "A338354",
+  "mentions": [
+    "A338353"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

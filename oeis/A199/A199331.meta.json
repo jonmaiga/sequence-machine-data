@@ -1,0 +1,21 @@
+{
+  "description": "Number of ordered ways of writing n as the sum of two semiprimes.",
+  "id": "A199331",
+  "mentions": [
+    "A001358",
+    "A035026",
+    "A072966",
+    "A073610"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:20",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

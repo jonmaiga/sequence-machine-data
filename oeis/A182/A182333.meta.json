@@ -1,0 +1,21 @@
+{
+  "description": "Number of arrangements of n bishops such that every square of the board is controlled by at least one bishop.",
+  "id": "A182333",
+  "mentions": [
+    "A005635",
+    "A122749",
+    "A323500",
+    "A323501"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:05",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

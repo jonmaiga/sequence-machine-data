@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the second smallest k such that phi(n+k) = phi(k), or 0 is no such solution exists.",
+  "id": "A342701",
+  "mentions": [
+    "A000010",
+    "A001259",
+    "A001274",
+    "A007015",
+    "A217199"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:15",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

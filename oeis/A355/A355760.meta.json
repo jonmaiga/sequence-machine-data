@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of grid points in a square lattice covered by the area enclosed by n loops of an Archimedean spiral with starting point (0, 0) and endpoint (n, 0).",
+  "id": "A355760",
+  "mentions": [
+    "A000328",
+    "A046109",
+    "A295344"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

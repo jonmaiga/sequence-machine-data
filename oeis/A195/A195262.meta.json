@@ -1,0 +1,19 @@
+{
+  "description": "G.f.: A(x) = Sum_{n>=0} x^n*A(x)^A001969(n+1), where A001969 lists numbers with an even number of 1's in their binary expansion.",
+  "id": "A195262",
+  "mentions": [
+    "A000120",
+    "A001969",
+    "A195261"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

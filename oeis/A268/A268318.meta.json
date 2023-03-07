@@ -1,0 +1,21 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) gives the row sums in the table Fib(n+1) X Fib(n), where k = 1..Fib(n+1), and 1's are assigned to cells on the longest diagonal path.",
+  "id": "A268318",
+  "mentions": [
+    "A000071",
+    "A191797",
+    "A268317"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-entry"
+  }
+}

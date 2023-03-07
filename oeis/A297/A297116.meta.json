@@ -1,0 +1,19 @@
+{
+  "description": "Odd bisection of A297115, Möbius transform of A000120 (binary weight of n).",
+  "id": "A297116",
+  "mentions": [
+    "A000120",
+    "A297115"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:17",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

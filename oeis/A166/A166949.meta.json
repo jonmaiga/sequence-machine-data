@@ -1,0 +1,19 @@
+{
+  "description": "The count of largest prime factors in n-th composite.",
+  "id": "A166949",
+  "mentions": [
+    "A002808",
+    "A071178"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

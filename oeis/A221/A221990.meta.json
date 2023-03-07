@@ -1,0 +1,18 @@
+{
+  "description": "The number of right-crucial (with respect to squares) permutations of 1,...,n.",
+  "id": "A221990",
+  "mentions": [
+    "A221989"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

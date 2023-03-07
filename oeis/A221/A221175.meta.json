@@ -1,0 +1,23 @@
+{
+  "description": "a(0)=-5, a(1)=6; thereafter a(n) = 2*a(n-1) + a(n-2).",
+  "id": "A221175",
+  "mentions": [
+    "A000129",
+    "A078343",
+    "A221172",
+    "A221173",
+    "A221174"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:39",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

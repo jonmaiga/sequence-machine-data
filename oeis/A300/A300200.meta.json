@@ -1,0 +1,23 @@
+{
+  "description": "Coefficients of non-constant terms of a Calabi-Yau modular form attached to 4-dimensional Dwork family.",
+  "id": "A300200",
+  "mentions": [
+    "A300194",
+    "A300195",
+    "A300196",
+    "A300197",
+    "A300198",
+    "A300199",
+    "A300201"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of ways to place a non-attacking black king and white king on an n X n board, up to rotation and reflection.",
+  "id": "A357723",
+  "mentions": [
+    "A035286",
+    "A279111",
+    "A357740"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

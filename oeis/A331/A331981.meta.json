@@ -1,0 +1,24 @@
+{
+  "description": "Number of compositions (ordered partitions) of n into distinct odd primes.",
+  "id": "A331981",
+  "mentions": [
+    "A002124",
+    "A023360",
+    "A024939",
+    "A065091",
+    "A099773",
+    "A219107",
+    "A331926",
+    "A331982"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:01",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

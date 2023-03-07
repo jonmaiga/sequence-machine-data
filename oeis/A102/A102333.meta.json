@@ -1,0 +1,24 @@
+{
+  "description": "Initial terms of quartets of consecutive primes as follows: {p,p+16,p+24,p+40}. The corresponding difference-pattern is {16,8,16}.",
+  "id": "A102333",
+  "mentions": [
+    "A001223",
+    "A022008",
+    "A052162",
+    "A052168",
+    "A052378",
+    "A067140",
+    "A067141",
+    "A102332"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:34",
+    "offset": 1,
+    "size": 30,
+    "source": "joeis"
+  }
+}

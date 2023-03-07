@@ -1,0 +1,19 @@
+{
+  "description": "Number of permutations of 1..n with the number moved left exceeding the number moved right by 0 or more.",
+  "id": "A179566",
+  "mentions": [
+    "A062866",
+    "A062868"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

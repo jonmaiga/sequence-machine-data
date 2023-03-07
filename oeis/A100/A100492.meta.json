@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows giving the coefficients of general sum formulas of n-th Fibonacci numbers (A000045). The k-th row (k>=1) contains T(i,k) for i=1 to 2*k-1, where T(i,k) satisfies F(n) = Sum_{k=1..n} Sum_{i=1..2*k-1} T(i,k) * C(n-k,i-1) * n^(n-k) / (n-1)!.",
+  "id": "A100492",
+  "mentions": [
+    "A000045",
+    "A000108",
+    "A094216",
+    "A094638",
+    "A099731"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

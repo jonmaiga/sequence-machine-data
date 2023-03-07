@@ -1,0 +1,24 @@
+{
+  "description": "a(0) = 0, a(1) = a(2) = 1, a(3) = 2, a(4) = 4, for n>3: a(n+1) = SORT[ a(n) + a(n-1) + a(n-2) + a(n-3) + a(n-4)], where SORT places digits in ascending order and deletes 0's.",
+  "id": "A108565",
+  "mentions": [
+    "A001591",
+    "A069638",
+    "A107281",
+    "A108564",
+    "A108566",
+    "A108573"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:00",
+    "offset": 0,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Number of partitions of n such that (number parts having multiplicity 1) is a part and (number of 1s) is not a part.",
+  "id": "A241508",
+  "mentions": [
+    "A241506",
+    "A241507",
+    "A241509",
+    "A241510"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

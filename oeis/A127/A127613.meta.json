@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = denominator of the continued fraction which has the positive divisors of n as its terms. The terms are written in order from n for the integer part, to 1 for the final term of the continued fraction.",
+  "id": "A127613",
+  "mentions": [
+    "A127611",
+    "A127612"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

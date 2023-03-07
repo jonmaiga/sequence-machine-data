@@ -1,0 +1,20 @@
+{
+  "description": "Distance LQnR(n) (A334819) from n.",
+  "id": "A354974",
+  "mentions": [
+    "A088196",
+    "A088198",
+    "A334819"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:29",
+    "offset": 3,
+    "size": 98,
+    "source": "oeis-bfile"
+  }
+}

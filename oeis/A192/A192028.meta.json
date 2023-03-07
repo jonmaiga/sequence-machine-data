@@ -1,0 +1,22 @@
+{
+  "description": "Square array read by antidiagonals: W(n,m) (n >= 1, m >= 1) is the Wiener index of the graph G(n,m) obtained from the n-circuit graph by joining at each of its nodes a path with m nodes (n >= 1, m >= 1; if m=1, then the n-circuit is not modified).",
+  "id": "A192028",
+  "mentions": [
+    "A000292",
+    "A000447",
+    "A034828",
+    "A180574"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

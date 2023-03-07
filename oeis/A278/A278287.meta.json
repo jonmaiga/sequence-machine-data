@@ -1,0 +1,19 @@
+{
+  "description": "Number of primes of the form 4k+3 such that 4(n - k) - 3 is 1 or prime where (4k+3)/3 >= n.",
+  "id": "A278287",
+  "mentions": [
+    "A002144",
+    "A006005",
+    "A280084"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 97,
+    "source": "oeis-entry"
+  }
+}

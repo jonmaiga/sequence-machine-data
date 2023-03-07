@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = n/A093411(n), where A093411(n) is obtained by repeatedly dividing n by the largest factorial that divides it until an odd number is reached.",
+  "id": "A329379",
+  "mentions": [
+    "A000142",
+    "A076934",
+    "A093411",
+    "A328479"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

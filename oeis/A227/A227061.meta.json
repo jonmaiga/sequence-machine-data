@@ -1,0 +1,23 @@
+{
+  "description": "T(n,k) = Number of (n+k-1) X (n+k-1) binary arrays with k 1s in every row and column with rows and columns in lexicographically nondecreasing order.",
+  "id": "A227061",
+  "mentions": [
+    "A000045",
+    "A181344",
+    "A229161",
+    "A229162",
+    "A229163",
+    "A229164"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

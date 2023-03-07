@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the smallest nonnegative number that requires n applications of the modified Sisyphus function of order 3, x -> A350709(x) to reach any number in the cycle {4031, 4112, 4220}.",
+  "id": "A352752",
+  "mentions": [
+    "A350709"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

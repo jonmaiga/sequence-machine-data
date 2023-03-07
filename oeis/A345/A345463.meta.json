@@ -1,0 +1,20 @@
+{
+  "description": "Number of n X n matrices over GF(2) whose characteristic polynomial is irreducible.",
+  "id": "A345463",
+  "mentions": [
+    "A000225",
+    "A001037",
+    "A002884"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

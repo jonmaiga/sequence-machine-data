@@ -1,0 +1,24 @@
+{
+  "description": "Spiral constructed on the nodes of the triangular net such that a(n) = signum(A274920(n)).",
+  "id": "A275606",
+  "mentions": [
+    "A011655",
+    "A057427",
+    "A274820",
+    "A274821",
+    "A274920",
+    "A274921",
+    "A275610"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-entry"
+  }
+}

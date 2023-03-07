@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of sequences of length n on the alphabet {0,1,2,3}, containing k subsequences 00 (0<=k<=n-1).",
+  "id": "A128235",
+  "mentions": [
+    "A002697",
+    "A125145"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:15",
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

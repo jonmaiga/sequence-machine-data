@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 18*n^2 + 1.",
+  "id": "A157889",
+  "mentions": [
+    "A005843",
+    "A157888",
+    "A195160"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:40",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

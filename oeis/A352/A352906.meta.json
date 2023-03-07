@@ -1,0 +1,26 @@
+{
+  "description": "Expansion of e.g.f. sinh(x) / (1 - sin(x)).",
+  "id": "A352906",
+  "mentions": [
+    "A000111",
+    "A000667",
+    "A000795",
+    "A001250",
+    "A002084",
+    "A062161",
+    "A062272",
+    "A322623",
+    "A348580"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

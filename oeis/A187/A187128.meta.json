@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = the least proper divisor of A187104(n) (Numbers with property that the largest proper divisor is a cube).",
+  "id": "A187128",
+  "mentions": [
+    "A187104",
+    "A187112"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 93,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Bi-unitary deficient-perfect numbers: bi-unitary deficient numbers k for such that 2*k - bsigma(k) is a bi-unitary divisor of k, where bsigma(k) is the sum of bi-unitary divisors of k (A188999).",
+  "id": "A303358",
+  "mentions": [
+    "A004171",
+    "A188999",
+    "A271816",
+    "A292982",
+    "A303359"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:27",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

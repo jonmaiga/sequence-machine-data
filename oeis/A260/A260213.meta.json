@@ -1,0 +1,19 @@
+{
+  "description": "Numbers j such that j = (c_1 + k)*(c_2 + k)*...*(c_m + k) for some k > 0 where c_1, c_2, ..., c_m is the centesimal expansion of j.",
+  "id": "A260213",
+  "mentions": [
+    "A055482"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:18",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

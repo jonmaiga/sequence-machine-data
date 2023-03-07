@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that k = Sum_{i=1..j} Sd(k)^i, for some j>0, where Sd(k) is the sum of the digits of k.",
+  "id": "A286126",
+  "mentions": [
+    "A005349",
+    "A007953",
+    "A011557"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

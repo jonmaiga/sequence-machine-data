@@ -1,0 +1,22 @@
+{
+  "description": "Consider van Eck's sequences with a(1)=n and a(2)=0. Sequence lists the index of second occurrence of n.",
+  "id": "A274425",
+  "mentions": [
+    "A171862",
+    "A171911",
+    "A171918",
+    "A181391"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:39",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

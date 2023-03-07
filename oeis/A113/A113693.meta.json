@@ -1,0 +1,26 @@
+{
+  "description": "Semiprimes in A054556.",
+  "id": "A113693",
+  "mentions": [
+    "A001358",
+    "A054556",
+    "A113688",
+    "A113689",
+    "A113690",
+    "A113691",
+    "A113692",
+    "A113699"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:04",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "The length of the shortest nontrivial integral cevian of an isosceles triangle, with base of length 1 and legs of length n, that divides the base into two integral parts.",
+  "id": "A264264",
+  "mentions": [
+    "A264263"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:24",
+    "offset": 2,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

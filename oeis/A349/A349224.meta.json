@@ -1,0 +1,22 @@
+{
+  "description": "Number k such that A033634(k) = A033634(k+1).",
+  "id": "A349224",
+  "mentions": [
+    "A002961",
+    "A033634",
+    "A064115",
+    "A064125",
+    "A293183",
+    "A306985"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:24",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

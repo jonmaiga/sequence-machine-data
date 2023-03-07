@@ -1,0 +1,27 @@
+{
+  "description": "Expansion of Sum_{p prime} x^p/(1 + x^p).",
+  "id": "A305614",
+  "mentions": [
+    "A000005",
+    "A000607",
+    "A001221",
+    "A008683",
+    "A048165",
+    "A083399",
+    "A088705",
+    "A106404",
+    "A205745",
+    "A280954"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:30",
+    "offset": 0,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

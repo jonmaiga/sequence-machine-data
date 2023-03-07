@@ -1,0 +1,21 @@
+{
+  "description": "First differences of A179772.",
+  "id": "A179773",
+  "mentions": [
+    "A179772",
+    "A179774",
+    "A179778",
+    "A179833"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:02",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

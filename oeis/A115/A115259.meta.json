@@ -1,0 +1,28 @@
+{
+  "description": "Difference between the sum of digits in odd positions and the sum of digits in even positions of prime numbers.",
+  "id": "A115259",
+  "mentions": [
+    "A000040",
+    "A040164",
+    "A040997",
+    "A041000",
+    "A042939",
+    "A055017",
+    "A063792",
+    "A087593",
+    "A115260",
+    "A115261"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:05",
+    "offset": 1,
+    "size": 110,
+    "source": "oeis-bfile"
+  }
+}

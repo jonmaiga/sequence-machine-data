@@ -1,0 +1,17 @@
+{
+  "description": "a(n)=prime(n)^b(n), where b(n) is the Hofstadter Q-sequence: b(1)= b(2)= 1; b(n)=b(n-b(n-1))+b(n-b(n-2)) for n > 2 (A005185).",
+  "id": "A109586",
+  "mentions": [
+    "A005185"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

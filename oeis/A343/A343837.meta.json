@@ -1,0 +1,24 @@
+{
+  "description": "Describe all the previous terms (previous terms are described one by one in succession; method - digit-indication followed by frequency, initial term is 1).",
+  "id": "A343837",
+  "mentions": [
+    "A005150",
+    "A007651",
+    "A045981",
+    "A045982",
+    "A060857",
+    "A343838"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

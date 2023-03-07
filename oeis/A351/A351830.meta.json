@@ -1,0 +1,24 @@
+{
+  "description": "Distance from the sum of the first n positive squares to the nearest square.",
+  "id": "A351830",
+  "mentions": [
+    "A000290",
+    "A000330",
+    "A053188",
+    "A351831",
+    "A353295",
+    "A354330"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:26",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

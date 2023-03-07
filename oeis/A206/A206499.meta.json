@@ -1,0 +1,19 @@
+{
+  "description": "The sum of the distances between all unordered pairs of branch vertices in the rooted tree with Matula-Goebel number n. A branch vertex is a vertex of degree >=3.",
+  "id": "A206499",
+  "mentions": [
+    "A212618",
+    "A212619"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 101,
+    "source": "oeis-entry"
+  }
+}

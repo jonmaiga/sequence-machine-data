@@ -1,0 +1,18 @@
+{
+  "description": "The sum of the n-th and (n+1)st isolated prime.",
+  "id": "A163654",
+  "mentions": [
+    "A007510"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:27",
+    "offset": 1,
+    "size": 53,
+    "source": "joeis"
+  }
+}

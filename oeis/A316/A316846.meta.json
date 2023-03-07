@@ -1,0 +1,21 @@
+{
+  "description": "Column 1 of table A316842.",
+  "id": "A316846",
+  "mentions": [
+    "A123323",
+    "A316842",
+    "A316847",
+    "A316848"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:35",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

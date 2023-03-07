@@ -1,0 +1,23 @@
+{
+  "description": "Triangular array T(n,k) = A005940(1+A156552(n)+A156552(k)), read by rows, with n >= 1, 1 <= k <= n.",
+  "id": "A341511",
+  "mentions": [
+    "A000027",
+    "A003961",
+    "A005940",
+    "A156552",
+    "A341510"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:14",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Define a sequence of rationals by f(0)=0, thereafter f(n)=f(n-1)-1/n if that is >= 0, otherwise f(n)=f(n-1)+1/n; a(n) = denominator of f(n).",
+  "id": "A231693",
+  "mentions": [
+    "A002805",
+    "A005132",
+    "A203811",
+    "A231692"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:49",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

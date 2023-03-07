@@ -1,0 +1,25 @@
+{
+  "description": "Numbers n such that Sum_{i=1..n} tau(i)^i == 0 (mod n), where tau(i) = A000005(i), the number of divisors of i.",
+  "id": "A229207",
+  "mentions": [
+    "A000005",
+    "A227427",
+    "A227429",
+    "A227502",
+    "A227848",
+    "A229095",
+    "A229208",
+    "A229211"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

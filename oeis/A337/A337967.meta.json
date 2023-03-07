@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows, application of the transformation A337966 to Euler's triangle A173018. T(n, k) for 0 <= k <= n.",
+  "id": "A337967",
+  "mentions": [
+    "A000111",
+    "A001250",
+    "A173018",
+    "A337616",
+    "A337966"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

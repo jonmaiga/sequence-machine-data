@@ -1,0 +1,19 @@
+{
+  "description": "Largest k such that there exists a decimal string of length n containing each of the first k primes as a subsequence.",
+  "id": "A294267",
+  "mentions": [
+    "A294268"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

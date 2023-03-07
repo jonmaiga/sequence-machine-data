@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of Sum_{(p1, p2) is twin prime pair} log(p2 / p1).",
+  "id": "A331370",
+  "mentions": [
+    "A001359",
+    "A006512",
+    "A065421",
+    "A077800",
+    "A331369"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "cons",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

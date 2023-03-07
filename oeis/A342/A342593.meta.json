@@ -1,0 +1,21 @@
+{
+  "description": "Numbers m that are not the quotient of a Zuckerman number divided by the product of its digits.",
+  "id": "A342593",
+  "mentions": [
+    "A003635",
+    "A007602",
+    "A056770",
+    "A288069"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

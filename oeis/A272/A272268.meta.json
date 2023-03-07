@@ -1,0 +1,17 @@
+{
+  "description": "Records in A001481 that are more than twice the previous record.",
+  "id": "A272268",
+  "mentions": [
+    "A001481"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

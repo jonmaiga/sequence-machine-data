@@ -1,0 +1,32 @@
+{
+  "description": "Expansion of Product_{k>=1} (1+x^k)^(p(k)), where p(k) is the partition function.",
+  "id": "A261049",
+  "mentions": [
+    "A000041",
+    "A001970",
+    "A026007",
+    "A027998",
+    "A047968",
+    "A050342",
+    "A089259",
+    "A102866",
+    "A248882",
+    "A256142",
+    "A305551",
+    "A320328",
+    "A320330",
+    "A320331",
+    "A360742"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "changed",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:20",
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

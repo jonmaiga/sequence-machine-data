@@ -1,0 +1,23 @@
+{
+  "description": "(1, 9) Pascal Triangle read by horizontal rows. Same as A093644, but mirrored and without the additional row/column (1, 9, 9, 9, 9, ...).",
+  "id": "A172171",
+  "mentions": [
+    "A007318",
+    "A017173",
+    "A050489",
+    "A093644",
+    "A139634"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:16:23",
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

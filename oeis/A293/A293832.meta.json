@@ -1,0 +1,22 @@
+{
+  "description": "Smallest of a run of n consecutive integers in A061910, i.e., for which the sum of digits of their square is again a square.",
+  "id": "A293832",
+  "mentions": [
+    "A007953",
+    "A061910",
+    "A068833"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

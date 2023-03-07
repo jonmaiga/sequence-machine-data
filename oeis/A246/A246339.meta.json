@@ -1,0 +1,18 @@
+{
+  "description": "Positions of 0 in base-2 representation of 1/sqrt(2).",
+  "id": "A246339",
+  "mentions": [
+    "A004713"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:48:27",
+    "offset": 1,
+    "size": 62,
+    "source": "joeis"
+  }
+}

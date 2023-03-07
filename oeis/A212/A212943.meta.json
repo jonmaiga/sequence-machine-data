@@ -1,0 +1,21 @@
+{
+  "description": "T(n,k)=Number of nXk 0..k-1 arrays with no column j greater than or equal to than column j-1 in all rows",
+  "id": "A212943",
+  "mentions": [
+    "A005061",
+    "A209668",
+    "A212930"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:31",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = smallest number greater than n, equal to the determinant of the circulant matrix formed by its base-n digits.",
+  "id": "A219357",
+  "mentions": [
+    "A219324",
+    "A219325"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:37",
+    "offset": 2,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "a(n) = sigma(n) * A064989(n), where A064989 is multiplicative with a(2^e) = 1 and a(p^e) = prevprime(p)^e for odd primes p, and sigma is the sum of the divisors of n.",
+  "id": "A342662",
+  "mentions": [
+    "A000203",
+    "A003961",
+    "A064989",
+    "A151799",
+    "A341528",
+    "A341529",
+    "A342661",
+    "A342663",
+    "A342664"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:15",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

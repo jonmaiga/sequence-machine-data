@@ -1,0 +1,18 @@
+{
+  "description": "Primes of the form x^2 + y^3 + 1 where x and y are prime.",
+  "id": "A217734",
+  "mentions": [
+    "A045699",
+    "A045700"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:35",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

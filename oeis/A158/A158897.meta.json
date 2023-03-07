@@ -1,0 +1,22 @@
+{
+  "description": "The elements of A059100 at indices of triangular numbers, padded with zeros.",
+  "id": "A158897",
+  "mentions": [
+    "A000217",
+    "A059100",
+    "A141620",
+    "A144396",
+    "A158405"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:27",
+    "offset": 1,
+    "size": 97,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Number of primes p < 10^n such that both 2*p+1 and 4*p+1 are composite.",
+  "id": "A210684",
+  "mentions": [
+    "A005384",
+    "A006880",
+    "A092816",
+    "A156660",
+    "A156874",
+    "A182265"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

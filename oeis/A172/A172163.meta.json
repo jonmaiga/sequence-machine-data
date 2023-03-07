@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = ( A165155(n) - A165154(n) )/2.",
+  "id": "A172163",
+  "mentions": [
+    "A162741",
+    "A162849",
+    "A165154",
+    "A165155",
+    "A172162"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:56",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

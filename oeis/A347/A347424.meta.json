@@ -1,0 +1,19 @@
+{
+  "description": "Digitally delicate truncatable primes: every suffix is prime, changing any one decimal digit always produces a composite number, except the first to zero.",
+  "id": "A347424",
+  "mentions": [
+    "A033664",
+    "A158124"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:21",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

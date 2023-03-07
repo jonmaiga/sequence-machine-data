@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows of numbers with n 1's and n 0's in their representation in base of Fibonacci numbers (A210619), written as those 1's and 0's.",
+  "id": "A346434",
+  "mentions": [
+    "A014417",
+    "A163662",
+    "A210619"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:20",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

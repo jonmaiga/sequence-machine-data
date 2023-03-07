@@ -1,0 +1,19 @@
+{
+  "description": "Number of connected arc-transitive graphs of order n.",
+  "id": "A286280",
+  "mentions": [
+    "A133181",
+    "A180240"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 2,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

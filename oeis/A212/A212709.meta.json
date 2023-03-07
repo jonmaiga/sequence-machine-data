@@ -1,0 +1,17 @@
+{
+  "description": "Positive integers not of the form p * c^2 + b^2, with p prime and c and b nonzero integers.",
+  "id": "A212709",
+  "mentions": [
+    "A064233"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

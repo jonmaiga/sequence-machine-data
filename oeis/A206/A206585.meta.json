@@ -1,0 +1,20 @@
+{
+  "description": "The least number s > 1 having exactly n fives in the periodic part of the continued fraction of sqrt(s).",
+  "id": "A206585",
+  "mentions": [
+    "A206578",
+    "A206582",
+    "A206583",
+    "A206584"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:26",
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

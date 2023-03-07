@@ -1,0 +1,18 @@
+{
+  "description": "Number of 2's in all partitions of 2n+1 that do not contain 1 as a part.",
+  "id": "A182717",
+  "mentions": [
+    "A182712",
+    "A182743"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:06",
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

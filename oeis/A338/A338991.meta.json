@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = Sum_{k=1..floor(n/2)} (n-2*k) * floor((n-k)/k).",
+  "id": "A338991",
+  "mentions": [
+    "A001620",
+    "A002541",
+    "A006218",
+    "A024916",
+    "A153485",
+    "A279847",
+    "A339370"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

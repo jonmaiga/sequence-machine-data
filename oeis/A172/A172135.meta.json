@@ -1,0 +1,23 @@
+{
+  "description": "Number of ways to place 4 nonattacking knights on an n X n board.",
+  "id": "A172135",
+  "mentions": [
+    "A061994",
+    "A172127",
+    "A172132",
+    "A172134",
+    "A244081"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:16:21",
+    "offset": 1,
+    "size": 24,
+    "source": "joeis"
+  }
+}

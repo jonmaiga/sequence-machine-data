@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n for which the fundamental solution of Pell's equation x^2 - n*y^2 = 1 has both x and y prime.",
+  "id": "A237704",
+  "mentions": [
+    "A000037",
+    "A033313",
+    "A033317"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

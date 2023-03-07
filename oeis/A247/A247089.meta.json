@@ -1,0 +1,24 @@
+{
+  "description": "Initial members of prime quadruples (n, n+2, n+30, n+32).",
+  "id": "A247089",
+  "mentions": [
+    "A001359",
+    "A077800",
+    "A132232",
+    "A132236",
+    "A141860",
+    "A181603",
+    "A181605",
+    "A181606"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:03",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

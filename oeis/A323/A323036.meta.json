@@ -1,0 +1,19 @@
+{
+  "description": "Let k be the decimal string formed by the first n digits of Pi after the decimal point; a(n) is the position where the second occurrence of k begins.",
+  "id": "A323036",
+  "mentions": [
+    "A000796"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

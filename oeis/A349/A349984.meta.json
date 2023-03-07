@@ -1,0 +1,21 @@
+{
+  "description": "Lexicographically earliest infinite sequence of distinct positive numbers such that, for n > 2, a(n) shares a prime factor with a(n-1) that a(n-1) does not share with a(n-2).",
+  "id": "A349984",
+  "mentions": [
+    "A000961",
+    "A064413",
+    "A098550",
+    "A336957",
+    "A337181"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of unoriented linear forests with n nodes and k rooted trees.",
+  "id": "A339303",
+  "mentions": [
+    "A000081",
+    "A027852",
+    "A280788",
+    "A303833",
+    "A303840",
+    "A339067",
+    "A339302"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:11",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

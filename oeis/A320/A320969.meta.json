@@ -1,0 +1,21 @@
+{
+  "description": "Semiprimes with distinct digits.",
+  "id": "A320969",
+  "mentions": [
+    "A001358",
+    "A010784",
+    "A029743"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:43",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

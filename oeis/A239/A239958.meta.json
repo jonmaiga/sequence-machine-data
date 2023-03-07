@@ -1,0 +1,23 @@
+{
+  "description": "Number of partitions p of n such that (number of distinct parts of p) >= max(p) - min(p).",
+  "id": "A239958",
+  "mentions": [
+    "A000041",
+    "A034296",
+    "A239954",
+    "A239955",
+    "A239956"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

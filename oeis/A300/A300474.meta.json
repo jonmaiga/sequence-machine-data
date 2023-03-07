@@ -1,0 +1,21 @@
+{
+  "description": "Number of partitions of the square resulting from a sequence of n n-sections, each of which divides any part perpendicular to any of the axes.",
+  "id": "A300474",
+  "mentions": [
+    "A091144",
+    "A236339",
+    "A237026",
+    "A300613",
+    "A322543"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:25",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

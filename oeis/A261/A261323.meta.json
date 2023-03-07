@@ -1,0 +1,22 @@
+{
+  "description": "Smallest m such that prime(m+n-1) - prime(m) = A008407(n); that is, prime(m) starts the smallest n-tuplet of consecutive primes of length A008407(n).",
+  "id": "A261323",
+  "mentions": [
+    "A000720",
+    "A008407",
+    "A065688",
+    "A261324"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

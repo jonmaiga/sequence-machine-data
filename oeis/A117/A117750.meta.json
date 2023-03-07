@@ -1,0 +1,19 @@
+{
+  "description": "Irregular triangle which contains in row n those partition numbers A000041(n*(2m+1) + m + 2) which are congruent to 0 mod (2m+1) for 1 <= m <= n.",
+  "id": "A117750",
+  "mentions": [
+    "A000041",
+    "A117749"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 2,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

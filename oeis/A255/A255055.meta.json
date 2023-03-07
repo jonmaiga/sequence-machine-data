@@ -1,0 +1,25 @@
+{
+  "description": "Greatest inverse of A255072; a(n) = largest k such that A255072(k) = n.",
+  "id": "A255055",
+  "mentions": [
+    "A173601",
+    "A219645",
+    "A219655",
+    "A255053",
+    "A255054",
+    "A255056",
+    "A255072",
+    "A255124"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:13",
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

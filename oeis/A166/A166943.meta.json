@@ -1,0 +1,23 @@
+{
+  "description": "One third of product plus sum of six consecutive nonnegative numbers.",
+  "id": "A166943",
+  "mentions": [
+    "A001477",
+    "A028387",
+    "A166941",
+    "A166942",
+    "A167875"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:42:35",
+    "offset": 0,
+    "size": 26,
+    "source": "joeis"
+  }
+}

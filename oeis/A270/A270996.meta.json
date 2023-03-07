@@ -1,0 +1,27 @@
+{
+  "description": "T(i, j) = k is the least squarefree number with a run of exactly i>=0 nonsquarefree numbers immediately preceding k and a run of exactly j>=0 nonsquarefree numbers immediately succeeding k.",
+  "id": "A270996",
+  "mentions": [
+    "A005117",
+    "A007675",
+    "A068088",
+    "A073247",
+    "A073248",
+    "A073251",
+    "A228649",
+    "A268330",
+    "A268334",
+    "A270344"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:34",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

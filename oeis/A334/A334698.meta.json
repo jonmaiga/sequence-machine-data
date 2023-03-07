@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the total number of points (both boundary and interior points) in the n-th figure shown in A255011 (meaning the figure with 4n points on the perimeter), where the interior points are counted with multiplicity.",
+  "id": "A334698",
+  "mentions": [
+    "A255011",
+    "A331449",
+    "A331452",
+    "A334690",
+    "A334697"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:25:51",
+    "offset": 1,
+    "size": 39,
+    "source": "joeis"
+  }
+}

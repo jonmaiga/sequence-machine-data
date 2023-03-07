@@ -1,0 +1,23 @@
+{
+  "description": "Primes p such that p and the two previous primes are in arithmetic progression.",
+  "id": "A181424",
+  "mentions": [
+    "A000040",
+    "A000045",
+    "A006562",
+    "A054643",
+    "A064113",
+    "A122535"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:04",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

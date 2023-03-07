@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = (5*2^n - 5*(-1)^n - 3*n*(-1)^n) / 9.",
+  "id": "A172285",
+  "mentions": [
+    "A000079",
+    "A001045",
+    "A053088",
+    "A141291",
+    "A164044",
+    "A172295"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:56",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

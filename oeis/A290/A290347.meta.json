@@ -1,0 +1,19 @@
+{
+  "description": "Numerators of the Harary index for the n-halved cube graph.",
+  "id": "A290347",
+  "mentions": [
+    "A290348"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

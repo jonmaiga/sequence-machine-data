@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that rad(k)^2 < sigma(k), where rad(k) is the squarefree kernel of k (A007947) and sigma(k) is the sum of divisors of k (A000203).",
+  "id": "A339744",
+  "mentions": [
+    "A000203",
+    "A007947",
+    "A078615",
+    "A246547",
+    "A338790",
+    "A339794"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:12",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

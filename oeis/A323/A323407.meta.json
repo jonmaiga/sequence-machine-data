@@ -1,0 +1,19 @@
+{
+  "description": "Dirichlet inverse of A047994, unitary phi.",
+  "id": "A323407",
+  "mentions": [
+    "A023900",
+    "A047994",
+    "A323408"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:47",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

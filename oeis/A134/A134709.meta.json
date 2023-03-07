@@ -1,0 +1,20 @@
+{
+  "description": "Even superperfect numbers divided by 2, minus 1.",
+  "id": "A134709",
+  "mentions": [
+    "A019279",
+    "A061652",
+    "A133028"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

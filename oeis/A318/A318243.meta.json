@@ -1,0 +1,24 @@
+{
+  "description": "Triangle read by rows giving the sum of the number of k-matchings of the graphs obtained by deleting one edge and its two vertices from the ladder graph L_n = P_2 X P_n in all possible ways.",
+  "id": "A318243",
+  "mentions": [
+    "A046741",
+    "A318244",
+    "A318267",
+    "A318268",
+    "A318269",
+    "A318270"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

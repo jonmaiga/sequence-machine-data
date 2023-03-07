@@ -1,0 +1,52 @@
+{
+  "description": "Irregular triangle of numbers that are squarefree and smooth (row n contains squarefree p-smooth numbers, where p is the n-th prime).",
+  "id": "A261144",
+  "mentions": [
+    "A000040",
+    "A000079",
+    "A001221",
+    "A002110",
+    "A002473",
+    "A003586",
+    "A005117",
+    "A006881",
+    "A018336",
+    "A019565",
+    "A027750",
+    "A051037",
+    "A051038",
+    "A054640",
+    "A056239",
+    "A070826",
+    "A071403",
+    "A072047",
+    "A080197",
+    "A087005",
+    "A087006",
+    "A087007",
+    "A087008",
+    "A112798",
+    "A147655",
+    "A209862",
+    "A246867",
+    "A319246",
+    "A319247",
+    "A329631",
+    "A339116",
+    "A339194",
+    "A339195",
+    "A339360"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:20",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

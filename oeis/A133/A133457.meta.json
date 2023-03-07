@@ -1,0 +1,28 @@
+{
+  "description": "Irregular triangle read by rows: row n gives exponents in expression for n as a sum of powers of 2.",
+  "id": "A133457",
+  "mentions": [
+    "A003071",
+    "A030308",
+    "A048793",
+    "A067255",
+    "A073642",
+    "A264613",
+    "A272011"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:03:09",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

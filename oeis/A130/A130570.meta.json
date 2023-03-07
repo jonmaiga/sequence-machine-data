@@ -1,0 +1,18 @@
+{
+  "description": "Primes of the form k*2^m + 1 for k odd, m >=1, that are not Proth primes (A080076) (2^m <= k).",
+  "id": "A130570",
+  "mentions": [
+    "A080075",
+    "A080076"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(1)=2; for n>1, a(n) is the least prime > a(n-1) such that sum of digits of a(n-1) and a(n) is prime.",
+  "id": "A252005",
+  "mentions": [
+    "A007953",
+    "A252006"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:09",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

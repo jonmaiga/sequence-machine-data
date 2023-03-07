@@ -1,0 +1,20 @@
+{
+  "description": "Number of integers less than n with the same number of factorizations into prime powers as n.",
+  "id": "A338572",
+  "mentions": [
+    "A000688",
+    "A338568",
+    "A338569"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

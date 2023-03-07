@@ -1,0 +1,19 @@
+{
+  "description": "Semiprimes q such that q^2+2 and q^2-2 are also semiprimes.",
+  "id": "A173082",
+  "mentions": [
+    "A001358",
+    "A074985"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

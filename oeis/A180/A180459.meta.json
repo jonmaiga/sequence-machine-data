@@ -1,0 +1,18 @@
+{
+  "description": "Sampling n numbers between 1 and a(n)-1, you are guaranteed to always find two subsets whose sums are equal.",
+  "id": "A180459",
+  "mentions": [
+    "A005255"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 3,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

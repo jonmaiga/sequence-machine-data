@@ -1,0 +1,19 @@
+{
+  "description": "Numbers with a divisor pair (d,n/d) such that the smallest prime greater than d and n/d is the same.",
+  "id": "A330879",
+  "mentions": [
+    "A000290",
+    "A056737",
+    "A151800"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:00",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

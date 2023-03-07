@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = ((5 + 2*sqrt(2))*(3 + sqrt(2))^n + (5 - 2*sqrt(2))*(3 - sqrt(2))^n)/2.",
+  "id": "A163609",
+  "mentions": [
+    "A081179",
+    "A163608",
+    "A163610",
+    "A163888"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:45",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

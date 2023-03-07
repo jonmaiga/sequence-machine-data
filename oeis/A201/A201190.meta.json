@@ -1,0 +1,17 @@
+{
+  "description": "Number of nX3 0..2 arrays with every row and column running average nondecreasing rightwards and downwards but some diagonal running average having a decrease",
+  "id": "A201190",
+  "mentions": [
+    "A201195"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:22",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

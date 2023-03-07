@@ -1,0 +1,21 @@
+{
+  "description": "Positions of 2 in the difference sequence of A305847.",
+  "id": "A305849",
+  "mentions": [
+    "A001622",
+    "A305837",
+    "A305847",
+    "A305848"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:30",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "description": "Number of 2-edge-connected clutters spanning n vertices.",
+  "id": "A322397",
+  "mentions": [
+    "A001187",
+    "A013922",
+    "A030019",
+    "A048143",
+    "A095983",
+    "A275307",
+    "A317634",
+    "A317635",
+    "A317672",
+    "A322335",
+    "A322393",
+    "A322395",
+    "A322399"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

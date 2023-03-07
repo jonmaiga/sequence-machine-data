@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 2401*n^2 - 980*n + 99.",
+  "id": "A157375",
+  "mentions": [
+    "A157373",
+    "A157374"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:39",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

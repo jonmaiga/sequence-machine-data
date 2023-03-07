@@ -1,0 +1,33 @@
+{
+  "description": "Triangle T(n,k) represents the coefficients of (x^14*d/dx)^n, where n=1,2,3,...; generalization of Stirling numbers of second kind A008277, Lah-numbers A008297.",
+  "id": "A223516",
+  "mentions": [
+    "A008277",
+    "A008297",
+    "A019538",
+    "A035342",
+    "A035469",
+    "A049029",
+    "A049385",
+    "A092082",
+    "A132056",
+    "A223168",
+    "A223172",
+    "A223511",
+    "A223522",
+    "A223523",
+    "A223532"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

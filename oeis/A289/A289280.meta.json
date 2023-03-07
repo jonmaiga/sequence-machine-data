@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = least integer k > n such that any prime factor of k is also a prime factor of n.",
+  "id": "A289280",
+  "mentions": [
+    "A001221",
+    "A007947",
+    "A020639",
+    "A079277"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:03",
+    "offset": 2,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

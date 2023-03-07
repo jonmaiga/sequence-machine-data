@@ -1,0 +1,20 @@
+{
+  "description": "a(0)=1. a(n) = floor(n/b(n)), where b(n) is the largest value among (a(0),a(1),...,a(n-1)).",
+  "id": "A137735",
+  "mentions": [
+    "A103627",
+    "A137734"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:25",
+    "offset": 0,
+    "size": 103,
+    "source": "oeis-bfile"
+  }
+}

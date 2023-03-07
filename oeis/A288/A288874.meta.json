@@ -1,0 +1,35 @@
+{
+  "description": "Row reversed version of triangle A201637 (second-order Eulerian triangle).",
+  "id": "A288874",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A000142",
+    "A002538",
+    "A002539",
+    "A004301",
+    "A005803",
+    "A006260",
+    "A008517",
+    "A112007",
+    "A112008",
+    "A112485",
+    "A132393",
+    "A163936",
+    "A201637",
+    "A290306"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:02",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

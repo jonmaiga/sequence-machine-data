@@ -1,0 +1,25 @@
+{
+  "description": "Primes p such that A001177(p) = (p-1)/5.",
+  "id": "A308798",
+  "mentions": [
+    "A001177",
+    "A106535",
+    "A308795",
+    "A308796",
+    "A308797",
+    "A308799",
+    "A308800",
+    "A308801",
+    "A308802"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

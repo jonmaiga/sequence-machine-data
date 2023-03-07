@@ -1,0 +1,19 @@
+{
+  "description": "Triangle T(n,m) = A049614(n)/ (A049614(m)*A049614(n-m)) read by rows.",
+  "id": "A172985",
+  "mentions": [
+    "A049614"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 83,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Start with m, repeatedly find sum of prime factors until we reach a fixed point, then compute sum of numbers in trajectory except for m and the fixed point. If the resulting sum equals m, adjoin m to the sequence.",
+  "id": "A165442",
+  "mentions": [
+    "A001414",
+    "A029908"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "bref",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that psi(phi(k)) = phi(psi(k)).",
+  "id": "A290002",
+  "mentions": [
+    "A000010",
+    "A001615",
+    "A020714",
+    "A033632",
+    "A033845"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:04",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "description": "Exponent-recursed cross-domain bijection from GF(2)[X] to N. Variant of A091203 and A106443.",
+  "id": "A106445",
+  "mentions": [
+    "A000040",
+    "A014580",
+    "A048720",
+    "A048723",
+    "A064372",
+    "A091203",
+    "A091247",
+    "A106443",
+    "A106444",
+    "A106447",
+    "A106490",
+    "A106491",
+    "A106493",
+    "A106494",
+    "A106495"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

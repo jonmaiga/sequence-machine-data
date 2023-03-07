@@ -1,0 +1,31 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the sum of parts of size k in the last section of the set of partitions of n.",
+  "id": "A207383",
+  "mentions": [
+    "A000007",
+    "A000027",
+    "A000041",
+    "A002260",
+    "A066186",
+    "A135010",
+    "A138121",
+    "A138785",
+    "A138879",
+    "A138880",
+    "A182703",
+    "A194812",
+    "A207031"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:27",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Bases having a record-sized smallest prime such that there are two smaller primes with which all 6 ways of juxtaposition in the base are prime.",
+  "id": "A220120",
+  "mentions": [
+    "A220121"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

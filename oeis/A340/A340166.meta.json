@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 4^(2*(n-1)^2) * Product_{1<=i,j<=n-1} (1 - sin(i*Pi/(2*n))^2 * sin(j*Pi/(2*n))^2).",
+  "id": "A340166",
+  "mentions": [
+    "A006752",
+    "A007725",
+    "A340139",
+    "A340167"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:12",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "The integers floor((1.1)^k(n))/floor((1.1)^n) arising in A069751, where k(n) = A069751(n).",
+  "id": "A215975",
+  "mentions": [
+    "A069751",
+    "A096151"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

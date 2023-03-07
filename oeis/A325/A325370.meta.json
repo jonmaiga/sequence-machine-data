@@ -1,0 +1,30 @@
+{
+  "description": "Numbers whose prime signature has multiplicities covering an initial interval of positive integers.",
+  "id": "A325370",
+  "mentions": [
+    "A000009",
+    "A055932",
+    "A056239",
+    "A112798",
+    "A118914",
+    "A317081",
+    "A317089",
+    "A317090",
+    "A319161",
+    "A325326",
+    "A325330",
+    "A325337",
+    "A325369",
+    "A325371"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

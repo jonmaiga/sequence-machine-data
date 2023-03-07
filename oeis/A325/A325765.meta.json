@@ -1,0 +1,30 @@
+{
+  "description": "Number of integer partitions of n with a unique consecutive subsequence summing to every positive integer from 1 to n.",
+  "id": "A325765",
+  "mentions": [
+    "A000041",
+    "A002033",
+    "A032741",
+    "A103295",
+    "A103300",
+    "A143823",
+    "A169942",
+    "A325676",
+    "A325683",
+    "A325764",
+    "A325768",
+    "A325769",
+    "A325770"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 09:54:43",
+    "offset": 0,
+    "size": 51,
+    "source": "joeis"
+  }
+}

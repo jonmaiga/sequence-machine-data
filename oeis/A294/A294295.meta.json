@@ -1,0 +1,19 @@
+{
+  "description": "Number of ways to write A294294(n) as a sum of 3 odd primes p+q+r, with p>=q>=r.",
+  "id": "A294295",
+  "mentions": [
+    "A007963",
+    "A294294"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:12",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

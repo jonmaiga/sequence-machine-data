@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the maximum number of key comparisons required to sort n records with distinct keys using a modified heapsort (Algorithm H in Don Knuth's TAOCP Vol. 3, answer to exercise 18).",
+  "id": "A350427",
+  "mentions": [
+    "A350426",
+    "A350428",
+    "A350569"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 2,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

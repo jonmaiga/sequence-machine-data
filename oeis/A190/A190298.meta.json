@@ -1,0 +1,20 @@
+{
+  "description": "Numbers less than or equal to sum of the triangular number of each of their decimal digits.",
+  "id": "A190298",
+  "mentions": [
+    "A000217"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = floor(2*phi*floor(n*phi)) where phi = A001622.",
+  "id": "A140979",
+  "mentions": [
+    "A000201",
+    "A001622"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:14:31",
+    "offset": 1,
+    "size": 68,
+    "source": "joeis"
+  }
+}

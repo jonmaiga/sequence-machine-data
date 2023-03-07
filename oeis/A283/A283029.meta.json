@@ -1,0 +1,31 @@
+{
+  "description": "Number of inequivalent 5 X 5 matrices with entries in {1,2,3,..,n} when a matrix and its transpose are considered equivalent.",
+  "id": "A283029",
+  "mentions": [
+    "A019582",
+    "A168555",
+    "A170798",
+    "A282612",
+    "A282613",
+    "A282614",
+    "A283026",
+    "A283027",
+    "A283028",
+    "A283030",
+    "A283031",
+    "A283032",
+    "A283033"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:47:47",
+    "offset": 0,
+    "size": 13,
+    "source": "joeis"
+  }
+}

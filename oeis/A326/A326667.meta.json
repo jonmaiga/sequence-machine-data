@@ -1,0 +1,27 @@
+{
+  "description": "Number of factorizations of 2^n into factors > 1 with integer average.",
+  "id": "A326667",
+  "mentions": [
+    "A001055",
+    "A051293",
+    "A067538",
+    "A102627",
+    "A326028",
+    "A326622",
+    "A326647",
+    "A326666",
+    "A326668",
+    "A326670",
+    "A326671"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

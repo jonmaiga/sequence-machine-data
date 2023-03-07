@@ -1,0 +1,23 @@
+{
+  "description": "Sequence array for A078008.",
+  "id": "A113678",
+  "mentions": [
+    "A001045",
+    "A053088",
+    "A078008",
+    "A113680"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:21:47",
+    "offset": 0,
+    "size": 83,
+    "source": "joeis"
+  }
+}

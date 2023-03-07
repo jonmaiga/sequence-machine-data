@@ -1,0 +1,20 @@
+{
+  "description": "Number of n-vertex knight's tours on the 8x8 chessboard summed over all choices for the starting position.",
+  "id": "A186441",
+  "mentions": [
+    "A001230",
+    "A186851"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "fini",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

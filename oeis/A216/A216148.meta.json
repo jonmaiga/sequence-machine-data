@@ -1,0 +1,25 @@
+{
+  "description": "Primes of the form 2*k^k + 1 = A216147(k).",
+  "id": "A216148",
+  "mentions": [
+    "A005109",
+    "A058383",
+    "A070855",
+    "A110932",
+    "A133663",
+    "A216147"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "bref",
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:34",
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-bfile"
+  }
+}

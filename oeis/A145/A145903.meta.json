@@ -1,0 +1,23 @@
+{
+  "description": "Generalized Narayana numbers for root systems of type D_n. Triangle of h-vectors of type D associahedra.",
+  "id": "A145903",
+  "mentions": [
+    "A001263",
+    "A008459",
+    "A051924",
+    "A080721"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Fibonacci numbers in which the difference between the largest digit and the smallest digit is a prime.",
+  "id": "A164825",
+  "mentions": [
+    "A000045"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

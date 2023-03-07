@@ -1,0 +1,20 @@
+{
+  "description": "Missing even distances in full prime rulers, i.e., even numbers k, 0 < k < p-3 for some prime p, such that k is not the difference of two primes less than or equal to p.",
+  "id": "A350324",
+  "mentions": [
+    "A000230",
+    "A001223",
+    "A071904",
+    "A349976"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

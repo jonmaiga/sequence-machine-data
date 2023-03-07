@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that the k-th triangular number contains only digits {0,3,9}.",
+  "id": "A119070",
+  "mentions": [
+    "A000217",
+    "A119034",
+    "A119069"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

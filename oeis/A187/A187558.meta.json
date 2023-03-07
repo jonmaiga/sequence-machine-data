@@ -1,0 +1,21 @@
+{
+  "description": "Triangle a(n,k) read by rows: product s(n,k)*s(n+1,k+1) of Stirling numbers of the first kind.",
+  "id": "A187558",
+  "mentions": [
+    "A048994",
+    "A132393"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:12",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "An array of the positive integers congruent to 2 modulo 3 (A016789), read by antidiagonals upwards, giving the present triangle.",
+  "id": "A347839",
+  "mentions": [
+    "A000302",
+    "A002042",
+    "A002089",
+    "A003947",
+    "A004171",
+    "A016789",
+    "A017617",
+    "A347834",
+    "A347838"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

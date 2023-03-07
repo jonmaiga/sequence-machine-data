@@ -1,0 +1,22 @@
+{
+  "description": "Angles n expressed in degrees such that 2*cos(n) = phi where phi is the golden ratio (A001622).",
+  "id": "A237128",
+  "mentions": [
+    "A001622",
+    "A019863",
+    "A063226",
+    "A090771"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:58:51",
+    "offset": 1,
+    "size": 44,
+    "source": "joeis"
+  }
+}

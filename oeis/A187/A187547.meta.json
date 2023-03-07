@@ -1,0 +1,30 @@
+{
+  "description": "L(n)H(n+1), product of the central Lah number L(n) and the harmonic number H(n).",
+  "id": "A187547",
+  "mentions": [
+    "A008297",
+    "A111596",
+    "A187536",
+    "A187538",
+    "A187539",
+    "A187540",
+    "A187542",
+    "A187543",
+    "A187544",
+    "A187545",
+    "A187546",
+    "A187548"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

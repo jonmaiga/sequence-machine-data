@@ -1,0 +1,18 @@
+{
+  "description": "Number of directed Hamiltonian walks from NW to SW corners of a 7 X (2*n+1) grid.",
+  "id": "A333603",
+  "mentions": [
+    "A271592",
+    "A333582"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:04",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

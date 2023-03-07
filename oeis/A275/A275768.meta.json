@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the number of ways to express n = (prime(i) + prime(j))/2 when (prime(i) - prime(j))/2 also is prime.",
+  "id": "A275768",
+  "mentions": [
+    "A000040",
+    "A002110",
+    "A010051",
+    "A060735"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:41",
+    "offset": 0,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

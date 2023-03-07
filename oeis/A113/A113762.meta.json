@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n with nonzero digits in their decimal representation such that when all numbers formed by inserting the exponentiation symbol between any two digits are added up, the sum is prime.",
+  "id": "A113762",
+  "mentions": [
+    "A117388"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:04",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

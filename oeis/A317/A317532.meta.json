@@ -1,0 +1,23 @@
+{
+  "description": "Regular triangle read by rows: T(n,k) is the number of multiset partitions of normal multisets of size n into k blocks, where a multiset is normal if it spans an initial interval of positive integers.",
+  "id": "A317532",
+  "mentions": [
+    "A007716",
+    "A034691",
+    "A239473",
+    "A255397",
+    "A255903",
+    "A255906"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:36",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

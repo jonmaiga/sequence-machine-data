@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the number of tuples (t_1, ..., t_k) with a positive integer k and integers 2 <= t_1 <= ... <= t_k such that n = Product_{i = 1..k} (3 + 1/t_i).",
+  "id": "A355627",
+  "mentions": [
+    "A355626",
+    "A355628",
+    "A355629",
+    "A355630",
+    "A355631"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:30",
+    "offset": 10,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

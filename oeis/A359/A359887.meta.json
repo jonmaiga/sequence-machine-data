@@ -1,0 +1,24 @@
+{
+  "description": "Square array A(n, k), n, k > 0, read by antidiagonals; A(n, k) is the numerator of the unique rational q such that for any m, floor(2^m/n) AND floor(2^m/k) = floor(q*2^m) (where AND denotes the bitwise AND operator); see A359888 for the denominators.",
+  "id": "A359887",
+  "mentions": [
+    "A300630",
+    "A306231",
+    "A359806",
+    "A359888"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "formulas",
+    "frac",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

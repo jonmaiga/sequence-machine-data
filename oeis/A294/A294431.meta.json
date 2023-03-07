@@ -1,0 +1,19 @@
+{
+  "description": "Rank of the inverse semigroup D_n of all difunctional relations on an n-element set.",
+  "id": "A294431",
+  "mentions": [
+    "A000110",
+    "A294432"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:28",
+    "offset": 0,
+    "size": 26,
+    "source": "joeis"
+  }
+}

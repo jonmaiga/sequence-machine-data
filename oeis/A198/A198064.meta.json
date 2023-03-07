@@ -1,0 +1,26 @@
+{
+  "description": "Triangle read by rows (n >= 0, 0 <= k <= n, m = 4); T(n,k) = Sum{j=0..m} Sum{i=0..m} (-1)^(j+i)*C(i,j)*n^j*k^(m-j).",
+  "id": "A198064",
+  "mentions": [
+    "A000583",
+    "A003056",
+    "A022521",
+    "A057427",
+    "A073254",
+    "A197654",
+    "A198063",
+    "A198065"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

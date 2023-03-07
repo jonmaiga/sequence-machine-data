@@ -1,0 +1,17 @@
+{
+  "description": "Number of lattice paths from {10}^n to {0}^n using steps that decrement one component such that for each point (p_1,p_2,...,p_n) we have p_1<=p_2<=...<=p_n.",
+  "id": "A227607",
+  "mentions": [
+    "A227578"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

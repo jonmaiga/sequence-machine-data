@@ -1,0 +1,23 @@
+{
+  "description": "T(n,k)=L(C(n,k)/3) where L(j/p) is the Legendre symbol of j and p.",
+  "id": "A117947",
+  "mentions": [
+    "A059126",
+    "A117939",
+    "A117963",
+    "A120854"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 120,
+    "source": "oeis-entry"
+  }
+}

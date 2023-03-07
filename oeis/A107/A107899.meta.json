@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that the sum of the terms of the continued fraction for prime(k)/k is prime.",
+  "id": "A107899",
+  "mentions": [
+    "A107898",
+    "A107900",
+    "A107901"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

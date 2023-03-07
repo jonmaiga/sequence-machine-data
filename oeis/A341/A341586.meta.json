@@ -1,0 +1,23 @@
+{
+  "description": "E.g.f.: (exp(1 - exp(x)) - 1)^2 / 2.",
+  "id": "A341586",
+  "mentions": [
+    "A000225",
+    "A000558",
+    "A000587",
+    "A008277",
+    "A213170",
+    "A309775"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:24",
+    "offset": 2,
+    "size": 25,
+    "source": "joeis"
+  }
+}

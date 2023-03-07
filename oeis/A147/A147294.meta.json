@@ -1,0 +1,22 @@
+{
+  "description": "Eigentriangle, row sums = A125275",
+  "id": "A147294",
+  "mentions": [
+    "A000108",
+    "A039599",
+    "A125275"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "eigen",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

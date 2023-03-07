@@ -1,0 +1,17 @@
+{
+  "description": "Number of (n+1) X (7+1) 0..4 arrays with every 2 X 2 subblock having its diagonal sum differing from its antidiagonal sum by 2, with no adjacent elements equal (constant-stress tilted 1 X 1 tilings).",
+  "id": "A234920",
+  "mentions": [
+    "A234921"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:52",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

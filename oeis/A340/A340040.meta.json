@@ -1,0 +1,20 @@
+{
+  "description": "Numbers that are the sum of a square s and a cube t such that 0 < s < t.",
+  "id": "A340040",
+  "mentions": [
+    "A000290",
+    "A000578",
+    "A010052",
+    "A010057"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

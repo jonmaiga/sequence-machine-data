@@ -1,0 +1,34 @@
+{
+  "description": "Nearest integer to A001055(n)/A045778(n), where A001055 is factorizations and A045778 is strict factorizations.",
+  "id": "A331048",
+  "mentions": [
+    "A001055",
+    "A001222",
+    "A002033",
+    "A005117",
+    "A045778",
+    "A045779",
+    "A045780",
+    "A045782",
+    "A045783",
+    "A330972",
+    "A330977",
+    "A330991",
+    "A330994",
+    "A330995",
+    "A330996",
+    "A331023",
+    "A331024"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

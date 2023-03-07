@@ -1,0 +1,21 @@
+{
+  "description": "Number of codons that code for an amino acid, listed in alphabetical order of their single-letter codes.",
+  "id": "A180850",
+  "mentions": [
+    "A104155",
+    "A135024"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "fini",
+    "full",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

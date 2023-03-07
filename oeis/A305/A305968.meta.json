@@ -1,0 +1,19 @@
+{
+  "description": "Number of length-n restricted growth strings (RGS) with growth <= eight and fixed first element.",
+  "id": "A305968",
+  "mentions": [
+    "A305962",
+    "A306032"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:30",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

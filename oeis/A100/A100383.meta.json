@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that gpf(k) < gpf(k+1) < ... < gpf(k+9), where gpf(x) = A006530(x), the greatest prime factor of x. Numbers initiating an uphill gpf run of length 10.",
+  "id": "A100383",
+  "mentions": [
+    "A006530",
+    "A070089",
+    "A071869",
+    "A100376",
+    "A100384"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:51",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

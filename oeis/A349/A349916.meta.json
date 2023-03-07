@@ -1,0 +1,21 @@
+{
+  "description": "Sum of A113415 and its Dirichlet inverse, where A113415 is the arithmetic mean between the number and sum of the odd divisors of n.",
+  "id": "A349916",
+  "mentions": [
+    "A113415",
+    "A349913",
+    "A349914",
+    "A349915"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:24",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

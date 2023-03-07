@@ -1,0 +1,28 @@
+{
+  "description": "Largest digit value when A329886(n) is written in primorial base, where A329886 is the primorial inflation of Doudna-tree.",
+  "id": "A342464",
+  "mentions": [
+    "A005940",
+    "A051903",
+    "A108951",
+    "A276086",
+    "A283980",
+    "A328114",
+    "A329344",
+    "A329886",
+    "A342456",
+    "A342461",
+    "A342462"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:15",
+    "offset": 0,
+    "size": 98,
+    "source": "oeis-bfile"
+  }
+}

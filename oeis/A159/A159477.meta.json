@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = smallest prime >= n, if 1 is counted as a prime.",
+  "id": "A159477",
+  "mentions": [
+    "A000040",
+    "A002808",
+    "A007918",
+    "A008578"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:41",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

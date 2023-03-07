@@ -1,0 +1,21 @@
+{
+  "description": "Define a map from the primes to the primes by f(p) = (p-1)/2 if that is prime, or else (p+1)/2 if that is prime, and otherwise is undefined. Start with the n-th prime and iterate f until we cannot go any further; a(n) is the number of steps.",
+  "id": "A328686",
+  "mentions": [
+    "A000040",
+    "A005383",
+    "A005385",
+    "A176902",
+    "A330310"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-entry"
+  }
+}

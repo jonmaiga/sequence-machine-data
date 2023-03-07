@@ -1,0 +1,21 @@
+{
+  "description": "For numbers x_n coprime to 10 there exist infinitely many binary numbers b such that gcd(b,rev(b)) = x_n and digitsum(b) = x_n. a(n) is the smallest b converted to decimal that satisfies this constraint.",
+  "id": "A348480",
+  "mentions": [
+    "A045572",
+    "A333666",
+    "A337832",
+    "A350385"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:22",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

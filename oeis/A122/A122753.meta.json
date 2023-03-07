@@ -1,0 +1,31 @@
+{
+  "description": "Triangle of coefficients of (1 - x)^n*B_n(x/(1 - x)), where B_n(x) is the n-th Bell polynomial.",
+  "id": "A122753",
+  "mentions": [
+    "A000110",
+    "A000295",
+    "A048993",
+    "A088996",
+    "A122610",
+    "A123018",
+    "A123019",
+    "A123021",
+    "A123027",
+    "A123199",
+    "A123202",
+    "A123217",
+    "A123221"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:11",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

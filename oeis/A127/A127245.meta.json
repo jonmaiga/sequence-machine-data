@@ -1,0 +1,22 @@
+{
+  "description": "Row sums of a signed Thue-Morse related triangle.",
+  "id": "A127245",
+  "mentions": [
+    "A010060",
+    "A091855",
+    "A127244",
+    "A127246"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

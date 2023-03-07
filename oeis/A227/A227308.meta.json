@@ -1,0 +1,22 @@
+{
+  "description": "Given an equilateral triangular grid with side n consisting of n(n+1)/2 points, a(n) is the maximum number of points that can be painted so that, if any 3 of the painted ones are chosen, they do not form an equilateral triangle with sides parallel to the grid.",
+  "id": "A227308",
+  "mentions": [
+    "A002717",
+    "A152125",
+    "A227116",
+    "A227133"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

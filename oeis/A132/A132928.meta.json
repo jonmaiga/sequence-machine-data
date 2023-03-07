@@ -1,0 +1,22 @@
+{
+  "description": "Concatenation of first n perfect numbers.",
+  "id": "A132928",
+  "mentions": [
+    "A000396",
+    "A007908",
+    "A019518",
+    "A078795"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:27",
+    "offset": 1,
+    "size": 8,
+    "source": "joeis"
+  }
+}

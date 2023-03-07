@@ -1,0 +1,18 @@
+{
+  "description": "Partial sums of bouncy numbers (A152054).",
+  "id": "A319744",
+  "mentions": [
+    "A152054"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:42",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

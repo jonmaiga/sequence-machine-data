@@ -1,0 +1,22 @@
+{
+  "description": "Odd numbers k for which A161942(k) > k, where A161942 is the odd part of sigma.",
+  "id": "A348742",
+  "mentions": [
+    "A000265",
+    "A016754",
+    "A161942",
+    "A348739",
+    "A348741",
+    "A348743"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

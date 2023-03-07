@@ -1,0 +1,17 @@
+{
+  "description": "a(1)=1, a(n) = max(sum0,sum1) mod n, where sum0 is the sum of previous terms with even indices, sum1 with odd indices.",
+  "id": "A300392",
+  "mentions": [
+    "A332581"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:24",
+    "offset": 1,
+    "size": 77,
+    "source": "oeis-bfile"
+  }
+}

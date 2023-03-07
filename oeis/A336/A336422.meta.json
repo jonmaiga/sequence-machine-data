@@ -1,0 +1,32 @@
+{
+  "description": "Number of ways to choose a divisor of a divisor of n, both having distinct prime exponents.",
+  "id": "A336422",
+  "mentions": [
+    "A000005",
+    "A001055",
+    "A005117",
+    "A007425",
+    "A032741",
+    "A071625",
+    "A118914",
+    "A124010",
+    "A130091",
+    "A181796",
+    "A327498",
+    "A336419",
+    "A336420",
+    "A336421",
+    "A336500",
+    "A336568"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = Sum_{k=1..n} floor((n+k)/k) = n + Sum_{k=1..n} sigma_0(k), where sigma_0(k) is A000005(k). Also a(n) = n + A006218(n).",
+  "id": "A156745",
+  "mentions": [
+    "A000005",
+    "A002541",
+    "A005843",
+    "A006218",
+    "A118014",
+    "A153818",
+    "A334954"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 20:10:17",
+    "offset": 1,
+    "size": 57,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of distinct grids after n moves in the 4D version of Morpion Solitaire.",
+  "id": "A204109",
+  "mentions": [
+    "A204107",
+    "A204108",
+    "A204110"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

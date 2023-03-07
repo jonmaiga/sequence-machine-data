@@ -1,0 +1,28 @@
+{
+  "description": "Convert n into a sequence of binary digits, apply one step of the rule 110 cellular automaton, and interpret the results as a binary integer.",
+  "id": "A161903",
+  "mentions": [
+    "A006978",
+    "A057889",
+    "A070887",
+    "A071049",
+    "A180001",
+    "A186083",
+    "A204371",
+    "A269160",
+    "A269174",
+    "A269175"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:44",
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-bfile"
+  }
+}

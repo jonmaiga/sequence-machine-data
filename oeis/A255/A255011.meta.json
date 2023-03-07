@@ -1,0 +1,24 @@
+{
+  "description": "Number of polygons formed by connecting all the 4n points on the perimeter of an n X n square by straight lines; a(0) = 0 by convention.",
+  "id": "A255011",
+  "mentions": [
+    "A006533",
+    "A007678",
+    "A092098",
+    "A331448",
+    "A331449",
+    "A331452"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:13",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

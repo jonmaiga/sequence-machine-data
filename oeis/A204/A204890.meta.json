@@ -1,0 +1,21 @@
+{
+  "description": "Ordered differences of primes.",
+  "id": "A204890",
+  "mentions": [
+    "A086800",
+    "A090321",
+    "A204892"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-07 09:25:33",
+    "offset": 1,
+    "size": 74,
+    "source": "joeis"
+  }
+}

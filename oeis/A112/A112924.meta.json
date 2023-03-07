@@ -1,0 +1,19 @@
+{
+  "description": "Number of nonisomorphic connected Y-graphs Y(n:i,j,k) with girth 6 on 4n vertices (or nodes) for 1<=i,j,k<=n.",
+  "id": "A112924",
+  "mentions": [
+    "A112921",
+    "A112922",
+    "A112923"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 3,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

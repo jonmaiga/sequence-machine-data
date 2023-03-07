@@ -1,0 +1,22 @@
+{
+  "description": "Degree of the algebraic number sin(n degrees) = sin(n Pi/180 radians).",
+  "id": "A285660",
+  "mentions": [
+    "A000010",
+    "A007775",
+    "A018261",
+    "A019810"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

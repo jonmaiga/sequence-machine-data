@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that d(i)|(k - i) for i = 1..p where d(1), d(2), ..., d(p) are the digits of the decimal expansion of k.",
+  "id": "A177902",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "changed",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:01",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

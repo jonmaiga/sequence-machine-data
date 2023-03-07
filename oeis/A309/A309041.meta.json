@@ -1,0 +1,24 @@
+{
+  "description": "Irregular table read by rows: Let P(n,x) be the (monic) minimal polynomial of 2i*cos(Pi/n), where i = sqrt(-1) is the imaginary unit, then a(n,k) = [x^(2k)] P(n,x), n >= 3.",
+  "id": "A309041",
+  "mentions": [
+    "A008555",
+    "A008683",
+    "A023022",
+    "A061446",
+    "A232624",
+    "A253807"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 3,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

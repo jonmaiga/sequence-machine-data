@@ -1,0 +1,21 @@
+{
+  "description": "Initial values of runs of 5 consecutive numbers all of which are squares, primes, or products of one prime and one square.",
+  "id": "A277225",
+  "mentions": [
+    "A162642",
+    "A229125",
+    "A265640",
+    "A290340"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn",
+    "unsolved"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

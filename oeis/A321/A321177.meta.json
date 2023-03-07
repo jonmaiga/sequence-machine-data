@@ -1,0 +1,29 @@
+{
+  "description": "Heinz numbers of integer partitions that are the vertex-degrees of some set system with no singletons.",
+  "id": "A321177",
+  "mentions": [
+    "A000070",
+    "A000569",
+    "A056239",
+    "A112798",
+    "A283877",
+    "A306005",
+    "A318361",
+    "A320922",
+    "A320923",
+    "A320924",
+    "A320925",
+    "A321176"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

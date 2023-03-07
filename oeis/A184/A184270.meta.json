@@ -1,0 +1,18 @@
+{
+  "description": "Number of distinct n X 8 toroidal binary arrays.",
+  "id": "A184270",
+  "mentions": [
+    "A184271"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:08",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

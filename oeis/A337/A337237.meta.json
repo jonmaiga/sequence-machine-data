@@ -1,0 +1,23 @@
+{
+  "description": "Odd composite integers such that A052918(m-1)^2 == 1 (mod m).",
+  "id": "A337237",
+  "mentions": [
+    "A052918",
+    "A337231",
+    "A337232",
+    "A337233",
+    "A337234",
+    "A337235",
+    "A337236"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:09",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

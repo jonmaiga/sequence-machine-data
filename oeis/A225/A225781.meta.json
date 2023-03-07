@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that both k and (k+1)/2 are primes and evil.",
+  "id": "A225781",
+  "mentions": [
+    "A001969",
+    "A005383"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Consider the map that sends a number m to m - reverse(m) if that is nonnegative, otherwise to m + reverse(m). Sequence gives those numbers that reach a nonzero cycle under repeated application of this map.",
+  "id": "A124074",
+  "mentions": [
+    "A001232"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:12",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

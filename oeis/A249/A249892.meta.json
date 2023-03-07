@@ -1,0 +1,19 @@
+{
+  "description": "G.f.: Sum_{n>=0} x^n / (1 - n*x - n^2*x^2).",
+  "id": "A249892",
+  "mentions": [
+    "A000045",
+    "A001622"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

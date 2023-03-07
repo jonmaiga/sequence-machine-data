@@ -1,0 +1,25 @@
+{
+  "description": "Numerators of fractions in a 'zero-transform' approximation of sqrt(2) by means of a(n) = (a(n-1) + c)/(a(n-1) + 1) with c=2 and a(1)=0.",
+  "id": "A163271",
+  "mentions": [
+    "A000129",
+    "A001333",
+    "A014113",
+    "A052542",
+    "A128966",
+    "A189687",
+    "A293004"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:45",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

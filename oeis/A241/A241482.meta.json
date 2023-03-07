@@ -1,0 +1,22 @@
+{
+  "description": "Least fundamental discriminant D > 1 such that the first n primes p have (D/p) >= 0.",
+  "id": "A241482",
+  "mentions": [
+    "A002189",
+    "A003658",
+    "A094847",
+    "A232931",
+    "A306218"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

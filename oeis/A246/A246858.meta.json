@@ -1,0 +1,20 @@
+{
+  "description": "Composite numbers k such that sigma(k + sigma(k)) = 2*sigma(k).",
+  "id": "A246858",
+  "mentions": [
+    "A005384",
+    "A074400",
+    "A246456",
+    "A246857"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

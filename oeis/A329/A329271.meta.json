@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that k multiplied by the product of its divisors contains k as a substring.",
+  "id": "A329271",
+  "mentions": [
+    "A007955",
+    "A115738",
+    "A326806",
+    "A328095",
+    "A328544"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

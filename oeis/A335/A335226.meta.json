@@ -1,0 +1,19 @@
+{
+  "description": "Numbers m such that twice the number of unordered Goldbach partitions of 2m is less than the number of unordered Goldbach partitions of 4m.",
+  "id": "A335226",
+  "mentions": [
+    "A002375",
+    "A137820",
+    "A335250"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

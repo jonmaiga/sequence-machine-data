@@ -1,0 +1,24 @@
+{
+  "description": "Sorted number of vertices of distinct solutions in the mix of 2 or 3 regular convex 4-polytopes.",
+  "id": "A199807",
+  "mentions": [
+    "A063924",
+    "A199545",
+    "A199546",
+    "A199549",
+    "A199808",
+    "A199811"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

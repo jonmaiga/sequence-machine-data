@@ -1,0 +1,23 @@
+{
+  "description": "Möbius transform of A010848, number of numbers k <= n such that at least one prime factor of n is not a prime factor of k.",
+  "id": "A300718",
+  "mentions": [
+    "A000010",
+    "A003557",
+    "A008683",
+    "A010848",
+    "A300717",
+    "A300720"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:25",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

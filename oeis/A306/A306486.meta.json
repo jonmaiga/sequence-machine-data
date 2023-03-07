@@ -1,0 +1,24 @@
+{
+  "description": "Number of squares in the interval [e^(n-1), e^n).",
+  "id": "A306486",
+  "mentions": [
+    "A000045",
+    "A000290",
+    "A001113",
+    "A005181",
+    "A019774",
+    "A290506",
+    "A306604"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

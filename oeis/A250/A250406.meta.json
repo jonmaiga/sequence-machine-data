@@ -1,0 +1,20 @@
+{
+  "description": "Values of B such that p = prime(n) satisfies (p-1)! == -1-B*p (mod p^2), i.e., p is a near-Wilson prime.",
+  "id": "A250406",
+  "mentions": [
+    "A007540",
+    "A241014",
+    "A244801",
+    "A250407"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:07",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

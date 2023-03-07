@@ -1,0 +1,24 @@
+{
+  "description": "Natural numbers which are not perfect fourth powers.",
+  "id": "A140823",
+  "mentions": [
+    "A000027",
+    "A000037",
+    "A000538",
+    "A000583",
+    "A007412",
+    "A046100"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

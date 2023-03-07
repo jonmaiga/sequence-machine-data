@@ -1,0 +1,20 @@
+{
+  "description": "Least integer k such that n+1 + ... + n+k > 1 + ... + n.",
+  "id": "A231151",
+  "mentions": [
+    "A231152",
+    "A231153"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:49",
+    "offset": 2,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

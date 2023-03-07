@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of Product_{k > 0} (1 + f(k)*x^k), where f(k) = A147952(A004001(k)).",
+  "id": "A147982",
+  "mentions": [
+    "A004001",
+    "A147869",
+    "A147952"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

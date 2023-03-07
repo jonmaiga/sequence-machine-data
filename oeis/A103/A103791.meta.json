@@ -1,0 +1,18 @@
+{
+  "description": "Index of the first occurrence of A019565(2n-1) in sequence A103790.",
+  "id": "A103791",
+  "mentions": [
+    "A019565",
+    "A103790"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Number of compositions (ordered partitions) of n into distinct parts, the least being 4.",
+  "id": "A339165",
+  "mentions": [
+    "A026797",
+    "A026825",
+    "A339102",
+    "A339162",
+    "A339163",
+    "A339164",
+    "A339166"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Number of ways to write n as 4*x^4 + y^2 + z^2 + w^2 with x,y,z,w nonnegative integers such that 79*y^2 - 220*y*z + 205*z^2 is a square.",
+  "id": "A282972",
+  "mentions": [
+    "A000118",
+    "A000290",
+    "A000583",
+    "A270969",
+    "A271518",
+    "A281976",
+    "A282933"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:53",
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

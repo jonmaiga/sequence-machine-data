@@ -1,0 +1,19 @@
+{
+  "description": "N(p-1)/p + D(p-1)/p^2 with p the n-th prime and B(k) = N(k)/D(k) the k-th Bernoulli number.",
+  "id": "A327033",
+  "mentions": [
+    "A174341",
+    "A309132",
+    "A326690"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

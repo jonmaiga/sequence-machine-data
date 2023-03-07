@@ -1,0 +1,22 @@
+{
+  "description": "Greater of twin primes p such that 3*p-2 is also greater of twin primes.",
+  "id": "A177336",
+  "mentions": [
+    "A006512",
+    "A038869",
+    "A088878",
+    "A132929",
+    "A174920"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:01",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

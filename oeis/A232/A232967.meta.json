@@ -1,0 +1,19 @@
+{
+  "description": "Irregular triangle read by rows: row n lists the rank sizes of the \"electrical\" poset EP_n of circular planar graphs with n boundary vertices.",
+  "id": "A232967",
+  "mentions": [
+    "A111088"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn",
+    "tabf",
+    "unsolved"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 92,
+    "source": "oeis-entry"
+  }
+}

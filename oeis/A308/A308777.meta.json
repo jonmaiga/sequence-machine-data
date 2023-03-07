@@ -1,0 +1,22 @@
+{
+  "description": "Number of twin primes between p and p^2 (inclusive) where p is the n-th prime.",
+  "id": "A308777",
+  "mentions": [
+    "A001097",
+    "A054272",
+    "A057767",
+    "A088019",
+    "A143738",
+    "A273257"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:33",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

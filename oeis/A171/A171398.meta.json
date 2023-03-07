@@ -1,0 +1,19 @@
+{
+  "description": "`X(n,k)' triangle read by rows. X(n,k) is the number of k-subsets of Z_n up to (u,z)-equivalence.",
+  "id": "A171398",
+  "mentions": [
+    "A002729"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of nonseparable (or 2-connected) graphs on n unlabeled nodes with circumference k, (n >= 3, k >= 3).",
+  "id": "A325447",
+  "mentions": [
+    "A002218",
+    "A003216",
+    "A128042",
+    "A325455"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 3,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

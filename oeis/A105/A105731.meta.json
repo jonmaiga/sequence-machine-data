@@ -1,0 +1,21 @@
+{
+  "description": "Odd numbers n such that A105658(n) != n.",
+  "id": "A105731",
+  "mentions": [
+    "A105658",
+    "A105732",
+    "A105733",
+    "A105769"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the smallest prime(m) such that the interval (prime(m)*n, prime(m+1)*n) contains exactly five primes.",
+  "id": "A198195",
+  "mentions": [
+    "A001359",
+    "A187809",
+    "A187810",
+    "A187812",
+    "A195871"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:19",
+    "offset": 2,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

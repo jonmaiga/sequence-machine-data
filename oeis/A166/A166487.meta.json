@@ -1,0 +1,21 @@
+{
+  "description": "Number of (row,column)-paratopism classes of SOLSSOMs of order n",
+  "id": "A166487",
+  "mentions": [
+    "A166488",
+    "A166489",
+    "A166490"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 4,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

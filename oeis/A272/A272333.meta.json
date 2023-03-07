@@ -1,0 +1,22 @@
+{
+  "description": "Values of Fibonacci(n+1) that divides n!.",
+  "id": "A272333",
+  "mentions": [
+    "A000045",
+    "A018253",
+    "A048278"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

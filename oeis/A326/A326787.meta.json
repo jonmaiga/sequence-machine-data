@@ -1,0 +1,27 @@
+{
+  "description": "Non-spanning edge-connectivity of the set-system with BII-number n.",
+  "id": "A326787",
+  "mentions": [
+    "A000120",
+    "A013922",
+    "A048793",
+    "A070939",
+    "A095983",
+    "A322336",
+    "A322338",
+    "A326031",
+    "A326749",
+    "A326753",
+    "A326786"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

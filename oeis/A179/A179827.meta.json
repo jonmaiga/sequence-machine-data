@@ -1,0 +1,21 @@
+{
+  "description": "Modulo 2 sum of A179761 and A179762.",
+  "id": "A179827",
+  "mentions": [
+    "A179761",
+    "A179762",
+    "A179828",
+    "A179829"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:02",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

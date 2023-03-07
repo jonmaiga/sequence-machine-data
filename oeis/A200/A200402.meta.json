@@ -1,0 +1,19 @@
+{
+  "description": "G.f. satisfies: A(x) = exp( Sum_{n>=1} A(-x^n)^3 * x^n/n ).",
+  "id": "A200402",
+  "mentions": [
+    "A052751",
+    "A200438"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:21",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

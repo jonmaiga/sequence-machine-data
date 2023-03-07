@@ -1,0 +1,18 @@
+{
+  "description": "The largest k such that an integer x between 1 and k (inclusive) can be guessed in at most n queries \"is x < y?\" with one lie.",
+  "id": "A325908",
+  "mentions": [
+    "A286496"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

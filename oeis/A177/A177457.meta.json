@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows; union of A007318 and A112467.",
+  "id": "A177457",
+  "mentions": [
+    "A007318",
+    "A112467"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

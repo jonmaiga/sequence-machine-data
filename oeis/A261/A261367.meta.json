@@ -1,0 +1,20 @@
+{
+  "description": "Number of nodes at level n in Euclid-Mullin graph starting with 1.",
+  "id": "A261367",
+  "mentions": [
+    "A000945",
+    "A000946"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

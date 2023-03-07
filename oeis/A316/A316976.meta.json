@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that some of the values (r0-r1+k) mod k for all pairs (r0,r1) of quadratic residues mod k are unique.",
+  "id": "A316976",
+  "mentions": [
+    "A051037",
+    "A096008",
+    "A316975"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

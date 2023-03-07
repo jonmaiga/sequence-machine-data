@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that cos(k) < 0 and cos(k+2) > 0.",
+  "id": "A277138",
+  "mentions": [
+    "A246444",
+    "A277136",
+    "A277137",
+    "A277139"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

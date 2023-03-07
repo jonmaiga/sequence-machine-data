@@ -1,0 +1,23 @@
+{
+  "description": "a(1) = 1, a(2) = 1, a(n) = n * LeastPrimeFactor(n-1) / LeastPrimeFactor(n)",
+  "id": "A126287",
+  "mentions": [
+    "A020639",
+    "A032742",
+    "A126286",
+    "A126288",
+    "A126289"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:14",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

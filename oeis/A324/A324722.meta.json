@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that A324658(A156552(k)) is zero.",
+  "id": "A324722",
+  "mentions": [
+    "A005940",
+    "A156552",
+    "A324647",
+    "A324652",
+    "A324658",
+    "A324716",
+    "A324723"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:50",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

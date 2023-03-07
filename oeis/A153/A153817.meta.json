@@ -1,0 +1,22 @@
+{
+  "description": "a(n)=Sum_{k=1..n} floor((n*k)/(n+k)).",
+  "id": "A153817",
+  "mentions": [
+    "A000005",
+    "A006218",
+    "A118014",
+    "A153818"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

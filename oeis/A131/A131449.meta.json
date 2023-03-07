@@ -1,0 +1,22 @@
+{
+  "description": "Number of organic (also called increasing) vertex labelings of rooted ordered trees with n non-root vertices.",
+  "id": "A131449",
+  "mentions": [
+    "A000081",
+    "A000108",
+    "A001147",
+    "A035342"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "more",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

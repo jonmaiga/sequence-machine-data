@@ -1,0 +1,38 @@
+{
+  "description": "Irregular triangle read by rows where T(n,k) is the number of length-k chains from minimum to maximum in the poset of factorizations of n into factors > 1, ordered by refinement.",
+  "id": "A330935",
+  "mentions": [
+    "A001055",
+    "A001222",
+    "A002846",
+    "A003238",
+    "A005121",
+    "A007716",
+    "A008826",
+    "A010051",
+    "A066247",
+    "A213427",
+    "A281118",
+    "A292504",
+    "A292505",
+    "A317145",
+    "A317176",
+    "A318812",
+    "A330665",
+    "A330727",
+    "A330785",
+    "A330936"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

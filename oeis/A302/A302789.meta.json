@@ -1,0 +1,23 @@
+{
+  "description": "Number of times the largest Fermi-Dirac factor of n is the largest Fermi-Dirac factor for numbers <= n; a(1) = 1.",
+  "id": "A302789",
+  "mentions": [
+    "A050376",
+    "A052331",
+    "A078899",
+    "A084400",
+    "A223491",
+    "A302785",
+    "A302788"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:27",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

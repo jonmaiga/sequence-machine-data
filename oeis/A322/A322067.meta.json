@@ -1,0 +1,19 @@
+{
+  "description": "Size of the free distributive lattice on the meet semilattice of partitions.",
+  "id": "A322067",
+  "mentions": [
+    "A000110",
+    "A000372"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

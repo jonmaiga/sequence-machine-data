@@ -1,0 +1,22 @@
+{
+  "description": "Values of the Ramanujan tau triples mod 691 such that three consecutive Ramanujan tau numbers are congruent mod 691.",
+  "id": "A121743",
+  "mentions": [
+    "A000594",
+    "A046694",
+    "A121733",
+    "A121734",
+    "A121742"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:10",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "First differences of A161340.",
+  "id": "A161341",
+  "mentions": [
+    "A011782",
+    "A160414",
+    "A160429",
+    "A161340",
+    "A161415"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

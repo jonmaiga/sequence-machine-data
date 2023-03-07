@@ -1,0 +1,20 @@
+{
+  "description": "Least integer k such that prime(n+1) + ... + prime(n+k) > prime(1) + ... + prime(n).",
+  "id": "A231152",
+  "mentions": [
+    "A231151",
+    "A231153"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 2,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

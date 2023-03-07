@@ -1,0 +1,22 @@
+{
+  "description": "Numbers that cannot be written as a difference of 3-smooth numbers (A003586).",
+  "id": "A290365",
+  "mentions": [
+    "A000079",
+    "A002473",
+    "A003586",
+    "A051037",
+    "A051038",
+    "A101082"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

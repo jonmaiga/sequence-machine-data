@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of (5 - x - x^2 - x^3 - x^4 + 4*x^5)/( x^6 - x^5 - x + 1).",
+  "id": "A266084",
+  "mentions": [
+    "A000027",
+    "A113655",
+    "A113778",
+    "A257145"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:52:17",
+    "offset": 0,
+    "size": 66,
+    "source": "joeis"
+  }
+}

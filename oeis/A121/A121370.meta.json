@@ -1,0 +1,26 @@
+{
+  "description": "Least number k such that (k*M(n))^2 + k*M(n) - 1 is prime with M(i)=i-th Mersenne prime.",
+  "id": "A121370",
+  "mentions": [
+    "A000043",
+    "A000668",
+    "A121371",
+    "A137906",
+    "A137907",
+    "A137908",
+    "A137909"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

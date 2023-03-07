@@ -1,0 +1,21 @@
+{
+  "description": "Szeged index of the grid graph P_3 X P_n.",
+  "id": "A245827",
+  "mentions": [
+    "A063521",
+    "A245826",
+    "A245828"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:37:43",
+    "offset": 1,
+    "size": 40,
+    "source": "joeis"
+  }
+}

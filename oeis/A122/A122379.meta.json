@@ -1,0 +1,24 @@
+{
+  "description": "Numbers n such that S(n)! > n^2 > P(n)!, where S(n)! is the smallest factorial divisible by n and P(n) is the greatest prime factor of n.",
+  "id": "A122379",
+  "mentions": [
+    "A000290",
+    "A002034",
+    "A006530",
+    "A057109",
+    "A092495",
+    "A102068",
+    "A122378",
+    "A122380"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:11",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

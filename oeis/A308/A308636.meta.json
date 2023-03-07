@@ -1,0 +1,22 @@
+{
+  "description": "Sequence of 5 Pythagorean triangles, each with a leg and hypotenuse prime. The hypotenuse of each triangle is the leg of the next triangle.",
+  "id": "A308636",
+  "mentions": [
+    "A048161",
+    "A048270",
+    "A048295",
+    "A187431",
+    "A308635"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:33",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

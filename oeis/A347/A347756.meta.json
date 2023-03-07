@@ -1,0 +1,22 @@
+{
+  "description": "Local minima in A347113.",
+  "id": "A347756",
+  "mentions": [
+    "A008578",
+    "A347113",
+    "A347307",
+    "A347755",
+    "A347757"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:21",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

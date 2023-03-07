@@ -1,0 +1,20 @@
+{
+  "description": "Bi-unitary superabundant numbers: numbers n such that bsigma(n)/n > bsigma(m)/m for all m < n, where bsigma is the sum of the bi-unitary divisors function (A188999).",
+  "id": "A292984",
+  "mentions": [
+    "A000203",
+    "A004394",
+    "A188999"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

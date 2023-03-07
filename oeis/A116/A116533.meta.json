@@ -1,0 +1,23 @@
+{
+  "description": "a(1)=1, a(2)=2, for n > 2 if a(n-1) is prime, then a(n) = 2*a(n-1), otherwise a(n) = a(n-1) - 1.",
+  "id": "A116533",
+  "mentions": [
+    "A006992",
+    "A038507",
+    "A055496",
+    "A080359",
+    "A104272",
+    "A106108",
+    "A132199"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

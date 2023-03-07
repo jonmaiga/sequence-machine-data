@@ -1,0 +1,17 @@
+{
+  "description": "Products of 5 distinct primes a,b,c,d,e, such that a+b+c+d+e are prime numbers.",
+  "id": "A178782",
+  "mentions": [
+    "A176877"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

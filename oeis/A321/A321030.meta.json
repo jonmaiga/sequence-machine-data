@@ -1,0 +1,23 @@
+{
+  "description": "Number of integers x such that 1 <= x <= n and gcd(x,n) = gcd(x+4,n) = gcd(x+6,n) = gcd(x+10,n) = gcd(x+12,n) = gcd(x+16,n) = 1.",
+  "id": "A321030",
+  "mentions": [
+    "A000010",
+    "A002472",
+    "A319516",
+    "A319534",
+    "A321029"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:43",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

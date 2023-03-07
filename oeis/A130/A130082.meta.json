@@ -1,0 +1,26 @@
+{
+  "description": "Smallest number whose eighth power has at least n digits.",
+  "id": "A130082",
+  "mentions": [
+    "A011557",
+    "A017936",
+    "A018005",
+    "A018074",
+    "A018143",
+    "A130080",
+    "A130084"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:18",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

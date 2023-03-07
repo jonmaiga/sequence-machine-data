@@ -1,0 +1,21 @@
+{
+  "description": "Index of row where n occurs in A183079.",
+  "id": "A220348",
+  "mentions": [
+    "A029837",
+    "A070941",
+    "A183079",
+    "A220347"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:38",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

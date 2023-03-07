@@ -1,0 +1,24 @@
+{
+  "description": "List of triples of strictly non-palindromic primes without an ordinary prime in between.",
+  "id": "A138358",
+  "mentions": [
+    "A016038",
+    "A047811",
+    "A138329",
+    "A138359",
+    "A138360"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

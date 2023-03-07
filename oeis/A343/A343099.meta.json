@@ -1,0 +1,19 @@
+{
+  "description": "Sums of 3 distinct odd squares.",
+  "id": "A343099",
+  "mentions": [
+    "A004432",
+    "A016754",
+    "A017101"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:16",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

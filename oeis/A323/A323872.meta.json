@@ -1,0 +1,30 @@
+{
+  "description": "Number of n X n aperiodic binary toroidal necklaces.",
+  "id": "A323872",
+  "mentions": [
+    "A000031",
+    "A000740",
+    "A001037",
+    "A027375",
+    "A059966",
+    "A179043",
+    "A184271",
+    "A323351",
+    "A323859",
+    "A323860",
+    "A323861",
+    "A323865",
+    "A323866",
+    "A323871"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:48",
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

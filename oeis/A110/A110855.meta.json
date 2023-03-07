@@ -1,0 +1,20 @@
+{
+  "description": "Table T(n,k), n >= 0, k >= 0, product M*M^(T) where M is the lower triangular matrix in A048993 (Stirling2 numbers) and M^(T) denotes the transpose matrix of M, read by antidiagonals.",
+  "id": "A110855",
+  "mentions": [
+    "A000995",
+    "A047797",
+    "A048993"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

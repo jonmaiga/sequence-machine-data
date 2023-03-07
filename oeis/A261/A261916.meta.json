@@ -1,0 +1,21 @@
+{
+  "description": "Smallest p such that n can be written as n = p+q+r where p>=q>=r>=0 are palindromes.",
+  "id": "A261916",
+  "mentions": [
+    "A002113",
+    "A261132",
+    "A261422",
+    "A261423"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:21",
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

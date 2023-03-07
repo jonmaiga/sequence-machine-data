@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = 2*(a(n-1) + a(n-2) + a(n-3)) - a(n-4) for n >= 4, with initial terms 0,0,0,1.",
+  "id": "A192237",
+  "mentions": [
+    "A192232",
+    "A192234",
+    "A192235",
+    "A192236",
+    "A317973",
+    "A317974",
+    "A317975",
+    "A317976"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Smallest m_0 such that A118106(m_0) = n; smallest m_0 such that if we write m_0 = Product_{i=1..t} p_i^e_i, then lcm_{1<=i,j<=t, i!=j} ord(p_i,p_j^e_j) = n, where ord(a,r) is the multiplicative order of a modulo r.",
+  "id": "A329065",
+  "mentions": [
+    "A112927",
+    "A118106",
+    "A212552"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "The greatest prime factor of the squarefree part of n, or 1 if n is square.",
+  "id": "A300518",
+  "mentions": [
+    "A006530",
+    "A007913"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:25",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

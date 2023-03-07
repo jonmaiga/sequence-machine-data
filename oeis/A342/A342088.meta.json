@@ -1,0 +1,27 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of n-colorings of the vertices of the k-dimensional cross polytope such that no two adjacent vertices have the same color. 0 <= k <= n.",
+  "id": "A342088",
+  "mentions": [
+    "A000012",
+    "A000290",
+    "A091940",
+    "A115400",
+    "A334279",
+    "A334281",
+    "A342073",
+    "A342074",
+    "A342075"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:15",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

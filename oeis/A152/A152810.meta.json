@@ -1,0 +1,19 @@
+{
+  "description": "Let the binary expansion of n be n = Sum_{k} 2^{r_k}, let e(n) be the number of r_k's that are even, o(n) the number that are odd; sequence gives odd n such that e(n) > o(n) and e(n)-o(n) == 1 or 2 (mod 6).",
+  "id": "A152810",
+  "mentions": [
+    "A065049",
+    "A139370",
+    "A152754"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:35",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

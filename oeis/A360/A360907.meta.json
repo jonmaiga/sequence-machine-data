@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that k and k+1 both have the same number of cubefree divisors and 3-full divisors.",
+  "id": "A360907",
+  "mentions": [
+    "A073184",
+    "A190867",
+    "A360906"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:34",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

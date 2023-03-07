@@ -1,0 +1,19 @@
+{
+  "description": "Primes of the form (prime(j)-1)^(prime(j)+1) + 1.",
+  "id": "A279883",
+  "mentions": [
+    "A000040",
+    "A279884"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "bref",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

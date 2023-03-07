@@ -1,0 +1,19 @@
+{
+  "description": "Ceiling(n*sqrt(7)).",
+  "id": "A198084",
+  "mentions": [
+    "A022841",
+    "A022850",
+    "A047399"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:19",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

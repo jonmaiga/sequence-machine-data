@@ -1,0 +1,18 @@
+{
+  "description": "The values of b(k)+b(k+1), k >= 0, sorted into increasing order, where b is A353709.",
+  "id": "A353716",
+  "mentions": [
+    "A353709",
+    "A353715"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

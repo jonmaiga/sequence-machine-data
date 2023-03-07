@@ -1,0 +1,34 @@
+{
+  "description": "Multiples of 8 and odd numbers interleaved.",
+  "id": "A195161",
+  "mentions": [
+    "A001477",
+    "A005408",
+    "A008590",
+    "A022998",
+    "A026741",
+    "A080512",
+    "A144433",
+    "A163931",
+    "A165998",
+    "A195140",
+    "A195151",
+    "A195159",
+    "A195162",
+    "A195312",
+    "A274181"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:17",
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

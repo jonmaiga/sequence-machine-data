@@ -1,0 +1,22 @@
+{
+  "description": "For the Collatz (3x+1) iterations starting with the odd numbers k, a(n) is the smallest k such that the trajectory contains at least n successive odd numbers == 3 (mod 4).",
+  "id": "A213215",
+  "mentions": [
+    "A000225",
+    "A006370",
+    "A006577",
+    "A024023",
+    "A213214",
+    "A222598"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:31",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Numerators of row sums of the triangular enumeration of rational numbers A226314(n,k) / A054531(n,k), 1 <= k <= n.",
+  "id": "A226555",
+  "mentions": [
+    "A040001",
+    "A054531",
+    "A226314"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

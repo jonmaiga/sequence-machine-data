@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) = number of palindromic partitions of n in which the largest part is equal to k, 1 <= k <= n.",
+  "id": "A233321",
+  "mentions": [
+    "A025065",
+    "A233322",
+    "A233323",
+    "A233324"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:51",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

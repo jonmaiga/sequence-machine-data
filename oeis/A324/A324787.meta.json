@@ -1,0 +1,26 @@
+{
+  "description": "Index of n-th low point in A022837.",
+  "id": "A324787",
+  "mentions": [
+    "A008348",
+    "A022837",
+    "A309225",
+    "A309226",
+    "A324782",
+    "A324783",
+    "A324788",
+    "A324789",
+    "A324790"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k having exactly one base b which is not a divisor of k+1, and k contains the digit b-1 in base b.",
+  "id": "A338420",
+  "mentions": [
+    "A337536"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

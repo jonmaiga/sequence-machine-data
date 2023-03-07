@@ -1,0 +1,22 @@
+{
+  "description": "Prime numbers p_k such that p_k == 1 (mod 10) and p_(k+1) == 1 (mod 10).",
+  "id": "A330366",
+  "mentions": [
+    "A030430",
+    "A030431",
+    "A030432",
+    "A030433",
+    "A331324",
+    "A331555"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:59",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

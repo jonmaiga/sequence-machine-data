@@ -1,0 +1,20 @@
+{
+  "description": "Values of x such that x^2 + y^2 = 29^n with x and y coprime and 0 < x < y.",
+  "id": "A230644",
+  "mentions": [
+    "A009973",
+    "A188948",
+    "A230622",
+    "A230645"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:48",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

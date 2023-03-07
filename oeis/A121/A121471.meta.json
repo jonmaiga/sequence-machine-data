@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 9*n^2/4 -4*n +19/8 -3*(-1)^n/8.",
+  "id": "A121471",
+  "mentions": [
+    "A003215",
+    "A005448"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:00:07",
+    "offset": 1,
+    "size": 49,
+    "source": "joeis"
+  }
+}

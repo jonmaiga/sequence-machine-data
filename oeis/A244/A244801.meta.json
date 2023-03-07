@@ -1,0 +1,19 @@
+{
+  "description": "Smallest m such that for the prime p = prime(n) the congruence F_(p-(p/5)) == mp (mod p^2) holds (i.e., smallest m such that prime(n) is a near-Wall-Sun-Sun prime), where F_k is the k-th Fibonacci number and (p/5) is the Legendre symbol.",
+  "id": "A244801",
+  "mentions": [
+    "A000045",
+    "A113650",
+    "A195988"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:01",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

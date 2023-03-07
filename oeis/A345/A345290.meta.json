@@ -1,0 +1,31 @@
+{
+  "description": "a(n) is obtained by replacing 2^k in binary expansion of n with Fibonacci(-k-2).",
+  "id": "A345290",
+  "mentions": [
+    "A000045",
+    "A000695",
+    "A020989",
+    "A022290",
+    "A039834",
+    "A062880",
+    "A063694",
+    "A063695",
+    "A072197",
+    "A080675",
+    "A136412",
+    "A345291",
+    "A345292"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:18",
+    "offset": 0,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

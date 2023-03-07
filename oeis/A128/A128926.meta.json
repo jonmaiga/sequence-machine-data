@@ -1,0 +1,17 @@
+{
+  "description": "Smaller member p of a pair of consecutive primes (p,q) such that either q^2-p^2+1 or q^2-p^2-1 is also prime.",
+  "id": "A128926",
+  "mentions": [
+    "A069482"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

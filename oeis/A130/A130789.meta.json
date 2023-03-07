@@ -1,0 +1,21 @@
+{
+  "description": "The primes prime(n) sorted according to increasing prime(n)/prime(n+1).",
+  "id": "A130789",
+  "mentions": [
+    "A000040",
+    "A000101",
+    "A001223",
+    "A107664",
+    "A111870"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:18",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

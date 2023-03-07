@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that k^k-1 and k^k+1 are both not squarefree.",
+  "id": "A188049",
+  "mentions": [
+    "A005117",
+    "A013929",
+    "A184966",
+    "A184967",
+    "A188047"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

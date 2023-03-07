@@ -1,0 +1,27 @@
+{
+  "description": "The palindromic kernel of n in base 2 (with carryless GF(2)[X] factorization): a(n) = A091255(n,A057889(n)).",
+  "id": "A280505",
+  "mentions": [
+    "A048720",
+    "A057889",
+    "A057890",
+    "A091222",
+    "A091255",
+    "A280500",
+    "A280501",
+    "A280503",
+    "A280506"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:48",
+    "offset": 1,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

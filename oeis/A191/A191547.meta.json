@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the smallest number k such that 2*k*n + 1 is a prime dividing prime(n)^n + 1.",
+  "id": "A191547",
+  "mentions": [
+    "A062006",
+    "A191546"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:15",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

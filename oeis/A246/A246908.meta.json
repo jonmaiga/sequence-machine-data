@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = sigma(n + sigma(n)) - sigma(n).",
+  "id": "A246908",
+  "mentions": [
+    "A000203",
+    "A078762",
+    "A246456"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:03",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "description": "Numbers k such that A005187(k) < sigma(k) <= 2k, where A005187(k) = 2k - {binary weight of k}.",
+  "id": "A326138",
+  "mentions": [
+    "A000120",
+    "A000203",
+    "A000396",
+    "A005187",
+    "A007088",
+    "A033879",
+    "A087485",
+    "A141548",
+    "A188597",
+    "A263837",
+    "A294898",
+    "A295296",
+    "A326131",
+    "A326132",
+    "A326133"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

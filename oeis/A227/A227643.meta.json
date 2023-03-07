@@ -1,0 +1,30 @@
+{
+  "description": "Each a(n) is one more than the count of all descendant nodes in a tree constructed from all nonnegative integers, where the relation p = c + bitcount(c) defines the edges between parent (p) and child (c) nodes. Function bitcount(c) is the count of binary 1's in c (A000120).",
+  "id": "A227643",
+  "mentions": [
+    "A000120",
+    "A010061",
+    "A092391",
+    "A213727",
+    "A227359",
+    "A227361",
+    "A227408",
+    "A228082",
+    "A228083",
+    "A228085",
+    "A228086",
+    "A228087"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

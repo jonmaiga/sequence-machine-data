@@ -1,0 +1,20 @@
+{
+  "description": "G.f.: 12/(5 + 7*sqrt(1-24*x)).",
+  "id": "A130978",
+  "mentions": [
+    "A039599",
+    "A135314",
+    "A183135"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:18",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

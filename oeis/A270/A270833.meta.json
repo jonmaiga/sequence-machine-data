@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n > 1 where all prime factors are Wieferich primes, i.e., terms of A001220.",
+  "id": "A270833",
+  "mentions": [
+    "A001220",
+    "A240719"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

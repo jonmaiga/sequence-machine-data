@@ -1,0 +1,29 @@
+{
+  "description": "Fractalization of Kimberling's paraphrases sequence beginning with 1.",
+  "id": "A110963",
+  "mentions": [
+    "A000265",
+    "A003602",
+    "A005408",
+    "A110766",
+    "A110779",
+    "A110812",
+    "A110962",
+    "A351565",
+    "A353366",
+    "A353367"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:02",
+    "offset": 1,
+    "size": 98,
+    "source": "oeis-bfile"
+  }
+}

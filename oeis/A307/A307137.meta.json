@@ -1,0 +1,19 @@
+{
+  "description": "Terms of A194269 that are not squares of primes.",
+  "id": "A307137",
+  "mentions": [
+    "A001248",
+    "A194269"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

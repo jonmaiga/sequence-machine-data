@@ -1,0 +1,39 @@
+{
+  "description": "Triangle read by rows. The Kummer triangle, the coefficients of the Kummer polynomials. K(n, k) = binomial(n, k) * oddfactorial(k/2) if k is even, otherwise 0, where oddfactorial(z) := (2*z)!/(2^z*z!).",
+  "id": "A359760",
+  "mentions": [
+    "A000085",
+    "A001147",
+    "A001464",
+    "A001879",
+    "A002522",
+    "A005425",
+    "A047974",
+    "A056107",
+    "A066325",
+    "A073278",
+    "A099174",
+    "A100861",
+    "A104556",
+    "A111924",
+    "A115329",
+    "A123022",
+    "A123023",
+    "A144299",
+    "A344501",
+    "A359739",
+    "A359761"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

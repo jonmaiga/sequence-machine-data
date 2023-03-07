@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that A001414(n) divides n+1 and A001414(n+1) divides n.",
+  "id": "A131484",
+  "mentions": [
+    "A001414",
+    "A063990",
+    "A130871"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:19",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

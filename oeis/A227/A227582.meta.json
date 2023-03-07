@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of (2+3*x+2*x^2+2*x^3+3*x^4+x^5-x^6)/(1-2*x+x^2-x^5+2*x^6-x^7).",
+  "id": "A227582",
+  "mentions": [
+    "A227581",
+    "A277582"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:14:03",
+    "offset": 1,
+    "size": 49,
+    "source": "joeis"
+  }
+}

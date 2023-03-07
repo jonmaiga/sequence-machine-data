@@ -1,0 +1,22 @@
+{
+  "description": "Composite numbers n such that 8*n^2-2*n-1 divides the primitive part U(n) of Fibonacci(n).",
+  "id": "A159234",
+  "mentions": [
+    "A000045",
+    "A023172",
+    "A061446",
+    "A159231",
+    "A159259",
+    "A181890"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

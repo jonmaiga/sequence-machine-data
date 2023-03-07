@@ -1,0 +1,20 @@
+{
+  "description": "Number of factorizations of the n-th number with distinct prime multiplicities A130091(n) into numbers > 1 with distinct prime multiplicities.",
+  "id": "A327523",
+  "mentions": [
+    "A098859",
+    "A112798",
+    "A130091",
+    "A255231"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-entry"
+  }
+}

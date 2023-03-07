@@ -1,0 +1,24 @@
+{
+  "description": "Expansion of 1/(1 - Sum_{p prime, k>=1} x^(p^k)/(1 - x^(p^k))).",
+  "id": "A300672",
+  "mentions": [
+    "A001222",
+    "A022559",
+    "A112967",
+    "A129921",
+    "A180305",
+    "A293549",
+    "A300671"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:25",
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "For definition see comments lines.",
+  "id": "A146892",
+  "mentions": [
+    "A006519",
+    "A034448",
+    "A038500",
+    "A065330",
+    "A065331",
+    "A146891"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Total number c_{pi_1(B_1)}(n) of n-coverings over the first amphicosm.",
+  "id": "A263825",
+  "mentions": [
+    "A001001",
+    "A007434",
+    "A059376",
+    "A060640",
+    "A263830",
+    "A263832"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:23",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

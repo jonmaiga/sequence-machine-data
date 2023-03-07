@@ -1,0 +1,20 @@
+{
+  "description": "Number of free triangular n-polyplets (triangular polyominoes connected at edges or corners), where turning over is allowed and holes are allowed.",
+  "id": "A239658",
+  "mentions": [
+    "A000577",
+    "A030222"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

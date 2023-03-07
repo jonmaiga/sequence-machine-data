@@ -1,0 +1,22 @@
+{
+  "description": "Number of primes p for which the p-adic valuation of phi(n) exceeds the p-adic valuation of n-1, with a(1) = 0 by convention.",
+  "id": "A339871",
+  "mentions": [
+    "A001221",
+    "A055734",
+    "A160595",
+    "A339817",
+    "A339872"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:12",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

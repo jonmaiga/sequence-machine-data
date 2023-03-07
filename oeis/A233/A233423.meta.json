@@ -1,0 +1,17 @@
+{
+  "description": "Values of n at which the period of the continued fraction for sqrt(n) is nondecreasing.",
+  "id": "A233423",
+  "mentions": [
+    "A013645"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

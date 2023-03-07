@@ -1,0 +1,22 @@
+{
+  "description": "Squares visited by a knight moving on a square-spiral numbered board where the knight moves to the smallest numbered unvisited square and where the square number is more than the number of currently visited squares.",
+  "id": "A358150",
+  "mentions": [
+    "A316588",
+    "A316667",
+    "A326918",
+    "A326922"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "fini",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "The honeybee prime walk: a(n) is the number of closed honeycomb cells after the n-th step of the walk described in the comments.",
+  "id": "A355478",
+  "mentions": [
+    "A174313",
+    "A211020",
+    "A233399",
+    "A355479",
+    "A355480",
+    "A359529"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:30",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

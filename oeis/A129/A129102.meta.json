@@ -1,0 +1,20 @@
+{
+  "description": "Column 2 of triangle A129100; also equals column 0 of matrix power A129100^4.",
+  "id": "A129102",
+  "mentions": [
+    "A129092",
+    "A129100",
+    "A129101",
+    "A129103"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

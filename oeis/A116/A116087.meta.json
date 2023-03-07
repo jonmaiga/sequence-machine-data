@@ -1,0 +1,21 @@
+{
+  "description": "Number of distinct prime factors of P(F(n)) where F(n) is the Fibonacci number and P(n) is the unrestricted partition number.",
+  "id": "A116087",
+  "mentions": [
+    "A000041",
+    "A000045",
+    "A001221"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Least number k such that 1 - k*sin(1/k) < 1/n^2.",
+  "id": "A248515",
+  "mentions": [
+    "A022840",
+    "A033581",
+    "A138235",
+    "A194986",
+    "A248470"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:05",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

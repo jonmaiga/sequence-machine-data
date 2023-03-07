@@ -1,0 +1,22 @@
+{
+  "description": "Multiplicative closure of Pierpont primes.",
+  "id": "A122260",
+  "mentions": [
+    "A005109",
+    "A048737",
+    "A122254",
+    "A122261"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:11",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

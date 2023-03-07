@@ -1,0 +1,24 @@
+{
+  "description": "Exponential (or binomial) half-convolution of A000045 (Fibonacci) with itself.",
+  "id": "A203578",
+  "mentions": [
+    "A000032",
+    "A000045",
+    "A008277",
+    "A014335",
+    "A032443",
+    "A203576"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:23",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Primes, p, that generate the prime quadruplets, p^2-2p+2k (for k = -2, -1, 1, 2).",
+  "id": "A247845",
+  "mentions": [
+    "A247846",
+    "A247882"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

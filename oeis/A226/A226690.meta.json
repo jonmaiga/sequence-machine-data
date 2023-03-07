@@ -1,0 +1,18 @@
+{
+  "description": "Irregular table read by rows: T(m,n) = Numerators of minimal distance between m elements of the Farey sequence F_n.",
+  "id": "A226690",
+  "mentions": [
+    "A226691"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

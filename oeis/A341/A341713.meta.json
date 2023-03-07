@@ -1,0 +1,22 @@
+{
+  "description": "Indices of Ennesrem primes: k such that A004094(k)-1 is prime.",
+  "id": "A341713",
+  "mentions": [
+    "A000043",
+    "A004094",
+    "A057708",
+    "A341709"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

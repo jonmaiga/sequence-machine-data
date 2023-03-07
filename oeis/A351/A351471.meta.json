@@ -1,0 +1,29 @@
+{
+  "description": "Numbers m such that the largest digit in the decimal expansion of 1/m is 5.",
+  "id": "A351471",
+  "mentions": [
+    "A002276",
+    "A002280",
+    "A094028",
+    "A333236",
+    "A333237",
+    "A333402",
+    "A341383",
+    "A350814",
+    "A351470",
+    "A351472",
+    "A351473",
+    "A351474"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

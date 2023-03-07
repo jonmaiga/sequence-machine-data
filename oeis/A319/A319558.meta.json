@@ -1,0 +1,32 @@
+{
+  "description": "The squarefree dual of a multiset partition has, for each vertex, one block consisting of the indices (or positions) of the blocks containing that vertex, counted without multiplicity. Then a(n) is the number of non-isomorphic multiset partitions of weight n whose squarefree dual is strict (no repeated blocks).",
+  "id": "A319558",
+  "mentions": [
+    "A007716",
+    "A007718",
+    "A049311",
+    "A053419",
+    "A056156",
+    "A059201",
+    "A283877",
+    "A316980",
+    "A319557",
+    "A319559",
+    "A319560",
+    "A319564",
+    "A319565",
+    "A319566",
+    "A319567"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

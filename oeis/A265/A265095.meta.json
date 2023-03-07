@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{k=0..n} q(k)^k, where q(k) = partition numbers into distinct parts (A000009).",
+  "id": "A265095",
+  "mentions": [
+    "A000009",
+    "A259436",
+    "A265094"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "G.f.: (1+x-sqrt(1-2*x-7*x^2-8*x^3-4*x^4))/(2+2*x+2*x^2).",
+  "id": "A108630",
+  "mentions": [
+    "A039985"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 12:15:16",
+    "offset": 1,
+    "size": 26,
+    "source": "joeis"
+  }
+}

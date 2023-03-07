@@ -1,0 +1,23 @@
+{
+  "description": "Power ceiling-floor sequence of (golden ratio)^6.",
+  "id": "A214995",
+  "mentions": [
+    "A007805",
+    "A049660",
+    "A099279",
+    "A156085",
+    "A214992"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:32",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

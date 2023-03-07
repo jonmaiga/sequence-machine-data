@@ -1,0 +1,21 @@
+{
+  "description": "G.f. satisfies: 25*A(x) = 24 + 64*x + A(x)^9, starting with [1,4,36].",
+  "id": "A120605",
+  "mentions": [
+    "A120588",
+    "A120604",
+    "A120606",
+    "A120607"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:11",
+    "offset": 0,
+    "size": 16,
+    "source": "joeis"
+  }
+}

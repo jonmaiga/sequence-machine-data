@@ -1,0 +1,17 @@
+{
+  "description": "Number of sets of 4 distinct collinear points in an n X n permutation array in which leftmost pair has same spacing as rightmost pair.",
+  "id": "A234471",
+  "mentions": [
+    "A243643"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:52",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

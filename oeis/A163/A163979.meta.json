@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = n*(n-1) + A144437(n+2).",
+  "id": "A163979",
+  "mentions": [
+    "A002378",
+    "A016933",
+    "A144437"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:09:51",
+    "offset": 0,
+    "size": 52,
+    "source": "joeis"
+  }
+}

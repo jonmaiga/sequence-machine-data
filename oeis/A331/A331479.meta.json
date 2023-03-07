@@ -1,0 +1,22 @@
+{
+  "description": "Table read by rows: row n lists the numbers m such that the first n primes can be partitioned into m subsets all of which have the same sum.",
+  "id": "A331479",
+  "mentions": [
+    "A000040",
+    "A007504",
+    "A053050",
+    "A306443",
+    "A327449"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-entry"
+  }
+}

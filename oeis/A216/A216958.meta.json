@@ -1,0 +1,22 @@
+{
+  "description": "Number of binary vectors v of length n with curling number 1 such that the concatenation v v with first term omitted also has curling number 1.",
+  "id": "A216958",
+  "mentions": [
+    "A122536",
+    "A216730",
+    "A216959",
+    "A216960",
+    "A216961",
+    "A218875"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:34",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

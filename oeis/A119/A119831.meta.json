@@ -1,0 +1,22 @@
+{
+  "description": "Number triangle (3n)!/(3k)!.",
+  "id": "A119831",
+  "mentions": [
+    "A087350",
+    "A119828",
+    "A119832"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

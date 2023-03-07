@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the number of trailing zeros in (2^n)!.",
+  "id": "A354463",
+  "mentions": [
+    "A000079",
+    "A027868",
+    "A055223"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:29",
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

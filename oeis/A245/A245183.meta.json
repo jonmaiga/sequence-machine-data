@@ -1,0 +1,21 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) (n>=2, 1<=k<=n) gives number of arrangements of the elements from the multiset M(n, 3) into exactly k disjoint cycles.",
+  "id": "A245183",
+  "mentions": [
+    "A008284",
+    "A245182",
+    "A245184"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 3,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Column 1 of the triangular array at A249057.",
+  "id": "A249060",
+  "mentions": [
+    "A178647",
+    "A249057",
+    "A249059",
+    "A309491"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:28",
+    "offset": 0,
+    "size": 27,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Values (Sum_{1<=i<=k} x_i)^2 = Sum_{1<=i<=k} x_i^3 for 1 <= x_1 <= x_2 <=...<= x_k ordered lexicographically according to (x1, x2,..., xk).",
+  "id": "A225808",
+  "mentions": [
+    "A055012",
+    "A118881",
+    "A158649"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

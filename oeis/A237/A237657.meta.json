@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = |{n < m < 2*n: pi(m) and pi(m^2) are both prime}|, where pi(.) is given by A000720.",
+  "id": "A237657",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A038107",
+    "A237578",
+    "A237643",
+    "A237656"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

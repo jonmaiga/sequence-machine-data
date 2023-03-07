@@ -1,0 +1,28 @@
+{
+  "description": "Natural numbers mapped to Dyck path encodings of the rooted plane trees obtained by recursing on the exponents of the GF(2)[X] factorization of n.",
+  "id": "A106456",
+  "mentions": [
+    "A007088",
+    "A048273",
+    "A048723",
+    "A063171",
+    "A075166",
+    "A091247",
+    "A106443",
+    "A106451",
+    "A106454",
+    "A106455",
+    "A106457"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

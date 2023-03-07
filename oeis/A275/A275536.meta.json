@@ -1,0 +1,27 @@
+{
+  "description": "Differences of the exponents of the adjacent distinct powers of 2 in the binary representation of n (with -1 subtracted from the least exponent present) are concatenated as decimal digits in reverse order.",
+  "id": "A275536",
+  "mentions": [
+    "A004086",
+    "A004719",
+    "A069800",
+    "A071160",
+    "A248646",
+    "A256494",
+    "A258055",
+    "A261300"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "fini",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:40",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

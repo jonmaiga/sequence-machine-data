@@ -1,0 +1,19 @@
+{
+  "description": "Least sum of 2's and 3's required to build n using +, * and parentheses.",
+  "id": "A360269",
+  "mentions": [
+    "A000040",
+    "A025280"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:34",
+    "offset": 2,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

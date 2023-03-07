@@ -1,0 +1,23 @@
+{
+  "description": "An analog of the Golay-Rudin-Shapiro sequence (A020985) in base -2 (see comments).",
+  "id": "A269529",
+  "mentions": [
+    "A010060",
+    "A020985",
+    "A039724",
+    "A268411",
+    "A269027",
+    "A269528"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:31",
+    "offset": 0,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

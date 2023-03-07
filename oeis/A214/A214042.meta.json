@@ -1,0 +1,27 @@
+{
+  "description": "Irregular array T(n,k) of the numbers of non-extendable (complete) non-self-adjacent simple paths starting at each of a minimal subset of nodes within a square lattice bounded by rectangles with nodal dimensions n and 9, n >= 2.",
+  "id": "A214042",
+  "mentions": [
+    "A213106",
+    "A213249",
+    "A213426",
+    "A213478",
+    "A213954",
+    "A214022",
+    "A214023",
+    "A214025",
+    "A214037",
+    "A214038"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 2,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

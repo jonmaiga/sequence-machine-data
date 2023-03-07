@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = A003022(n)+1 with a(1)=1.",
+  "id": "A227590",
+  "mentions": [
+    "A003022",
+    "A005282",
+    "A227588"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

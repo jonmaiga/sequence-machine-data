@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of (3+sqrt(13))/6.",
+  "id": "A176019",
+  "mentions": [
+    "A010470",
+    "A010690"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:00",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

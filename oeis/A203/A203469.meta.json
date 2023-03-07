@@ -1,0 +1,21 @@
+{
+  "description": "v(n)/A000178(n); v=A093883 and A000178=(superfactorials).",
+  "id": "A203469",
+  "mentions": [
+    "A000178",
+    "A006963",
+    "A076756",
+    "A093883"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 22:36:09",
+    "offset": 1,
+    "size": 13,
+    "source": "joeis"
+  }
+}

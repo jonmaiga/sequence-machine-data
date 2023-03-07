@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: T(n,k) = (k+1)(k+2)(n+2)(n+3)(6n^2 - 8n*k + 18n + 3k^2 - 11k + 12)/144 for 0<=k<=n.",
+  "id": "A107981",
+  "mentions": [
+    "A002415",
+    "A006542"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:13:55",
+    "offset": 0,
+    "size": 47,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Number of n-step excursions on the 4-dimensional f.c.c. lattice.",
+  "id": "A271432",
+  "mentions": [
+    "A002899",
+    "A271650",
+    "A271651",
+    "A271670",
+    "A271671",
+    "A271672",
+    "A271673",
+    "A271674"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:35",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

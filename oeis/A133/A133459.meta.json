@@ -1,0 +1,21 @@
+{
+  "description": "Sums of two nonzero pentagonal pyramidal numbers.",
+  "id": "A133459",
+  "mentions": [
+    "A002311",
+    "A002411",
+    "A053721",
+    "A172425"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

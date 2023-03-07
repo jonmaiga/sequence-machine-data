@@ -1,0 +1,21 @@
+{
+  "description": "Irregular triangle read by rows: row n gives prime factors of (2^(3^(n+1))+1)/(2^(3^n)+1).",
+  "id": "A136475",
+  "mentions": [
+    "A006521",
+    "A136473",
+    "A136474"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

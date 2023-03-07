@@ -1,0 +1,23 @@
+{
+  "description": "Number of cells turned \"ON\" at n-th stage of A160117.",
+  "id": "A160411",
+  "mentions": [
+    "A008574",
+    "A139251",
+    "A160117",
+    "A160413",
+    "A160415"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 17:14:09",
+    "offset": 1,
+    "size": 49,
+    "source": "joeis"
+  }
+}

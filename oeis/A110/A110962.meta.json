@@ -1,0 +1,27 @@
+{
+  "description": "Fractalization of A025480, zero-based version of Kimberling's paraphrases sequence.",
+  "id": "A110962",
+  "mentions": [
+    "A000265",
+    "A003602",
+    "A025480",
+    "A103391",
+    "A110766",
+    "A110779",
+    "A110812",
+    "A110963"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:02",
+    "offset": 0,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

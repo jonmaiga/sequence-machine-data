@@ -1,0 +1,23 @@
+{
+  "description": "Products of the 4th power of a prime and a distinct prime of power 3 (p^4*q^3).",
+  "id": "A179666",
+  "mentions": [
+    "A007774",
+    "A030638",
+    "A046308",
+    "A085541",
+    "A085964",
+    "A085967"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:02",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

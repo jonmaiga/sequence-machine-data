@@ -1,0 +1,21 @@
+{
+  "description": "a(1) = a(2) = 1; a(n) = n - a(a(n-1)) - a(n-a(n-1)) for n > 2.",
+  "id": "A287422",
+  "mentions": [
+    "A003160",
+    "A004001",
+    "A005206",
+    "A088462",
+    "A189663"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:59",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

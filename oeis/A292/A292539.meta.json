@@ -1,0 +1,21 @@
+{
+  "description": "Primes p1 such that p2 = 2p1 + 1 and p3 = p1*p2 - 2 are also primes, so p1*p2*p3 is a Lucas-Carmichael number of the form k^2 - 1.",
+  "id": "A292539",
+  "mentions": [
+    "A005384",
+    "A006972",
+    "A216925",
+    "A290947",
+    "A292538"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:08",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

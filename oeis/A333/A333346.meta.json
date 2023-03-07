@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of ((11 + sqrt(85))/2)^(1/7).",
+  "id": "A333346",
+  "mentions": [
+    "A333345",
+    "A333347"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:48:20",
+    "offset": 1,
+    "size": 108,
+    "source": "joeis"
+  }
+}

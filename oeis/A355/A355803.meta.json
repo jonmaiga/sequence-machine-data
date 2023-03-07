@@ -1,0 +1,17 @@
+{
+  "description": "Lower twin primes p such that p*(p+2)+p-1, p*(p+2)+p+1 and p*(p+2)+p+3 have at most four distinct prime factors between them.",
+  "id": "A355803",
+  "mentions": [
+    "A001359"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:30",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Numbers which are the area of exactly three Pythagorean triangles.",
+  "id": "A177021",
+  "mentions": [
+    "A009112",
+    "A177063"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:01",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

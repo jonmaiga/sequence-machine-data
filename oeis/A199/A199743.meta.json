@@ -1,0 +1,22 @@
+{
+  "description": "Rounded near-integers (exp(Pi*sqrt(h)) - 744)^(1/3) where h is A003173(n+3) (Heegner numbers of the form 4p-1 where p is prime).",
+  "id": "A199743",
+  "mentions": [
+    "A003173",
+    "A267195",
+    "A305500"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

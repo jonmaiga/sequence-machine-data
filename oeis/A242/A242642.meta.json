@@ -1,0 +1,18 @@
+{
+  "description": "Triangle read by rows: T(s,n) (n>=1, 1 <= s <= n) = number of s-line partitions of n.",
+  "id": "A242642",
+  "mentions": [
+    "A242641"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:59",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

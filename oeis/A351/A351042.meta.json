@@ -1,0 +1,23 @@
+{
+  "description": "Minimal number of steps for a Racetrack car (using von Neumann neighborhood) to go around a circle of radius n.",
+  "id": "A351042",
+  "mentions": [
+    "A027434",
+    "A351041",
+    "A351043",
+    "A351351",
+    "A351352"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

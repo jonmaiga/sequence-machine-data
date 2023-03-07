@@ -1,0 +1,17 @@
+{
+  "description": "Index when the partial tiling described in A275152 is perfect (i.e., all filled squares are contiguous).",
+  "id": "A275157",
+  "mentions": [
+    "A275152"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:40",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

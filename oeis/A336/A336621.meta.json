@@ -1,0 +1,18 @@
+{
+  "description": "Lexicographically earliest sequence of distinct positive terms starting with a(1) = 2 such that the product of the last two digits of the sequence (when extended with a new term) is not in the sequence.",
+  "id": "A336621",
+  "mentions": [
+    "A203565"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

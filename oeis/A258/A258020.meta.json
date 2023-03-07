@@ -1,0 +1,22 @@
+{
+  "description": "Number of steps to reach a fixed point with map x -> floor(tan(x)) when starting the iteration with the initial value x = n.",
+  "id": "A258020",
+  "mentions": [
+    "A000503",
+    "A258021",
+    "A258022",
+    "A258024",
+    "A258201"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:16",
+    "offset": 0,
+    "size": 121,
+    "source": "oeis-bfile"
+  }
+}

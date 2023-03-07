@@ -1,0 +1,22 @@
+{
+  "description": "Array read by antidiagonals: T(n,m) is the number of acyclic edge covers of the complete bipartite graph K_{n,m}.",
+  "id": "A328888",
+  "mentions": [
+    "A072590",
+    "A328887",
+    "A328889",
+    "A328890"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

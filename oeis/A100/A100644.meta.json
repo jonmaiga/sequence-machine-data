@@ -1,0 +1,23 @@
+{
+  "description": "Denominator of Cotesian number C(n,1).",
+  "id": "A100644",
+  "mentions": [
+    "A002176",
+    "A002178",
+    "A100623",
+    "A100624",
+    "A100640",
+    "A100641"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

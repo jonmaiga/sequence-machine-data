@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = log_2((1+A002426(n))/numerator((1+A002426(n))/2^n)).",
+  "id": "A186037",
+  "mentions": [
+    "A002426"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:10",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

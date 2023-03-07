@@ -1,0 +1,23 @@
+{
+  "description": "Powers of 3 repeated four times.",
+  "id": "A111575",
+  "mentions": [
+    "A006072",
+    "A108411",
+    "A111065",
+    "A118594",
+    "A127975"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:02",
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

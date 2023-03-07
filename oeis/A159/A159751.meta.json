@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of (51 + 14*sqrt(2))/47.",
+  "id": "A159751",
+  "mentions": [
+    "A002193",
+    "A118675",
+    "A159750",
+    "A159752"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:41",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

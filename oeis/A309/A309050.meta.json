@@ -1,0 +1,19 @@
+{
+  "description": "Number of (binary) max-heaps on 2n elements from the set {0,1} containing n 0's and n 1's.",
+  "id": "A309050",
+  "mentions": [
+    "A056971",
+    "A309049"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:33",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

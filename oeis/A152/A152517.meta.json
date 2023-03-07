@@ -1,0 +1,19 @@
+{
+  "description": "1/56 of the number of permutations of 7 indistinguishable copies of 1..n with exactly 2 local maxima.",
+  "id": "A152517",
+  "mentions": [
+    "A152494",
+    "A334773"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:35",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "description": "Dirichlet inverse of A345000, where A345000(n) = gcd(A003415(n), A003415(A276086(n))), with A003415 the arithmetic derivative, and A276086 the primorial base exp-function.",
+  "id": "A354347",
+  "mentions": [
+    "A000035",
+    "A003415",
+    "A038838",
+    "A122132",
+    "A276086",
+    "A345000",
+    "A346242",
+    "A353627",
+    "A354348",
+    "A354815",
+    "A354816",
+    "A354823",
+    "A354824"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:29",
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

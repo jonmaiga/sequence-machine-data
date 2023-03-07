@@ -1,0 +1,22 @@
+{
+  "description": "Primes p such that 10^p+3 or 10^p+9 is also prime.",
+  "id": "A359630",
+  "mentions": [
+    "A049054",
+    "A088275"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

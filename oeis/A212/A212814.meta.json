@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = number of integers k >= 7 such that A212813(k) = n.",
+  "id": "A212814",
+  "mentions": [
+    "A000607",
+    "A036288",
+    "A212813",
+    "A212815",
+    "A212816",
+    "A212908",
+    "A212909"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

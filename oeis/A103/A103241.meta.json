@@ -1,0 +1,23 @@
+{
+  "description": "Unreduced numerators of the elements T(n,k)/(n-k)!, read by rows, of the triangular matrix P^-1, which is the inverse of the matrix defined by P(n,k) = (-k^3)^(n-k)/(n-k)! for n >= k >= 1.",
+  "id": "A103241",
+  "mentions": [
+    "A082162",
+    "A082170",
+    "A102098",
+    "A103246"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "The 2-adic valuation of A318649, the numerators of \"Dirichlet Square Root\" of squares.",
+  "id": "A318655",
+  "mentions": [
+    "A000290",
+    "A007814",
+    "A064549",
+    "A318511",
+    "A318649",
+    "A318651",
+    "A318652",
+    "A318654"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:40",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

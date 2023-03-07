@@ -1,0 +1,23 @@
+{
+  "description": "Numbers x such that 1 + Sum_{k=1..n} 2^(2k-1) is not prime for n=1,2,...,x.",
+  "id": "A127958",
+  "mentions": [
+    "A000978",
+    "A000979",
+    "A124400",
+    "A126614",
+    "A127936",
+    "A127955",
+    "A127957"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:15",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

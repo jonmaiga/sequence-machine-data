@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the smallest integer k such that Omega(k) = n and Omega(2*k+1) = n+1 (where Omega is A001222).",
+  "id": "A330089",
+  "mentions": [
+    "A001222",
+    "A001358",
+    "A014612",
+    "A115186"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:59",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

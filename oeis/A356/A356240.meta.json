@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{k=1..n} (k-1)^n * Sum_{j=1..floor(n/k)} j^n.",
+  "id": "A356240",
+  "mentions": [
+    "A356131",
+    "A356238",
+    "A356239",
+    "A356244"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

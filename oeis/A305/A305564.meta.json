@@ -1,0 +1,30 @@
+{
+  "description": "Number of finite sets of relatively prime positive integers with least common multiple n.",
+  "id": "A305564",
+  "mentions": [
+    "A001055",
+    "A071625",
+    "A076078",
+    "A181819",
+    "A275870",
+    "A281116",
+    "A285572",
+    "A285573",
+    "A290103",
+    "A304818",
+    "A305563",
+    "A305565",
+    "A305566",
+    "A305567"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-entry"
+  }
+}

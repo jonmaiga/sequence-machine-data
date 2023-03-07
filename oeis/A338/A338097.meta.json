@@ -1,0 +1,18 @@
+{
+  "description": "Number of ON cells after n generations of cellular automaton based on a hexagonal grid and starting with two adjacent ON cells where an OFF cell is turned ON if exactly two of its six neighbors are ON.",
+  "id": "A338097",
+  "mentions": [
+    "A151731",
+    "A338098"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:10",
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = Sum_{k=0..n} Stirling2(n,k) * binomial(5*k,k) / (4*k + 1).",
+  "id": "A346766",
+  "mentions": [
+    "A002294",
+    "A064856",
+    "A346764",
+    "A346765",
+    "A346767",
+    "A346768",
+    "A346769"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 08:57:30",
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

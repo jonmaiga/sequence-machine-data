@@ -1,0 +1,18 @@
+{
+  "description": "Starting with a(1) = 0, a(2) = 1, a(n) = smallest nonnegative integer that shares all digits with previous terms. No repeated digits are allowed.",
+  "id": "A297062",
+  "mentions": [
+    "A199168"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Secondary Upper Wythoff Sequence.",
+  "id": "A137709",
+  "mentions": [
+    "A001950",
+    "A035513",
+    "A137707",
+    "A137708"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:27",
+    "offset": 1,
+    "size": 60,
+    "source": "joeis"
+  }
+}

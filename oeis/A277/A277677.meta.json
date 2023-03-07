@@ -1,0 +1,18 @@
+{
+  "description": "Each even term \"t\" of the sequence is followed by t odd terms and each even digit \"k\" of the sequence is followed by k odd digits.",
+  "id": "A277677",
+  "mentions": [
+    "A277623"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:43",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

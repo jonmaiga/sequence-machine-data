@@ -1,0 +1,19 @@
+{
+  "description": "Number of distinct fractional parts of the sums 1/j+...+1/k with 1 <= j <= k <= n, where the fractional part of x is given by x - floor(x).",
+  "id": "A261878",
+  "mentions": [
+    "A001008",
+    "A002805",
+    "A261993"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:21",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

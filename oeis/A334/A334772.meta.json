@@ -1,0 +1,26 @@
+{
+  "description": "Array read by antidiagonals: T(n,k) is the number of permutations of k indistinguishable copies of 1..n arranged in a circle with exactly 2 local maxima.",
+  "id": "A334772",
+  "mentions": [
+    "A159716",
+    "A159722",
+    "A159728",
+    "A159734",
+    "A159737",
+    "A334773",
+    "A334774",
+    "A334778"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:06",
+    "offset": 2,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

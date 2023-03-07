@@ -1,0 +1,29 @@
+{
+  "description": "Numbers n such that 11n is a partition number.",
+  "id": "A225323",
+  "mentions": [
+    "A000041",
+    "A027827",
+    "A213179",
+    "A213365",
+    "A216258",
+    "A217725",
+    "A217726",
+    "A222175",
+    "A222178",
+    "A222179",
+    "A225317",
+    "A225361"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

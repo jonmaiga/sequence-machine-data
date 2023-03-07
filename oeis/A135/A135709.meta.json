@@ -1,0 +1,19 @@
+{
+  "description": "Not the sum of three distinct nonzero Fibonacci numbers.",
+  "id": "A135709",
+  "mentions": [
+    "A111458",
+    "A135558",
+    "A179244"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:23",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

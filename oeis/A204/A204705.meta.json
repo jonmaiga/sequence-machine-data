@@ -1,0 +1,18 @@
+{
+  "description": "T(n,k) = Number of n X k 0..2 arrays with no occurrence of three equal elements in a row horizontally, vertically or nw-to-se diagonally, and new values 0..2 introduced in row major order.",
+  "id": "A204705",
+  "mentions": [
+    "A021006"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:25",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

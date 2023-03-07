@@ -1,0 +1,21 @@
+{
+  "description": "Semiprimes neighboring a 3-smooth number.",
+  "id": "A219556",
+  "mentions": [
+    "A000040",
+    "A001358",
+    "A003586",
+    "A219528"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

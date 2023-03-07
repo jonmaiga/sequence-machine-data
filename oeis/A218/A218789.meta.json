@@ -1,0 +1,23 @@
+{
+  "description": "Partial sums of A218618.",
+  "id": "A218789",
+  "mentions": [
+    "A179016",
+    "A218542",
+    "A218543",
+    "A218603",
+    "A218604",
+    "A218618"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "look",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:36",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

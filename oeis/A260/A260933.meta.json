@@ -1,0 +1,21 @@
+{
+  "description": "Lexicographically smallest permutation of the natural numbers, such that a(n)+n and a(n)+n+1 are both composite numbers.",
+  "id": "A260933",
+  "mentions": [
+    "A002808",
+    "A010051",
+    "A136798",
+    "A260822",
+    "A260936"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:19",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

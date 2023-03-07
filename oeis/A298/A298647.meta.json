@@ -1,0 +1,20 @@
+{
+  "description": "Number of Dyck paths of semilength n having maximal degree of asymmetry, namely n-1 for n>2 and 0 otherwise.",
+  "id": "A298647",
+  "mentions": [
+    "A298645",
+    "A298646",
+    "A341445"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:21",
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

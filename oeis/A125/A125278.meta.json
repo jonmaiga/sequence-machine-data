@@ -1,0 +1,21 @@
+{
+  "description": "Convolution triangle of A030266, which shifts left under self-COMPOSE.",
+  "id": "A125278",
+  "mentions": [
+    "A030266",
+    "A125279",
+    "A125280"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

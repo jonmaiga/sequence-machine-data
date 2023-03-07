@@ -1,0 +1,19 @@
+{
+  "description": "Integers that are the product of two factorials A000142.",
+  "id": "A349424",
+  "mentions": [
+    "A000142",
+    "A001013",
+    "A098361"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

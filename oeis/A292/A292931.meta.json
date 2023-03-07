@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that the sum of digits of 3^n (A004166) is divisible by 7.",
+  "id": "A292931",
+  "mentions": [
+    "A004166"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:08",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

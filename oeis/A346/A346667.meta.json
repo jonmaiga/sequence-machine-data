@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = Sum_{k=0..n} (-1)^(n-k) * binomial(n,k) * binomial(7*k,k) / (6*k + 1).",
+  "id": "A346667",
+  "mentions": [
+    "A002296",
+    "A005043",
+    "A346628",
+    "A346649",
+    "A346664",
+    "A346665",
+    "A346666",
+    "A346668"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:20",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

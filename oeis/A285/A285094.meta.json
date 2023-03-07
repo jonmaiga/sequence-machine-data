@@ -1,0 +1,28 @@
+{
+  "description": "Corresponding values of geometric means of digits of numbers from A061430.",
+  "id": "A285094",
+  "mentions": [
+    "A002275",
+    "A002279",
+    "A002281",
+    "A002282",
+    "A002283",
+    "A011540",
+    "A061426",
+    "A061427",
+    "A061428",
+    "A061429",
+    "A061430"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:56",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

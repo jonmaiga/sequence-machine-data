@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of sqrt(agm(1, 1 - 8*x)) in powers of x.",
+  "id": "A300100",
+  "mentions": [
+    "A001620",
+    "A060691",
+    "A089603"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:24",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = 1 if n is either a multiple of 4, or an odd multiple of 3, otherwise 0.",
+  "id": "A359379",
+  "mentions": [
+    "A079979",
+    "A121262",
+    "A359374",
+    "A359375",
+    "A359376"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:33",
+    "offset": 0,
+    "size": 121,
+    "source": "oeis-bfile"
+  }
+}

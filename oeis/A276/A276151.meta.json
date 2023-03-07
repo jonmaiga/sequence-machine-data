@@ -1,0 +1,25 @@
+{
+  "description": "n minus the greatest primorial number (A002110) which divides n: a(n) = n - A053589(n).",
+  "id": "A276151",
+  "mentions": [
+    "A002110",
+    "A032742",
+    "A049345",
+    "A053589",
+    "A111701",
+    "A276084",
+    "A276085",
+    "A276086"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:41",
+    "offset": 1,
+    "size": 93,
+    "source": "oeis-bfile"
+  }
+}

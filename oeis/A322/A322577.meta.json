@@ -1,0 +1,31 @@
+{
+  "description": "a(n) = Sum_{d|n} psi(n/d) * phi(d).",
+  "id": "A322577",
+  "mentions": [
+    "A000010",
+    "A001615",
+    "A001620",
+    "A008966",
+    "A018804",
+    "A038040",
+    "A261506",
+    "A271102",
+    "A327251",
+    "A347092",
+    "A347093",
+    "A347135"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:45",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Triangle read by rows: T(n,k) = 2^(n*k), n >= 0, 0 <= k <= n.",
+  "id": "A344110",
+  "mentions": [
+    "A000079",
+    "A008292",
+    "A022166",
+    "A031971",
+    "A089072",
+    "A117401",
+    "A288853",
+    "A344260"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:17",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

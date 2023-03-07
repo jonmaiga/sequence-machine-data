@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the smallest number greater than a(n-1) such that in a(1) through a(n) no digit occurs more than once more than any other digit, starting with a(1) = 1.",
+  "id": "A248651",
+  "mentions": [
+    "A095204",
+    "A120125"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:05",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

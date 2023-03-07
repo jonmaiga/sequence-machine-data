@@ -1,0 +1,37 @@
+{
+  "description": "Square array read by antidiagonals: form the Euler-Seidel matrix for the sequence {k!} and then divide column k by k!.",
+  "id": "A143409",
+  "mentions": [
+    "A000166",
+    "A000522",
+    "A001339",
+    "A001517",
+    "A003470",
+    "A008288",
+    "A028387",
+    "A076571",
+    "A082030",
+    "A086764",
+    "A095000",
+    "A095177",
+    "A108625",
+    "A143007",
+    "A143410",
+    "A143411",
+    "A143413",
+    "A273596"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:32",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

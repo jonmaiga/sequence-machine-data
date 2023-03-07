@@ -1,0 +1,22 @@
+{
+  "description": "Number of partitions of n into two or more distinct triangular numbers.",
+  "id": "A348528",
+  "mentions": [
+    "A000217",
+    "A010054",
+    "A024940",
+    "A033985",
+    "A348526",
+    "A348529"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

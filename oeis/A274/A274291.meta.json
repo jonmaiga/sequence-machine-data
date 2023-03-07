@@ -1,0 +1,18 @@
+{
+  "description": "The width of the lattice of Dyck paths of length 2n ordered by the relation that one Dyck path lies above another one.",
+  "id": "A274291",
+  "mentions": [
+    "A138158",
+    "A227543"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:39",
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

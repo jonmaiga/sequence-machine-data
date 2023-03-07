@@ -1,0 +1,32 @@
+{
+  "description": "Numbers whose binary expansion is aperiodic.",
+  "id": "A328594",
+  "mentions": [
+    "A000120",
+    "A000740",
+    "A000939",
+    "A007916",
+    "A014081",
+    "A027375",
+    "A065609",
+    "A066099",
+    "A069010",
+    "A085971",
+    "A121016",
+    "A275692",
+    "A323867",
+    "A328595",
+    "A328596",
+    "A334030"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

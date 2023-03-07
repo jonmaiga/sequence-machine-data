@@ -1,0 +1,24 @@
+{
+  "description": "Number of values of k such that prime(n) divides A241601(k).",
+  "id": "A250214",
+  "mentions": [
+    "A000928",
+    "A091887",
+    "A091888",
+    "A120337",
+    "A128197",
+    "A241601",
+    "A250213",
+    "A250216"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-entry"
+  }
+}

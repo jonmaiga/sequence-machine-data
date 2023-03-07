@@ -1,0 +1,24 @@
+{
+  "description": "Semiprimes in A006987(n), or semiprime binomial coefficients: C(n,k), 2 <= k <= n-2.",
+  "id": "A124000",
+  "mentions": [
+    "A000217",
+    "A001358",
+    "A005382",
+    "A005384",
+    "A006987",
+    "A068443",
+    "A095147"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:12",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = [x^n] G_{n+1}(x) where G_n(x) = F(x*G_n(x)^n) and F(x) = g.f. of A185072 such that [x^n] G_n(x) = 0.",
+  "id": "A185082",
+  "mentions": [
+    "A185072"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

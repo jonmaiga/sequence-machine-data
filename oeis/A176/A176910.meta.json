@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of sqrt(145).",
+  "id": "A176910",
+  "mentions": [
+    "A002163",
+    "A010484",
+    "A010863",
+    "A176907",
+    "A176908"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:43:47",
+    "offset": 2,
+    "size": 105,
+    "source": "joeis"
+  }
+}

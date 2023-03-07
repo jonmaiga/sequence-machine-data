@@ -1,0 +1,20 @@
+{
+  "description": "Number of legal Go positions on a 1 X n board (for which 3^n is a trivial upper bound).",
+  "id": "A102620",
+  "mentions": [
+    "A030236",
+    "A094777",
+    "A098182"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:33:47",
+    "offset": 1,
+    "size": 35,
+    "source": "joeis"
+  }
+}

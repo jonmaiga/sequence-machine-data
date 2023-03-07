@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the record setting number of distinct prime factors in the product of the composite numbers between p = A354219(n) and the next prime after p.",
+  "id": "A354220",
+  "mentions": [
+    "A001221",
+    "A076978",
+    "A354219"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that k^2 + 2 is a palindrome.",
+  "id": "A358207",
+  "mentions": [
+    "A002778",
+    "A027719",
+    "A059100",
+    "A070253",
+    "A358237"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

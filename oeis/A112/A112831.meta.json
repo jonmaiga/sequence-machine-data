@@ -1,0 +1,19 @@
+{
+  "description": "Number of non-intersecting cycle systems in a particular directed graph.",
+  "id": "A112831",
+  "mentions": [
+    "A112832"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 00:00:40",
+    "offset": 0,
+    "size": 23,
+    "source": "joeis"
+  }
+}

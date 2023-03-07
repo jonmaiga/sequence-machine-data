@@ -1,0 +1,30 @@
+{
+  "description": "Number of ways to write n as an ordered sum of 10 nonzero tetrahedral numbers.",
+  "id": "A341809",
+  "mentions": [
+    "A000292",
+    "A023533",
+    "A023670",
+    "A282582",
+    "A340955",
+    "A341793",
+    "A341794",
+    "A341795",
+    "A341796",
+    "A341797",
+    "A341806",
+    "A341807",
+    "A341808"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:14",
+    "offset": 10,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

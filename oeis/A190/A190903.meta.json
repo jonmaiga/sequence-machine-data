@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = Product_{k in M_n} k, M_n = {k | 1 <= k <= 3n and k mod 3 = n mod 3}.",
+  "id": "A190903",
+  "mentions": [
+    "A006566",
+    "A007559",
+    "A008544",
+    "A032031",
+    "A112333",
+    "A136214",
+    "A190901"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

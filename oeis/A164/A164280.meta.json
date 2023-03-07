@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the sum of the first A129749(n) nonprimes.",
+  "id": "A164280",
+  "mentions": [
+    "A018252",
+    "A050247",
+    "A129749",
+    "A160758"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

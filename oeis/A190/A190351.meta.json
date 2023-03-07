@@ -1,0 +1,18 @@
+{
+  "description": "Define a series of lists by L_1 = [1], L_{k+1} = [i+1, i^2+i+1 : i in L_k]; then a(n) = denominator of Sum (1/i : i in L_n).",
+  "id": "A190351",
+  "mentions": [
+    "A190350"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Primes of the form k^2 + prime(k).",
+  "id": "A184935",
+  "mentions": [
+    "A000040",
+    "A000290",
+    "A004232",
+    "A064711"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:23:05",
+    "offset": 1,
+    "size": 38,
+    "source": "joeis"
+  }
+}

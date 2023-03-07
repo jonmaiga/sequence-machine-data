@@ -1,0 +1,23 @@
+{
+  "description": "Number of cyclotomic cosets of n mod 10.",
+  "id": "A220468",
+  "mentions": [
+    "A173635",
+    "A220022",
+    "A220026"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 19:10:47",
+    "offset": 0,
+    "size": 90,
+    "source": "joeis"
+  }
+}

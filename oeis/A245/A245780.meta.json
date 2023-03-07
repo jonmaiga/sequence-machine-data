@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of (1-C_2)/e, a constant connected with two-sided generalized Fibonacci sequences, where C_2 is the Euler-Gompertz constant.",
+  "id": "A245780",
+  "mentions": [
+    "A073003",
+    "A099285"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-entry"
+  }
+}

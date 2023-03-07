@@ -1,0 +1,21 @@
+{
+  "description": "Triangle T(n, k, m) = (m+1)^n*binomial(n,k)*f(n,m)*f(k,n-m)/n!, with T(n, 0, m) = 1, where f(n, k) = Product_{j=1..n} ( (1 - (k+1)^J)/(-k)^j ), f(n, 0) = n!, and m = 0, read by rows.",
+  "id": "A157284",
+  "mentions": [
+    "A157285"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "less",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:39",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

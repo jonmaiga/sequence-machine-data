@@ -1,0 +1,20 @@
+{
+  "description": "Beatty sequence for (Cc/(Cc-1)) with Cc = 1.234567891011121314... = 10*(Champernowne constant).",
+  "id": "A115181",
+  "mentions": [
+    "A033307",
+    "A115180",
+    "A115182"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

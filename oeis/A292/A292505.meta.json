@@ -1,0 +1,23 @@
+{
+  "description": "Number of complete orderless tree-factorizations of n >= 2.",
+  "id": "A292505",
+  "mentions": [
+    "A000311",
+    "A000669",
+    "A001055",
+    "A050336",
+    "A281119",
+    "A292504"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:08",
+    "offset": 2,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

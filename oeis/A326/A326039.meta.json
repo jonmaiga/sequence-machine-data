@@ -1,0 +1,21 @@
+{
+  "description": "Largest square dividing the sum of divisors of n: a(n) = A008833(sigma(n)).",
+  "id": "A326039",
+  "mentions": [
+    "A000203",
+    "A008833",
+    "A326038",
+    "A326040"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:52",
+    "offset": 1,
+    "size": 96,
+    "source": "oeis-bfile"
+  }
+}

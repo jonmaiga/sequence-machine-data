@@ -1,0 +1,23 @@
+{
+  "description": "For n odd a(n) = a(n-2) + a(n-3), for n even a(n) = a(n-2) + a(n-5); with a(1) = 0, a(2) = 1.",
+  "id": "A174618",
+  "mentions": [
+    "A000045",
+    "A005252",
+    "A010892",
+    "A024490",
+    "A103609"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:58",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

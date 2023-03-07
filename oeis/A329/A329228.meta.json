@@ -1,0 +1,24 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of digraphs on n unlabeled vertices such that every vertex has outdegree k, n >= 1, 0 <= k < n.",
+  "id": "A329228",
+  "mentions": [
+    "A000012",
+    "A001373",
+    "A129524",
+    "A185193",
+    "A185194",
+    "A185303",
+    "A329234"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

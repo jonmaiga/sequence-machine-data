@@ -1,0 +1,22 @@
+{
+  "description": "Modified eccentric connectivity index of the cycle graph with n vertices, C[n].",
+  "id": "A242371",
+  "mentions": [
+    "A093353",
+    "A168273",
+    "A206490",
+    "A238410",
+    "A238411"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:11:31",
+    "offset": 3,
+    "size": 47,
+    "source": "joeis"
+  }
+}

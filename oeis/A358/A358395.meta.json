@@ -1,0 +1,22 @@
+{
+  "description": "Odd numbers k such that sigma(k) + sigma(k+2) > 2*sigma(k+1); odd terms in A053228.",
+  "id": "A358395",
+  "mentions": [
+    "A000203",
+    "A053223",
+    "A053228",
+    "A358396",
+    "A358412",
+    "A358413"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:32",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

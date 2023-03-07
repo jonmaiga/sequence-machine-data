@@ -1,0 +1,24 @@
+{
+  "description": "Number of essentially different seating arrangements for n couples around a circular table with 2n seats avoiding spouses being neighbors and avoiding clusters of 3 persons with equal gender.",
+  "id": "A114939",
+  "mentions": [
+    "A114938",
+    "A137729",
+    "A137730",
+    "A137737",
+    "A137749",
+    "A258338"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

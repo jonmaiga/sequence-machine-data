@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k for which there is an even number of prime factors (when counted with multiplicity) in k*sigma(k), where sigma is the sum of divisors function.",
+  "id": "A359167",
+  "mentions": [
+    "A000203",
+    "A001222",
+    "A058063",
+    "A359166",
+    "A359168"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

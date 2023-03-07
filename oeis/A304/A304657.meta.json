@@ -1,0 +1,21 @@
+{
+  "description": "Number of ways to represent n/100 years in Shinigami time.",
+  "id": "A304657",
+  "mentions": [
+    "A001055",
+    "A027746",
+    "A034776",
+    "A047726"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "dumb",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

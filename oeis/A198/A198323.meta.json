@@ -1,0 +1,18 @@
+{
+  "description": "Matula-Goebel number of rooted trees that have only vertices of degree 1 and of maximal degree.",
+  "id": "A198323",
+  "mentions": [
+    "A182907"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Triangle read by rows: partial column sums of the triangle of natural numbers (written sequentially by rows).",
+  "id": "A178238",
+  "mentions": [
+    "A000012",
+    "A000027",
+    "A000217",
+    "A002817",
+    "A004006",
+    "A255211"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:01",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

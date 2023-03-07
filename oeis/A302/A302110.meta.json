@@ -1,0 +1,23 @@
+{
+  "description": "Let d be the list of A000005(n) = tau(n) divisors of n. Then a(n) is the largest k such that Sum_{i=1..#d-k} d_i > n.",
+  "id": "A302110",
+  "mentions": [
+    "A000005",
+    "A023196",
+    "A125746",
+    "A125747",
+    "A300826"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:26",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

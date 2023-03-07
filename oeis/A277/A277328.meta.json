@@ -1,0 +1,23 @@
+{
+  "description": "Number of primes (counted with multiplicity) dividing gcd(A260443(n), A260443(n+1)): a(n) = A001222(A277198(n)).",
+  "id": "A277328",
+  "mentions": [
+    "A001222",
+    "A125184",
+    "A260443",
+    "A277198",
+    "A277327"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "a(0)=0; if a(n-1) is odd, a(n) = n + a(n-1), otherwise a(n) = n - a(n-1).",
+  "id": "A226940",
+  "mentions": [
+    "A002939",
+    "A054554",
+    "A054569",
+    "A068377",
+    "A081348"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:03:17",
+    "offset": 0,
+    "size": 55,
+    "source": "joeis"
+  }
+}

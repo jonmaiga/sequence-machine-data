@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that nonprime(k) divides k^2.",
+  "id": "A226011",
+  "mentions": [
+    "A018252"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

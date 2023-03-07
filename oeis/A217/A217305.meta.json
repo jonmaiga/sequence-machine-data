@@ -1,0 +1,34 @@
+{
+  "description": "Minimal natural number (in decimal representation) with n prime substrings in base-5 representation (substrings with leading zeros are considered to be nonprime).",
+  "id": "A217305",
+  "mentions": [
+    "A019546",
+    "A035232",
+    "A035244",
+    "A039996",
+    "A046034",
+    "A069489",
+    "A079397",
+    "A085823",
+    "A211681",
+    "A211682",
+    "A211684",
+    "A211685",
+    "A213300",
+    "A213321",
+    "A217302",
+    "A217309"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:35",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

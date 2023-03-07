@@ -1,0 +1,22 @@
+{
+  "description": "Zeroless composite numbers which become and remain prime under a complete cyclic shift of digits.",
+  "id": "A305885",
+  "mentions": [
+    "A011540",
+    "A052382",
+    "A068653",
+    "A270083"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:30",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

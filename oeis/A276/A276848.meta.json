@@ -1,0 +1,25 @@
+{
+  "description": "For a lesser p of twin primes, let B_(p+2) and B_p be sequences defined as A159559, but with initial terms p+2 and p respectively. The sequence lists p for which all differences B_(p+2)(n)-B_p(n)<=6.",
+  "id": "A276848",
+  "mentions": [
+    "A001359",
+    "A022009",
+    "A159559",
+    "A229019",
+    "A276676",
+    "A276703",
+    "A276767",
+    "A276826",
+    "A276831"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

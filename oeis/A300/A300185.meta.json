@@ -1,0 +1,26 @@
+{
+  "description": "Irregular triangle read by rows: T(n, {j,k}) is the number of partitions of n that have exactly j parts equal to k; 1 <= j <= n, 1 <= k <= n.",
+  "id": "A300185",
+  "mentions": [
+    "A000041",
+    "A000070",
+    "A002865",
+    "A008615",
+    "A010766",
+    "A027293",
+    "A027336",
+    "A058884",
+    "A116598"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:24",
+    "offset": 1,
+    "size": 114,
+    "source": "oeis-bfile"
+  }
+}

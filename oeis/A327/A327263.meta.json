@@ -1,0 +1,30 @@
+{
+  "description": "Array T(n,k) in which the i-th row consists of numbers > 1 not in array U(i;n,k) = (i*n*k - (i-2)*A319929(n,k))/2 where i >= 1, n >= 1 and k >= 1, read by antidiagonals.",
+  "id": "A327263",
+  "mentions": [
+    "A000040",
+    "A003991",
+    "A076274",
+    "A112774",
+    "A307002",
+    "A319929",
+    "A322630",
+    "A322744",
+    "A327259",
+    "A327261",
+    "A345474",
+    "A354596"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "a(n) is the number of simple linear diagrams with n+1 chords.",
+  "id": "A278991",
+  "mentions": [
+    "A003436",
+    "A003437",
+    "A007474",
+    "A278990",
+    "A278992",
+    "A278993",
+    "A278994"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:46",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

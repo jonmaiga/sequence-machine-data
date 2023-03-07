@@ -1,0 +1,19 @@
+{
+  "description": "Number of odd divisors minus number of even divisors of the n-th composite.",
+  "id": "A329393",
+  "mentions": [
+    "A002808",
+    "A016825",
+    "A048272"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

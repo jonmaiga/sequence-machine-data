@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = A123610(2*n+2,n).",
+  "id": "A123618",
+  "mentions": [
+    "A000891",
+    "A123610",
+    "A123617",
+    "A123619"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:12",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

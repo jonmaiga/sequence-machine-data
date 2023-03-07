@@ -1,0 +1,22 @@
+{
+  "description": "Odd composite integers m such that A006497(2*m-J(m,13)) == 3*J(m,13) (mod m), where J(m,13) is the Jacobi symbol.",
+  "id": "A339518",
+  "mentions": [
+    "A006497",
+    "A071904",
+    "A339126",
+    "A339517",
+    "A339519",
+    "A339520"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:24",
+    "offset": 1,
+    "size": 43,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Smallest number k >= A000043(n) such that k*A000668(n)*(k*A000668(n)+1)-1 is prime.",
+  "id": "A249509",
+  "mentions": [
+    "A000043",
+    "A000668",
+    "A137908",
+    "A137909"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

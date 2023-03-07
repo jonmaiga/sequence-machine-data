@@ -1,0 +1,24 @@
+{
+  "description": "Numbers not larger than any rotation of their digits.",
+  "id": "A239016",
+  "mentions": [
+    "A009994",
+    "A072544",
+    "A102659",
+    "A102660",
+    "A210584",
+    "A210585",
+    "A213969"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

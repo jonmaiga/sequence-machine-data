@@ -1,0 +1,23 @@
+{
+  "description": "Values of x in the solutions to x^2 - 8*x*y + y^2 + 11 = 0, where 0 < x < y.",
+  "id": "A237262",
+  "mentions": [
+    "A001091",
+    "A070997",
+    "A199336",
+    "A281584",
+    "A322780"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:54",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = lcm({n! * binomial(n, k) for k = 0..n}).",
+  "id": "A360283",
+  "mentions": [
+    "A002397",
+    "A003418",
+    "A005722",
+    "A021012",
+    "A196347"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

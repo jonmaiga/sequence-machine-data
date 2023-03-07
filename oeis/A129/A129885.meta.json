@@ -1,0 +1,22 @@
+{
+  "description": "Sequence a_{t_n} arising in enumeration of arrays of directed blocks (see Quaintance reference for precise definition), where a_n = A129878, t_n = A129875.",
+  "id": "A129885",
+  "mentions": [
+    "A129872",
+    "A129875",
+    "A129878",
+    "A129886"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

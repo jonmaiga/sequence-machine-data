@@ -1,0 +1,20 @@
+{
+  "description": "Number of pointed groups of order n: that is, Sum_{G = group of order n} Number of conjugacy classes in G.",
+  "id": "A126102",
+  "mentions": [
+    "A000001",
+    "A000055",
+    "A000081",
+    "A126103"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:14",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

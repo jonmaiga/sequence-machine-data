@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of (x + x^2 + x^6 - x^7)/(1 - x^2 + x^4 - x^6 + x^8) in powers of x.",
+  "id": "A332828",
+  "mentions": [
+    "A006720",
+    "A099443"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:59:11",
+    "offset": 0,
+    "size": 77,
+    "source": "joeis"
+  }
+}

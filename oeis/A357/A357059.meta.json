@@ -1,0 +1,39 @@
+{
+  "description": "Decimal expansion of sum of squares of reciprocals of primes whose distance to the next prime is equal to 4, Sum_{j>=1} 1/A029710(j)^2.",
+  "id": "A357059",
+  "mentions": [
+    "A006512",
+    "A023200",
+    "A029710",
+    "A046132",
+    "A065421",
+    "A077800",
+    "A078437",
+    "A085548",
+    "A096247",
+    "A160910",
+    "A194098",
+    "A209328",
+    "A209329",
+    "A242301",
+    "A242302",
+    "A242303",
+    "A242304",
+    "A306539",
+    "A342714",
+    "A356793"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "cons",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Determinant of n X n matrix whose main diagonal consists of the first n 7-gonal numbers and all other elements are 1's.",
+  "id": "A302911",
+  "mentions": [
+    "A000142",
+    "A000566",
+    "A010791",
+    "A067550",
+    "A302909",
+    "A302910",
+    "A302912",
+    "A302913",
+    "A302914"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:49:47",
+    "offset": 1,
+    "size": 15,
+    "source": "joeis"
+  }
+}

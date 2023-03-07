@@ -1,0 +1,21 @@
+{
+  "description": "Square numbers that can be expressed as sums of a positive square number and a positive triangular number.",
+  "id": "A214937",
+  "mentions": [
+    "A000217",
+    "A000290",
+    "A001110",
+    "A005408",
+    "A182427"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:32",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

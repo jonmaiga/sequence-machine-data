@@ -1,0 +1,33 @@
+{
+  "description": "Array read by ascending antidiagonals: the s-th column gives the central s-binomial coefficients.",
+  "id": "A349933",
+  "mentions": [
+    "A000984",
+    "A005721",
+    "A007318",
+    "A008287",
+    "A025012",
+    "A027907",
+    "A035343",
+    "A063260",
+    "A063419",
+    "A082758",
+    "A270918",
+    "A349934",
+    "A349935",
+    "A349936"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

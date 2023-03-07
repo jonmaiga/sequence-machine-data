@@ -1,0 +1,20 @@
+{
+  "description": "Square array T(n,k), n >= 1, k >= 1, read by antidiagonals, where T(n,k) is the number of spanning trees of odd Aztec rectangle of order (n, k).",
+  "id": "A340425",
+  "mentions": [
+    "A340352",
+    "A340427"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

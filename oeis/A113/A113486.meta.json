@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = A113166(n) - Fibonacci(n-1), where Fibonacci(n) = A000045(n).",
+  "id": "A113486",
+  "mentions": [
+    "A000045",
+    "A113166"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:04",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

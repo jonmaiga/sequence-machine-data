@@ -1,0 +1,18 @@
+{
+  "description": "Number of (n+1)X(4+1) 0..2 arrays with every 2X2 subblock having the sum of the squares of all six edge and diagonal differences equal to 11",
+  "id": "A233879",
+  "mentions": [
+    "A233883"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:51",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

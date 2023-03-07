@@ -1,0 +1,21 @@
+{
+  "description": "Numerators of coefficients in series expansion of Cl_2(x)+x*log(x), where Cl_2 is the Clausen function of order 2.",
+  "id": "A249699",
+  "mentions": [
+    "A027641",
+    "A027642",
+    "A249700"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = |{0 < k < n-2: p = phi(k) + phi(n-k)/2 + 1, prime(p) - p - 1 and prime(p) - p + 1 are all prime}|, where phi(.) is Euler's totient function.",
+  "id": "A236097",
+  "mentions": [
+    "A000010",
+    "A000040",
+    "A001359",
+    "A006512",
+    "A014574",
+    "A234694",
+    "A234695",
+    "A235924",
+    "A236074",
+    "A236119"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:53",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

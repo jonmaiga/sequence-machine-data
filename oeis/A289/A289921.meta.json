@@ -1,0 +1,21 @@
+{
+  "description": "Coefficients of 1/([1+r] - [1+2r]x + [1+3r]x^2 - ...), where [ ] = floor and r = 9/10.",
+  "id": "A289921",
+  "mentions": [
+    "A078140",
+    "A289922",
+    "A289923"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:04",
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

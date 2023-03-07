@@ -1,0 +1,21 @@
+{
+  "description": "Smallest odious number k (member of A000069) such that k*n is also odious.",
+  "id": "A351835",
+  "mentions": [
+    "A000069",
+    "A001969",
+    "A178757",
+    "A351836"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

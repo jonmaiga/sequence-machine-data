@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows giving certain self-avoiding walk data for the triangular lattice.",
+  "id": "A260017",
+  "mentions": [
+    "A001334",
+    "A007200",
+    "A007201"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

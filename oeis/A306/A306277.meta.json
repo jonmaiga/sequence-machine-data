@@ -1,0 +1,25 @@
+{
+  "description": "Numbers congruent to 1 or 8 mod 10.",
+  "id": "A306277",
+  "mentions": [
+    "A000034",
+    "A007310",
+    "A017281",
+    "A017365",
+    "A020639",
+    "A273669"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:24:59",
+    "offset": 1,
+    "size": 65,
+    "source": "joeis"
+  }
+}

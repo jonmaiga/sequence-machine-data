@@ -1,0 +1,18 @@
+{
+  "description": "Numbers m such that m^2 = i^2 + 2*j^2 + k^2 and i^2 + j^2 and j^2 + k^2 are square numbers and i, j, k > 0.",
+  "id": "A338890",
+  "mentions": [
+    "A009003",
+    "A338892"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:11",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

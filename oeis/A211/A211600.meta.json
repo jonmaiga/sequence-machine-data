@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = (binomial(p^n, p^(n-1)) - binomial(p^(n-1), p^(n-2))) / p^(3n-3) for p = 2.",
+  "id": "A211600",
+  "mentions": [
+    "A037293",
+    "A211601",
+    "A211602"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 3,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

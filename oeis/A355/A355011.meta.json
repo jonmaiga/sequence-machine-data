@@ -1,0 +1,24 @@
+{
+  "description": "Array read by ascending antidiagonals: T(n, k) is the number of self-conjugate n-core partitions with k corners.",
+  "id": "A355011",
+  "mentions": [
+    "A000012",
+    "A001651",
+    "A004526",
+    "A008794",
+    "A247643",
+    "A355010"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 2,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

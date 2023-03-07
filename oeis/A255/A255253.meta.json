@@ -1,0 +1,22 @@
+{
+  "description": "Complete list of siteswaps (indecomposable ground-state in concatenated decimal notation organized first by sum of digits and then by magnitude).",
+  "id": "A255253",
+  "mentions": [
+    "A065178",
+    "A065180",
+    "A084509"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "fini",
+    "full",
+    "hear",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

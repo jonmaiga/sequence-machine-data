@@ -1,0 +1,19 @@
+{
+  "description": "E.g.f. A(x) = G(x)/x where G(x) is the e.g.f. of A179493.",
+  "id": "A179494",
+  "mentions": [
+    "A179421",
+    "A179493"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

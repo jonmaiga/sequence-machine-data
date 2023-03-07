@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the smallest number having n smaller numbers with the same number of divisors.",
+  "id": "A338483",
+  "mentions": [
+    "A000005",
+    "A007422",
+    "A030513",
+    "A047983"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:10",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

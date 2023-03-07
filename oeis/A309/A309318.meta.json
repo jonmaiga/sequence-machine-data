@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of polygons whose vertices are the (2*n+1)-th roots of unity and whose 2*n+1 sides all have distinct slopes.",
+  "id": "A309318",
+  "mentions": [
+    "A001710",
+    "A329910"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

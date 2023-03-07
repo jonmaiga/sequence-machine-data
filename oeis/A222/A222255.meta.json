@@ -1,0 +1,21 @@
+{
+  "description": "Primes of the form n!/n# + 1, where n#=A034386(n) (primorial), listed with repetition.",
+  "id": "A222255",
+  "mentions": [
+    "A000142",
+    "A034386",
+    "A049614",
+    "A140294"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

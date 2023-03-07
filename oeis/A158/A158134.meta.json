@@ -1,0 +1,19 @@
+{
+  "description": "Fourth quadrisection of A157261.",
+  "id": "A158134",
+  "mentions": [
+    "A157261"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-entry"
+  }
+}

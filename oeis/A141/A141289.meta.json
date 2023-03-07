@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows, n-th row = (n-2)-th row appended to the beginning of (n-1)-th row, + n.",
+  "id": "A141289",
+  "mentions": [
+    "A000071",
+    "A001924"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-entry"
+  }
+}

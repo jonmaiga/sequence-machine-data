@@ -1,0 +1,26 @@
+{
+  "description": "Decimal expansion of a constant related to A206226.",
+  "id": "A258268",
+  "mentions": [
+    "A107379",
+    "A173519",
+    "A206226",
+    "A206227",
+    "A206240",
+    "A238016",
+    "A258234",
+    "A258789"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

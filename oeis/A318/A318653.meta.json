@@ -1,0 +1,25 @@
+{
+  "description": "Numerators of the sequence whose Dirichlet convolution with itself yields A007947, the squarefree kernel of n.",
+  "id": "A318653",
+  "mentions": [
+    "A007947",
+    "A299150",
+    "A317935",
+    "A318511",
+    "A318512",
+    "A318649"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "frac",
+    "mult",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:40",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

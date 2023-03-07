@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that triangular(n)+1 is a prime power (A025475).",
+  "id": "A226103",
+  "mentions": [
+    "A000217",
+    "A025475",
+    "A226102"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

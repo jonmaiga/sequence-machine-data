@@ -1,0 +1,28 @@
+{
+  "description": "Number of partitions of n containing a clique of size 6.",
+  "id": "A183563",
+  "mentions": [
+    "A000041",
+    "A183558",
+    "A183559",
+    "A183560",
+    "A183561",
+    "A183562",
+    "A183564",
+    "A183565",
+    "A183566",
+    "A183567",
+    "A183568"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:47",
+    "offset": 6,
+    "size": 47,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of 2*(14*sigma+5)/625 where sigma = sqrt(5)*log(golden ratio).",
+  "id": "A157701",
+  "mentions": [
+    "A002163",
+    "A002390",
+    "A145433",
+    "A145434"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 14:52:20",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

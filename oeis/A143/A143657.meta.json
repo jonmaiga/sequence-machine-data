@@ -1,0 +1,18 @@
+{
+  "description": "Number of 4-noncrossing stack-free partial matching without 1-arcs.",
+  "id": "A143657",
+  "mentions": [
+    "A132441"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

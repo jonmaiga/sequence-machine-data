@@ -1,0 +1,20 @@
+{
+  "description": "Numbers m containing in decimal representation at least one zero and having no common digit in m and 2*m.",
+  "id": "A192825",
+  "mentions": [
+    "A011540",
+    "A038365",
+    "A168046"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

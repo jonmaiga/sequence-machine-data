@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows, square of Sierpinski's gasket, (A047999)^2",
+  "id": "A166453",
+  "mentions": [
+    "A001316",
+    "A047999",
+    "A048883"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

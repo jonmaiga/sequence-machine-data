@@ -1,0 +1,21 @@
+{
+  "description": "Numbers m such that prime(m) is of the form floor(k*s), where s=(3+sqrt(5))/2; complement of A184793.",
+  "id": "A184795",
+  "mentions": [
+    "A001950",
+    "A104457",
+    "A184774",
+    "A184792",
+    "A184793"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

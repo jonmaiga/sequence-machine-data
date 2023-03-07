@@ -1,0 +1,23 @@
+{
+  "description": "Sixth diagonal of the Stirling2 triangle A048993 and sixth column of triangle A008278.",
+  "id": "A112494",
+  "mentions": [
+    "A001298",
+    "A008278",
+    "A008517",
+    "A048993",
+    "A112493"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:45:17",
+    "offset": 6,
+    "size": 26,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Number of steps to reach 0 starting with n and using the iterated process: x -> x - (number of 1's in Zeckendorf expansion of x).",
+  "id": "A219642",
+  "mentions": [
+    "A007895",
+    "A014417",
+    "A071542",
+    "A219640",
+    "A219641",
+    "A219643",
+    "A219645",
+    "A219648",
+    "A219652"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:37",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

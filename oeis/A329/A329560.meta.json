@@ -1,0 +1,29 @@
+{
+  "description": "BII-numbers of antichains of sets with empty intersection.",
+  "id": "A329560",
+  "mentions": [
+    "A000120",
+    "A048793",
+    "A070939",
+    "A326031",
+    "A326701",
+    "A326704",
+    "A326911",
+    "A326912",
+    "A328671",
+    "A329561",
+    "A329626",
+    "A329628",
+    "A329661"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

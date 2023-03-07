@@ -1,0 +1,22 @@
+{
+  "description": "Number of ways of writing n as a sum of a perfect power and a squarefree semiprime.",
+  "id": "A282947",
+  "mentions": [
+    "A001597",
+    "A006881",
+    "A196228",
+    "A282192",
+    "A282290"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:53",
+    "offset": 0,
+    "size": 121,
+    "source": "oeis-bfile"
+  }
+}

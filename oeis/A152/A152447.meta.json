@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of the sum_q 1/(q*(q-1)) over the semiprimes q = A001358.",
+  "id": "A152447",
+  "mentions": [
+    "A001358",
+    "A006881",
+    "A085964",
+    "A117543",
+    "A136141"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Nonprimes n such that the product of its divisors is a palindrome.",
+  "id": "A244411",
+  "mentions": [
+    "A001358",
+    "A002778",
+    "A007955",
+    "A028980",
+    "A136522"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:00",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

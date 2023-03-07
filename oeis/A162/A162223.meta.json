@@ -1,0 +1,27 @@
+{
+  "description": "Corresponding exponents for A162222.",
+  "id": "A162223",
+  "mentions": [
+    "A033837",
+    "A046074",
+    "A162217",
+    "A162220",
+    "A162222",
+    "A162224",
+    "A162226",
+    "A162229",
+    "A162232",
+    "A162235"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:44",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

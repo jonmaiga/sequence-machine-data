@@ -1,0 +1,21 @@
+{
+  "description": "Number the tiles of a regular hexagonal tiling from 0 in a spiral. Consider perpendicular axes, X and Y, through the center of tile 0, one of which passes through the center of tile 1. Define a set of equivalence classes of tiles with respect to reflections about X and Y. a(n) is the smallest number of a tile in the same equivalence class as tile n.",
+  "id": "A345764",
+  "mentions": [
+    "A274820",
+    "A307012",
+    "A307013",
+    "A328818"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

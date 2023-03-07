@@ -1,0 +1,19 @@
+{
+  "description": "Number of self-intersecting walks of length n on a square lattice such that at each point the angle turns 90 degrees.",
+  "id": "A293865",
+  "mentions": [
+    "A189722"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Heinz numbers of irreducible integer partitions. Nonprime numbers whose prime indices have a common divisor > 1 or such that A181819(n) is already in the sequence.",
+  "id": "A305733",
+  "mentions": [
+    "A000837",
+    "A007916",
+    "A056239",
+    "A181819",
+    "A182850",
+    "A289508",
+    "A289509",
+    "A298748",
+    "A305563",
+    "A305731",
+    "A305732"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

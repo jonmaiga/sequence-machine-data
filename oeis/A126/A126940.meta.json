@@ -1,0 +1,21 @@
+{
+  "description": "\"Model 2\" for number of free alkanes on n points.",
+  "id": "A126940",
+  "mentions": [
+    "A126945",
+    "A126946",
+    "A126947",
+    "A126948"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

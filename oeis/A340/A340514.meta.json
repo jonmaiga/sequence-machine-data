@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the minimal order of a group in which all groups of order n can be embedded.",
+  "id": "A340514",
+  "mentions": [
+    "A000001",
+    "A340515"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

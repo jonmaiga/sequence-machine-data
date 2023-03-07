@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(n,k) = number of partitions of [1..k] into n nonempty clumps of sizes 1, 2, 3 or 4 (n >= 0, 0 <= k <= 4n).",
+  "id": "A144643",
+  "mentions": [
+    "A144299",
+    "A144385",
+    "A144508",
+    "A144644",
+    "A144645"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

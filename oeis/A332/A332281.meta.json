@@ -1,0 +1,36 @@
+{
+  "description": "Number of integer partitions of n whose run-lengths are not unimodal.",
+  "id": "A332281",
+  "mentions": [
+    "A001523",
+    "A007052",
+    "A025065",
+    "A059204",
+    "A072706",
+    "A100883",
+    "A115981",
+    "A328509",
+    "A332280",
+    "A332282",
+    "A332283",
+    "A332284",
+    "A332286",
+    "A332287",
+    "A332579",
+    "A332638",
+    "A332639",
+    "A332640",
+    "A332641",
+    "A332642"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:01",
+    "offset": 0,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

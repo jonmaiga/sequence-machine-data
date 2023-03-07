@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is number in A114994 which c-equivalent to c-factorial of n (A047778).",
+  "id": "A233568",
+  "mentions": [
+    "A047778",
+    "A114994"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

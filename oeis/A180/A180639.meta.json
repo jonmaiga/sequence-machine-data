@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the number of integers k <= n that are not solution of phi(x) = k for any x, where phi is the Euler totient function A000010.",
+  "id": "A180639",
+  "mentions": [
+    "A000010",
+    "A007617",
+    "A264739",
+    "A264810"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:03",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

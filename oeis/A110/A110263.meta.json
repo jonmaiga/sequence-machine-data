@@ -1,0 +1,18 @@
+{
+  "description": "Record values in A110261.",
+  "id": "A110263",
+  "mentions": [
+    "A110261",
+    "A110262"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

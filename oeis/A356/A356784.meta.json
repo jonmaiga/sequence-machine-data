@@ -1,0 +1,26 @@
+{
+  "description": "Inventory of positions as an irregular table; row 0 contains 0, subsequent rows contain the 0-based positions of 0's, followed by the position of 1's, of 2's, etc. in prior rows flattened.",
+  "id": "A356784",
+  "mentions": [
+    "A000051",
+    "A005126",
+    "A011782",
+    "A052548",
+    "A131577",
+    "A342585",
+    "A357317",
+    "A357491"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:31",
+    "offset": 0,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

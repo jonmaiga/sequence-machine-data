@@ -1,0 +1,19 @@
+{
+  "description": "a (1) = 1; a(n) is the smallest number not yet present in the sequence such that the concatenation of a(n-1) and a(n) contains three consecutive descending digits d > e > f.",
+  "id": "A349944",
+  "mentions": [
+    "A239083",
+    "A239137"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

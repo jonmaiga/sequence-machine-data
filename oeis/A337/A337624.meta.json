@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the least positive integer in base n that when multiplied by 2n-1 will contain only the digits 0 and 1.",
+  "id": "A337624",
+  "mentions": [
+    "A337623"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

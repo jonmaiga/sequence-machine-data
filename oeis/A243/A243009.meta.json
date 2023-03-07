@@ -1,0 +1,18 @@
+{
+  "description": "Primes p such that (p + 1)/q is a perfect power for some prime q.",
+  "id": "A243009",
+  "mentions": [
+    "A001597",
+    "A245303"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:59",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

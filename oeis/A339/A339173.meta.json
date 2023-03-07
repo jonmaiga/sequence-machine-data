@@ -1,0 +1,27 @@
+{
+  "description": "Index of record values of A339082.",
+  "id": "A339173",
+  "mentions": [
+    "A000040",
+    "A000045",
+    "A001605",
+    "A005478",
+    "A119984",
+    "A245306",
+    "A335568",
+    "A338762",
+    "A338794",
+    "A339082"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

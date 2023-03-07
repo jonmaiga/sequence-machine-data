@@ -1,0 +1,25 @@
+{
+  "description": "Non-Padovan numbers.",
+  "id": "A138890",
+  "mentions": [
+    "A000931",
+    "A001690",
+    "A062289",
+    "A092460",
+    "A134816",
+    "A138836",
+    "A138888",
+    "A138891"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

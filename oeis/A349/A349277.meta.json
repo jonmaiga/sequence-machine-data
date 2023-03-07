@@ -1,0 +1,19 @@
+{
+  "description": "Triangle T(n,k), n >= 1, 1 <= k <= n, read by rows, where T(n,k) is the number of permutations p of [n] such that Sum_{j=1..n} j/p(j) is an integer and p(n) = k.",
+  "id": "A349277",
+  "mentions": [
+    "A073090"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

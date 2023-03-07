@@ -1,0 +1,21 @@
+{
+  "description": "Product_{p|n} F(p), where F(p) is the p-th Fibonacci number and where the product is over the distinct prime divisors of n.",
+  "id": "A113176",
+  "mentions": [
+    "A000045",
+    "A113175"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:03",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

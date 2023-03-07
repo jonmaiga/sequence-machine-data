@@ -1,0 +1,34 @@
+{
+  "description": "a(n) is the number of vertices in the diagram of partitions of n (see example).",
+  "id": "A299475",
+  "mentions": [
+    "A000041",
+    "A135010",
+    "A139582",
+    "A141285",
+    "A182181",
+    "A186114",
+    "A193870",
+    "A194446",
+    "A194447",
+    "A206437",
+    "A207779",
+    "A220482",
+    "A220517",
+    "A273140",
+    "A278355",
+    "A278602",
+    "A299474"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:23",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

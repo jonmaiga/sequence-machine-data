@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = n!*Sum_{k=0..n} binomial(2*n,n-k)*n^k/k!.",
+  "id": "A295385",
+  "mentions": [
+    "A082545",
+    "A277373",
+    "A277423",
+    "A295384",
+    "A295406",
+    "A295407",
+    "A295408",
+    "A295409"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:13",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

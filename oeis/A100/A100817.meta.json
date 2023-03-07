@@ -1,0 +1,21 @@
+{
+  "description": "Product of the digits of n, each doubled.",
+  "id": "A100817",
+  "mentions": [
+    "A007954",
+    "A055642"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

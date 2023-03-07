@@ -1,0 +1,21 @@
+{
+  "description": "Triangle T(n,k) = floor(2n^2/k) for 1 <= k <= 2n^2, read by rows.",
+  "id": "A278111",
+  "mentions": [
+    "A010766",
+    "A277646"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:44",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

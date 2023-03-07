@@ -1,0 +1,26 @@
+{
+  "description": "Figurate numbers based on the 11-dimensional regular convex polytope called the 11-dimensional cross-polytope, or 11-dimensional hyperoctahedron.",
+  "id": "A300624",
+  "mentions": [
+    "A005900",
+    "A014820",
+    "A069038",
+    "A069039",
+    "A099193",
+    "A099195",
+    "A099196",
+    "A099197"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:34:33",
+    "offset": 0,
+    "size": 27,
+    "source": "joeis"
+  }
+}

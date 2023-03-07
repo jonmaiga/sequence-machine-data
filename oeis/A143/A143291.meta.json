@@ -1,0 +1,32 @@
+{
+  "description": "Triangle T(n,k), n>=2, 0<=k<=n-2, read by rows: numbers of binary words of length n containing at least one subword 10^{k}1 and no subwords 10^{i}1 with i",
+  "id": "A143291",
+  "mentions": [
+    "A000295",
+    "A008466",
+    "A141539",
+    "A143281",
+    "A143282",
+    "A143283",
+    "A143284",
+    "A143285",
+    "A143286",
+    "A143287",
+    "A143288",
+    "A143289",
+    "A143290",
+    "A255874"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:32",
+    "offset": 2,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

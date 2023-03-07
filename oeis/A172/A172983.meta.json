@@ -1,0 +1,21 @@
+{
+  "description": "Partial sums of near-repdigit primes A056710.",
+  "id": "A172983",
+  "mentions": [
+    "A000040",
+    "A056710"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:11",
+    "offset": 1,
+    "size": 41,
+    "source": "joeis"
+  }
+}

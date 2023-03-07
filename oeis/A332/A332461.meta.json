@@ -1,0 +1,28 @@
+{
+  "description": "a(n) = Product_{d|n, d>1} A000040(A297113(d)), where A000040(n) gives the n-th prime, and A297113(n) = the excess of n plus the index of the largest dividing prime (A046660 + A061395).",
+  "id": "A332461",
+  "mentions": [
+    "A000040",
+    "A002110",
+    "A046523",
+    "A046660",
+    "A048675",
+    "A061395",
+    "A097248",
+    "A156552",
+    "A297113",
+    "A324202",
+    "A332462"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:01",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

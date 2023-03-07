@@ -1,0 +1,22 @@
+{
+  "description": "Quotient of denominators of (BernoulliB(2n)/n) and BernoulliB(2n).",
+  "id": "A195989",
+  "mentions": [
+    "A002445",
+    "A036283",
+    "A069040",
+    "A193267",
+    "A300711"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:17",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

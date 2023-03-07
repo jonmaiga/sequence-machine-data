@@ -1,0 +1,28 @@
+{
+  "description": "10th-order Fibonacci numbers: a(n+1) = a(n)+...+a(n-9) with a(0) = ... = a(8) = 0, a(9) = 1.",
+  "id": "A122265",
+  "mentions": [
+    "A000322",
+    "A001591",
+    "A001592",
+    "A079262",
+    "A104144",
+    "A122189",
+    "A168082",
+    "A168083",
+    "A168084",
+    "A257227",
+    "A257228"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:11",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

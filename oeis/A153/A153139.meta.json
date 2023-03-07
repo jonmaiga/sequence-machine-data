@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n with property that n^2 is a concatenation of three 3-digit primes.",
+  "id": "A153139",
+  "mentions": [
+    "A153048",
+    "A153050"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:35",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that the string k modulo 1000 is found at position k in the decimal digits of Pi.",
+  "id": "A153226",
+  "mentions": [
+    "A000796",
+    "A057679",
+    "A057680",
+    "A109513",
+    "A109514"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:35",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Bases with smallest happy number > 1 in that base equal to the base.",
+  "id": "A161873",
+  "mentions": [
+    "A007770"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:44",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Primes p for which there are at least as many primes in the range [p*nextprime(p), nextprime(p)^2] as in the range [p^2, p*nextprime(p)], where nextprime(p) gives the next prime after prime p.",
+  "id": "A256484",
+  "mentions": [
+    "A000040",
+    "A256472",
+    "A256474",
+    "A256485"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

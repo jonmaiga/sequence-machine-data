@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = ((n+2)/2)*Sum_{k=0..n/2} (Sum_{i=0..n-2*k} (binomial(k+1,n-2*k-i)*binomial(k+i,k))/(k+1)*C(k)), where C(k) is Catalan numbers.",
+  "id": "A270724",
+  "mentions": [
+    "A000108",
+    "A113413",
+    "A270715"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 12:04:43",
+    "offset": 0,
+    "size": 30,
+    "source": "joeis"
+  }
+}

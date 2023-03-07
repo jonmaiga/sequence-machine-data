@@ -1,0 +1,21 @@
+{
+  "description": "Number of base 28 n-digit numbers with adjacent digits differing by five or less.",
+  "id": "A126549",
+  "mentions": [
+    "A126382",
+    "A126415",
+    "A126496",
+    "A126523"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:30:43",
+    "offset": 0,
+    "size": 18,
+    "source": "joeis"
+  }
+}

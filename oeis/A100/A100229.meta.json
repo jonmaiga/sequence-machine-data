@@ -1,0 +1,21 @@
+{
+  "description": "Triangle, read by rows, of the coefficients of [x^k] in G100228(x)^n such that the row sums are 4^n-1 for n>0, where G100228(x) is the g.f. of A100228.",
+  "id": "A100229",
+  "mentions": [
+    "A052924",
+    "A100228",
+    "A100230"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Coefficients in the expansion of Product_{m>=1} (1 - q^(13*m))/(1 - q^m).",
+  "id": "A341714",
+  "mentions": [
+    "A286653"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:14",
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

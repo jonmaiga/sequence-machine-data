@@ -1,0 +1,22 @@
+{
+  "description": "Starts of runs of 4 consecutive numbers with the same number of 5-smooth divisors.",
+  "id": "A355712",
+  "mentions": [
+    "A006601",
+    "A332314",
+    "A332388",
+    "A355583",
+    "A355710",
+    "A355711"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:30",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

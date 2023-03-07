@@ -1,0 +1,19 @@
+{
+  "description": "Cyclic quadrilateral numbers: numbers n = a*b*c*d such that the integers a,b,c,d are the sides of a cyclic quadrilateral with the area and the circumradius integers.",
+  "id": "A218431",
+  "mentions": [
+    "A210250",
+    "A218320"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

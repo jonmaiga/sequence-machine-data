@@ -1,0 +1,24 @@
+{
+  "description": "Floor(prime Fibonacci(Prime(k))/Prime(k)).",
+  "id": "A134790",
+  "mentions": [
+    "A000040",
+    "A000045",
+    "A050937",
+    "A075737",
+    "A090819",
+    "A134787",
+    "A134788",
+    "A134789"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:22",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

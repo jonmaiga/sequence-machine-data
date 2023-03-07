@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n with property that n^2 are nonzero square terms in A077116.",
+  "id": "A154100",
+  "mentions": [
+    "A077116",
+    "A154101"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

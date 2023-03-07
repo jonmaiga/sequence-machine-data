@@ -1,0 +1,19 @@
+{
+  "description": "Positive integers sorted by length of name in Turkish and alphabetical order.",
+  "id": "A182493",
+  "mentions": [
+    "A052193",
+    "A182303"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

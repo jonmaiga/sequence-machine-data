@@ -1,0 +1,39 @@
+{
+  "description": "Number of Young tableaux A(n,k) with n k-length rows, increasing entries down the columns and monotonic entries along the rows (first row increasing); square array A(n,k), n>=0, k>=0, read by antidiagonals.",
+  "id": "A208615",
+  "mentions": [
+    "A000012",
+    "A088218",
+    "A141351",
+    "A185148",
+    "A208616",
+    "A208617",
+    "A208618",
+    "A208619",
+    "A208620",
+    "A208621",
+    "A208622",
+    "A208623",
+    "A208624",
+    "A208625",
+    "A208626",
+    "A208627",
+    "A208628",
+    "A208629",
+    "A208630",
+    "A208631",
+    "A208729"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn",
+    "tabl",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:28",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

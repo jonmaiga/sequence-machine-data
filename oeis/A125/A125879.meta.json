@@ -1,0 +1,17 @@
+{
+  "description": "Records in A066674.",
+  "id": "A125879",
+  "mentions": [
+    "A066674"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:14",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

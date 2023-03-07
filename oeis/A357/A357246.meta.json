@@ -1,0 +1,20 @@
+{
+  "description": "E.g.f. satisfies A(x) * log(A(x)) = (1-x) * (exp(x) - 1).",
+  "id": "A357246",
+  "mentions": [
+    "A356902",
+    "A357243",
+    "A357247"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

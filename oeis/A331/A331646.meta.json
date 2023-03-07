@@ -1,0 +1,20 @@
+{
+  "description": "Number of nonnegative integer matrices with 2 columns and any number of distinct nonzero rows with column sums n.",
+  "id": "A331646",
+  "mentions": [
+    "A331568",
+    "A331647",
+    "A331706",
+    "A331711"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:01",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Expansion of (elliptic_E / elliptic_K)^(1/2) in powers of q.",
+  "id": "A261977",
+  "mentions": [
+    "A004018",
+    "A115977",
+    "A194094",
+    "A261975",
+    "A261976",
+    "A261978",
+    "A261979",
+    "A261980"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

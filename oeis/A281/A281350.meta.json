@@ -1,0 +1,18 @@
+{
+  "description": "Triangle read by rows: number of topologies of n nested circles intersecting at most as triples, according to number of factors.",
+  "id": "A281350",
+  "mentions": [
+    "A281349"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of k’s in all partitions of n into an even number of distinct parts.",
+  "id": "A238451",
+  "mentions": [
+    "A015716",
+    "A067659",
+    "A067661",
+    "A238132",
+    "A238215",
+    "A238217",
+    "A238218",
+    "A238219",
+    "A238220",
+    "A238221",
+    "A238450"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

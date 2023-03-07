@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of (1/2)*Pi^(3/4)/Gamma(3/4).",
+  "id": "A327996",
+  "mentions": [
+    "A006882",
+    "A327995"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

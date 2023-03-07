@@ -1,0 +1,28 @@
+{
+  "description": "D-toothpick sequence of the second kind starting with a single toothpick.",
+  "id": "A212008",
+  "mentions": [
+    "A047999",
+    "A139250",
+    "A194270",
+    "A194432",
+    "A194434",
+    "A194440",
+    "A194442",
+    "A194444",
+    "A212009",
+    "A220500"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "changed",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

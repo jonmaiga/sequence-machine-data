@@ -1,0 +1,20 @@
+{
+  "description": "Smallest non-Fibonacci number k such that k^2 + F(n)^2 = f1*f2 where F(n) = A000045(n) and f1, f2 are distinct Fibonacci numbers.",
+  "id": "A245046",
+  "mentions": [
+    "A000045",
+    "A010056",
+    "A245236"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of product_{n=2..infinity} (n^8-1)/(n^8+1).",
+  "id": "A144667",
+  "mentions": [
+    "A090986",
+    "A175619",
+    "A334411"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the smallest totient number k > 1 such that A007617(n)*k is a nontotient number, or 0 if no such number exists.",
+  "id": "A350085",
+  "mentions": [
+    "A005277",
+    "A007617",
+    "A301587",
+    "A350086"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "1-dimensional polyominoes (represented as integers) that do not tile a rectangle.",
+  "id": "A286192",
+  "mentions": [
+    "A235264",
+    "A275152"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

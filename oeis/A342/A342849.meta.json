@@ -1,0 +1,20 @@
+{
+  "description": "Value of n!-r^s in best integer approximation r^s to n! with s >= r.",
+  "id": "A342849",
+  "mentions": [
+    "A045772",
+    "A045773",
+    "A342847",
+    "A342848"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-03 12:59:36",
+    "offset": 0,
+    "size": 23,
+    "source": "joeis"
+  }
+}

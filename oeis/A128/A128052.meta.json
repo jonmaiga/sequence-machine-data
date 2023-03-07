@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = (F(2*n-1) + F(2*n+1))*(5/6 - cos(2*Pi*n/3)/3), where F(n) = Fibonacci(n).",
+  "id": "A128052",
+  "mentions": [
+    "A000032",
+    "A000045",
+    "A023039",
+    "A128053",
+    "A178381",
+    "A179133",
+    "A179134"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:15",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

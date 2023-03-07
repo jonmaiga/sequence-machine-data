@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = 2^(n-2) - 1.",
+  "id": "A168604",
+  "mentions": [
+    "A000225",
+    "A000325",
+    "A000918",
+    "A126646",
+    "A168605",
+    "A168606",
+    "A175655"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:52",
+    "offset": 3,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

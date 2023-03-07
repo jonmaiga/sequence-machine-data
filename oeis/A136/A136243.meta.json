@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k in A008864 such that k^2 - k - 1 is prime.",
+  "id": "A136243",
+  "mentions": [
+    "A008864",
+    "A053184",
+    "A053185",
+    "A136242"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:27",
+    "offset": 1,
+    "size": 54,
+    "source": "joeis"
+  }
+}

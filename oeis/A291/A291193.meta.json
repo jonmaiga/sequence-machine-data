@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of 1 + x*(1-x)/(1 + x^2*(1-x^2)/(1 + x^3*(1-x^3)/(1 + x^4*(1-x^4)/(1 + x^5*(1-x^5)/(1 + ...))))), a continued fraction.",
+  "id": "A291193",
+  "mentions": [
+    "A053254",
+    "A291200"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "First row of A332662, also main diagonal of A332667.",
+  "id": "A332699",
+  "mentions": [
+    "A332662",
+    "A332667"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

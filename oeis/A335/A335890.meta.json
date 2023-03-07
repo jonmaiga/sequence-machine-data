@@ -1,0 +1,17 @@
+{
+  "description": "Number of equivalence classes of 4-binomial complexity for binary words of length n. Or, equivalently, the number of distinct 4-decks of binary words of length n.",
+  "id": "A335890",
+  "mentions": [
+    "A258585"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

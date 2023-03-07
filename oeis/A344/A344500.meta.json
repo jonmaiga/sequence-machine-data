@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{k=0..n} binomial(n, k)*CT(n, k) = Sum_{k=0..n} (-1)^(n-k)*binomial(n, k)*CT(n, k), where CT(n, k) is the Catalan triangle A053121.",
+  "id": "A344500",
+  "mentions": [
+    "A053121",
+    "A344501"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

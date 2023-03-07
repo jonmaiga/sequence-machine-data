@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the smallest number representable in exactly n ways as a sum of one triangular number and 2 squares (each of them >= 0).",
+  "id": "A115289",
+  "mentions": [
+    "A000437",
+    "A061262",
+    "A115288"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

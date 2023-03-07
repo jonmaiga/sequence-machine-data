@@ -1,0 +1,21 @@
+{
+  "description": "Bisection of A083952 such that the self-convolution is congruent modulo 4 to A083952, which consists entirely of 1's and 2's.",
+  "id": "A110627",
+  "mentions": [
+    "A083952",
+    "A084202",
+    "A108336",
+    "A111581"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

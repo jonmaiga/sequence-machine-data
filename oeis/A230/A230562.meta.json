@@ -1,0 +1,27 @@
+{
+  "description": "Smallest number that is the sum of 2 positive 4th powers in >= n ways.",
+  "id": "A230562",
+  "mentions": [
+    "A003824",
+    "A016078",
+    "A018786",
+    "A046881",
+    "A088687",
+    "A088848",
+    "A088849",
+    "A088867",
+    "A230561"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

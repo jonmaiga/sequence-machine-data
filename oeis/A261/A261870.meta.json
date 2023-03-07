@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = minimal number of steps to get from n to 1, where a step is x -> 3x-1 if x is odd, or x -> either x/2 or 3x-1 if x is even.",
+  "id": "A261870",
+  "mentions": [
+    "A006577",
+    "A109732",
+    "A127885"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:21",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

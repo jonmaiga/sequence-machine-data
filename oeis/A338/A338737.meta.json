@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of sum-free subsets of {1..n} with cardinality k for 1 <= k <= n.",
+  "id": "A338737",
+  "mentions": [
+    "A007865",
+    "A288887",
+    "A288888"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:10",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

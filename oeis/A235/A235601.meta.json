@@ -1,0 +1,26 @@
+{
+  "description": "Smallest number m such that repeated application of A235600 takes n steps to reach 1, where A235600(k) = k/A007953(k) if the digital sum A007953(k) divides k, A235600(k) = k otherwise.",
+  "id": "A235601",
+  "mentions": [
+    "A005349",
+    "A007953",
+    "A114440",
+    "A235600",
+    "A235602",
+    "A236338",
+    "A236385"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:53",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Array read by antidiagonals: T(n,k) = number of ways to choose 3 distinct points from an n X k rectangular grid so that they form an isosceles triangle.",
+  "id": "A271910",
+  "mentions": [
+    "A186434",
+    "A187452",
+    "A271911",
+    "A271912",
+    "A271913",
+    "A271914",
+    "A271915"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:36",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

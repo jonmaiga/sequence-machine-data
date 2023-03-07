@@ -1,0 +1,26 @@
+{
+  "description": "Numbers such that all the substrings of length <= 2 are primes.",
+  "id": "A211681",
+  "mentions": [
+    "A019546",
+    "A035232",
+    "A039996",
+    "A046034",
+    "A085823",
+    "A211682",
+    "A213299"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 18:00:05",
+    "offset": 1,
+    "size": 36,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Odd nonprimes q=A141468(j) such that largest digit(j)+largest digit(q) is a prime.",
+  "id": "A156333",
+  "mentions": [
+    "A000027",
+    "A000040",
+    "A014076",
+    "A141468"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n where |sinc(n)| decreases monotonically to 0 (where sinc(x)=sin(x)/x).",
+  "id": "A131975",
+  "mentions": [
+    "A004112",
+    "A046947"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Number of partitions of n where every part appears at least 5 times.",
+  "id": "A160975",
+  "mentions": [
+    "A007690",
+    "A100405",
+    "A160974",
+    "A160976",
+    "A160990"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:47",
+    "offset": 1,
+    "size": 70,
+    "source": "joeis"
+  }
+}

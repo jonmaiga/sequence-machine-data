@@ -1,0 +1,21 @@
+{
+  "description": "Semiprimes k such that the concatenation of its prime factors is prime.",
+  "id": "A276803",
+  "mentions": [
+    "A000040",
+    "A001358",
+    "A100607",
+    "A105184"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

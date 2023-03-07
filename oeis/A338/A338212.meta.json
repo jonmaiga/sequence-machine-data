@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the number of fixed polyominoes with sprawl n.",
+  "id": "A338212",
+  "mentions": [
+    "A001168",
+    "A338210",
+    "A338213"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

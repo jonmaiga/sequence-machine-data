@@ -1,0 +1,18 @@
+{
+  "description": "sum( C(n+1,k)*|S1(n,k)|, k=0..n). Binomial convolution of the Stirling numbers of the first kind.",
+  "id": "A211211",
+  "mentions": [
+    "A134094",
+    "A211210"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

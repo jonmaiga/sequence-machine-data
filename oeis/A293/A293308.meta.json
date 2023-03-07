@@ -1,0 +1,19 @@
+{
+  "description": "Number of permutations of zero-one words with A056576(n)-n zeros and n-1 ones.",
+  "id": "A293308",
+  "mentions": [
+    "A056576",
+    "A100982"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:09",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

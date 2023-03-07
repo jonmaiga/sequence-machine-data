@@ -1,0 +1,28 @@
+{
+  "description": "a(n) = (Sum of digits of 9*n) / 9.",
+  "id": "A343639",
+  "mentions": [
+    "A002264",
+    "A007953",
+    "A008585",
+    "A008591",
+    "A083824",
+    "A193582",
+    "A279777",
+    "A326307",
+    "A343638"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Iteration x := x-((sin(x)-cos(x)*x-Pi/2)/(sin(x)*x)).",
+  "id": "A173201",
+  "mentions": [
+    "A072112",
+    "A133731"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

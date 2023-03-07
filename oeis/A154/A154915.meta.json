@@ -1,0 +1,26 @@
+{
+  "description": "Triangle T(n,m,p,q) = (p^(n-k)*q^k + p^k*q^(n-k))*(StirlingS2(n, k) + StirlingS2(n, n-k)) with p=2 and q=1, read by rows.",
+  "id": "A154915",
+  "mentions": [
+    "A008277",
+    "A048993",
+    "A154913",
+    "A154914",
+    "A154916",
+    "A154922"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "less",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:37",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

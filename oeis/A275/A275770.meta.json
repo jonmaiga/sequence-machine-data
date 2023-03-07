@@ -1,0 +1,22 @@
+{
+  "description": "Primes p == 5 (mod 6) that are not Sophie Germain primes.",
+  "id": "A275770",
+  "mentions": [
+    "A005384",
+    "A007528",
+    "A045979",
+    "A053176",
+    "A156543"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:27:07",
+    "offset": 1,
+    "size": 54,
+    "source": "joeis"
+  }
+}

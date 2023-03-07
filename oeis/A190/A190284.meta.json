@@ -1,0 +1,21 @@
+{
+  "description": "Continued fraction of 1+sqrt(1+sqrt(2)).",
+  "id": "A190284",
+  "mentions": [
+    "A154748",
+    "A188635",
+    "A190282",
+    "A190283"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "cofr",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:14",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

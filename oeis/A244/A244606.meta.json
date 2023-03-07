@@ -1,0 +1,20 @@
+{
+  "description": "Least number k > 1 such that k^n contains the digit k k times, or 0 if no such digit exists.",
+  "id": "A244606",
+  "mentions": [
+    "A244603",
+    "A244604"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 118,
+    "source": "oeis-entry"
+  }
+}

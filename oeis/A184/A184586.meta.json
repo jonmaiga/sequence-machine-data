@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = floor((n-1/2)*r), where r=sqrt(5); complement of A184587.",
+  "id": "A184586",
+  "mentions": [
+    "A022839",
+    "A108598",
+    "A184587"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:22:55",
+    "offset": 1,
+    "size": 120,
+    "source": "joeis"
+  }
+}

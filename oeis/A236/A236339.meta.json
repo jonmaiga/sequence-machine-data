@@ -1,0 +1,22 @@
+{
+  "description": "Association types in 2-dimensional algebra.",
+  "id": "A236339",
+  "mentions": [
+    "A000108",
+    "A236342",
+    "A237018"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:54",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

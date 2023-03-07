@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that n^3 has n as its middle digits.",
+  "id": "A227548",
+  "mentions": [
+    "A062118"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "32-beat repeating palindromic sequence: digital roots of Fibonacci numbers indexed by the set of natural numbers not divisible by 2, 3 or 5 (A007775).",
+  "id": "A227896",
+  "mentions": [
+    "A007775",
+    "A030132"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:18:59",
+    "offset": 1,
+    "size": 128,
+    "source": "joeis"
+  }
+}

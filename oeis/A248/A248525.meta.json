@@ -1,0 +1,19 @@
+{
+  "description": "Primes of the form 2^x - y^2 that are primes of the form m^2 - 2^k.",
+  "id": "A248525",
+  "mentions": [
+    "A248344",
+    "A248346"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

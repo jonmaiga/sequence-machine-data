@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that there is no square between prime(k) and prime(k+1).",
+  "id": "A221056",
+  "mentions": [
+    "A000040",
+    "A014085",
+    "A038107",
+    "A049084",
+    "A061265",
+    "A224363"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:39",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

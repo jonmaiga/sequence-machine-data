@@ -1,0 +1,20 @@
+{
+  "description": "Final digit of multiples of 7.",
+  "id": "A144468",
+  "mentions": [
+    "A131579"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:44:49",
+    "offset": 0,
+    "size": 96,
+    "source": "joeis"
+  }
+}

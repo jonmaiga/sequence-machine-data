@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the number of ways to split [n] = {1,2,...,n} into two (possibly empty) complementary intervals {1,2,...,i} and {i+1,i+2,...,n} and then, if both intervals are nonempty, select 2 nonempty blocks/cells (i.e., subintervals) from each of them, or if one of the intervals is empty, select 2 nonempty blocks/cells from the nonempty interval.",
+  "id": "A353232",
+  "mentions": [
+    "A000389",
+    "A002378",
+    "A095263"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-10-18 14:56:45",
+    "offset": 1,
+    "size": 40,
+    "source": "joeis"
+  }
+}

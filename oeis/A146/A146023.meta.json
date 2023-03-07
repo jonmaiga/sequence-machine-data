@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows, square of A027293.",
+  "id": "A146023",
+  "mentions": [
+    "A000712",
+    "A000713",
+    "A027293"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:34",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

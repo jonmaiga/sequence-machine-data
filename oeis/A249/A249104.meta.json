@@ -1,0 +1,20 @@
+{
+  "description": "Defective numbers: A complete residue system mod a(n) does not exist in the Fibonacci sequence.",
+  "id": "A249104",
+  "mentions": [
+    "A000045",
+    "A066853",
+    "A079002"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

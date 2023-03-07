@@ -1,0 +1,21 @@
+{
+  "description": "An auxiliary sequence for computing A300250. See comments and examples.",
+  "id": "A297174",
+  "mentions": [
+    "A046523",
+    "A101296",
+    "A292258",
+    "A294897",
+    "A300250"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:17",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

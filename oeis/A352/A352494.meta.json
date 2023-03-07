@@ -1,0 +1,23 @@
+{
+  "description": "Primes congruent to 0, 1, or 10 mod 11.",
+  "id": "A352494",
+  "mentions": [
+    "A000040",
+    "A038872",
+    "A045463",
+    "A141849",
+    "A141857"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

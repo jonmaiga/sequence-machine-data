@@ -1,0 +1,24 @@
+{
+  "description": "Complement of repdigit numbers A010785.",
+  "id": "A139819",
+  "mentions": [
+    "A010785",
+    "A016038",
+    "A029742",
+    "A050813",
+    "A066484",
+    "A202022"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:27",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Inverse permutation to A308021 (Recamán variant).",
+  "id": "A308049",
+  "mentions": [
+    "A308021"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

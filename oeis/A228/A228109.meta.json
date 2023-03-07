@@ -1,0 +1,38 @@
+{
+  "description": "Height after n-th step of an infinite staircase which is the lower part of a structure whose upper part is the infinite Dyck path of A228110.",
+  "id": "A228109",
+  "mentions": [
+    "A000041",
+    "A006128",
+    "A135010",
+    "A138137",
+    "A139582",
+    "A141285",
+    "A182699",
+    "A182709",
+    "A186412",
+    "A193870",
+    "A194446",
+    "A194447",
+    "A206437",
+    "A207779",
+    "A211009",
+    "A211978",
+    "A211992",
+    "A220517",
+    "A225600",
+    "A225610",
+    "A228110",
+    "A229946"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

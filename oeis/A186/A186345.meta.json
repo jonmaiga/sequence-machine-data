@@ -1,0 +1,19 @@
+{
+  "description": "Adjusted joint rank sequence of (f(i)) and (g(j)) with f(i) after g(j) when f(i)=g(j), where f and g are the pentagonal numbers and the octagonal numbers. Complement of A186344.",
+  "id": "A186345",
+  "mentions": [
+    "A186342",
+    "A186343",
+    "A186344"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:34:45",
+    "offset": 1,
+    "size": 85,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Numbers that can be represented as a sum of a square of a prime and a cube of a prime in more than one way.",
+  "id": "A196752",
+  "mentions": [
+    "A045699",
+    "A045701",
+    "A196753"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:18",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

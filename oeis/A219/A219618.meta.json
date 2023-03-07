@@ -1,0 +1,17 @@
+{
+  "description": "Numbers n such that 3^n + 100 is prime.",
+  "id": "A219618",
+  "mentions": [
+    "A176929"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Composite numbers k such that 2^(k-1) == - lambda(k) (mod k), where lambda is the Carmichael lambda function (A002322).",
+  "id": "A330446",
+  "mentions": [
+    "A002322",
+    "A062173",
+    "A277127"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

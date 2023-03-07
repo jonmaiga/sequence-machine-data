@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n,k) = 2*A065941(n-1,k-1) - (-1)^(n+k).",
+  "id": "A131779",
+  "mentions": [
+    "A065941",
+    "A131780"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:19",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

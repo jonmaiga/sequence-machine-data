@@ -1,0 +1,35 @@
+{
+  "description": "a(1) = 1, for n > 1: a(n) is the number of ways to write n as a nontrivial perfect power.",
+  "id": "A259362",
+  "mentions": [
+    "A000005",
+    "A001597",
+    "A007916",
+    "A023055",
+    "A025478",
+    "A070428",
+    "A072103",
+    "A075090",
+    "A075109",
+    "A075802",
+    "A117453",
+    "A175064",
+    "A175065",
+    "A175066",
+    "A175082",
+    "A188585",
+    "A253641",
+    "A253642"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:17",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

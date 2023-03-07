@@ -1,0 +1,19 @@
+{
+  "description": "Porous numbers: Numbers k which are not multiples of 10 such that every m with sum of digits = k and k a divisor of both m and rev(m) has a zero in its digits.",
+  "id": "A337832",
+  "mentions": [
+    "A333666"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

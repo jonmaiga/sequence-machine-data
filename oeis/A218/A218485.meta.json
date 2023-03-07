@@ -1,0 +1,20 @@
+{
+  "description": "Positive numbers differing from next greater square by a square.",
+  "id": "A218485",
+  "mentions": [
+    "A060300",
+    "A132124",
+    "A218486",
+    "A218488"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:36",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Least position k of n (n written in base 2) in the infinite string 101110111110111101100011001110111... (i.e., 23571113171923... in base 2).",
+  "id": "A189799",
+  "mentions": [
+    "A004676",
+    "A007088",
+    "A154703"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

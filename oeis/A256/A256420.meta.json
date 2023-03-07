@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = 2n unless n is prime, in which case a(n) = first term not yet present in the sequence.",
+  "id": "A256420",
+  "mentions": [
+    "A139270",
+    "A256421"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

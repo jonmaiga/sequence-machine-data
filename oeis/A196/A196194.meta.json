@@ -1,0 +1,18 @@
+{
+  "description": "E.g.f.: 1 + Sum_{n>=1} x^n * Product_{k=1..n} (exp(k*x)-1)/(exp(x)-1).",
+  "id": "A196194",
+  "mentions": [
+    "A196193"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:17",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

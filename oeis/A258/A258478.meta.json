@@ -1,0 +1,17 @@
+{
+  "description": "Number of partitions of n into two sorts of parts having exactly 8 parts of the second sort.",
+  "id": "A258478",
+  "mentions": [
+    "A256193"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:16",
+    "offset": 8,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

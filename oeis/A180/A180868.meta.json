@@ -1,0 +1,23 @@
+{
+  "description": "Numbers n such that n and n+1 are semiprime powers.",
+  "id": "A180868",
+  "mentions": [
+    "A000040",
+    "A000961",
+    "A001358",
+    "A006549",
+    "A085155"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:03",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

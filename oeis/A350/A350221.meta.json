@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = Sum_{k=1..n} (-1)^(k+1) * floor((n/k)^2).",
+  "id": "A350221",
+  "mentions": [
+    "A000290",
+    "A153818",
+    "A309081",
+    "A344720",
+    "A350222",
+    "A350224"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

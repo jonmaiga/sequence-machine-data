@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = smallest possible (product of b(k)'s + product of c(k)'s), where the positive integers <= n are partitioned somehow into {b(k)} and {c(k)}.",
+  "id": "A127180",
+  "mentions": [
+    "A038667",
+    "A060696",
+    "A076051",
+    "A127181",
+    "A200743",
+    "A200744"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:15",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

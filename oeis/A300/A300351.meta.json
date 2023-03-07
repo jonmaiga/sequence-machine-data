@@ -1,0 +1,28 @@
+{
+  "description": "Triangle whose n-th row lists in order all Heinz numbers of integer partitions of n into odd parts.",
+  "id": "A300351",
+  "mentions": [
+    "A000009",
+    "A031368",
+    "A056239",
+    "A066208",
+    "A078408",
+    "A215366",
+    "A246867",
+    "A299757",
+    "A299759",
+    "A300063",
+    "A300272"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

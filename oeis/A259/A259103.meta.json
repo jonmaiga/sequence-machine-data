@@ -1,0 +1,18 @@
+{
+  "description": "Number of steps to get from n to 1 by process of replacing with the Euler totient function phi if the result is odd, or dividing by 2 if even.",
+  "id": "A259103",
+  "mentions": [
+    "A000010"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Numerators of T(n+1)/n! reduced to lowest terms, where T(n) are the triangular numbers A000217.",
+  "id": "A110560",
+  "mentions": [
+    "A000217",
+    "A090585",
+    "A090586",
+    "A110561"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:02",
+    "offset": 0,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "A dual remainder symmetrical triangle sequence T(n, m) = 1 + 2*(n+1) - (m+1)*floor((n+1)/(m+1)) - (n-m+1)*floor((n+1)/( n-m+1)), read by rows.",
+  "id": "A176346",
+  "mentions": [
+    "A176298"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:00",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

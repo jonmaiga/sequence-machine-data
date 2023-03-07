@@ -1,0 +1,20 @@
+{
+  "description": "Values of a^3 + b^3 such that the equation a^3 + b^3 = x^2 + y^2 + z^2 is not soluble where a, b > 0 and x, y, z >= 0.",
+  "id": "A272174",
+  "mentions": [
+    "A003325",
+    "A004215",
+    "A267702"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:09:59",
+    "offset": 1,
+    "size": 43,
+    "source": "joeis"
+  }
+}

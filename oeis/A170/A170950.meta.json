@@ -1,0 +1,22 @@
+{
+  "description": "Inverse permutation to A170949.",
+  "id": "A170950",
+  "mentions": [
+    "A002061",
+    "A002522",
+    "A005898",
+    "A170949",
+    "A174114"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:54",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

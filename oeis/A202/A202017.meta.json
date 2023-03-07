@@ -1,0 +1,23 @@
+{
+  "description": "Triangle of coefficients of the numerator polynomials of the rational o.g.f.'s of the diagonals of A059297.",
+  "id": "A202017",
+  "mentions": [
+    "A001813",
+    "A059297",
+    "A112007",
+    "A155163"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

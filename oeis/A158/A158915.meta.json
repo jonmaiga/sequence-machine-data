@@ -1,0 +1,21 @@
+{
+  "description": "Least number k such that there is an m > k with sigma_n(k) = sigma_n(m).",
+  "id": "A158915",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A001157",
+    "A131908"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

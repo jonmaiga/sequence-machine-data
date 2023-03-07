@@ -1,0 +1,20 @@
+{
+  "description": "Values of A347113(k) for k in A348787.",
+  "id": "A348788",
+  "mentions": [
+    "A181780",
+    "A264828",
+    "A347113",
+    "A348787"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:23",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

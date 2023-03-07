@@ -1,0 +1,20 @@
+{
+  "description": "Denominators of the series a(n+1) = (a(n)+k)/(1+a(n)*k); where k=1/(n+1), a(1)=1/2.",
+  "id": "A226089",
+  "mentions": [
+    "A001844",
+    "A160050"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Union of sequences b and c defined by: b(1)=8, b(2)=488, b(n)=62*b(n-1) - b(n-2) and c(1)=22, c(2)=10582, c(n)=482*c(n-1) - c(n-2).",
+  "id": "A304177",
+  "mentions": [
+    "A000215",
+    "A018844"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

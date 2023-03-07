@@ -1,0 +1,25 @@
+{
+  "description": "Primes with two embedded primes.",
+  "id": "A179910",
+  "mentions": [
+    "A033274",
+    "A034844",
+    "A039996",
+    "A079066",
+    "A079397",
+    "A092621",
+    "A179909",
+    "A179919"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:03",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

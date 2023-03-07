@@ -1,0 +1,29 @@
+{
+  "description": "Multiples of 10 such that the sum of their digits is also a multiple of 10.",
+  "id": "A218292",
+  "mentions": [
+    "A008585",
+    "A008591",
+    "A062753",
+    "A094677",
+    "A179082",
+    "A216994",
+    "A216995",
+    "A216997",
+    "A218290",
+    "A218291"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:35",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

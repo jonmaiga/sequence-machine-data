@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that d_i(n) >= d_i(k) for k = 1 to n-1, where d_i(n) is the number of infinitary divisors of n (A037445).",
+  "id": "A273011",
+  "mentions": [
+    "A037445",
+    "A050376",
+    "A064547",
+    "A067128"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:38",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = n^2*Fibonacci(n).",
+  "id": "A259451",
+  "mentions": [
+    "A000045",
+    "A000290",
+    "A169630"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:17",
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

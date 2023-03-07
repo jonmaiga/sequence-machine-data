@@ -1,0 +1,22 @@
+{
+  "description": "Indices n such that A122136[n] = 1, or A024450[n] divides A002110[n].",
+  "id": "A122137",
+  "mentions": [
+    "A002110",
+    "A024450",
+    "A122136",
+    "A122138",
+    "A122139"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

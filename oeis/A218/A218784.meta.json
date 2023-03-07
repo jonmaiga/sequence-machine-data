@@ -1,0 +1,24 @@
+{
+  "description": "Positions where the parity of A179016 changes, i.e., where the runs of A213729 begin.",
+  "id": "A218784",
+  "mentions": [
+    "A179016",
+    "A213728",
+    "A213729",
+    "A218544",
+    "A218545",
+    "A218546",
+    "A218547"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:36",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

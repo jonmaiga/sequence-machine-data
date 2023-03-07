@@ -1,0 +1,23 @@
+{
+  "description": "Numbers n such that when the n-th Catalan restricted growth string [b_k, b_{k-1}, ..., b_2, b_1] (see A239903) is viewed as a simple numeral in Catalan Base: b_k*C(k) + b_{k-1}*C(k-1) + ... + b_2*C(2) + b_1*C(1) it is equal to n. Here C(m) = A000108(m).",
+  "id": "A244155",
+  "mentions": [
+    "A000108",
+    "A014418",
+    "A197433",
+    "A239903",
+    "A244156",
+    "A244157",
+    "A244158"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:00",
+    "offset": 0,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

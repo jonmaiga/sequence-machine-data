@@ -1,0 +1,24 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) is the number of parts in the partition of n into k consecutive parts that differ by 2, n >= 1, k >= 1, and the first element of column k is in row k^2.",
+  "id": "A330466",
+  "mentions": [
+    "A000290",
+    "A066839",
+    "A127093",
+    "A237048",
+    "A285914",
+    "A303300"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

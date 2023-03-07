@@ -1,0 +1,22 @@
+{
+  "description": "Triangular array read by rows. T(n,k) is the number of labeled bipartite graphs on n nodes having exactly k connected components; n>=1, 1<=k<=n.",
+  "id": "A228859",
+  "mentions": [
+    "A001832",
+    "A047863",
+    "A047864",
+    "A264428"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

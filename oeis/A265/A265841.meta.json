@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of Product_{k>=1} (1 + k^4*x^k).",
+  "id": "A265841",
+  "mentions": [
+    "A022629",
+    "A092484",
+    "A265838",
+    "A265840",
+    "A265842"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:26",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

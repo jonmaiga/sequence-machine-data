@@ -1,0 +1,21 @@
+{
+  "description": "Number of unsensed genus 4 maps with n edges.",
+  "id": "A297880",
+  "mentions": [
+    "A006385",
+    "A006387",
+    "A214814",
+    "A214815",
+    "A214816"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

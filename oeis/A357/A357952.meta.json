@@ -1,0 +1,21 @@
+{
+  "description": "Maximum period of a totalistic cellular automaton on a connected graph with n nodes (counting the state of the updated node itself).",
+  "id": "A357952",
+  "mentions": [
+    "A357951",
+    "A357953"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

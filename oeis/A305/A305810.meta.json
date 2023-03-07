@@ -1,0 +1,24 @@
+{
+  "description": "Filter sequence for a(Sophie Germain primes > 3) = constant sequences.",
+  "id": "A305810",
+  "mentions": [
+    "A005384",
+    "A156660",
+    "A156874",
+    "A305900",
+    "A305901",
+    "A305978",
+    "A305985"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:30",
+    "offset": 1,
+    "size": 113,
+    "source": "oeis-bfile"
+  }
+}

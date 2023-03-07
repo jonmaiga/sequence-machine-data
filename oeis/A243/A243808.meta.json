@@ -1,0 +1,19 @@
+{
+  "description": "Position within the triangular array A226314(n)/A054531(n) of rationals x/y such that x < y, gcd(x,y)=1 and x+y odd.",
+  "id": "A243808",
+  "mentions": [
+    "A054531",
+    "A169581",
+    "A226314"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:00",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

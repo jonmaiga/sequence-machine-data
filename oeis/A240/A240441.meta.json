@@ -1,0 +1,21 @@
+{
+  "description": "Number of ways to place 4 points on a triangular grid of side n so that no three of these points are vertices of an equilateral triangle of any orientation.",
+  "id": "A240441",
+  "mentions": [
+    "A240439",
+    "A240440",
+    "A240442"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:43:01",
+    "offset": 1,
+    "size": 30,
+    "source": "joeis"
+  }
+}

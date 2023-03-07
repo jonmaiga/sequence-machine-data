@@ -1,0 +1,19 @@
+{
+  "description": "Number of steps when x -> A349824(x) is iterated starting at n needed to reach fixed point or 28, or -1 if trajectory increases for ever or ends in a nontrivial loop other than (28,33).",
+  "id": "A349825",
+  "mentions": [
+    "A349824",
+    "A349826",
+    "A349827"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:24",
+    "offset": 0,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

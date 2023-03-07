@@ -1,0 +1,19 @@
+{
+  "description": "Number of partitions of 2*n+1 into three parts from A339506.",
+  "id": "A341883",
+  "mentions": [
+    "A190353",
+    "A249876",
+    "A339506"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

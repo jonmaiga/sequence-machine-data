@@ -1,0 +1,26 @@
+{
+  "description": "Semi-sums (means) of a Fermat prime and a Mersenne prime.",
+  "id": "A174057",
+  "mentions": [
+    "A000043",
+    "A000668",
+    "A019434",
+    "A155877",
+    "A166484",
+    "A171251",
+    "A171255",
+    "A174055",
+    "A174056"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

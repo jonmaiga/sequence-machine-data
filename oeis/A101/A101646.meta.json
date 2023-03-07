@@ -1,0 +1,28 @@
+{
+  "description": "Array read by antidiagonals: T(n,k) = variant of Knuth's Fibonacci (or circle) product of n and k (A101330). Sometimes called the \"arroba\" product.",
+  "id": "A101646",
+  "mentions": [
+    "A000027",
+    "A014417",
+    "A022342",
+    "A026274",
+    "A035517",
+    "A101330",
+    "A101385",
+    "A101711",
+    "A101741"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

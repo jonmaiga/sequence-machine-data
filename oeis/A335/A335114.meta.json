@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the greatest k > 0 such that Sum_{j=1..n} j*(-k)^j/(k+n) is integer, for n > 1 and a(n) != n + 1.",
+  "id": "A335114",
+  "mentions": [
+    "A335112",
+    "A335113"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 2,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

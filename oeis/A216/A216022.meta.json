@@ -1,0 +1,20 @@
+{
+  "description": "Largest number m such that the Collatz trajectory starting at n contains all numbers not greater than m.",
+  "id": "A216022",
+  "mentions": [
+    "A006370",
+    "A007283",
+    "A070165",
+    "A216059"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:34",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

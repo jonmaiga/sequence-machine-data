@@ -1,0 +1,25 @@
+{
+  "description": "Symmetric matrix based on f(i,j) = max{3i+j-3,i+3j-3}, by antidiagonals.",
+  "id": "A204008",
+  "mentions": [
+    "A002024",
+    "A002260",
+    "A004736",
+    "A202453",
+    "A204004",
+    "A204011",
+    "A206772"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:04:25",
+    "offset": 1,
+    "size": 69,
+    "source": "joeis"
+  }
+}

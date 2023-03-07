@@ -1,0 +1,17 @@
+{
+  "description": "Solution of Diophantine equation (1/x^2 + 1/y^2 = 1/z^2); x values in increasing order.",
+  "id": "A111200",
+  "mentions": [
+    "A094807"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

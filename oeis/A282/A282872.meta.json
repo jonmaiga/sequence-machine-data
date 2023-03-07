@@ -1,0 +1,21 @@
+{
+  "description": "Numbers in A003325 whose 4th power is the sum of two positive cubes in a nontrivial way.",
+  "id": "A282872",
+  "mentions": [
+    "A001235",
+    "A003325",
+    "A051387",
+    "A282873"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:53",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

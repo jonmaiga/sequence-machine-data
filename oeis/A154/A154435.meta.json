@@ -1,0 +1,29 @@
+{
+  "description": "Permutation of nonnegative integers induced by Lamplighter group generating wreath recursion, variant 3: a = s(b,a), b = (a,b), starting from the state a.",
+  "id": "A154435",
+  "mentions": [
+    "A006068",
+    "A054429",
+    "A059893",
+    "A072376",
+    "A122301",
+    "A153141",
+    "A153142",
+    "A154436",
+    "A154437",
+    "A154439",
+    "A154448",
+    "A180200"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:36",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

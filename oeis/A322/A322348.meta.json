@@ -1,0 +1,20 @@
+{
+  "description": "Maximal lattice width of a convex lattice polygon of genus n.",
+  "id": "A322348",
+  "mentions": [
+    "A322242",
+    "A322343",
+    "A322349"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

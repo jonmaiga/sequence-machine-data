@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of ordered trees with n edges and having k vertices of outdegree 2 that have (two) leaves as their (two) children.",
+  "id": "A178519",
+  "mentions": [
+    "A000108",
+    "A001700",
+    "A178520"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

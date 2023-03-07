@@ -1,0 +1,27 @@
+{
+  "description": "Initial prime in set of 4 consecutive primes in arithmetic progression with difference 72.",
+  "id": "A287550",
+  "mentions": [
+    "A033447",
+    "A033448",
+    "A033451",
+    "A052239",
+    "A052242",
+    "A052243",
+    "A058252",
+    "A058323",
+    "A067388",
+    "A210683",
+    "A259224"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:59",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

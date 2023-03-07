@@ -1,0 +1,21 @@
+{
+  "description": "Triangular array, permutation of A119973. a(r,r) = A084109(r); a(r+1,c) = 2*a(r,c).",
+  "id": "A120772",
+  "mentions": [
+    "A001481",
+    "A084109",
+    "A119973"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Primes of the form 1 + Product_{k=1..n} prime(k)^(2^(k-1)).",
+  "id": "A191623",
+  "mentions": [
+    "A000040",
+    "A006862",
+    "A014545",
+    "A191554",
+    "A191555"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

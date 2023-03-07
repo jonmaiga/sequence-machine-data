@@ -1,0 +1,20 @@
+{
+  "description": "Least number with the prime signature of the n-th Wedderburn-Etherington number (A001190).",
+  "id": "A278250",
+  "mentions": [
+    "A001190",
+    "A046523",
+    "A278258"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:45",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

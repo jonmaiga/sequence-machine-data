@@ -1,0 +1,22 @@
+{
+  "description": "Nonsquare numbers n such that digit sum of n = digit sum of square part of n.",
+  "id": "A230356",
+  "mentions": [
+    "A006753",
+    "A230354",
+    "A230355",
+    "A230357"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

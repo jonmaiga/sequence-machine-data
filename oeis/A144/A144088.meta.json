@@ -1,0 +1,23 @@
+{
+  "description": "T(n,k) is the number of partial bijections (or subpermutations) of an n-element set with exactly k fixed points.",
+  "id": "A144088",
+  "mentions": [
+    "A002720",
+    "A144085",
+    "A144086",
+    "A144087"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

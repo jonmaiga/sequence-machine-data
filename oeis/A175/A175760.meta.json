@@ -1,0 +1,17 @@
+{
+  "description": "Numbers n such that d(n + d(n)) = d(n), where d(n) is the sum of the distinct primes dividing n.",
+  "id": "A175760",
+  "mentions": [
+    "A008472"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:59",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

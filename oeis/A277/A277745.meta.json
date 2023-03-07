@@ -1,0 +1,18 @@
+{
+  "description": "Trajectory of 1 under repeated application of the morphism 1 -> 1232, 2 -> 1232232, 3 -> 123232.",
+  "id": "A277745",
+  "mentions": [
+    "A275925",
+    "A276790"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:28:19",
+    "offset": 1,
+    "size": 101,
+    "source": "joeis"
+  }
+}

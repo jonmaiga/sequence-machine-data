@@ -1,0 +1,17 @@
+{
+  "description": "Let k be a number not a power of 2 (see A057716), and define r by 2^(r-1) < k < 2^r; a(n) is smallest prime of the form 2^r*m+1 such that the exponential sum S(sigma_{m,k}) avoids p.",
+  "id": "A269728",
+  "mentions": [
+    "A057716"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

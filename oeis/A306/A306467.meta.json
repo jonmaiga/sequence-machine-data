@@ -1,0 +1,21 @@
+{
+  "description": "Let S(n)_k be the smallest positive integer t that t!k is a multiple of n (t!k is k-tuple factorial of t); then a(n) is the smallest k for which S(n)_k = n.",
+  "id": "A306467",
+  "mentions": [
+    "A002034",
+    "A005383",
+    "A007922",
+    "A036570",
+    "A063917"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

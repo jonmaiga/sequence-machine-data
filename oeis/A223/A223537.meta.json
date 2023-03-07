@@ -1,0 +1,24 @@
+{
+  "description": "Compressed nim-multiplication table read by antidiagonals.",
+  "id": "A223537",
+  "mentions": [
+    "A001317",
+    "A051775",
+    "A134683",
+    "A223538",
+    "A223539",
+    "A223541"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:41",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

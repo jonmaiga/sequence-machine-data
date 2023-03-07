@@ -1,0 +1,18 @@
+{
+  "description": "Number of simple labeled graphs on n nodes with exactly 6 connected components that are trees or cycles.",
+  "id": "A215856",
+  "mentions": [
+    "A215861",
+    "A215986"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:33",
+    "offset": 6,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

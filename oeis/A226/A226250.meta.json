@@ -1,0 +1,18 @@
+{
+  "description": "Positions of positive numbers in the ordering of the rational numbers at A226247.",
+  "id": "A226250",
+  "mentions": [
+    "A226247"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

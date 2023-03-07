@@ -1,0 +1,28 @@
+{
+  "description": "a(n) is the binary number (shown here in decimal) constructed from quadratic residues of 65537 in range [(n^2)+1,(n+1)^2] in such a way that quadratic residues are mapped to 1-bits, and non-quadratic residues (as well as the multiples of 65537) to 0-bits, with the lower end of range mapped to less significant, and the higher end of range to more significant bits.",
+  "id": "A179417",
+  "mentions": [
+    "A000290",
+    "A005408",
+    "A080070",
+    "A122229",
+    "A122232",
+    "A122235",
+    "A122239",
+    "A122242",
+    "A122245",
+    "A165471",
+    "A179418"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:02",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

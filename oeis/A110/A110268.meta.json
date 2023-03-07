@@ -1,0 +1,19 @@
+{
+  "description": "Consider the sequence A110566: lcm{1,2,...,n}/denominator of harmonic number H(n). a(n) is the factor that is changed going from A110566(n) to A110566(n+1).",
+  "id": "A110268",
+  "mentions": [
+    "A061345",
+    "A110566",
+    "A112811"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 104,
+    "source": "oeis-entry"
+  }
+}

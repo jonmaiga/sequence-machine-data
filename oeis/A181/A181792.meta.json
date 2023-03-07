@@ -1,0 +1,19 @@
+{
+  "description": "Positive integers such that, for each k=0,1,2, the count of its divisors congruent to k modulo 3 is congruent to k modulo 3.",
+  "id": "A181792",
+  "mentions": [
+    "A000290",
+    "A181793"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

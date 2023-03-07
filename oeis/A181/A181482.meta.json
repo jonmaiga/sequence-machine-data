@@ -1,0 +1,22 @@
+{
+  "description": "The sum of the first n integers, with every third integer taken negative.",
+  "id": "A181482",
+  "mentions": [
+    "A000217",
+    "A061347",
+    "A131561",
+    "A213203"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:03:03",
+    "offset": 1,
+    "size": 59,
+    "source": "joeis"
+  }
+}

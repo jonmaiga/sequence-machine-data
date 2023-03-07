@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = (p1 + p2)/216 such that p1 >= 5 and p2 = p1 + 2 are twin primes and p1 + p2 is a k-th power with k >= 3.",
+  "id": "A330980",
+  "mentions": [
+    "A076467",
+    "A119768",
+    "A270231",
+    "A330978"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:00",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

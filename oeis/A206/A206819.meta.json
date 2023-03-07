@@ -1,0 +1,25 @@
+{
+  "description": "Riordan array (1/(1-10*x-10*x^2), x/(1-10*x-10*x^2)).",
+  "id": "A206819",
+  "mentions": [
+    "A000042",
+    "A057086",
+    "A084938",
+    "A101950",
+    "A178865",
+    "A178869"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-03 11:05:01",
+    "offset": 0,
+    "size": 36,
+    "source": "joeis"
+  }
+}

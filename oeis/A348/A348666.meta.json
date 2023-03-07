@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of quiddities of 3-periodic dissections of (n + 2)-gons.",
+  "id": "A348666",
+  "mentions": [
+    "A218251"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:23",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

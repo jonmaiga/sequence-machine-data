@@ -1,0 +1,20 @@
+{
+  "description": "Least positive integer k with p(prime(k))+p(prime(k*n)) prime, where p(.) is the partition function given by A000041.",
+  "id": "A261513",
+  "mentions": [
+    "A000040",
+    "A000041",
+    "A259531",
+    "A261515"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:20",
+    "offset": 2,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

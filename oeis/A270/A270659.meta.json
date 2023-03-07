@@ -1,0 +1,18 @@
+{
+  "description": "Maximal value of A270655 between indices 3^n and 3^(n+1).",
+  "id": "A270659",
+  "mentions": [
+    "A270655"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

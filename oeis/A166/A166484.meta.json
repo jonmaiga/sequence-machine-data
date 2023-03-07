@@ -1,0 +1,22 @@
+{
+  "description": "Prime sums of three Fermat numbers: primes of form 2^2^x + 2^2^y + 5.",
+  "id": "A166484",
+  "mentions": [
+    "A000040",
+    "A000215",
+    "A019434",
+    "A155877"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

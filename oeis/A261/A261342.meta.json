@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that either floor(n^(1/k)) or ceiling(n^(1/k)) divides n for all integers k >= 1.",
+  "id": "A261342",
+  "mentions": [
+    "A006446",
+    "A261205",
+    "A261206",
+    "A261341"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:20",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

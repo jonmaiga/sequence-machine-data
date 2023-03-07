@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of Pi^6/540 = zeta(2) * zeta(4).",
+  "id": "A333972",
+  "mentions": [
+    "A001157",
+    "A013661",
+    "A068447",
+    "A098198"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:15:27",
+    "offset": 1,
+    "size": 95,
+    "source": "joeis"
+  }
+}

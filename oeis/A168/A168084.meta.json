@@ -1,0 +1,24 @@
+{
+  "description": "Fibonacci 13-step numbers.",
+  "id": "A168084",
+  "mentions": [
+    "A000078",
+    "A001591",
+    "A001592",
+    "A079262",
+    "A122189",
+    "A168083"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:52",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

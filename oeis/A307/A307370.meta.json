@@ -1,0 +1,27 @@
+{
+  "description": "Number of integer partitions of n with 2 distinct parts, none appearing more than twice.",
+  "id": "A307370",
+  "mentions": [
+    "A000041",
+    "A000726",
+    "A002133",
+    "A004709",
+    "A006918",
+    "A007774",
+    "A117485",
+    "A296205",
+    "A325168"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:38:57",
+    "offset": 0,
+    "size": 68,
+    "source": "joeis"
+  }
+}

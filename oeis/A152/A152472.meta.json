@@ -1,0 +1,17 @@
+{
+  "description": "Largest primes of 'a' consecutive primes whose sum is a prime in A152471.",
+  "id": "A152472",
+  "mentions": [
+    "A152471"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

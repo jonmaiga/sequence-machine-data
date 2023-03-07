@@ -1,0 +1,21 @@
+{
+  "description": "E.g.f.: A(x) = x*exp(x) o x*exp(x^2) o x*exp(x^3) o x*exp(x^4) o ..., the composition of functions x*exp(x^n) for n=...,3,2,1.",
+  "id": "A277181",
+  "mentions": [
+    "A136751",
+    "A277180",
+    "A277183",
+    "A278332"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "The number of non-equivalent distinguishing coloring partitions of the cycle on n vertices with at most k parts (k>=1). The cycle graph is defined for n>=3; extended to n=1,2 using the closed form. Square array read by descending antidiagonals: the rows are indexed by n, the number of vertices of the cycle, and the columns are indexed by k, the number of parts.",
+  "id": "A309785",
+  "mentions": [
+    "A309635",
+    "A309784"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

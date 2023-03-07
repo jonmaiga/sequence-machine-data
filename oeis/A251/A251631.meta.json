@@ -1,0 +1,18 @@
+{
+  "description": "Irrational parts of the Q(sqrt(2)) integers giving the squared radii of the lattice point circles for the Archimedean tiling (4,8,8).",
+  "id": "A251631",
+  "mentions": [
+    "A251629"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

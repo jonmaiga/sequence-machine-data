@@ -1,0 +1,26 @@
+{
+  "description": "Number of partitions of n in which the number of prime parts is not equal to the number of nonprime parts.",
+  "id": "A355306",
+  "mentions": [
+    "A000040",
+    "A000041",
+    "A000607",
+    "A002095",
+    "A002096",
+    "A018252",
+    "A155515",
+    "A355158",
+    "A355225"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

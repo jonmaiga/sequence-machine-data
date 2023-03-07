@@ -1,0 +1,26 @@
+{
+  "description": "Numbers n for which Sum_digits(n!!) is a multiple of Sum_digits(n).",
+  "id": "A135205",
+  "mentions": [
+    "A004152",
+    "A108825",
+    "A120390",
+    "A129980",
+    "A131954",
+    "A131955",
+    "A135204",
+    "A135206"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:23",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

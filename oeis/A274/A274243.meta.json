@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n for which the sum of the odd numbers in the Collatz (3x+1) iteration of n is prime.",
+  "id": "A274243",
+  "mentions": [
+    "A033493",
+    "A225748"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

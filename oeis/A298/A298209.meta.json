@@ -1,0 +1,24 @@
+{
+  "description": "Expansion of (1/q) * phi(q) * phi(-q^5) / (f(-q^4) * f(-q^20)) in powers of q where phi(), f() are Ramanujan theta functions.",
+  "id": "A298209",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A010054",
+    "A010815",
+    "A058559",
+    "A121373",
+    "A298203"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-27 11:07:29",
+    "offset": -1,
+    "size": 66,
+    "source": "joeis"
+  }
+}

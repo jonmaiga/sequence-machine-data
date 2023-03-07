@@ -1,0 +1,25 @@
+{
+  "description": "Table read by rows, in which the n-th row lists all the preimages k, in increasing order, such that k*tau(k) = A338382(n).",
+  "id": "A338383",
+  "mentions": [
+    "A000005",
+    "A038040",
+    "A327166",
+    "A337874",
+    "A338381",
+    "A338382",
+    "A338384",
+    "A338385"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

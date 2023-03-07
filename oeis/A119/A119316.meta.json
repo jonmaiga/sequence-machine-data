@@ -1,0 +1,24 @@
+{
+  "description": "Complement of A119315.",
+  "id": "A119316",
+  "mentions": [
+    "A001221",
+    "A008578",
+    "A020639",
+    "A067029",
+    "A119288",
+    "A119313",
+    "A119314",
+    "A119315"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:08",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Negative continued fraction of e (or negative continued fraction expansion of e).",
+  "id": "A280136",
+  "mentions": [
+    "A003417",
+    "A005131",
+    "A133570",
+    "A228825",
+    "A280135"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

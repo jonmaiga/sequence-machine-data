@@ -1,0 +1,21 @@
+{
+  "description": "Least m>0 such that n = 7^x-y^2 (mod m) has no solution, or 0 if no such m exists.",
+  "id": "A200507",
+  "mentions": [
+    "A051204",
+    "A051218",
+    "A051221",
+    "A200505",
+    "A200524"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:21",
+    "offset": 0,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Primes congruent to +/-1 or +/-7 modulo 25.",
+  "id": "A172469",
+  "mentions": [
+    "A002144",
+    "A129805",
+    "A141927",
+    "A141932",
+    "A141941",
+    "A141946"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

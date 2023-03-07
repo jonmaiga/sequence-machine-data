@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of (x*(-14x^6 - 32x^5 + 16x^4 + 30x^3 - x + 14) + 17)/((x-1)^2*(x+1)).",
+  "id": "A267781",
+  "mentions": [
+    "A063118",
+    "A267540"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:28",
+    "offset": 1,
+    "size": 64,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Sides of squares which are filled exactly (no holes, no overlaps) by the digits needed to write a subsequence of consecutive nonnegative integers starting with 0.",
+  "id": "A158023",
+  "mentions": [
+    "A158022"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

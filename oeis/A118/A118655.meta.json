@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that Hamming weight of n equals Hamming weight of n^3.",
+  "id": "A118655",
+  "mentions": [
+    "A000079",
+    "A000120",
+    "A077436"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:08",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

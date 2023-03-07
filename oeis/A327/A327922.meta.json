@@ -1,0 +1,23 @@
+{
+  "description": "Odd numbers m >= 3 for which phi(2*m)/2 = phi(m)/2 is even, where phi = A000010 (Euler's totient).",
+  "id": "A327922",
+  "mentions": [
+    "A000010",
+    "A002144",
+    "A002145",
+    "A197504",
+    "A329584"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:56",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

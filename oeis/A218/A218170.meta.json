@@ -1,0 +1,19 @@
+{
+  "description": "Smallest prime with power closest to having all digits n times, with one more of 1, 2, 4, 5, 7 or 8.",
+  "id": "A218170",
+  "mentions": [
+    "A217368",
+    "A218169"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

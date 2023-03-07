@@ -1,0 +1,19 @@
+{
+  "description": "Numbers that match non-irreducible monic polynomials having coefficients in {-1,0,1}; complement of A206821.",
+  "id": "A206822",
+  "mentions": [
+    "A205783",
+    "A206331",
+    "A206821"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

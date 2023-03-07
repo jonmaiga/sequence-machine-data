@@ -1,0 +1,21 @@
+{
+  "description": "Sorted number of sizes of the automorphism groups of distinct solutions in the mix of regular convex polyhedra.",
+  "id": "A199549",
+  "mentions": [
+    "A053016",
+    "A199545",
+    "A199546"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

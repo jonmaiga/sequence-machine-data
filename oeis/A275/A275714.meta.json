@@ -1,0 +1,27 @@
+{
+  "description": "Number T(n,k) of set partitions of [n] into k blocks with equal element sum; triangle T(n,k), n>=0, 0<=k<=ceiling(n/2), read by rows.",
+  "id": "A275714",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A035470",
+    "A058377",
+    "A112956",
+    "A112972",
+    "A248112",
+    "A317806",
+    "A317807",
+    "A321282"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:41",
+    "offset": 0,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

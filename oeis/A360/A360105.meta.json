@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that sigma_2(k^2 + 1) == 0 (mod k).",
+  "id": "A360105",
+  "mentions": [
+    "A000032",
+    "A000045",
+    "A001157",
+    "A067719",
+    "A360107"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

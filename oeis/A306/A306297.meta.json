@@ -1,0 +1,24 @@
+{
+  "description": "Number T(n,k) of subsets of [n] with k binary carry-connected components; triangle T(n,k), n >= 0, 0 <= k <= A029837(n+1), read by rows.",
+  "id": "A306297",
+  "mentions": [
+    "A000007",
+    "A000079",
+    "A029837",
+    "A070941",
+    "A325105"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

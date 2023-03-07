@@ -1,0 +1,22 @@
+{
+  "description": "Table read by rows: list of sexy prime quadruples (p, p+6, p+12, p+18) such that p+24 is composite.",
+  "id": "A275682",
+  "mentions": [
+    "A023201",
+    "A023271",
+    "A123083",
+    "A275681"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:41",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Numbers with digits in nondecreasing order without digit 1 whose multiplicative digital root is not 0.",
+  "id": "A318276",
+  "mentions": [
+    "A299690",
+    "A318275"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "fini",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:38",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of partitions of n into a prime and two squares.",
+  "id": "A317684",
+  "mentions": [
+    "A000161",
+    "A317682",
+    "A317685"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

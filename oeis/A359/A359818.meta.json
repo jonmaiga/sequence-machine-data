@@ -1,0 +1,21 @@
+{
+  "description": "Dirichlet inverse of A359549, where A359549 is the characteristic function for numbers that are either an odd squarefree number squared or twice such a number.",
+  "id": "A359818",
+  "mentions": [
+    "A053866",
+    "A143259",
+    "A359549"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "mult",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:33",
+    "offset": 1,
+    "size": 121,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Multisets of numbers such that the sum of reciprocals is 1 and each element e occurs at most lpf(e) - 1 times.",
+  "id": "A275666",
+  "mentions": [
+    "A020473",
+    "A020639",
+    "A034708",
+    "A091784"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-entry"
+  }
+}

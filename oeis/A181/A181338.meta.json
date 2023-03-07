@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of 2-compositions of n having largest entry k (1<=k<=n). A 2-composition of n is a nonnegative matrix with two rows, such that each column has at least one nonzero entry and whose entries sum up to n.",
+  "id": "A181338",
+  "mentions": [
+    "A000129",
+    "A003480",
+    "A181339"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of triforces generated at iteration n in a Koch-Sierpiński Ninja Star.",
+  "id": "A250128",
+  "mentions": [
+    "A077832"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

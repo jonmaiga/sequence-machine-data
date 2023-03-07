@@ -1,0 +1,38 @@
+{
+  "description": "Number of integer partitions of n whose run-lengths are either strictly increasing or strictly decreasing.",
+  "id": "A333190",
+  "mentions": [
+    "A032020",
+    "A059204",
+    "A072706",
+    "A098859",
+    "A100471",
+    "A100881",
+    "A100882",
+    "A100883",
+    "A332280",
+    "A332641",
+    "A332726",
+    "A332745",
+    "A332746",
+    "A332831",
+    "A332833",
+    "A332834",
+    "A332835",
+    "A333147",
+    "A333149",
+    "A333191",
+    "A333192",
+    "A334965"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

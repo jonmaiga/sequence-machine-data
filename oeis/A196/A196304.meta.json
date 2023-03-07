@@ -1,0 +1,19 @@
+{
+  "description": "G.f.: x = Sum_{n>=1} a(n)*x^n/(1 + n*(n+1)/2*x)^n.",
+  "id": "A196304",
+  "mentions": [
+    "A082157",
+    "A195737"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:17",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

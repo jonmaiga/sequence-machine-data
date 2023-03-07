@@ -1,0 +1,22 @@
+{
+  "description": "Primes p that are equal to the sum of the first k primes where p=prime(prime(k)).",
+  "id": "A260981",
+  "mentions": [
+    "A006450",
+    "A007504",
+    "A013918"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "bref",
+    "fini",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

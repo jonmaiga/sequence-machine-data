@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the smallest number m such that all n numbers m+1, m.m+1, ..., m.m. ... .m+1 are prime, where dot means concatenation.",
+  "id": "A153434",
+  "mentions": [
+    "A153435"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

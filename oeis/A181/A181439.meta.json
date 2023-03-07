@@ -1,0 +1,19 @@
+{
+  "description": "Let x_0, x_1, ... be the real zeros of Sum_{m>=1} mu(m)*x^(m-1); sequence gives decimal expansion of x_0.",
+  "id": "A181439",
+  "mentions": [
+    "A008683",
+    "A181438"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

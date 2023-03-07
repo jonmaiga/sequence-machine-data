@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = |{0 < k < n: prime(k) + pi(n-k) is a triangular number}|, where pi(.) is given by A000720.",
+  "id": "A238405",
+  "mentions": [
+    "A000040",
+    "A000217",
+    "A000720",
+    "A238386",
+    "A238402"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

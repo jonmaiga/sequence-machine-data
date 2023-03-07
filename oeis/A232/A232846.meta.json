@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the length of the n-th chunk of nonprimes in this sequence, the chunks being separated by primes; lexicographically least such sequence (starting with a nonprime).",
+  "id": "A232846",
+  "mentions": [
+    "A232805"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

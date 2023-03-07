@@ -1,0 +1,19 @@
+{
+  "description": "Nonnegative integers that, when written in binary, are palindromes with a middle run of 0's.",
+  "id": "A175543",
+  "mentions": [
+    "A006995",
+    "A175544"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

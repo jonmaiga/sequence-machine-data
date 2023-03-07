@@ -1,0 +1,29 @@
+{
+  "description": "Sum of the lengths of the second ascents in all Dyck paths of semilength n+2.",
+  "id": "A114277",
+  "mentions": [
+    "A000108",
+    "A001453",
+    "A002057",
+    "A014137",
+    "A014138",
+    "A091866",
+    "A104496",
+    "A114276",
+    "A127156",
+    "A143955",
+    "A279557",
+    "A323224"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:04",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Total sum of repeated parts in all partitions of n.",
+  "id": "A194544",
+  "mentions": [
+    "A066186",
+    "A103628",
+    "A135010",
+    "A138121",
+    "A194452"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:28",
+    "offset": 0,
+    "size": 42,
+    "source": "joeis"
+  }
+}

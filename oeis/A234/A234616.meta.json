@@ -1,0 +1,21 @@
+{
+  "description": "Numbers of undirected cycles in the complete tripartite graph K_{n,n,n}.",
+  "id": "A234616",
+  "mentions": [
+    "A070968",
+    "A234365",
+    "A234633",
+    "A296546"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:52",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

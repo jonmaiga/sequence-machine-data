@@ -1,0 +1,18 @@
+{
+  "description": "Primes of the form k! / 7 - 1.",
+  "id": "A290120",
+  "mentions": [
+    "A139177",
+    "A139202"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:05",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-bfile"
+  }
+}

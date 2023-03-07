@@ -1,0 +1,21 @@
+{
+  "description": "Number of distinct primes p such that p^p divides the arithmetic derivative of n.",
+  "id": "A327928",
+  "mentions": [
+    "A003415",
+    "A129251",
+    "A327929",
+    "A327932"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:56",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

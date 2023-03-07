@@ -1,0 +1,20 @@
+{
+  "description": "Numbers with binary expansion Sum_{k = 0..w} b_k * 2^k such that the polynomial Sum_{k = 0..w} (X+k)^2 * (-1)^b_k is constant.",
+  "id": "A337672",
+  "mentions": [
+    "A031443",
+    "A056539",
+    "A133468"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

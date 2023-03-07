@@ -1,0 +1,22 @@
+{
+  "description": "Number of reduced Latin n-dimensional hypercubes of order 4; labeled n-ary loops of order 4 with fixed identity.",
+  "id": "A211214",
+  "mentions": [
+    "A000315",
+    "A098843",
+    "A100539",
+    "A132205",
+    "A211215"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

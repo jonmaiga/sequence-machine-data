@@ -1,0 +1,18 @@
+{
+  "description": "Numbers that are a sum of m=3 successive primes and also a product of m=3 (other) successive primes.",
+  "id": "A203619",
+  "mentions": [
+    "A034961",
+    "A046301"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:23",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

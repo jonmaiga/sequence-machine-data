@@ -1,0 +1,19 @@
+{
+  "description": "Largest k such that k^n divides k!!",
+  "id": "A217672",
+  "mentions": [
+    "A006882",
+    "A133481",
+    "A217467"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

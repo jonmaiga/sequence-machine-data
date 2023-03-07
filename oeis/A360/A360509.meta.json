@@ -1,0 +1,17 @@
+{
+  "description": "Number of words of length n over the alphabet [A-Z] that do not contain the string CAT.",
+  "id": "A360509",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

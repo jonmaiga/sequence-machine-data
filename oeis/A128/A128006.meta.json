@@ -1,0 +1,24 @@
+{
+  "description": "Numerators of rational-valued radii of circles given by 3 distinct integer points in the euclidean plane.",
+  "id": "A128006",
+  "mentions": [
+    "A128007",
+    "A128008",
+    "A128009",
+    "A128010",
+    "A128011",
+    "A192493",
+    "A192494"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

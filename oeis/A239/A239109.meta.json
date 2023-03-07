@@ -1,0 +1,23 @@
+{
+  "description": "Number of hybrid 6-ary trees with n internal nodes.",
+  "id": "A239109",
+  "mentions": [
+    "A000045",
+    "A007863",
+    "A215654",
+    "A239107",
+    "A239108",
+    "A245049"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:56",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

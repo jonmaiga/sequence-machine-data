@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of the expectation of the maximum of a size 5 sample from a normal (0,1) distribution.",
+  "id": "A243453",
+  "mentions": [
+    "A087197",
+    "A188340",
+    "A243446",
+    "A243447",
+    "A243448",
+    "A243452"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:48:05",
+    "offset": 1,
+    "size": 102,
+    "source": "joeis"
+  }
+}

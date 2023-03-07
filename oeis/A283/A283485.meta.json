@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that k![6]-2 is prime, where k![6] = A085158 (k) = sextuple factorial.",
+  "id": "A283485",
+  "mentions": [
+    "A076185",
+    "A085158",
+    "A094144",
+    "A204657"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "changed",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

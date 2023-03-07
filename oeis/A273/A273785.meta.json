@@ -1,0 +1,25 @@
+{
+  "description": "Numbers n where a composite c < n exists such that n^(c-1) == 1 (mod c^2), i.e., such that c is a \"base-n Wieferich pseudoprime\".",
+  "id": "A273785",
+  "mentions": [
+    "A048111",
+    "A240719",
+    "A244752",
+    "A255885",
+    "A256517",
+    "A267288",
+    "A268310",
+    "A273339",
+    "A273340"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:38",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

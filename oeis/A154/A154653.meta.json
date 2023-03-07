@@ -1,0 +1,19 @@
+{
+  "description": "Triangular T(n,k) = binomial(prime(n+1) - 1, prime(k+1) - 1)) with T(n,0) = 1, read by rows.",
+  "id": "A154653",
+  "mentions": [
+    "A154652"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:36",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

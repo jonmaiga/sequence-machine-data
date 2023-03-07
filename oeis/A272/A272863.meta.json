@@ -1,0 +1,23 @@
+{
+  "description": "Numerator of the ratio of consecutive prime gaps.",
+  "id": "A272863",
+  "mentions": [
+    "A000040",
+    "A001223",
+    "A184247",
+    "A274225",
+    "A274263"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:37",
+    "offset": 1,
+    "size": 96,
+    "source": "oeis-bfile"
+  }
+}

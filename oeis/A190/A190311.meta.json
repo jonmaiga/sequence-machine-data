@@ -1,0 +1,23 @@
+{
+  "description": "Number of nonzero digits when writing n in base where place values are positive cubes, cf. A000433.",
+  "id": "A190311",
+  "mentions": [
+    "A000433",
+    "A000578",
+    "A001093",
+    "A048766",
+    "A055640",
+    "A190321"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:14",
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Prime numbers of the form floor((j/7)*10^k) where 1 <= j <= 6 and k >= 1.",
+  "id": "A343833",
+  "mentions": [
+    "A001913",
+    "A101202"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

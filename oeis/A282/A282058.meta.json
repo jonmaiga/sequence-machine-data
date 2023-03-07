@@ -1,0 +1,19 @@
+{
+  "description": "Numbers that are not triangular numbers and cannot be written as the sum of a triangular number and two odd squares.",
+  "id": "A282058",
+  "mentions": [
+    "A000217",
+    "A016754",
+    "A141273"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "description": "Tetrangle where T(n,H(u),H(v)) is the coefficient of s(v) in h(u), where u and v are integer partitions of n, H is Heinz number, s is Schur functions, and h is homogeneous symmetric functions.",
+  "id": "A321923",
+  "mentions": [
+    "A005651",
+    "A008480",
+    "A056239",
+    "A124794",
+    "A124795",
+    "A153452",
+    "A215366",
+    "A296188",
+    "A300121",
+    "A319191",
+    "A319193",
+    "A321759",
+    "A321912",
+    "A321935"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

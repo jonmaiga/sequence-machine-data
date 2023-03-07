@@ -1,0 +1,20 @@
+{
+  "description": "Places n for which A046132(n) and A006512(n) is a twin prime pair.",
+  "id": "A174042",
+  "mentions": [
+    "A001359",
+    "A006512",
+    "A023200",
+    "A046132"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

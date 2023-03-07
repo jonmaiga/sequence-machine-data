@@ -1,0 +1,28 @@
+{
+  "description": "Characteristic function of squares or three times squares.",
+  "id": "A195198",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A010054",
+    "A010815",
+    "A089801",
+    "A121373",
+    "A127692",
+    "A145377",
+    "A214284"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:25:03",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "description": "Expansion of Pi in balanced ternary.",
+  "id": "A331313",
+  "mentions": [
+    "A000796",
+    "A004601",
+    "A004602",
+    "A004603",
+    "A004604",
+    "A004605",
+    "A004606",
+    "A004608",
+    "A006941",
+    "A060707",
+    "A062964",
+    "A068436",
+    "A068437",
+    "A068438",
+    "A068439",
+    "A068440",
+    "A331990"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:00",
+    "offset": 2,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

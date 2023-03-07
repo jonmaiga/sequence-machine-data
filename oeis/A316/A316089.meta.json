@@ -1,0 +1,20 @@
+{
+  "description": "Number of ordered (k_1, k_2, ..., k_r) such that (Z/nZ)* is isomorphic to C_{k_1} X C_{k_2} X ... X C_{k_r}. Here (Z/nZ)* is the multiplicative group of integers modulo n, r = rank((Z/nZ)*).",
+  "id": "A316089",
+  "mentions": [
+    "A033948",
+    "A302257",
+    "A305236"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:34",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

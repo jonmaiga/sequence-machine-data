@@ -1,0 +1,18 @@
+{
+  "description": "Number of ways to express n in the form 1 +- 2 +- 3 ... +- n.",
+  "id": "A348639",
+  "mentions": [
+    "A000980",
+    "A058377"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:23",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

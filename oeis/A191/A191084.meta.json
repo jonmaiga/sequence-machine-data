@@ -1,0 +1,18 @@
+{
+  "description": "Primes p that have Kronecker symbol (p|87) = -1.",
+  "id": "A191084",
+  "mentions": [
+    "A191052"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:18:33",
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

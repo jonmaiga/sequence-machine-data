@@ -1,0 +1,19 @@
+{
+  "description": "Number of consecutive nonprime numbers following Euclid numbers A006862.",
+  "id": "A281318",
+  "mentions": [
+    "A002110",
+    "A006862"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:50",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

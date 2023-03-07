@@ -1,0 +1,148 @@
+{
+  "oi": 179949,
+  "ps": [
+    {
+      "d": "2021-11-01",
+      "ix": "contfrac[sqrt(γ)]",
+      "mt": 50,
+      "px": [
+        "γ",
+        "sqrt",
+        "contfrac"
+      ]
+    },
+    {
+      "d": "2022-04-07",
+      "ix": "or(contfrac[root(γ, 2)], char[1])",
+      "mt": 50,
+      "px": [
+        "γ",
+        "2",
+        "root",
+        "contfrac",
+        "1",
+        "char",
+        "or"
+      ]
+    },
+    {
+      "d": "2022-04-14",
+      "ix": "∑{d}[contfrac[root(γ, 2)], φ(#)]",
+      "mt": 50,
+      "px": [
+        "γ",
+        "2",
+        "root",
+        "contfrac",
+        "#",
+        "φ",
+        "∑{d}"
+      ]
+    },
+    {
+      "d": "2022-04-19",
+      "ix": "xor(1, xor(1, contfrac[root(γ, 2)]))",
+      "mt": 50,
+      "px": [
+        "1",
+        "1",
+        "γ",
+        "2",
+        "root",
+        "contfrac",
+        "xor",
+        "xor"
+      ]
+    },
+    {
+      "d": "2022-06-06",
+      "ix": "contfrac[root(γ, 2)]+C(n, 64)",
+      "mt": 50,
+      "px": [
+        "γ",
+        "2",
+        "root",
+        "contfrac",
+        "n",
+        "64",
+        "C",
+        "+"
+      ]
+    },
+    {
+      "d": "2022-06-06",
+      "ix": "gcd(C(n, 64), contfrac[root(γ, 2)])",
+      "mt": 50,
+      "px": [
+        "n",
+        "64",
+        "C",
+        "γ",
+        "2",
+        "root",
+        "contfrac",
+        "gcd"
+      ]
+    },
+    {
+      "d": "2022-06-06",
+      "ix": "contfrac[root(γ, 2)]*contfrac[ϕ²]",
+      "mt": 50,
+      "px": [
+        "γ",
+        "2",
+        "root",
+        "contfrac",
+        "ϕ",
+        "²",
+        "contfrac",
+        "*"
+      ]
+    },
+    {
+      "d": "2022-04-07",
+      "ix": "contfrac[root(γ, 2)]^(char[1]+1)",
+      "mt": 50,
+      "px": [
+        "γ",
+        "2",
+        "root",
+        "contfrac",
+        "1",
+        "char",
+        "1",
+        "+",
+        "^"
+      ]
+    },
+    {
+      "d": "2022-04-05",
+      "ix": "lcm((-1)^n, contfrac[root(γ, 2)])",
+      "mt": 50,
+      "px": [
+        "1",
+        "neg",
+        "n",
+        "^",
+        "γ",
+        "2",
+        "root",
+        "contfrac",
+        "lcm"
+      ]
+    },
+    {
+      "d": "2022-10-20",
+      "ix": "contfrac[C346589]/contfrac[ϕ²]",
+      "mt": 50,
+      "px": [
+        "C346589",
+        "contfrac",
+        "ϕ",
+        "²",
+        "contfrac",
+        "/"
+      ]
+    }
+  ]
+}

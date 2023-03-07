@@ -1,0 +1,18 @@
+{
+  "description": "Number of length-n 0..6 arrays with no repeated value greater than or equal to the previous repeated value.",
+  "id": "A269407",
+  "mentions": [
+    "A269409"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:31",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

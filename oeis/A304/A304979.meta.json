@@ -1,0 +1,20 @@
+{
+  "description": "The nonzero terms of the cogrowth sequence of (Z/5Z)^*2 = * with respect to the generating set {(x,1), (1,y)}.",
+  "id": "A304979",
+  "mentions": [
+    "A047098",
+    "A107026",
+    "A126869"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:24",
+    "offset": 0,
+    "size": 22,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Langton's ant on a truncated square tiling: number of black cells after n moves of the ant when starting on an octagon and looking towards an edge where the tile meets another octagon.",
+  "id": "A308973",
+  "mentions": [
+    "A255938",
+    "A269757",
+    "A308590",
+    "A308937",
+    "A326167",
+    "A326352"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:33",
+    "offset": 0,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

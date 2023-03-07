@@ -1,0 +1,21 @@
+{
+  "description": "Pandigitals in some base (A061845) with an extra property: each number formed by the first i digits is divisible by i (digits in the pandigital base).",
+  "id": "A111456",
+  "mentions": [
+    "A061845",
+    "A256112"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

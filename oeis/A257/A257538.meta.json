@@ -1,0 +1,25 @@
+{
+  "description": "The Matula number of the rooted tree obtained from the rooted tree T having Matula number n by replacing each edge of T with a path of length 2.",
+  "id": "A257538",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A006450",
+    "A032742",
+    "A046523",
+    "A049084",
+    "A055396"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:15",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

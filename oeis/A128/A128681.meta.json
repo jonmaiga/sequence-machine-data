@@ -1,0 +1,26 @@
+{
+  "description": "Numbers k such that k^3 divides 8^(k^2) + 1.",
+  "id": "A128681",
+  "mentions": [
+    "A127263",
+    "A128677",
+    "A128678",
+    "A128679",
+    "A128680",
+    "A128682",
+    "A128683",
+    "A128684",
+    "A128685"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

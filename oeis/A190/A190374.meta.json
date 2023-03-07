@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = n + [n*r/t] + [n*s/t] + [n*u/t]; r=sin(Pi/5), s=1/r, t=sin(2*Pi/5), u=1/t.",
+  "id": "A190374",
+  "mentions": [
+    "A190372",
+    "A190373",
+    "A190375"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:14",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

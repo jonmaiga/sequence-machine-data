@@ -1,0 +1,28 @@
+{
+  "description": "Decimal expansion of 17 + 12*sqrt(2).",
+  "id": "A156164",
+  "mentions": [
+    "A002193",
+    "A005259",
+    "A059415",
+    "A059416",
+    "A156035",
+    "A156160",
+    "A156161",
+    "A156162",
+    "A156163",
+    "A278310"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 20:03:41",
+    "offset": 2,
+    "size": 105,
+    "source": "joeis"
+  }
+}

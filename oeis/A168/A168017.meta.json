@@ -1,0 +1,29 @@
+{
+  "description": "Triangle read by rows in which row n lists the number of partitions of n into parts divisible by d, where d is a divisor of n listed in decreasing order.",
+  "id": "A168017",
+  "mentions": [
+    "A000005",
+    "A000041",
+    "A047968",
+    "A056538",
+    "A135010",
+    "A138121",
+    "A168016",
+    "A168018",
+    "A168019",
+    "A168020",
+    "A168021"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:52",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "description": "Number of multiset partitions of strongly normal multisets of size n such that the blocks have empty intersection.",
+  "id": "A317755",
+  "mentions": [
+    "A007716",
+    "A035310",
+    "A255906",
+    "A281116",
+    "A317073",
+    "A317077",
+    "A317078",
+    "A317532",
+    "A317533",
+    "A317748",
+    "A317751",
+    "A317752",
+    "A317757",
+    "A317775"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

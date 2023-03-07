@@ -1,0 +1,20 @@
+{
+  "description": "The number of P-positions in the At-Most-2-Jars game with up to three piles, allowing for piles of zero, that are born in generation n.",
+  "id": "A241985",
+  "mentions": [
+    "A237711",
+    "A241983",
+    "A241986",
+    "A241987"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

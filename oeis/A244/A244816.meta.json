@@ -1,0 +1,33 @@
+{
+  "description": "The hexagonal spiral of Champernowne, read along the South (or 180-degree) ray.",
+  "id": "A244816",
+  "mentions": [
+    "A007376",
+    "A033307",
+    "A056105",
+    "A244806",
+    "A244807",
+    "A244808",
+    "A244809",
+    "A244810",
+    "A244811",
+    "A244812",
+    "A244813",
+    "A244814",
+    "A244815",
+    "A244817",
+    "A244818"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

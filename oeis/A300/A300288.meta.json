@@ -1,0 +1,20 @@
+{
+  "description": "Irregular triangle read by rows: row n contains numbers k such that -n<=k<=n and gcd(k, 2*n+1) != 1.",
+  "id": "A300288",
+  "mentions": [
+    "A053193",
+    "A299714"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-entry"
+  }
+}

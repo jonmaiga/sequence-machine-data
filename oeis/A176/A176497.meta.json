@@ -1,0 +1,28 @@
+{
+  "description": "Order of the Cross Set which is the subset of the set of distinct resistances that can be produced using n equal resistors in series and/or parallel,",
+  "id": "A176497",
+  "mentions": [
+    "A048211",
+    "A153588",
+    "A174283",
+    "A174284",
+    "A174285",
+    "A174286",
+    "A176498",
+    "A176499",
+    "A176500",
+    "A176501",
+    "A176502"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

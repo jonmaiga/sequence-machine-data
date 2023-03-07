@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of constant related to Goat Problem, Donkey Problem, Tenenbaum and A173201.",
+  "id": "A173571",
+  "mentions": [
+    "A072112",
+    "A075838",
+    "A133731",
+    "A173201"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

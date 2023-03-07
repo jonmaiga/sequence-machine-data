@@ -1,0 +1,17 @@
+{
+  "description": "Number of tilings of a 3 X n rectangle using integer-sided rectangular tiles of equal area.",
+  "id": "A220769",
+  "mentions": [
+    "A220777"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:39",
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

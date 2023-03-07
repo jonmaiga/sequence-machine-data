@@ -1,0 +1,18 @@
+{
+  "description": "The number of terms before reaching zero when starting at n and iterating: f(n) = n, f(n+1) = n+1; f(n+k) = (f(n+k-2) * f(n+k-1)) (mod (n+k)), where k>=2.",
+  "id": "A352407",
+  "mentions": [
+    "A079777",
+    "A352406"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

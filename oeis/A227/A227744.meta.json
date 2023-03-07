@@ -1,0 +1,21 @@
+{
+  "description": "Squares that occur in A173318.",
+  "id": "A227744",
+  "mentions": [
+    "A096033",
+    "A173318",
+    "A227743",
+    "A227745"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

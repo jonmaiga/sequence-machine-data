@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of Schroeder paths of length 2n and having k platforms (i.e., UHD, UHHD, UHHHD, ..., where U=(1,1), D=(1,-1), H=(2,0)).",
+  "id": "A104546",
+  "mentions": [
+    "A006318",
+    "A104547"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:55",
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of indecomposable self-dual additive codes of length n over GF(4) with minimal distance 4.",
+  "id": "A151827",
+  "mentions": [
+    "A090899",
+    "A151825",
+    "A151826"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 2,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

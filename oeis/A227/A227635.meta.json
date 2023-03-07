@@ -1,0 +1,18 @@
+{
+  "description": "G.f.: Sum_{n>=1} x^n * (1+x)^n / (1-x^n).",
+  "id": "A227635",
+  "mentions": [
+    "A097939"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Least significant decimal digit of (2n-1)^2.",
+  "id": "A191759",
+  "mentions": [
+    "A008959",
+    "A016754",
+    "A080891"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:37:37",
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

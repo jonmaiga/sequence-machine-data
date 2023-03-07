@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the forgotten index of the Fibonacci cube Gamma(n).",
+  "id": "A307208",
+  "mentions": [
+    "A245825",
+    "A306967",
+    "A307157"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 16:26:14",
+    "offset": 1,
+    "size": 30,
+    "source": "joeis"
+  }
+}

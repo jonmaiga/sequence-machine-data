@@ -1,0 +1,32 @@
+{
+  "description": "Heinz number of the negated differences plus one of the integer partition with Heinz number n (with the last part taken to be 0).",
+  "id": "A325390",
+  "mentions": [
+    "A007294",
+    "A007862",
+    "A056239",
+    "A112798",
+    "A320509",
+    "A325324",
+    "A325325",
+    "A325327",
+    "A325351",
+    "A325352",
+    "A325362",
+    "A325364",
+    "A325367",
+    "A325392",
+    "A325460",
+    "A325461"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

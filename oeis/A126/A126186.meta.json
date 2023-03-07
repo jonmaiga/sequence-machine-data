@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(n,k) is number of hex trees with n edges and level of first leaf (in the preorder traversal) equal to k (1 <= k <= n).",
+  "id": "A126186",
+  "mentions": [
+    "A000244",
+    "A002212",
+    "A025238",
+    "A027471",
+    "A126187"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:44",
+    "offset": 1,
+    "size": 48,
+    "source": "joeis"
+  }
+}

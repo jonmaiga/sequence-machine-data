@@ -1,0 +1,20 @@
+{
+  "description": "Adjacent-to-central terms of even-indexed rows of triangle A125806: a(n) = A125806(2n+2,n).",
+  "id": "A125808",
+  "mentions": [
+    "A063075",
+    "A125806",
+    "A125807",
+    "A125809"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) is the number of parts in the partition of n into 2*k-1 consecutive parts, 1 <= k <= A351846(n). T(n,k) = 0 if no such partition exists.",
+  "id": "A352269",
+  "mentions": [
+    "A000384",
+    "A082647",
+    "A285914",
+    "A299765",
+    "A341309",
+    "A347263",
+    "A347529",
+    "A351819",
+    "A351824",
+    "A351846",
+    "A352425"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 106,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Clusters of consecutive composites in A141089.",
+  "id": "A141278",
+  "mentions": [
+    "A002808",
+    "A036691",
+    "A053767",
+    "A141089",
+    "A141090",
+    "A141091",
+    "A141092",
+    "A141274",
+    "A141275"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of a constant derived from the differential equation L(x,y) = x * (1 + y*x*L'(x,y)) / (1 + x*L'(x,y)).",
+  "id": "A301389",
+  "mentions": [
+    "A301305"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of non-symmetric families of n pairwise non-adjacent vertices (special cuts) of the 600-cell.",
+  "id": "A143661",
+  "mentions": [
+    "A135059"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

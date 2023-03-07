@@ -1,0 +1,21 @@
+{
+  "description": "Greatest integer k such that prime(n+1) + ... + prime(n+k) <= prime(1) + ... + prime(n).",
+  "id": "A231153",
+  "mentions": [
+    "A007504",
+    "A231149",
+    "A231152"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 2,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

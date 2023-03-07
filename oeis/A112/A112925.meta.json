@@ -1,0 +1,21 @@
+{
+  "description": "Largest squarefree integer < the n-th prime.",
+  "id": "A112925",
+  "mentions": [
+    "A061400",
+    "A112926",
+    "A112928",
+    "A112929",
+    "A112930"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:03",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

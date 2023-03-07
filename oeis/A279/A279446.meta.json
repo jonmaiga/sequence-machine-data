@@ -1,0 +1,24 @@
+{
+  "description": "Number of non-equivalent (mod D_3) ways to place 6 indistinguishable points on a triangular grid of side n so that no two of them are adjacent.",
+  "id": "A279446",
+  "mentions": [
+    "A032091",
+    "A239572",
+    "A239573",
+    "A239574",
+    "A239575",
+    "A282998"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:29:19",
+    "offset": 3,
+    "size": 26,
+    "source": "joeis"
+  }
+}

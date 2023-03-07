@@ -1,0 +1,20 @@
+{
+  "description": "E.g.f.: exp(exp(x) - 1) / (sec(x) + tan(x)).",
+  "id": "A337447",
+  "mentions": [
+    "A000110",
+    "A000111",
+    "A000764"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:41:25",
+    "offset": 0,
+    "size": 25,
+    "source": "joeis"
+  }
+}

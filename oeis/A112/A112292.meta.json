@@ -1,0 +1,27 @@
+{
+  "description": "An invertible triangle of ratios of double factorials.",
+  "id": "A112292",
+  "mentions": [
+    "A001147",
+    "A051577",
+    "A051579",
+    "A094587",
+    "A112293",
+    "A112294",
+    "A112295",
+    "A136214"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

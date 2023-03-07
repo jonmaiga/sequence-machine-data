@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k for which A006255(k) > A328045(k).",
+  "id": "A328218",
+  "mentions": [
+    "A006255",
+    "A269045",
+    "A328045"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

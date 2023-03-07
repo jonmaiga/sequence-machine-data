@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the least integer that is 4-dimensional pyramidal in exactly n ways.",
+  "id": "A333932",
+  "mentions": [
+    "A063778",
+    "A080852",
+    "A261721",
+    "A333916"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

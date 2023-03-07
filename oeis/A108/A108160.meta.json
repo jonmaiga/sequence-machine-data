@@ -1,0 +1,21 @@
+{
+  "description": "Squarefree integers m congruent to 5 modulo 8 such that the minimal solution of the Pell equation x^2 - m*y^2 = +-4 has both x and y even.",
+  "id": "A108160",
+  "mentions": [
+    "A000924",
+    "A048941",
+    "A048942",
+    "A107997",
+    "A107999"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

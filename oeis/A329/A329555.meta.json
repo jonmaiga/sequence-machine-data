@@ -1,0 +1,36 @@
+{
+  "description": "Smallest MM-number of a clutter (connected antichain) of n distinct sets.",
+  "id": "A329555",
+  "mentions": [
+    "A048143",
+    "A056239",
+    "A112798",
+    "A302242",
+    "A302494",
+    "A305078",
+    "A316476",
+    "A318991",
+    "A319837",
+    "A320275",
+    "A320456",
+    "A322113",
+    "A327076",
+    "A328514",
+    "A329552",
+    "A329558",
+    "A329559",
+    "A329560",
+    "A329561",
+    "A329627"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Let f(k) = exp(Pi*sqrt(k)); sequence gives numbers k such that ceiling(f(k)) - f(k) < 1/10^3.",
+  "id": "A127022",
+  "mentions": [
+    "A035484",
+    "A127023",
+    "A127024",
+    "A127025"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:14",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

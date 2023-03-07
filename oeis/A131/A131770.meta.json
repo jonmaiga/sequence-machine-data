@@ -1,0 +1,19 @@
+{
+  "description": "First differences (A131771) equal this sequence with terms repeated at positions: {m*(m+1)/2, m>=0}.",
+  "id": "A131770",
+  "mentions": [
+    "A131771",
+    "A131772"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

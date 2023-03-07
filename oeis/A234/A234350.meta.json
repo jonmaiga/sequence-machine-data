@@ -1,0 +1,26 @@
+{
+  "description": "Triangle T(n, k) = Number of non-equivalent (mod D_3) ways to arrange k indistinguishable points on a triangular grid of side n so that no three points are collinear. Triangle read by rows.",
+  "id": "A234350",
+  "mentions": [
+    "A001399",
+    "A194136",
+    "A227327",
+    "A234349",
+    "A234351",
+    "A234352",
+    "A234353",
+    "A234354"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nice",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:52",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

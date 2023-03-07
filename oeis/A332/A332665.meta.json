@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = largest number k that is not the sum of {2 squares, a nonnegative 5th power, and a nonnegative n-th power}.",
+  "id": "A332665",
+  "mentions": [
+    "A022566",
+    "A111151",
+    "A299796"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 3,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

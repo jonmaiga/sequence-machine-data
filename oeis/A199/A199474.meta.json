@@ -1,0 +1,21 @@
+{
+  "description": "Leftmost column in the monotonic justified array of all positive generalized Fibonacci sequences (A160271).",
+  "id": "A199474",
+  "mentions": [
+    "A160271",
+    "A199087",
+    "A199088",
+    "A339399"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Conjectured total number of times that k-n appears in the Collatz (3x+1) sequence of k for k = 1, 2, 3,....",
+  "id": "A221213",
+  "mentions": [
+    "A070165",
+    "A070991"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:39",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Number triangle read by rows, related to exp(x)/(cos(x) + sin(x)).",
+  "id": "A117442",
+  "mentions": [
+    "A000027",
+    "A001586",
+    "A045943",
+    "A111080",
+    "A117440",
+    "A117443",
+    "A122045",
+    "A161722"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:07",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

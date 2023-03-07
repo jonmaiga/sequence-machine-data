@@ -1,0 +1,34 @@
+{
+  "description": "Multiples of 10 and odd numbers interleaved.",
+  "id": "A195817",
+  "mentions": [
+    "A001477",
+    "A005408",
+    "A008592",
+    "A022998",
+    "A026741",
+    "A080512",
+    "A091998",
+    "A165998",
+    "A195140",
+    "A195151",
+    "A195152",
+    "A195159",
+    "A195161",
+    "A195312",
+    "A195818"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:17",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Allan Johnson's set of 48 squarefree numbers whose reciprocals add to 1, with the property that each number has exactly two distinct prime factors.",
+  "id": "A201650",
+  "mentions": [
+    "A201463",
+    "A201464",
+    "A201514",
+    "A334342"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

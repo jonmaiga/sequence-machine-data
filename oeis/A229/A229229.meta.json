@@ -1,0 +1,19 @@
+{
+  "description": "Number of set partitions of {1,...,n^2} into sets of size at most n.",
+  "id": "A229229",
+  "mentions": [
+    "A229223",
+    "A229243"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:46",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-bfile"
+  }
+}

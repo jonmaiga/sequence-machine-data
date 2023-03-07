@@ -1,0 +1,19 @@
+{
+  "description": "Write the n-th (odd) binary palindrome in binary. If there are an even number of digits, then combine the middle two digits into one digit. If there are an odd number of digits, then double the middle digit. a(n) is the decimal result.",
+  "id": "A162749",
+  "mentions": [
+    "A006995",
+    "A162750"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:44",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "Number of middle divisors of 2*n-1.",
+  "id": "A354451",
+  "mentions": [
+    "A005408",
+    "A067742",
+    "A099774",
+    "A237048",
+    "A237270",
+    "A237271",
+    "A237593",
+    "A245092",
+    "A249351",
+    "A279387",
+    "A319529",
+    "A354452"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

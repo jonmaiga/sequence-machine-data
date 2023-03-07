@@ -1,0 +1,29 @@
+{
+  "description": "Numbers k such that lcm(1,2,3,...,k)/17 equals the denominator of the k-th harmonic number H(k).",
+  "id": "A112820",
+  "mentions": [
+    "A002805",
+    "A003418",
+    "A098464",
+    "A110566",
+    "A112813",
+    "A112814",
+    "A112815",
+    "A112816",
+    "A112817",
+    "A112818",
+    "A112819",
+    "A112821",
+    "A112822"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:03",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

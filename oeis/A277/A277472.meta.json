@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = (-i)^n * Integral_{x>=0} H_n(i*x) * exp(-x), where H_n(x) is n-th Hermite polynomial, i=sqrt(-1).",
+  "id": "A277472",
+  "mentions": [
+    "A056040",
+    "A056545",
+    "A277374",
+    "A277393"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:43",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

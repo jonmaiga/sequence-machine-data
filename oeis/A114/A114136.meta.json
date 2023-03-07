@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that k divides the sum of digits of all numbers from 1 to k.",
+  "id": "A114136",
+  "mentions": [
+    "A037123"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:04",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

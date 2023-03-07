@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that there is no j <= k with k!+j!-1 prime.",
+  "id": "A108097",
+  "mentions": [
+    "A075758"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

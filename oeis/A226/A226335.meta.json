@@ -1,0 +1,17 @@
+{
+  "description": "Number of nondecreasing -3..3 vectors of length n whose dot product with some other -3..3 vector equals n",
+  "id": "A226335",
+  "mentions": [
+    "A226340"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that 27*n+1 is prime.",
+  "id": "A224467",
+  "mentions": [
+    "A005123",
+    "A024906"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:17:33",
+    "offset": 1,
+    "size": 57,
+    "source": "joeis"
+  }
+}

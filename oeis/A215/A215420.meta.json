@@ -1,0 +1,20 @@
+{
+  "description": "Primes that remain prime when a single digit 7 is inserted between any two consecutive digits or as the leading or trailing digit.",
+  "id": "A215420",
+  "mentions": [
+    "A215417",
+    "A215419",
+    "A215421"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:33",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "The subsequence of even digits in A119505.",
+  "id": "A156583",
+  "mentions": [
+    "A000796",
+    "A119505"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:38",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

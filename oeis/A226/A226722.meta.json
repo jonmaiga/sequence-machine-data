@@ -1,0 +1,23 @@
+{
+  "description": "Positions of the numbers 2^n, for n >=0, in the joint ranking of all the numbers 2^h, 3^k, 5^k, for h >= 0, k >= 1.",
+  "id": "A226722",
+  "mentions": [
+    "A123384",
+    "A226720",
+    "A226723",
+    "A226724",
+    "A306044"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

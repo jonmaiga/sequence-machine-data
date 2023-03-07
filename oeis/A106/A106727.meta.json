@@ -1,0 +1,23 @@
+{
+  "description": "Triangle T(n,k) = (f(n+1)*f(k+1) mod 10), where f(j) = 10 - (prime(j+3) mod 10), read by rows.",
+  "id": "A106727",
+  "mentions": [
+    "A007652",
+    "A072003"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "less",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:58",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

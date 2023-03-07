@@ -1,0 +1,19 @@
+{
+  "description": "Row maximum of Catalan triangle with zeros (A053121), i.e., maximum value of (m+1)*binomial(n+1,(n-m)/2)/(n+1) for given n with m same parity as n.",
+  "id": "A101461",
+  "mentions": [
+    "A008865",
+    "A053121"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:52",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

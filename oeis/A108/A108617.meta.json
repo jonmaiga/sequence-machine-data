@@ -1,0 +1,26 @@
+{
+  "description": "Triangle read by rows: T(n,k) = T(n-1,k-1) + T(n-1,k) for 0 < k < n, T(n,0) = T(n,n) = n-th Fibonacci number.",
+  "id": "A108617",
+  "mentions": [
+    "A000045",
+    "A001911",
+    "A007318",
+    "A027934",
+    "A074829",
+    "A108037"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:30:47",
+    "offset": 0,
+    "size": 71,
+    "source": "joeis"
+  }
+}

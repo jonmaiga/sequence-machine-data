@@ -1,0 +1,29 @@
+{
+  "description": "A Horadam-Jacobsthal sequence.",
+  "id": "A101622",
+  "mentions": [
+    "A000079",
+    "A002446",
+    "A002450",
+    "A010693",
+    "A010716",
+    "A014551",
+    "A083420",
+    "A084639",
+    "A131953",
+    "A141722",
+    "A141725"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:52",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

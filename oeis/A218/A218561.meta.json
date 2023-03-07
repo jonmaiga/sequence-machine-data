@@ -1,0 +1,23 @@
+{
+  "description": "4-gap primes: Prime p is a term iff there is no prime between 4*p and 4*nextprime(p), where nextprime=A151800.",
+  "id": "A218561",
+  "mentions": [
+    "A151800",
+    "A195270",
+    "A195271",
+    "A195325",
+    "A195329",
+    "A195377",
+    "A195379"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:36",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

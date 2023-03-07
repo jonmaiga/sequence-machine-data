@@ -1,0 +1,19 @@
+{
+  "description": "Left-most path in the tree T_0 of all negasemiternary (or NST) fractions whose 2-adic part is zero.",
+  "id": "A355905",
+  "mentions": [
+    "A355904",
+    "A355906",
+    "A355913"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

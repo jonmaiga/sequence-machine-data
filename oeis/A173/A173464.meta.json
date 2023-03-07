@@ -1,0 +1,26 @@
+{
+  "description": "When regarded as a triangle, the rows of A162797 converge to this sequence.",
+  "id": "A173464",
+  "mentions": [
+    "A000337",
+    "A000695",
+    "A010036",
+    "A139250",
+    "A162793",
+    "A162794",
+    "A162795",
+    "A162796",
+    "A162797"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Second differences of sequence A160644.",
+  "id": "A160648",
+  "mentions": [
+    "A000041",
+    "A002865",
+    "A053445",
+    "A160644",
+    "A160646"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:42",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

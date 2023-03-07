@@ -1,0 +1,23 @@
+{
+  "description": "Least number m of primes that must have appeared in an interval [j^2, (j+1)^2], such that all intervals [k^2, (k+1)^2], k>j contain more than m primes. The corresponding values of j are A349998.",
+  "id": "A349999",
+  "mentions": [
+    "A014085",
+    "A084597",
+    "A333846",
+    "A349996",
+    "A349997",
+    "A349998"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:24",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "S'_t(n) is the number of set partitions of {1,2,...,t} into exactly n parts such that no part contains both 1 and t or both i and i+1 for some i with 1 <= i < t; triangle S'_t(n), t >= 0, 0 <= n <= t, read by rows.",
+  "id": "A261139",
+  "mentions": [
+    "A000296",
+    "A000975",
+    "A243869",
+    "A261137"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:20",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

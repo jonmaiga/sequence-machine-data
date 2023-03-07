@@ -1,0 +1,18 @@
+{
+  "description": "Values of A020482 where A020482(m) != A060308(m-1).",
+  "id": "A135143",
+  "mentions": [
+    "A020482",
+    "A060308"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

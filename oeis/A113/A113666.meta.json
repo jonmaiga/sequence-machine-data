@@ -1,0 +1,24 @@
+{
+  "description": "Self-convolution 6th power of A113672, where a(n) = A113672(n+1)/(n+1).",
+  "id": "A113666",
+  "mentions": [
+    "A113662",
+    "A113663",
+    "A113664",
+    "A113665",
+    "A113667",
+    "A113668",
+    "A113672"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:04",
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

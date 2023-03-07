@@ -1,0 +1,19 @@
+{
+  "description": "Denominator of best rational approximation x/y of log(k), y<=k, with k>1 given by A306975. The corresponding numerators are given in A306976.",
+  "id": "A306977",
+  "mentions": [
+    "A306975",
+    "A306976"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

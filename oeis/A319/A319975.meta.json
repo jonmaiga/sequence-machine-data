@@ -1,0 +1,26 @@
+{
+  "description": "Smallest number of complexity n with respect to the operations {1, shift, multiply}.",
+  "id": "A319975",
+  "mentions": [
+    "A003037",
+    "A005208",
+    "A005245",
+    "A005520",
+    "A025280",
+    "A099053",
+    "A244743",
+    "A259466",
+    "A263283",
+    "A265360"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:42",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

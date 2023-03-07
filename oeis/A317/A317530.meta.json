@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is that generation of the rule-30 1D cellular automaton started from a single ON cell in which n successive OFF cells appears for the first time.",
+  "id": "A317530",
+  "mentions": [
+    "A100053"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

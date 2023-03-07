@@ -1,0 +1,25 @@
+{
+  "description": "Composite numbers in which all substrings are composite.",
+  "id": "A202262",
+  "mentions": [
+    "A010051",
+    "A029581",
+    "A062115",
+    "A068669",
+    "A071062",
+    "A085823",
+    "A202260",
+    "A202265"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:22",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

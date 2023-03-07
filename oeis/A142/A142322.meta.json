@@ -1,0 +1,22 @@
+{
+  "description": "Primes congruent to 19 mod 45.",
+  "id": "A142322",
+  "mentions": [
+    "A000040",
+    "A142315",
+    "A142317",
+    "A142318",
+    "A142321"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:26:45",
+    "offset": 1,
+    "size": 44,
+    "source": "joeis"
+  }
+}

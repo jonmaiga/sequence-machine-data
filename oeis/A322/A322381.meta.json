@@ -1,0 +1,18 @@
+{
+  "description": "Denominator of the sum of inverse products of parts in all strict partitions of n.",
+  "id": "A322381",
+  "mentions": [
+    "A322380"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:45",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

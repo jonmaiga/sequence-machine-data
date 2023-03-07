@@ -1,0 +1,34 @@
+{
+  "description": "Number T(n,k) of permutations of [n] with exactly k (possibly overlapping) occurrences of the consecutive pattern 1324; triangle T(n,k), n>=0, 0<=k<=max(0,floor(n/2-1)), read by rows.",
+  "id": "A264173",
+  "mentions": [
+    "A000108",
+    "A000142",
+    "A004526",
+    "A061206",
+    "A113228",
+    "A264174",
+    "A264175",
+    "A264176",
+    "A264177",
+    "A264178",
+    "A264179",
+    "A264180",
+    "A264181",
+    "A264182",
+    "A264183",
+    "A264319"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:24",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

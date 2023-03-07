@@ -1,0 +1,29 @@
+{
+  "description": "Triangle read by rows: T(n,i) = number of gracefully labeled graphs with n edges that do not use the label i, 1 <= i <= n-1, n > 1.",
+  "id": "A241094",
+  "mentions": [
+    "A001563",
+    "A003022",
+    "A004137",
+    "A005488",
+    "A006967",
+    "A033472",
+    "A081621",
+    "A103300",
+    "A117747",
+    "A212661"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 2,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Determinant of power series with alternate signs of gamma matrix with determinant 3!.",
+  "id": "A158046",
+  "mentions": [
+    "A111490",
+    "A158040",
+    "A158045"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

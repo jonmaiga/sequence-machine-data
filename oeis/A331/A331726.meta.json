@@ -1,0 +1,22 @@
+{
+  "description": "E.g.f.: -LambertW(-x/(1 - x)) / (1 - x).",
+  "id": "A331726",
+  "mentions": [
+    "A000169",
+    "A052871",
+    "A245496",
+    "A277505",
+    "A331727"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Numbers that can be written as (k + sum of digits of k) for some k, then as (m + product of digits of m) for some m, also as (q * product of digits of q) for some q, and finally as (t * sum of digits of t) for some t.",
+  "id": "A337839",
+  "mentions": [
+    "A004023",
+    "A176995",
+    "A336826",
+    "A336983",
+    "A337718",
+    "A337733",
+    "A337816"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:09",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Trajectory of 2 under repeated application of the map x -> A347113(x).",
+  "id": "A348785",
+  "mentions": [
+    "A347113",
+    "A347306",
+    "A348786"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

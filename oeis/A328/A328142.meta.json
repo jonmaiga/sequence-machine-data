@@ -1,0 +1,23 @@
+{
+  "description": "Elements of cycles for iterations of A329623: n -> |n - concat(sum of adjacent digits of n)|.",
+  "id": "A328142",
+  "mentions": [
+    "A033619",
+    "A053392",
+    "A328279",
+    "A328865",
+    "A329623",
+    "A329624"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

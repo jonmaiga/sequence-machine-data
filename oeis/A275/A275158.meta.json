@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that A003144(n) = floor(alpha*n) + 1, where alpha = 1.839... is the positive real zero of x^3-x^2-x-1.",
+  "id": "A275158",
+  "mentions": [
+    "A003144",
+    "A275926",
+    "A278352",
+    "A278353"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

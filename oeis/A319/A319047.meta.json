@@ -1,0 +1,25 @@
+{
+  "description": "Square array A(n,k) where column k is balanced (2k+1)-ary enumeration of integers; n>=0, k>=1, read by antidiagonals.",
+  "id": "A319047",
+  "mentions": [
+    "A001477",
+    "A001478",
+    "A117966",
+    "A309991",
+    "A309995",
+    "A316823"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "hear",
+    "look",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:40",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

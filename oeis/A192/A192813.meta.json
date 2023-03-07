@@ -1,0 +1,21 @@
+{
+  "description": "Coefficient of x in the reduction of the polynomial x^(2*n) + x^n + 1 by x^3 -> x + 1.",
+  "id": "A192813",
+  "mentions": [
+    "A192232",
+    "A192744",
+    "A192812"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

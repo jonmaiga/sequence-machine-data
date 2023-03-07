@@ -1,0 +1,19 @@
+{
+  "description": "A102889(n) is at least a(n).",
+  "id": "A102890",
+  "mentions": [
+    "A102889"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

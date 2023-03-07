@@ -1,0 +1,18 @@
+{
+  "description": "Start with a(1)=1, a(2)=2. Thereafter, if gcd(a(n-2),a(n-1)) = 1 then a(n) is the smallest unused k such that gcd(a(n-2),k) > 1 and gcd(a(n-1),k) = 1, otherwise a(n) is the smallest unused k such that gcd(a(n-2),k) = 1 and gcd(a(n-1),k) > 1. If the latter is impossible, then a(n) = smallest missing number u. (See comments.)",
+  "id": "A358534",
+  "mentions": [
+    "A003586",
+    "A007947"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

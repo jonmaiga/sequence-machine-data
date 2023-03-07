@@ -1,0 +1,17 @@
+{
+  "description": "Smallest prime p > 2^n such that none of p -+ 2^0, p -+ 2^1, p -+ 2^2, ..., p -+ 2^n are prime.",
+  "id": "A289154",
+  "mentions": [
+    "A120937"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:03",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

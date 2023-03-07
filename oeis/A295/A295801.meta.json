@@ -1,0 +1,20 @@
+{
+  "description": "Numbers that have exactly four representations as a sum of seven positive squares.",
+  "id": "A295801",
+  "mentions": [
+    "A025431",
+    "A287166",
+    "A295694"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

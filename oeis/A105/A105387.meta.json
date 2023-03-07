@@ -1,0 +1,22 @@
+{
+  "description": "Morse code alphabet where \"-\" = 0 and \".\" = 1, binary converted to decimal.",
+  "id": "A105387",
+  "mentions": [
+    "A000120",
+    "A008777",
+    "A059852",
+    "A105386"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

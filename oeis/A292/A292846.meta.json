@@ -1,0 +1,29 @@
+{
+  "description": "Numbers n such that 11 iterations of 'Reverse and Subtract' lead to n, whereas fewer than 11 iterations do not lead to n.",
+  "id": "A292846",
+  "mentions": [
+    "A072142",
+    "A072143",
+    "A072718",
+    "A072719",
+    "A215669",
+    "A292634",
+    "A292635",
+    "A292856",
+    "A292857",
+    "A292858",
+    "A292859"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:08",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-bfile"
+  }
+}

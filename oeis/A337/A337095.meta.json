@@ -1,0 +1,19 @@
+{
+  "description": "Prime numbers that can be expressed as the sum of k>1 consecutive prime numbers in only one way.",
+  "id": "A337095",
+  "mentions": [
+    "A000040",
+    "A084146"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:08",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

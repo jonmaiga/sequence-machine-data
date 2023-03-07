@@ -1,0 +1,23 @@
+{
+  "description": "Number of compositions (ordered partitions) of n into at most 6 nonprime parts.",
+  "id": "A347799",
+  "mentions": [
+    "A018252",
+    "A052284",
+    "A341483",
+    "A347788",
+    "A347796",
+    "A347797",
+    "A347798"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

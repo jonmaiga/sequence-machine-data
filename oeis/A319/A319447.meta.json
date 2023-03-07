@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the rank of the multiplicative group of Eisenstein integers modulo n.",
+  "id": "A319447",
+  "mentions": [
+    "A046072",
+    "A316506",
+    "A319445",
+    "A319446"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:41",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Number of series-reduced locally stable rooted trees whose leaves form an integer partition of n.",
+  "id": "A316768",
+  "mentions": [
+    "A000081",
+    "A000669",
+    "A001678",
+    "A141268",
+    "A292504",
+    "A316468",
+    "A316475",
+    "A316651",
+    "A316652",
+    "A316655"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

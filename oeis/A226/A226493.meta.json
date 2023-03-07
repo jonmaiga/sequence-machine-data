@@ -1,0 +1,21 @@
+{
+  "description": "Closed walks of length n in K_4 graph.",
+  "id": "A226493",
+  "mentions": [
+    "A015518",
+    "A106512",
+    "A218034"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 08:58:07",
+    "offset": 1,
+    "size": 28,
+    "source": "joeis"
+  }
+}

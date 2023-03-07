@@ -1,0 +1,21 @@
+{
+  "description": "The digital root of prime(n+1) minus the digital root of prime(n).",
+  "id": "A233468",
+  "mentions": [
+    "A000040",
+    "A010888"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:51",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

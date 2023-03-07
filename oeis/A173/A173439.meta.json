@@ -1,0 +1,20 @@
+{
+  "description": "Number of divisors d of number n such that sigma(d) divides sigma(n).",
+  "id": "A173439",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A005117",
+    "A173440"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:57",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

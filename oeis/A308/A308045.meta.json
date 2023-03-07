@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that usigma(k) = round(zeta(2)/zeta(3)*k), where usigma(k) is the sum of unitary divisors of k (A034448).",
+  "id": "A308045",
+  "mentions": [
+    "A002117",
+    "A013661",
+    "A034448",
+    "A072355",
+    "A074920",
+    "A306633"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

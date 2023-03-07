@@ -1,0 +1,29 @@
+{
+  "description": "The 54 prime dates of each year of the form concatenate(day,month) with leading zero for months 1, 3, 7, 9 (no leading zero for days).",
+  "id": "A327347",
+  "mentions": [
+    "A062800",
+    "A101780",
+    "A166547",
+    "A166560",
+    "A167442",
+    "A327346",
+    "A327348",
+    "A327349",
+    "A327914",
+    "A327915"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

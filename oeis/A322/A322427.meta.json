@@ -1,0 +1,20 @@
+{
+  "description": "Sum T(n,k) of k-th smallest parts of all compositions of n; triangle T(n,k), n>=1, 1<=k<=n, read by rows.",
+  "id": "A322427",
+  "mentions": [
+    "A001787",
+    "A097939",
+    "A322428"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:45",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

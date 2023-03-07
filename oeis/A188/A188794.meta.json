@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the smallest integer k >= 2 such that the number of divisors d>1 of n-k with k|(n-d) equals A188550(n).",
+  "id": "A188794",
+  "mentions": [
+    "A188550",
+    "A188579"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:13",
+    "offset": 4,
+    "size": 111,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Primes of the form k!14+2, where k!14 is the 14-way factorial number.",
+  "id": "A288893",
+  "mentions": [
+    "A284310"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:02",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

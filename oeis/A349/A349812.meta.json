@@ -1,0 +1,26 @@
+{
+  "description": "Triangle read by rows: row 1 is [1]; for n >= 1, row n gives coefficients of expansion of (-1/x + x)*(1/x + 1 + x)^(n-1) in order of increasing powers of x.",
+  "id": "A349812",
+  "mentions": [
+    "A001006",
+    "A007318",
+    "A026300",
+    "A027907",
+    "A064189",
+    "A112467",
+    "A122896",
+    "A348815",
+    "A349813"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

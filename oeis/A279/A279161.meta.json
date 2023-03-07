@@ -1,0 +1,18 @@
+{
+  "description": "Define P = e^gamma*loglog(n) and Q = 3/loglog(n), where gamma is Euler's constant A001620. Then a(n) = phi(n) - ceiling(n/(P + Q)), where phi(n) is Euler's function A000010.",
+  "id": "A279161",
+  "mentions": [
+    "A000010",
+    "A001620"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:46",
+    "offset": 3,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

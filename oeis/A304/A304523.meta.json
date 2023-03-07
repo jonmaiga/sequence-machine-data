@@ -1,0 +1,23 @@
+{
+  "description": "Number of ordered ways to write n as the sum of a Lucas number (A000032) and a positive odd squarefree number.",
+  "id": "A304523",
+  "mentions": [
+    "A000032",
+    "A005117",
+    "A304034",
+    "A304081",
+    "A304331",
+    "A304333",
+    "A304522"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:29",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

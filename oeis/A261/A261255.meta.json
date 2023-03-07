@@ -1,0 +1,19 @@
+{
+  "description": "Where MU-numbers (cf. A007335) occur in A003589 (3-smooth numbers).",
+  "id": "A261255",
+  "mentions": [
+    "A003586",
+    "A003589",
+    "A007335"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:20",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

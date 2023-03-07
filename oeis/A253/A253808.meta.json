@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = A106291(n)/(modified A223486(n)), n >= 1.",
+  "id": "A253808",
+  "mentions": [
+    "A000032",
+    "A000204",
+    "A001176",
+    "A106291",
+    "A223486"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

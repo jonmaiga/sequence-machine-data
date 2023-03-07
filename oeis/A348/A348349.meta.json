@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Sum_{d|n} d^(tau(d) - 1).",
+  "id": "A348349",
+  "mentions": [
+    "A000005",
+    "A174937",
+    "A347405",
+    "A347992",
+    "A348350"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

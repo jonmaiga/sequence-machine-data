@@ -1,0 +1,19 @@
+{
+  "description": "Number of subsets S of vectors in GF(2)^n such that span(S) = GF(2)^n.",
+  "id": "A305737",
+  "mentions": [
+    "A001146",
+    "A022166"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:30",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Number of rooted planar binary unlabeled trees with n leaves and caterpillar index >= 4.",
+  "id": "A214201",
+  "mentions": [
+    "A000108",
+    "A025266",
+    "A025271",
+    "A214198",
+    "A214199",
+    "A214200",
+    "A214202",
+    "A214203",
+    "A214204",
+    "A214205"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

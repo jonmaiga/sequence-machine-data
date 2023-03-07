@@ -1,0 +1,18 @@
+{
+  "description": "Smallest integer greater than or equal to imaginary part of zeros of Riemann zeta function which is prime.",
+  "id": "A103490",
+  "mentions": [
+    "A002410",
+    "A013629"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

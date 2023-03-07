@@ -1,0 +1,38 @@
+{
+  "description": "Number T(n,k) of partitions of n into k distinct prime parts; triangle T(n,k), n>=0, read by rows.",
+  "id": "A219180",
+  "mentions": [
+    "A000007",
+    "A000040",
+    "A000586",
+    "A007504",
+    "A010051",
+    "A024936",
+    "A117278",
+    "A117929",
+    "A125688",
+    "A219107",
+    "A219181",
+    "A219182",
+    "A219198",
+    "A219199",
+    "A219200",
+    "A219201",
+    "A219202",
+    "A219203",
+    "A219204"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:37",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

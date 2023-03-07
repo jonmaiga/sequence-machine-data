@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = n + 1 + Sum_({k=0..n} floor((n-k)/r, where r = (3+sqrt(5))/2).",
+  "id": "A283969",
+  "mentions": [
+    "A026352",
+    "A104457",
+    "A283938",
+    "A283961",
+    "A283968"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:12",
+    "offset": 0,
+    "size": 49,
+    "source": "joeis"
+  }
+}

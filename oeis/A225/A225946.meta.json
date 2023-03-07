@@ -1,0 +1,21 @@
+{
+  "description": "Nonsquare k such that the minimal (in y) solution 0 < y < x of x^2 - k*y^2 = 1 has x-y square.",
+  "id": "A225946",
+  "mentions": [
+    "A000037",
+    "A002349",
+    "A002350",
+    "A033313",
+    "A033317"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

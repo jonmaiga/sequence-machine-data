@@ -1,0 +1,25 @@
+{
+  "description": "Square array A(n,k): number of integers having prime(n) as k-th factor when written as product of primes in nondecreasing order, in any interval of primorial(n)^k positive integers.",
+  "id": "A281890",
+  "mentions": [
+    "A001047",
+    "A002110",
+    "A005867",
+    "A014673",
+    "A027746",
+    "A079474",
+    "A281891"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = F(n)*F(n+1) - (-1)^n, where F = A000045.",
+  "id": "A260259",
+  "mentions": [
+    "A000045",
+    "A001654",
+    "A003482",
+    "A059929",
+    "A089508",
+    "A111569",
+    "A206351",
+    "A226205"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:18",
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

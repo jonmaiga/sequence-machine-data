@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that n+2 is not a Chen prime.",
+  "id": "A153167",
+  "mentions": [
+    "A005843",
+    "A040976",
+    "A067076",
+    "A073577",
+    "A102540",
+    "A109611"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

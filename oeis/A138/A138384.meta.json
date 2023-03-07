@@ -1,0 +1,25 @@
+{
+  "description": "Reverse groups of five Fibonacci numbers.",
+  "id": "A138384",
+  "mentions": [
+    "A000045",
+    "A049666",
+    "A099100",
+    "A102312",
+    "A134889",
+    "A134890",
+    "A134891"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:26",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

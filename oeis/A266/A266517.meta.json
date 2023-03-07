@@ -1,0 +1,20 @@
+{
+  "description": "Sophie Germain primes p such that (2^(p+7)*5^(p+5)-204979)/9 is also prime.",
+  "id": "A266517",
+  "mentions": [
+    "A005384",
+    "A266421"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "The number of links of a polyline that connects the midpoints of opposite sides of the n-th regular integer hexagon and has the following properties: the first link is 1; each subsequent one is 1 more than the previous one; the angle between adjacent links is equal to Pi/3; links of the same parity are parallel.",
+  "id": "A356047",
+  "mentions": [
+    "A001353",
+    "A357733"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

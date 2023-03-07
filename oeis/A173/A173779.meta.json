@@ -1,0 +1,22 @@
+{
+  "description": "Triangle T(n, k, q) = round( c(n,q)/(c(k,q)*c(n-k,q)) ), where c(n,q) = Product_{j=0..n} v(j, q)((1)), v(n, q) = M*v(n-1, q), v(0, q) = {1, 1, 1}, M = {{0, 1, 0}, {0, 0, 1}, {q^3, q^3, 0}}, and q = 4, read by rows.",
+  "id": "A173779",
+  "mentions": [
+    "A173747",
+    "A173749",
+    "A173778"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "less",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:58",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

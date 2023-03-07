@@ -1,0 +1,27 @@
+{
+  "description": "Primes p such that p^2 divides 5^(p-1) - 1.",
+  "id": "A123692",
+  "mentions": [
+    "A001220",
+    "A014127",
+    "A090968",
+    "A096082",
+    "A123693",
+    "A128667",
+    "A128668",
+    "A128669",
+    "A242959"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

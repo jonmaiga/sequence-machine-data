@@ -1,0 +1,17 @@
+{
+  "description": "Take sequence A114129, those integers that are factored into prime powers each with a distinct prime exponent. If the largest power of p dividing A114129(n) is p^q(p), p and q being primes, then a(n) = product{p|A114129(n)} q(p)^p.",
+  "id": "A164382",
+  "mentions": [
+    "A114129"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

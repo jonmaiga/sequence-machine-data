@@ -1,0 +1,29 @@
+{
+  "description": "Even bisection of A003961: Replace in 2n each prime factor p(k) with prime p(k+1).",
+  "id": "A249734",
+  "mentions": [
+    "A000079",
+    "A000244",
+    "A003961",
+    "A016945",
+    "A048673",
+    "A064216",
+    "A064989",
+    "A243501",
+    "A243502",
+    "A246278",
+    "A249735",
+    "A249827"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:06",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

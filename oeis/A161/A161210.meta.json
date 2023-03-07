@@ -1,0 +1,26 @@
+{
+  "description": "Toothpick sequence starting at the outside corner of an infinite cube from which protrudes a half toothpick.",
+  "id": "A161210",
+  "mentions": [
+    "A000695",
+    "A139250",
+    "A152980",
+    "A153006",
+    "A160160",
+    "A161211",
+    "A161212",
+    "A161214",
+    "A161216"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

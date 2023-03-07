@@ -1,0 +1,19 @@
+{
+  "description": "Number of r X s rectangles with composite side lengths such that r + s = 2n, r <= s and r | s.",
+  "id": "A334239",
+  "mentions": [
+    "A010051"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 89,
+    "source": "oeis-entry"
+  }
+}

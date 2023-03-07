@@ -1,0 +1,22 @@
+{
+  "description": "Primes p such that the sum of the digits plus the product of the digits is a prime.",
+  "id": "A214629",
+  "mentions": [
+    "A000040",
+    "A061762",
+    "A185300",
+    "A344032"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:32",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

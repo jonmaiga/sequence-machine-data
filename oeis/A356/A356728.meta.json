@@ -1,0 +1,19 @@
+{
+  "description": "The number of 3-permutations that avoid the patterns 132 and 213.",
+  "id": "A356728",
+  "mentions": [
+    "A308580"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

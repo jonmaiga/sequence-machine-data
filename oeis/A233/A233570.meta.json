@@ -1,0 +1,18 @@
+{
+  "description": "Replace the smallest prime factor p in n (if any) with the prime following p.",
+  "id": "A233570",
+  "mentions": [
+    "A000040",
+    "A233511"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:51",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

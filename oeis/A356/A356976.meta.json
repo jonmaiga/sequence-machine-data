@@ -1,0 +1,21 @@
+{
+  "description": "Least positive integer m such that the numbers k^3 + 3*k (k = 1..n) are pairwise distinct modulo m.",
+  "id": "A356976",
+  "mentions": [
+    "A000578",
+    "A079908",
+    "A349459",
+    "A349530",
+    "A349537"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

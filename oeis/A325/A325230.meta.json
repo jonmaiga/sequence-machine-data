@@ -1,0 +1,27 @@
+{
+  "description": "Numbers of the form p^k * q, p and q prime, p > q, k > 0.",
+  "id": "A325230",
+  "mentions": [
+    "A056239",
+    "A093641",
+    "A112798",
+    "A174090",
+    "A257541",
+    "A307517",
+    "A325223",
+    "A325224",
+    "A325225",
+    "A325226",
+    "A325231"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:51",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

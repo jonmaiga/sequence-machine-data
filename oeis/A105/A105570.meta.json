@@ -1,0 +1,21 @@
+{
+  "description": "Nonsquarefree numbers in place: a(n) = n if n is not squarefree, 0 otherwise.",
+  "id": "A105570",
+  "mentions": [
+    "A005117",
+    "A008966",
+    "A305980"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:56",
+    "offset": 0,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Centered decagonal palindromic primes; or palindromic primes of the form 5k^2 + 5k + 1.",
+  "id": "A134462",
+  "mentions": [
+    "A002385",
+    "A062786",
+    "A090562",
+    "A090563",
+    "A134463"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

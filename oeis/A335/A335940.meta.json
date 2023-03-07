@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = n if n is prime, a(n) = 0 if n is a nontrivial power of a prime, and otherwise a(n) = max(|p-q| where p, q are distinct primes dividing n}.",
+  "id": "A335940",
+  "mentions": [
+    "A006530",
+    "A020639"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Primes of the form j^k + (j-1)^k + ... + 2^k, for j > 1 and k > 0.",
+  "id": "A299145",
+  "mentions": [
+    "A007689",
+    "A064538",
+    "A074526"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:22",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

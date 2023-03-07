@@ -1,0 +1,41 @@
+{
+  "description": "Number of permutations of the multiset {1,1,2,2,...,n,n} with no two consecutive terms equal.",
+  "id": "A114938",
+  "mentions": [
+    "A000806",
+    "A001147",
+    "A003242",
+    "A007060",
+    "A007716",
+    "A007717",
+    "A020555",
+    "A094574",
+    "A114939",
+    "A128695",
+    "A193638",
+    "A278990",
+    "A292884",
+    "A316972",
+    "A325534",
+    "A325535",
+    "A333489",
+    "A335125",
+    "A335126",
+    "A335433",
+    "A335434",
+    "A335448",
+    "A335451",
+    "A335452"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:05",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

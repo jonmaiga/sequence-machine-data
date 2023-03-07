@@ -1,0 +1,19 @@
+{
+  "description": "Sum of numbers <= n which are multiples of 3 or 5 but not 15.",
+  "id": "A126073",
+  "mentions": [
+    "A126590",
+    "A126592"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

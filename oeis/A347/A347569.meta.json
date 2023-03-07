@@ -1,0 +1,23 @@
+{
+  "description": "Number of ways 1/n can be expressed as the sum of six distinct unit fractions: 1/n = 1/p + 1/q + 1/r + 1/s + 1/t + 1/u, with 0 < p < q < r < s < t < u.",
+  "id": "A347569",
+  "mentions": [
+    "A002966",
+    "A073546",
+    "A227610",
+    "A241883",
+    "A347566"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

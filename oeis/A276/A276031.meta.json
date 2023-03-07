@@ -1,0 +1,19 @@
+{
+  "description": "Number of edges in the graded poset of the partitions of n taken modulo 3, where a partition into k parts is joined to a partition into k+1 parts if the latter is a refinement of the former.",
+  "id": "A276031",
+  "mentions": [
+    "A000097",
+    "A140144"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:41",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

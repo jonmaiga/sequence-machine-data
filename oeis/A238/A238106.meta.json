@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = A238104(n)/9.",
+  "id": "A238106",
+  "mentions": [
+    "A238104"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 3,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

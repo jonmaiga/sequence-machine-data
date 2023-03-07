@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of the value at which Planck's radiation function achieves its maximum.",
+  "id": "A133838",
+  "mentions": [
+    "A133839",
+    "A133840"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

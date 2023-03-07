@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = Product_{i=1..n} psi(i) where psi is the Dedekind psi function (A001615).",
+  "id": "A175836",
+  "mentions": [
+    "A001088",
+    "A001615",
+    "A059381",
+    "A059382",
+    "A059383",
+    "A059384",
+    "A060648",
+    "A238498",
+    "A239672"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:59",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

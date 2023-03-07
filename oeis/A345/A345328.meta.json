@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the smallest integer k>1 such that |log(k)-round(log(k))| is smaller than 10^(-n).",
+  "id": "A345328",
+  "mentions": [
+    "A000193",
+    "A000227",
+    "A079663",
+    "A080021"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

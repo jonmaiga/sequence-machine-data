@@ -1,0 +1,19 @@
+{
+  "description": "Let L_1 = (1, 2, ...); for any n > 0, let M_n = Min_{k > 0} L_n(k) + L_n(k+1) and K_n = Min_{ k | L_n(k) + L_n(k+1) = M_n }, L_{n+1} is obtained by replacing the two terms L_n(K_n) and L_n(K_n+1) by M_n in L_n; a(n) = M_n.",
+  "id": "A338763",
+  "mentions": [
+    "A326936",
+    "A338764"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:10",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

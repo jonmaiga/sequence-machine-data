@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = 1, 2 or 3 (resp.) if prime(n) is weak, balanced or strong (resp.).",
+  "id": "A108415",
+  "mentions": [
+    "A006562",
+    "A051634",
+    "A051635"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:00",
+    "offset": 2,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

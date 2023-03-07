@@ -1,0 +1,21 @@
+{
+  "description": "Number of strict partitions of n having an ordering in which no parts of equal parity are juxtaposed.",
+  "id": "A239881",
+  "mentions": [
+    "A239833",
+    "A239835",
+    "A239880",
+    "A240021"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:57",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

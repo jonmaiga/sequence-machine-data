@@ -1,0 +1,17 @@
+{
+  "description": "Number of -3..3 arrays x(0..n-1) of n elements with zero sum, adjacent elements differing by more than one, and elements alternately increasing and decreasing",
+  "id": "A200187",
+  "mentions": [
+    "A200192"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:21",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

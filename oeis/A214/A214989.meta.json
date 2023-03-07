@@ -1,0 +1,17 @@
+{
+  "description": "Beatty sequence [sqrt(phi)/(sqrt(phi)-1) * n], where phi = (1 + sqrt(5))/2 = golden ratio; complement of A214988.",
+  "id": "A214989",
+  "mentions": [
+    "A214988"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:32",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

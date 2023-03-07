@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = n! * Sum_{k=0..n} k^(2*(n-k))/k!.",
+  "id": "A356672",
+  "mentions": [
+    "A234568",
+    "A354436",
+    "A356628",
+    "A356673"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

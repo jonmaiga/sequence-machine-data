@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of vertex angle A at which A B C-8 omega^3 is a maximum.",
+  "id": "A133844",
+  "mentions": [
+    "A133845"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

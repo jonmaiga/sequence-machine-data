@@ -1,0 +1,22 @@
+{
+  "description": "Triangle, row sums = A023896, left column = A053570.",
+  "id": "A127373",
+  "mentions": [
+    "A023896",
+    "A053570",
+    "A054521",
+    "A054523"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

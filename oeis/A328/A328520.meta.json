@@ -1,0 +1,23 @@
+{
+  "description": "GCD of terms in A002182 that have n prime factors counted with multiplicity.",
+  "id": "A328520",
+  "mentions": [
+    "A001222",
+    "A002182",
+    "A025487",
+    "A054481",
+    "A199337",
+    "A328523",
+    "A330737"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = (n-1) / A346467(n).",
+  "id": "A346468",
+  "mentions": [
+    "A002322",
+    "A027642",
+    "A248614",
+    "A317210",
+    "A346467"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:20",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

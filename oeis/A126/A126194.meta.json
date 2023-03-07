@@ -1,0 +1,20 @@
+{
+  "description": "Greater of twin primes (A006512) of the form p = k^2+s such that q = k^4+s is also a greater of twin primes, q > p.",
+  "id": "A126194",
+  "mentions": [
+    "A006512",
+    "A126193",
+    "A126769"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

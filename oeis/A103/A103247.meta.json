@@ -1,0 +1,24 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the coefficient of x^k (0<=k<=n) in the monic characteristic polynomial of the n X n matrix with 3's on the diagonal and 1's elsewhere (n>=1). Row 0 consists of the single term 1.",
+  "id": "A103247",
+  "mentions": [
+    "A006234",
+    "A007318",
+    "A055137",
+    "A103283",
+    "A103407",
+    "A132440"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

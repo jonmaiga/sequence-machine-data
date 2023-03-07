@@ -1,0 +1,20 @@
+{
+  "description": "Smallest value of k such that Sum_{j=1..k} arctan(1/j) > n*Pi/2.",
+  "id": "A230126",
+  "mentions": [
+    "A042972",
+    "A231530",
+    "A231531"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

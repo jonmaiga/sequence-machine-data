@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the permanent of a symmetric Toeplitz matrix M(n) whose first row consists of prime(1), prime(2), ..., prime(n).",
+  "id": "A356491",
+  "mentions": [
+    "A005843",
+    "A309131",
+    "A351021",
+    "A351022",
+    "A356483",
+    "A356490"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

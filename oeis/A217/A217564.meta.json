@@ -1,0 +1,21 @@
+{
+  "description": "Number of primes between prime(n)/2 and prime(n+1)/2.",
+  "id": "A217564",
+  "mentions": [
+    "A079952",
+    "A102820",
+    "A164368",
+    "A215237"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:35",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

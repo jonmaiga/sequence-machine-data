@@ -1,0 +1,25 @@
+{
+  "description": "SumXOR variant of A297168.",
+  "id": "A324180",
+  "mentions": [
+    "A061395",
+    "A156552",
+    "A297106",
+    "A297112",
+    "A297167",
+    "A297168",
+    "A324120",
+    "A324181"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:49",
+    "offset": 1,
+    "size": 92,
+    "source": "oeis-bfile"
+  }
+}

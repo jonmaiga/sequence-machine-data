@@ -1,0 +1,19 @@
+{
+  "description": "Let b(k) denote A260273(k). It appears that for k >= 200, whenever b(k) just passes a power of 2, 2^m say, the successive differences b(k)-2^m converge to this sequence.",
+  "id": "A261416",
+  "mentions": [
+    "A260273",
+    "A261281",
+    "A261396"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "n occurs n^2 - n + 1 times.",
+  "id": "A227177",
+  "mentions": [
+    "A000196",
+    "A002061",
+    "A006527",
+    "A227147",
+    "A227179",
+    "A227181"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

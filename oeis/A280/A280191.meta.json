@@ -1,0 +1,17 @@
+{
+  "description": "Essential dimension of the spin group Spin_n over an algebraically closed field of characteristic different from 2.",
+  "id": "A280191",
+  "mentions": [
+    "A163417"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 5,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

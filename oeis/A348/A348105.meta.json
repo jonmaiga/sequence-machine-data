@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the number of vector subspaces in (F_7)^n, counted up to coordinate permutation.",
+  "id": "A348105",
+  "mentions": [
+    "A006121",
+    "A347973"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

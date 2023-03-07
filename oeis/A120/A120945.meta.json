@@ -1,0 +1,19 @@
+{
+  "description": "Triangle T(n,k) of number of labeled directed multigraphs (with loops), without isolated vertices, with n arrows and k vertices (n = 1,2,.., k = 1..2*n).",
+  "id": "A120945",
+  "mentions": [
+    "A104209"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

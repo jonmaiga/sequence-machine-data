@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that digit sum of 2^n is less than or equal to n.",
+  "id": "A117771",
+  "mentions": [
+    "A001370"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

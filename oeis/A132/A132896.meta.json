@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k)=number of prime divisors of C(n,k), counted with multiplicity (0<=k<=n).",
+  "id": "A132896",
+  "mentions": [
+    "A001222",
+    "A007318",
+    "A048571"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:20",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

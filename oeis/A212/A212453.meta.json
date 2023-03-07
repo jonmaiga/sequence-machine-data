@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = ceiling(4n + log(4n)).",
+  "id": "A212453",
+  "mentions": [
+    "A000523",
+    "A062153",
+    "A102572",
+    "A212445",
+    "A212454"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:32:29",
+    "offset": 1,
+    "size": 56,
+    "source": "joeis"
+  }
+}

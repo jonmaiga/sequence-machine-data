@@ -1,0 +1,24 @@
+{
+  "description": "Table T(n,3) read by rows: T(n,1)*T(n,2)^n*(T(n,2)^n-1)+T(n,3) is the smallest possible prime with 1",
+  "id": "A153096",
+  "mentions": [
+    "A152414",
+    "A153090",
+    "A153091",
+    "A153092",
+    "A153093",
+    "A153094",
+    "A153095"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

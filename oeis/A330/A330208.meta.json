@@ -1,0 +1,21 @@
+{
+  "description": "Chebyshev pseudoprimes to both base 2 and base 3: composite numbers k such that T(k, 2) == 2 (mod k) and T(k, 3) == 3 (mod k), where T(k, x) is the k-th Chebyshev polynomial of the first kind.",
+  "id": "A330208",
+  "mentions": [
+    "A052155",
+    "A053120",
+    "A175530",
+    "A330206",
+    "A330207"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:59",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

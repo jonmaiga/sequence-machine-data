@@ -1,0 +1,28 @@
+{
+  "description": "Decimal expansion of Sum_{k>=1} Kronecker(12,k)/k^3.",
+  "id": "A329716",
+  "mentions": [
+    "A002117",
+    "A110161",
+    "A129404",
+    "A153071",
+    "A196530",
+    "A251809",
+    "A254814",
+    "A327135",
+    "A328723",
+    "A329715"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

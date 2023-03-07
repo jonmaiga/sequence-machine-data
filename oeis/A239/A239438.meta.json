@@ -1,0 +1,21 @@
+{
+  "description": "Maximal number of points that can be placed on a triangular grid of side n so that there is no pair of adjacent points.",
+  "id": "A239438",
+  "mentions": [
+    "A007997",
+    "A058212",
+    "A239567"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:31:41",
+    "offset": 1,
+    "size": 49,
+    "source": "joeis"
+  }
+}

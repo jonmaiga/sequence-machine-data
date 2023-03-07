@@ -1,0 +1,25 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of partitions of n for which the sum of the squares of the parts is k (n>=0, k>=0).",
+  "id": "A265245",
+  "mentions": [
+    "A000041",
+    "A066183",
+    "A229325",
+    "A229332",
+    "A264402",
+    "A265247",
+    "A265253"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 148,
+    "source": "oeis-entry"
+  }
+}

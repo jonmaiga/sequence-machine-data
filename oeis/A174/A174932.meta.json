@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{d|n} A007955(d) * A000027(n/d) = Sum_{d|n} A007955(d) * (n/d), where A007955(m) = product of divisors of m.",
+  "id": "A174932",
+  "mentions": [
+    "A000027",
+    "A007955",
+    "A322671"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:58",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

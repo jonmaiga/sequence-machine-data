@@ -1,0 +1,23 @@
+{
+  "description": "a(0)=1, and for n >= 1, a(n) = p_n * A002110(n) / 2, where p_n is the n-th prime.",
+  "id": "A243054",
+  "mentions": [
+    "A000040",
+    "A002110",
+    "A006530",
+    "A070826",
+    "A243051"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

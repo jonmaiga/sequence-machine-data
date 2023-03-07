@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = number of distinct primes dividing A006049(n) (and dividing (A006049(n)+1).",
+  "id": "A107800",
+  "mentions": [
+    "A001221",
+    "A006049",
+    "A052215"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:59",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

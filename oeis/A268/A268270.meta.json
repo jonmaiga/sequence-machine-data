@@ -1,0 +1,28 @@
+{
+  "description": "Least prime that is at distance > n from the nearest squarefree number.",
+  "id": "A268270",
+  "mentions": [
+    "A023186",
+    "A045882",
+    "A049535",
+    "A068781",
+    "A070258",
+    "A070284",
+    "A077640",
+    "A077647",
+    "A078143",
+    "A078144"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

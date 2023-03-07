@@ -1,0 +1,28 @@
+{
+  "description": "The bottom entry in the difference table of the binary digits of n.",
+  "id": "A306607",
+  "mentions": [
+    "A000523",
+    "A007088",
+    "A014963",
+    "A030101",
+    "A030190",
+    "A030302",
+    "A048701",
+    "A187202",
+    "A241494"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "formulas",
+    "look",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

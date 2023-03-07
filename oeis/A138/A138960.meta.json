@@ -1,0 +1,27 @@
+{
+  "description": "a(n) = smallest prime divisor of A138957(n).",
+  "id": "A138960",
+  "mentions": [
+    "A000422",
+    "A007908",
+    "A104759",
+    "A116504",
+    "A116505",
+    "A137957",
+    "A138789",
+    "A138790",
+    "A138957",
+    "A138961"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

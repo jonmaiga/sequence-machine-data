@@ -1,0 +1,18 @@
+{
+  "description": "Primes q such that q = floor(p/3) for some prime p.",
+  "id": "A162338",
+  "mentions": [
+    "A023208",
+    "A162337"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 17:18:13",
+    "offset": 1,
+    "size": 56,
+    "source": "joeis"
+  }
+}

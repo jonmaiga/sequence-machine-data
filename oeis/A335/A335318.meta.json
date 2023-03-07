@@ -1,0 +1,23 @@
+{
+  "description": "Harmonic numbers (A001599) k with a record abundancy index sigma(k)/k.",
+  "id": "A335318",
+  "mentions": [
+    "A000203",
+    "A001599",
+    "A007691",
+    "A046060",
+    "A335316",
+    "A335317"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

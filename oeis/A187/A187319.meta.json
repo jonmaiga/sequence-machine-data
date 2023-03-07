@@ -1,0 +1,20 @@
+{
+  "description": "Rank transform of the sequence floor(n/sqrt(3)); complement of A187410.",
+  "id": "A187319",
+  "mentions": [
+    "A000027",
+    "A097337",
+    "A187224",
+    "A187410"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 92,
+    "source": "oeis-entry"
+  }
+}

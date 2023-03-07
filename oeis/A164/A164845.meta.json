@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = (6 + 10*n + 5*n^2 + n^3)/2.",
+  "id": "A164845",
+  "mentions": [
+    "A000124",
+    "A016789",
+    "A026741",
+    "A080036",
+    "A104249",
+    "A135278",
+    "A162607"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:47",
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

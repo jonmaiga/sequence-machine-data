@@ -1,0 +1,18 @@
+{
+  "description": "Primes prime(k) such that A338820(k) is prime.",
+  "id": "A338821",
+  "mentions": [
+    "A338102",
+    "A338820"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:11",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Number of (n+1)X(n+1) 0..2 arrays with nondecreasing x(i,j)+x(i,j-1) in the i direction and nondecreasing min(x(i,j),x(i-1,j)) in the j direction",
+  "id": "A250624",
+  "mentions": [
+    "A250632"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

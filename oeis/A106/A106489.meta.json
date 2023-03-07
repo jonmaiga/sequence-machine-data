@@ -1,0 +1,28 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of short bushes with n edges and having the leftmost leaf at height k (a short bush is an ordered tree with no nodes of outdegree 1).",
+  "id": "A106489",
+  "mentions": [
+    "A001006",
+    "A002026",
+    "A005043",
+    "A005322",
+    "A005323",
+    "A005324",
+    "A005325",
+    "A005326",
+    "A020474",
+    "A027907"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 2,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

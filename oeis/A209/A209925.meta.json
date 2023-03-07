@@ -1,0 +1,29 @@
+{
+  "description": "ASCII encoded concatenation of the months' names, spelled in English.",
+  "id": "A209925",
+  "mentions": [
+    "A031139",
+    "A033986",
+    "A049004",
+    "A049005",
+    "A069195",
+    "A089746",
+    "A103742",
+    "A134456",
+    "A161376",
+    "A209924"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-entry"
+  }
+}

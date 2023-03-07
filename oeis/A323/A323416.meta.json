@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = (n-1)! * (10^n - 1) / 9.",
+  "id": "A323416",
+  "mentions": [
+    "A000142",
+    "A002275",
+    "A071267",
+    "A110728"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:47",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

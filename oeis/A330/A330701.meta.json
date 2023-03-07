@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that psi(phi(k)) = 2 * phi(psi(k)), where psi(k) is the Dedekind psi function (A001615) and phi(k) is the Euler totient function (A000010).",
+  "id": "A330701",
+  "mentions": [
+    "A000010",
+    "A001615",
+    "A290002"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:59",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

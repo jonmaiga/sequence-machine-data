@@ -1,0 +1,21 @@
+{
+  "description": "Palindromes in base 10 that are Brazilian.",
+  "id": "A325322",
+  "mentions": [
+    "A002113",
+    "A125134",
+    "A288068",
+    "A325323"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:51",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

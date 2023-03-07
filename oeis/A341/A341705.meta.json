@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 70*binomial(n,8) + 2*binomial(n,4) + 1.",
+  "id": "A341705",
+  "mentions": [
+    "A341703",
+    "A341704"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:45:23",
+    "offset": 0,
+    "size": 34,
+    "source": "joeis"
+  }
+}

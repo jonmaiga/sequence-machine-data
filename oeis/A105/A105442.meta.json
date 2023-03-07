@@ -1,0 +1,20 @@
+{
+  "description": "Numbers with at least two odd prime factors (not necessarily distinct) such that in binary representation all divisors of n are contained in n.",
+  "id": "A105442",
+  "mentions": [
+    "A087436",
+    "A093641",
+    "A093642",
+    "A105441"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Integer values of A048153(n)/n in the order they appear in A048153.",
+  "id": "A199117",
+  "mentions": [
+    "A007310",
+    "A048153"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:20",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of ordered ways to write 2n+1 as p + x*(9x+7) with p prime and x an integer.",
+  "id": "A335641",
+  "mentions": [
+    "A000040",
+    "A132399",
+    "A144590",
+    "A256071"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:07",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

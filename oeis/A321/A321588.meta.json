@@ -1,0 +1,32 @@
+{
+  "description": "Number of connected nonnegative integer matrices with sum of entries equal to n, no zero rows or columns, and distinct rows and columns.",
+  "id": "A321588",
+  "mentions": [
+    "A007718",
+    "A056156",
+    "A059201",
+    "A120733",
+    "A283877",
+    "A316980",
+    "A319557",
+    "A319558",
+    "A319559",
+    "A319565",
+    "A319616",
+    "A319629",
+    "A319647",
+    "A321446",
+    "A321515"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

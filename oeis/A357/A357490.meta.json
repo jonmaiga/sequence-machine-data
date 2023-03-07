@@ -1,0 +1,41 @@
+{
+  "description": "Numbers k such that the k-th composition in standard order has integer geometric mean.",
+  "id": "A357490",
+  "mentions": [
+    "A051293",
+    "A066099",
+    "A067538",
+    "A067539",
+    "A078174",
+    "A078175",
+    "A096199",
+    "A102627",
+    "A271654",
+    "A301987",
+    "A320322",
+    "A326027",
+    "A326028",
+    "A326567",
+    "A326568",
+    "A326622",
+    "A326623",
+    "A326624",
+    "A326625",
+    "A326641",
+    "A326645",
+    "A335405",
+    "A339452",
+    "A357184",
+    "A357710"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

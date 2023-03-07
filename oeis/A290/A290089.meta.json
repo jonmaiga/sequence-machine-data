@@ -1,0 +1,23 @@
+{
+  "description": "Filter-sequence for the prime signature of cototient: a(1) = 0; for n > 1, a(n) = A101296(A051953(n)).",
+  "id": "A290089",
+  "mentions": [
+    "A000040",
+    "A050530",
+    "A051953",
+    "A101296",
+    "A277906",
+    "A290087"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:05",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of Hamiltonian paths on an n X n grid reduced for symmetry, i.e., where rotations and reflections are not counted as distinct.",
+  "id": "A265914",
+  "mentions": [
+    "A068393",
+    "A120443",
+    "A209077"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "hard",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

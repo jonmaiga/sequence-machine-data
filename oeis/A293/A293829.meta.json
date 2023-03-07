@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that (d(k), d(k+1)) = (0,1) in the base-2 digits d(i) of Pi.",
+  "id": "A293829",
+  "mentions": [
+    "A004601",
+    "A293828",
+    "A293830",
+    "A293831"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:10",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

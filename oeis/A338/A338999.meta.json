@@ -1,0 +1,22 @@
+{
+  "description": "Number of connected multigraphs with n edges and rooted at two indistinguishable vertices whose removal leaves a connected graph.",
+  "id": "A338999",
+  "mentions": [
+    "A180414",
+    "A337517",
+    "A338487",
+    "A339038",
+    "A339045",
+    "A339065"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Circle of fifths cycle (counterclockwise).",
+  "id": "A258054",
+  "mentions": [
+    "A023127",
+    "A054073",
+    "A221363",
+    "A257811"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:45:13",
+    "offset": 1,
+    "size": 108,
+    "source": "joeis"
+  }
+}

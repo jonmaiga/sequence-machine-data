@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the smaller number in the pair (L,m) which minimizes the primes of the form L^2 + m^2 under the constraint L + m = 2n + 1.",
+  "id": "A159296",
+  "mentions": [
+    "A036468",
+    "A145354",
+    "A157884"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 18*n^4*(2*n^3 - 23*n^2 + 38*n - 18)^2.",
+  "id": "A259364",
+  "mentions": [
+    "A001105",
+    "A005435"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:31:49",
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

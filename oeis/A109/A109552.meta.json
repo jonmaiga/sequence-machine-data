@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = floor(4076/(10-n)^2).",
+  "id": "A109552",
+  "mentions": [
+    "A109553"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "dumb",
+    "fini",
+    "formulas",
+    "full",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

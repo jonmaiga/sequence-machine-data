@@ -1,0 +1,21 @@
+{
+  "description": "Smaller members of binary Ormiston prime pairs: two consecutive primes whose binary representations are anagrams of each other.",
+  "id": "A339080",
+  "mentions": [
+    "A000120",
+    "A069567",
+    "A070939",
+    "A072274"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:11",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

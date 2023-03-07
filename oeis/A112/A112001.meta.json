@@ -1,0 +1,20 @@
+{
+  "description": "One fourth of fourth column (k=3) of triangle A111999.",
+  "id": "A112001",
+  "mentions": [
+    "A111999",
+    "A112492"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

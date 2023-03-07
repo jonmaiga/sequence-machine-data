@@ -1,0 +1,19 @@
+{
+  "description": "E.g.f. satisfies: A(x) = exp( Integral 1/(1 - x*A(x)) dx ).",
+  "id": "A225052",
+  "mentions": [
+    "A000108",
+    "A091725"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

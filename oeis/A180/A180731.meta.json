@@ -1,0 +1,20 @@
+{
+  "description": "Smallest power of 23 that begins with n.",
+  "id": "A180731",
+  "mentions": [
+    "A009967",
+    "A180729",
+    "A180732"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 03:08:26",
+    "offset": 1,
+    "size": 10,
+    "source": "joeis"
+  }
+}

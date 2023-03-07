@@ -1,0 +1,43 @@
+{
+  "description": "Number A(n,k) of shapes of balanced k-ary trees with n nodes, where a tree is balanced if the total number of nodes in subtrees corresponding to the branches of any node differ by at most one; square array A(n,k), n>=0, k>=0, read by antidiagonals.",
+  "id": "A221857",
+  "mentions": [
+    "A000012",
+    "A000217",
+    "A000290",
+    "A000292",
+    "A000332",
+    "A000389",
+    "A000579",
+    "A000580",
+    "A000581",
+    "A000582",
+    "A001287",
+    "A001288",
+    "A001477",
+    "A028310",
+    "A092364",
+    "A110316",
+    "A131889",
+    "A131890",
+    "A131891",
+    "A131892",
+    "A131893",
+    "A179865",
+    "A229393",
+    "A229394",
+    "A229395"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "look",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:39",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

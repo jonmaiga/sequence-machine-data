@@ -1,0 +1,19 @@
+{
+  "description": "Primes p such that both 2p +/- 21 are primes.",
+  "id": "A103804",
+  "mentions": [
+    "A103802",
+    "A103803"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

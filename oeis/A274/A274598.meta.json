@@ -1,0 +1,22 @@
+{
+  "description": "Number of ways to remove n oranges from an infinite stack of oranges whose m-th layer is an m X (m+4) rectangle.",
+  "id": "A274598",
+  "mentions": [
+    "A274582",
+    "A274594",
+    "A274596",
+    "A274597",
+    "A274599"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:39",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

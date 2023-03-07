@@ -1,0 +1,26 @@
+{
+  "description": "Triangle T(n,k) read by rows in which n-th row lists in increasing order all compositions [c_1, c_2, ..., c_q] of n encoded as Product_{i=1..q} prime(i)^(c_i); n>=0, 1<=k<=A011782(n).",
+  "id": "A324939",
+  "mentions": [
+    "A000040",
+    "A000079",
+    "A002110",
+    "A011782",
+    "A055932",
+    "A057335",
+    "A087443",
+    "A215366",
+    "A325054"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:51",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

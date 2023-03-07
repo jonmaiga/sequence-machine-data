@@ -1,0 +1,22 @@
+{
+  "description": "Least integer k such that floor(k*sqrt(n+1)) > k*sqrt(n).",
+  "id": "A183162",
+  "mentions": [
+    "A000217",
+    "A000290",
+    "A005563",
+    "A183163",
+    "A183164",
+    "A275817"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:06",
+    "offset": 0,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

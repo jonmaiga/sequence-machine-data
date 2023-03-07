@@ -1,0 +1,29 @@
+{
+  "description": "Let y be the integer partition with Heinz number n. Then a(n) is the size of the complement, in the minimal rectangular partition containing the Young diagram of y, of the Young diagram of y.",
+  "id": "A326844",
+  "mentions": [
+    "A001222",
+    "A056239",
+    "A061395",
+    "A106529",
+    "A112798",
+    "A268192",
+    "A316413",
+    "A326836",
+    "A326837",
+    "A326845",
+    "A326846",
+    "A326848"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:53",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

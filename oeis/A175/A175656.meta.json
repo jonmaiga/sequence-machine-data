@@ -1,0 +1,22 @@
+{
+  "description": "Eight bishops and one elephant on a 3 X 3 chessboard. G.f.: (1-3*x^2)/(1-3*x+4*x^3).",
+  "id": "A175656",
+  "mentions": [
+    "A000079",
+    "A172481",
+    "A175654",
+    "A175655"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:59",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

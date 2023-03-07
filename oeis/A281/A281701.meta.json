@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the largest number of coins obtainable by making repeated moves in this puzzle: Start with 1 coin in each of n boxes B(i), i=1..n. One can iterate moves of two types: (1) remove a coin from a nonempty B(i) (i <= n-1) and place two coins in B(i+1); (2) remove a coin from a nonempty B(i) (i <= n-2) and switch the contents of B(i+1) and B(i+2).",
+  "id": "A281701",
+  "mentions": [
+    "A307611"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

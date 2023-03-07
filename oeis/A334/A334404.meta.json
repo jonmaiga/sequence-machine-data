@@ -1,0 +1,19 @@
+{
+  "description": "a(0)=0; for n>0, a(n) is an integer not previously seen such that the sum of all previous terms plus a(n) equals the smallest prime number not yet created by any previous sum.",
+  "id": "A334404",
+  "mentions": [
+    "A000040",
+    "A000217",
+    "A175499"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

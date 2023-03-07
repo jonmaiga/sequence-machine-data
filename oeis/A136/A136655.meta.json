@@ -1,0 +1,33 @@
+{
+  "description": "Product of odd divisors of n.",
+  "id": "A136655",
+  "mentions": [
+    "A000265",
+    "A000593",
+    "A001227",
+    "A007955",
+    "A007956",
+    "A078701",
+    "A125911",
+    "A126192",
+    "A140210",
+    "A140211",
+    "A140213",
+    "A140214",
+    "A140215",
+    "A182469",
+    "A183063"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:24",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "The Collatz iteration of these primes produces only even numbers, primes and 1.",
+  "id": "A177000",
+  "mentions": [
+    "A010051",
+    "A055509",
+    "A070165",
+    "A078350",
+    "A078373"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:01",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

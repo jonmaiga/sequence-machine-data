@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n for which n = (x - phi(x)) * (y - phi(y)), where n = x + y and x - phi(x) is the Euler cototient function of x.",
+  "id": "A273801",
+  "mentions": [
+    "A051953",
+    "A273800"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:38",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

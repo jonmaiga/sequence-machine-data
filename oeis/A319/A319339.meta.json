@@ -1,0 +1,22 @@
+{
+  "description": "Filter sequence combining A081373(n) with A246277(n).",
+  "id": "A319339",
+  "mentions": [
+    "A081373",
+    "A246277",
+    "A300247",
+    "A305801",
+    "A305897",
+    "A318500"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:41",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

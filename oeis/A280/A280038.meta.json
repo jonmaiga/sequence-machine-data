@@ -1,0 +1,19 @@
+{
+  "description": "Numerators of fractions converging to limiting value of shifted Fekete polynomials.",
+  "id": "A280038",
+  "mentions": [
+    "A280039"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "frac",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

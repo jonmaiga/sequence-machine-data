@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that tau(n)*sigma(n) sets a new record.",
+  "id": "A216365",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A064840",
+    "A067128"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:34",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

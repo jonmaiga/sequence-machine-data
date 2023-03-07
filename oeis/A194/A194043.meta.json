@@ -1,0 +1,19 @@
+{
+  "description": "G.f. satisfies: A(x) = Sum_{n>=0} q^(n*(n+1)/2) where q = x*A(x)^8.",
+  "id": "A194043",
+  "mentions": [
+    "A194042",
+    "A194044"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

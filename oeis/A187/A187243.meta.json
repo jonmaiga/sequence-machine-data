@@ -1,0 +1,23 @@
+{
+  "description": "Number of ways of making change for n cents using coins of 1, 5, and 10 cents.",
+  "id": "A187243",
+  "mentions": [
+    "A001299",
+    "A001300",
+    "A001306",
+    "A169718",
+    "A245573"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:12:59",
+    "offset": 0,
+    "size": 80,
+    "source": "joeis"
+  }
+}

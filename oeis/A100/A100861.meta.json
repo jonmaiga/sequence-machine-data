@@ -1,0 +1,27 @@
+{
+  "description": "Triangle of Bessel numbers read by rows: T(n,k) is the number of k-matchings of the complete graph K(n).",
+  "id": "A100861",
+  "mentions": [
+    "A000085",
+    "A001147",
+    "A001497",
+    "A001498",
+    "A008619",
+    "A111924",
+    "A118930",
+    "A144299"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2022-05-22 20:28:46",
+    "offset": 0,
+    "size": 64,
+    "source": "joeis"
+  }
+}

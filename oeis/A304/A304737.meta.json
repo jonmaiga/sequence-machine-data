@@ -1,0 +1,23 @@
+{
+  "description": "Restricted growth sequence transform of A278222(A064413(n)).",
+  "id": "A304737",
+  "mentions": [
+    "A005940",
+    "A046523",
+    "A064301",
+    "A064413",
+    "A278222",
+    "A286622",
+    "A304738"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:29",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Sum of the cubes of the first n odd-indexed Fibonacci numbers.",
+  "id": "A163200",
+  "mentions": [
+    "A000032",
+    "A000045",
+    "A005968",
+    "A163198",
+    "A163201",
+    "A163202"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:45",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

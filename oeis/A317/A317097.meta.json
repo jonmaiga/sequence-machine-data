@@ -1,0 +1,26 @@
+{
+  "description": "Number of rooted trees with n nodes where the number of distinct branches under each node is <= 2.",
+  "id": "A317097",
+  "mentions": [
+    "A000081",
+    "A000598",
+    "A001190",
+    "A003238",
+    "A055277",
+    "A111299",
+    "A292050",
+    "A298204",
+    "A301344",
+    "A317098"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:35",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

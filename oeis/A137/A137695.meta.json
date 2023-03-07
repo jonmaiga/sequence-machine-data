@@ -1,0 +1,23 @@
+{
+  "description": "Tower of Hanoi with p pegs: Number of moves needed for n disks, using Frame's or Stewart's algorithm (formatted as upper right triangle).",
+  "id": "A137695",
+  "mentions": [
+    "A000225",
+    "A007664",
+    "A007665"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

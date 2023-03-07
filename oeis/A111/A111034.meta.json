@@ -1,0 +1,20 @@
+{
+  "description": "Sum of squares of digits of e.",
+  "id": "A111034",
+  "mentions": [
+    "A001113"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

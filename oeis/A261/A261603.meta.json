@@ -1,0 +1,18 @@
+{
+  "description": "Number of permutations of the set {1,2,...,n}^2 such that first coordinates of first floor(n^2/2) elements are nondecreasing and second coordinates of the remaining ceiling(n^2/2) elements are nondecreasing.",
+  "id": "A261603",
+  "mentions": [
+    "A261602"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

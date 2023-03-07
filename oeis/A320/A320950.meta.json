@@ -1,0 +1,18 @@
+{
+  "description": "G.f.: [ Sum_{n>=0} x^n * (1+x)^(n^2) ] * [ Sum_{n>=0} x^n / (1+x)^(n^2) ].",
+  "id": "A320950",
+  "mentions": [
+    "A121689",
+    "A320830"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

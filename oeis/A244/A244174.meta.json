@@ -1,0 +1,21 @@
+{
+  "description": "Number of compositions of 3n in which the minimal multiplicity of parts equals n.",
+  "id": "A244174",
+  "mentions": [
+    "A000984",
+    "A007318",
+    "A242451",
+    "A245732"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:00",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

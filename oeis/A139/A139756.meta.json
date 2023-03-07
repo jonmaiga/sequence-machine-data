@@ -1,0 +1,26 @@
+{
+  "description": "Binomial transform of A004526.",
+  "id": "A139756",
+  "mentions": [
+    "A001787",
+    "A004526",
+    "A076791",
+    "A085750",
+    "A097067",
+    "A118442",
+    "A131577",
+    "A168511"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:27",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

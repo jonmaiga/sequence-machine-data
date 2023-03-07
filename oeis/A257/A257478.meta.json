@@ -1,0 +1,20 @@
+{
+  "description": "Distance of positions of first and last occurrence of n in A256918.",
+  "id": "A257478",
+  "mentions": [
+    "A256918",
+    "A257120",
+    "A257218",
+    "A257475"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

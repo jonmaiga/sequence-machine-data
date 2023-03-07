@@ -1,0 +1,18 @@
+{
+  "description": "Generalized McCarthy function: a(n) = n - s if n > c; otherwise, a(n) = a(a(n+t)) with d = t - s > 0, with parameters t=15, s=9, c=21.",
+  "id": "A190582",
+  "mentions": [
+    "A103847"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "A particular case of Gromov-Witten numbers: a(n) is the number of complex rational curves of degree n and genus 0 in CP^3 passing through 2n given points.",
+  "id": "A171117",
+  "mentions": [
+    "A013587"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

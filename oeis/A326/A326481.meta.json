@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = E2_{n}(0) with E2_{n} the polynomials defined in A326480.",
+  "id": "A326481",
+  "mentions": [
+    "A000182",
+    "A012509",
+    "A063376",
+    "A155585",
+    "A241209",
+    "A326480",
+    "A326482",
+    "A326483",
+    "A326484"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

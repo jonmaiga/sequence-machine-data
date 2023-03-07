@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = a(n-1) + a(n-2) if n is even and a(n) = a(n-3) + a(n-4) if n is odd, with a(0) = a(1) = a(2) = 0 and a(3) = 1.",
+  "id": "A265755",
+  "mentions": [
+    "A006053",
+    "A052547",
+    "A187066"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:25",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

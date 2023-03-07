@@ -1,0 +1,21 @@
+{
+  "description": "Number of unique X-rays of n X n binary matrices with exactly floor(n^2/2) ones.",
+  "id": "A290134",
+  "mentions": [
+    "A010790",
+    "A081294",
+    "A290058",
+    "A290133"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:05",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

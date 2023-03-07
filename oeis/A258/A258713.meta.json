@@ -1,0 +1,20 @@
+{
+  "description": "A001172(n)/2: Least k such that 2k is a sum of two odd primes in exactly n ways.",
+  "id": "A258713",
+  "mentions": [
+    "A001172",
+    "A002372",
+    "A002375",
+    "A045917"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:16",
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

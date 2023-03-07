@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the smallest prime p such that none of p + 1, p + 2,... p + n are cubefree.",
+  "id": "A267798",
+  "mentions": [
+    "A046099",
+    "A271395"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

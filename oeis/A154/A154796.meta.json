@@ -1,0 +1,22 @@
+{
+  "description": "Even partition numbers of odd numbers.",
+  "id": "A154796",
+  "mentions": [
+    "A000041",
+    "A005408",
+    "A058695",
+    "A154795",
+    "A154797",
+    "A154798"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:36",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

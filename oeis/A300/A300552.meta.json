@@ -1,0 +1,19 @@
+{
+  "description": "Number of 4-cycles in the n-polygon diagonal intersection graph.",
+  "id": "A300552",
+  "mentions": [
+    "A062361",
+    "A300553",
+    "A300554"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:25",
+    "offset": 3,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

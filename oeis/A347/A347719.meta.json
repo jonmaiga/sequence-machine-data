@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the smallest prime(n)-rough number k that has more divisors than k-1 and more divisors than k+1.",
+  "id": "A347719",
+  "mentions": [
+    "A000005",
+    "A075027",
+    "A323379"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

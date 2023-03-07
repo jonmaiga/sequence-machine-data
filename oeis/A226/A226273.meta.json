@@ -1,0 +1,19 @@
+{
+  "description": "Number of distinct values u^v, where u and v are digits occurring in decimal representation of n.",
+  "id": "A226273",
+  "mentions": [
+    "A171102",
+    "A226272"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

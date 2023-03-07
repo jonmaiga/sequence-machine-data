@@ -1,0 +1,20 @@
+{
+  "description": "Position of start of first occurrence of prime(n) after the decimal point in expansion of golden ratio phi.",
+  "id": "A128050",
+  "mentions": [
+    "A001622",
+    "A014777",
+    "A037024"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

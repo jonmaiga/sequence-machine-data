@@ -1,0 +1,18 @@
+{
+  "description": "Number of integer partitions of n whose Durfee square has sides of even size.",
+  "id": "A274523",
+  "mentions": [
+    "A115994"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:39",
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

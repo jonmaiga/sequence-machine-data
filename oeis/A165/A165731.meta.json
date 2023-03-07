@@ -1,0 +1,20 @@
+{
+  "description": "Number of distinct rate points of concentric permutation source codes with four initial codewords in dimension n.",
+  "id": "A165731",
+  "mentions": [
+    "A070289",
+    "A165729",
+    "A165730"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 2,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

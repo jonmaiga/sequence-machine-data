@@ -1,0 +1,32 @@
+{
+  "description": "a(0)=0, a(1)=1; thereafter a(n) = smallest nonnegative integer not among the earlier terms of the sequence such that a(n) and a(n-2) have no common 1-bits in their binary representations and also a(n) and a(n-1) have no common 1-bits in their binary representations.",
+  "id": "A353709",
+  "mentions": [
+    "A084937",
+    "A109812",
+    "A121216",
+    "A353405",
+    "A353708",
+    "A353710",
+    "A353715",
+    "A353716",
+    "A353717",
+    "A353718",
+    "A353719",
+    "A353720",
+    "A353721",
+    "A353722",
+    "A353723"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:28",
+    "offset": 0,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Numbers k such that phi(k) is a perfect 11th power.",
+  "id": "A114573",
+  "mentions": [
+    "A000010",
+    "A039770",
+    "A039771",
+    "A078164",
+    "A078165",
+    "A078166",
+    "A078167",
+    "A078168",
+    "A078169",
+    "A078170"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:05",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

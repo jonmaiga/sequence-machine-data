@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that sigma(k) divides sigma(k!).",
+  "id": "A286758",
+  "mentions": [
+    "A000040",
+    "A000142",
+    "A000203",
+    "A000217",
+    "A019434",
+    "A262812"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:58",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

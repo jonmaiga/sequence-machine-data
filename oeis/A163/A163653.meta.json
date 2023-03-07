@@ -1,0 +1,21 @@
+{
+  "description": "Irregular table which contains the primes between the (2n-1)st and (2n)th amicable number in row n.",
+  "id": "A163653",
+  "mentions": [
+    "A000040",
+    "A063990",
+    "A163647"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "less",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

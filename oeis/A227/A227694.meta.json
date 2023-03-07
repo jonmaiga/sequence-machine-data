@@ -1,0 +1,27 @@
+{
+  "description": "Difference between pi(10^n) and nearest integer to (F[2n+1](S(n)))^2 where pi(10^n) = number of primes <= 10^n (A006880), F[2n+1](x) are Fibonacci polynomials of odd indices [2n+1] and S(n) = Sum_{i=0..2} (C(i)*(log(log(A*(B+n^2))))^(2i)) (see A227693).",
+  "id": "A227694",
+  "mentions": [
+    "A006880",
+    "A057752",
+    "A057794",
+    "A106313",
+    "A190802",
+    "A215663",
+    "A223166",
+    "A223167",
+    "A225137",
+    "A227693"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

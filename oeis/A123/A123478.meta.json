@@ -1,0 +1,22 @@
+{
+  "description": "Coefficients of series giving the best rational approximations to sqrt(7).",
+  "id": "A123478",
+  "mentions": [
+    "A029549",
+    "A123479",
+    "A123480",
+    "A123482"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:12",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

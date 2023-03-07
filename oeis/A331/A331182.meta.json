@@ -1,0 +1,21 @@
+{
+  "description": "Number of values of k, 1 <= k <= n, with A083254(k) = A083254(n), where A083254(n) = 2*phi(n) - n.",
+  "id": "A331182",
+  "mentions": [
+    "A000010",
+    "A081373",
+    "A083254",
+    "A331175",
+    "A331181"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:00",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

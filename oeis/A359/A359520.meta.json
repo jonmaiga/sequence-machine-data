@@ -1,0 +1,23 @@
+{
+  "description": "Number of free holey polyominoes of n cells with simply-connected interiors.",
+  "id": "A359520",
+  "mentions": [
+    "A000104",
+    "A000105",
+    "A001419",
+    "A342537",
+    "A359519"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

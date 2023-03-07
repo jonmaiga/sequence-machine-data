@@ -1,0 +1,20 @@
+{
+  "description": "Composite numbers whose prime factors all have the same digital root.",
+  "id": "A100657",
+  "mentions": [
+    "A002808",
+    "A010888"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:51",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

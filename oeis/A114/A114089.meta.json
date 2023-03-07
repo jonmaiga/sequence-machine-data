@@ -1,0 +1,23 @@
+{
+  "description": "Total number of parts in the tails below the Durfee squares of all partitions of n.",
+  "id": "A114089",
+  "mentions": [
+    "A006128",
+    "A114087",
+    "A114088",
+    "A115994",
+    "A115995",
+    "A116365"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:04",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

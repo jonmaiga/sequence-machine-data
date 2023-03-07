@@ -1,0 +1,18 @@
+{
+  "description": "Row sums of A261242: number of connected binary bisymmetric n X n matrices B with B[1,1] = 1 = B[2,2].",
+  "id": "A261244",
+  "mentions": [
+    "A261242"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

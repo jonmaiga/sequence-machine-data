@@ -1,0 +1,19 @@
+{
+  "description": "G.f. satisfies: A(x) = 1 + 2*x*AGM(A(x)^2, A(-x)^2).",
+  "id": "A272822",
+  "mentions": [
+    "A245928",
+    "A272823"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

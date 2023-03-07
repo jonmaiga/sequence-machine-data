@@ -1,0 +1,20 @@
+{
+  "description": "Numbers of the form 2^(2^n-1)-1, 2^(2^n-1), 2^(2^n)-1, 2^(2^n).",
+  "id": "A116961",
+  "mentions": [
+    "A001146",
+    "A051179",
+    "A058891",
+    "A077585"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

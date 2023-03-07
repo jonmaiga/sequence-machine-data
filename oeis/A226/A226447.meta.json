@@ -1,0 +1,27 @@
+{
+  "description": "Expansion of (1-x+x^3)/(1-x^2+2*x^3-x^4).",
+  "id": "A226447",
+  "mentions": [
+    "A000032",
+    "A001077",
+    "A001622",
+    "A001651",
+    "A010892",
+    "A039834",
+    "A061084",
+    "A094686",
+    "A226956"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:34:10",
+    "offset": 0,
+    "size": 42,
+    "source": "joeis"
+  }
+}

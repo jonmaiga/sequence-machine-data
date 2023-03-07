@@ -1,0 +1,23 @@
+{
+  "description": "Atomic numbers of the metalloids or semimetals on the periodic table.",
+  "id": "A101648",
+  "mentions": [
+    "A018227",
+    "A097478",
+    "A099955",
+    "A099956",
+    "A101647",
+    "A101649"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of n-digit numbers having a k-digit greatest prime factor.",
+  "id": "A294952",
+  "mentions": [
+    "A006530",
+    "A085630"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:13",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

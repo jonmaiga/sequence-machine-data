@@ -1,0 +1,21 @@
+{
+  "description": "Primes p such that Legendre(3,p) = 0 or 1.",
+  "id": "A296933",
+  "mentions": [
+    "A003630",
+    "A038874",
+    "A038875",
+    "A097933",
+    "A296920"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

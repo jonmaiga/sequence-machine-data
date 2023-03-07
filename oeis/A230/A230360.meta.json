@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the number of base-4 n-digit numbers requiring only binary digits in bases 3 and 4.",
+  "id": "A230360",
+  "mentions": [
+    "A000695",
+    "A005836",
+    "A146025"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

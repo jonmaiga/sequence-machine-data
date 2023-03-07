@@ -1,0 +1,18 @@
+{
+  "description": "Inverse binomial transform of A144472.",
+  "id": "A145593",
+  "mentions": [
+    "A144472"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-02 19:08:46",
+    "offset": 0,
+    "size": 30,
+    "source": "joeis"
+  }
+}

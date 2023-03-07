@@ -1,0 +1,18 @@
+{
+  "description": "The number of new maxima over all length n sequences on {1,2,...,n}.",
+  "id": "A225095",
+  "mentions": [
+    "A000254",
+    "A336482"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

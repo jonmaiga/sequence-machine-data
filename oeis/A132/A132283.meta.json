@@ -1,0 +1,18 @@
+{
+  "description": "Normalization of dense fractal sequence A054065 (defined from fractional parts {n*tau}, where tau = golden ratio).",
+  "id": "A132283",
+  "mentions": [
+    "A054065",
+    "A132284"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 98,
+    "source": "oeis-entry"
+  }
+}

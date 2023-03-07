@@ -1,0 +1,20 @@
+{
+  "description": "Numerator of the rational coefficient in the main term in the dynamical analog of Mertens's theorem for a full n-dimensional shift, n >= 12 (it is 1 for 2 <= n <= 11).",
+  "id": "A159283",
+  "mentions": [
+    "A159282"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 12,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

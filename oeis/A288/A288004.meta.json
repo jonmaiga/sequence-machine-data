@@ -1,0 +1,26 @@
+{
+  "description": "The Chain Hereditary Form. For n > 0, let j(n) = A289342(n) and construct two intervals around j(n) of length r(n) = A288003(n): old = flip([j(n)-[0:r(n)-1]]) to the left of j(n) and new = [j(n)+[1:r(n)]] to the right of j(n). Let a(0) = 1; and for n > 0 and for each point in the intervals set a(new[1..r(n)]) = a(old[1..r(n)]) if l-fusc A288002(n) > 0 and a(new[1..r(n)]) = ~a(old[1..r(n)]) if l-fusc A288002(n) == 0.",
+  "id": "A288004",
+  "mentions": [
+    "A001511",
+    "A002487",
+    "A007306",
+    "A209229",
+    "A287896",
+    "A288002",
+    "A288003",
+    "A289341",
+    "A289342"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 85,
+    "source": "oeis-entry"
+  }
+}

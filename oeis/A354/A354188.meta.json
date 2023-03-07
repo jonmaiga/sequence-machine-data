@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = 1 if phi(A267099(n)) is equal to phi(n), and 0 otherwise. Here A267099 is fully multiplicative involution swapping the positions of 4k+1 and 4k+3 primes, and phi is Euler totient function.",
+  "id": "A354188",
+  "mentions": [
+    "A000010",
+    "A267099",
+    "A354101",
+    "A354102",
+    "A354108",
+    "A354189"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:28",
+    "offset": 1,
+    "size": 128,
+    "source": "oeis-bfile"
+  }
+}

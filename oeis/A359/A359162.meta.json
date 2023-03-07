@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = 1 if n is a number of the form 4u+3 with an even number of prime factors (counted with multiplicity), otherwise 0.",
+  "id": "A359162",
+  "mentions": [
+    "A065043",
+    "A121262",
+    "A353479",
+    "A353557",
+    "A359152",
+    "A359160",
+    "A359163"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:33",
+    "offset": 1,
+    "size": 135,
+    "source": "oeis-bfile"
+  }
+}

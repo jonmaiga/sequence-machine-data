@@ -1,0 +1,18 @@
+{
+  "description": "Minimum number k such that n iterations of products of prime factor exponents are required to reduce k to 1.",
+  "id": "A280890",
+  "mentions": [
+    "A005361"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

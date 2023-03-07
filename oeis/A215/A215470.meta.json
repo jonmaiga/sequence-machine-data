@@ -1,0 +1,23 @@
+{
+  "description": "Prime intersections in a square spiral with positive integers: primes p such that there are four primes among eight nearest neighbors of p.",
+  "id": "A215470",
+  "mentions": [
+    "A114254",
+    "A137928",
+    "A137930",
+    "A137931",
+    "A214176",
+    "A214177",
+    "A215471"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of subpartitions of partitions in Mathematica order.",
+  "id": "A115729",
+  "mentions": [
+    "A000108",
+    "A007318",
+    "A080577",
+    "A115728"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

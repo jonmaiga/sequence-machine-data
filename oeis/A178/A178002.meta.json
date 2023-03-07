@@ -1,0 +1,20 @@
+{
+  "description": "Largest n-digit prime with the most digits equal to 4.",
+  "id": "A178002",
+  "mentions": [
+    "A037061",
+    "A099658",
+    "A105980"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

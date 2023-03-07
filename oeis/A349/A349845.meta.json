@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of -(1 - 16*x)^(1/2) / (1 + 8*x)^(1/4).",
+  "id": "A349845",
+  "mentions": [
+    "A000108",
+    "A004981",
+    "A349844",
+    "A349847"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:29",
+    "offset": 0,
+    "size": 20,
+    "source": "joeis"
+  }
+}

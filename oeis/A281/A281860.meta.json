@@ -1,0 +1,24 @@
+{
+  "description": "Curious identities based on the Armstrong number 371 = A005188(12).",
+  "id": "A281860",
+  "mentions": [
+    "A002277",
+    "A005188",
+    "A067275",
+    "A281857",
+    "A281858",
+    "A281859"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:51",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

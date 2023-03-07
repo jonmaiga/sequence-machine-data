@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is a maximum of t*u*v such that 2*t*u + 2*t*v + 2*u*v <= n, where t,u,v are positive integers.",
+  "id": "A355880",
+  "mentions": [
+    "A008642"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

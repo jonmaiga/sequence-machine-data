@@ -1,0 +1,18 @@
+{
+  "description": "Maximum number of unit cubes that can be fully enclosed in n unit cubes.",
+  "id": "A345206",
+  "mentions": [
+    "A008642",
+    "A345205"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 8,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

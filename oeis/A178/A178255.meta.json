@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of (3+sqrt(17))/2.",
+  "id": "A178255",
+  "mentions": [
+    "A010473",
+    "A082486",
+    "A085984",
+    "A109007",
+    "A188635"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:25:11",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

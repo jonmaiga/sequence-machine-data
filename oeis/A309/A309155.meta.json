@@ -1,0 +1,24 @@
+{
+  "description": "For integer n with prime factors p_i (1 <= i <= r), with repetition, (Omega(n) = r); a(n) = Sum_{i=1..r} k_i, where k_i is the least positive integer such that p_i - k_i | n - k_i.",
+  "id": "A309155",
+  "mentions": [
+    "A000040",
+    "A001221",
+    "A001222",
+    "A001414",
+    "A002997",
+    "A059975",
+    "A309239"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-entry"
+  }
+}

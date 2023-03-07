@@ -1,0 +1,19 @@
+{
+  "description": "Emirps (A006567) whose difference with the reversal is a perfect square.",
+  "id": "A217386",
+  "mentions": [
+    "A006567",
+    "A158065"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:35",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

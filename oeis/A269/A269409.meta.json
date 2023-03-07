@@ -1,0 +1,25 @@
+{
+  "description": "T(n,k)=Number of length-n 0..k arrays with no repeated value greater than or equal to the previous repeated value.",
+  "id": "A269409",
+  "mentions": [
+    "A000027",
+    "A000290",
+    "A002620",
+    "A007531",
+    "A267928",
+    "A267960",
+    "A268205"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:31",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

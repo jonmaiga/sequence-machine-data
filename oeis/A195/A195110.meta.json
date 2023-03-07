@@ -1,0 +1,20 @@
+{
+  "description": "Fractalization of the fractal sequence A002260. Interspersion fractally induced by A002260.",
+  "id": "A195110",
+  "mentions": [
+    "A002260",
+    "A194959",
+    "A195111",
+    "A195112"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 93,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of bargraphs of semiperimeter n having k horizontal steps in the valleys (n>=2, k>=0).",
+  "id": "A278134",
+  "mentions": [
+    "A000045",
+    "A001519",
+    "A082582",
+    "A273719",
+    "A273720",
+    "A278135"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 2,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

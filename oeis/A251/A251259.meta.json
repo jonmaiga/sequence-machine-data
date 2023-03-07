@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that 11*12^n + 1 is prime.",
+  "id": "A251259",
+  "mentions": [
+    "A079907"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

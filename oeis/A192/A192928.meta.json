@@ -1,0 +1,24 @@
+{
+  "description": "The Gi1 and Gi2 sums of Losanitsch's triangle A034851",
+  "id": "A192928",
+  "mentions": [
+    "A003269",
+    "A034851",
+    "A102541",
+    "A180662",
+    "A228570",
+    "A228572"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 13:21:28",
+    "offset": 0,
+    "size": 43,
+    "source": "joeis"
+  }
+}

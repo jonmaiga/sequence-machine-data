@@ -1,0 +1,23 @@
+{
+  "description": "Interspersion of the signature sequence of sqrt(5).",
+  "id": "A283941",
+  "mentions": [
+    "A002163",
+    "A022779",
+    "A022780",
+    "A022797",
+    "A023117"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:55",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

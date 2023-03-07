@@ -1,0 +1,21 @@
+{
+  "description": "Triangle T(n, k) = c(n)/(c(k)*c(n-k)) where c(n) = (n-2)!*(n-1)!*n!*(n+1)!/12 with c(0) = c(1) = 1 and c(2) = 2, read by rows.",
+  "id": "A173889",
+  "mentions": [
+    "A173890"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "less",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:58",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

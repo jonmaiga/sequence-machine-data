@@ -1,0 +1,25 @@
+{
+  "description": "Digits of one of the two 3-adic integers sqrt(-2).",
+  "id": "A271223",
+  "mentions": [
+    "A006267",
+    "A268922",
+    "A268924",
+    "A268992",
+    "A271224",
+    "A271225"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:35",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

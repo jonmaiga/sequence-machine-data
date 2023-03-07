@@ -1,0 +1,23 @@
+{
+  "description": "Table of sum of numerator and denominator of Farey sequences, read by rows.",
+  "id": "A133404",
+  "mentions": [
+    "A005728",
+    "A007305",
+    "A007306",
+    "A049448"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:21",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

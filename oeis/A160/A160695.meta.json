@@ -1,0 +1,26 @@
+{
+  "description": "Integers m such that 3*m+1 and 7*m+1 are both perfect squares.",
+  "id": "A160695",
+  "mentions": [
+    "A004253",
+    "A004254",
+    "A030221",
+    "A077232",
+    "A089927",
+    "A160682",
+    "A245031",
+    "A334673"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:42",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

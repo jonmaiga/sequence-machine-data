@@ -1,0 +1,21 @@
+{
+  "description": "a(n+1) = d(n) + d(a(n)) with a(1)=1, where d(n) is the number of the divisors of n.",
+  "id": "A317749",
+  "mentions": [
+    "A000005",
+    "A049820",
+    "A128863",
+    "A189827"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:37",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

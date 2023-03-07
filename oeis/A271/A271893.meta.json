@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of (2*x+1)*(1-x) / ( 1-2*x-4*x^2+6*x^3 ).",
+  "id": "A271893",
+  "mentions": [
+    "A271486"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 16:16:01",
+    "offset": 0,
+    "size": 32,
+    "source": "joeis"
+  }
+}

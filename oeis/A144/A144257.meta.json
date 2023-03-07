@@ -1,0 +1,24 @@
+{
+  "description": "Weight array of A086270.",
+  "id": "A144257",
+  "mentions": [
+    "A000027",
+    "A000124",
+    "A001519",
+    "A050407",
+    "A086270",
+    "A144112"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:44:01",
+    "offset": 1,
+    "size": 100,
+    "source": "joeis"
+  }
+}

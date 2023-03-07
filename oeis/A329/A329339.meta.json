@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = 2^A051903(n)*Sum_{k=0..n-1} 2^(A268336(n)*k): upper bound for A329000(n).",
+  "id": "A329339",
+  "mentions": [
+    "A051903",
+    "A067029",
+    "A268336",
+    "A329000",
+    "A329126",
+    "A329338"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

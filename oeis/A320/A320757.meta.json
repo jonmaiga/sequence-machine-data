@@ -1,0 +1,19 @@
+{
+  "description": "For p the n-th prime congruent to 1 (mod 4), a(n) is the clique number of the quadratic residue (Paley) graph over F_p, the field of order p.",
+  "id": "A320757",
+  "mentions": [
+    "A002144",
+    "A320837"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

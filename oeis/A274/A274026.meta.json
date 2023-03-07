@@ -1,0 +1,19 @@
+{
+  "description": "Perfect powers m^k such that m^k = a^2 + b^4 = c^3 + d^5 for some positive integers a, b, c, d.",
+  "id": "A274026",
+  "mentions": [
+    "A001597",
+    "A100293",
+    "A111925"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

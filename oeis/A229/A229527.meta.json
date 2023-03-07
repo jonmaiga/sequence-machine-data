@@ -1,0 +1,21 @@
+{
+  "description": "Start with 1, skip (sum of digits of n) numbers, accept next number.",
+  "id": "A229527",
+  "mentions": [
+    "A004207",
+    "A007612",
+    "A160939"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:46",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

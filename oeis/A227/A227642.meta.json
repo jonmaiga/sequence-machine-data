@@ -1,0 +1,19 @@
+{
+  "description": "Cubes which can be represented as sum of a prime and its reverse in at least one way.",
+  "id": "A227642",
+  "mentions": [
+    "A067030",
+    "A227525"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

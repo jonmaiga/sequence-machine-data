@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of lim_{k->infinity} k - 1/x(k) + log(x(k)) where x(k) is the real number from which k \"add the square\" iterations reach exactly 1 (negated).",
+  "id": "A340875",
+  "mentions": [
+    "A340745",
+    "A340824",
+    "A340825",
+    "A340844",
+    "A340845"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

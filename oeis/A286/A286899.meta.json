@@ -1,0 +1,23 @@
+{
+  "description": "Array read by antidiagonals: A(n, L) is the number of closed walks of length 2L along the edges of an n-cube based at a vertex, for n >= 1 and L >= 1.",
+  "id": "A286899",
+  "mentions": [
+    "A054879",
+    "A092812",
+    "A121822"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:58",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

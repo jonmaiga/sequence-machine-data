@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that A276976(k) > A270096(k).",
+  "id": "A290960",
+  "mentions": [
+    "A002322",
+    "A002326",
+    "A270096",
+    "A276976"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:06",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

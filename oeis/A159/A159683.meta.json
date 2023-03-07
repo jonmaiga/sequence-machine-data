@@ -1,0 +1,22 @@
+{
+  "description": "The general form of the recurrences are the a(j), b(j) and n(j) solutions of the 2 equations problem: 3*n(j) + 1 = a(j)*a(j) and 5*n(j) + 1 = b(j)*b(j) with positive integer numbers.",
+  "id": "A159683",
+  "mentions": [
+    "A057080",
+    "A070997",
+    "A157456",
+    "A245031"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:41",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

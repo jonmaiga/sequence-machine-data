@@ -1,0 +1,23 @@
+{
+  "description": "Primes p such that the order of 2 modulo p is not divisible by the largest odd divisor of p - 1.",
+  "id": "A342974",
+  "mentions": [
+    "A014664",
+    "A023394",
+    "A057023",
+    "A204620",
+    "A226366",
+    "A280003",
+    "A280004"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

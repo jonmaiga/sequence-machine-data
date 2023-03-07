@@ -1,0 +1,27 @@
+{
+  "description": "Numerators of rational valued sequence whose Dirichlet convolution with itself yields A034444 (number of unitary divisors of n).",
+  "id": "A317933",
+  "mentions": [
+    "A000302",
+    "A001790",
+    "A034444",
+    "A046643",
+    "A317831",
+    "A317925",
+    "A317934",
+    "A317937"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "frac",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:37",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

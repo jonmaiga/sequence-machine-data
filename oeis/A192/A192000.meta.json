@@ -1,0 +1,30 @@
+{
+  "description": "Sum of binomial numbers A000332(k+3), with k in the reduced residue system modulo n.",
+  "id": "A192000",
+  "mentions": [
+    "A000010",
+    "A000292",
+    "A000332",
+    "A007434",
+    "A023896",
+    "A059376",
+    "A059378",
+    "A069091",
+    "A069095",
+    "A127415",
+    "A189918",
+    "A189922"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

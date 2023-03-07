@@ -1,0 +1,25 @@
+{
+  "description": "E.g.f.: Sum_{n>=0} tan(2^n*x)^n/n!.",
+  "id": "A168404",
+  "mentions": [
+    "A006229",
+    "A136632",
+    "A168402",
+    "A168403",
+    "A168405",
+    "A168406",
+    "A168407",
+    "A168408"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Even numbers which are either primitively nondeficient (A006039), or become such after applying prime shift A003961 some number of times to them.",
+  "id": "A342669",
+  "mentions": [
+    "A000396",
+    "A003961",
+    "A006039",
+    "A246277",
+    "A336835",
+    "A341605",
+    "A341606",
+    "A341620",
+    "A341624"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:15",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

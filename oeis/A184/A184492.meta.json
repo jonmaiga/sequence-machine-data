@@ -1,0 +1,17 @@
+{
+  "description": "Number of (n+1)X5 0..2 arrays with every 2X2 subblock sum greater than 4",
+  "id": "A184492",
+  "mentions": [
+    "A184497"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:08",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

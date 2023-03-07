@@ -1,0 +1,28 @@
+{
+  "description": "Triangle read by rows: T(n,k) = number of odd/even parts >= k in all partitions of n, if k is odd/even.",
+  "id": "A206563",
+  "mentions": [
+    "A006128",
+    "A066633",
+    "A066897",
+    "A066898",
+    "A135010",
+    "A181187",
+    "A182703",
+    "A207031",
+    "A207032",
+    "A212010"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

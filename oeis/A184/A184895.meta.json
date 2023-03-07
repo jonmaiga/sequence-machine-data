@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = (7^n/n!^2) * Product_{k=0..n-1} (14k+1)*(14k+6).",
+  "id": "A184895",
+  "mentions": [
+    "A092870",
+    "A178529",
+    "A184424",
+    "A184891",
+    "A184896",
+    "A184897"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:09",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

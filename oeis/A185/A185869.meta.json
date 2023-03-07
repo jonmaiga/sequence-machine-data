@@ -1,0 +1,37 @@
+{
+  "description": "(Odd,even)-polka dot array in the natural number array A000027; read by antidiagonals.",
+  "id": "A185869",
+  "mentions": [
+    "A000027",
+    "A000578",
+    "A014107",
+    "A033431",
+    "A033537",
+    "A035008",
+    "A060432",
+    "A077591",
+    "A100037",
+    "A100038",
+    "A100039",
+    "A100040",
+    "A100041",
+    "A108928",
+    "A130883",
+    "A157914",
+    "A185868",
+    "A185870",
+    "A185871"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:10",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

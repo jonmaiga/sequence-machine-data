@@ -1,0 +1,23 @@
+{
+  "description": "For k in {2,3,...,9} define a sequence as follows: a(0)=0; for n>=0, a(n+1)=a(n)+1, unless a(n) ends in k, in which case a(n+1) is obtained by replacing the last digit of a(n) with the digit(s) of k^2. This is k(6).",
+  "id": "A237343",
+  "mentions": [
+    "A235498",
+    "A235499",
+    "A237341",
+    "A237346"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 17:16:40",
+    "offset": 0,
+    "size": 25,
+    "source": "joeis"
+  }
+}

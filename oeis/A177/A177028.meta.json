@@ -1,0 +1,25 @@
+{
+  "description": "Irregular table: row n contains values k (in descending order) for which n is a k-gonal number.",
+  "id": "A177028",
+  "mentions": [
+    "A063778",
+    "A090467",
+    "A139600",
+    "A176774",
+    "A176775",
+    "A176948",
+    "A177025"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:01",
+    "offset": 3,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

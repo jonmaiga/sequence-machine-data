@@ -1,0 +1,19 @@
+{
+  "description": "Numbers which are not a denominator of a rational number having a continued fraction consisting entirely of 1s and 2s; complement of A228803.",
+  "id": "A228804",
+  "mentions": [
+    "A228803",
+    "A228805"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:45",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

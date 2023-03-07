@@ -1,0 +1,28 @@
+{
+  "description": "Arithmetic derivative applied to the prime shadow of the primorial base exp-function: a(n) = A003415(A181819(A276086(n))).",
+  "id": "A353576",
+  "mentions": [
+    "A003415",
+    "A060735",
+    "A181819",
+    "A276086",
+    "A328835",
+    "A351942",
+    "A353524",
+    "A353575",
+    "A353577"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:28",
+    "offset": 0,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Numbers that are the sum of five fourth powers in exactly one way.",
+  "id": "A344190",
+  "mentions": [
+    "A003339",
+    "A048926",
+    "A344189",
+    "A344237",
+    "A344643",
+    "A345813"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:17",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

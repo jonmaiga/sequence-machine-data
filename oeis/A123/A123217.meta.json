@@ -1,0 +1,27 @@
+{
+  "description": "Triangle read by rows: the n-th row consists of the coefficients in the expansion of Sum_{j=0..n} A123162(n,j)*x^j*(1 - x)^(n - j).",
+  "id": "A123217",
+  "mentions": [
+    "A122753",
+    "A123018",
+    "A123019",
+    "A123021",
+    "A123027",
+    "A123162",
+    "A123199",
+    "A123202",
+    "A123221"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:11",
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

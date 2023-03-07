@@ -1,0 +1,19 @@
+{
+  "description": "Number of ordered pairs (i,j) with 0 < i < j < prime(n)/2 such that R(i^2,prime(n)) > R(j^2,prime(n)), where R(k,p) (with p an odd prime and k an integer) denotes the unique integer r among 0,1,...,(p-1)/2 for which k is congruent to r or -r modulo p.",
+  "id": "A319480",
+  "mentions": [
+    "A000040",
+    "A000290",
+    "A319311"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:41",
+    "offset": 2,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Numbers that are the sum of a cube s and a fourth power t such that 0 < s <= t.",
+  "id": "A340048",
+  "mentions": [
+    "A000578",
+    "A008456",
+    "A010057",
+    "A340050"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

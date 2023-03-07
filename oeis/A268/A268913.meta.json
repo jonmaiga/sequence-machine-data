@@ -1,0 +1,18 @@
+{
+  "description": "Magic sums of 3 X 3 semimagic squares composed of primes.",
+  "id": "A268913",
+  "mentions": [
+    "A268790",
+    "A268912"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

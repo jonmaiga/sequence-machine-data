@@ -1,0 +1,27 @@
+{
+  "description": "The number of ways to write n as the difference of two k-simplex numbers for k >= 2.",
+  "id": "A333868",
+  "mentions": [
+    "A000217",
+    "A000292",
+    "A000332",
+    "A000389",
+    "A000579",
+    "A001227",
+    "A003016",
+    "A007318",
+    "A307666",
+    "A333822",
+    "A333836"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:05",
+    "offset": 2,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

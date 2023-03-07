@@ -1,0 +1,21 @@
+{
+  "description": "Vandermonde sequence using x^2 + xy + y^2 applied to (0,1,1,2,2,...,floor(n/2)).",
+  "id": "A203748",
+  "mentions": [
+    "A000027",
+    "A093883",
+    "A203749",
+    "A203750",
+    "A203751"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 00:54:20",
+    "offset": 1,
+    "size": 10,
+    "source": "joeis"
+  }
+}

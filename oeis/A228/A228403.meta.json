@@ -1,0 +1,19 @@
+{
+  "description": "The number of boundary twigs for complete binary twigs. A twig is a vertex with one edge on the boundary and only one other descendant.",
+  "id": "A228403",
+  "mentions": [
+    "A000108",
+    "A068875"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:45",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

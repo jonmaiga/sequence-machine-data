@@ -1,0 +1,23 @@
+{
+  "description": "Consider the products of all pairs of (not necessarily distinct) positive divisors of n. a(n) is the number of these products that divide n. a(n) also is the number of the products that are divisible by n.",
+  "id": "A140773",
+  "mentions": [
+    "A000005",
+    "A007425",
+    "A034836",
+    "A038548",
+    "A135539",
+    "A140774"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:29",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

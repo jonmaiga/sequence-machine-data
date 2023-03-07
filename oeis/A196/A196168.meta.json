@@ -1,0 +1,25 @@
+{
+  "description": "In binary representation of n: replace each 0 with 1, and each 1 with 10.",
+  "id": "A196168",
+  "mentions": [
+    "A000079",
+    "A000120",
+    "A003754",
+    "A005614",
+    "A023416",
+    "A055010",
+    "A070939",
+    "A179888"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:17",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

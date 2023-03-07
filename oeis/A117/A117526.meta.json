@@ -1,0 +1,21 @@
+{
+  "description": "Least number a(n) which is a product of n primes and such that Pi_n(a(n))/a(n) is maximum.",
+  "id": "A117526",
+  "mentions": [
+    "A006880",
+    "A066265",
+    "A109251",
+    "A114106",
+    "A114453"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

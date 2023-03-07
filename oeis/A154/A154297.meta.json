@@ -1,0 +1,30 @@
+{
+  "description": "Primes of the form (1+2+3+...+m)/21 = A000217(m)/21, for some m.",
+  "id": "A154297",
+  "mentions": [
+    "A000217",
+    "A057570",
+    "A154293",
+    "A154296",
+    "A154298",
+    "A154299",
+    "A154300",
+    "A154301",
+    "A154302",
+    "A154303",
+    "A154304"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

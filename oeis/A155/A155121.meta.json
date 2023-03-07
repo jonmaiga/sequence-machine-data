@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = 2*n*(1 + n + n^2 + n^3) - 3.",
+  "id": "A155121",
+  "mentions": [
+    "A024003",
+    "A071237",
+    "A142463",
+    "A155120"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 17:10:07",
+    "offset": 0,
+    "size": 31,
+    "source": "joeis"
+  }
+}

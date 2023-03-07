@@ -1,0 +1,18 @@
+{
+  "description": "Number of pairs of partitions (A<=B, that is, A is a refinement of B) of [n] such that A is noncrossing and its nontrivial blocks are of type {a,b} with a <= n and b > n.",
+  "id": "A358397",
+  "mentions": [
+    "A000110"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

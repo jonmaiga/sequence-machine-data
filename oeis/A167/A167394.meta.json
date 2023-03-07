@@ -1,0 +1,18 @@
+{
+  "description": "Largest single or isolated prime < n-th single or isolated composite.",
+  "id": "A167394",
+  "mentions": [
+    "A007510",
+    "A014574"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

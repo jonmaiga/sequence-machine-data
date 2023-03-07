@@ -1,0 +1,41 @@
+{
+  "description": "a(n) is 1w' converted to decimal, where the binary word w' is the result of applying Post's tag system {00,1101} to the binary word w, where 1w is n converted to binary (the leftmost 1 acts as a delimiter).",
+  "id": "A346040",
+  "mentions": [
+    "A007931",
+    "A079944",
+    "A284116",
+    "A284119",
+    "A284121",
+    "A289670",
+    "A289671",
+    "A289672",
+    "A289673",
+    "A289674",
+    "A289675",
+    "A291792",
+    "A291793",
+    "A291794",
+    "A291795",
+    "A291796",
+    "A291798",
+    "A291799",
+    "A291800",
+    "A291801",
+    "A291802",
+    "A337537"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:19",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

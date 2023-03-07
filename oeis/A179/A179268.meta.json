@@ -1,0 +1,21 @@
+{
+  "description": "Product of numbers between and including n and n^2.",
+  "id": "A179268",
+  "mentions": [
+    "A000142",
+    "A027441",
+    "A088020",
+    "A126804"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:02",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-bfile"
+  }
+}

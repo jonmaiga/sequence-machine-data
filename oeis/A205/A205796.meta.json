@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that 4*17^n - 1 is prime.",
+  "id": "A205796",
+  "mentions": [
+    "A005540",
+    "A046865",
+    "A180431",
+    "A205521"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

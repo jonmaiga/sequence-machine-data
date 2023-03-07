@@ -1,0 +1,21 @@
+{
+  "description": "Table where T(n,k) is the number of unordered trees with n edges (n+1 nodes) whose node out-degrees form the k-th partition of the integer n (in Mathematica order).",
+  "id": "A138650",
+  "mentions": [
+    "A000041",
+    "A000081",
+    "A125181"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "more",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

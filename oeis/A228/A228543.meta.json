@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the integer-valued average gap between successive primes from prime(1) to prime(k(n)), where k(n) = A049036(n).",
+  "id": "A228543",
+  "mentions": [
+    "A049036",
+    "A049038"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

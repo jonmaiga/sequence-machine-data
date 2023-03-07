@@ -1,0 +1,20 @@
+{
+  "description": "Integers n such that A002110(n) is divisible by A098999(n).",
+  "id": "A264897",
+  "mentions": [
+    "A002110",
+    "A051838",
+    "A098999",
+    "A122137"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

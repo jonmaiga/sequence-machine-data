@@ -1,0 +1,26 @@
+{
+  "description": "The second crank moment function M_2(n).",
+  "id": "A220909",
+  "mentions": [
+    "A000041",
+    "A000203",
+    "A066186",
+    "A074400",
+    "A092269",
+    "A139582",
+    "A211982",
+    "A220907",
+    "A220908"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:49:30",
+    "offset": 0,
+    "size": 42,
+    "source": "joeis"
+  }
+}

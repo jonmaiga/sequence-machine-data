@@ -1,0 +1,20 @@
+{
+  "description": "Maximal number of kings in the toroidal king's graph on an n X n board such that each king is attacking no more than four other kings.",
+  "id": "A101201",
+  "mentions": [
+    "A103139",
+    "A189889"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

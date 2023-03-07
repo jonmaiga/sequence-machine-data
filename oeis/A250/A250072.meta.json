@@ -1,0 +1,18 @@
+{
+  "description": "Permutation of the nonnegative integers such that sum_{k=0..n} (-1)^(a(k)+1)*a(k) is nonnegative and as small as possible, for n=0,1,....",
+  "id": "A250072",
+  "mentions": [
+    "A250090"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

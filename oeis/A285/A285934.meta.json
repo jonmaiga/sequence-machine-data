@@ -1,0 +1,32 @@
+{
+  "description": "Number of connected induced (non-null) subgraphs of the perfect binary tree of height n.",
+  "id": "A285934",
+  "mentions": [
+    "A003095",
+    "A020873",
+    "A059020",
+    "A059525",
+    "A285765",
+    "A286139",
+    "A286182",
+    "A286183",
+    "A286184",
+    "A286185",
+    "A286186",
+    "A286187",
+    "A286188",
+    "A286189"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:57",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-bfile"
+  }
+}

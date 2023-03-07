@@ -1,0 +1,18 @@
+{
+  "description": "Number of rhombuses on a (n+1)X7 grid",
+  "id": "A190095",
+  "mentions": [
+    "A190098"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:14",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

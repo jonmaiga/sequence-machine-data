@@ -1,0 +1,18 @@
+{
+  "description": "Number of Hamiltonian cycles in P_7 X P_2n.",
+  "id": "A145416",
+  "mentions": [
+    "A321172"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

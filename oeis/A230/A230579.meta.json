@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = 2^n mod 341.",
+  "id": "A230579",
+  "mentions": [
+    "A206786"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:02:53",
+    "offset": 0,
+    "size": 70,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "The largest 3-Carmichael number that is divisible by the n-th odd prime.",
+  "id": "A290485",
+  "mentions": [
+    "A065091",
+    "A087788",
+    "A141706"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

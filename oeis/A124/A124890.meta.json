@@ -1,0 +1,21 @@
+{
+  "description": "G.f.: A(x) = (1/x)*series_reversion(x^2/G124344(x)), where G124344(x) is the g.f. of A124344 and satisfies: A(x)^2 = (1/x)*G124344(x*A(x)).",
+  "id": "A124890",
+  "mentions": [
+    "A124328",
+    "A124344",
+    "A124889",
+    "A124891"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

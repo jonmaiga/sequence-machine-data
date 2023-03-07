@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the smallest prime p such that -n is not a square mod p.",
+  "id": "A306224",
+  "mentions": [
+    "A144294",
+    "A306220"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

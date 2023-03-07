@@ -1,0 +1,19 @@
+{
+  "description": "Irregular triangle of Collatz like iteration, x -> 3x, then repeat (x -> ceiling(x/2) if divisible by 3, otherwise x -> 3x) while x != 6.",
+  "id": "A245691",
+  "mentions": [
+    "A008908",
+    "A245942"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

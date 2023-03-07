@@ -1,0 +1,20 @@
+{
+  "description": "Nonnegative integers n with property that when starting from x=n, the map x -> floor(tan(x)) reaches [the fixed point] 0 (or any other integer less than 1 if such negative fixed points exist).",
+  "id": "A258022",
+  "mentions": [
+    "A000503",
+    "A258020",
+    "A258021",
+    "A258024"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-entry"
+  }
+}

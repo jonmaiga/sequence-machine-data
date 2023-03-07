@@ -1,0 +1,19 @@
+{
+  "description": "The count of how many queens must be placed tentatively onto a board while seeking a first solution to the \"N-Queens on an N x N chessboard\" puzzle.",
+  "id": "A140450",
+  "mentions": [
+    "A000170",
+    "A002562",
+    "A141843"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:28",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

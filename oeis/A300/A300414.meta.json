@@ -1,0 +1,27 @@
+{
+  "description": "Expansion of Product_{k>=2} (1 + x^Fibonacci(k))/(1 - x^Fibonacci(k)).",
+  "id": "A300414",
+  "mentions": [
+    "A000045",
+    "A000119",
+    "A003107",
+    "A015128",
+    "A080054",
+    "A103265",
+    "A280263",
+    "A280366",
+    "A300413",
+    "A300415"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:28",
+    "offset": 0,
+    "size": 50,
+    "source": "joeis"
+  }
+}

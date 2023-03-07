@@ -1,0 +1,20 @@
+{
+  "description": "Smallest positive number divisible by n whose decimal expansion has the form 22...200...0.",
+  "id": "A216812",
+  "mentions": [
+    "A078241",
+    "A216481"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

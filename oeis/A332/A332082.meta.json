@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{1 <= m <= n} Sum_{1 <= k <= n+1-m} m*R(k,n+1), where R(k,b) = (b^k - 1)/(b - 1) is the base-b repunit of length k.",
+  "id": "A332082",
+  "mentions": [
+    "A002275",
+    "A010785",
+    "A014824"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

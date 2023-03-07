@@ -1,0 +1,18 @@
+{
+  "description": "Square root of determinant of skew-symmetric 2n X 2n matrix with entries i XOR j for i < j, i=1..2n, j=1..2n.",
+  "id": "A359335",
+  "mentions": [
+    "A006519"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

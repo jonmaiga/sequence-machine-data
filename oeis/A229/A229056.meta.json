@@ -1,0 +1,21 @@
+{
+  "description": "Record lengths of strings of alternating-size differences between neighboring primes.",
+  "id": "A229056",
+  "mentions": [
+    "A000040",
+    "A001223",
+    "A036263",
+    "A228850",
+    "A228851"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

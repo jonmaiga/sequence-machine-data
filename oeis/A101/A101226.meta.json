@@ -1,0 +1,20 @@
+{
+  "description": "Numbers formed by the fourth nesting of pi(10^n).",
+  "id": "A101226",
+  "mentions": [
+    "A006880",
+    "A096359",
+    "A101225"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

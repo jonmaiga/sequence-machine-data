@@ -1,0 +1,22 @@
+{
+  "description": "Nobly abundant numbers: numbers k such that both d(k) = A000005(k) and sigma(k) = A000203(k) are abundant numbers (A005101).",
+  "id": "A349758",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A005101",
+    "A081357",
+    "A349759",
+    "A349760"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:24",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

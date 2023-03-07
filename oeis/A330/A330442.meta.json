@@ -1,0 +1,20 @@
+{
+  "description": "The number of free polyominoes with n cells which, when drawn on a 2D square grid, contain an Eulerian path.",
+  "id": "A330442",
+  "mentions": [
+    "A000105",
+    "A245620",
+    "A268311"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

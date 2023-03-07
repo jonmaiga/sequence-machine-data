@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that for any decimal digit d in k, the remainder when k is divided by d+1 is d.",
+  "id": "A330969",
+  "mentions": [
+    "A002275",
+    "A330970"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:00",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

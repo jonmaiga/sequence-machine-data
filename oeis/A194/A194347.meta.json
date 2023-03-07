@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of h_e(1/17), where h_e(x) is the even infinite power tower function.",
+  "id": "A194347",
+  "mentions": [
+    "A073229",
+    "A073230",
+    "A073243",
+    "A194346"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Primes p such that p*p! + 1 is also prime.",
+  "id": "A346167",
+  "mentions": [
+    "A090703",
+    "A346168"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

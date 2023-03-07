@@ -1,0 +1,19 @@
+{
+  "description": "Primes of the form n + sum of proper non-divisors of n.",
+  "id": "A192560",
+  "mentions": [
+    "A000027",
+    "A024816"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

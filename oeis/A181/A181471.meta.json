@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = number of numbers of the form k^2-1 having n-th prime as largest prime divisor.",
+  "id": "A181471",
+  "mentions": [
+    "A175607",
+    "A175901",
+    "A175904",
+    "A181447",
+    "A181470"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

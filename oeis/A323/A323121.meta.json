@@ -1,0 +1,18 @@
+{
+  "description": "Number of compositions of n where the difference between largest and smallest parts equals four.",
+  "id": "A323121",
+  "mentions": [
+    "A214258"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:46",
+    "offset": 4,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

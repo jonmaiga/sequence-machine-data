@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of Schroeder paths of length 2n having trapezoid weight k.",
+  "id": "A104552",
+  "mentions": [
+    "A001906",
+    "A006318",
+    "A104553"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

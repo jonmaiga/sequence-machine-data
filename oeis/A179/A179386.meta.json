@@ -1,0 +1,26 @@
+{
+  "description": "Records of minima of A154333, difference of a cube minus the next smaller square.",
+  "id": "A179386",
+  "mentions": [
+    "A001014",
+    "A154333",
+    "A179107",
+    "A179108",
+    "A179109",
+    "A179387",
+    "A179388",
+    "A181138"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

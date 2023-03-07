@@ -1,0 +1,22 @@
+{
+  "description": "Dirichlet inverse of A355825, characteristic function of exponentially odious numbers.",
+  "id": "A355826",
+  "mentions": [
+    "A270428",
+    "A355819",
+    "A355824",
+    "A355825"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "mult",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:30",
+    "offset": 1,
+    "size": 128,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Denominators of partial sums of Theta(5) = sum(1/(2*j-1)^5, j=1..infinity).",
+  "id": "A164657",
+  "mentions": [
+    "A164656"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

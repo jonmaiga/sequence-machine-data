@@ -1,0 +1,23 @@
+{
+  "description": "Start with 0 and repeatedly substitute 0->0312, 1->3120, 2->1203, 3->2031.",
+  "id": "A287571",
+  "mentions": [
+    "A287556",
+    "A287572",
+    "A287573",
+    "A287574",
+    "A287575"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:59",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

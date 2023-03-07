@@ -1,0 +1,20 @@
+{
+  "description": "Lexicographically earliest version of a self referencing \"Kimberling shuffle\" expulsion array sequence.",
+  "id": "A307797",
+  "mentions": [
+    "A000027",
+    "A006852",
+    "A007063",
+    "A307536"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-entry"
+  }
+}

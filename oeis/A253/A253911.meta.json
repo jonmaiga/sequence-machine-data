@@ -1,0 +1,27 @@
+{
+  "description": "Concatenation of n-th nonprime and n-th prime.",
+  "id": "A253911",
+  "mentions": [
+    "A000040",
+    "A018252",
+    "A038530",
+    "A045532",
+    "A075110",
+    "A106582",
+    "A138821",
+    "A138822",
+    "A253910"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:12",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n = concat(x,y) such that (x - phi(x)) * (y - phi(y)) = n - phi(n), where n - phi(n) is the Euler cototient function of n.",
+  "id": "A272157",
+  "mentions": [
+    "A000040",
+    "A051953",
+    "A272403"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:36",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

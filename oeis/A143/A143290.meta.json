@@ -1,0 +1,21 @@
+{
+  "description": "Number of binary words of length n containing at least one subword 10^{10}1 and no subwords 10^{i}1 with i",
+  "id": "A143290",
+  "mentions": [
+    "A017905",
+    "A017906",
+    "A143291"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 23:26:20",
+    "offset": 0,
+    "size": 60,
+    "source": "joeis"
+  }
+}

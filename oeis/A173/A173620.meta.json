@@ -1,0 +1,24 @@
+{
+  "description": "Main diagonal of array A[k,n] = n-th Fibonacci number which becomes prime when digits (base k) are reversed.",
+  "id": "A173620",
+  "mentions": [
+    "A000040",
+    "A000045",
+    "A001605",
+    "A004086",
+    "A005478",
+    "A115347",
+    "A173268"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

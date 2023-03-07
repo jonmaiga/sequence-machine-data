@@ -1,0 +1,27 @@
+{
+  "description": "a(n) is the side length (size) of the smallest element in a simple perfect squared square of order n such that the ratio of the size of the smallest element to the total size of the square assumes a maximum over all possible A006983(n) dissections of order n.",
+  "id": "A349205",
+  "mentions": [
+    "A006983",
+    "A129947",
+    "A217149",
+    "A228953",
+    "A349206",
+    "A349207",
+    "A349208",
+    "A349209",
+    "A349210"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 21,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Prime numbers that have the same base-10 digits as their prime index (with multiplicity), disregarding zero digits.",
+  "id": "A355317",
+  "mentions": [
+    "A355318",
+    "A355418",
+    "A355539"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Concatenate the n-th prime with the n-th semiprime.",
+  "id": "A262428",
+  "mentions": [
+    "A000040",
+    "A001097",
+    "A001358",
+    "A065870"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Sum of all the smaller parts raised to their corresponding larger parts of the partitions of n into exactly two parts.",
+  "id": "A226065",
+  "mentions": [
+    "A226140"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

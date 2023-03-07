@@ -1,0 +1,19 @@
+{
+  "description": "Number of n X 2 0..2 arrays avoiding the pattern z-1 z-1 z in any row, column or nw-to-se diagonal.",
+  "id": "A206728",
+  "mentions": [
+    "A206727",
+    "A206734"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:26",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of prime divisors (with multiplicity) of icosahedral numbers.",
+  "id": "A102294",
+  "mentions": [
+    "A001222",
+    "A006564"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

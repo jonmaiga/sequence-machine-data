@@ -1,0 +1,20 @@
+{
+  "description": "Number of triples [n,k,m] with n <= k <= m satisfying T_n + T_k = T_m, where T_i = i*(i+1)/2 are the triangular numbers.",
+  "id": "A333529",
+  "mentions": [
+    "A000217",
+    "A068194",
+    "A309507"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:04",
+    "offset": 1,
+    "size": 104,
+    "source": "oeis-bfile"
+  }
+}

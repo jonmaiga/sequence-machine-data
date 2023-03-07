@@ -1,0 +1,23 @@
+{
+  "description": "Rectangular array: (row n) = b**c, where b(h) = h, c(h) = (n-1+h)^3, n>=1, h>=1, and ** = convolution.",
+  "id": "A213553",
+  "mentions": [
+    "A024166",
+    "A101089",
+    "A213500",
+    "A213554"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-02 14:50:31",
+    "offset": 1,
+    "size": 46,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Numerators of the redundant Stern-Brocot structure; denominators=A152976.",
+  "id": "A152975",
+  "mentions": [
+    "A007305",
+    "A060188",
+    "A152976"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "frac",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 95,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "O.g.f. A(x) satisfies: [x^n] exp( n*(n+4) * x ) / A(x) = 0 for n>0.",
+  "id": "A304865",
+  "mentions": [
+    "A304318",
+    "A304319",
+    "A304322",
+    "A304863",
+    "A304864"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

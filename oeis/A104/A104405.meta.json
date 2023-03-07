@@ -1,0 +1,18 @@
+{
+  "description": "A084203 (the cube root of A083953) read mod 3.",
+  "id": "A104405",
+  "mentions": [
+    "A083953",
+    "A084203"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

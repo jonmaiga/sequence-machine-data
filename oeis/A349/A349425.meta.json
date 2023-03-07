@@ -1,0 +1,20 @@
+{
+  "description": "n-th stable digit (in decimal system) of n^(n^(...^n)).",
+  "id": "A349425",
+  "mentions": [
+    "A120962",
+    "A317905"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

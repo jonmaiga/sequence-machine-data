@@ -1,0 +1,19 @@
+{
+  "description": "Maximum LCM of partitions of n into pairwise coprime parts that are >= 2.",
+  "id": "A340267",
+  "mentions": [
+    "A007359",
+    "A007360",
+    "A123131"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:13",
+    "offset": 2,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

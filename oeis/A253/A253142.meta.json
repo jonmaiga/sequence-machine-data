@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that n + 15 and n^2 + 15 are prime.",
+  "id": "A253142",
+  "mentions": [
+    "A086303",
+    "A121982"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:11",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

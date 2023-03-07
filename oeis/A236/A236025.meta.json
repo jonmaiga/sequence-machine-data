@@ -1,0 +1,27 @@
+{
+  "description": "Composite numbers n sorted by increasing values of delta(n) = (n+1)^(1/2) - sigma(n)^(1/tau(n)), where sigma(n) = A000203(n) = the sum of divisors of n and tau(n) = A000005(n) = the number of divisors of n.",
+  "id": "A236025",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A234516",
+    "A234520",
+    "A236020",
+    "A236021",
+    "A236022",
+    "A236023",
+    "A236024",
+    "A236026",
+    "A236027"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:53",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

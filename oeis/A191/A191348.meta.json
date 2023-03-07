@@ -1,0 +1,35 @@
+{
+  "description": "Array read by antidiagonals: ((ceiling(sqrt(n)) + sqrt(n))^k + (ceiling(sqrt(n)) - sqrt(n))^k)/2 for columns k >= 0 and rows n >= 0.",
+  "id": "A191348",
+  "mentions": [
+    "A000007",
+    "A001075",
+    "A001541",
+    "A003499",
+    "A003500",
+    "A006012",
+    "A011782",
+    "A056236",
+    "A081294",
+    "A081341",
+    "A084120",
+    "A084134",
+    "A090965",
+    "A098648",
+    "A146963",
+    "A155543",
+    "A191347"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

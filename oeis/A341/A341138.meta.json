@@ -1,0 +1,27 @@
+{
+  "description": "Number of ways to write n as an ordered sum of 9 prime powers (including 1).",
+  "id": "A341138",
+  "mentions": [
+    "A000961",
+    "A010055",
+    "A282062",
+    "A282064",
+    "A341127",
+    "A341133",
+    "A341134",
+    "A341135",
+    "A341136",
+    "A341137",
+    "A341139"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:13",
+    "offset": 9,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

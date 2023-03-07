@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the number of k with 1 <= k <= n-1 such that a(k) + 2 * a(n-k) <= n.",
+  "id": "A317596",
+  "mentions": [
+    "A317582"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:36",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

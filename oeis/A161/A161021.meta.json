@@ -1,0 +1,22 @@
+{
+  "description": "Collatz (or 3x+1) trajectory starting at 703.",
+  "id": "A161021",
+  "mentions": [
+    "A006577",
+    "A008884",
+    "A060412",
+    "A161022",
+    "A161023"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:43",
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

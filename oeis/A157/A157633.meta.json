@@ -1,0 +1,19 @@
+{
+  "description": "Triangle T(n,m) read rows: 1 in column m=0 and on the diagonal, 2*m*(n-m)*(m^2-n*m+2*n^2) otherwise.",
+  "id": "A157633",
+  "mentions": [
+    "A157278"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-27 17:12:21",
+    "offset": 0,
+    "size": 56,
+    "source": "joeis"
+  }
+}

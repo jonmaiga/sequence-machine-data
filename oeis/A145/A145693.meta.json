@@ -1,0 +1,22 @@
+{
+  "description": "Numbers X such that there exists Y in N with X^2=21*Y^2+7.",
+  "id": "A145693",
+  "mentions": [
+    "A144927",
+    "A144928",
+    "A144929",
+    "A144930"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

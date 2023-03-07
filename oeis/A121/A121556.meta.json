@@ -1,0 +1,22 @@
+{
+  "description": "Numbers such that sigma(n)^2 is divisible by UnitarySigma(n)*UnitaryPhi(n).",
+  "id": "A121556",
+  "mentions": [
+    "A000203",
+    "A020492",
+    "A034448",
+    "A047994",
+    "A078557",
+    "A121647"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:10",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

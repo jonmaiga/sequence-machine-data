@@ -1,0 +1,23 @@
+{
+  "description": "a(0) = 0, a(1) = 1; a(2*n) = n - a(a(n)), a(2*n+1) = a(a(n)) + a(a(n+1)).",
+  "id": "A287597",
+  "mentions": [
+    "A002487",
+    "A005206",
+    "A046698",
+    "A287475",
+    "A287476",
+    "A287477"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

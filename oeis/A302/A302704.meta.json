@@ -1,0 +1,20 @@
+{
+  "description": "O.g.f. A(x) satisfies: A(x) = 1 + Integral (x*A(x)^8)' / (x*A(x)^5)' dx.",
+  "id": "A302704",
+  "mentions": [
+    "A302701",
+    "A302705",
+    "A303064"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:27",
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

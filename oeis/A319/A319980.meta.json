@@ -1,0 +1,19 @@
+{
+  "description": "Coordination sequence for (9^3, 3.9^2) net with respect to a vertex of type 3.9^2.",
+  "id": "A319980",
+  "mentions": [
+    "A066393"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:42",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

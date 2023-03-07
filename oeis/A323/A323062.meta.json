@@ -1,0 +1,20 @@
+{
+  "description": "Numbers m > 0 such that floor(sqrt(2^(2m-1))) > 1/2 + sqrt(1/4 + 2^(2m-1) - 2^m).",
+  "id": "A323062",
+  "mentions": [
+    "A000196",
+    "A070939",
+    "A323192"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:46",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

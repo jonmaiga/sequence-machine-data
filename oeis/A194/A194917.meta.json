@@ -1,0 +1,20 @@
+{
+  "description": "Fractalization of (n-[nr-n]), where [ ]=floor and r=(1+sqrt(5))/2 (the golden ratio).",
+  "id": "A194917",
+  "mentions": [
+    "A189663",
+    "A194918",
+    "A194919",
+    "A194959"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 94,
+    "source": "oeis-entry"
+  }
+}

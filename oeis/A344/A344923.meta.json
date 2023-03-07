@@ -1,0 +1,22 @@
+{
+  "description": "Numbers that are the sum of four fourth powers in exactly seven ways.",
+  "id": "A344923",
+  "mentions": [
+    "A344730",
+    "A344921",
+    "A344922",
+    "A344925",
+    "A344943",
+    "A345151"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:56",
+    "offset": 1,
+    "size": 26,
+    "source": "joeis"
+  }
+}

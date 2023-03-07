@@ -1,0 +1,29 @@
+{
+  "description": "Number of ways to split {1, 2, 3, ..., 3n} into n arithmetic progressions each with 3 terms.",
+  "id": "A104429",
+  "mentions": [
+    "A002572",
+    "A002848",
+    "A002849",
+    "A104430",
+    "A104443",
+    "A202705",
+    "A279197",
+    "A279198",
+    "A279199",
+    "A282615",
+    "A334250"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that Sum_{j=1..k} composite(j)^composite(j) is prime, where composite(j) is the j-th composite number.",
+  "id": "A308610",
+  "mentions": [
+    "A000040",
+    "A002808",
+    "A053782",
+    "A073826",
+    "A132637"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "bref",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

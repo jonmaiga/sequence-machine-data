@@ -1,0 +1,19 @@
+{
+  "description": "A sieve transform applied to the composite numbers.",
+  "id": "A100425",
+  "mentions": [
+    "A099361",
+    "A100424",
+    "A100426"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

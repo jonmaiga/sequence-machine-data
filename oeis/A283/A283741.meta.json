@@ -1,0 +1,23 @@
+{
+  "description": "Array read by descending antidiagonals: row k lists the numbers m such that 1/2^(k+1) < 1 - f(m) < 1/2^k, where f(m) is the fractional part of m*(golden ratio).",
+  "id": "A283741",
+  "mentions": [
+    "A000045",
+    "A001622",
+    "A283738",
+    "A283739",
+    "A283740"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

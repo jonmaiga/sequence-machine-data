@@ -1,0 +1,23 @@
+{
+  "description": "Positions of ones in A289618.",
+  "id": "A289619",
+  "mentions": [
+    "A001222",
+    "A005187",
+    "A046523",
+    "A046645",
+    "A182853",
+    "A289617",
+    "A289618"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:04",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Numbers n such that phi(n)+sigma(n)=reversal(n)+3.",
+  "id": "A136544",
+  "mentions": [
+    "A070272",
+    "A230004",
+    "A230005",
+    "A230006",
+    "A230019",
+    "A237521",
+    "A237522"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

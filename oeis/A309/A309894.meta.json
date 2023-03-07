@@ -1,0 +1,17 @@
+{
+  "description": "Number of unbordered factors of length n in the Thue-Morse sequence A010060.",
+  "id": "A309894",
+  "mentions": [
+    "A010060"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:34",
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

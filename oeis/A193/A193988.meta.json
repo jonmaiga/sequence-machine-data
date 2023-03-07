@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that sigma_2(n) > sigma_2(k) for all k < n.",
+  "id": "A193988",
+  "mentions": [
+    "A001157",
+    "A002093",
+    "A193989"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

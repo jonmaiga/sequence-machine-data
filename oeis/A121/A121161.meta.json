@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the nearest integer to log(lcm(1,2,3,...,10^n)).",
+  "id": "A121161",
+  "mentions": [
+    "A003418"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

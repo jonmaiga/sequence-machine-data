@@ -1,0 +1,21 @@
+{
+  "description": "Number of distinct necklaces with n red, n green, n blue and n white beads.",
+  "id": "A207816",
+  "mentions": [
+    "A003239",
+    "A118644",
+    "A137729",
+    "A208183"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:27",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

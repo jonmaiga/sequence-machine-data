@@ -1,0 +1,29 @@
+{
+  "description": "Periodic sequence 1,0,1,..., arranged in a triangle.",
+  "id": "A204418",
+  "mentions": [
+    "A000012",
+    "A003586",
+    "A004396",
+    "A011655",
+    "A016777",
+    "A079978",
+    "A130781",
+    "A131737",
+    "A141571",
+    "A173732"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:05:33",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

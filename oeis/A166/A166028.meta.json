@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the starting position of the second occurrence of a string of the initial n decimal digits of e in the decimal expansion of e.",
+  "id": "A166028",
+  "mentions": [
+    "A001113",
+    "A081876"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

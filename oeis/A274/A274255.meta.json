@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that n^2 is the sum of three nonzero squares while n is not.",
+  "id": "A274255",
+  "mentions": [
+    "A000408",
+    "A005767"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

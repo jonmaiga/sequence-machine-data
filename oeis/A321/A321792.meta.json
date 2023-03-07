@@ -1,0 +1,18 @@
+{
+  "description": "Lesser of twin primes of the form 6*Fibonacci(k)-1.",
+  "id": "A321792",
+  "mentions": [
+    "A001359"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

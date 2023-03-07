@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of skew Dyck paths of semilength n such that the sum of the height of the peaks is k (n >= 0; n <= k <= floor((n+1)^2/4)).",
+  "id": "A129170",
+  "mentions": [
+    "A001906",
+    "A002212",
+    "A088305",
+    "A129171"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 77,
+    "source": "oeis-entry"
+  }
+}

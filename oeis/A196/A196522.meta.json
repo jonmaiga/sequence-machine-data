@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of Pi*(1+sqrt(2))/8.",
+  "id": "A196522",
+  "mentions": [
+    "A003881",
+    "A093954",
+    "A101455"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:18",
+    "offset": 0,
+    "size": 98,
+    "source": "oeis-bfile"
+  }
+}

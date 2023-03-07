@@ -1,0 +1,19 @@
+{
+  "description": "Index of first occurrence of n in A349325.",
+  "id": "A350278",
+  "mentions": [
+    "A349325",
+    "A350277"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:24",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

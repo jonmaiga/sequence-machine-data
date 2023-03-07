@@ -1,0 +1,21 @@
+{
+  "description": "Partial sums of A279729.",
+  "id": "A279730",
+  "mentions": [
+    "A278700",
+    "A279727",
+    "A279728",
+    "A279729"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

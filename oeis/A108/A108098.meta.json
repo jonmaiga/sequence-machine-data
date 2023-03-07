@@ -1,0 +1,17 @@
+{
+  "description": "Numbers m such that there is no k <= 2*m for which m! + k! - 1 is prime.",
+  "id": "A108098",
+  "mentions": [
+    "A075758"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

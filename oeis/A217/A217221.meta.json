@@ -1,0 +1,28 @@
+{
+  "description": "Theta series of Kagome net with respect to a deep hole.",
+  "id": "A217221",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A004016",
+    "A005882",
+    "A005928",
+    "A010054",
+    "A010815",
+    "A033762",
+    "A115978",
+    "A121373",
+    "A217220"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:35",
+    "offset": 0,
+    "size": 103,
+    "source": "oeis-bfile"
+  }
+}

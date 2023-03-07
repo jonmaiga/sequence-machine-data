@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = number of elements of order n in simple group Alt(10) of order 1814400.",
+  "id": "A145770",
+  "mentions": [
+    "A031963",
+    "A057740"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

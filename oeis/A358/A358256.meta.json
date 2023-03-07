@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the smallest primitive Niven number ending with n zeros.",
+  "id": "A358256",
+  "mentions": [
+    "A005349",
+    "A051885",
+    "A358255"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

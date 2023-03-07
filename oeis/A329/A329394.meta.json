@@ -1,0 +1,32 @@
+{
+  "description": "Number of compositions of n whose Lyndon and co-Lyndon factorizations both have the same length.",
+  "id": "A329394",
+  "mentions": [
+    "A000740",
+    "A001037",
+    "A008965",
+    "A059966",
+    "A060223",
+    "A102659",
+    "A211100",
+    "A275692",
+    "A328596",
+    "A329141",
+    "A329312",
+    "A329318",
+    "A329324",
+    "A329395",
+    "A329398"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

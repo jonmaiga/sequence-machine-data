@@ -1,0 +1,20 @@
+{
+  "description": "Primes p such that sum of first p primes divides product of first p primes.",
+  "id": "A121756",
+  "mentions": [
+    "A002110",
+    "A007504",
+    "A051838",
+    "A121755"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

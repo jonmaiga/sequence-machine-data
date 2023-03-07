@@ -1,0 +1,22 @@
+{
+  "description": "Array read by antidiagonals: T(n,m) is the number of unlabeled bicolored trees with n nodes of one color and m of the other.",
+  "id": "A329054",
+  "mentions": [
+    "A072590",
+    "A119857",
+    "A122085",
+    "A122086",
+    "A329053"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

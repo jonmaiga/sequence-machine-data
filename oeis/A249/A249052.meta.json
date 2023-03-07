@@ -1,0 +1,21 @@
+{
+  "description": "Odd numbers n without prime factors of the form 4k+3 such that x^2-n*y^2=-1 has no solutions.",
+  "id": "A249052",
+  "mentions": [
+    "A007913",
+    "A031398",
+    "A031399",
+    "A137351",
+    "A172001"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

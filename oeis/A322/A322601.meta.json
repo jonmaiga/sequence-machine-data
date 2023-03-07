@@ -1,0 +1,20 @@
+{
+  "description": "Continued fraction for sin(gamma).",
+  "id": "A322601",
+  "mentions": [
+    "A001620",
+    "A119807",
+    "A322545"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "cofr",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:48:19",
+    "offset": 1,
+    "size": 92,
+    "source": "joeis"
+  }
+}

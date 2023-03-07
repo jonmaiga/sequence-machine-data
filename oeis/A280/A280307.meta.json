@@ -1,0 +1,23 @@
+{
+  "description": "Numbers m such that 7^m - 6^m is not squarefree, but 7^d - 6^d is squarefree for every proper divisor d of m.",
+  "id": "A280307",
+  "mentions": [
+    "A016169",
+    "A237043",
+    "A280203",
+    "A280208",
+    "A280209",
+    "A280302"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

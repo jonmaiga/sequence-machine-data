@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the second smallest negative real root of the equation Gamma(x) = -1 (negated).",
+  "id": "A257434",
+  "mentions": [
+    "A175474",
+    "A257433"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 101,
+    "source": "oeis-entry"
+  }
+}

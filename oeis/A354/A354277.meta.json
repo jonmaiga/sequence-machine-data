@@ -1,0 +1,22 @@
+{
+  "description": "Product_{n>=1} 1 / (1 - x^n/n!)^a(n) = exp(-x) / (1 - x).",
+  "id": "A354277",
+  "mentions": [
+    "A000166",
+    "A006973",
+    "A137852",
+    "A353822",
+    "A354278"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = n / A242926(n-1).",
+  "id": "A242947",
+  "mentions": [
+    "A008578",
+    "A189731",
+    "A242563",
+    "A242926"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of numbers x < 10^n such that the digits of x^2 occur with an equal frequency of 2.",
+  "id": "A225428",
+  "mentions": [
+    "A052049",
+    "A052050",
+    "A225429",
+    "A226796"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

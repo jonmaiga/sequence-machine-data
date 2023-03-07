@@ -1,0 +1,19 @@
+{
+  "description": "Integer k associated with the conjectured record-breaking maximal element A226683(n) of primitive 3x-k cycles.",
+  "id": "A226684",
+  "mentions": [
+    "A226668",
+    "A226683",
+    "A226685"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Smallest prime p, such that |A000040(n)-p| is of the form 2^k.",
+  "id": "A130970",
+  "mentions": [
+    "A000040",
+    "A004198",
+    "A130971"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:18",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

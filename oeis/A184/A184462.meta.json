@@ -1,0 +1,17 @@
+{
+  "description": "Half the number of (n+1) X 5 binary arrays with equal numbers of majority one 2 X 2 subblocks and majority zero 2 X 2 subblocks.",
+  "id": "A184462",
+  "mentions": [
+    "A184467"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:08",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

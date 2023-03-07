@@ -1,0 +1,20 @@
+{
+  "description": "Least numbers, starting (1,1,1), such that determinants of continuous blocks of 4 form an increasing sequence of primes (A119839).",
+  "id": "A119838",
+  "mentions": [
+    "A000040",
+    "A119839"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = |{0 <= k < n: n+k and n+k^2 are both prime}|.",
+  "id": "A185636",
+  "mentions": [
+    "A035250"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:10",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

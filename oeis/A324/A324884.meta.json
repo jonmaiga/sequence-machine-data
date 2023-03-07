@@ -1,0 +1,23 @@
+{
+  "description": "a(1) = 0; for n > 1, a(n) = A001511(A324819(n)), where A324819(n) = 2*A156552(n) OR A323243(n).",
+  "id": "A324884",
+  "mentions": [
+    "A001511",
+    "A156552",
+    "A323243",
+    "A324819",
+    "A324882",
+    "A324883"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:51",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

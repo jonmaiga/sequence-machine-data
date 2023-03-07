@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that A246601(k) > 2*k.",
+  "id": "A359084",
+  "mentions": [
+    "A000203",
+    "A000396",
+    "A005101",
+    "A103292",
+    "A246601",
+    "A359085"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:33",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

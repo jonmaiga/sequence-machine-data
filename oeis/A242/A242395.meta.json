@@ -1,0 +1,19 @@
+{
+  "description": "Number of equilateral triangles (sides length = 1) that intersect the circumference of a circle of radius n centered at (1/2,0).",
+  "id": "A242395",
+  "mentions": [
+    "A242118",
+    "A242394",
+    "A242396"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

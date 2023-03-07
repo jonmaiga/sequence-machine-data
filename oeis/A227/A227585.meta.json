@@ -1,0 +1,25 @@
+{
+  "description": "McKay-Thompson series of class 36A for the Monster group with a(0) = 2.",
+  "id": "A227585",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A010054",
+    "A010815",
+    "A058644",
+    "A112205",
+    "A121373",
+    "A215412"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:14:09",
+    "offset": -1,
+    "size": 50,
+    "source": "joeis"
+  }
+}

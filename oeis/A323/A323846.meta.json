@@ -1,0 +1,31 @@
+{
+  "description": "Array read by antidiagonals: T(m,n) = number of m X n matrices M with entries {0,1,2} that have M_{1,1}=0, M_{m,n}=2, are such that the rows and columns are monotonic without jumps of 2, and satisfy M_{(i+1),(j+1)} = M_{i,j} + (0 or 1).",
+  "id": "A323846",
+  "mentions": [
+    "A000217",
+    "A132823",
+    "A229428",
+    "A252876",
+    "A306322",
+    "A323847",
+    "A323967",
+    "A323968",
+    "A323969",
+    "A323970",
+    "A323971",
+    "A323972",
+    "A323973",
+    "A323974"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:48",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

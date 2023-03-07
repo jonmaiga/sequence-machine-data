@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = smallest number m such that m^2 and n^2 share no common digits and m^2 and n^2 together use all 10 digits, a(n) = 0 if no such m exists.",
+  "id": "A158931",
+  "mentions": [
+    "A158932"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

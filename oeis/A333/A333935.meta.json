@@ -1,0 +1,20 @@
+{
+  "description": "Take a prime p and concatenate it with the next prime after p, q. If the result p||q is prime then take p+q and concatenate the sum to the next prime after q, r. If the result (p+q)||r is prime then take p+q+r and concatenate it to the next prime (s) after r, getting (p+r+r)||s, and so on. a(n) is the least prime for which this process continues for n steps.",
+  "id": "A333935",
+  "mentions": [
+    "A030459",
+    "A309191"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Numbers that are the concatenation of the decimal representation of two nonzero squares.",
+  "id": "A191933",
+  "mentions": [
+    "A000290",
+    "A038670",
+    "A039686",
+    "A167535",
+    "A192993",
+    "A193095",
+    "A193096",
+    "A193097",
+    "A193144"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:15",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Optimal ascending continued fraction expansion of sqrt(2)-1.",
+  "id": "A228931",
+  "mentions": [
+    "A003423",
+    "A220335",
+    "A228929"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "cofr",
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-03 15:07:20",
+    "offset": 1,
+    "size": 8,
+    "source": "joeis"
+  }
+}

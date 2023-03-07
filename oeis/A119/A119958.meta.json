@@ -1,0 +1,19 @@
+{
+  "description": "Numerator of determinant of n X n matrix with elements M[i,j] = (p^2 - p + 1)/(p*(p-1)) if i=j and 1 otherwise, where p=Prime[i].",
+  "id": "A119958",
+  "mentions": [
+    "A002061",
+    "A002476",
+    "A036689"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

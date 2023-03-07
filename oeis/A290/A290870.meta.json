@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the number of ways to represent n as n = x*y + y*z + z*x where 0 < x < y < z.",
+  "id": "A290870",
+  "mentions": [
+    "A000926",
+    "A066955",
+    "A093669",
+    "A094376",
+    "A094377"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:05",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

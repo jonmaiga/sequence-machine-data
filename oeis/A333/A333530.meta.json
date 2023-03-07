@@ -1,0 +1,22 @@
+{
+  "description": "Make a list of triples [n,k,m] with n>=1, k>=1, and T_n+T_k = T_m as in A309507, arranged in lexicographic order; sequence gives values of k.",
+  "id": "A333530",
+  "mentions": [
+    "A000217",
+    "A198455",
+    "A198456",
+    "A309507",
+    "A333529",
+    "A333531"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

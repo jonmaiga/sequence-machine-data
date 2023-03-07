@@ -1,0 +1,30 @@
+{
+  "description": "Triangular array read by rows: T(n,k) is the number of weakly unimodal partitions of n in which the greatest part occurs exactly k times, n>=1, 1<=k<=n.",
+  "id": "A247255",
+  "mentions": [
+    "A000012",
+    "A001523",
+    "A006330",
+    "A114921",
+    "A226541",
+    "A320315",
+    "A320316",
+    "A320317",
+    "A320318",
+    "A320319",
+    "A320320",
+    "A320321"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:03",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

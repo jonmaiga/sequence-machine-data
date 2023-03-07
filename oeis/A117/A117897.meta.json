@@ -1,0 +1,24 @@
+{
+  "description": "Number of labeled trees on prime numbers of nodes through n-th prime.",
+  "id": "A117897",
+  "mentions": [
+    "A000040",
+    "A000178",
+    "A000272",
+    "A001923",
+    "A061789",
+    "A076931"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:07",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-bfile"
+  }
+}

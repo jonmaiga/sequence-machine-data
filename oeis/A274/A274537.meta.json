@@ -1,0 +1,32 @@
+{
+  "description": "Number T(n,k) of set partitions of [n] into k blocks such that each element is contained in a block whose index parity coincides with the parity of the element; triangle T(n,k), n>=0, 0<=k<=n, read by rows.",
+  "id": "A274537",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A002623",
+    "A004526",
+    "A052551",
+    "A173196",
+    "A274538",
+    "A274868",
+    "A274869",
+    "A274870",
+    "A274871",
+    "A274872",
+    "A274873",
+    "A274874",
+    "A274875"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:39",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

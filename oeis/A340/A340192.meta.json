@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{d|n} A063994(d), where A063994(x) = Product_{primes p dividing x} gcd(p-1, x-1).",
+  "id": "A340192",
+  "mentions": [
+    "A063994",
+    "A340190",
+    "A340193"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:12",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

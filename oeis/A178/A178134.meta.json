@@ -1,0 +1,22 @@
+{
+  "description": "Sum_{m=0..(n-1)/2} A176263(n-m-1, m).",
+  "id": "A178134",
+  "mentions": [
+    "A000800",
+    "A004148",
+    "A176263",
+    "A222134"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-02 16:43:33",
+    "offset": 0,
+    "size": 27,
+    "source": "joeis"
+  }
+}

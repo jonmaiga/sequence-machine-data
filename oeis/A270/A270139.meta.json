@@ -1,0 +1,25 @@
+{
+  "description": "a(n)=n when n<=3, otherwise a(n) is the smallest unused positive integer which is not coprime to the two previous terms.",
+  "id": "A270139",
+  "mentions": [
+    "A000027",
+    "A064413",
+    "A084937",
+    "A098550",
+    "A121216",
+    "A121217",
+    "A254077",
+    "A255582",
+    "A336957"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:32",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k not divisible by 10 such that k^2 and 2*k are in A046030.",
+  "id": "A308961",
+  "mentions": [
+    "A046030",
+    "A055642",
+    "A308917"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

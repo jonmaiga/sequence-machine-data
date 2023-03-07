@@ -1,0 +1,20 @@
+{
+  "description": "Indices of primes with digits in strictly decreasing order.",
+  "id": "A155768",
+  "mentions": [
+    "A052014"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "\"Dropping time\" of the reduced Collatz iteration starting with 2n+1.",
+  "id": "A122458",
+  "mentions": [
+    "A000265",
+    "A017077",
+    "A020914",
+    "A060445",
+    "A075677",
+    "A075680",
+    "A087113",
+    "A100982",
+    "A122791"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:11",
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

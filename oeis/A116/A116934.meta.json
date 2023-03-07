@@ -1,0 +1,20 @@
+{
+  "description": "First prime in the arithmetic progression (n+k*p: k>0), where p is the smallest coprime greater than n+1.",
+  "id": "A116934",
+  "mentions": [
+    "A010051",
+    "A079578",
+    "A088732",
+    "A116933"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:07",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

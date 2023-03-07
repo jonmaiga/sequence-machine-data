@@ -1,0 +1,31 @@
+{
+  "description": "Number of normal generalized Young tableaux of size n with all rows and columns strictly increasing.",
+  "id": "A299968",
+  "mentions": [
+    "A000085",
+    "A000898",
+    "A001221",
+    "A005117",
+    "A006958",
+    "A015128",
+    "A138178",
+    "A238690",
+    "A285175",
+    "A296561",
+    "A297388",
+    "A299926",
+    "A300120",
+    "A300122"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

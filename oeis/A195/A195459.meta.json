@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = phi(3*n)/2.",
+  "id": "A195459",
+  "mentions": [
+    "A000010",
+    "A023022",
+    "A062570"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:17",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

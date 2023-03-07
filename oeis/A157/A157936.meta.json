@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n divisible by the least prime >= sqrt(n).",
+  "id": "A157936",
+  "mentions": [
+    "A001248",
+    "A006094",
+    "A157937",
+    "A157942"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

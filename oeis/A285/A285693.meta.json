@@ -1,0 +1,22 @@
+{
+  "description": "a(1) = 2; a(n + 1) = smallest prime > a(n) such that a(n + 1) - a(n) is the product of 8 primes.",
+  "id": "A285693",
+  "mentions": [
+    "A255609",
+    "A285688",
+    "A285689",
+    "A285690",
+    "A285691",
+    "A285692"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

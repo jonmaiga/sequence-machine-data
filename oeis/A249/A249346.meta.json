@@ -1,0 +1,24 @@
+{
+  "description": "The exponent of the highest power of 6 dividing the product of the elements on the n-th row of Pascal's triangle.",
+  "id": "A249346",
+  "mentions": [
+    "A001142",
+    "A122841",
+    "A187059",
+    "A249151",
+    "A249343"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "hear",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:05",
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

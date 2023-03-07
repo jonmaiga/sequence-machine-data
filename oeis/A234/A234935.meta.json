@@ -1,0 +1,20 @@
+{
+  "description": "Same as A228276, except that first term is 3.",
+  "id": "A234935",
+  "mentions": [
+    "A228276",
+    "A234932",
+    "A234934"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

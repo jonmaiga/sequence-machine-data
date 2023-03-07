@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that k^3 - k + 1 is prime.",
+  "id": "A236477",
+  "mentions": [
+    "A049407",
+    "A126421",
+    "A236478"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:54",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

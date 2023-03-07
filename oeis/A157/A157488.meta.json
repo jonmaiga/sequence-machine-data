@@ -1,0 +1,30 @@
+{
+  "description": "a(1) = 1; for n > 1, a(n) = product of exponential divisors of n.",
+  "id": "A157488",
+  "mentions": [
+    "A000005",
+    "A000027",
+    "A000040",
+    "A000203",
+    "A000961",
+    "A006881",
+    "A007955",
+    "A049419",
+    "A051377",
+    "A061537",
+    "A120944",
+    "A274029",
+    "A322791"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:39",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

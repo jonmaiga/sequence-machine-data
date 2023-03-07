@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the least k for which A301916(n) divides 3^k + 1.",
+  "id": "A301917",
+  "mentions": [
+    "A301915",
+    "A301916",
+    "A301919"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:26",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

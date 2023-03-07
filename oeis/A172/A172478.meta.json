@@ -1,0 +1,18 @@
+{
+  "description": "The number of ways to dissect an n X n square into polyominoes of size n and then fill it to make it a Latin square, with the extra requirement that each number occurs within each polyomino exactly once.",
+  "id": "A172478",
+  "mentions": [
+    "A002860",
+    "A172477"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

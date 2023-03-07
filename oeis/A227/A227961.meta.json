@@ -1,0 +1,20 @@
+{
+  "description": "Triangle T(n,k) read by rows: how often does k appear among the first A006116(n) entries of A198260?",
+  "id": "A227961",
+  "mentions": [
+    "A000079",
+    "A006116",
+    "A198260"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

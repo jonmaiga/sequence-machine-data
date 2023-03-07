@@ -1,0 +1,28 @@
+{
+  "description": "a(n) is the smallest b >= 3 for which the base-b representation of n contains at least one 0 (or 0 if no such base exists).",
+  "id": "A270027",
+  "mentions": [
+    "A069575",
+    "A216194",
+    "A270026",
+    "A270028",
+    "A270029",
+    "A270030",
+    "A270031",
+    "A270033",
+    "A270034",
+    "A270035",
+    "A270037"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:32",
+    "offset": 1,
+    "size": 95,
+    "source": "oeis-bfile"
+  }
+}

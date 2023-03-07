@@ -1,0 +1,29 @@
+{
+  "description": "Number of ten-prime Carmichael numbers less than 10^n.",
+  "id": "A299710",
+  "mentions": [
+    "A002997",
+    "A006931",
+    "A055553",
+    "A132195",
+    "A174612",
+    "A174613",
+    "A174614",
+    "A174615",
+    "A174616",
+    "A174617",
+    "A299711"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 16,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

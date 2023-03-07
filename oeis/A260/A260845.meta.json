@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{k=0..n} (-1)^k*P(n,k)*k!, where P(n,k) is the number of partitions of n into k parts.",
+  "id": "A260845",
+  "mentions": [
+    "A008284",
+    "A101880",
+    "A318144"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:19",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "a(n) is the smallest prime q such that n(q+1)+1 is prime, that is, the smallest prime q such that n = (p-1)/(q+1) with p prime; or a(n) = -1 if no such q exists.",
+  "id": "A249800",
+  "mentions": [
+    "A060324",
+    "A062251",
+    "A064632",
+    "A249801",
+    "A249802",
+    "A249803"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "changed",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:06",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

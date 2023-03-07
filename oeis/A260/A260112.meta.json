@@ -1,0 +1,23 @@
+{
+  "description": "Minimal number of steps to get from 0 to n by (a) adding 1 or (b) multiplying by 4.",
+  "id": "A260112",
+  "mentions": [
+    "A007090",
+    "A053737",
+    "A056792",
+    "A061282",
+    "A110591"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:18",
+    "offset": 0,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

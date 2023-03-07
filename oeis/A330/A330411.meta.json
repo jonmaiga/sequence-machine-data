@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the index of the first 0 term in the rumor sequence with initial 0th term 1 and parameters b = 3 and n.",
+  "id": "A330411",
+  "mentions": [
+    "A177356",
+    "A208125"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

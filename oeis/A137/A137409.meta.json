@@ -1,0 +1,24 @@
+{
+  "description": "Numbers that cannot be the value of 'C' in a primitive Pythagorean triple (A < B; A^2 + B^2 = C^2).",
+  "id": "A137409",
+  "mentions": [
+    "A004613",
+    "A008846",
+    "A020882",
+    "A024362",
+    "A065338",
+    "A125667",
+    "A137407",
+    "A339875"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:25",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

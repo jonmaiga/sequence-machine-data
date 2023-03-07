@@ -1,0 +1,25 @@
+{
+  "description": "Primes p such that continued fraction of (1 + sqrt(p))/2 has period 12 : primes in A146336.",
+  "id": "A146357",
+  "mentions": [
+    "A000290",
+    "A050950",
+    "A050969",
+    "A078370",
+    "A146326",
+    "A146336",
+    "A146345",
+    "A146348",
+    "A146360"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:34",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

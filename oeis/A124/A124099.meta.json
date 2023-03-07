@@ -1,0 +1,25 @@
+{
+  "description": "Sum_(x^i*y^j*z^k) with i + j + k = m and (x, y, z) = the primitive Pythagorean triple (5, 12, 13).",
+  "id": "A124099",
+  "mentions": [
+    "A019682",
+    "A020000",
+    "A020341",
+    "A020346",
+    "A021664",
+    "A021684",
+    "A021844",
+    "A025942"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 20:41:38",
+    "offset": 0,
+    "size": 16,
+    "source": "joeis"
+  }
+}

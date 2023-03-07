@@ -1,0 +1,23 @@
+{
+  "description": "Permutation of natural numbers: a(1) = 1; a(A182859(n+1)) = 2*a(n), a(A080218(n)) = 1 + 2*a(n).",
+  "id": "A262691",
+  "mentions": [
+    "A080218",
+    "A182859",
+    "A262683",
+    "A262684",
+    "A262685",
+    "A262692"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:22",
+    "offset": 1,
+    "size": 94,
+    "source": "oeis-bfile"
+  }
+}

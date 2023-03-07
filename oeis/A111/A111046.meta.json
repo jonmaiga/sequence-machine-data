@@ -1,0 +1,25 @@
+{
+  "description": "Difference between squares of twin prime pairs.",
+  "id": "A111046",
+  "mentions": [
+    "A001359",
+    "A006512",
+    "A014574",
+    "A040040",
+    "A054735",
+    "A108570",
+    "A108604"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:02",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

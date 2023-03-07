@@ -1,0 +1,18 @@
+{
+  "description": "Product of successive primes minus 2.",
+  "id": "A124669",
+  "mentions": [
+    "A123921"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:13",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

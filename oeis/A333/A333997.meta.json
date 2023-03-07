@@ -1,0 +1,21 @@
+{
+  "description": "Number of electrons per subshell in element Z=n expressed as a 56-bit unsigned integer.",
+  "id": "A333997",
+  "mentions": [
+    "A093907",
+    "A168208",
+    "A333662"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:05",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

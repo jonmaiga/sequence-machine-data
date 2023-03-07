@@ -1,0 +1,29 @@
+{
+  "description": "Triangle of coefficients of square of Hermite polynomials divided by 2^n with argument sqrt(x/2).",
+  "id": "A111595",
+  "mentions": [
+    "A001818",
+    "A048854",
+    "A111596",
+    "A111601",
+    "A111602",
+    "A111777",
+    "A111784",
+    "A111882",
+    "A111883",
+    "A112239"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:02",
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = n * A299149(n).",
+  "id": "A318681",
+  "mentions": [
+    "A000027",
+    "A000290",
+    "A007814",
+    "A299149",
+    "A299150",
+    "A318512",
+    "A318649",
+    "A318680"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:40",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

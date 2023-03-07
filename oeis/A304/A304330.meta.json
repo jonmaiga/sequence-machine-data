@@ -1,0 +1,23 @@
+{
+  "description": "T(n, k) = Sum_{j=0..k} (-1)^j*binomial(2*k, j)*(k - j)^(2*n), triangle read by rows, n >= 0 and 0 <= k <= n.",
+  "id": "A304330",
+  "mentions": [
+    "A002674",
+    "A058896",
+    "A091032",
+    "A100872",
+    "A304334",
+    "A304336"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

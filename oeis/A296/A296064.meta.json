@@ -1,0 +1,21 @@
+{
+  "description": "a(1) = 0; thereafter a(n) is the smallest number (in absolute value) not yet in the sequence such that the arithmetic mean of the first n terms a(1), a(2), ..., a(n) is an integer. Preference is given to positive values of a(n).",
+  "id": "A296064",
+  "mentions": [
+    "A127630",
+    "A296063",
+    "A296065"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:14",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

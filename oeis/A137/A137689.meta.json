@@ -1,0 +1,22 @@
+{
+  "description": "Indices n such that A128646(n)-1 is prime, where A128646 = denominator of partial sums of 1/(p(i)-1).",
+  "id": "A137689",
+  "mentions": [
+    "A092063",
+    "A128646",
+    "A137690",
+    "A137692"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

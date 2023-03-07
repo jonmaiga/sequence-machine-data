@@ -1,0 +1,45 @@
+{
+  "description": "Number of partitions of n into 3 parts without common divisors such that every pair of them has common divisors.",
+  "id": "A284825",
+  "mentions": [
+    "A000217",
+    "A000741",
+    "A001399",
+    "A007304",
+    "A014612",
+    "A023023",
+    "A082024",
+    "A101271",
+    "A200976",
+    "A202425",
+    "A220377",
+    "A230034",
+    "A230035",
+    "A289509",
+    "A307719",
+    "A318716",
+    "A327516",
+    "A328672",
+    "A328673",
+    "A328679",
+    "A328868",
+    "A333227",
+    "A337599",
+    "A337604",
+    "A337605",
+    "A337666",
+    "A337694"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:56",
+    "offset": 31,
+    "size": 97,
+    "source": "oeis-bfile"
+  }
+}

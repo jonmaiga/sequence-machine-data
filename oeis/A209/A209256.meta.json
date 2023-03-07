@@ -1,0 +1,22 @@
+{
+  "description": "Number of permutations of [n] that contain at least two fixed points in a succession.",
+  "id": "A209256",
+  "mentions": [
+    "A000166",
+    "A002467",
+    "A180191",
+    "A207819",
+    "A207821"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:28",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

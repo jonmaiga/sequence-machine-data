@@ -1,0 +1,30 @@
+{
+  "description": "Number of ON states after n generations of cellular automaton based on square grid with each cell adjacent to its eight neighbors.",
+  "id": "A151725",
+  "mentions": [
+    "A000695",
+    "A139250",
+    "A147562",
+    "A147582",
+    "A151723",
+    "A151726",
+    "A151728",
+    "A151731",
+    "A151732",
+    "A151733",
+    "A151734",
+    "A151735",
+    "A151747"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:34",
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

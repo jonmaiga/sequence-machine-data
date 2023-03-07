@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n > 1 such that the polynomial x^(n-k)*(x+1)^k+1 over GF(2) is reducible for all k from 1 to n-1.",
+  "id": "A272486",
+  "mentions": [
+    "A057749",
+    "A073571"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

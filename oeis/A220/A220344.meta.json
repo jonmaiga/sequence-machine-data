@@ -1,0 +1,19 @@
+{
+  "description": "The number of reversible primes (palindromic or emirps) by increasing permissible leading digit and by length.",
+  "id": "A220344",
+  "mentions": [
+    "A220248",
+    "A220349"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

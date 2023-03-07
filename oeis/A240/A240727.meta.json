@@ -1,0 +1,22 @@
+{
+  "description": "Number of partitions p of n such that m(p) <= m(c(p)), where m = maximal multiplicity of parts, and c = conjugate.",
+  "id": "A240727",
+  "mentions": [
+    "A000041",
+    "A240726",
+    "A240728",
+    "A240729"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

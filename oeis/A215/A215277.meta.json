@@ -1,0 +1,19 @@
+{
+  "description": "Primes congruent to {2, 4, 5, 6} mod 17.",
+  "id": "A215277",
+  "mentions": [
+    "A000040",
+    "A045361"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:20:49",
+    "offset": 1,
+    "size": 51,
+    "source": "joeis"
+  }
+}

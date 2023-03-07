@@ -1,0 +1,18 @@
+{
+  "description": "E.g.f. S(x) satisfies: S(x) = Integral (1 + S(x)^2)^4 dx.",
+  "id": "A281439",
+  "mentions": [
+    "A281440"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

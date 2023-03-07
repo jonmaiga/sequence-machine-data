@@ -1,0 +1,18 @@
+{
+  "description": "Number of semi-magic (only long lines are magic) knight's tours on a 4 X 2n board.",
+  "id": "A329370",
+  "mentions": [
+    "A328816"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

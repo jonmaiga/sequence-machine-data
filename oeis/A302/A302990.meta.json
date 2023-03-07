@@ -1,0 +1,32 @@
+{
+  "description": "a(n) = index of first odd prime number in the (n-th)-order Fibonacci sequence Fn, or 0 if no such index exists.",
+  "id": "A302990",
+  "mentions": [
+    "A000004",
+    "A000012",
+    "A000043",
+    "A000045",
+    "A000073",
+    "A000078",
+    "A001591",
+    "A001592",
+    "A001605",
+    "A050414",
+    "A079262",
+    "A104144",
+    "A122189",
+    "A122265"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

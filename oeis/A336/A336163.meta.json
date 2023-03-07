@@ -1,0 +1,28 @@
+{
+  "description": "Square array T(n,k), n >= 0, k >= 0, read by antidiagonals, where T(n,k) = Sum_{j=0..n} k^j * binomial(n,j)^3.",
+  "id": "A336163",
+  "mentions": [
+    "A000012",
+    "A000172",
+    "A206178",
+    "A206180",
+    "A216483",
+    "A216636",
+    "A216698",
+    "A241247",
+    "A307883",
+    "A336179",
+    "A336187"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

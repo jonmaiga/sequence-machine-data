@@ -1,0 +1,19 @@
+{
+  "description": "Least number k that reaches 1 after n iterations of A071324.",
+  "id": "A333265",
+  "mentions": [
+    "A071324",
+    "A333262"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:03",
+    "offset": 0,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

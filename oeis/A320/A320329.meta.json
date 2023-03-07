@@ -1,0 +1,22 @@
+{
+  "description": "Row sums of A174790.",
+  "id": "A320329",
+  "mentions": [
+    "A000079",
+    "A000142",
+    "A000302",
+    "A055642",
+    "A174790"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:43",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

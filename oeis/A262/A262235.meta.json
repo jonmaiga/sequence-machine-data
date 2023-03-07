@@ -1,0 +1,25 @@
+{
+  "description": "Denominators of a series leading to Euler's constant gamma.",
+  "id": "A262235",
+  "mentions": [
+    "A001067",
+    "A001620",
+    "A002657",
+    "A002790",
+    "A006953",
+    "A075266",
+    "A075267",
+    "A195189"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:22",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

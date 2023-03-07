@@ -1,0 +1,20 @@
+{
+  "description": "Array: row n shows the coefficients of the characteristic polynomial of the n-th principal submatrix of f(i,j) = gcd(prime(i), prime(j)) (A204118).",
+  "id": "A204119",
+  "mentions": [
+    "A202605",
+    "A204016",
+    "A204118"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-02 22:03:13",
+    "offset": 1,
+    "size": 38,
+    "source": "joeis"
+  }
+}

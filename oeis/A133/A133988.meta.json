@@ -1,0 +1,24 @@
+{
+  "description": "Expansion of phi(x) / chi(x^3) in powers of x where phi(), chi() are Ramanujan theta functions.",
+  "id": "A133988",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A010054",
+    "A010815",
+    "A089812",
+    "A121373",
+    "A133985"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:21",
+    "offset": 0,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

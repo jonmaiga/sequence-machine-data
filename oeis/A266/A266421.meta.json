@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that (2^(n+7)*5^(n+5) - 204979)/9 is prime (n > 0).",
+  "id": "A266421",
+  "mentions": [
+    "A260903",
+    "A265629"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

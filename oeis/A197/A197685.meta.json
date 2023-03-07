@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of Pi^2/(4 + 2*Pi).",
+  "id": "A197685",
+  "mentions": [
+    "A197682"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:55",
+    "offset": 0,
+    "size": 99,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "No odd digit is present in a(n) * a(n+1).",
+  "id": "A338841",
+  "mentions": [
+    "A014263",
+    "A338839",
+    "A338840",
+    "A338842",
+    "A338843",
+    "A338844",
+    "A338845",
+    "A338846"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:11",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

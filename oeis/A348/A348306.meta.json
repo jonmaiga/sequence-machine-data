@@ -1,0 +1,23 @@
+{
+  "description": "List of Agathokakological Numbers \"k\": string of digits of the juxtaposition of the prime factors of k has the same length as k but these digits do not appear in k.",
+  "id": "A348306",
+  "mentions": [
+    "A035139",
+    "A047201",
+    "A055642",
+    "A076649",
+    "A109608",
+    "A280928"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:22",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

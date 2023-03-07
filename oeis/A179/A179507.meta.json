@@ -1,0 +1,22 @@
+{
+  "description": "Smallest emirp with a base-10 digit set of {0,1,..,n}.",
+  "id": "A179507",
+  "mentions": [
+    "A006567",
+    "A099182",
+    "A158707"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

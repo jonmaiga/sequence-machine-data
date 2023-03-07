@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = floor(n*Pi) mod 2.",
+  "id": "A115788",
+  "mentions": [
+    "A022844",
+    "A063438",
+    "A115789",
+    "A115790",
+    "A195062"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 150,
+    "source": "oeis-entry"
+  }
+}

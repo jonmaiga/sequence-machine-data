@@ -1,0 +1,19 @@
+{
+  "description": "Lexicographically earliest sequence of positive integers such that the ratios between successive terms, { max(a(n), a(n+1)) / min(a(n), a(n+1)), n > 0 }, are distinct integers.",
+  "id": "A360598",
+  "mentions": [
+    "A084337",
+    "A360599"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

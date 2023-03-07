@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that sigma(k^3) is prime.",
+  "id": "A279096",
+  "mentions": [
+    "A000203",
+    "A023194",
+    "A055638",
+    "A279094"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:46",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Minimum of A122458(n) and A160266(n).",
+  "id": "A160267",
+  "mentions": [
+    "A006519",
+    "A006694",
+    "A075677",
+    "A122458",
+    "A159885",
+    "A159945",
+    "A160198",
+    "A160266"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:42",
+    "offset": 1,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

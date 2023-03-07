@@ -1,0 +1,28 @@
+{
+  "description": "a(n) = n if n <= 3, otherwise the smallest number not occurring earlier such that gcd(a(n),a(n-2)) > gcd(a(n),a(n-1)).",
+  "id": "A254077",
+  "mentions": [
+    "A000720",
+    "A098550",
+    "A247225",
+    "A247942",
+    "A249167",
+    "A251604",
+    "A255582",
+    "A256213",
+    "A256528",
+    "A256974",
+    "A257585",
+    "A318826"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:12",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

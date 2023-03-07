@@ -1,0 +1,41 @@
+{
+  "description": "Square array read by descending antidiagonals: A(n,k) is the least number m such that the base-n expansion of m contains the base-n expansions of 1..k as substrings.",
+  "id": "A350510",
+  "mentions": [
+    "A007908",
+    "A023811",
+    "A035239",
+    "A047778",
+    "A048435",
+    "A048436",
+    "A048437",
+    "A048438",
+    "A048439",
+    "A048440",
+    "A048441",
+    "A048442",
+    "A048443",
+    "A048444",
+    "A048445",
+    "A048446",
+    "A048447",
+    "A049363",
+    "A056744",
+    "A057544",
+    "A061845",
+    "A102305"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 2,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

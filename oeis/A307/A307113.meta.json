@@ -1,0 +1,18 @@
+{
+  "description": "Number of highly composite numbers (m in A002182) in the interval p_k# <= m < p_(k+1)#, where p_i# = A002110(i).",
+  "id": "A307113",
+  "mentions": [
+    "A002110",
+    "A002182"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:32",
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

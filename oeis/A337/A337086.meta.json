@@ -1,0 +1,20 @@
+{
+  "description": "Number of integer-sided triangles with perimeter n where the harmonic mean of the side lengths is an integer.",
+  "id": "A337086",
+  "mentions": [
+    "A005044",
+    "A337087"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 96,
+    "source": "oeis-entry"
+  }
+}

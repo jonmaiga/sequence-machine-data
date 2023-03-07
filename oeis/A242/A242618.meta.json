@@ -1,0 +1,48 @@
+{
+  "description": "Number T(n,k) of partitions of n, where k is the difference between the number of odd parts and the number of even parts, both counted without multiplicity; triangle T(n,k), n>=0, read by rows.",
+  "id": "A242618",
+  "mentions": [
+    "A000041",
+    "A000712",
+    "A240009",
+    "A240021",
+    "A241636",
+    "A241637",
+    "A241638",
+    "A241639",
+    "A241640",
+    "A242626",
+    "A242682",
+    "A242683",
+    "A242684",
+    "A242685",
+    "A242686",
+    "A242687",
+    "A242688",
+    "A242689",
+    "A242690",
+    "A242691",
+    "A242692",
+    "A242693",
+    "A242694",
+    "A242695",
+    "A242696",
+    "A242697",
+    "A242698",
+    "A242699",
+    "A242700",
+    "A242701"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Main diagonal of A284993.",
+  "id": "A281268",
+  "mentions": [
+    "A284993"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:49",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

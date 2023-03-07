@@ -1,0 +1,26 @@
+{
+  "description": "Irregular triangle read by rows in which n-th row lists all partitions of n, in graded reverse lexicographic ordering, using a compressed notation.",
+  "id": "A322761",
+  "mentions": [
+    "A000027",
+    "A000041",
+    "A000042",
+    "A006128",
+    "A036037",
+    "A080577"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "fini",
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:46",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

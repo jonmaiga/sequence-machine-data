@@ -1,0 +1,21 @@
+{
+  "description": "Odd squarefree numbers k such that the expansion of the inverse of the k-th cyclotomic polynomial has a coefficient other than -1, 0 or 1.",
+  "id": "A344706",
+  "mentions": [
+    "A131672",
+    "A154430",
+    "A306453",
+    "A333248",
+    "A344673"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:18",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

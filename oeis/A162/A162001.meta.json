@@ -1,0 +1,17 @@
+{
+  "description": "Initial members of prime triples (p, p+2, p+6) for which also the sum 3p+8 is prime.",
+  "id": "A162001",
+  "mentions": [
+    "A022004"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:44",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

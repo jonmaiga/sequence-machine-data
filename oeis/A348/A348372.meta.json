@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of Sum_{k>=2} H(k)*H(k+1)/(k^3-k), where H(k) = A001008(k)/A002805(k) is the k-th harmonic number.",
+  "id": "A348372",
+  "mentions": [
+    "A001008",
+    "A002117",
+    "A002805",
+    "A222171"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

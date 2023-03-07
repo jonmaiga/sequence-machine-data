@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n with the same value for sigma_0(n) and sigma(n) as some other number.",
+  "id": "A162283",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A162279",
+    "A162280"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

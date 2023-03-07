@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that there exists at least an integer in the interval [e*k - 1/k, e*k + 1/k] where e = 2.71828... is Euler's number.",
+  "id": "A265742",
+  "mentions": [
+    "A001113",
+    "A265741"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

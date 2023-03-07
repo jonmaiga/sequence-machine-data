@@ -1,0 +1,18 @@
+{
+  "description": "Primes p such that (2^p+p^2)/3 is prime.",
+  "id": "A355188",
+  "mentions": [
+    "A242929"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

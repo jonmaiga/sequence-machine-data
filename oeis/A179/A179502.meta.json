@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n with property that n^2, n^2+1 and n^2+2 are all semiprimes.",
+  "id": "A179502",
+  "mentions": [
+    "A001358",
+    "A048161",
+    "A056809",
+    "A070552"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:02",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

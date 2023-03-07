@@ -1,0 +1,22 @@
+{
+  "description": "Second digit from left in decimal expansion of 2^n (n >= 4).",
+  "id": "A354782",
+  "mentions": [
+    "A000079",
+    "A000689",
+    "A008952",
+    "A034887",
+    "A160590"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:29",
+    "offset": 4,
+    "size": 109,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "description": "Number of maximal subsets of {1..n} containing no sums or products of distinct elements.",
+  "id": "A326025",
+  "mentions": [
+    "A007865",
+    "A051026",
+    "A121269",
+    "A151897",
+    "A325710",
+    "A326024",
+    "A326083",
+    "A326116",
+    "A326117",
+    "A326491",
+    "A326495",
+    "A326496",
+    "A326497",
+    "A326498"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

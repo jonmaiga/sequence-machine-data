@@ -1,0 +1,32 @@
+{
+  "description": "Triangle T(n,k) read by rows: T(n,k) is the number of compositions of n with exactly k occurrences of the largest part, n>=0, 0<=k<=n.",
+  "id": "A238341",
+  "mentions": [
+    "A000007",
+    "A011782",
+    "A026794",
+    "A097979",
+    "A238342",
+    "A243737",
+    "A243738",
+    "A243739",
+    "A243740",
+    "A243741",
+    "A243742",
+    "A243743",
+    "A243744",
+    "A243745",
+    "A243746"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

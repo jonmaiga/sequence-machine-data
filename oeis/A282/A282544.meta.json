@@ -1,0 +1,27 @@
+{
+  "description": "Expansion of (phi(x)^4 + 3*phi(x^3)^4) / 4 in powers of x where phi() is a Ramanujan theta function.",
+  "id": "A282544",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A004016",
+    "A005882",
+    "A005928",
+    "A010054",
+    "A010815",
+    "A033712",
+    "A121373",
+    "A125510"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:51",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

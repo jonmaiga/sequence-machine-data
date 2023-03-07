@@ -1,0 +1,19 @@
+{
+  "description": "Self-convolution cube of A108447.",
+  "id": "A118342",
+  "mentions": [
+    "A108447",
+    "A118341",
+    "A118343"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

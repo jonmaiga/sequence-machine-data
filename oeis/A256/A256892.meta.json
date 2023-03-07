@@ -1,0 +1,27 @@
+{
+  "description": "Triangular array read by rows, the matrix product of the unsigned Lah numbers and the Stirling set numbers, T(n,k) for n>=0 and 0<=k<=n.",
+  "id": "A256892",
+  "mentions": [
+    "A000262",
+    "A045943",
+    "A079640",
+    "A084357",
+    "A088729",
+    "A088814",
+    "A131222",
+    "A264428"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

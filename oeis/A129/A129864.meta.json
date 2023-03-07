@@ -1,0 +1,25 @@
+{
+  "description": "Numbers that are both lucky and emirp.",
+  "id": "A129864",
+  "mentions": [
+    "A000040",
+    "A000959",
+    "A004086",
+    "A006567",
+    "A031157"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:17",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

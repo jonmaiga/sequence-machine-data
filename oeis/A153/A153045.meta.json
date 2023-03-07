@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that 2*k-11 is not a prime.",
+  "id": "A153045",
+  "mentions": [
+    "A097338",
+    "A104275",
+    "A153043",
+    "A163652"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:54:09",
+    "offset": 1,
+    "size": 62,
+    "source": "joeis"
+  }
+}

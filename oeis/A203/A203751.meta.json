@@ -1,0 +1,17 @@
+{
+  "description": "Square root of v(2n+1)/(3v(2n), where v=A203748.",
+  "id": "A203751",
+  "mentions": [
+    "A203748"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-07 09:33:58",
+    "offset": 1,
+    "size": 12,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "description": "Sum of the cubes of the first n even-indexed Fibonacci numbers.",
+  "id": "A163198",
+  "mentions": [
+    "A000032",
+    "A000045",
+    "A005968",
+    "A163194",
+    "A163195",
+    "A163196",
+    "A163197",
+    "A163199",
+    "A163200",
+    "A163201",
+    "A163202",
+    "A215039"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:45",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Primes of the form 60*n+11.",
+  "id": "A117047",
+  "mentions": [
+    "A007528",
+    "A010051",
+    "A132231",
+    "A211890",
+    "A214360"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:22:25",
+    "offset": 1,
+    "size": 44,
+    "source": "joeis"
+  }
+}

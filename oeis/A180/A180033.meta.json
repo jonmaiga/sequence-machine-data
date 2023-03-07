@@ -1,0 +1,29 @@
+{
+  "description": "Eight white queens and one red queen on a 3 X 3 chessboard. G.f.: (1 + x)/(1 - 5*x - 5*x^2).",
+  "id": "A180033",
+  "mentions": [
+    "A000032",
+    "A000045",
+    "A000351",
+    "A004187",
+    "A033890",
+    "A049685",
+    "A056854",
+    "A057088",
+    "A086347",
+    "A180032",
+    "A180167"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:03",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

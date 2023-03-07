@@ -1,0 +1,17 @@
+{
+  "description": "Number of ordered set partitions of [n] where k = two is minimal such that for each block b the smallest integer interval containing b has at most k elements.",
+  "id": "A320615",
+  "mentions": [
+    "A276891"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:43",
+    "offset": 2,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

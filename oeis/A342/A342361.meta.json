@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of 1/(omega+1)^2, where omega=1/LambertW(1).",
+  "id": "A342361",
+  "mentions": [
+    "A030178",
+    "A030797",
+    "A342359",
+    "A342360"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 96,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Numbers occurring in a curious cubic identity.",
+  "id": "A281857",
+  "mentions": [
+    "A002277",
+    "A005188",
+    "A093143",
+    "A246057",
+    "A281858",
+    "A281859",
+    "A281860"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:51",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

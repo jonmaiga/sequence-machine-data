@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the real part of psi(i), i being the imaginary unit.",
+  "id": "A248177",
+  "mentions": [
+    "A001620",
+    "A113319"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:04",
+    "offset": -1,
+    "size": 104,
+    "source": "oeis-bfile"
+  }
+}

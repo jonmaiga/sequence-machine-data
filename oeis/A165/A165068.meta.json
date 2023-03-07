@@ -1,0 +1,29 @@
+{
+  "description": "a(n) = smallest number that leads to a new cycle under the base-6 Kaprekar map of A165051",
+  "id": "A165068",
+  "mentions": [
+    "A151964",
+    "A164887",
+    "A165009",
+    "A165029",
+    "A165048",
+    "A165051",
+    "A165056",
+    "A165069",
+    "A165070",
+    "A165087",
+    "A165107",
+    "A165127"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:48",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

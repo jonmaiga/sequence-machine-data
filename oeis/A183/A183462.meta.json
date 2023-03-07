@@ -1,0 +1,17 @@
+{
+  "description": "Number of (n+4)X9 binary arrays with every 1 having exactly three king-move neighbors equal to 1 but with no 2X2 blocks of 1s",
+  "id": "A183462",
+  "mentions": [
+    "A183465"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:07",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

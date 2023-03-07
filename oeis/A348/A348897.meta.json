@@ -1,0 +1,24 @@
+{
+  "description": "Numbers of the form (x + y)*(x^2 + y^2).",
+  "id": "A348897",
+  "mentions": [
+    "A003136",
+    "A053698",
+    "A059830",
+    "A198063",
+    "A321500",
+    "A349200",
+    "A349201",
+    "A349202"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:23",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

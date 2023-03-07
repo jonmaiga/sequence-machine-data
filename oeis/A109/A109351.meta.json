@@ -1,0 +1,17 @@
+{
+  "description": "Numbers whose anti-divisors sum to a perfect cube.",
+  "id": "A109351",
+  "mentions": [
+    "A066272"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:01",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

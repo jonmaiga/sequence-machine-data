@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{k=0..n} 2^k*p(k), where p(k) is the partition function A000041.",
+  "id": "A259400",
+  "mentions": [
+    "A000041",
+    "A000079",
+    "A259401",
+    "A327550"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:12",
+    "offset": 0,
+    "size": 29,
+    "source": "joeis"
+  }
+}

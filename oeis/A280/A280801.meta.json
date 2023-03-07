@@ -1,0 +1,21 @@
+{
+  "description": "Least k > 0 such that (2*n)^k is in A002202, or 0 if no such k exists.",
+  "id": "A280801",
+  "mentions": [
+    "A000010",
+    "A002180",
+    "A002202",
+    "A079695"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:49",
+    "offset": 1,
+    "size": 129,
+    "source": "oeis-bfile"
+  }
+}

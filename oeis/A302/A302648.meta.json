@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the largest integer b_n such that there exists a set of n integers b_1=0, b_2, ..., b_n whose pairwise sums cover all integers between 0 and 2*b_n.",
+  "id": "A302648",
+  "mentions": [
+    "A123509"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

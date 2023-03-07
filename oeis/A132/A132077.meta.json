@@ -1,0 +1,20 @@
+{
+  "description": "Numbers having in decimal representation exactly the same number of distinct digits as number of divisors.",
+  "id": "A132077",
+  "mentions": [
+    "A000005",
+    "A043537",
+    "A085964"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:20",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

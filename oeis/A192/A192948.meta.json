@@ -1,0 +1,20 @@
+{
+  "description": "G.f. satisfies: A(x) = 1 + x*Sum_{n>=0} (A(x)^5 - 1)^n.",
+  "id": "A192948",
+  "mentions": [
+    "A192945",
+    "A192946",
+    "A192947"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

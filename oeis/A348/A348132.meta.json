@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the denominator of the relativistic sum of n velocities of 1/n, in units where the speed of light is 1.",
+  "id": "A348132",
+  "mentions": [
+    "A348051",
+    "A348052",
+    "A348131"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:22",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

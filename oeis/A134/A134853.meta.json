@@ -1,0 +1,22 @@
+{
+  "description": "Generalized mountain numbers.",
+  "id": "A134853",
+  "mentions": [
+    "A000027",
+    "A134941",
+    "A134951",
+    "A178912"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:22",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

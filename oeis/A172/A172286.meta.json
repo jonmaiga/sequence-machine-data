@@ -1,0 +1,20 @@
+{
+  "description": "Numbers of circuits of length 2n in K_{n,n} (the complete bipartite graph on 2n vertices).",
+  "id": "A172286",
+  "mentions": [
+    "A010790",
+    "A118537"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:56",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

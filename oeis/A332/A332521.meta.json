@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of the number u such that the line normal to the graph of y = sin x at (u, sin u) passes through (2,0).",
+  "id": "A332521",
+  "mentions": [
+    "A332500",
+    "A332507"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

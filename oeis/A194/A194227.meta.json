@@ -1,0 +1,17 @@
+{
+  "description": "[sum{(2k/7) : 1<=k<=n}], where [ ]=floor, ( )=fractional part.",
+  "id": "A194227",
+  "mentions": [
+    "A194228"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-entry"
+  }
+}

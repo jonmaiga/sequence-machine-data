@@ -1,0 +1,20 @@
+{
+  "description": "Number of possible eventual periods of cellular automaton rule 110 in a cyclic universe of width n.",
+  "id": "A332718",
+  "mentions": [
+    "A204371",
+    "A332717"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Arithmetic mean of the digits of n, multiplied by 10^(d-1) and rounded down, where d is the number of digits of n.",
+  "id": "A257296",
+  "mentions": [
+    "A004426",
+    "A004427",
+    "A007953",
+    "A055642",
+    "A257294",
+    "A257829"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

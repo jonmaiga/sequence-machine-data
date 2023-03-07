@@ -1,0 +1,23 @@
+{
+  "description": "Fill an array by antidiagonals upwards; in the n-th cell, enter the number of earlier cells that can be seen from that cell.",
+  "id": "A279211",
+  "mentions": [
+    "A279212",
+    "A279966",
+    "A279967",
+    "A280026",
+    "A280027"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:46",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

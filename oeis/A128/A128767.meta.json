@@ -1,0 +1,28 @@
+{
+  "description": "Number of inequivalent n-colorings of the 4D hypercube under the full orthogonal group of the cube (of order 2^4*4! = 384).",
+  "id": "A128767",
+  "mentions": [
+    "A000389",
+    "A325013",
+    "A331355",
+    "A331359",
+    "A337952",
+    "A337954",
+    "A337955",
+    "A337957",
+    "A338949",
+    "A338965"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:51:19",
+    "offset": 1,
+    "size": 16,
+    "source": "joeis"
+  }
+}

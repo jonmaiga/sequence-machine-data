@@ -1,0 +1,22 @@
+{
+  "description": "Triangle T, read by rows, where the matrix square T^2 results in shifting T right one column to drop the secondary diagonal (which consists of powers of 2).",
+  "id": "A224798",
+  "mentions": [
+    "A152391",
+    "A224799",
+    "A224800",
+    "A224801",
+    "A224802"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

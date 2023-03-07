@@ -1,0 +1,21 @@
+{
+  "description": "Primes of the form phi(n)+1 sorted by increasing n, where phi is the Euler totient function.",
+  "id": "A214288",
+  "mentions": [
+    "A000010",
+    "A039649",
+    "A039698",
+    "A214287"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:54:05",
+    "offset": 1,
+    "size": 74,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Coefficients of L-series for elliptic curve \"80b2\": y^2 = x^3 - x^2 - x.",
+  "id": "A159817",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A010054",
+    "A010815",
+    "A030203",
+    "A030205",
+    "A121373",
+    "A159818"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-27 17:13:35",
+    "offset": 0,
+    "size": 89,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = (binary reversal of n)-th integer among those positive integers not occurring earlier in the sequence.",
+  "id": "A119435",
+  "mentions": [
+    "A030101",
+    "A119436"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:08",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

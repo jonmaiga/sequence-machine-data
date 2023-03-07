@@ -1,0 +1,17 @@
+{
+  "description": "Primes of the form n^4 - 5.",
+  "id": "A182350",
+  "mentions": [
+    "A037896"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:35:21",
+    "offset": 1,
+    "size": 23,
+    "source": "joeis"
+  }
+}

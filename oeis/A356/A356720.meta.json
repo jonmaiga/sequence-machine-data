@@ -1,0 +1,25 @@
+{
+  "description": "Numbers k such that Mordell's equation y^2 = x^3 + k^3 has more than 1 integral solution.",
+  "id": "A356720",
+  "mentions": [
+    "A081119",
+    "A103254",
+    "A228948",
+    "A356703",
+    "A356709",
+    "A356710",
+    "A356711",
+    "A356712",
+    "A356713"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:31",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

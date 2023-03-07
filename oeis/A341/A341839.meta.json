@@ -1,0 +1,28 @@
+{
+  "description": "Square array T(n, k), n, k >= 0, read by antidiagonals; for any number m with runs in binary expansion (r_1, ..., r_j), let R(m) = {r_1 + ... + r_j, r_2 + ... + r_j, ..., r_j}; T(n, k) is the unique number t such that R(t) is the union of R(n) and of R(k).",
+  "id": "A341839",
+  "mentions": [
+    "A003188",
+    "A003987",
+    "A005811",
+    "A042963",
+    "A070939",
+    "A101211",
+    "A227736",
+    "A341840",
+    "A341841"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:14",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

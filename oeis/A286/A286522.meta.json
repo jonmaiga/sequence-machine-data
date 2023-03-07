@@ -1,0 +1,22 @@
+{
+  "description": "Floor of the volume of the d-th Chern-Vaaler star body.",
+  "id": "A286522",
+  "mentions": [
+    "A286523",
+    "A286524",
+    "A288756",
+    "A288757",
+    "A288758"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 74,
+    "source": "oeis-entry"
+  }
+}

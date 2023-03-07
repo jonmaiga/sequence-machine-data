@@ -1,0 +1,29 @@
+{
+  "description": "a(1) = 1; for n>1, a(n) = n/(smallest Fermi-Dirac factor of n).",
+  "id": "A302792",
+  "mentions": [
+    "A001511",
+    "A032742",
+    "A036554",
+    "A050376",
+    "A052331",
+    "A077609",
+    "A084400",
+    "A223490",
+    "A300841",
+    "A302023",
+    "A302024",
+    "A302776"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:27",
+    "offset": 1,
+    "size": 97,
+    "source": "oeis-bfile"
+  }
+}

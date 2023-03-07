@@ -1,0 +1,24 @@
+{
+  "description": "Infinitary highly touchable numbers: numbers m > 1 such that a record number of numbers k have m as the sum of the proper infinitary divisors of k.",
+  "id": "A331974",
+  "mentions": [
+    "A049417",
+    "A077609",
+    "A126168",
+    "A238895",
+    "A324277",
+    "A325177",
+    "A331972",
+    "A331973"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:01",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

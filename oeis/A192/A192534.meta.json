@@ -1,0 +1,18 @@
+{
+  "description": "(A192533)/2.",
+  "id": "A192534",
+  "mentions": [
+    "A192476",
+    "A192533"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

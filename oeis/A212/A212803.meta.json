@@ -1,0 +1,19 @@
+{
+  "description": "Number of Eulerian circuits in the Cartesian product of two directed cycles of lengths n.",
+  "id": "A212803",
+  "mentions": [
+    "A054759",
+    "A212801",
+    "A297385"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:31",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Primes p such that 14*p + 1 divides 2^p - 1.",
+  "id": "A350702",
+  "mentions": [
+    "A000040",
+    "A001348",
+    "A002515",
+    "A122095",
+    "A188130",
+    "A188133"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

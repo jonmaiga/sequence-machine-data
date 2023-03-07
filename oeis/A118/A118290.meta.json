@@ -1,0 +1,17 @@
+{
+  "description": "a(1) = 1. a(n) = number of terms among the sequence's first (n-1) terms which are divisible by the smallest prime dividing a(n-1), or which are divisible by 1 if a(n-1)= 1.",
+  "id": "A118290",
+  "mentions": [
+    "A118291"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:07",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

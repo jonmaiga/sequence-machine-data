@@ -1,0 +1,23 @@
+{
+  "description": "Irregular triangle read by rows: n-th row gives the order of all undirected (also called weakly connected) components of the Collatz digraph of order n, sorted from largest to smallest.",
+  "id": "A340985",
+  "mentions": [
+    "A008615",
+    "A014682",
+    "A088975",
+    "A127824",
+    "A248573",
+    "A340010"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:13",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

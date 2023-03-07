@@ -1,0 +1,20 @@
+{
+  "description": "Number of possible plays on the n-th move in Mirror Chess in which Black's play is always the mirror image of White (White must either mate or play such that Black can mirror the move).",
+  "id": "A136257",
+  "mentions": [
+    "A048987"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "fini",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

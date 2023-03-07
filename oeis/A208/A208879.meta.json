@@ -1,0 +1,26 @@
+{
+  "description": "Number of words A(n,k), either empty or beginning with the first letter of the cyclic k-ary alphabet, where each letter of the alphabet occurs n times and letters of neighboring word positions are equal or neighbors in the alphabet; square array A(n,k), n>=0, k>=0, read by antidiagonals.",
+  "id": "A208879",
+  "mentions": [
+    "A000012",
+    "A088218",
+    "A208673",
+    "A208880",
+    "A208881",
+    "A209183",
+    "A209184",
+    "A209185"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn",
+    "tabl",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

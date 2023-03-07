@@ -1,0 +1,20 @@
+{
+  "description": "Numbers primitively represented by the quadratic form 2 x^2 + xy + 4 y^2.",
+  "id": "A123065",
+  "mentions": [
+    "A123063",
+    "A123064",
+    "A123067",
+    "A123068"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

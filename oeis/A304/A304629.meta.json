@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = [x^n] Product_{k>=1} ((1 + x^k)/(1 + x^(5*k)))^n.",
+  "id": "A304629",
+  "mentions": [
+    "A096938",
+    "A255526",
+    "A285291",
+    "A296163",
+    "A296164",
+    "A304628"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:29",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

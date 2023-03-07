@@ -1,0 +1,25 @@
+{
+  "description": "Triangular numbers that are palindromes in base 5.",
+  "id": "A350991",
+  "mentions": [
+    "A000217",
+    "A003098",
+    "A029952",
+    "A125831",
+    "A350987",
+    "A350990",
+    "A350992",
+    "A350993"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:25",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

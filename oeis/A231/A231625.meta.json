@@ -1,0 +1,20 @@
+{
+  "description": "Smallest sets of 4 consecutive deficient numbers in arithmetic progression. The initial deficient number is listed.",
+  "id": "A231625",
+  "mentions": [
+    "A005100",
+    "A228961",
+    "A231623",
+    "A231624"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:49",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

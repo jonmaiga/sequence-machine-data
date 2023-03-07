@@ -1,0 +1,32 @@
+{
+  "description": "Numbers n such that (10^(2n+1)+18*10^n-1)/9 is prime.",
+  "id": "A107123",
+  "mentions": [
+    "A004023",
+    "A077775",
+    "A077779",
+    "A077798",
+    "A107124",
+    "A107125",
+    "A107126",
+    "A107127",
+    "A107648",
+    "A107649",
+    "A115073",
+    "A183174",
+    "A183187"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

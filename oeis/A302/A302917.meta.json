@@ -1,0 +1,32 @@
+{
+  "description": "Solution to a(1) = 1 and Sum_y Product_i a(y_i) = 0 for each n > 1, where the sum is over all relatively prime or monic partitions of n.",
+  "id": "A302917",
+  "mentions": [
+    "A000837",
+    "A036987",
+    "A047966",
+    "A063834",
+    "A093637",
+    "A196545",
+    "A220418",
+    "A289501",
+    "A290261",
+    "A300486",
+    "A300863",
+    "A300866",
+    "A301462",
+    "A302094",
+    "A302915",
+    "A302916"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

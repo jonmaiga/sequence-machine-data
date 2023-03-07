@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that there is precisely 1 group of order n and 2 of order n + 1.",
+  "id": "A296023",
+  "mentions": [
+    "A000001",
+    "A003277"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:14",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

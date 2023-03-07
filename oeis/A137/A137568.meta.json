@@ -1,0 +1,21 @@
+{
+  "description": "Number of chromatically unique simple graphs on n nodes.",
+  "id": "A137568",
+  "mentions": [
+    "A000088",
+    "A137567"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "a(n) = n/gcd(n,2^5), n >= 0.",
+  "id": "A227140",
+  "mentions": [
+    "A000265",
+    "A005408",
+    "A106617",
+    "A227042",
+    "A227107",
+    "A276234",
+    "A306367"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

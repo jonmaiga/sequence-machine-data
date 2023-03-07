@@ -1,0 +1,23 @@
+{
+  "description": "Triangular array read by rows: g(n,k) = 1 for n >= 0; g(n,k) = 0 if k > n; g(n,k) = g(n-1,k-1) + g(n-1,3k) for n > 0, k > 1.",
+  "id": "A274193",
+  "mentions": [
+    "A274190",
+    "A274194",
+    "A274195",
+    "A274196",
+    "A274200"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:39",
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

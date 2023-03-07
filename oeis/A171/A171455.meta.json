@@ -1,0 +1,17 @@
+{
+  "description": "G.f. satisfies: A(x) = 1 + 2*x*AGM(1, A(x)^4).",
+  "id": "A171455",
+  "mentions": [
+    "A171454"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "omega(n!) raised to the power of bigomega(n!).",
+  "id": "A113905",
+  "mentions": [
+    "A000720",
+    "A022559"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Numbers coprime to 35.",
+  "id": "A235933",
+  "mentions": [
+    "A007310",
+    "A045572",
+    "A047201",
+    "A160547",
+    "A204458",
+    "A229829",
+    "A229968",
+    "A236207"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:30:49",
+    "offset": 1,
+    "size": 68,
+    "source": "joeis"
+  }
+}

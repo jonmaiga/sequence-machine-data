@@ -1,0 +1,24 @@
+{
+  "description": "The main diagonal of the array of A141425 and its higher order differences.",
+  "id": "A141516",
+  "mentions": [
+    "A001025",
+    "A002023",
+    "A081294",
+    "A108411",
+    "A141425",
+    "A141533"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-03 11:33:12",
+    "offset": 0,
+    "size": 30,
+    "source": "joeis"
+  }
+}

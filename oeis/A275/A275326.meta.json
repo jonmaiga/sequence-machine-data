@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows, T(n,k) = ceiling(A275325(n,k)/2) for n>=0 and 0<=k<=n.",
+  "id": "A275326",
+  "mentions": [
+    "A057977",
+    "A093178",
+    "A128899",
+    "A275324",
+    "A275325"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

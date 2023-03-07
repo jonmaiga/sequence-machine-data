@@ -1,0 +1,25 @@
+{
+  "description": "Number of compositions (ordered partitions) of n into squares that do not divide n.",
+  "id": "A300715",
+  "mentions": [
+    "A000290",
+    "A006456",
+    "A294105",
+    "A294265",
+    "A294266",
+    "A300702",
+    "A300703",
+    "A300704",
+    "A300706"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:25",
+    "offset": 0,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

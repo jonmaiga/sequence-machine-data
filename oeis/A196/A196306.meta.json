@@ -1,0 +1,20 @@
+{
+  "description": "Coefficients of g.f. A(x) where -1 <= a(n) <= 1 for all n>1, with initial terms {1,3}, such that A(x)^(1/3) consists entirely of integer coefficients.",
+  "id": "A196306",
+  "mentions": [
+    "A083953",
+    "A106216",
+    "A196307",
+    "A196308"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:18",
+    "offset": 0,
+    "size": 197,
+    "source": "oeis-bfile"
+  }
+}

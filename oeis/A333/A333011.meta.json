@@ -1,0 +1,22 @@
+{
+  "description": "Integers which can be written in only one way as a sum of two distinct nonzero pentagonal numbers.",
+  "id": "A333011",
+  "mentions": [
+    "A000326",
+    "A332988",
+    "A333012",
+    "A333013",
+    "A333014",
+    "A333015"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:03",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

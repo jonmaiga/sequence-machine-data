@@ -1,0 +1,21 @@
+{
+  "description": "Array T(n,k) read by antidiagonals: T(n,k) = sum(i=0...n, (-1)^(n+i) * C(n+i,2i) * n/(2i+1) * k^(2i+1) ), n>0, k>1.",
+  "id": "A231123",
+  "mentions": [
+    "A111125",
+    "A121670",
+    "A230586"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 2,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

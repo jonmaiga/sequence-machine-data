@@ -1,0 +1,26 @@
+{
+  "description": "Constant term in the reduction of the polynomial (x^2 + 2)^n by x^3 -> x^2 + 2. See Comments.",
+  "id": "A192808",
+  "mentions": [
+    "A052529",
+    "A052554",
+    "A124820",
+    "A192232",
+    "A192744",
+    "A192809",
+    "A192810",
+    "A192811"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

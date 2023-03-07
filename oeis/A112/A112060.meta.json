@@ -1,0 +1,32 @@
+{
+  "description": "Square array A(x,y) = y-th natural number k for which A112049(k)=x and 0 if no such k exists; read by antidiagonals A(1,1), A(2,1), A(1,2), A(3,1), A(2,2), ...",
+  "id": "A112060",
+  "mentions": [
+    "A042963",
+    "A112046",
+    "A112049",
+    "A112051",
+    "A112061",
+    "A112062",
+    "A112063",
+    "A112064",
+    "A112065",
+    "A112066",
+    "A112067",
+    "A112068",
+    "A112069",
+    "A112070",
+    "A227196"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

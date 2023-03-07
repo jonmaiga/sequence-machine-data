@@ -1,0 +1,23 @@
+{
+  "description": "The symmetry factor of the rooted tree with Matula-Goebel number n.",
+  "id": "A206497",
+  "mentions": [
+    "A000142",
+    "A027748",
+    "A049084",
+    "A124010",
+    "A276625"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:26",
+    "offset": 1,
+    "size": 96,
+    "source": "oeis-bfile"
+  }
+}

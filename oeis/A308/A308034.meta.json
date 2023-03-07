@@ -1,0 +1,19 @@
+{
+  "description": "Number of partitions of n into 3 parts with at least 1 part that is a nondivisor of n.",
+  "id": "A308034",
+  "mentions": [
+    "A284825"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:48:17",
+    "offset": 1,
+    "size": 61,
+    "source": "joeis"
+  }
+}

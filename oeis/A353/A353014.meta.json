@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Sum_{k=0..floor(n/3)} (n-3*k)^(n-2*k).",
+  "id": "A353014",
+  "mentions": [
+    "A031971",
+    "A352946",
+    "A353013",
+    "A353015"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

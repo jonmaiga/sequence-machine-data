@@ -1,0 +1,25 @@
+{
+  "description": "Numerator of (1/n - Bernoulli number A164555(n)/A027642(n)).",
+  "id": "A181722",
+  "mentions": [
+    "A000045",
+    "A027642",
+    "A164020",
+    "A164555",
+    "A174110",
+    "A174111",
+    "A174341",
+    "A174342"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "description": "Irregular triangle, read by rows, giving dense patterns of n primes.",
+  "id": "A186634",
+  "mentions": [
+    "A001359",
+    "A007530",
+    "A008407",
+    "A020497",
+    "A022004",
+    "A022005",
+    "A022006",
+    "A022007",
+    "A022008",
+    "A022009",
+    "A022010",
+    "A022011",
+    "A022012",
+    "A022013",
+    "A022545",
+    "A022546",
+    "A022547",
+    "A022548",
+    "A027569",
+    "A027570",
+    "A083409",
+    "A186702"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:11",
+    "offset": 2,
+    "size": 122,
+    "source": "oeis-bfile"
+  }
+}

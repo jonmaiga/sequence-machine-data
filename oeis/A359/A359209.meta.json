@@ -1,0 +1,22 @@
+{
+  "description": "Numbers that under iteration of the map x->A359194(x) (binary complement of 3n) until 0 is reached never exceed the initial term.",
+  "id": "A359209",
+  "mentions": [
+    "A035327",
+    "A359194",
+    "A359207",
+    "A359208",
+    "A359255"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Smallest binary square that begins with the binary expansion of n.",
+  "id": "A272681",
+  "mentions": [
+    "A007088",
+    "A018796",
+    "A018851",
+    "A272679",
+    "A272680"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:37",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

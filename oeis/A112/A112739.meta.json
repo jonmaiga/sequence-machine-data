@@ -1,0 +1,34 @@
+{
+  "description": "Array counting nodes in rooted trees of height n in which the root and internal nodes have valency k (and the leaf nodes have valency one).",
+  "id": "A112739",
+  "mentions": [
+    "A000012",
+    "A005408",
+    "A020989",
+    "A033484",
+    "A040000",
+    "A048473",
+    "A057651",
+    "A061801",
+    "A090843",
+    "A112468",
+    "A112740",
+    "A138894",
+    "A199023",
+    "A238275",
+    "A238276"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

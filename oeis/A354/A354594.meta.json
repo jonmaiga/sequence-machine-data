@@ -1,0 +1,27 @@
+{
+  "description": "a(n) = n^2 + 2*floor(n/2)^2.",
+  "id": "A354594",
+  "mentions": [
+    "A000290",
+    "A008794",
+    "A033581",
+    "A080859",
+    "A213037",
+    "A247375",
+    "A322744",
+    "A354595",
+    "A354596"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:29",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

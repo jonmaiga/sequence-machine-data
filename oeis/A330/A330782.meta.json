@@ -1,0 +1,24 @@
+{
+  "description": "The records for distance squared for step lengths between adjacent composite numbers in A332767, the visited composite numbers for a walk stepping to the closest unvisited composite number on the 2D square (Ulam) spiral.",
+  "id": "A330782",
+  "mentions": [
+    "A000040",
+    "A063826",
+    "A136626",
+    "A330979",
+    "A331027",
+    "A332767"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

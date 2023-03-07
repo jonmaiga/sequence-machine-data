@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that uphi(k) is equal to the sum of the proper unitary divisors of k.",
+  "id": "A291320",
+  "mentions": [
+    "A034448",
+    "A047994",
+    "A063919"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

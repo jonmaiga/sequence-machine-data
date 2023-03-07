@@ -1,0 +1,23 @@
+{
+  "description": "Table read by antidiagonals upward: T(n,k) is the least integer m > k such that k^x * m^y = c^n for some positive integers c, x, and y where x < n and y < n; n >= 2, k >= 1.",
+  "id": "A343881",
+  "mentions": [
+    "A020639",
+    "A064549",
+    "A072905",
+    "A277781",
+    "A343825"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 2,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

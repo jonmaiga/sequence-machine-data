@@ -1,0 +1,39 @@
+{
+  "description": "Number of integer partitions of n whose run-lengths are either weakly increasing or weakly decreasing.",
+  "id": "A332745",
+  "mentions": [
+    "A001523",
+    "A025065",
+    "A059204",
+    "A100882",
+    "A100883",
+    "A115981",
+    "A181819",
+    "A328509",
+    "A332280",
+    "A332281",
+    "A332283",
+    "A332577",
+    "A332578",
+    "A332638",
+    "A332640",
+    "A332641",
+    "A332726",
+    "A332727",
+    "A332742",
+    "A332831",
+    "A332833",
+    "A332834",
+    "A332835"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

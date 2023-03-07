@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of sum_{n=1..infinity} n^3/(exp(2*Pi*n/13)-1).",
+  "id": "A226121",
+  "mentions": [
+    "A060295",
+    "A226120"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 3,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

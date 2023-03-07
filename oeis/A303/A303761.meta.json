@@ -1,0 +1,27 @@
+{
+  "description": "Divisor-or-multiple permutation of squarefree numbers: a(0) = 1, and for n >= 1, a(n) is either the least divisor of a(n-1) not already present, or (if all divisors already used), a(n) is obtained by iterating the map x -> x*A053669(x), starting from x = a(n-1), until x is found which is not already present in the sequence.",
+  "id": "A303761",
+  "mentions": [
+    "A000040",
+    "A002110",
+    "A005117",
+    "A019565",
+    "A053669",
+    "A300829",
+    "A303751",
+    "A303760",
+    "A303762",
+    "A303765"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:28",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

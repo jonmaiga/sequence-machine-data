@@ -1,0 +1,21 @@
+{
+  "description": "Numbers with a record number of distinct values of the unitary totient function applied to their unitary divisors (A348001).",
+  "id": "A348002",
+  "mentions": [
+    "A047994",
+    "A328858",
+    "A348001",
+    "A348003"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

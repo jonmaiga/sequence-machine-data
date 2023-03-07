@@ -1,0 +1,25 @@
+{
+  "description": "Ascending descending base exponent transform of factorials.",
+  "id": "A113258",
+  "mentions": [
+    "A000027",
+    "A000142",
+    "A003101",
+    "A005408",
+    "A113122",
+    "A113153",
+    "A113154"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

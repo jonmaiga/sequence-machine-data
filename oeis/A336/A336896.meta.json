@@ -1,0 +1,21 @@
+{
+  "description": "Sum of the leftmost parts in all compositions of n into distinct parts.",
+  "id": "A336896",
+  "mentions": [
+    "A000225",
+    "A008289",
+    "A032020",
+    "A032153"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:08",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

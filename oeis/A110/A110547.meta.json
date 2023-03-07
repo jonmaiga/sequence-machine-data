@@ -1,0 +1,21 @@
+{
+  "description": "Number of sides of regular polygons whose interior angles (in degrees) are not integers.",
+  "id": "A110547",
+  "mentions": [
+    "A018412",
+    "A069976",
+    "A100659"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

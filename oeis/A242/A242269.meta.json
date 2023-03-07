@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that n*6^n+1 is semiprime.",
+  "id": "A242269",
+  "mentions": [
+    "A050917",
+    "A242176",
+    "A242203"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

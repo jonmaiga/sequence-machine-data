@@ -1,0 +1,25 @@
+{
+  "description": "Number of convex quadrilaterals on an n X n grid (or geoboard).",
+  "id": "A189413",
+  "mentions": [
+    "A175383",
+    "A178256",
+    "A189345",
+    "A189412",
+    "A189414",
+    "A334708",
+    "A334709",
+    "A334710",
+    "A334711"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:13",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

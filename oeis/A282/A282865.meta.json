@@ -1,0 +1,18 @@
+{
+  "description": "Lexicographic first permutation of the nonnegative integers such that the partial sums of (-1)^isprime(a(n))*a(n) always remain nonnegative.",
+  "id": "A282865",
+  "mentions": [
+    "A282846",
+    "A282864"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 88,
+    "source": "oeis-entry"
+  }
+}

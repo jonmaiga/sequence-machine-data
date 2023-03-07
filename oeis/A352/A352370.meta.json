@@ -1,0 +1,17 @@
+{
+  "description": "Row sums of A352369.",
+  "id": "A352370",
+  "mentions": [
+    "A352369"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

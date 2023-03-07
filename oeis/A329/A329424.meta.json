@@ -1,0 +1,19 @@
+{
+  "description": "Starting from n: as long as the decimal representation starts with a positive multiple of 3, divide the largest such prefix by 3; a(n) corresponds to the final value.",
+  "id": "A329424",
+  "mentions": [
+    "A327539"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

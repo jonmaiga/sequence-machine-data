@@ -1,0 +1,26 @@
+{
+  "description": "Triangular array read by rows. T(n,k) is the number of n X n Boolean matrices with row rank k, n >= 0, 0 <= k <= n.",
+  "id": "A354741",
+  "mentions": [
+    "A000012",
+    "A002416",
+    "A048651",
+    "A060867",
+    "A064230",
+    "A286331",
+    "A355333"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Period 6: repeat [1, 2, 5, 4, 7, 8].",
+  "id": "A153990",
+  "mentions": [
+    "A131533",
+    "A141425",
+    "A153130",
+    "A154811"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:42:41",
+    "offset": 0,
+    "size": 86,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that gcd(k^2, 2^(k-1) - 1) > k.",
+  "id": "A331021",
+  "mentions": [
+    "A001220",
+    "A001567",
+    "A291194"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:00",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

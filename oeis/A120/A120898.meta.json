@@ -1,0 +1,25 @@
+{
+  "description": "Cascadence of 1+2x+x^2; a triangle, read by rows of 2n+1 terms, that retains its original form upon convolving each row with [1,2,1] and then letting excess terms spill over from each row into the initial positions of the next row such that only 2n+1 terms remain in row n for n>=0.",
+  "id": "A120898",
+  "mentions": [
+    "A000108",
+    "A092683",
+    "A092686",
+    "A120894",
+    "A120899",
+    "A120901",
+    "A120902"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:09",
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Index of first occurrence of n in A280055.",
+  "id": "A280760",
+  "mentions": [
+    "A008578",
+    "A280055"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

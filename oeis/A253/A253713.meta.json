@@ -1,0 +1,20 @@
+{
+  "description": "Second partial sums of 13th powers (A010801).",
+  "id": "A253713",
+  "mentions": [
+    "A010801",
+    "A253636"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:54:35",
+    "offset": 1,
+    "size": 21,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of Pi^2/(16*K^2*G) = Product_{p prime congruent to 3 modulo 4} (1 + 1/p^2), where K is the Landau-Ramanujan constant and G Catalan's constant.",
+  "id": "A243381",
+  "mentions": [
+    "A002145",
+    "A006752",
+    "A064533",
+    "A243379",
+    "A243380"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:59",
+    "offset": 1,
+    "size": 101,
+    "source": "oeis-bfile"
+  }
+}

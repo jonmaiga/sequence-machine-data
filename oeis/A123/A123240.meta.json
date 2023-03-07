@@ -1,0 +1,19 @@
+{
+  "description": "Natural numbers with number of divisors not equal to a Fibonacci number.",
+  "id": "A123240",
+  "mentions": [
+    "A000379",
+    "A123193"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:11",
+    "offset": 1,
+    "size": 118,
+    "source": "oeis-bfile"
+  }
+}

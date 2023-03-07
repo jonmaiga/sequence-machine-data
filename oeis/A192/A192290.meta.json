@@ -1,0 +1,23 @@
+{
+  "description": "Anti-amicable numbers.",
+  "id": "A192290",
+  "mentions": [
+    "A063990",
+    "A066272",
+    "A073930",
+    "A192291",
+    "A192292",
+    "A192293"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

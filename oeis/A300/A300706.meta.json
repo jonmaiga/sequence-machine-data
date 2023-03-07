@@ -1,0 +1,24 @@
+{
+  "description": "Number of compositions (ordered partitions) of n into squarefree parts that do not divide n.",
+  "id": "A300706",
+  "mentions": [
+    "A005117",
+    "A280194",
+    "A284464",
+    "A300585",
+    "A300586",
+    "A300702",
+    "A300703",
+    "A300704"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:25",
+    "offset": 0,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

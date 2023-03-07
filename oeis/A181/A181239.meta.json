@@ -1,0 +1,18 @@
+{
+  "description": "Number of n X 4 binary matrices with no 2 X 2 circuit having pattern 0101 in any orientation.",
+  "id": "A181239",
+  "mentions": [
+    "A181245"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:04",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

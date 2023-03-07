@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that isigma(k) = isigma(k+1), where isigma(k) is the sum of the infinitary divisors of k (A049417).",
+  "id": "A306985",
+  "mentions": [
+    "A002961",
+    "A049417",
+    "A064125",
+    "A293183"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

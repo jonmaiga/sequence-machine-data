@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the smallest positive integer k such that k^16 + 1 == 0 mod p, where p is the n-th prime of the form 1 + 32*b (see A133870(n)).",
+  "id": "A218162",
+  "mentions": [
+    "A133870"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

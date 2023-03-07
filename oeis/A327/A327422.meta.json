@@ -1,0 +1,21 @@
+{
+  "description": "Positive integers k such that tan(k) > 0 (or equivalently, cot(k) > 0).",
+  "id": "A327422",
+  "mentions": [
+    "A070751",
+    "A070752",
+    "A131503",
+    "A327423",
+    "A330035"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:55",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

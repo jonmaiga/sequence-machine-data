@@ -1,0 +1,20 @@
+{
+  "description": "Central terms of triangle A278885: a(n) = A278885(n,n+1) = -A278885(n,n) for n>=1.",
+  "id": "A278888",
+  "mentions": [
+    "A278885",
+    "A278886",
+    "A278887",
+    "A278889"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:45",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

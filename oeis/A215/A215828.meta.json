@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 7^(floor(n/3))*A(n), where A(n) = A(n-1) + A(n-2) + A(n-3)/7, with A(0)=3, A(1)=1, A(2)=3.",
+  "id": "A215828",
+  "mentions": [
+    "A108716",
+    "A215575",
+    "A215794"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:33",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

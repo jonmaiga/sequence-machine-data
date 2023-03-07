@@ -1,0 +1,28 @@
+{
+  "description": "Number of unitary rings with additive group (Z/nZ)^3.",
+  "id": "A341201",
+  "mentions": [
+    "A037234",
+    "A037289",
+    "A037290",
+    "A037291",
+    "A038036",
+    "A127707",
+    "A127708",
+    "A307000",
+    "A339948",
+    "A341202"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

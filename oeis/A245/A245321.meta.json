@@ -1,0 +1,23 @@
+{
+  "description": "Sum of digits of n written in fractional base 6/5.",
+  "id": "A245321",
+  "mentions": [
+    "A000120",
+    "A007953",
+    "A024638",
+    "A053827",
+    "A244040"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:20:39",
+    "offset": 0,
+    "size": 68,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the maximum diameter for an n-threaded binary program. In other words, a(n) is the maximal finite distance in the transition graph of an n-threaded binary program.",
+  "id": "A290642",
+  "mentions": [
+    "A008585"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Square array T(m,n) read by antidiagonals, satisfying shifted Catalan recurrences: T(m,0) = 1 and T(m,n) = Sum_{k=0..n-1} T(m,k) * T(m,(n-1-k+m) mod n) for all n > 0.",
+  "id": "A341359",
+  "mentions": [
+    "A000012",
+    "A000108",
+    "A003418",
+    "A007317",
+    "A007395",
+    "A082298",
+    "A162326",
+    "A181768",
+    "A226392",
+    "A341360"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

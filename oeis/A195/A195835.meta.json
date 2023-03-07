@@ -1,0 +1,24 @@
+{
+  "description": "Leaders in the race of digits of Pi.",
+  "id": "A195835",
+  "mentions": [
+    "A000796",
+    "A096567",
+    "A195844",
+    "A195845",
+    "A195846",
+    "A195847",
+    "A342325"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:17",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

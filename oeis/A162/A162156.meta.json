@@ -1,0 +1,20 @@
+{
+  "description": "Table which contains in row n the mapping of the n-th block of 4 primes to 4 integers.",
+  "id": "A162156",
+  "mentions": [
+    "A000040"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "less",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Number of nX7 0..3 arrays with no element x(i,j) adjacent to value 3-x(i,j) horizontally, vertically, diagonally or antidiagonally, and top left element zero",
+  "id": "A233025",
+  "mentions": [
+    "A233026"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:51",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

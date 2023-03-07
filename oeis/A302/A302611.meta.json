@@ -1,0 +1,29 @@
+{
+  "description": "Expansion of e.g.f. -log(1 - x)*arctanh(x).",
+  "id": "A302611",
+  "mentions": [
+    "A005359",
+    "A009410",
+    "A009416",
+    "A009429",
+    "A009435",
+    "A012697",
+    "A081358",
+    "A104150",
+    "A177699",
+    "A177700",
+    "A202139",
+    "A302610"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 18:07:05",
+    "offset": 0,
+    "size": 24,
+    "source": "joeis"
+  }
+}

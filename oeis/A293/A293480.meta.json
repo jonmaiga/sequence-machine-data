@@ -1,0 +1,20 @@
+{
+  "description": "Composite numbers k = concat(x,LSD(k)) such that the sum of the aliquot parts of k is equal to the sum of the aliquot parts of x.",
+  "id": "A293480",
+  "mentions": [
+    "A001065",
+    "A010879"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

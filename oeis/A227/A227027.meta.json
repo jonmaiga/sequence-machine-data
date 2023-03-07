@@ -1,0 +1,22 @@
+{
+  "description": "Triangular numbers representable as x!/y! with y < x-1.",
+  "id": "A227027",
+  "mentions": [
+    "A000217",
+    "A001219",
+    "A029549",
+    "A045619",
+    "A097571",
+    "A227026"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

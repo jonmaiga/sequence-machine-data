@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = 6*a(n-1) - 8*a(n-2)-3 for n > 1; a(0) = 35, a(1) = 135.",
+  "id": "A171473",
+  "mentions": [
+    "A049775",
+    "A061561",
+    "A092431",
+    "A171470",
+    "A171471",
+    "A171472"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:55",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

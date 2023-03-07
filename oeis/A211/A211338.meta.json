@@ -1,0 +1,24 @@
+{
+  "description": "Numbers k for which the number of divisors, tau(k), is congruent to 2 modulo 3.",
+  "id": "A211338",
+  "mentions": [
+    "A000005",
+    "A000040",
+    "A000578",
+    "A059269",
+    "A074796",
+    "A211337",
+    "A211485"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:30",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Sum of the n-th powers of the first n odd numbers.",
+  "id": "A349490",
+  "mentions": [
+    "A000290",
+    "A000447",
+    "A002309",
+    "A002593",
+    "A002594",
+    "A005408",
+    "A031971",
+    "A061787",
+    "A103438",
+    "A259322"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

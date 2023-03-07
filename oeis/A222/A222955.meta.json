@@ -1,0 +1,26 @@
+{
+  "description": "Number of nX1 0..1 arrays with every row and column least squares fitting to a zero slope straight line, with a single point array taken as having zero slope",
+  "id": "A222955",
+  "mentions": [
+    "A011782",
+    "A029931",
+    "A053632",
+    "A070925",
+    "A222959",
+    "A231204",
+    "A318283",
+    "A359042",
+    "A359043",
+    "A359402"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:40",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

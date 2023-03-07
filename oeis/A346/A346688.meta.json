@@ -1,0 +1,26 @@
+{
+  "description": "Replace 4^k with (-1)^k in base-4 expansion of n.",
+  "id": "A346688",
+  "mentions": [
+    "A007090",
+    "A053737",
+    "A055017",
+    "A065359",
+    "A065368",
+    "A346689",
+    "A346690",
+    "A346691"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

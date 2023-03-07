@@ -1,0 +1,34 @@
+{
+  "description": "Number of odd exponents in the canonical prime factorization of n.",
+  "id": "A162642",
+  "mentions": [
+    "A000035",
+    "A000290",
+    "A001221",
+    "A001620",
+    "A002035",
+    "A007913",
+    "A028234",
+    "A056169",
+    "A067029",
+    "A077761",
+    "A162641",
+    "A179119",
+    "A295316",
+    "A295659",
+    "A295662",
+    "A295664"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:44",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = the smallest number k such that sigma(k) / phi(k) >= n.",
+  "id": "A291185",
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A055234",
+    "A289336",
+    "A289412"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

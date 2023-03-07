@@ -1,0 +1,18 @@
+{
+  "description": "Min{ n | A094348(n) element of {A096179(n,k) | 1 <= k <= n}}.",
+  "id": "A178938",
+  "mentions": [
+    "A094348",
+    "A096179"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

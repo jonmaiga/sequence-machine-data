@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of 2*Pi*Integral_{-oo<=x<=oo} log(1/2 + i*x)^6 / (exp(-Pi*x) + exp(Pi*x))^2, negated.",
+  "id": "A346836",
+  "mentions": [
+    "A001620",
+    "A346833",
+    "A346834",
+    "A346835"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 89,
+    "source": "oeis-entry"
+  }
+}

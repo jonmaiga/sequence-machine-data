@@ -1,0 +1,17 @@
+{
+  "description": "Number of n X n 0..1 arrays with each 1 adjacent to 2, 3 or 4 king-move neighboring 1's.",
+  "id": "A296820",
+  "mentions": [
+    "A296827"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Denominator of Laguerre(n, 1).",
+  "id": "A160622",
+  "mentions": [
+    "A009940",
+    "A160621"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:42",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

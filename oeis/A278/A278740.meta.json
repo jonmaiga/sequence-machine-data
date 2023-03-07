@@ -1,0 +1,20 @@
+{
+  "description": "Primes in A138290.",
+  "id": "A278740",
+  "mentions": [
+    "A138290"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "bref",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

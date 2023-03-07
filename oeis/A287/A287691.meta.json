@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) (0 <= k <= n) is the number of squarefree numbers A002110(n) <= m <= (A002110(n+1)-1) such that A001221(m) = n and m is divisible by A002110(k).",
+  "id": "A287691",
+  "mentions": [
+    "A001221",
+    "A002110",
+    "A287483",
+    "A287484"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:00",
+    "offset": 0,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

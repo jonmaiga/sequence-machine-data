@@ -1,0 +1,21 @@
+{
+  "description": "Bi-diagonal inverse matrix of A120108.",
+  "id": "A120111",
+  "mentions": [
+    "A014963",
+    "A120108",
+    "A120112"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "n-th term is the length of a shortest common superstring of the binary representations of all natural numbers from 1 to n.",
+  "id": "A175808",
+  "mentions": [
+    "A016031",
+    "A056744",
+    "A166316",
+    "A175809"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

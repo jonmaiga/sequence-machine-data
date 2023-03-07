@@ -1,0 +1,19 @@
+{
+  "description": "Maximum depth/height of binary trees encoded by A014486.",
+  "id": "A179751",
+  "mentions": [
+    "A014137",
+    "A014486",
+    "A179752"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:02",
+    "offset": 0,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

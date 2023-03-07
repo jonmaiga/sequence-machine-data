@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = number m such that the golden mean phi's m-th convergent F(m+1)/F(m) matches its actual value to n decimal places (here F(m) is the m-th Fibonacci number A000045(m)).",
+  "id": "A104036",
+  "mentions": [
+    "A000045",
+    "A001622"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:54",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Product of exactly two distinct primes congruent to 1 mod 8 (A007519).",
+  "id": "A185377",
+  "mentions": [
+    "A000040",
+    "A001358",
+    "A007519",
+    "A017077"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:10",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

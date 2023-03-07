@@ -1,0 +1,22 @@
+{
+  "description": "Least positive integer m such that m^6*n = w^6 + x^3 + y^3 + z^3 for some nonnegative integers w,x,y,z.",
+  "id": "A351179",
+  "mentions": [
+    "A000578",
+    "A001014",
+    "A004825",
+    "A350714",
+    "A351199"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:25",
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-bfile"
+  }
+}

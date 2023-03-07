@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = product of total number of 0's and total number of 1's in binary expansions of 0, ..., n.",
+  "id": "A301896",
+  "mentions": [
+    "A000120",
+    "A000788",
+    "A023416",
+    "A059015",
+    "A071295",
+    "A301336"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:36:03",
+    "offset": 0,
+    "size": 51,
+    "source": "joeis"
+  }
+}

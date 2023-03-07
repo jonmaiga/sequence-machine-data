@@ -1,0 +1,22 @@
+{
+  "description": "Number of ways to write n as the sum of a square, a second pentagonal number, and a hexagonal number.",
+  "id": "A254668",
+  "mentions": [
+    "A000290",
+    "A000384",
+    "A005449",
+    "A160324",
+    "A160325",
+    "A254661"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:12",
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-bfile"
+  }
+}

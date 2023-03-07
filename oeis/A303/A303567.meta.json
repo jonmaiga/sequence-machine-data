@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = [x^n] ((Sum_{k=0..n} (k+1)!*x^k)/(Sum_{k=0..n} (k+1)!*(-x)^k))^(1/2).",
+  "id": "A303567",
+  "mentions": [
+    "A303566",
+    "A303568",
+    "A303569"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:27",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

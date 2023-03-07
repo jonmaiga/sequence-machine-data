@@ -1,0 +1,20 @@
+{
+  "description": "Number of primitive (period n) periodic palindromes with integer entries that cover an initial interval of positive integers.",
+  "id": "A327879",
+  "mentions": [
+    "A327868",
+    "A327874",
+    "A327878"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:56",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

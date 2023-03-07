@@ -1,0 +1,22 @@
+{
+  "description": "Number of compositions (ordered partitions) of 1/n into n reciprocals of positive integers.",
+  "id": "A343214",
+  "mentions": [
+    "A002967",
+    "A048691",
+    "A342267",
+    "A343074"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

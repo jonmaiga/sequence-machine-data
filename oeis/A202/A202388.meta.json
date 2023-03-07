@@ -1,0 +1,21 @@
+{
+  "description": "Digital root of Smith numbers A006753.",
+  "id": "A202388",
+  "mentions": [
+    "A006753",
+    "A010888",
+    "A050218",
+    "A202393"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:22",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

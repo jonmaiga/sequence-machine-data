@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = ((4+sqrt(5))*(3+sqrt(5))^n + (4-sqrt(5))*(3-sqrt(5))^n)/2.",
+  "id": "A163071",
+  "mentions": [
+    "A000032",
+    "A000045",
+    "A001906",
+    "A005248",
+    "A108404",
+    "A163070",
+    "A163141"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:44",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Primes with Kronecker symbol (p|14) = 1.",
+  "id": "A191017",
+  "mentions": [
+    "A045373",
+    "A191018",
+    "A191020",
+    "A191032",
+    "A191061",
+    "A274504"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:18:27",
+    "offset": 1,
+    "size": 54,
+    "source": "joeis"
+  }
+}

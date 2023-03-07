@@ -1,0 +1,27 @@
+{
+  "description": "Irregular triangle listing numbers m of n that have prime divisors p that also divide n, in order of appearance in a matrix of products that arranges the powers of prime divisors p of n along independent axes.",
+  "id": "A275280",
+  "mentions": [
+    "A000005",
+    "A001221",
+    "A010846",
+    "A027750",
+    "A162306",
+    "A243103",
+    "A243822",
+    "A272618",
+    "A275055"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:40",
+    "offset": 1,
+    "size": 94,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = 2^(2^n - 1) + 2^(2^(n + 1) - 1) + 1.",
+  "id": "A119571",
+  "mentions": [
+    "A000215",
+    "A058891"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = least positive integer m such that 2(s_k)^2 for k=1,...,n are pairwise distinct modulo m where s_k = Sum_{j=1..k} (-1)^(k-j)*p_j and p_j is the j-th prime.",
+  "id": "A181901",
+  "mentions": [
+    "A000040",
+    "A008347",
+    "A207982",
+    "A208494",
+    "A208643",
+    "A210144",
+    "A210186",
+    "A210393",
+    "A210394",
+    "A210640"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:05",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

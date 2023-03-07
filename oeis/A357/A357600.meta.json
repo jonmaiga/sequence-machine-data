@@ -1,0 +1,19 @@
+{
+  "description": "Largest number k such that C(-k) is the cyclic group of order n, where C(D) is the class group of the quadratic field with discriminant D; or 0 if no such k exists.",
+  "id": "A357600",
+  "mentions": [
+    "A038552",
+    "A344073"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:31",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

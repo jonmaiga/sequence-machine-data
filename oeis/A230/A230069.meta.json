@@ -1,0 +1,28 @@
+{
+  "description": "Numerators of inverse of triangle A082985(n).",
+  "id": "A230069",
+  "mentions": [
+    "A027642",
+    "A082985",
+    "A098435",
+    "A164555",
+    "A181131",
+    "A190339",
+    "A201453",
+    "A201454",
+    "A212196"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "frac",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

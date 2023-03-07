@@ -1,0 +1,23 @@
+{
+  "description": "Numbers that raised to any exponent do not produce a number whose sum of digits is equal to the initial number.",
+  "id": "A124367",
+  "mentions": [
+    "A046019",
+    "A124359",
+    "A124360",
+    "A124365",
+    "A124366",
+    "A247889"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

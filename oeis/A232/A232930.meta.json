@@ -1,0 +1,18 @@
+{
+  "description": "For each complex primitive Dirichlet character chi modulo n, let f(chi) be the least positive integer k for which chi(k) is not in the set {0,1}. Then a(n) is the sum of f(chi) over all such chi.",
+  "id": "A232930",
+  "mentions": [
+    "A007431",
+    "A232927"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 3,
+    "size": 118,
+    "source": "oeis-entry"
+  }
+}

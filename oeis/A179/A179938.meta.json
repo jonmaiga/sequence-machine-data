@@ -1,0 +1,29 @@
+{
+  "description": "Third largest prime factor of numbers that are divisible by at least three different primes (A000977).",
+  "id": "A179938",
+  "mentions": [
+    "A000040",
+    "A000961",
+    "A000977",
+    "A001221",
+    "A002808",
+    "A007774",
+    "A033992",
+    "A033993",
+    "A051270",
+    "A087040",
+    "A088739",
+    "A179312"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Squares of automorphic numbers in base 12 (cf. A201919).",
+  "id": "A308250",
+  "mentions": [
+    "A201919",
+    "A237583"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

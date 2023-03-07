@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: T(n,k) = (1/6)*k*(k+1)*(k+2)*binomial(n,k) (1 <= k <= n).",
+  "id": "A125091",
+  "mentions": [
+    "A000292",
+    "A055585"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

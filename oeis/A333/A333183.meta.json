@@ -1,0 +1,25 @@
+{
+  "description": "Number of digits in concatenation of first n positive even integers.",
+  "id": "A333183",
+  "mentions": [
+    "A000035",
+    "A000422",
+    "A007908",
+    "A019520",
+    "A038396",
+    "A058183"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:03",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

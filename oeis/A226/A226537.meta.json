@@ -1,0 +1,17 @@
+{
+  "description": "Numbers not of the form p + q^2 + r^3 + s^4 where p, q, r, and s are prime.",
+  "id": "A226537",
+  "mentions": [
+    "A226484"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

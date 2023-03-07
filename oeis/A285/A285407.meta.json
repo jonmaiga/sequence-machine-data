@@ -1,0 +1,24 @@
+{
+  "description": "G.f.: 1/(1 - x^2/(1 - x^3/(1 - x^5/(1 - x^7/(1 - x^11/(1 - ... - x^prime(k)/(1 - ... ))))))), a continued fraction.",
+  "id": "A285407",
+  "mentions": [
+    "A000040",
+    "A206739",
+    "A206741",
+    "A206742",
+    "A206743",
+    "A227310",
+    "A269353"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:57",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

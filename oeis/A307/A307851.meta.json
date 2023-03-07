@@ -1,0 +1,24 @@
+{
+  "description": "Prime numbers prime(k) with a zeroless decimal representation such that (product of decimal digits of prime(k)) / k is an integer.",
+  "id": "A307851",
+  "mentions": [
+    "A000040",
+    "A007954",
+    "A052382",
+    "A097220",
+    "A097223",
+    "A306766"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

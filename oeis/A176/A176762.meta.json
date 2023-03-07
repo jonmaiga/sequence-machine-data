@@ -1,0 +1,22 @@
+{
+  "description": "Smallest number that takes n steps to reach a cycle under iteration of sum-of-squares-of-digits map.",
+  "id": "A176762",
+  "mentions": [
+    "A001273",
+    "A003001",
+    "A045646",
+    "A094406"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

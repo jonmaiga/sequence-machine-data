@@ -1,0 +1,17 @@
+{
+  "description": "a(n+2) is the smallest odd prime such that a(n) is the smallest odd prime divisor of a(n+1)+a(n+2), starting with a(1) = 11 and a(2) = 19.",
+  "id": "A352955",
+  "mentions": [
+    "A255562"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

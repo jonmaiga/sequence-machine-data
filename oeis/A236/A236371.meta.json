@@ -1,0 +1,23 @@
+{
+  "description": "Numbers n such that 7^n - 12 is prime.",
+  "id": "A236371",
+  "mentions": [
+    "A090669",
+    "A096305",
+    "A152213",
+    "A191469",
+    "A217130",
+    "A217131",
+    "A217132"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of n X 3 0,1 arrays indicating 2 X 2 subblocks of some larger (n+1) X 4 binary array having a sum of zero, with rows and columns of the latter in lexicographically nondecreasing order.",
+  "id": "A227122",
+  "mentions": [
+    "A227125"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:05:53",
+    "offset": 1,
+    "size": 31,
+    "source": "joeis"
+  }
+}

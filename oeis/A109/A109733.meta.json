@@ -1,0 +1,20 @@
+{
+  "description": "Sequence is its own base-10 ASCII representation.",
+  "id": "A109733",
+  "mentions": [
+    "A109648"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:01",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

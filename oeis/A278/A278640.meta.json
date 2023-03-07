@@ -1,0 +1,23 @@
+{
+  "description": "Number of pairs of orientable necklaces with n beads and up to 4 colors; i.e., turning the necklace over does not leave it unchanged. The turned-over necklace is not included in the count.",
+  "id": "A278640",
+  "mentions": [
+    "A001868",
+    "A032275",
+    "A056486",
+    "A059076",
+    "A278639",
+    "A293496"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

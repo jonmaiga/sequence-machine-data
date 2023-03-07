@@ -1,0 +1,18 @@
+{
+  "description": "Semiprimes k = pq such that p^k == p (mod k) and q^k == q (mod k).",
+  "id": "A294169",
+  "mentions": [
+    "A001358",
+    "A046388"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:12",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

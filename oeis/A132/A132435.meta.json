@@ -1,0 +1,19 @@
+{
+  "description": "Composite integers n with two prime factors nearly equidistant from the integer part of the square root of n.",
+  "id": "A132435",
+  "mentions": [
+    "A000196",
+    "A007918",
+    "A078972"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:20",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

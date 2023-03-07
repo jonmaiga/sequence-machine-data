@@ -1,0 +1,27 @@
+{
+  "description": "Positions of odd terms in A359780.",
+  "id": "A359783",
+  "mentions": [
+    "A003415",
+    "A056913",
+    "A235992",
+    "A358680",
+    "A359765",
+    "A359780",
+    "A359781",
+    "A359782",
+    "A359784",
+    "A359790",
+    "A359825"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

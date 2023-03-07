@@ -1,0 +1,20 @@
+{
+  "description": "Number of equal bit-runs in Stolarsky Representation of n.",
+  "id": "A200651",
+  "mentions": [
+    "A200647",
+    "A200648",
+    "A200649",
+    "A200650"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

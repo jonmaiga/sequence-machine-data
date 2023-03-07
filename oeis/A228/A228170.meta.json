@@ -1,0 +1,22 @@
+{
+  "description": "The least semiprime (A001358) such that between it and the next n semiprimes, but not the next n+1 semiprimes, there are no primes.",
+  "id": "A228170",
+  "mentions": [
+    "A001222",
+    "A001358",
+    "A112888",
+    "A133478",
+    "A228171"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:45",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

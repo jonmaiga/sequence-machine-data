@@ -1,0 +1,17 @@
+{
+  "description": "Euler characteristic of relative homology of some varieties related to cluster algebras of type D.",
+  "id": "A211166",
+  "mentions": [
+    "A171711"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 2,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

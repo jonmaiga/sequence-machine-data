@@ -1,0 +1,21 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) is the number of dominating subsets with k vertices of the rooted tree with Matula-Goebel number n (n>=1, k>=1).",
+  "id": "A212630",
+  "mentions": [
+    "A212618",
+    "A212631",
+    "A212632"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

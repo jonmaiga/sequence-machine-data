@@ -1,0 +1,24 @@
+{
+  "description": "Balanced ternary representation of A083254(n), 2*phi(n)-n.",
+  "id": "A297154",
+  "mentions": [
+    "A000010",
+    "A083254",
+    "A117966",
+    "A117967",
+    "A117968",
+    "A295882",
+    "A297153"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:17",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

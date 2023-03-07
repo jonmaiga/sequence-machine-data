@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of ((1 - 5*x)/sqrt(1 - 10*x + 9*x^2) - 1)/(8*x^2).",
+  "id": "A331793",
+  "mentions": [
+    "A331516",
+    "A331791"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:01",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Number of nonequivalent ways to place n^2 nonattacking kings on a 2n X 2n chessboard under all symmetry operations of the square.",
+  "id": "A319096",
+  "mentions": [
+    "A018807",
+    "A137432",
+    "A236679",
+    "A321614",
+    "A322284"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

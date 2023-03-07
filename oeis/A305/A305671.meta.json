@@ -1,0 +1,25 @@
+{
+  "description": "Most common value of sigma (A000203) among all composites (A073255) up to composite(n) = A002808(n) inclusive, or 0 if there is a tie.",
+  "id": "A305671",
+  "mentions": [
+    "A000203",
+    "A002808",
+    "A073255",
+    "A305672",
+    "A305673",
+    "A305674",
+    "A305675",
+    "A305676"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

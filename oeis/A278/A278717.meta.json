@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(n, m) gives the difference between the even and odd leg of the primitive Pythagorean triangle determined by (n, m) with n > m >= 1, gcd(n, m) = 1 and n+m odd, or 0 for other (n, m).",
+  "id": "A278717",
+  "mentions": [
+    "A222946",
+    "A225949",
+    "A249866",
+    "A249869"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 2,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

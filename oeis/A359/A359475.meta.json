@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = 1 if n is a cubefree nonsquare whose factorization into a product of primes contains exactly one square, otherwise 0.",
+  "id": "A359475",
+  "mentions": [
+    "A049240",
+    "A072357",
+    "A271971",
+    "A302048",
+    "A359471",
+    "A359474"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:33",
+    "offset": 1,
+    "size": 121,
+    "source": "oeis-bfile"
+  }
+}

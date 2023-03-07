@@ -1,0 +1,21 @@
+{
+  "description": "The forgotten topological index of the Aztec diamond AZ(n) (see the Ramanes et al. reference, Theorem 2.1).",
+  "id": "A292346",
+  "mentions": [
+    "A292343",
+    "A292344",
+    "A292345"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:21:11",
+    "offset": 1,
+    "size": 36,
+    "source": "joeis"
+  }
+}

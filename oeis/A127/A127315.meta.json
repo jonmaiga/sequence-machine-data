@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that n^4 divides 19^(n^2)-1.",
+  "id": "A127315",
+  "mentions": [
+    "A128399"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Decimal expansion of the constant Sum_{k>=1} log(k+1)/k/(k+1).",
+  "id": "A131688",
+  "mentions": [
+    "A000005",
+    "A001620",
+    "A002210",
+    "A027423",
+    "A075887",
+    "A085291",
+    "A085361",
+    "A131385",
+    "A244109",
+    "A345682"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:19",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

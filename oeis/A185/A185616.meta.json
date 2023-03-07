@@ -1,0 +1,20 @@
+{
+  "description": "Lower Wythoff values for sequence A185615(n)",
+  "id": "A185616",
+  "mentions": [
+    "A000210",
+    "A185615",
+    "A185617"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:48",
+    "offset": 1,
+    "size": 39,
+    "source": "joeis"
+  }
+}

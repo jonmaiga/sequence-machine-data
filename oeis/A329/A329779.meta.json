@@ -1,0 +1,22 @@
+{
+  "description": "Numbers that are either odd or are congruent to {+-4, +-6, +-8, +-10} (mod 32).",
+  "id": "A329779",
+  "mentions": [
+    "A329780",
+    "A329781",
+    "A329782",
+    "A329783",
+    "A329784"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

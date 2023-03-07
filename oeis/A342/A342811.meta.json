@@ -1,0 +1,20 @@
+{
+  "description": "Volume of the permutohedron obtained from the coordinates 1, 2, 4, ..., 2^(n-1), multiplied by (n-1)!.",
+  "id": "A342811",
+  "mentions": [
+    "A066319",
+    "A087422",
+    "A227414",
+    "A342812"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 2,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

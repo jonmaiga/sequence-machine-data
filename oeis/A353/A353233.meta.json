@@ -1,0 +1,19 @@
+{
+  "description": "Möbius transform of sigma_n(n).",
+  "id": "A353233",
+  "mentions": [
+    "A008683",
+    "A023887"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

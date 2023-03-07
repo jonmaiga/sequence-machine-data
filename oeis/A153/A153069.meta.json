@@ -1,0 +1,26 @@
+{
+  "description": "Numerators of the convergents of the continued fraction for Catalan's constant L(2, chi4), where L(s, chi4) is the Dirichlet L-function for the non-principal character modulo 4.",
+  "id": "A153069",
+  "mentions": [
+    "A006752",
+    "A014538",
+    "A054543",
+    "A101455",
+    "A104338",
+    "A118323",
+    "A153070"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": -2,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

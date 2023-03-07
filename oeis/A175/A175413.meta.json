@@ -1,0 +1,53 @@
+{
+  "description": "Those positive integers n that when written in binary, the lengths of the runs of 1 are distinct and the lengths of the runs of 0's are distinct.",
+  "id": "A175413",
+  "mentions": [
+    "A000120",
+    "A003242",
+    "A005811",
+    "A032020",
+    "A044813",
+    "A070939",
+    "A085207",
+    "A098859",
+    "A175414",
+    "A233564",
+    "A238130",
+    "A238279",
+    "A242882",
+    "A283353",
+    "A297770",
+    "A318928",
+    "A325545",
+    "A328592",
+    "A329739",
+    "A333489",
+    "A334028",
+    "A348612",
+    "A350952",
+    "A351013",
+    "A351014",
+    "A351015",
+    "A351016",
+    "A351017",
+    "A351018",
+    "A351200",
+    "A351202",
+    "A351203",
+    "A351205",
+    "A351290",
+    "A351291",
+    "A351292"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:59",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

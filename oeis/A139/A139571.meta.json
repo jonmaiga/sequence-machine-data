@@ -1,0 +1,23 @@
+{
+  "description": "Numbers with 31 divisors.",
+  "id": "A139571",
+  "mentions": [
+    "A000040",
+    "A073915",
+    "A122971",
+    "A137493",
+    "A175742"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:27",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-bfile"
+  }
+}

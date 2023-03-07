@@ -1,0 +1,20 @@
+{
+  "description": "Length of the longest partition of n into distinct parts, with each part divisible by the next one.",
+  "id": "A167439",
+  "mentions": [
+    "A122651",
+    "A167865",
+    "A167866"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

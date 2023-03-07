@@ -1,0 +1,19 @@
+{
+  "description": "E.g.f. (x*tan(x)-x^2)/8 (even powers only).",
+  "id": "A117415",
+  "mentions": [
+    "A117414"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 22:59:13",
+    "offset": 0,
+    "size": 17,
+    "source": "joeis"
+  }
+}

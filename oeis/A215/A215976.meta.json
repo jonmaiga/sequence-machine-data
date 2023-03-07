@@ -1,0 +1,20 @@
+{
+  "description": "2-adic valuation of the denominator of sum( k!/2^k, k=1..n ).",
+  "id": "A215976",
+  "mentions": [
+    "A215972",
+    "A215974",
+    "A215990"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

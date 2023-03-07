@@ -1,0 +1,21 @@
+{
+  "description": "Positions n such that A163163(n) is not prime.",
+  "id": "A163164",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A007503",
+    "A163163"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

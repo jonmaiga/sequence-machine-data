@@ -1,0 +1,20 @@
+{
+  "description": "The 3677th prime century apportioned with exactly one prime in each of its ten decades.",
+  "id": "A156115",
+  "mentions": [
+    "A103608"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

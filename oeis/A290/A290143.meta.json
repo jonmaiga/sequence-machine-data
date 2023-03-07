@@ -1,0 +1,26 @@
+{
+  "description": "Numbers n such that transient part of the unitary aliquot sequence for n sets a new record.",
+  "id": "A290143",
+  "mentions": [
+    "A034448",
+    "A098008",
+    "A098009",
+    "A098010",
+    "A127652",
+    "A127653",
+    "A127654",
+    "A127655",
+    "A290144"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the sum of the divisors d of 2*n such that the binary expansions of d and 2*n have no common 1-bit.",
+  "id": "A359079",
+  "mentions": [
+    "A246601",
+    "A346878"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:33",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

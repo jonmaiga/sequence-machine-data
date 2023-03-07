@@ -1,0 +1,28 @@
+{
+  "description": "Sum of squares of digits of prime factors of n, with multiplicity.",
+  "id": "A118585",
+  "mentions": [
+    "A001221",
+    "A001222",
+    "A003132",
+    "A005063",
+    "A007953",
+    "A007954",
+    "A067666",
+    "A095402",
+    "A118503"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

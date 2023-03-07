@@ -1,0 +1,19 @@
+{
+  "description": "Positions of odd terms in A354866, the Dirichlet inverse of A122111.",
+  "id": "A354869",
+  "mentions": [
+    "A122111",
+    "A354866",
+    "A354868"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:29",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of partitions of n in which each part is divisible by the next and have no parts equal to 1.",
+  "id": "A214579",
+  "mentions": [
+    "A003238"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:32",
+    "offset": 1,
+    "size": 77,
+    "source": "oeis-bfile"
+  }
+}

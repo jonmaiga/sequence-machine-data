@@ -1,0 +1,22 @@
+{
+  "description": "Indices of 10-gonal (decagonal) numbers which are also 9-gonal (nonagonal).",
+  "id": "A203629",
+  "mentions": [
+    "A001106",
+    "A001107",
+    "A203627",
+    "A203628"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 02:59:49",
+    "offset": 1,
+    "size": 12,
+    "source": "joeis"
+  }
+}

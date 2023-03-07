@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that n/k is an integer. n=(x_1 x_2 ... x_r) where x_i are digits of n, k = x_1*r + x_2*(r-1) + ... + x_r*1.",
+  "id": "A180479",
+  "mentions": [
+    "A005349",
+    "A007602",
+    "A180468"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:03",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

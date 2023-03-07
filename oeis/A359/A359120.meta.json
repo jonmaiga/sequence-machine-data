@@ -1,0 +1,21 @@
+{
+  "description": "Number of primes p with 10^(n-1) < p < 10^n such that 10^n-p is also prime.",
+  "id": "A359120",
+  "mentions": [
+    "A006879",
+    "A065577",
+    "A107318",
+    "A358310"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

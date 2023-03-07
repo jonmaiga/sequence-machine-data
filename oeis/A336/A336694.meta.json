@@ -1,0 +1,27 @@
+{
+  "description": "a(n) = A329697(1+sigma(n)), where A329697 is totally additive with a(2) = 0 and a(p) = 1 + a(p-1) for odd primes.",
+  "id": "A336694",
+  "mentions": [
+    "A000203",
+    "A088580",
+    "A324294",
+    "A329697",
+    "A332459",
+    "A336691",
+    "A336692",
+    "A336693",
+    "A336695",
+    "A336696"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:08",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

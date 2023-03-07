@@ -1,0 +1,18 @@
+{
+  "description": "Number of base 22 n-digit numbers with adjacent digits differing by two or less.",
+  "id": "A126409",
+  "mentions": [
+    "A126376"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 23:31:31",
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

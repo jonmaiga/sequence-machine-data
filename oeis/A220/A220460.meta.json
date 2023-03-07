@@ -1,0 +1,17 @@
+{
+  "description": "Equals one maps: number of nX6 binary arrays indicating the locations of corresponding elements equal to exactly one of their horizontal, vertical and antidiagonal neighbors in a random 0..1 nX6 array",
+  "id": "A220460",
+  "mentions": [
+    "A220461"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

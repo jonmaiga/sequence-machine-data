@@ -1,0 +1,25 @@
+{
+  "description": "Primes that become squares when prefixed with an 8.",
+  "id": "A167741",
+  "mentions": [
+    "A167734",
+    "A167735",
+    "A167736",
+    "A167737",
+    "A167738",
+    "A167739",
+    "A167740",
+    "A273363"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:51",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

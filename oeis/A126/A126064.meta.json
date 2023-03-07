@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows, obtained by multiplying columns of triangle in A094587 by 1,2,4,8,16,... respectively.",
+  "id": "A126064",
+  "mentions": [
+    "A059268",
+    "A094587"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:14",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "For n>=1, a(n) = floor((d(p(n)+1) + d(p(n)+2) + d(p(n)+3) + ... +d(p(n+1)))/(p(n+1) - p(n))), where d(m) is the number of positive divisors of m and p(n) is the n-th prime. a(0) = floor((d(1) + d(2))/2).",
+  "id": "A139141",
+  "mentions": [
+    "A001223",
+    "A139140"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 103,
+    "source": "oeis-entry"
+  }
+}

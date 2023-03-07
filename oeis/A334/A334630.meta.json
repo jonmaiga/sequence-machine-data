@@ -1,0 +1,20 @@
+{
+  "description": "Number of regions after generation n of Conant's dissection of a square when dissected with diagonal lines.",
+  "id": "A334630",
+  "mentions": [
+    "A328078",
+    "A335703",
+    "A337270"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

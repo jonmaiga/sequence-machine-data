@@ -1,0 +1,19 @@
+{
+  "description": "Least number k such that sigma(k) >= 2^n.",
+  "id": "A172516",
+  "mentions": [
+    "A002093",
+    "A141847"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:56",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

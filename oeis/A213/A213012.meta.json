@@ -1,0 +1,23 @@
+{
+  "description": "Trajectory of 26 under the Reverse and Add! operation carried out in base 2.",
+  "id": "A213012",
+  "mentions": [
+    "A035522",
+    "A058042",
+    "A061561",
+    "A066059",
+    "A077076",
+    "A077077"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:59:56",
+    "offset": 0,
+    "size": 32,
+    "source": "joeis"
+  }
+}

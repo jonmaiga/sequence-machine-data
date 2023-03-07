@@ -1,0 +1,25 @@
+{
+  "description": "Number of hypoplactic classes of 4-parking functions of length n.",
+  "id": "A243676",
+  "mentions": [
+    "A001003",
+    "A006318",
+    "A027307",
+    "A034015",
+    "A144097",
+    "A243675",
+    "A260332"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

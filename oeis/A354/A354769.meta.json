@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that d(k)/k = sup {d(m)/m | m > k}, where d(k) is the number-of-divisors function A000005(k).",
+  "id": "A354769",
+  "mentions": [
+    "A000005",
+    "A066523",
+    "A354768"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

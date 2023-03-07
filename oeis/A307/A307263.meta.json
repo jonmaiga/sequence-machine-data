@@ -1,0 +1,19 @@
+{
+  "description": "Primes p with a record number of iterations of the map p -> p - pi(p) until a nonprime is being reached.",
+  "id": "A307263",
+  "mentions": [
+    "A000720",
+    "A014689"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

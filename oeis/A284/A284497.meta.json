@@ -1,0 +1,24 @@
+{
+  "description": "a(n) is the least number such that phi(a(n)) = phi(R(a(n)))/n, where R(n) is the digit reverse of n and phi(n) is the Euler totient function of n.",
+  "id": "A284497",
+  "mentions": [
+    "A000010",
+    "A004086",
+    "A284495",
+    "A284496",
+    "A284498"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

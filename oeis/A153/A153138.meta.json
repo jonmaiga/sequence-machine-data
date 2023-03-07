@@ -1,0 +1,23 @@
+{
+  "description": "Smallest sequence of odd primes such that no sum of at least two terms is prime",
+  "id": "A153138",
+  "mentions": [
+    "A052349",
+    "A133660",
+    "A153136",
+    "A153137",
+    "A254337",
+    "A254341"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

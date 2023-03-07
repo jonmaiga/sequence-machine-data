@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of the Mertens constant C(5,4).",
+  "id": "A340866",
+  "mentions": [
+    "A301430",
+    "A340004",
+    "A340127",
+    "A340629",
+    "A340711",
+    "A340809",
+    "A340839"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:13",
+    "offset": 1,
+    "size": 159,
+    "source": "oeis-bfile"
+  }
+}

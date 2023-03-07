@@ -1,0 +1,21 @@
+{
+  "description": "Number of peaks at odd levels in all hill-free Dyck paths of semilength n+3 (a hill in a Dyck path is a peak at level 1).",
+  "id": "A114587",
+  "mentions": [
+    "A000957",
+    "A114515",
+    "A114586",
+    "A114590"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:05",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

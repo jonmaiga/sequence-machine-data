@@ -1,0 +1,23 @@
+{
+  "description": "Binary representation of n-th iteration of the Rule 188 elementary cellular automaton starting with a single black cell.",
+  "id": "A118174",
+  "mentions": [
+    "A118173",
+    "A265428",
+    "A265429",
+    "A265430",
+    "A265431"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:07",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

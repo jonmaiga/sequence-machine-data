@@ -1,0 +1,22 @@
+{
+  "description": "Lesser of a twin prime pair (p,p+2) such that permuting the digits of p and those of p+2 gives a different twin prime pair (q, q+2).",
+  "id": "A178033",
+  "mentions": [
+    "A001359",
+    "A172271",
+    "A172494",
+    "A173255",
+    "A174454"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

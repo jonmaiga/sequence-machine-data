@@ -1,0 +1,24 @@
+{
+  "description": "Positions of 0's in A326764 (interpreted as a flat sequence).",
+  "id": "A309362",
+  "mentions": [
+    "A056558",
+    "A056559",
+    "A056560",
+    "A326757",
+    "A326758",
+    "A326759",
+    "A326764"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:33",
+    "offset": 0,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

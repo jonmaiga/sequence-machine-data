@@ -1,0 +1,20 @@
+{
+  "description": "Sum of non-Fibonacci numbers between successive Fibonacci numbers: a(n) = Sum_{k=F(n)+1..F(n+1)-1)} k.",
+  "id": "A109454",
+  "mentions": [
+    "A000045",
+    "A006002"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:01",
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

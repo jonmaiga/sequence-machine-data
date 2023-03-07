@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that 1*k + 1, 3*k + 1, 9*k + 1, 27*k + 1 are all primes.",
+  "id": "A112041",
+  "mentions": [
+    "A112042",
+    "A112043"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:02",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

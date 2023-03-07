@@ -1,0 +1,20 @@
+{
+  "description": "Triangle by rows relating to the Rao Uppulari-Carpenter sequence A000587.",
+  "id": "A212248",
+  "mentions": [
+    "A000587",
+    "A213953"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

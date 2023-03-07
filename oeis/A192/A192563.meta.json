@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{k=0..n} abs(Stirling1(n+1,k+1))*Stirling2(n+1,k+1)*k!.",
+  "id": "A192563",
+  "mentions": [
+    "A000142",
+    "A008275",
+    "A008277",
+    "A081048",
+    "A344639"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

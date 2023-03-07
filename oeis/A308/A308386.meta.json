@@ -1,0 +1,20 @@
+{
+  "description": "A self-describing sequence when translated into English: duplicate the n-th letter of the sequence at position a(n). When all the duplications are done, the result is the sequence itself.",
+  "id": "A308386",
+  "mentions": [
+    "A308387"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "more",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

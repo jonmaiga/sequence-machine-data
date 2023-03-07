@@ -1,0 +1,24 @@
+{
+  "description": "Triangle T(n, m) giving in row n the denominators of the fractions for the Farey dissection of order n.",
+  "id": "A278149",
+  "mentions": [
+    "A002088",
+    "A005728",
+    "A015614",
+    "A278148"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 135,
+    "source": "oeis-entry"
+  }
+}

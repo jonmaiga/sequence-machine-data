@@ -1,0 +1,19 @@
+{
+  "description": "Consider the AES (or Rijndael) S-boxes and concatenate i and sbox[i] for all i. Then a(n) is the number of these pairs at Hamming distance n from 0, sbox[0].",
+  "id": "A131630",
+  "mentions": [
+    "A131620"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

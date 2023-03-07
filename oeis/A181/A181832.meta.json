@@ -1,0 +1,24 @@
+{
+  "description": "The product of the positive integers <= n that are strongly prime to n.",
+  "id": "A181832",
+  "mentions": [
+    "A001783",
+    "A007955",
+    "A181830",
+    "A181831",
+    "A181833",
+    "A181834",
+    "A181835",
+    "A181836"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:05",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

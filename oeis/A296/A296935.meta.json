@@ -1,0 +1,21 @@
+{
+  "description": "Rational primes that decompose in the field Q(sqrt(11)).",
+  "id": "A296935",
+  "mentions": [
+    "A038881",
+    "A038882",
+    "A296920",
+    "A296936"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

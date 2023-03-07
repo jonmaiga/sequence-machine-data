@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = Product_{i=1..n, j=1..n} (i*j + 1).",
+  "id": "A306760",
+  "mentions": [
+    "A001620",
+    "A079478",
+    "A101686",
+    "A185141",
+    "A306765",
+    "A306907",
+    "A324444",
+    "A324589"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

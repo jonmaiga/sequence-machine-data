@@ -1,0 +1,19 @@
+{
+  "description": "The hyper-Wiener index of the odd graph O_n (n>=2).",
+  "id": "A228309",
+  "mentions": [
+    "A136328",
+    "A228308"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 2,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

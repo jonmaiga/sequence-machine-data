@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of 2^43112609 - 1, the 47th Mersenne prime A000668(47).",
+  "id": "A193864",
+  "mentions": [
+    "A000043",
+    "A000668",
+    "A028335"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "cons",
+    "fini",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 12978189,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

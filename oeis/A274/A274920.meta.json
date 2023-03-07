@@ -1,0 +1,24 @@
+{
+  "description": "Spiral constructed on the nodes of the triangular net in which each new term is the least nonnegative integers distinct from its neighbors.",
+  "id": "A274920",
+  "mentions": [
+    "A010872",
+    "A080425",
+    "A274820",
+    "A274821",
+    "A274921",
+    "A275606",
+    "A275610"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-entry"
+  }
+}

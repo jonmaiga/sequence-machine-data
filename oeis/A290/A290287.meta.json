@@ -1,0 +1,18 @@
+{
+  "description": "Nonzero entries in A263014 in order of appearance.",
+  "id": "A290287",
+  "mentions": [
+    "A263014",
+    "A263016"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:05",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

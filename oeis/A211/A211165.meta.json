@@ -1,0 +1,35 @@
+{
+  "description": "Number of ways to write n as the sum of a prime p with p-1 and p+1 both practical, a prime q with q+2 also prime, and a Fibonacci number.",
+  "id": "A211165",
+  "mentions": [
+    "A000045",
+    "A001359",
+    "A005153",
+    "A208243",
+    "A208244",
+    "A208246",
+    "A208249",
+    "A209236",
+    "A209253",
+    "A209254",
+    "A209312",
+    "A209315",
+    "A209320",
+    "A210479",
+    "A210528",
+    "A210531",
+    "A210533",
+    "A210681",
+    "A210722"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:30",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

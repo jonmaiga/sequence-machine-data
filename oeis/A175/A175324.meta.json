@@ -1,0 +1,19 @@
+{
+  "description": "Those positive integers n where no divisors of n but 1 contain only distinct run-lengths (of runs both of 0's and of 1's) when written in binary. A175323(a(n)) = 1.",
+  "id": "A175324",
+  "mentions": [
+    "A044813",
+    "A175323"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Restricted growth sequence transform of A046523(A098550(n)), a filter sequence based on the prime signature of the Yellowstone permutation.",
+  "id": "A304115",
+  "mentions": [
+    "A046523",
+    "A098550",
+    "A251138",
+    "A251140",
+    "A304113",
+    "A304114"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:28",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

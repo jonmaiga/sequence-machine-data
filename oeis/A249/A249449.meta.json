@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of Var(T_{0,1}), the variance of the \"first-passage\" time required for an Ornstein-Uhlenbeck process to cross the level 0, given that it started at level 1.",
+  "id": "A249449",
+  "mentions": [
+    "A249417",
+    "A249418",
+    "A249445"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-entry"
+  }
+}

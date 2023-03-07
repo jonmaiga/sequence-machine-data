@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = (n/4)*(n^3+2*n^2+5*n+8).",
+  "id": "A334694",
+  "mentions": [
+    "A306302",
+    "A331452",
+    "A333275"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:25:49",
+    "offset": 0,
+    "size": 46,
+    "source": "joeis"
+  }
+}

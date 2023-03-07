@@ -1,0 +1,19 @@
+{
+  "description": "Nonnegative nonprime values (with repeats) of prime(n) - 2*n.",
+  "id": "A144418",
+  "mentions": [
+    "A000040",
+    "A141468"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that 2*P(k) + 3, 2*P(k+1) + 5, 2*P(k+2) + 7, 2*P(k+3) + 9 are also consecutive primes where P(i) = i-th prime.",
+  "id": "A103873",
+  "mentions": [
+    "A103874",
+    "A103875"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

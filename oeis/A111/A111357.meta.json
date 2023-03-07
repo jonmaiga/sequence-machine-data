@@ -1,0 +1,19 @@
+{
+  "description": "Numbers of planar triangulations with minimum degree 5 and without separating 3-cycles - that is 3-cycles where the interior and exterior contain at least one vertex.",
+  "id": "A111357",
+  "mentions": [
+    "A000103",
+    "A007894",
+    "A081621"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 12,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

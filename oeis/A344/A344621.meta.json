@@ -1,0 +1,20 @@
+{
+  "description": "Primes p such that there is no positive integer a with 2*a, a^2-1 and a^2+1 not only smaller than p but also quadratic nonresidues modulo p.",
+  "id": "A344621",
+  "mentions": [
+    "A000040",
+    "A239957",
+    "A260911",
+    "A344620"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

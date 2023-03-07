@@ -1,0 +1,22 @@
+{
+  "description": "Initial term of first run of exactly n consecutive numbers with 4 distinct prime factors.",
+  "id": "A185042",
+  "mentions": [
+    "A001221",
+    "A064709",
+    "A087977",
+    "A185032"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "fini",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

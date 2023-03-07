@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that product of double factorials of the digits of n equals sigma(n).",
+  "id": "A158989",
+  "mentions": [
+    "A137603",
+    "A158990",
+    "A158991",
+    "A158992"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

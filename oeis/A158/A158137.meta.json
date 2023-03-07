@@ -1,0 +1,21 @@
+{
+  "description": "Period 9: repeat [-2,4,-2,4,-2,-2,1,1,-2].",
+  "id": "A158137",
+  "mentions": [
+    "A007395",
+    "A156346",
+    "A158090"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-27 17:12:53",
+    "offset": 0,
+    "size": 84,
+    "source": "joeis"
+  }
+}

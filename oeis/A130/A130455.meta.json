@@ -1,0 +1,17 @@
+{
+  "description": "Final term in the rows of triangle A130454: a(n) = A130454(n,(n+1)(n+2)/2 - 1).",
+  "id": "A130455",
+  "mentions": [
+    "A130454"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

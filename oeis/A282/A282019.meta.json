@@ -1,0 +1,18 @@
+{
+  "description": "Coefficients in q-expansion of E_2*E_4, where E_2 and E_4 are the Eisenstein series shown in A006352 and A004009, respectively.",
+  "id": "A282019",
+  "mentions": [
+    "A004009",
+    "A006352"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:48:10",
+    "offset": 0,
+    "size": 26,
+    "source": "joeis"
+  }
+}

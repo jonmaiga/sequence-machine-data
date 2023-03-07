@@ -1,0 +1,22 @@
+{
+  "description": "Irregular triangle read by rows: T(n, k) gives the least positive integer imin such that the sequence {A290600(n, k)^i}_{i >= imin} (mod A002808(n)) is periodic.",
+  "id": "A290601",
+  "mentions": [
+    "A002808",
+    "A057593",
+    "A290599",
+    "A290600",
+    "A290602"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 101,
+    "source": "oeis-entry"
+  }
+}

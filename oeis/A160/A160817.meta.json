@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of (1+62*x+564*x^2+1041*x^3+476*x^4+51*x^5+x^6)/(1-x)^7.",
+  "id": "A160817",
+  "mentions": [
+    "A160747"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:42",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

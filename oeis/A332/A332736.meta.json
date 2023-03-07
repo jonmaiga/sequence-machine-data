@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that the sum of the norm of divisors of k in Gaussian integers is divisible by k.",
+  "id": "A332736",
+  "mentions": [
+    "A046762",
+    "A317797"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:02",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "description": "Sum of 6th powers of odd divisors of n.",
+  "id": "A321810",
+  "mentions": [
+    "A000265",
+    "A013665",
+    "A013954",
+    "A050999",
+    "A051000",
+    "A051001",
+    "A051002",
+    "A285425",
+    "A321543",
+    "A321565",
+    "A321807",
+    "A321811",
+    "A321816",
+    "A321836"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:44",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

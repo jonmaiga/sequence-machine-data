@@ -1,0 +1,23 @@
+{
+  "description": "Primorial deflation of A133411(n), where A133411(n) is the smallest highly composite number of the form k*a(n-1) where k is an integer greater than 1.",
+  "id": "A330744",
+  "mentions": [
+    "A002182",
+    "A108951",
+    "A133411",
+    "A329900",
+    "A329902",
+    "A330745"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:00",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

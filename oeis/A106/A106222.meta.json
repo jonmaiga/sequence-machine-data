@@ -1,0 +1,22 @@
+{
+  "description": "Coefficients of g.f. A(x) where 0 <= a(n) <= 4 for all n>1, with initial terms {1,5}, such that A(x)^(1/5) consists entirely of integer coefficients.",
+  "id": "A106222",
+  "mentions": [
+    "A106216",
+    "A106220",
+    "A106223",
+    "A106224",
+    "A106226"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

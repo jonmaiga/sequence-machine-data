@@ -1,0 +1,20 @@
+{
+  "description": "Numbers such that A166986(n)/2 - A167389(n) = 1.",
+  "id": "A172468",
+  "mentions": [
+    "A166986",
+    "A167389",
+    "A172470"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

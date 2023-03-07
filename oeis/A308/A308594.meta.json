@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{d|n} d^(d+n).",
+  "id": "A308594",
+  "mentions": [
+    "A062796",
+    "A294956",
+    "A308668"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:33",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

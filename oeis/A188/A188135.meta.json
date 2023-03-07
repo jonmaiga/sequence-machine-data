@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = 8*n^2 + 2*n + 1.",
+  "id": "A188135",
+  "mentions": [
+    "A000217",
+    "A004770",
+    "A084849",
+    "A113770",
+    "A185438",
+    "A193867"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:20:29",
+    "offset": 0,
+    "size": 41,
+    "source": "joeis"
+  }
+}

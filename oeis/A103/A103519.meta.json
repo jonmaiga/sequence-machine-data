@@ -1,0 +1,20 @@
+{
+  "description": "a(1) = 1, a(n) = sum of n successive numbers starting with a(n-1) + 1.",
+  "id": "A103519",
+  "mentions": [
+    "A000217",
+    "A103520"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:54",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

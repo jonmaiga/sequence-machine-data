@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = Sum_{d|n} mu(n/d)*d*sigma_n(d).",
+  "id": "A321294",
+  "mentions": [
+    "A018804",
+    "A069097",
+    "A320940",
+    "A332517",
+    "A342432",
+    "A342433"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:44",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

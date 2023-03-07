@@ -1,0 +1,29 @@
+{
+  "description": "Odd numbers for which gcd(A325977(n), A325978(n)) is equal to abs(A325978(n)).",
+  "id": "A325979",
+  "mentions": [
+    "A034448",
+    "A034460",
+    "A048146",
+    "A048250",
+    "A162296",
+    "A228058",
+    "A325313",
+    "A325314",
+    "A325814",
+    "A325975",
+    "A325977",
+    "A325978",
+    "A325981"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:52",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

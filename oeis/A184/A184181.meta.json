@@ -1,0 +1,20 @@
+{
+  "description": "Number of permutations of {1,2,...,n} whose shortest block is of length 1. A block of a permutation is a maximal sequence of consecutive integers which appear in consecutive positions. For example, the permutation 5412367 has 4 blocks: 5, 4, 123, and 67. Its shortest block has length 1.",
+  "id": "A184181",
+  "mentions": [
+    "A000166",
+    "A180564",
+    "A184180"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

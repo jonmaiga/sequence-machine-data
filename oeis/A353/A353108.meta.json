@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of cycles of n numbers arranged so that every integer in 1..n*(n-1)+1 occurs as the sum of up to n adjacent numbers. Both a solution and its reverse are counted unless they are identical.",
+  "id": "A353108",
+  "mentions": [
+    "A058241"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

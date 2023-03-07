@@ -1,0 +1,27 @@
+{
+  "description": "Number T(n,k) of proper k-times partitions of n; triangle T(n,k), n >= 0, 0 <= k <= max(0,n-1), read by rows.",
+  "id": "A327639",
+  "mentions": [
+    "A000012",
+    "A000065",
+    "A323718",
+    "A327631",
+    "A327643",
+    "A327644",
+    "A327645",
+    "A327646",
+    "A327769"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:55",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

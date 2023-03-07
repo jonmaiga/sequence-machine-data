@@ -1,0 +1,21 @@
+{
+  "description": "Smallest composite c such that n^(c-1) =/= 1 (mod c^2), i.e., smallest composite c that is not a \"Wieferich pseudoprime\" to base n.",
+  "id": "A273339",
+  "mentions": [
+    "A240719",
+    "A244752",
+    "A256517",
+    "A267288",
+    "A270776"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:38",
+    "offset": 2,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

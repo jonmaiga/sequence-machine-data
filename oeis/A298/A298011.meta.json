@@ -1,0 +1,23 @@
+{
+  "description": "If n = Sum_{i=1..h} 2^b_i with 0 <= b_1 < ... < b_h, then a(n) = Sum_{i=1..h} i * 2^b_i.",
+  "id": "A298011",
+  "mentions": [
+    "A000120",
+    "A000337",
+    "A129760",
+    "A298043"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:19",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

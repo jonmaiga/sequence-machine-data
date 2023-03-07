@@ -1,0 +1,23 @@
+{
+  "description": "Column 1 of triangle A104505, which is equal to the right-hand side of the triangle A084610 of coefficients in (1 + x - x^2)^n.",
+  "id": "A104506",
+  "mentions": [
+    "A007440",
+    "A084610",
+    "A104505",
+    "A104507",
+    "A104508",
+    "A104509"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-02 19:38:52",
+    "offset": 0,
+    "size": 31,
+    "source": "joeis"
+  }
+}

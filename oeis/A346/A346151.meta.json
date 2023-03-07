@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the smallest integer k > 0 such that 1 - tanh(k) < 10^(-n).",
+  "id": "A346151",
+  "mentions": [
+    "A345670",
+    "A346033"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

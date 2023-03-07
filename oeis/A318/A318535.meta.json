@@ -1,0 +1,20 @@
+{
+  "description": "Integers a(n) such that [a(n) - k] is a palindrome in base 10, with k",
+  "id": "A318535",
+  "mentions": [
+    "A260255",
+    "A261906",
+    "A318536"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:39",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

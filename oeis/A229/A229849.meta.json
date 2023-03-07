@@ -1,0 +1,20 @@
+{
+  "description": "Consider all primitive 120-degree triangles with sides A < B < C. The sequence gives the values of B.",
+  "id": "A229849",
+  "mentions": [
+    "A004611",
+    "A106505",
+    "A229858",
+    "A229859"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

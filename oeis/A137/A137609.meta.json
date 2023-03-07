@@ -1,0 +1,17 @@
+{
+  "description": "Consider a line in n-space given parametrically by y(t)=v*t, where v is the vector (2,3,5,..prime(n)). Let t0>0 be the least value of t such that y(t0) is closest to an integer point not on the line y(t). a(n) is t0 times v.v.",
+  "id": "A137609",
+  "mentions": [
+    "A059804"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 2,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

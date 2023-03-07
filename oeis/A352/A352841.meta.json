@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of e.g.f. 1/(1 - Sum_{k>=1} sigma_k(k) * x^k/k!).",
+  "id": "A352841",
+  "mentions": [
+    "A023887",
+    "A340903",
+    "A340904",
+    "A352693",
+    "A352839",
+    "A352843"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

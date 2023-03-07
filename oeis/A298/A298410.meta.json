@@ -1,0 +1,20 @@
+{
+  "description": "Unique least common multiples for {1,2,...,n}.",
+  "id": "A298410",
+  "mentions": [
+    "A003418",
+    "A051451",
+    "A134459"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

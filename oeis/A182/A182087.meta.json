@@ -1,0 +1,18 @@
+{
+  "description": "Carmichael numbers of the form C = (30n-p)*(60n-(2p+1))*(90n-(3p+2)), where n is a natural number and p, 2p+1, 3p+2 are all three prime numbers.",
+  "id": "A182087",
+  "mentions": [
+    "A033502",
+    "A206347"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:05",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

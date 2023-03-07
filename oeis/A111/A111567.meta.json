@@ -1,0 +1,23 @@
+{
+  "description": "Binomial transform of A048654: generalized Pellian with second term equal to 4.",
+  "id": "A111567",
+  "mentions": [
+    "A006012",
+    "A007052",
+    "A007070",
+    "A048654",
+    "A111566"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:02",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

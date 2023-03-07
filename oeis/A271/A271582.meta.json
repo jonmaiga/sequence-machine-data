@@ -1,0 +1,20 @@
+{
+  "description": "Magic sums of 4 X 4 magic squares composed of odd squares.",
+  "id": "A271582",
+  "mentions": [
+    "A016754",
+    "A271579",
+    "A271580",
+    "A271583"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

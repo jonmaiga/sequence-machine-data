@@ -1,0 +1,30 @@
+{
+  "description": "Length of cycle mentioned in A099010",
+  "id": "A164715",
+  "mentions": [
+    "A099010",
+    "A151949",
+    "A151966",
+    "A164717",
+    "A164719",
+    "A164721",
+    "A165001",
+    "A165020",
+    "A165040",
+    "A165059",
+    "A165079",
+    "A165098",
+    "A165118"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:47",
+    "offset": 1,
+    "size": 98,
+    "source": "oeis-bfile"
+  }
+}

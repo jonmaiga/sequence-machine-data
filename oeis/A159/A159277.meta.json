@@ -1,0 +1,20 @@
+{
+  "description": "Ways to write the identity as a product of n 3-cycles in symmetric group S_4.",
+  "id": "A159277",
+  "mentions": [
+    "A091904"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "obsc"
+  ],
+  "terms": {
+    "modified": "2022-05-02 19:49:07",
+    "offset": 0,
+    "size": 20,
+    "source": "joeis"
+  }
+}

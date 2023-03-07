@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of preference profiles for n men and n women, where all men prefer the same woman and all women prefer the same man.",
+  "id": "A343474",
+  "mentions": [
+    "A185141",
+    "A340890",
+    "A342573"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Numbers belonging to a geometric sequence whose ratio is 2 and whose first term ends in 1.",
+  "id": "A242313",
+  "mentions": [
+    "A099551"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

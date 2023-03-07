@@ -1,0 +1,21 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) is the number of permutations in S_n having k stretching pairs.",
+  "id": "A216120",
+  "mentions": [
+    "A000142",
+    "A216119",
+    "A216121"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

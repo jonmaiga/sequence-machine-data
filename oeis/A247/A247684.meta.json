@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of the integral over the first quadrant (x>0, y>0) of sqrt(x^2 + x*y + y^2)*exp(-x-y) dx dy.",
+  "id": "A247684",
+  "mentions": [
+    "A244921",
+    "A247674",
+    "A247675",
+    "A247677"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:04",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of G*h^2/c^4 in SI units, where G is the Newtonian constant of gravitation, h is the Planck constant and c is the speed of light in vacuum.",
+  "id": "A279390",
+  "mentions": [
+    "A003676",
+    "A003678",
+    "A070058",
+    "A183001",
+    "A228817",
+    "A228818",
+    "A279386"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": -110,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

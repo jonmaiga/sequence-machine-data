@@ -1,0 +1,18 @@
+{
+  "description": "a(1)=1, a(2) = 2; for n > 2, a(n) is the smallest number not already used such that the set of prime divisors of one of the numbers {a(n-1), a(n)} is a subset of the set of prime divisors of the other.",
+  "id": "A255348",
+  "mentions": [
+    "A064413",
+    "A257112"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:13",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

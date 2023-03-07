@@ -1,0 +1,20 @@
+{
+  "description": "Number of operations A000142 (i.e., x!) or A000196 (i.e., floor(sqrt(x))) needed to get n, starting with 4.",
+  "id": "A139004",
+  "mentions": [
+    "A000142",
+    "A000196",
+    "A139003"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:27",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of tilings of a 2 X n rectangle using integer-sided rectangular tiles of equal area.",
+  "id": "A220768",
+  "mentions": [
+    "A001622",
+    "A220777"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:38",
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

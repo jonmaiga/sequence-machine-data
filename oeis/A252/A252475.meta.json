@@ -1,0 +1,21 @@
+{
+  "description": "Indices of record values in A246793.",
+  "id": "A252475",
+  "mentions": [
+    "A000040",
+    "A182134",
+    "A246785",
+    "A246793",
+    "A252474"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:10",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

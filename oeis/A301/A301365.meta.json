@@ -1,0 +1,33 @@
+{
+  "description": "Regular triangle where T(n,k) is the number of strict trees of weight n with k leaves.",
+  "id": "A301365",
+  "mentions": [
+    "A004111",
+    "A008284",
+    "A032305",
+    "A055277",
+    "A063834",
+    "A273873",
+    "A281145",
+    "A289501",
+    "A294018",
+    "A294079",
+    "A300352",
+    "A300442",
+    "A300443",
+    "A301342",
+    "A301364",
+    "A301368"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:26",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

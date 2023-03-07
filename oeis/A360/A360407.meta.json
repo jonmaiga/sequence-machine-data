@@ -1,0 +1,23 @@
+{
+  "description": "Irregular table T(n, k), n >= 0, k = 0..A002110(n)-1, read by rows; for any k with primorial base expansion (d_n, ..., d_1), T(n, k) is the least number t such that t mod prime(u) = d_u for u = 1..n (where prime(u) denotes the u-th prime number).",
+  "id": "A360407",
+  "mentions": [
+    "A002110",
+    "A057588",
+    "A070826",
+    "A343404"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:34",
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

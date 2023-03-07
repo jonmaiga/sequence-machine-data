@@ -1,0 +1,25 @@
+{
+  "description": "Number of partitions of an n-set with an even number of blocks of size 1.",
+  "id": "A111724",
+  "mentions": [
+    "A062282",
+    "A063083",
+    "A097514",
+    "A111723",
+    "A111752",
+    "A111753",
+    "A113235"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:02",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

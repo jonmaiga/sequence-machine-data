@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of symmetrically distributed consecutive primes centered at n (including n itself if n is prime).",
+  "id": "A346399",
+  "mentions": [
+    "A045917",
+    "A050237",
+    "A060863",
+    "A122821"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

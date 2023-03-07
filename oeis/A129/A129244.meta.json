@@ -1,0 +1,19 @@
+{
+  "description": "Least K such that K*(prime(10*n)^(10*n))-1 is prime with prime(n)=n-th prime.",
+  "id": "A129244",
+  "mentions": [
+    "A129243",
+    "A129245"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

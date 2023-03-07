@@ -1,0 +1,23 @@
+{
+  "description": "Rectangular array: row n gives the denominators in the positive convolutory n-th root of (1,1,1,...).",
+  "id": "A255812",
+  "mentions": [
+    "A000012",
+    "A244811",
+    "A255811"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:13",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of Sum_{k>=0} (x/(1 - k^2 * x))^k.",
+  "id": "A355471",
+  "mentions": [
+    "A080108",
+    "A135746",
+    "A234568",
+    "A355463",
+    "A355472"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "changed",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

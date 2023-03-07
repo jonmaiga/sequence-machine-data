@@ -1,0 +1,20 @@
+{
+  "description": "Column 0 of triangular matrix A102320, which satisfies T(n,k) = [T^2](n-1,k) when n>k>=0, with T(n,n) = (2*n+1).",
+  "id": "A102321",
+  "mentions": [
+    "A102087",
+    "A102320",
+    "A102323"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

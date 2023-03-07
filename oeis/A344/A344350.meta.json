@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = Sum_{k=1..n} mu(n*k-k-1)^2, where mu is the Möbius function.",
+  "id": "A344350",
+  "mentions": [
+    "A008683"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

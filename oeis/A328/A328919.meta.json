@@ -1,0 +1,22 @@
+{
+  "description": "Smallest index m such that from the m-th term on, the sequence {sigma_k(n) mod n: k >= 0} enters into a cycle.",
+  "id": "A328919",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A002322",
+    "A013960",
+    "A051903",
+    "A328930"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

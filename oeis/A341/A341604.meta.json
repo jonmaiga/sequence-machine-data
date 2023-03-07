@@ -1,0 +1,23 @@
+{
+  "description": "Those primitive elements of A337386 that have exactly one primitive nondeficient divisor (A006039).",
+  "id": "A341604",
+  "mentions": [
+    "A003961",
+    "A006039",
+    "A071395",
+    "A337386",
+    "A337479",
+    "A337539",
+    "A337690"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

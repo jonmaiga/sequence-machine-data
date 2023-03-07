@@ -1,0 +1,21 @@
+{
+  "description": "Number of polyominoes of 2n cells with both diagonal symmetries, for which the 180-degree rotational symmetry has an axis that coincides with a vertex of a square, but without 90-degree rotational symmetry.",
+  "id": "A351160",
+  "mentions": [
+    "A000105",
+    "A056878",
+    "A351159"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

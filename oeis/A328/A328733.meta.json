@@ -1,0 +1,19 @@
+{
+  "description": "List of numbers k such that Fibonacci(k) and Fibonacci(k+1) have the same number of prime factors, counted with multiplicity.",
+  "id": "A328733",
+  "mentions": [
+    "A000045",
+    "A038575",
+    "A328734"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

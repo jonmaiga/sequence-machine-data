@@ -1,0 +1,21 @@
+{
+  "description": "Records for the number of 'Reverse and Add' steps, needed for a Lychrel number to join the trajectory of a smaller Lychrel number (i.e., its seed).",
+  "id": "A323976",
+  "mentions": [
+    "A065198",
+    "A065199",
+    "A323975"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

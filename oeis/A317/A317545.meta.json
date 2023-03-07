@@ -1,0 +1,24 @@
+{
+  "description": "Number of multimin factorizations of n.",
+  "id": "A317545",
+  "mentions": [
+    "A007716",
+    "A020639",
+    "A034691",
+    "A255397",
+    "A296560",
+    "A300335",
+    "A317546"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:36",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Numbers m such that the permutation of the first m natural numbers R_m(n)=if(1<=n",
+  "id": "A108517",
+  "mentions": [
+    "A002808",
+    "A108515",
+    "A108516"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

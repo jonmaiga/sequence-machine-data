@@ -1,0 +1,21 @@
+{
+  "description": "Sum of divisors (A000203) of deficient numbers (A005100).",
+  "id": "A204823",
+  "mentions": [
+    "A000203",
+    "A005100",
+    "A204822",
+    "A205099"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:25",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that (10^k-1)*120/99+1 is prime.",
+  "id": "A153328",
+  "mentions": [
+    "A056803",
+    "A092696"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

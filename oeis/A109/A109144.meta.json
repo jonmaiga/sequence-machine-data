@@ -1,0 +1,17 @@
+{
+  "description": "G.f.: cube root of theta series of E*_6 lattice (cf. A005129).",
+  "id": "A109144",
+  "mentions": [
+    "A005129"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:01",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

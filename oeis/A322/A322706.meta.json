@@ -1,0 +1,32 @@
+{
+  "description": "Regular triangle read by rows where T(n,k) is the number of k-regular k-uniform hypergraphs spanning n vertices.",
+  "id": "A322706",
+  "mentions": [
+    "A001205",
+    "A005176",
+    "A058891",
+    "A059441",
+    "A110101",
+    "A295193",
+    "A306021",
+    "A319056",
+    "A319189",
+    "A319190",
+    "A319612",
+    "A321721",
+    "A322704",
+    "A322705"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

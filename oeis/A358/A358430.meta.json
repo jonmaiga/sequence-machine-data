@@ -1,0 +1,20 @@
+{
+  "description": "Define sp(k,n) to be the sum of n^3 consecutive primes starting at prime(k). Then a(n) is the least number k such that sp(k,n) is a cube, or -1 if no such number exists.",
+  "id": "A358430",
+  "mentions": [
+    "A127335",
+    "A357813",
+    "A358156"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 2,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

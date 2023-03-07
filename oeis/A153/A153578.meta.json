@@ -1,0 +1,18 @@
+{
+  "description": "Positive terms in A133593",
+  "id": "A153578",
+  "mentions": [
+    "A133593",
+    "A153579"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 97,
+    "source": "oeis-entry"
+  }
+}

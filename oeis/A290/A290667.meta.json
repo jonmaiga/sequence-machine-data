@@ -1,0 +1,19 @@
+{
+  "description": "Number of asymmetric equicolorable (unrooted) trees with 2*n vertices.",
+  "id": "A290667",
+  "mentions": [
+    "A000220",
+    "A119856"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

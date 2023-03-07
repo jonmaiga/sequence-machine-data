@@ -1,0 +1,27 @@
+{
+  "description": "Prime numbers in A036991.",
+  "id": "A350577",
+  "mentions": [
+    "A000040",
+    "A000668",
+    "A005408",
+    "A036991",
+    "A042987",
+    "A045395",
+    "A095070",
+    "A095074",
+    "A216285"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:25",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "The Wiener index of the Micelle-like chiral dendrimer G[n] defined pictorially in the Hassan Yousefi-Azari et al. reference.",
+  "id": "A224423",
+  "mentions": [
+    "A224424"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:47:44",
+    "offset": 0,
+    "size": 19,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Number of factors Fibonacci(i) > 1 of A160009(n+1).",
+  "id": "A272947",
+  "mentions": [
+    "A000045",
+    "A160009",
+    "A271354",
+    "A272948",
+    "A272949",
+    "A272950",
+    "A273950"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

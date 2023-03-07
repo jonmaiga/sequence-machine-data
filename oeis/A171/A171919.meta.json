@@ -1,0 +1,18 @@
+{
+  "description": "Number of solutions to n=x*y*z, x+y-z=1 with ordered triples (x,y,z), x,y,z>=1.",
+  "id": "A171919",
+  "mentions": [
+    "A181485",
+    "A181486"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:55",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

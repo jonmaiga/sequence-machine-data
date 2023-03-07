@@ -1,0 +1,30 @@
+{
+  "description": "Smallest positive integer with a discrete string of exactly n consecutive divisors, or 0 if no such integer exists.",
+  "id": "A181063",
+  "mentions": [
+    "A000005",
+    "A003418",
+    "A027750",
+    "A051451",
+    "A055874",
+    "A060775",
+    "A088725",
+    "A129308",
+    "A181062",
+    "A181064",
+    "A199970",
+    "A328166",
+    "A328448",
+    "A328449"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:04",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

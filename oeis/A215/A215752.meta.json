@@ -1,0 +1,21 @@
+{
+  "description": "Continued fraction expansion for log_10(11).",
+  "id": "A215752",
+  "mentions": [
+    "A028232",
+    "A082571",
+    "A215749",
+    "A215750"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "cofr",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:48:01",
+    "offset": 1,
+    "size": 86,
+    "source": "joeis"
+  }
+}

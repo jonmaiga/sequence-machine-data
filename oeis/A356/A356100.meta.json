@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{k=1..n} (k - 1)^n * floor(n/k).",
+  "id": "A356100",
+  "mentions": [
+    "A121706",
+    "A236632",
+    "A319194",
+    "A332469"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

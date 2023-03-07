@@ -1,0 +1,18 @@
+{
+  "description": "Greedy Egyptian fraction representation of 1 with square denominators.",
+  "id": "A348626",
+  "mentions": [
+    "A000058",
+    "A348625"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

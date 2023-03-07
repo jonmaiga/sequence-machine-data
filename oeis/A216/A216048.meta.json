@@ -1,0 +1,18 @@
+{
+  "description": "Consider the unordered Goldbach partitions of the even numbers m. Then a(n) is the least m which contains prime(n) such partitions composed of odd primes.",
+  "id": "A216048",
+  "mentions": [
+    "A002375",
+    "A216047"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:34",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

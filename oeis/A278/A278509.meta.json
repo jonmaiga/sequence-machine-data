@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = 3^{number of primes congruent to 3 modulo 4 dividing n (with multiplicity)}.",
+  "id": "A278509",
+  "mentions": [
+    "A000244",
+    "A000265",
+    "A065338",
+    "A065339",
+    "A278265"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:45",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

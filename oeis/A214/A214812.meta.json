@@ -1,0 +1,24 @@
+{
+  "description": "Largest prime factor of (p^p-1)/(p-1) where p = prime(n).",
+  "id": "A214812",
+  "mentions": [
+    "A000262",
+    "A001039",
+    "A006530",
+    "A088807",
+    "A125135",
+    "A212552",
+    "A214811"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:32",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

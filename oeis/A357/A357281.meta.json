@@ -1,0 +1,22 @@
+{
+  "description": "The numbers of a square spiral with 1 in the center, lying at integer points of the right branch of the parabola y=n^2.",
+  "id": "A357281",
+  "mentions": [
+    "A000583",
+    "A033951",
+    "A054552",
+    "A056108"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:56",
+    "offset": 0,
+    "size": 33,
+    "source": "joeis"
+  }
+}

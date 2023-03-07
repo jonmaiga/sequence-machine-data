@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the number of basic ideals in the standard Borel subalgebra of the untwisted affine Lie algebra sl_n.",
+  "id": "A194460",
+  "mentions": [
+    "A000108"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:17",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

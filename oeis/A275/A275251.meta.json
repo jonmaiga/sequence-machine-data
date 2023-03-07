@@ -1,0 +1,22 @@
+{
+  "description": "Sequence of pairwise relatively prime numbers of class P_6 (see comment in A275246).",
+  "id": "A275251",
+  "mentions": [
+    "A000040",
+    "A001248",
+    "A089581",
+    "A275246",
+    "A275248",
+    "A275249"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

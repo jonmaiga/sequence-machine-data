@@ -1,0 +1,21 @@
+{
+  "description": "Number of multisets of nonempty strict integer partitions with a total of n parts and total sum of 2n.",
+  "id": "A360784",
+  "mentions": [
+    "A000009",
+    "A360763",
+    "A360785"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:34",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

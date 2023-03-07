@@ -1,0 +1,21 @@
+{
+  "description": "Coefficients in a q-analog of the function LambertW(-2x)/(-2x) at q=2.",
+  "id": "A152557",
+  "mentions": [
+    "A152555",
+    "A152556",
+    "A152558",
+    "A152559"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

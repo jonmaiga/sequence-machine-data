@@ -1,0 +1,32 @@
+{
+  "description": "Number T(n,k) of equivalence classes of ways of placing k 5 X 5 tiles in an n X n square under all symmetry operations of the square; irregular triangle T(n,k), n>=5, 0<=k<=floor(n/5)^2, read by rows.",
+  "id": "A236800",
+  "mentions": [
+    "A000217",
+    "A002623",
+    "A014409",
+    "A054252",
+    "A131474",
+    "A131941",
+    "A236560",
+    "A236679",
+    "A236757",
+    "A236829",
+    "A236865",
+    "A236915",
+    "A236936",
+    "A236939"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 5,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

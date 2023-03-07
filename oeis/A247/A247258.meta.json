@@ -1,0 +1,21 @@
+{
+  "description": "The first of four consecutive primes that add up to a fourth power.",
+  "id": "A247258",
+  "mentions": [
+    "A206280",
+    "A245577",
+    "A247259",
+    "A247265",
+    "A247266"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:03",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

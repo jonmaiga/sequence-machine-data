@@ -1,0 +1,25 @@
+{
+  "description": "Primes of form n+2^n+3^n.",
+  "id": "A173640",
+  "mentions": [
+    "A082101",
+    "A082182",
+    "A100840",
+    "A100841",
+    "A128447",
+    "A128448",
+    "A128449",
+    "A128450",
+    "A128451"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

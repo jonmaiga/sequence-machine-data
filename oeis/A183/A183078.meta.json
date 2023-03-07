@@ -1,0 +1,29 @@
+{
+  "description": "Composite numbers of the form 2^p - 1, with p prime, for which each prime divisor has the form 4j + 3.",
+  "id": "A183078",
+  "mentions": [
+    "A000043",
+    "A000668",
+    "A136003",
+    "A136005",
+    "A183071",
+    "A183072",
+    "A183073",
+    "A183074",
+    "A183075",
+    "A183076",
+    "A183077"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:06",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-bfile"
+  }
+}

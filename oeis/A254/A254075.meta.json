@@ -1,0 +1,20 @@
+{
+  "description": "Integer area A of triangles with side lengths in the commutative ring Z[sqrt(5)].",
+  "id": "A254075",
+  "mentions": [
+    "A188158",
+    "A238368",
+    "A238369",
+    "A253277"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

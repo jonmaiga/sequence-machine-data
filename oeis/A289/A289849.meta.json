@@ -1,0 +1,19 @@
+{
+  "description": "Cardinality of the maximal set of ordered factor pairs such that a Quasi-Factor Pair Latin Square of order n exists.",
+  "id": "A289849",
+  "mentions": [
+    "A000005"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

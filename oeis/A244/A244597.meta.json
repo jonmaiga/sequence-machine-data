@@ -1,0 +1,18 @@
+{
+  "description": "Prime numbers whose decimal expansion has the same digit sum as its hexadecimal expansion. Only digits 1-9 are allowed in both the decimal and hexadecimal expansions.",
+  "id": "A244597",
+  "mentions": [
+    "A244595"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:00",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

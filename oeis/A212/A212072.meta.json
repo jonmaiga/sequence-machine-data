@@ -1,0 +1,21 @@
+{
+  "description": "G.f. satisfies: A(x) = (1 + x*A(x)^2)^3.",
+  "id": "A212072",
+  "mentions": [
+    "A002295",
+    "A130564",
+    "A212071",
+    "A212073"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:30",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

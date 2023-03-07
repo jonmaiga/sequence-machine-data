@@ -1,0 +1,27 @@
+{
+  "description": "Sums of exactly two positive octagonal numbers A000567.",
+  "id": "A136345",
+  "mentions": [
+    "A000217",
+    "A000290",
+    "A000404",
+    "A000566",
+    "A000567",
+    "A051533",
+    "A117104",
+    "A136117",
+    "A136346"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

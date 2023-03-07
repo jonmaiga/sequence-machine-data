@@ -1,0 +1,18 @@
+{
+  "description": "Number of letters in the English name of n, excluding spaces and hyphens and all integers preceding it.",
+  "id": "A126891",
+  "mentions": [
+    "A005589"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:11",
+    "offset": 1,
+    "size": 56,
+    "source": "joeis"
+  }
+}

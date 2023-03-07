@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that the sum k^x + k^y can be a square with {x, y} >= 0.",
+  "id": "A356879",
+  "mentions": [
+    "A001105",
+    "A132411",
+    "A132592",
+    "A270473",
+    "A356880"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

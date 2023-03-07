@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of 36*x^2*(1+36*x^2-6*x) / ((36*x^2+6*x+1)*(1-6*x)^2).",
+  "id": "A181635",
+  "mentions": [
+    "A008611",
+    "A181633",
+    "A181685"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:05",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "a(n)=largest (n+1)-digit prime formed by appending a digit to a(n-1); a(0)=2.",
+  "id": "A160952",
+  "mentions": [
+    "A000040",
+    "A024770"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

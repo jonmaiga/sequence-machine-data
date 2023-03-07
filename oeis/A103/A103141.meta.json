@@ -1,0 +1,22 @@
+{
+  "description": "Riordan array (1/(1-x), x*(1 + x + x^2 + x^3)/(1-x)).",
+  "id": "A103141",
+  "mentions": [
+    "A001591",
+    "A102036",
+    "A103142"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:46:03",
+    "offset": 0,
+    "size": 66,
+    "source": "joeis"
+  }
+}

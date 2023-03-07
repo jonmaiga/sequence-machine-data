@@ -1,0 +1,20 @@
+{
+  "description": "Number of circular n-bit strings that, when circularly shifted by 3 bits, do not have coincident 1's in any position.",
+  "id": "A232965",
+  "mentions": [
+    "A000032",
+    "A001638"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:51",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

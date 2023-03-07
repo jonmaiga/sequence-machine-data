@@ -1,0 +1,18 @@
+{
+  "description": "Last term of smallest p-term arithmetic progression of primes beginning with p, where p = n-th prime.",
+  "id": "A113834",
+  "mentions": [
+    "A088430"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

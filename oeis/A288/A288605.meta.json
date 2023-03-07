@@ -1,0 +1,20 @@
+{
+  "description": "Position of first appearance of each integer in A088568 (number of 1's minus number of 2's in first n terms of A000002).",
+  "id": "A288605",
+  "mentions": [
+    "A000002",
+    "A010120",
+    "A088568",
+    "A187831"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

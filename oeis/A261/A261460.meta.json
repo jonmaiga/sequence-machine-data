@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that k^11-1 is a semiprime.",
+  "id": "A261460",
+  "mentions": [
+    "A008864",
+    "A105122",
+    "A162862",
+    "A261435"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:48:07",
+    "offset": 1,
+    "size": 46,
+    "source": "joeis"
+  }
+}

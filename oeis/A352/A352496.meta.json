@@ -1,0 +1,18 @@
+{
+  "description": "Number of upper triangulations of the Koch chain K_s.",
+  "id": "A352496",
+  "mentions": [
+    "A352497",
+    "A352498"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

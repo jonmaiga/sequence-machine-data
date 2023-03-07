@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{k=0..n} binomial(3*n, k) * p(k), where p(k) is the partition function A000041.",
+  "id": "A356284",
+  "mentions": [
+    "A000041",
+    "A188675",
+    "A356267",
+    "A356285"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

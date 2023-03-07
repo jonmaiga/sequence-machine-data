@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = the smallest positive integer non-coprime to both n and phi(n), where phi(n) is the number of positive integers that are <= n and are coprime to n.",
+  "id": "A141379",
+  "mentions": [
+    "A000010",
+    "A141327",
+    "A141377",
+    "A141378"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 3,
+    "size": 88,
+    "source": "oeis-entry"
+  }
+}

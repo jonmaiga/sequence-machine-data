@@ -1,0 +1,22 @@
+{
+  "description": "The number of Motzkin n-paths with exactly one flat step.",
+  "id": "A138364",
+  "mentions": [
+    "A001700",
+    "A057977",
+    "A126120",
+    "A126869"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:26",
+    "offset": 0,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

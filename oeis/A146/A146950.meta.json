@@ -1,0 +1,21 @@
+{
+  "description": "Terms of A061047 ending in 0.",
+  "id": "A146950",
+  "mentions": [
+    "A061047",
+    "A146952"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:30:07",
+    "offset": 1,
+    "size": 40,
+    "source": "joeis"
+  }
+}

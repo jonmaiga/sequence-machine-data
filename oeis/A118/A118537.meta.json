@@ -1,0 +1,19 @@
+{
+  "description": "Number of functions f: {1, 2, ..., n} --> {1, 2, ..., n} such that f(1) != f(2), f(2) != f(3), ..., f(n-1) != f(n), f(n) != f(1).",
+  "id": "A118537",
+  "mentions": [
+    "A055897",
+    "A124355"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:08",
+    "offset": 2,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

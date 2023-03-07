@@ -1,0 +1,21 @@
+{
+  "description": "Numbers that are the first of two consecutive primes having a sum that is the product of two consecutive numbers.",
+  "id": "A154634",
+  "mentions": [
+    "A000040",
+    "A001043",
+    "A002378"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:36",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

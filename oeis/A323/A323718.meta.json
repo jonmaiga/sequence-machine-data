@@ -1,0 +1,38 @@
+{
+  "description": "Array read by antidiagonals upwards where A(n,k) is the number of k-times partitions of n.",
+  "id": "A323718",
+  "mentions": [
+    "A000012",
+    "A000027",
+    "A000041",
+    "A000217",
+    "A001970",
+    "A006003",
+    "A055884",
+    "A063834",
+    "A096751",
+    "A144150",
+    "A196545",
+    "A281113",
+    "A289501",
+    "A290353",
+    "A300383",
+    "A301595",
+    "A306187",
+    "A323719",
+    "A327618",
+    "A327639"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:48",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = pi(n) + prime(n).",
+  "id": "A100486",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A065042",
+    "A100917"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:51",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

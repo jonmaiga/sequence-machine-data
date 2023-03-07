@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{ m=1..n and gcd(n,m)>1 } tau(m), tau(m)=A000005(m).",
+  "id": "A211932",
+  "mentions": [
+    "A000005",
+    "A006218",
+    "A143615"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:12:13",
+    "offset": 1,
+    "size": 77,
+    "source": "joeis"
+  }
+}

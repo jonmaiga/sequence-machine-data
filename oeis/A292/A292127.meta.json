@@ -1,0 +1,28 @@
+{
+  "description": "a(1) = 1, a(r(n)^k) = 1 + k * a(n) where r(n) is the n-th number that is not a perfect power A007916(n).",
+  "id": "A292127",
+  "mentions": [
+    "A003238",
+    "A007916",
+    "A052409",
+    "A052410",
+    "A061775",
+    "A214577",
+    "A277576",
+    "A277615",
+    "A278028",
+    "A279614",
+    "A279944",
+    "A289023"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 77,
+    "source": "oeis-entry"
+  }
+}

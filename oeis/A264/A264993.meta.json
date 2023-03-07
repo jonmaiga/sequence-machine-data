@@ -1,0 +1,20 @@
+{
+  "description": "Self-inverse permutation of nonnegative integers: a(n) = A264994(3*n)/3.",
+  "id": "A264993",
+  "mentions": [
+    "A246200",
+    "A264994",
+    "A265335"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:24",
+    "offset": 0,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

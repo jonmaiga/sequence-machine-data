@@ -1,0 +1,22 @@
+{
+  "description": "Numerators in the expansion of the exponential generating function ((1 + 3*x)/x)*(1 - (1 + 3*x)^(-2/3)).",
+  "id": "A290597",
+  "mentions": [
+    "A006232",
+    "A038500",
+    "A290596",
+    "A290603"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

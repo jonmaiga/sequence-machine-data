@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that A098550(n) = n.",
+  "id": "A251411",
+  "mentions": [
+    "A098550",
+    "A251412",
+    "A251556"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

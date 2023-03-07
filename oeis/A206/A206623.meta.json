@@ -1,0 +1,25 @@
+{
+  "description": "G.f.: Product_{n>0} ( (1+x^n)/(1-x^n) )^(n^3).",
+  "id": "A206623",
+  "mentions": [
+    "A001159",
+    "A013663",
+    "A023872",
+    "A156616",
+    "A206622",
+    "A206624",
+    "A248882",
+    "A259068"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:26",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

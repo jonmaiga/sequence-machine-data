@@ -1,0 +1,25 @@
+{
+  "description": "Values of the difference d for 9 primes in geometric-arithmetic progression with the minimal sequence {11*11^j + j*d}, j = 0 to 8.",
+  "id": "A209208",
+  "mentions": [
+    "A172367",
+    "A209202",
+    "A209203",
+    "A209204",
+    "A209205",
+    "A209206",
+    "A209207",
+    "A209209",
+    "A209210"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:28",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

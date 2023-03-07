@@ -1,0 +1,19 @@
+{
+  "description": "Acyclic 3-multidigraphs on n nodes.",
+  "id": "A137435",
+  "mentions": [
+    "A003024",
+    "A188457"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:25",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

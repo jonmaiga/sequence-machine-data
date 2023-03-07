@@ -1,0 +1,23 @@
+{
+  "description": "Numbers n such that Product_{d|n} d = k^2 for some k > n and simultaneously number k^2 + 1 is a divisorial prime (A258455).",
+  "id": "A259023",
+  "mentions": [
+    "A007955",
+    "A048943",
+    "A118369",
+    "A258455",
+    "A258897",
+    "A259020",
+    "A259021"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:17",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

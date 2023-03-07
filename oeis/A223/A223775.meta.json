@@ -1,0 +1,18 @@
+{
+  "description": "Number of n X 6 0..1 arrays with rows and columns unimodal and antidiagonals nondecreasing.",
+  "id": "A223775",
+  "mentions": [
+    "A223777"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:41",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Expansion of phi(-x^6) / f(-x) in powers of x where phi(), f() are Ramanujan theta functions.",
+  "id": "A271661",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A010054",
+    "A010815",
+    "A070047",
+    "A108961",
+    "A108962",
+    "A121373",
+    "A280937",
+    "A280938"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:07:47",
+    "offset": 0,
+    "size": 49,
+    "source": "joeis"
+  }
+}

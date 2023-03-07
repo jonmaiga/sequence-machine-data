@@ -1,0 +1,17 @@
+{
+  "description": "Number of nondecreasing -n..n vectors of length 3 whose dot product with some other -n..n vector equals 3",
+  "id": "A226342",
+  "mentions": [
+    "A226340"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

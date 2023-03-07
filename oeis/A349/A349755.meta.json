@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k for which the 3-adic valuations of k and sigma(k) are equal, and that also satisfy Euler's criterion for odd perfect numbers (see A228058).",
+  "id": "A349755",
+  "mentions": [
+    "A000203",
+    "A007949",
+    "A228058",
+    "A349749",
+    "A349752"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

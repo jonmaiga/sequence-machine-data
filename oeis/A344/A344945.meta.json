@@ -1,0 +1,22 @@
+{
+  "description": "Numbers that are the sum of five fourth powers in exactly eight ways.",
+  "id": "A344945",
+  "mentions": [
+    "A341892",
+    "A344925",
+    "A344943",
+    "A344944",
+    "A345184",
+    "A345820"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:18",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

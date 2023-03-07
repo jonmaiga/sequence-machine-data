@@ -1,0 +1,23 @@
+{
+  "description": "Triangle of F(n,r) of r-geometric numbers, 1<=r<=n.",
+  "id": "A219374",
+  "mentions": [
+    "A000670",
+    "A008277",
+    "A143494",
+    "A143495"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

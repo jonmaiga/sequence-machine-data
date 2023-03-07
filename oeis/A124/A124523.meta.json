@@ -1,0 +1,17 @@
+{
+  "description": "Binomial transform of A084239.",
+  "id": "A124523",
+  "mentions": [
+    "A084239"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

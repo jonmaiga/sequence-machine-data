@@ -1,0 +1,30 @@
+{
+  "description": "Permutation of natural numbers: a(1) = 1, a(A087686(n)) = A000069(1+a(n-1)), a(A088359(n)) = A001969(1+a(n)), where A088359 & A087686 = numbers that occur only once & more than once in A004001, and A000069 & A001969 are odious & evil numbers.",
+  "id": "A276443",
+  "mentions": [
+    "A000069",
+    "A001969",
+    "A003188",
+    "A004001",
+    "A080677",
+    "A087686",
+    "A088359",
+    "A093879",
+    "A276441",
+    "A276444",
+    "A276445"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

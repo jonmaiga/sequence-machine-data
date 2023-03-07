@@ -1,0 +1,22 @@
+{
+  "description": "Number of distinct squarefree numbers in row n of Pascal's triangle.",
+  "id": "A238337",
+  "mentions": [
+    "A007318",
+    "A008619",
+    "A048276",
+    "A064460",
+    "A238336"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 0,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

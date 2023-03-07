@@ -1,0 +1,20 @@
+{
+  "description": "Least prime p with 2*p^2 - 1 and 2*(n-p)^2 -1 both prime, or 0 if such a prime p does not exist.",
+  "id": "A230362",
+  "mentions": [
+    "A000040",
+    "A066049",
+    "A106483",
+    "A230351"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:47",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

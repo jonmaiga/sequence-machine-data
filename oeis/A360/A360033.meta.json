@@ -1,0 +1,27 @@
+{
+  "description": "Table T(n,k), n >= 1 and k >= 0, read by antidiagonals, related to Jacobsthal numbers A001045.",
+  "id": "A360033",
+  "mentions": [
+    "A000027",
+    "A001045",
+    "A004767",
+    "A004770",
+    "A005408",
+    "A048573",
+    "A062092",
+    "A106839"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

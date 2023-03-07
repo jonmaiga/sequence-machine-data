@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of H(1/2,1), a constant appearing in the asymptotic variance of the largest component of random mappings on n symbols, expressed as H(1/2,1)*n^2.",
+  "id": "A261873",
+  "mentions": [
+    "A143297"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-entry"
+  }
+}

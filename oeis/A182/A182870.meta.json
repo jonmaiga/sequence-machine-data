@@ -1,0 +1,23 @@
+{
+  "description": "Joint-rank array of odd prime powers: p(i+1)^j, i>=1, j>=1, read by antidiagonals.",
+  "id": "A182870",
+  "mentions": [
+    "A182801",
+    "A182869",
+    "A182871",
+    "A182872",
+    "A182942",
+    "A182943"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

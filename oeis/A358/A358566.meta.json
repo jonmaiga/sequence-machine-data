@@ -1,0 +1,18 @@
+{
+  "description": "Number of distinct spans of length n with no 3-term arithmetic progression, containing zero, and with maximum element smallest possible.",
+  "id": "A358566",
+  "mentions": [
+    "A005047"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the smallest prime p such that Sum_{primes q <= p} 1/q >= n/2.",
+  "id": "A103592",
+  "mentions": [
+    "A016088",
+    "A046024",
+    "A103591",
+    "A103600"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

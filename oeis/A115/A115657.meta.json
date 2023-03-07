@@ -1,0 +1,20 @@
+{
+  "description": "Both k and the reverse of k are pentagonal numbers (A000326).",
+  "id": "A115657",
+  "mentions": [
+    "A000326",
+    "A061455",
+    "A061457"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

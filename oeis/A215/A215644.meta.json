@@ -1,0 +1,21 @@
+{
+  "description": "Full spectrum threshold for maximal determinant {+1, -1} matrices: largest order of submatrix for which the full spectrum of absolute determinant values occurs.",
+  "id": "A215644",
+  "mentions": [
+    "A003432",
+    "A003433",
+    "A013588"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

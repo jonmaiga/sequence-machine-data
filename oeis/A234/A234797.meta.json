@@ -1,0 +1,19 @@
+{
+  "description": "E.g.f. satisfies: A'(x) = 1 + A(x) + 2*A(x)^2, where A(0)=0.",
+  "id": "A234797",
+  "mentions": [
+    "A094503"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

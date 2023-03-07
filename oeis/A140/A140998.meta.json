@@ -1,0 +1,28 @@
+{
+  "description": "Triangle G(n, k), read by rows, for 0 <= k <= n, where G(n, 0) = G(n+1, n+1) = 1, G(n+2, n+1) = 2, and G(n+3, m) = G(n+1, m-1) + G(n+1, m) + G(n+2, m) for n >= 0 and m = 1..n+1.",
+  "id": "A140998",
+  "mentions": [
+    "A000071",
+    "A007318",
+    "A140992",
+    "A140993",
+    "A140994",
+    "A140995",
+    "A140996",
+    "A140997",
+    "A141020",
+    "A141021"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:29",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

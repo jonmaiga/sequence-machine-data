@@ -1,0 +1,23 @@
+{
+  "description": "Numbers n with property that the concatenation of their anti-divisors is a prime.",
+  "id": "A191647",
+  "mentions": [
+    "A037279",
+    "A066272",
+    "A106708",
+    "A120712",
+    "A120716",
+    "A191648"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:15",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

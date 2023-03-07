@@ -1,0 +1,18 @@
+{
+  "description": "Positive numbers k at which min{abs(2^k - 10^y)/10^y: y in Z} reaches a new minimum.",
+  "id": "A333332",
+  "mentions": [
+    "A046104",
+    "A073733"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

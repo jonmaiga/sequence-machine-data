@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{x in C(n)} (sigma(n) mod x), where C(n) is the set of numbers < n coprime to n, and sigma = A000203.",
+  "id": "A340180",
+  "mentions": [
+    "A000203",
+    "A337189",
+    "A340179"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:12",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

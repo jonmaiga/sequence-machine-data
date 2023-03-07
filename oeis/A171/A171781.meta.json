@@ -1,0 +1,21 @@
+{
+  "description": "Numbers for which the second bit of the binary expansion is equal to the last bit.",
+  "id": "A171781",
+  "mentions": [
+    "A005843",
+    "A171757",
+    "A171763",
+    "A171782"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:55",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

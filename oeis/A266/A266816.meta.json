@@ -1,0 +1,21 @@
+{
+  "description": "Numbers whose arithmetic derivative is equal to the product of their digits.",
+  "id": "A266816",
+  "mentions": [
+    "A003415",
+    "A007954",
+    "A058627",
+    "A145746"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:28",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

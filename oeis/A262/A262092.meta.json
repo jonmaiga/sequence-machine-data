@@ -1,0 +1,18 @@
+{
+  "description": "Amicable digital pairs: The larger number of a pair (x,y) with x <> y such that, in decimal notation and with an appropriate number of leading zeros prepended, x=(x_m...x_1x_0)_{10}, y=(y_m...y_1y_0)_{10}, x = y_m^m + ... + y_1^m + y_0^m, and y = x_m^m + ... + x_1^m + x_0^m.",
+  "id": "A262092",
+  "mentions": [
+    "A262091"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

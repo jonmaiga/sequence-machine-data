@@ -1,0 +1,24 @@
+{
+  "description": "Backwards van Eck transform of A000010.",
+  "id": "A171934",
+  "mentions": [
+    "A000010",
+    "A081373",
+    "A171899",
+    "A171900",
+    "A171932",
+    "A171933",
+    "A171936",
+    "A171941"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:55",
+    "offset": 1,
+    "size": 94,
+    "source": "oeis-bfile"
+  }
+}

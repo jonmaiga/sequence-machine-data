@@ -1,0 +1,19 @@
+{
+  "description": "Least prime p such that the n smallest primitive roots modulo p are the first n primes.",
+  "id": "A355016",
+  "mentions": [
+    "A213052",
+    "A350121"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

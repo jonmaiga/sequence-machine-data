@@ -1,0 +1,17 @@
+{
+  "description": "If a(n) is a square (and n > 1), then a(n+1) = a(n) + a(n-1), else a(n+1) is the smallest positive integer not occurring earlier.",
+  "id": "A268132",
+  "mentions": [
+    "A267758"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:30",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

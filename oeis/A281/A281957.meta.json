@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = largest k such that n has at least k partitions each containing at least k parts.",
+  "id": "A281957",
+  "mentions": [
+    "A000070",
+    "A008284",
+    "A052810"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:51",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

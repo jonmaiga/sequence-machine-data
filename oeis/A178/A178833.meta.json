@@ -1,0 +1,22 @@
+{
+  "description": "Partial sums of \"Half-Catalan numbers\" A000992.",
+  "id": "A178833",
+  "mentions": [
+    "A000992",
+    "A001190",
+    "A093637",
+    "A124973"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:11",
+    "offset": 1,
+    "size": 32,
+    "source": "joeis"
+  }
+}

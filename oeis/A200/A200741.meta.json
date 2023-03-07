@@ -1,0 +1,21 @@
+{
+  "description": "Table of distinct numbers of the form v*w + w*u + u*v with 1 <= u <= v <= w <= n.",
+  "id": "A200741",
+  "mentions": [
+    "A033428",
+    "A100440",
+    "A200737",
+    "A200742"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:21",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

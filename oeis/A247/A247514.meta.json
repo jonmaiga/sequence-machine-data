@@ -1,0 +1,22 @@
+{
+  "description": "Where 2*floor(sqrt(prime(n))) = floor(2*sqrt(prime(n))).",
+  "id": "A247514",
+  "mentions": [
+    "A000006",
+    "A000040",
+    "A000196",
+    "A117767",
+    "A247485",
+    "A247515"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:03",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

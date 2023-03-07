@@ -1,0 +1,22 @@
+{
+  "description": "Number of graphs on n labeled nodes with maximal degree exactly 4.",
+  "id": "A136286",
+  "mentions": [
+    "A000085",
+    "A136281",
+    "A136282",
+    "A136283",
+    "A136285"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

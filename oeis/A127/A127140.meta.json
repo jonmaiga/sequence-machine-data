@@ -1,0 +1,21 @@
+{
+  "description": "Square of triangle A127139, row sums = A101035.",
+  "id": "A127140",
+  "mentions": [
+    "A055615",
+    "A101035",
+    "A127139"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

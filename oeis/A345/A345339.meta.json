@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = 18*n + 20.",
+  "id": "A345339",
+  "mentions": [
+    "A076770",
+    "A118081",
+    "A284787",
+    "A284788"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:44:19",
+    "offset": 0,
+    "size": 56,
+    "source": "joeis"
+  }
+}

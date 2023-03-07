@@ -1,0 +1,22 @@
+{
+  "description": "Number of genus 3 rooted hypermaps with n darts.",
+  "id": "A214818",
+  "mentions": [
+    "A000108",
+    "A000257",
+    "A003319",
+    "A118093",
+    "A214817"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:32",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

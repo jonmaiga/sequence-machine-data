@@ -1,0 +1,22 @@
+{
+  "description": "Difference in number of prime factors (when counted with multiplicity) between GF(2)[X] (carryless binary) and ordinary factorization: a(n) = A091222(n) - A001222(n).",
+  "id": "A305802",
+  "mentions": [
+    "A001222",
+    "A091206",
+    "A091222",
+    "A305789",
+    "A305816"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:30",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

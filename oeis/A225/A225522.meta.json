@@ -1,0 +1,22 @@
+{
+  "description": "Levy’s conjecture and generalization. Irregular triangle read by rows: row n gives all odd numbers T(n,k) > 2^(n+1) + 1 such that T(n,k) = p + q*2^n is impossible, where p and q are prime numbers and k = 1..r.",
+  "id": "A225522",
+  "mentions": [
+    "A046927",
+    "A219252",
+    "A219604",
+    "A223174",
+    "A223175"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Irregular triangular array generated as in Comments; contains every positive integer exactly once.",
+  "id": "A243571",
+  "mentions": [
+    "A000045",
+    "A083329",
+    "A232559",
+    "A243572",
+    "A243573"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:59",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Excluding the two leftmost columns - the seeds - in the monotonic justified array of all positive Fibonacci sequences (A160271), the lowest column index which contains n in the smallest row which contains n (A199087).",
+  "id": "A199088",
+  "mentions": [
+    "A035614",
+    "A160271",
+    "A199087"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 85,
+    "source": "oeis-entry"
+  }
+}

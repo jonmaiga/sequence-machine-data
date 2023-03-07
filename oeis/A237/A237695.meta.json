@@ -1,0 +1,22 @@
+{
+  "description": "Maximum length of a +- 1 sequence of discrepancy n.",
+  "id": "A237695",
+  "mentions": [
+    "A181740"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "bref",
+    "formulas",
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

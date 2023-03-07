@@ -1,0 +1,19 @@
+{
+  "description": "Smallest number of 1's required to build n using +, *, ^ and tetration.",
+  "id": "A306560",
+  "mentions": [
+    "A005245",
+    "A025280",
+    "A323727"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

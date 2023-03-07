@@ -1,0 +1,18 @@
+{
+  "description": "Number of distinct n X n toroidal 0..2 arrays.",
+  "id": "A184278",
+  "mentions": [
+    "A184284"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:08",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

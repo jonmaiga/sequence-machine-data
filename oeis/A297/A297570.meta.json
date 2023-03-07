@@ -1,0 +1,23 @@
+{
+  "description": "Number of nonisomorphic proper colorings of partition star graph using six colors.",
+  "id": "A297570",
+  "mentions": [
+    "A000041",
+    "A144069",
+    "A297567",
+    "A297568",
+    "A297569"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

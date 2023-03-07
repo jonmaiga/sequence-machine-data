@@ -1,0 +1,20 @@
+{
+  "description": "Number of initially rising meander words, where each letter of the cyclic 6-ary alphabet occurs n times.",
+  "id": "A209352",
+  "mentions": [
+    "A197657",
+    "A209349"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:28",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Sum-prime (SP) numbers: numbers k that are not divisible by 4 such that (a + b)/gcd(k+1, 4) is prime for every factorization k = a*b.",
+  "id": "A303437",
+  "mentions": [
+    "A042968"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:27",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

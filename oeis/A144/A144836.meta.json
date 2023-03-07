@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = Lucas(4^n).",
+  "id": "A144836",
+  "mentions": [
+    "A000032",
+    "A001566",
+    "A001622",
+    "A006267",
+    "A144837",
+    "A144838",
+    "A144839"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

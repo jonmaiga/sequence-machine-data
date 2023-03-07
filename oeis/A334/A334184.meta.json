@@ -1,0 +1,27 @@
+{
+  "description": "Irregular table read by rows: T(n,k) gives the number of values that can be reached after exactly k iterations of maps of the form (n - n/p) where p is a prime divisor of n. 0 <= k < A073933(n).",
+  "id": "A334184",
+  "mentions": [
+    "A000079",
+    "A001221",
+    "A019434",
+    "A073933",
+    "A332809",
+    "A333123",
+    "A334111",
+    "A334144",
+    "A334238"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:05",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Indices m for which A058304(m) = 9.",
+  "id": "A317333",
+  "mentions": [
+    "A058304",
+    "A317331",
+    "A317332",
+    "A317335",
+    "A317336"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:36",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

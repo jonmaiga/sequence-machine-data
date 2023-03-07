@@ -1,0 +1,20 @@
+{
+  "description": "Remainder when sum of first n terms of A006949 is divided by n.",
+  "id": "A284214",
+  "mentions": [
+    "A006949",
+    "A282891",
+    "A283025"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:55",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

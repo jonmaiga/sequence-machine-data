@@ -1,0 +1,18 @@
+{
+  "description": "Limit of rows, when read in reverse, of triangle A227372.",
+  "id": "A227377",
+  "mentions": [
+    "A227372",
+    "A227373"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

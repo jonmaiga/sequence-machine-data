@@ -1,0 +1,19 @@
+{
+  "description": "GCD's arising in A228810.",
+  "id": "A228811",
+  "mentions": [
+    "A000430",
+    "A001008",
+    "A228810"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

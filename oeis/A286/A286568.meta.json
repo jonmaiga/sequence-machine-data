@@ -1,0 +1,25 @@
+{
+  "description": "Compound filter (phi(n) & 2-adic valuation of sigma(n)): a(n) = P(A000010(n), A286357(n)), where P(n,k) is sequence A000027 used as a pairing function.",
+  "id": "A286568",
+  "mentions": [
+    "A000010",
+    "A000027",
+    "A001511",
+    "A286154",
+    "A286160",
+    "A286357",
+    "A286451",
+    "A286572"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:58",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

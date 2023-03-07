@@ -1,0 +1,22 @@
+{
+  "description": "Number of partitions of n into distinct parts 5*k+2 or 5*k+3.",
+  "id": "A219607",
+  "mentions": [
+    "A003106",
+    "A047221",
+    "A203776",
+    "A281271",
+    "A281272"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 18:54:41",
+    "offset": 0,
+    "size": 71,
+    "source": "joeis"
+  }
+}

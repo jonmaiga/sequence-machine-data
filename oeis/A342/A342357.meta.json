@@ -1,0 +1,20 @@
+{
+  "description": "Number of fundamentally different rainbow graceful labelings of graphs with n edges.",
+  "id": "A342357",
+  "mentions": [
+    "A002618",
+    "A005193",
+    "A341884",
+    "A342225"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:15",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

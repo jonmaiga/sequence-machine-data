@@ -1,0 +1,21 @@
+{
+  "description": "Sum of the divisors of the n-th odd prime power.",
+  "id": "A273938",
+  "mentions": [
+    "A000203",
+    "A061345",
+    "A086455",
+    "A247837"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

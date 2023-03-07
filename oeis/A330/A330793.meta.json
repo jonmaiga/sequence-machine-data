@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = A193737(2*n, n).",
+  "id": "A330793",
+  "mentions": [
+    "A193737"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:54:21",
+    "offset": 0,
+    "size": 25,
+    "source": "joeis"
+  }
+}

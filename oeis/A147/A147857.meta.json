@@ -1,0 +1,19 @@
+{
+  "description": "Differences of two positive 4th powers.",
+  "id": "A147857",
+  "mentions": [
+    "A147854",
+    "A147856",
+    "A147858"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:34",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

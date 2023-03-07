@@ -1,0 +1,21 @@
+{
+  "description": "Numbers that are the primitive sum of two nonzero squares in exactly one way.",
+  "id": "A224450",
+  "mentions": [
+    "A008784",
+    "A025284",
+    "A193138",
+    "A224770"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:42",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

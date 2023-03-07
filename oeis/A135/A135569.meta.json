@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = S2(n)*2^n; where S2(n) is digit sum of n, n in binary notation.",
+  "id": "A135569",
+  "mentions": [
+    "A000120",
+    "A010060"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:23",
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

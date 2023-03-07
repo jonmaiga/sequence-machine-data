@@ -1,0 +1,19 @@
+{
+  "description": "Irregular triangle read by rows: coefficients b_{r,j} (r>=1, j>=0) arising from an expansion of the partition function.",
+  "id": "A333290",
+  "mentions": [
+    "A231599",
+    "A333289"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 109,
+    "source": "oeis-entry"
+  }
+}

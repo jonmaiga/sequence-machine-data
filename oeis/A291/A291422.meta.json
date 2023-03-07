@@ -1,0 +1,24 @@
+{
+  "description": "List of pairs of amicable numbers (m,n) where the sum of the pair is divisible by 10.",
+  "id": "A291422",
+  "mentions": [
+    "A002025",
+    "A002046",
+    "A063990",
+    "A180164",
+    "A259180",
+    "A259933",
+    "A291550"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:06",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

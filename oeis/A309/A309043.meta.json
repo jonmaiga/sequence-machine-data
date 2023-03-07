@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of Product_{k>=0} (1 + x^(2^k) + x^(2^(k+1)))^2.",
+  "id": "A309043",
+  "mentions": [
+    "A002487",
+    "A073469",
+    "A171238",
+    "A185954",
+    "A309044"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

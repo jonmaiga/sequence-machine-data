@@ -1,0 +1,27 @@
+{
+  "description": "Number of partitions of n into parts congruent to 0, 2 or 5 (mod 7).",
+  "id": "A346797",
+  "mentions": [
+    "A000041",
+    "A006950",
+    "A035363",
+    "A036820",
+    "A036822",
+    "A047386",
+    "A195848",
+    "A195849",
+    "A274830",
+    "A346798"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:20",
+    "offset": 0,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

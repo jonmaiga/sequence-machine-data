@@ -1,0 +1,18 @@
+{
+  "description": "Lexicographically earliest sequence of distinct positive terms such that a(n) is a substring of a(n)*a(n+1).",
+  "id": "A332703",
+  "mentions": [
+    "A086064"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:02",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "T(n, k) = denominator([x^k] b_n(x)), where b_n(x) = Sum_{k=0..n} binomial(n,k)* Bernoulli(k, 1/2)*x^(n-k). Triangle read by rows, for n >= 0 and 0 <= k <= n.",
+  "id": "A335948",
+  "mentions": [
+    "A033469",
+    "A157780",
+    "A335947"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "frac",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Triangular array (and fractal sequence): row n is the permutation of (1,2,...,n) obtained from the increasing ordering of fractional parts {r}, {2r}, ..., {nr}, where r=-sqrt(3).",
+  "id": "A194841",
+  "mentions": [
+    "A194832",
+    "A194842",
+    "A194843"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 94,
+    "source": "oeis-entry"
+  }
+}

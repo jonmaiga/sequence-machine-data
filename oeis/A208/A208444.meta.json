@@ -1,0 +1,17 @@
+{
+  "description": "Number of nX7 0..2 arrays with no element equal the average of immediate neighbors vertically above and horizontally left of it",
+  "id": "A208444",
+  "mentions": [
+    "A208445"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:28",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

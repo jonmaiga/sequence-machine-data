@@ -1,0 +1,29 @@
+{
+  "description": "Take an n X n square grid of points in the plane; a(n) = number of ways to divide the points into two sets using a straight line.",
+  "id": "A114043",
+  "mentions": [
+    "A088658",
+    "A099957",
+    "A114146",
+    "A114499",
+    "A114531",
+    "A115004",
+    "A115005",
+    "A116696",
+    "A141255",
+    "A290131",
+    "A306302"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:04",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

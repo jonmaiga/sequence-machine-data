@@ -1,0 +1,22 @@
+{
+  "description": "Number of partitions of n into distinct terms of (2,3)-Ulam sequence, cf. A001857.",
+  "id": "A199123",
+  "mentions": [
+    "A000586",
+    "A001857",
+    "A199017",
+    "A199119",
+    "A199121",
+    "A199122"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

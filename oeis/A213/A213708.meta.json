@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the least inverse of A071542, i.e., minimal i such that A071542(i) = n.",
+  "id": "A213708",
+  "mentions": [
+    "A001477",
+    "A071542",
+    "A086876",
+    "A173601",
+    "A179016",
+    "A213730"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:31",
+    "offset": 0,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

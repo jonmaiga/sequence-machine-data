@@ -1,0 +1,20 @@
+{
+  "description": "A(n, k) = (1/k)*Sum_{d|k} EulerPhi(d)*n^(k/d) for n >= 0 and k > 0, A(n, 0) = 0, square array read by ascending antidiagonals.",
+  "id": "A319082",
+  "mentions": [
+    "A054630",
+    "A056665",
+    "A185651"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

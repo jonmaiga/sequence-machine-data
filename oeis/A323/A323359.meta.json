@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = b(n+1)/b(n) - 1 where b(1)=2 and b(k) = b(k-1) + lcm(floor(sqrt(k^3)), b(k-1)).",
+  "id": "A323359",
+  "mentions": [
+    "A008578",
+    "A135506",
+    "A323386",
+    "A323388"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

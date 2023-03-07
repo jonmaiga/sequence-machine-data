@@ -1,0 +1,18 @@
+{
+  "description": "Number of ways in which 2n can be represented as p+g, where p is a prime and g is a prime primitive root of p.",
+  "id": "A138319",
+  "mentions": [
+    "A138305",
+    "A138306"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:26",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

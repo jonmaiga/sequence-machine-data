@@ -1,0 +1,18 @@
+{
+  "description": "Positions of hexagonal numbers in the EKG sequence.",
+  "id": "A140897",
+  "mentions": [
+    "A000384",
+    "A064413"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

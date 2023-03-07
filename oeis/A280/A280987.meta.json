@@ -1,0 +1,21 @@
+{
+  "description": "{Concatenation n, n-1, n-2, ...3,2,1} mod sigma(n).",
+  "id": "A280987",
+  "mentions": [
+    "A000203",
+    "A000422",
+    "A114795"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:49",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

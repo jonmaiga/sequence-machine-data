@@ -1,0 +1,25 @@
+{
+  "description": "Prime numbers with prime indices in A333244.",
+  "id": "A358179",
+  "mentions": [
+    "A006450",
+    "A038580",
+    "A049090",
+    "A078442",
+    "A262275",
+    "A333242",
+    "A333243",
+    "A333244"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

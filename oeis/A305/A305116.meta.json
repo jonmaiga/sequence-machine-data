@@ -1,0 +1,22 @@
+{
+  "description": "O.g.f. A(x) satisfies: [x^n] exp( n^2 * x*A(x) ) * (n + 1 - A(x)) = 0 for n >= 0, where A(0) = 1.",
+  "id": "A305116",
+  "mentions": [
+    "A304400",
+    "A305110",
+    "A305114",
+    "A305115",
+    "A317337"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:29",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

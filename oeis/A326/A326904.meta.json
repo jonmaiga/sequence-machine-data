@@ -1,0 +1,33 @@
+{
+  "description": "Number of unlabeled set-systems (without {}) on n vertices that are closed under intersection.",
+  "id": "A326904",
+  "mentions": [
+    "A000798",
+    "A001930",
+    "A006058",
+    "A102895",
+    "A102898",
+    "A108800",
+    "A193674",
+    "A193675",
+    "A326866",
+    "A326876",
+    "A326878",
+    "A326882",
+    "A326901",
+    "A326903",
+    "A326906"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

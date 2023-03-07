@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = |{0 < k < n: r = phi(k) + phi(n-k)/6 + 1 and p(r) + q(r) are both prime}|, where phi(.) is Euler's totient function, p(.) is the partition function (A000041) and q(.) is the strict partition function (A000009).",
+  "id": "A236419",
+  "mentions": [
+    "A000009",
+    "A000010",
+    "A000040",
+    "A000041",
+    "A232504",
+    "A236412",
+    "A236417"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:54",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

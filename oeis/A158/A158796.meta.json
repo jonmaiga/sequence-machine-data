@@ -1,0 +1,18 @@
+{
+  "description": "Index of first of three successive primes which sum to a cube.",
+  "id": "A158796",
+  "mentions": [
+    "A076304",
+    "A076306"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:41",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

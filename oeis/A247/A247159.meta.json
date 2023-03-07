@@ -1,0 +1,23 @@
+{
+  "description": "Sum of divisors of even semiprimes.",
+  "id": "A247159",
+  "mentions": [
+    "A000040",
+    "A000203",
+    "A083681",
+    "A100484",
+    "A245685"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:03",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

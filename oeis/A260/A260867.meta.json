@@ -1,0 +1,18 @@
+{
+  "description": "Least k > 1 that divides A260868(n) + 2^k - 2.",
+  "id": "A260867",
+  "mentions": [
+    "A260868",
+    "A267999"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

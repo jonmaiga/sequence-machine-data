@@ -1,0 +1,31 @@
+{
+  "description": "a(n) is the number of partitions of n into consecutive parts that differ by 6.",
+  "id": "A334948",
+  "mentions": [
+    "A000005",
+    "A000041",
+    "A000567",
+    "A001227",
+    "A038548",
+    "A117277",
+    "A303300",
+    "A323345",
+    "A334461",
+    "A334541",
+    "A334946",
+    "A334947",
+    "A334949",
+    "A334953"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:06",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

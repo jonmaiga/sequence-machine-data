@@ -1,0 +1,27 @@
+{
+  "description": "Index k of partition function p such that p(k) is a member of a cousin prime pair.",
+  "id": "A355956",
+  "mentions": [
+    "A000041",
+    "A046063",
+    "A072213",
+    "A284594",
+    "A285086",
+    "A285087",
+    "A285088",
+    "A355704",
+    "A355706"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

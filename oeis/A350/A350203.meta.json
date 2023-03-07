@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the smallest positive integer which can be represented as the sum of distinct centered triangular numbers in exactly n ways, or 0 if no such integer exists.",
+  "id": "A350203",
+  "mentions": [
+    "A005448",
+    "A274046",
+    "A281081",
+    "A350195",
+    "A350204"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

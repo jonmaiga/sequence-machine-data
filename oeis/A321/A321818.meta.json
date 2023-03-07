@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = Sum_{d|n, n/d odd} d^8 for n > 0.",
+  "id": "A321818",
+  "mentions": [
+    "A013667",
+    "A321543",
+    "A321565",
+    "A321807",
+    "A321836"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:44",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

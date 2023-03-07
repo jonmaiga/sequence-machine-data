@@ -1,0 +1,17 @@
+{
+  "description": "Numbers n such that there are no positive integers m such that m^3 is of the form x^2 + n*y^2 and m is not of the form x^2 + n*y^2.",
+  "id": "A232527",
+  "mentions": [
+    "A000926"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:50",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

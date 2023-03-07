@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = position of the first occurrence of n in A245714.",
+  "id": "A245723",
+  "mentions": [
+    "A245714"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:01",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

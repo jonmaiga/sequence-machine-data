@@ -1,0 +1,21 @@
+{
+  "description": "Total number of elements in all permutations of [n], [n+1], ... that result in a binary search tree of height n.",
+  "id": "A317012",
+  "mentions": [
+    "A195581",
+    "A227822",
+    "A244108",
+    "A335922"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:35",
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-bfile"
+  }
+}

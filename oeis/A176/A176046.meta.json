@@ -1,0 +1,19 @@
+{
+  "description": "Triangle T(n,m) = 1 + F(m) + F(n-m) - F(n), read by rows, where F = A000045 is the Fibonacci sequence.",
+  "id": "A176046",
+  "mentions": [
+    "A000045"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

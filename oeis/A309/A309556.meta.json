@@ -1,0 +1,22 @@
+{
+  "description": "Composite numbers m such that m divides Sum_{k=1..m-1} (lcm(1,2,...,(m-1)) / k)^2.",
+  "id": "A309556",
+  "mentions": [
+    "A007406",
+    "A007407",
+    "A025529",
+    "A051418"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "bref",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

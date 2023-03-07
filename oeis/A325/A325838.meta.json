@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the product of divisors of the n-th triangular number.",
+  "id": "A325838",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A000217",
+    "A007955",
+    "A063440",
+    "A074285"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 19:13:53",
+    "offset": 1,
+    "size": 26,
+    "source": "joeis"
+  }
+}

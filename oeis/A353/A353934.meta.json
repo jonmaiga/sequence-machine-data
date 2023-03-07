@@ -1,0 +1,29 @@
+{
+  "description": "Number of tilings of an n X n square using right trominoes, dominoes, and monominoes.",
+  "id": "A353934",
+  "mentions": [
+    "A004003",
+    "A028420",
+    "A063443",
+    "A219874",
+    "A219952",
+    "A219994",
+    "A220061",
+    "A220778",
+    "A233807",
+    "A270071",
+    "A353777",
+    "A353877"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:28",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

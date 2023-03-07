@@ -1,0 +1,19 @@
+{
+  "description": "Least number k such that pi(k*n)^2 = pi(i*n)^2 + pi(j*n)^2 for some 0 < i < j < k.",
+  "id": "A255679",
+  "mentions": [
+    "A000290",
+    "A000720",
+    "A255677"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:13",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Ramanujan primes A104272(n) for which A104272(n) = A080359(n).",
+  "id": "A164554",
+  "mentions": [
+    "A080359",
+    "A104272",
+    "A164288",
+    "A164294",
+    "A164333",
+    "A164368",
+    "A212493",
+    "A212541"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

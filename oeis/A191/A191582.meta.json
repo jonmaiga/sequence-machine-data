@@ -1,0 +1,22 @@
+{
+  "description": "Riordan matrix (1/(1-3*x^2),x/(1-x)).",
+  "id": "A191582",
+  "mentions": [
+    "A167936",
+    "A191584",
+    "A191585"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:34:49",
+    "offset": 0,
+    "size": 91,
+    "source": "joeis"
+  }
+}

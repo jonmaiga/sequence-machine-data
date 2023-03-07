@@ -1,0 +1,33 @@
+{
+  "description": "Odd elements in writing the denominator of an element first and then the numerator of that element (left to right) of Leibniz's harmonic-like triangle. That is, the odd elements of A137753.",
+  "id": "A137758",
+  "mentions": [
+    "A003506",
+    "A007622",
+    "A046201",
+    "A046204",
+    "A046205",
+    "A046206",
+    "A046208",
+    "A046212",
+    "A137752",
+    "A137753",
+    "A137754",
+    "A137755",
+    "A137756",
+    "A137757"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "frac",
+    "less",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

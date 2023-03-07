@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of column convex polyiamonds with n cells.",
+  "id": "A319323",
+  "mentions": [
+    "A001420",
+    "A238823"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

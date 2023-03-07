@@ -1,0 +1,25 @@
+{
+  "description": "Number of unoriented colorings of the edges of a tesseract with n available colors.",
+  "id": "A331359",
+  "mentions": [
+    "A063843",
+    "A331355",
+    "A331358",
+    "A331360",
+    "A331361",
+    "A338953",
+    "A338965"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 11:45:12",
+    "offset": 1,
+    "size": 9,
+    "source": "joeis"
+  }
+}

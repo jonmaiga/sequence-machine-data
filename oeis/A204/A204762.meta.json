@@ -1,0 +1,18 @@
+{
+  "description": "Number of (n+1) X 8 0..5 arrays with the permanents of all 2 X 2 subblocks equal and nonzero.",
+  "id": "A204762",
+  "mentions": [
+    "A204763"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

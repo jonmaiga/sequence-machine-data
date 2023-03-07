@@ -1,0 +1,20 @@
+{
+  "description": "Number of independent subsets in the rooted tree with Matula-Goebel number n that do not contain the root.",
+  "id": "A228732",
+  "mentions": [
+    "A184165",
+    "A228731"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:45",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

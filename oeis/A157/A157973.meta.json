@@ -1,0 +1,17 @@
+{
+  "description": "Numbers n > 1 with spf(n) < n such that there is a number k, n < k <= 2*n, with k - spf(k) = n - spf(n).",
+  "id": "A157973",
+  "mentions": [
+    "A001414"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:40",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

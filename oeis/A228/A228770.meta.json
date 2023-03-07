@@ -1,0 +1,19 @@
+{
+  "description": "The number of sum indecomposable permutations which avoid the patterns 3124 and 4312.",
+  "id": "A228770",
+  "mentions": [
+    "A165534",
+    "A226434"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:45",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Triangle read by rows: T(p_1,p_2) = maximal period of a decimal fraction (r/s)*(t/u) given that r/s has period p_1 and t/u has period p_2 (1 <= p_1 <= p_2).",
+  "id": "A278588",
+  "mentions": [
+    "A110807"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

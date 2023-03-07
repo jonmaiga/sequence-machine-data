@@ -1,0 +1,24 @@
+{
+  "description": "Number of factorizations of n^2 into factors k > 1 for which A156552(k) is a multiple of three.",
+  "id": "A353304",
+  "mentions": [
+    "A000290",
+    "A003961",
+    "A156552",
+    "A329609",
+    "A348717",
+    "A353269",
+    "A353303"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:27",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Positions of 3's on the spiral defined in A308890.",
+  "id": "A308894",
+  "mentions": [
+    "A308884",
+    "A308888",
+    "A308890",
+    "A308895"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

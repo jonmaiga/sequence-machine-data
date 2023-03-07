@@ -1,0 +1,41 @@
+{
+  "description": "Matula-Goebel numbers of semi-lone-child-avoiding rooted trees with at most one distinct non-leaf branch directly under any vertex (semi-achirality).",
+  "id": "A331936",
+  "mentions": [
+    "A000079",
+    "A001678",
+    "A003238",
+    "A007097",
+    "A050381",
+    "A061775",
+    "A070776",
+    "A196050",
+    "A214577",
+    "A291636",
+    "A306202",
+    "A320230",
+    "A320269",
+    "A331784",
+    "A331873",
+    "A331912",
+    "A331914",
+    "A331933",
+    "A331934",
+    "A331935",
+    "A331965",
+    "A331967",
+    "A331991",
+    "A331992"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

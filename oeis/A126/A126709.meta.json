@@ -1,0 +1,28 @@
+{
+  "description": "The Loh-Shu 3 x 3 magic square, variant 2.",
+  "id": "A126709",
+  "mentions": [
+    "A033812",
+    "A126647",
+    "A126648",
+    "A126649",
+    "A126650",
+    "A126651",
+    "A126652",
+    "A126653",
+    "A126654"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "fini",
+    "full",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

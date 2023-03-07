@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that sigma(n) = reversal(3n).",
+  "id": "A233467",
+  "mentions": [
+    "A000203",
+    "A004086",
+    "A096507",
+    "A233465"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

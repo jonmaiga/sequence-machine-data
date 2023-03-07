@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of the integral over cos(Pi*x)*x^(1/x) between 1/e and e.",
+  "id": "A177218",
+  "mentions": [
+    "A037077",
+    "A157852"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

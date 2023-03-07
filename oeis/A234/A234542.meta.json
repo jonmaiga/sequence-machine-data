@@ -1,0 +1,23 @@
+{
+  "description": "Positive integer solutions to sigma(sigma(k) - k - 3)/phi(k - phi(k) + 3) = 3.",
+  "id": "A234542",
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A001065",
+    "A037074",
+    "A051953",
+    "A186749"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:52",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

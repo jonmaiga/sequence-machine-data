@@ -1,0 +1,18 @@
+{
+  "description": "Primes p such that a Heronian triangle with a fixed side length of 3 contains p as another side length.",
+  "id": "A230666",
+  "mentions": [
+    "A072221"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

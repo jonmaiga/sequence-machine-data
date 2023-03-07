@@ -1,0 +1,20 @@
+{
+  "description": "Positive integers m which are quadratic residues modulo prime(m).",
+  "id": "A332020",
+  "mentions": [
+    "A000040",
+    "A000290",
+    "A242750",
+    "A332021"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:01",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "For any number n with binary expansion (b(1), ..., b(k)), the binary expansion of a(n) is (b(1), ..., b(ceiling(k/2))).",
+  "id": "A344259",
+  "mentions": [
+    "A006995",
+    "A020330",
+    "A162751",
+    "A344220"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:17",
+    "offset": 0,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

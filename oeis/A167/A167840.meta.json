@@ -1,0 +1,20 @@
+{
+  "description": "Six-times-isolated primes: primes p such that none of p+-2, p+-4, p+-6, p+-8, p+-10 nor p+-12 are prime.",
+  "id": "A167840",
+  "mentions": [
+    "A000040",
+    "A137873",
+    "A167771",
+    "A167839"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:51",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

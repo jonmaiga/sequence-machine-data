@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: row n gives the coefficients in the expansion of the chromatic polynomial of the n-cycle graphs.",
+  "id": "A137396",
+  "mentions": [
+    "A123192",
+    "A300453"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

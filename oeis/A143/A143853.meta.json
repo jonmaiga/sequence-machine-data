@@ -1,0 +1,20 @@
+{
+  "description": "Primes p that divide the sum of their remainders modulo all smaller composites (=A233131(p)).",
+  "id": "A143853",
+  "mentions": [
+    "A143851",
+    "A233131",
+    "A233344"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

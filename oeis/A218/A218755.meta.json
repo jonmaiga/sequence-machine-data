@@ -1,0 +1,18 @@
+{
+  "description": "Denominators of Bernoulli numbers which are == 6 (mod 9).",
+  "id": "A218755",
+  "mentions": [
+    "A090801"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:36",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

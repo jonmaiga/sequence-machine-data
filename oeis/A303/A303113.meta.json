@@ -1,0 +1,20 @@
+{
+  "description": "Number of partitions of n into two distinct positive integers (s,t), s < t, such that t is semiprime and |t-s| is not semiprime.",
+  "id": "A303113",
+  "mentions": [
+    "A001222",
+    "A303110"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

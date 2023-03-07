@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows where T(n,k) is Colijn and Plazzotta's distance metric d_1(n,k) between rooted binary tree numbers n and k, for 1 <= k <= n.",
+  "id": "A356918",
+  "mentions": [
+    "A002024",
+    "A002260",
+    "A064002",
+    "A356917"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:31",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

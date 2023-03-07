@@ -1,0 +1,17 @@
+{
+  "description": "Primes of the form 5^n - 4^n.",
+  "id": "A147667",
+  "mentions": [
+    "A059802"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:34",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-bfile"
+  }
+}

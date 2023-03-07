@@ -1,0 +1,29 @@
+{
+  "description": "Numbers i such that Fibonacci(i) is divisible by i+k for k = 0..8.",
+  "id": "A303585",
+  "mentions": [
+    "A000045",
+    "A023172",
+    "A217738",
+    "A221018",
+    "A225219",
+    "A298684",
+    "A298685",
+    "A298686",
+    "A298687",
+    "A298688",
+    "A299155",
+    "A300555"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

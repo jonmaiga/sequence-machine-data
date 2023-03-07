@@ -1,0 +1,24 @@
+{
+  "description": "Toothpick primes: primes in the toothpick sequence A139250.",
+  "id": "A139253",
+  "mentions": [
+    "A000040",
+    "A000695",
+    "A000979",
+    "A139250",
+    "A139251",
+    "A139252",
+    "A194810"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:27",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

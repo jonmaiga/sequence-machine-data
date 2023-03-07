@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that (reversal of digits of n) + 1 is a square (ignoring leading zeros).",
+  "id": "A245361",
+  "mentions": [
+    "A000290",
+    "A061230",
+    "A061457",
+    "A167217"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:01",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Inverse permutation to A129676.",
+  "id": "A129677",
+  "mentions": [
+    "A000069",
+    "A128754",
+    "A128755",
+    "A129676",
+    "A129681"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:17",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

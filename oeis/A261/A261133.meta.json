@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Max{k from {1..n} | T(n,k) = A049831(n)}, where T(n,k) is the triangle defined at A049828.",
+  "id": "A261133",
+  "mentions": [
+    "A049828",
+    "A049831"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Number of labeled functional digraphs on n nodes with only odd sized cycles and such that every vertex is at a distance of at most 1 from a cycle.",
+  "id": "A275385",
+  "mentions": [
+    "A000246",
+    "A006153",
+    "A009444",
+    "A116956",
+    "A216401"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:40",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

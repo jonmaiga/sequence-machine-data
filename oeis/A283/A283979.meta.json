@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = (n XOR A264977(n))/4, where XOR is bitwise-xor (A003987).",
+  "id": "A283979",
+  "mentions": [
+    "A003987",
+    "A264977",
+    "A265397",
+    "A284013"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:55",
+    "offset": 0,
+    "size": 103,
+    "source": "oeis-bfile"
+  }
+}

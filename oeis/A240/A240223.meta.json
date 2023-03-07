@@ -1,0 +1,26 @@
+{
+  "description": "Rectangular companion array to M(n,k), given in A240222, showing the end numbers N(n, k), k >= 1, for the Collatz operation (udd)^(n-1) ud, n >= 1, read by antidiagonals.",
+  "id": "A240223",
+  "mentions": [
+    "A016789",
+    "A017185",
+    "A238475",
+    "A238476",
+    "A239126",
+    "A239127",
+    "A240222"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

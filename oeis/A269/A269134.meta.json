@@ -1,0 +1,27 @@
+{
+  "description": "Number of combinatory separations of normal multisets of weight n.",
+  "id": "A269134",
+  "mentions": [
+    "A007716",
+    "A034691",
+    "A096443",
+    "A255906",
+    "A318396",
+    "A318559",
+    "A318560",
+    "A318562",
+    "A318563",
+    "A318567"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

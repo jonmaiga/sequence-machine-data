@@ -1,0 +1,18 @@
+{
+  "description": "G.f.: A(x) = 1/[1-x - Sum_{n>=1} A001147(n)*x^(2n) ] where A001147(n) = (2n)!/(n!*2^n) is the double factorials.",
+  "id": "A124495",
+  "mentions": [
+    "A001147",
+    "A076876"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

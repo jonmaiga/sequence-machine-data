@@ -1,0 +1,21 @@
+{
+  "description": "a(1) = 1, for any n > 1, a(n) = A342765(a(n-1), n).",
+  "id": "A342766",
+  "mentions": [
+    "A000961",
+    "A057820",
+    "A087052",
+    "A276781",
+    "A342765"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:16",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n,k) (n >= 1, 1 <= k <= n) = number of subdigraphs of the transitive tournament on n nodes that have k weak components.",
+  "id": "A350609",
+  "mentions": [
+    "A006125",
+    "A350608",
+    "A350610"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:25",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

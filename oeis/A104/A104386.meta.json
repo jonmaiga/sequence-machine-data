@@ -1,0 +1,24 @@
+{
+  "description": "Numbers k such that the average of the k-th and (k+1)-th primes is a repdigit.",
+  "id": "A104386",
+  "mentions": [
+    "A054268",
+    "A104387",
+    "A104388",
+    "A104389"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

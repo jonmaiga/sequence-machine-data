@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = arrange digits of concatenation of divisors of n (A037278, A176558) in increasing order in base 10 (zero digits are omitted).",
+  "id": "A243361",
+  "mentions": [
+    "A037278",
+    "A176558",
+    "A243360",
+    "A243362",
+    "A243363",
+    "A243364"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Filter sequence combining prime signatures of n and 2n+1.",
+  "id": "A305978",
+  "mentions": [
+    "A005384",
+    "A046523",
+    "A101296",
+    "A234095",
+    "A286258",
+    "A305810",
+    "A305973",
+    "A305977"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:30",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

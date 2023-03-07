@@ -1,0 +1,18 @@
+{
+  "description": "The lesser of twin prime pairs with each prime in a different millennia.",
+  "id": "A158861",
+  "mentions": [
+    "A060229",
+    "A158277"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

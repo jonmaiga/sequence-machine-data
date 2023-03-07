@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that 8*n+7 is not prime.",
+  "id": "A153235",
+  "mentions": [
+    "A139487"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:35",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

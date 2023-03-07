@@ -1,0 +1,21 @@
+{
+  "description": "Smallest prime that begins a run of n consecutive primes that are not Ramanujan primes.",
+  "id": "A174641",
+  "mentions": [
+    "A104272",
+    "A174602",
+    "A174635",
+    "A202187",
+    "A202188"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:58",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

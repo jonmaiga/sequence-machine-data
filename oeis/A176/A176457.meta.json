@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of (28+2*sqrt(210))/7.",
+  "id": "A176457",
+  "mentions": [
+    "A010728",
+    "A171539",
+    "A176441"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:39:37",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

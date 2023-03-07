@@ -1,0 +1,22 @@
+{
+  "description": "Position of 1/n in the ordering of the rationals given by application of the map t -> (1+t,-1/t), cf. A226130.",
+  "id": "A226274",
+  "mentions": [
+    "A226080",
+    "A226081",
+    "A226130",
+    "A226271",
+    "A226275"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 07:08:22",
+    "offset": 1,
+    "size": 28,
+    "source": "joeis"
+  }
+}

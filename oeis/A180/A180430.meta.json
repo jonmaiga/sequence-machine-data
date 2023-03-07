@@ -1,0 +1,19 @@
+{
+  "description": "Triangle T(n,k) defined by the recurrence in the formula.",
+  "id": "A180430",
+  "mentions": [
+    "A176702"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-entry"
+  }
+}

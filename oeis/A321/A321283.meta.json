@@ -1,0 +1,30 @@
+{
+  "description": "Number of non-isomorphic multiset partitions of weight n in which the part sizes are relatively prime.",
+  "id": "A321283",
+  "mentions": [
+    "A000740",
+    "A000837",
+    "A007716",
+    "A007916",
+    "A100953",
+    "A301700",
+    "A303386",
+    "A303431",
+    "A303546",
+    "A303547",
+    "A320800",
+    "A320810",
+    "A339645"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:44",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

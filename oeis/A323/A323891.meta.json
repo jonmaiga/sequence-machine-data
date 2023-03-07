@@ -1,0 +1,27 @@
+{
+  "description": "a(n) is the number of partitions of 72*n + 42 into 10 odd squares.",
+  "id": "A323891",
+  "mentions": [
+    "A000041",
+    "A001156",
+    "A016754",
+    "A025425",
+    "A025434",
+    "A033461",
+    "A035294",
+    "A078406",
+    "A090677",
+    "A167661",
+    "A167700"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:49",
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

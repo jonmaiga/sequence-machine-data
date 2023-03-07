@@ -1,0 +1,18 @@
+{
+  "description": "Number of partitions of n into tribonacci numbers (cf. A000073).",
+  "id": "A240844",
+  "mentions": [
+    "A000073",
+    "A117546"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:48:27",
+    "offset": 0,
+    "size": 57,
+    "source": "joeis"
+  }
+}

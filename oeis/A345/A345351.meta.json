@@ -1,0 +1,20 @@
+{
+  "description": "Triangular numbers such that the sum of cubes of their digits is prime.",
+  "id": "A345351",
+  "mentions": [
+    "A000217",
+    "A055012"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

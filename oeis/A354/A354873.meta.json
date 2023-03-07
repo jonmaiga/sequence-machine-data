@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = A258851(n) / gcd(A056239(n), A258851(n)).",
+  "id": "A354873",
+  "mentions": [
+    "A056239",
+    "A258851",
+    "A278510",
+    "A354871",
+    "A354872"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:29",
+    "offset": 2,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

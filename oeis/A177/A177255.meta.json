@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Sum_{j=1..n} j*B(j-1), where B(k) = A000110(k) are the Bell numbers.",
+  "id": "A177255",
+  "mentions": [
+    "A000110",
+    "A052889",
+    "A177254",
+    "A177256",
+    "A177257"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:01",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that n + pi(n) is a power of 10.",
+  "id": "A248856",
+  "mentions": [
+    "A000720",
+    "A244440",
+    "A248854"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

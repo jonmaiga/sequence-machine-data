@@ -1,0 +1,19 @@
+{
+  "description": "Positive integers k such that k < 2^d(k), where d(k) is the number of divisors of k.",
+  "id": "A175495",
+  "mentions": [
+    "A000005",
+    "A034884",
+    "A175494"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:59",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

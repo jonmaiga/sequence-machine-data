@@ -1,0 +1,29 @@
+{
+  "description": "Number of complete multimin tree-factorizations of n.",
+  "id": "A318577",
+  "mentions": [
+    "A000311",
+    "A001003",
+    "A001055",
+    "A020639",
+    "A255397",
+    "A281113",
+    "A281118",
+    "A281119",
+    "A295281",
+    "A317545",
+    "A319118",
+    "A319121"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

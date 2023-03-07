@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the number of reverse multipliers for base n.",
+  "id": "A222820",
+  "mentions": [
+    "A214927",
+    "A222817",
+    "A222818",
+    "A222819"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 2,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

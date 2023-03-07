@@ -1,0 +1,19 @@
+{
+  "description": "Coefficients of the series expansion of q^(-1/4) pi_q.",
+  "id": "A144874",
+  "mentions": [
+    "A008441",
+    "A274621"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-bfile"
+  }
+}

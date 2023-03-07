@@ -1,0 +1,32 @@
+{
+  "description": "Number of integer partitions of n covering an initial interval of positive integers with unimodal run-lengths.",
+  "id": "A332577",
+  "mentions": [
+    "A000009",
+    "A001523",
+    "A007052",
+    "A011782",
+    "A025065",
+    "A100883",
+    "A107429",
+    "A115981",
+    "A227038",
+    "A332280",
+    "A332281",
+    "A332283",
+    "A332579",
+    "A332638",
+    "A332639",
+    "A332728"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

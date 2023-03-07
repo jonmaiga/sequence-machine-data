@@ -1,0 +1,26 @@
+{
+  "description": "a(n) gives the maximal value of A075053(m) for any n-digit number m.",
+  "id": "A134597",
+  "mentions": [
+    "A007526",
+    "A039993",
+    "A075053",
+    "A076730",
+    "A134596",
+    "A239196",
+    "A239197"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

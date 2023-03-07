@@ -1,0 +1,20 @@
+{
+  "description": "Arrange the first n primes in a circle in any order. a(n) is the minimum value of the largest product of two consecutive primes out of all possible orders.",
+  "id": "A332877",
+  "mentions": [
+    "A064796",
+    "A332765",
+    "A333747"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 2,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

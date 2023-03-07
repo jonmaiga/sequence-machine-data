@@ -1,0 +1,26 @@
+{
+  "description": "Number of distinct prime factors in A337194(n) = 1+A000265(sigma(n)), where A000265(k) gives the odd part of k.",
+  "id": "A337198",
+  "mentions": [
+    "A000203",
+    "A000265",
+    "A001221",
+    "A058062",
+    "A161942",
+    "A336691",
+    "A336698",
+    "A337194",
+    "A337199"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:09",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

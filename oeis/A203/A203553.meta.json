@@ -1,0 +1,27 @@
+{
+  "description": "Lodumo_2 of A118175, which is n 1's followed by n 0's.",
+  "id": "A203553",
+  "mentions": [
+    "A000578",
+    "A002061",
+    "A002378",
+    "A007531",
+    "A008619",
+    "A028387",
+    "A028552",
+    "A118175",
+    "A159970",
+    "A203554"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

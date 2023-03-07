@@ -1,0 +1,21 @@
+{
+  "description": "10-adic integer x=...92160195896736500120813568 satisfying x^5 = x; also x^3 = -x = A120817; (x^2)^3 = x^2 = A091664; (x^4)^2 = x^4 = A018248.",
+  "id": "A120818",
+  "mentions": [
+    "A018248",
+    "A091664",
+    "A120817"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:09",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

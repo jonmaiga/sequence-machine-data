@@ -1,0 +1,23 @@
+{
+  "description": "Primes p such that 2*p + 1 divides Lucas(p).",
+  "id": "A215850",
+  "mentions": [
+    "A000032",
+    "A002515",
+    "A005384",
+    "A053027",
+    "A132236",
+    "A137715",
+    "A230809"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:33",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

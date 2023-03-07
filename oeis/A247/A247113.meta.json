@@ -1,0 +1,17 @@
+{
+  "description": "Number of tilings of a 9 X 4n rectangle with 9n tetrominoes of any shape.",
+  "id": "A247113",
+  "mentions": [
+    "A230031"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:03",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-bfile"
+  }
+}

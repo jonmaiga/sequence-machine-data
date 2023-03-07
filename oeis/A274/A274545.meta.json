@@ -1,0 +1,21 @@
+{
+  "description": "Values of k such that 5*k-1 and 10*k-1 are both perfect squares.",
+  "id": "A274545",
+  "mentions": [
+    "A062317",
+    "A220082",
+    "A274544"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:39",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Primes p such that 47^(p-1) == 1 + A*p (mod p^2) and |A/p| is a new record low.",
+  "id": "A338646",
+  "mentions": [
+    "A339855"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

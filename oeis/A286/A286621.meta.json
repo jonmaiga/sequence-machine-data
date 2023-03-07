@@ -1,0 +1,30 @@
+{
+  "description": "Restricted growth sequence computed for filter-sequence A278221, related to the conjugated prime factorization (see A122111).",
+  "id": "A286621",
+  "mentions": [
+    "A006530",
+    "A046523",
+    "A064989",
+    "A101296",
+    "A122111",
+    "A278221",
+    "A286378",
+    "A286603",
+    "A286605",
+    "A286610",
+    "A286619",
+    "A286622",
+    "A286626"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:58",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

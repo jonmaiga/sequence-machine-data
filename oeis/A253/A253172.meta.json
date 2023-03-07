@@ -1,0 +1,23 @@
+{
+  "description": "Numbers n = p * q, where n, p, and q together contain all 10 digits at least once.",
+  "id": "A253172",
+  "mentions": [
+    "A027750",
+    "A050278",
+    "A050288",
+    "A171102",
+    "A195814"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:11",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

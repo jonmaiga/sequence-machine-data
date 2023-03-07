@@ -1,0 +1,19 @@
+{
+  "description": "p and A002808(p)/2 are both prime.",
+  "id": "A177997",
+  "mentions": [
+    "A002808",
+    "A065858",
+    "A065897"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:01",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that antisigma(n) contains n as a substring.",
+  "id": "A255968",
+  "mentions": [
+    "A024816"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

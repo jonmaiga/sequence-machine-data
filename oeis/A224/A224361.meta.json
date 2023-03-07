@@ -1,0 +1,22 @@
+{
+  "description": "The length of the Collatz (3k+1) sequence for all odd negative fractions and integers.",
+  "id": "A224361",
+  "mentions": [
+    "A210516",
+    "A210688",
+    "A224299",
+    "A224300",
+    "A224360"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 77,
+    "source": "oeis-entry"
+  }
+}

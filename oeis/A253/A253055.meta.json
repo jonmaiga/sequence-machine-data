@@ -1,0 +1,21 @@
+{
+  "description": "Odd composite terms in A098550 that are neither primes nor terms of A251544, in order of appearance.",
+  "id": "A253055",
+  "mentions": [
+    "A000040",
+    "A098550",
+    "A251237",
+    "A251544",
+    "A253056"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

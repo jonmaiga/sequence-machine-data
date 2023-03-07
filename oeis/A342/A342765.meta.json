@@ -1,0 +1,23 @@
+{
+  "description": "Array T(n, k), n, k > 0, read by antidiagonals; T(n, k) = max(A006530(n), A006530(k)) * T(n/A006530(n), k/A006530(k)) with T(1, 1) = 1.",
+  "id": "A342765",
+  "mentions": [
+    "A001222",
+    "A006530",
+    "A087061",
+    "A342766",
+    "A342767"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:16",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

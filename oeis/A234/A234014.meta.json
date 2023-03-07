@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of Sum_{x>=2} 1/((x - 1) sqrt(x)) = Sum_{k>=1} (zeta(k+1/2) - 1).",
+  "id": "A234014",
+  "mentions": [
+    "A105459",
+    "A226317",
+    "A234015"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

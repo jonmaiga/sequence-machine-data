@@ -1,0 +1,32 @@
+{
+  "description": "Number of nonnegative integer square matrices with sum of entries equal to n, no zero rows or columns, weakly decreasing row and column sums, and the same row sums as column sums.",
+  "id": "A321734",
+  "mentions": [
+    "A000700",
+    "A006052",
+    "A007016",
+    "A007716",
+    "A120732",
+    "A319056",
+    "A319616",
+    "A320451",
+    "A321719",
+    "A321722",
+    "A321732",
+    "A321735",
+    "A321736",
+    "A321739"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

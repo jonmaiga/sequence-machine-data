@@ -1,0 +1,19 @@
+{
+  "description": "Numbers such that the difference between the sum of the even divisors and the sum of the odd divisors is a perfect square.",
+  "id": "A195690",
+  "mentions": [
+    "A002129",
+    "A195268",
+    "A195382"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:17",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

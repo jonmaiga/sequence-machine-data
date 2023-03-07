@@ -1,0 +1,24 @@
+{
+  "description": "Number of finite languages over a binary alphabet (set of binary words of total length n).",
+  "id": "A102866",
+  "mentions": [
+    "A000079",
+    "A034899",
+    "A208741",
+    "A256142",
+    "A292804",
+    "A360634"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "changed",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:53",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

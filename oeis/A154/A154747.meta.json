@@ -1,0 +1,28 @@
+{
+  "description": "Decimal expansion of sqrt(sqrt(2) - 1), the radius vector of the point of bisection of the arc of the unit lemniscate (x^2 + y^2)^2 = x^2 - y^2 in the first quadrant.",
+  "id": "A154747",
+  "mentions": [
+    "A085565",
+    "A154739",
+    "A154743",
+    "A154748",
+    "A154749",
+    "A154750",
+    "A228497",
+    "A278928",
+    "A309948",
+    "A309949"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:59:09",
+    "offset": 0,
+    "size": 93,
+    "source": "joeis"
+  }
+}

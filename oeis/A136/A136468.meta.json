@@ -1,0 +1,18 @@
+{
+  "description": "Column 1 of triangle A136467 (scaled): a(n) = A136467(n+1,1)/2^n.",
+  "id": "A136468",
+  "mentions": [
+    "A136467",
+    "A136469"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

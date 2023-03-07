@@ -1,0 +1,20 @@
+{
+  "description": "If the terms of this sequence are divided into groups, the lengths of which are the terms of this sequence, the k-th term in a group is one greater than the k-th term in the previous group with at least k terms or 1 if no such group exists.",
+  "id": "A334081",
+  "mentions": [
+    "A000002",
+    "A332864"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:05",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

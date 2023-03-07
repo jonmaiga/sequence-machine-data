@@ -1,0 +1,19 @@
+{
+  "description": "Primes of the form n^4 + n + 1 with n positive.",
+  "id": "A272571",
+  "mentions": [
+    "A002383",
+    "A245488",
+    "A272572"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:37",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

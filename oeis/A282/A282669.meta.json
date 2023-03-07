@@ -1,0 +1,18 @@
+{
+  "description": "Prime numbers p > 3 such that 2^p - 9 is prime.",
+  "id": "A282669",
+  "mentions": [
+    "A059610"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

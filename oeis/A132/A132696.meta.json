@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of 6/Pi.",
+  "id": "A132696",
+  "mentions": [
+    "A049541",
+    "A059956",
+    "A060294",
+    "A086201",
+    "A088538",
+    "A089491"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:50:01",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

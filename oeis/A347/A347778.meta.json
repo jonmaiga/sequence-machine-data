@@ -1,0 +1,22 @@
+{
+  "description": "Number of compositions (ordered partitions) of n into at most 3 squarefree parts.",
+  "id": "A347778",
+  "mentions": [
+    "A005117",
+    "A280194",
+    "A280210",
+    "A347777",
+    "A347779",
+    "A347780"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

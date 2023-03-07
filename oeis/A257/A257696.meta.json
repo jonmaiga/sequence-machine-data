@@ -1,0 +1,21 @@
+{
+  "description": "a(0) = 0; for n >= 1, a(n) = gcd(A060130(n), a(A257684(n))).",
+  "id": "A257696",
+  "mentions": [
+    "A060130",
+    "A257684",
+    "A257694",
+    "A257695"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:15",
+    "offset": 0,
+    "size": 121,
+    "source": "oeis-bfile"
+  }
+}

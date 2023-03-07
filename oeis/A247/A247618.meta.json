@@ -1,0 +1,23 @@
+{
+  "description": "Start with a single square; at n-th generation add a square at each expandable vertex; a(n) is the sum of all label values at n-th generation. (See comment for construction rules.)",
+  "id": "A247618",
+  "mentions": [
+    "A000225",
+    "A001844",
+    "A061777",
+    "A247619",
+    "A247620"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 08:54:01",
+    "offset": 0,
+    "size": 31,
+    "source": "joeis"
+  }
+}

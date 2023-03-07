@@ -1,0 +1,21 @@
+{
+  "description": "Number of n-digit integers x such that x + A007954(x) has n digits, where A007954(x) is the product of decimal digits of x.",
+  "id": "A243218",
+  "mentions": [
+    "A007954",
+    "A230099",
+    "A242945",
+    "A243219"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:59",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

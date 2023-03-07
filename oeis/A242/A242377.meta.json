@@ -1,0 +1,19 @@
+{
+  "description": "Greatest n-digit prime in which every two-digit string is also a prime.",
+  "id": "A242377",
+  "mentions": [
+    "A069488",
+    "A090534"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

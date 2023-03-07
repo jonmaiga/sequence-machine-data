@@ -1,0 +1,37 @@
+{
+  "description": "Number of integer compositions y of n with exactly one nonfixed point y(i) != i.",
+  "id": "A352520",
+  "mentions": [
+    "A008930",
+    "A010054",
+    "A011782",
+    "A088218",
+    "A098825",
+    "A114088",
+    "A115994",
+    "A122111",
+    "A177510",
+    "A219282",
+    "A238349",
+    "A238351",
+    "A238352",
+    "A238874",
+    "A240736",
+    "A330644",
+    "A350839",
+    "A352486",
+    "A352512",
+    "A352513",
+    "A352523"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

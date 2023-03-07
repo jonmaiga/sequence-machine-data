@@ -1,0 +1,19 @@
+{
+  "description": "Primes p such that p - 1 and (p + 1)/2 have the same sum of divisors.",
+  "id": "A249511",
+  "mentions": [
+    "A000203",
+    "A171720",
+    "A249625"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

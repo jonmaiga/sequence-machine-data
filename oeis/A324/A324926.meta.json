@@ -1,0 +1,30 @@
+{
+  "description": "Numbers not divisible by any prime indices of their prime indices.",
+  "id": "A324926",
+  "mentions": [
+    "A001222",
+    "A003963",
+    "A112798",
+    "A120383",
+    "A302242",
+    "A304360",
+    "A324846",
+    "A324847",
+    "A324848",
+    "A324849",
+    "A324850",
+    "A324927",
+    "A324928",
+    "A324930"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:51",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

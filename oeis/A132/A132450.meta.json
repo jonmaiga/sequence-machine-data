@@ -1,0 +1,21 @@
+{
+  "description": "First primitive GF(2)[X] polynomials of degree n with at most 5 terms, X^n suppressed.",
+  "id": "A132450",
+  "mentions": [
+    "A091250",
+    "A132448",
+    "A132449",
+    "A132452"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

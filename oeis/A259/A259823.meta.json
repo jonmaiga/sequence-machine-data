@@ -1,0 +1,19 @@
+{
+  "description": "a(0)=0, a(1)=1, a(n)=min{3 a(k) + 2^(n-k)-1, k=0..(n-1)} for n>=2.",
+  "id": "A259823",
+  "mentions": [
+    "A003586",
+    "A291876"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:18",
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

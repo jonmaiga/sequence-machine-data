@@ -1,0 +1,19 @@
+{
+  "description": "Maximal size of a subset of {1..n} such that every pair of (not necessarily distinct) elements has a different product.",
+  "id": "A338006",
+  "mentions": [
+    "A325860",
+    "A347498"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-entry"
+  }
+}

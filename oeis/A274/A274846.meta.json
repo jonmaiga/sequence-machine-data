@@ -1,0 +1,20 @@
+{
+  "description": "Numbers described with a single word in Russian.",
+  "id": "A274846",
+  "mentions": [
+    "A051107",
+    "A051108"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "fini",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

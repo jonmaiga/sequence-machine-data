@@ -1,0 +1,27 @@
+{
+  "description": "Maximum sum of products of successive pairs in a permutation of order n+1.",
+  "id": "A101986",
+  "mentions": [
+    "A000217",
+    "A000290",
+    "A000330",
+    "A005449",
+    "A005581",
+    "A008865",
+    "A026035",
+    "A160805",
+    "A213751"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 17:53:11",
+    "offset": 0,
+    "size": 42,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Numbers k such that phi(k) is the sum of 2 squares, where phi is the Euler totient function (A000010).",
+  "id": "A333909",
+  "mentions": [
+    "A000010",
+    "A001481",
+    "A039770",
+    "A079545",
+    "A333910",
+    "A333911",
+    "A333912"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:05",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Denominators of the central moments of the distribution of areas for triangles picked at random in a triangle of unit area.",
+  "id": "A130118",
+  "mentions": [
+    "A103474",
+    "A103475",
+    "A130117"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of ways to quarter a 2n+1 X 2n+1 chessboard with central square removed.",
+  "id": "A272070",
+  "mentions": [
+    "A006067",
+    "A064941",
+    "A257952"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

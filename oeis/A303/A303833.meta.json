@@ -1,0 +1,27 @@
+{
+  "description": "Birooted trees: number of unlabeled trees with n nodes rooted at 2 indistinguishable roots.",
+  "id": "A303833",
+  "mentions": [
+    "A000055",
+    "A000081",
+    "A000107",
+    "A000243",
+    "A027852",
+    "A294783",
+    "A303831",
+    "A303840",
+    "A304067",
+    "A339303"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:28",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

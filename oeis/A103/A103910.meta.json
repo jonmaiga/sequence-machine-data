@@ -1,0 +1,20 @@
+{
+  "description": "Triangle T read by rows: inverse of fibonomial triangle (A010048).",
+  "id": "A103910",
+  "mentions": [
+    "A010048",
+    "A103995"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

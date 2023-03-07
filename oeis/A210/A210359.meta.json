@@ -1,0 +1,17 @@
+{
+  "description": "Number of rows of Pascal's triangle in which the maximal number of prime factors is n.",
+  "id": "A210359",
+  "mentions": [
+    "A048273"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

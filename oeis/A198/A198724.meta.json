@@ -1,0 +1,18 @@
+{
+  "description": "Let P(n) be the maximal prime divisor of 3*n+1. Then a(n) is the smallest number of iterations of P(n) such that the a(n)-th iteration < n, and a(n) = 0, if such number does not exist.",
+  "id": "A198724",
+  "mentions": [
+    "A074473",
+    "A126241"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 3,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

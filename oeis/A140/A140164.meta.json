@@ -1,0 +1,20 @@
+{
+  "description": "Binomial transform of [1, 1, 1, 1, -1, -1, 5, -11, 19, -29, 41, ...].",
+  "id": "A140164",
+  "mentions": [
+    "A016933",
+    "A028387"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:06:59",
+    "offset": 1,
+    "size": 57,
+    "source": "joeis"
+  }
+}

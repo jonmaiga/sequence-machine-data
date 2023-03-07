@@ -1,0 +1,39 @@
+{
+  "description": "Start with Y(0)=0, X(1)=1, Y(1)=2. For n > 1, choose least positive integers Y(n) > X(n) such that neither Y(n) nor X(n) appear in {Y(k), 1 <= k < n} or {X(k), 1 <= k < n} and such that Y(n)-X(n) does not appear in {Y(k)-X(k), 1 <= k < n} or {Y(k)+X(k), 1 <= k < n}; sequence gives Y(n) (for X(n) see A140100).",
+  "id": "A140101",
+  "mentions": [
+    "A000201",
+    "A003144",
+    "A058265",
+    "A092782",
+    "A140098",
+    "A140099",
+    "A140100",
+    "A140102",
+    "A140103",
+    "A273059",
+    "A275916",
+    "A275917",
+    "A275918",
+    "A275919",
+    "A275925",
+    "A275926",
+    "A276385",
+    "A305374",
+    "A305386",
+    "A305392",
+    "A305393",
+    "A305394"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:28",
+    "offset": 0,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

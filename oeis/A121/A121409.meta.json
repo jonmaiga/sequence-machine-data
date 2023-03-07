@@ -1,0 +1,20 @@
+{
+  "description": "Prime numbers p such that p and prime(p) have no common decimal digit and prime(p) and prime(prime(p)) have no common decimal digit.",
+  "id": "A121409",
+  "mentions": [
+    "A119405",
+    "A121410"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Number of rooted uncrossed knight's walks on an infinite chessboard trapped after n moves with first move specified.",
+  "id": "A323700",
+  "mentions": [
+    "A003192",
+    "A323131",
+    "A323559",
+    "A323560",
+    "A323699"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "hard",
+    "more",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 4,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

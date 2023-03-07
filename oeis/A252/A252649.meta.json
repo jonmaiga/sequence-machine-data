@@ -1,0 +1,18 @@
+{
+  "description": "The number of positive integers that are less than or equal to n that have a primitive root.",
+  "id": "A252649",
+  "mentions": [
+    "A033948"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

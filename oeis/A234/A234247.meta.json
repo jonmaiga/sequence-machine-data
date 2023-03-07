@@ -1,0 +1,21 @@
+{
+  "description": "Triangle T(n,k) read by rows: Number of non-equivalent ways (mod D_3) to choose k points from an nXnXn triangular grid so that no three of them form a 2X2X2 subtriangle.",
+  "id": "A234247",
+  "mentions": [
+    "A001399",
+    "A007980",
+    "A227327",
+    "A234251"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:52",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

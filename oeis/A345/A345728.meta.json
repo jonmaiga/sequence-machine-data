@@ -1,0 +1,19 @@
+{
+  "description": "Primes with an odd number of digits and 0 as the middle digit.",
+  "id": "A345728",
+  "mentions": [
+    "A000040",
+    "A134809"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

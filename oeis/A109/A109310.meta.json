@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that difference between n-th and (n+1)-st semiprimes is a semiprime (sp).",
+  "id": "A109310",
+  "mentions": [
+    "A001358",
+    "A092191"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

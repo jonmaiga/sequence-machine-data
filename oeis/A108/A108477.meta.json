@@ -1,0 +1,21 @@
+{
+  "description": "A symmetric number triangle based on 2^n.",
+  "id": "A108477",
+  "mentions": [
+    "A108475",
+    "A108478"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

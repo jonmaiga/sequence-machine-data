@@ -1,0 +1,19 @@
+{
+  "description": "Number of colored integer partitions of n such that five colors are used and parts differ by size or by color.",
+  "id": "A327383",
+  "mentions": [
+    "A000009",
+    "A308680"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:55",
+    "offset": 5,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

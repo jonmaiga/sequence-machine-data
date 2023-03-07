@@ -1,0 +1,19 @@
+{
+  "description": "Second smallest number of complexity n: second smallest number requiring n 1's to build using + and *.",
+  "id": "A265360",
+  "mentions": [
+    "A005245",
+    "A005421",
+    "A005520"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:25",
+    "offset": 5,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

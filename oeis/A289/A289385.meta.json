@@ -1,0 +1,18 @@
+{
+  "description": "Nonprime numbers k such that the sum of the divisors of k^2 is of the form m^2 + m + 1.",
+  "id": "A289385",
+  "mentions": [
+    "A000203",
+    "A002061"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:03",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

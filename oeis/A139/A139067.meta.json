@@ -1,0 +1,21 @@
+{
+  "description": "Primes whose decimal expansion consists of a string of 2's followed by a string of 3's.",
+  "id": "A139067",
+  "mentions": [
+    "A020458",
+    "A141470",
+    "A141471",
+    "A141472"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

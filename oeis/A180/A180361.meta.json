@@ -1,0 +1,19 @@
+{
+  "description": "Sum of number of unitary divisors (A034444) from 1 to 10^n",
+  "id": "A180361",
+  "mentions": [
+    "A034444",
+    "A064608"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:03",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

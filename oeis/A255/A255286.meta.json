@@ -1,0 +1,19 @@
+{
+  "description": "Set x=3 in polynomial corresponding to A253091(n).",
+  "id": "A255286",
+  "mentions": [
+    "A182069",
+    "A253091",
+    "A255285"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

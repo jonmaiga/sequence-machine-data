@@ -1,0 +1,28 @@
+{
+  "description": "Triangle of numbers C^(3)(n,k) of combinations with repetitions from n different elements over k for each of them not more than three appearances allowed.",
+  "id": "A213742",
+  "mentions": [
+    "A000217",
+    "A000292",
+    "A001919",
+    "A005718",
+    "A005719",
+    "A005720",
+    "A005725",
+    "A007318",
+    "A064055",
+    "A111808"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:31",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

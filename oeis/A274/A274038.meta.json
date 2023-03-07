@@ -1,0 +1,19 @@
+{
+  "description": "Least number k such that the sum of squares of positive divisors of k is the sum of two nonzero squares in exactly n ways.",
+  "id": "A274038",
+  "mentions": [
+    "A001157",
+    "A016032"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "description": "Numbers whose square is the concatenation of two numbers k and k+4.",
+  "id": "A115438",
+  "mentions": [
+    "A030467",
+    "A106497",
+    "A115427",
+    "A115437",
+    "A115439",
+    "A115440",
+    "A115441",
+    "A115442",
+    "A115443",
+    "A115444",
+    "A115445",
+    "A115446",
+    "A115447"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-10-18 14:56:44",
+    "offset": 1,
+    "size": 25,
+    "source": "joeis"
+  }
+}

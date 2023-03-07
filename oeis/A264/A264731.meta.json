@@ -1,0 +1,27 @@
+{
+  "description": "Rectangular array A read by upward antidiagonals in which the entry in row n and column k is defined by A(n,k) = prime(2^(n-1)*(2*k-1)), n,k >= 1.",
+  "id": "A264731",
+  "mentions": [
+    "A000040",
+    "A001511",
+    "A003602",
+    "A031368",
+    "A031378",
+    "A031395",
+    "A033844",
+    "A054582",
+    "A264735"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

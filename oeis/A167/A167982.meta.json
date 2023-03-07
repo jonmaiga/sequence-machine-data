@@ -1,0 +1,25 @@
+{
+  "description": "Number of n-cycles on the graph of the regular 16-cell, 3 <= n <= 8.",
+  "id": "A167982",
+  "mentions": [
+    "A085452",
+    "A144151",
+    "A167981",
+    "A167983",
+    "A167984",
+    "A167985",
+    "A167986"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 3,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

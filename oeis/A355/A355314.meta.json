@@ -1,0 +1,20 @@
+{
+  "description": "Lexicographically earliest sequence of positive integers on a square spiral such that the difference between all orthogonally adjacent pairs of numbers is distinct.",
+  "id": "A355314",
+  "mentions": [
+    "A274640",
+    "A275609",
+    "A307834",
+    "A355270"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

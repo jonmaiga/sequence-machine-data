@@ -1,0 +1,19 @@
+{
+  "description": "Lexicographically earliest sequence of positive terms such that the function f defined by f(n) = Sum_{k=1..n} (i^k * a(k)) for any n >= 0 is injective (where i denotes the imaginary unit), and a(n) != a(n+1) and a(n) != a(n+2) for any n > 0.",
+  "id": "A293207",
+  "mentions": [
+    "A293208",
+    "A293209"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:09",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

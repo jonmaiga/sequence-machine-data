@@ -1,0 +1,22 @@
+{
+  "description": "Number of Hamiltonian paths in a 2*(2*n+1) X (2*n+1) grid starting at the upper left corner and finishing in the lower right corner.",
+  "id": "A333863",
+  "mentions": [
+    "A001184",
+    "A333580",
+    "A333585",
+    "A333864"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

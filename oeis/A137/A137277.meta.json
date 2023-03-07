@@ -1,0 +1,22 @@
+{
+  "description": "Triangle of the coefficients [x^k] P_n(x) of the polynomials P_n(x) = 1/n * sum(j=0..floor(n/2), (-1)^j * binomial(n,j) * (n-4*j) * x^(n-2*j) ).",
+  "id": "A137277",
+  "mentions": [
+    "A047074",
+    "A137276",
+    "A138034"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 93,
+    "source": "oeis-entry"
+  }
+}

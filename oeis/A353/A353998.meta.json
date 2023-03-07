@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of e.g.f. 1/(1 - x^2/2 * (exp(x) - 1)).",
+  "id": "A353998",
+  "mentions": [
+    "A052848",
+    "A351505",
+    "A353999",
+    "A354000"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

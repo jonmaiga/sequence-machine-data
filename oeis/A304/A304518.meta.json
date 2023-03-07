@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 68*2^n - 50 (n>=1).",
+  "id": "A304518",
+  "mentions": [
+    "A304517",
+    "A304519"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:29",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

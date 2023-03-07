@@ -1,0 +1,30 @@
+{
+  "description": "A statistic on orbital systems over n sectors: the number of orbitals with k returns.",
+  "id": "A274879",
+  "mentions": [
+    "A056040",
+    "A108747",
+    "A232500",
+    "A241477",
+    "A241543",
+    "A274706",
+    "A274708",
+    "A274709",
+    "A274710",
+    "A274878",
+    "A274880",
+    "A274881"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

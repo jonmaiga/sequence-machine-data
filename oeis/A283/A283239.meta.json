@@ -1,0 +1,25 @@
+{
+  "description": "Number of ways to write n as x^2 + y^2 + z*(3*z-1)/2 with x,y,z integers such that x + 2*y is a square.",
+  "id": "A283239",
+  "mentions": [
+    "A000040",
+    "A000290",
+    "A001318",
+    "A001481",
+    "A276415",
+    "A283170",
+    "A283196",
+    "A283204",
+    "A283205"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:53",
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

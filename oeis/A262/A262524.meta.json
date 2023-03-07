@@ -1,0 +1,25 @@
+{
+  "description": "Numbers that can be represented as the sum of three base-10 palindromes in more ways than any smaller number. Position of records in A261132.",
+  "id": "A262524",
+  "mentions": [
+    "A002113",
+    "A261132",
+    "A261422",
+    "A262525",
+    "A262526",
+    "A262527",
+    "A262544",
+    "A262545"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:22",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

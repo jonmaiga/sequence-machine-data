@@ -1,0 +1,21 @@
+{
+  "description": "a(1) = 1; for n > 1, a(n) is the smallest positive number which has not appeared that shares a factor with the sum of the first n bits of the binary Champernowne string starting from 1.",
+  "id": "A359114",
+  "mentions": [
+    "A027749",
+    "A030302",
+    "A030303",
+    "A359663"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

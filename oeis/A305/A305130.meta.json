@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k with the property that there exists a positive integer M, called multiplier, such that the sum of the digits of k times the multiplier added to the reversal of this product gives k.",
+  "id": "A305130",
+  "mentions": [
+    "A004086",
+    "A011541",
+    "A067030",
+    "A305131"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:29",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

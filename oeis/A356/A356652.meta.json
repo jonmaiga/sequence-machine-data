@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows. Numerators of the coefficients of a sequence of rational polynomials r_n(x) with r_n(1) = B(2*n), where B(n) are the Bernoulli numbers.",
+  "id": "A356652",
+  "mentions": [
+    "A000367",
+    "A002445",
+    "A269941",
+    "A356653"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "frac",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

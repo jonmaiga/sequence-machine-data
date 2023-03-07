@@ -1,0 +1,22 @@
+{
+  "description": "The regular m-gons with all diagonals drawn that contain internal vertices with vertex-surrounding polygons with 4 sides. See A353876.",
+  "id": "A353991",
+  "mentions": [
+    "A007569",
+    "A007678",
+    "A135565",
+    "A351045",
+    "A353876"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

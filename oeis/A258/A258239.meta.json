@@ -1,0 +1,22 @@
+{
+  "description": "Irregular triangle (Beatty tree for r = 2 + sqrt(2)), T, of all nonnegative integers, each exactly once, as determined in Comments.",
+  "id": "A258239",
+  "mentions": [
+    "A001951",
+    "A001952",
+    "A258212",
+    "A258240"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

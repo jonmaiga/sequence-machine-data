@@ -1,0 +1,19 @@
+{
+  "description": "Triangle of numbers read by rows: T(n,k) = number of permutations sigma of (1,2,...,n) with n - {length of longest increasing subsequence in sigma} = k (0<=k<=n-1).",
+  "id": "A126065",
+  "mentions": [
+    "A047874",
+    "A267433"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:38",
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "15-adic integer x = ...2AA66B44A40E43797853AD13 satisfying x^5 = x; also x^3 = -x; (x^2)^3 = x^2 = A331550; (x^4)^2 = x^4 = A331549.",
+  "id": "A331548",
+  "mentions": [
+    "A120817",
+    "A331549",
+    "A331550"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

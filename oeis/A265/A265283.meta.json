@@ -1,0 +1,29 @@
+{
+  "description": "Number of ON (black) cells in the n-th iteration of the \"Rule 94\" elementary cellular automaton starting with a single ON (black) cell.",
+  "id": "A265283",
+  "mentions": [
+    "A004526",
+    "A051924",
+    "A118102",
+    "A213222",
+    "A263297",
+    "A325193",
+    "A325225",
+    "A325227",
+    "A325228",
+    "A325229",
+    "A325232"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:44:21",
+    "offset": 0,
+    "size": 66,
+    "source": "joeis"
+  }
+}

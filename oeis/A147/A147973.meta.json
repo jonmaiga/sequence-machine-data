@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = -2*n^2 + 12*n - 14.",
+  "id": "A147973",
+  "mentions": [
+    "A000290",
+    "A008865",
+    "A046092",
+    "A054000",
+    "A139570"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:45:39",
+    "offset": 1,
+    "size": 41,
+    "source": "joeis"
+  }
+}

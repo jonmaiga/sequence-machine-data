@@ -1,0 +1,20 @@
+{
+  "description": "Positive numbers k such that 1...123 = (10^(k+2) + 107) / 9 is prime.",
+  "id": "A260899",
+  "mentions": [
+    "A260898"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: E. F. Cornelius Jr. and Phill Schultz-based polynomials for the D_n Cartan Matrices in sequence A129862 that give a triangular sequence.",
+  "id": "A135185",
+  "mentions": [
+    "A129862"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "sign",
+    "tabl",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

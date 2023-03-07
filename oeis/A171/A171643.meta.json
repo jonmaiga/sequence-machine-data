@@ -1,0 +1,23 @@
+{
+  "description": "Primes p such that the nearest integer to p*LN2 is prime, LN2=natural logarithm of 2, LN2~0.693147180..",
+  "id": "A171643",
+  "mentions": [
+    "A116671",
+    "A116968",
+    "A117763",
+    "A118484",
+    "A118625",
+    "A118786",
+    "A118796"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

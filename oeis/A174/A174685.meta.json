@@ -1,0 +1,24 @@
+{
+  "description": "Indices of Sophie Germain pentagonal numbers: indices i of pentagonal numbers P(i) = A000326(i) such that 2*P(i)+1 is also a pentagonal number.",
+  "id": "A174685",
+  "mentions": [
+    "A000040",
+    "A000217",
+    "A000326",
+    "A005384",
+    "A029547",
+    "A124174",
+    "A260937"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:58",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

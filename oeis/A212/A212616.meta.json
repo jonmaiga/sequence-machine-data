@@ -1,0 +1,20 @@
+{
+  "description": "Least triangular number that is the product of n triangular numbers greater than 1.",
+  "id": "A212616",
+  "mentions": [
+    "A000217",
+    "A212617",
+    "A225066",
+    "A225070"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

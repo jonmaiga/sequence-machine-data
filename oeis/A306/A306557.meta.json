@@ -1,0 +1,21 @@
+{
+  "description": "Numerator coefficients of the bivariate Maclaurin series (\"inverse Kepler equation\") developed as Lagrange inversion E=KeplerInv(e,M) of Kepler's equation M = Kepler(e,E) = E - e*sin(E).",
+  "id": "A306557",
+  "mentions": [
+    "A001818",
+    "A111785",
+    "A304462"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of rotationally inequivalent minimal relations of roots of unity of weight n.",
+  "id": "A273096",
+  "mentions": [
+    "A103314",
+    "A110981",
+    "A164896"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

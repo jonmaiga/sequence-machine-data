@@ -1,0 +1,29 @@
+{
+  "description": "Bitwise XOR of trajectories (centrally aligned) of rule 30, and its mirror image, rule 86, when both are started from a lone 1-bit, with the latter delayed by one step: a(n) = A110240(n) XOR 2*A265281(n-1).",
+  "id": "A327976",
+  "mentions": [
+    "A030101",
+    "A110240",
+    "A265281",
+    "A269160",
+    "A269161",
+    "A327971",
+    "A327972",
+    "A327973",
+    "A327974",
+    "A328103",
+    "A328104",
+    "A328108"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:56",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

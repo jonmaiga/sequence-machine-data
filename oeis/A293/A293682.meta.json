@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = least odd number k > 1 such that p = prime(n) is the middle of k consecutive primes which have arithmetic mean p, or 1 if no such k exists.",
+  "id": "A293682",
+  "mentions": [
+    "A006562",
+    "A034964",
+    "A122535",
+    "A293395"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-entry"
+  }
+}

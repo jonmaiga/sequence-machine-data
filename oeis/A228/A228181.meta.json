@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that sum of square of prime divisors of k equals sum of prime divisors of k+1.",
+  "id": "A228181",
+  "mentions": [
+    "A000961",
+    "A005063",
+    "A008472",
+    "A164722"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:45",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

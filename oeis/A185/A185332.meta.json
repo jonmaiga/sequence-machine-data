@@ -1,0 +1,21 @@
+{
+  "description": "Numerators of u(n) where u(n) = (u(n-1) + u(n-2)) / u(n-3), with u(1) = u(2) = u(3) = 1.",
+  "id": "A185332",
+  "mentions": [
+    "A068508",
+    "A185341",
+    "A205303"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:10",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

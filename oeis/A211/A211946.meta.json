@@ -1,0 +1,19 @@
+{
+  "description": "Number of distinct finite languages over 4-ary alphabet, whose minimum regular expression has reverse Polish length 2n-1.",
+  "id": "A211946",
+  "mentions": [
+    "A211945"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

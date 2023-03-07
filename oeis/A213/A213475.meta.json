@@ -1,0 +1,23 @@
+{
+  "description": "Irregular array T(n,k) of the numbers of distinct shapes under rotation of the non-extendable (complete) non-self-adjacent simple paths of each length within a square lattice bounded by rectangles with nodal dimensions n and 6, n >= 2.",
+  "id": "A213475",
+  "mentions": [
+    "A213106",
+    "A213249",
+    "A213431",
+    "A213433",
+    "A213473",
+    "A213474"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 2,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

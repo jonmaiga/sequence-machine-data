@@ -1,0 +1,23 @@
+{
+  "description": "G.f. satisfies: A(x) = 1 + x*A(x)^2/A(-x)^2.",
+  "id": "A143555",
+  "mentions": [
+    "A143339",
+    "A143554",
+    "A143556",
+    "A143557",
+    "A143558",
+    "A143559"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 19:35:40",
+    "offset": 0,
+    "size": 26,
+    "source": "joeis"
+  }
+}

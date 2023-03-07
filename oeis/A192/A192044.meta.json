@@ -1,0 +1,19 @@
+{
+  "description": "Decimal approximation of x such that f(x)=r+1, where f is the Fibonacci function described in Comments and r=(golden ratio).",
+  "id": "A192044",
+  "mentions": [
+    "A104457",
+    "A192038"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

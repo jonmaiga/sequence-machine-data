@@ -1,0 +1,25 @@
+{
+  "description": "Odd numbers k for which the sigma(k) == -k (mod 3) and sigma(k) preserves the 3-adic valuation of k.",
+  "id": "A349752",
+  "mentions": [
+    "A000203",
+    "A007949",
+    "A010872",
+    "A074941",
+    "A228059",
+    "A329963",
+    "A349749",
+    "A349750",
+    "A349751"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

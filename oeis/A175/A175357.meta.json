@@ -1,0 +1,20 @@
+{
+  "description": "Irregular array: Row n contains the run-lengths (of runs of both 0's and 1's) of the binary representation of A175356(n).",
+  "id": "A175357",
+  "mentions": [
+    "A022915",
+    "A175356"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

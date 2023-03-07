@@ -1,0 +1,25 @@
+{
+  "description": "Product of means of integer partitions with Heinz numbers from 2 to n.",
+  "id": "A327485",
+  "mentions": [
+    "A056239",
+    "A112798",
+    "A316413",
+    "A326567",
+    "A326568",
+    "A327474",
+    "A327482",
+    "A327486"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 2,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

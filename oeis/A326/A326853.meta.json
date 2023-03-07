@@ -1,0 +1,28 @@
+{
+  "description": "BII-numbers of set-systems where every two covered vertices appear together in some edge (cointersecting).",
+  "id": "A326853",
+  "mentions": [
+    "A029931",
+    "A048793",
+    "A326031",
+    "A326910",
+    "A327020",
+    "A327037",
+    "A327039",
+    "A327040",
+    "A327041",
+    "A327052",
+    "A327053",
+    "A327057"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

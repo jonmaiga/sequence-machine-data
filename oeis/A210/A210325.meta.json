@@ -1,0 +1,20 @@
+{
+  "description": "Number of 4-divided words of length n over a 3-letter alphabet.",
+  "id": "A210325",
+  "mentions": [
+    "A210109",
+    "A210324",
+    "A210326"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

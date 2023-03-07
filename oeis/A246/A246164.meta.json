@@ -1,0 +1,37 @@
+{
+  "description": "Permutation of natural numbers: a(1) = 1, a(A065621(n)) = A014580(a(n-1)), a(A048724(n)) = A091242(a(n)), where A065621(n) and A048724(n) are the reversing binary representation of n and -n, respectively, and A014580 resp. A091242 are the binary coded irreducible resp. reducible polynomials over GF(2).",
+  "id": "A246164",
+  "mentions": [
+    "A000069",
+    "A001969",
+    "A010060",
+    "A014580",
+    "A048724",
+    "A065620",
+    "A065621",
+    "A091225",
+    "A091242",
+    "A193231",
+    "A234025",
+    "A234612",
+    "A245702",
+    "A246159",
+    "A246160",
+    "A246162",
+    "A246163",
+    "A246202",
+    "A246204",
+    "A246206"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:02",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

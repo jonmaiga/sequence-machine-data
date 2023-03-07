@@ -1,0 +1,41 @@
+{
+  "description": "Sum of divisors of powers of 2 and sum of divisors of even perfect numbers.",
+  "id": "A317307",
+  "mentions": [
+    "A000203",
+    "A000225",
+    "A000396",
+    "A139256",
+    "A196020",
+    "A235791",
+    "A236104",
+    "A237048",
+    "A237270",
+    "A237271",
+    "A237591",
+    "A237593",
+    "A239660",
+    "A239931",
+    "A239932",
+    "A239933",
+    "A239934",
+    "A244050",
+    "A245092",
+    "A249351",
+    "A262626",
+    "A317305",
+    "A317306"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

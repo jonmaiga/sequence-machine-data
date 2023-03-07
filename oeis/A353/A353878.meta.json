@@ -1,0 +1,25 @@
+{
+  "description": "Number of tilings of a 3 X n rectangle using right trominoes, dominoes and 1 X 1 tiles.",
+  "id": "A353878",
+  "mentions": [
+    "A030186",
+    "A127867",
+    "A165716",
+    "A351322",
+    "A352589",
+    "A353877",
+    "A353879"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-10-18 14:56:45",
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

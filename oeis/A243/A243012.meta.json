@@ -1,0 +1,19 @@
+{
+  "description": "Odd primes p such that neither p - 4 nor p + 4 is prime.",
+  "id": "A243012",
+  "mentions": [
+    "A007510",
+    "A140546"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of convex integer quadrilaterals (up to congruence) with integer side lengths a,b,c,d with n=Max(a,b,c,d), integer diagonals e,f and integer area.",
+  "id": "A342723",
+  "mentions": [
+    "A340858",
+    "A342720",
+    "A342721",
+    "A342722"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-entry"
+  }
+}

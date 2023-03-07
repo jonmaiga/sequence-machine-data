@@ -1,0 +1,23 @@
+{
+  "description": "Number of partitions of n into distinct parts such that u^2 < v for all pairs (u,v) of parts with u",
+  "id": "A132015",
+  "mentions": [
+    "A000009",
+    "A132011",
+    "A132016",
+    "A132017",
+    "A132042",
+    "A132085"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:20",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

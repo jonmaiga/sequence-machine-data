@@ -1,0 +1,33 @@
+{
+  "description": "Numbers k such that s(k) = 2*k, where s(k) is the sum of divisors of k that have a square factor (A162296).",
+  "id": "A322609",
+  "mentions": [
+    "A000396",
+    "A001248",
+    "A002827",
+    "A005101",
+    "A005117",
+    "A007357",
+    "A013929",
+    "A054979",
+    "A064591",
+    "A162296",
+    "A322486",
+    "A323757",
+    "A324707",
+    "A325314",
+    "A327633",
+    "A357493",
+    "A357494"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:45",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

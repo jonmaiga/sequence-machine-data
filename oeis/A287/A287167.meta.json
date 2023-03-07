@@ -1,0 +1,24 @@
+{
+  "description": "Smallest number with exactly n representations as a sum of 8 nonzero squares or 0 if no such number exists.",
+  "id": "A287167",
+  "mentions": [
+    "A016032",
+    "A025414",
+    "A025416",
+    "A025432",
+    "A080654",
+    "A287165",
+    "A287166"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

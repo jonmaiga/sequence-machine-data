@@ -1,0 +1,31 @@
+{
+  "description": "a(n) is the number of integers k less than 10^n such that the decimal representation of k lacks the digit 1 and 2, at least one of digits 3,4, at least one of digits 5,6 and at least one of digits 7,8,9.",
+  "id": "A126640",
+  "mentions": [
+    "A125630",
+    "A125858",
+    "A125880",
+    "A125897",
+    "A125904",
+    "A125908",
+    "A125909",
+    "A125940",
+    "A125945",
+    "A125946",
+    "A125947",
+    "A125948"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:14",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

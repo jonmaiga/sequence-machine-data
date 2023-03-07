@@ -1,0 +1,21 @@
+{
+  "description": "Sum of cubes of the digits of all divisors of n.",
+  "id": "A277065",
+  "mentions": [
+    "A055012",
+    "A276959"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "easy",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

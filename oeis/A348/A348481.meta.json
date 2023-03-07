@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of n-element subsets of {1,2,3,...,A347498(n)} with the property that all products i * j are distinct for i <= j.",
+  "id": "A348481",
+  "mentions": [
+    "A347498",
+    "A347499"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

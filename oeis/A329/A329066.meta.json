@@ -1,0 +1,29 @@
+{
+  "description": "Square array T(n,k), n>=0, k>=0, read by antidiagonals, where T(n,k) is the constant term in the expansion of ( (Sum_{j=0..n} x^(2*j+1)+1/x^(2*j+1)) * (Sum_{j=0..n} y^(2*j+1)+1/y^(2*j+1)) - (Sum_{j=0..n-1} x^(2*j+1)+1/x^(2*j+1)) * (Sum_{j=0..n-1} y^(2*j+1)+1/y^(2*j+1)) )^(2*k).",
+  "id": "A329066",
+  "mentions": [
+    "A000012",
+    "A002894",
+    "A005408",
+    "A017113",
+    "A328718",
+    "A329024",
+    "A329067",
+    "A329074",
+    "A329078",
+    "A342964"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

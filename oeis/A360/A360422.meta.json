@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that k^2 + (sum of fourth powers of the digits of k^2) is a square.",
+  "id": "A360422",
+  "mentions": [
+    "A055013",
+    "A360424"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "bref",
+    "changed",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

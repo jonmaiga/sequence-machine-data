@@ -1,0 +1,33 @@
+{
+  "description": "Array read by antidiagonals: T(n,k) is the number of color patterns (set partitions) in an unoriented cycle of length n using k or fewer colors (subsets).",
+  "id": "A320748",
+  "mentions": [
+    "A000011",
+    "A056353",
+    "A056354",
+    "A056355",
+    "A056356",
+    "A056391",
+    "A057427",
+    "A084708",
+    "A152175",
+    "A152176",
+    "A304972",
+    "A305749",
+    "A320742",
+    "A320747"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:43",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

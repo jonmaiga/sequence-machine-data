@@ -1,0 +1,21 @@
+{
+  "description": "Number of ways one can draw arrows between adjacent nodes of an n X n grid such that each node has one outgoing and one incoming arrow.",
+  "id": "A216675",
+  "mentions": [
+    "A004003",
+    "A216678",
+    "A216796",
+    "A216800"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:34",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

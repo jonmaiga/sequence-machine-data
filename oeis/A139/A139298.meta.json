@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = 2^(2p - 1)/4, where p is the n-th Mersenne prime A000668(n).",
+  "id": "A139298",
+  "mentions": [
+    "A000668",
+    "A139294"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

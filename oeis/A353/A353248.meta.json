@@ -1,0 +1,26 @@
+{
+  "description": "Irregular table, read by rows, where row n is the concatenation of all prime signatures leading to n divisors, in reverse lexicographic order.",
+  "id": "A353248",
+  "mentions": [
+    "A000005",
+    "A025487",
+    "A036036",
+    "A046523",
+    "A080577",
+    "A118914",
+    "A124010",
+    "A124832",
+    "A212171"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Palindromic primes in which all internal digits are 9.",
+  "id": "A108848",
+  "mentions": [
+    "A108841",
+    "A108842",
+    "A108843",
+    "A108844",
+    "A108845",
+    "A108846",
+    "A108847"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:00",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-bfile"
+  }
+}

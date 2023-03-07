@@ -1,0 +1,20 @@
+{
+  "description": "Number of labeled graphs with no isolated nodes of size up to n+1 nodes, using 2*n+2 unique labels (no two nodes can have the same label).",
+  "id": "A119627",
+  "mentions": [
+    "A006125",
+    "A006129"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

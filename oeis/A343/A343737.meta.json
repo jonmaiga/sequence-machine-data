@@ -1,0 +1,21 @@
+{
+  "description": "Highly composite 7-rough numbers: numbers that are not divisible by any prime smaller than 7 and whose number of divisors reaches a record.",
+  "id": "A343737",
+  "mentions": [
+    "A000005",
+    "A002182",
+    "A007775",
+    "A053624",
+    "A343734"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:17",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

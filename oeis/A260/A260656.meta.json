@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = lcm{!2, !3, ..., !n}, where !n = A000166(n) is subfactorial.",
+  "id": "A260656",
+  "mentions": [
+    "A000166",
+    "A131631"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:19",
+    "offset": 2,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

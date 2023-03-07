@@ -1,0 +1,21 @@
+{
+  "description": "Positive numbers n such that n and phi(n) contain digits 0 and 1 only.",
+  "id": "A203304",
+  "mentions": [
+    "A000010",
+    "A020449",
+    "A203897",
+    "A209930"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:23",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

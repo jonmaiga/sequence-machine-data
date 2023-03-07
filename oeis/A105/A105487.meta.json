@@ -1,0 +1,19 @@
+{
+  "description": "Number of partitions of {1...n} containing 5 strings of 3 consecutive integers, where each string is counted within a block and a string of more than 3 consecutive integers are counted three at a time.",
+  "id": "A105487",
+  "mentions": [
+    "A105482",
+    "A105486"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 7,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

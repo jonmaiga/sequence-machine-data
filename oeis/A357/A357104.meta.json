@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of the real root of x^3 + 3*x - 1.",
+  "id": "A357104",
+  "mentions": [
+    "A001622",
+    "A130880",
+    "A332437",
+    "A332438"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:29",
+    "offset": 0,
+    "size": 78,
+    "source": "joeis"
+  }
+}

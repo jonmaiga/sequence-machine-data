@@ -1,0 +1,29 @@
+{
+  "description": "Number of integer partitions of n containing their multiset of multiplicities (as a submultiset).",
+  "id": "A325702",
+  "mentions": [
+    "A000041",
+    "A181819",
+    "A225486",
+    "A290689",
+    "A290822",
+    "A304360",
+    "A323014",
+    "A324736",
+    "A324748",
+    "A324753",
+    "A324843",
+    "A325254",
+    "A325755"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

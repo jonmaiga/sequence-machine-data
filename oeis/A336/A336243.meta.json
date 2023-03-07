@@ -1,0 +1,21 @@
+{
+  "description": "a(0) = 1; a(n) = Sum_{k=0..n-1} binomial(n,k)^2 * (n-k-1)! * a(k).",
+  "id": "A336243",
+  "mentions": [
+    "A007840",
+    "A102221",
+    "A110083",
+    "A193161"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

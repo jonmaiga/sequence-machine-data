@@ -1,0 +1,20 @@
+{
+  "description": "Triangular numbers modulo 30.",
+  "id": "A249736",
+  "mentions": [
+    "A000217",
+    "A249622"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:05:55",
+    "offset": 0,
+    "size": 85,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Base-3 representation of A000422(n).",
+  "id": "A353111",
+  "mentions": [
+    "A000422",
+    "A007089",
+    "A097580",
+    "A353110",
+    "A353112",
+    "A353113",
+    "A353114",
+    "A353115",
+    "A353116",
+    "A353117"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:29",
+    "offset": 1,
+    "size": 13,
+    "source": "joeis"
+  }
+}

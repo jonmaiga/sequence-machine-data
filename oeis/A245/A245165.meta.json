@@ -1,0 +1,21 @@
+{
+  "description": "E.g.f.: (cosh(3*x) + sinh(3*x)*cosh(2*x)) / sqrt(1 - sinh(2*x)^2*sinh(3*x)^2).",
+  "id": "A245165",
+  "mentions": [
+    "A245139",
+    "A245154",
+    "A245164",
+    "A245166"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 23:03:54",
+    "offset": 0,
+    "size": 20,
+    "source": "joeis"
+  }
+}

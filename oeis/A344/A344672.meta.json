@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{primes p <=n} phi(floor(n/p)).",
+  "id": "A344672",
+  "mentions": [
+    "A000010",
+    "A013939",
+    "A317625",
+    "A346111"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:17",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

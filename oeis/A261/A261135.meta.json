@@ -1,0 +1,20 @@
+{
+  "description": "Decimal value a(n) of the binary number b(n) obtained by starting from n, sequentially concatenating all binary numbers down to 1 and then sequentially concatenating all binary numbers from 2 up to n.",
+  "id": "A261135",
+  "mentions": [
+    "A007942",
+    "A173427"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

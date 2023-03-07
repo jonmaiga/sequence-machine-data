@@ -1,0 +1,25 @@
+{
+  "description": "Triangle read by rows, the coefficients of the polynomials generating the columns of A287316.",
+  "id": "A287314",
+  "mentions": [
+    "A000275",
+    "A000384",
+    "A169711",
+    "A169712",
+    "A169713",
+    "A212855",
+    "A287316"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

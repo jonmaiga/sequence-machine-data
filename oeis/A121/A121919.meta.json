@@ -1,0 +1,18 @@
+{
+  "description": "Least m such that partition number of m modulo m (=A093952(m)) is n.",
+  "id": "A121919",
+  "mentions": [
+    "A000041",
+    "A093952"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:10",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

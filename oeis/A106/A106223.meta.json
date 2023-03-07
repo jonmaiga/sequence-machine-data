@@ -1,0 +1,22 @@
+{
+  "description": "Self-convolution 5th power equals A106222, which consists entirely of digits {0,1,2,3,4} after the initial terms {1,5}.",
+  "id": "A106223",
+  "mentions": [
+    "A106219",
+    "A106221",
+    "A106222",
+    "A106225"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

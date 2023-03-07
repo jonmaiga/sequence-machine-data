@@ -1,0 +1,27 @@
+{
+  "description": "Positive integers k such that x^2 - 8xy + y^2 + k = 0 has integer solutions.",
+  "id": "A237606",
+  "mentions": [
+    "A001091",
+    "A031363",
+    "A070997",
+    "A077248",
+    "A084917",
+    "A141302",
+    "A199336",
+    "A237351",
+    "A237599",
+    "A237609",
+    "A237610"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

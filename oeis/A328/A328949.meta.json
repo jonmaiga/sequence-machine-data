@@ -1,0 +1,21 @@
+{
+  "description": "Number of non-primitive Pythagorean triples with n as a leg or the hypotenuse.",
+  "id": "A328949",
+  "mentions": [
+    "A024363",
+    "A046081",
+    "A328708",
+    "A328712"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

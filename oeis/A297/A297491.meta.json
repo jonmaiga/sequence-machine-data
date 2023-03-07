@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = (1/2) * Sum_{|k|<=2*sqrt(p)} k^4*H(4*p-k^2) where H() is the Hurwitz class number and p is n-th prime.",
+  "id": "A297491",
+  "mentions": [
+    "A000040",
+    "A084920",
+    "A259825",
+    "A297492",
+    "A297493",
+    "A297494"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:17",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

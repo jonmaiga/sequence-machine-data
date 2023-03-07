@@ -1,0 +1,26 @@
+{
+  "description": "Expansion of (1-7*x)/(1-9*x).",
+  "id": "A270369",
+  "mentions": [
+    "A001019",
+    "A054879",
+    "A055275",
+    "A067403",
+    "A092810",
+    "A102518",
+    "A270472",
+    "A270473"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:33",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

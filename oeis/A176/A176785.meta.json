@@ -1,0 +1,23 @@
+{
+  "description": "Sequence with e.g.f. g(x) = -(1/2)*sqrt(2*exp(-2*x)-1) + 1/2.",
+  "id": "A176785",
+  "mentions": [
+    "A000629",
+    "A000984",
+    "A124212",
+    "A124214",
+    "A229558"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

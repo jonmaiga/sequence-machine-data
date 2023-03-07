@@ -1,0 +1,17 @@
+{
+  "description": "Largest prime factor of A023199(n).",
+  "id": "A108402",
+  "mentions": [
+    "A023199"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 2,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

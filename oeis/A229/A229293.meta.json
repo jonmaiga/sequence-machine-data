@@ -1,0 +1,17 @@
+{
+  "description": "Number of binary words of length n with exactly k (possibly overlapping) occurrences of the subword given by the binary expansion of n for maximal k with at least one word.",
+  "id": "A229293",
+  "mentions": [
+    "A233940"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:46",
+    "offset": 0,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

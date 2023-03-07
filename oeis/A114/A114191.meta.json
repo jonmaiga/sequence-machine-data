@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of 1/(1+x*c(-2*x)), c(x) the g.f. of A000108.",
+  "id": "A114191",
+  "mentions": [
+    "A000108",
+    "A039599",
+    "A062992",
+    "A114189",
+    "A114193"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:04",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

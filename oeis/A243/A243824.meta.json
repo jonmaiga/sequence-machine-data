@@ -1,0 +1,25 @@
+{
+  "description": "Two-column array A(n,s) of pairs (n,s) read by row where s is the smallest seed number such that the Reverse and Add! trajectory of s contains n (excluding cases where n=s).",
+  "id": "A243824",
+  "mentions": [
+    "A006960",
+    "A023109",
+    "A033665",
+    "A063048",
+    "A070788",
+    "A077594"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "more",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 2,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

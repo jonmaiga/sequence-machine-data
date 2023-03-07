@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of the sum of the alternating series of reciprocals of composite numbers with distinct prime factors.",
+  "id": "A275110",
+  "mentions": [
+    "A000961",
+    "A024619",
+    "A269229",
+    "A275712"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "cons",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

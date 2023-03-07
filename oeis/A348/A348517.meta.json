@@ -1,0 +1,19 @@
+{
+  "description": "Positive integers m with the property that there are 4 positive integers b_1 < b_2 < b_3 < b_4 such that b_1 divides b_2, b_2 divides b_3, b_3 divides b_4, and m = b_1 + b_2 + b_3 + b_4.",
+  "id": "A348517",
+  "mentions": [
+    "A019532",
+    "A160811",
+    "A348518"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

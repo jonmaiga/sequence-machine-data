@@ -1,0 +1,18 @@
+{
+  "description": "The (n-1)th decimal place of the fractional part of the square root of n.",
+  "id": "A187765",
+  "mentions": [
+    "A003076"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

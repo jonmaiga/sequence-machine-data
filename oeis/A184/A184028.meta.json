@@ -1,0 +1,17 @@
+{
+  "description": "1/8 the number of (n+1)X9 0..3 arrays with all 2X2 subblock sums the same",
+  "id": "A184028",
+  "mentions": [
+    "A184029"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

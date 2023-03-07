@@ -1,0 +1,21 @@
+{
+  "description": "Odd numbers whose binary expansion begins 10.",
+  "id": "A171763",
+  "mentions": [
+    "A004754",
+    "A171757",
+    "A171758",
+    "A171764"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:55",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

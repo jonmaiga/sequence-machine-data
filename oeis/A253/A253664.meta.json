@@ -1,0 +1,18 @@
+{
+  "description": "Partition the sequence A073682 into groups so that the sum of each group is prime, then a(n) is the sum of terms in n-th group.",
+  "id": "A253664",
+  "mentions": [
+    "A000040",
+    "A073682"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:12",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

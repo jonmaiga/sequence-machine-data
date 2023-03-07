@@ -1,0 +1,27 @@
+{
+  "description": "Self-inverse permutation of natural numbers: a(1) = 1; a(n) = A000079(A193231(A007814(n))) * A250469(a(A268674(n))).",
+  "id": "A268675",
+  "mentions": [
+    "A000035",
+    "A000079",
+    "A000265",
+    "A007814",
+    "A020639",
+    "A055396",
+    "A193231",
+    "A250469",
+    "A268385",
+    "A268674"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:30",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

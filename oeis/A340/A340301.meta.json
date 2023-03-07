@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = n * floor(log_2(n)).",
+  "id": "A340301",
+  "mentions": [
+    "A000523",
+    "A061717",
+    "A326299",
+    "A336018"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:13",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

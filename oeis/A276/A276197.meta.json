@@ -1,0 +1,20 @@
+{
+  "description": "Prime numbers p such that the sum of the first p odd primes is divisible by p.",
+  "id": "A276197",
+  "mentions": [
+    "A071148",
+    "A097961"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

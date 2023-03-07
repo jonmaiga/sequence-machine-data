@@ -1,0 +1,25 @@
+{
+  "description": "Numbers k such that L(k) is odd, where L = A000201 = lower Wythoff sequence.",
+  "id": "A283766",
+  "mentions": [
+    "A000201",
+    "A001622",
+    "A085002",
+    "A085003",
+    "A105774",
+    "A283765",
+    "A283768"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:54",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

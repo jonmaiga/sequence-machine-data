@@ -1,0 +1,19 @@
+{
+  "description": "a(n) represents the minimum number k, not already present in the sequence, whose digit sum is equal to the digital root of Sum_{j=0..n-1} a(j), with a(0)=0 and a(1)=1.",
+  "id": "A161995",
+  "mentions": [
+    "A010888"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

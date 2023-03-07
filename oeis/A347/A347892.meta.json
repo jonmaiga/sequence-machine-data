@@ -1,0 +1,23 @@
+{
+  "description": "Nonsquarefree numbers k such that A003968(k) is a multiple of k, where A003968 is multiplicative with a(p^e) = p*(p+1)^(e-1).",
+  "id": "A347892",
+  "mentions": [
+    "A003968",
+    "A007814",
+    "A007949",
+    "A013929",
+    "A056170",
+    "A338539",
+    "A348499"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:21",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

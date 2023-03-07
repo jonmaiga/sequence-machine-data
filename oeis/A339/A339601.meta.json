@@ -1,0 +1,20 @@
+{
+  "description": "Starting from x_0 = n, iterate by dividing with 3 (discarding any remainder), until zero is reached: x_1 = floor(x_0/3), x_2 = floor(x_1/3), etc. Then a(n) = Sum_{i=0..} (x_i AND 2^i), where AND is bitwise-and.",
+  "id": "A339601",
+  "mentions": [
+    "A004198",
+    "A037095",
+    "A332497"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Floor((n+1/n)^9)",
+  "id": "A197710",
+  "mentions": [
+    "A014052",
+    "A197602",
+    "A197603",
+    "A197604"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:19",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

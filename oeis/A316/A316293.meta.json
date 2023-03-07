@@ -1,0 +1,25 @@
+{
+  "description": "Number T(n,k) of permutations p of [n] such that k is the maximum of the partial sums of the signed up-down jump sequence of 0,p; triangle T(n,k), k>=0, k<=n<=k*(k+1)/2, read by columns.",
+  "id": "A316293",
+  "mentions": [
+    "A000142",
+    "A000217",
+    "A000522",
+    "A258829",
+    "A291722",
+    "A303697",
+    "A316292",
+    "A316294"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:34",
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "The concatenated list of the positive divisors of the terms of sequence A129643. Also, a(n) = A129643(n+1)/A129643(n) -1.",
+  "id": "A129644",
+  "mentions": [
+    "A129643"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

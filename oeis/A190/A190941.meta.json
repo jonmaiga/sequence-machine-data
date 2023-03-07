@@ -1,0 +1,20 @@
+{
+  "description": "Partial sums of A190592.",
+  "id": "A190941",
+  "mentions": [
+    "A190592"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:15",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Greatest positive integer that can be represented as the sum of exactly two semiprimes in exactly n ways.",
+  "id": "A100593",
+  "mentions": [
+    "A001358",
+    "A072966",
+    "A076768",
+    "A100570"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

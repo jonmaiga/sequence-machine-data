@@ -1,0 +1,20 @@
+{
+  "description": "The limit of the string \"0, 1\" under the operation 'append last k terms, append first k terms, increment k' with k=1 initially.",
+  "id": "A215581",
+  "mentions": [
+    "A094186",
+    "A215531",
+    "A215532"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

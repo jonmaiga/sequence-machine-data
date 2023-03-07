@@ -1,0 +1,21 @@
+{
+  "description": "Fixed points of A036742.",
+  "id": "A163273",
+  "mentions": [
+    "A036742"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

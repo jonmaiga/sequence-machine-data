@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of e.g.f. 1/(1 + (x * log(1-x))^3 / 36).",
+  "id": "A353881",
+  "mentions": [
+    "A052830",
+    "A346922",
+    "A353880",
+    "A353882",
+    "A353884"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

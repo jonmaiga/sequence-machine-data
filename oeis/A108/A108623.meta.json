@@ -1,0 +1,23 @@
+{
+  "description": "G.f. satisfies x = (A(x)-(A(x))^2)/(1-A(x)-(A(x))^2).",
+  "id": "A108623",
+  "mentions": [
+    "A039978",
+    "A053538",
+    "A105523",
+    "A108624",
+    "A212804",
+    "A357588"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:00",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

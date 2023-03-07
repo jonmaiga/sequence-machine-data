@@ -1,0 +1,23 @@
+{
+  "description": "Primorials P for which neither P-1 nor P+1 is prime.",
+  "id": "A136352",
+  "mentions": [
+    "A002110",
+    "A121069",
+    "A136349",
+    "A136350",
+    "A136351"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:24",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

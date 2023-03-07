@@ -1,0 +1,26 @@
+{
+  "description": "Number of integer partitions y of n such that exactly one permutation of y is a Lyndon word.",
+  "id": "A298947",
+  "mentions": [
+    "A000041",
+    "A000740",
+    "A001037",
+    "A032741",
+    "A059966",
+    "A144300",
+    "A167934",
+    "A292444",
+    "A293511",
+    "A298941"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

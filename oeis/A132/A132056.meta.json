@@ -1,0 +1,32 @@
+{
+  "description": "Triangle read by rows, the Bell transform of Product_{k=0..n} 7*k+1 without column 0.",
+  "id": "A132056",
+  "mentions": [
+    "A008277",
+    "A008297",
+    "A035342",
+    "A035469",
+    "A045754",
+    "A049029",
+    "A049385",
+    "A051186",
+    "A092082",
+    "A132057",
+    "A132060",
+    "A132061",
+    "A264428"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

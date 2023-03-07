@@ -1,0 +1,35 @@
+{
+  "description": "Signature-permutation of Vaillé's 1997 bijection on 'bridges' (Dyck paths).",
+  "id": "A125985",
+  "mentions": [
+    "A000523",
+    "A004198",
+    "A014137",
+    "A014138",
+    "A014486",
+    "A057514",
+    "A057515",
+    "A072643",
+    "A080300",
+    "A090996",
+    "A125986",
+    "A126291",
+    "A126292",
+    "A126293",
+    "A126300",
+    "A126301",
+    "A126307",
+    "A126309",
+    "A126310"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:14",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

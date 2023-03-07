@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = largest k such that prime(n) + A002110(k) is prime.",
+  "id": "A265109",
+  "mentions": [
+    "A000040",
+    "A002110",
+    "A035346",
+    "A100380"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

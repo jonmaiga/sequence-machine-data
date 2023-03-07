@@ -1,0 +1,21 @@
+{
+  "description": "A polynomial of matrices is used to make a triangular sequence. The upper triangular antidiagonal Steinbach matrices are summed over their characteristic polynomial triangular sequences to give a new sequence of matrices: the characteristic polynomials of these new summed matrices are, then, used to make up this triangular sequence.",
+  "id": "A123951",
+  "mentions": [
+    "A122765",
+    "A122771"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

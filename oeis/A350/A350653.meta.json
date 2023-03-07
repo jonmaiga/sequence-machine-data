@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of weak compositions of n into n-1 parts in which at least one part is zero.",
+  "id": "A350653",
+  "mentions": [
+    "A001791",
+    "A010763"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:24",
+    "offset": 2,
+    "size": 25,
+    "source": "joeis"
+  }
+}

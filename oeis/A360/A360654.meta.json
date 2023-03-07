@@ -1,0 +1,22 @@
+{
+  "description": "Irregular table read by rows; for n > 1, the n-th row lists the numbers of the form binomial(m, k-1) such that binomial(m, k) = n.",
+  "id": "A360654",
+  "mentions": [
+    "A000217",
+    "A007318",
+    "A360653",
+    "A360655"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "new",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 2,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

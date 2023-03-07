@@ -1,0 +1,24 @@
+{
+  "description": "Absolute({n concatenate R(n)}-{R(n) concatenate n})/11, where R(n) = digit reversal of n.",
+  "id": "A110727",
+  "mentions": [
+    "A110722",
+    "A110723",
+    "A110724",
+    "A110725",
+    "A110726"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-10-18 14:56:44",
+    "offset": 10,
+    "size": 56,
+    "source": "joeis"
+  }
+}

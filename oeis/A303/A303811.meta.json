@@ -1,0 +1,21 @@
+{
+  "description": "Least k such that A006666(k)/A006667(k) = prime(n).",
+  "id": "A303811",
+  "mentions": [
+    "A006577",
+    "A006666",
+    "A006667",
+    "A172367",
+    "A287798"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

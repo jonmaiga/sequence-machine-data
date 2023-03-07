@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that (k-th odd semiprime)/(j-th prime) is prime and ((k+1)-th odd semiprime)/((j+1)-th prime) is prime for some j.",
+  "id": "A176550",
+  "mentions": [
+    "A020639",
+    "A046315",
+    "A084126",
+    "A084127",
+    "A176484"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = n if n is even and otherwise its nearest multiple of 4.",
+  "id": "A201629",
+  "mentions": [
+    "A004524",
+    "A085801",
+    "A189889",
+    "A190394",
+    "A240828"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 17:32:19",
+    "offset": 0,
+    "size": 69,
+    "source": "joeis"
+  }
+}

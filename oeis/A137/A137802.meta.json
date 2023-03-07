@@ -1,0 +1,19 @@
+{
+  "description": "Number of arrangements of 2n couples into n cars such that each car contains 2 men and 2 women but no couple (cars are unlabeled).",
+  "id": "A137802",
+  "mentions": [
+    "A094047",
+    "A137801"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

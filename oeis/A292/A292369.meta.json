@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that f(f(f(n))) = f(f(n)) + f(n) where f = A000203.",
+  "id": "A292369",
+  "mentions": [
+    "A000203",
+    "A019279",
+    "A051027",
+    "A061652",
+    "A066971"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Emirps with a single 2 as the only prime digit.",
+  "id": "A179033",
+  "mentions": [
+    "A006567",
+    "A179032"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:02",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

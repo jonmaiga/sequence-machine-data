@@ -1,0 +1,24 @@
+{
+  "description": "Cyclops emirps.",
+  "id": "A183057",
+  "mentions": [
+    "A006567",
+    "A134808",
+    "A134809",
+    "A138148",
+    "A160712",
+    "A160725"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

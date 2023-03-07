@@ -1,0 +1,19 @@
+{
+  "description": "Odd numbers k such that if k = A001065(m) for some m then m is a squarefree semiprime (A006881).",
+  "id": "A342092",
+  "mentions": [
+    "A001065",
+    "A005114",
+    "A006881"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:15",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

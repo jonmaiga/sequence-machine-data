@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the least m > 0 such that Fibonacci(n-m) divides Lucas(n+m).",
+  "id": "A214920",
+  "mentions": [
+    "A214919"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:32",
+    "offset": 2,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Next term is the largest earlier term that would not create a repetition of an earlier subsequence of length 2, if such a number exists; otherwise it is the smallest nonnegative number not yet in the sequence.",
+  "id": "A305615",
+  "mentions": [
+    "A000196",
+    "A053186",
+    "A269501",
+    "A269780",
+    "A316323"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-entry"
+  }
+}

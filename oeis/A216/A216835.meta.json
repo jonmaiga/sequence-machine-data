@@ -1,0 +1,21 @@
+{
+  "description": "Fibonacci + Goldbach (dual sequence to A216275). a(1)=5, a(2)=7 and for n>=3, a(n) = g(a(n-1) + a(n-2)), where for m>=3, g(2*m) is the maximal prime p < 2*m such that 2*m - p is prime.",
+  "id": "A216835",
+  "mentions": [
+    "A000045",
+    "A002375",
+    "A025019",
+    "A216275"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:34",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

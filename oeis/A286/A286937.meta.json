@@ -1,0 +1,24 @@
+{
+  "description": "{111->null}-transform of the Sturmian word A080764.",
+  "id": "A286937",
+  "mentions": [
+    "A080764",
+    "A286804",
+    "A286805",
+    "A286806",
+    "A286938",
+    "A286939"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:58",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

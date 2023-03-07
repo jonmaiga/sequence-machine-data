@@ -1,0 +1,27 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of set partitions of {1,2,...,n} in which the last block is the singleton {k}, 1<=k<=n; the blocks are ordered with increasing least elements.",
+  "id": "A108458",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A000051",
+    "A000110",
+    "A005493",
+    "A033452",
+    "A108459",
+    "A108461",
+    "A124496"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:00",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

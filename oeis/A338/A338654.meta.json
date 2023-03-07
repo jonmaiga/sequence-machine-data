@@ -1,0 +1,22 @@
+{
+  "description": "T(n, k) = 2^n * Product_{j=1..k}((j/2)^((-1)^(j - 1)). Triangle read by rows, for 0 <= k <= n.",
+  "id": "A338654",
+  "mentions": [
+    "A000079",
+    "A056040",
+    "A163590",
+    "A253665",
+    "A328002"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:10",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

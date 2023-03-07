@@ -1,0 +1,27 @@
+{
+  "description": "Numerators of the partial sums of the reciprocals of the numbers (k + 1)*(5*k + 3) = A147874(k+2), for k >= 0.",
+  "id": "A294828",
+  "mentions": [
+    "A001620",
+    "A001622",
+    "A147874",
+    "A294512",
+    "A294826",
+    "A294827",
+    "A294829",
+    "A294830"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:13",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

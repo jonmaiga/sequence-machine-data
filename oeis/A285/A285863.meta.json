@@ -1,0 +1,27 @@
+{
+  "description": "Numerators of Bernoulli numbers 3^n*B(n), with B(n) = A027641(n)/A027642(n).",
+  "id": "A285863",
+  "mentions": [
+    "A027641",
+    "A027642",
+    "A053382",
+    "A053383",
+    "A157817",
+    "A196838",
+    "A196839",
+    "A285068"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:57",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

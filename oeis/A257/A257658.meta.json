@@ -1,0 +1,21 @@
+{
+  "description": "Primes of the form A060735(k) +- 1, where A060735 lists multiples of primorials (A002110) less than the next larger primorial.",
+  "id": "A257658",
+  "mentions": [
+    "A002110",
+    "A060735",
+    "A087715",
+    "A087732"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:15",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

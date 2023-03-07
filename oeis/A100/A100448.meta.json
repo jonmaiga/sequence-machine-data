@@ -1,0 +1,24 @@
+{
+  "description": "Number of triples (i,j,k) with 1 <= i <= j < k <= n and gcd{i,j,k} = 1.",
+  "id": "A100448",
+  "mentions": [
+    "A015616",
+    "A015631",
+    "A018805",
+    "A027430",
+    "A071778",
+    "A102309"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:51",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

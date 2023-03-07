@@ -1,0 +1,21 @@
+{
+  "description": "[x^(n+1)]Reversion[x*(1-x)/(1-3*x)].",
+  "id": "A152681",
+  "mentions": [
+    "A000108",
+    "A090181",
+    "A125695"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:35",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

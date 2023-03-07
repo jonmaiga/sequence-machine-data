@@ -1,0 +1,32 @@
+{
+  "description": "Ascending descending base exponent transform of sequence A000034(n) = 1 + n mod 2.",
+  "id": "A113497",
+  "mentions": [
+    "A000034",
+    "A005408",
+    "A040001",
+    "A087316",
+    "A113122",
+    "A113153",
+    "A113154",
+    "A113208",
+    "A113231",
+    "A113257",
+    "A113258",
+    "A113271",
+    "A113320",
+    "A113336"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:20:17",
+    "offset": 1,
+    "size": 69,
+    "source": "joeis"
+  }
+}

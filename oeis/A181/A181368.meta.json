@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of L-convex polyominoes of semiperimeter n, having k maximal rectangles (n >= 2, 1 <= k <= floor(n/2)). An L-convex polyomino is a convex polyomino in which any two cells can be connected by a path internal to the polyomino and which has at most 1 change of direction (i.e., one of the four orientations of the letter L). A maximal rectangle in an L-convex polyomino P is a rectangle included in P that is maximal with respect to inclusion.",
+  "id": "A181368",
+  "mentions": [
+    "A003480",
+    "A181369"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 2,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

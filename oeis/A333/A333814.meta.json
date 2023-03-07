@@ -1,0 +1,33 @@
+{
+  "description": "Multiples of 12 whose sum of digits is 12.",
+  "id": "A333814",
+  "mentions": [
+    "A008594",
+    "A011557",
+    "A052217",
+    "A052223",
+    "A057147",
+    "A062768",
+    "A063416",
+    "A063997",
+    "A069537",
+    "A069540",
+    "A069543",
+    "A235151",
+    "A283737",
+    "A283742",
+    "A333834"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:12",
+    "offset": 1,
+    "size": 47,
+    "source": "joeis"
+  }
+}

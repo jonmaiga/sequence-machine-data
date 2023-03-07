@@ -1,0 +1,18 @@
+{
+  "description": "Number of horizontal, vertical, diagonal and antidiagonal neighbor colorings of the odd squares of an n X 6 array with new integer colors introduced in row major order.",
+  "id": "A215743",
+  "mentions": [
+    "A215745",
+    "A215847"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:33",
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

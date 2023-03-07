@@ -1,0 +1,31 @@
+{
+  "description": "List of possible numbers for the final 'trapped' square of a knight moving on an infinitely large 2-dimensional spirally numbered board starting from any square.",
+  "id": "A306291",
+  "mentions": [
+    "A316328",
+    "A316667",
+    "A316884",
+    "A316967",
+    "A317105",
+    "A317106",
+    "A317415",
+    "A317416",
+    "A317437",
+    "A317438",
+    "A323469",
+    "A323470",
+    "A323471",
+    "A323472"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

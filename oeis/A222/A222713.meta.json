@@ -1,0 +1,18 @@
+{
+  "description": "Least number k such that n divides gcd(sigma(k), phi(k)) (A009223).",
+  "id": "A222713",
+  "mentions": [
+    "A009223",
+    "A222714"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:40",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

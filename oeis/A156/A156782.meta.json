@@ -1,0 +1,17 @@
+{
+  "description": "Primes : if sums of prime number and 4 consecutive prime numbers on-left-and-on-right are also primes.",
+  "id": "A156782",
+  "mentions": [
+    "A156781"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:38",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

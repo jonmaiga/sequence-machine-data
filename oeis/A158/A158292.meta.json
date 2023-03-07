@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k where the sum of all of its divisors != sqrt(k) exceeds the sum of all the divisors of m != sqrt(m) for all m < k.",
+  "id": "A158292",
+  "mentions": [
+    "A141406"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

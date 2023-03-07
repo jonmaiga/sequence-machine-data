@@ -1,0 +1,19 @@
+{
+  "description": "Wagstaff primes related to The New Mersenne Conjecture that are the indices of perfect numbers in a list of centered 9-gonal numbers.",
+  "id": "A302333",
+  "mentions": [
+    "A000979",
+    "A107360"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

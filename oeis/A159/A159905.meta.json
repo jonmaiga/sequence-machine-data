@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows, Mobius transform of A004736",
+  "id": "A159905",
+  "mentions": [
+    "A000010",
+    "A004736",
+    "A007438",
+    "A054525"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

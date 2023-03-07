@@ -1,0 +1,19 @@
+{
+  "description": "Lexicographically earliest sequence of distinct positive terms ending in their digital root such that the result of a(n) + a(n+1) also ends in its digital root.",
+  "id": "A334536",
+  "mentions": [
+    "A010888",
+    "A280658"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:05",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "a(1) = 1, then product of consecutive composite numbers sandwiched between primes.",
+  "id": "A109919",
+  "mentions": [
+    "A000040",
+    "A061214",
+    "A072472",
+    "A109920"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "The number of 4-regular plane graphs with all faces 3-gons or 4-gons.",
+  "id": "A111361",
+  "mentions": [
+    "A000103",
+    "A007022",
+    "A007894",
+    "A167156",
+    "A167157",
+    "A167158",
+    "A167159"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:02",
+    "offset": 2,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: for T(n,k), 1<=k<=n, gcd(k,n)=1, consider all representations of k/n as an Egyptian fraction; T(n,k) = minimal value of maximal denominator.",
+  "id": "A111804",
+  "mentions": [
+    "A097847",
+    "A097848",
+    "A097849",
+    "A111807",
+    "A111809",
+    "A111860"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

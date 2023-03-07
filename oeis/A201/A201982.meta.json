@@ -1,0 +1,21 @@
+{
+  "description": "Consider the numbers 0 <= n <= 999 whose decimal digits are represented by (a,b,c). Look at the cross product of the vectors (u,v,w) = (a,b,c)^(c,b,a) in 3-dimensional Euclidean space. Sequence gives numbers n such that the components u, v, w are > = 0.",
+  "id": "A201982",
+  "mentions": [
+    "A002113"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:22",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

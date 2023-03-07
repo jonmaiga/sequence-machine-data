@@ -1,0 +1,18 @@
+{
+  "description": "Largest k <= 2*n such that k is a prime or twice a prime.",
+  "id": "A347694",
+  "mentions": [
+    "A016726",
+    "A347693"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of exp(4*Pi*sqrt(163)) (or A060295^4).",
+  "id": "A166530",
+  "mentions": [
+    "A060295",
+    "A166528",
+    "A166529",
+    "A166531",
+    "A166532"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 70,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

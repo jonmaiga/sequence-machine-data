@@ -1,0 +1,21 @@
+{
+  "description": "Number of even digits in n^3.",
+  "id": "A104639",
+  "mentions": [
+    "A104640",
+    "A196563"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:55",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

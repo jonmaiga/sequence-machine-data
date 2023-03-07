@@ -1,0 +1,23 @@
+{
+  "description": "Primes congruent to 3 in the structure (or curve) of A211000.",
+  "id": "A211003",
+  "mentions": [
+    "A211000",
+    "A211001",
+    "A211002",
+    "A211010",
+    "A211011",
+    "A211020"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

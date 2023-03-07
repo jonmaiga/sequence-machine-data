@@ -1,0 +1,20 @@
+{
+  "description": "Number of ternary words on {0,1,2} having no isolated 0's.",
+  "id": "A120925",
+  "mentions": [
+    "A105114",
+    "A120924"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 16:12:50",
+    "offset": 0,
+    "size": 29,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Permutation of natural numbers: a(n) = A135141(A005940(n)).",
+  "id": "A246365",
+  "mentions": [
+    "A000051",
+    "A003961",
+    "A005940",
+    "A135141",
+    "A246363",
+    "A246366",
+    "A246367"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:02",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Numbers that are the sum of six squares in two or more ways.",
+  "id": "A344806",
+  "mentions": [
+    "A344795",
+    "A344805",
+    "A344807",
+    "A345479",
+    "A345511"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:48:20",
+    "offset": 1,
+    "size": 65,
+    "source": "joeis"
+  }
+}

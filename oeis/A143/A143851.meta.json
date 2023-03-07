@@ -1,0 +1,20 @@
+{
+  "description": "Primes p that divide the sum of their residues modulo all smaller primes (=A024934(p)).",
+  "id": "A143851",
+  "mentions": [
+    "A024924",
+    "A024934",
+    "A065132"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Decimal expansion of Pi^(1/4)/Gamma(3/4).",
+  "id": "A175573",
+  "mentions": [
+    "A068465",
+    "A085565",
+    "A092040",
+    "A247217",
+    "A273081",
+    "A273082",
+    "A273083",
+    "A273084"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:59",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

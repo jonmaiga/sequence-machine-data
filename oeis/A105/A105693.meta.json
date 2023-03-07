@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Fibonacci(2n+2)-2^n.",
+  "id": "A105693",
+  "mentions": [
+    "A000045",
+    "A001906",
+    "A061667",
+    "A258109"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:56",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

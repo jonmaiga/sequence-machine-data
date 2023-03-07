@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the n-th positive integer that has no common 1-bit with n; a(0) = 0.",
+  "id": "A352993",
+  "mentions": [
+    "A000120",
+    "A020522",
+    "A070939",
+    "A295653"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:27",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

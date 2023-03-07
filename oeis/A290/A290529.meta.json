@@ -1,0 +1,23 @@
+{
+  "description": "Inverse of the factorization matrix in the Lambert series factorization theorem.",
+  "id": "A290529",
+  "mentions": [
+    "A000041",
+    "A001318",
+    "A008683",
+    "A078616",
+    "A133732"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

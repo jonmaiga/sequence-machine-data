@@ -1,0 +1,25 @@
+{
+  "description": "Permutation of natural numbers: a(n) = A249745(1+A254103(n)) - 1.",
+  "id": "A254118",
+  "mentions": [
+    "A064216",
+    "A064989",
+    "A249745",
+    "A254103",
+    "A254116",
+    "A254117",
+    "A254120"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:12",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

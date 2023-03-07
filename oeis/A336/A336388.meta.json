@@ -1,0 +1,20 @@
+{
+  "description": "Number of prime divisors of sigma(n) that divide n; a(1) = 0.",
+  "id": "A336388",
+  "mentions": [
+    "A173438",
+    "A336352",
+    "A336387"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:08",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "Numbers m such that 3*m+1 and 8*m+1 are both squares.",
+  "id": "A245031",
+  "mentions": [
+    "A000217",
+    "A006454",
+    "A029546",
+    "A029549",
+    "A045502",
+    "A045899",
+    "A059989",
+    "A157879",
+    "A159683",
+    "A160695",
+    "A200999"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:01",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

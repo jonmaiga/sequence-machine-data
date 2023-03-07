@@ -1,0 +1,21 @@
+{
+  "description": "Number of length four 1..n vectors that contain their harmonic mean.",
+  "id": "A337560",
+  "mentions": [
+    "A248434",
+    "A337110",
+    "A337111",
+    "A337559"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

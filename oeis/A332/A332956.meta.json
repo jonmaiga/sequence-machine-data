@@ -1,0 +1,18 @@
+{
+  "description": "Symmetrical Zumkeller numbers: numbers s whose divisors can be partitioned into two disjoint sets with equal sum and whose non-divisors less than s can also be partitioned in such a way.",
+  "id": "A332956",
+  "mentions": [
+    "A000396",
+    "A083207"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of Integral_{0..1} Li_2(x)^2 dx, where Li_2 is the dilogarithm function.",
+  "id": "A249651",
+  "mentions": [
+    "A002117",
+    "A013661",
+    "A249649"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-entry"
+  }
+}

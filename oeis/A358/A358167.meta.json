@@ -1,0 +1,23 @@
+{
+  "description": "Irregular triangle read by rows: T(n, k) = k-th fixed point in Zhegalkin permutation n (row n of A197819).",
+  "id": "A358167",
+  "mentions": [
+    "A000225",
+    "A001146",
+    "A058891",
+    "A147537",
+    "A197819"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:32",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

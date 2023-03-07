@@ -1,0 +1,21 @@
+{
+  "description": "Table of denominators of coefficients of certain rational polynomials.",
+  "id": "A101023",
+  "mentions": [
+    "A101022"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

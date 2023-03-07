@@ -1,0 +1,22 @@
+{
+  "description": "Areas of integer-sided triangles whose area equals twice their perimeter.",
+  "id": "A289218",
+  "mentions": [
+    "A007237",
+    "A098030",
+    "A290451",
+    "A332922"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

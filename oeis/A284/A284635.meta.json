@@ -1,0 +1,27 @@
+{
+  "description": "Numbers with digits 6 and 8 only.",
+  "id": "A284635",
+  "mentions": [
+    "A032834",
+    "A204093",
+    "A256291",
+    "A256292",
+    "A284293",
+    "A284632",
+    "A284633",
+    "A284634",
+    "A284636"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:16:09",
+    "offset": 1,
+    "size": 44,
+    "source": "joeis"
+  }
+}

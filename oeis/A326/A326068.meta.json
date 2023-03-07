@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = n - sigma(A032742(n)), where sigma is the sum of divisors of n and A032742 gives the largest proper divisor of n.",
+  "id": "A326068",
+  "mentions": [
+    "A000203",
+    "A032742",
+    "A033879",
+    "A326065",
+    "A326066",
+    "A326067",
+    "A326069"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:52",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

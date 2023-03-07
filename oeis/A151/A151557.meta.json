@@ -1,0 +1,20 @@
+{
+  "description": "Squares which are the sum of two or more consecutive squares.",
+  "id": "A151557",
+  "mentions": [
+    "A001032",
+    "A097812",
+    "A174069"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:34",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Palindromes equal to the sum of a prime number with its index.",
+  "id": "A115888",
+  "mentions": [
+    "A002113",
+    "A014688",
+    "A115884"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:06",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

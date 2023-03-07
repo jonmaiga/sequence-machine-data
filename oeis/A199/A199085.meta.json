@@ -1,0 +1,24 @@
+{
+  "description": "Number of distinct values taken by 3rd derivative of x^x^...^x (with n x's and parentheses inserted in all possible ways) at x=1.",
+  "id": "A199085",
+  "mentions": [
+    "A000081",
+    "A000108",
+    "A199205",
+    "A199296",
+    "A215703",
+    "A215842",
+    "A216368"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

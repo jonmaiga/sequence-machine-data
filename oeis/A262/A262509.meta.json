@@ -1,0 +1,35 @@
+{
+  "description": "Numbers n such that there is no other number k for which A155043(k) = A155043(n).",
+  "id": "A262509",
+  "mentions": [
+    "A000005",
+    "A002182",
+    "A002183",
+    "A049820",
+    "A070319",
+    "A086876",
+    "A155043",
+    "A179016",
+    "A259934",
+    "A261089",
+    "A262503",
+    "A262507",
+    "A262508",
+    "A262510",
+    "A262513",
+    "A262514",
+    "A262516",
+    "A262517"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:22",
+    "offset": 0,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

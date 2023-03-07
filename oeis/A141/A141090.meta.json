@@ -1,0 +1,26 @@
+{
+  "description": "Integral quotients of products of first k consecutive composites divided by their sums: products (dividends).",
+  "id": "A141090",
+  "mentions": [
+    "A116536",
+    "A140761",
+    "A140763",
+    "A141089",
+    "A141091",
+    "A141092",
+    "A159578",
+    "A196415"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:29",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Least prime p such that pi(p*n)^2 = pi(q*n)^2 + pi(r*n)^2 for some primes q and r, where pi(x) denotes the number of primes not exceeding x.",
+  "id": "A257364",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A255679",
+    "A257928"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

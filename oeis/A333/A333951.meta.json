@@ -1,0 +1,25 @@
+{
+  "description": "Numbers k such that both k and k+1 are recursive abundant numbers (A333928).",
+  "id": "A333951",
+  "mentions": [
+    "A096399",
+    "A283418",
+    "A318167",
+    "A327635",
+    "A327942",
+    "A331412",
+    "A333926",
+    "A333928",
+    "A333950"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:05",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

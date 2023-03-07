@@ -1,0 +1,26 @@
+{
+  "description": "Triangle of numbers related to the generalized Catalan sequence C(3;n+1) = A064063(n+1), n>=0.",
+  "id": "A115154",
+  "mentions": [
+    "A000108",
+    "A049310",
+    "A064063",
+    "A064094",
+    "A115187",
+    "A115188",
+    "A115192"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Pisano period of A002605 modulo n.",
+  "id": "A175289",
+  "mentions": [
+    "A001175",
+    "A002605",
+    "A046738",
+    "A175181",
+    "A175182",
+    "A175183",
+    "A175184",
+    "A175185",
+    "A175286"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "changed",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:59",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

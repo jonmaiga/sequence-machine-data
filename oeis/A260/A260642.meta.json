@@ -1,0 +1,23 @@
+{
+  "description": "Numbers in A004782, n-1 | C(n-1), but not in A081767, n-1 | C(n), where C(n) = A000108(n) = 2n!/n!(n+1)! are the Catalan numbers.",
+  "id": "A260642",
+  "mentions": [
+    "A000108",
+    "A000225",
+    "A004782",
+    "A014847",
+    "A081767",
+    "A260641"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

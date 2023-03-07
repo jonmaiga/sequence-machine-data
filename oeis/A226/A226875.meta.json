@@ -1,0 +1,21 @@
+{
+  "description": "Number of n-length words w over a 5-ary alphabet {a1,a2,...,a5} such that #(w,a1) >= #(w,a2) >= ... >= #(w,a5) >= 0, where #(w,x) counts the letters x in word w.",
+  "id": "A226875",
+  "mentions": [
+    "A027306",
+    "A092255",
+    "A092429",
+    "A226873"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

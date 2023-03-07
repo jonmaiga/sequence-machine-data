@@ -1,0 +1,27 @@
+{
+  "description": "Square array read by antidiagonals upwards taken the terms of A347270 and replacing the powers of 2 with zeros and the nonpowers of 2 with ones, n >= 1, k >= 0.",
+  "id": "A347519",
+  "mentions": [
+    "A000004",
+    "A000079",
+    "A006370",
+    "A006577",
+    "A043545",
+    "A057716",
+    "A208981",
+    "A347270",
+    "A347283",
+    "A347523"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Positive integers n such that r(n^2)=r(n)^2, where r is the cyclic replacement map of the digits d of n in base 12, that is, d->d+1 if d0 if d=11.",
+  "id": "A127858",
+  "mentions": [
+    "A117755",
+    "A127856",
+    "A127857",
+    "A127859",
+    "A127860",
+    "A127861"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

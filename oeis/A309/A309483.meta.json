@@ -1,0 +1,19 @@
+{
+  "description": "Quotients (!p - Bell(p-1) + 1)/p where p is the n-th prime, !k is Kurepa's left-factorial function (A003422) and Bell(k) is the k-th Bell number (A000110).",
+  "id": "A309483",
+  "mentions": [
+    "A000110",
+    "A003422",
+    "A079609"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

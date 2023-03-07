@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 1/2 times the cancellation factor in reducing Sum_{k=0 to 2n+1} 1/k! to lowest terms.",
+  "id": "A102584",
+  "mentions": [
+    "A061355",
+    "A093101",
+    "A102581",
+    "A102582"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

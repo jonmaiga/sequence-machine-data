@@ -1,0 +1,22 @@
+{
+  "description": "Solutions y to x/SOD(x) = y, where x and y are palindromes.",
+  "id": "A276144",
+  "mentions": [
+    "A002113",
+    "A005349",
+    "A007953",
+    "A276142",
+    "A276143"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:41",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = n^7 - 1.",
+  "id": "A258808",
+  "mentions": [
+    "A024005",
+    "A053716",
+    "A181126",
+    "A258806",
+    "A258807"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:55:37",
+    "offset": 1,
+    "size": 26,
+    "source": "joeis"
+  }
+}

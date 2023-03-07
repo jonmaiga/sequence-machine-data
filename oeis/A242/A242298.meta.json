@@ -1,0 +1,19 @@
+{
+  "description": "Once a number in this sequence is divisible by all numbers 1 to m, subsequent terms are constrained to have the same property; choose the smallest permissible number that is greater than the previous term.",
+  "id": "A242298",
+  "mentions": [
+    "A051451",
+    "A080765",
+    "A095848"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Terms which share a divisor greater than 1 with the value formed by adding them to the sum of their divisors less than or equal to their square roots.",
+  "id": "A102883",
+  "mentions": [
+    "A070039",
+    "A102884"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:53",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

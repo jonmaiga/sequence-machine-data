@@ -1,0 +1,17 @@
+{
+  "description": "Primes of the form 2^k + 31.",
+  "id": "A104069",
+  "mentions": [
+    "A247952"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

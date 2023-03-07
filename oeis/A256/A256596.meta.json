@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the number of iterations of the map x->sigma(x) when starting from n before arriving at a number with more than one ancestor, with a(1)=0 and where sigma is the sum of divisors.",
+  "id": "A256596",
+  "mentions": [
+    "A000203",
+    "A054973",
+    "A085790",
+    "A216200",
+    "A241954"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-entry"
+  }
+}

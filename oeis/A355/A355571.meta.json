@@ -1,0 +1,30 @@
+{
+  "description": "Complement of A007956: numbers not of the form P(k)/k where P(n) is the product of the divisors of n.",
+  "id": "A355571",
+  "mentions": [
+    "A000040",
+    "A001248",
+    "A006881",
+    "A007304",
+    "A007956",
+    "A030514",
+    "A046523",
+    "A050997",
+    "A052485",
+    "A054753",
+    "A065036",
+    "A085986",
+    "A106543"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

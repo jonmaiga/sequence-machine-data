@@ -1,0 +1,27 @@
+{
+  "description": "First differences of A054272, A250473 and A250474: a(n) = A054272(n+1) - A054272(n).",
+  "id": "A251723",
+  "mentions": [
+    "A000879",
+    "A050216",
+    "A054272",
+    "A250473",
+    "A250474",
+    "A251719",
+    "A256446",
+    "A256447",
+    "A256448",
+    "A256449"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:09",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

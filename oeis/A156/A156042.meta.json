@@ -1,0 +1,21 @@
+{
+  "description": "A(n,k) for n >= k in triangular ordering, where A(n,k) is the number of compositions (ordered partitions) of n into k parts, with the first part greater than or equal to all other parts.",
+  "id": "A156042",
+  "mentions": [
+    "A156039",
+    "A156040",
+    "A156041",
+    "A156043"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:38",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Number of ways to write n = x + y (x, y > 0) with n*x + y and n*y - x both prime.",
+  "id": "A232194",
+  "mentions": [
+    "A000040",
+    "A218585",
+    "A218654",
+    "A219864",
+    "A220413",
+    "A227898",
+    "A227899",
+    "A232174",
+    "A232186"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:50",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

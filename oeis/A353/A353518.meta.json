@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 1 if n is a product of superprimorials (A006939), otherwise 0.",
+  "id": "A353518",
+  "mentions": [
+    "A006939",
+    "A181818",
+    "A322585",
+    "A341629"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:28",
+    "offset": 1,
+    "size": 128,
+    "source": "oeis-bfile"
+  }
+}

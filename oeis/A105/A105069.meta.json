@@ -1,0 +1,20 @@
+{
+  "description": "Number of distinct prime divisors of 100^n - 3.",
+  "id": "A105069",
+  "mentions": [
+    "A001221",
+    "A105068"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

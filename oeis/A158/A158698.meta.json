@@ -1,0 +1,17 @@
+{
+  "description": "Numbers not occurring in A073627.",
+  "id": "A158698",
+  "mentions": [
+    "A073627"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of 2*(sqrt(2) - 1).",
+  "id": "A163960",
+  "mentions": [
+    "A010466",
+    "A086178",
+    "A090488",
+    "A156035",
+    "A157258",
+    "A195284"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:09:13",
+    "offset": 0,
+    "size": 99,
+    "source": "joeis"
+  }
+}

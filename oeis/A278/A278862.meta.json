@@ -1,0 +1,17 @@
+{
+  "description": "Numbers that are not the sum of 2 or fewer terms from A057890.",
+  "id": "A278862",
+  "mentions": [
+    "A057890"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:45",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

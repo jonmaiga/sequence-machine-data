@@ -1,0 +1,18 @@
+{
+  "description": "Maximum number of 1's in an fully symmetrical n X n binary matrix with no three 1's adjacent in a line along a row, column or diagonally.",
+  "id": "A261212",
+  "mentions": [
+    "A181018"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

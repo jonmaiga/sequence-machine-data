@@ -1,0 +1,28 @@
+{
+  "description": "Triangle T(n,k), n>=1, 1<=k<=n, where the e.g.f. for column k satisfies: A_k(x) = exp(x*A_k(x^k/k!)).",
+  "id": "A143565",
+  "mentions": [
+    "A000272",
+    "A143566",
+    "A143567",
+    "A143568",
+    "A143569",
+    "A143570",
+    "A143571",
+    "A143572",
+    "A143573",
+    "A319924"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:32",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

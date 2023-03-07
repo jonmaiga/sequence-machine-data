@@ -1,0 +1,17 @@
+{
+  "description": "Starting at k = A001414(n), iterate k -> n mod k until k=0. a(n) is the number of steps taken.",
+  "id": "A329656",
+  "mentions": [
+    "A001414"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

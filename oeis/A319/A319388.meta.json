@@ -1,0 +1,23 @@
+{
+  "description": "Non-palindromic squares.",
+  "id": "A319388",
+  "mentions": [
+    "A000290",
+    "A002113",
+    "A002779",
+    "A029742",
+    "A035090",
+    "A319389"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 09:49:43",
+    "offset": 1,
+    "size": 49,
+    "source": "joeis"
+  }
+}

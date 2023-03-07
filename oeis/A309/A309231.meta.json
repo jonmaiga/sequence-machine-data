@@ -1,0 +1,18 @@
+{
+  "description": "Column 3 of the array at A326662 see Comments.",
+  "id": "A309231",
+  "mentions": [
+    "A326662"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:33",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

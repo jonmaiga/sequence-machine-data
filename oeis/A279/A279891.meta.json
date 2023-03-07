@@ -1,0 +1,28 @@
+{
+  "description": "Triangle read by rows, T(n,k) = 2*n, with n>=k>=0.",
+  "id": "A279891",
+  "mentions": [
+    "A000217",
+    "A002024",
+    "A003056",
+    "A005843",
+    "A046092",
+    "A237593",
+    "A262045",
+    "A262048",
+    "A279693"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:29:31",
+    "offset": 0,
+    "size": 78,
+    "source": "joeis"
+  }
+}

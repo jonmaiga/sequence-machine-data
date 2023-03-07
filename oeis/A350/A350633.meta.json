@@ -1,0 +1,19 @@
+{
+  "description": "First differences of A350632.",
+  "id": "A350633",
+  "mentions": [
+    "A161415",
+    "A256531",
+    "A350632"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

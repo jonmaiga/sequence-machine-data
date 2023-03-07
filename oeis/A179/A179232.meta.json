@@ -1,0 +1,19 @@
+{
+  "description": "Numbers in A075728 which are not one less than some prime.",
+  "id": "A179232",
+  "mentions": [
+    "A006093",
+    "A075728"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:02",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

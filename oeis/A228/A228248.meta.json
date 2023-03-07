@@ -1,0 +1,35 @@
+{
+  "description": "Number of 2n-step lattice paths from (0,0) to (0,0) using steps in {N, S, E, W} starting with East, then always moving straight ahead or turning left.",
+  "id": "A228248",
+  "mentions": [
+    "A000583",
+    "A001511",
+    "A001700",
+    "A004006",
+    "A035363",
+    "A088218",
+    "A357136",
+    "A357182",
+    "A357625",
+    "A357626",
+    "A357627",
+    "A357628",
+    "A357639",
+    "A357640",
+    "A357641",
+    "A357642",
+    "A357706"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:45",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

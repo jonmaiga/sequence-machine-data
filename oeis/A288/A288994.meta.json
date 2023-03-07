@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = n*(n+3) when n is congruent to 0 or 3 (mod 4), and n*(n+3)/2 otherwise.",
+  "id": "A288994",
+  "mentions": [
+    "A000096",
+    "A014695",
+    "A028552",
+    "A060819",
+    "A130658",
+    "A145979",
+    "A227316"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:12:13",
+    "offset": 0,
+    "size": 51,
+    "source": "joeis"
+  }
+}

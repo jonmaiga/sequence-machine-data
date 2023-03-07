@@ -1,0 +1,24 @@
+{
+  "description": "Least number of squares and cubes that add up to n.",
+  "id": "A354761",
+  "mentions": [
+    "A000290",
+    "A000578",
+    "A002376",
+    "A002760",
+    "A002828",
+    "A063274",
+    "A225926",
+    "A274459"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

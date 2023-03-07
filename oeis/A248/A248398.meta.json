@@ -1,0 +1,23 @@
+{
+  "description": "Noncongruent squarefree numbers n with A248394(n)/d(n) = -1, where d(n) = A000005(n).",
+  "id": "A248398",
+  "mentions": [
+    "A000005",
+    "A003273",
+    "A165564",
+    "A248394",
+    "A248395",
+    "A248397",
+    "A248407"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

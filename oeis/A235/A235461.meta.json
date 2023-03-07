@@ -1,0 +1,30 @@
+{
+  "description": "Primes whose base-4 representation also is the base 2-representation of a prime.",
+  "id": "A235461",
+  "mentions": [
+    "A000695",
+    "A065720",
+    "A065727",
+    "A077718",
+    "A089971",
+    "A089981",
+    "A090707",
+    "A090721",
+    "A091924",
+    "A235265",
+    "A235266",
+    "A235462",
+    "A235482"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

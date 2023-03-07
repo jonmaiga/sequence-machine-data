@@ -1,0 +1,22 @@
+{
+  "description": "First elements of maximal isospectral chains of length 6.",
+  "id": "A335085",
+  "mentions": [
+    "A330849",
+    "A335080",
+    "A335081",
+    "A335082",
+    "A335083",
+    "A335084"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

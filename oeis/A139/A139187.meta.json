@@ -1,0 +1,21 @@
+{
+  "description": "Smallest twin prime member A001359 of the form k!/n-1.",
+  "id": "A139187",
+  "mentions": [
+    "A001359",
+    "A006512",
+    "A139186",
+    "A139188"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

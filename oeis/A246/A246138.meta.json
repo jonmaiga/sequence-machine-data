@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = sum(k=0..n-1, A246065(k) ) / n^2.",
+  "id": "A246138",
+  "mentions": [
+    "A246065"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:02",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

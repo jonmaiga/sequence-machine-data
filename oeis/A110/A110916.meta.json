@@ -1,0 +1,18 @@
+{
+  "description": "Number of squares between 10n and 10n+9 (inclusive).",
+  "id": "A110916",
+  "mentions": [
+    "A111025",
+    "A111037"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:02",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

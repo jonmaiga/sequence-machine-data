@@ -1,0 +1,18 @@
+{
+  "description": "Numerator of Sum_{k=1..n} 1/(k*(prime(k+1)-prime(k))).",
+  "id": "A324800",
+  "mentions": [
+    "A324801"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

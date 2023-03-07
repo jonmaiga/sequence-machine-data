@@ -1,0 +1,21 @@
+{
+  "description": "Concatenate the run lengths of the runs of ones and zeros in the binary representation of n in the lowest possible base where it is possible to represent each run length as a single digit. Convert the result to base 10.",
+  "id": "A175911",
+  "mentions": [
+    "A043276",
+    "A101211",
+    "A233836"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:00",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

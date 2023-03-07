@@ -1,0 +1,21 @@
+{
+  "description": "Numbers such that not all divisors occur in their Collatz trajectories.",
+  "id": "A207675",
+  "mentions": [
+    "A006370",
+    "A027750",
+    "A033479",
+    "A070165",
+    "A207674"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:27",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

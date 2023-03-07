@@ -1,0 +1,17 @@
+{
+  "description": "Number of 5 X n nonnegative integer arrays with new values 0 upwards introduced in row major order and no element equal to any horizontal, diagonal or antidiagonal neighbor (colorings ignoring permutations of colors).",
+  "id": "A208100",
+  "mentions": [
+    "A208096"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:28",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

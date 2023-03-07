@@ -1,0 +1,19 @@
+{
+  "description": "G.f.: exp( Sum_{n>=1} A084605(n)^2 * x^n/n ), where A084605(n) is the central coefficient in (1 + x + 4*x^2)^n.",
+  "id": "A322241",
+  "mentions": [
+    "A084605",
+    "A091147",
+    "A322240"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

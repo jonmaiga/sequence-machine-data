@@ -1,0 +1,25 @@
+{
+  "description": "Positive solutions of Monkey and Coconut Problem for the classic case (5 sailors, 1 coconut to the monkey): a(n) = 15625*n - 4 for n >= 1.",
+  "id": "A254029",
+  "mentions": [
+    "A002021",
+    "A002022",
+    "A006091",
+    "A014293",
+    "A085283",
+    "A085606"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:03:17",
+    "offset": 1,
+    "size": 30,
+    "source": "joeis"
+  }
+}

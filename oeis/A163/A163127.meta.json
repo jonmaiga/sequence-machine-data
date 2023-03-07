@@ -1,0 +1,17 @@
+{
+  "description": "a(1)=1. a(n) is the number of integers k, 1 <= k <= n-1, where gcd(a(k), n-k) >= 2.",
+  "id": "A163127",
+  "mentions": [
+    "A163126"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 17:18:29",
+    "offset": 1,
+    "size": 78,
+    "source": "joeis"
+  }
+}

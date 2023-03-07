@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = A114103(n)/n.",
+  "id": "A114104",
+  "mentions": [
+    "A000217",
+    "A003056",
+    "A114103",
+    "A114105"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

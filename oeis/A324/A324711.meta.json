@@ -1,0 +1,18 @@
+{
+  "description": "Number x such that sigma(x) = Sum_{i=1..k} {sigma(x/p_i)}, where p_i are the k prime factors of x.",
+  "id": "A324711",
+  "mentions": [
+    "A000203",
+    "A324710"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:50",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

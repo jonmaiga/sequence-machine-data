@@ -1,0 +1,30 @@
+{
+  "description": "Number A(n,k) of n-length words w over a k-ary alphabet such that w is empty or a prefix z concatenated with letter a_i and i=1 or 0 < #(z,a_{i-1}) >= #(z,a_i), where #(z,a_i) counts the occurrences of the i-th letter in z; square array A(n,k), n>=0, k>=0, read by antidiagonals.",
+  "id": "A240608",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A026010",
+    "A182172",
+    "A240609",
+    "A240610",
+    "A240611",
+    "A240612",
+    "A240613",
+    "A240614",
+    "A240615",
+    "A240616",
+    "A240617"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-10-18 14:56:45",
+    "offset": 0,
+    "size": 91,
+    "source": "joeis"
+  }
+}

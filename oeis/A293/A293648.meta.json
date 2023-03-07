@@ -1,0 +1,21 @@
+{
+  "description": "Sum of two (possibly negative) coprime cubes in at least 2 ways, but not the sum of 2 noncoprime cubes.",
+  "id": "A293648",
+  "mentions": [
+    "A159843",
+    "A293646",
+    "A293647",
+    "A293649",
+    "A293651"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:10",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

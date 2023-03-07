@@ -1,0 +1,18 @@
+{
+  "description": "Triangle read by rows: row n is the expansion of x^n in terms of (x+k)!/x! for decreasing k.",
+  "id": "A213735",
+  "mentions": [
+    "A008278"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

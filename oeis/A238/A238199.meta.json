@@ -1,0 +1,20 @@
+{
+  "description": "Sorted absolute value of discriminant of the polynomials x^n +- x^m +- 1, where 0 < m < n.",
+  "id": "A238199",
+  "mentions": [
+    "A238195",
+    "A238196",
+    "A238197",
+    "A238198"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

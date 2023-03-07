@@ -1,0 +1,23 @@
+{
+  "description": "Even numbers with no more than one odd prime factor, not counting multiplicity.",
+  "id": "A321193",
+  "mentions": [
+    "A001221",
+    "A070776",
+    "A098902",
+    "A100367",
+    "A100368"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:44",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Positions of 0 in A189572; complement of A080652 (conjectured).",
+  "id": "A189573",
+  "mentions": [
+    "A080652",
+    "A189572"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:55:27",
+    "offset": 1,
+    "size": 69,
+    "source": "joeis"
+  }
+}

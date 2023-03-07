@@ -1,0 +1,21 @@
+{
+  "description": "Number of random selections (with replacement) needed from a normal population to assure a greater than one-half chance that the selected group contains the top 10th percentile individual, top 1st percentile individual, the 0.1 percentile, 0.01 percentile etc...",
+  "id": "A219330",
+  "mentions": [
+    "A002162",
+    "A014088",
+    "A033810",
+    "A050255"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

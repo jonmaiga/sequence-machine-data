@@ -1,0 +1,20 @@
+{
+  "description": "Powerful(1) numbers (A001694) whose digit reversal is a pentagonal number (A000326).",
+  "id": "A115695",
+  "mentions": [
+    "A000326",
+    "A001694",
+    "A115696"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

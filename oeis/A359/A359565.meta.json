@@ -1,0 +1,21 @@
+{
+  "description": "Numbers that have at least three divisors with the same value of the Euler totient function (A000010).",
+  "id": "A359565",
+  "mentions": [
+    "A000010",
+    "A326835",
+    "A359563",
+    "A359564",
+    "A359566"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:33",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

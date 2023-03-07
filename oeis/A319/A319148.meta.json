@@ -1,0 +1,27 @@
+{
+  "description": "Irregular triangle T(n,m) where row n lists differences m = j*p - r - 1, with iterator 1 <= j <= A002110(n), p = prime(n+1), and r is the smallest number that exceeds j*p that is coprime to A002110(n+1).",
+  "id": "A319148",
+  "mentions": [
+    "A000010",
+    "A000040",
+    "A002110",
+    "A005867",
+    "A040976",
+    "A046933",
+    "A048670",
+    "A059861",
+    "A286941"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 96,
+    "source": "oeis-entry"
+  }
+}

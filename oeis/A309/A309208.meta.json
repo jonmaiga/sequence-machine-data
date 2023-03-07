@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of (3 tanh (3 tanh (3 tanh (...))))^(-2).",
+  "id": "A309208",
+  "mentions": [
+    "A309204",
+    "A309207",
+    "A309211"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-entry"
+  }
+}

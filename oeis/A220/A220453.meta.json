@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that right truncation of the decimal representation of k^k is never prime.",
+  "id": "A220453",
+  "mentions": [
+    "A220454"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

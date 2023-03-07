@@ -1,0 +1,21 @@
+{
+  "description": "Number of partitions of n^2 into exactly n nonzero squares.",
+  "id": "A319435",
+  "mentions": [
+    "A243148",
+    "A259254",
+    "A319503",
+    "A338585"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:41",
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "description": "Sum of distinct Catalan numbers: a(n) = Sum_{k>=0} A030308(n,k)*C(k+1) where C(n) is the n-th Catalan number (A000108). (C(0) and C(1) not treated as distinct.)",
+  "id": "A197433",
+  "mentions": [
+    "A000108",
+    "A014418",
+    "A022290",
+    "A029931",
+    "A030308",
+    "A059590",
+    "A060112",
+    "A089625",
+    "A176137",
+    "A197354",
+    "A197432",
+    "A239903",
+    "A244155",
+    "A244158",
+    "A244159",
+    "A244230",
+    "A244231",
+    "A244232",
+    "A244315",
+    "A244316"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:19",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

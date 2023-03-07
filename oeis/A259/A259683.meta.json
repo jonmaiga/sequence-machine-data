@@ -1,0 +1,21 @@
+{
+  "description": "Let m = A062695(n); a(n) is value of v in decomposition of m defined in Comments.",
+  "id": "A259683",
+  "mentions": [
+    "A003273",
+    "A006991",
+    "A062695",
+    "A259680",
+    "A259687"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

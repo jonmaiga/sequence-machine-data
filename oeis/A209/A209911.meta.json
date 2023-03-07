@@ -1,0 +1,17 @@
+{
+  "description": "Half the number of (n+1)X7 0..3 arrays with every 2X2 subblock having two or four distinct clockwise edge differences",
+  "id": "A209911",
+  "mentions": [
+    "A209913"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:29",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-bfile"
+  }
+}

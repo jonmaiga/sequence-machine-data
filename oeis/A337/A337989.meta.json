@@ -1,0 +1,21 @@
+{
+  "description": "Number of compositions (ordered partitions) of n^n into n-th powers.",
+  "id": "A337989",
+  "mentions": [
+    "A011782",
+    "A224366",
+    "A290247",
+    "A331402"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Irregular triangle where T(n,k) is the number of finite sets of positive integers with least common multiple n and greatest common divisor k, where k runs over all divisors of n.",
+  "id": "A305567",
+  "mentions": [
+    "A000005",
+    "A076078",
+    "A181819",
+    "A281116",
+    "A285572",
+    "A290103",
+    "A304818",
+    "A305563",
+    "A305564",
+    "A305565",
+    "A305566"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Number of (n+1)X(5+1) 0..1 arrays with each row divisible by 3 and each column divisible by 5, read as a binary number with top and left being the most significant bits.",
+  "id": "A262469",
+  "mentions": [
+    "A262472"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:22",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

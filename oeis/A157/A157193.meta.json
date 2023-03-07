@@ -1,0 +1,20 @@
+{
+  "description": "Greedy Egyptian fraction expansion for 4/Pi",
+  "id": "A157193",
+  "mentions": [
+    "A088538",
+    "A154956",
+    "A156618"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of distinguishable configurations of the nearest larger value problem on an array of size n, using tiebreaking rule III: ties are broken by using the larger value.",
+  "id": "A293348",
+  "mentions": [
+    "A293346",
+    "A293347"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

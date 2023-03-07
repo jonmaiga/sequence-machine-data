@@ -1,0 +1,21 @@
+{
+  "description": "Modified exponential perfect numbers: numbers k such that A241405(k) = 2*k.",
+  "id": "A323757",
+  "mentions": [
+    "A003557",
+    "A054980",
+    "A241405"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

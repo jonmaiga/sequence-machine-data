@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that k^2*2^k + 3 is prime.",
+  "id": "A259298",
+  "mentions": [
+    "A058780"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Remainder of e when the Dirichlet series for e is converted to an infinite product (negated).",
+  "id": "A342574",
+  "mentions": [
+    "A001113",
+    "A282529"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-entry"
+  }
+}

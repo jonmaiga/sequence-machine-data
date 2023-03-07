@@ -1,0 +1,29 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of non-isomorphic n X n symmetric binary matrices with k ones in every row and column up to permutation of rows and columns.",
+  "id": "A333159",
+  "mentions": [
+    "A000012",
+    "A000840",
+    "A000843",
+    "A002865",
+    "A008327",
+    "A122082",
+    "A133687",
+    "A333157",
+    "A333160",
+    "A333161",
+    "A333165"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:03",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

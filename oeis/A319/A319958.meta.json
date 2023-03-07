@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: T(n,k) (n >= 5, 4 <= k <= n-1) = number of lattice 3-polytopes of width larger than 1, size n, and k vertices.",
+  "id": "A319958",
+  "mentions": [
+    "A319957"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 5,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Number of arrays of length 3 that are sums of n consecutive elements of length 3+n-1 permutations of 0..3+n-2.",
+  "id": "A229566",
+  "mentions": [
+    "A229565"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Nearest integer to n^2*sin(n).",
+  "id": "A274087",
+  "mentions": [
+    "A272695",
+    "A274086",
+    "A274088",
+    "A274090",
+    "A274091",
+    "A274092",
+    "A274095",
+    "A274096",
+    "A274097",
+    "A274101",
+    "A274102"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:39",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "description": "Number of integer partitions of n whose mean and geometric mean are both integers.",
+  "id": "A326641",
+  "mentions": [
+    "A051293",
+    "A067538",
+    "A067539",
+    "A078175",
+    "A082553",
+    "A102627",
+    "A316413",
+    "A326027",
+    "A326029",
+    "A326623",
+    "A326642",
+    "A326643",
+    "A326644",
+    "A326645",
+    "A326646",
+    "A326647"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

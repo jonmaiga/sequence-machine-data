@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = 4*n*(4*n^2+1).",
+  "id": "A144965",
+  "mentions": [
+    "A053755"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:52:05",
+    "offset": 0,
+    "size": 34,
+    "source": "joeis"
+  }
+}

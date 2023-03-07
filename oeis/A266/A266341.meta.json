@@ -1,0 +1,25 @@
+{
+  "description": "If A036987(n) = 1, a(n) = n - A053644(n), otherwise a(n) = n - A053644(n) + 2^(A063250(n)-1).",
+  "id": "A266341",
+  "mentions": [
+    "A000079",
+    "A000225",
+    "A004001",
+    "A036987",
+    "A053644",
+    "A063250",
+    "A209861",
+    "A209862"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:27",
+    "offset": 0,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

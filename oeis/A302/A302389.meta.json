@@ -1,0 +1,20 @@
+{
+  "description": "A fractal-like sequence: erasing all pairs of contiguous terms that don't have a digit in common leaves the sequence unchanged.",
+  "id": "A302389",
+  "mentions": [
+    "A274329",
+    "A303845",
+    "A303948"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:26",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

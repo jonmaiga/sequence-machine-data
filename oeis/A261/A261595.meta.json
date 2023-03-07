@@ -1,0 +1,21 @@
+{
+  "description": "Triangular array T(n, k) read by rows (n >= 1, 1 <= k <= n): row n gives the lexicographically earliest doubly centro-symmetric characteristic solution to the n queens problem, or n zeros if no doubly centro-symmetric characteristic solution exists. The k-th queen is placed in square (k, T(n, k)).",
+  "id": "A261595",
+  "mentions": [
+    "A141843",
+    "A260318",
+    "A261596",
+    "A261597"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

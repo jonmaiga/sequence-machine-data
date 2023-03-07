@@ -1,0 +1,32 @@
+{
+  "description": "Number of unlabeled set-systems with n vertices and no endpoints.",
+  "id": "A330124",
+  "mentions": [
+    "A000612",
+    "A007716",
+    "A016031",
+    "A283877",
+    "A302545",
+    "A306005",
+    "A317794",
+    "A317795",
+    "A320665",
+    "A321405",
+    "A330052",
+    "A330054",
+    "A330055",
+    "A330059",
+    "A330196"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

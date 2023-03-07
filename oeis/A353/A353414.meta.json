@@ -1,0 +1,28 @@
+{
+  "description": "Number of ways to write n as a product of the terms of A353355 larger than 1; a(1) = 1 by convention (an empty product).",
+  "id": "A353414",
+  "mentions": [
+    "A003961",
+    "A048675",
+    "A332823",
+    "A348717",
+    "A353303",
+    "A353352",
+    "A353353",
+    "A353354",
+    "A353355",
+    "A353380",
+    "A353415"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:27",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

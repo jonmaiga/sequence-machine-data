@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of e.g.f.: cosh(sqrt(2)*x)/(1-x).",
+  "id": "A277431",
+  "mentions": [
+    "A000023",
+    "A263823",
+    "A277345",
+    "A277432"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "A number N is called \"docile\" if there are two integers a and b such that N = a + b with a > b > 0 and S(a) = S(b) where S(n) is the sum of the digits of the number n.",
+  "id": "A292513",
+  "mentions": [
+    "A292514"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:08",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

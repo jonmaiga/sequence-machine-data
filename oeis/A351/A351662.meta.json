@@ -1,0 +1,21 @@
+{
+  "description": "Initial primes of four consecutive primes with consecutive gaps 10, 20, 30.",
+  "id": "A351662",
+  "mentions": [
+    "A190792",
+    "A190814",
+    "A190817",
+    "A190819",
+    "A190838"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "RMS numbers with non-unique RMS values.",
+  "id": "A141815",
+  "mentions": [
+    "A140480",
+    "A141812",
+    "A141813",
+    "A141814",
+    "A141816"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

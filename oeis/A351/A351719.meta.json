@@ -1,0 +1,38 @@
+{
+  "description": "Lazy-Lucas-Niven numbers: numbers divisible by the number of terms in their maximal (or lazy) representation in terms of the Lucas numbers (A130311).",
+  "id": "A351719",
+  "mentions": [
+    "A000032",
+    "A005349",
+    "A049445",
+    "A064150",
+    "A064438",
+    "A064481",
+    "A118363",
+    "A130311",
+    "A131343",
+    "A328208",
+    "A328212",
+    "A331085",
+    "A331728",
+    "A333426",
+    "A334308",
+    "A342426",
+    "A342726",
+    "A344341",
+    "A351714",
+    "A351720",
+    "A351721"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:26",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

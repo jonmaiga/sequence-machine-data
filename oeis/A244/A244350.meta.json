@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of 'lambda', a Sobolev isoperimetric constant related to the \"rod inequality\", arising from the elasticity study of a rod that is clamped at both ends.",
+  "id": "A244350",
+  "mentions": [
+    "A076414",
+    "A244347"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 103,
+    "source": "oeis-entry"
+  }
+}

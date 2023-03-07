@@ -1,0 +1,24 @@
+{
+  "description": "Ordered forests of k increasing unordered trees on the vertex set {1,2,...,n} in which all outdegrees are <= 2.",
+  "id": "A185421",
+  "mentions": [
+    "A000111",
+    "A019538",
+    "A147309",
+    "A147315",
+    "A185423"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:10",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

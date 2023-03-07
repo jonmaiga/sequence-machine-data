@@ -1,0 +1,22 @@
+{
+  "description": "Values in A091579 that need to be smoothed in order to produce A091588.",
+  "id": "A217590",
+  "mentions": [
+    "A090822",
+    "A091579",
+    "A091587",
+    "A091588"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

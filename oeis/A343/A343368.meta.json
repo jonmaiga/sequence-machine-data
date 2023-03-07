@@ -1,0 +1,18 @@
+{
+  "description": "Number of ways to write n as floor((a^3+b^3)/3) + floor((c^3+d^3)/5), where a,b,c,d are nonnegative integers with a > b and c >= d.",
+  "id": "A343368",
+  "mentions": [
+    "A000578",
+    "A343326"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:16",
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-bfile"
+  }
+}

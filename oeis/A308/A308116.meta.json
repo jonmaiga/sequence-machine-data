@@ -1,0 +1,19 @@
+{
+  "description": "Sum of the perimeters of the integer-sided triangles with perimeter n whose side lengths are squarefree.",
+  "id": "A308116",
+  "mentions": [
+    "A008683",
+    "A308061"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

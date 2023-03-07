@@ -1,0 +1,20 @@
+{
+  "description": "Numbers sandwiched between numbers with exactly three distinct prime factors.",
+  "id": "A357075",
+  "mentions": [
+    "A033992",
+    "A080569",
+    "A357074"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

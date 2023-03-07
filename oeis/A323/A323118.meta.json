@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = U_{n}(n) where U_{n}(x) is a Chebyshev polynomial of the second kind.",
+  "id": "A323118",
+  "mentions": [
+    "A115066",
+    "A318192",
+    "A323117",
+    "A323182",
+    "A349073",
+    "A349074",
+    "A349075",
+    "A349076"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:46",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

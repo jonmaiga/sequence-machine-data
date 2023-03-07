@@ -1,0 +1,23 @@
+{
+  "description": "Zeroless numbers n such that the products of the decimal digits of n and n^2 coincide.",
+  "id": "A257760",
+  "mentions": [
+    "A000290",
+    "A007954",
+    "A029793",
+    "A052040",
+    "A052382",
+    "A257763"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:15",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

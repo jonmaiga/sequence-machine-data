@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = gcd(b(n-1),b(n)), where b(n) = A351871(n).",
+  "id": "A355914",
+  "mentions": [
+    "A351871",
+    "A355898",
+    "A355899"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:30",
+    "offset": 2,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

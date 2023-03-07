@@ -1,0 +1,39 @@
+{
+  "description": "Numbers whose prime indices and prime signature both have integer mean.",
+  "id": "A359905",
+  "mentions": [
+    "A001222",
+    "A008284",
+    "A056239",
+    "A058398",
+    "A067340",
+    "A088529",
+    "A088530",
+    "A112798",
+    "A124010",
+    "A316413",
+    "A326567",
+    "A326568",
+    "A326622",
+    "A327473",
+    "A327482",
+    "A328966",
+    "A348551",
+    "A359904",
+    "A359908",
+    "A360005",
+    "A360068",
+    "A360069"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

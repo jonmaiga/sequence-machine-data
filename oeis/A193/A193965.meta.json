@@ -1,0 +1,20 @@
+{
+  "description": "Triangular array: the self-fusion of (p(n,x)), where p(n,x)=sum{L(k+1)*x^(n-k) : 0<=k<=n}, where L=A000032 (Lucas numbers).",
+  "id": "A193965",
+  "mentions": [
+    "A000032",
+    "A193722",
+    "A193966"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

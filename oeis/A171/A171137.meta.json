@@ -1,0 +1,19 @@
+{
+  "description": "Smallest number m such that n-th prime = A171135(m).",
+  "id": "A171137",
+  "mentions": [
+    "A000040",
+    "A171135",
+    "A171136"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:54",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "description": "Sum of all parts of all partitions of n that do not contain 1 as a part.",
+  "id": "A138880",
+  "mentions": [
+    "A000041",
+    "A000070",
+    "A002865",
+    "A066186",
+    "A133041",
+    "A138135",
+    "A138136",
+    "A138137",
+    "A138138",
+    "A138151",
+    "A138879",
+    "A139100",
+    "A182710",
+    "A182711",
+    "A194552"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:26",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Smallest of four consecutive primes whose sum is a square.",
+  "id": "A206280",
+  "mentions": [
+    "A061275",
+    "A206279",
+    "A206281"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

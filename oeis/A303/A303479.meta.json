@@ -1,0 +1,19 @@
+{
+  "description": "Total volume of the family of rectangular prisms with dimensions p, q, and |q - p| where p divides q, n = p + q and p < q.",
+  "id": "A303479",
+  "mentions": [
+    "A303385"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

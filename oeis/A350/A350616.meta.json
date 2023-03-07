@@ -1,0 +1,24 @@
+{
+  "description": "Indices of odd terms in A350877.",
+  "id": "A350616",
+  "mentions": [
+    "A350615",
+    "A350617",
+    "A350618",
+    "A350619",
+    "A350620",
+    "A350621",
+    "A350833",
+    "A350877"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:25",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

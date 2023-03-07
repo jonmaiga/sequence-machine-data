@@ -1,0 +1,22 @@
+{
+  "description": "Remainder when sum of squares of the first n primes is divided by n-th square pyramidal number.",
+  "id": "A282282",
+  "mentions": [
+    "A000040",
+    "A000330",
+    "A024450",
+    "A262744"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:51",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

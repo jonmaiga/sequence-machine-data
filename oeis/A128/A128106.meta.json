@@ -1,0 +1,20 @@
+{
+  "description": "Sizes of possible gaps around a Gaussian prime: 1 and the even numbers in A001481.",
+  "id": "A128106",
+  "mentions": [
+    "A001481",
+    "A128107",
+    "A128108",
+    "A128109"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:15",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

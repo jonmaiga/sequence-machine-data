@@ -1,0 +1,25 @@
+{
+  "description": "Number T(n,k) of set partitions of [n] such that at least one of the block sizes is k or k=0; triangle T(n,k), n>=0, 0<=k<=n, read by rows.",
+  "id": "A327884",
+  "mentions": [
+    "A000110",
+    "A000296",
+    "A080510",
+    "A276961",
+    "A327869",
+    "A327885",
+    "A328153"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:56",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Composite numbers that are greater than the average of their closest flanking primes.",
+  "id": "A264721",
+  "mentions": [
+    "A024675",
+    "A264719",
+    "A264720",
+    "A264722"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:24",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

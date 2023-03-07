@@ -1,0 +1,23 @@
+{
+  "description": "Eulerian numbers A000295 appearing in the intersection of Fibonacci and Lucas sequences A124168 and A127208.",
+  "id": "A127232",
+  "mentions": [
+    "A000295",
+    "A001591",
+    "A001792",
+    "A074584",
+    "A124168",
+    "A127208"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:15",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-bfile"
+  }
+}

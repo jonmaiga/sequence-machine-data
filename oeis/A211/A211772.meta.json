@@ -1,0 +1,22 @@
+{
+  "description": "Nonprime numbers all of whose divisors are numbers whose decimal digits are in ascending order.",
+  "id": "A211772",
+  "mentions": [
+    "A052015",
+    "A190218",
+    "A211771"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:30",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

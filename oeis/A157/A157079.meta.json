@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = 32805000*n^2 - 10513800*n + 842401.",
+  "id": "A157079",
+  "mentions": [
+    "A156854",
+    "A156866",
+    "A157078",
+    "A157080",
+    "A157081"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:39",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

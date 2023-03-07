@@ -1,0 +1,19 @@
+{
+  "description": "T(n,k)=Number of length n+k 0..2 arrays with at most two downsteps in every k consecutive neighbor pairs",
+  "id": "A255622",
+  "mentions": [
+    "A000244"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:13",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

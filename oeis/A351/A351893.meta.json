@@ -1,0 +1,24 @@
+{
+  "description": "Numbers that contain only even digits in their factorial-base representation.",
+  "id": "A351893",
+  "mentions": [
+    "A005823",
+    "A007623",
+    "A008586",
+    "A014263",
+    "A052849",
+    "A062880",
+    "A351894"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:26",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

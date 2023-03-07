@@ -1,0 +1,34 @@
+{
+  "description": "In the ranked poset of integer partitions ordered by refinement, number of maximal chains from the partition with Heinz number n to the local maximum.",
+  "id": "A300385",
+  "mentions": [
+    "A000041",
+    "A000720",
+    "A001055",
+    "A001222",
+    "A002846",
+    "A056239",
+    "A112798",
+    "A213427",
+    "A215366",
+    "A265947",
+    "A296150",
+    "A299200",
+    "A299202",
+    "A299925",
+    "A300273",
+    "A300383",
+    "A300384"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:24",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

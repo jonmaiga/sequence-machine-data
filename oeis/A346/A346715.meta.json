@@ -1,0 +1,22 @@
+{
+  "description": "The denominators of the semiderivative of the Euler polynomials at x = 1 and normalized by sqrt(Pi).",
+  "id": "A346715",
+  "mentions": [
+    "A346709",
+    "A346710",
+    "A346711",
+    "A346712",
+    "A346714"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

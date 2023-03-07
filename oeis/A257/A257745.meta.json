@@ -1,0 +1,19 @@
+{
+  "description": "Prime numbers that have a hexagonal Voronoi cell in the Voronoi diagram of the Ulam prime spiral.",
+  "id": "A257745",
+  "mentions": [
+    "A000040",
+    "A257527",
+    "A257528"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of Product_{k>=1} (1+x^(5*k-2))^k.",
+  "id": "A263146",
+  "mentions": [
+    "A262879",
+    "A263142",
+    "A263145",
+    "A263147",
+    "A263148"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:23",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Maximum total number of possible moves that any number of queens of the same color can make on an n X n chessboard.",
+  "id": "A275815",
+  "mentions": [
+    "A278211",
+    "A278212",
+    "A278214"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

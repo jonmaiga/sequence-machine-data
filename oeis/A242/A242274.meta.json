@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that k*3^k - 1 is semiprime.",
+  "id": "A242274",
+  "mentions": [
+    "A006553",
+    "A060352",
+    "A242273"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

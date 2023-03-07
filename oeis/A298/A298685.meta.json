@@ -1,0 +1,22 @@
+{
+  "description": "Numbers i such that Fibonacci(i) is divisible by i, i+1, i+2, and i+3.",
+  "id": "A298685",
+  "mentions": [
+    "A000045",
+    "A023172",
+    "A217738",
+    "A221018",
+    "A225219",
+    "A298684"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:21",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "description": "Class number, k, of n; i.e., imaginary quadratic fields negated Q(sqrt(-n))=k, or 0 if n is not squarefree (A005117).",
+  "id": "A191411",
+  "mentions": [
+    "A000924",
+    "A003173",
+    "A005117",
+    "A005847",
+    "A006203",
+    "A013929",
+    "A046002",
+    "A046004",
+    "A046006",
+    "A046008",
+    "A046010",
+    "A046012",
+    "A046014",
+    "A046016",
+    "A046018",
+    "A046020",
+    "A046085",
+    "A055109",
+    "A055110",
+    "A055111",
+    "A056987",
+    "A191408",
+    "A191410"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

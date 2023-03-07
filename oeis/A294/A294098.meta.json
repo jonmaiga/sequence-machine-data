@@ -1,0 +1,21 @@
+{
+  "description": "Number of partitions of 2n into two parts such that one part is squarefree and the other part is nonsquarefree.",
+  "id": "A294098",
+  "mentions": [
+    "A008683",
+    "A008966",
+    "A294097"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

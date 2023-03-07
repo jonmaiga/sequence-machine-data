@@ -1,0 +1,26 @@
+{
+  "description": "1/4 of the number of primitive integral quadruples with sum = 3*n and sum of squares = 3*n^2.",
+  "id": "A278085",
+  "mentions": [
+    "A046897",
+    "A278081",
+    "A278082",
+    "A278083",
+    "A278084",
+    "A278086",
+    "A353589",
+    "A354766",
+    "A354777",
+    "A354778"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:44",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

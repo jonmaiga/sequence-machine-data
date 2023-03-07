@@ -1,0 +1,21 @@
+{
+  "description": "Number of n-element subsets of [5n] whose elements sum to a multiple of n.",
+  "id": "A318433",
+  "mentions": [
+    "A169888",
+    "A304482",
+    "A318431",
+    "A318432"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

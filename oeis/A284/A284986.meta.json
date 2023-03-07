@@ -1,0 +1,18 @@
+{
+  "description": "Integers k such that k^2 is not a palindrome and the square root of the reverse of k^2 yields an integer with the same number of digits as k that is not the reverse of k.",
+  "id": "A284986",
+  "mentions": [
+    "A102859"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:56",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

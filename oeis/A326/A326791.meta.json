@@ -1,0 +1,17 @@
+{
+  "description": "For n > 1, let f_n be the lexicographically earliest sequence of distinct positive terms such that f_n(1) = 1, f_n(2) = n, and for k > 2, f_n(k) divides f_n(k-2) + f_n(k-1); if f_n is finite, then a(n) is the number of terms of f_n, otherwise a(n) = -1; a(1) = 1.",
+  "id": "A326791",
+  "mentions": [
+    "A085947"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

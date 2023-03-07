@@ -1,0 +1,17 @@
+{
+  "description": "Number of nX7 arrays of the minimum value of corresponding elements and their horizontal, diagonal or antidiagonal neighbors in a random 0..2 nX7 array",
+  "id": "A219127",
+  "mentions": [
+    "A219128"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

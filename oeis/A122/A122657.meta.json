@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = if n mod 2 = 1 then (n^2-1)*n^3/4 else n^5/4.",
+  "id": "A122657",
+  "mentions": [
+    "A034828",
+    "A122658"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:15:43",
+    "offset": 0,
+    "size": 35,
+    "source": "joeis"
+  }
+}

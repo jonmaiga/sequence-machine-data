@@ -1,0 +1,20 @@
+{
+  "description": "Smallest a(n) in Pythagorean triple (a, b, c) such that c(n) - b(n) = n.",
+  "id": "A242219",
+  "mentions": [
+    "A000188",
+    "A007913",
+    "A009003"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

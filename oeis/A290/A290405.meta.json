@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of (a(q) / b(q))^3 in powers of q where a(), b() are cubic AGM theta functions.",
+  "id": "A290405",
+  "mentions": [
+    "A000726",
+    "A004016",
+    "A005882",
+    "A005928",
+    "A121590",
+    "A215690"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:05",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "E.g.f. A(x) satisfies: P(A(x)) = exp(x) where P(x) = Product_{n>=1} 1/(1-x^n), the partition function.",
+  "id": "A180563",
+  "mentions": [
+    "A000041",
+    "A000203",
+    "A294330",
+    "A294332"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:03",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

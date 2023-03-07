@@ -1,0 +1,21 @@
+{
+  "description": "Total number of internal nodes in all binary search trees of height n.",
+  "id": "A335922",
+  "mentions": [
+    "A317012",
+    "A335919",
+    "A335920",
+    "A335921"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:07",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-bfile"
+  }
+}

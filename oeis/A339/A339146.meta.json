@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = a(floor(n / 5)) * (n mod 5 + 1); initial terms are 1.",
+  "id": "A339146",
+  "mentions": [
+    "A048896",
+    "A194459"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

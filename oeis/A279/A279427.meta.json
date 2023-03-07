@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that k^2 has an odd number of digits and the middle digit is 7.",
+  "id": "A279427",
+  "mentions": [
+    "A279420",
+    "A279426",
+    "A279428",
+    "A279429"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:46",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

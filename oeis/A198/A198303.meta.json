@@ -1,0 +1,36 @@
+{
+  "description": "Irregular triangle C(n,g) counting connected trivalent simple graphs on 2n vertices with girth exactly g.",
+  "id": "A198303",
+  "mentions": [
+    "A000066",
+    "A002851",
+    "A006923",
+    "A006924",
+    "A006925",
+    "A006926",
+    "A006927",
+    "A014371",
+    "A014372",
+    "A014374",
+    "A014375",
+    "A014376",
+    "A184940",
+    "A184950",
+    "A184960",
+    "A184970",
+    "A184980",
+    "A185131"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "hard",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 2,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

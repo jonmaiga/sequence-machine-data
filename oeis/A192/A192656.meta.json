@@ -1,0 +1,18 @@
+{
+  "description": "Partial sums of the Floor-Sqrt transform of central binomial coefficients.",
+  "id": "A192656",
+  "mentions": [
+    "A192655"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:11",
+    "offset": 0,
+    "size": 36,
+    "source": "joeis"
+  }
+}

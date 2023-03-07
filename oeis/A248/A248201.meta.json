@@ -1,0 +1,27 @@
+{
+  "description": "Numbers n such that n-1, n and n+1 are all squarefree semiprimes.",
+  "id": "A248201",
+  "mentions": [
+    "A006881",
+    "A039833",
+    "A169834",
+    "A195685",
+    "A248202",
+    "A248203",
+    "A248204",
+    "A259349",
+    "A259350",
+    "A259801"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:04",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

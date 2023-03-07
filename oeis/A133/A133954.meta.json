@@ -1,0 +1,22 @@
+{
+  "description": "Difference between the numbers of nonnegative evil and odious multiples of p_n less than 2^p_n, where p_n = n-th prime.",
+  "id": "A133954",
+  "mentions": [
+    "A000069",
+    "A001122",
+    "A001969",
+    "A139035",
+    "A225855"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "description": "Numbers that are a smallest number with k pairs of successive divisors, for some k.",
+  "id": "A328450",
+  "mentions": [
+    "A000005",
+    "A003601",
+    "A027750",
+    "A033676",
+    "A055874",
+    "A060680",
+    "A060681",
+    "A072627",
+    "A088725",
+    "A129308",
+    "A181063",
+    "A199970",
+    "A287142",
+    "A328165",
+    "A328166",
+    "A328449"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

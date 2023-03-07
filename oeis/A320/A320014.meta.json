@@ -1,0 +1,30 @@
+{
+  "description": "Filter sequence combining the binary expansions of proper divisors of n, grouped by their residue classes mod 3.",
+  "id": "A320014",
+  "mentions": [
+    "A019565",
+    "A293214",
+    "A293215",
+    "A293226",
+    "A300833",
+    "A305800",
+    "A319693",
+    "A319990",
+    "A319991",
+    "A319992",
+    "A320010",
+    "A320011",
+    "A320012",
+    "A320013"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:42",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

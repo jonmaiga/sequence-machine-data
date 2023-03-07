@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that the Collatz trajectory of n (iterate T(k)=k/2 if k is even, (3k+1)/2 if k is odd, A014682, starting at n and stopping if you reach 1) never exceeds n.",
+  "id": "A166245",
+  "mentions": [
+    "A014682",
+    "A061641",
+    "A127633"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:49",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

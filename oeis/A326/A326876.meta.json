@@ -1,0 +1,26 @@
+{
+  "description": "BII-numbers of finite topologies without their empty set.",
+  "id": "A326876",
+  "mentions": [
+    "A000798",
+    "A001930",
+    "A003465",
+    "A048793",
+    "A102894",
+    "A102896",
+    "A326031",
+    "A326872",
+    "A326875",
+    "A326878"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

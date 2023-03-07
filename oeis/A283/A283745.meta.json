@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = least m such that 1/(n+1) < f(m) < 1/n, where f(m) = fractional part of m*(golden ratio).",
+  "id": "A283745",
+  "mentions": [
+    "A000045",
+    "A001622",
+    "A283738",
+    "A283746"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

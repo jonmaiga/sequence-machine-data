@@ -1,0 +1,19 @@
+{
+  "description": "Number of nonnegative integer matrices with n distinct columns and any number of distinct nonzero rows with each column sum being 3 and rows in decreasing lexicographic order.",
+  "id": "A331344",
+  "mentions": [
+    "A331160",
+    "A331196",
+    "A331316"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:00",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

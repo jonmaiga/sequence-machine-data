@@ -1,0 +1,21 @@
+{
+  "description": "Smallest of three consecutive primes whose product of digits is equal and nonzero.",
+  "id": "A230084",
+  "mentions": [
+    "A007954",
+    "A053666",
+    "A230082",
+    "A230083"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:47",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

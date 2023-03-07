@@ -1,0 +1,23 @@
+{
+  "description": "Number of ways to place 2 queens on an n X n chessboard so that they attack each other.",
+  "id": "A144945",
+  "mentions": [
+    "A000330",
+    "A005475",
+    "A006002",
+    "A174814"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Greatest common divisor of the proper divisors of n, 0 if there are none.",
+  "id": "A182936",
+  "mentions": [
+    "A048671"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:06",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

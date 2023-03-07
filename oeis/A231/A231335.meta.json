@@ -1,0 +1,22 @@
+{
+  "description": "Number of distinct Fibonacci numbers in rows of triangle A230871.",
+  "id": "A231335",
+  "mentions": [
+    "A000045",
+    "A010056",
+    "A230871",
+    "A231330",
+    "A231331"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

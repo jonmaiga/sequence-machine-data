@@ -1,0 +1,27 @@
+{
+  "description": "Minimal exponents m such that the fractional part of (1024/1000)^m obtains a minimum (when starting with m=1).",
+  "id": "A153677",
+  "mentions": [
+    "A081464",
+    "A137994",
+    "A153669",
+    "A153681",
+    "A153685",
+    "A153693",
+    "A153701",
+    "A153717",
+    "A154130"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

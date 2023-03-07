@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that 1 + n + n^3 + n^5 + n^7 + n^9 + n^11 + n^13 + n^15 + n^17 + n^19 + n^21 + n^23 is prime.",
+  "id": "A124181",
+  "mentions": [
+    "A049407",
+    "A244376"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:38",
+    "offset": 1,
+    "size": 48,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Fully multiplicative with a(p^e) = prime(p mod 6)^e.",
+  "id": "A319986",
+  "mentions": [
+    "A319690",
+    "A319716",
+    "A319984",
+    "A319985",
+    "A319987",
+    "A320116",
+    "A320117"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:42",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Number of subset-sums of integer partitions of n.",
+  "id": "A304792",
+  "mentions": [
+    "A000041",
+    "A108917",
+    "A122768",
+    "A276024",
+    "A284640",
+    "A299701",
+    "A301856",
+    "A301934",
+    "A301979",
+    "A304793"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

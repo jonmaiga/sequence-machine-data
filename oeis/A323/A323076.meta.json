@@ -1,0 +1,23 @@
+{
+  "description": "Number of iterations of map x -> 1+(x-(largest divisor d < x)), starting from x=n, needed to reach a fixed point, which is always either a prime or 1.",
+  "id": "A323076",
+  "mentions": [
+    "A039651",
+    "A060681",
+    "A064918",
+    "A323075",
+    "A323077",
+    "A323079"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:46",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

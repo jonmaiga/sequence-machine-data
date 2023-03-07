@@ -1,0 +1,18 @@
+{
+  "description": "Let u, v be binary vectors of length n, let f(u,v) be length of longest carry propagation when we form the binary sum u+v; then a(n) = Sum_{u,v} f(u,v).",
+  "id": "A192054",
+  "mentions": [
+    "A050602"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:15",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

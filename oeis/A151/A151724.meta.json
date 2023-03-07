@@ -1,0 +1,23 @@
+{
+  "description": "First differences of A151723.",
+  "id": "A151724",
+  "mentions": [
+    "A000695",
+    "A068293",
+    "A139250",
+    "A151723",
+    "A169759",
+    "A170898",
+    "A170899"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:34",
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

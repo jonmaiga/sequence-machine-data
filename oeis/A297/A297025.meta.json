@@ -1,0 +1,21 @@
+{
+  "description": "Number of iterations of A220096 required to reach 0 starting from n.",
+  "id": "A297025",
+  "mentions": [
+    "A056792",
+    "A061282",
+    "A220096",
+    "A260112",
+    "A297026"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:17",
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

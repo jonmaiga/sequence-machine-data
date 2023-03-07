@@ -1,0 +1,26 @@
+{
+  "description": "Expansion of e.g.f. exp(x)*(1 - x)/(1 - 2*x).",
+  "id": "A308876",
+  "mentions": [
+    "A002866",
+    "A010844",
+    "A011782",
+    "A067273",
+    "A161936",
+    "A271705",
+    "A294466",
+    "A326659",
+    "A327606"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:33",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

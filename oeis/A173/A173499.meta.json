@@ -1,0 +1,18 @@
+{
+  "description": "Number of sequences of length n with terms from {0,1,...,n-1} such that the sum of terms is 0 modulo n and the i-th term is not i.",
+  "id": "A173499",
+  "mentions": [
+    "A173500"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

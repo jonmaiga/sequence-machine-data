@@ -1,0 +1,19 @@
+{
+  "description": "Number of rational curves on S of degree d passing through d-1 general points, where S is a general cubic surface in projective 3-space.",
+  "id": "A238370",
+  "mentions": [
+    "A013587",
+    "A027363"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

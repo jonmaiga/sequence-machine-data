@@ -1,0 +1,28 @@
+{
+  "description": "Toothpick sequence starting from a cross formed by 4 toothpicks.",
+  "id": "A160740",
+  "mentions": [
+    "A000695",
+    "A139250",
+    "A139251",
+    "A160170",
+    "A160406",
+    "A160426",
+    "A160736",
+    "A160738",
+    "A160741",
+    "A194432",
+    "A194434"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

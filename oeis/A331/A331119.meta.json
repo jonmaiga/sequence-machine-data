@@ -1,0 +1,19 @@
+{
+  "description": "Indices of A025487(n) in A055932.",
+  "id": "A331119",
+  "mentions": [
+    "A002110",
+    "A025487",
+    "A055932"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:00",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

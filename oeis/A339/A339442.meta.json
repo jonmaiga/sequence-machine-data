@@ -1,0 +1,22 @@
+{
+  "description": "Number of compositions (ordered partitions) of n into an odd number of distinct triangular numbers.",
+  "id": "A339442",
+  "mentions": [
+    "A000217",
+    "A331843",
+    "A332304",
+    "A339376",
+    "A339417",
+    "A339441"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:11",
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

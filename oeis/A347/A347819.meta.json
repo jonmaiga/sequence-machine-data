@@ -1,0 +1,27 @@
+{
+  "description": "Minimal elements for the base-10 representations of the primes greater than 10.",
+  "id": "A347819",
+  "mentions": [
+    "A071062",
+    "A071070",
+    "A071071",
+    "A071072",
+    "A071073",
+    "A111055",
+    "A111056",
+    "A114835",
+    "A130448"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

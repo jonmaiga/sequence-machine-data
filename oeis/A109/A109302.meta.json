@@ -1,0 +1,18 @@
+{
+  "description": "Values of k such that prime(k)!+prime(k+1) is prime.",
+  "id": "A109302",
+  "mentions": [
+    "A094108"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

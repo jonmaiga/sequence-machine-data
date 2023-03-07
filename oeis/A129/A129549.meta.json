@@ -1,0 +1,19 @@
+{
+  "description": "Dimension of space of measures of entanglement that are homogeneous of degree 2n, for the case of four qubits.",
+  "id": "A129549",
+  "mentions": [
+    "A000217",
+    "A129548"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:17",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

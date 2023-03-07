@@ -1,0 +1,17 @@
+{
+  "description": "Number of rooted trees with n nodes such that no more than eight subtrees of the same size extend from the same node.",
+  "id": "A318802",
+  "mentions": [
+    "A318753"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:40",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

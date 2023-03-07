@@ -1,0 +1,32 @@
+{
+  "description": "Starts of runs of 3 consecutive Gray-code Niven numbers (A344341).",
+  "id": "A344343",
+  "mentions": [
+    "A005811",
+    "A014550",
+    "A154701",
+    "A328206",
+    "A328210",
+    "A328214",
+    "A330932",
+    "A331087",
+    "A331822",
+    "A333428",
+    "A334310",
+    "A342428",
+    "A344341",
+    "A344342",
+    "A344344"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:17",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

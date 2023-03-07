@@ -1,0 +1,20 @@
+{
+  "description": "List of values A098550(n+2)/A098550(n) for those n for which A098550(n) is a prime.",
+  "id": "A251542",
+  "mentions": [
+    "A098550",
+    "A251543",
+    "A251544",
+    "A251715"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:09",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

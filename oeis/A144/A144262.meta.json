@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = smallest k such that k*n is not a Niven (or Harshad) number.",
+  "id": "A144262",
+  "mentions": [
+    "A005349",
+    "A144261",
+    "A144375",
+    "A144376"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

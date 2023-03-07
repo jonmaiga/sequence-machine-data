@@ -1,0 +1,36 @@
+{
+  "description": "Square array T(n,k), n >= 0, k >= 0, read by antidiagonals, where T(n,k) = 2^n * sqrt(Resultant(U_{2*n}(x/2), T_{k}(i*x/2))), where T_n(x) is a Chebyshev polynomial of the first kind, U_n(x) is a Chebyshev polynomial of the second kind and i = sqrt(-1).",
+  "id": "A334178",
+  "mentions": [
+    "A000012",
+    "A000032",
+    "A000079",
+    "A001835",
+    "A003729",
+    "A004253",
+    "A028478",
+    "A028480",
+    "A028482",
+    "A028484",
+    "A028486",
+    "A103997",
+    "A334135",
+    "A334179",
+    "A334180",
+    "A334181",
+    "A334182",
+    "A334183"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

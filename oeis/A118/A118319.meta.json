@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = (highest power of 2 dividing n)th integer among those positive integers not occurring in {a(1),a(2),a(3),...,a(n-1)}.",
+  "id": "A118319",
+  "mentions": [
+    "A006519",
+    "A007814",
+    "A045412",
+    "A101925",
+    "A108918"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:07",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

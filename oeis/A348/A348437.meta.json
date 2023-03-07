@@ -1,0 +1,20 @@
+{
+  "description": "Where n appears for the first time in A088177.",
+  "id": "A348437",
+  "mentions": [
+    "A088177",
+    "A088178",
+    "A341492",
+    "A348438"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:22",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

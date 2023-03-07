@@ -1,0 +1,26 @@
+{
+  "description": "Near-cube primes: primes of the form p^3 + 2, where p is noncomposite.",
+  "id": "A132282",
+  "mentions": [
+    "A000040",
+    "A048636",
+    "A056899",
+    "A059100",
+    "A067200",
+    "A067201",
+    "A084380",
+    "A132281"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

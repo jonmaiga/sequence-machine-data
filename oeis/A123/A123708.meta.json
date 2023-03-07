@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = sum of unsigned elements in row n of triangle A123706.",
+  "id": "A123708",
+  "mentions": [
+    "A010766",
+    "A123706",
+    "A123707",
+    "A123709"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:12",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

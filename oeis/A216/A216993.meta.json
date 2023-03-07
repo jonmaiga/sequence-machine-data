@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows in which row n gives the lexicographically earliest denominators with the least possible maximum value among all n-term Egyptian fractions with unit sum.",
+  "id": "A216993",
+  "mentions": [
+    "A030659",
+    "A073546",
+    "A213062",
+    "A216975"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:34",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

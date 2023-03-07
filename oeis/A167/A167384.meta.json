@@ -1,0 +1,21 @@
+{
+  "description": "Irregular table with the left half of the array described in A167381.",
+  "id": "A167384",
+  "mentions": [
+    "A001670",
+    "A167381",
+    "A167413"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

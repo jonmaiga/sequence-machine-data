@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n, k) is the number of k-dimensional subspaces in (F_7)^n, counted up to coordinate permutation (n >= 0, 0 <= k <= n).",
+  "id": "A347973",
+  "mentions": [
+    "A022171",
+    "A032191",
+    "A241926"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:21",
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

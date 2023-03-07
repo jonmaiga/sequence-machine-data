@@ -1,0 +1,18 @@
+{
+  "description": "Positions of local minima in A001223.",
+  "id": "A196175",
+  "mentions": [
+    "A001223",
+    "A036263"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:17",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "(n-1)-st elementary symmetric function of {2, 3, 3, 4, 4, 5, 5,...,Floor[(n+4)/2]}.",
+  "id": "A203154",
+  "mentions": [
+    "A203152",
+    "A203153",
+    "A203155"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:23",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

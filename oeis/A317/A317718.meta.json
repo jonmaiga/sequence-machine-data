@@ -1,0 +1,31 @@
+{
+  "description": "Number of uniform relatively prime rooted trees with n nodes.",
+  "id": "A317718",
+  "mentions": [
+    "A000081",
+    "A001190",
+    "A004111",
+    "A072774",
+    "A301700",
+    "A317588",
+    "A317705",
+    "A317707",
+    "A317708",
+    "A317709",
+    "A317710",
+    "A317711",
+    "A317712",
+    "A317717"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

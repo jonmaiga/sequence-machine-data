@@ -1,0 +1,25 @@
+{
+  "description": "Numbers which can be expressed as the product of numbers made of only fives.",
+  "id": "A161143",
+  "mentions": [
+    "A084034",
+    "A161140",
+    "A161141",
+    "A161142",
+    "A161144",
+    "A161145",
+    "A161146",
+    "A161147"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

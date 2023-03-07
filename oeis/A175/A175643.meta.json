@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of the negated Dirichlet Prime L-function of the real non-principal character mod 6 at 1.",
+  "id": "A175643",
+  "mentions": [
+    "A000040",
+    "A086239",
+    "A086241",
+    "A134667",
+    "A175642"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-entry"
+  }
+}

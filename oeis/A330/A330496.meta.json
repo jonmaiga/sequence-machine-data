@@ -1,0 +1,19 @@
+{
+  "description": "Squared area of quadrilateral with sides prime(n), prime(n+1), prime(n+2), prime(n+3) of odd primes configured as a cyclic quadrilateral. Sequence index starts at n=2 to omit the even prime.",
+  "id": "A330496",
+  "mentions": [
+    "A131019",
+    "A330096"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 2,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

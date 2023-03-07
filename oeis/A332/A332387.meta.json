@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that k, k + 1 and k + 2 have the same number of divisors in Eisenstein integers.",
+  "id": "A332387",
+  "mentions": [
+    "A005238",
+    "A319442",
+    "A332313",
+    "A332386",
+    "A332388"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:01",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

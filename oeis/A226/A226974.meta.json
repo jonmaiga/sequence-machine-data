@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = Sum_{k=0..floor(n/3)} binomial(n,3*k)*binomial(4*k,k)/(3*k+1).",
+  "id": "A226974",
+  "mentions": [
+    "A002293",
+    "A049130",
+    "A212385",
+    "A226910",
+    "A227035"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 11:00:02",
+    "offset": 0,
+    "size": 31,
+    "source": "joeis"
+  }
+}

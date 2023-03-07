@@ -1,0 +1,18 @@
+{
+  "description": "Bases that lack a three-digit narcissistic number: numbers n with no 1 <= x < n, 0 <= y,z < n such that x^3 + y^3 + z^3 = n^2*x + n*y + z.",
+  "id": "A248970",
+  "mentions": [
+    "A005188"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:05",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

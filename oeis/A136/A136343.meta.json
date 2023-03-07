@@ -1,0 +1,19 @@
+{
+  "description": "Number of partitions of n such that each summand is greater than or equal to the sum of the next two summands.",
+  "id": "A136343",
+  "mentions": [
+    "A000045",
+    "A319394"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:26:11",
+    "offset": 0,
+    "size": 57,
+    "source": "joeis"
+  }
+}

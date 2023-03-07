@@ -1,0 +1,21 @@
+{
+  "description": "The (2,3)-entry in the n-th power of the 3 X 3 matrix M = [1,1,1; 4,2,1; 9,3,1].",
+  "id": "A122884",
+  "mentions": [
+    "A122883",
+    "A122885",
+    "A122886"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:37:28",
+    "offset": 1,
+    "size": 21,
+    "source": "joeis"
+  }
+}

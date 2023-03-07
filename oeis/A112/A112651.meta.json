@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that k^2 == k (mod 11).",
+  "id": "A112651",
+  "mentions": [
+    "A005015",
+    "A010880",
+    "A030308",
+    "A070434"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:48:01",
+    "offset": 1,
+    "size": 56,
+    "source": "joeis"
+  }
+}

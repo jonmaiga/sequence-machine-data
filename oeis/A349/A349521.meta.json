@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that A348172(k) = 1.",
+  "id": "A349521",
+  "mentions": [
+    "A348172",
+    "A349467"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

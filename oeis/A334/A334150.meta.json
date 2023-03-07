@@ -1,0 +1,20 @@
+{
+  "description": "Primes p such that p AND q = 1, where q is the next prime after p and AND is the bitwise operation.",
+  "id": "A334150",
+  "mentions": [
+    "A014234",
+    "A175330",
+    "A214415"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Sum of squares of heptanacci numbers (Fibonacci 7-step numbers).",
+  "id": "A107245",
+  "mentions": [
+    "A066178",
+    "A107239",
+    "A107244",
+    "A107246",
+    "A107248"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 19:23:29",
+    "offset": 0,
+    "size": 30,
+    "source": "joeis"
+  }
+}

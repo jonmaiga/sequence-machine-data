@@ -1,0 +1,26 @@
+{
+  "description": "Triangle read by rows: coefficients of polynomials arising from the recurrence A[n](x) = A[n-1]'(x)/(1-x) with A[0] = exp(x).",
+  "id": "A144505",
+  "mentions": [
+    "A001147",
+    "A001514",
+    "A001515",
+    "A043301",
+    "A144301",
+    "A144498",
+    "A144506",
+    "A144507"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 0,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

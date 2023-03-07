@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of permutations p of {1,2,...,n} having genus 0 and such that p(1)=k (see first comment for definition of genus).",
+  "id": "A178518",
+  "mentions": [
+    "A000108"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Integers n > 1 such that expression n!/(prime(n-1)+1) is not an integer.",
+  "id": "A225517",
+  "mentions": [
+    "A223881"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

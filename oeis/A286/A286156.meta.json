@@ -1,0 +1,31 @@
+{
+  "description": "A(n,k) = T(remainder(n,k), quotient(n,k)), where T(n,k) is sequence A001477 considered as a two-dimensional table, square array read by descending antidiagonals.",
+  "id": "A286156",
+  "mentions": [
+    "A000012",
+    "A000096",
+    "A000217",
+    "A001477",
+    "A002260",
+    "A004736",
+    "A034856",
+    "A285722",
+    "A286101",
+    "A286102",
+    "A286157",
+    "A286158",
+    "A286159"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:57",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

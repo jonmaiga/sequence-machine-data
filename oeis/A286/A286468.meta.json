@@ -1,0 +1,24 @@
+{
+  "description": "Run lengths in the binary expansion of n are one more than the exponents of corresponding primes in the prime factorization of a(n).",
+  "id": "A286468",
+  "mentions": [
+    "A000079",
+    "A000975",
+    "A003961",
+    "A007283",
+    "A052126",
+    "A075157",
+    "A075159"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:58",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

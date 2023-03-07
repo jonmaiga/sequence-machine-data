@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = n - A302042(n); an analog of A060681 based on the sieve of Eratosthenes (A083221).",
+  "id": "A302043",
+  "mentions": [
+    "A060681",
+    "A083221",
+    "A250469",
+    "A268674",
+    "A302042"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:26",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

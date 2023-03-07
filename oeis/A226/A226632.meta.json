@@ -1,0 +1,20 @@
+{
+  "description": "Fewest odd numbers in a primitive cycle of positive integers under iteration by the 3x-k function, where k=A226630(n).",
+  "id": "A226632",
+  "mentions": [
+    "A226626",
+    "A226628",
+    "A226630"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

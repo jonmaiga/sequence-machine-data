@@ -1,0 +1,21 @@
+{
+  "description": "Alternating powers of 60 and 10 times powers of 60.",
+  "id": "A281863",
+  "mentions": [
+    "A055643",
+    "A131650",
+    "A282622"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:51",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

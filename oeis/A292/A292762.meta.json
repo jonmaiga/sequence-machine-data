@@ -1,0 +1,21 @@
+{
+  "description": "Numbers of the form p^k or 2*p^k, where p is a prime == 3 mod 4 and k is odd.",
+  "id": "A292762",
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A097987",
+    "A248150"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:08",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

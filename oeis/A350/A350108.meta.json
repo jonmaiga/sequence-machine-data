@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Sum_{k=1..n} k * floor(n/k)^3.",
+  "id": "A350108",
+  "mentions": [
+    "A024916",
+    "A143127",
+    "A143128",
+    "A318742",
+    "A350106"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:24",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

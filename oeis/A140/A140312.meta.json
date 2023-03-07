@@ -1,0 +1,18 @@
+{
+  "description": "Number of distinct values of Product_{p is in P} (m(p,P)+1) where m(p,P) is the multiplicity of part p in partition P, when P ranges over all partitions of n.",
+  "id": "A140312",
+  "mentions": [
+    "A088880",
+    "A088887"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

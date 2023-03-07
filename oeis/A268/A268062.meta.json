@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{k=1..n} prime(k+1)^prime(k).",
+  "id": "A268062",
+  "mentions": [
+    "A051674",
+    "A074745",
+    "A078422",
+    "A138323"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

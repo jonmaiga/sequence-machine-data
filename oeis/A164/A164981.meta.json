@@ -1,0 +1,27 @@
+{
+  "description": "A triangle with Pell numbers in the first column.",
+  "id": "A164981",
+  "mentions": [
+    "A000129",
+    "A000244",
+    "A001654",
+    "A026937",
+    "A052905",
+    "A084938",
+    "A164975",
+    "A164976",
+    "A210557"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

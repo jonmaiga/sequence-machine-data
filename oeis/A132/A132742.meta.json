@@ -1,0 +1,22 @@
+{
+  "description": "Triangle T(n,m) = 1 + ((2*n*3^m) mod 12), read by rows.",
+  "id": "A132742",
+  "mentions": [
+    "A000244",
+    "A005843",
+    "A132728"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "less",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:20",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

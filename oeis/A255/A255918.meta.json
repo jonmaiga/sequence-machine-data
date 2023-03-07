@@ -1,0 +1,23 @@
+{
+  "description": "Array a(n,m) read by descending antidiagonals giving the number of intervals in a generalized Tamari lattice of m-ballot paths of size n.",
+  "id": "A255918",
+  "mentions": [
+    "A000217",
+    "A000260",
+    "A070914",
+    "A103220"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

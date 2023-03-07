@@ -1,0 +1,22 @@
+{
+  "description": "Indices of centered triangular numbers (A005448) which are also centered heptagonal numbers (A069099).",
+  "id": "A253476",
+  "mentions": [
+    "A005448",
+    "A069099",
+    "A253477",
+    "A253689"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:12",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

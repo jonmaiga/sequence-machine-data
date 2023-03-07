@@ -1,0 +1,24 @@
+{
+  "description": "Sequences n*(n+1)*(6*n+1)/2 and n*(n+1)*(7*n+1)/2 interleaved.",
+  "id": "A296636",
+  "mentions": [
+    "A002411",
+    "A002717",
+    "A006331",
+    "A033581",
+    "A033582",
+    "A255211"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:32:41",
+    "offset": 0,
+    "size": 47,
+    "source": "joeis"
+  }
+}

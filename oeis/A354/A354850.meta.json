@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of free polyominoes of width 4 and size n.",
+  "id": "A354850",
+  "mentions": [
+    "A000105",
+    "A352720",
+    "A353067"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:29",
+    "offset": 4,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

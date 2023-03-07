@@ -1,0 +1,18 @@
+{
+  "description": "Denominator of convergents to e + 1/e.",
+  "id": "A197221",
+  "mentions": [
+    "A137204",
+    "A197220"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:18",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

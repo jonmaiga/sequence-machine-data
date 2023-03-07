@@ -1,0 +1,24 @@
+{
+  "description": "Number of iterations of A138754 before reaching a number for the second time, when starting with n.",
+  "id": "A138753",
+  "mentions": [
+    "A006577",
+    "A124123",
+    "A138750",
+    "A138752",
+    "A138754",
+    "A138756",
+    "A171938"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:26",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

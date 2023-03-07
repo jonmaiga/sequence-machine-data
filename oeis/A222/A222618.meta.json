@@ -1,0 +1,19 @@
+{
+  "description": "Multiples of 10 that are sum of two consecutive primes.",
+  "id": "A222618",
+  "mentions": [
+    "A001043",
+    "A008592",
+    "A179975"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

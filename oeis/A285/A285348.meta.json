@@ -1,0 +1,27 @@
+{
+  "description": "Expansion of r(q^2) / r(q)^2 in powers of q where r() is the Rogers-Ramanujan continued fraction.",
+  "id": "A285348",
+  "mentions": [
+    "A007325",
+    "A078905",
+    "A112274",
+    "A112803",
+    "A138518",
+    "A285349",
+    "A285355",
+    "A285583",
+    "A285584",
+    "A285585"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:57",
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

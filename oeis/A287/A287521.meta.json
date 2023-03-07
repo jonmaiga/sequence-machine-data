@@ -1,0 +1,21 @@
+{
+  "description": "Positions of 0's in A287520.",
+  "id": "A287521",
+  "mentions": [
+    "A189628",
+    "A189630",
+    "A287520",
+    "A287522"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:59",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(0) = 1; a(2n) = a(n); a(3n) = a(n); otherwise write n = 6i+j, where j = 1 or 5 and set a(n) = 2i+2 if j = 1, otherwise a(n) = 2i+3.",
+  "id": "A126759",
+  "mentions": [
+    "A007310",
+    "A126760"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "hear",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:14",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

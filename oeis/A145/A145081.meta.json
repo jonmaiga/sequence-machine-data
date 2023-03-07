@@ -1,0 +1,23 @@
+{
+  "description": "Row 1 of square table A145080; also equals row 1 of square table A145085.",
+  "id": "A145081",
+  "mentions": [
+    "A145080",
+    "A145082",
+    "A145083",
+    "A145084",
+    "A145085",
+    "A145086"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

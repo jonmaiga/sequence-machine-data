@@ -1,0 +1,20 @@
+{
+  "description": "Lexicographically smallest permutation of natural numbers such that in binary representation the number of ones of adjacent terms differ exactly by one.",
+  "id": "A266089",
+  "mentions": [
+    "A000120",
+    "A007088",
+    "A266154",
+    "A266161"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:26",
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

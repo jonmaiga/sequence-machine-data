@@ -1,0 +1,25 @@
+{
+  "description": "Square array A(n,k) = A156552(gcd(A005940(1+n), A005940(1+k))), read by antidiagonals.",
+  "id": "A351961",
+  "mentions": [
+    "A001477",
+    "A003989",
+    "A005940",
+    "A156552",
+    "A341520",
+    "A351960",
+    "A351962"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

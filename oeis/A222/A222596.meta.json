@@ -1,0 +1,19 @@
+{
+  "description": "Length of the closed curve through Gaussian primes described in A222594.",
+  "id": "A222596",
+  "mentions": [
+    "A222298",
+    "A222594",
+    "A222595"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:40",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

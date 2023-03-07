@@ -1,0 +1,28 @@
+{
+  "description": "a(n) is the number of divisors d of n such that tau(d) divides sigma(d).",
+  "id": "A338170",
+  "mentions": [
+    "A000005",
+    "A000079",
+    "A000203",
+    "A003601",
+    "A065091",
+    "A245656",
+    "A334420",
+    "A334421",
+    "A337326",
+    "A338171",
+    "A338172"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:10",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

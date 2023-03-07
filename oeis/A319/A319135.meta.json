@@ -1,0 +1,28 @@
+{
+  "description": "Irregular triangle read by rows in which row n lists the positive divisors of n that are <= sqrt(n) in decreasing order.",
+  "id": "A319135",
+  "mentions": [
+    "A027750",
+    "A033676",
+    "A038548",
+    "A056538",
+    "A061017",
+    "A161906",
+    "A161908",
+    "A333750",
+    "A340791",
+    "A340792"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

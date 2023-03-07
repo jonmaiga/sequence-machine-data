@@ -1,0 +1,18 @@
+{
+  "description": "The order of the group Aut(Z/nZ)*, or the number of automorphisms of (Z/nZ)*.",
+  "id": "A258615",
+  "mentions": [
+    "A000010"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:16",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

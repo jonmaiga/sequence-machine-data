@@ -1,0 +1,19 @@
+{
+  "description": "Runs (of length > 1) of consecutive squarefree semiprimes.",
+  "id": "A346549",
+  "mentions": [
+    "A006881",
+    "A038456",
+    "A260143"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

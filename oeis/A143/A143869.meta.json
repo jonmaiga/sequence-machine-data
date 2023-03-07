@@ -1,0 +1,19 @@
+{
+  "description": "An integer k is called regular (mod n) if there is an integer x such that k^2 x == k (mod n). Then these numbers are the sum of regular integers k (mod n) such that 1 <= k <= n for n=1,2,... .",
+  "id": "A143869",
+  "mentions": [
+    "A055653",
+    "A176345"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:32",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "1 followed by the numbers successively added to the four arms of the spirals in A257329, A257330, A257331, A257332.",
+  "id": "A257347",
+  "mentions": [
+    "A257321",
+    "A257329",
+    "A257330",
+    "A257331",
+    "A257332"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

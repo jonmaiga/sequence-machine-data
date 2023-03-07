@@ -1,0 +1,17 @@
+{
+  "description": "a(0) = a(1) = 1, a(n) = largest natural number m <= a(n-1) + a(n-2) where gcd(m,a(k)) = 1 for all 1 < k <= n-1.",
+  "id": "A345020",
+  "mentions": [
+    "A055500"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

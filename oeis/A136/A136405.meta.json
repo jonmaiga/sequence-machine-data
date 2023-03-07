@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of bi-partitions of the pair (n,k) into pairs (n_i,k_i) of positive integers such that sum k_i = k and sum n_i*k_i = n.",
+  "id": "A136405",
+  "mentions": [
+    "A000041",
+    "A006171",
+    "A028242",
+    "A090806",
+    "A136406"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:24",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

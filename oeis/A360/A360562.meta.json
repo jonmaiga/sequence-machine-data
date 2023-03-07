@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the least k such that k*n is a Zumkeller number (A083207).",
+  "id": "A360562",
+  "mentions": [
+    "A083207",
+    "A360561"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

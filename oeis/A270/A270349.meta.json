@@ -1,0 +1,21 @@
+{
+  "description": "Denominators of r-Egyptian fraction expansion for sqrt(2) - 1, where r = (1,1/2,1/4,1/8,...)",
+  "id": "A270349",
+  "mentions": [
+    "A269993",
+    "A270347"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:33",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-bfile"
+  }
+}

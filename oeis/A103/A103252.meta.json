@@ -1,0 +1,21 @@
+{
+  "description": "Array A000292(n)*A000217(k), read by antidiagonals.",
+  "id": "A103252",
+  "mentions": [
+    "A000217",
+    "A000292",
+    "A000579"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

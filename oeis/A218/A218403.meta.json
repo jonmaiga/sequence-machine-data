@@ -1,0 +1,29 @@
+{
+  "description": "Bitwise OR of all proper divisors of n; a(1) = 0 by convention.",
+  "id": "A218403",
+  "mentions": [
+    "A000040",
+    "A000225",
+    "A001065",
+    "A027751",
+    "A087207",
+    "A123345",
+    "A218388",
+    "A227320",
+    "A293214",
+    "A293215"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:36",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

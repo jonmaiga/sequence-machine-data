@@ -1,0 +1,19 @@
+{
+  "description": "Number of natural numbers less than n which have identical Moebius mu values.",
+  "id": "A124579",
+  "mentions": [
+    "A002321",
+    "A008683",
+    "A124580"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = p(0,n), where p(x,n) is the strong divisibility sequence of polynomials based on sqrt(5) as in A327322.",
+  "id": "A329011",
+  "mentions": [
+    "A327320",
+    "A327321",
+    "A327322",
+    "A329012",
+    "A329013"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

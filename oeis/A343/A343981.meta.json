@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the least integer h such that there exists a Pythagorean triple whose hypotenuse is h and whose other legs z satisfy A176774(z) = n.",
+  "id": "A343981",
+  "mentions": [
+    "A176774",
+    "A176948"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:17",
+    "offset": 3,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

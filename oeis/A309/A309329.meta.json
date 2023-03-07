@@ -1,0 +1,22 @@
+{
+  "description": "Median of primes with n decimal digits.",
+  "id": "A309329",
+  "mentions": [
+    "A006879",
+    "A006880",
+    "A309359"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

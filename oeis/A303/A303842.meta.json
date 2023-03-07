@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(s,n) (s>=1 and 2<=n<=s+1) = number of trees with n nodes and positive integer edge labels with label sum s.",
+  "id": "A303842",
+  "mentions": [
+    "A000055",
+    "A027852",
+    "A303833",
+    "A303841",
+    "A304914"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:28",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

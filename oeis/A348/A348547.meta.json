@@ -1,0 +1,27 @@
+{
+  "description": "Number of positive integers with n digits and final digit 9 that are equal to the product of two integers ending with the same digit.",
+  "id": "A348547",
+  "mentions": [
+    "A052268",
+    "A346950",
+    "A346952",
+    "A348054",
+    "A348055",
+    "A348545",
+    "A348546"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

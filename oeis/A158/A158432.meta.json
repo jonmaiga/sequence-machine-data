@@ -1,0 +1,23 @@
+{
+  "description": "Number of permutations of 1..n containing the relative rank sequence { 45312 } at any spacing.",
+  "id": "A158432",
+  "mentions": [
+    "A000142",
+    "A047889",
+    "A056986",
+    "A158005",
+    "A214015",
+    "A214152"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:40",
+    "offset": 5,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

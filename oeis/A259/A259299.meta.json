@@ -1,0 +1,21 @@
+{
+  "description": "The decimal expansion of n/(n+1) until it terminates or repeats, shown without the decimal point.",
+  "id": "A259299",
+  "mentions": [
+    "A036275",
+    "A060284",
+    "A156703",
+    "A235589"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:17",
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Numbers whose English name requires fewer letters than twice the number of decimal digits.",
+  "id": "A235029",
+  "mentions": [
+    "A005589",
+    "A055642"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

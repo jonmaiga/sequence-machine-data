@@ -1,0 +1,21 @@
+{
+  "description": "Number of minimum dominating sets in the complete tripartite graph K_n,n,n.",
+  "id": "A347536",
+  "mentions": [
+    "A033428",
+    "A290325",
+    "A291537"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 17:31:39",
+    "offset": 1,
+    "size": 47,
+    "source": "joeis"
+  }
+}

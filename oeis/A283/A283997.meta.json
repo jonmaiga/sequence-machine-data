@@ -1,0 +1,28 @@
+{
+  "description": "a(n) = n XOR A005187(floor(n/2)), where XOR is bitwise-xor (A003987).",
+  "id": "A283997",
+  "mentions": [
+    "A003986",
+    "A003987",
+    "A005187",
+    "A006068",
+    "A279357",
+    "A283477",
+    "A283996",
+    "A283998",
+    "A283999"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "formulas",
+    "hear",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:55",
+    "offset": 0,
+    "size": 107,
+    "source": "oeis-bfile"
+  }
+}

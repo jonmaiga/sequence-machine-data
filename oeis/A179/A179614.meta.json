@@ -1,0 +1,18 @@
+{
+  "description": "Composite numbers not divisible by any triangular number other than 1.",
+  "id": "A179614",
+  "mentions": [
+    "A112886"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

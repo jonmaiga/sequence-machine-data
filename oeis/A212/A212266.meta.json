@@ -1,0 +1,22 @@
+{
+  "description": "Primes p such that p - m! is composite, where m is the greatest number such that m! < p.",
+  "id": "A212266",
+  "mentions": [
+    "A023209",
+    "A127209",
+    "A136437",
+    "A212598",
+    "A212600"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:30",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

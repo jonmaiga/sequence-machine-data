@@ -1,0 +1,24 @@
+{
+  "description": "Indices of triangular numbers whose sum of divisors is square.",
+  "id": "A116990",
+  "mentions": [
+    "A000203",
+    "A000217",
+    "A000290",
+    "A074285",
+    "A083675"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:07",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

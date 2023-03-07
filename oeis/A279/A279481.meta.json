@@ -1,0 +1,23 @@
+{
+  "description": "Count the primes appearing in each interval [p,q] where (p,q) is a Goldbach partition of 2n, and then add the results.",
+  "id": "A279481",
+  "mentions": [
+    "A000720",
+    "A010051",
+    "A045917",
+    "A278700",
+    "A279103"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

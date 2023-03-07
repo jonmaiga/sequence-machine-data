@@ -1,0 +1,23 @@
+{
+  "description": "Number of ordered ways to write n as x^2 + y^2 + p*(p+d)/2, where 0 <= x <= y, d is 1 or -1, and p is prime.",
+  "id": "A262785",
+  "mentions": [
+    "A000040",
+    "A000217",
+    "A000290",
+    "A001481",
+    "A254885",
+    "A262311",
+    "A262781"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:22",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

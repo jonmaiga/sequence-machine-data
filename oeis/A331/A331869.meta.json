@@ -1,0 +1,29 @@
+{
+  "description": "Numbers n for which R(n) + 4*10^floor(n/2) is prime, where R(n) = (10^n-1)/9 (repunit: A002275).",
+  "id": "A331869",
+  "mentions": [
+    "A002275",
+    "A004023",
+    "A011557",
+    "A077783",
+    "A105992",
+    "A331861",
+    "A331862",
+    "A331865",
+    "A331866",
+    "A331868"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

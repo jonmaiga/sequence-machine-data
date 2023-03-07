@@ -1,0 +1,20 @@
+{
+  "description": "For any number n with balanced ternary expansion (d_1, ..., d_k), the balanced ternary expansion of a(n), say (t_1, ..., t_k), satisfies t_m = d_1 + ... + d_m mod 3 for m = 1..k.",
+  "id": "A341054",
+  "mentions": [
+    "A006068",
+    "A059095",
+    "A341055"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:13",
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

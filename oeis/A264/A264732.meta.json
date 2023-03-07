@@ -1,0 +1,21 @@
+{
+  "description": "Löschian numbers (A003136) which are the sum of 2 nonzero squares.",
+  "id": "A264732",
+  "mentions": [
+    "A000404",
+    "A003136",
+    "A007645",
+    "A068228",
+    "A084916"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:24",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

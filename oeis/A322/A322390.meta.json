@@ -1,0 +1,29 @@
+{
+  "description": "Number of integer partitions of n with vertex-connectivity 1.",
+  "id": "A322390",
+  "mentions": [
+    "A013922",
+    "A054921",
+    "A095983",
+    "A304714",
+    "A304716",
+    "A305078",
+    "A305079",
+    "A322335",
+    "A322338",
+    "A322387",
+    "A322389",
+    "A322391"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

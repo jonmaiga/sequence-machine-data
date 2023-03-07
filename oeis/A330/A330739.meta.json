@@ -1,0 +1,19 @@
+{
+  "description": "Number of values of k, 1 <= k <= n, with A047994(k) = A047994(n), where A047994 is unitary totient function uphi(n).",
+  "id": "A330739",
+  "mentions": [
+    "A047994",
+    "A081373",
+    "A331177"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:00",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

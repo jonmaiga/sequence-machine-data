@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: R(n,k)= (prime(n) mod A001223(k)), where A001223 are differences between consecutive primes.",
+  "id": "A174433",
+  "mentions": [
+    "A000040",
+    "A001223"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

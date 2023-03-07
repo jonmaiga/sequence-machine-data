@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of the average reciprocal length of a line segment picked at random in a unit 4-cube.",
+  "id": "A254149",
+  "mentions": [
+    "A073012",
+    "A091505",
+    "A103983",
+    "A242588",
+    "A254140"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 103,
+    "source": "oeis-entry"
+  }
+}

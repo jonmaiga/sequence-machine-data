@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the greatest k such that A307730(k) = n.",
+  "id": "A348409",
+  "mentions": [
+    "A307720",
+    "A307730",
+    "A348246",
+    "A348253",
+    "A348254"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:22",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

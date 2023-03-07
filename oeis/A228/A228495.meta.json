@@ -1,0 +1,32 @@
+{
+  "description": "Characteristic function of the odd odious numbers (A092246).",
+  "id": "A228495",
+  "mentions": [
+    "A000035",
+    "A003071",
+    "A010060",
+    "A029886",
+    "A061297",
+    "A092246",
+    "A092436",
+    "A092524",
+    "A093431",
+    "A102393",
+    "A104258",
+    "A122248",
+    "A125592",
+    "A128975",
+    "A254379"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:45",
+    "offset": 0,
+    "size": 114,
+    "source": "oeis-bfile"
+  }
+}

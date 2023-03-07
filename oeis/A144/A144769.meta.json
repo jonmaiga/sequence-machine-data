@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = floor(prime(n)/3).",
+  "id": "A144769",
+  "mentions": [
+    "A000040",
+    "A075518",
+    "A130290"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:51:15",
+    "offset": 1,
+    "size": 70,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "description": "Numbers whose squarefree part is congruent to 1 (mod 24).",
+  "id": "A334832",
+  "mentions": [
+    "A000027",
+    "A000290",
+    "A003159",
+    "A007913",
+    "A018253",
+    "A055047",
+    "A059897",
+    "A103214",
+    "A107008",
+    "A234000",
+    "A277549",
+    "A352272"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:06",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

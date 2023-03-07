@@ -1,0 +1,18 @@
+{
+  "description": "Number of (n+5) X 10 0..1 matrices with each 6 X 6 subblock idempotent.",
+  "id": "A224574",
+  "mentions": [
+    "A224577"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:42",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

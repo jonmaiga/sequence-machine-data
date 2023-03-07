@@ -1,0 +1,20 @@
+{
+  "description": "a(0)=7; a(n) = 7*a(n-1) + 1 if a(n-1) is odd, a(n) = a(n-1)/2 otherwise.",
+  "id": "A271623",
+  "mentions": [
+    "A008884",
+    "A033478",
+    "A259207"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = Sum_{k=1..n} mu(k)^2 * k * floor(n/k).",
+  "id": "A309192",
+  "mentions": [
+    "A008683",
+    "A024916",
+    "A024924",
+    "A048250",
+    "A064608",
+    "A275205"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:33",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

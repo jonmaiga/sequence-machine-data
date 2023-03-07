@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that prime(n) +/- n and prime(n) +/- 2n are all primes.",
+  "id": "A112530",
+  "mentions": [
+    "A064403",
+    "A112529"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:03",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

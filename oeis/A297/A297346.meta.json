@@ -1,0 +1,20 @@
+{
+  "description": "List of successive x-coordinates in the Babylonian Spiral.",
+  "id": "A297346",
+  "mentions": [
+    "A256111",
+    "A297347"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "look",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:17",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

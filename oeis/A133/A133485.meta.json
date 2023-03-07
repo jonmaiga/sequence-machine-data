@@ -1,0 +1,21 @@
+{
+  "description": "Integers n such that the polynomial x^(2n+2)+x+1 is primitive and irreducible over GF(2).",
+  "id": "A133485",
+  "mentions": [
+    "A002475",
+    "A073639",
+    "A100730"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(0)=0, a(1)=a(2)=1; thereafter, a(n+1) = n^2 - a(n-1).",
+  "id": "A187093",
+  "mentions": [
+    "A000034",
+    "A081654",
+    "A194274"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:11:53",
+    "offset": 0,
+    "size": 55,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "Smallest number that can be expressed as the sum of two primes in exactly n ways or -1 if no such number exists.",
+  "id": "A352296",
+  "mentions": [
+    "A001172",
+    "A014092",
+    "A023036",
+    "A066722",
+    "A067187",
+    "A067188",
+    "A067189",
+    "A067190",
+    "A067191",
+    "A352229",
+    "A352230",
+    "A352231",
+    "A352233"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

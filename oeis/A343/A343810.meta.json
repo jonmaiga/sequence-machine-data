@@ -1,0 +1,26 @@
+{
+  "description": "Numbers that contain only the digits 0,4,8. Permutable multiples of 4: numbers k such that every permutation of the digits of k is a multiple of 4.",
+  "id": "A343810",
+  "mentions": [
+    "A003459",
+    "A007089",
+    "A008585",
+    "A008586",
+    "A014263",
+    "A061811",
+    "A169964"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:11:53",
+    "offset": 0,
+    "size": 47,
+    "source": "joeis"
+  }
+}

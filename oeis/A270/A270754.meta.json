@@ -1,0 +1,23 @@
+{
+  "description": "Numbers n such that n - 31, n - 1, n + 1 and n + 31 are consecutive primes.",
+  "id": "A270754",
+  "mentions": [
+    "A014574",
+    "A049481",
+    "A049489",
+    "A077800",
+    "A124596",
+    "A249674",
+    "A256753"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:34",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

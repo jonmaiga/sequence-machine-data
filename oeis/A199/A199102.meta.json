@@ -1,0 +1,17 @@
+{
+  "description": "G.f. satisfies: A(x) = exp( Sum_{n>=1} x^n/n * Sum_{k=0..n} C(n,k)*A(x^(n+k)) ).",
+  "id": "A199102",
+  "mentions": [
+    "A073063"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

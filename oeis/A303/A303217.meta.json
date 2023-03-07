@@ -1,0 +1,39 @@
+{
+  "description": "A(n,k) is the n-th index of a Fibonacci number with exactly k distinct prime factors; square array A(n,k), n>=1, k>=1, read by antidiagonals.",
+  "id": "A303217",
+  "mentions": [
+    "A000045",
+    "A001221",
+    "A022307",
+    "A060320",
+    "A114823",
+    "A114824",
+    "A114825",
+    "A114826",
+    "A114836",
+    "A114837",
+    "A114838",
+    "A114839",
+    "A114840",
+    "A114841",
+    "A114842",
+    "A114843",
+    "A117529",
+    "A117550",
+    "A117551",
+    "A303215",
+    "A303218"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:27",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

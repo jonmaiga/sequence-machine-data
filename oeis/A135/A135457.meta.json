@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = (2n-1)!! * Sum_{k=0..n-2}(-1)^k/(2k+1).",
+  "id": "A135457",
+  "mentions": [
+    "A024199",
+    "A167576"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:23",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

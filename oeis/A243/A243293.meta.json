@@ -1,0 +1,18 @@
+{
+  "description": "Number of factorials < 10^n.",
+  "id": "A243293",
+  "mentions": [
+    "A000142",
+    "A181590"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:59",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

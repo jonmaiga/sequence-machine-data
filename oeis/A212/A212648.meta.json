@@ -1,0 +1,21 @@
+{
+  "description": "Minimal m>=0 such that (2*n-1)!!-2^m is prime.",
+  "id": "A212648",
+  "mentions": [
+    "A212281",
+    "A212282",
+    "A212321",
+    "A212636",
+    "A212637"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 2,
+    "size": 74,
+    "source": "oeis-entry"
+  }
+}

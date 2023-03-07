@@ -1,0 +1,21 @@
+{
+  "description": "Sequence is {a(0,n)}, where a(m,0)=0, a(m,n) = a(m-1,n)+a(m,n-1) and a(0,n) is such that a(n,n) = n for all n.",
+  "id": "A110665",
+  "mentions": [
+    "A010892",
+    "A110666",
+    "A110672"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:08:43",
+    "offset": 0,
+    "size": 80,
+    "source": "joeis"
+  }
+}

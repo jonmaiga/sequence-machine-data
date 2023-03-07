@@ -1,0 +1,20 @@
+{
+  "description": "Numerators in expansion of 1/((1-4x^2)^(1/4)*sqrt(1+x)).",
+  "id": "A110115",
+  "mentions": [
+    "A046161",
+    "A110114"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

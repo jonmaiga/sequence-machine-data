@@ -1,0 +1,23 @@
+{
+  "description": "Numbers n such that -1 + Sum_{k=1..n} prime(k)! is prime, where prime(k) is the k-th prime.",
+  "id": "A309789",
+  "mentions": [
+    "A000040",
+    "A000142",
+    "A002982",
+    "A039716",
+    "A111179"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

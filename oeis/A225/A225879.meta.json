@@ -1,0 +1,19 @@
+{
+  "description": "Number of n-length words w over ternary alphabet {1,2,3} such that for every prefix z of w we have 0<=#(z,1)-#(z,2)<=2 and 0<=#(z,2)-#(z,3)<=2 and #(z,x) gives the number of occurrences of letter x in z.",
+  "id": "A225879",
+  "mentions": [
+    "A015555"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that A143615(n) = n.",
+  "id": "A215196",
+  "mentions": [
+    "A143615"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

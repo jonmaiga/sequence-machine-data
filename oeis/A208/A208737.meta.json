@@ -1,0 +1,31 @@
+{
+  "description": "Number of nonisomorphic graded posets with 0 and 1 and non-uniform Hasse graph of rank n, with no 3-element antichain.",
+  "id": "A208737",
+  "mentions": [
+    "A001906",
+    "A012781",
+    "A025192",
+    "A081567",
+    "A086405",
+    "A088305",
+    "A124292",
+    "A124302",
+    "A206901",
+    "A206902",
+    "A206947",
+    "A206950",
+    "A208736"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:28",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

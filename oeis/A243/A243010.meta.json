@@ -1,0 +1,23 @@
+{
+  "description": "Pseudoprimes to base 5 that are not squarefree.",
+  "id": "A243010",
+  "mentions": [
+    "A005936",
+    "A013929",
+    "A123692",
+    "A158358",
+    "A243089",
+    "A243090",
+    "A244065"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:59",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

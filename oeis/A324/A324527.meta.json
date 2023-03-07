@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = the smallest number m such that gcd(sigma(m), pod(m)) = n where sigma(k) = the sum of the divisors of k (A000203) and pod(k) = the product of the divisors of k (A007955).",
+  "id": "A324527",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A007955",
+    "A074391",
+    "A306682"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Sum of the two smallest parts from the partitions of 4n into 4 parts with smallest part = 1.",
+  "id": "A239059",
+  "mentions": [
+    "A238328",
+    "A238340",
+    "A238702",
+    "A238705",
+    "A238706",
+    "A239056",
+    "A239057"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:56",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

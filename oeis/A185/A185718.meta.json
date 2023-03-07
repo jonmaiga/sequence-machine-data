@@ -1,0 +1,19 @@
+{
+  "description": "For positive n with prime decomposition n = Product_{j=1..m} (p_j^k_j) define A_n = Sum_{j=1..m} (p_j*k_j) and B_n = Sum_{j=1..m} (p_j^k_j). This sequence gives those n for which A_n and B_n are both prime and B_n = A_n + 2 (i.e., form a twin prime pair).",
+  "id": "A185718",
+  "mentions": [
+    "A001414",
+    "A008475",
+    "A046138"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:10",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

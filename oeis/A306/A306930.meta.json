@@ -1,0 +1,18 @@
+{
+  "description": "Primes p of the form 8*k +- 3 such that p-1 has no prime divisor 4*t + 1.",
+  "id": "A306930",
+  "mentions": [
+    "A306931",
+    "A306932"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

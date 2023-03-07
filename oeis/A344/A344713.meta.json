@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of iterations needed for n to reach 0 under the mapping x -> A055212(x).",
+  "id": "A344713",
+  "mentions": [
+    "A000005",
+    "A036459",
+    "A055212"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 110,
+    "source": "oeis-entry"
+  }
+}

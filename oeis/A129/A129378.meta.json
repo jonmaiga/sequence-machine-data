@@ -1,0 +1,25 @@
+{
+  "description": "Row sums of coefficients of Bernoulli twin number polynomials.",
+  "id": "A129378",
+  "mentions": [
+    "A000142",
+    "A007318",
+    "A048998",
+    "A048999",
+    "A129696",
+    "A129724",
+    "A129826",
+    "A129841"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

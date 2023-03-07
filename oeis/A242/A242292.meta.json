@@ -1,0 +1,28 @@
+{
+  "description": "Least prime divisor of 2^n - n which does not divide any 2^k - k with 0 < k < n, or 1 if such a primitive prime divisor of 2^n - n does not exist.",
+  "id": "A242292",
+  "mentions": [
+    "A000040",
+    "A000325",
+    "A112927",
+    "A242169",
+    "A242170",
+    "A242171",
+    "A242173",
+    "A242174",
+    "A242193",
+    "A242194",
+    "A242195",
+    "A242207"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

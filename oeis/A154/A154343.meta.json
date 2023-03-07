@@ -1,0 +1,25 @@
+{
+  "description": "S(n,k) an additive decomposition of the Springer number (generalized Euler number), (triangle read by rows).",
+  "id": "A154343",
+  "mentions": [
+    "A001586",
+    "A153641",
+    "A154341",
+    "A154342",
+    "A154344",
+    "A154345"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:36",
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

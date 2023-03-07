@@ -1,0 +1,21 @@
+{
+  "description": "a(1)=1, a(2)=2, a(3)=4. Thereafter, for n>=3, a(n+1) is the smallest unused k such that d(k) is prime to both d(a(n)) and d(a(n-2)), but not to d(a(n-1)), where d is the divisor counting (tau) function A000005.",
+  "id": "A349323",
+  "mentions": [
+    "A000005",
+    "A000037",
+    "A000290",
+    "A098550",
+    "A350150"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

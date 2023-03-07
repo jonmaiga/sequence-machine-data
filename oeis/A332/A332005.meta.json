@@ -1,0 +1,24 @@
+{
+  "description": "Number of compositions (ordered partitions) of n into distinct centered triangular numbers.",
+  "id": "A332005",
+  "mentions": [
+    "A005448",
+    "A023361",
+    "A280950",
+    "A281081",
+    "A282502",
+    "A331843",
+    "A331919",
+    "A332006"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 88,
+    "source": "oeis-entry"
+  }
+}

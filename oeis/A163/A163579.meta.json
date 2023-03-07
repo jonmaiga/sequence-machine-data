@@ -1,0 +1,17 @@
+{
+  "description": "Primes of the form floor(k*(k+1)*Pi/2), k>=0, where Pi = 3.1415.. = A000796.",
+  "id": "A163579",
+  "mentions": [
+    "A000796"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:45",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

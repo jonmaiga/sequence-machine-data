@@ -1,0 +1,27 @@
+{
+  "description": "Permutation of natural numbers: a(1) = 1, a(2n) = 2 * a(n), a(2n-1) = 1 + (2 * a(A064989(2n-1)-1)).",
+  "id": "A246376",
+  "mentions": [
+    "A000035",
+    "A005940",
+    "A005941",
+    "A064216",
+    "A064989",
+    "A243071",
+    "A245605",
+    "A246375",
+    "A246377",
+    "A246380"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:02",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

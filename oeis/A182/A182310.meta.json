@@ -1,0 +1,20 @@
+{
+  "description": "a(0)=0, a(n+1) = (a(n) XOR floor(a(n)/2)) + 1, where XOR is the bitwise exclusive-or operator",
+  "id": "A182310",
+  "mentions": [
+    "A105081",
+    "A182417"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:05",
+    "offset": 0,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

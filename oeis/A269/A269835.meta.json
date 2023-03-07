@@ -1,0 +1,18 @@
+{
+  "description": "Primes p of the form 2^k + 4*(-1)^k - 3.",
+  "id": "A269835",
+  "mentions": [
+    "A019434",
+    "A059609"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:32",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-bfile"
+  }
+}

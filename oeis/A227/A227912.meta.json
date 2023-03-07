@@ -1,0 +1,17 @@
+{
+  "description": "Sum of all k from {1,...,n} such that the fractional part of n/k is contained in the closed interval [1/4, 3/4].",
+  "id": "A227912",
+  "mentions": [
+    "A227913"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

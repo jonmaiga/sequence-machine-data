@@ -1,0 +1,22 @@
+{
+  "description": "Triangle T(n,k), n >= 1, 1 <= k <= n, read by rows, where T(n,k) = n!/(k! * floor(n/k)!).",
+  "id": "A355996",
+  "mentions": [
+    "A000012",
+    "A355989",
+    "A355990",
+    "A355991"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

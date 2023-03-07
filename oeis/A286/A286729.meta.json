@@ -1,0 +1,17 @@
+{
+  "description": "a(n)=position of the first occurrence of a local maximum equal to 2n in A001223, n>1.",
+  "id": "A286729",
+  "mentions": [
+    "A001223"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 2,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

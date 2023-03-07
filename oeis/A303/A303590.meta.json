@@ -1,0 +1,18 @@
+{
+  "description": "Floor(n*beta)-1, where 1/alpha+1/beta=1, alpha being the number with continued fraction expansion [1;1,2,3,4,5,...] (A247844).",
+  "id": "A303590",
+  "mentions": [
+    "A247844",
+    "A303589"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Number of binary strings with n zeros and n ones avoiding the substrings 10101101 and 1110101.",
+  "id": "A275046",
+  "mentions": [
+    "A062257",
+    "A078678",
+    "A268545",
+    "A268555",
+    "A273914"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:40",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

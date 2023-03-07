@@ -1,0 +1,23 @@
+{
+  "description": "Partial sums of A000918, starting from index 1.",
+  "id": "A145654",
+  "mentions": [
+    "A000217",
+    "A000295",
+    "A000918",
+    "A005803",
+    "A121173"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

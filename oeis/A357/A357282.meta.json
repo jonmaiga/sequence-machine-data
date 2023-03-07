@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = number of subsets S of {1,2,...,n} having more than 1 element such that (difference between least two elements of S) = difference between greatest two elements of S.",
+  "id": "A357282",
+  "mentions": [
+    "A000295",
+    "A272144"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:56",
+    "offset": 0,
+    "size": 35,
+    "source": "joeis"
+  }
+}

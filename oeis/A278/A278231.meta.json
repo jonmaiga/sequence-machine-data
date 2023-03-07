@@ -1,0 +1,20 @@
+{
+  "description": "Least number with the same prime signature as the n-th number in Blue-code: a(n) = A046523(A193231(n)).",
+  "id": "A278231",
+  "mentions": [
+    "A046523",
+    "A193231",
+    "A278233"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:45",
+    "offset": 1,
+    "size": 93,
+    "source": "oeis-bfile"
+  }
+}

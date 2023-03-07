@@ -1,0 +1,22 @@
+{
+  "description": "Number of tight m X n pavings as defined in Knuth's A285357 written as triangle T(m,n), m >= 1, 1 <= n <= m.",
+  "id": "A298362",
+  "mentions": [
+    "A000295",
+    "A285357",
+    "A285361",
+    "A336732",
+    "A336734"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

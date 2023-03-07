@@ -1,0 +1,32 @@
+{
+  "description": "Index sequence to A089840: positions of bijections that preserve A153835, or equivalently, A127302 (the non-oriented form of binary trees).",
+  "id": "A153829",
+  "mentions": [
+    "A089839",
+    "A089840",
+    "A122201",
+    "A122204",
+    "A122283",
+    "A122290",
+    "A127302",
+    "A130400",
+    "A130403",
+    "A153826",
+    "A153827",
+    "A153830",
+    "A153831",
+    "A153832",
+    "A153833",
+    "A153835"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:35",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

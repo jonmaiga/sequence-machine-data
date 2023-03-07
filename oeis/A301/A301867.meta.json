@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that phi(n), psi(n) and sigma(n) are simultaneously perfect squares.",
+  "id": "A301867",
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A001615",
+    "A067781",
+    "A291549"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:26",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

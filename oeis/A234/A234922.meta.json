@@ -1,0 +1,21 @@
+{
+  "description": "Array w(n,h), in which row n shows the weights (defined in Comments) of the partitions of n, arranged in reverse Mathematica order.",
+  "id": "A234922",
+  "mentions": [
+    "A234094",
+    "A234097"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

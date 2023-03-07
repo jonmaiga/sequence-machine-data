@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = round(3 n / (2 log(n+2))), an approximation to A081399.",
+  "id": "A137687",
+  "mentions": [
+    "A000108",
+    "A001222",
+    "A081399",
+    "A120626",
+    "A137686"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:49:43",
+    "offset": 0,
+    "size": 76,
+    "source": "joeis"
+  }
+}

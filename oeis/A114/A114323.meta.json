@@ -1,0 +1,21 @@
+{
+  "description": "Largest number whose 5th power has n digits.",
+  "id": "A114323",
+  "mentions": [
+    "A049416",
+    "A061439"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:04",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

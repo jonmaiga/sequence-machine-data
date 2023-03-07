@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the square root of A338502(1) XOR ... XOR A338502(n) (where XOR denotes the bitwise XOR operator).",
+  "id": "A338503",
+  "mentions": [
+    "A292389",
+    "A338502"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:10",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

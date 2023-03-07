@@ -1,0 +1,17 @@
+{
+  "description": "a(1) = 5; for n > 1, a(n) = prime p >= a(n-1) such that both q = p + 2n and r = q + 2n + 2 are primes.",
+  "id": "A283159",
+  "mentions": [
+    "A283145"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

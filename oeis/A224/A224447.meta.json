@@ -1,0 +1,20 @@
+{
+  "description": "Multiplicities for representations of n as primitive and distinct sums of three squares.",
+  "id": "A224447",
+  "mentions": [
+    "A224444",
+    "A224448",
+    "A224449"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 131,
+    "source": "oeis-entry"
+  }
+}

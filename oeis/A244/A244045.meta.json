@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of the Greenfield-Nussbaum constant, a constant which is the term z(1) in the quadratic recurrence z(0)=1, z(n) = z(n-1)+z(n-2)^2, such that all terms of the bi-infinite sequence z(n) (n = ..., -2, -1, 0, 1, 2, ...) are positive.",
+  "id": "A244045",
+  "mentions": [
+    "A000278"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

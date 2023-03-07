@@ -1,0 +1,21 @@
+{
+  "description": "Primes p such that (prime(p)-1)^2 = (prime(q)-1)*(prime(r)-1) for some pair of distinct primes q and r.",
+  "id": "A261395",
+  "mentions": [
+    "A000040",
+    "A000290",
+    "A260082",
+    "A261352",
+    "A261385"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:20",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

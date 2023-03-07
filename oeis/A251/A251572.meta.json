@@ -1,0 +1,19 @@
+{
+  "description": "G.f. satisfies: A(x) = A(x^2 + x^3)/(1-x).",
+  "id": "A251572",
+  "mentions": [
+    "A251581",
+    "A251582"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:09",
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

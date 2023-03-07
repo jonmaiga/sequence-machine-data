@@ -1,0 +1,36 @@
+{
+  "description": "Rectangular table where column k equals row sums of matrix power A097712^k, read by antidiagonals.",
+  "id": "A125860",
+  "mentions": [
+    "A000217",
+    "A001106",
+    "A001477",
+    "A005408",
+    "A005920",
+    "A005945",
+    "A006003",
+    "A016121",
+    "A081436",
+    "A097712",
+    "A125790",
+    "A125800",
+    "A125859",
+    "A125861",
+    "A125862",
+    "A125863",
+    "A125864",
+    "A125865"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

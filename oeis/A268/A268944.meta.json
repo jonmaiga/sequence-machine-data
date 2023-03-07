@@ -1,0 +1,22 @@
+{
+  "description": "T(n,k)=Number of length-n 0..k arrays with no repeated value unequal to the previous repeated value plus one mod k+1.",
+  "id": "A268944",
+  "mentions": [
+    "A000027",
+    "A000290",
+    "A007531",
+    "A027383"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:30",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

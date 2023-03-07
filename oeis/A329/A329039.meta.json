@@ -1,0 +1,20 @@
+{
+  "description": "If n = Product p_i^e_i, a(n) = n * Sum ((e_i - 1)/p_i).",
+  "id": "A329039",
+  "mentions": [
+    "A003415",
+    "A005117",
+    "A069359"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

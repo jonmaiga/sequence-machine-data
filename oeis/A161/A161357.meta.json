@@ -1,0 +1,21 @@
+{
+  "description": "Longer side (x) of inner rectangle described in A168339.",
+  "id": "A161357",
+  "mentions": [
+    "A143082",
+    "A161358",
+    "A168339",
+    "A168399"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

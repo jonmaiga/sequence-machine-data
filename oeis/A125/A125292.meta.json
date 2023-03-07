@@ -1,0 +1,27 @@
+{
+  "description": "Numbers having either no ones or no twos in their ternary representation.",
+  "id": "A125292",
+  "mentions": [
+    "A005823",
+    "A005836",
+    "A007089",
+    "A062756",
+    "A081603",
+    "A125289",
+    "A125291",
+    "A125293",
+    "A154314"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:13",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

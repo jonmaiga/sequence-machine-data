@@ -1,0 +1,23 @@
+{
+  "description": "Odd exponential admirable numbers: the odd terms of A336680.",
+  "id": "A336681",
+  "mentions": [
+    "A005408",
+    "A109729",
+    "A321147",
+    "A329188",
+    "A334973",
+    "A334975",
+    "A336680"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:08",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Define a(1) = A119323(1), then a(n+1) = A119323(i) > a(n) with the least i.",
+  "id": "A119325",
+  "mentions": [
+    "A119323",
+    "A119324"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

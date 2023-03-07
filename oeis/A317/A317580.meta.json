@@ -1,0 +1,27 @@
+{
+  "description": "Number of unlabeled rooted identity trees with n nodes and a distinguished leaf.",
+  "id": "A317580",
+  "mentions": [
+    "A000081",
+    "A001678",
+    "A003227",
+    "A003238",
+    "A004111",
+    "A038046",
+    "A055327",
+    "A067824",
+    "A301342",
+    "A316784"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:36",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

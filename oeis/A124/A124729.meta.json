@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that n, n+1, n+2 and n+3 are products of 5 primes.",
+  "id": "A124729",
+  "mentions": [
+    "A045940",
+    "A124057",
+    "A124728"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:13",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

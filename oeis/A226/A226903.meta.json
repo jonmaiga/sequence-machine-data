@@ -1,0 +1,25 @@
+{
+  "description": "Shiraishi numbers: a parametrized family of solutions c to the Diophantine equation a^3 + b^3 + c^3 = d^3 with d = c+1.",
+  "id": "A226903",
+  "mentions": [
+    "A003325",
+    "A005448",
+    "A023042",
+    "A181123",
+    "A225908",
+    "A225909",
+    "A226902"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:03:17",
+    "offset": 1,
+    "size": 42,
+    "source": "joeis"
+  }
+}

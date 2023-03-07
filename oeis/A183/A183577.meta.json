@@ -1,0 +1,18 @@
+{
+  "description": "Half the number of nX2 0..3 arrays with each element equal to either the maximum or the minimum of its horizontal and vertical neighbors",
+  "id": "A183577",
+  "mentions": [
+    "A183584"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:07",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

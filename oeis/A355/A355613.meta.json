@@ -1,0 +1,17 @@
+{
+  "description": "Number of n-tuples (p_1, p_2, ..., p_n) of positive integers such that p_{i-1} <= p_i <= i^n.",
+  "id": "A355613",
+  "mentions": [
+    "A355614"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:30",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

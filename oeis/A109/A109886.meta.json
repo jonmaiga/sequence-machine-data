@@ -1,0 +1,20 @@
+{
+  "description": "Index of first occurrence of n in A109883, or -1 if n does not occur in A109883.",
+  "id": "A109886",
+  "mentions": [
+    "A064510",
+    "A109883",
+    "A109884"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

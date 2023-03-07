@@ -1,0 +1,22 @@
+{
+  "description": "Numerator of the n-th term of the inverse Binomial Transform of the Bernoulli sequence prefixed with 0.",
+  "id": "A174263",
+  "mentions": [
+    "A000217",
+    "A100650",
+    "A164558",
+    "A165142",
+    "A174264"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

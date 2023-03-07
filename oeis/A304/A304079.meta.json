@@ -1,0 +1,17 @@
+{
+  "description": "Partial sums of A304077.",
+  "id": "A304079",
+  "mentions": [
+    "A304077"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

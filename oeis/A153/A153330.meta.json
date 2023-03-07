@@ -1,0 +1,19 @@
+{
+  "description": "Differences in adjacent elements of the sequence quantifying the steps needed for n to converge to 1 in the Collatz Conjecture.",
+  "id": "A153330",
+  "mentions": [
+    "A006577"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:35",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

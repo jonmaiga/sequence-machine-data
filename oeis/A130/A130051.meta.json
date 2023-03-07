@@ -1,0 +1,21 @@
+{
+  "description": "A bisection of A120049.",
+  "id": "A130051",
+  "mentions": [
+    "A120049",
+    "A130048",
+    "A130049",
+    "A130050"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

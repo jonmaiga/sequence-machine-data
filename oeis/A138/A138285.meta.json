@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of the imaginary part of z0, the smallest second-quadrant solution of z = Cos(z).",
+  "id": "A138285",
+  "mentions": [
+    "A003957",
+    "A138284"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

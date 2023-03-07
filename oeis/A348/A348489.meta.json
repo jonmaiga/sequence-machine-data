@@ -1,0 +1,24 @@
+{
+  "description": "Positive numbers whose square starts and ends with exactly one 5.",
+  "id": "A348489",
+  "mentions": [
+    "A017330",
+    "A045859",
+    "A305719",
+    "A348487",
+    "A348488",
+    "A348490",
+    "A348491"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

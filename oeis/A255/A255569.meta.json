@@ -1,0 +1,20 @@
+{
+  "description": "Primes whose binary representation encodes an irreducible polynomial over GF(2) and has a nonprime number of 1's.",
+  "id": "A255569",
+  "mentions": [
+    "A014580",
+    "A084345",
+    "A091206",
+    "A255564"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:13",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

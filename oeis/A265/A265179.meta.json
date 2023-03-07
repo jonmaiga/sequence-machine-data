@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of the position of the maximum of the function f(x) = x*Sum_{n>=1}n^2*(2*n^2*x^2-3)*exp(-n^2*x^2).",
+  "id": "A265179",
+  "mentions": [
+    "A259899",
+    "A265180"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:25",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

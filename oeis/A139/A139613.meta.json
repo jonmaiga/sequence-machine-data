@@ -1,0 +1,19 @@
+{
+  "description": "78n + 13.",
+  "id": "A139613",
+  "mentions": [
+    "A057145",
+    "A139600"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:50:33",
+    "offset": 0,
+    "size": 41,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = (n!/3!)*Sum(1/k!,k=1..n-3).",
+  "id": "A268218",
+  "mentions": [
+    "A038156",
+    "A038158",
+    "A268219",
+    "A268220"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

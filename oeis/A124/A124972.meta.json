@@ -1,0 +1,26 @@
+{
+  "description": "Expansion of Fricke's 32*tau_4(z) in powers of q = exp(2*Pi*i*z).",
+  "id": "A124972",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A007248",
+    "A010054",
+    "A010815",
+    "A029845",
+    "A046897",
+    "A092877",
+    "A121373"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:13",
+    "offset": -1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

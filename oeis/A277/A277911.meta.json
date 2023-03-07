@@ -1,0 +1,24 @@
+{
+  "description": "Self-inverse permutation of natural numbers induced when A118306 is restricted to A007310.",
+  "id": "A277911",
+  "mentions": [
+    "A007310",
+    "A118306",
+    "A126760",
+    "A277907",
+    "A277908",
+    "A277909",
+    "A277910"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:43",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

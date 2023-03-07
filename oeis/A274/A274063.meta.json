@@ -1,0 +1,19 @@
+{
+  "description": "Numbers whose periodic derivative is equal to the arithmetic derivative.",
+  "id": "A274063",
+  "mentions": [
+    "A003415",
+    "A038556",
+    "A273993"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

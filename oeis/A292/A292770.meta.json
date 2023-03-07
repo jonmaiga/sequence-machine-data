@@ -1,0 +1,23 @@
+{
+  "description": "If sigma(n)+phi(n) is even then (sigma(n)+phi(n))/2 otherwise -1.",
+  "id": "A292770",
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A065387",
+    "A291790",
+    "A292108",
+    "A292766",
+    "A292771"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:08",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

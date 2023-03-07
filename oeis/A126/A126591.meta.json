@@ -1,0 +1,18 @@
+{
+  "description": "Coordination sequence of a point in the sphere packing 4/3/c27 of Fischer, or the lcv-a net.",
+  "id": "A126591",
+  "mentions": [
+    "A038620"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

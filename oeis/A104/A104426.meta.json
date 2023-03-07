@@ -1,0 +1,27 @@
+{
+  "description": "Numbers k such that the digit 6 does not appear in the decimal expansion of k, Pk, Pk+k, Pk-k, or Pk*k, where Pk is the k-th prime.",
+  "id": "A104426",
+  "mentions": [
+    "A052414",
+    "A104419",
+    "A104420",
+    "A104421",
+    "A104422",
+    "A104423",
+    "A104424",
+    "A104425",
+    "A104427",
+    "A104428"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

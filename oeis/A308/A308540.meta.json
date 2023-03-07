@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the least nonnegative number whose digits do not appear in order (not necessarily consecutively) in the concatenation of all previous terms.",
+  "id": "A308540",
+  "mentions": [
+    "A048991",
+    "A309340"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

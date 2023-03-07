@@ -1,0 +1,18 @@
+{
+  "description": "Number of compositions (ordered partitions) of the n-th prime into n positive integers.",
+  "id": "A104861",
+  "mentions": [
+    "A101810"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

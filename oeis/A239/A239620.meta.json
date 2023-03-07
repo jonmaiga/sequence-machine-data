@@ -1,0 +1,21 @@
+{
+  "description": "Number of Euler bricks with side length a < b < c < 10^n, i.e., in a boxed parameter space with dimension 10^n.",
+  "id": "A239620",
+  "mentions": [
+    "A031173",
+    "A031174",
+    "A031175",
+    "A239618"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

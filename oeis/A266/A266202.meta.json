@@ -1,0 +1,22 @@
+{
+  "description": "Weak Goodstein numbers: a(n) = g_n(n), where g_n(n) is the weak Goodstein function.",
+  "id": "A266202",
+  "mentions": [
+    "A137411",
+    "A265034",
+    "A266201",
+    "A266203",
+    "A267647",
+    "A267648"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:27",
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

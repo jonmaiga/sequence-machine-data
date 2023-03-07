@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Sum_{i=0..n} i*T(i)^2, where T(i) = A000073(i) is the i-th tribonacci number.",
+  "id": "A337283",
+  "mentions": [
+    "A000073",
+    "A085697",
+    "A337282",
+    "A337284"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:09",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

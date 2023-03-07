@@ -1,0 +1,26 @@
+{
+  "description": "Triangle of coefficients of polynomials v(n,x) jointly generated with A210803; see the Formula section.",
+  "id": "A210804",
+  "mentions": [
+    "A000007",
+    "A000045",
+    "A000302",
+    "A007051",
+    "A047849",
+    "A084938",
+    "A208510",
+    "A210803"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:22:27",
+    "offset": 1,
+    "size": 50,
+    "source": "joeis"
+  }
+}

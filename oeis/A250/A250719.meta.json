@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of E(T_{0,2}), the expected \"first-passage\" time required for an Ornstein-Uhlenbeck process to cross the level 0, given that it started at level 2.",
+  "id": "A250719",
+  "mentions": [
+    "A249417",
+    "A249418",
+    "A250718"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:07",
+    "offset": 1,
+    "size": 104,
+    "source": "oeis-bfile"
+  }
+}

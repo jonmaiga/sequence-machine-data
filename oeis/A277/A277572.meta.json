@@ -1,0 +1,20 @@
+{
+  "description": "(1/2)*A277568.",
+  "id": "A277572",
+  "mentions": [
+    "A277568",
+    "A277573",
+    "A277574"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:43",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

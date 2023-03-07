@@ -1,0 +1,18 @@
+{
+  "description": "n >= 2 such that the denominator/6 of Bernoulli(n) is congruent to {1, 5, 7, 13 or 19} modulo 30.",
+  "id": "A233578",
+  "mentions": [
+    "A005843",
+    "A233579"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:51",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

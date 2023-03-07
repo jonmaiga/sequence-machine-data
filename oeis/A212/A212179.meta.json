@@ -1,0 +1,25 @@
+{
+  "description": "Number of distinct prime factors of A181800(n) (n-th powerful number that is the first integer of its prime signature).",
+  "id": "A212179",
+  "mentions": [
+    "A001221",
+    "A001694",
+    "A025487",
+    "A056170",
+    "A181800",
+    "A212171",
+    "A212172",
+    "A212176"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:30",
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Number of nX4 arrays of occupancy after each element stays put or moves to some horizontal, vertical or antidiagonal neighbor, with every occupancy equal to zero or two",
+  "id": "A221395",
+  "mentions": [
+    "A221396"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:39",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

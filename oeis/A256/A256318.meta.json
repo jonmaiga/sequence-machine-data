@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of Sum_{k>=0} zeta(2k)/((2k+1)*4^(2k)) (negated).",
+  "id": "A256318",
+  "mentions": [
+    "A006752",
+    "A256319"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

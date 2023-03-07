@@ -1,0 +1,22 @@
+{
+  "description": "Number of symmetry types of digraphs with n nodes.",
+  "id": "A343592",
+  "mentions": [
+    "A000273",
+    "A000595",
+    "A000638",
+    "A051504",
+    "A053763"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

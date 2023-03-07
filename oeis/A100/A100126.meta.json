@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of sum_{n>0} n/(prime(n)!).",
+  "id": "A100126",
+  "mentions": [
+    "A094289",
+    "A100124"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

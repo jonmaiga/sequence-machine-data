@@ -1,0 +1,18 @@
+{
+  "description": "The number of numerical sets S with atom monoid A(S) equal to {0,n+1,n+2,n+3,n+4,...}",
+  "id": "A158291",
+  "mentions": [
+    "A066062"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

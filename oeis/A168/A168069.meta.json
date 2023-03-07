@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the index k of the smallest k-th prime p(k) with f(k,n):=(p(k) + p(k+1))/n an integer (n = 1,2,3,...)",
+  "id": "A168069",
+  "mentions": [
+    "A000040",
+    "A167790"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

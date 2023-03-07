@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of permutations of [2n-1] that have exactly one preimage under West's stack-sorting map and that also have first entry k.",
+  "id": "A318973",
+  "mentions": [
+    "A180874"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

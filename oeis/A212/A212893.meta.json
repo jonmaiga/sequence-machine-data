@@ -1,0 +1,20 @@
+{
+  "description": "Number of quadruples (w,x,y,z) with all terms in {0,...,n} such that w-x, x-y, and y-z all have the same parity.",
+  "id": "A212893",
+  "mentions": [
+    "A000982",
+    "A211795"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:31",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

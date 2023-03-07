@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that sigma(k) contains the same digits as k in base 10.",
+  "id": "A249899",
+  "mentions": [
+    "A000203",
+    "A069216",
+    "A115920"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:06",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Disorderly Numbers: numbers not in A167408 (orderly numbers).",
+  "id": "A167410",
+  "mentions": [
+    "A167408",
+    "A167409",
+    "A167411"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:51",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

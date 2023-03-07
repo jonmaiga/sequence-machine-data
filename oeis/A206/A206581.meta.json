@@ -1,0 +1,18 @@
+{
+  "description": "Odd primes p such that p+1 is a prime times a power of two.",
+  "id": "A206581",
+  "mentions": [
+    "A192869"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:26",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

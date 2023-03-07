@@ -1,0 +1,22 @@
+{
+  "description": "Define K(n) = Integral_{t=0..1} (-1/2)^n/(1+t)*((1-t)^2*t^2/(1+t))^n*dt and write K(n) = d(n)*log(2) - b(n)/a(n) where a(n), d(n), b(n) are positive integers; sequence gives a(n).",
+  "id": "A316912",
+  "mentions": [
+    "A123178",
+    "A190726",
+    "A305997",
+    "A305998",
+    "A316911"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

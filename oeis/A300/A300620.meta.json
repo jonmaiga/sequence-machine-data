@@ -1,0 +1,20 @@
+{
+  "description": "Table of row functions R(n,x) that satisfy: [x^k] exp( k * R(n,x) ) = k^n * [x^(k-1)] exp( k * R(n,x) ) for k>=1, n>=1, read by antidiagonals.",
+  "id": "A300620",
+  "mentions": [
+    "A088716",
+    "A300617",
+    "A300619"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:25",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

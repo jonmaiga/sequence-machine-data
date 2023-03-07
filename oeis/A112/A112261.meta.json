@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = A112260(n+1) - A112260(n).",
+  "id": "A112261",
+  "mentions": [
+    "A112259",
+    "A112260"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-03 01:09:38",
+    "offset": 1,
+    "size": 32,
+    "source": "joeis"
+  }
+}

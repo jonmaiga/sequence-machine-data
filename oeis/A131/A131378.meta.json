@@ -1,0 +1,20 @@
+{
+  "description": "Starting with 0, the sequence a(n) changes from 0 to 1 or back when the next number n is a prime.",
+  "id": "A131378",
+  "mentions": [
+    "A071986",
+    "A131377",
+    "A230980"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-entry"
+  }
+}

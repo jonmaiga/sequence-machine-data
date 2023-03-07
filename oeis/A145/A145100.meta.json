@@ -1,0 +1,29 @@
+{
+  "description": "Integers in which no more than half the digits (rounded up) are the same, for all bases up to ten.",
+  "id": "A145100",
+  "mentions": [
+    "A049354",
+    "A049355",
+    "A049356",
+    "A049357",
+    "A049358",
+    "A049359",
+    "A049360",
+    "A049361",
+    "A049362",
+    "A049363",
+    "A049364"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

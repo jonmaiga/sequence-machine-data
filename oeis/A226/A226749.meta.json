@@ -1,0 +1,18 @@
+{
+  "description": "Number of partitions of n into distinct Platonic numbers, cf. A053012.",
+  "id": "A226749",
+  "mentions": [
+    "A053012",
+    "A226748"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 0,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

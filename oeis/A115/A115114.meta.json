@@ -1,0 +1,21 @@
+{
+  "description": "Asymmetric rhythm cycles (patterns): binary necklaces of length 2n subject to the restriction that for any k if the k-th bead is of color 1 then the (k+n)-th bead (modulo 2n) is of color 0.",
+  "id": "A115114",
+  "mentions": [
+    "A000010",
+    "A000016",
+    "A006575"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

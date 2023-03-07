@@ -1,0 +1,23 @@
+{
+  "description": "Largest odd divisor of A002183(n) (number of divisors of n-th highly composite number).",
+  "id": "A212183",
+  "mentions": [
+    "A000265",
+    "A002182",
+    "A002183",
+    "A160233",
+    "A212172",
+    "A212181"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:30",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Numbers m such that phi(m) = rad(m)^3, where phi is the Euler totient function (A000010) and rad is the squarefree kernel function (A007947).",
+  "id": "A328274",
+  "mentions": [
+    "A000010",
+    "A007947",
+    "A105261",
+    "A211413",
+    "A328275",
+    "A328276"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Product_{k=0..n} (4*k+1)^(n-k).",
+  "id": "A263430",
+  "mentions": [
+    "A000178",
+    "A006752",
+    "A057863",
+    "A074962",
+    "A263416"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:23",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

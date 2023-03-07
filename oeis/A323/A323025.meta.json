@@ -1,0 +1,29 @@
+{
+  "description": "Numbers with exactly four distinct exponents in their prime factorization, or four distinct parts in their prime signature.",
+  "id": "A323025",
+  "mentions": [
+    "A001221",
+    "A001222",
+    "A001615",
+    "A006939",
+    "A033993",
+    "A059404",
+    "A062770",
+    "A071625",
+    "A118914",
+    "A181819",
+    "A323014",
+    "A323022",
+    "A323024"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:46",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

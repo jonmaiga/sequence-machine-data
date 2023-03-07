@@ -1,0 +1,23 @@
+{
+  "description": "Number of compositions (ordered partitions) of n^2 into at most n squares.",
+  "id": "A347590",
+  "mentions": [
+    "A000290",
+    "A006456",
+    "A105152",
+    "A224366",
+    "A298330",
+    "A347591",
+    "A347592"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

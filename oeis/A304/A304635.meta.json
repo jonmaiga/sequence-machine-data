@@ -1,0 +1,23 @@
+{
+  "description": "Triangle T(n,j) read by rows: the number of j-faces in the hypersimplicial decomposition of the unit cube of n dimensions.",
+  "id": "A304635",
+  "mentions": [
+    "A001793",
+    "A001794",
+    "A006974",
+    "A014106"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

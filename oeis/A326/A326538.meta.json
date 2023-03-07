@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the numerator of the image of 1/n by the Cantor staircase function.",
+  "id": "A326538",
+  "mentions": [
+    "A061392",
+    "A326539"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:53",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

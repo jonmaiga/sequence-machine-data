@@ -1,0 +1,18 @@
+{
+  "description": "(n+1)^((n+1)!) mod (n!)^n.",
+  "id": "A209300",
+  "mentions": [
+    "A067039",
+    "A187751"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

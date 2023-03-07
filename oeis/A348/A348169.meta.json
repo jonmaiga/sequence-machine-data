@@ -1,0 +1,20 @@
+{
+  "description": "Positive integers which can be represented as A*(x^2 + y^2 + z^2) = B*(x*y + x*z + y*z) with positive integers x, y, z, A, B and gcd(A,B)=1.",
+  "id": "A348169",
+  "mentions": [
+    "A033428",
+    "A331605",
+    "A347960",
+    "A347969"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:22",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

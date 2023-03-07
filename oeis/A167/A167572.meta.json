@@ -1,0 +1,33 @@
+{
+  "description": "The ED3 array read by antidiagonals",
+  "id": "A167572",
+  "mentions": [
+    "A000012",
+    "A014481",
+    "A016969",
+    "A167546",
+    "A167560",
+    "A167573",
+    "A167574",
+    "A167575",
+    "A167576",
+    "A167577",
+    "A167578",
+    "A167579",
+    "A167580",
+    "A167583",
+    "A167584"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

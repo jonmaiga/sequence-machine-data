@@ -1,0 +1,19 @@
+{
+  "description": "Primes at which the prime number race between the two prime classes with different sign of sin(prime(.)) changes leader.",
+  "id": "A181188",
+  "mentions": [
+    "A070748",
+    "A070753",
+    "A070754"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

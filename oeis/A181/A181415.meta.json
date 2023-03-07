@@ -1,0 +1,30 @@
+{
+  "description": "Irregular triangle a(n,k) = A049009(n,k)/n, read by rows 1<=k<=A000041(n).",
+  "id": "A181415",
+  "mentions": [
+    "A000041",
+    "A000081",
+    "A000169",
+    "A019538",
+    "A049009",
+    "A049019",
+    "A054589",
+    "A098546",
+    "A101817",
+    "A101818",
+    "A135278",
+    "A179438"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

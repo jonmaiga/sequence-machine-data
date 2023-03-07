@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = 1 if sigma(n) is of the form 4m+2, otherwise 0.",
+  "id": "A353812",
+  "mentions": [
+    "A000203",
+    "A191217",
+    "A347870",
+    "A353811",
+    "A353813"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:28",
+    "offset": 1,
+    "size": 125,
+    "source": "oeis-bfile"
+  }
+}

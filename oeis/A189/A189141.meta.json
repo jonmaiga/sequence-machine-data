@@ -1,0 +1,21 @@
+{
+  "description": "Zero-one sequence based on the primes: a(A000040(k))=a(k); a(A002808(k))=1-a(k), a(1)=0.",
+  "id": "A189141",
+  "mentions": [
+    "A000040",
+    "A002808",
+    "A188967",
+    "A189142",
+    "A189143"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 135,
+    "source": "oeis-entry"
+  }
+}

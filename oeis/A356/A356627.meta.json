@@ -1,0 +1,25 @@
+{
+  "description": "Primes whose powers appear in A332979.",
+  "id": "A356627",
+  "mentions": [
+    "A000040",
+    "A000961",
+    "A005940",
+    "A180944",
+    "A180945",
+    "A182944",
+    "A182945",
+    "A302334",
+    "A332979"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:31",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Position of 2^n when {2^j} and {3^k} are jointly ranked; complement of A206807.",
+  "id": "A206805",
+  "mentions": [
+    "A182773",
+    "A182774",
+    "A206807"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:26",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

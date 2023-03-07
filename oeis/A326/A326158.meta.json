@@ -1,0 +1,32 @@
+{
+  "description": "Nonprime squarefree numbers whose product of prime indices is divisible by their sum of prime indices.",
+  "id": "A326158",
+  "mentions": [
+    "A003963",
+    "A056239",
+    "A057567",
+    "A057568",
+    "A112798",
+    "A301987",
+    "A325037",
+    "A325042",
+    "A325044",
+    "A326149",
+    "A326150",
+    "A326151",
+    "A326153",
+    "A326154",
+    "A326155",
+    "A326156"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:53",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

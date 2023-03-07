@@ -1,0 +1,21 @@
+{
+  "description": "Integer lengths of Catalan-primes: numbers n such that the concatenation of the first n decimal digits of Catalan's constant is prime.",
+  "id": "A118328",
+  "mentions": [
+    "A006752",
+    "A118329"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "bref",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

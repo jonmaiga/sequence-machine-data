@@ -1,0 +1,19 @@
+{
+  "description": "Multiplicative with a(p^k) = 1 or -1 so as to minimize abs(Sum_{m = 1..p^k} a(m)); in case of a tie, a(p^k) = a(p^k-1).",
+  "id": "A360710",
+  "mentions": [
+    "A360711"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "mult",
+    "new",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

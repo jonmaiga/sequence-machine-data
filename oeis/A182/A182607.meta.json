@@ -1,0 +1,31 @@
+{
+  "description": "Number of conjugacy classes in GL(n,16).",
+  "id": "A182607",
+  "mentions": [
+    "A006951",
+    "A006952",
+    "A049314",
+    "A049315",
+    "A049316",
+    "A182603",
+    "A182604",
+    "A182605",
+    "A182606",
+    "A182608",
+    "A182609",
+    "A182610",
+    "A182611",
+    "A182612"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:06",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

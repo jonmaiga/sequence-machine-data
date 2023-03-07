@@ -1,0 +1,21 @@
+{
+  "description": "Triangle T(n,k) = n if gcd(n,k)=1, =0 otherwise.",
+  "id": "A127449",
+  "mentions": [
+    "A002618",
+    "A054521"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 18:14:09",
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

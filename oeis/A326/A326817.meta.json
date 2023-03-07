@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that phi(k) > phi(k+1) > phi(k+2) > phi(k+3) where phi is the Euler totient function (A000010).",
+  "id": "A326817",
+  "mentions": [
+    "A000010",
+    "A078776",
+    "A161962",
+    "A161963",
+    "A206581",
+    "A327880",
+    "A328056"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:53",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

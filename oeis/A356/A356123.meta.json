@@ -1,0 +1,24 @@
+{
+  "description": "Least Lucas number with n Lucas divisors.",
+  "id": "A356123",
+  "mentions": [
+    "A000032",
+    "A076985",
+    "A102460",
+    "A304092",
+    "A356062",
+    "A356122",
+    "A356666"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:30",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

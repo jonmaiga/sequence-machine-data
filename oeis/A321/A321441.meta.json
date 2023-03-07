@@ -1,0 +1,19 @@
+{
+  "description": "Number of \"hexagonal partitions\" of n",
+  "id": "A321441",
+  "mentions": [
+    "A116513",
+    "A312440",
+    "A321440"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:44",
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

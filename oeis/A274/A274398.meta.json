@@ -1,0 +1,21 @@
+{
+  "description": "Numerators of 1/2 + sum(chi(p)^(4*n / (p-1))/p) where the sum is over primes p of the form 4k+1 such that p-1 divides 4*n and the numbers chi(p) are given by A002172.",
+  "id": "A274398",
+  "mentions": [
+    "A002172",
+    "A002306",
+    "A002770",
+    "A047817"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:39",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

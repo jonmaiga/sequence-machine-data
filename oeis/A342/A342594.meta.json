@@ -1,0 +1,24 @@
+{
+  "description": "Earliest occurrence of the next distinct width pattern (as listed in A342592) in the symmetric representation of sigma(n) not yet encountered as n increases.",
+  "id": "A342594",
+  "mentions": [
+    "A235791",
+    "A237048",
+    "A237270",
+    "A237591",
+    "A237593",
+    "A249223",
+    "A341969",
+    "A342592"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

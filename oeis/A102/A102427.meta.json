@@ -1,0 +1,23 @@
+{
+  "description": "Triangle based on downward diagonals of A102426.",
+  "id": "A102427",
+  "mentions": [
+    "A011973",
+    "A102426",
+    "A102428",
+    "A102429"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

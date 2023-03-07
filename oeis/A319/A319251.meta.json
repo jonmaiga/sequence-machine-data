@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of permutations pi of [n] with k descents such that s(pi) avoids the patterns 132, 231, 312, and 321, where s denotes West's stack-sorting map.",
+  "id": "A319251",
+  "mentions": [
+    "A001263",
+    "A071721",
+    "A319252"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

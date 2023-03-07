@@ -1,0 +1,19 @@
+{
+  "description": "A positive integer k is included if the largest square dividing k is not equal to the largest square that, when written in binary, occurs as a substring in binary k.",
+  "id": "A175384",
+  "mentions": [
+    "A008833",
+    "A162400"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "Heinz numbers of integer partitions such that lesser of the maximum part and the number of parts is 2.",
+  "id": "A325229",
+  "mentions": [
+    "A056239",
+    "A061395",
+    "A093641",
+    "A112798",
+    "A252464",
+    "A257541",
+    "A263297",
+    "A265283",
+    "A325224",
+    "A325225",
+    "A325227",
+    "A325230",
+    "A325232"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

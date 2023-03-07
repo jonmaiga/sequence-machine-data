@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that the k-th semiprime == 4 (mod k).",
+  "id": "A106129",
+  "mentions": [
+    "A001358",
+    "A357808"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

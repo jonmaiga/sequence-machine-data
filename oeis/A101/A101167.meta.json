@@ -1,0 +1,19 @@
+{
+  "description": "Nontrivial Delannoy numbers that are primes.",
+  "id": "A101167",
+  "mentions": [
+    "A000040",
+    "A008288",
+    "A092830"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

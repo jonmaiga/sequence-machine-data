@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = 3*n - a(n-1) + 1 with n > 1, a(1)=1.",
+  "id": "A168198",
+  "mentions": [
+    "A084964",
+    "A103889",
+    "A168199",
+    "A168200"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:44:43",
+    "offset": 1,
+    "size": 70,
+    "source": "joeis"
+  }
+}

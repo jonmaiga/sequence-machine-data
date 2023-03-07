@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of x^2*(2-3*x)/(1-x-x^2)^2.",
+  "id": "A191830",
+  "mentions": [
+    "A000045",
+    "A001629"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 20:58:13",
+    "offset": 0,
+    "size": 39,
+    "source": "joeis"
+  }
+}

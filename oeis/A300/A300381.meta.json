@@ -1,0 +1,20 @@
+{
+  "description": "Numbers of the form x^3+x*y+y^3 where x,y>0.",
+  "id": "A300381",
+  "mentions": [
+    "A003136",
+    "A024614",
+    "A071568",
+    "A266970"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

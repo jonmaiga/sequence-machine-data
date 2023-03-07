@@ -1,0 +1,20 @@
+{
+  "description": "Zero-one sequence based on the sequence n(n+1)(2n+1)/6: a(A000330(k))=a(k); a(v(k))=1-a(k), where v=complement(A000330) and a(1)=0.",
+  "id": "A189203",
+  "mentions": [
+    "A000330",
+    "A188967",
+    "A189204",
+    "A189205"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:49:25",
+    "offset": 1,
+    "size": 135,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Number of strict integer partitions of n with no 1's such that no part is a power of any other part.",
+  "id": "A323054",
+  "mentions": [
+    "A001597",
+    "A007916",
+    "A025147",
+    "A052410",
+    "A078374",
+    "A087897",
+    "A120641",
+    "A275972",
+    "A303362",
+    "A323053",
+    "A323087",
+    "A323088"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:46",
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

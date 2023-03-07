@@ -1,0 +1,22 @@
+{
+  "description": "G.f.: A(x) satisfies: [x^n] A(x)^(n^2-2*n+2) = 0 for n>=2.",
+  "id": "A185072",
+  "mentions": [
+    "A185082",
+    "A229041",
+    "A229044",
+    "A229128",
+    "A230218"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:09",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

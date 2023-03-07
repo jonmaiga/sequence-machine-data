@@ -1,0 +1,23 @@
+{
+  "description": "Numbers with digits in nondecreasing order such that additive and multiplicative digital roots coincide.",
+  "id": "A318273",
+  "mentions": [
+    "A009994",
+    "A010888",
+    "A031347",
+    "A064702",
+    "A277061",
+    "A299690"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

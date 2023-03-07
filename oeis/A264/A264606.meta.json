@@ -1,0 +1,18 @@
+{
+  "description": "Number of self-dual negacyclic codes of length 2n over GF(9), where 2n runs through the numbers congruent to 2 or 4 mod 6 (cf. A047235).",
+  "id": "A264606",
+  "mentions": [
+    "A047235",
+    "A264605"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

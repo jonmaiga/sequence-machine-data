@@ -1,0 +1,19 @@
+{
+  "description": "A sequence of coefficients of 3^n, when x = x_oj.",
+  "id": "A173838",
+  "mentions": [
+    "A173252"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn",
+    "obsc",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

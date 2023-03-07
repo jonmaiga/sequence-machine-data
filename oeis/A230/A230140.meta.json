@@ -1,0 +1,20 @@
+{
+  "description": "Number of ways to write n = x + y + z with 0 < x <= y <= z such that 6*x-1, 6*y-1, 6*z-1 are among those primes p (terms of A230138) with p + 2 and 2*p - 5 also prime.",
+  "id": "A230140",
+  "mentions": [
+    "A068307",
+    "A212067",
+    "A230138",
+    "A230141"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:47",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

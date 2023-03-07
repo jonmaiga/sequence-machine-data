@@ -1,0 +1,24 @@
+{
+  "description": "Matrix inverse of triangle A137153(n,k) = C(2^k+n-k-1, n-k), read by rows.",
+  "id": "A137156",
+  "mentions": [
+    "A001192",
+    "A137153",
+    "A137157",
+    "A137158",
+    "A137159",
+    "A137160"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

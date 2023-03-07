@@ -1,0 +1,31 @@
+{
+  "description": "The smallest prime that does not divide the prime product form (A276086) of the primorial base expansion of n.",
+  "id": "A326810",
+  "mentions": [
+    "A000040",
+    "A020639",
+    "A053669",
+    "A143293",
+    "A276086",
+    "A276087",
+    "A276088",
+    "A328316",
+    "A328317",
+    "A328476",
+    "A328570",
+    "A328579",
+    "A328580",
+    "A328613"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:53",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

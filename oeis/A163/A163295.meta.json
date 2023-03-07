@@ -1,0 +1,20 @@
+{
+  "description": "Binary order of n plus number of partitions of n-1.",
+  "id": "A163295",
+  "mentions": [
+    "A000041",
+    "A029837"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 18:19:41",
+    "offset": 1,
+    "size": 46,
+    "source": "joeis"
+  }
+}

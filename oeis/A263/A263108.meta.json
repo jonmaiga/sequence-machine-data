@@ -1,0 +1,21 @@
+{
+  "description": "Semiprimes m such that the leftward cyclic permutation of its decimal digits is a larger semiprime.",
+  "id": "A263108",
+  "mentions": [
+    "A001292",
+    "A001358",
+    "A085751",
+    "A263106"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:22",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

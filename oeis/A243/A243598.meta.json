@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the fraction of the full solid angle subtended by a cone with the polar angle of 10^(-4) arcseconds.",
+  "id": "A243598",
+  "mentions": [
+    "A125560",
+    "A234597"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:56:05",
+    "offset": -19,
+    "size": 105,
+    "source": "joeis"
+  }
+}

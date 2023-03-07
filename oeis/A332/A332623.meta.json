@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = Sum_{k=1..n} ceiling(n/k)^2.",
+  "id": "A332623",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A006218",
+    "A006590",
+    "A024916",
+    "A222548",
+    "A332490",
+    "A332569",
+    "A332624"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

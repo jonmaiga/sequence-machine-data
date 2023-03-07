@@ -1,0 +1,28 @@
+{
+  "description": "a(n) is the smallest divisor of triangular number T(n) := n(n+1)/2 not already in the sequence.",
+  "id": "A111273",
+  "mentions": [
+    "A000217",
+    "A111267",
+    "A113658",
+    "A113659",
+    "A113702",
+    "A309195",
+    "A309196",
+    "A309197",
+    "A309199",
+    "A309200",
+    "A309202",
+    "A309203"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:02",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

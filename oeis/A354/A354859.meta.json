@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the numerator of 1/prime(n) + 2/prime(n-1) + 3/prime(n-2) + ... + (n-1)/3 + n/2.",
+  "id": "A354859",
+  "mentions": [
+    "A024451",
+    "A027612",
+    "A120272",
+    "A354860"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

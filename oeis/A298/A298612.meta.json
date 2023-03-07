@@ -1,0 +1,21 @@
+{
+  "description": "The number of concave polygon classes.",
+  "id": "A298612",
+  "mentions": [
+    "A000031",
+    "A004526",
+    "A227910",
+    "A262232"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 3,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

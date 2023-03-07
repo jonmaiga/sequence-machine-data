@@ -1,0 +1,29 @@
+{
+  "description": "Decimal expansion of the continued fraction c(1) +c(1)/(c(2) +c(2)/(c(3) +c(3)/(c(4) +c(4)/....))), where c(i)=2^(i-1).",
+  "id": "A233590",
+  "mentions": [
+    "A000079",
+    "A096658",
+    "A233582",
+    "A233583",
+    "A233584",
+    "A233585",
+    "A233586",
+    "A233587",
+    "A233588",
+    "A233589",
+    "A233591"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:51",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

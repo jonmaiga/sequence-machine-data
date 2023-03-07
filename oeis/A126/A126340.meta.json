@@ -1,0 +1,17 @@
+{
+  "description": "Largest coefficient of q in { [x^n] W(x,q) } where W(x,q) = exp( q*x*W(q*x,q) ); largest term in rows of triangle A126265.",
+  "id": "A126340",
+  "mentions": [
+    "A126265"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(1)=1, a(2)=101, a(n) = 1001*a(n-1) for n > 2.",
+  "id": "A180053",
+  "mentions": [
+    "A093645"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 16:01:09",
+    "offset": 1,
+    "size": 12,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = 20*a(n-2) - 64*a(n-4).",
+  "id": "A119886",
+  "mentions": [
+    "A000937",
+    "A002409",
+    "A060595",
+    "A060638",
+    "A099193",
+    "A099195"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:08",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

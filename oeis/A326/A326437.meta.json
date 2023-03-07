@@ -1,0 +1,23 @@
+{
+  "description": "E.g.f.: exp(-5) * Sum_{n>=0} (2*exp(n*x) + 3)^n / n!.",
+  "id": "A326437",
+  "mentions": [
+    "A020557",
+    "A326433",
+    "A326434",
+    "A326435",
+    "A326436",
+    "A326600"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

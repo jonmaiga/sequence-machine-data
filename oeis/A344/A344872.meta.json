@@ -1,0 +1,25 @@
+{
+  "description": "Semiprimes of the form 3m+2.",
+  "id": "A344872",
+  "mentions": [
+    "A001358",
+    "A001748",
+    "A016789",
+    "A108172",
+    "A112771",
+    "A112772",
+    "A112774",
+    "A344703"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

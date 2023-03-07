@@ -1,0 +1,24 @@
+{
+  "description": "Number of Dyck paths of semilength n such that the area under the right half of the path equals the area under the left half of the path.",
+  "id": "A300323",
+  "mentions": [
+    "A000108",
+    "A000225",
+    "A001405",
+    "A129182",
+    "A239927",
+    "A298645",
+    "A300322"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:24",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

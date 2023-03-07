@@ -1,0 +1,29 @@
+{
+  "description": "Convert n to base 5, move the least significant digit to the most significant one and convert back to base 10.",
+  "id": "A255590",
+  "mentions": [
+    "A007091",
+    "A030104",
+    "A038572",
+    "A048330",
+    "A048787",
+    "A255588",
+    "A255589",
+    "A255591",
+    "A255594",
+    "A255689",
+    "A255693"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:13",
+    "offset": 0,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

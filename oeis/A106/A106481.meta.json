@@ -1,0 +1,20 @@
+{
+  "description": "An Euler phi transform of 1/(1-x^2).",
+  "id": "A106481",
+  "mentions": [
+    "A049690",
+    "A099957"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-12-25 19:14:52",
+    "offset": 0,
+    "size": 60,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "description": "Irregular triangle of coefficients of a partition transform for direct Lagrange inversion of an o.g.f., complementary to A134685 for an e.g.f.; Normalized by the factorials, these are signed, refined face polynomials of the associahedra",
+  "id": "A133437",
+  "mentions": [
+    "A001764",
+    "A007318",
+    "A033282",
+    "A086810",
+    "A111785",
+    "A126216",
+    "A129185",
+    "A130561",
+    "A132159",
+    "A133314",
+    "A134264",
+    "A134685",
+    "A139605",
+    "A145271",
+    "A181289",
+    "A263633",
+    "A350499"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that the sum of the digits and the sum of the square of the digits of k are prime factors of k.",
+  "id": "A306701",
+  "mentions": [
+    "A003132",
+    "A007953",
+    "A062713"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

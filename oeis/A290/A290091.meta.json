@@ -1,0 +1,20 @@
+{
+  "description": "Filter based on 1-digits of base-3 expansion: a(n) = A278222(A289813(n)).",
+  "id": "A290091",
+  "mentions": [
+    "A278222",
+    "A289813",
+    "A290092",
+    "A290093"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:05",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

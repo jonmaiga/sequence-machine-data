@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = 1 if A003961(n) > 2*sigma(n), 0 otherwise.",
+  "id": "A337380",
+  "mentions": [
+    "A000203",
+    "A003961",
+    "A252742",
+    "A337378",
+    "A337379",
+    "A337383"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:09",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

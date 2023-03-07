@@ -1,0 +1,19 @@
+{
+  "description": "Number of fixed convex n-iamonds (or polyiamonds with n cells).",
+  "id": "A284385",
+  "mentions": [
+    "A000577",
+    "A001420",
+    "A096004"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:55",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

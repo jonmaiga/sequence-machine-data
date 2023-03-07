@@ -1,0 +1,18 @@
+{
+  "description": "Value of k for incrementally largest value of k/A002322(k), where A002322 is the Carmichael function.",
+  "id": "A346587",
+  "mentions": [
+    "A002322"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

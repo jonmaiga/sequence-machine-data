@@ -1,0 +1,19 @@
+{
+  "description": "Nonprime numbers k such that sigma(k) - Sum_{j=1..m}{sigma(k) mod d_j} | k, where d_j is one of the m divisors of k.",
+  "id": "A282774",
+  "mentions": [
+    "A000203",
+    "A282775"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

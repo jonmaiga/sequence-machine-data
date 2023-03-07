@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that n! + 257 and abs(n! - 257) are both prime.",
+  "id": "A154661",
+  "mentions": [
+    "A144046",
+    "A154660"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "The prime numbers and their nonprime nearest-neighbors.",
+  "id": "A210940",
+  "mentions": [
+    "A000040",
+    "A018252",
+    "A045718",
+    "A079364",
+    "A134928",
+    "A134930",
+    "A210939"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

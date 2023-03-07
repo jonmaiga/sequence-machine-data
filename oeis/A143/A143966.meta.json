@@ -1,0 +1,19 @@
+{
+  "description": "Eigentriangle with row sums = A001333 starting (1, 3, 7, 17, 41, 99, ...).",
+  "id": "A143966",
+  "mentions": [
+    "A001333"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

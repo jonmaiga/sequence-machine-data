@@ -1,0 +1,18 @@
+{
+  "description": "Partial sums (A131771) equal this sequence excluding zeros located at positions {m*(m+1)/2, m>=0}, with a(0)=1.",
+  "id": "A131772",
+  "mentions": [
+    "A131770",
+    "A131771"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

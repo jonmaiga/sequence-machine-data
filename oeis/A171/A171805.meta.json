@@ -1,0 +1,25 @@
+{
+  "description": "G.f.: Series reversion of x/P(x)^3 where P(x) is the g.f. for Partition numbers (A000041).",
+  "id": "A171805",
+  "mentions": [
+    "A000041",
+    "A007312",
+    "A010815",
+    "A010816",
+    "A109085",
+    "A171802",
+    "A171803",
+    "A171804"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

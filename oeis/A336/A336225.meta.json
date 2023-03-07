@@ -1,0 +1,29 @@
+{
+  "description": "Table read by antidiagonals: T(n, k) = digitsum(n*k) with n >= 0 and k >= 0.",
+  "id": "A336225",
+  "mentions": [
+    "A003991",
+    "A004092",
+    "A004159",
+    "A004164",
+    "A004247",
+    "A007953",
+    "A055565",
+    "A055566",
+    "A055567"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Triangle T(n,k) of coefficients of r_1^n+r_2^n in terms of p and q, where r_1,r_2 are the roots of x^2+px+q=0.",
+  "id": "A113279",
+  "mentions": [
+    "A034807",
+    "A263916"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

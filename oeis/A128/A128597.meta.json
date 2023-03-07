@@ -1,0 +1,22 @@
+{
+  "description": "Column 2 of triangle A128596; a(n) = coefficient of q^(2n+4) in the q-analog of the even double factorials (2n+4)!! for n>=0.",
+  "id": "A128597",
+  "mentions": [
+    "A000165",
+    "A128084",
+    "A128086",
+    "A128596",
+    "A128598"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

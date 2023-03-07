@@ -1,0 +1,19 @@
+{
+  "description": "Poulet numbers (Fermat pseudoprimes to base 2) with a record number of divisors that are also Poulet numbers.",
+  "id": "A300327",
+  "mentions": [
+    "A001567",
+    "A290497"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Integers represented by a cyclotomic binary form Phi{k}(x,y) with positive integers x and y where max(x, y) >= 2 and the index k is not prime.",
+  "id": "A300331",
+  "mentions": [
+    "A293654",
+    "A296095",
+    "A299930",
+    "A300332"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

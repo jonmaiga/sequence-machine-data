@@ -1,0 +1,21 @@
+{
+  "description": "Write n in Elias's omega code, interchange the 1's and 0's and convert it back to decimal.",
+  "id": "A281377",
+  "mentions": [
+    "A035327",
+    "A054429",
+    "A281193",
+    "A281313"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:50",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

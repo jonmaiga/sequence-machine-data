@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the smallest n-digit square with all digits even.",
+  "id": "A343724",
+  "mentions": [
+    "A030098",
+    "A343725"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:17",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

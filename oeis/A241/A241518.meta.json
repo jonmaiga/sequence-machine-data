@@ -1,0 +1,18 @@
+{
+  "description": "Number of partitions p of n such that #m(1) = #m(2), where #m(i) = number of numbers in p that have multiplicity i.",
+  "id": "A241518",
+  "mentions": [
+    "A241274"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

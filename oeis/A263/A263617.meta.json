@@ -1,0 +1,22 @@
+{
+  "description": "Number of numbers with at most n digits whose square is a palindrome.",
+  "id": "A263617",
+  "mentions": [
+    "A002778",
+    "A002779",
+    "A263616",
+    "A263618"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

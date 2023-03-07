@@ -1,0 +1,24 @@
+{
+  "description": "Number of elements in the ten nonconvex regular 4-polytopes (regular 4-dimensional star-polytopes), as a four-column array, read by rows, with rows ordered first by increasing density, then by increasing cell-count, then by increasing face-count, then by increasing edge-count and then by increasing vertex-count.",
+  "id": "A306602",
+  "mentions": [
+    "A048789",
+    "A063924",
+    "A063925",
+    "A063926",
+    "A063927"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "fini",
+    "full",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{k=0..n} (-1)^k*C(n,k)*2^(k*(n-k)).",
+  "id": "A172388",
+  "mentions": [
+    "A047863",
+    "A172389"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = floor((2^prime(n+1))/Sum_{k=0|n,2^prime(k)}).",
+  "id": "A289898",
+  "mentions": [
+    "A034785",
+    "A076793"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

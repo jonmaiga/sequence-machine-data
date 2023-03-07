@@ -1,0 +1,23 @@
+{
+  "description": "Triangle T(n,k), n>=0, 0<=k<=C(n,2), read by rows: T(n,k) = number of k-length chains in the poset of Dyck paths of semilength n ordered by inclusion.",
+  "id": "A193629",
+  "mentions": [
+    "A000108",
+    "A000124",
+    "A005118",
+    "A057427",
+    "A143672",
+    "A193536"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

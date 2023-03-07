@@ -1,0 +1,17 @@
+{
+  "description": "Inverse permutation to A194056; every positive integer occurs exactly once.",
+  "id": "A194057",
+  "mentions": [
+    "A194056"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

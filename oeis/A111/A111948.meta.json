@@ -1,0 +1,20 @@
+{
+  "description": "Admirable Harshad numbers n such that the subtracted divisor is equal to the digital sum of n.",
+  "id": "A111948",
+  "mentions": [
+    "A005349",
+    "A111592",
+    "A111947"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:02",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

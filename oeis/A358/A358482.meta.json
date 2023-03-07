@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the first prime p such that, if q is the next prime, (p*q+p+q)/5^n is a prime.",
+  "id": "A358482",
+  "mentions": [
+    "A000351",
+    "A002386",
+    "A126148"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

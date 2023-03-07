@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = 4*36^n*Gamma(n+3/2)/(sqrt(Pi)*(n+2)!).",
+  "id": "A260655",
+  "mentions": [
+    "A000108"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:19",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

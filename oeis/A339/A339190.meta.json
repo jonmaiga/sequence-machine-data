@@ -1,0 +1,25 @@
+{
+  "description": "Square array T(n,k), n >= 2, k >= 2, read by antidiagonals, where T(n,k) is the number of (undirected) Hamiltonian cycles on the n X k king graph.",
+  "id": "A339190",
+  "mentions": [
+    "A140519",
+    "A321172",
+    "A339098",
+    "A339200",
+    "A339201",
+    "A339202",
+    "A339849"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:11",
+    "offset": 2,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

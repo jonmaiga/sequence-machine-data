@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that 5k - 7 is prime.",
+  "id": "A107304",
+  "mentions": [
+    "A030431"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:59",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

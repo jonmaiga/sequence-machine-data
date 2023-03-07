@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that n < floor(sqrt(n)) * ceiling(sqrt(n)).",
+  "id": "A189151",
+  "mentions": [
+    "A002620",
+    "A063657"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:13",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

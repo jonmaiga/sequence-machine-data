@@ -1,0 +1,26 @@
+{
+  "description": "Number of nonnegative solutions to the equation x^2+5*y^2 = n.",
+  "id": "A216283",
+  "mentions": [
+    "A000161",
+    "A000196",
+    "A010052",
+    "A020669",
+    "A025426",
+    "A033718",
+    "A092573",
+    "A119395",
+    "A216282"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:34",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

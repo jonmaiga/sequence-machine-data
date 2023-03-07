@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the Y-coordinate after n steps of an infinite knight's tour through all lattice points; see A360170 for the X-coordinates.",
+  "id": "A360171",
+  "mentions": [
+    "A068608",
+    "A068613",
+    "A274923",
+    "A360170"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

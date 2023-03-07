@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of arcsec(4).",
+  "id": "A195731",
+  "mentions": [
+    "A195628"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:17",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

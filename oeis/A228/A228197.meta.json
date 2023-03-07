@@ -1,0 +1,22 @@
+{
+  "description": "Number of n-edge ordered trees with bicolored boundary edges.",
+  "id": "A228197",
+  "mentions": [
+    "A000108",
+    "A000984",
+    "A082590",
+    "A228178",
+    "A228180"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:45",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

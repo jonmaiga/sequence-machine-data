@@ -1,0 +1,22 @@
+{
+  "description": "Evil numbers (A001969) becoming odious (A000069) if any digit is deleted (zeros allowed).",
+  "id": "A248478",
+  "mentions": [
+    "A000069",
+    "A001969",
+    "A248642",
+    "A248644",
+    "A248659"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:05",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

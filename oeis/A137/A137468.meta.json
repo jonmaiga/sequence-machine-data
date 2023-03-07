@@ -1,0 +1,23 @@
+{
+  "description": "Fifth powers whose digits are all odd.",
+  "id": "A137468",
+  "mentions": [
+    "A000584",
+    "A014261",
+    "A030100"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "bref",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

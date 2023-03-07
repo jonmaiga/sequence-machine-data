@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that 7*n + 8 is prime.",
+  "id": "A111249",
+  "mentions": [
+    "A024900",
+    "A024902",
+    "A024905",
+    "A105772"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:40:11",
+    "offset": 1,
+    "size": 57,
+    "source": "joeis"
+  }
+}

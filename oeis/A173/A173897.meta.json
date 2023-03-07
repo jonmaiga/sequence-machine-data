@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the number of Sophie Germain primes (A005384) between prime(n)^2 and prime(n+1)^2.",
+  "id": "A173897",
+  "mentions": [
+    "A005384",
+    "A069482"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:58",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

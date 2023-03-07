@@ -1,0 +1,27 @@
+{
+  "description": "Chen primes: primes p such that p + 2 is either a prime or a semiprime.",
+  "id": "A109611",
+  "mentions": [
+    "A001358",
+    "A001359",
+    "A037143",
+    "A063637",
+    "A102540",
+    "A112021",
+    "A112022",
+    "A139689",
+    "A139690",
+    "A269256"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:01",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

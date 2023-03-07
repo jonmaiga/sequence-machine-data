@@ -1,0 +1,23 @@
+{
+  "description": "Primes starting 12-tuples of consecutive primes that have symmetrical gaps about their mean and form 6 pairs of twin primes.",
+  "id": "A330278",
+  "mentions": [
+    "A055380",
+    "A055381",
+    "A055382",
+    "A081235",
+    "A266511",
+    "A266512",
+    "A274792"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:59",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "description": "Number T(n,k) of compositions of n, where k is the difference between the number of odd parts and the number of even parts; triangle T(n,k), n>=0, -floor(n/2)+(n mod 2)<=k<=n, read by rows.",
+  "id": "A242498",
+  "mentions": [
+    "A000004",
+    "A000012",
+    "A000217",
+    "A000290",
+    "A001477",
+    "A011782",
+    "A016777",
+    "A098123",
+    "A180415",
+    "A240009",
+    "A240021",
+    "A242499",
+    "A242500",
+    "A242501",
+    "A242502",
+    "A242503",
+    "A242504",
+    "A242505",
+    "A242506",
+    "A242507",
+    "A242508"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

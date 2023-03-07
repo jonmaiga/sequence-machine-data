@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that tau(2^k - 1) = tau(2^k + 1).",
+  "id": "A283930",
+  "mentions": [
+    "A000005",
+    "A000051",
+    "A000225",
+    "A046798",
+    "A046801",
+    "A283931"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Number of (1,0) steps in all paths of length n with steps U=(1,1), D=(1,-1) and H=(1,0), starting at (0,0), staying weakly above the x-axis (i.e., in all length-n left factors of Motzkin paths).",
+  "id": "A132894",
+  "mentions": [
+    "A001006",
+    "A005773",
+    "A077043",
+    "A107230",
+    "A132893",
+    "A328347"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:20",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

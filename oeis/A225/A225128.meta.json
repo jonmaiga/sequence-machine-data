@@ -1,0 +1,20 @@
+{
+  "description": "Numerators of the convolutory inverse of the primes of the form 4m+3.",
+  "id": "A225128",
+  "mentions": [
+    "A030018",
+    "A225127",
+    "A225129"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

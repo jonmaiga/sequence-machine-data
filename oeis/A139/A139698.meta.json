@@ -1,0 +1,25 @@
+{
+  "description": "Binomial transform of [1, 25, 25, 25, ...].",
+  "id": "A139698",
+  "mentions": [
+    "A007318",
+    "A099003",
+    "A139634",
+    "A139635",
+    "A139697",
+    "A139700",
+    "A139701"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:27",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

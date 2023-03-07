@@ -1,0 +1,19 @@
+{
+  "description": "Index of first occurrence of n in A181391, or 0 if n never appears.",
+  "id": "A171862",
+  "mentions": [
+    "A171863",
+    "A171864",
+    "A181391"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:55",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Smallest primes of 6 X 6 magic squares formed from consecutive primes.",
+  "id": "A272387",
+  "mentions": [
+    "A073519",
+    "A177434",
+    "A256891",
+    "A260673",
+    "A272386"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

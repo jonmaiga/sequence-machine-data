@@ -1,0 +1,21 @@
+{
+  "description": "The number of functions f:{1,2,...,n}->{1,2,...,n}, endofunctions, such that exactly one nonrecurrent element is mapped into each recurrent element.",
+  "id": "A215720",
+  "mentions": [
+    "A000169",
+    "A055541",
+    "A098875",
+    "A195203"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:33",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

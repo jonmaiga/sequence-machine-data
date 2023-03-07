@@ -1,0 +1,34 @@
+{
+  "description": "Decimal expansion of Product_{primes p == 1 (mod 5)} (p^2+1)/(p^2-1).",
+  "id": "A340629",
+  "mentions": [
+    "A001221",
+    "A004615",
+    "A175646",
+    "A175647",
+    "A248930",
+    "A248938",
+    "A301429",
+    "A333240",
+    "A334826",
+    "A335963",
+    "A340004",
+    "A340576",
+    "A340577",
+    "A340578",
+    "A340628",
+    "A340808"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:13",
+    "offset": 1,
+    "size": 121,
+    "source": "oeis-bfile"
+  }
+}

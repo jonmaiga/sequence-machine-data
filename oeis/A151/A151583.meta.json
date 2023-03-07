@@ -1,0 +1,31 @@
+{
+  "description": "Number of permutations of 2 indistinguishable copies of 1..n arranged in a circle with exactly 2 adjacent element pairs in decreasing order.",
+  "id": "A151583",
+  "mentions": [
+    "A151576",
+    "A151584",
+    "A151585",
+    "A151586",
+    "A151587",
+    "A151588",
+    "A151589",
+    "A151590",
+    "A151597",
+    "A151603",
+    "A151607",
+    "A151610",
+    "A151624"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:34",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

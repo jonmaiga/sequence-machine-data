@@ -1,0 +1,36 @@
+{
+  "description": "Irregular triangle read by rows in which row n lists the indices of the partitions into equal parts in the list of colexicographically ordered partitions of n.",
+  "id": "A299774",
+  "mentions": [
+    "A000005",
+    "A000012",
+    "A000041",
+    "A027750",
+    "A135010",
+    "A141285",
+    "A186114",
+    "A186412",
+    "A193870",
+    "A194446",
+    "A194447",
+    "A206437",
+    "A211978",
+    "A211992",
+    "A299474",
+    "A299475",
+    "A299773",
+    "A299775",
+    "A317296"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Odd integers n such that 2^n == 2^6 (mod n).",
+  "id": "A215610",
+  "mentions": [
+    "A015926",
+    "A033981",
+    "A033984",
+    "A173572",
+    "A215611",
+    "A215612",
+    "A215613"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:33",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "description": "Triangle read by rows: T(n,k), n>=1, k>=1, in which column k lists the odd numbers interleaved with k-1 zeros, except the first column which lists 0 together with the nonnegative integers, and the first element of column k is in row k*(k+1)/2.",
+  "id": "A239313",
+  "mentions": [
+    "A000203",
+    "A000217",
+    "A001065",
+    "A001227",
+    "A001477",
+    "A003056",
+    "A048050",
+    "A193356",
+    "A196020",
+    "A211343",
+    "A212119",
+    "A228813",
+    "A231345",
+    "A231347",
+    "A235791",
+    "A235794",
+    "A236104",
+    "A236106",
+    "A236112"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-entry"
+  }
+}

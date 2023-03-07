@@ -1,0 +1,19 @@
+{
+  "description": "Let F_n(k) be the k-th term of the n-th Farey sequence and define s_n = Sum_{i=1..m} |F_n(i) - i/m| where m is the length of the n-th Farey sequence. Then a(n) is the least k such that s_k >= n.",
+  "id": "A352614",
+  "mentions": [
+    "A002088"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

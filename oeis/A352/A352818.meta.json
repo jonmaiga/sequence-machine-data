@@ -1,0 +1,22 @@
+{
+  "description": "G.f. A(x) satisfies: 1 - x = Sum_{n>=0} (x^(2*n) + (-1)^n*A(x))^n.",
+  "id": "A352818",
+  "mentions": [
+    "A317997",
+    "A352817",
+    "A352819",
+    "A352820",
+    "A352821"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

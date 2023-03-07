@@ -1,0 +1,18 @@
+{
+  "description": "Number of 4 X 4 X 4 triangular 0..n arrays with every horizontal row nondecreasing, first elements of rows nonincreasing, last elements of rows nondecreasing, and every row having the same average value.",
+  "id": "A215184",
+  "mentions": [
+    "A215182"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:33",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

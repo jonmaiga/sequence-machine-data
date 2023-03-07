@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = smallest number b such that b+n is the first number after b with phi(phi((b)) = phi(phi(b+n)).",
+  "id": "A167781",
+  "mentions": [
+    "A167766",
+    "A167767",
+    "A167768"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

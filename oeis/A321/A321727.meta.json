@@ -1,0 +1,20 @@
+{
+  "description": "Number of permutations f of {1,...,n} such that prime(k) + prime(f(k)) + 1 is prime for every k = 1,...,n.",
+  "id": "A321727",
+  "mentions": [
+    "A000040",
+    "A321597",
+    "A321610",
+    "A321611"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

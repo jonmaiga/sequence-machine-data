@@ -1,0 +1,21 @@
+{
+  "description": "Maximal size of sum-free set in additive group of integers mod n.",
+  "id": "A211316",
+  "mentions": [
+    "A003627",
+    "A007865",
+    "A027748",
+    "A211317"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:30",
+    "offset": 2,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

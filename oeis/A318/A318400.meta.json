@@ -1,0 +1,26 @@
+{
+  "description": "Numbers whose prime indices are all powers of 2 (including 1).",
+  "id": "A318400",
+  "mentions": [
+    "A003963",
+    "A018819",
+    "A033844",
+    "A056239",
+    "A106349",
+    "A112798",
+    "A302242",
+    "A302491",
+    "A322551"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:39",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

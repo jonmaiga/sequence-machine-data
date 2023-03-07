@@ -1,0 +1,18 @@
+{
+  "description": "Smallest number that can be written in binary representation in exactly n ways as concatenation of palindromes.",
+  "id": "A220654",
+  "mentions": [
+    "A215244"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:38",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

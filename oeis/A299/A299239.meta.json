@@ -1,0 +1,19 @@
+{
+  "description": "Ranks of palindromic {2,3}-power towers; see Comments.",
+  "id": "A299239",
+  "mentions": [
+    "A299229",
+    "A299237"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:22",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

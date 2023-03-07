@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 0 if n is a deficient number, otherwise a(n) is the number of nondeficient divisors of the last number in the iteration x -> A003961(x) (starting from x=n) for which that count (A341620) is nonzero.",
+  "id": "A341624",
+  "mentions": [
+    "A003961",
+    "A005100",
+    "A341508",
+    "A341618",
+    "A341620"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:14",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

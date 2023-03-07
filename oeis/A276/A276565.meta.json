@@ -1,0 +1,24 @@
+{
+  "description": "Oblong numbers n such that n - 1 and n + 1 are both semiprime.",
+  "id": "A276565",
+  "mentions": [
+    "A001597",
+    "A002378",
+    "A108278",
+    "A121898",
+    "A124936",
+    "A167023",
+    "A268043",
+    "A276564"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

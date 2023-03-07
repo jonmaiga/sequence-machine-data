@@ -1,0 +1,24 @@
+{
+  "description": "Triangle read by rows: coefficients eta(n,k) arising from the study of completely transitive graphs on n nodes.",
+  "id": "A259970",
+  "mentions": [
+    "A005014",
+    "A005327",
+    "A005328",
+    "A005329",
+    "A259971",
+    "A259972"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

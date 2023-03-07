@@ -1,0 +1,23 @@
+{
+  "description": "Irregular triangle read by rows in which row n lists the number of divisors of each divisor of n.",
+  "id": "A290532",
+  "mentions": [
+    "A000005",
+    "A007318",
+    "A027750",
+    "A084997",
+    "A290478"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:05",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Worpitzky form polynomials for the {1,16,1} A142462 sequence: p(x,n) = Sum[A(n, k)*Binomial[x + k - 1, n - 1], {k, 1, n}]",
+  "id": "A168296",
+  "mentions": [
+    "A142462"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "sign",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

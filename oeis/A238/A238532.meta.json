@@ -1,0 +1,21 @@
+{
+  "description": "Number of distinct factorial numbers congruent to -1 (mod n).",
+  "id": "A238532",
+  "mentions": [
+    "A000142",
+    "A049046",
+    "A062169",
+    "A230315",
+    "A256519"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "description": "Regular triangle where T(n,k) is the number of strict integer partitions of n with greatest common divisor k.",
+  "id": "A303138",
+  "mentions": [
+    "A000009",
+    "A000837",
+    "A018783",
+    "A051424",
+    "A078374",
+    "A117408",
+    "A168532",
+    "A289508",
+    "A289509",
+    "A298748",
+    "A300486",
+    "A302698",
+    "A302796",
+    "A303139",
+    "A303140",
+    "A303280"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 110,
+    "source": "oeis-entry"
+  }
+}

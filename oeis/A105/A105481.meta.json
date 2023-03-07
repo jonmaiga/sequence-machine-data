@@ -1,0 +1,23 @@
+{
+  "description": "Number of partitions of {1...n} containing 4 pairs of consecutive integers, where each pair is counted within a block and a string of more than 2 consecutive integers are counted two at a time.",
+  "id": "A105481",
+  "mentions": [
+    "A105480",
+    "A105482",
+    "A105486",
+    "A105491",
+    "A105494"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 15:08:25",
+    "offset": 5,
+    "size": 21,
+    "source": "joeis"
+  }
+}

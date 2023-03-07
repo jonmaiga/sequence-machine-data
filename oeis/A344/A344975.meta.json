@@ -1,0 +1,26 @@
+{
+  "description": "Numbers k such that A011772(k) divides A344875(k), but k is not a power of prime (in A000961).",
+  "id": "A344975",
+  "mentions": [
+    "A000961",
+    "A011772",
+    "A024619",
+    "A344595",
+    "A344694",
+    "A344875",
+    "A344882",
+    "A344973",
+    "A344974",
+    "A344978"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

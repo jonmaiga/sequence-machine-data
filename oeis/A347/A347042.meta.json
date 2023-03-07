@@ -1,0 +1,33 @@
+{
+  "description": "Number of divisors d > 1 of n such that bigomega(d) divides bigomega(n), where bigomega = A001222.",
+  "id": "A347042",
+  "mentions": [
+    "A000005",
+    "A000040",
+    "A001221",
+    "A001222",
+    "A020639",
+    "A026424",
+    "A033676",
+    "A033677",
+    "A056239",
+    "A096825",
+    "A112798",
+    "A207375",
+    "A335433",
+    "A335448",
+    "A345957",
+    "A347045",
+    "A347046"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

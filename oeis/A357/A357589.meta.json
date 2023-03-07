@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = n - A130312(n).",
+  "id": "A357589",
+  "mentions": [
+    "A072649",
+    "A130312",
+    "A183544"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

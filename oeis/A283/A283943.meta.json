@@ -1,0 +1,22 @@
+{
+  "description": "Interspersion of the signature sequence of e (a rectangular array, by antidiagonals).",
+  "id": "A283943",
+  "mentions": [
+    "A001113",
+    "A022785",
+    "A022786",
+    "A023123"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:55",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

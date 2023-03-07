@@ -1,0 +1,23 @@
+{
+  "description": "Array read by antidiagonals: total number of spanning trees R_n(m) of the complete prism K_m X C_n.",
+  "id": "A175243",
+  "mentions": [
+    "A000272",
+    "A006235",
+    "A008310",
+    "A212798"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

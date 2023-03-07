@@ -1,0 +1,21 @@
+{
+  "description": "Parts that are visible in one of the three views of the version \"Tree\" of the shell model of partitions.",
+  "id": "A194550",
+  "mentions": [
+    "A000012",
+    "A000041",
+    "A135010",
+    "A138121",
+    "A141285"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Right truncatable primes in base 8 (written in decimal form).",
+  "id": "A129692",
+  "mentions": [
+    "A024768",
+    "A076586"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:17",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

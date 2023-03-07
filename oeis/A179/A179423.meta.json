@@ -1,0 +1,18 @@
+{
+  "description": "E.g.f. A(x) = F(x)^2 where F(x) is the e.g.f. of A179421.",
+  "id": "A179423",
+  "mentions": [
+    "A179421"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Expansion of g.f. sqrt( (1-x + sqrt(1-14*x+x^2)) / (2*(1-14*x+x^2)) ).",
+  "id": "A245926",
+  "mentions": [
+    "A008316",
+    "A243946",
+    "A245923",
+    "A245925",
+    "A245927",
+    "A337389",
+    "A337422"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:01",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

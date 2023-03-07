@@ -1,0 +1,22 @@
+{
+  "description": "Numbers that are 3 * prime powers congruent to 1 (mod 3).",
+  "id": "A354984",
+  "mentions": [
+    "A017197",
+    "A137827",
+    "A246655",
+    "A354930",
+    "A354983"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Representatives, i.e., minimal elements of cycles of length > 2 under iterations of A352544 (half or add largest anagram).",
+  "id": "A352545",
+  "mentions": [
+    "A352543",
+    "A352544"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

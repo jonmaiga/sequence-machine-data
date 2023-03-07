@@ -1,0 +1,40 @@
+{
+  "description": "Sum of index differences between prime factors of n, summed over all unordered pairs of primes present (with multiplicity) in the prime factorization of n.",
+  "id": "A261079",
+  "mentions": [
+    "A000720",
+    "A000961",
+    "A001222",
+    "A006094",
+    "A029931",
+    "A055396",
+    "A056239",
+    "A061395",
+    "A112798",
+    "A242411",
+    "A243055",
+    "A260737",
+    "A304818",
+    "A316413",
+    "A318283",
+    "A325362",
+    "A326836",
+    "A326844",
+    "A355536",
+    "A358136",
+    "A358137",
+    "A359361",
+    "A359362"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:20",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

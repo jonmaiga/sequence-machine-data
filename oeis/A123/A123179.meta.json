@@ -1,0 +1,19 @@
+{
+  "description": "a(1)=1 a(2)=121 and a(n)=a(n-1) n 2 n 3 n ... n (n-1) n 1, using concatenation.",
+  "id": "A123179",
+  "mentions": [
+    "A002061",
+    "A108713"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

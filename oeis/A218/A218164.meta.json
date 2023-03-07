@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the smallest positive integer k such that k^64 + 1 == 0 mod p, where p is the n-th prime of the form 1 + 128*b (see A208177).",
+  "id": "A218164",
+  "mentions": [
+    "A208177"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

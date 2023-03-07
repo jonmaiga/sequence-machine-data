@@ -1,0 +1,27 @@
+{
+  "description": "Rectangular array read by antidiagonals: a(n, k) is the number of ways to put k labeled objects into n labeled boxes so that there is one box with exactly one object (n, k >= 1).",
+  "id": "A131104",
+  "mentions": [
+    "A007586",
+    "A008299",
+    "A028896",
+    "A033996",
+    "A131103",
+    "A131105",
+    "A131106",
+    "A131107"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

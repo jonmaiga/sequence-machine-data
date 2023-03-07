@@ -1,0 +1,18 @@
+{
+  "description": "The smallest amount which cannot be made with fewer than n British coins.",
+  "id": "A258272",
+  "mentions": [
+    "A258274"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:24",
+    "offset": 1,
+    "size": 47,
+    "source": "joeis"
+  }
+}

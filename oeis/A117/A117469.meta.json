@@ -1,0 +1,21 @@
+{
+  "description": "The largest part summed over all partitions of n in which every integer from the smallest part to the largest part occurs.",
+  "id": "A117469",
+  "mentions": [
+    "A034296",
+    "A117466",
+    "A117467",
+    "A117468"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

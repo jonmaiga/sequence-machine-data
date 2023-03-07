@@ -1,0 +1,19 @@
+{
+  "description": "Number of set partitions of [2n] where k=n is minimal such that for each block b the smallest integer interval containing b has at most k elements.",
+  "id": "A276728",
+  "mentions": [
+    "A276727",
+    "A276892"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

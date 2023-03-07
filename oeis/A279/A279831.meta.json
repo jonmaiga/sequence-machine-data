@@ -1,0 +1,19 @@
+{
+  "description": "Numbers that are centered k-gonal numbers for two or more values of k.",
+  "id": "A279831",
+  "mentions": [
+    "A090428",
+    "A101321",
+    "A275340"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:47",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

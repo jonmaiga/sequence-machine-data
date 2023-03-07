@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that 7^A000010(n) == 1 (mod n^2).",
+  "id": "A242960",
+  "mentions": [
+    "A000010",
+    "A077816",
+    "A123693",
+    "A242959"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:59",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

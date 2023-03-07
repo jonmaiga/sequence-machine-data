@@ -1,0 +1,17 @@
+{
+  "description": "Numbers n such that the sum of the largest distinct prime divisor and the smallest distinct prime divisor is a prime.",
+  "id": "A119689",
+  "mentions": [
+    "A119613"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:08",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

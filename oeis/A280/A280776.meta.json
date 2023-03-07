@@ -1,0 +1,25 @@
+{
+  "description": "Numerators of coefficients in asymptotic expansion of C_n (number of connected chord diagrams, A000699).",
+  "id": "A280776",
+  "mentions": [
+    "A000699",
+    "A111111",
+    "A280775",
+    "A280777",
+    "A280778",
+    "A280779",
+    "A280780",
+    "A280781"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:49",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

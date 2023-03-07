@@ -1,0 +1,20 @@
+{
+  "description": "Number of (undirected) paths in the m X n knight graph (triangle read by rows with m = 1..n and n = 1..).",
+  "id": "A307025",
+  "mentions": [
+    "A288033"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

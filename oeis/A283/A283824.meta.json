@@ -1,0 +1,24 @@
+{
+  "description": "Number of unlabeled (and unrooted) trees on n nodes having a node that is both a center and a centroid.",
+  "id": "A283824",
+  "mentions": [
+    "A000055",
+    "A000088",
+    "A000664",
+    "A000676",
+    "A008406",
+    "A027416",
+    "A283823"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

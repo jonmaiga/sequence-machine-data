@@ -1,0 +1,22 @@
+{
+  "description": "The binary Fibonacci compositions. Irregular triangle with n >= 0 where the length of row n is Fibonacci(n) for n > 0.",
+  "id": "A327992",
+  "mentions": [
+    "A000045",
+    "A001629",
+    "A005408",
+    "A327993"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:56",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "First differences of perfect numbers A000396.",
+  "id": "A139228",
+  "mentions": [
+    "A000396",
+    "A139229",
+    "A139230",
+    "A139231",
+    "A139232",
+    "A139233",
+    "A139234",
+    "A139235",
+    "A139236",
+    "A139237"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:01:24",
+    "offset": 1,
+    "size": 9,
+    "source": "joeis"
+  }
+}

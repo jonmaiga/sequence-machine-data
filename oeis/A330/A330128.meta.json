@@ -1,0 +1,20 @@
+{
+  "description": "a(k) is the number of terms of a sequence analog of A121805, but starting with k.",
+  "id": "A330128",
+  "mentions": [
+    "A121805",
+    "A139284",
+    "A330129"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Partition number array, called M31hat(-3).",
+  "id": "A145366",
+  "mentions": [
+    "A000041",
+    "A008279",
+    "A036040",
+    "A134278",
+    "A144877",
+    "A145363",
+    "A145367",
+    "A145369"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 89,
+    "source": "oeis-entry"
+  }
+}

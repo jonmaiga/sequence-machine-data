@@ -1,0 +1,20 @@
+{
+  "description": "Lexicographically earliest sequence of distinct positive numbers such that the prime factorizations of two consecutive terms never share a prime exponent > 1.",
+  "id": "A297075",
+  "mentions": [
+    "A038109",
+    "A052485",
+    "A297403",
+    "A297404"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:17",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Triangular read by rows: T(n, k) = 3^k * (1 + (n mod 2)).",
+  "id": "A122761",
+  "mentions": [
+    "A000244"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:11",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

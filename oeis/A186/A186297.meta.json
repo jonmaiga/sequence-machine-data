@@ -1,0 +1,21 @@
+{
+  "description": "( A007520(n)-1)/2.",
+  "id": "A186297",
+  "mentions": [
+    "A007520",
+    "A055034",
+    "A186296",
+    "A187360"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:34:43",
+    "offset": 1,
+    "size": 51,
+    "source": "joeis"
+  }
+}

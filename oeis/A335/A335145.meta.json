@@ -1,0 +1,18 @@
+{
+  "description": "Numbers that are both unitary and nonunitary Zumkeller numbers.",
+  "id": "A335145",
+  "mentions": [
+    "A290466",
+    "A335142"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Perpetual calendar, giving the calendar for successive years of the 400-year cycle starting in year xy01, where xy is a 2-digit multiple of 4. Calendars 1 to 7 are for normal years starting on Monday, Tuesday, ..., Sunday; 8 to 14 are for leap years likewise.",
+  "id": "A127376",
+  "mentions": [
+    "A090651"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:15",
+    "offset": 1,
+    "size": 97,
+    "source": "oeis-bfile"
+  }
+}

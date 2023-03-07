@@ -1,0 +1,20 @@
+{
+  "description": "Shifts 7 places left under Euler transform with a(0)=0 and a(n)=1 for n",
+  "id": "A218024",
+  "mentions": [
+    "A144018",
+    "A316079"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "eigen",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:35",
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

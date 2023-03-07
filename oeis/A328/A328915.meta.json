@@ -1,0 +1,27 @@
+{
+  "description": "If n = Product (p_j^k_j) then a(n) = Product (nextprime(p_j)), where nextprime = A151800.",
+  "id": "A328915",
+  "mentions": [
+    "A000720",
+    "A003961",
+    "A007947",
+    "A045965",
+    "A045967",
+    "A048250",
+    "A151800",
+    "A328878",
+    "A328879"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:37:11",
+    "offset": 1,
+    "size": 70,
+    "source": "joeis"
+  }
+}

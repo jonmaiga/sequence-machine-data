@@ -1,0 +1,21 @@
+{
+  "description": "Number of partitions of n into primes of form x^2 + y^2 (A002313).",
+  "id": "A282970",
+  "mentions": [
+    "A000607",
+    "A002313",
+    "A024941",
+    "A281273"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:44:43",
+    "offset": 0,
+    "size": 83,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Number of terms of A014847 that are not greater than n.",
+  "id": "A235037",
+  "mentions": [
+    "A014847"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:52",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

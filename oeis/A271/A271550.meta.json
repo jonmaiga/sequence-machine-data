@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that n is a squarefree semiprime (i.e., omega(n) = 2 = Omega(n)) and phi(n) + 1 is a prime.",
+  "id": "A271550",
+  "mentions": [
+    "A001248",
+    "A001358",
+    "A039698"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:35",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

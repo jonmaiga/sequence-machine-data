@@ -1,0 +1,18 @@
+{
+  "description": "Half the number of permutations of 0..n with exactly two maxima.",
+  "id": "A100575",
+  "mentions": [
+    "A000431"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:51",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

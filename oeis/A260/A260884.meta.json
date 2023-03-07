@@ -1,0 +1,19 @@
+{
+  "description": "Number of set partitions of a 2n-set into even blocks which have even length minus the number of partitions into even blocks which have odd length.",
+  "id": "A260884",
+  "mentions": [
+    "A000587",
+    "A260875"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:19",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of imprimitive (periodic) 2n-bead black-white reversible necklaces with n black beads.",
+  "id": "A115120",
+  "mentions": [
+    "A005648",
+    "A045628"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 15:41:47",
+    "offset": 0,
+    "size": 51,
+    "source": "joeis"
+  }
+}

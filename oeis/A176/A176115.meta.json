@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that 2310*n-1, 2310*n+1 are twin primes, (2310=2*3*5*7*11).",
+  "id": "A176115",
+  "mentions": [
+    "A002822",
+    "A075749",
+    "A154114",
+    "A176114"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

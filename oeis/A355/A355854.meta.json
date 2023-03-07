@@ -1,0 +1,17 @@
+{
+  "description": "Numbers of the form (ab+cd)*(ad+bc) with integers a,b,c,d >= 1.",
+  "id": "A355854",
+  "mentions": [
+    "A000290"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:30",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

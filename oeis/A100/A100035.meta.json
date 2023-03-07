@@ -1,0 +1,26 @@
+{
+  "description": "a(n+1) occurs not earlier as a neighbor of terms = a(n): either it is the greatest number < a(n) or, if no such number exists, the smallest number > a(n); a(1) = 1.",
+  "id": "A100035",
+  "mentions": [
+    "A000027",
+    "A014107",
+    "A033537",
+    "A084849",
+    "A100036",
+    "A100037",
+    "A100038",
+    "A100039",
+    "A100040",
+    "A100041"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:50",
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

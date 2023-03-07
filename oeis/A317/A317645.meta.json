@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of (1 + theta_3(q))^3*(1 + theta_3(q^2))/16, where theta_3() is the Jacobi theta function.",
+  "id": "A317645",
+  "mentions": [
+    "A014110",
+    "A156384",
+    "A236928"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

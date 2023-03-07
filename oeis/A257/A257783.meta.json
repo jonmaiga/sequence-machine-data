@@ -1,0 +1,32 @@
+{
+  "description": "Number T(n,k) of words w of length n such that each letter of the k-ary alphabet is used at least once and for every prefix z of w we have #(z,a_i) = 0 or #(z,a_i) >= #(z,a_j) for all j>i and #(z,a_i) counts the occurrences of the i-th letter in z; triangle T(n,k), n>=0, 0<=k<=n, read by rows.",
+  "id": "A257783",
+  "mentions": [
+    "A000007",
+    "A000142",
+    "A001710",
+    "A057427",
+    "A213276",
+    "A321838",
+    "A321839",
+    "A321840",
+    "A321841",
+    "A321842",
+    "A321843",
+    "A321844",
+    "A321845",
+    "A321846"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:15",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

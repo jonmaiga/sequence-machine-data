@@ -1,0 +1,21 @@
+{
+  "description": "Difference between n-th Ludic and n-th Lucky number: a(n) = A003309(n) - A000959(n).",
+  "id": "A256486",
+  "mentions": [
+    "A000959",
+    "A003309",
+    "A256482",
+    "A256487"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

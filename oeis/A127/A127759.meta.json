@@ -1,0 +1,20 @@
+{
+  "description": "Integer part of Gauss's Arithmetic-Geometric Mean M(1,n^3).",
+  "id": "A127759",
+  "mentions": [
+    "A127758",
+    "A127760",
+    "A127761"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 18:17:41",
+    "offset": 1,
+    "size": 46,
+    "source": "joeis"
+  }
+}

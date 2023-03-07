@@ -1,0 +1,18 @@
+{
+  "description": "Number of (w,x,y,z) with all terms in {1,...,n} and w*x+y*z>=n^2.",
+  "id": "A212132",
+  "mentions": [
+    "A211795",
+    "A212111"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:48",
+    "offset": 0,
+    "size": 38,
+    "source": "joeis"
+  }
+}

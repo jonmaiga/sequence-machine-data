@@ -1,0 +1,26 @@
+{
+  "description": "Sums of two nonzero tetrahedral numbers (A000292).",
+  "id": "A330031",
+  "mentions": [
+    "A000292",
+    "A000404",
+    "A003325",
+    "A051533",
+    "A102798",
+    "A104246",
+    "A286636",
+    "A287960",
+    "A288631",
+    "A332987"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:59",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

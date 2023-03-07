@@ -1,0 +1,19 @@
+{
+  "description": "Odd numbers that are not of the form p + 2^a + 2^b with b > a > 0, and p prime.",
+  "id": "A268693",
+  "mentions": [
+    "A156695",
+    "A232565",
+    "A268694"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:30",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

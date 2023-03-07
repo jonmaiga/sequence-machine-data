@@ -1,0 +1,19 @@
+{
+  "description": "a(0)=a(1)=0; thereafter a(n) = A162973(n)/(n-1).",
+  "id": "A298012",
+  "mentions": [
+    "A002720",
+    "A162973"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

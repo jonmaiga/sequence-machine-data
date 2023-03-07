@@ -1,0 +1,21 @@
+{
+  "description": "Number of permutations i_0, i_1, ..., i_n of 0, 1, ..., n with i_0 = 0 and i_n = 1 such that all the n+1 numbers i_0^2+i_1, i_1^2+i_2, ..., i_{n-1}^2+i_n, i_n^2+i_0 are of the form (p+1)/4 with p a prime congruent to 3 modulo 4.",
+  "id": "A227456",
+  "mentions": [
+    "A229082",
+    "A229130",
+    "A229141"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

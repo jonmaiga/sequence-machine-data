@@ -1,0 +1,21 @@
+{
+  "description": "Least positive integer m such that m + n divides p(m*n), where p(.) is the partition function given by A000041.",
+  "id": "A248144",
+  "mentions": [
+    "A000041",
+    "A248004",
+    "A248008",
+    "A248143",
+    "A248175"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:04",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

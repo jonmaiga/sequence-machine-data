@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = (5*9^n - 1)/2.",
+  "id": "A255043",
+  "mentions": [
+    "A096053",
+    "A138894",
+    "A191681",
+    "A198964",
+    "A198969",
+    "A255044"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:13",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

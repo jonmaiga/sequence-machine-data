@@ -1,0 +1,22 @@
+{
+  "description": "Numbers having three 1's in their base-phi representation.",
+  "id": "A104626",
+  "mentions": [
+    "A005248",
+    "A055778",
+    "A065034",
+    "A104627",
+    "A104628"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:55",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(1)=1. a(n) = a(n-1) + (the largest value among (a(1),a(2),...,a(n-1)) that when written in binary occurs as a substring in the binary representation of n).",
+  "id": "A162404",
+  "mentions": [
+    "A162405",
+    "A162406"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:44",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

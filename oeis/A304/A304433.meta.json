@@ -1,0 +1,23 @@
+{
+  "description": "Numbers n such that n^3 is the sum of two distinct perfect powers > 1 (x^k + y^m; x, y, k, m >= 2).",
+  "id": "A304433",
+  "mentions": [
+    "A001597",
+    "A076467",
+    "A111231",
+    "A133388",
+    "A304434",
+    "A304435",
+    "A304436"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:29",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

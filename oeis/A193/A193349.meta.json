@@ -1,0 +1,19 @@
+{
+  "description": "Sum of odd divisors of tau(n).",
+  "id": "A193349",
+  "mentions": [
+    "A000005",
+    "A000593",
+    "A193348"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

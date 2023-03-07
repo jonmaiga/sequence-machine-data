@@ -1,0 +1,22 @@
+{
+  "description": "Number of matchings (i.e., Hosoya index) in P_{2} X K_{n}.",
+  "id": "A270229",
+  "mentions": [
+    "A000085",
+    "A081919",
+    "A111883",
+    "A270227",
+    "A270228"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 20:24:13",
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

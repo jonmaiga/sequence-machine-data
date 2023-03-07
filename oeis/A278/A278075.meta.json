@@ -1,0 +1,35 @@
+{
+  "description": "Coefficients of the signed Fubini polynomials in ascending order, F_n(x) = Sum_{k=0..n} (-1)^n*Stirling2(n,k)*k!*(-x)^k.",
+  "id": "A278075",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A000142",
+    "A000629",
+    "A000670",
+    "A004123",
+    "A019538",
+    "A032033",
+    "A090582",
+    "A094417",
+    "A094418",
+    "A131689",
+    "A163626",
+    "A164555",
+    "A173018",
+    "A201339",
+    "A201354",
+    "A201365"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-22 20:28:47",
+    "offset": 0,
+    "size": 55,
+    "source": "joeis"
+  }
+}

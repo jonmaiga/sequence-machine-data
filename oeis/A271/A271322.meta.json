@@ -1,0 +1,22 @@
+{
+  "description": "Largest prime factor of the n-th n-gonal number (A060354).",
+  "id": "A271322",
+  "mentions": [
+    "A006530",
+    "A060354",
+    "A271319",
+    "A271320",
+    "A271321"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:35",
+    "offset": 2,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

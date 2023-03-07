@@ -1,0 +1,25 @@
+{
+  "description": "Triangle interpolating the swinging factorial (A056040) restricted to odd indices with its binomial inverse.",
+  "id": "A163772",
+  "mentions": [
+    "A000984",
+    "A002426",
+    "A056040",
+    "A163650",
+    "A163770",
+    "A163771",
+    "A163775",
+    "A180000"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:45",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

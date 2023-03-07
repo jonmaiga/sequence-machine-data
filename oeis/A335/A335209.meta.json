@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that binomial(2*k,k) has more distinct prime factors than binomial(2*k,i) for 0 <= i < k.",
+  "id": "A335209",
+  "mentions": [
+    "A001221",
+    "A020733",
+    "A067434"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:06",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

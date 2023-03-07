@@ -1,0 +1,18 @@
+{
+  "description": "Number of terms in s(n), where s(n) is defined at sequence A114510.",
+  "id": "A114512",
+  "mentions": [
+    "A114510"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

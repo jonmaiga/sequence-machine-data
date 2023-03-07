@@ -1,0 +1,44 @@
+{
+  "description": "Length of the trajectory of the composition run-sum transformation (condensation) of the n-th composition in standard order.",
+  "id": "A353854",
+  "mentions": [
+    "A003242",
+    "A005811",
+    "A011782",
+    "A066099",
+    "A072639",
+    "A237685",
+    "A238279",
+    "A261983",
+    "A304442",
+    "A318928",
+    "A325277",
+    "A333489",
+    "A333627",
+    "A333755",
+    "A353832",
+    "A353840",
+    "A353841",
+    "A353846",
+    "A353847",
+    "A353848",
+    "A353849",
+    "A353850",
+    "A353852",
+    "A353853",
+    "A353855",
+    "A353859",
+    "A353860",
+    "A353932"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

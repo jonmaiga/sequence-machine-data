@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that floor(2^A006666(n)/3^A006667(n)) = n.",
+  "id": "A211981",
+  "mentions": [
+    "A000079",
+    "A006666",
+    "A006667"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

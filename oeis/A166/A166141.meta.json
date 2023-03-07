@@ -1,0 +1,20 @@
+{
+  "description": "Triangle T(n,k) read by rows. A080304(A126988).",
+  "id": "A166141",
+  "mentions": [
+    "A080304",
+    "A126988",
+    "A166142"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

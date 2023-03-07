@@ -1,0 +1,23 @@
+{
+  "description": "Number of partitions of n into 2 distinct positive Fibonacci numbers (with a single type of 1).",
+  "id": "A357731",
+  "mentions": [
+    "A000045",
+    "A000119",
+    "A121549",
+    "A319395",
+    "A357722",
+    "A357732"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 3,
+    "size": 92,
+    "source": "oeis-entry"
+  }
+}

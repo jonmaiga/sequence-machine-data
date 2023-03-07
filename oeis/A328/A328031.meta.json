@@ -1,0 +1,21 @@
+{
+  "description": "Upper bound for the determinant of an n X n matrix whose entries are a permutation of the multiset {1^n,...,n^n}.",
+  "id": "A328031",
+  "mentions": [
+    "A301371",
+    "A309985",
+    "A328030"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Smallest of five consecutive primes whose sum is a prime.",
+  "id": "A152468",
+  "mentions": [
+    "A034965",
+    "A073681",
+    "A180948",
+    "A180950",
+    "A189571",
+    "A226380"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:35",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

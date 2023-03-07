@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the number of shortest common superstrings of the binary representations of all natural numbers from 1 to n.",
+  "id": "A175809",
+  "mentions": [
+    "A016031",
+    "A056744",
+    "A166316",
+    "A175808"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

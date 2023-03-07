@@ -1,0 +1,19 @@
+{
+  "description": "Third row of A166091. Positions of 5's in A166086.",
+  "id": "A166054",
+  "mentions": [
+    "A166055",
+    "A166086",
+    "A166091"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

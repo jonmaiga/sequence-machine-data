@@ -1,0 +1,22 @@
+{
+  "description": "First differences of A137976 after having added two leading ones.",
+  "id": "A138298",
+  "mentions": [
+    "A049666",
+    "A102312",
+    "A134490",
+    "A137976",
+    "A137986"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

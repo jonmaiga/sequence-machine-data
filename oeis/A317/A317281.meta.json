@@ -1,0 +1,18 @@
+{
+  "description": "Number of permutations of [n] with exactly one increasing run of even length.",
+  "id": "A317281",
+  "mentions": [
+    "A097592"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:36",
+    "offset": 2,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

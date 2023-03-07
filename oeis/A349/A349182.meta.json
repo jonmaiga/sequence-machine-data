@@ -1,0 +1,22 @@
+{
+  "description": "a(0) = 1; for n>0, a(n) is the smallest positive integer such that |n - a(n-1)| + a(n) is a square.",
+  "id": "A349182",
+  "mentions": [
+    "A000290",
+    "A009000",
+    "A347594",
+    "A347595",
+    "A347754",
+    "A349119"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 89,
+    "source": "oeis-entry"
+  }
+}

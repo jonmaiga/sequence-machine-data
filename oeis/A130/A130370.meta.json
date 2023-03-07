@@ -1,0 +1,28 @@
+{
+  "description": "Signature permutation of a Catalan automorphism: inverse of *A130369.",
+  "id": "A130370",
+  "mentions": [
+    "A014137",
+    "A014138",
+    "A019590",
+    "A069770",
+    "A074680",
+    "A074686",
+    "A130369",
+    "A130371",
+    "A130375",
+    "A130377",
+    "A130378",
+    "A130379"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:18",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

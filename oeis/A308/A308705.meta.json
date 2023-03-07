@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of the constant formed by concatenating the terms of A076478 (binary vectors of lengths 1, 2, 3, ... in numerical order).",
+  "id": "A308705",
+  "mentions": [
+    "A076478"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:59:33",
+    "offset": 0,
+    "size": 66,
+    "source": "joeis"
+  }
+}

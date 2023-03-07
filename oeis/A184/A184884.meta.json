@@ -1,0 +1,20 @@
+{
+  "description": "Diagonal sums of number triangle A184883.",
+  "id": "A184884",
+  "mentions": [
+    "A183883",
+    "A184883"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:09",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

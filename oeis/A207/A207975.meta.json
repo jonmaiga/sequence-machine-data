@@ -1,0 +1,20 @@
+{
+  "description": "Triangle where row n consists of a sequence of n positive integers g(1) < g(2) < ... < g(n) with the minimal sum such that A001222(g(i)+g(j)) = A001222(g(i)) + A001222(g(j)) for all 1 <= i < j <= n.",
+  "id": "A207975",
+  "mentions": [
+    "A001222",
+    "A059363",
+    "A059393"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

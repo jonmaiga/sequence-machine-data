@@ -1,0 +1,23 @@
+{
+  "description": "Polylogarithm li(-n,-1/1000) multiplied by (1001^(n+1))/1000.",
+  "id": "A213156",
+  "mentions": [
+    "A210246",
+    "A212846",
+    "A212847",
+    "A213127",
+    "A213155",
+    "A213157"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:31",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Number of (undirected) paths in the n X n king graph.",
+  "id": "A288033",
+  "mentions": [
+    "A140519",
+    "A158651",
+    "A234622",
+    "A236690",
+    "A288032",
+    "A288148"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Triangular numbers that can be represented as a sum of two distinct triangular numbers, and as a product of two triangular numbers greater than 1.",
+  "id": "A295768",
+  "mentions": [
+    "A000217",
+    "A188630",
+    "A260647"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

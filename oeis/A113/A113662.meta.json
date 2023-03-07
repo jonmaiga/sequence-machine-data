@@ -1,0 +1,24 @@
+{
+  "description": "Self-convolution of A000699.",
+  "id": "A113662",
+  "mentions": [
+    "A000699",
+    "A113663",
+    "A113664",
+    "A113665",
+    "A113666",
+    "A113667",
+    "A113668"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:04",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

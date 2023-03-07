@@ -1,0 +1,20 @@
+{
+  "description": "(sigma, tau)-superchampion numbers: numbers k for which there is a positive exponent e such that sigma(k)/(k*tau(k)^e) >= sigma(j)/(j*tau(j)^e) for all j >= 1, where tau(k) is the number of divisors of k (A000005) and sigma(k) is their sum (A000203).",
+  "id": "A309811",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A002201",
+    "A004490"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

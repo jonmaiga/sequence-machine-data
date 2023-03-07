@@ -1,0 +1,18 @@
+{
+  "description": "Number of nX3 0..2 arrays with values 0..2 introduced in row major order and each element equal to one or two horizontal and vertical neighbors",
+  "id": "A199642",
+  "mentions": [
+    "A199647"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:20",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

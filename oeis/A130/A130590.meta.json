@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of the mean Euclidean distance from a point in a 3D box to the surfaces.",
+  "id": "A130590",
+  "mentions": [
+    "A010527",
+    "A019691",
+    "A065914"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:39",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

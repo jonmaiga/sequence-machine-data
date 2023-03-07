@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = mu(n) * A000217(n).",
+  "id": "A125287",
+  "mentions": [
+    "A000217",
+    "A008683",
+    "A127510"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the number of free unholey polyominoes of n cells with 90-degree rotational symmetry and no other.",
+  "id": "A357647",
+  "mentions": [
+    "A000104",
+    "A144553"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

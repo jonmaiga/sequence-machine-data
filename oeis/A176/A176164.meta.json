@@ -1,0 +1,19 @@
+{
+  "description": "Primes p such that (p-2)/7 is not a prime number.",
+  "id": "A176164",
+  "mentions": [
+    "A169647",
+    "A176162"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:00",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

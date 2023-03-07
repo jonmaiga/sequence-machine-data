@@ -1,0 +1,26 @@
+{
+  "description": "Numbers k that are not prime powers, and have exactly phi(phi(k)) residues modulo k of the maximum order.",
+  "id": "A300080",
+  "mentions": [
+    "A000010",
+    "A000961",
+    "A002322",
+    "A010554",
+    "A024619",
+    "A111725",
+    "A246547",
+    "A300064",
+    "A300065",
+    "A300079"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:24",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

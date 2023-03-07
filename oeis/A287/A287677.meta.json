@@ -1,0 +1,20 @@
+{
+  "description": "Practical Lucas numbers.",
+  "id": "A287677",
+  "mentions": [
+    "A000032",
+    "A005153",
+    "A124105",
+    "A287679"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:00",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-bfile"
+  }
+}

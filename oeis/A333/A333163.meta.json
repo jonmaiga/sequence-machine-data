@@ -1,0 +1,20 @@
+{
+  "description": "Number of cubic graphs on n unlabeled nodes with half-edges.",
+  "id": "A333163",
+  "mentions": [
+    "A005638",
+    "A110040",
+    "A186417",
+    "A333161"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

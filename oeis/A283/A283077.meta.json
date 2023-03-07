@@ -1,0 +1,26 @@
+{
+  "description": "Expansion of Product_{n>=1} (1 - x^(7*n))/(1 - x^n)^8 in powers of x.",
+  "id": "A283077",
+  "mentions": [
+    "A182818",
+    "A182819",
+    "A182820",
+    "A182821",
+    "A282942",
+    "A283078",
+    "A283119",
+    "A283120",
+    "A283121"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:27:44",
+    "offset": 0,
+    "size": 28,
+    "source": "joeis"
+  }
+}

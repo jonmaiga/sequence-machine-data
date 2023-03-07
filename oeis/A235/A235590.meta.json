@@ -1,0 +1,21 @@
+{
+  "description": "Sum of parts of the form 10...0 with nonnegative number of zeros in binary representation of c-squarefree numbers (A233564) as the corresponding powers of 2.",
+  "id": "A235590",
+  "mentions": [
+    "A000120",
+    "A162439",
+    "A233564"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

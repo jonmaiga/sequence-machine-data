@@ -1,0 +1,29 @@
+{
+  "description": "Filter-sequence for factorial base (digit slopes): Least number with the same prime signature as A275734(n).",
+  "id": "A278234",
+  "mentions": [
+    "A007623",
+    "A046523",
+    "A060130",
+    "A060502",
+    "A225901",
+    "A275734",
+    "A275811",
+    "A275946",
+    "A275962",
+    "A278225",
+    "A278235",
+    "A278236"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:45",
+    "offset": 0,
+    "size": 103,
+    "source": "oeis-bfile"
+  }
+}

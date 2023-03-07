@@ -1,0 +1,19 @@
+{
+  "description": "Number of positive integers k less than n such that the symmetric representation of sigma(k) is contiguous (shares a line border) with the symmetric representation of sigma(n).",
+  "id": "A244145",
+  "mentions": [
+    "A237270",
+    "A237271",
+    "A237593"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "For definition see comments lines.",
+  "id": "A174978",
+  "mentions": [
+    "A174835",
+    "A174837"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "nonn",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 93,
+    "source": "oeis-entry"
+  }
+}

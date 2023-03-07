@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that 4n+1 and 8n+3 are prime.",
+  "id": "A199427",
+  "mentions": [
+    "A001122",
+    "A005098",
+    "A005124"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:20",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

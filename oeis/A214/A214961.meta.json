@@ -1,0 +1,21 @@
+{
+  "description": "a(0)=a(1)=1, a(n) = least k > a(n-1) such that k*a(n-2) is a triangular number.",
+  "id": "A214961",
+  "mentions": [
+    "A213005",
+    "A214914",
+    "A214915",
+    "A214916",
+    "A214963"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:32",
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

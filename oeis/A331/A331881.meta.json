@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the first n-digit substring to occur n times in the decimal expansion of the fractional part of Pi.",
+  "id": "A331881",
+  "mentions": [
+    "A000796",
+    "A197123",
+    "A331882"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

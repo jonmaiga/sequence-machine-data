@@ -1,0 +1,17 @@
+{
+  "description": "A number n is included if the number of positive divisors of n is neither a divisor of n nor is coprime to n.",
+  "id": "A140695",
+  "mentions": [
+    "A140696"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:29",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

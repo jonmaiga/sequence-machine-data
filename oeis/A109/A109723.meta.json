@@ -1,0 +1,23 @@
+{
+  "description": "Sum of the first 2n+1 primes.",
+  "id": "A109723",
+  "mentions": [
+    "A007504",
+    "A109722",
+    "A109724",
+    "A109725",
+    "A109726"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:01",
+    "offset": 0,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

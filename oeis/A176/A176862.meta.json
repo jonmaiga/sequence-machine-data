@@ -1,0 +1,20 @@
+{
+  "description": "A symmetrical triangle sequence:t(n,m)=(-1)^m*(n - m)!*Binomial[n - 1, m] + (-1)^(n - m + 1)*(n - (n - m + 1))!*Binomial[n - 1, n - m + 1]",
+  "id": "A176862",
+  "mentions": [
+    "A132159"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 3,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

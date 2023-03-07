@@ -1,0 +1,18 @@
+{
+  "description": "Prime powers (A025475) such that the distance to the nearest square is a prime power.",
+  "id": "A239583",
+  "mentions": [
+    "A025475",
+    "A239582"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

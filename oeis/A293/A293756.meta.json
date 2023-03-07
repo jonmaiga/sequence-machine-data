@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = smallest number k with n prime factors such that d + k/d is prime for every d | k.",
+  "id": "A293756",
+  "mentions": [
+    "A000005",
+    "A080715",
+    "A103787",
+    "A282849",
+    "A287352",
+    "A294925",
+    "A295124",
+    "A295169"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

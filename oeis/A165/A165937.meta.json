@@ -1,0 +1,24 @@
+{
+  "description": "G.f.: A(x) = exp( Sum_{n>=1} A002203(n^2)*x^n/n ).",
+  "id": "A165937",
+  "mentions": [
+    "A000129",
+    "A002203",
+    "A155200",
+    "A158843",
+    "A165938",
+    "A166168",
+    "A166879"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

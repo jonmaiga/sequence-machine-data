@@ -1,0 +1,26 @@
+{
+  "description": "Number of all extensions over Q_5 with degree n in the algebraic closure of Q_5.",
+  "id": "A100978",
+  "mentions": [
+    "A100976",
+    "A100977",
+    "A100979",
+    "A100980",
+    "A100981",
+    "A100983",
+    "A100984",
+    "A100985",
+    "A100986"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

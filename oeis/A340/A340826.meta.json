@@ -1,0 +1,27 @@
+{
+  "description": "Decimal expansion of Cl_2(Pi/5), where Cl_2 is the Clausen function of order 2.",
+  "id": "A340826",
+  "mentions": [
+    "A006752",
+    "A143298",
+    "A261024",
+    "A261025",
+    "A261026",
+    "A261027",
+    "A261028",
+    "A340628",
+    "A340629"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

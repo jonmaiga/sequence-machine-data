@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that d(r,k) = 1 and d(s,k) = 1, where d(x,k) = k-th binary digit of x, r = {sqrt(2)}, s = {sqrt(3)}, and { } = fractional part.",
+  "id": "A247356",
+  "mentions": [
+    "A246356",
+    "A246357",
+    "A246358",
+    "A247454"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:03",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

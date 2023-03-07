@@ -1,0 +1,22 @@
+{
+  "description": "Table read by upward antidiagonals: Given m, n >= 1, write gcd(m,n) as d = u*m+v*n where u, v are minimal; T(m,n) = v.",
+  "id": "A345416",
+  "mentions": [
+    "A003989",
+    "A050873",
+    "A345415",
+    "A345417",
+    "A345418"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

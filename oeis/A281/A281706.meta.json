@@ -1,0 +1,20 @@
+{
+  "description": "Number of sets of three positive numbers <= n whose sum is a square.",
+  "id": "A281706",
+  "mentions": [
+    "A176615",
+    "A278329",
+    "A281871"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:50",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Triangle read by rows: row n gives coefficients of Schur polynomial Omega(n) in order of decreasing powers of x.",
+  "id": "A269750",
+  "mentions": [
+    "A000005",
+    "A000040",
+    "A000045",
+    "A000108",
+    "A270785",
+    "A270786",
+    "A270787",
+    "A270789"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:32",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

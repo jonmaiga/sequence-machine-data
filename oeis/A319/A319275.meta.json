@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of the positive solution to x! = 3.",
+  "id": "A319275",
+  "mentions": [
+    "A129624",
+    "A319276",
+    "A319277"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:41",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

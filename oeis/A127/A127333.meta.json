@@ -1,0 +1,27 @@
+{
+  "description": "Numbers that are the sum of 6 consecutive primes.",
+  "id": "A127333",
+  "mentions": [
+    "A001043",
+    "A011974",
+    "A034961",
+    "A034963",
+    "A034964",
+    "A127334",
+    "A127335",
+    "A127336",
+    "A127337",
+    "A127338",
+    "A127339"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 18:12:21",
+    "offset": 1,
+    "size": 49,
+    "source": "joeis"
+  }
+}

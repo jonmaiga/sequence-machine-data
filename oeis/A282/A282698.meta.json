@@ -1,0 +1,19 @@
+{
+  "description": "Irregular triangle read by rows: row n gives numbers of maximal chains of lengths n-1, n, n+1, ... in the Tamari lattice T_n.",
+  "id": "A282698",
+  "mentions": [
+    "A003121",
+    "A027686"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:52",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

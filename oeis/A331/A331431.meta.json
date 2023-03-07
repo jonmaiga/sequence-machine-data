@@ -1,0 +1,35 @@
+{
+  "description": "Triangle read by rows: T(n,k) = (-1)^(n+k)*(n+k+1)*binomial(n,k)*binomial(n+k,k) for n >= k >= 0.",
+  "id": "A331431",
+  "mentions": [
+    "A000027",
+    "A000290",
+    "A002457",
+    "A002720",
+    "A002736",
+    "A002738",
+    "A007531",
+    "A054559",
+    "A100071",
+    "A108666",
+    "A109188",
+    "A331322",
+    "A331323",
+    "A331430",
+    "A331432",
+    "A331433",
+    "A331434"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:01",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{i=floor((n-1)/2)..n-1} i * c(i), where c is the prime characteristic (A010051).",
+  "id": "A288726",
+  "mentions": [
+    "A010051",
+    "A258087"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:02",
+    "offset": 0,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "First differences of A328047.",
+  "id": "A328049",
+  "mentions": [
+    "A328047",
+    "A328048",
+    "A328050"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-entry"
+  }
+}

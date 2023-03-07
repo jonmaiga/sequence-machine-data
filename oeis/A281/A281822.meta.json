@@ -1,0 +1,20 @@
+{
+  "description": "Least number k such that (k+n)^2 contains k as a substring.",
+  "id": "A281822",
+  "mentions": [
+    "A018834",
+    "A281823"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:51",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "The number of subsets of positive integers of cardinality n, produced as the steps in a computation starting with 1 and using the operations of multiplication, addition, or subtraction.",
+  "id": "A214872",
+  "mentions": [
+    "A141414",
+    "A173419",
+    "A216999",
+    "A217031",
+    "A217032"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

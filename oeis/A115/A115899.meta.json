@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that phi(k) + prime(k) is a palindrome.",
+  "id": "A115899",
+  "mentions": [
+    "A115896",
+    "A115898"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

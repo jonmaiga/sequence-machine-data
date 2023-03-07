@@ -1,0 +1,21 @@
+{
+  "description": "Coefficients of polynomials Q(n,x):=-2+(1+Q(n-1,x))^2, where Q(1,x)=x-2.",
+  "id": "A158986",
+  "mentions": [
+    "A158982",
+    "A158983",
+    "A158984",
+    "A158985"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

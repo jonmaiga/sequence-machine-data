@@ -1,0 +1,18 @@
+{
+  "description": "A diagonal of rectangular table A208896: a(n) = A208896(n+1,n).",
+  "id": "A208897",
+  "mentions": [
+    "A208896",
+    "A208898"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of compositions p(1)+p(2)+...+p(k) = n such that for no part p(i) = i (compositions without fixed points).",
+  "id": "A238351",
+  "mentions": [
+    "A048651",
+    "A238349",
+    "A238350"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

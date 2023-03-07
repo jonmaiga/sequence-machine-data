@@ -1,0 +1,24 @@
+{
+  "description": "Characteristic function for A066694: a(n) = 1 if n < phi(sigma(n)), 0 otherwise.",
+  "id": "A295308",
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A062401",
+    "A066694",
+    "A295301",
+    "A295303",
+    "A295309"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:13",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

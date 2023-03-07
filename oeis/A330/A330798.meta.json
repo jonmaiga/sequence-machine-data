@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows, interpolating between the central binomial coefficients and the central coefficients of the Catalan triangle. T(n, k) for 0 <= k <= n.",
+  "id": "A330798",
+  "mentions": [
+    "A000984",
+    "A033184",
+    "A174687",
+    "A330801"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of words of length n over the alphabet {0,1,2} that contain the substring 12 but not the substring 01.",
+  "id": "A335551",
+  "mentions": [
+    "A001906",
+    "A052921"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 03:55:08",
+    "offset": 0,
+    "size": 30,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of Product_{i>=1, j>=1} 1 / (1 + (-x)^(i*(2*j - 1))).",
+  "id": "A327746",
+  "mentions": [
+    "A001227",
+    "A107742",
+    "A288007",
+    "A327731"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "description": "Flattened tetrangle of all finite multisets of positive integers sorted first by sum, then by length, then colexicographically.",
+  "id": "A344091",
+  "mentions": [
+    "A000041",
+    "A026791",
+    "A026793",
+    "A036036",
+    "A036037",
+    "A080576",
+    "A080577",
+    "A112798",
+    "A124734",
+    "A185974",
+    "A193073",
+    "A211992",
+    "A228531",
+    "A246688",
+    "A296150",
+    "A296774",
+    "A334301",
+    "A334302",
+    "A334433",
+    "A334435",
+    "A334438",
+    "A334439",
+    "A334441",
+    "A334442",
+    "A344086",
+    "A344089",
+    "A344090"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 77,
+    "source": "oeis-entry"
+  }
+}

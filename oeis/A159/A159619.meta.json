@@ -1,0 +1,28 @@
+{
+  "description": "Slowest increasing sequence beginning with 4 such that n and a(n) are either both evil or both odious.",
+  "id": "A159619",
+  "mentions": [
+    "A000069",
+    "A001969",
+    "A004760",
+    "A007814",
+    "A026491",
+    "A159559",
+    "A159560",
+    "A159615",
+    "A171898"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:41",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

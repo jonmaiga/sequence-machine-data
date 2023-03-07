@@ -1,0 +1,27 @@
+{
+  "description": "Triangular array: T(n,k) = number of partitions of 2n - 1 that have alternating sum 2k - 1.",
+  "id": "A239829",
+  "mentions": [
+    "A000041",
+    "A000070",
+    "A000098",
+    "A000712",
+    "A103924",
+    "A152157",
+    "A239830",
+    "A239832",
+    "A239833"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:57",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

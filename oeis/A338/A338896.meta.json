@@ -1,0 +1,22 @@
+{
+  "description": "Inradii of Pythagorean triples of A338895.",
+  "id": "A338896",
+  "mentions": [
+    "A000217",
+    "A003991",
+    "A338275",
+    "A338895"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

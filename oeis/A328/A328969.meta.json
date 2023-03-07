@@ -1,0 +1,21 @@
+{
+  "description": "Irregular table T(n,k), n >= 2, k=1..pi(n). arising in expressing the sequence A006022 as the coefficients depending on the maximal k-th prime factor pk of the formula for A006022(n) of its unique prime factor equation.",
+  "id": "A328969",
+  "mentions": [
+    "A000720",
+    "A006022",
+    "A129527"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 2,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

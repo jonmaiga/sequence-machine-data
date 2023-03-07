@@ -1,0 +1,22 @@
+{
+  "description": "Numbers whose binary representation is a substring of the concatenation of the binary representation of all smaller nonnegative integers not listed earlier, taken in decreasing order.",
+  "id": "A190784",
+  "mentions": [
+    "A048991",
+    "A048992",
+    "A118248",
+    "A118250",
+    "A128291"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

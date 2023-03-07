@@ -1,0 +1,21 @@
+{
+  "description": "Distance to nearest cube different from n.",
+  "id": "A154840",
+  "mentions": [
+    "A055400",
+    "A066635",
+    "A074989",
+    "A163497"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

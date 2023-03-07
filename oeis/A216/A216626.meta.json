@@ -1,0 +1,29 @@
+{
+  "description": "Square array read by antidiagonals, T(n,k) = sum_{c|n,d|k} lcm(c,d) for n>=1, k>=1.",
+  "id": "A216626",
+  "mentions": [
+    "A000203",
+    "A008864",
+    "A062731",
+    "A064950",
+    "A083539",
+    "A216620",
+    "A216621",
+    "A216622",
+    "A216623",
+    "A216624",
+    "A216625",
+    "A216627"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:34",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

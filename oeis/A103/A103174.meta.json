@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k with increasing digits such that the digits of k appear among the digits of the k-th prime number.",
+  "id": "A103174",
+  "mentions": [
+    "A068575",
+    "A075902",
+    "A080794"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

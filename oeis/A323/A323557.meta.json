@@ -1,0 +1,24 @@
+{
+  "description": "G.f.: Sum_{n>=0} x^n * (1 + x^n)^n / (1 + x^(n+1))^(n+1).",
+  "id": "A323557",
+  "mentions": [
+    "A323675",
+    "A323677",
+    "A323678",
+    "A323679",
+    "A325046",
+    "A326285",
+    "A326602"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:48",
+    "offset": 0,
+    "size": 77,
+    "source": "oeis-bfile"
+  }
+}

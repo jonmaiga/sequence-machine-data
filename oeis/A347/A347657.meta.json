@@ -1,0 +1,23 @@
+{
+  "description": "Number of partitions of n into at most 6 squarefree parts.",
+  "id": "A347657",
+  "mentions": [
+    "A005117",
+    "A073576",
+    "A308902",
+    "A347648",
+    "A347649",
+    "A347655",
+    "A347656"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

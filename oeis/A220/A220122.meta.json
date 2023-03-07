@@ -1,0 +1,41 @@
+{
+  "description": "Number A(n,k) of tilings of a k X n rectangle using integer-sided rectangular tiles of area k; square array A(n,k), n>=0, k>=0, read by antidiagonals.",
+  "id": "A220122",
+  "mentions": [
+    "A000012",
+    "A000045",
+    "A000930",
+    "A003418",
+    "A003520",
+    "A005709",
+    "A017905",
+    "A017907",
+    "A040001",
+    "A182106",
+    "A220123",
+    "A220124",
+    "A220125",
+    "A220126",
+    "A220127",
+    "A220128",
+    "A220129",
+    "A220130",
+    "A220131",
+    "A220132",
+    "A220133",
+    "A220134",
+    "A220135"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:38",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

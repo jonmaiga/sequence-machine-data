@@ -1,0 +1,27 @@
+{
+  "description": "Fundamental nonnegative solution x(n) of the Diophantine equation x^2 - A045339(n)*y^2 = -2, for n >= 1.",
+  "id": "A339881",
+  "mentions": [
+    "A000037",
+    "A000194",
+    "A007520",
+    "A045339",
+    "A307372",
+    "A324251",
+    "A324252",
+    "A336792",
+    "A336793",
+    "A339882"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

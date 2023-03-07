@@ -1,0 +1,37 @@
+{
+  "description": "Late-growing permutations: number of permutations of 1..n with every partial sum <= the same partial sum averaged over all permutations.",
+  "id": "A147681",
+  "mentions": [
+    "A145874",
+    "A147682",
+    "A147684",
+    "A147686",
+    "A147687",
+    "A147692",
+    "A147694",
+    "A147695",
+    "A147697",
+    "A147698",
+    "A147700",
+    "A147705",
+    "A147707",
+    "A147712",
+    "A147713",
+    "A147714",
+    "A147715",
+    "A147717",
+    "A147769",
+    "A215561"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

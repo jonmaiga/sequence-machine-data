@@ -1,0 +1,18 @@
+{
+  "description": "Number of -n..n arrays x(0..2) of 3 elements with zeroth through 2nd differences all nonzero.",
+  "id": "A199944",
+  "mentions": [
+    "A199943"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 19:25:47",
+    "offset": 1,
+    "size": 36,
+    "source": "joeis"
+  }
+}

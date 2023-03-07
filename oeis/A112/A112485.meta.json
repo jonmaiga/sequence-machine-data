@@ -1,0 +1,22 @@
+{
+  "description": "Fifth diagonal of second-order Eulerian triangle A008517. Fifth column (m=4) of triangle A112007.",
+  "id": "A112485",
+  "mentions": [
+    "A008517",
+    "A112007",
+    "A112008",
+    "A163936"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

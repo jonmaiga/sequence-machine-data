@@ -1,0 +1,17 @@
+{
+  "description": "Order of the following permutation on 3n+1 symbols. Write the 3n+1 symbols horizontally into a 3-column grid and read them off vertically, i.e., column after column.",
+  "id": "A119980",
+  "mentions": [
+    "A003572"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

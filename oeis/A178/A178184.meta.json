@@ -1,0 +1,17 @@
+{
+  "description": "Sum 2^((k^2+3k)/2) from k=1 to n",
+  "id": "A178184",
+  "mentions": [
+    "A178193"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n,k) = number of connected matchings with n crossings and k chords, in a disk.",
+  "id": "A232223",
+  "mentions": [
+    "A000699",
+    "A232222",
+    "A322456"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

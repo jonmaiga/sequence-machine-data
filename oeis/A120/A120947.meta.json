@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = smallest m such that n-th prime divides Pell(m).",
+  "id": "A120947",
+  "mentions": [
+    "A000129",
+    "A001602",
+    "A024704",
+    "A024705",
+    "A239111"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:09",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

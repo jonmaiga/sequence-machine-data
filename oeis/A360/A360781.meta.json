@@ -1,0 +1,25 @@
+{
+  "description": "Primes p such that at least one number remains prime when p is bracketed by a single digit d; that is, at least one instance of d//p//d is prime where // means concatenation.",
+  "id": "A360781",
+  "mentions": [
+    "A000040",
+    "A059694",
+    "A069687",
+    "A069688",
+    "A069689",
+    "A069690"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:34",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Highly composite numbers which are divisible by all smaller highly composite numbers.",
+  "id": "A136253",
+  "mentions": [
+    "A002182",
+    "A106037",
+    "A181806"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

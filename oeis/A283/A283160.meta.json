@@ -1,0 +1,24 @@
+{
+  "description": "Numbers n such that there is exactly one solution to the equation sigma(x)= 2^n, where sigma(x) denotes the sum of the divisors of x.",
+  "id": "A283160",
+  "mentions": [
+    "A000043",
+    "A000203",
+    "A046528",
+    "A063883",
+    "A078426",
+    "A247956",
+    "A283446"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:53",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

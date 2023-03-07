@@ -1,0 +1,17 @@
+{
+  "description": "Number of ones in the periodic part of the continued fraction of sqrt(n) for n in A206579.",
+  "id": "A206580",
+  "mentions": [
+    "A206579"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

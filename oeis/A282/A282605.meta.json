@@ -1,0 +1,20 @@
+{
+  "description": "Decimal representation of the x-axis, from the origin to the right edge, of the n-th stage of growth of the two-dimensional cellular automaton defined by \"Rule 486\", based on the 5-celled von Neumann neighborhood.",
+  "id": "A282605",
+  "mentions": [
+    "A282602",
+    "A282603",
+    "A282604"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 02:44:42",
+    "offset": 0,
+    "size": 34,
+    "source": "joeis"
+  }
+}

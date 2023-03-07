@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = f(f(f(f(f(n))))), where f(n) is prime(n)-1.",
+  "id": "A141139",
+  "mentions": [
+    "A006093",
+    "A140853",
+    "A141208",
+    "A141217"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Number of points in a square lattice covered by a circle of diameter n if the center of the circle is chosen such that the circle covers the minimum possible number of lattice points.",
+  "id": "A123689",
+  "mentions": [
+    "A053411",
+    "A053414",
+    "A053415",
+    "A122224",
+    "A123690",
+    "A125851",
+    "A127405",
+    "A291259"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Triangle T(n,k): vertex labeled disconnected Goldstone diagrams with n interactions and k external potentials.",
+  "id": "A328922",
+  "mentions": [
+    "A328826",
+    "A328921",
+    "A328923",
+    "A328924"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

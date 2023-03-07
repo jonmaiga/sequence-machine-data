@@ -1,0 +1,26 @@
+{
+  "description": "a(n) is the index of the column in A265901 where n appears; also the index of the row in A265903 where n appears.",
+  "id": "A265332",
+  "mentions": [
+    "A004001",
+    "A051135",
+    "A162598",
+    "A265754",
+    "A265901",
+    "A265903",
+    "A267108",
+    "A267109",
+    "A267110"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:25",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

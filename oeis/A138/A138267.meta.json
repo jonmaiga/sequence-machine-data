@@ -1,0 +1,17 @@
+{
+  "description": "Balanced prime numbers n such that n*(n+1)+1 is a balanced prime.",
+  "id": "A138267",
+  "mentions": [
+    "A006562"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

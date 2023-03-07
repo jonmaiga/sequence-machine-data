@@ -1,0 +1,22 @@
+{
+  "description": "First point of the discrete Theodorus spiral in the fourth quadrant for the n-th revolution, for n >= 1.",
+  "id": "A296181",
+  "mentions": [
+    "A072895",
+    "A295338",
+    "A295339",
+    "A296179"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

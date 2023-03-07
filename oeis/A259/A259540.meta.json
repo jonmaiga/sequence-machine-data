@@ -1,0 +1,23 @@
+{
+  "description": "Least positive integer k such that k and k*n are terms of A259539.",
+  "id": "A259540",
+  "mentions": [
+    "A000040",
+    "A014574",
+    "A258803",
+    "A258836",
+    "A259487",
+    "A259492",
+    "A259539"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:17",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

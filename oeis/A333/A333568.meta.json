@@ -1,0 +1,18 @@
+{
+  "description": "Lexicographically earliest sequence of nonnegative integers such that two distinct terms differ by at least 3 decimal digits.",
+  "id": "A333568",
+  "mentions": [
+    "A075926"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:04",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

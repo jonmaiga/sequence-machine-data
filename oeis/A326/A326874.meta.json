@@ -1,0 +1,26 @@
+{
+  "description": "BII-numbers of abstract simplicial complexes.",
+  "id": "A326874",
+  "mentions": [
+    "A006126",
+    "A014466",
+    "A029931",
+    "A048793",
+    "A102896",
+    "A261005",
+    "A307249",
+    "A326031",
+    "A326872",
+    "A326876"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

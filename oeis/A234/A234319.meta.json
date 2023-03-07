@@ -1,0 +1,22 @@
+{
+  "description": "Smallest sum of n-th powers of k+1 consecutive positive integers that equals the sum of n-th powers of the next k consecutive integers, or -n if none.",
+  "id": "A234319",
+  "mentions": [
+    "A059255",
+    "A059270",
+    "A222716",
+    "A230718"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:18:57",
+    "offset": 0,
+    "size": 55,
+    "source": "joeis"
+  }
+}

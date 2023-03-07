@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: T(n,k) = 2*C(n-1,k)-C(n,k) for k",
+  "id": "A217943",
+  "mentions": [
+    "A216955",
+    "A216958"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 2,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "The number of 2 X 2 matrices with all eigenvalues real and whose entries are integers with absolute value at most n.",
+  "id": "A219736",
+  "mentions": [
+    "A003024",
+    "A207259"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:37",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

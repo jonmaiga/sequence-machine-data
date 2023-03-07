@@ -1,0 +1,21 @@
+{
+  "description": "Primes p such that a prime q < p exists with p^(q-1) == 1 (mod q^2) and q^(p-1) == 1 (mod p^2), i.e., primes that are the larger member of a double Wieferich prime pair.",
+  "id": "A266829",
+  "mentions": [
+    "A124122",
+    "A282293",
+    "A317724"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

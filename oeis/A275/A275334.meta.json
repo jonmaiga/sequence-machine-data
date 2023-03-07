@@ -1,0 +1,18 @@
+{
+  "description": "Number of simple labeled graphs on n vertices that have at least one vertex of odd degree and at least one vertex of even degree.",
+  "id": "A275334",
+  "mentions": [
+    "A122743"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

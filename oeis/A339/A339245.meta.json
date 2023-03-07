@@ -1,0 +1,30 @@
+{
+  "description": "Partrich numbers: positive integers whose square part and squarefree part are divisible by 2 and an odd prime.",
+  "id": "A339245",
+  "mentions": [
+    "A008586",
+    "A017139",
+    "A017643",
+    "A028983",
+    "A036554",
+    "A036785",
+    "A038838",
+    "A056832",
+    "A059896",
+    "A190892",
+    "A234957",
+    "A287840"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:11",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

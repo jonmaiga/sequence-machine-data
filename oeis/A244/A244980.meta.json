@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of Pi/(2*sqrt(6)).",
+  "id": "A244980",
+  "mentions": [
+    "A244976",
+    "A244977",
+    "A244978",
+    "A244979"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:01",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

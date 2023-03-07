@@ -1,0 +1,27 @@
+{
+  "description": "Difference between the n-th element of the ruler function and the highest power of 2 dividing n.",
+  "id": "A228368",
+  "mentions": [
+    "A001511",
+    "A006519",
+    "A011782",
+    "A141285",
+    "A194446",
+    "A194447",
+    "A228366",
+    "A228367",
+    "A228525"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:45",
+    "offset": 1,
+    "size": 96,
+    "source": "oeis-bfile"
+  }
+}

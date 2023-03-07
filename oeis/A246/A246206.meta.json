@@ -1,0 +1,26 @@
+{
+  "description": "Permutation of natural numbers: a(1) = 1, if A117966(n) < 0, a(n) = A014580(a(-(A117966(n)))), otherwise a(n) = A091242(a(A117966(n)-1)).",
+  "id": "A246206",
+  "mentions": [
+    "A014580",
+    "A091242",
+    "A117966",
+    "A245702",
+    "A246164",
+    "A246202",
+    "A246205",
+    "A246208",
+    "A246210"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:02",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

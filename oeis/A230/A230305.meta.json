@@ -1,0 +1,24 @@
+{
+  "description": "Iterate A080670 starting at n; a(n) = number of steps to reach a prime, or -1 if no prime is ever reached.",
+  "id": "A230305",
+  "mentions": [
+    "A037271",
+    "A067599",
+    "A080670",
+    "A195264",
+    "A195265"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 2,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Irregular triangle read by rows: strictly decreasing sequences of nonnegative numbers given in lexicographic order.",
+  "id": "A272011",
+  "mentions": [
+    "A000120",
+    "A000523",
+    "A000788",
+    "A001787",
+    "A007814",
+    "A064894",
+    "A073642",
+    "A133457",
+    "A262557",
+    "A272020"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:36",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

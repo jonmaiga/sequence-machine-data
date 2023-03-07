@@ -1,0 +1,20 @@
+{
+  "description": "Rearrangement of positive integers such that each five terms sum up to a perfect square.",
+  "id": "A130111",
+  "mentions": [
+    "A130108",
+    "A130109",
+    "A130110"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:06:57",
+    "offset": 1,
+    "size": 75,
+    "source": "joeis"
+  }
+}

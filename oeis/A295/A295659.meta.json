@@ -1,0 +1,33 @@
+{
+  "description": "Number of exponents larger than 2 in the prime factorization of n.",
+  "id": "A295659",
+  "mentions": [
+    "A001221",
+    "A003557",
+    "A004709",
+    "A028234",
+    "A046099",
+    "A053150",
+    "A056169",
+    "A056170",
+    "A067029",
+    "A085541",
+    "A162642",
+    "A212793",
+    "A295657",
+    "A295662",
+    "A295883",
+    "A295884"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:14",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

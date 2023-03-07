@@ -1,0 +1,20 @@
+{
+  "description": "First re-appearance of first n digits in decimal expansion of e.",
+  "id": "A112788",
+  "mentions": [
+    "A001113",
+    "A065593"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

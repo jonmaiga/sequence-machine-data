@@ -1,0 +1,21 @@
+{
+  "description": "Lesser of twin primes, written in base 6.",
+  "id": "A166479",
+  "mentions": [
+    "A001359",
+    "A007092"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:49",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

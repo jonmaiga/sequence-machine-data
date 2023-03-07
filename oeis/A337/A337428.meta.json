@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the least prime of the form (3^r*5^s*7^t + 1)/2, r, s, t > 0, r + s + t = n.",
+  "id": "A337428",
+  "mentions": [
+    "A337423",
+    "A337425",
+    "A337427"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:09",
+    "offset": 3,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "a(1) = 1, after which each a(n) = A002487(n)-th number selected from those not yet in the sequence.",
+  "id": "A266413",
+  "mentions": [
+    "A002487",
+    "A119435",
+    "A126917",
+    "A246165",
+    "A266405",
+    "A266411",
+    "A266414"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:27",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

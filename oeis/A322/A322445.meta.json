@@ -1,0 +1,20 @@
+{
+  "description": "Smallest positive integer m such that n divides A297707(m).",
+  "id": "A322445",
+  "mentions": [
+    "A002034",
+    "A007922",
+    "A063917",
+    "A297707"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

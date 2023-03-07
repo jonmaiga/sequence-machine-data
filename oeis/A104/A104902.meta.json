@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that sigma(n) = 12*phi(n).",
+  "id": "A104902",
+  "mentions": [
+    "A000043",
+    "A062699",
+    "A068390",
+    "A104900",
+    "A104901"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:55",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

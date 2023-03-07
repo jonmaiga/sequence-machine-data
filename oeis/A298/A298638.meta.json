@@ -1,0 +1,24 @@
+{
+  "description": "Numbers k such that the digital sum of k and the digital root of k have opposite parity.",
+  "id": "A298638",
+  "mentions": [
+    "A007953",
+    "A010888",
+    "A113217",
+    "A179081",
+    "A291884",
+    "A298639"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:20",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

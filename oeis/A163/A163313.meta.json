@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows, A010766 convolved with A014668 (diagonalized as an infinite lower triangular matrix)",
+  "id": "A163313",
+  "mentions": [
+    "A010766",
+    "A014668"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:45",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

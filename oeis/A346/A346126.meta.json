@@ -1,0 +1,32 @@
+{
+  "description": "Numbers m such that no self-avoiding walk of length m + 1 on the hexagonal lattice fits into the smallest circle that can enclose a walk of length m.",
+  "id": "A346126",
+  "mentions": [
+    "A122226",
+    "A125852",
+    "A127399",
+    "A127400",
+    "A127401",
+    "A151541",
+    "A284869",
+    "A306176",
+    "A316196",
+    "A346123",
+    "A346124",
+    "A346125",
+    "A346127",
+    "A346132"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Lexicographically earliest sequence of distinct positive terms such that two distinct terms differ by at least 3 prime factors.",
+  "id": "A335440",
+  "mentions": [
+    "A001222",
+    "A028260",
+    "A075926",
+    "A333568"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:07",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

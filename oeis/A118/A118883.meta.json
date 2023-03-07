@@ -1,0 +1,20 @@
+{
+  "description": "Smallest prime p with bigomega(p+1)=n, where bigomega(m)=A001222(m) is the number of prime divisors of m (counted with multiplicity).",
+  "id": "A118883",
+  "mentions": [
+    "A001222",
+    "A073918",
+    "A073919",
+    "A098026"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:08",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

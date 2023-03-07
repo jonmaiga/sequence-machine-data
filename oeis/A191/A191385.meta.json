@@ -1,0 +1,22 @@
+{
+  "description": "Number of dispersed Dyck paths of length n having no ascents of length 1.",
+  "id": "A191385",
+  "mentions": [
+    "A001006",
+    "A191384",
+    "A274110",
+    "A274115"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2022-05-02 16:55:42",
+    "offset": 0,
+    "size": 43,
+    "source": "joeis"
+  }
+}

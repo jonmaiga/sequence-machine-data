@@ -1,0 +1,19 @@
+{
+  "description": "Number of 3-generalized Motzkin paths of length n with no level steps H=(3,0) at even level.",
+  "id": "A257516",
+  "mentions": [
+    "A002212",
+    "A090345"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 11:31:22",
+    "offset": 0,
+    "size": 38,
+    "source": "joeis"
+  }
+}

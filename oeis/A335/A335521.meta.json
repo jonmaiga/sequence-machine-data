@@ -1,0 +1,35 @@
+{
+  "description": "Number of (1,2,3)-avoiding permutations of the prime indices of n.",
+  "id": "A335521",
+  "mentions": [
+    "A000670",
+    "A008480",
+    "A056239",
+    "A056986",
+    "A102726",
+    "A112798",
+    "A226316",
+    "A238279",
+    "A281188",
+    "A333217",
+    "A333221",
+    "A333755",
+    "A335452",
+    "A335456",
+    "A335460",
+    "A335462",
+    "A335463",
+    "A335520"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

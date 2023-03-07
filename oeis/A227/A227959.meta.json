@@ -1,0 +1,19 @@
+{
+  "description": "Number of tilings using monominoes and L-trominoes in 2 X n chessboard, such that three monominoes cannot occur together in shape of L-tromino.",
+  "id": "A227959",
+  "mentions": [
+    "A127864"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 13:24:50",
+    "offset": 0,
+    "size": 32,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = (671*n mod 2454) + (16*n mod 32) + (194*n mod 199).",
+  "id": "A340342",
+  "mentions": [
+    "A340343"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

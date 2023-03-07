@@ -1,0 +1,28 @@
+{
+  "description": "Heinz numbers of integer partitions where the set of distinct parts is disjoint from the set of distinct multiplicities.",
+  "id": "A325131",
+  "mentions": [
+    "A000720",
+    "A001222",
+    "A056239",
+    "A109298",
+    "A112798",
+    "A114639",
+    "A118914",
+    "A324571",
+    "A325127",
+    "A325128",
+    "A325129",
+    "A325130"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Number of partitions of n in which the sum of reciprocals of parts is less than 1.",
+  "id": "A168173",
+  "mentions": [
+    "A051908"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

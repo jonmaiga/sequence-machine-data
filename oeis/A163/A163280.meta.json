@@ -1,0 +1,50 @@
+{
+  "description": "Square array read by antidiagonals where column k lists the numbers j whose largest divisor <= sqrt(j) is k.",
+  "id": "A163280",
+  "mentions": [
+    "A000027",
+    "A000040",
+    "A000290",
+    "A002378",
+    "A005563",
+    "A008578",
+    "A033676",
+    "A100451",
+    "A147861",
+    "A161344",
+    "A161345",
+    "A161424",
+    "A161835",
+    "A162526",
+    "A162527",
+    "A162528",
+    "A162529",
+    "A162530",
+    "A162531",
+    "A162532",
+    "A163100",
+    "A163925",
+    "A163990",
+    "A164000",
+    "A164004",
+    "A164006",
+    "A164007",
+    "A164008",
+    "A164009",
+    "A164010",
+    "A164011",
+    "A164012"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

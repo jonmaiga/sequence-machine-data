@@ -1,0 +1,25 @@
+{
+  "description": "Triangle read by rows: cumulative sums of the rows of A049430.",
+  "id": "A330891",
+  "mentions": [
+    "A000105",
+    "A005519",
+    "A038119",
+    "A049429",
+    "A049430",
+    "A068870"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "hard",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

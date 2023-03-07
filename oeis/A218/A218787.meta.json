@@ -1,0 +1,31 @@
+{
+  "description": "a(n) = A014486-index for the n-th tendril of infinite beanstalk (A213730(n)), with the \"lesser numbers to the left side\" construction.",
+  "id": "A218787",
+  "mentions": [
+    "A011371",
+    "A014486",
+    "A055938",
+    "A057163",
+    "A072764",
+    "A079559",
+    "A179016",
+    "A213719",
+    "A213723",
+    "A213724",
+    "A213730",
+    "A218609",
+    "A218611",
+    "A218786",
+    "A218788"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:36",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Lower left-hand y-coordinates of invisible 2x2 squares with 0 < x < y.",
+  "id": "A157429",
+  "mentions": [
+    "A157426",
+    "A157427",
+    "A157428"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

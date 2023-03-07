@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = a(n-2)+a(n-3) with a(1)=2 a(2)=1 a(3)=0.",
+  "id": "A276276",
+  "mentions": [
+    "A000931",
+    "A060006"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:17:04",
+    "offset": 1,
+    "size": 43,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "description": "Number of subsets of {1...n} with no binary carries.",
+  "id": "A325095",
+  "mentions": [
+    "A000110",
+    "A019565",
+    "A050315",
+    "A080572",
+    "A247935",
+    "A267610",
+    "A267700",
+    "A325094",
+    "A325096",
+    "A325097",
+    "A325100",
+    "A325103",
+    "A325104",
+    "A325105"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:51",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

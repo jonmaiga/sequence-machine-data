@@ -1,0 +1,28 @@
+{
+  "description": "Numbers m that divide 4^m + 3.",
+  "id": "A327840",
+  "mentions": [
+    "A000079",
+    "A006521",
+    "A014945",
+    "A015940",
+    "A015950",
+    "A015973",
+    "A123047",
+    "A130421",
+    "A130422",
+    "A253208",
+    "A327943"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

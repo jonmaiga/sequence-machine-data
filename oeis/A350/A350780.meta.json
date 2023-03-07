@@ -1,0 +1,19 @@
+{
+  "description": "Numbers that are the number of divisors of p^2 - 1 for some prime p.",
+  "id": "A350780",
+  "mentions": [
+    "A000005",
+    "A309906",
+    "A341660"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

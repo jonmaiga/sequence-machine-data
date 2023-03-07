@@ -1,0 +1,25 @@
+{
+  "description": "Factorials that are the sum of the divisors of some m.",
+  "id": "A354074",
+  "mentions": [
+    "A000142",
+    "A000203",
+    "A002191",
+    "A055486",
+    "A055488",
+    "A245015",
+    "A338112",
+    "A354072",
+    "A354073"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

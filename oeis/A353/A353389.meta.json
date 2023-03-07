@@ -1,0 +1,46 @@
+{
+  "description": "Create the sequence of all positive integers > 1 that are prime or whose prime shadow (A181819) is a divisor that is already in the sequence. Then remove all the primes.",
+  "id": "A353389",
+  "mentions": [
+    "A000005",
+    "A000040",
+    "A001221",
+    "A001222",
+    "A001597",
+    "A003963",
+    "A005117",
+    "A056239",
+    "A112798",
+    "A118914",
+    "A124010",
+    "A181819",
+    "A181821",
+    "A182850",
+    "A225485",
+    "A296150",
+    "A316413",
+    "A316428",
+    "A323014",
+    "A324850",
+    "A325131",
+    "A325280",
+    "A325702",
+    "A325755",
+    "A353393",
+    "A353394",
+    "A353395",
+    "A353397",
+    "A353399",
+    "A353426"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

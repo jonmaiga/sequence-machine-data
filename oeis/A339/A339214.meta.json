@@ -1,0 +1,29 @@
+{
+  "description": "Factorial-base self numbers: numbers not of the form k + A034968(k).",
+  "id": "A339214",
+  "mentions": [
+    "A003052",
+    "A007623",
+    "A010061",
+    "A010064",
+    "A010067",
+    "A010070",
+    "A034968",
+    "A118363",
+    "A339211",
+    "A339212",
+    "A339213",
+    "A339215"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:11",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

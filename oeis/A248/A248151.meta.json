@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that the sum of the divisors of n is not divisible by 4.",
+  "id": "A248151",
+  "mentions": [
+    "A000203",
+    "A028982",
+    "A028983",
+    "A248150",
+    "A285801"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:04",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

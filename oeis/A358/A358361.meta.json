@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of the constant Sum_{j>=0} j!!/(2*j)!, where j!! indicates the double factorial of j.",
+  "id": "A358361",
+  "mentions": [
+    "A006882",
+    "A010050",
+    "A143280",
+    "A264152"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

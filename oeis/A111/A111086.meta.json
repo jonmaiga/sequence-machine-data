@@ -1,0 +1,18 @@
+{
+  "description": "Number of 3 X 3 X 3 X 3 magic cubes with magic sum 3n.",
+  "id": "A111086",
+  "mentions": [
+    "A111158"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:02",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Numbers n such that the right Aurifeuillian primitive part of 2^n+1 is prime.",
+  "id": "A250198",
+  "mentions": [
+    "A019320",
+    "A061443",
+    "A072226",
+    "A085601",
+    "A153443",
+    "A161508",
+    "A229768",
+    "A250197"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of polynomials per row where the minimum number of rows and polynomials per row necessary to transform A335105 into a triangular array are present.",
+  "id": "A354445",
+  "mentions": [
+    "A335105",
+    "A350597"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:29",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Primes p such that the least k with p+k and p+2k both prime sets a new record.",
+  "id": "A190423",
+  "mentions": [
+    "A120627",
+    "A190424"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:14",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "The sum of the numbers inside the squares of incrementing size n x n when the square spiral is tiled with these squares, where each tile contains numbers which sum to the minimum possible value, and each number on the spiral can only be in one tile.",
+  "id": "A341160",
+  "mentions": [
+    "A174344",
+    "A274923",
+    "A275161",
+    "A296030",
+    "A340974",
+    "A341327"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

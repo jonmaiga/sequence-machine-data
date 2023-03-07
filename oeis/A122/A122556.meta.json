@@ -1,0 +1,19 @@
+{
+  "description": "Primes occur infinitely often, with first appearance in order. Between each occurrence of a prime p, there are p distinct primes.",
+  "id": "A122556",
+  "mentions": [
+    "A000720",
+    "A001511"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 93,
+    "source": "oeis-entry"
+  }
+}

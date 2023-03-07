@@ -1,0 +1,21 @@
+{
+  "description": "Convolution of A015723 and A000700.",
+  "id": "A274352",
+  "mentions": [
+    "A000700",
+    "A015723",
+    "A048272",
+    "A080054"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:39",
+    "offset": 0,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

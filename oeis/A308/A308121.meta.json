@@ -1,0 +1,26 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) = A109395(n)*k-A076512(n)*A038566(n,k).",
+  "id": "A308121",
+  "mentions": [
+    "A000010",
+    "A000040",
+    "A002110",
+    "A038110",
+    "A038566",
+    "A060753",
+    "A076511",
+    "A076512",
+    "A109395"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:32",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

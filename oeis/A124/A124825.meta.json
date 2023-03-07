@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that 10k + 7 and 7k + 10 are primes.",
+  "id": "A124825",
+  "mentions": [
+    "A102342",
+    "A111250"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:22",
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

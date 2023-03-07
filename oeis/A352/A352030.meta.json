@@ -1,0 +1,29 @@
+{
+  "description": "Numbers n for which every part of the symmetric representation of sigma(n) has maximum width 2.",
+  "id": "A352030",
+  "mentions": [
+    "A000396",
+    "A005835",
+    "A174973",
+    "A235791",
+    "A236104",
+    "A237048",
+    "A237591",
+    "A237593",
+    "A238443",
+    "A249223",
+    "A250068",
+    "A262045",
+    "A279693"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

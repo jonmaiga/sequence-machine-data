@@ -1,0 +1,23 @@
+{
+  "description": "The p(n) sequence that is associated with the Eta triangle A160464.",
+  "id": "A160473",
+  "mentions": [
+    "A000457",
+    "A049039",
+    "A054243",
+    "A160464",
+    "A162440"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 2,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

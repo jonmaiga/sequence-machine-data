@@ -1,0 +1,32 @@
+{
+  "description": "Permutation of natural numbers: a(1) = 1, a(prime(n)) = lucky(1+a(n)), a(composite(n)) = unlucky(a(n)), where prime(n) = n-th prime number A000040, composite(n) = n-th composite number A002808 and lucky = A000959, unlucky = A050505.",
+  "id": "A257731",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A000959",
+    "A002808",
+    "A010051",
+    "A032600",
+    "A050505",
+    "A065855",
+    "A246377",
+    "A255421",
+    "A255553",
+    "A255554",
+    "A257726",
+    "A257732",
+    "A257733"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:15",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

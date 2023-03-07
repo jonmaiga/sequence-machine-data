@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 10368*n^2 - 288*n + 1.",
+  "id": "A157288",
+  "mentions": [
+    "A157286",
+    "A157287"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:39",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

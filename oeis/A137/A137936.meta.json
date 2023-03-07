@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 5*mod(n,5) + floor(n/5).",
+  "id": "A137936",
+  "mentions": [
+    "A002266",
+    "A010874"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:49:49",
+    "offset": 0,
+    "size": 75,
+    "source": "joeis"
+  }
+}

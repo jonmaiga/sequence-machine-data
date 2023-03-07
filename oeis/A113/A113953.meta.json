@@ -1,0 +1,25 @@
+{
+  "description": "A Jacobsthal triangle.",
+  "id": "A113953",
+  "mentions": [
+    "A000108",
+    "A001045",
+    "A026729",
+    "A052947",
+    "A084938",
+    "A110509"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:42:43",
+    "offset": 0,
+    "size": 91,
+    "source": "joeis"
+  }
+}

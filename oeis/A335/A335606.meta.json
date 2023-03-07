@@ -1,0 +1,20 @@
+{
+  "description": "The number of fixed n-ominoes with a convex hull of width 3.",
+  "id": "A335606",
+  "mentions": [
+    "A027053",
+    "A308359"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 02:22:13",
+    "offset": 3,
+    "size": 31,
+    "source": "joeis"
+  }
+}

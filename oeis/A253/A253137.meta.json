@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = n*gcd(c(n), d(n)), where c(n) = composite numbers, d(n) = number of divisors of c(n).",
+  "id": "A253137",
+  "mentions": [
+    "A000005",
+    "A002808"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-entry"
+  }
+}

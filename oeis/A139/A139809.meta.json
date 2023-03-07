@@ -1,0 +1,20 @@
+{
+  "description": "A triangle of coefficients of a product polynomial sequence based on Chebyshev T:differentiation of T[(x,n) which gives U(x,n): p(x,n) = Product_{m=0..n} Sum_{i=0..m} (d/dx) T(x,i+1).",
+  "id": "A139809",
+  "mentions": [
+    "A008302"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabf",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

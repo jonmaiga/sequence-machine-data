@@ -1,0 +1,24 @@
+{
+  "description": "Sum of sixth powers of four consecutive primes.",
+  "id": "A133528",
+  "mentions": [
+    "A030516",
+    "A034963",
+    "A133524",
+    "A133525",
+    "A133526",
+    "A133527",
+    "A133533"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:03:13",
+    "offset": 1,
+    "size": 18,
+    "source": "joeis"
+  }
+}

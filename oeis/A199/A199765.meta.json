@@ -1,0 +1,18 @@
+{
+  "description": "Number of Landsberg zones in the n-th Brillouin zone of a rectangular lattice.",
+  "id": "A199765",
+  "mentions": [
+    "A180603"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

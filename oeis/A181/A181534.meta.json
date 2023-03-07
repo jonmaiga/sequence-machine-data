@@ -1,0 +1,19 @@
+{
+  "description": "Minimum number of rounds to be played to decide a two-player game of up to n rounds in which the winner of round j receives j points.",
+  "id": "A181534",
+  "mentions": [
+    "A000217"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:04",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

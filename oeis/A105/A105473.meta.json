@@ -1,0 +1,19 @@
+{
+  "description": "First \"Fractal Jump Sequence\" (FJS) having its first nine digits different one from another, then the next nine, then the next nine, etc.",
+  "id": "A105473",
+  "mentions": [
+    "A105397"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 8,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

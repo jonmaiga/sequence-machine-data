@@ -1,0 +1,18 @@
+{
+  "description": "Column 3 of triangle A118233, starting at row 1 to include leading zeros.",
+  "id": "A118234",
+  "mentions": [
+    "A118233"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

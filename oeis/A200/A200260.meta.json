@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that k-th prime has an odd digit sum.",
+  "id": "A200260",
+  "mentions": [
+    "A119450",
+    "A200259"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:21",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

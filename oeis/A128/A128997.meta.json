@@ -1,0 +1,18 @@
+{
+  "description": "indices k such that A063670(k) differs from A005420(k).",
+  "id": "A128997",
+  "mentions": [
+    "A005420",
+    "A063670"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

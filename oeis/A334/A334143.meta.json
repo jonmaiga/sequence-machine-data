@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = bitwise NOR of prime(n) and prime(n+1).",
+  "id": "A334143",
+  "mentions": [
+    "A000040",
+    "A035327",
+    "A112591",
+    "A145382",
+    "A175329",
+    "A175330"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:05",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

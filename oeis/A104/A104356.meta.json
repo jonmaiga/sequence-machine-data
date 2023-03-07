@@ -1,0 +1,20 @@
+{
+  "description": "Smallest m such that A104350(m) has exactly n trailing zeros in decimal representation.",
+  "id": "A104356",
+  "mentions": [
+    "A104350",
+    "A104355"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:22",
+    "offset": 0,
+    "size": 32,
+    "source": "joeis"
+  }
+}

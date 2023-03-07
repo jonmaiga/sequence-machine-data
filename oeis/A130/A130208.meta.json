@@ -1,0 +1,23 @@
+{
+  "description": "Diagonalized matrix of A000203, Sigma(n).",
+  "id": "A130208",
+  "mentions": [
+    "A000005",
+    "A000010",
+    "A000203",
+    "A130207",
+    "A130209"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

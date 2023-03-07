@@ -1,0 +1,19 @@
+{
+  "description": "Number of non-extendable self-avoiding walks in an n X n grid starting at the top left corner.",
+  "id": "A341269",
+  "mentions": [
+    "A145157"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

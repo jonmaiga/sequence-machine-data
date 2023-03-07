@@ -1,0 +1,21 @@
+{
+  "description": "Digits of the 5-adic integer exp(-5).",
+  "id": "A309975",
+  "mentions": [
+    "A309866",
+    "A309888",
+    "A309903",
+    "A309988"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 88,
+    "source": "oeis-entry"
+  }
+}

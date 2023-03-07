@@ -1,0 +1,21 @@
+{
+  "description": "E.g.f. S(x) satisfies: C(x)^2 - S(x)^2 = 1 and D(x)^3 - S(x)^3 = 1, where functions C(x) and D(x) are described by A280621 and A280622, respectively.",
+  "id": "A280620",
+  "mentions": [
+    "A280621",
+    "A280622",
+    "A280623",
+    "A280624"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

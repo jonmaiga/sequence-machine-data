@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of (969+124*sqrt(2))/953.",
+  "id": "A160213",
+  "mentions": [
+    "A002193",
+    "A129975",
+    "A160212",
+    "A160214"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:42",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

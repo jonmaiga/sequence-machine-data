@@ -1,0 +1,21 @@
+{
+  "description": "Generalized meta-Fibonacci sequence a(n) with parameters s=0 and k=3.",
+  "id": "A120503",
+  "mentions": [
+    "A007843",
+    "A007844",
+    "A120514",
+    "A120525"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:37:03",
+    "offset": 1,
+    "size": 74,
+    "source": "joeis"
+  }
+}

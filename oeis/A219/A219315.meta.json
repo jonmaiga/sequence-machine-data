@@ -1,0 +1,17 @@
+{
+  "description": "Smallest prime of the form LegendreP[2*n, k], k integer > 0.",
+  "id": "A219315",
+  "mentions": [
+    "A219313"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

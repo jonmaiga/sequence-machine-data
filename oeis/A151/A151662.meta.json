@@ -1,0 +1,21 @@
+{
+  "description": "The first of three Hofstadter parents-child sequences of Thomas Stoll.",
+  "id": "A151662",
+  "mentions": [
+    "A005206",
+    "A005378",
+    "A005379",
+    "A151663",
+    "A151664"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:34",
+    "offset": 0,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of representations of the prime P = A182479(n) as P = p^2 + q^2 + r^2, where p < q < r are also primes.",
+  "id": "A263723",
+  "mentions": [
+    "A085317",
+    "A125516",
+    "A182479"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

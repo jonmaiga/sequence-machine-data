@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that n and the digital reversal of the n-th prime in base 10 have the same distinct prime factors.",
+  "id": "A242092",
+  "mentions": [
+    "A110751"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

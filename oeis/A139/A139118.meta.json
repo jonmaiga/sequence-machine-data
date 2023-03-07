@@ -1,0 +1,20 @@
+{
+  "description": "Numbers with a nonprime number of divisors.",
+  "id": "A139118",
+  "mentions": [
+    "A000005",
+    "A009087",
+    "A018252"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:27",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

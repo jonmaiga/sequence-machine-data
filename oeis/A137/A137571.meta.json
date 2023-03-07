@@ -1,0 +1,23 @@
+{
+  "description": "Main diagonal of square array A137570.",
+  "id": "A137571",
+  "mentions": [
+    "A000108",
+    "A002293",
+    "A007857",
+    "A137570",
+    "A137572",
+    "A137573"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

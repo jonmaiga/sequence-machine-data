@@ -1,0 +1,20 @@
+{
+  "description": "Complement of A056576.",
+  "id": "A117630",
+  "mentions": [
+    "A056576",
+    "A102525",
+    "A254312"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:07",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

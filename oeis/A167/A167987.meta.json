@@ -1,0 +1,18 @@
+{
+  "description": "Number of (undirected) cycles in the graph of the n-orthoplex, n>=2.",
+  "id": "A167987",
+  "mentions": [
+    "A167986"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:52",
+    "offset": 2,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

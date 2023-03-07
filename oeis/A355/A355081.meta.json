@@ -1,0 +1,21 @@
+{
+  "description": "G.f. A(x) satisfies A(x) = 1 + x * A(3 * x / (1 - x)) / (1 - x).",
+  "id": "A355081",
+  "mentions": [
+    "A000110",
+    "A126443",
+    "A306245",
+    "A355082"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

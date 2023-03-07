@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is numerator of rational z(n) associated with the non-orientable map asymptotics constant p((n+1)/2).",
+  "id": "A278120",
+  "mentions": [
+    "A269418",
+    "A269419",
+    "A278121"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:44",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

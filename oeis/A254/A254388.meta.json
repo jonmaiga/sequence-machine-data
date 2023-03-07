@@ -1,0 +1,17 @@
+{
+  "description": "Number of (n+2)X(6+2) 0..1 arrays with every 3X3 subblock diagonal maximum plus antidiagonal maximum nondecreasing horizontally, vertically and ne-to-sw antidiagonally",
+  "id": "A254388",
+  "mentions": [
+    "A254390"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:12",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Array read by antidiagonals: T(i,j) (i>=0, j>=0) = number of steps to reach either top row or main diagonal using the steps (i,j)->(j,i) or (i,j)->(i,j-i).",
+  "id": "A267181",
+  "mentions": [
+    "A072030",
+    "A267182",
+    "A267187",
+    "A267188"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

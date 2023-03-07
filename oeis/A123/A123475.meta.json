@@ -1,0 +1,18 @@
+{
+  "description": "Product of the primitive roots of prime(n).",
+  "id": "A123475",
+  "mentions": [
+    "A060749",
+    "A088144"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:12",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

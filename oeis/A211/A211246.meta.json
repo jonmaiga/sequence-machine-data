@@ -1,0 +1,20 @@
+{
+  "description": "Irregular triangle read by rows: numbers a_m(i) related to Bernoulli and Euler polynomials.",
+  "id": "A211246",
+  "mentions": [
+    "A034807",
+    "A211247",
+    "A267633"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 2,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

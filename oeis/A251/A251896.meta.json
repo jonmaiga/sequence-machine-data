@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that the octagonal number N(n) is equal to the sum of the octagonal numbers N(m) and N(m+1) for some m.",
+  "id": "A251896",
+  "mentions": [
+    "A000567",
+    "A251895"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:09",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

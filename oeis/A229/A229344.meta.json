@@ -1,0 +1,23 @@
+{
+  "description": "Mertens's function of the arithmetic derivative of n: a(n) = M(n'), a(1) = 0.",
+  "id": "A229344",
+  "mentions": [
+    "A002321",
+    "A003415",
+    "A229340",
+    "A229341",
+    "A229342",
+    "A229343"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:46",
+    "offset": 1,
+    "size": 89,
+    "source": "oeis-bfile"
+  }
+}

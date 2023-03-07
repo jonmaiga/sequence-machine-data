@@ -1,0 +1,21 @@
+{
+  "description": "Linear coefficient (in absolute value) of the quadratic polynomials giving the numbers of 2k-cycles in the n X n grid graph for n >= k-1.",
+  "id": "A302336",
+  "mentions": [
+    "A002931",
+    "A006772",
+    "A302335",
+    "A302337"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

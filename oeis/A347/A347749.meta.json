@@ -1,0 +1,28 @@
+{
+  "description": "Number of positive integers with n digits and final digit 6 that are equal to the product of two integers ending with the same digit.",
+  "id": "A347749",
+  "mentions": [
+    "A017341",
+    "A052268",
+    "A324297",
+    "A337856",
+    "A347253",
+    "A347255",
+    "A347747",
+    "A347748"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

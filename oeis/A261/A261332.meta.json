@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of Product_{k>=1} (1+x^k)^(A002203(k)).",
+  "id": "A261332",
+  "mentions": [
+    "A002203",
+    "A261050",
+    "A261051",
+    "A261329",
+    "A261330",
+    "A261331"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:20",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

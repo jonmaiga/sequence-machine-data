@@ -1,0 +1,27 @@
+{
+  "description": "a(n) is the length of the longest palindromic subsequence in the first n terms of A293700.",
+  "id": "A293701",
+  "mentions": [
+    "A293698",
+    "A293699",
+    "A293700",
+    "A293702",
+    "A293703",
+    "A293704",
+    "A293705",
+    "A293706",
+    "A293751",
+    "A294923"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:10",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

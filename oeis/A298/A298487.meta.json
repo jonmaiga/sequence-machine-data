@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the least number with persistence n as defined using A114570.",
+  "id": "A298487",
+  "mentions": [
+    "A114570"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

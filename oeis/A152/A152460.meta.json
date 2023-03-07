@@ -1,0 +1,21 @@
+{
+  "description": "Primes p such that there exist positive integer k and prime q with p > q and 3^k = p + 2q or 3^k = q + 2p.",
+  "id": "A152460",
+  "mentions": [
+    "A046927",
+    "A086081",
+    "A103151",
+    "A152451"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

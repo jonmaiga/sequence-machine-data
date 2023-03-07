@@ -1,0 +1,18 @@
+{
+  "description": "Prime numbers such that the product of their digits equals twice the number of their digits times the sum of their digits.",
+  "id": "A343701",
+  "mentions": [
+    "A064155"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:17",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

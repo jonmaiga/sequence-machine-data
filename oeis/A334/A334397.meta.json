@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of (e - 2)/e.",
+  "id": "A334397",
+  "mentions": [
+    "A001008",
+    "A001113",
+    "A002805",
+    "A019739",
+    "A135002",
+    "A309419",
+    "A334396"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:19:41",
+    "offset": 0,
+    "size": 89,
+    "source": "joeis"
+  }
+}

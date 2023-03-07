@@ -1,0 +1,20 @@
+{
+  "description": "s(k)-s(j), where the pairs (k,j) are given by A205852 and A205853, and s(k) denotes the (k+1)-st Fibonacci number.",
+  "id": "A205854",
+  "mentions": [
+    "A204890",
+    "A205840",
+    "A205852",
+    "A205853"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-07 10:18:43",
+    "offset": 1,
+    "size": 42,
+    "source": "joeis"
+  }
+}

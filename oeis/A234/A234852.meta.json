@@ -1,0 +1,23 @@
+{
+  "description": "Indices k of primes p=prime(k) such that prime(p)-p+1 is prime.",
+  "id": "A234852",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A014692",
+    "A234695",
+    "A234850",
+    "A234851"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

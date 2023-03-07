@@ -1,0 +1,18 @@
+{
+  "description": "Nonnegative numbers represented by the indefinite quadratic form x^2+13xy-9y^2.",
+  "id": "A243702",
+  "mentions": [
+    "A243655",
+    "A243701"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

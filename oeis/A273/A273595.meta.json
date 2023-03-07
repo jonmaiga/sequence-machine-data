@@ -1,0 +1,29 @@
+{
+  "description": "Least q > 0 such that min { x >= 0 | q + prime(n)*x + x^2 is composite } is a (local) maximum, cf. A273756 & A273770.",
+  "id": "A273595",
+  "mentions": [
+    "A002837",
+    "A005846",
+    "A007634",
+    "A097823",
+    "A144051",
+    "A187057",
+    "A187060",
+    "A190800",
+    "A191456",
+    "A273597",
+    "A273756",
+    "A273770"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 2,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

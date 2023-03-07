@@ -1,0 +1,20 @@
+{
+  "description": "Numbers in base 10 that are palindromic in bases 2, 8, and 16.",
+  "id": "A319585",
+  "mentions": [
+    "A006995",
+    "A029730",
+    "A029803"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

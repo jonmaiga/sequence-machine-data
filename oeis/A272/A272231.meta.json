@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = round(n / pi(n)), where pi(n) is the prime-counting function.",
+  "id": "A272231",
+  "mentions": [
+    "A000720",
+    "A064658",
+    "A107609"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 2,
+    "size": 98,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k for which A327503(A046523(k)) differs from A327503(k).",
+  "id": "A351948",
+  "mentions": [
+    "A001597",
+    "A046523",
+    "A327502",
+    "A327503"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

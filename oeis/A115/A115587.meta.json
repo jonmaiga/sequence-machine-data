@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = denominator of b(n), where b(1) = 1, b(n+1) = Sum_{k=1..n} b(k)^((-1)^(n-k)).",
+  "id": "A115587",
+  "mentions": [
+    "A115600",
+    "A115601",
+    "A115602"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:05",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

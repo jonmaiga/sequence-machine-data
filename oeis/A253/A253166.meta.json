@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that n^k+15, with k=1..7, are all prime.",
+  "id": "A253166",
+  "mentions": [
+    "A086303",
+    "A121982",
+    "A252783",
+    "A253142",
+    "A253143"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Number of distinct even superperfect numbers dividing n.",
+  "id": "A147648",
+  "mentions": [
+    "A001221",
+    "A019279",
+    "A061652",
+    "A080225",
+    "A147645"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:34",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

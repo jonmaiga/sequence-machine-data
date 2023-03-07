@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) (n>=0, k>=0) is the number of integer partitions lambda of n such that there are k compositions mu such that the Gelfand-Tsetlin polytope for lambda and mu is non-integral.",
+  "id": "A264047",
+  "mentions": [
+    "A000041",
+    "A264035",
+    "A264048",
+    "A264049"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Number of 3X3 0..n arrays with row sums equal and no column sum equal to the previous",
+  "id": "A202715",
+  "mentions": [
+    "A202714"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:23",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

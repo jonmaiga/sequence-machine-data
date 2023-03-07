@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = (Sum_{j=1..h-1} a(n-j) + a(n-1)*a(n-h+1))/a(n-h) with a(1), ..., a(h)=1, where h = 4.",
+  "id": "A283958",
+  "mentions": [
+    "A072881",
+    "A283329",
+    "A283959",
+    "A283960"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:55",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

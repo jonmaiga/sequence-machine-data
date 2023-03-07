@@ -1,0 +1,30 @@
+{
+  "description": "Signed recurrence over enriched p-trees: a(n) = (-1)^(n - 1) + Sum_{y1 + ... + yk = n, y1 >= ... >= yk > 0, k > 1} a(y1) * ... * a(yk).",
+  "id": "A300863",
+  "mentions": [
+    "A000992",
+    "A063834",
+    "A099323",
+    "A196545",
+    "A220418",
+    "A273866",
+    "A273873",
+    "A289501",
+    "A290261",
+    "A300862",
+    "A300864",
+    "A300865",
+    "A300866"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:25",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

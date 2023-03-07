@@ -1,0 +1,21 @@
+{
+  "description": "L(n,n), where L is defined as in A108299.",
+  "id": "A108366",
+  "mentions": [
+    "A000312",
+    "A085478",
+    "A108299",
+    "A108367"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:00",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of row-convex domino towers with n bricks (rows need not be offset).",
+  "id": "A338531",
+  "mentions": [
+    "A275204"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

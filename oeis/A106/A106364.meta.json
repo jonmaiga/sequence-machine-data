@@ -1,0 +1,20 @@
+{
+  "description": "Mobiles (cycle rooted trees) where no branch is identical to its adjacent neighbor.",
+  "id": "A106364",
+  "mentions": [
+    "A032200",
+    "A106368"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "eigen",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "description": "a(n) is the number of rooted trees with 2n vertices n of whom are leaves.",
+  "id": "A185650",
+  "mentions": [
+    "A000081",
+    "A000108",
+    "A000891",
+    "A001263",
+    "A034781",
+    "A055277",
+    "A090181",
+    "A109129",
+    "A358575",
+    "A358578",
+    "A358579",
+    "A358580",
+    "A358581",
+    "A358584",
+    "A358587",
+    "A358589",
+    "A358591"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:10",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

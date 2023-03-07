@@ -1,0 +1,22 @@
+{
+  "description": "Number of ways to place 6 nonattacking queens on an n X n toroidal board.",
+  "id": "A178722",
+  "mentions": [
+    "A172517",
+    "A172518",
+    "A172519",
+    "A173775",
+    "A178720"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Maximal GCD of ten positive integers with sum n.",
+  "id": "A354601",
+  "mentions": [
+    "A032742",
+    "A354598",
+    "A354599",
+    "A354600",
+    "A355249",
+    "A355319",
+    "A355366",
+    "A355368",
+    "A355402"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 10,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

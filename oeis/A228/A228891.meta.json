@@ -1,0 +1,18 @@
+{
+  "description": "Let A = A050376. Let Q be the smallest term of A more than 1 + Product_{i=1..n} A(i). a(n) = Q - Product_{i=1..n} A(i).",
+  "id": "A228891",
+  "mentions": [
+    "A005235",
+    "A050376"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:46",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Triangle T(n,k) = A127742(n,k)/A048996(n,k) read by rows, k=1..A000041(n).",
+  "id": "A179318",
+  "mentions": [
+    "A000041",
+    "A048996",
+    "A127742",
+    "A179381"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 94,
+    "source": "oeis-entry"
+  }
+}

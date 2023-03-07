@@ -1,0 +1,23 @@
+{
+  "description": "Triangle T(n, m) of numbers of points of a square lattice covered by a circular disk of radius n (centered at any lattice point taken as origin) with ordinate y = m in the first quadrant.",
+  "id": "A255238",
+  "mentions": [
+    "A000328",
+    "A000603",
+    "A255195",
+    "A255239"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

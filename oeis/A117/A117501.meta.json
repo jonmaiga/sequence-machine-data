@@ -1,0 +1,23 @@
+{
+  "description": "Triangle generated from an array of generalized Fibonacci-like terms.",
+  "id": "A117501",
+  "mentions": [
+    "A000045",
+    "A001595",
+    "A104161",
+    "A109754",
+    "A117502"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:07",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

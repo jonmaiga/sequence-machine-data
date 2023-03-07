@@ -1,0 +1,20 @@
+{
+  "description": "Positive integers n for which the length of shortest addition-subtraction chain is smaller than the length of shortest addition chain, i.e., A128998(n) < A003313(n).",
+  "id": "A229624",
+  "mentions": [
+    "A003313",
+    "A128998"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

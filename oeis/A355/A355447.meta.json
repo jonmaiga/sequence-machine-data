@@ -1,0 +1,27 @@
+{
+  "description": "a(n) = 1 if n is neither squarefree nor prime power, otherwise 0.",
+  "id": "A355447",
+  "mentions": [
+    "A001221",
+    "A002110",
+    "A008966",
+    "A010055",
+    "A061742",
+    "A120944",
+    "A126706",
+    "A246547",
+    "A286708",
+    "A354819"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:30",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

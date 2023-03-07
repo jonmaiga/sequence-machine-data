@@ -1,0 +1,21 @@
+{
+  "description": "Maximal material difference at the end of the n-th ply of a chess game.",
+  "id": "A278832",
+  "mentions": [
+    "A278830",
+    "A278831"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "fini",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

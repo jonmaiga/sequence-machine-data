@@ -1,0 +1,21 @@
+{
+  "description": "Primes p such that p^p ends in p and p is not congruent to 1 (mod 10).",
+  "id": "A177192",
+  "mentions": [
+    "A003226",
+    "A007185",
+    "A016090",
+    "A052228"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

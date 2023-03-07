@@ -1,0 +1,20 @@
+{
+  "description": "A155038-A155033.",
+  "id": "A155039",
+  "mentions": [
+    "A155033",
+    "A155038",
+    "A155042"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

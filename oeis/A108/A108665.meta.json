@@ -1,0 +1,18 @@
+{
+  "description": "Least positive k such that k * Y^n + 1 is prime, where Y = 2^100+277, the first prime greater than a \"little googol.\".",
+  "id": "A108665",
+  "mentions": [
+    "A108344"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

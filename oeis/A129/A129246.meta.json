@@ -1,0 +1,25 @@
+{
+  "description": "Iterated sum of divisors array A[k,n] = k-th iterate of sigma(n), by antidiagonals.",
+  "id": "A129246",
+  "mentions": [
+    "A000012",
+    "A000203",
+    "A007497",
+    "A051027",
+    "A066971",
+    "A090896"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Number of n-node unlabeled graphs without isolated nodes or endpoints (i.e., no nodes of degree 0 or 1).",
+  "id": "A261919",
+  "mentions": [
+    "A003227",
+    "A004108",
+    "A004110",
+    "A006125",
+    "A007146",
+    "A059166",
+    "A095983",
+    "A100743",
+    "A322396"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:21",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

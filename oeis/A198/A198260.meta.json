@@ -1,0 +1,21 @@
+{
+  "description": "Runs of 1s in binary strings corresponding to subgroups of nimber addition.",
+  "id": "A198260",
+  "mentions": [
+    "A006116",
+    "A069010",
+    "A190939",
+    "A227961"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:19",
+    "offset": 0,
+    "size": 94,
+    "source": "oeis-bfile"
+  }
+}

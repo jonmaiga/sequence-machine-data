@@ -1,0 +1,25 @@
+{
+  "description": "Array read by antidiagonals: T(n,k) is the number of unrooted 3-connected triangulations of a disk with n interior nodes and k nodes on the boundary, n >= 1, k >= 3.",
+  "id": "A342053",
+  "mentions": [
+    "A002713",
+    "A058786",
+    "A169808",
+    "A341856",
+    "A341923",
+    "A342054",
+    "A342055",
+    "A342056"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:15",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

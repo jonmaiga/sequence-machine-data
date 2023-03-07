@@ -1,0 +1,20 @@
+{
+  "description": "Diagonal sums of Riordan matrix A118384.",
+  "id": "A190725",
+  "mentions": [
+    "A000045",
+    "A001850",
+    "A118384"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:14",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

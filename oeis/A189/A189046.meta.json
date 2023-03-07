@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = lcm(n,n+1,n+2,n+3,n+4,n+5)/60.",
+  "id": "A189046",
+  "mentions": [
+    "A000217",
+    "A021913",
+    "A067046",
+    "A067047",
+    "A067048"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:13",
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

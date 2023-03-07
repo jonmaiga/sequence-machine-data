@@ -1,0 +1,22 @@
+{
+  "description": "Irregular triangle T(n,k) = greatest common divisor of n-th row terms of A143753.",
+  "id": "A166494",
+  "mentions": [
+    "A022998",
+    "A143753",
+    "A166866"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 98,
+    "source": "oeis-entry"
+  }
+}

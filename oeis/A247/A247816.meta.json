@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the smallest k such that prime(k+i) = 1 (mod 6) for i = 0, 1,...,n-1.",
+  "id": "A247816",
+  "mentions": [
+    "A057620",
+    "A247967",
+    "A276414"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:04",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

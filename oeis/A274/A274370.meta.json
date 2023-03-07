@@ -1,0 +1,25 @@
+{
+  "description": "Let the starting square of Langton's ant have coordinates (0, 0), with the ant looking in negative x-direction. a(n) is the y-coordinate of the ant after n moves.",
+  "id": "A274370",
+  "mentions": [
+    "A102358",
+    "A102369",
+    "A204810",
+    "A255938",
+    "A261990",
+    "A269757",
+    "A274369"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "look",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:39",
+    "offset": 0,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

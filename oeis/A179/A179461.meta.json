@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of sqrt(51)/7.",
+  "id": "A179461",
+  "mentions": [
+    "A000984",
+    "A063886",
+    "A115754",
+    "A151821"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:48:47",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

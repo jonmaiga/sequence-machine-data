@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = 1 if n = 2^e1 * 3^e2 * ... * prime(k)^e_k, with k = A061395(n) = A001221(n) and e1 >= e2 >= ... >= e_k, with each e1 .. e_k one less than a prime, otherwise a(n) = 0.",
+  "id": "A323509",
+  "mentions": [
+    "A001221",
+    "A037019",
+    "A061395",
+    "A322585",
+    "A323510"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:47",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

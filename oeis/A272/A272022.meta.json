@@ -1,0 +1,21 @@
+{
+  "description": "Look at the set of numbers obtained by permuting the digits of n in all possible ways, then remove n itself from the set. If the remaining numbers are all primes, then n is in the sequence.",
+  "id": "A272022",
+  "mentions": [
+    "A003459",
+    "A095179",
+    "A111347"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

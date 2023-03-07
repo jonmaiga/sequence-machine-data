@@ -1,0 +1,22 @@
+{
+  "description": "The unique integer r with |r| < prime(n)/2 such that E_{prime(n)-3}(1/4) == r (mod prime(n)), where E_m(x) denotes the Euler polynomial of degree m.",
+  "id": "A245204",
+  "mentions": [
+    "A000040",
+    "A001586",
+    "A122045",
+    "A198245",
+    "A245089",
+    "A245206"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:01",
+    "offset": 2,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

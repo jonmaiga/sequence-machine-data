@@ -1,0 +1,17 @@
+{
+  "description": "Prime numbers p such that p divides the sum of squares of Catalan numbers A094639(p).",
+  "id": "A120276",
+  "mentions": [
+    "A094639"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

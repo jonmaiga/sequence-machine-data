@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that the modular curve X_0(n) has a bielliptic involution of Atkin-Lehner type.",
+  "id": "A260991",
+  "mentions": [
+    "A260990",
+    "A260992",
+    "A260993",
+    "A260994"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

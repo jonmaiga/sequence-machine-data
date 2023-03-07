@@ -1,0 +1,17 @@
+{
+  "description": "Least prime q such that q(n) is the first of ten primes in arithmetic progression of ratio Prime(n)# or 0 if no solution",
+  "id": "A189580",
+  "mentions": [
+    "A188366"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

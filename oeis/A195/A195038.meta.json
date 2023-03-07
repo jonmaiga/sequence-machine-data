@@ -1,0 +1,21 @@
+{
+  "description": "41 times triangular numbers.",
+  "id": "A195038",
+  "mentions": [
+    "A000217",
+    "A195033",
+    "A195034"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:19:15",
+    "offset": 0,
+    "size": 40,
+    "source": "joeis"
+  }
+}

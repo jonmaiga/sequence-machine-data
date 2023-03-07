@@ -1,0 +1,21 @@
+{
+  "description": "Triangle T(n,m):=binomial(n+3*m+2,n-m).",
+  "id": "A338995",
+  "mentions": [
+    "A000217",
+    "A007318",
+    "A055990"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

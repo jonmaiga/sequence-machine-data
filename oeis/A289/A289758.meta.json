@@ -1,0 +1,18 @@
+{
+  "description": "Primes of the form k!5-1, where k!5 is the quintuple factorial number (A085157).",
+  "id": "A289758",
+  "mentions": [
+    "A085149",
+    "A085157"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:04",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

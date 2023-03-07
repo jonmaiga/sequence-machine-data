@@ -1,0 +1,28 @@
+{
+  "description": "Primes with n consecutive digits ascending beginning with the digit nine.",
+  "id": "A120827",
+  "mentions": [
+    "A006055",
+    "A120819",
+    "A120820",
+    "A120821",
+    "A120822",
+    "A120823",
+    "A120824",
+    "A120825",
+    "A120826"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "bref",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

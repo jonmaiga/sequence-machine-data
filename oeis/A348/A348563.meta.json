@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of Sum_{k>=1} H(k) * binomial(2*k,k)/((2*k+1)*4^k), where H(k) = A001008(k)/A002805(k) is the k-th harmonic number.",
+  "id": "A348563",
+  "mentions": [
+    "A000984",
+    "A001008",
+    "A002805",
+    "A006752",
+    "A086054"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

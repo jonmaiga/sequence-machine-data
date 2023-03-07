@@ -1,0 +1,26 @@
+{
+  "description": "Bitwise XOR of two successive generations (centrally aligned) in the trajectory of rule 30 started from a lone 1 cell: a(n) = A110240(n) XOR 2*A110240(n-1).",
+  "id": "A327973",
+  "mentions": [
+    "A110240",
+    "A269160",
+    "A327971",
+    "A327972",
+    "A327974",
+    "A327976",
+    "A328103",
+    "A328104",
+    "A328107"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:56",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

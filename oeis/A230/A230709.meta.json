@@ -1,0 +1,24 @@
+{
+  "description": "Union of even odious (cf. A128309) and evil numbers (cf. A001969).",
+  "id": "A230709",
+  "mentions": [
+    "A001969",
+    "A003071",
+    "A010060",
+    "A092246",
+    "A128309",
+    "A230721"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:48",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

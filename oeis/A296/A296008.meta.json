@@ -1,0 +1,18 @@
+{
+  "description": "Number of days for which concat(n,mm,dd) is prime, for mm = 01..12, dd = 01..number of days in month mm of year n, according to the Gregorian calendar.",
+  "id": "A296008",
+  "mentions": [
+    "A008685"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1582,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

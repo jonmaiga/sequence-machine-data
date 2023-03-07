@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of 1/(1 - x/(1 - x/(1 - 2*x^2/(1 - 2*x^2/(1 - 3*x^3/(1 - 3*x^3/(1 - ...))))))), a continued fraction.",
+  "id": "A294410",
+  "mentions": [
+    "A000142",
+    "A006958",
+    "A088357"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

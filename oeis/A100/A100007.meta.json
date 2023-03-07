@@ -1,0 +1,22 @@
+{
+  "description": "Number of unitary divisors of 2n-1 (d such that d divides 2n-1, GCD(d,(2n-1)/d)=1). Bisection of A034444.",
+  "id": "A100007",
+  "mentions": [
+    "A001620",
+    "A034444",
+    "A068068",
+    "A100008"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:25:09",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Numerator of partial sums of a certain series. First member (m = 2) of a family.",
+  "id": "A101028",
+  "mentions": [
+    "A082687",
+    "A101029",
+    "A101627",
+    "A101629",
+    "A101631"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

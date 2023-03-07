@@ -1,0 +1,17 @@
+{
+  "description": "Central terms of triangle A248600.",
+  "id": "A248706",
+  "mentions": [
+    "A248600"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

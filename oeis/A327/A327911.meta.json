@@ -1,0 +1,20 @@
+{
+  "description": "Numbers with equal counts of 1's and 0's in both their binary and Zeckendorf representations.",
+  "id": "A327911",
+  "mentions": [
+    "A014417",
+    "A031443",
+    "A210619"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:56",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Inverse permutation to A190130.",
+  "id": "A190131",
+  "mentions": [
+    "A190128",
+    "A190130"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:14",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

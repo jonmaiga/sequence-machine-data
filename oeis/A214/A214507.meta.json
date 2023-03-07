@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = 1 if n is one or two times an even square, -1 if one or two times an odd square else 0.",
+  "id": "A214507",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A010054",
+    "A010815",
+    "A093709",
+    "A121373"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:55:45",
+    "offset": 0,
+    "size": 84,
+    "source": "joeis"
+  }
+}

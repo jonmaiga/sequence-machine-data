@@ -1,0 +1,19 @@
+{
+  "description": "Variation of Golomb's sequence: a(n) is the number of times n appears with a(n) unequal to a(n-1).",
+  "id": "A111439",
+  "mentions": [
+    "A001462",
+    "A080605",
+    "A080606"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:02",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

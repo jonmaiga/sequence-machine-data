@@ -1,0 +1,27 @@
+{
+  "description": "Multiplicative with a(p^e) = phi(sigma(p^e)).",
+  "id": "A353752",
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A062401",
+    "A336547",
+    "A336548",
+    "A353753",
+    "A353754",
+    "A353755",
+    "A353802"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:28",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

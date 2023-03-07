@@ -1,0 +1,21 @@
+{
+  "description": "Array T read by antidiagonals: T(m,n) is the number of lattice walks of minimal length from (0,0) to (m,n) using steps in directions from {(1,0), (0,1), (2,1), (1,2)}.",
+  "id": "A292436",
+  "mentions": [
+    "A007318",
+    "A292435"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

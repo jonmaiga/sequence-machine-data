@@ -1,0 +1,22 @@
+{
+  "description": "The first of a set of three triangles constructed by the same rule as A202692-A202694, but where the top entries in the three triangles are 1,0,0 respectively.",
+  "id": "A202695",
+  "mentions": [
+    "A202692",
+    "A202694",
+    "A202696",
+    "A202697"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-02 23:04:47",
+    "offset": 1,
+    "size": 15,
+    "source": "joeis"
+  }
+}

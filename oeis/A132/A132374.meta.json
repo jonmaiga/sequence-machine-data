@@ -1,0 +1,26 @@
+{
+  "description": "Expansion of c(7*x^2)/(1 - x*c(7*x^2)), where c(x) is the g.f. of A000108.",
+  "id": "A132374",
+  "mentions": [
+    "A000108",
+    "A001405",
+    "A120730",
+    "A121724",
+    "A121725",
+    "A126087",
+    "A128386",
+    "A128387"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:20",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

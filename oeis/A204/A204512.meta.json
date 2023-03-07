@@ -1,0 +1,38 @@
+{
+  "description": "Square roots of [A055872/8]: Their square written in base 8, with some digit appended, is again a square.",
+  "id": "A204512",
+  "mentions": [
+    "A001075",
+    "A001541",
+    "A004275",
+    "A023110",
+    "A031149",
+    "A031150",
+    "A055792",
+    "A055793",
+    "A055808",
+    "A055812",
+    "A055851",
+    "A055859",
+    "A055872",
+    "A204502",
+    "A204503",
+    "A204504",
+    "A204514",
+    "A204516",
+    "A204518",
+    "A204520"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 16:42:14",
+    "offset": 1,
+    "size": 33,
+    "source": "joeis"
+  }
+}

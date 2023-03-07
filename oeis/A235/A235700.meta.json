@@ -1,0 +1,23 @@
+{
+  "description": "a(n+1) = a(n) + (a(n) mod 5), a(1)=1.",
+  "id": "A235700",
+  "mentions": [
+    "A001651",
+    "A007612",
+    "A047235",
+    "A047350",
+    "A102039"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:29:23",
+    "offset": 1,
+    "size": 77,
+    "source": "joeis"
+  }
+}

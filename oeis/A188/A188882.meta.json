@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of (5+sqrt(34))/3.",
+  "id": "A188882",
+  "mentions": [
+    "A188640",
+    "A188737"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:33:15",
+    "offset": 1,
+    "size": 130,
+    "source": "joeis"
+  }
+}

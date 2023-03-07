@@ -1,0 +1,20 @@
+{
+  "description": "The Pagoda sequence: a sequence with isolated zeros in number-wall over finite fields.",
+  "id": "A301849",
+  "mentions": [
+    "A038189",
+    "A301848",
+    "A301850"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

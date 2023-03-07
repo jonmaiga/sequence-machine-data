@@ -1,0 +1,26 @@
+{
+  "description": "Smallest path sum when iterating from n to 1 with nondeterministic map k -> k - k/p, where p is any prime factor of k.",
+  "id": "A333790",
+  "mentions": [
+    "A032742",
+    "A060681",
+    "A073934",
+    "A332904",
+    "A333000",
+    "A333001",
+    "A333123",
+    "A333789",
+    "A333794"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:04",
+    "offset": 1,
+    "size": 77,
+    "source": "oeis-bfile"
+  }
+}

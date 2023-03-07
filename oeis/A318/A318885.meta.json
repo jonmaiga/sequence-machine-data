@@ -1,0 +1,18 @@
+{
+  "description": "If n = p^a * q^b * ... * r^c, with p < q < r primes, with nonzero exponents a, b, c, then a(n) = prime(1+p-p)^a * prime(1+q-p)^b * ... * prime(1+r-p)^c; a(1) = 1.",
+  "id": "A318885",
+  "mentions": [
+    "A318887",
+    "A318888"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:40",
+    "offset": 1,
+    "size": 89,
+    "source": "oeis-bfile"
+  }
+}

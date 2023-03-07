@@ -1,0 +1,24 @@
+{
+  "description": "Let (p,p+2) be the n-th twin prime pair. a(n) is the least integer r > 1 for which the interval (r*p, r*(p+2)) contains no primes, or a(n)=0, if no such r exists.",
+  "id": "A218769",
+  "mentions": [
+    "A001359",
+    "A195270",
+    "A195271",
+    "A195325",
+    "A195377",
+    "A195379",
+    "A218279",
+    "A218561"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:36",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

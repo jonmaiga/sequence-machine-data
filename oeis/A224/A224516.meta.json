@@ -1,0 +1,23 @@
+{
+  "description": "Number of solutions to x^4 - x == 0 (mod n).",
+  "id": "A224516",
+  "mentions": [
+    "A000086",
+    "A034444",
+    "A060839",
+    "A087688"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:42",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

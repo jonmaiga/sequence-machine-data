@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the smallest k such that in the interval [1,k] of sequence A242034 all odd primes <= prime(n) are present.",
+  "id": "A242037",
+  "mentions": [
+    "A242033",
+    "A242034",
+    "A242036",
+    "A243937",
+    "A245024"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 2,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

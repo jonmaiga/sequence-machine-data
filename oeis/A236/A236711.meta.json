@@ -1,0 +1,20 @@
+{
+  "description": "Numbers that are the sum of 2 nonzero squares in exactly 11 ways.",
+  "id": "A236711",
+  "mentions": [
+    "A000404",
+    "A016032",
+    "A025285",
+    "A025293"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:54",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

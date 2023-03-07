@@ -1,0 +1,18 @@
+{
+  "description": "Reduced numerators of the (2n-1)th raw moment of the distribution of line lengths of points picked at random in a unit square.",
+  "id": "A103304",
+  "mentions": [
+    "A103305"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

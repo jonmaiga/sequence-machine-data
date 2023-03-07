@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that the total number of consecutive runs of zeros of length m in every binary expansion from 1 to k, is even, for all m != floor(log_2(k)).",
+  "id": "A360320",
+  "mentions": [
+    "A291633"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

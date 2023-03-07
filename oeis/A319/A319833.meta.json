@@ -1,0 +1,19 @@
+{
+  "description": "O.g.f. A(x) satisfies: [x^n] (1+x)^(n^2) / exp( n*A(x) ) = 0 for n >= 1.",
+  "id": "A319833",
+  "mentions": [
+    "A317342",
+    "A319831",
+    "A319832"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

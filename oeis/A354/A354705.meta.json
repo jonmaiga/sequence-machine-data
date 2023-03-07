@@ -1,0 +1,21 @@
+{
+  "description": "T(w,h) = (w+1)*(h+1) - A354704(w,h) is an upper bound for the deficit in the number of grid points covered by an optimally positioned and rotated cover compared to the excluded singular case of an axis-parallel, unshifted cover, where T(w,h) and A354704 are triangles read by rows.",
+  "id": "A354705",
+  "mentions": [
+    "A354702",
+    "A354703",
+    "A354704",
+    "A354707"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:29",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

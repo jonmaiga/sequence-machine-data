@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that k and k+1 have the same unitary abundance (A129468).",
+  "id": "A335251",
+  "mentions": [
+    "A034448",
+    "A034683",
+    "A129468",
+    "A129487",
+    "A331412",
+    "A335252"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

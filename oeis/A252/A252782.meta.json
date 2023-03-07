@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = n-th term of Euler transform of n-th powers.",
+  "id": "A252782",
+  "mentions": [
+    "A008485",
+    "A073229",
+    "A144048",
+    "A255672",
+    "A270917"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:11",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

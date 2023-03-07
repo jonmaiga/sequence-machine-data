@@ -1,0 +1,19 @@
+{
+  "description": "Primes that are the sum of 9 alternate primes.",
+  "id": "A300395",
+  "mentions": [
+    "A068363",
+    "A068364",
+    "A300394"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:25",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

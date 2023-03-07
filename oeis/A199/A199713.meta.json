@@ -1,0 +1,20 @@
+{
+  "description": "Smallest prime greater than n-th prime containing all of its digits in decimal representation.",
+  "id": "A199713",
+  "mentions": [
+    "A000040",
+    "A055387"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:20",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

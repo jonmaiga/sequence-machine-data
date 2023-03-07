@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that A131981(n) = n/2.",
+  "id": "A131982",
+  "mentions": [
+    "A105390",
+    "A105391",
+    "A116700",
+    "A131881",
+    "A131981"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

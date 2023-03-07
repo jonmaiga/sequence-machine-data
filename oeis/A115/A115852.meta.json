@@ -1,0 +1,20 @@
+{
+  "description": "Dihedral D3 elliptical invariant transform on A000045: a[n+1]/a[n]= Phi^4=((1+Sqrt[5])/2)^4.",
+  "id": "A115852",
+  "mentions": [
+    "A000045",
+    "A079962"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

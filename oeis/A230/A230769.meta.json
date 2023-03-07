@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that (k+1)*2^k - 1 is prime.",
+  "id": "A230769",
+  "mentions": [
+    "A029544",
+    "A086661",
+    "A196273",
+    "A236752"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

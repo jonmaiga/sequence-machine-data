@@ -1,0 +1,23 @@
+{
+  "description": "Sum of odd nonprime divisors of n.",
+  "id": "A279051",
+  "mentions": [
+    "A000593",
+    "A005069",
+    "A014076",
+    "A023890",
+    "A033272",
+    "A093641"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:46",
+    "offset": 1,
+    "size": 97,
+    "source": "oeis-bfile"
+  }
+}

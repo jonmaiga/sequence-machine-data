@@ -1,0 +1,22 @@
+{
+  "description": "Number of arrangements of n pseudo-circles in the affine plane.",
+  "id": "A288559",
+  "mentions": [
+    "A250001",
+    "A275923",
+    "A275924",
+    "A288554",
+    "A288568"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

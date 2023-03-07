@@ -1,0 +1,23 @@
+{
+  "description": "Array read by antidiagonals: T(m,n) (m>=0, n>=0) = number of paths to origin (0,0) from grid point (m,n) in the Even Conant lattice.",
+  "id": "A337266",
+  "mentions": [
+    "A328078",
+    "A328080",
+    "A337263",
+    "A337264",
+    "A337265"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

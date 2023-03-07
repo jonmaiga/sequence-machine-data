@@ -1,0 +1,20 @@
+{
+  "description": "a(1) = 1, a(2) = 2; for n > 2, a(n) = the number of terms in the maximal length sum of previous consecutive terms that equals n.",
+  "id": "A342219",
+  "mentions": [
+    "A003059",
+    "A064816",
+    "A118139",
+    "A163169"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-entry"
+  }
+}

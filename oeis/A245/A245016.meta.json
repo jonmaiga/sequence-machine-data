@@ -1,0 +1,17 @@
+{
+  "description": "Smallest number k such that P=k*prime(n+1)*(prime(n)-1)+1, Q=k*prime(n+1)*P+1, R=(prime(n)-1)*Q+1 and P, Q, and R are all prime numbers.",
+  "id": "A245016",
+  "mentions": [
+    "A005846"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:01",
+    "offset": 2,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

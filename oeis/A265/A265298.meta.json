@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of sum{c(2n) - x, n=1,2,...}, where c = convergents to (x = sqrt(5)).",
+  "id": "A265298",
+  "mentions": [
+    "A002163",
+    "A265288",
+    "A265297",
+    "A265299"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

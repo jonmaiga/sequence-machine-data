@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that 2^m == 2 (mod m*(m+1)), where m = A019320(k).",
+  "id": "A297414",
+  "mentions": [
+    "A019320",
+    "A216822",
+    "A297413",
+    "A297415"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

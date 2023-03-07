@@ -1,0 +1,20 @@
+{
+  "description": "Transform of the finite sequence (1, 0, -1, 0, 1) by the T_{1,1} transformation (see link).",
+  "id": "A159330",
+  "mentions": [
+    "A159328",
+    "A159329"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:41",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Restricted growth sequence computed for sigma, A000203.",
+  "id": "A286603",
+  "mentions": [
+    "A000203",
+    "A101296",
+    "A206036",
+    "A211656",
+    "A286358",
+    "A286378",
+    "A286605",
+    "A286610",
+    "A286619",
+    "A286621",
+    "A286622",
+    "A286626"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:58",
+    "offset": 1,
+    "size": 93,
+    "source": "oeis-bfile"
+  }
+}

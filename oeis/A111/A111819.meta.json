@@ -1,0 +1,27 @@
+{
+  "description": "Column 0 of the matrix logarithm (A111818) of triangle A078536, which shifts columns left and up under matrix 4th power; these terms are the result of multiplying the element in row n by n!.",
+  "id": "A111819",
+  "mentions": [
+    "A078536",
+    "A110505",
+    "A111814",
+    "A111816",
+    "A111817",
+    "A111818",
+    "A111824",
+    "A111829",
+    "A111834",
+    "A111839"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

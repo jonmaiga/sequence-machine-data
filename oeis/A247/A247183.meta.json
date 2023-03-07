@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that the largest n-digit odd number concatenated with the smallest n-digit odd number is prime.",
+  "id": "A247183",
+  "mentions": [
+    "A247182"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

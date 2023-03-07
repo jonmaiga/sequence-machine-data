@@ -1,0 +1,29 @@
+{
+  "description": "Heinz numbers of integer partitions with no part greater than the number of ones.",
+  "id": "A325762",
+  "mentions": [
+    "A001222",
+    "A002865",
+    "A007814",
+    "A056239",
+    "A061395",
+    "A093641",
+    "A109298",
+    "A110295",
+    "A112798",
+    "A118914",
+    "A322136",
+    "A325761",
+    "A325763"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

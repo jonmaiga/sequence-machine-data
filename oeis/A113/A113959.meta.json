@@ -1,0 +1,18 @@
+{
+  "description": "Where n appears in A093903.",
+  "id": "A113959",
+  "mentions": [
+    "A093903"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

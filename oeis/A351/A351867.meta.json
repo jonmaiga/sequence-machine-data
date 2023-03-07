@@ -1,0 +1,18 @@
+{
+  "description": "Heptagonal numbers (or 7-gonal numbers) which are products of four distinct primes.",
+  "id": "A351867",
+  "mentions": [
+    "A000566",
+    "A046386"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

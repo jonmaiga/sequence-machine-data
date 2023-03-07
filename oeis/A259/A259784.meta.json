@@ -1,0 +1,33 @@
+{
+  "description": "Number T(n,k) of permutations p of [n] with no fixed points where the maximal displacement of an element equals k; triangle T(n,k), n>=0, 0<=k<=n, read by rows.",
+  "id": "A259784",
+  "mentions": [
+    "A000007",
+    "A000166",
+    "A059841",
+    "A259776",
+    "A259785",
+    "A259834",
+    "A321048",
+    "A321049",
+    "A321050",
+    "A321051",
+    "A321052",
+    "A321053",
+    "A321054",
+    "A321055",
+    "A321056"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:18",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Let k=2; then T(n,m) = (((2*k+1)/(m+k+1))*binomial(n-1-k, m-k)*binomial(n+k, m+k) + ((2*k+1)/(n-m+k))*binomial(n-1-k, n-m-1-k)*binomial(n+k, n-m-1+k)), irregular triangle.",
+  "id": "A156716",
+  "mentions": [
+    "A156715"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "less",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 3,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

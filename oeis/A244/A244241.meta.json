@@ -1,0 +1,17 @@
+{
+  "description": "Number of partitions of n into 5 parts such that every i-th smallest part (counted with multiplicity) is different from i.",
+  "id": "A244241",
+  "mentions": [
+    "A238406"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:00",
+    "offset": 20,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

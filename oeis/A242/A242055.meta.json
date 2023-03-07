@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of c, a constant appearing in the asymptotic lower bound of the size of a restricted difference set.",
+  "id": "A242055",
+  "mentions": [
+    "A115365"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 103,
+    "source": "oeis-entry"
+  }
+}

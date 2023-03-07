@@ -1,0 +1,31 @@
+{
+  "description": "A 3 x 3 magic square read by rows.",
+  "id": "A116198",
+  "mentions": [
+    "A126647",
+    "A126648",
+    "A126649",
+    "A126650",
+    "A126651",
+    "A126652",
+    "A126653",
+    "A126654",
+    "A126709",
+    "A126710",
+    "A126976",
+    "A126977"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "fini",
+    "full",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

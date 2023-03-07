@@ -1,0 +1,18 @@
+{
+  "description": "Number of subsets of {1..n} whose elements have the same greatest prime factor.",
+  "id": "A339509",
+  "mentions": [
+    "A006530",
+    "A339510"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:11",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

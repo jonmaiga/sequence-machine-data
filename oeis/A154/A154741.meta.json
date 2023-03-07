@@ -1,0 +1,21 @@
+{
+  "description": "Numerators of the convergents of the continued fraction for sqrt(1 - 1/sqrt(2)), the abscissa of the point of bisection of the arc of the unit lemniscate (x^2 + y^2)^2 = x^2 - y^2 in the first quadrant.",
+  "id": "A154741",
+  "mentions": [
+    "A154739",
+    "A154740",
+    "A154742"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:36",
+    "offset": -2,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Sum of the numbers of divisors of gcd(x,y) with x*y <= n.",
+  "id": "A268732",
+  "mentions": [
+    "A000005",
+    "A001620",
+    "A013661",
+    "A124315",
+    "A306016"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:30",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

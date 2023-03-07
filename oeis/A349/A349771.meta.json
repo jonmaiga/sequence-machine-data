@@ -1,0 +1,19 @@
+{
+  "description": "Integers k with an odd number of digits such that, if m is the number formed from k by deleting its middle digit, then k/m is an integer.",
+  "id": "A349771",
+  "mentions": [
+    "A001633",
+    "A108343"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

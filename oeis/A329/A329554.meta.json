@@ -1,0 +1,37 @@
+{
+  "description": "Smallest MM-number of a set of n nonempty sets with no singletons.",
+  "id": "A329554",
+  "mentions": [
+    "A000225",
+    "A056239",
+    "A072639",
+    "A112798",
+    "A120944",
+    "A279952",
+    "A302242",
+    "A302494",
+    "A305078",
+    "A316476",
+    "A318991",
+    "A320456",
+    "A320629",
+    "A326031",
+    "A326781",
+    "A329552",
+    "A329556",
+    "A329557",
+    "A329558",
+    "A329559"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

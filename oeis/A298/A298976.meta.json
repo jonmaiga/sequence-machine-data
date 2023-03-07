@@ -1,0 +1,21 @@
+{
+  "description": "Base-6 complementary numbers: n equals the product of the 6 complement (6-d) of its base-6 digits d.",
+  "id": "A298976",
+  "mentions": [
+    "A294090",
+    "A298977"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:22",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

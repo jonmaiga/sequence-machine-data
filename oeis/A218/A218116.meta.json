@@ -1,0 +1,23 @@
+{
+  "description": "G.f.: A(x,y) = exp( Sum_{n>=1} [Sum_{k=0..n} C(n,k)^6 * y^k] * x^n/n ) = Sum_{n>=0,k=0..n} T(n,k)*x^n*y^k, as a triangle of coefficients T(n,k) read by rows.",
+  "id": "A218116",
+  "mentions": [
+    "A000539",
+    "A001263",
+    "A181143",
+    "A181144",
+    "A218115",
+    "A218119"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

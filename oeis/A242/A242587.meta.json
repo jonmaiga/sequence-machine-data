@@ -1,0 +1,20 @@
+{
+  "description": "The number of conjugacy classes of n X n matrices over F_3.",
+  "id": "A242587",
+  "mentions": [
+    "A001867",
+    "A070933",
+    "A246935"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

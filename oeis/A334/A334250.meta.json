@@ -1,0 +1,26 @@
+{
+  "description": "Number of set partitions of [3n] into 3-element subsets {i, i+k, i+2k} with 1<=k<=n.",
+  "id": "A334250",
+  "mentions": [
+    "A014307",
+    "A025035",
+    "A059108",
+    "A104429",
+    "A285527",
+    "A331621",
+    "A337520",
+    "A360334"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

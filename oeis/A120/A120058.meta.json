@@ -1,0 +1,25 @@
+{
+  "description": "Coefficients for obtaining A120057 from Bell numbers.",
+  "id": "A120058",
+  "mentions": [
+    "A000110",
+    "A007318",
+    "A008275",
+    "A056863",
+    "A120057",
+    "A120095",
+    "A134315"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

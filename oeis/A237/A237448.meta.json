@@ -1,0 +1,31 @@
+{
+  "description": "Square array T(row >= 1, col >= 1): The first row, row=1, T(1,col) = col = A000027. When row > col, T(row,col) = row, otherwise (when 1 < row <= col), T(row,col) = row-1.",
+  "id": "A237448",
+  "mentions": [
+    "A000027",
+    "A000124",
+    "A000330",
+    "A002024",
+    "A002260",
+    "A004736",
+    "A010054",
+    "A028310",
+    "A054977",
+    "A074148",
+    "A237265",
+    "A237447"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:54",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Bisection of Recamán's sequence A005132.",
+  "id": "A210605",
+  "mentions": [
+    "A005132",
+    "A065056",
+    "A171175",
+    "A171178",
+    "A210604",
+    "A210607"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:28",
+    "offset": 1,
+    "size": 61,
+    "source": "joeis"
+  }
+}

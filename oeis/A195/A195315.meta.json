@@ -1,0 +1,29 @@
+{
+  "description": "Centered 32-gonal numbers.",
+  "id": "A195315",
+  "mentions": [
+    "A003154",
+    "A016802",
+    "A069129",
+    "A069133",
+    "A069190",
+    "A074377",
+    "A195146",
+    "A195314",
+    "A195316",
+    "A195317",
+    "A195318"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:17",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

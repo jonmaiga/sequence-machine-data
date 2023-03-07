@@ -1,0 +1,23 @@
+{
+  "description": "Total number of distinct Hadamard matrices of order n.",
+  "id": "A206712",
+  "mentions": [
+    "A007299",
+    "A036297",
+    "A048615",
+    "A048616",
+    "A206711"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:26",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

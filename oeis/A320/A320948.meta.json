@@ -1,0 +1,21 @@
+{
+  "description": "Array T(n,k) of number of Schur rings over Z_{p^n} where n>=1 for p odd and k-th prime (by descending antidiagonals).",
+  "id": "A320948",
+  "mentions": [
+    "A269750",
+    "A270785",
+    "A270786",
+    "A270787"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

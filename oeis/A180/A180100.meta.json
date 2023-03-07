@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = smallest number k such that five consecutive prime numbers prime(n), prime(n+1), prime(n+2), prime(n+3) and prime(n+4) are divisors of k, k+1, k+2, k+3, and k+4 respectively.",
+  "id": "A180100",
+  "mentions": [
+    "A077338",
+    "A180095",
+    "A180096"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "changed",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

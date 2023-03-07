@@ -1,0 +1,20 @@
+{
+  "description": "a(1) = 1. For n >=2 the number k in n-th position becomes a(n) only if all terms a(1)..a(n-1) have already been defined, and if the smallest number m, greater than k, not already defined and sharing greatest prime factor (gpf) p with k is reduced to m/p.",
+  "id": "A348846",
+  "mentions": [
+    "A000027",
+    "A007053",
+    "A136119"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-entry"
+  }
+}

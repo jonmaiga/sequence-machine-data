@@ -1,0 +1,19 @@
+{
+  "description": "The 7x+-1 function: a(n) = 7n+1 if n == +1 (mod 4), a(n) = 7n-1 if n == -1 (mod 4), otherwise a(n) = n/2.",
+  "id": "A317640",
+  "mentions": [
+    "A006370"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 09:48:35",
+    "offset": 0,
+    "size": 67,
+    "source": "joeis"
+  }
+}

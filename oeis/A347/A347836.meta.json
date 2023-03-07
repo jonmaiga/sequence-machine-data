@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = 8*(n + floor(n/3)) - 3; second column of A347834.",
+  "id": "A347836",
+  "mentions": [
+    "A047529",
+    "A047579",
+    "A178415",
+    "A265667",
+    "A319451",
+    "A347834",
+    "A347837"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 14:51:05",
+    "offset": 1,
+    "size": 47,
+    "source": "joeis"
+  }
+}

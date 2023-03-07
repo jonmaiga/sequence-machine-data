@@ -1,0 +1,17 @@
+{
+  "description": "Number of 7-ascent sequences of length n with no consecutive repeated letters.",
+  "id": "A264912",
+  "mentions": [
+    "A264909"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:24",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

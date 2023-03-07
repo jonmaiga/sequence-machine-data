@@ -1,0 +1,17 @@
+{
+  "description": "1/6 the number of nX5 0..5 arrays with every element equal to exactly one or two of its horizontal and vertical neighbors",
+  "id": "A185538",
+  "mentions": [
+    "A185540"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "description": "Number of finite sequences of distinct integer compositions with total sum n.",
+  "id": "A358907",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A000219",
+    "A001970",
+    "A055887",
+    "A063834",
+    "A074854",
+    "A075900",
+    "A098407",
+    "A133494",
+    "A218482",
+    "A261049",
+    "A296122",
+    "A304961",
+    "A307068",
+    "A336127",
+    "A336342",
+    "A358830",
+    "A358836",
+    "A358901",
+    "A358906",
+    "A358912",
+    "A358914"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:33",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: row n contains the numbers C(n,k)^(k-1) for 0 <= k <= n, n >= 0.",
+  "id": "A102480",
+  "mentions": [
+    "A000272",
+    "A098721",
+    "A098724",
+    "A102479"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:53",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

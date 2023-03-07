@@ -1,0 +1,21 @@
+{
+  "description": "Column 1 of triangle A132610 divided by row index less one.",
+  "id": "A132614",
+  "mentions": [
+    "A132610",
+    "A132611",
+    "A132612",
+    "A132613"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Arithmetic mean of next a(n) > 1 successive odd primes is prime.",
+  "id": "A214442",
+  "mentions": [
+    "A000040",
+    "A073684"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

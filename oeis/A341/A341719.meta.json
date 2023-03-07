@@ -1,0 +1,27 @@
+{
+  "description": "Number of partitions of n into 9 primes (counting 1 as a prime).",
+  "id": "A341719",
+  "mentions": [
+    "A008578",
+    "A034891",
+    "A259200",
+    "A341945",
+    "A341946",
+    "A341947",
+    "A341948",
+    "A341949",
+    "A341950",
+    "A341951",
+    "A341972"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 9,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

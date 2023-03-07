@@ -1,0 +1,32 @@
+{
+  "description": "Number A(n,k) of permutations of [n] such that for each cycle c the smallest integer interval containing all elements of c has at most k elements; square array A(n,k), n>=0, k>=0, read by antidiagonals.",
+  "id": "A276837",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A000045",
+    "A000142",
+    "A214663",
+    "A263757",
+    "A276719",
+    "A276838",
+    "A276839",
+    "A276840",
+    "A276841",
+    "A276842",
+    "A276843",
+    "A276844"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

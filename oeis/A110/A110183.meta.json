@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) (0<=k<=n) is the number of Delannoy paths of length n, having k (1,1)-steps on the lines y=x, y=x+1 and y=x-1.",
+  "id": "A110183",
+  "mentions": [
+    "A001850",
+    "A006318",
+    "A110184"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

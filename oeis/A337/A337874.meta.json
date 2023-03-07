@@ -1,0 +1,24 @@
+{
+  "description": "Table read by rows, in which the n-th row lists all the preimages k, in increasing order, such that k*sigma(k) = A337873(n).",
+  "id": "A337874",
+  "mentions": [
+    "A000203",
+    "A000668",
+    "A064987",
+    "A327153",
+    "A337873",
+    "A337875",
+    "A337876"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

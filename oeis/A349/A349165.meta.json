@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that sigma(k) and A003961(k) are relatively prime, where A003961(n) is fully multiplicative function with a(prime(k)) = prime(k+1).",
+  "id": "A349165",
+  "mentions": [
+    "A000203",
+    "A003961",
+    "A342671",
+    "A349163",
+    "A349166",
+    "A349167"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

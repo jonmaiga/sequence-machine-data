@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the smallest positive exponent k such that the decimal expansion of n^k has at least one digit that occurs more than once.",
+  "id": "A355873",
+  "mentions": [
+    "A337241"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 2,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

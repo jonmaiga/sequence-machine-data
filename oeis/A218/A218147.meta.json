@@ -1,0 +1,23 @@
+{
+  "description": "Degree of minimal polynomial satisfied by exp(8*Pi*phi_2(1/n,1/n)), where phi_2 is defined in the Comments.",
+  "id": "A218147",
+  "mentions": [
+    "A000027",
+    "A060997",
+    "A079458",
+    "A198442"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:35",
+    "offset": 3,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

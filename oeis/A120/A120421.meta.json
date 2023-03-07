@@ -1,0 +1,18 @@
+{
+  "description": "Number of distinct ribbon Schur functions with n boxes; also the number of distinct multisets of partitions determined by all coarsenings of compositions of n.",
+  "id": "A120421",
+  "mentions": [
+    "A005418"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

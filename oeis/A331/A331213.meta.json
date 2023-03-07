@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = 1 + Sum_{i=1..n} (-1)^i * Product_{j=1..i} floor(n/j).",
+  "id": "A331213",
+  "mentions": [
+    "A010786",
+    "A075885",
+    "A208060"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:00",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

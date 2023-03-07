@@ -1,0 +1,19 @@
+{
+  "description": "First coordinate of (3,4)-Lagrange pair for n.",
+  "id": "A194514",
+  "mentions": [
+    "A194508",
+    "A194515"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:01:39",
+    "offset": 1,
+    "size": 91,
+    "source": "joeis"
+  }
+}

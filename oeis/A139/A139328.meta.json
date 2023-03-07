@@ -1,0 +1,20 @@
+{
+  "description": "Sums of rows of the triangle in A139325.",
+  "id": "A139328",
+  "mentions": [
+    "A000720",
+    "A038107",
+    "A139325"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

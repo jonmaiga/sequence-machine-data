@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = [x^n] Product_{k>=1} ((1 + n*x^k)/(1 - n*x^k))^k.",
+  "id": "A300412",
+  "mentions": [
+    "A156616",
+    "A261451",
+    "A261563",
+    "A266942",
+    "A270919",
+    "A270924",
+    "A292419",
+    "A298985",
+    "A298987"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

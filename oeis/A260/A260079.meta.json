@@ -1,0 +1,18 @@
+{
+  "description": "The smallest product of n distinct primes no larger than the (2n)-th to exceed the square root of the (2n)-th primorial.",
+  "id": "A260079",
+  "mentions": [
+    "A060796",
+    "A260075"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:18",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

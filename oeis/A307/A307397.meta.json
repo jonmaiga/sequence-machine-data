@@ -1,0 +1,22 @@
+{
+  "description": "G.f. A(x) satisfies: A(x) = 1 + Sum_{k>=1} x^k*A(x)^k/(1 + x^k*A(x)^k).",
+  "id": "A307397",
+  "mentions": [
+    "A048272",
+    "A190790",
+    "A192206",
+    "A307399",
+    "A307401"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

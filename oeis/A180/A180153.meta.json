@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = 10*a(n-1) + A109242(n).",
+  "id": "A180153",
+  "mentions": [
+    "A000292",
+    "A002620",
+    "A059259",
+    "A094028",
+    "A109242"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:03",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

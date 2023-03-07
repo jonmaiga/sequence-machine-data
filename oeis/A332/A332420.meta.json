@@ -1,0 +1,20 @@
+{
+  "description": "Number of Maclaurin polynomials of sin x having exactly n positive zeros.",
+  "id": "A332420",
+  "mentions": [
+    "A332325",
+    "A332417"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

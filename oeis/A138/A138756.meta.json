@@ -1,0 +1,24 @@
+{
+  "description": "Indices of record values in A138753 (a \"prime\" variation of the Collatz (3n+1) problem).",
+  "id": "A138756",
+  "mentions": [
+    "A006877",
+    "A124123",
+    "A138750",
+    "A138753",
+    "A138754",
+    "A171938"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

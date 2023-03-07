@@ -1,0 +1,24 @@
+{
+  "description": "Largest k such that prime(n) divides the numerator of the k-th harmonic number (=A001008(k)).",
+  "id": "A177734",
+  "mentions": [
+    "A001008",
+    "A072984",
+    "A092101",
+    "A092103",
+    "A092193"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 2,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

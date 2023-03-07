@@ -1,0 +1,21 @@
+{
+  "description": "L.g.f.: Sum_{n>=1,k>=0} CATALAN(n,k)^2 * x^(n+k)/n = Sum_{n>=1} a(n)*x^n/n, where CATALAN(n,k) = n*C(n+2*k-1,k)/(n+k) is the coefficient of x^k in C(x)^n and C(x) is the g.f. of the Catalan numbers.",
+  "id": "A183069",
+  "mentions": [
+    "A000108",
+    "A003162",
+    "A009766",
+    "A183070"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:06",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

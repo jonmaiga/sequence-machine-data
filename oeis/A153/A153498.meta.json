@@ -1,0 +1,28 @@
+{
+  "description": "Palindromes formed from concatenation of A147759(n) and the same string A147759(n) but without its initial digit.",
+  "id": "A153498",
+  "mentions": [
+    "A135577",
+    "A138146",
+    "A144564",
+    "A147759",
+    "A152576",
+    "A152764",
+    "A153497",
+    "A153499",
+    "A153500"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 21:10:39",
+    "offset": 1,
+    "size": 12,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of numbers of the form i*n with 1 <= i <= n and tau(i*n) = 6.",
+  "id": "A338714",
+  "mentions": [
+    "A000005",
+    "A010051",
+    "A296084",
+    "A333995",
+    "A338713"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:10",
+    "offset": 1,
+    "size": 95,
+    "source": "oeis-bfile"
+  }
+}

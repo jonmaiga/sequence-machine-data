@@ -1,0 +1,22 @@
+{
+  "description": "Numerators of row sums of array of rationals A038566(n)/A020653(n), n>=2.",
+  "id": "A111992",
+  "mentions": [
+    "A000010",
+    "A020653",
+    "A038566",
+    "A069220"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 2,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

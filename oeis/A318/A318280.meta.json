@@ -1,0 +1,18 @@
+{
+  "description": "A permutation of the positive integers defined in the comment section such that the sum of the first n terms of the sequence is divisible by n.",
+  "id": "A318280",
+  "mentions": [
+    "A019444",
+    "A183301"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

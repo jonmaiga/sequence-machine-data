@@ -1,0 +1,35 @@
+{
+  "description": "Permutation of natural numbers: a(0) = 0, a(n) = A003188(1+A006068(n-1)), where A003188 is binary Gray code and A006068 is its inverse.",
+  "id": "A268717",
+  "mentions": [
+    "A000523",
+    "A003188",
+    "A003987",
+    "A006068",
+    "A066194",
+    "A092246",
+    "A101080",
+    "A268715",
+    "A268718",
+    "A268726",
+    "A268727",
+    "A268817",
+    "A268820",
+    "A268821",
+    "A268823",
+    "A268825",
+    "A268827",
+    "A268831"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:30",
+    "offset": 0,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

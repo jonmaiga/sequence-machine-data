@@ -1,0 +1,22 @@
+{
+  "description": "Number of permutations in S_n that avoid the pattern 12453 (or equivalently, 31245).",
+  "id": "A116485",
+  "mentions": [
+    "A047889",
+    "A099952",
+    "A158423",
+    "A256195",
+    "A256208"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:06",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

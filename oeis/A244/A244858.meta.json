@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of the integral of log(x^2+y^2)/((1+x^2)*(1+y^2)) dx dy over the square [0,1]x[0,1] (negated).",
+  "id": "A244858",
+  "mentions": [
+    "A244843"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

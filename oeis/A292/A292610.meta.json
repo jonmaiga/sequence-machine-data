@@ -1,0 +1,19 @@
+{
+  "description": "Take 3 triangle numbers, skip 1 triangle number, take 4 triangle numbers, skip 2 triangle numbers, take 5 triangle numbers, skip 3 triangle numbers, ...",
+  "id": "A292610",
+  "mentions": [
+    "A000217",
+    "A222716",
+    "A292611"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:08",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

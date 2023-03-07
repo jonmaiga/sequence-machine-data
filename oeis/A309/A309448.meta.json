@@ -1,0 +1,23 @@
+{
+  "description": "Coefficients in 7-adic expansion of 5^(1/5).",
+  "id": "A309448",
+  "mentions": [
+    "A309445",
+    "A309446",
+    "A309447",
+    "A309449",
+    "A309453",
+    "A309699"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:33",
+    "offset": 0,
+    "size": 93,
+    "source": "oeis-bfile"
+  }
+}

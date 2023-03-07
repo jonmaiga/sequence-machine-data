@@ -1,0 +1,18 @@
+{
+  "description": "Number of vertices in a polygon whose boundary consists of n+2 equally space points around a semicircle and n+2 equally spaced points along the diameter (a total of 2n+2 points). See Comments for precise definition.",
+  "id": "A334458",
+  "mentions": [
+    "A333519",
+    "A334459"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:05",
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

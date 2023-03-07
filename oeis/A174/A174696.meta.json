@@ -1,0 +1,23 @@
+{
+  "description": "Triangle T(n, k) = n!*(1/k)^2*(binomial(n-1, k-1)*binomial(n, k-1))^2 - n! + 1, read by rows.",
+  "id": "A174696",
+  "mentions": [
+    "A174158",
+    "A174694",
+    "A176013",
+    "A319743"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:58",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

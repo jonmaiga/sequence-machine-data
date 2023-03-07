@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that (k+1)!*k/2 + 1 is prime.",
+  "id": "A301373",
+  "mentions": [
+    "A000217",
+    "A001286",
+    "A090703",
+    "A180119",
+    "A300559",
+    "A302859"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

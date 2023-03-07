@@ -1,0 +1,17 @@
+{
+  "description": "Number of entries in the seventh cycles of all permutations of [n] when cycles are ordered by decreasing lengths.",
+  "id": "A332856",
+  "mentions": [
+    "A322384"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:02",
+    "offset": 7,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

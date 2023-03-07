@@ -1,0 +1,23 @@
+{
+  "description": "Table listing for each n (in descending order) all m's <= n, such that there exists nonzero solutions to a cross-domain congruence m*i = n X i.",
+  "id": "A115871",
+  "mentions": [
+    "A048720",
+    "A115857",
+    "A115859",
+    "A115861",
+    "A115869",
+    "A115872"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

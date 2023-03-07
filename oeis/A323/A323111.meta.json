@@ -1,0 +1,19 @@
+{
+  "description": "Number of compositions of 2n where the difference between largest and smallest parts equals n.",
+  "id": "A323111",
+  "mentions": [
+    "A117989",
+    "A214258"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:46",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

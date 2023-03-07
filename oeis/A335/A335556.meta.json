@@ -1,0 +1,21 @@
+{
+  "description": "Irregular table read by rows: n-sect the angles of a pentagon. Then T(n,k) is the number of k-sided polygons in that figure for k >= 3.",
+  "id": "A335556",
+  "mentions": [
+    "A331939",
+    "A335553",
+    "A335554",
+    "A335555"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:07",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

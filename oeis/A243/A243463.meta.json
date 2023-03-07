@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that prime(n) and phi(n) have no common digits.",
+  "id": "A243463",
+  "mentions": [
+    "A000010",
+    "A000040",
+    "A243462"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:59",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

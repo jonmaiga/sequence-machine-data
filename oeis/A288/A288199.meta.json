@@ -1,0 +1,25 @@
+{
+  "description": "Irregular triangle read by rows: mean version of Girard-Waring formula (cf. A210258), for m = 4 data values.",
+  "id": "A288199",
+  "mentions": [
+    "A028297",
+    "A210258",
+    "A287768",
+    "A288188",
+    "A288207",
+    "A288211",
+    "A288245"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "A110351(n)/T(n) where T(n) is the n-th triangular number.",
+  "id": "A110352",
+  "mentions": [
+    "A110351",
+    "A110353"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

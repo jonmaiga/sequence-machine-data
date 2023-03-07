@@ -1,0 +1,22 @@
+{
+  "description": "Fundamental discriminant D < 0 with the least absolute value such that the first n primes p have (D/p) >= 0, negated.",
+  "id": "A306218",
+  "mentions": [
+    "A003657",
+    "A045535",
+    "A094841",
+    "A232932",
+    "A241482"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

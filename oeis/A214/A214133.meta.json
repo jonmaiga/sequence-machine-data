@@ -1,0 +1,19 @@
+{
+  "description": "Greater term of smallest primitive friendly pair such that both terms are divisible by the n-th prime p and coprime to the primes below p.",
+  "id": "A214133",
+  "mentions": [
+    "A002110",
+    "A096366",
+    "A214132"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

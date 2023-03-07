@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: number of simsun n-permutations with k descents.",
+  "id": "A113897",
+  "mentions": [
+    "A000111",
+    "A000295",
+    "A002105",
+    "A094503"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

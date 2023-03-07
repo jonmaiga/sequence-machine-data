@@ -1,0 +1,23 @@
+{
+  "description": "Primes p such that p^3 is a palindrome.",
+  "id": "A135066",
+  "mentions": [
+    "A002780",
+    "A002781",
+    "A069748",
+    "A135067"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

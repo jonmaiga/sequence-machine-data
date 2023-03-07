@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k >= 3 where a record value of log(phi(k))/log(lambda(k)) is reached, where phi is the Euler totient function (A000010) and lambda is the Carmichael lambda function (A002322).",
+  "id": "A328272",
+  "mentions": [
+    "A000010",
+    "A002322",
+    "A066605"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

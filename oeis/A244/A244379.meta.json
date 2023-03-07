@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that 1 + k + k^3 + k^5 + k^7 + k^9 + ... + k^21 is prime.",
+  "id": "A244379",
+  "mentions": [
+    "A244376"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:49",
+    "offset": 1,
+    "size": 45,
+    "source": "joeis"
+  }
+}

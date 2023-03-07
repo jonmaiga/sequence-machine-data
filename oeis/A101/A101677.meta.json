@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = a(n-1) - 2*a(n-2) + 2*a(n-3) - 2*a(n-4) + 2*a(n-5) - a(n-6).",
+  "id": "A101677",
+  "mentions": [
+    "A014681",
+    "A101675",
+    "A101676"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:52",
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

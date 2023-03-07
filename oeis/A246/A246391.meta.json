@@ -1,0 +1,18 @@
+{
+  "description": "On a square lattice, repeatedly write down the smallest positive number that has not yet been used, starting with the least significant digit. Write one digit per point, skipping lattice points already labeled. Move one point further regardless of content, and rotate the movement direction 90 degrees clockwise. Read the smallest number created, ignoring leading zeros and starting with the least significant digit: a(n) gives the n-th number.",
+  "id": "A246391",
+  "mentions": [
+    "A224876"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:02",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

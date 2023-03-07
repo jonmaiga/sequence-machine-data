@@ -1,0 +1,20 @@
+{
+  "description": "Diagonal sums of Thue-Morse triangle A127241.",
+  "id": "A127242",
+  "mentions": [
+    "A010060",
+    "A127241"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

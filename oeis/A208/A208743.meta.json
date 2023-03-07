@@ -1,0 +1,22 @@
+{
+  "description": "Number of subsets of the set {1,2,...,n} which do not contain two elements whose difference is 6.",
+  "id": "A208743",
+  "mentions": [
+    "A006498",
+    "A006500",
+    "A208741",
+    "A208742"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:28",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

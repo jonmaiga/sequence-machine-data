@@ -1,0 +1,25 @@
+{
+  "description": "In binary expansion of n, delete one symbol from each run. Set a(n)=0 if the result is the empty string.",
+  "id": "A318921",
+  "mentions": [
+    "A001477",
+    "A027649",
+    "A175046",
+    "A319416",
+    "A319419",
+    "A320487"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "formulas",
+    "hear",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:40",
+    "offset": 0,
+    "size": 97,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Triangular array from a zero coefficient sum of recursive polynomials: p(k, x) = x*p(k - 1, x) + p(k - 2, x).",
+  "id": "A123185",
+  "mentions": [
+    "A114525",
+    "A168561"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:11",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

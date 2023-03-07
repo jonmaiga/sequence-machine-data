@@ -1,0 +1,20 @@
+{
+  "description": "Start with 0. Successive digits in the sequence must differ by 1. Adjoin the smallest number not yet in the sequence.",
+  "id": "A228326",
+  "mentions": [
+    "A033075",
+    "A228327",
+    "A228328"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:45",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

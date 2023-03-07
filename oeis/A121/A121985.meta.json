@@ -1,0 +1,22 @@
+{
+  "description": "Denominator of PolyLog(-n, 1/n).",
+  "id": "A121985",
+  "mentions": [
+    "A120020",
+    "A121376",
+    "A122020",
+    "A122778"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:10",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

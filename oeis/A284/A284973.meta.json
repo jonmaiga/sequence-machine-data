@@ -1,0 +1,26 @@
+{
+  "description": "Numbers with digits 4 and 9 only.",
+  "id": "A284973",
+  "mentions": [
+    "A020466",
+    "A032822",
+    "A032834",
+    "A169967",
+    "A256290",
+    "A284634",
+    "A284920",
+    "A284971",
+    "A284972"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:23:21",
+    "offset": 1,
+    "size": 44,
+    "source": "joeis"
+  }
+}

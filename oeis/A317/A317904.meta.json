@@ -1,0 +1,26 @@
+{
+  "description": "Decimal expansion of a constant related to the asymptotics of A302598.",
+  "id": "A317904",
+  "mentions": [
+    "A302598",
+    "A302700",
+    "A317350",
+    "A317351",
+    "A317355",
+    "A317356",
+    "A322737",
+    "A323311",
+    "A323313"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

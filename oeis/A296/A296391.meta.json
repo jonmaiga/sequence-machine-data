@@ -1,0 +1,18 @@
+{
+  "description": "Number of nX3 0..1 arrays with each 1 horizontally, vertically or antidiagonally adjacent to 1 or 3 neighboring 1s.",
+  "id": "A296391",
+  "mentions": [
+    "A296396"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:16",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

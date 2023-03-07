@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of the positive real solution of the equation x^k-x-1=0. Case k=8.",
+  "id": "A230161",
+  "mentions": [
+    "A001622",
+    "A060006",
+    "A060007",
+    "A160155",
+    "A230159",
+    "A230160",
+    "A230162",
+    "A230163"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:55:51",
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

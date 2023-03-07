@@ -1,0 +1,20 @@
+{
+  "description": "Smallest order of a non-abelian group with a center of order n.",
+  "id": "A340519",
+  "mentions": [
+    "A059806",
+    "A060702",
+    "A106833",
+    "A340518"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Length of shortest prefix of the Kolakoski sequence K (A000002) containing all blocks of length n that appear in K.",
+  "id": "A283511",
+  "mentions": [
+    "A000002",
+    "A007782"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = Sum_{k=0..n} (n+1)*2^(n+k)*hypergeom([-n, k-n+1], [2], 1/2). Row sums of A337617.",
+  "id": "A337992",
+  "mentions": [
+    "A337617"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

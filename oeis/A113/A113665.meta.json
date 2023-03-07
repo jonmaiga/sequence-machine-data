@@ -1,0 +1,24 @@
+{
+  "description": "Self-convolution 5th power of A113671, where a(n) = A113671(n+1)/(n+1).",
+  "id": "A113665",
+  "mentions": [
+    "A113662",
+    "A113663",
+    "A113664",
+    "A113666",
+    "A113667",
+    "A113668",
+    "A113671"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:04",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

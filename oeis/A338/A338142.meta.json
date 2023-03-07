@@ -1,0 +1,26 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of oriented colorings of the edges of a regular n-D orthotope (or ridges of a regular n-D orthoplex) using exactly k colors. Row n has n*2^(n-1) columns.",
+  "id": "A338142",
+  "mentions": [
+    "A325008",
+    "A325016",
+    "A327087",
+    "A337407",
+    "A338143",
+    "A338144",
+    "A338145",
+    "A338146"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

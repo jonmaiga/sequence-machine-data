@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of Pi^2/(12*log(2)), inverse of Levy's constant.",
+  "id": "A100199",
+  "mentions": [
+    "A002162",
+    "A072691",
+    "A086702",
+    "A089729"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:51",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Write n in binary. Insert a 0 in the middle of each pair of two consecutive 1's. a(n) = the decimal value of the result.",
+  "id": "A163809",
+  "mentions": [
+    "A163808"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:08:29",
+    "offset": 1,
+    "size": 67,
+    "source": "joeis"
+  }
+}

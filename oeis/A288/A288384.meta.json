@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the n-th term of the leading column of right triangle in A274650 minus n.",
+  "id": "A288384",
+  "mentions": [
+    "A274650",
+    "A274651",
+    "A286294",
+    "A288424"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

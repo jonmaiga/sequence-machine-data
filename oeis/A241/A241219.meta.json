@@ -1,0 +1,20 @@
+{
+  "description": "Number of ways to choose two points on a centered hexagonal grid of size n.",
+  "id": "A241219",
+  "mentions": [
+    "A003215",
+    "A083374"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:59:03",
+    "offset": 1,
+    "size": 34,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Triangular table of denominators of the coefficients of Laguerre-Sonin polynomials L(1/2,n,x).",
+  "id": "A130562",
+  "mentions": [
+    "A021009",
+    "A131440"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

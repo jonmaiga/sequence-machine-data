@@ -1,0 +1,29 @@
+{
+  "description": "The number of permutations p of {1,...,n} such that |p(i)-p(i+1)| is in {1,2,3} for all i from 1 to n-1.",
+  "id": "A174700",
+  "mentions": [
+    "A003274",
+    "A174701",
+    "A174702",
+    "A174703",
+    "A174704",
+    "A174705",
+    "A174706",
+    "A174707",
+    "A174708",
+    "A185030",
+    "A216837",
+    "A302118"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:58",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "If n = Product (p_j^k_j) then a(n) = Sum (k_j >= 2, p_j^k_j).",
+  "id": "A286875",
+  "mentions": [
+    "A005117",
+    "A008475",
+    "A023888",
+    "A023889",
+    "A034448",
+    "A063956",
+    "A077610",
+    "A092261",
+    "A222416",
+    "A246547",
+    "A284117"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:58",
+    "offset": 1,
+    "size": 108,
+    "source": "oeis-bfile"
+  }
+}

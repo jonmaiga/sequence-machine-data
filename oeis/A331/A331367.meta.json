@@ -1,0 +1,18 @@
+{
+  "description": "Perimeters of primitive Heronian triangles with mutually distinct side lengths.",
+  "id": "A331367",
+  "mentions": [
+    "A331366",
+    "A334665"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

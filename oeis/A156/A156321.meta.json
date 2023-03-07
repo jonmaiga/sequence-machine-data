@@ -1,0 +1,19 @@
+{
+  "description": "a(1)=0, a(n+1) is smallest nonprime > 2*a(n).",
+  "id": "A156321",
+  "mentions": [
+    "A000027",
+    "A055496",
+    "A141468"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:38",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

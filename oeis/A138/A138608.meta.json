@@ -1,0 +1,29 @@
+{
+  "description": "List first F(1) numbers from A016777, then first F(2) numbers from A016789, then the first F(3) numbers from A008585 (starting from 3), then the next F(4) numbers from A016777, then the next F(5) numbers from A016789, then the next F(6) numbers from A008585, etc, where F(n) = A000045(n), the n-th Fibonacci number.",
+  "id": "A138608",
+  "mentions": [
+    "A000045",
+    "A001614",
+    "A008585",
+    "A010872",
+    "A016777",
+    "A016789",
+    "A072649",
+    "A138606",
+    "A138609",
+    "A138612",
+    "A166015"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

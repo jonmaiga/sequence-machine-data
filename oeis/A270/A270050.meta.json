@@ -1,0 +1,20 @@
+{
+  "description": "Numbers of the form 2 * (x^2 + xy + y^2).",
+  "id": "A270050",
+  "mentions": [
+    "A003136",
+    "A266836"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:32",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

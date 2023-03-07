@@ -1,0 +1,26 @@
+{
+  "description": "Number of words on {1,1,2,2,...,n,n} with longest increasing subsequence of length < n.",
+  "id": "A267532",
+  "mentions": [
+    "A000079",
+    "A000142",
+    "A000680",
+    "A006902",
+    "A010050",
+    "A267479",
+    "A267480",
+    "A269042",
+    "A269129"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:29",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

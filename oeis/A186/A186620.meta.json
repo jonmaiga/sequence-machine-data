@@ -1,0 +1,20 @@
+{
+  "description": "Fibonacci sequence beginning 12, 25.",
+  "id": "A186620",
+  "mentions": [
+    "A000032",
+    "A000045"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 12:38:08",
+    "offset": 0,
+    "size": 35,
+    "source": "joeis"
+  }
+}

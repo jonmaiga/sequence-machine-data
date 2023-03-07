@@ -1,0 +1,23 @@
+{
+  "description": "Starts of runs of 3 consecutive Niven numbers in base 2 (A049445).",
+  "id": "A330932",
+  "mentions": [
+    "A049445",
+    "A154701",
+    "A328210",
+    "A328214",
+    "A330931",
+    "A330933"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:00",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

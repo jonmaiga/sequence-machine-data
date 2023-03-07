@@ -1,0 +1,20 @@
+{
+  "description": "Numbers of undirected cycles in the n X n king graph.",
+  "id": "A234622",
+  "mentions": [
+    "A140517",
+    "A140519",
+    "A158651",
+    "A234623"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 2,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

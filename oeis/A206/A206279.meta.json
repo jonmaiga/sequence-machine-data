@@ -1,0 +1,23 @@
+{
+  "description": "Smallest of three consecutive primes whose sum is a square.",
+  "id": "A206279",
+  "mentions": [
+    "A000040",
+    "A061275",
+    "A076304",
+    "A076305",
+    "A206280",
+    "A206281"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:26",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

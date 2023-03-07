@@ -1,0 +1,17 @@
+{
+  "description": "Inverse permutation to A114183.",
+  "id": "A189419",
+  "mentions": [
+    "A114183"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:13",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

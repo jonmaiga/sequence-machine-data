@@ -1,0 +1,22 @@
+{
+  "description": "The number of four-term Egyptian fractions of rational numbers, x/y, 0 < x/y < 1, ordered as below. The sequence is the number of (p,q,r,s) such that x/y = 1/p + 1/q + 1/r + 1/s where p, q, r, and s are integers with p < q < r < s.",
+  "id": "A349084",
+  "mentions": [
+    "A002260",
+    "A003057",
+    "A241883",
+    "A349082",
+    "A349083"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:23",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

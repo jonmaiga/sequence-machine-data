@@ -1,0 +1,17 @@
+{
+  "description": "a(n+1)-+a(n)=prime,a(1)=0,a(2)=3.",
+  "id": "A154485",
+  "mentions": [
+    "A154484"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

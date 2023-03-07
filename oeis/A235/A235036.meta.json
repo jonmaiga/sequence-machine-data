@@ -1,0 +1,20 @@
+{
+  "description": "Nonprime numbers which are factored to the same set of primes in Z as to the irreducible polynomials in GF(2)[X].",
+  "id": "A235036",
+  "mentions": [
+    "A091212",
+    "A235032",
+    "A235039",
+    "A235045"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:52",
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

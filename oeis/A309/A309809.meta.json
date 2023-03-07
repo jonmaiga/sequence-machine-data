@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the concatenation of n and 2n+1.",
+  "id": "A309809",
+  "mentions": [
+    "A001704",
+    "A309808"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:34",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

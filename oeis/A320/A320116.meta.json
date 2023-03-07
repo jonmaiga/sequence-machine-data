@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Product_{d|n, d>1} prime(1+(d mod 6)).",
+  "id": "A320116",
+  "mentions": [
+    "A319986",
+    "A320114",
+    "A320117"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:42",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(1) = a(2) = a(3) = a(4) = 1; for n>4, a(n) = ( a(n-1)+a(n-2)+a(n-3)+1 )^2 / a(n-4).",
+  "id": "A276257",
+  "mentions": [
+    "A276097",
+    "A276256",
+    "A276259"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:41",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

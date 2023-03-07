@@ -1,0 +1,18 @@
+{
+  "description": "Primes of the form prime(n) + prime(n+1) - 2n - 1.",
+  "id": "A108562",
+  "mentions": [
+    "A108568"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:00",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

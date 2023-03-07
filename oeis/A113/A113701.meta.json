@@ -1,0 +1,19 @@
+{
+  "description": "Members of 3-cycles of permutation A111273.",
+  "id": "A113701",
+  "mentions": [
+    "A111273",
+    "A113659",
+    "A113700"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

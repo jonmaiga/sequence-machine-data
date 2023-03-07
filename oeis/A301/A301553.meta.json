@@ -1,0 +1,28 @@
+{
+  "description": "Expansion of Product_{k>=1} (1 + x^k)^(sigma_9(k)).",
+  "id": "A301553",
+  "mentions": [
+    "A013957",
+    "A107742",
+    "A192065",
+    "A288414",
+    "A288415",
+    "A301547",
+    "A301548",
+    "A301549",
+    "A301550",
+    "A301551",
+    "A301552"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:26",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

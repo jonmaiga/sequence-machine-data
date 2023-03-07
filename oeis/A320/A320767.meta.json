@@ -1,0 +1,28 @@
+{
+  "description": "Inverse Euler transform applied once to {1,-1,0,0,0,...}, twice to {1,0,0,0,0,...}, or three times to {1,1,1,1,1,...}.",
+  "id": "A320767",
+  "mentions": [
+    "A000081",
+    "A001970",
+    "A007294",
+    "A007562",
+    "A034691",
+    "A059966",
+    "A061255",
+    "A061256",
+    "A061257",
+    "A065490",
+    "A073576",
+    "A117209"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Conjectured number of digits in highest power of n with no four consecutive identical digits.",
+  "id": "A216142",
+  "mentions": [
+    "A055642",
+    "A216063",
+    "A216064",
+    "A216065"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 2,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

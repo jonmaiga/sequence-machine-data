@@ -1,0 +1,24 @@
+{
+  "description": "Triangle T(i,j=1..i) read by rows which contain the naturally ordered divisors-or-ones of the row number i.",
+  "id": "A307662",
+  "mentions": [
+    "A002024",
+    "A002260",
+    "A027750",
+    "A100995",
+    "A127093",
+    "A307641"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:32",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

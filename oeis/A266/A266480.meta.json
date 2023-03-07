@@ -1,0 +1,18 @@
+{
+  "description": "Maximal product of multiplicities of parts of a partition of n.",
+  "id": "A266480",
+  "mentions": [
+    "A266477",
+    "A266871"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:27",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

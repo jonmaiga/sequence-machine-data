@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = digsum(2^a(n-1)) with a(0) = 0.",
+  "id": "A330822",
+  "mentions": [
+    "A001370",
+    "A007953",
+    "A131577"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:00",
+    "offset": 0,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Inverse of the permutation A277679 of the natural numbers.",
+  "id": "A277680",
+  "mentions": [
+    "A000027",
+    "A007062",
+    "A057030",
+    "A277679"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:43",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

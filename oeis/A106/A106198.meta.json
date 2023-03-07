@@ -1,0 +1,23 @@
+{
+  "description": "Triangle, columns = successive binomial transforms of Fibonacci numbers.",
+  "id": "A106198",
+  "mentions": [
+    "A000045",
+    "A081567",
+    "A081568",
+    "A081569",
+    "A081570"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:57",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

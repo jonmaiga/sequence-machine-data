@@ -1,0 +1,19 @@
+{
+  "description": "T(n,k)=Number of nXk binary arrays without the pattern 0 0 1 vertically, antidiagonally or horizontally",
+  "id": "A188851",
+  "mentions": [
+    "A000071",
+    "A188516"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:13",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

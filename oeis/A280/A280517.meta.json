@@ -1,0 +1,22 @@
+{
+  "description": "Number of sequences of n positive integers with reciprocals adding up to an integer.",
+  "id": "A280517",
+  "mentions": [
+    "A002967",
+    "A156871",
+    "A280518",
+    "A280519"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

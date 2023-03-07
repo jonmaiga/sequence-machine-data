@@ -1,0 +1,22 @@
+{
+  "description": "Number of lattice paths from (0,0) to (n,0) that do not go below the x-axis or above the diagonal x=y and consist of steps U=(1,1), D=(1,-1), H=(1,0) and S=(0,1).",
+  "id": "A225041",
+  "mentions": [
+    "A001006",
+    "A114296",
+    "A198324",
+    "A225042",
+    "A286760"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

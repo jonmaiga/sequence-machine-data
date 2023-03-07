@@ -1,0 +1,19 @@
+{
+  "description": "Sum of the perimeters of the integer-sided triangles with perimeter n whose sides lengths are square numbers.",
+  "id": "A308275",
+  "mentions": [
+    "A010052",
+    "A308064"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

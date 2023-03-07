@@ -1,0 +1,18 @@
+{
+  "description": "Digit-sums in an incremental base that adjusts itself as the digits of n are generated from right to left.",
+  "id": "A261337",
+  "mentions": [
+    "A108731"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:20",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Sequence with Hankel transform equal to 3^floor(n^2/3).",
+  "id": "A168494",
+  "mentions": [
+    "A000108",
+    "A091866",
+    "A109033",
+    "A168495"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:52",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Square array A(n,k), n >= 0, k >= 0, read by antidiagonals, where column k is the expansion of g.f. Product_{i>0} 1/(Sum_{j=0..k} (-1)^j*j!*x^(j*i)).",
+  "id": "A293293",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A000041",
+    "A057427",
+    "A293071",
+    "A293259",
+    "A293285",
+    "A293294"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "look",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:09",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

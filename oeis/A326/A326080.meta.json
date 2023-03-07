@@ -1,0 +1,29 @@
+{
+  "description": "Number of subsets of {1..n} containing the sum of every subset whose sum is <= n.",
+  "id": "A326080",
+  "mentions": [
+    "A007865",
+    "A050291",
+    "A051026",
+    "A054519",
+    "A085489",
+    "A093971",
+    "A103580",
+    "A120641",
+    "A151897",
+    "A326020",
+    "A326023",
+    "A326076",
+    "A326083"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

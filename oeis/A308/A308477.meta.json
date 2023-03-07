@@ -1,0 +1,23 @@
+{
+  "description": "Square array A(n,k), n >= 1, k >= 0, read by antidiagonals: A(n,k) = Sum_{j=1..n, gcd(n,j) = 1} j^k.",
+  "id": "A308477",
+  "mentions": [
+    "A000010",
+    "A023896",
+    "A053818",
+    "A053819",
+    "A053820",
+    "A103438"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:33",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

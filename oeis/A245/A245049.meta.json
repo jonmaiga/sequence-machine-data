@@ -1,0 +1,32 @@
+{
+  "description": "Number A(n,k) of hybrid k-ary trees with n internal nodes; square array A(n,k), n>=0, k>=1, read by antidiagonals.",
+  "id": "A245049",
+  "mentions": [
+    "A000012",
+    "A000045",
+    "A004767",
+    "A007395",
+    "A007863",
+    "A215654",
+    "A239107",
+    "A239108",
+    "A239109",
+    "A245050",
+    "A245051",
+    "A245052",
+    "A245053",
+    "A245054"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:01",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "Numbers with the same number of cubefree divisors and 3-full divisors.",
+  "id": "A360906",
+  "mentions": [
+    "A000005",
+    "A004709",
+    "A007948",
+    "A030514",
+    "A073184",
+    "A113849",
+    "A179664",
+    "A190867",
+    "A246655",
+    "A360540",
+    "A360902",
+    "A360907"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:34",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "description": "Peaceable coexisting armies of queens: the maximum number m such that m white queens and m black queens can coexist on an n X n chessboard without attacking each other.",
+  "id": "A250000",
+  "mentions": [
+    "A000170",
+    "A002562",
+    "A002620",
+    "A176222",
+    "A195264",
+    "A245783",
+    "A260680",
+    "A274947",
+    "A274948",
+    "A286283",
+    "A319284",
+    "A355509"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

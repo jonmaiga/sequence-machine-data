@@ -1,0 +1,21 @@
+{
+  "description": "a(0) = 1; a(n) = Sum_{k=0..floor((n-1)/2)} (-4)^k * a(k) * a(n-2*k-1).",
+  "id": "A352011",
+  "mentions": [
+    "A015099",
+    "A101912",
+    "A352009",
+    "A352010"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = Sum_{d|n} d^(3*(n/d - 1)).",
+  "id": "A308693",
+  "mentions": [
+    "A308694"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

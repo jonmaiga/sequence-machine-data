@@ -1,0 +1,19 @@
+{
+  "description": "Integers n such that the n-th golden rectangle number is the sum of 4 but no fewer nonzero squares.",
+  "id": "A269960",
+  "mentions": [
+    "A001654",
+    "A004215",
+    "A016957"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:32",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

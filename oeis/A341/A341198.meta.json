@@ -1,0 +1,21 @@
+{
+  "description": "Number of points on or inside the circle of radius n, as rasterized by the midpoint circle algorithm.",
+  "id": "A341198",
+  "mentions": [
+    "A022846",
+    "A055979",
+    "A057655",
+    "A341199"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

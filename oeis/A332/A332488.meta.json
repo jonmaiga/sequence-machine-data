@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = least positive integer k such that sin(n*k)*sin(n*k + k) < 0.",
+  "id": "A332488",
+  "mentions": [
+    "A070751",
+    "A070752",
+    "A332489",
+    "A332499"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-entry"
+  }
+}

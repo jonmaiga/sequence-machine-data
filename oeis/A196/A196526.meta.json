@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of ways the n-th prime number prime(n) can be written as sum of coprime b and c, in which b is a positive even number and c is an odd number that is -1 or greater, and all odd prime factors of b and c are less than or equal to sqrt(prime(n)).",
+  "id": "A196526",
+  "mentions": [
+    "A000040",
+    "A006530"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:18",
+    "offset": 2,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

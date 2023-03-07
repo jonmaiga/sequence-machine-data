@@ -1,0 +1,25 @@
+{
+  "description": "If n is squarefree then A090705(A100112(n)) else n.",
+  "id": "A102510",
+  "mentions": [
+    "A005117",
+    "A008683",
+    "A008966",
+    "A013929",
+    "A090705",
+    "A100112",
+    "A102511",
+    "A102512",
+    "A102513"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

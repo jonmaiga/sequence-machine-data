@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = (n^6 + 2n^5 + 2n^4 + n^3 + 2n)/2.",
+  "id": "A163279",
+  "mentions": [
+    "A000290",
+    "A002378",
+    "A035287"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 17:18:35",
+    "offset": 1,
+    "size": 27,
+    "source": "joeis"
+  }
+}

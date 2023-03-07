@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the number of triples (u,v,w) of divisors of n with u/v = v/w, and u < v < w.",
+  "id": "A360012",
+  "mentions": [
+    "A002620",
+    "A005059",
+    "A091009",
+    "A132345"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

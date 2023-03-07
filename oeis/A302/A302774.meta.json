@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the position of the first term in A303762 that has prime(n) as one of its prime factors.",
+  "id": "A302774",
+  "mentions": [
+    "A000523",
+    "A053669",
+    "A061395",
+    "A302775",
+    "A303749",
+    "A303762",
+    "A303769"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the start of the least run of exactly n consecutive nobly abundant numbers (A349758).",
+  "id": "A349871",
+  "mentions": [
+    "A349758",
+    "A349870"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

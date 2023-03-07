@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{i=1..n} gcd(2*n-i, i).",
+  "id": "A234307",
+  "mentions": [
+    "A001105",
+    "A002378",
+    "A018804"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:52",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

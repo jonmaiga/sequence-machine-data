@@ -1,0 +1,18 @@
+{
+  "description": "Solutions a(n) of (a(n)-5)*(a(n)-6) = 21 *b(n)*(b(n)-1).",
+  "id": "A180509",
+  "mentions": [
+    "A181443"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 14:16:33",
+    "offset": 0,
+    "size": 27,
+    "source": "joeis"
+  }
+}

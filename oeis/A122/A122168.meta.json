@@ -1,0 +1,17 @@
+{
+  "description": "a(1)=1; a(n) is the number of earlier terms, a(k) (1 <= k <= n-1), where gcd(a(k),n) is squarefree.",
+  "id": "A122168",
+  "mentions": [
+    "A122169"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

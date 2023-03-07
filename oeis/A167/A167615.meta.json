@@ -1,0 +1,22 @@
+{
+  "description": "Total number of positive integers below 10^n with 4 positive squares in their representation as sum of squares.",
+  "id": "A167615",
+  "mentions": [
+    "A002283",
+    "A004215",
+    "A049416",
+    "A180416",
+    "A180425"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Ludic powers: numbers k such that A302031(k) < 2; numbers k such that A260739(k) is a power of 2.",
+  "id": "A302036",
+  "mentions": [
+    "A000079",
+    "A000961",
+    "A003309",
+    "A209229",
+    "A254100",
+    "A255127",
+    "A260739",
+    "A302031",
+    "A302034",
+    "A302038",
+    "A302040"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:26",
+    "offset": 1,
+    "size": 77,
+    "source": "oeis-bfile"
+  }
+}

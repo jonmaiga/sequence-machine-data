@@ -1,0 +1,20 @@
+{
+  "description": "First differences of A004125.",
+  "id": "A120444",
+  "mentions": [
+    "A000203",
+    "A004125",
+    "A005408"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:09",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

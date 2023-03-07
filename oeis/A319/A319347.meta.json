@@ -1,0 +1,23 @@
+{
+  "description": "Filter sequence combining A000035(n) (parity of n), A003557(n), and A046523(n) (prime signature of n).",
+  "id": "A319347",
+  "mentions": [
+    "A000035",
+    "A003557",
+    "A007814",
+    "A046523",
+    "A291757",
+    "A305801",
+    "A305891"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:41",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

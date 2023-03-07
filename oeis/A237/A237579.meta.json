@@ -1,0 +1,19 @@
+{
+  "description": "Least prime factor of (2n)! - n! + 1 (= A237580(n)).",
+  "id": "A237579",
+  "mentions": [
+    "A118812",
+    "A237443",
+    "A237580"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

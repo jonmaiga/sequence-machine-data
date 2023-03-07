@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of Sum_{n>=2} 1/(n*log(n)^2).",
+  "id": "A115563",
+  "mentions": [
+    "A097906",
+    "A137245",
+    "A145419",
+    "A145420",
+    "A145421",
+    "A257812",
+    "A347145"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 141,
+    "source": "oeis-entry"
+  }
+}

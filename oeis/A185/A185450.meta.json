@@ -1,0 +1,17 @@
+{
+  "description": "Define a map of the integers by T_k(i)=i/2 if i even, (3i+k)/2 if i odd; a(n) is the conjectured number of cycles for trajectories under this map in the case k = 5^n.",
+  "id": "A185450",
+  "mentions": [
+    "A185451"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

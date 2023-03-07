@@ -1,0 +1,19 @@
+{
+  "description": "Even Padovan numbers.",
+  "id": "A134720",
+  "mentions": [
+    "A000931"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:21:19",
+    "offset": 1,
+    "size": 37,
+    "source": "joeis"
+  }
+}

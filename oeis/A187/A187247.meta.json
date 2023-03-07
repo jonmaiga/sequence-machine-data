@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of permutations of [n] having k cycles with at most 2 alternating runs (it is assumed that the smallest element of the cycle is in the first position), 0<=k<=n.",
+  "id": "A187247",
+  "mentions": [
+    "A187248",
+    "A187249"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:12",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

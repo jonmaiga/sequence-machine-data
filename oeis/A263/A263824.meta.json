@@ -1,0 +1,20 @@
+{
+  "description": "Permutation of the nonnegative integers: [6k+3, 6k+4, 6k+5, 6k, 6k+1, 6k+2, ...].",
+  "id": "A263824",
+  "mentions": [
+    "A004442",
+    "A130151"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:23:29",
+    "offset": 0,
+    "size": 67,
+    "source": "joeis"
+  }
+}

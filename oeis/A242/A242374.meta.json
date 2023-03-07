@@ -1,0 +1,21 @@
+{
+  "description": "Number of digits in the decimal expansion of n^8.",
+  "id": "A242374",
+  "mentions": [
+    "A001016",
+    "A055642"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

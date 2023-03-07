@@ -1,0 +1,20 @@
+{
+  "description": "Primes of the form n! - prime(n).",
+  "id": "A264723",
+  "mentions": [
+    "A063499",
+    "A064278",
+    "A064401",
+    "A261809"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

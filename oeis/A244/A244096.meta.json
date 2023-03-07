@@ -1,0 +1,19 @@
+{
+  "description": "Rounded down area ratio of a circle inscribed in a congruent triangle of a regular n-gon and a circle inscribed between a side of such an n-gon and a circumscribed unit circle.",
+  "id": "A244096",
+  "mentions": [
+    "A244093",
+    "A244094"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 3,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

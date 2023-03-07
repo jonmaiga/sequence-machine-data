@@ -1,0 +1,19 @@
+{
+  "description": "Triangle T(n, k) = binomial(n, k)*( n!/k! if floor(n/2) >= k otherwise n!/(n-k)! ), read by rows.",
+  "id": "A174298",
+  "mentions": [
+    "A295383"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:58",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

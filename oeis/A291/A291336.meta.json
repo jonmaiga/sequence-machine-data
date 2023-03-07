@@ -1,0 +1,32 @@
+{
+  "description": "Number F(n,h,t) of forests of t unlabeled rooted trees with n vertices such that h is the maximum of 0 and the tree heights; triangle of triangles F(n,h,t), n>=0, h=0..n, t=0..n-h, read by layers, then by rows.",
+  "id": "A291336",
+  "mentions": [
+    "A000007",
+    "A000041",
+    "A000065",
+    "A000081",
+    "A001853",
+    "A005197",
+    "A008284",
+    "A023531",
+    "A033185",
+    "A034781",
+    "A291203",
+    "A291204",
+    "A291529"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:06",
+    "offset": 0,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

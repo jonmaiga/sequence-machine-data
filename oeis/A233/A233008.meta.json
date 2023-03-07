@@ -1,0 +1,24 @@
+{
+  "description": "p mod 24, where p is such that 2^p - 1 is prime (see Mersenne primes, A000043).",
+  "id": "A233008",
+  "mentions": [
+    "A000043",
+    "A000668",
+    "A124477",
+    "A126043",
+    "A126059",
+    "A233009"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

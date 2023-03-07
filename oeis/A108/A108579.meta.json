@@ -1,0 +1,24 @@
+{
+  "description": "Number of symmetry classes of 3 X 3 magic squares (with distinct positive entries) having magic sum 3n.",
+  "id": "A108579",
+  "mentions": [
+    "A055328",
+    "A108576",
+    "A108577",
+    "A108578",
+    "A211422",
+    "A211506"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:00",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

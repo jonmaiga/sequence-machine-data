@@ -1,0 +1,23 @@
+{
+  "description": "Squarefree base-2 Fermat pseudoprimes divisible by a Wieferich prime.",
+  "id": "A353221",
+  "mentions": [
+    "A001220",
+    "A001567",
+    "A158358",
+    "A219346",
+    "A247830",
+    "A247831",
+    "A295740"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:27",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

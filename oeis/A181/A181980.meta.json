@@ -1,0 +1,23 @@
+{
+  "description": "Least positive integer m > 1 such that 1 - m^k + m^(2k) - m^(3k) + m^(4k) is prime, where k = A003592(n).",
+  "id": "A181980",
+  "mentions": [
+    "A003592",
+    "A085398",
+    "A153438",
+    "A205506",
+    "A206418"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

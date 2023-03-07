@@ -1,0 +1,20 @@
+{
+  "description": "A triangle of coefficients based on the squares of the Chebyshev T and U polynomials: p(x,n)=If[Mod[n, 2] == 0, (ChebyshevT[n + 1, x]^2 + x^2*ChebyshevU[n, x]^2)/(2*x^2), (-1 + ChebyshevT[n + 1, x]^2 + x^2*ChebyshevU[n, x]^2)/(2*x^2)]",
+  "id": "A173335",
+  "mentions": [
+    "A000982"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabf",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

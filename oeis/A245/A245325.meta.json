@@ -1,0 +1,27 @@
+{
+  "description": "Numerators of an enumeration system of the reduced nonnegative rational numbers",
+  "id": "A245325",
+  "mentions": [
+    "A002487",
+    "A059893",
+    "A071585",
+    "A154435",
+    "A180200",
+    "A229742",
+    "A245326",
+    "A245327",
+    "A273494"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

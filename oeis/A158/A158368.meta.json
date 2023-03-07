@@ -1,0 +1,19 @@
+{
+  "description": "529n + 1.",
+  "id": "A158368",
+  "mentions": [
+    "A158367"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:40",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

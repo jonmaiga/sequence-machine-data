@@ -1,0 +1,25 @@
+{
+  "description": "Central coefficients of the triangle A132047.",
+  "id": "A144706",
+  "mentions": [
+    "A000108",
+    "A010686",
+    "A039599",
+    "A082505",
+    "A106566",
+    "A132047",
+    "A144708"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

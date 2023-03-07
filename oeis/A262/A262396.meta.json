@@ -1,0 +1,17 @@
+{
+  "description": "Product of the sums and differences of the square roots of the first n positive integers, combined in all possible ways.",
+  "id": "A262396",
+  "mentions": [
+    "A354913"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:22",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-bfile"
+  }
+}

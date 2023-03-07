@@ -1,0 +1,21 @@
+{
+  "description": "Number of tilings of an equilateral triangle of side length n with unit triangles (of side length 1) and exactly two unit \"lozenges\" or \"diamonds\" (also of side length 1).",
+  "id": "A326367",
+  "mentions": [
+    "A273464",
+    "A326368",
+    "A326369"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 09:54:47",
+    "offset": 1,
+    "size": 37,
+    "source": "joeis"
+  }
+}

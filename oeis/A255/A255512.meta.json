@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that 60*n+41, 90*n+61 and 150*n+101 are all prime.",
+  "id": "A255512",
+  "mentions": [
+    "A202113",
+    "A255441"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

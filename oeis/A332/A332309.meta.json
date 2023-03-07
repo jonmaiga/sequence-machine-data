@@ -1,0 +1,22 @@
+{
+  "description": "Number of compositions (ordered partitions) of n into distinct parts where no part is a multiple of 3.",
+  "id": "A332309",
+  "mentions": [
+    "A000726",
+    "A003105",
+    "A032020",
+    "A032021",
+    "A332310",
+    "A332311"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:01",
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

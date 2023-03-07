@@ -1,0 +1,26 @@
+{
+  "description": "Regular triangle read by rows where T(n,k) is the number of k-uniform hypergraphs spanning n labeled vertices where every two vertices appear together in some edge, n >= 0, 0 <= k <= n.",
+  "id": "A320606",
+  "mentions": [
+    "A058891",
+    "A116539",
+    "A301922",
+    "A302394",
+    "A306021",
+    "A319189",
+    "A320444",
+    "A321134"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

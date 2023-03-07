@@ -1,0 +1,21 @@
+{
+  "description": "Number of missing residues in Fibonacci sequence mod n.",
+  "id": "A118965",
+  "mentions": [
+    "A001175",
+    "A066853",
+    "A079002",
+    "A128924"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:08",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

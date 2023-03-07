@@ -1,0 +1,23 @@
+{
+  "description": "Number of positive integers k less than or equal to n such that gcd(k,n) = gcd(k+1,n) = gcd(k+2,n) = gcd(k+3,n) = 1.",
+  "id": "A241663",
+  "mentions": [
+    "A020639",
+    "A028234",
+    "A058026",
+    "A067029",
+    "A241666"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Let N(p,i) denote the result of applying \"nextprime\" i times to p; a(n) = smallest prime p such that N(p,4) - p = 2*n, or -1 if no such prime exists.",
+  "id": "A339944",
+  "mentions": [
+    "A000230",
+    "A144103",
+    "A337767",
+    "A339943"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:12",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

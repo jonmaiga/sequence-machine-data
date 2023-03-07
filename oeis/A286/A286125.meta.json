@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that antisigma(n) divides Fibonacci(n).",
+  "id": "A286125",
+  "mentions": [
+    "A000045",
+    "A024816",
+    "A258748"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

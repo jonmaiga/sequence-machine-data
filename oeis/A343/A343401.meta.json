@@ -1,0 +1,18 @@
+{
+  "description": "Number of partitions of n into 3 parts [r,s,t] such that r < s < t where no part divides any larger part and at least 1 part divides n.",
+  "id": "A343401",
+  "mentions": [
+    "A343246"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 77,
+    "source": "oeis-entry"
+  }
+}

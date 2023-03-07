@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that k^27*(k^27+1)+1 is prime.",
+  "id": "A153441",
+  "mentions": [
+    "A153438"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:35",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

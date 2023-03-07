@@ -1,0 +1,20 @@
+{
+  "description": "Collatz problem with rational negative numbers: number of steps to reach the end of the cycle starting with 1/(2n+1) where n is negative (the initial value is counted).",
+  "id": "A224300",
+  "mentions": [
+    "A210468",
+    "A210471",
+    "A224299"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

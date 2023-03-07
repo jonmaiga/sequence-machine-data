@@ -1,0 +1,24 @@
+{
+  "description": "a(1)=1. Thereafter, if a(n) has occurred k (>1) times in a(j), 1 <= j <= n then a(n+1) = k*a(n). If a(n) is a first occurrence, a(n+1) = A078709(a(n)).",
+  "id": "A353960",
+  "mentions": [
+    "A000005",
+    "A033950",
+    "A078709",
+    "A125056",
+    "A125057",
+    "A126888",
+    "A130290"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

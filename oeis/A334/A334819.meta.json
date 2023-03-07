@@ -1,0 +1,20 @@
+{
+  "description": "Largest quadratic nonresidue modulo n (with n >= 3).",
+  "id": "A334819",
+  "mentions": [
+    "A020649",
+    "A047210",
+    "A192450"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:06",
+    "offset": 3,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

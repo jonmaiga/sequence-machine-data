@@ -1,0 +1,31 @@
+{
+  "description": "Number of sets of nonempty multisets of nonempty sets of positive integers with total sum n.",
+  "id": "A330455",
+  "mentions": [
+    "A001055",
+    "A001970",
+    "A007713",
+    "A050336",
+    "A050343",
+    "A089259",
+    "A261049",
+    "A270995",
+    "A271619",
+    "A323787",
+    "A323795",
+    "A330452",
+    "A330459",
+    "A330461"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:56",
+    "offset": 0,
+    "size": 34,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of 3/(4*Pi).",
+  "id": "A270230",
+  "mentions": [
+    "A002193",
+    "A019699",
+    "A020760",
+    "A020832",
+    "A165952"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:23:07",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

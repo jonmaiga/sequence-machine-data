@@ -1,0 +1,27 @@
+{
+  "description": "Smallest solution x of x^n + y^(n+1) = z^(n+2), x, y, z >= 1.",
+  "id": "A302174",
+  "mentions": [
+    "A000244",
+    "A001105",
+    "A003586",
+    "A060757",
+    "A300564",
+    "A300565",
+    "A300566",
+    "A300567",
+    "A300568"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

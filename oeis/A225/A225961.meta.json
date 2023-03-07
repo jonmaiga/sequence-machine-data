@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of the position of a minimum of Arias de Reyna and van de Lune's kappa function.",
+  "id": "A225961",
+  "mentions": [
+    "A114866",
+    "A225962"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "cons",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

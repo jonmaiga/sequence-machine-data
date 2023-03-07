@@ -1,0 +1,32 @@
+{
+  "description": "Number of series-reduced rooted identity trees with n leaves spanning an initial interval of positive integers.",
+  "id": "A316653",
+  "mentions": [
+    "A000081",
+    "A000311",
+    "A000669",
+    "A001678",
+    "A004111",
+    "A005804",
+    "A031148",
+    "A034691",
+    "A141268",
+    "A292504",
+    "A300660",
+    "A316651",
+    "A316652",
+    "A316654",
+    "A316655",
+    "A316656"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:35",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

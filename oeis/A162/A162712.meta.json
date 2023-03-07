@@ -1,0 +1,18 @@
+{
+  "description": "Primes p such that 3^p-2^p-2 is also prime.",
+  "id": "A162712",
+  "mentions": [
+    "A162713"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

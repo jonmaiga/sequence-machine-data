@@ -1,0 +1,22 @@
+{
+  "description": "Number of Hamiltonian cycles in the Cartesian product graph K_2 times K_n.",
+  "id": "A276356",
+  "mentions": [
+    "A001040",
+    "A001053",
+    "A089039",
+    "A269562"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

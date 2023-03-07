@@ -1,0 +1,19 @@
+{
+  "description": "Lexicographically earliest squarefree sequence of nonnegative integers whose even and odd bisections are also squarefree.",
+  "id": "A309013",
+  "mentions": [
+    "A007814",
+    "A309011"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

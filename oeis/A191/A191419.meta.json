@@ -1,0 +1,18 @@
+{
+  "description": "G.f. C(C(x)) where C(x) is the g.f. of A191417.",
+  "id": "A191419",
+  "mentions": [
+    "A191417",
+    "A191418"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

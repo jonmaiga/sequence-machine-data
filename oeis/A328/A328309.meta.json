@@ -1,0 +1,21 @@
+{
+  "description": "a(n) counts the numbers in 0..n whose k-th arithmetic derivative is zero for some k >= 0.",
+  "id": "A328309",
+  "mentions": [
+    "A003415",
+    "A099308",
+    "A328307",
+    "A328308"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:57",
+    "offset": 0,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

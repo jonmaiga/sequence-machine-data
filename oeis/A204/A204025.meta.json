@@ -1,0 +1,20 @@
+{
+  "description": "Array: row n shows the coefficients of the characteristic polynomial of the n-th principal submatrix of gcd(i,j) (A003989).",
+  "id": "A204025",
+  "mentions": [
+    "A003989",
+    "A202605",
+    "A204016"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-07 10:06:03",
+    "offset": 1,
+    "size": 47,
+    "source": "joeis"
+  }
+}

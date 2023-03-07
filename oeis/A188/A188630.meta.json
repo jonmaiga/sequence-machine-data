@@ -1,0 +1,23 @@
+{
+  "description": "Triangular numbers that are the product of two triangular numbers greater than 1.",
+  "id": "A188630",
+  "mentions": [
+    "A000217",
+    "A001571",
+    "A061278",
+    "A085780",
+    "A140089",
+    "A188660",
+    "A188663"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:13",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

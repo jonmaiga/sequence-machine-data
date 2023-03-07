@@ -1,0 +1,19 @@
+{
+  "description": "Number of squares plus number of cubes between 10n and 10n+9 (inclusive).",
+  "id": "A111037",
+  "mentions": [
+    "A110916",
+    "A111025"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of perfect matchings in the C_{2n} X P_3 graph (C_{2n} is the cycle graph on 2n vertices and P_3 is the path graph on 3 vertices).",
+  "id": "A102091",
+  "mentions": [
+    "A001353",
+    "A102089",
+    "A102206"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:53",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

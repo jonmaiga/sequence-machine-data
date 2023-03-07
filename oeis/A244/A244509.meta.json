@@ -1,0 +1,19 @@
+{
+  "description": "Order of GL_2(p), the general linear group over F_p, where p runs through the primes.",
+  "id": "A244509",
+  "mentions": [
+    "A047927",
+    "A127917"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:00",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

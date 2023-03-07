@@ -1,0 +1,33 @@
+{
+  "description": "Row products of irregular table A005940: a(0) = 1; a(1) = 2; for n > 1: 2^(2^(n-2)) * a(n-1) * A003961(a(n-1)); also row products of A163511, A253563, A253565, and A332977.",
+  "id": "A252738",
+  "mentions": [
+    "A000079",
+    "A000225",
+    "A000290",
+    "A003961",
+    "A005940",
+    "A163511",
+    "A191555",
+    "A252737",
+    "A252739",
+    "A252740",
+    "A252741",
+    "A253563",
+    "A253565",
+    "A266639",
+    "A267096",
+    "A332977"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:11",
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-bfile"
+  }
+}

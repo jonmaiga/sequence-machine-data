@@ -1,0 +1,18 @@
+{
+  "description": "Number of ways to write n=x+y (x>0, y>0) with x-1, x+1 and 2*x*y+1 all prime",
+  "id": "A219923",
+  "mentions": [
+    "A219842",
+    "A219864"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:37",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Number of nX6 0..2 arrays x(i,j) with each element horizontally, vertically or antidiagonally next to at least one element with value (x(i,j)+1) mod 3, and upper left element zero",
+  "id": "A230335",
+  "mentions": [
+    "A230337"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:47",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

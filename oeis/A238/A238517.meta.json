@@ -1,0 +1,19 @@
+{
+  "description": "Square row sums of the table A008289 (A060016).",
+  "id": "A238517",
+  "mentions": [
+    "A008289",
+    "A060016"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

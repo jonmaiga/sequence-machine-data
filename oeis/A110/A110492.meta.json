@@ -1,0 +1,17 @@
+{
+  "description": "Number of values of k for k=1,2,3,...,n-1, such that n+k divides prime(n)+prime(k), where prime(n) denotes the n-th prime.",
+  "id": "A110492",
+  "mentions": [
+    "A000040"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

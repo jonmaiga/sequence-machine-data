@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of the asymptotic median of the abundancy indices of the positive integers.",
+  "id": "A353617",
+  "mentions": [
+    "A000203",
+    "A013661",
+    "A017665",
+    "A017666",
+    "A302991",
+    "A353615",
+    "A353616"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

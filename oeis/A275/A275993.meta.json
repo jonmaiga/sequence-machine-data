@@ -1,0 +1,30 @@
+{
+  "description": "Champernowne sequence: write n in base 16 and juxtapose.",
+  "id": "A275993",
+  "mentions": [
+    "A003137",
+    "A007376",
+    "A030190",
+    "A030302",
+    "A030373",
+    "A030548",
+    "A030998",
+    "A031035",
+    "A031076",
+    "A031219",
+    "A033307",
+    "A054634",
+    "A054635"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Least k such that x*k - 1 produces primes for x=1..n and composite for x=n+1.",
+  "id": "A202779",
+  "mentions": [
+    "A088651"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

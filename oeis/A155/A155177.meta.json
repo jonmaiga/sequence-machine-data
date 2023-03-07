@@ -1,0 +1,27 @@
+{
+  "description": "Area ar/6 (divided by 6) of primitive Pythagorean triangles such that perimeters are Averages of twin prime pairs, q=p+1, a=q^2-p^2, c=q^2+p^2, b=2*p*q, ar=a*b/2; s=a+b+c, s-+1 are primes.",
+  "id": "A155177",
+  "mentions": [
+    "A020882",
+    "A020883",
+    "A020884",
+    "A020886",
+    "A024364",
+    "A024406",
+    "A155171",
+    "A155173",
+    "A155174",
+    "A155175",
+    "A155176"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

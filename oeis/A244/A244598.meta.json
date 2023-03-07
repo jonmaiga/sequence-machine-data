@@ -1,0 +1,21 @@
+{
+  "description": "Integers n such that for every k > 0, n*10^k-1 has a divisor in the set { 11, 73, 101, 137 }.",
+  "id": "A244598",
+  "mentions": [
+    "A243969",
+    "A243974",
+    "A244348"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

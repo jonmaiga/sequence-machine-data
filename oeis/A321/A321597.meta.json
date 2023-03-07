@@ -1,0 +1,21 @@
+{
+  "description": "Number of permutations tau of {1,...,n} such that k*tau(k) + 1 is prime for every k = 1,...,n.",
+  "id": "A321597",
+  "mentions": [
+    "A000040",
+    "A001359",
+    "A006512",
+    "A014574"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

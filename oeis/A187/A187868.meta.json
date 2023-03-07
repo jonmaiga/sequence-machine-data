@@ -1,0 +1,20 @@
+{
+  "description": "Primes of the form 100^k - 10^k + 1.",
+  "id": "A187868",
+  "mentions": [
+    "A003586",
+    "A168624",
+    "A187614"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

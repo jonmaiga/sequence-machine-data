@@ -1,0 +1,21 @@
+{
+  "description": "Prime numbers p such that iterating the map m -> m^2 + 1 on p generates a number ending with p.",
+  "id": "A350590",
+  "mentions": [
+    "A002522",
+    "A066872",
+    "A349786",
+    "A350130"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

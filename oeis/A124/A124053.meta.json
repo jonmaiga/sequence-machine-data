@@ -1,0 +1,23 @@
+{
+  "description": "Numbers n that can be expressed as the sum of the digits of both m^k and k^m for distinct numbers m and k which are not both equal to powers of 10.",
+  "id": "A124053",
+  "mentions": [
+    "A046019",
+    "A124359",
+    "A124360",
+    "A124365",
+    "A124366",
+    "A124367"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

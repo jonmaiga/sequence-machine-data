@@ -1,0 +1,20 @@
+{
+  "description": "Difference between average of two consecutive odd primes and the sum of all prime factors of the average.",
+  "id": "A251364",
+  "mentions": [
+    "A000040",
+    "A001414"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:09",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

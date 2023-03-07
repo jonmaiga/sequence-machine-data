@@ -1,0 +1,23 @@
+{
+  "description": "Numbers n such that A015128(n)/2 is prime.",
+  "id": "A265835",
+  "mentions": [
+    "A014968",
+    "A015128",
+    "A035359",
+    "A046063",
+    "A299961"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

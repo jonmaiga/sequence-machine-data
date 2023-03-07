@@ -1,0 +1,25 @@
+{
+  "description": "Array read by rows: row n lists the first 4 primes with n digits.",
+  "id": "A139054",
+  "mentions": [
+    "A000040",
+    "A003617",
+    "A073914",
+    "A139052",
+    "A139053"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "changed",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

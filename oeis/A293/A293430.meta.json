@@ -1,0 +1,25 @@
+{
+  "description": "Persistently squarefree numbers for base-2 shifting: Numbers n such that all terms in finite set [n, floor(n/2), floor(n/4), floor(n/8), ..., 1] are squarefree.",
+  "id": "A293430",
+  "mentions": [
+    "A003754",
+    "A005117",
+    "A293230",
+    "A293233",
+    "A293427",
+    "A293437",
+    "A293441",
+    "A293517",
+    "A293523"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:09",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

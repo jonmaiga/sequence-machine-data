@@ -1,0 +1,32 @@
+{
+  "description": "Number of factorizations of n! into factors > 1 that can be obtained by taking the multiset union of a choice of factorizations of each positive integer from 2 to n into factors > 1.",
+  "id": "A321468",
+  "mentions": [
+    "A001055",
+    "A066723",
+    "A076716",
+    "A157612",
+    "A242422",
+    "A265947",
+    "A300383",
+    "A317144",
+    "A317145",
+    "A317534",
+    "A321467",
+    "A321470",
+    "A321471",
+    "A321472",
+    "A321514"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

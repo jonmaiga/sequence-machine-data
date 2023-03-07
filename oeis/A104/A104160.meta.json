@@ -1,0 +1,19 @@
+{
+  "description": "Primes equal to a sum of primes with differences congruent to (2,4) mod 6.",
+  "id": "A104160",
+  "mentions": [
+    "A000040",
+    "A047235"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

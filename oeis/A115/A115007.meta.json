@@ -1,0 +1,17 @@
+{
+  "description": "Row 3 of array in A114999.",
+  "id": "A115007",
+  "mentions": [
+    "A114999"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

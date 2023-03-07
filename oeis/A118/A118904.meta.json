@@ -1,0 +1,21 @@
+{
+  "description": "Perimeters of rectangles with integer sides and diagonal.",
+  "id": "A118904",
+  "mentions": [
+    "A009096",
+    "A118902",
+    "A118903",
+    "A118905"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

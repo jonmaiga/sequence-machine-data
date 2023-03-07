@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: row n gives coefficients of expansion of q-tangent number T_{2n+1}(q) in powers of q.",
+  "id": "A143194",
+  "mentions": [
+    "A000108",
+    "A000182"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

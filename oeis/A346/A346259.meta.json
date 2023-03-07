@@ -1,0 +1,21 @@
+{
+  "description": "Numbers that are the sum of seven fifth powers in exactly ten ways.",
+  "id": "A346259",
+  "mentions": [
+    "A345643",
+    "A345832",
+    "A346286",
+    "A346335",
+    "A346365"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:20",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

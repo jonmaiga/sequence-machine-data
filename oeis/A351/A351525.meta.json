@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of e.g.f. (log(1 + log(1 + log(1+ x))))^2 / 2.",
+  "id": "A351525",
+  "mentions": [
+    "A000268",
+    "A039815",
+    "A341587",
+    "A351513",
+    "A351526",
+    "A351527"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 2,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

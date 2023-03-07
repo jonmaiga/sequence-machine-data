@@ -1,0 +1,25 @@
+{
+  "description": "Expansion of e.g.f. log(1 + arctanh(x))*exp(-x).",
+  "id": "A297213",
+  "mentions": [
+    "A009337",
+    "A009356",
+    "A009374",
+    "A009393",
+    "A202139",
+    "A296439",
+    "A297209",
+    "A297210",
+    "A297211"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:17",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

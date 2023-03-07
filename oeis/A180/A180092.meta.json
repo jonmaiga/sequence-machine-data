@@ -1,0 +1,18 @@
+{
+  "description": "Denominators of Integral_{x=0..1} cos(log(x))^n dx.",
+  "id": "A180092",
+  "mentions": [
+    "A179984"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:03",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

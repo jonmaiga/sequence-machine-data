@@ -1,0 +1,23 @@
+{
+  "description": "Smallest divisor of n^2+1 >= sqrt(n^2+1).",
+  "id": "A259036",
+  "mentions": [
+    "A002522",
+    "A005574",
+    "A033677",
+    "A085722"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:17",
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

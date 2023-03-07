@@ -1,0 +1,20 @@
+{
+  "description": "Union of A143207 and A033847.",
+  "id": "A143204",
+  "mentions": [
+    "A033847",
+    "A143201",
+    "A143207",
+    "A195238"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:32",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

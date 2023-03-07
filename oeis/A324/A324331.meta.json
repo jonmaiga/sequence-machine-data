@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = (n-1)^2 - phi(n)*sigma(n), where phi is A000010 and sigma is A000203.",
+  "id": "A324331",
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A006881",
+    "A176881",
+    "A324332",
+    "A324333",
+    "A324334"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

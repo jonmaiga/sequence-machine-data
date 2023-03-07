@@ -1,0 +1,23 @@
+{
+  "description": "Restricted growth sequence transform of A278263(n) = A046523(A064413(n)), a filter based on the prime signature of EKG-sequence.",
+  "id": "A304113",
+  "mentions": [
+    "A046523",
+    "A064413",
+    "A064742",
+    "A065203",
+    "A278263",
+    "A304112",
+    "A304115"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:28",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Alternating sum along antidiagonals of the array of A129952 and its iterated differences.",
+  "id": "A130002",
+  "mentions": [
+    "A129952",
+    "A129953",
+    "A129954",
+    "A129955"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:01:26",
+    "offset": 0,
+    "size": 33,
+    "source": "joeis"
+  }
+}

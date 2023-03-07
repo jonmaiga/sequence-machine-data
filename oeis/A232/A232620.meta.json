@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that (2n)!! mod (2n-1)!! is greater than (2n+2)!! mod (2n+1)!!.",
+  "id": "A232620",
+  "mentions": [
+    "A006882",
+    "A232618"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Triangular array read by rows: d(h,k) = distance between h and k in the tree at A232558, for h >=0, k = 0..h.",
+  "id": "A257571",
+  "mentions": [
+    "A232558",
+    "A257569",
+    "A257570"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:15",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

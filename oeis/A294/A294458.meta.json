@@ -1,0 +1,22 @@
+{
+  "description": "E.g.f.: Product_{n>=1} (1 - x^(2*n-1))^(1/(2*n-1)).",
+  "id": "A294458",
+  "mentions": [
+    "A001227",
+    "A081362",
+    "A206303",
+    "A285069",
+    "A294459"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:12",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

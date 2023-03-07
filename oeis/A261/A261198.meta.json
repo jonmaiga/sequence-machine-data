@@ -1,0 +1,21 @@
+{
+  "description": "Start with n and repeat the map x -> x+sumdigits(x) until reaching a prime, which is a(n), or 0 if no prime is reached.",
+  "id": "A261198",
+  "mentions": [
+    "A000040",
+    "A001651",
+    "A008585",
+    "A154561"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:20",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

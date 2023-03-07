@@ -1,0 +1,31 @@
+{
+  "description": "Triangle read by rows: T(n,k) (0<=k<=n) is the number of labeled graphs having k blue nodes and n-k green ones and only nodes of different colors can be joined by an edge.",
+  "id": "A111636",
+  "mentions": [
+    "A000684",
+    "A001787",
+    "A007318",
+    "A011266",
+    "A038845",
+    "A047863",
+    "A111637",
+    "A134530",
+    "A134531",
+    "A140802",
+    "A191371",
+    "A224069"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-22 20:28:46",
+    "offset": 0,
+    "size": 55,
+    "source": "joeis"
+  }
+}

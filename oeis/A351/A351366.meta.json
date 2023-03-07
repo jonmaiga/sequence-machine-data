@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{p|n, p prime} p^p.",
+  "id": "A351366",
+  "mentions": [
+    "A001221",
+    "A351365"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:26",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Number of non-connected, unlabeled, antichain covers of {1..n} (vertex-connectivity 0).",
+  "id": "A327426",
+  "mentions": [
+    "A014466",
+    "A120338",
+    "A261005",
+    "A261006",
+    "A327354",
+    "A327355",
+    "A327359",
+    "A327424",
+    "A327437"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

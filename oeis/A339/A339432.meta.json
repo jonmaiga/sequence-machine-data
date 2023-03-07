@@ -1,0 +1,23 @@
+{
+  "description": "Number of compositions (ordered partitions) of n into an even number of distinct primes.",
+  "id": "A339432",
+  "mentions": [
+    "A000040",
+    "A184171",
+    "A219107",
+    "A332305",
+    "A339382",
+    "A339408",
+    "A339433"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:11",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Heinz numbers of integer partitions such that not every distinct submultiset has a different GCD but every distinct submultiset has a different LCM.",
+  "id": "A319328",
+  "mentions": [
+    "A056239",
+    "A275972",
+    "A299702",
+    "A301899",
+    "A301900",
+    "A302696",
+    "A319315",
+    "A319319",
+    "A319327"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

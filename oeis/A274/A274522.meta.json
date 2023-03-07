@@ -1,0 +1,19 @@
+{
+  "description": "Index of the smaller Ulam number of record gaps (A080287).",
+  "id": "A274522",
+  "mentions": [
+    "A002858",
+    "A080287",
+    "A080288"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

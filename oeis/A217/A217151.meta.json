@@ -1,0 +1,18 @@
+{
+  "description": "Number of sets of n unequal squares that tile a square in exactly two ways.",
+  "id": "A217151",
+  "mentions": [
+    "A217150"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

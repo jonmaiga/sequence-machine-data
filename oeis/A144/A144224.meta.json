@@ -1,0 +1,21 @@
+{
+  "description": "T(n,k) is the number of idempotent order-preserving full transformations (of an n-element chain) of waist k (waist(alpha) = max(Im(alpha))).",
+  "id": "A144224",
+  "mentions": [
+    "A000045",
+    "A001519",
+    "A001906"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-entry"
+  }
+}

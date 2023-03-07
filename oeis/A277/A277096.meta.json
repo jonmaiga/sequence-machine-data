@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that sin(k) < 0 and sin(k+2) < 0.",
+  "id": "A277096",
+  "mentions": [
+    "A277093",
+    "A277094",
+    "A277095"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

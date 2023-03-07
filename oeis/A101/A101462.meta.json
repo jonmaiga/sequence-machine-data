@@ -1,0 +1,17 @@
+{
+  "description": "Smallest k such that 2^k-prime(n) is prime.",
+  "id": "A101462",
+  "mentions": [
+    "A094076"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-entry"
+  }
+}

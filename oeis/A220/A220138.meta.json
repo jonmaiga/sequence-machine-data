@@ -1,0 +1,19 @@
+{
+  "description": "Denominator of the fraction of Fibonacci numbers divisible by n.",
+  "id": "A220138",
+  "mentions": [
+    "A000045",
+    "A220137"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:38",
+    "offset": 2,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

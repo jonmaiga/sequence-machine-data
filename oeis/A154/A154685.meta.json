@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows where T(m,n)=2mn+m+n+4",
+  "id": "A154685",
+  "mentions": [
+    "A089192",
+    "A151675",
+    "A153039",
+    "A155724"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:42:41",
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

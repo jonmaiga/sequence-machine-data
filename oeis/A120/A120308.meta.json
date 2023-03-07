@@ -1,0 +1,21 @@
+{
+  "description": "Numerator((p-1)*H(p-1))/p^2 for p = prime(n) > 3, where H(k) is k-th harmonic number A001008(k)/A002805(k).",
+  "id": "A120308",
+  "mentions": [
+    "A001008",
+    "A002805",
+    "A096617"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:09",
+    "offset": 3,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

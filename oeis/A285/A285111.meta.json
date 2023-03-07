@@ -1,0 +1,27 @@
+{
+  "description": "Permutation of nonnegative integers: a(1) = 0, a(2) = 1, a(A005117(1+n)) = 2*a(n), a(A065642(n)) = 1 + 2*a(n).",
+  "id": "A285111",
+  "mentions": [
+    "A005117",
+    "A008683",
+    "A013928",
+    "A065642",
+    "A243343",
+    "A243345",
+    "A277695",
+    "A284571",
+    "A285112",
+    "A285328"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:56",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

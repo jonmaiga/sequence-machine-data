@@ -1,0 +1,20 @@
+{
+  "description": "Decrement by 1 all digits > 1 in factorial base representation of n and then shift it one digit right.",
+  "id": "A266123",
+  "mentions": [
+    "A007623",
+    "A257684",
+    "A266193"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:26",
+    "offset": 0,
+    "size": 97,
+    "source": "oeis-bfile"
+  }
+}

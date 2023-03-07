@@ -1,0 +1,25 @@
+{
+  "description": "Smallest prime >= 6*n.",
+  "id": "A118755",
+  "mentions": [
+    "A002476",
+    "A007918",
+    "A008588",
+    "A060264",
+    "A060308",
+    "A118747",
+    "A118754"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

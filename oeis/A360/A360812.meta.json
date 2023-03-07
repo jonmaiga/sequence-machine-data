@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of Sum_{k>=0} ( x / (1 - (k * x)^2) )^k.",
+  "id": "A360812",
+  "mentions": [
+    "A339481",
+    "A360787"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

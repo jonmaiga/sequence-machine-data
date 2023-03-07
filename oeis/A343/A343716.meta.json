@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that k^2 divides 5^k - 4^k - 3^k.",
+  "id": "A343716",
+  "mentions": [
+    "A015616",
+    "A127074",
+    "A343115"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

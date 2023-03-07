@@ -1,0 +1,27 @@
+{
+  "description": "List of pairs: k followed by k^3.",
+  "id": "A126951",
+  "mentions": [
+    "A000463",
+    "A109588",
+    "A109594",
+    "A109614",
+    "A110001",
+    "A110003",
+    "A110008",
+    "A110485",
+    "A110622",
+    "A110650"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 17:50:15",
+    "offset": 1,
+    "size": 56,
+    "source": "joeis"
+  }
+}

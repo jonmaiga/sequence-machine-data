@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{k=0..n} (k*n)!/n!^k.",
+  "id": "A306241",
+  "mentions": [
+    "A034841",
+    "A120666",
+    "A221177"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-bfile"
+  }
+}

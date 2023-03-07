@@ -1,0 +1,20 @@
+{
+  "description": "Triangle giving number L(k,n) of isotopy classes of Latin rectangles.",
+  "id": "A162544",
+  "mentions": [
+    "A001009",
+    "A040082"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

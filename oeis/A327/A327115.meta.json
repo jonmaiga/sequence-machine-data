@@ -1,0 +1,19 @@
+{
+  "description": "Total number of colors used in all colored integer partitions of n using all colors of an initial interval of the color palette such that all parts have different color patterns and a pattern for part i has i distinct colors in increasing order.",
+  "id": "A327115",
+  "mentions": [
+    "A326914",
+    "A326962"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:54",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

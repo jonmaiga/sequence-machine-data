@@ -1,0 +1,21 @@
+{
+  "description": "Denominators of the convergents of the 2-adic continued fraction of zero given by A118830.",
+  "id": "A118832",
+  "mentions": [
+    "A080277",
+    "A118830",
+    "A118831"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

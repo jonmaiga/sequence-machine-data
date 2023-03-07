@@ -1,0 +1,18 @@
+{
+  "description": "The smallest integer a(n) = A producing primes for the first n values greater than 1 of floor((k^k)/A), k drawn from the positive integers.",
+  "id": "A230054",
+  "mentions": [
+    "A000040",
+    "A000312"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

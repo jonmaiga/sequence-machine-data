@@ -1,0 +1,19 @@
+{
+  "description": "Sum of products of factorials of parts times the factorial of the number of parts in all integer partitions of n.",
+  "id": "A160564",
+  "mentions": [
+    "A077365",
+    "A101880",
+    "A126787"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:42",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

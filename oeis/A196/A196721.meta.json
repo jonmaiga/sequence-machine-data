@@ -1,0 +1,22 @@
+{
+  "description": "Number of subsets of {1..n} (including empty set) such that the pairwise LCMs of elements are all distinct.",
+  "id": "A196721",
+  "mentions": [
+    "A143823",
+    "A196719",
+    "A196720",
+    "A196722",
+    "A196723",
+    "A196724"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:18",
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

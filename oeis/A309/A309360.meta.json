@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that the number of interior intersection points A091908(n) of the n-intersected triangle decreases when the subdivision of the triangle is refined from n-1 to n cutting line segments.",
+  "id": "A309360",
+  "mentions": [
+    "A091908",
+    "A092098",
+    "A309361"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

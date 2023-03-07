@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the Goldberg Zero-One constant A(4,1).",
+  "id": "A249188",
+  "mentions": [
+    "A249186",
+    "A249187"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:48:06",
+    "offset": 0,
+    "size": 102,
+    "source": "joeis"
+  }
+}

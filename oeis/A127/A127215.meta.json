@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = 3^n*tribonacci(n) or (3^n)*A001644(n+1).",
+  "id": "A127215",
+  "mentions": [
+    "A001644",
+    "A087131",
+    "A127210",
+    "A127211",
+    "A127212",
+    "A127213",
+    "A127214",
+    "A127216"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:15",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

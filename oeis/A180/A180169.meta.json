@@ -1,0 +1,21 @@
+{
+  "description": "Sigma(A180162(n)), where A180162(n) is the smallest N such that sigma(N) is an n-th power, or 0 if no such N can be found.",
+  "id": "A180169",
+  "mentions": [
+    "A000203",
+    "A065496",
+    "A180162"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:03",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "If n = abcd... in decimal, a(n) = |a^3 - b^3 + c^3 - d^3 + ...|.",
+  "id": "A351985",
+  "mentions": [
+    "A055012",
+    "A225693",
+    "A257588",
+    "A351877"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

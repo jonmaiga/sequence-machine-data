@@ -1,0 +1,19 @@
+{
+  "description": "Composite numbers k such that k - (number of prime factors of k, counted with multiplicity) is a prime.",
+  "id": "A158337",
+  "mentions": [
+    "A000040",
+    "A002808",
+    "A069345"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:40",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

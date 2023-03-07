@@ -1,0 +1,26 @@
+{
+  "description": "Number of times prime(n) occurs as the least prime factor among numbers 1 .. prime(n)^4: a(n) = A078898(A030514(n)).",
+  "id": "A250478",
+  "mentions": [
+    "A002110",
+    "A008683",
+    "A008836",
+    "A030078",
+    "A030514",
+    "A078898",
+    "A249822",
+    "A250474",
+    "A250477"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:07",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

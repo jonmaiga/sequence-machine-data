@@ -1,0 +1,28 @@
+{
+  "description": "Number of factorizations of n into factors > 1 where each factor has a different average of prime indices.",
+  "id": "A326516",
+  "mentions": [
+    "A001055",
+    "A038041",
+    "A051293",
+    "A112798",
+    "A321455",
+    "A321469",
+    "A322794",
+    "A326513",
+    "A326514",
+    "A326515",
+    "A326521",
+    "A326537"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows (n >= 4, 0 <= k <= n - 4): row n gives the coefficients in the expansion of ((x + 1)^n - (x^n + n*x^(n - 1) + n*x + 1))/x^2.",
+  "id": "A144394",
+  "mentions": [
+    "A007318",
+    "A024746",
+    "A052515",
+    "A144393"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 4,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

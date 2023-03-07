@@ -1,0 +1,20 @@
+{
+  "description": "Order of all-2s configuration on the 2n X 2n sandpile grid graph.",
+  "id": "A256043",
+  "mentions": [
+    "A065072",
+    "A256045",
+    "A256047"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

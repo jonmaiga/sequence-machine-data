@@ -1,0 +1,28 @@
+{
+  "description": "Numbers containing at least one prime digit.",
+  "id": "A118950",
+  "mentions": [
+    "A011531",
+    "A011540",
+    "A046034",
+    "A084984",
+    "A092620",
+    "A092624",
+    "A092625",
+    "A118951",
+    "A179336",
+    "A193238"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:08",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

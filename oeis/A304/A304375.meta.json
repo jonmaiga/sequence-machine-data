@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = 27*n^2/2 + 45*n/2 - 12 (n>=1).",
+  "id": "A304375",
+  "mentions": [
+    "A304374"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:12:15",
+    "offset": 1,
+    "size": 49,
+    "source": "joeis"
+  }
+}

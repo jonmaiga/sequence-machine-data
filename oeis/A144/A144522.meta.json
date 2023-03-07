@@ -1,0 +1,18 @@
+{
+  "description": "Sums of pairs of successive digits after the decimal point in the decimal expansion of 2^(1/2) = 1.41421356...",
+  "id": "A144522",
+  "mentions": [
+    "A002193"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

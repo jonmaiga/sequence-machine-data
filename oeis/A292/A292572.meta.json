@@ -1,0 +1,21 @@
+{
+  "description": "Lucas-Carmichael numbers whose Dedekind psi value is a cube.",
+  "id": "A292572",
+  "mentions": [
+    "A001615",
+    "A006972",
+    "A290793",
+    "A292571",
+    "A292573"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

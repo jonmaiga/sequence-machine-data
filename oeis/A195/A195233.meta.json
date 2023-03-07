@@ -1,0 +1,18 @@
+{
+  "description": "Number of lower triangles of a 3 X 3 0..n array with each element differing from all of its diagonal, vertical, antidiagonal and horizontal neighbors by one or less.",
+  "id": "A195233",
+  "mentions": [
+    "A195232"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:25:03",
+    "offset": 1,
+    "size": 44,
+    "source": "joeis"
+  }
+}

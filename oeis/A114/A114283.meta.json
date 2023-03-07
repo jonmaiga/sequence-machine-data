@@ -1,0 +1,24 @@
+{
+  "description": "Sequence array for binomial transform of Jacobsthal numbers A001045(n+1).",
+  "id": "A114283",
+  "mentions": [
+    "A000244",
+    "A001045",
+    "A015518",
+    "A025192",
+    "A114284"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:44:35",
+    "offset": 0,
+    "size": 66,
+    "source": "joeis"
+  }
+}

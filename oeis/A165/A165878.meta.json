@@ -1,0 +1,31 @@
+{
+  "description": "Number of disconnected 8-regular simple graphs on n vertices.",
+  "id": "A165878",
+  "mentions": [
+    "A014378",
+    "A033483",
+    "A068932",
+    "A068933",
+    "A165652",
+    "A165653",
+    "A165655",
+    "A165656",
+    "A165877",
+    "A180260",
+    "A185203",
+    "A185213",
+    "A185293"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

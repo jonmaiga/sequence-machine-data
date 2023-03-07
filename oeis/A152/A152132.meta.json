@@ -1,0 +1,22 @@
+{
+  "description": "Maximal length of rook tour on an n X n+1 board.",
+  "id": "A152132",
+  "mentions": [
+    "A006071",
+    "A087960",
+    "A152133",
+    "A152135"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:14:01",
+    "offset": 1,
+    "size": 41,
+    "source": "joeis"
+  }
+}

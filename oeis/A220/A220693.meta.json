@@ -1,0 +1,22 @@
+{
+  "description": "Irregular triangle where the k-th item in the n-th row (both starting from 1) tells in how many ways we can add 2 distinct integers from 1 to n in such a way that the sum is divisible by k. Row n has 2n-1 terms.",
+  "id": "A220693",
+  "mentions": [
+    "A003059",
+    "A061857",
+    "A071797",
+    "A220691"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:38",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

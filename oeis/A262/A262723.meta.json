@@ -1,0 +1,21 @@
+{
+  "description": "Products of three distinct primes that form an arithmetic progression.",
+  "id": "A262723",
+  "mentions": [
+    "A046389",
+    "A088595",
+    "A187073",
+    "A203614",
+    "A229094"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:22",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "Number of nonisomorphic semigroups of order n minus number of groups of order n.",
+  "id": "A186117",
+  "mentions": [
+    "A000001",
+    "A001329",
+    "A001423",
+    "A001426",
+    "A023814",
+    "A027851",
+    "A029851",
+    "A058108",
+    "A079173",
+    "A186116"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "hard",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Smallest semiprime (A001358) which is at the beginning of an arithmetic progression of n semiprimes whose largest term is as small as possible.",
+  "id": "A226834",
+  "mentions": [
+    "A001358",
+    "A096003",
+    "A097824",
+    "A226833"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of regular-faced convex polyhedra (excluding prisms and antiprisms) with exactly n types of faces.",
+  "id": "A299530",
+  "mentions": [
+    "A299114",
+    "A299529"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:34:23",
+    "offset": 1,
+    "size": 84,
+    "source": "joeis"
+  }
+}

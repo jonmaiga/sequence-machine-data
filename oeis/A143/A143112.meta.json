@@ -1,0 +1,23 @@
+{
+  "description": "A051731 * A032742 = sum of largest proper divisors of the divisors of n.",
+  "id": "A143112",
+  "mentions": [
+    "A032742",
+    "A051731",
+    "A127093",
+    "A300236",
+    "A305807",
+    "A305808"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:32",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

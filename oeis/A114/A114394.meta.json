@@ -1,0 +1,17 @@
+{
+  "description": "First differences of A114391.",
+  "id": "A114394",
+  "mentions": [
+    "A114391"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-entry"
+  }
+}

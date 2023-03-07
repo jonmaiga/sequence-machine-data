@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows in which row(n) = {T(n, k)} is the lexicographically earliest list of n numbers such that adding 1 to some T(n, k) gives a row of numbers each divisible by prime(k).",
+  "id": "A286947",
+  "mentions": [
+    "A002110",
+    "A075306",
+    "A258566",
+    "A286930"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Positions of records in A107058.",
+  "id": "A106172",
+  "mentions": [
+    "A074928",
+    "A107019",
+    "A107057",
+    "A107058",
+    "A107059"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

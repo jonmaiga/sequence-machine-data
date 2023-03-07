@@ -1,0 +1,36 @@
+{
+  "description": "a(n) is the period k such that binomial(m, n) (mod 10) = binomial(m + k, n) (mod 10).",
+  "id": "A174183",
+  "mentions": [
+    "A000096",
+    "A000124",
+    "A000292",
+    "A000330",
+    "A001477",
+    "A002024",
+    "A002378",
+    "A002415",
+    "A007318",
+    "A051942",
+    "A055998",
+    "A055999",
+    "A056000",
+    "A056115",
+    "A056119",
+    "A056121",
+    "A056126",
+    "A101859"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:58",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

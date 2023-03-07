@@ -1,0 +1,17 @@
+{
+  "description": "Number of (n+1)X(3+1) arrays of permutations of 0..n*3-1 with each element moved a city block distance of exactly 2.",
+  "id": "A263387",
+  "mentions": [
+    "A263389"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:23",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

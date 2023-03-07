@@ -1,0 +1,18 @@
+{
+  "description": "Primes of the form p*q-2, where p and q are distinct primes.",
+  "id": "A115093",
+  "mentions": [
+    "A049002",
+    "A063637"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

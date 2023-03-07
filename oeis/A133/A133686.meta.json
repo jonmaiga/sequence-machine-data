@@ -1,0 +1,28 @@
+{
+  "description": "Number of labeled n-node graphs with at most one cycle in each connected component.",
+  "id": "A133686",
+  "mentions": [
+    "A000272",
+    "A001858",
+    "A005703",
+    "A057500",
+    "A129137",
+    "A129271",
+    "A134964",
+    "A137352",
+    "A137916",
+    "A144228"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:21",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

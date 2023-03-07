@@ -1,0 +1,22 @@
+{
+  "description": "Primes p such that 2p + 3, 4p + 9, 3p + 2 and 9p + 8 are also primes.",
+  "id": "A176619",
+  "mentions": [
+    "A000040",
+    "A005602",
+    "A023242",
+    "A023246",
+    "A059762"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

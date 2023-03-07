@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = prevprime(2*n-1) - nextprime(n-1), where prevprime = A151799 and nextprime = A151800.",
+  "id": "A308022",
+  "mentions": [
+    "A151799",
+    "A151800"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 2,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

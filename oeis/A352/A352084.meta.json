@@ -1,0 +1,27 @@
+{
+  "description": "Integers m such that wt(m) divides wt(m^2) where wt(m) = A000120(m) is the binary weight of m.",
+  "id": "A352084",
+  "mentions": [
+    "A000079",
+    "A000120",
+    "A023758",
+    "A077436",
+    "A083567",
+    "A159918",
+    "A268415",
+    "A351650",
+    "A352085",
+    "A352086"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:26",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Least k > 1 such that n*(k*n-1) - 1 divides n^(k*n-1) - 1, or 0 if no such k exists.",
+  "id": "A273772",
+  "mentions": [
+    "A233415",
+    "A273727"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 2,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

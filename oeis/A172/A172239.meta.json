@@ -1,0 +1,21 @@
+{
+  "description": "Partial sums of primorial primes A018239.",
+  "id": "A172239",
+  "mentions": [
+    "A000040",
+    "A002110",
+    "A006862",
+    "A018239"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

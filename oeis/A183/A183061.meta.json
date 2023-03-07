@@ -1,0 +1,25 @@
+{
+  "description": "First differences of A183060.",
+  "id": "A183061",
+  "mentions": [
+    "A000695",
+    "A007582",
+    "A100702",
+    "A139250",
+    "A139251",
+    "A147582",
+    "A147610",
+    "A183060"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

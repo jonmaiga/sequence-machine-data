@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = Sum_{k=0..n} binomial(n, floor(k/2))*2^(n-k).",
+  "id": "A127358",
+  "mentions": [
+    "A000108",
+    "A054341",
+    "A061554",
+    "A107430",
+    "A126075"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:15",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

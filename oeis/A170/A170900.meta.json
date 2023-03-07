@@ -1,0 +1,18 @@
+{
+  "description": "Number of 2-generator groups of order 2^n.",
+  "id": "A170900",
+  "mentions": [
+    "A170901",
+    "A170902"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 3,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the index of the smallest Fibonacci n-step number with exactly n distinct prime factors.",
+  "id": "A359853",
+  "mentions": [
+    "A001221",
+    "A060320",
+    "A359850",
+    "A359851",
+    "A359852"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 2,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

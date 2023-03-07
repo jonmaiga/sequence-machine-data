@@ -1,0 +1,23 @@
+{
+  "description": "Numbers that are not practical (A237287) and have more divisors than any smaller number that is not practical.",
+  "id": "A335029",
+  "mentions": [
+    "A002182",
+    "A005153",
+    "A038547",
+    "A237287",
+    "A275239",
+    "A335008",
+    "A335030"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

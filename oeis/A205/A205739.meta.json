@@ -1,0 +1,18 @@
+{
+  "description": "Number of 4X(n+1) 0..2 arrays with every 2 X 2 subblock having the same number of clockwise edge increases as its horizontal neighbors and no 2 X 2 subblock having the same number of counterclockwise edge increases as its vertical neighbors.",
+  "id": "A205739",
+  "mentions": [
+    "A205736"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:26",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

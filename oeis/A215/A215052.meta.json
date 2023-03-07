@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = (binomial(n,5) - floor(n/5)) / 5.",
+  "id": "A215052",
+  "mentions": [
+    "A002620",
+    "A011851",
+    "A014125",
+    "A036837",
+    "A178904",
+    "A215053",
+    "A215054"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:28",
+    "offset": 6,
+    "size": 39,
+    "source": "joeis"
+  }
+}

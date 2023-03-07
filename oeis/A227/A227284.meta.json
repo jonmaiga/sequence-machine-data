@@ -1,0 +1,26 @@
+{
+  "description": "First primes of arithmetic progressions of 9 primes each with the common difference 210.",
+  "id": "A227284",
+  "mentions": [
+    "A001359",
+    "A023241",
+    "A023271",
+    "A094220",
+    "A156204",
+    "A227281",
+    "A227282",
+    "A227283",
+    "A227285",
+    "A227286"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

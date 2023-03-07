@@ -1,0 +1,20 @@
+{
+  "description": "Indices of Ulam prime triples, where u(k), u(k+1) and u(k+2) are all primes, and u(k) = A002858(k) are the Ulam numbers.",
+  "id": "A307330",
+  "mentions": [
+    "A002858",
+    "A068820",
+    "A307328",
+    "A307329"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:32",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Primes p where p + sumOfDigits(p) +- 3 is prime.",
+  "id": "A225659",
+  "mentions": [
+    "A000040",
+    "A007605",
+    "A030144",
+    "A068690",
+    "A069556",
+    "A091727",
+    "A156756"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "dumb",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Numbers that can be written as the sum of two Moran numbers (see A001101).",
+  "id": "A337861",
+  "mentions": [
+    "A001101",
+    "A005349",
+    "A337853"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

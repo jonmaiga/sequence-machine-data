@@ -1,0 +1,28 @@
+{
+  "description": "Prime gap pattern of compacting Eratosthenes sieve for prime(4) = 7.",
+  "id": "A236175",
+  "mentions": [
+    "A000040",
+    "A079047",
+    "A236176",
+    "A236177",
+    "A236178",
+    "A236179",
+    "A236180",
+    "A236185",
+    "A236190",
+    "A359632"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:38:35",
+    "offset": 1,
+    "size": 80,
+    "source": "joeis"
+  }
+}

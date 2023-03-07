@@ -1,0 +1,20 @@
+{
+  "description": "Sum over all partitions of n of the product of the number of parts and the number of distinct parts.",
+  "id": "A339011",
+  "mentions": [
+    "A093694",
+    "A096541",
+    "A339006",
+    "A339312"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:24",
+    "offset": 0,
+    "size": 41,
+    "source": "joeis"
+  }
+}

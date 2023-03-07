@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: reversed partial sums of Narayana triangle rows.",
+  "id": "A104710",
+  "mentions": [
+    "A000108",
+    "A001263"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

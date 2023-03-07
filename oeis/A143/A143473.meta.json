@@ -1,0 +1,21 @@
+{
+  "description": "Replace the leading digit d of n with 10-d (in decimal representation).",
+  "id": "A143473",
+  "mentions": [
+    "A000030",
+    "A217398"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:32",
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

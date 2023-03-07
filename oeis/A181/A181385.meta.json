@@ -1,0 +1,18 @@
+{
+  "description": "Maximal number that can be obtained by reversing n in an integer base.",
+  "id": "A181385",
+  "mentions": [
+    "A091974"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:04",
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

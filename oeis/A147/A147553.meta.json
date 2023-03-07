@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that k^2 divides k.k where dot \".\" means concatenation.",
+  "id": "A147553",
+  "mentions": [
+    "A147554",
+    "A243162"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:34",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "For odd prime p, largest k such that binomial(2p-1, p-1) is congruent to 1 modulo p^k.",
+  "id": "A244919",
+  "mentions": [
+    "A034602",
+    "A088164"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:50:41",
+    "offset": 2,
+    "size": 72,
+    "source": "joeis"
+  }
+}

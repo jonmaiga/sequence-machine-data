@@ -1,0 +1,26 @@
+{
+  "description": "Partition array for the number of representative bracelets (dihedral symmetry D_n) with n beads, each available in n colors. Only the color type (signature) matters.",
+  "id": "A213939",
+  "mentions": [
+    "A000041",
+    "A036036",
+    "A212355",
+    "A212359",
+    "A213938",
+    "A213940",
+    "A213941",
+    "A213943"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

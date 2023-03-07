@@ -1,0 +1,34 @@
+{
+  "description": "Number of distinct chromatic symmetric functions of simple connected graphs with n vertices.",
+  "id": "A321911",
+  "mentions": [
+    "A000110",
+    "A001187",
+    "A001349",
+    "A079457",
+    "A125702",
+    "A147878",
+    "A191970",
+    "A229048",
+    "A240936",
+    "A245883",
+    "A277203",
+    "A317631",
+    "A317632",
+    "A320921",
+    "A321750",
+    "A321751",
+    "A321895"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

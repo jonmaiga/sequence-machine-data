@@ -1,0 +1,19 @@
+{
+  "description": "17 followed by the base-18 Fermat numbers.",
+  "id": "A178424",
+  "mentions": [
+    "A000215"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

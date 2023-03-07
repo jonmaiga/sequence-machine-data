@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by columns: Column k is A014963 aerated with groups of (k-1) zeros.",
+  "id": "A140256",
+  "mentions": [
+    "A000027",
+    "A014963",
+    "A126988",
+    "A138618",
+    "A140255"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

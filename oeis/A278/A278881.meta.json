@@ -1,0 +1,26 @@
+{
+  "description": "Triangle where g.f. C = C(x,m) and related series S = S(x,m) and D = D(x,m) satisfy S = x*C*D, C = 1 + x*S*D, and D = 1 + m*x*S*C, as read by rows of coefficients T(n,k) of x^(2*n)*m^k in C(x,m) for n>=0, k=0..n.",
+  "id": "A278881",
+  "mentions": [
+    "A000108",
+    "A001764",
+    "A082680",
+    "A243863",
+    "A258314",
+    "A278880",
+    "A278882",
+    "A278884"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:45",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

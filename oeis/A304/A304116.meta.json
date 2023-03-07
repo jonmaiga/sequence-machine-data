@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that A304036(k) = 2.",
+  "id": "A304116",
+  "mentions": [
+    "A227157",
+    "A304036"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:28",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

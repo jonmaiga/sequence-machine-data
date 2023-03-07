@@ -1,0 +1,26 @@
+{
+  "description": "Decimal expansion of m(3) = Sum_{n>=0} 1/n!!!, the 3rd reciprocal multifactorial constant.",
+  "id": "A288055",
+  "mentions": [
+    "A007661",
+    "A143280",
+    "A288091",
+    "A288092",
+    "A288093",
+    "A288094",
+    "A288095",
+    "A288096"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:00",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "An eigensequence of the (L)-sieve transform (LST); LST(A)=A/2.",
+  "id": "A155506",
+  "mentions": [
+    "A000217",
+    "A152009"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "eigen",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

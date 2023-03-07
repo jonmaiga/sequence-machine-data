@@ -1,0 +1,30 @@
+{
+  "description": "If n is a square, a(n) = A000196(n), and for nonsquare n, let p be the smallest prime dividing the squarefree part of n. Divide n by p and multiply by the product of all smaller primes.",
+  "id": "A334870",
+  "mentions": [
+    "A000040",
+    "A000196",
+    "A002110",
+    "A019565",
+    "A225546",
+    "A252463",
+    "A334747",
+    "A334860",
+    "A334866",
+    "A334868",
+    "A334869",
+    "A334871",
+    "A334872"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:06",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

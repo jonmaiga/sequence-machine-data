@@ -1,0 +1,25 @@
+{
+  "description": "Number of n-digit cycles of length 3 under the Kaprekar map A151949",
+  "id": "A164735",
+  "mentions": [
+    "A151949",
+    "A164725",
+    "A164726",
+    "A164731",
+    "A164732",
+    "A164733",
+    "A164734",
+    "A164736"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:47",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

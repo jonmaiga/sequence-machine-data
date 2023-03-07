@@ -1,0 +1,22 @@
+{
+  "description": "Numbers which when seen in a mirror are primes (or 1), using calculator-style 7-segment numerals.",
+  "id": "A176356",
+  "mentions": [
+    "A000040",
+    "A008578",
+    "A080228",
+    "A080792"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Position of second occurrence of first n terms in A287108.",
+  "id": "A287996",
+  "mentions": [
+    "A287108"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

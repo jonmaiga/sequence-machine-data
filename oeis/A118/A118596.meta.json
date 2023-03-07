@@ -1,0 +1,27 @@
+{
+  "description": "Palindromes in base 5 (written in base 5).",
+  "id": "A118596",
+  "mentions": [
+    "A002113",
+    "A029952",
+    "A029965",
+    "A057148",
+    "A118594",
+    "A118595",
+    "A118597",
+    "A118598",
+    "A118599",
+    "A118600"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

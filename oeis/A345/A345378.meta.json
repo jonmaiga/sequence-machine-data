@@ -1,0 +1,22 @@
+{
+  "description": "Number of terms m <= n, where m is a term in A006497.",
+  "id": "A345378",
+  "mentions": [
+    "A006490",
+    "A006497",
+    "A108852",
+    "A130245",
+    "A345377"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:18",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

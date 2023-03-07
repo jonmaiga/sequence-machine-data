@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of Sum_{k>=0} k^4 * x^k/(1 - k * x).",
+  "id": "A349879",
+  "mentions": [
+    "A003101",
+    "A026898",
+    "A062809",
+    "A349855",
+    "A349878"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:24",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

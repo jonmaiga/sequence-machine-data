@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = floor( Pi^(n/3) ).",
+  "id": "A212464",
+  "mentions": [
+    "A102475",
+    "A102477",
+    "A212463"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:30",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

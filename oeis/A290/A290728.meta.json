@@ -1,0 +1,21 @@
+{
+  "description": "Analog of A084848, replacing \"quadratic residue\" (X^2) with \"value of X^2+X\".",
+  "id": "A290728",
+  "mentions": [
+    "A084848",
+    "A085635",
+    "A290727",
+    "A290731"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:05",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

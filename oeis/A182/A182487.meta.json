@@ -1,0 +1,25 @@
+{
+  "description": "Nextprime(F(n)) - prevprime(F(n)), where F(n) is the n-th Fibonacci number.",
+  "id": "A182487",
+  "mentions": [
+    "A013633",
+    "A014208",
+    "A058043",
+    "A058054",
+    "A079677",
+    "A161503",
+    "A180422"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:06",
+    "offset": 4,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

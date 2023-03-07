@@ -1,0 +1,26 @@
+{
+  "description": "Number of E-toothpicks (or tridents) added at n-th stage to the structure of the equilateral triangle of A220478.",
+  "id": "A220498",
+  "mentions": [
+    "A139250",
+    "A139251",
+    "A160121",
+    "A161329",
+    "A161330",
+    "A161331",
+    "A211974",
+    "A211976",
+    "A220478"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

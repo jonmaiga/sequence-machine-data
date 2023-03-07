@@ -1,0 +1,20 @@
+{
+  "description": "Beatty sequence of the real root of 2*x^5 - 9*x^4 + 13*x^3 - 11*x^2 + 5*x - 1; complement of A292987.",
+  "id": "A292988",
+  "mentions": [
+    "A108589",
+    "A187341",
+    "A292987"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

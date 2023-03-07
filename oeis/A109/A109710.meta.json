@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that the sum of the digits of pi(k)^prime(k) is divisible by k.",
+  "id": "A109710",
+  "mentions": [
+    "A007953"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Conjectured permutation of the positive integers; inverse of conjectured permutation A131388.",
+  "id": "A131390",
+  "mentions": [
+    "A131388",
+    "A131389",
+    "A131391",
+    "A131392",
+    "A131393",
+    "A131394",
+    "A131395",
+    "A131396",
+    "A131397"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

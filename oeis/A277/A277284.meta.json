@@ -1,0 +1,25 @@
+{
+  "description": "Prime-indexed primes p such that Fibonacci(p) is prime.",
+  "id": "A277284",
+  "mentions": [
+    "A000040",
+    "A000045",
+    "A006450",
+    "A083668",
+    "A122534",
+    "A277575"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

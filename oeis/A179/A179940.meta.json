@@ -1,0 +1,20 @@
+{
+  "description": "Number of times n appears in a 10 X 10 multiplication table.",
+  "id": "A179940",
+  "mentions": [
+    "A000005",
+    "A179941",
+    "A179942"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

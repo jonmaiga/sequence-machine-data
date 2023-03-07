@@ -1,0 +1,21 @@
+{
+  "description": "Number of ways to arrange n books on 3 consecutive shelves leaving none of the shelves empty.",
+  "id": "A200978",
+  "mentions": [
+    "A001754",
+    "A062119",
+    "A156992"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 19:58:20",
+    "offset": 3,
+    "size": 18,
+    "source": "joeis"
+  }
+}

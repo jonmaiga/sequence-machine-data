@@ -1,0 +1,26 @@
+{
+  "description": "With a(1) = 1, a(n) is the smallest number not already in the sequence such that the arithmetic mean of two neighboring terms is a cube.",
+  "id": "A259429",
+  "mentions": [
+    "A005408",
+    "A010057",
+    "A086517",
+    "A175428",
+    "A259260",
+    "A259537",
+    "A259542",
+    "A259565",
+    "A259603"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:17",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Successive digits of partition numbers A000041(n).",
+  "id": "A134690",
+  "mentions": [
+    "A000041"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-entry"
+  }
+}

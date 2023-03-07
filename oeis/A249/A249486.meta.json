@@ -1,0 +1,22 @@
+{
+  "description": "Nonprime numbers n such that sigma(n) + n is prime.",
+  "id": "A249486",
+  "mentions": [
+    "A000040",
+    "A000203",
+    "A005384",
+    "A018252",
+    "A078762"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Indicator function for A003144.",
+  "id": "A276793",
+  "mentions": [
+    "A003144",
+    "A080843",
+    "A276791",
+    "A276794",
+    "A276796",
+    "A276797",
+    "A276798"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 1,
+    "size": 98,
+    "source": "oeis-bfile"
+  }
+}

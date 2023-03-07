@@ -1,0 +1,19 @@
+{
+  "description": "a(0) = a(1) = 1. For n >=2, a(n) = sum a(k), where k is over the distinct values of the substrings in binary n, and where 0 <= k < n.",
+  "id": "A165417",
+  "mentions": [
+    "A119709",
+    "A165418"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

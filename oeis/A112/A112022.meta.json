@@ -1,0 +1,21 @@
+{
+  "description": "Number of partitions of n into distinct Chen primes.",
+  "id": "A112022",
+  "mentions": [
+    "A000586",
+    "A109611",
+    "A112020",
+    "A112021"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:02",
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

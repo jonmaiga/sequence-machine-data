@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the value of the node of the Collatz tree encoded by the number n (see Comments for precise definition).",
+  "id": "A319303",
+  "mentions": [
+    "A322521"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:41",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

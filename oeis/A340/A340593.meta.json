@@ -1,0 +1,21 @@
+{
+  "description": "a(0) = 0; for n > 0, if n appears in the sequence then a(n) = a(n-1) - lastindex(n) if nonnegative and not already in the sequence, otherwise a(n) = a(n-1) + lastindex(n), where lastindex(n) is the index of the last appearance of n. Otherwise a(n) = a(n-1) - n if nonnegative and not already in the sequence, otherwise a(n) = a(n-1) + n.",
+  "id": "A340593",
+  "mentions": [
+    "A005132",
+    "A336760",
+    "A336761",
+    "A339673",
+    "A340612"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

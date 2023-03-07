@@ -1,0 +1,32 @@
+{
+  "description": "Least image of A001222 applied to the prime indices of n.",
+  "id": "A340928",
+  "mentions": [
+    "A000079",
+    "A001222",
+    "A003963",
+    "A004277",
+    "A026794",
+    "A033844",
+    "A039900",
+    "A056239",
+    "A061395",
+    "A062447",
+    "A112798",
+    "A302540",
+    "A303975",
+    "A324522",
+    "A340610",
+    "A340691"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

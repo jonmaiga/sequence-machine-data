@@ -1,0 +1,18 @@
+{
+  "description": "Number of equivalence classes of Boolean functions, that is, maps from GF(2)^n to GF(2), where maps f and g are equivalent iff one can be obtained from the other by a combination of (i) permuting the variables, (ii) complementing the variables, (iii) mapping f(x) to f(x) + b.x + c for a binary vector b and a binary scalar c.",
+  "id": "A109003",
+  "mentions": [
+    "A001289"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

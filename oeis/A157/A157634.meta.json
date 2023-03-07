@@ -1,0 +1,22 @@
+{
+  "description": "Triangle T(n, k) = 1 if k = 0 or k = n, otherwise n^5 - k^5 - (n-k)^5, read by rows.",
+  "id": "A157634",
+  "mentions": [
+    "A000584",
+    "A006325",
+    "A006858"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-27 17:12:21",
+    "offset": 0,
+    "size": 55,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that S(24*(3*n-1)) <> 16*(3*n-1) mod 24*(3*n-1) where S(n) := sum_{0<=a",
+  "id": "A232057",
+  "mentions": [
+    "A230308",
+    "A230309",
+    "A230310",
+    "A232056"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

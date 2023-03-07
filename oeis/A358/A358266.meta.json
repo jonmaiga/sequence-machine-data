@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that the aliquot sequence of 2^k ends with the prime 7.",
+  "id": "A358266",
+  "mentions": [
+    "A000203",
+    "A127164",
+    "A358239"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of Sum_{k>=1} (-1 + Product_{j>=1} 1 / (1 - x^(k*prime(j)))).",
+  "id": "A329437",
+  "mentions": [
+    "A000607",
+    "A047966",
+    "A047968",
+    "A329438"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

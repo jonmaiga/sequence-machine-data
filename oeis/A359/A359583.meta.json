@@ -1,0 +1,22 @@
+{
+  "description": "Parity of A329697.",
+  "id": "A359583",
+  "mentions": [
+    "A000035",
+    "A329697",
+    "A359581",
+    "A359584",
+    "A359585"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:33",
+    "offset": 1,
+    "size": 121,
+    "source": "oeis-bfile"
+  }
+}

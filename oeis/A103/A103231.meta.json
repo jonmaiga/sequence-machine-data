@@ -1,0 +1,19 @@
+{
+  "description": "After the first two terms, each subsequent term is the smallest integer that is an outlier of the previous dataset, based on the criterion of 3 sample standard deviations above the mean.",
+  "id": "A103231",
+  "mentions": [
+    "A103232"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

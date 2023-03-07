@@ -1,0 +1,27 @@
+{
+  "description": "12-dimensional square numbers.",
+  "id": "A266561",
+  "mentions": [
+    "A000330",
+    "A002415",
+    "A005585",
+    "A040977",
+    "A050486",
+    "A053347",
+    "A054333",
+    "A054334",
+    "A057788"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:05:51",
+    "offset": 0,
+    "size": 28,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Smallest son factorial prime p of order n: smallest p such that p!/n-1 is prime.",
+  "id": "A139206",
+  "mentions": [
+    "A136019",
+    "A136020",
+    "A136026",
+    "A136027",
+    "A139074",
+    "A139189",
+    "A139198",
+    "A151900"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

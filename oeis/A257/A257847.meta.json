@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = floor(n/7) * (n mod 7).",
+  "id": "A257847",
+  "mentions": [
+    "A115273",
+    "A142150",
+    "A194757",
+    "A257844",
+    "A257850"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:40:33",
+    "offset": 0,
+    "size": 73,
+    "source": "joeis"
+  }
+}

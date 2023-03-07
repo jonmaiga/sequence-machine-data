@@ -1,0 +1,23 @@
+{
+  "description": "Permutation of {0, ..., 1023} corresponding to lexicographic ordering of numbers with decreasing digits (A009995). Inverse of A263327.",
+  "id": "A263328",
+  "mentions": [
+    "A009995",
+    "A262557",
+    "A263327",
+    "A263329",
+    "A263355"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:23",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

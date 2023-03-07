@@ -1,0 +1,21 @@
+{
+  "description": "G.f. A(x) satisfies A(A(A(A(x)))) = B(x) (4th self-COMPOSE of A) such that the coefficients of B(x) consist only of numbers {1,2,3,4}, with B(0) = 0.",
+  "id": "A112109",
+  "mentions": [
+    "A112104",
+    "A112107",
+    "A112108",
+    "A112110",
+    "A112127"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

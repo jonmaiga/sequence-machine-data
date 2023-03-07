@@ -1,0 +1,26 @@
+{
+  "description": "Filter combining prime signature of n (A101296) with Dedekind's psi (A001615).",
+  "id": "A295888",
+  "mentions": [
+    "A000027",
+    "A001615",
+    "A046523",
+    "A101296",
+    "A291750",
+    "A295300",
+    "A295880",
+    "A295887",
+    "A296090"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:14",
+    "offset": 1,
+    "size": 95,
+    "source": "oeis-bfile"
+  }
+}

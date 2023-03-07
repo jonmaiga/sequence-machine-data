@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 7^n - 6^n - 5^n - 4^n - 3^n - 2^n.",
+  "id": "A137789",
+  "mentions": [
+    "A000420",
+    "A001553"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 13:33:57",
+    "offset": 4,
+    "size": 18,
+    "source": "joeis"
+  }
+}

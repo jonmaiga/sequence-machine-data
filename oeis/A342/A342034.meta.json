@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of numbers k with n digits where k has digits in nondecreasing order and satisfies k < (product of digits of k) * (sum of digits of k).",
+  "id": "A342034",
+  "mentions": [
+    "A009994",
+    "A066310"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of summands in s-greedy sum of s(n), where s(n) = A000009(n) (strict partition numbers).",
+  "id": "A242259",
+  "mentions": [
+    "A000009",
+    "A241833",
+    "A242252",
+    "A242258"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 3,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

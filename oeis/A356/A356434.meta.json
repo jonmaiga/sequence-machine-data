@@ -1,0 +1,23 @@
+{
+  "description": "Prime nearest to 2^n. In case of a tie, choose the larger.",
+  "id": "A356434",
+  "mentions": [
+    "A014210",
+    "A014234",
+    "A117387",
+    "A226178",
+    "A340707"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "changed",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:30",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

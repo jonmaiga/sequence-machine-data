@@ -1,0 +1,23 @@
+{
+  "description": "Count down from n to 1, n times.",
+  "id": "A214651",
+  "mentions": [
+    "A000290",
+    "A002411",
+    "A036740",
+    "A056520",
+    "A060432"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:32",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that phi(n) + sigma(n) = reversal(n) + 4.",
+  "id": "A230004",
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A004086",
+    "A056712",
+    "A230005"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

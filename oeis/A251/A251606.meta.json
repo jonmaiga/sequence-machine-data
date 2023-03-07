@@ -1,0 +1,20 @@
+{
+  "description": "Let {d(i)}, i=1..q, be the set of the q prime distinct divisors of a number n, and consider the alternating sum s = Sum_{i=1..q} i*((-1)^(i+1))/d(i) and the product p = Product_{i=1..q} d(i) respectively. The sequence lists the composite numbers n such that s = 1/p.",
+  "id": "A251606",
+  "mentions": [
+    "A001248",
+    "A025475",
+    "A156592",
+    "A252044"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

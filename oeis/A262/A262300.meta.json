@@ -1,0 +1,25 @@
+{
+  "description": "Let S(n,k) denote the number formed by concatenating the decimal numbers 1,2,3,...,k, but omitting n; a(n) is the smallest k for which S(n,k) is prime, or -1 if no term in S(n,*) is prime.",
+  "id": "A262300",
+  "mentions": [
+    "A007908",
+    "A089987",
+    "A262298",
+    "A262299",
+    "A262571",
+    "A262575",
+    "A262582"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

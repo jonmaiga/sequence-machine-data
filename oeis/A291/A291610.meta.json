@@ -1,0 +1,18 @@
+{
+  "description": "Fixed points of permutations A291603 and A291604.",
+  "id": "A291610",
+  "mentions": [
+    "A291603",
+    "A291604"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:06",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of binary strings of length 2n which contain the ones' complements and the reversals of each of their two halves.",
+  "id": "A237502",
+  "mentions": [
+    "A237500",
+    "A237501"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

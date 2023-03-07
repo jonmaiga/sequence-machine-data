@@ -1,0 +1,21 @@
+{
+  "description": "Logarithmic derivative of the hyperfactorials (A002109).",
+  "id": "A219267",
+  "mentions": [
+    "A002109",
+    "A074962",
+    "A219266",
+    "A219268"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

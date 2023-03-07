@@ -1,0 +1,24 @@
+{
+  "description": "All positive integer moduli a(n) for which the congruence x^2 == -5 (mod a(n)) is solvable for integer x (representatives from {0, 1, ..., a(n)-1}); ordered increasingly.",
+  "id": "A343238",
+  "mentions": [
+    "A139513",
+    "A240920",
+    "A343239",
+    "A343240",
+    "A344231",
+    "A344232"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

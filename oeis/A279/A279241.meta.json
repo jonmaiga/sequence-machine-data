@@ -1,0 +1,20 @@
+{
+  "description": "Let f(n) = 4*n^2 + 2*n + 41. The values |f(n)| are primes for all n in the range -20 to 19 (but not for n=-21 or 20). The sequence lists this maximal run of primes in the order in which they appear.",
+  "id": "A279241",
+  "mentions": [
+    "A005846",
+    "A014556",
+    "A145096"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

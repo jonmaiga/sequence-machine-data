@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = (1/n!)*Sum_{k=0..n} Stirling1(n,k)*A062208(k).",
+  "id": "A136245",
+  "mentions": [
+    "A062208",
+    "A121251"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:24",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

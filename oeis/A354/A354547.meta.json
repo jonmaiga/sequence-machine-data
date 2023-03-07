@@ -1,0 +1,19 @@
+{
+  "description": "Least number k <= n such that sopfr(k) = sopfr(n).",
+  "id": "A354547",
+  "mentions": [
+    "A001414",
+    "A056240",
+    "A064364"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:29",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

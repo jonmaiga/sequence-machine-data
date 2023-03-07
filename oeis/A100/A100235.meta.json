@@ -1,0 +1,22 @@
+{
+  "description": "Triangle, read by rows, of the coefficients of [x^k] in G100234(x)^n such that the row sums are 6^n-1 for n>0, where G100234(x) is the g.f. of A100234.",
+  "id": "A100235",
+  "mentions": [
+    "A100232",
+    "A100234",
+    "A100236",
+    "A100237"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Define a family of integer sequences S_0, S_1, S_2, ..., where S_0 = A000040 is the sequence of prime numbers and, for each k > 0, S_k is the result of making a \"smoothing\" pass through all the terms of S_(k-1) as follows: for every term other than the first, in ascending order, change its value by the minimum amount so that it will not differ from the mean of its two immediate neighbors by more than 1/2. {a(n)} is the limiting sequence S_oo.",
+  "id": "A358533",
+  "mentions": [
+    "A000040"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

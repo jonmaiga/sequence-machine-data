@@ -1,0 +1,17 @@
+{
+  "description": "Prime numbers p such that p-b < p-a < p < p+a < p+b are prime for some a and b.",
+  "id": "A137670",
+  "mentions": [
+    "A071681"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Triangle read by rows: greatest common divisors of pairs of Fibonacci numbers greater than 1: T(n, k) = gcd(Fibonacci(n), Fibonacci(k)).",
+  "id": "A106740",
+  "mentions": [
+    "A000012",
+    "A000045",
+    "A010125",
+    "A060904",
+    "A061347",
+    "A093148",
+    "A131534"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:58",
+    "offset": 3,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

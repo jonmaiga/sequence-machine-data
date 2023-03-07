@@ -1,0 +1,20 @@
+{
+  "description": "Minimum number of unit faces required to construct n unit cubes.",
+  "id": "A118659",
+  "mentions": [
+    "A117227",
+    "A270205"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

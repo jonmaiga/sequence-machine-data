@@ -1,0 +1,21 @@
+{
+  "description": "Period length of the decimal expansion of 1/p as p runs through the prime numbers of the form n^2+1 (0 by convention for the primes 2 and 5).",
+  "id": "A247585",
+  "mentions": [
+    "A002371",
+    "A002496",
+    "A060282",
+    "A175550"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

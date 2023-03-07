@@ -1,0 +1,19 @@
+{
+  "description": "Number of tilings of a 9 X n rectangle using 3n trominoes of shape I.",
+  "id": "A251073",
+  "mentions": [
+    "A236577",
+    "A251072"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:08",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

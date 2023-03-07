@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the smallest k > 0 for which there exists a root quad (-k,x,y,z) such that some bend is first repeated in the n-th generation of descendants (by Descartes reflection).",
+  "id": "A265495",
+  "mentions": [
+    "A042944",
+    "A045864",
+    "A261410"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

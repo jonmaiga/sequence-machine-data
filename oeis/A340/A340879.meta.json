@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of K4 = 7/Pi^3 * Product_{primes p == 1 (mod 4)} (1 - 4/(p+1)^2).",
+  "id": "A340879",
+  "mentions": [
+    "A340857",
+    "A340878"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "E.g.f. satisfies: A(x) = 1 + x*Sum_{n>=0} log(A(n*x))^n / n!.",
+  "id": "A221100",
+  "mentions": [
+    "A221101"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

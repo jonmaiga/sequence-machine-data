@@ -1,0 +1,22 @@
+{
+  "description": "Numerator of the first convergent to sqrt(n) using the recursion x = (n/x + x)/2.",
+  "id": "A145051",
+  "mentions": [
+    "A000217",
+    "A026741",
+    "A040001"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:53:05",
+    "offset": 1,
+    "size": 74,
+    "source": "joeis"
+  }
+}

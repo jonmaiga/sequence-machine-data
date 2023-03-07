@@ -1,0 +1,21 @@
+{
+  "description": "Indices of prime tribonacci numbers (A100683).",
+  "id": "A232543",
+  "mentions": [
+    "A001590",
+    "A100683",
+    "A231574",
+    "A231575",
+    "A232542"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

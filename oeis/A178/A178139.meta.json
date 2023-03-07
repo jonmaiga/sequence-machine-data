@@ -1,0 +1,19 @@
+{
+  "description": "Distance between n and the next number with the same number of prime factors (counted with multiplicity).",
+  "id": "A178139",
+  "mentions": [
+    "A001222",
+    "A176884"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 2,
+    "size": 79,
+    "source": "oeis-entry"
+  }
+}

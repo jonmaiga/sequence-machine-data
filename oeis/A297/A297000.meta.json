@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that A296992(k) = 1.",
+  "id": "A297000",
+  "mentions": [
+    "A000594",
+    "A063938",
+    "A296992"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

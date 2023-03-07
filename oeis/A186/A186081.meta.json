@@ -1,0 +1,19 @@
+{
+  "description": "Number of binary relations R on {1,2,...,n} such that the transitive closure of R is the trivial relation.",
+  "id": "A186081",
+  "mentions": [
+    "A002416"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

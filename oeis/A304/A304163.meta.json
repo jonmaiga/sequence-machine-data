@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = 9*n^2 - 3*n + 1 with n>0.",
+  "id": "A304163",
+  "mentions": [
+    "A000290",
+    "A002061",
+    "A003215",
+    "A304164"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:12:15",
+    "offset": 1,
+    "size": 40,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Number of compositions (ordered partitions) of n into two or more triangular numbers.",
+  "id": "A348529",
+  "mentions": [
+    "A000217",
+    "A010054",
+    "A023361",
+    "A347805",
+    "A348526",
+    "A348528"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:29",
+    "offset": 0,
+    "size": 44,
+    "source": "joeis"
+  }
+}

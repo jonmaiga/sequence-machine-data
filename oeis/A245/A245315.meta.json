@@ -1,0 +1,19 @@
+{
+  "description": "Concatenate n-th composite number with concatenation of its prime factors in ascending order.",
+  "id": "A245315",
+  "mentions": [
+    "A002808",
+    "A245316"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:01",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

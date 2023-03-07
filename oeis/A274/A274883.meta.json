@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows, T(n,k) = 2^k*binomial(n,k)*A057977(n-k) for n>=0 and 0<=k<=n.",
+  "id": "A274883",
+  "mentions": [
+    "A000079",
+    "A057977",
+    "A077587",
+    "A091894",
+    "A189912"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

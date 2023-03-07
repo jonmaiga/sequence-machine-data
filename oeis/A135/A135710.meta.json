@@ -1,0 +1,20 @@
+{
+  "description": "Positive integers b such that more than one prime factor p of b attains the maximum of (p-1)*v_p(b) where v_p(b) is the valuation of b at p.",
+  "id": "A135710",
+  "mentions": [
+    "A011371",
+    "A027868",
+    "A054861"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:23",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of primes in level n of the tree generated at A234960.",
+  "id": "A234961",
+  "mentions": [
+    "A234960",
+    "A234962"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Smallest of three consecutive primes whose sum is a triangular number.",
+  "id": "A226148",
+  "mentions": [
+    "A076304",
+    "A167788",
+    "A206279",
+    "A226145",
+    "A226146",
+    "A226147",
+    "A226149",
+    "A226150"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

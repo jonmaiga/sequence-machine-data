@@ -1,0 +1,18 @@
+{
+  "description": "a(1) = 1, for n>=2, a(n) = B(2*n-1, n), where B(n, x) is the Bernoulli polynomial.",
+  "id": "A292830",
+  "mentions": [
+    "A291897"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

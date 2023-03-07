@@ -1,0 +1,19 @@
+{
+  "description": "Primes with at least one digit appearing exactly three times in the decimal expansion.",
+  "id": "A161848",
+  "mentions": [
+    "A161786",
+    "A161796"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

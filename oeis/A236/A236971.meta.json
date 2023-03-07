@@ -1,0 +1,21 @@
+{
+  "description": "Number of partitions of n into at least 4 parts from which we can form every partition of n into 4 parts by summing elements.",
+  "id": "A236971",
+  "mentions": [
+    "A000041",
+    "A126796",
+    "A236970",
+    "A236972"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

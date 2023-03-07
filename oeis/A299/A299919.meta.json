@@ -1,0 +1,24 @@
+{
+  "description": "Motzkin numbers (A001006) mod 4.",
+  "id": "A299919",
+  "mentions": [
+    "A001006",
+    "A039963",
+    "A039964",
+    "A258710",
+    "A258711",
+    "A258712",
+    "A299918",
+    "A299920"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:24",
+    "offset": 0,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

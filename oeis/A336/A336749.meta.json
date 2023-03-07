@@ -1,0 +1,25 @@
+{
+  "description": "Number of circular arrangements of the first n positive integers such that adjacent terms have absolute difference 1 or 4.",
+  "id": "A336749",
+  "mentions": [
+    "A017899",
+    "A071984",
+    "A079977",
+    "A090460",
+    "A107929",
+    "A108658",
+    "A272259"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 16:33:42",
+    "offset": 5,
+    "size": 49,
+    "source": "joeis"
+  }
+}

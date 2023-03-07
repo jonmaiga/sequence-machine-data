@@ -1,0 +1,26 @@
+{
+  "description": "Shift one instance of the largest prime one step towards smaller primes: a(1) = 1, a(2^n) = 2^(n-1), and for other numbers: a(n) = (n / prime(g)) * prime(g-1), where g = A061395(n), index of the greatest prime dividing n.",
+  "id": "A252462",
+  "mentions": [
+    "A001222",
+    "A008578",
+    "A052126",
+    "A056239",
+    "A061395",
+    "A064989",
+    "A209229",
+    "A252461",
+    "A252735"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:10",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

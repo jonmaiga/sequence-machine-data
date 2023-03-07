@@ -1,0 +1,20 @@
+{
+  "description": "Number of trees with n unlabeled nodes such that all nodes of degree >2 lie on a single path.",
+  "id": "A277796",
+  "mentions": [
+    "A000055",
+    "A130131",
+    "A277795"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

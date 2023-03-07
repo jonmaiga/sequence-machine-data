@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = m*(m+1)/n, where A344005(n) is the smallest number m such that n divides m*(m+1).",
+  "id": "A344006",
+  "mentions": [
+    "A011772",
+    "A061782",
+    "A344005"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:17",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

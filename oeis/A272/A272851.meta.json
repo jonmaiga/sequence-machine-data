@@ -1,0 +1,21 @@
+{
+  "description": "Number of distinct nonzero Fibonacci numbers among the contiguous substrings of the binary digits of n.",
+  "id": "A272851",
+  "mentions": [
+    "A000045",
+    "A078822",
+    "A272852",
+    "A272886"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

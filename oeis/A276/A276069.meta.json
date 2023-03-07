@@ -1,0 +1,20 @@
+{
+  "description": "Zero terms of A276034.",
+  "id": "A276069",
+  "mentions": [
+    "A276034"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "description": "Triangular matrix T, read by rows, where row n equals row (n-1) of T^(n-1) after appending '1' for the main diagonal.",
+  "id": "A101479",
+  "mentions": [
+    "A101481",
+    "A101482",
+    "A101483",
+    "A101484",
+    "A107862",
+    "A107867",
+    "A107870",
+    "A107873",
+    "A107876",
+    "A304184",
+    "A304185",
+    "A304186",
+    "A304187"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:52",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

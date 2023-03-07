@@ -1,0 +1,20 @@
+{
+  "description": "Number of binary sequences of length n containing exactly one subsequence 010.",
+  "id": "A118430",
+  "mentions": [
+    "A005314",
+    "A118429",
+    "A255386"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:08",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

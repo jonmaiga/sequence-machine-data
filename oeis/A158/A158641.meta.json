@@ -1,0 +1,22 @@
+{
+  "description": "Strong primes p: adding 2 to any one digit of p produces a prime number (no digits 8 & 9 in p)",
+  "id": "A158641",
+  "mentions": [
+    "A050249",
+    "A158124",
+    "A158125"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

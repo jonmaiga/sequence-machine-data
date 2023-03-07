@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the Y-coordinate of the point at n steps backward from the origine along the H-order curve defined in A334232; sequence A334235 gives X-coordinates.",
+  "id": "A334236",
+  "mentions": [
+    "A334232",
+    "A334235"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:05",
+    "offset": 0,
+    "size": 77,
+    "source": "oeis-bfile"
+  }
+}

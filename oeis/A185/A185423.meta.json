@@ -1,0 +1,24 @@
+{
+  "description": "Ordered forests of k increasing plane unary-binary trees with n nodes.",
+  "id": "A185423",
+  "mentions": [
+    "A019538",
+    "A080635",
+    "A185415",
+    "A185421",
+    "A185422"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

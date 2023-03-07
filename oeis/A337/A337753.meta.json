@@ -1,0 +1,20 @@
+{
+  "description": "The number of n-digit numbers which are divisible by 3 and where all decimal digits are odd.",
+  "id": "A337753",
+  "mentions": [
+    "A057079"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 01:07:11",
+    "offset": 1,
+    "size": 24,
+    "source": "joeis"
+  }
+}

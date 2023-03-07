@@ -1,0 +1,25 @@
+{
+  "description": "Numbers k such that k^3 divides 9^(k^2) + 1.",
+  "id": "A128682",
+  "mentions": [
+    "A127263",
+    "A128677",
+    "A128678",
+    "A128679",
+    "A128680",
+    "A128681",
+    "A128683",
+    "A128684",
+    "A128685"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

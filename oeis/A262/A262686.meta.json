@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = largest number k such that k - d(k) = n, or 0 if no such number exists, where d(n) = the number of divisors of n (A000005).",
+  "id": "A262686",
+  "mentions": [
+    "A000005",
+    "A002183",
+    "A049820",
+    "A060990",
+    "A082284",
+    "A261100",
+    "A262511",
+    "A262512"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:22",
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

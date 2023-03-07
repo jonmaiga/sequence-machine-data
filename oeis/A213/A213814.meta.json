@@ -1,0 +1,17 @@
+{
+  "description": "Primes that are sums of three, five and seven consecutive primes.",
+  "id": "A213814",
+  "mentions": [
+    "A211170"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:31",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

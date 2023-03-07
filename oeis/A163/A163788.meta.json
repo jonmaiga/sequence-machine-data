@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the n-th J_8-prime (Josephus_8 prime).",
+  "id": "A163788",
+  "mentions": [
+    "A163782",
+    "A163787",
+    "A163789",
+    "A163800"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

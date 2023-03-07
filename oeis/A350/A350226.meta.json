@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the length of the longest sequence of distinct numbers in arithmetic progression in the interval 0..n, ending with n and where the Thue-Morse sequence (A010060) is constant.",
+  "id": "A350226",
+  "mentions": [
+    "A005346",
+    "A010060",
+    "A342818",
+    "A342827",
+    "A350235",
+    "A350285"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:24",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

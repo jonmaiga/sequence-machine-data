@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that d(k-1) > d(k) > d(k+1) where d(k) is the number of divisors of k.",
+  "id": "A188598",
+  "mentions": [
+    "A000005",
+    "A075029",
+    "A188631"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:13",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

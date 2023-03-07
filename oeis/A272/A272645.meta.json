@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = largest term in row n of array in A272644.",
+  "id": "A272645",
+  "mentions": [
+    "A272644"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:37",
+    "offset": 2,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

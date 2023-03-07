@@ -1,0 +1,23 @@
+{
+  "description": "Number of trailing 0's in tribonacci representation of n (cf. A278038).",
+  "id": "A278045",
+  "mentions": [
+    "A058265",
+    "A080843",
+    "A278038",
+    "A278042",
+    "A278043",
+    "A278044"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:44",
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

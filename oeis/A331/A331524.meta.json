@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the least positive k such that A006686(n) - k^8 is an eighth power.",
+  "id": "A331524",
+  "mentions": [
+    "A001016",
+    "A006686",
+    "A331435"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:01",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

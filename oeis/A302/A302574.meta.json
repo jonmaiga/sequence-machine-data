@@ -1,0 +1,21 @@
+{
+  "description": "Primitive unitary abundant numbers (definition 2): unitary abundant numbers (A034683) having no unitary abundant proper unitary divisor.",
+  "id": "A302574",
+  "mentions": [
+    "A034448",
+    "A034683",
+    "A091191",
+    "A129487",
+    "A302573"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:26",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

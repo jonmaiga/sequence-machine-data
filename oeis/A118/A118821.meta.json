@@ -1,0 +1,26 @@
+{
+  "description": "2-adic continued fraction of zero, where a(n) = 2 if n is odd, -A006519(n/2) otherwise.",
+  "id": "A118821",
+  "mentions": [
+    "A006519",
+    "A038712",
+    "A080277",
+    "A100338",
+    "A118822",
+    "A118823",
+    "A118824",
+    "A118827",
+    "A118830"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "cofr",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:08",
+    "offset": 1,
+    "size": 96,
+    "source": "oeis-bfile"
+  }
+}

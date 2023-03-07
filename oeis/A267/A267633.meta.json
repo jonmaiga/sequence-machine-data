@@ -1,0 +1,32 @@
+{
+  "description": "Expansion of (1 - 4t)/(1 - x + t x^2): a Fibonacci-type sequence of polynomials.",
+  "id": "A267633",
+  "mentions": [
+    "A000108",
+    "A000297",
+    "A008574",
+    "A008586",
+    "A011973",
+    "A022088",
+    "A034856",
+    "A084103",
+    "A098474",
+    "A124644",
+    "A140882",
+    "A202241",
+    "A228785"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

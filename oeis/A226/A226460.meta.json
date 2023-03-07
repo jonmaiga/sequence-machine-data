@@ -1,0 +1,20 @@
+{
+  "description": "Let m! have prime factorization Product (p_j^e_j); a(n) = number of distinct prime factors p_j such that e_j = n has no solution for any m!.",
+  "id": "A226460",
+  "mentions": [
+    "A000142",
+    "A048247",
+    "A115627"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

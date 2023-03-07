@@ -1,0 +1,18 @@
+{
+  "description": "Number of zeros of sin(x^2) in integer intervals starting with (0,1).",
+  "id": "A154392",
+  "mentions": [
+    "A032616"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "changed",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:27:49",
+    "offset": 1,
+    "size": 69,
+    "source": "joeis"
+  }
+}

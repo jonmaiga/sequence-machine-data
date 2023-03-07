@@ -1,0 +1,18 @@
+{
+  "description": "Integers m that belong to Lucas sequences U(P1,Q1) and V(P2,Q2) with P1, P2 > 0 both different from m, |Q1|=|Q2|=1.",
+  "id": "A218995",
+  "mentions": [
+    "A218994"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

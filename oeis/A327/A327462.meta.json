@@ -1,0 +1,22 @@
+{
+  "description": "Number of holes in decimal expansion of n-th prime.",
+  "id": "A327462",
+  "mentions": [
+    "A035103",
+    "A064692",
+    "A249572",
+    "A250256",
+    "A327820"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:55",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

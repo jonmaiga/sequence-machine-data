@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that prime(n) +- n, prime(n) +- 2n and prime(n) +- 3n are all primes.",
+  "id": "A113567",
+  "mentions": [
+    "A064403",
+    "A112530"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

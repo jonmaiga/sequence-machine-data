@@ -1,0 +1,43 @@
+{
+  "description": "Total sum A(n,k) of k-th powers of parts in all partitions of n; square array A(n,k), n>=0, k>=0, read by antidiagonals.",
+  "id": "A213191",
+  "mentions": [
+    "A000004",
+    "A000012",
+    "A006128",
+    "A052548",
+    "A066183",
+    "A066186",
+    "A066633",
+    "A213180",
+    "A229325",
+    "A229326",
+    "A229327",
+    "A229328",
+    "A229329",
+    "A229330",
+    "A229331",
+    "A229332",
+    "A229354",
+    "A229355",
+    "A229356",
+    "A229357",
+    "A229358",
+    "A229359",
+    "A229360",
+    "A229361",
+    "A252761"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:31",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

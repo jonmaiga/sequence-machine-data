@@ -1,0 +1,22 @@
+{
+  "description": "A090040 mod 9.",
+  "id": "A154529",
+  "mentions": [
+    "A029898",
+    "A090040",
+    "A146501",
+    "A153130"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:16:29",
+    "offset": 0,
+    "size": 102,
+    "source": "joeis"
+  }
+}

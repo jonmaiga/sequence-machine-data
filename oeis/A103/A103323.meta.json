@@ -1,0 +1,30 @@
+{
+  "description": "Square array T(n,k) read by antidiagonals: powers of Fibonacci numbers.",
+  "id": "A103323",
+  "mentions": [
+    "A000045",
+    "A007598",
+    "A056570",
+    "A056571",
+    "A056572",
+    "A056573",
+    "A056574",
+    "A100399",
+    "A105317",
+    "A244003",
+    "A254719"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:54",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

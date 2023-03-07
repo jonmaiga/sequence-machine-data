@@ -1,0 +1,19 @@
+{
+  "description": "Number of simple connected graphs with n nodes that are non-integral and have no subgraph isomorphic to diamond graph.",
+  "id": "A243563",
+  "mentions": [
+    "A241842",
+    "A242790"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

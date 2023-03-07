@@ -1,0 +1,20 @@
+{
+  "description": "Imaginary part of the arithmetic derivative for the triangle of Gaussian integers z = r + i*I, with r >= 0 and i >= 0.",
+  "id": "A218855",
+  "mentions": [
+    "A099379",
+    "A099380",
+    "A218854"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:36",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

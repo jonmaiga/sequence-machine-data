@@ -1,0 +1,29 @@
+{
+  "description": "Number of partitions of partitions of n where all partitions have the same sum.",
+  "id": "A305551",
+  "mentions": [
+    "A000005",
+    "A000041",
+    "A001315",
+    "A001970",
+    "A007716",
+    "A038041",
+    "A055887",
+    "A063834",
+    "A271619",
+    "A289078",
+    "A298422",
+    "A306017"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:30",
+    "offset": 0,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

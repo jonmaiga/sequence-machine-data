@@ -1,0 +1,21 @@
+{
+  "description": "Numbers x whose digits can be permuted to produce a multiple of x.",
+  "id": "A245680",
+  "mentions": [
+    "A008919",
+    "A096092",
+    "A096093",
+    "A245682"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:01",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

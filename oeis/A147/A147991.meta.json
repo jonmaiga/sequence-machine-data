@@ -1,0 +1,26 @@
+{
+  "description": "Sequence S such that 1 is in S and if x is in S, then 3x-1 and 3x+1 are in S.",
+  "id": "A147991",
+  "mentions": [
+    "A006288",
+    "A030300",
+    "A168542",
+    "A191106",
+    "A191108",
+    "A306556",
+    "A307744",
+    "A351243",
+    "A360099"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:34",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

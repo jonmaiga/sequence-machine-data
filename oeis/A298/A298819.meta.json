@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the period of the oscillating pattern formed by a 1 X n line of cells in the Life-like cellular automaton B2c3-cekq4ikt5i8/S2-in3-acky4aijry5eiky6i, or 0 if the pattern vanishes.",
+  "id": "A298819",
+  "mentions": [
+    "A000918",
+    "A003558",
+    "A160657",
+    "A268754"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

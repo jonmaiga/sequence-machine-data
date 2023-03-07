@@ -1,0 +1,19 @@
+{
+  "description": "Number of 2 X 2 matrices with entries in {-n,..,0,..,n} with no entries repeated having permanent = trace^n.",
+  "id": "A280844",
+  "mentions": [
+    "A278902",
+    "A278933",
+    "A279018"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:49",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

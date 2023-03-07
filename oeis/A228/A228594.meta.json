@@ -1,0 +1,20 @@
+{
+  "description": "Triangle T(n,k,r,u) read by rows: number of partitions of an n X k X r rectangular cuboid on a cubic grid into integer-sided cubes containing u nodes that are unconnected to any of their neighbors, considering only the number of parts; irregular triangle T(n,k,r,u), n >= k >= r >= 1, u >= 0.",
+  "id": "A228594",
+  "mentions": [
+    "A225542",
+    "A228202",
+    "A228726"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:45",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

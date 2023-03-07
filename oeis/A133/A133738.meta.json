@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of product of 3rd order mock theta function phi(q) and Ramanujan theta function f(-q) in powers of q.",
+  "id": "A133738",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A010054",
+    "A010815",
+    "A053250",
+    "A121373"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:27",
+    "offset": 0,
+    "size": 78,
+    "source": "joeis"
+  }
+}

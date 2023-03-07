@@ -1,0 +1,18 @@
+{
+  "description": "Set m = 0, n = 1. Find smallest k >= 2 such that pi(k) = (k-pi(k)) - (m-pi(m)); set a(n) = pi(k), m = k, n = n+1. Repeat.",
+  "id": "A131872",
+  "mentions": [
+    "A000720",
+    "A062298"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

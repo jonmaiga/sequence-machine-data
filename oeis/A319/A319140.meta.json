@@ -1,0 +1,22 @@
+{
+  "description": "Total number of binary digits in all partitions of n into distinct parts.",
+  "id": "A319140",
+  "mentions": [
+    "A000009",
+    "A070939",
+    "A318756",
+    "A319142",
+    "A347060"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:41",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

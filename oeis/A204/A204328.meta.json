@@ -1,0 +1,18 @@
+{
+  "description": "Number of cubic graphs on 2n nodes with nontrivial automorphism group.",
+  "id": "A204328",
+  "mentions": [
+    "A002851"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 2,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

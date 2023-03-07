@@ -1,0 +1,20 @@
+{
+  "description": "Stufe of Q(sqrt(-n)): least number of squares which add to -1 in the field Q(sqrt(-n)).",
+  "id": "A227782",
+  "mentions": [
+    "A227781",
+    "A227783"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 93,
+    "source": "oeis-bfile"
+  }
+}

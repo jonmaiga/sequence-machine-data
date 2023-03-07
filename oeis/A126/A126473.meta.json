@@ -1,0 +1,42 @@
+{
+  "description": "Number of strings over a 5 symbol alphabet with adjacent symbols differing by three or less.",
+  "id": "A126473",
+  "mentions": [
+    "A000244",
+    "A000351",
+    "A001834",
+    "A003947",
+    "A007483",
+    "A015448",
+    "A015530",
+    "A048473",
+    "A053220",
+    "A055099",
+    "A057960",
+    "A086347",
+    "A108851",
+    "A108981",
+    "A111567",
+    "A123347",
+    "A126392",
+    "A152187",
+    "A154244",
+    "A154964",
+    "A179596",
+    "A179597",
+    "A179598",
+    "A179602"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 23:40:23",
+    "offset": 0,
+    "size": 24,
+    "source": "joeis"
+  }
+}

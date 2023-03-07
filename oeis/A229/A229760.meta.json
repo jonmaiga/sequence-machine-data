@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of 25 - 10*sqrt(5).",
+  "id": "A229760",
+  "mentions": [
+    "A094874",
+    "A187426",
+    "A187798",
+    "A187799"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:47:29",
+    "offset": 1,
+    "size": 104,
+    "source": "joeis"
+  }
+}

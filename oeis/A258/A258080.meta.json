@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = ((n concatenated with n+1) + (n+1 concatenated with n)) mod n*(n+1).",
+  "id": "A258080",
+  "mentions": [
+    "A001704"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:16",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

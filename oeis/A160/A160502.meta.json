@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the (finite) value of Sum_{ k >= 1, k has only a single zero digit in base 2 } 1/k.",
+  "id": "A160502",
+  "mentions": [
+    "A030130",
+    "A140502"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

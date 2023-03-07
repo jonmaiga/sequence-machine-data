@@ -1,0 +1,22 @@
+{
+  "description": "Semi-sums (average) of two (not necessarily distinct) Mersenne primes (A000668).",
+  "id": "A169628",
+  "mentions": [
+    "A000217",
+    "A000668",
+    "A171251",
+    "A171253",
+    "A171254"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:53",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

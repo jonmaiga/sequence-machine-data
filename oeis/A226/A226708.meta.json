@@ -1,0 +1,21 @@
+{
+  "description": "Least number k such that 6^(2^i) + k is prime for i = 0,1,..,n-1.",
+  "id": "A226708",
+  "mentions": [
+    "A129613",
+    "A225560",
+    "A226281",
+    "A226707"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

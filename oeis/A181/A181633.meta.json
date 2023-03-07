@@ -1,0 +1,21 @@
+{
+  "description": "Irregular triangle read by rows, where row n contains the pairs [q,q'] of all compositions n=q+q' with q,q'>0 and q == q' (mod 3).",
+  "id": "A181633",
+  "mentions": [
+    "A008611",
+    "A181634"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 2,
+    "size": 102,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of a = f(1) = f(2) with function f(x) from A109087.",
+  "id": "A109089",
+  "mentions": [
+    "A109086",
+    "A109087",
+    "A109088",
+    "A109090"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

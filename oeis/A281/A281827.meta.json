@@ -1,0 +1,18 @@
+{
+  "description": "Least number k such that k is the sum of two primes in exactly n ways, where both primes are of the form x^2 + y^2, or -1 if no such k exists.",
+  "id": "A281827",
+  "mentions": [
+    "A001172",
+    "A002313"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

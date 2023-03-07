@@ -1,0 +1,20 @@
+{
+  "description": "Least index m such that the five numbers 2*prime(m+k) + 3^n, k=0 to 4, are five consecutive primes.",
+  "id": "A159922",
+  "mentions": [
+    "A089009",
+    "A102810",
+    "A102811"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

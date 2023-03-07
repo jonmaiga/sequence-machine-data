@@ -1,0 +1,24 @@
+{
+  "description": "For any number n with binary expansion Sum_{k >= 0} b(k) * 2^k, the binary expansion of a(n) is Sum_{k >= 0} floor((b(k) + b(k+1) + b(k+2))/2) * 2^k.",
+  "id": "A342697",
+  "mentions": [
+    "A048715",
+    "A048730",
+    "A048733",
+    "A342698",
+    "A342700"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:15",
+    "offset": 0,
+    "size": 77,
+    "source": "oeis-bfile"
+  }
+}

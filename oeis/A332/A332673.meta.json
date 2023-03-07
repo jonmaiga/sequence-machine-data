@@ -1,0 +1,33 @@
+{
+  "description": "Triangle read by rows where T(n,k) is the number of length-k ordered set partitions of {1..n} whose non-adjacent blocks are pairwise increasing.",
+  "id": "A332673",
+  "mentions": [
+    "A000670",
+    "A001523",
+    "A007052",
+    "A056242",
+    "A072704",
+    "A097805",
+    "A107429",
+    "A227038",
+    "A328509",
+    "A332280",
+    "A332283",
+    "A332288",
+    "A332577",
+    "A332724",
+    "A332872"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "changed",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

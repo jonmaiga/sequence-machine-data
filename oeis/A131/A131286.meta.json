@@ -1,0 +1,20 @@
+{
+  "description": "First Russian version of A131744.",
+  "id": "A131286",
+  "mentions": [
+    "A131287",
+    "A131744"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "more",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

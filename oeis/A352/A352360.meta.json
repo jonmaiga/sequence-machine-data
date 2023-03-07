@@ -1,0 +1,25 @@
+{
+  "description": "Three-column array giving list of primitive triples for integer-sided triangles with A < B < C < 2*Pi/3 and such that FA, FB, FC are also integers where F is the Fermat point of the triangle.",
+  "id": "A352360",
+  "mentions": [
+    "A336328",
+    "A336333",
+    "A351476",
+    "A351477",
+    "A351801",
+    "A351802",
+    "A351803"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

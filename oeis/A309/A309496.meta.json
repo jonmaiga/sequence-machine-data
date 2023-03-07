@@ -1,0 +1,21 @@
+{
+  "description": "a(1) = 1, a(2) = 3, a(3) = a(4) = a(6) = 6, a(5) = 2, a(7) = 4; a(n) = a(n-a(n-4)) + a(n-a(n-5)) for n > 7.",
+  "id": "A309496",
+  "mentions": [
+    "A244477",
+    "A309492",
+    "A309494"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:10:53",
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

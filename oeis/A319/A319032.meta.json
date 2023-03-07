@@ -1,0 +1,19 @@
+{
+  "description": "Length of segments delimited by the letter \"u\" when the sequence is spelled out in French.",
+  "id": "A319032",
+  "mentions": [
+    "A230763",
+    "A243992"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

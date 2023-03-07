@@ -1,0 +1,24 @@
+{
+  "description": "Sprague-Grundy value for the Node-Kayles game played on the n-queens graph.",
+  "id": "A344227",
+  "mentions": [
+    "A000170",
+    "A002186",
+    "A002562",
+    "A036464",
+    "A316533",
+    "A316632",
+    "A316781"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

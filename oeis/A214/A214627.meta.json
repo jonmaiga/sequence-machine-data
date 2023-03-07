@@ -1,0 +1,21 @@
+{
+  "description": "Primes in A161671.",
+  "id": "A214627",
+  "mentions": [
+    "A000040",
+    "A141468",
+    "A161671",
+    "A220220"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:32",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

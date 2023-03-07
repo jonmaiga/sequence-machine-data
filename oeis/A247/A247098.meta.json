@@ -1,0 +1,20 @@
+{
+  "description": "Smallest prime p that generates n different primes if it is inserted into p itself.",
+  "id": "A247098",
+  "mentions": [
+    "A250311",
+    "A250312"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

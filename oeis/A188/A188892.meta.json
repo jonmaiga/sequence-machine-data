@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that there is no triangular n-gonal number greater than 1.",
+  "id": "A188892",
+  "mentions": [
+    "A051682",
+    "A051870",
+    "A059100",
+    "A188891",
+    "A188896",
+    "A188950"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:13",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

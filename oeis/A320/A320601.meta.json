@@ -1,0 +1,22 @@
+{
+  "description": "Exponents of powers of two having a digit zero in decimal.",
+  "id": "A320601",
+  "mentions": [
+    "A000079",
+    "A007377",
+    "A027870",
+    "A055641"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

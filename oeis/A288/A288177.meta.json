@@ -1,0 +1,22 @@
+{
+  "description": "Maximum number of vertices of any convex polygon formed by drawing all line segments connecting any two lattice points of an n X m convex lattice polygon in the plane written as triangle T(n,m), n >= 1, 1 <= m <= n.",
+  "id": "A288177",
+  "mentions": [
+    "A288178",
+    "A288179",
+    "A288180",
+    "A288181",
+    "A288187"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 171,
+    "source": "oeis-entry"
+  }
+}

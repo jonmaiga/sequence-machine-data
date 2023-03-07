@@ -1,0 +1,24 @@
+{
+  "description": "Irregular triangle read by rows: period lengths of periods of primitive Zagier-reduced binary quadratic forms with discriminants D(n) = A079896(n).",
+  "id": "A257006",
+  "mentions": [
+    "A079896",
+    "A087048",
+    "A225953",
+    "A257003",
+    "A257004",
+    "A257005"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

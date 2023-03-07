@@ -1,0 +1,27 @@
+{
+  "description": "Heinz numbers of integer partitions whose average is a prime number.",
+  "id": "A316520",
+  "mentions": [
+    "A000040",
+    "A000041",
+    "A000607",
+    "A056239",
+    "A067538",
+    "A078175",
+    "A100118",
+    "A237984",
+    "A296150",
+    "A316313",
+    "A316413"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

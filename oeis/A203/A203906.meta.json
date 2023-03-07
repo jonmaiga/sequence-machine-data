@@ -1,0 +1,20 @@
+{
+  "description": "Array: row n shows the coefficients of the characteristic polynomial of the n-th principal submatrix of A203905.",
+  "id": "A203906",
+  "mentions": [
+    "A166516",
+    "A202605",
+    "A203905"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2022-05-02 20:58:53",
+    "offset": 1,
+    "size": 57,
+    "source": "joeis"
+  }
+}

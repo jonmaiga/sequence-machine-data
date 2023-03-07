@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that F(n) divides F(F(n)), where F(n) is a Fibonacci number.",
+  "id": "A127787",
+  "mentions": [
+    "A000045",
+    "A007570",
+    "A023172",
+    "A263101"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

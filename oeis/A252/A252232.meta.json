@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = smallest prime q where exactly n primes p exist such that p < q and q^(p-1) == 1 (mod p^2), i.e., smallest prime base q having exactly n Wieferich primes less than q.",
+  "id": "A252232",
+  "mentions": [
+    "A175932",
+    "A222206",
+    "A252582"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

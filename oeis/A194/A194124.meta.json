@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = Sum_{k=0..floor(n/2)} (C(n+2,k) - C(n+2,k+2)).",
+  "id": "A194124",
+  "mentions": [
+    "A194123"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

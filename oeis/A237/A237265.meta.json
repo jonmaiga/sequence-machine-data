@@ -1,0 +1,28 @@
+{
+  "description": "Irregular table: n X n matrices (n=1,2,3,...), read by rows filled with numbers 1..n, with k moved to the front in the k-th row.",
+  "id": "A237265",
+  "mentions": [
+    "A000330",
+    "A030298",
+    "A074279",
+    "A121997",
+    "A237447",
+    "A237450",
+    "A237451",
+    "A237452",
+    "A238013"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:54",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Look left and tell the least frequent: after a(0) = 0, a(n) = 10c + d, where c > 0 is the number of times the least frequent digit d has appeared so far; smallest d in case of tie.",
+  "id": "A329447",
+  "mentions": [
+    "A005150",
+    "A045918",
+    "A139097",
+    "A139282",
+    "A329448"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

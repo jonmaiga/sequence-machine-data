@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of Sum_{k>=1} (-1 + Product_{j>=1} 1 / (1 - x^(k*j^2))).",
+  "id": "A329439",
+  "mentions": [
+    "A001156",
+    "A047966",
+    "A047968"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

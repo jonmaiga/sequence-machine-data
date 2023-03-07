@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that 10^n is not of the form m + sum of digits of m.",
+  "id": "A232491",
+  "mentions": [
+    "A062028",
+    "A232489",
+    "A232490"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:50",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

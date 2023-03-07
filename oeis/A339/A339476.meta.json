@@ -1,0 +1,24 @@
+{
+  "description": "Numbers at the start of a run of exactly 3 consecutive primes that are Sophie Germain primes.",
+  "id": "A339476",
+  "mentions": [
+    "A005384",
+    "A128825",
+    "A338700",
+    "A339474",
+    "A339475",
+    "A339477",
+    "A339478"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:11",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

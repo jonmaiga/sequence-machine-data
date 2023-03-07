@@ -1,0 +1,26 @@
+{
+  "description": "Triangle U, read by rows, where column k of U^(j+1) = column j of P^(3k+1) for j>=0, k>=0 and P=A136220.",
+  "id": "A136228",
+  "mentions": [
+    "A136217",
+    "A136218",
+    "A136220",
+    "A136221",
+    "A136225",
+    "A136229",
+    "A136230",
+    "A136231"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the smallest positive divisor of Product_{k=1..n} d(k) that does not yet occur in the sequence, where d(k) is the number of positive divisors of k.",
+  "id": "A175334",
+  "mentions": [
+    "A066843"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

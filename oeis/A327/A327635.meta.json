@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that both k and k+1 are infinitary abundant numbers (A129656).",
+  "id": "A327635",
+  "mentions": [
+    "A049417",
+    "A096399",
+    "A127666",
+    "A129656",
+    "A292704",
+    "A318167"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:55",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

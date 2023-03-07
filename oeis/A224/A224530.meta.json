@@ -1,0 +1,18 @@
+{
+  "description": "Sequence F_n from a paper by Robert Osburn and Brundaban Sahu.",
+  "id": "A224530",
+  "mentions": [
+    "A224529"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the smallest number k such that f(k) = f(n) + f(n+1) and g(k) = g(n) + g(n+1), where f(n) (resp. g(n)) is the number of halving (resp. tripling) steps to reach 1 in the Collatz ('3x+1') problem.",
+  "id": "A277365",
+  "mentions": [
+    "A006666",
+    "A006667"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

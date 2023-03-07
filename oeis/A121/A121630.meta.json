@@ -1,0 +1,21 @@
+{
+  "description": "Finite sum involving signless Stirling numbers of the first kind and the Bell numbers. Appears in the process of normal ordering of n-th power of (a)^3*(a+*a), where a+ and a are boson creation and annihilation operators, respectively.",
+  "id": "A121630",
+  "mentions": [
+    "A002720",
+    "A121629",
+    "A121631",
+    "A239301"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 14:41:43",
+    "offset": 0,
+    "size": 17,
+    "source": "joeis"
+  }
+}

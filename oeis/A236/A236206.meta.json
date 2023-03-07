@@ -1,0 +1,25 @@
+{
+  "description": "Numbers not divisible by 3, 5 or 7.",
+  "id": "A236206",
+  "mentions": [
+    "A000079",
+    "A007775",
+    "A008364",
+    "A160545",
+    "A229829",
+    "A235933",
+    "A236217"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:38:37",
+    "offset": 1,
+    "size": 62,
+    "source": "joeis"
+  }
+}

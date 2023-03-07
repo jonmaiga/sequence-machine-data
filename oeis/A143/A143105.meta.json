@@ -1,0 +1,17 @@
+{
+  "description": "Let g_0(x,y)=x, g_1(x,y)=x^3+3xy and g_{n+2}(x,y) = (x^2+2y)g_{n+1}(x+y)-y^2g_n(x,y). The entries of the sequence are those odd d for which g_d(x,y) and cx^jy^kg_m(x,y) have at least two terms in common (same coefficients) for some c > 0 and integers j,k and such that g_d(x,y) + cx^jy^k(1+y^m - g_m(x,y)) has all positive coefficients.",
+  "id": "A143105",
+  "mentions": [
+    "A143106"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Total number of parts k in all partitions of n such that k does not divide n.",
+  "id": "A209313",
+  "mentions": [
+    "A006128",
+    "A089251"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:28",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

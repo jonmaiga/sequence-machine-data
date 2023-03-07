@@ -1,0 +1,18 @@
+{
+  "description": "Matching number of the n-odd graph.",
+  "id": "A301560",
+  "mentions": [
+    "A301557"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

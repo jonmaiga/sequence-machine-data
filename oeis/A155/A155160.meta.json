@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = 2^n * (n + 3)!!.",
+  "id": "A155160",
+  "mentions": [
+    "A000079",
+    "A006882"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:37",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

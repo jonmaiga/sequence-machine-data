@@ -1,0 +1,20 @@
+{
+  "description": "Dirichlet convolution of Moebius function mu(n) (A008683) with Ternary numbers A001764.",
+  "id": "A251662",
+  "mentions": [
+    "A001764",
+    "A008683",
+    "A034742"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 19:14:20",
+    "offset": 1,
+    "size": 26,
+    "source": "joeis"
+  }
+}

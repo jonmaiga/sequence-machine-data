@@ -1,0 +1,23 @@
+{
+  "description": "Cubes c^3 that are equal to the sum of m^3 consecutive cubes starting at b^3 with b (A253778) for m^3 not divisible by 3 (A118719).",
+  "id": "A253780",
+  "mentions": [
+    "A001651",
+    "A118719",
+    "A240970",
+    "A253778",
+    "A253779"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:12",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 3^(n-1)*(6*3^(n-1) + 5) + 1.",
+  "id": "A169725",
+  "mentions": [
+    "A100702",
+    "A169720",
+    "A169727"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:53",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

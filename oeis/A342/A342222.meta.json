@@ -1,0 +1,24 @@
+{
+  "description": "a(n) is the smallest m such that a regular m-gon with all diagonals drawn contains a cell with n sides, or a(n) = -1 if no such m exists.",
+  "id": "A342222",
+  "mentions": [
+    "A007569",
+    "A007678",
+    "A135565",
+    "A331450",
+    "A331451",
+    "A341729",
+    "A341730"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 3,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

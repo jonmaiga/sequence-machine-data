@@ -1,0 +1,25 @@
+{
+  "description": "7-Kaprekar numbers.",
+  "id": "A333133",
+  "mentions": [
+    "A006886",
+    "A037042",
+    "A053394",
+    "A053395",
+    "A053396",
+    "A053397"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

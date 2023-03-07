@@ -1,0 +1,18 @@
+{
+  "description": "Number of nX3 0..1 arrays with no element equal to more than three of its king-move neighbors, with the exception of exactly two elements, and with new values introduced in order 0 sequentially upwards.",
+  "id": "A281160",
+  "mentions": [
+    "A281165"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:49",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

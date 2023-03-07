@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that (prime(k) mod 5) == 2 (mod 3).",
+  "id": "A244741",
+  "mentions": [
+    "A024707",
+    "A039703",
+    "A049509",
+    "A244735",
+    "A244738",
+    "A244739"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:00",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

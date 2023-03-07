@@ -1,0 +1,24 @@
+{
+  "description": "Irregular triangular array T(n, k) giving in row n the base of the Ferrers diagram of the k-th partition of n into distinct parts. The partitions of n are taken in Abramowitz-Stegun order but with decreasing parts. T(n, k) is the smallest part of the k-th partition of n into distinct parts.",
+  "id": "A277230",
+  "mentions": [
+    "A000009",
+    "A003056",
+    "A036036",
+    "A092265",
+    "A277231"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 136,
+    "source": "oeis-entry"
+  }
+}

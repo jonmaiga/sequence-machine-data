@@ -1,0 +1,26 @@
+{
+  "description": "Divisors of Descarte's 198585576189.",
+  "id": "A222262",
+  "mentions": [
+    "A000396",
+    "A033870",
+    "A033871",
+    "A058007",
+    "A174292",
+    "A222263",
+    "A222264"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:40",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

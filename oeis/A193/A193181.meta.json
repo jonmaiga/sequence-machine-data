@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = lcm(f(1),f(2),...,f(n)) with f(x) = x^2+1.",
+  "id": "A193181",
+  "mentions": [
+    "A002313",
+    "A002522",
+    "A003418"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

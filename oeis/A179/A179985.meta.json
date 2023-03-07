@@ -1,0 +1,20 @@
+{
+  "description": "Numbers N such that {A028334(2), ..., A028334(K)} = {1,...,N} for some K >= 2, where A028334(k) = (prime(k+1) - prime(k))/2.",
+  "id": "A179985",
+  "mentions": [
+    "A000101",
+    "A000230",
+    "A028334",
+    "A187779"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

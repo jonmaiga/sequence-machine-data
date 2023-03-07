@@ -1,0 +1,32 @@
+{
+  "description": "Number of spanning trees in the k_1 X ... X k_j grid graph, where (k_1 - 1, ..., k_j - 1) is the partition with Heinz number n.",
+  "id": "A338832",
+  "mentions": [
+    "A001353",
+    "A003696",
+    "A003753",
+    "A003779",
+    "A006237",
+    "A006238",
+    "A007341",
+    "A067518",
+    "A071763",
+    "A116469",
+    "A139400",
+    "A334002",
+    "A334003",
+    "A334004",
+    "A334005"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:11",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "a(1)=2; thereafter a(n) is obtained by applying Eric Angelini's remove-repeated-digits map, x->A320486(x), to n*a(n-1), stopping when 0 is reached.",
+  "id": "A321009",
+  "mentions": [
+    "A320485",
+    "A320486",
+    "A321008"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Primes p such that both p-1 and p+1 are in A093641.",
+  "id": "A343973",
+  "mentions": [
+    "A093641"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

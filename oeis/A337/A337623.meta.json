@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the least positive multiple of 2*n-1 containing only the digits 0 and 1 in base n.",
+  "id": "A337623",
+  "mentions": [
+    "A337624"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

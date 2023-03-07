@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of tan(Pi/16).",
+  "id": "A343060",
+  "mentions": [
+    "A232737",
+    "A232738",
+    "A343057"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:59:41",
+    "offset": 0,
+    "size": 116,
+    "source": "joeis"
+  }
+}

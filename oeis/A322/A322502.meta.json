@@ -1,0 +1,17 @@
+{
+  "description": "Number of tilings of a 9 X n rectangle using V (2m+1)-ominoes (m >= 0) in standard orientation.",
+  "id": "A322502",
+  "mentions": [
+    "A322494"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:45",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

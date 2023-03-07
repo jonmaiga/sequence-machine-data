@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that the concave polygon formed by the trajectory of n in the \"3n+1\" problem and the straight line between the coordinate points (0,n) and (r,1) where r is the number of iterations needed to reach 1 is not a self-intersecting polygon.",
+  "id": "A266796",
+  "mentions": [
+    "A000079",
+    "A006577",
+    "A265687"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Sum of neighbor maps: number of nX4 binary arrays indicating the locations of corresponding elements equal to the sum mod 4 of their horizontal, vertical and antidiagonal neighbors in a random 0..3 nX4 array",
+  "id": "A222447",
+  "mentions": [
+    "A222448"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:40",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

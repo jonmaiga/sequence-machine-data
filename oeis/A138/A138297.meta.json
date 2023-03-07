@@ -1,0 +1,18 @@
+{
+  "description": "Rows of triangle A138060 converge to this sequence.",
+  "id": "A138297",
+  "mentions": [
+    "A138060"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

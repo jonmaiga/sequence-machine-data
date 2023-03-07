@@ -1,0 +1,17 @@
+{
+  "description": "a(1) = 0. If a(n-1) is a first occurrence, a(n) = A000120(a(n-1)). Otherwise, if a(n-1) is a repeat of a prior terms, a(n) = number of indices j < n such that a(j) = a(n-1).",
+  "id": "A359384",
+  "mentions": [
+    "A000120"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

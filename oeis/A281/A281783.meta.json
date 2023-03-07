@@ -1,0 +1,18 @@
+{
+  "description": "a(n)=index of first term of n-th run of consecutive terms in arithmetic progression in A281579.",
+  "id": "A281783",
+  "mentions": [
+    "A281579"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:51",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

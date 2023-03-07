@@ -1,0 +1,24 @@
+{
+  "description": "Number of positive integers <= n that are expressible in the form u^2+v^2, with u and v integers.",
+  "id": "A102548",
+  "mentions": [
+    "A000161",
+    "A000691",
+    "A001481",
+    "A064533",
+    "A227158",
+    "A229062"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:53",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Primes p such that the sum of the cubes of digits of p equals the sum of digits of p^3.",
+  "id": "A291052",
+  "mentions": [
+    "A000040",
+    "A000578",
+    "A030078",
+    "A165551",
+    "A235398",
+    "A290972"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

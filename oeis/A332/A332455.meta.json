@@ -1,0 +1,25 @@
+{
+  "description": "Starting from sigma(n)+1, number of tripling steps to reach 1 in '3x+1' problem, or -1 if 1 is never reached.",
+  "id": "A332455",
+  "mentions": [
+    "A000203",
+    "A006667",
+    "A088580",
+    "A202274",
+    "A324294",
+    "A332453",
+    "A332454",
+    "A332459"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:01",
+    "offset": 1,
+    "size": 96,
+    "source": "oeis-bfile"
+  }
+}

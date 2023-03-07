@@ -1,0 +1,23 @@
+{
+  "description": "Sum of the largest parts in the partitions of n into 4 prime parts.",
+  "id": "A308774",
+  "mentions": [
+    "A010051",
+    "A259194",
+    "A308771",
+    "A308772",
+    "A308773",
+    "A308809"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

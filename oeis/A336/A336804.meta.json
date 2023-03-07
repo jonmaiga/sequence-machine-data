@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = (n!)^2 * Sum_{k=0..n} 2^(n-k) / (k!)^2.",
+  "id": "A336804",
+  "mentions": [
+    "A006040",
+    "A010844",
+    "A228513",
+    "A336805",
+    "A336807",
+    "A336808"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

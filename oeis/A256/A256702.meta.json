@@ -1,0 +1,21 @@
+{
+  "description": "Nonpositive part of the minimal alternating binary representation of n (defined at A256696).",
+  "id": "A256702",
+  "mentions": [
+    "A073122",
+    "A256696",
+    "A256701"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

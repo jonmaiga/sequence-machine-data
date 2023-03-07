@@ -1,0 +1,31 @@
+{
+  "description": "Triangle read by rows. T(n,k) = number of distinct parts in the k-th region of the last section of the set of partitions of n.",
+  "id": "A206441",
+  "mentions": [
+    "A135010",
+    "A138121",
+    "A141285",
+    "A186412",
+    "A187219",
+    "A193870",
+    "A194436",
+    "A194437",
+    "A194438",
+    "A194439",
+    "A194446",
+    "A194447",
+    "A206437"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "more",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

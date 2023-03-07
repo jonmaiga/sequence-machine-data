@@ -1,0 +1,21 @@
+{
+  "description": "Number of iterations of A046665(n) = (greatest prime divisor of n) - (least prime divisor of n) [with A046665(1) = 0] required to reach zero.",
+  "id": "A231813",
+  "mentions": [
+    "A006530",
+    "A020639",
+    "A046665",
+    "A233510"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:49",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Position of the circles with center at a lattice point that contain record numbers of lattice points, in the list of Loeschian numbers A003136.",
+  "id": "A230656",
+  "mentions": [
+    "A003136",
+    "A075880",
+    "A230655"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

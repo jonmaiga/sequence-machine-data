@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that there is no prime of the form 2n + p^2 for any prime p.",
+  "id": "A138685",
+  "mentions": [
+    "A138479",
+    "A138686"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:26",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

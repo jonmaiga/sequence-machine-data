@@ -1,0 +1,26 @@
+{
+  "description": "Number A(n,k) of up-down sequences with k copies each of 1,2,...,n; square array A(n,k), n>=0, k>=0, read by antidiagonals.",
+  "id": "A275784",
+  "mentions": [
+    "A000012",
+    "A000111",
+    "A036916",
+    "A241530",
+    "A269129",
+    "A275801",
+    "A276636",
+    "A276637",
+    "A331562"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:41",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

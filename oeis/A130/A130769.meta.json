@@ -1,0 +1,18 @@
+{
+  "description": "Injection of the sequence of positive integers used in recursive calls (including initial call) in the execution of the Collatz (3n+1) function into the positive integers using the standard power-of-primes encoding (`Goedel-coding').",
+  "id": "A130769",
+  "mentions": [
+    "A001281"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

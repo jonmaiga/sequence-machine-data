@@ -1,0 +1,19 @@
+{
+  "description": "Let c(m)=prime(m), m=1,2,3,4. For m>=5, suppose that c(m)/e is in the interval [c(k),c(k+1)). Then let c(m+1)=e*c(k+1) if e*c(k+1) < prime(m+1), and otherwise let c(m+1) = prime(m+1). Then a(n) is the n-th prime in {c(m)}.",
+  "id": "A217884",
+  "mentions": [
+    "A217689",
+    "A217691"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

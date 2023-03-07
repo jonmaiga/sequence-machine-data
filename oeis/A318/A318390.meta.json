@@ -1,0 +1,30 @@
+{
+  "description": "Regular triangle where T(n,k) is the number of pairs of set partitions of {1,...,n} with join {{1,...,n}} and meet of length k.",
+  "id": "A318390",
+  "mentions": [
+    "A000110",
+    "A000258",
+    "A001247",
+    "A008277",
+    "A048994",
+    "A059849",
+    "A060639",
+    "A181939",
+    "A318389",
+    "A318391",
+    "A318392",
+    "A318393"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

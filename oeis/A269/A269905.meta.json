@@ -1,0 +1,21 @@
+{
+  "description": "Smallest of n^2 primes in an arithmetic progression that form an n X n magic square with the least magic sum, or 0 if no such magic square exists.",
+  "id": "A269905",
+  "mentions": [
+    "A113827",
+    "A269325",
+    "A269904"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

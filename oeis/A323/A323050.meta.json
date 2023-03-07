@@ -1,0 +1,19 @@
+{
+  "description": "Numbers that cannot be written as a sum of two or fewer 7-smooth numbers (A002473).",
+  "id": "A323050",
+  "mentions": [
+    "A002473",
+    "A323046",
+    "A323049"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

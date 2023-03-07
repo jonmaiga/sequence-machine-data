@@ -1,0 +1,17 @@
+{
+  "description": "Crazy Dice: number of ways to design a pair of n-sided dice with positive integers on their faces, so that the sums when they are tossed occur with the same probabilities as if a pair of standard n-sided dice were tossed.",
+  "id": "A111588",
+  "mentions": [
+    "A033833"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:02",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

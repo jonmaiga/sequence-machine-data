@@ -1,0 +1,25 @@
+{
+  "description": "a(n) is the greatest number not yet in the sequence with the same number of digits and the same sum of digits as n.",
+  "id": "A338829",
+  "mentions": [
+    "A007953",
+    "A055642",
+    "A289410",
+    "A331274",
+    "A333659",
+    "A338834",
+    "A338835"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:11",
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

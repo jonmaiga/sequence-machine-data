@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of Cp(4), the molar specific heat of an tetraatomic ideal gas at constant pressure, in J mol^-1 K^-1.",
+  "id": "A272005",
+  "mentions": [
+    "A081822",
+    "A272001",
+    "A272002",
+    "A272003",
+    "A272004",
+    "A274984"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "cons",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 2,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "description": "A(n,k) is the n-th number m that divides k^m - 1 (or 0 if m does not exist); square array A(n,k), n>=1, k>=1, read by antidiagonals.",
+  "id": "A333432",
+  "mentions": [
+    "A000027",
+    "A014945",
+    "A014946",
+    "A014949",
+    "A014950",
+    "A014951",
+    "A014957",
+    "A063524",
+    "A067945",
+    "A067946",
+    "A067947",
+    "A068382",
+    "A068383",
+    "A116621",
+    "A128358",
+    "A128360",
+    "A177805",
+    "A177807",
+    "A333429",
+    "A333433",
+    "A333500",
+    "A333506"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:03",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

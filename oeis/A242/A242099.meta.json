@@ -1,0 +1,20 @@
+{
+  "description": "Number of conjugacy classes of the symmetric group S_n when conjugating by the dihedral group D_n.",
+  "id": "A242099",
+  "mentions": [
+    "A000041",
+    "A061417",
+    "A242101"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the number of overpartitions of n where overlined parts are not divisible by 3 and non-overlined parts are congruent to 1 modulo 3.",
+  "id": "A335754",
+  "mentions": [
+    "A003105",
+    "A015128",
+    "A098151",
+    "A335755"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:36:31",
+    "offset": 0,
+    "size": 50,
+    "source": "joeis"
+  }
+}

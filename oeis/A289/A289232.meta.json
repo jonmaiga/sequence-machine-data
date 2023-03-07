@@ -1,0 +1,23 @@
+{
+  "description": "Number of nonequivalent ways to select 5 disjoint point triples from an n X n X n triangular point grid, each point triple forming a 2 X 2 X 2 triangle.",
+  "id": "A289232",
+  "mentions": [
+    "A117662",
+    "A289226",
+    "A289229",
+    "A289230",
+    "A289231"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:20:19",
+    "offset": 5,
+    "size": 25,
+    "source": "joeis"
+  }
+}

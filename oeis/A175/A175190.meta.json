@@ -1,0 +1,17 @@
+{
+  "description": "Number of irreducible factors in the factorization of the polynomial x^n + x + 1 over the integers mod 2",
+  "id": "A175190",
+  "mentions": [
+    "A000374"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Smallest prime whose binary expansion has Hamming distance 1 from 2n+1, or 0 if no such prime exists.",
+  "id": "A335653",
+  "mentions": [
+    "A067760",
+    "A076336"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:07",
+    "offset": 0,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

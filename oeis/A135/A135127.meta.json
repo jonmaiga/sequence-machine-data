@@ -1,0 +1,28 @@
+{
+  "description": "Numbers such that the digital sums in bases 2, 3, 5 and 7 all are equal.",
+  "id": "A135127",
+  "mentions": [
+    "A007953",
+    "A037308",
+    "A054899",
+    "A131451",
+    "A133620",
+    "A133900",
+    "A134599",
+    "A135100",
+    "A135110",
+    "A135120",
+    "A212222"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:23",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

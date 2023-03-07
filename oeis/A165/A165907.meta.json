@@ -1,0 +1,19 @@
+{
+  "description": "Minimal m for packing the first n primes in a prime(n) X m rectangle",
+  "id": "A165907",
+  "mentions": [
+    "A007504",
+    "A165906"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

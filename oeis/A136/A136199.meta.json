@@ -1,0 +1,21 @@
+{
+  "description": "Fixed points or cycle values for sequences of the form s(k+1)=sopfr(4s(k)+1), with sopfr=A001414 and any s(1).",
+  "id": "A136199",
+  "mentions": [
+    "A001414",
+    "A136138",
+    "A136197",
+    "A136198"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

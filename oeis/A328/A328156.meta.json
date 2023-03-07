@@ -1,0 +1,20 @@
+{
+  "description": "Number of set partitions of [2n] with distinct block sizes and one of the block sizes is n.",
+  "id": "A328156",
+  "mentions": [
+    "A266518",
+    "A276961",
+    "A327869"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:56",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

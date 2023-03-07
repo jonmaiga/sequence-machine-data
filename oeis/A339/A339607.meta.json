@@ -1,0 +1,21 @@
+{
+  "description": "a(1) = 1, a(n) is the least m not already in the sequence that contains the binary expansion of the binary weight of a(n-1) anywhere within its own binary expansion.",
+  "id": "A339607",
+  "mentions": [
+    "A000120",
+    "A338209",
+    "A339024"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:11",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

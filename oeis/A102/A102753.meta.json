@@ -1,0 +1,28 @@
+{
+  "description": "Decimal expansion of (Pi^2)/2.",
+  "id": "A102753",
+  "mentions": [
+    "A000796",
+    "A002388",
+    "A019699",
+    "A026424",
+    "A164103",
+    "A164105",
+    "A164106",
+    "A164108",
+    "A248359",
+    "A276023"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:53",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

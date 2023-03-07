@@ -1,0 +1,22 @@
+{
+  "description": "G.f.: exp( Sum_{n>=1} binomial(2*n,n)^3 * x^n/n ).",
+  "id": "A224735",
+  "mentions": [
+    "A000984",
+    "A002897",
+    "A224732",
+    "A224734",
+    "A224736"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

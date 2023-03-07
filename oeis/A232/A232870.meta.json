@@ -1,0 +1,20 @@
+{
+  "description": "Numbers that are the largest value in the Collatz (3x+1) trajectories of exactly three initial values.",
+  "id": "A232870",
+  "mentions": [
+    "A025586",
+    "A213199",
+    "A222562",
+    "A233293"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:51",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

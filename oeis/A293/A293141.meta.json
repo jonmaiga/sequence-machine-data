@@ -1,0 +1,18 @@
+{
+  "description": "E.g.f.: Product_{m>0} (1 - x^m + x^(2m)/2).",
+  "id": "A293141",
+  "mentions": [
+    "A293138",
+    "A293139"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:09",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

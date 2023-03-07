@@ -1,0 +1,24 @@
+{
+  "description": "T(b,n) is the largest m such that there exists N such that none of S(N), S(N+1), ..., S(N+m-1) is divisible by n, where S(N) is the sum of digits of N in base b. Square array read by ascending diagonals.",
+  "id": "A331787",
+  "mentions": [
+    "A000918",
+    "A164123",
+    "A331786",
+    "A331789"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:01",
+    "offset": 2,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

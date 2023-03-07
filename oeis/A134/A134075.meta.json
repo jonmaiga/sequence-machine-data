@@ -1,0 +1,18 @@
+{
+  "description": "Primes of the form floor(Pi*p^2) where p is a prime.",
+  "id": "A134075",
+  "mentions": [
+    "A134076"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:22",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

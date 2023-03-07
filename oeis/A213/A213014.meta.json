@@ -1,0 +1,19 @@
+{
+  "description": "Number of zeros following the initial 1 in n-th absolute difference of primes.",
+  "id": "A213014",
+  "mentions": [
+    "A036261",
+    "A036262",
+    "A089582"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 107,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Smallest prime p such that p^k - 2 is prime for all odd exponents k from 1 up to 2*n-1 (inclusive).",
+  "id": "A243269",
+  "mentions": [
+    "A006512",
+    "A240126",
+    "A242517",
+    "A242518"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

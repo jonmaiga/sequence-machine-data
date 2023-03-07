@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k that divide the product of digits of k.",
+  "id": "A212499",
+  "mentions": [
+    "A011540",
+    "A049101",
+    "A050720"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:30",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

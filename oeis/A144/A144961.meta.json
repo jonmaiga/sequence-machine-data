@@ -1,0 +1,21 @@
+{
+  "description": "Eigentriangle whose left border is the Padovan sequence, and whose right border and row sums are a modified Fibonacci sequence.",
+  "id": "A144961",
+  "mentions": [
+    "A000045",
+    "A000931"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 0,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

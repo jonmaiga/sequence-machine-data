@@ -1,0 +1,24 @@
+{
+  "description": "Triple factorial triangle, read by rows of 3n(n+1)/2+1 terms, where row n+1 is generated from row n by first inserting zeros in row n at positions {[m*(m+5)/6], m=0..3n-1} and then taking partial sums, starting with a '1' in row 0.",
+  "id": "A136213",
+  "mentions": [
+    "A007559",
+    "A127452",
+    "A135877",
+    "A136212",
+    "A136214",
+    "A136218"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

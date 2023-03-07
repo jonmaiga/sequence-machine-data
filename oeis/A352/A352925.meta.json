@@ -1,0 +1,18 @@
+{
+  "description": "Primes p such that there exist primes q, r (r != 2) such that p+1 = 2^q*r.",
+  "id": "A352925",
+  "mentions": [
+    "A005383",
+    "A352926"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:27",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

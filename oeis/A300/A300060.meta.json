@@ -1,0 +1,34 @@
+{
+  "description": "Number of domino tilings of the diagram of the integer partition with Heinz number n.",
+  "id": "A300060",
+  "mentions": [
+    "A000085",
+    "A000712",
+    "A000720",
+    "A000898",
+    "A001222",
+    "A004003",
+    "A056239",
+    "A099390",
+    "A138178",
+    "A153452",
+    "A238690",
+    "A296150",
+    "A296188",
+    "A299925",
+    "A299926",
+    "A300056",
+    "A300061",
+    "A304662"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:24",
+    "offset": 1,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

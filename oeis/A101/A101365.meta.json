@@ -1,0 +1,23 @@
+{
+  "description": "In the interior of a regular n-gon with all diagonals drawn, the number of points where exactly five diagonals intersect.",
+  "id": "A101365",
+  "mentions": [
+    "A000332",
+    "A006561",
+    "A007678",
+    "A101363",
+    "A101364",
+    "A137938",
+    "A137939"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:52",
+    "offset": 3,
+    "size": 92,
+    "source": "oeis-bfile"
+  }
+}

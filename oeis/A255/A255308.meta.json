@@ -1,0 +1,22 @@
+{
+  "description": "Number of times log_2 can be applied to n until the result is not a power of 2. Here log_2 means the base-2 logarithm.",
+  "id": "A255308",
+  "mentions": [
+    "A209229",
+    "A255309",
+    "A293668"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:13",
+    "offset": 0,
+    "size": 129,
+    "source": "oeis-bfile"
+  }
+}

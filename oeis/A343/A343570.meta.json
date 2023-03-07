@@ -1,0 +1,23 @@
+{
+  "description": "If n = Product (p_j^k_j) then a(n) = Product (p_j^k_j + 3), with a(1) = 1.",
+  "id": "A343570",
+  "mentions": [
+    "A001221",
+    "A007430",
+    "A034444",
+    "A034448",
+    "A107759"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:17",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

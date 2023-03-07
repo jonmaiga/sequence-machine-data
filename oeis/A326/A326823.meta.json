@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the number of iterations needed to reach 1 or 11 starting at n and using the map k -> (k/2 if k is even, otherwise k + (smallest square > k)). Set a(n) = -1 if the trajectory never reaches 1 or 11.",
+  "id": "A326823",
+  "mentions": [
+    "A006577",
+    "A326825"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

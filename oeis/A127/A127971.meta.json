@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = fusc(n+1) + (1-(-1)^n)/2, fusc = A002487.",
+  "id": "A127971",
+  "mentions": [
+    "A002487",
+    "A127970"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:15",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

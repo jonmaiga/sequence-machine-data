@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the position of the start of the first occurrence of n > a(n-1) after the decimal point in Pi = 3.14159265358979323846264338327950288...",
+  "id": "A103186",
+  "mentions": [
+    "A000796",
+    "A014777",
+    "A078197"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:53",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

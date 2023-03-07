@@ -1,0 +1,28 @@
+{
+  "description": "The number of 5th powers in the multiplicative group modulo n.",
+  "id": "A293482",
+  "mentions": [
+    "A000010",
+    "A046073",
+    "A052274",
+    "A087692",
+    "A250207",
+    "A293483",
+    "A293484",
+    "A293485",
+    "A319099"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "changed",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:28",
+    "offset": 1,
+    "size": 84,
+    "source": "joeis"
+  }
+}

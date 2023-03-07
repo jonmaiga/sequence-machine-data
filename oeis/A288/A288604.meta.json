@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = (n^9 - n)/10.",
+  "id": "A288604",
+  "mentions": [
+    "A164938",
+    "A196289"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:01",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "a(n) is the number whose binary representation is A138144(n).",
+  "id": "A147595",
+  "mentions": [
+    "A060013",
+    "A138144",
+    "A145641",
+    "A147537",
+    "A147538",
+    "A147539",
+    "A147540",
+    "A147590",
+    "A147596",
+    "A147597"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:34",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

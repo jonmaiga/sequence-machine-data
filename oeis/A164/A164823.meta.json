@@ -1,0 +1,22 @@
+{
+  "description": "Irregular triangle read by rows, listing the values x for which T_k(x) == 1 (mod j) for j >= 2 and k = 1..j-1, where T_k are the Chebyshev polynomials of the first kind.",
+  "id": "A164823",
+  "mentions": [
+    "A053120",
+    "A164822",
+    "A164831",
+    "A164846",
+    "A165252"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:47",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

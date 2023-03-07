@@ -1,0 +1,28 @@
+{
+  "description": "Primitive elements of A337386: numbers k for which sigma(A003961(k)) >= 2*A003961(k), but none of the proper divisors of k satisfy the same condition.",
+  "id": "A337479",
+  "mentions": [
+    "A000203",
+    "A003961",
+    "A003973",
+    "A006039",
+    "A071395",
+    "A091191",
+    "A337372",
+    "A337386",
+    "A337539",
+    "A337543",
+    "A337690"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:09",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

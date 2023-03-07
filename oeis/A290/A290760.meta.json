@@ -1,0 +1,25 @@
+{
+  "description": "Matula-Goebel numbers of transitive rooted identity trees (or transitive finitary sets).",
+  "id": "A290760",
+  "mentions": [
+    "A000081",
+    "A001192",
+    "A004111",
+    "A007097",
+    "A076146",
+    "A276625",
+    "A279861",
+    "A290689",
+    "A290822"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

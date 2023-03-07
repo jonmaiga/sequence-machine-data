@@ -1,0 +1,30 @@
+{
+  "description": "a(n) is n rotated one place to the left or, equivalently, n with the most significant digit moved to the least significant place, omitting leading zeros.",
+  "id": "A345110",
+  "mentions": [
+    "A004086",
+    "A006257",
+    "A048787",
+    "A255689",
+    "A255691",
+    "A255692",
+    "A255693",
+    "A345111",
+    "A345112",
+    "A345113",
+    "A345114",
+    "A345115"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

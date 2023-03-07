@@ -1,0 +1,20 @@
+{
+  "description": "Binary hoax numbers: composite numbers k such that sum of bits of k equals the sum of bits of the distinct prime divisors of k.",
+  "id": "A329936",
+  "mentions": [
+    "A006753",
+    "A019506",
+    "A278909"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:59",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

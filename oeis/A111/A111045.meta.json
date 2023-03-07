@@ -1,0 +1,26 @@
+{
+  "description": "Numbers n such that P(4n) is prime, where P(m) is the number of partitions of m.",
+  "id": "A111045",
+  "mentions": [
+    "A000041",
+    "A046063",
+    "A111036",
+    "A111389",
+    "A114165",
+    "A114166",
+    "A114167",
+    "A114168",
+    "A114169",
+    "A114170"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:02",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

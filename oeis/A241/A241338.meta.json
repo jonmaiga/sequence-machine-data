@@ -1,0 +1,26 @@
+{
+  "description": "Number of partitions p of n including round(mean(p)) as a part. (This is \"Mathematica round\")",
+  "id": "A241338",
+  "mentions": [
+    "A000041",
+    "A241312",
+    "A241334",
+    "A241335",
+    "A241336",
+    "A241337",
+    "A241339",
+    "A241733"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

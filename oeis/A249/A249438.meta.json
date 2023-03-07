@@ -1,0 +1,22 @@
+{
+  "description": "Sequence A249437 sorted, with duplicates removed.",
+  "id": "A249438",
+  "mentions": [
+    "A006093",
+    "A249151",
+    "A249424",
+    "A249434",
+    "A249436",
+    "A249437"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

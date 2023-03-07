@@ -1,0 +1,22 @@
+{
+  "description": "Paradigm shift sequence with procedure length p=4.",
+  "id": "A193456",
+  "mentions": [
+    "A000792",
+    "A178715",
+    "A193286",
+    "A193455",
+    "A193457"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

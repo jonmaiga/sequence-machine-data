@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the smallest prime greater than 2^n such that 2 is a primitive root modulo a(n).",
+  "id": "A250396",
+  "mentions": [
+    "A104080"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:07",
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

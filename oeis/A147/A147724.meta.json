@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = C(3,n) DELTA C(0,n).",
+  "id": "A147724",
+  "mentions": [
+    "A007318",
+    "A034494",
+    "A084938",
+    "A147721",
+    "A147723",
+    "A147725"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:37:26",
+    "offset": 0,
+    "size": 55,
+    "source": "joeis"
+  }
+}

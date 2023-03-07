@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: T(n,k) = number of specially labeled bicolored connected graphs with k points in one color class and n-k points in the other class . \"Special\" means there are separate labels 1,2, ...,k and 1,2, ...,n-k for the two color classes (n >= 1, k = floor((n+1)/2), ..., n).",
+  "id": "A123260",
+  "mentions": [
+    "A123281",
+    "A262307"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:11",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

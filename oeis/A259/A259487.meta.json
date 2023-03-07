@@ -1,0 +1,24 @@
+{
+  "description": "Least positive integer m with prime(m)+2 and prime(prime(m))+2 both prime such that prime(m*n)+2 and prime(prime(m*n))+2 are both prime.",
+  "id": "A259487",
+  "mentions": [
+    "A000040",
+    "A001359",
+    "A006512",
+    "A236458",
+    "A258803",
+    "A258836",
+    "A259488",
+    "A259492"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:17",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

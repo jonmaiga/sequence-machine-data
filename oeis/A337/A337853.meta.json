@@ -1,0 +1,27 @@
+{
+  "description": "a(n) is the number of partitions of n as the sum of two Niven numbers.",
+  "id": "A337853",
+  "mentions": [
+    "A005349",
+    "A116357",
+    "A172151",
+    "A172398",
+    "A180149",
+    "A280829",
+    "A302479",
+    "A319395",
+    "A319468",
+    "A337854"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:09",
+    "offset": 0,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

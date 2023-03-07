@@ -1,0 +1,28 @@
+{
+  "description": "Triangle read by rows T(n,k), (n,k>=0), with row/diagonal sums to overpartitions/partitions isomorphic to binomial coefficient sums to 2^n/F(n) (Fibonacci numbers) on Pascal's triangle.",
+  "id": "A347187",
+  "mentions": [
+    "A000041",
+    "A000045",
+    "A000079",
+    "A000203",
+    "A000716",
+    "A001318",
+    "A007318",
+    "A010815",
+    "A015128",
+    "A035592"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

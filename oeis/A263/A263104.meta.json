@@ -1,0 +1,20 @@
+{
+  "description": "a(3k), a(3k+1), a(3k+2) are the numbers of edges between each vertex-pair in a multigraph with 3 vertices and k edges (with at least one edge between each vertex-pair) which has the minimum number of distinct cycles, if that arrangement of edges is unique.",
+  "id": "A263104",
+  "mentions": [
+    "A263103"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:22",
+    "offset": 9,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

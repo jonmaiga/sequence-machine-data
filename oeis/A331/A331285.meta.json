@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the index of the first occurrence of n in A331284.",
+  "id": "A331285",
+  "mentions": [
+    "A003586",
+    "A329605",
+    "A329606",
+    "A331284"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

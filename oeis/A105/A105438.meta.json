@@ -1,0 +1,26 @@
+{
+  "description": "Triangle, row sums = (Fibonacci numbers - 2).",
+  "id": "A105438",
+  "mentions": [
+    "A001911",
+    "A002620",
+    "A006918",
+    "A027383",
+    "A096338",
+    "A105108",
+    "A105522"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:22:33",
+    "offset": 0,
+    "size": 66,
+    "source": "joeis"
+  }
+}

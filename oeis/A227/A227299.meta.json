@@ -1,0 +1,17 @@
+{
+  "description": "Number of vertices for which there is an alien in-magic directed star",
+  "id": "A227299",
+  "mentions": [
+    "A024619"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

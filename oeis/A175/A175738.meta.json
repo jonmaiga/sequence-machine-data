@@ -1,0 +1,21 @@
+{
+  "description": "Sizes of successive increasing gaps between 2-pseudoprimes.",
+  "id": "A175738",
+  "mentions": [
+    "A001567",
+    "A175736",
+    "A175737"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:59",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

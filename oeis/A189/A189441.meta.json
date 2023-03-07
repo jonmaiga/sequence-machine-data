@@ -1,0 +1,21 @@
+{
+  "description": "Primes that are the arithmetic derivative (A003415) of some number.",
+  "id": "A189441",
+  "mentions": [
+    "A003415",
+    "A099302",
+    "A157037",
+    "A189483"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:13",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

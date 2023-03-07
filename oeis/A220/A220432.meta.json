@@ -1,0 +1,19 @@
+{
+  "description": "Numbers not divisible by 2, 3 or any prime of the form 4x^2+2xy+7y^2 (see A219908).",
+  "id": "A220432",
+  "mentions": [
+    "A007310",
+    "A219907",
+    "A219908"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:38",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

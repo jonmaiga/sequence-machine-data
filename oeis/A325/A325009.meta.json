@@ -1,0 +1,25 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of unoriented colorings of the facets of a regular n-dimensional orthotope using exactly k colors. Row n has 2n columns.",
+  "id": "A325009",
+  "mentions": [
+    "A007318",
+    "A325005",
+    "A325008",
+    "A325010",
+    "A325011",
+    "A325017"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:51",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

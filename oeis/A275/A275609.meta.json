@@ -1,0 +1,26 @@
+{
+  "description": "Square spiral in which each new term is the least nonnegative integer distinct from its (already assigned) eight neighbors.",
+  "id": "A275609",
+  "mentions": [
+    "A274912",
+    "A274917",
+    "A274920",
+    "A275606",
+    "A278354",
+    "A307188",
+    "A307192",
+    "A307193",
+    "A307200"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:41",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

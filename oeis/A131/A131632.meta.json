@@ -1,0 +1,37 @@
+{
+  "description": "Triangle T(n,k) read by rows = number of partitions of n-set into k blocks with distinct sizes, k = 1..A003056(n).",
+  "id": "A131632",
+  "mentions": [
+    "A000012",
+    "A000217",
+    "A003056",
+    "A007837",
+    "A022915",
+    "A032011",
+    "A131623",
+    "A226873",
+    "A226874",
+    "A272514",
+    "A272515",
+    "A272516",
+    "A272517",
+    "A272518",
+    "A272519",
+    "A272520",
+    "A272521",
+    "A272522",
+    "A327803"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:19",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

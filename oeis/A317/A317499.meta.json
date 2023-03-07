@@ -1,0 +1,22 @@
+{
+  "description": "Coefficients in expansion of 1/(1 + 2*x - 3*x^3).",
+  "id": "A317499",
+  "mentions": [
+    "A303901",
+    "A317498",
+    "A317502",
+    "A317503"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:36",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

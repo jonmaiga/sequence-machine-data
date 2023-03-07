@@ -1,0 +1,19 @@
+{
+  "description": "Number of real {0,1}-matrices of size n X n which are not robust (cf. A125587).",
+  "id": "A126603",
+  "mentions": [
+    "A002416",
+    "A125587"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

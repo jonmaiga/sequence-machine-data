@@ -1,0 +1,30 @@
+{
+  "description": "Rectangular array read by upwards antidiagonals: a(n,k) = index of largest term <= 10^k in row n of A253572, n >= 1, k >= 0.",
+  "id": "A253635",
+  "mentions": [
+    "A011557",
+    "A066343",
+    "A100752",
+    "A106598",
+    "A106600",
+    "A106629",
+    "A107352",
+    "A108275",
+    "A108276",
+    "A108277",
+    "A123384",
+    "A253572",
+    "A253573"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

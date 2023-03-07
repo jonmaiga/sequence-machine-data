@@ -1,0 +1,21 @@
+{
+  "description": "Not the difference of two palindromes (where 0 is considered a palindrome).",
+  "id": "A104444",
+  "mentions": [
+    "A002113",
+    "A035137",
+    "A084843"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:55",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

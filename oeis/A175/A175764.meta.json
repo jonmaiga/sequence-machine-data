@@ -1,0 +1,20 @@
+{
+  "description": "Number of iterations of the mapping k->f(k) to reach one of 2, 5, or 29, starting with k=n, and with f(k)=(k^2+4)/d, where d is the next-to-largest divisor of k^2+4, or -1 if the sequence never reaches one of the required values.",
+  "id": "A175764",
+  "mentions": [
+    "A032742",
+    "A076423",
+    "A087717",
+    "A231120"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:59",
+    "offset": 1,
+    "size": 103,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of trees with n unlabeled nodes T(n) raised to power T(n).",
+  "id": "A132640",
+  "mentions": [
+    "A000055",
+    "A008973",
+    "A008974",
+    "A051674"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

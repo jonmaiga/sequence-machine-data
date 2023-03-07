@@ -1,0 +1,25 @@
+{
+  "description": "The number of upper-triangular matrices whose nonzero entries are positive odd numbers summing to n and each row and each column contains a nonzero entry.",
+  "id": "A289317",
+  "mentions": [
+    "A022493",
+    "A138265",
+    "A289312",
+    "A289313",
+    "A289314",
+    "A289315",
+    "A289316"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:03",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

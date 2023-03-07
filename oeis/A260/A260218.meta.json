@@ -1,0 +1,26 @@
+{
+  "description": "a(1) = 2; for n > 1 if n is even a(n) = spf(1 + Product_{odd m,m",
+  "id": "A260218",
+  "mentions": [
+    "A000945",
+    "A002586",
+    "A005265",
+    "A007978",
+    "A020639",
+    "A053669",
+    "A075019",
+    "A258581"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:18",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

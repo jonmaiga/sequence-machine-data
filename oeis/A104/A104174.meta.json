@@ -1,0 +1,19 @@
+{
+  "description": "Numerator of the fractional part of a harmonic number.",
+  "id": "A104174",
+  "mentions": [
+    "A064169",
+    "A075135"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:54",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

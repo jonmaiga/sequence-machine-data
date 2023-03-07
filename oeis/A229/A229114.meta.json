@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that antisigma(k) mod k = antisigma(k+1) mod (k+1).",
+  "id": "A229114",
+  "mentions": [
+    "A024816",
+    "A229110"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

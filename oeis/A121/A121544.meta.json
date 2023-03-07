@@ -1,0 +1,24 @@
+{
+  "description": "Sum of all proper base 4 numbers with n digits (those not beginning with 0).",
+  "id": "A121544",
+  "mentions": [
+    "A007090",
+    "A010036",
+    "A026121",
+    "A026337",
+    "A101291"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 19:19:43",
+    "offset": 1,
+    "size": 18,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Numerator of Sum_{i=1..n} 1/(t(i)^t(i)) where t(i) = i-th 3-almost prime.",
+  "id": "A118062",
+  "mentions": [
+    "A001358",
+    "A014612",
+    "A051674",
+    "A114850",
+    "A114967",
+    "A117579",
+    "A118056",
+    "A118063"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Numerator of Sum[ 1/k^n, {k,1,n-1} ].",
+  "id": "A120347",
+  "mentions": [
+    "A045323",
+    "A119722",
+    "A120289",
+    "A120352"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:09",
+    "offset": 2,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

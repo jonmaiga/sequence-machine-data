@@ -1,0 +1,29 @@
+{
+  "description": "First differences of A160410.",
+  "id": "A161411",
+  "mentions": [
+    "A000079",
+    "A000695",
+    "A048883",
+    "A139250",
+    "A139251",
+    "A147582",
+    "A160410",
+    "A160413",
+    "A160414",
+    "A160415",
+    "A160417"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:47",
+    "offset": 1,
+    "size": 59,
+    "source": "joeis"
+  }
+}

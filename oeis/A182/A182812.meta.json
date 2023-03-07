@@ -1,0 +1,24 @@
+{
+  "description": "Triangle read by rows in which row n lists the parts of the largest subshell of all partitions of 2n that do not contain 1 as a part.",
+  "id": "A182812",
+  "mentions": [
+    "A135010",
+    "A138121",
+    "A182734",
+    "A182736",
+    "A182742",
+    "A182746",
+    "A182813"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Michael Stifel's 9 X 9 magic square read by rows.",
+  "id": "A202880",
+  "mentions": [
+    "A203813"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "fini",
+    "full",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

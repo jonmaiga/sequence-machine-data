@@ -1,0 +1,23 @@
+{
+  "description": "Infinite square array read by antidiagonals: T(n,k) = number of ways of partitioning numbers <= n into k parts (n >= 0, k >= 1).",
+  "id": "A259324",
+  "mentions": [
+    "A000601",
+    "A002620",
+    "A002621",
+    "A002622",
+    "A137679"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 107,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: T(n,k) = (-1)^(n-1)*n + (-1)^(k-1)*k - 1, 1 <= k <= n.",
+  "id": "A132898",
+  "mentions": [
+    "A127648",
+    "A132899"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:51:05",
+    "offset": 1,
+    "size": 66,
+    "source": "joeis"
+  }
+}

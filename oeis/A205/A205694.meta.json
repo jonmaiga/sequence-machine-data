@@ -1,0 +1,19 @@
+{
+  "description": "Prime(A205692(n)), the n-th number s(j) such that 6 divides s(k)-s(j), where the pairs (k,j) are given by A205691 and A205692.",
+  "id": "A205694",
+  "mentions": [
+    "A205558",
+    "A205691",
+    "A205692"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-07 09:34:26",
+    "offset": 1,
+    "size": 71,
+    "source": "joeis"
+  }
+}

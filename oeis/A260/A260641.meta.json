@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that 2^n-1 is in A004782 but not in A081767.",
+  "id": "A260641",
+  "mentions": [
+    "A004782",
+    "A081767"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Partial sums of the Jordan function J_2(k), for 1 <= k <= n.",
+  "id": "A321879",
+  "mentions": [
+    "A002088",
+    "A007434",
+    "A008683"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 09:51:49",
+    "offset": 0,
+    "size": 45,
+    "source": "joeis"
+  }
+}

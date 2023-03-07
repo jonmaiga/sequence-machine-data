@@ -1,0 +1,20 @@
+{
+  "description": "G.f.: A(x) = ( Sum_{n>=0} x^n/sf(n) )^3 where A(x) = Sum_{n>=0} a(n)*x^n/sf(n), and sf(n) = Product_{k=0..n} k! is the superfactorial of n (A000178).",
+  "id": "A193521",
+  "mentions": [
+    "A000178",
+    "A009963",
+    "A193520"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

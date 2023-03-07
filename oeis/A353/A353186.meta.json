@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of e.g.f. 1/(1 - Sum_{k>=1} d(k) * x^k / k), where d(n) = number of divisors of n (A000005).",
+  "id": "A353186",
+  "mentions": [
+    "A000005",
+    "A028342",
+    "A129921",
+    "A305305",
+    "A318249",
+    "A340903"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

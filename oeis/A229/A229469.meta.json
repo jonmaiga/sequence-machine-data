@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that T(n) + S(n) + 1 is prime, where T(n) and S(n) are the n-th triangular and square numbers.",
+  "id": "A229469",
+  "mentions": [
+    "A228908",
+    "A229157"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:46",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

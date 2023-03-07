@@ -1,0 +1,18 @@
+{
+  "description": "Number of distinct subsets S of {t,t+1,...,m-1}, t = ceiling(m/2), such that number of distinct symbols in the \"most general word\" of length m having its periods a superset of (S union {m}) is m-n, for m >= 2n.",
+  "id": "A283717",
+  "mentions": [
+    "A005434"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

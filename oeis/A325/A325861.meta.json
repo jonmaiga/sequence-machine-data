@@ -1,0 +1,28 @@
+{
+  "description": "Number of maximal subsets of {1..n} such that every pair of distinct elements has a different quotient.",
+  "id": "A325861",
+  "mentions": [
+    "A002033",
+    "A103300",
+    "A143823",
+    "A196724",
+    "A325853",
+    "A325854",
+    "A325859",
+    "A325860",
+    "A325868",
+    "A325869",
+    "A325994"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

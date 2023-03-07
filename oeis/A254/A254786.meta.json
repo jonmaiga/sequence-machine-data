@@ -1,0 +1,19 @@
+{
+  "description": "Fibonacci numbers n with digits d_1, d_2, ... d_k such that F(d_1) + F(d_2) + ... + F(d_k) is a Fibonacci number where F(.) is A000045.",
+  "id": "A254786",
+  "mentions": [
+    "A000045",
+    "A254785"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

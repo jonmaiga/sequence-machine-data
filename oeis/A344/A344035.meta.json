@@ -1,0 +1,23 @@
+{
+  "description": "Numbers that are the sum of five positive cubes in exactly four ways.",
+  "id": "A344035",
+  "mentions": [
+    "A294738",
+    "A343705",
+    "A343972",
+    "A343988",
+    "A344034",
+    "A344355",
+    "A345766"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:17",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

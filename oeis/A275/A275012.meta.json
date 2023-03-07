@@ -1,0 +1,20 @@
+{
+  "description": "Number of nonzero coefficients in the polynomial factor of the expression counting binomial coefficients with 2-adic valuation n.",
+  "id": "A275012",
+  "mentions": [
+    "A001316",
+    "A163000",
+    "A163577"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

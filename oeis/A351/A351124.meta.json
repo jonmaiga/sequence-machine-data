@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the least k > 0 such that the set { prime(n), ..., prime(n+k-1) } can be partitioned into two disjoint sets with equal sum, or -1 if no such k exists (prime(n) denotes the n-th prime number).",
+  "id": "A351124",
+  "mentions": [
+    "A022884"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:25",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

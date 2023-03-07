@@ -1,0 +1,23 @@
+{
+  "description": "Number of subsets of {1..n} (including empty set) such that the pairwise GCDs of elements are not distinct.",
+  "id": "A196720",
+  "mentions": [
+    "A084422",
+    "A143823",
+    "A196719",
+    "A196721",
+    "A196722",
+    "A196723",
+    "A196724"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:18",
+    "offset": 0,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

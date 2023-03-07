@@ -1,0 +1,20 @@
+{
+  "description": "Primes found in decimal expansion of 1/Pi.",
+  "id": "A173649",
+  "mentions": [
+    "A000796",
+    "A049541"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "bref",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

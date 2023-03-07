@@ -1,0 +1,22 @@
+{
+  "description": "a(1) = 1; for n >= 2, a(n) = floor(log(sigma(n)) / log(tau(n))).",
+  "id": "A343945",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A051281",
+    "A334455",
+    "A349006",
+    "A349007"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "The third self-composition of A120009; g.f.: A(x) = G(G(G(x))), where G(x) = g.f. of A120009.",
+  "id": "A120012",
+  "mentions": [
+    "A000108",
+    "A120009",
+    "A127275"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-12-25 19:14:52",
+    "offset": 1,
+    "size": 24,
+    "source": "joeis"
+  }
+}

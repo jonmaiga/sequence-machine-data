@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that 24*k-1 has at least three factors 7 and the partition function evaluated at k has at least the same number of factors 7 as 24*k-1.",
+  "id": "A340957",
+  "mentions": [
+    "A000041",
+    "A214411",
+    "A340757"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

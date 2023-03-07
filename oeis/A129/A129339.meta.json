@@ -1,0 +1,30 @@
+{
+  "description": "Main diagonal of triangular array T: T(j,1) = 1 for ((j-1) mod 6) < 3, else 0; T(j,k) = T(j-1,k-1) + T(j,k-1) for 2 <= k <= j.",
+  "id": "A129339",
+  "mentions": [
+    "A038504",
+    "A057083",
+    "A088911",
+    "A131022",
+    "A131023",
+    "A131024",
+    "A131025",
+    "A131026",
+    "A131027",
+    "A131028",
+    "A131029",
+    "A131030"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:17",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Primes p such that A000129(p) is not a prime number.",
+  "id": "A270387",
+  "mentions": [
+    "A000129",
+    "A096650"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

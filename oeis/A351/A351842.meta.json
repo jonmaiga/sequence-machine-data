@@ -1,0 +1,20 @@
+{
+  "description": "Numbers whose sum of digits and number of proper divisors are equal.",
+  "id": "A351842",
+  "mentions": [
+    "A007953",
+    "A032741",
+    "A057531"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

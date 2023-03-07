@@ -1,0 +1,36 @@
+{
+  "description": "Triangle read by rows: T(n,k) (n>=0, 0<=k<=A002620(n-1)) is the number of permutations of [n] with k nestings.",
+  "id": "A263776",
+  "mentions": [
+    "A000108",
+    "A000142",
+    "A001754",
+    "A002620",
+    "A002696",
+    "A094218",
+    "A094219",
+    "A120812",
+    "A120813",
+    "A120814",
+    "A120815",
+    "A120816",
+    "A260665",
+    "A260670",
+    "A264496",
+    "A264497",
+    "A287328",
+    "A291722"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:23",
+    "offset": 0,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

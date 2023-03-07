@@ -1,0 +1,27 @@
+{
+  "description": "Heinz numbers of strict perfect integer partitions.",
+  "id": "A325782",
+  "mentions": [
+    "A002033",
+    "A005117",
+    "A056239",
+    "A108917",
+    "A112798",
+    "A126796",
+    "A188431",
+    "A299702",
+    "A325780",
+    "A325781"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

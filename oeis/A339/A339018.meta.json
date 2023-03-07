@@ -1,0 +1,18 @@
+{
+  "description": "Lexicographically earliest sequence of distinct nonnegative terms such that the numbers of digits between successive 1s are distinct.",
+  "id": "A339018",
+  "mentions": [
+    "A273479"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:11",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

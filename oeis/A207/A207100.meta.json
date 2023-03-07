@@ -1,0 +1,20 @@
+{
+  "description": "T(n,k)=Number of 0..k arrays x(0..n-1) of n elements with each no smaller than the sum of its two previous neighbors modulo (k+1)",
+  "id": "A207100",
+  "mentions": [
+    "A000217",
+    "A020745",
+    "A199771"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:27",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Number of ways to write n as x^2 + y^2 + z^2 + w^2 with x,y,z,w nonnegative integers, x == y (mod 2) and z <= w such that both x and x^2 + 62*x*y + y^2 are squares.",
+  "id": "A282463",
+  "mentions": [
+    "A000118",
+    "A000290",
+    "A270969",
+    "A271518",
+    "A281976",
+    "A281977",
+    "A282013",
+    "A282014"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:51",
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

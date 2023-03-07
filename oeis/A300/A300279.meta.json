@@ -1,0 +1,21 @@
+{
+  "description": "G.f.: Sum_{n>=0} (1 + x*(1+x)^n)^n / 2^(n+1).",
+  "id": "A300279",
+  "mentions": [
+    "A173217",
+    "A300050",
+    "A300280",
+    "A302765"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:24",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

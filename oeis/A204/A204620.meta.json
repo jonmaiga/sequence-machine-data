@@ -1,0 +1,25 @@
+{
+  "description": "Numbers k such that 3*2^k + 1 is a prime factor of a Fermat number 2^(2^m) + 1 for some m.",
+  "id": "A204620",
+  "mentions": [
+    "A000215",
+    "A002253",
+    "A039687",
+    "A057775",
+    "A057778",
+    "A201364",
+    "A226366"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

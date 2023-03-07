@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = Sum_{k=0..n} (-1)^(n-k) * binomial(n,k) * k! * k^n.",
+  "id": "A332627",
+  "mentions": [
+    "A000166",
+    "A072364",
+    "A120485",
+    "A134095",
+    "A302397",
+    "A319392",
+    "A332408"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:02",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Inverse permutation to A257471.",
+  "id": "A257472",
+  "mentions": [
+    "A003991",
+    "A257471"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:15",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

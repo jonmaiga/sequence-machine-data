@@ -1,0 +1,25 @@
+{
+  "description": "A triangle formed like Pascal's triangle, but with (-1)^(n+1) on the borders instead of 1.",
+  "id": "A228053",
+  "mentions": [
+    "A007318",
+    "A026637",
+    "A051601",
+    "A097073",
+    "A137688",
+    "A227074",
+    "A227075",
+    "A227076"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:21:55",
+    "offset": 0,
+    "size": 74,
+    "source": "joeis"
+  }
+}

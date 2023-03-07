@@ -1,0 +1,18 @@
+{
+  "description": "Partial sums of number of symmetric foldings of a strip of n stamps (A001010).",
+  "id": "A178961",
+  "mentions": [
+    "A001010"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

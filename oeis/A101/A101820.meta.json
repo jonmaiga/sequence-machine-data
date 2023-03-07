@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,h)/(n-1), where T is the array in A101819.",
+  "id": "A101820",
+  "mentions": [
+    "A019538",
+    "A101817",
+    "A101819",
+    "A101821"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

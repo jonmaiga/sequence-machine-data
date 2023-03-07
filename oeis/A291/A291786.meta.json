@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = number of iterations of k -> (psi(k)+phi(k))/2 (A291784) needed to reach a prime or a power of a prime or 1, or -1 if that doesn't happen.",
+  "id": "A291786",
+  "mentions": [
+    "A000010",
+    "A000961",
+    "A001615",
+    "A291784",
+    "A291785",
+    "A291787",
+    "A291788"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "more",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Period 4: repeat [1, 1, 1, 2].",
+  "id": "A177704",
+  "mentions": [
+    "A001068",
+    "A107453",
+    "A138191",
+    "A164115",
+    "A164117",
+    "A177705",
+    "A219977",
+    "A236398"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "cofr",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:59:07",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

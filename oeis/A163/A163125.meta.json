@@ -1,0 +1,20 @@
+{
+  "description": "Sum of digits of the n-th Self-number (or Colombian number), A003052(n).",
+  "id": "A163125",
+  "mentions": [
+    "A003052",
+    "A007953"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:45",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

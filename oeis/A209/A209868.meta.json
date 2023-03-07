@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = number of integers in range [2^(n-1),(2^n)-1] which permutation A209861/A209862 sends to even-sized orbits.",
+  "id": "A209868",
+  "mentions": [
+    "A000079",
+    "A209860",
+    "A209861",
+    "A209862",
+    "A209863",
+    "A209864",
+    "A209865",
+    "A209866",
+    "A209867"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Absolute difference of numerator and denominator of Bernoulli(2*n), n >= 0.",
+  "id": "A162173",
+  "mentions": [
+    "A000367",
+    "A002445"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:44",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

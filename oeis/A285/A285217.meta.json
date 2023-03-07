@@ -1,0 +1,20 @@
+{
+  "description": "Indices of primes in A000712.",
+  "id": "A285217",
+  "mentions": [
+    "A000712",
+    "A035359",
+    "A046063",
+    "A265835"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:56",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

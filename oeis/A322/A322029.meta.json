@@ -1,0 +1,22 @@
+{
+  "description": "Denominator of least value of the squared diameters of the enclosing circles of all strictly convex lattice n-gons with minimal area given by A070911. Numerators are A321693.",
+  "id": "A322029",
+  "mentions": [
+    "A070911",
+    "A192493",
+    "A192494",
+    "A321693"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "frac",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 3,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

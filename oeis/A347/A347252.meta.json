@@ -1,0 +1,19 @@
+{
+  "description": "Number of nonnegative triples (a, b, c) satisfying (a + b + c <= n) and (a * b * c <= n).",
+  "id": "A347252",
+  "mentions": [
+    "A347221"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

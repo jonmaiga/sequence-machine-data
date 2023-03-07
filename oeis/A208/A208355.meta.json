@@ -1,0 +1,20 @@
+{
+  "description": "Right edge of the triangle in A208101.",
+  "id": "A208355",
+  "mentions": [
+    "A000108",
+    "A099363",
+    "A208101"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:28",
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

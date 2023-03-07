@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = denominator of Product_{j=1..n} 1/(1 + 1/A134473(j)).",
+  "id": "A134477",
+  "mentions": [
+    "A134473",
+    "A134474",
+    "A134475",
+    "A134476"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

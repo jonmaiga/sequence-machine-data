@@ -1,0 +1,19 @@
+{
+  "description": "Numbers whose representation in any base b >= 2 is a cubefree word.",
+  "id": "A349955",
+  "mentions": [
+    "A178905",
+    "A286262"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:24",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of ways a digit can be appended or prepended to n and form a unique prime.",
+  "id": "A224536",
+  "mentions": [
+    "A224953"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

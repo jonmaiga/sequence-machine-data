@@ -1,0 +1,19 @@
+{
+  "description": "Number of graphs with n edges having a proper labeling that is bilaterally symmetric and satisfies condition (4.1) of Sheppard (1976).",
+  "id": "A259882",
+  "mentions": [
+    "A005193",
+    "A005194"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

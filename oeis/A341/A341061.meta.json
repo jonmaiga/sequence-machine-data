@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that A340179(k) is prime.",
+  "id": "A341061",
+  "mentions": [
+    "A340179",
+    "A341059",
+    "A341060"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:13",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

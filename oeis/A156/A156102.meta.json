@@ -1,0 +1,17 @@
+{
+  "description": "2^(n+1)*P_n(1/2) (see A155100).",
+  "id": "A156102",
+  "mentions": [
+    "A155100"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": -1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

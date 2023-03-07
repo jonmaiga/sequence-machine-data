@@ -1,0 +1,18 @@
+{
+  "description": "Sum of the perimeters of all triangles with perimeter n whose side lengths are mutually coprime.",
+  "id": "A308229",
+  "mentions": [
+    "A308074"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

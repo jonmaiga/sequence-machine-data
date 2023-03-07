@@ -1,0 +1,25 @@
+{
+  "description": "Largest nonprime integer not less than n.",
+  "id": "A179278",
+  "mentions": [
+    "A005171",
+    "A007917",
+    "A010051",
+    "A014684",
+    "A018252",
+    "A113523",
+    "A113638"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

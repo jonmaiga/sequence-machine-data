@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows, A127648 * A126988; 1<=k<=n.",
+  "id": "A143311",
+  "mentions": [
+    "A064987",
+    "A126988",
+    "A127648"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

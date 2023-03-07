@@ -1,0 +1,17 @@
+{
+  "description": "Primes of the form p+q^2+r where p,q,r are three consecutive members of A007528.",
+  "id": "A354510",
+  "mentions": [
+    "A007528"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:29",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

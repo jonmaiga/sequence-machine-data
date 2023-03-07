@@ -1,0 +1,25 @@
+{
+  "description": "Primes that divide some k dividing 4^k + 3^k (A045584).",
+  "id": "A354026",
+  "mentions": [
+    "A023394",
+    "A045584",
+    "A066364",
+    "A087807",
+    "A129729",
+    "A134360",
+    "A171980",
+    "A354027"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

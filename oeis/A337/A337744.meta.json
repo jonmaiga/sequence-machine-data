@@ -1,0 +1,20 @@
+{
+  "description": "Numbers of the form Sum_{e in S} 2^(e-1) where S is a finite set of positive integers such that any element of S divides the sum of the elements of S.",
+  "id": "A337744",
+  "mentions": [
+    "A029931",
+    "A125297",
+    "A271410"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:09",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

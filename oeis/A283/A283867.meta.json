@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that 30*n^2 - 1 and 30*n^2 + 1 are (twin) primes.",
+  "id": "A283867",
+  "mentions": [
+    "A000290",
+    "A001097",
+    "A077800",
+    "A158558",
+    "A158560"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:54",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

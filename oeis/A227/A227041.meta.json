@@ -1,0 +1,28 @@
+{
+  "description": "Triangle of numerators of harmonic mean of n and m, 1 <= m <= n.",
+  "id": "A227041",
+  "mentions": [
+    "A022998",
+    "A221918",
+    "A221919",
+    "A227042",
+    "A227043",
+    "A227106",
+    "A227107"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "frac",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:03:37",
+    "offset": 1,
+    "size": 66,
+    "source": "joeis"
+  }
+}

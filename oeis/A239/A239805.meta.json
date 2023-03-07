@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of a constant related to A000620.",
+  "id": "A239805",
+  "mentions": [
+    "A000620",
+    "A239803"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-entry"
+  }
+}

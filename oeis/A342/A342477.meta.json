@@ -1,0 +1,20 @@
+{
+  "description": "The squarefree part of the powerful numbers: a(n) = A007913(A001694(n)).",
+  "id": "A342477",
+  "mentions": [
+    "A001694",
+    "A005117",
+    "A007913"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:15",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

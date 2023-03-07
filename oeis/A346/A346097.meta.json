@@ -1,0 +1,34 @@
+{
+  "description": "Denominator of the primorial deflation of A276086(A108951(n)): a(n) = A319627(A324886(n)).",
+  "id": "A346097",
+  "mentions": [
+    "A006530",
+    "A020639",
+    "A064989",
+    "A108951",
+    "A276086",
+    "A319627",
+    "A324886",
+    "A329044",
+    "A337377",
+    "A345941",
+    "A346095",
+    "A346096",
+    "A346098",
+    "A346105",
+    "A346107",
+    "A346109"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

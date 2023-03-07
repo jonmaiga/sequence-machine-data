@@ -1,0 +1,26 @@
+{
+  "description": "A106486-encodings for the minimal representatives of each equivalence class of the finite combinatorial games.",
+  "id": "A126011",
+  "mentions": [
+    "A034797",
+    "A034798",
+    "A079599",
+    "A106486",
+    "A125990",
+    "A126000",
+    "A126009",
+    "A126010",
+    "A126012",
+    "A126013"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:14",
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

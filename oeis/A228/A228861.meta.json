@@ -1,0 +1,21 @@
+{
+  "description": "Irregular triangular array read by rows. T(n,k) is the number of connected labeled bipartite graphs on n nodes with exactly k edges; n >= 1, 0 <= k <= A002620(n+1).",
+  "id": "A228861",
+  "mentions": [
+    "A001832",
+    "A002620",
+    "A228890"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

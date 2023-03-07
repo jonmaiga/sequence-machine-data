@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that the number of primes of the form n - x is not equal to the number of primes of the form n + y where x, y are divisors of n.",
+  "id": "A283022",
+  "mentions": [
+    "A005382",
+    "A005384"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:53",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

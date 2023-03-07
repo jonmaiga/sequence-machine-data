@@ -1,0 +1,37 @@
+{
+  "description": "Number of non-isomorphic balanced reduced multisystems whose degrees (atom multiplicities) are the weakly decreasing prime indices of n.",
+  "id": "A330666",
+  "mentions": [
+    "A000669",
+    "A005121",
+    "A007716",
+    "A048816",
+    "A112798",
+    "A141268",
+    "A305936",
+    "A306186",
+    "A317791",
+    "A318812",
+    "A318813",
+    "A318846",
+    "A318849",
+    "A330470",
+    "A330474",
+    "A330475",
+    "A330655",
+    "A330664",
+    "A330728"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

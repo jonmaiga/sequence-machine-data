@@ -1,0 +1,21 @@
+{
+  "description": "Number of terms in the sigma(x) -> x subtree whose root is n.",
+  "id": "A257669",
+  "mentions": [
+    "A007369",
+    "A216200",
+    "A257348",
+    "A257670"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:15",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

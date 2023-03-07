@@ -1,0 +1,21 @@
+{
+  "description": "Numbers whose cube is of the form a^5 + b^5 - c^5 with a >= b > 0 and c not in {a,b}.",
+  "id": "A257298",
+  "mentions": [
+    "A000578",
+    "A000584",
+    "A020896",
+    "A255351",
+    "A256603"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Numbers that have exactly two representations as a sum of six nonnegative squares.",
+  "id": "A295485",
+  "mentions": [
+    "A000177",
+    "A294524",
+    "A294675",
+    "A295150"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

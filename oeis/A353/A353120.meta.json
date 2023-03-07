@@ -1,0 +1,18 @@
+{
+  "description": "(a) Write down all the natural integers on a single row S, starting with 1; (b) start reading S from the very beginning of S; (c) if a single digit d stands between two digits having the same parity, lift d and add it to the digit immediately to its right; (d) go back to (a). The sequence is the end result of this procedure.",
+  "id": "A353120",
+  "mentions": [
+    "A000027"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-entry"
+  }
+}

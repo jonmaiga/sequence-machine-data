@@ -1,0 +1,26 @@
+{
+  "description": "Number of compositions (ordered partitions) of n into heptagonal pyramidal numbers (A002413).",
+  "id": "A322855",
+  "mentions": [
+    "A002413",
+    "A279223",
+    "A282582",
+    "A322340",
+    "A322799",
+    "A322803",
+    "A322853",
+    "A322854",
+    "A322856"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

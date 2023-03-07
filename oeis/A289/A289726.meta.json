@@ -1,0 +1,18 @@
+{
+  "description": "Lexicographically earliest sequence of distinct positive terms such that, for any n > 0, multiplying n by a(n) does not produce any carries when performed in base 2.",
+  "id": "A289726",
+  "mentions": [
+    "A266195"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:04",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "The bottom entry in the forward difference table of the Euler totient function phi for 1..n.",
+  "id": "A331573",
+  "mentions": [
+    "A000010",
+    "A002088",
+    "A057000",
+    "A187202"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

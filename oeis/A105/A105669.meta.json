@@ -1,0 +1,24 @@
+{
+  "description": "A \"fractal\" transform of the Fibonacci numbers F(n)=A000045(n): a(1)=1, then for n>1 if F(n) < k < F(n+1) we have a(k) = F(n+1)-a(k-F(n)) and when k = F(n+1) we force a(F(n+1)) = F(n+1) + (1+(-1)^n)*F(n).",
+  "id": "A105669",
+  "mentions": [
+    "A000045",
+    "A001622",
+    "A004937",
+    "A093347",
+    "A093348",
+    "A105670",
+    "A105672"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:56",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

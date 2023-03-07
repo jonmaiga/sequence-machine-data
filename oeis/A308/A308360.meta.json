@@ -1,0 +1,22 @@
+{
+  "description": "Product of positive divisors d of n that are divisible by every prime that divides n.",
+  "id": "A308360",
+  "mentions": [
+    "A005117",
+    "A005361",
+    "A007955",
+    "A057723",
+    "A064549"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:32",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

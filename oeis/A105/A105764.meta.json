@@ -1,0 +1,18 @@
+{
+  "description": "Indices of prime Lucas 5-step numbers, A074048.",
+  "id": "A105764",
+  "mentions": [
+    "A074048",
+    "A105765"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Triangle T(n,m) with 2n-1 entries per row, read by rows: the first n entries count down from n to 1, the remaining n-1 entries down from n-1 to 1.",
+  "id": "A165162",
+  "mentions": [
+    "A057058",
+    "A165200"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

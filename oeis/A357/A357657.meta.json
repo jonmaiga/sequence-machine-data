@@ -1,0 +1,29 @@
+{
+  "description": "a(n) is a lower bound for the square root of the maximum square with exactly n zeros in its binary representation.",
+  "id": "A357657",
+  "mentions": [
+    "A000120",
+    "A000290",
+    "A159918",
+    "A230097",
+    "A356838",
+    "A357304",
+    "A357305",
+    "A357656",
+    "A357753",
+    "A357754"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

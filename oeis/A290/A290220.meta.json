@@ -1,0 +1,31 @@
+{
+  "description": "Narrow cross sequence (see Comments lines for definition).",
+  "id": "A290220",
+  "mentions": [
+    "A004767",
+    "A008585",
+    "A008586",
+    "A016777",
+    "A016789",
+    "A017101",
+    "A042963",
+    "A139250",
+    "A194270",
+    "A220500",
+    "A289840",
+    "A290221",
+    "A294020"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:05:29",
+    "offset": 0,
+    "size": 67,
+    "source": "joeis"
+  }
+}

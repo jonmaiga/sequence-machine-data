@@ -1,0 +1,32 @@
+{
+  "description": "Numbers whose binary indices are relatively prime and pairwise indivisible.",
+  "id": "A328671",
+  "mentions": [
+    "A000120",
+    "A048793",
+    "A121016",
+    "A285573",
+    "A291166",
+    "A303362",
+    "A304713",
+    "A305148",
+    "A316468",
+    "A316475",
+    "A316476",
+    "A326704",
+    "A328676",
+    "A328677",
+    "A328678"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

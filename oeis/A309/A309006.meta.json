@@ -1,0 +1,19 @@
+{
+  "description": "Product minus sum of the two previous terms in the sequence, with a(1) = 2 and a(2) = 5.",
+  "id": "A309006",
+  "mentions": [
+    "A173096",
+    "A268021"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:33",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

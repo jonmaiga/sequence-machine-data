@@ -1,0 +1,18 @@
+{
+  "description": "Main diagonal of A101646.",
+  "id": "A101711",
+  "mentions": [
+    "A014417",
+    "A101646"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

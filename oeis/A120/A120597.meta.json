@@ -1,0 +1,21 @@
+{
+  "description": "G.f. satisfies: 9*A(x) = 8 + 8*x + A(x)^5, starting with [1,2,10].",
+  "id": "A120597",
+  "mentions": [
+    "A120588",
+    "A120596",
+    "A120598",
+    "A120607"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:11",
+    "offset": 0,
+    "size": 18,
+    "source": "joeis"
+  }
+}

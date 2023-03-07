@@ -1,0 +1,23 @@
+{
+  "description": "Primitive, odd, squarefree abundant numbers.",
+  "id": "A249263",
+  "mentions": [
+    "A006038",
+    "A112643",
+    "A129485",
+    "A188342",
+    "A249242",
+    "A287581",
+    "A287590"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:05",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

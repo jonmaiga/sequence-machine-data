@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Sum from \"least x such that prime(x) has n digits\" to \"the number of primes with n digits\" of the difference between prime(k) and k.",
+  "id": "A261806",
+  "mentions": [
+    "A006879",
+    "A014689",
+    "A090226"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

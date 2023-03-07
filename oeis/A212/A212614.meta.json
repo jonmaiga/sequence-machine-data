@@ -1,0 +1,20 @@
+{
+  "description": "Least k > 1 such that the product tri(n) * tri(k) is triangular, or zero if no such k exists, where tri(k) is the k-th triangular number.",
+  "id": "A212614",
+  "mentions": [
+    "A000217",
+    "A001108",
+    "A188630",
+    "A212615"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

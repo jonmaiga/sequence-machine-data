@@ -1,0 +1,22 @@
+{
+  "description": "Triangular array read by rows. T(n,k) is the number of labeled trees with black and white nodes having exactly k black nodes, n>=0, 0<=k<=n.",
+  "id": "A249632",
+  "mentions": [
+    "A000169",
+    "A000272",
+    "A038058",
+    "A081131"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

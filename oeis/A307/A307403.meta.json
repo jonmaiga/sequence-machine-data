@@ -1,0 +1,22 @@
+{
+  "description": "Base-5 based twisted permutation of the nonnegative integers - variant \"Hs\".",
+  "id": "A307403",
+  "mentions": [
+    "A220952",
+    "A307404",
+    "A307405",
+    "A307406"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

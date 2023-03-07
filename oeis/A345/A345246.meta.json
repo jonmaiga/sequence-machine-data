@@ -1,0 +1,20 @@
+{
+  "description": "Number of 2-connected unlabeled simple graphs with no triangles.",
+  "id": "A345246",
+  "mentions": [
+    "A002218",
+    "A024607"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 4,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

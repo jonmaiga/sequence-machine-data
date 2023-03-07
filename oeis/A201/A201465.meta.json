@@ -1,0 +1,20 @@
+{
+  "description": "E.g.f. satisfies: A(x) = (x + 2*exp(A(x)) - 2)/3.",
+  "id": "A201465",
+  "mentions": [
+    "A000311",
+    "A058562",
+    "A201466"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 11:57:28",
+    "offset": 1,
+    "size": 19,
+    "source": "joeis"
+  }
+}

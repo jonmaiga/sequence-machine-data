@@ -1,0 +1,23 @@
+{
+  "description": "Square array read by antidiagonals: T(n, k) = 1 if the digits of p = n*k in base 2 are exactly the same as the digits of p when considering the base-2 representations of n, k and p as base-10 numbers, otherwise T(n, k) = 0.",
+  "id": "A322674",
+  "mentions": [
+    "A007088",
+    "A071998",
+    "A080719",
+    "A257831"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:45",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

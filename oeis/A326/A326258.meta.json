@@ -1,0 +1,31 @@
+{
+  "description": "MM-numbers of unsortable multiset partitions (with empty parts allowed).",
+  "id": "A326258",
+  "mentions": [
+    "A001055",
+    "A016098",
+    "A056239",
+    "A058681",
+    "A112798",
+    "A302242",
+    "A324170",
+    "A326209",
+    "A326211",
+    "A326212",
+    "A326243",
+    "A326255",
+    "A326256",
+    "A326257",
+    "A326259"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

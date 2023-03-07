@@ -1,0 +1,18 @@
+{
+  "description": "Number of admissable 2-dimensional lattice patterns of type Sigma(2,3,5).",
+  "id": "A220843",
+  "mentions": [
+    "A220842"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

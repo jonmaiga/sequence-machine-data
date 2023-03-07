@@ -1,0 +1,19 @@
+{
+  "description": "a(1)=1; thereafter a(n) = smallest prime factor of A261570(n).",
+  "id": "A261411",
+  "mentions": [
+    "A067063",
+    "A075023",
+    "A261570"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:20",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

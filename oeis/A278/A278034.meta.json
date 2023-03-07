@@ -1,0 +1,17 @@
+{
+  "description": "Instanton numbers of the (1, 1)-threefold.",
+  "id": "A278034",
+  "mentions": [
+    "A278035"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

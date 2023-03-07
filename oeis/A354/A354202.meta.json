@@ -1,0 +1,29 @@
+{
+  "description": "Fully multiplicative with a(p^e) = A354200(A000720(p))^e.",
+  "id": "A354202",
+  "mentions": [
+    "A000720",
+    "A003961",
+    "A007310",
+    "A108548",
+    "A267099",
+    "A332818",
+    "A348746",
+    "A354091",
+    "A354200",
+    "A354203",
+    "A354204",
+    "A354205"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

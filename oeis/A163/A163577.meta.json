@@ -1,0 +1,22 @@
+{
+  "description": "Count of indices x in [0,n] that satisfy the equation A000120(x) + A000120(n-x) = A000120(n) + 2.",
+  "id": "A163577",
+  "mentions": [
+    "A000120",
+    "A001316",
+    "A007814",
+    "A163000",
+    "A275012"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:45",
+    "offset": 0,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

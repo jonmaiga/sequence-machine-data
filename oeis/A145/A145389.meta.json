@@ -1,0 +1,25 @@
+{
+  "description": "Digital roots of triangular numbers.",
+  "id": "A145389",
+  "mentions": [
+    "A000217",
+    "A004157",
+    "A007494",
+    "A010888",
+    "A016777",
+    "A090570"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:54:37",
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

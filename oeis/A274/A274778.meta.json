@@ -1,0 +1,18 @@
+{
+  "description": "Number of proper mergings of an n-antichain and an n-chain.",
+  "id": "A274778",
+  "mentions": [
+    "A085465"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

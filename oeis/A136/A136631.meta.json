@@ -1,0 +1,19 @@
+{
+  "description": "Antidiagonal sums of triangle A136630, omitting antidiagonals of all zeros.",
+  "id": "A136631",
+  "mentions": [
+    "A003724",
+    "A136630"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

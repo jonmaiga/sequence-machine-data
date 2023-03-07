@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of 8*sin(Pi/8).",
+  "id": "A280585",
+  "mentions": [
+    "A010466",
+    "A019827",
+    "A182168",
+    "A280533",
+    "A280633",
+    "A280725",
+    "A280819"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:23:55",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of labeled 3-regular digraphs (multiple arcs and loops allowed) on n nodes with k components.",
+  "id": "A344379",
+  "mentions": [
+    "A001500",
+    "A045943",
+    "A123543",
+    "A307804"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

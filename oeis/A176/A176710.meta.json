@@ -1,0 +1,21 @@
+{
+  "description": "Mix A001021, 2*A001021.",
+  "id": "A176710",
+  "mentions": [
+    "A001021",
+    "A091137",
+    "A165313"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:33:43",
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

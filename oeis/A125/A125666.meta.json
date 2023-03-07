@@ -1,0 +1,27 @@
+{
+  "description": "Table read by antidiagonals: n-th row of table consists of the positive integers divisible by exactly n distinct primes.",
+  "id": "A125666",
+  "mentions": [
+    "A000961",
+    "A001221",
+    "A002110",
+    "A007774",
+    "A033992",
+    "A033993",
+    "A048692",
+    "A051270",
+    "A073329",
+    "A074969"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Integers m such that the sum of the first k divisors is equal to 2*m for some k less than the number of divisors of m.",
+  "id": "A306373",
+  "mentions": [
+    "A005820",
+    "A055153",
+    "A064510",
+    "A194472"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Lengths of runs of identical terms in A253415.",
+  "id": "A253425",
+  "mentions": [
+    "A095258",
+    "A253415"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

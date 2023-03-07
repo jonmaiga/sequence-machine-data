@@ -1,0 +1,25 @@
+{
+  "description": "Numbers k such that 2*k^2 is not in A014567; complement of A356449.",
+  "id": "A356453",
+  "mentions": [
+    "A000203",
+    "A014567",
+    "A065766",
+    "A356448",
+    "A356449",
+    "A356452",
+    "A356454",
+    "A356456"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:30",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "The number of free polyiamonds with n cells on an order-7 triangular tiling of the hyperbolic plane.",
+  "id": "A330659",
+  "mentions": [
+    "A000207",
+    "A000577",
+    "A005036",
+    "A119611"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

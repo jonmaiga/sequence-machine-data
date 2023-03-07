@@ -1,0 +1,17 @@
+{
+  "description": "Beginning with a(1) = 1, for n > 1, a(n) = the least divisor of a(n-1) not included earlier, otherwise a(n) = the least multiple m*a(n-1) such that m is not a divisor of a(n-1) and m*a(n-1) is not included earlier.",
+  "id": "A304752",
+  "mentions": [
+    "A113552"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:29",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

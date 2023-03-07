@@ -1,0 +1,20 @@
+{
+  "description": "First differences of A137212.",
+  "id": "A137213",
+  "mentions": [
+    "A000129",
+    "A132894",
+    "A137212"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:25",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

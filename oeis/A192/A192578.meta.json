@@ -1,0 +1,19 @@
+{
+  "description": "Primes p for which there is no prime q == 1 (mod 4) that is smaller than p and is a quadratic residue modulo p.",
+  "id": "A192578",
+  "mentions": [
+    "A192579"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of pairs (a,b), 1 <= a <= b <= n, such that (a+b)^2+n^2 is a square.",
+  "id": "A143714",
+  "mentions": [
+    "A143715"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "changed",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:32",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

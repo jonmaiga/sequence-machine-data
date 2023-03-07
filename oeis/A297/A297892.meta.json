@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows. T(n,k) is the number of n X n diagonalizable matrices over GF(3) that have rank k, 0 <= k <= n, n >= 0.",
+  "id": "A297892",
+  "mentions": [
+    "A053290",
+    "A053846",
+    "A290516",
+    "A296548"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Array T(n,k) counting words with n letters drawn from a k-letter alphabet with no letter appearing thrice in a 3-letter subword.",
+  "id": "A265584",
+  "mentions": [
+    "A000290",
+    "A006355",
+    "A007531",
+    "A121907",
+    "A123620",
+    "A123871",
+    "A123887",
+    "A265583",
+    "A265624"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

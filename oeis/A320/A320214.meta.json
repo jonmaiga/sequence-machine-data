@@ -1,0 +1,18 @@
+{
+  "description": "Number of multisets of nonempty words with a total of n letters over quaternary alphabet such that all letters occur at least once in the multiset.",
+  "id": "A320214",
+  "mentions": [
+    "A257740",
+    "A320205"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:42",
+    "offset": 4,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

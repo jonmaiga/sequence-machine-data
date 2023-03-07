@@ -1,0 +1,24 @@
+{
+  "description": "Slowest increasing sequence beginning with a(1)=4 such that A002828(a(n)) = A002828(n).",
+  "id": "A159629",
+  "mentions": [
+    "A002828",
+    "A004760",
+    "A007814",
+    "A159559",
+    "A159560",
+    "A159615",
+    "A159619"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

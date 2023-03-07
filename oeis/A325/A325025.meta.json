@@ -1,0 +1,25 @@
+{
+  "description": "Numbers that are multi-perfect (A007691) and simultaneously harmonic (A001599).",
+  "id": "A325025",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A000396",
+    "A001599",
+    "A007691",
+    "A140798",
+    "A325021",
+    "A325023",
+    "A325026"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = ((2*n+1)!!)^4 * (Sum_{k=1..n} 1/(2*k+1)^4).",
+  "id": "A335092",
+  "mentions": [
+    "A291586",
+    "A334670",
+    "A335090",
+    "A335091",
+    "A335095"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

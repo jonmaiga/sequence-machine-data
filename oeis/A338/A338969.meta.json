@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the sum of the lengths of all the segments used to draw a rectangle of height partition(n) and width n divided into partition(n) rectangles of unit height, in turn, divided into rectangles of unit height and lengths corresponding to the parts of the partitions of n.",
+  "id": "A338969",
+  "mentions": [
+    "A000041",
+    "A006128",
+    "A066186",
+    "A211992",
+    "A225596",
+    "A278355"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

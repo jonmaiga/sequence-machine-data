@@ -1,0 +1,18 @@
+{
+  "description": "Lexicographically first sequence of nonnegative integers such that no two terms share all but one digit in common, nor does interchanging any two adjacent digits in any term change it into another term of the sequence.",
+  "id": "A333614",
+  "mentions": [
+    "A008585"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

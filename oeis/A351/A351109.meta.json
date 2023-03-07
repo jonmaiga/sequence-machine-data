@@ -1,0 +1,21 @@
+{
+  "description": "Number of simple paths for a Racetrack car (using von Neumann neighborhood) with initial velocity zero, going from one corner to the diagonally opposite corner on an n X n grid.",
+  "id": "A351109",
+  "mentions": [
+    "A007764",
+    "A351042",
+    "A351107",
+    "A351108"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

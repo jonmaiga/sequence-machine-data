@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: row n (n>=1) enumerates marked mesh patterns of type R_n^(1,0,2,0).",
+  "id": "A182544",
+  "mentions": [
+    "A006318",
+    "A211319",
+    "A211320"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "more",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

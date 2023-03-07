@@ -1,0 +1,19 @@
+{
+  "description": "Numbers of the form Fibonacci(12n)/(144n).",
+  "id": "A272355",
+  "mentions": [
+    "A072378"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

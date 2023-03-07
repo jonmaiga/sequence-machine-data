@@ -1,0 +1,18 @@
+{
+  "description": "Achilles number whose largest proper divisor is also an Achilles number.",
+  "id": "A203662",
+  "mentions": [
+    "A052486",
+    "A143610"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:23",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

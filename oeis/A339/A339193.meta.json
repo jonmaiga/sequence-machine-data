@@ -1,0 +1,35 @@
+{
+  "description": "Matula-Goebel numbers of unlabeled binary rooted semi-identity trees.",
+  "id": "A339193",
+  "mentions": [
+    "A000081",
+    "A001190",
+    "A004111",
+    "A007097",
+    "A061775",
+    "A063895",
+    "A111299",
+    "A112798",
+    "A196050",
+    "A276625",
+    "A291636",
+    "A306200",
+    "A306201",
+    "A306202",
+    "A306203",
+    "A331963",
+    "A331964",
+    "A331965",
+    "A331966"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

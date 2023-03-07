@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows. T(n, k) = BellPolynomial(n, -k).",
+  "id": "A350263",
+  "mentions": [
+    "A000587",
+    "A292861",
+    "A292866"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

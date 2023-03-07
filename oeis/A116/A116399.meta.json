@@ -1,0 +1,22 @@
+{
+  "description": "Triangle whose k-th column has e.g.f. sum{j=0..k, Bessel_I(k+j,2x)}.",
+  "id": "A116399",
+  "mentions": [
+    "A002054",
+    "A007318",
+    "A037952",
+    "A116401"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

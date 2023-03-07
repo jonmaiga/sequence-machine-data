@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that A112131(n) and A112131(n+1) are both Harshad numbers.",
+  "id": "A109464",
+  "mentions": [
+    "A109448",
+    "A112131"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

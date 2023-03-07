@@ -1,0 +1,35 @@
+{
+  "description": "Number T(n,k) of endofunctions on [n] where the smallest cycle length equals k; triangle T(n,k), n>=0, 0<=k<=n, read by rows.",
+  "id": "A246049",
+  "mentions": [
+    "A000007",
+    "A000142",
+    "A000312",
+    "A001008",
+    "A002805",
+    "A045531",
+    "A241981",
+    "A243098",
+    "A246050",
+    "A246189",
+    "A246190",
+    "A246191",
+    "A246192",
+    "A246193",
+    "A246194",
+    "A246195",
+    "A246196",
+    "A246197"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:02",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

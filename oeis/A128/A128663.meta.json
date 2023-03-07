@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of eta(q^3) * eta(q^33) / ( eta(q)* eta(q^11)) in powers of q.",
+  "id": "A128663",
+  "mentions": [
+    "A226009"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:42:49",
+    "offset": 1,
+    "size": 50,
+    "source": "joeis"
+  }
+}

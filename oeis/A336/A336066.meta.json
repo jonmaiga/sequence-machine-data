@@ -1,0 +1,28 @@
+{
+  "description": "Numbers k such that the exponent of the highest power of 2 dividing k (A007814) is a divisor of k.",
+  "id": "A336066",
+  "mentions": [
+    "A001146",
+    "A005349",
+    "A006446",
+    "A007694",
+    "A007814",
+    "A033950",
+    "A039956",
+    "A074946",
+    "A075592",
+    "A112249",
+    "A336067",
+    "A336068"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:07",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

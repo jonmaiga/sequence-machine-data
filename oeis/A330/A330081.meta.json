@@ -1,0 +1,23 @@
+{
+  "description": "If the binary expansion of n is (b(1), ..., b(w)), then the binary expansion of a(n) is (b(1), b(3), b(5), ..., b(6), b(4), b(2)).",
+  "id": "A330081",
+  "mentions": [
+    "A003558",
+    "A194959",
+    "A329303",
+    "A330090"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:59",
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

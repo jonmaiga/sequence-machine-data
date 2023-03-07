@@ -1,0 +1,17 @@
+{
+  "description": "Primes p such that there exists k with p < k < q such that p+k and q+k are prime, where q is the next prime after p.",
+  "id": "A336300",
+  "mentions": [
+    "A069142"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:07",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

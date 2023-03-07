@@ -1,0 +1,21 @@
+{
+  "description": "T(n, k) is the Cauchy coefficient of the k-th partition of n, where the partitions are enumerated in standard order. T(n, k) for n >= 0 and 1 <= k <= A000041(n).",
+  "id": "A341105",
+  "mentions": [
+    "A000041",
+    "A080577",
+    "A110141"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

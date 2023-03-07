@@ -1,0 +1,27 @@
+{
+  "description": "Triangle T(n, k, m) = (m+2)^(k*(n-k)) with m = 15, read by rows.",
+  "id": "A156581",
+  "mentions": [
+    "A117401",
+    "A118180",
+    "A118185",
+    "A118190",
+    "A158116",
+    "A158117",
+    "A176627",
+    "A176639",
+    "A176642"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:38",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

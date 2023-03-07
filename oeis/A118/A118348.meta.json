@@ -1,0 +1,21 @@
+{
+  "description": "Semi-diagonal (two rows below central terms) of pendular triangle A118345 and equal to the self-convolution cube of the central terms (A118346).",
+  "id": "A118348",
+  "mentions": [
+    "A118345",
+    "A118346",
+    "A118347",
+    "A118349"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:07",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

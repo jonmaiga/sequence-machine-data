@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that in rearrangement A104696, they are shifted to the left (position of n in A104696 is less than n ).",
+  "id": "A104703",
+  "mentions": [
+    "A104696",
+    "A104702",
+    "A104704"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

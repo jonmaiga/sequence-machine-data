@@ -1,0 +1,19 @@
+{
+  "description": "Least k such that n! + k^2 + k is a perfect square.",
+  "id": "A230389",
+  "mentions": [
+    "A000142",
+    "A000290",
+    "A002378"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:47",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

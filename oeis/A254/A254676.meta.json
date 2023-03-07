@@ -1,0 +1,22 @@
+{
+  "description": "Heptagonal numbers (A000566) which are also centered triangular numbers (A005448).",
+  "id": "A254676",
+  "mentions": [
+    "A000566",
+    "A005448",
+    "A254674",
+    "A254675"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:12",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

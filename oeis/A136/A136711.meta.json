@@ -1,0 +1,26 @@
+{
+  "description": "At step n the sequence lists the number of occurrences of digit (n mod k), with k>0, in all the numbers from 1 to n. Case k=7.",
+  "id": "A136711",
+  "mentions": [
+    "A136706",
+    "A136707",
+    "A136708",
+    "A136709",
+    "A136710",
+    "A136712",
+    "A136713",
+    "A136714"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:24",
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

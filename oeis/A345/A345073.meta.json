@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the least integer k such that e * (n!)^(1/n) < n + k.",
+  "id": "A345073",
+  "mentions": [
+    "A001113",
+    "A345074"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:18",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

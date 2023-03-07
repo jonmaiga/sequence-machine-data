@@ -1,0 +1,30 @@
+{
+  "description": "Number of antichains covering a subset of {1..n} where every two covered vertices appear together in some edge (cointersecting).",
+  "id": "A327057",
+  "mentions": [
+    "A000372",
+    "A006126",
+    "A051185",
+    "A245567",
+    "A305844",
+    "A326704",
+    "A326853",
+    "A326950",
+    "A327020",
+    "A327038",
+    "A327039",
+    "A327052"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

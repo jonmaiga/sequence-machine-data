@@ -1,0 +1,22 @@
+{
+  "description": "Concatenation of next n isolated primes.",
+  "id": "A133074",
+  "mentions": [
+    "A007510",
+    "A053067",
+    "A133013",
+    "A133014"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:21",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-bfile"
+  }
+}

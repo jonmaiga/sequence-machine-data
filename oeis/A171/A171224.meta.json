@@ -1,0 +1,27 @@
+{
+  "description": "Riordan array (f(x),x*f(x)) where f(x) is the g.f. of A117641.",
+  "id": "A171224",
+  "mentions": [
+    "A002212",
+    "A007317",
+    "A007318",
+    "A026378",
+    "A033321",
+    "A053121",
+    "A065600",
+    "A097609",
+    "A117641"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:47",
+    "offset": 0,
+    "size": 66,
+    "source": "joeis"
+  }
+}

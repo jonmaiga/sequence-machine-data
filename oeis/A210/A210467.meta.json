@@ -1,0 +1,22 @@
+{
+  "description": "Let p_(3,2)(m) be the m-th prime == 2(mod 3). Then a(n) is the smallest p_(3,2)(m) such that the interval(p_(3,2)(m)*n, p_(3,2)(m+1)*n) contains exactly one prime == 2 (mod 3).",
+  "id": "A210467",
+  "mentions": [
+    "A023200",
+    "A195325",
+    "A207820",
+    "A210465",
+    "A210475",
+    "A210476"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 2,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

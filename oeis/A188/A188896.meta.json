@@ -1,0 +1,23 @@
+{
+  "description": "Numbers n such that there is no square n-gonal number greater than 1.",
+  "id": "A188896",
+  "mentions": [
+    "A001107",
+    "A005893",
+    "A051872",
+    "A100252",
+    "A188892",
+    "A188950",
+    "A271624"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:13",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

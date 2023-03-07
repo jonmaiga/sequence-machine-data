@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{d|n} Stirling2(n,d).",
+  "id": "A308037",
+  "mentions": [
+    "A000040",
+    "A008277",
+    "A056045",
+    "A096308"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

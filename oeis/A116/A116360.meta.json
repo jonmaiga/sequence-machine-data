@@ -1,0 +1,18 @@
+{
+  "description": "Smallest number having exactly n partitions into products of two successive primes (A006094), or -1 if no such number exists.",
+  "id": "A116360",
+  "mentions": [
+    "A006094",
+    "A116357"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

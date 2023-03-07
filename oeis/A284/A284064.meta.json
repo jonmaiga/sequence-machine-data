@@ -1,0 +1,28 @@
+{
+  "description": "Numbers whose smallest decimal digit is 3.",
+  "id": "A284064",
+  "mentions": [
+    "A002283",
+    "A011540",
+    "A054054",
+    "A106103",
+    "A284062",
+    "A284063",
+    "A284065",
+    "A284066",
+    "A284067",
+    "A284068",
+    "A284069"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:55",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

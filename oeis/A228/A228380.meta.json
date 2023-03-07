@@ -1,0 +1,17 @@
+{
+  "description": "Positive integers N such that N = (p^2+q^2)*(r^2-s^2)/((p^2-q^2)*(r^2+s^2)) for some positive integers p,q,r,s.",
+  "id": "A228380",
+  "mentions": [
+    "A117319"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Determinant of the p_n X p_n matrix with (i,j)-entry equal to the Legendre symbol ((i^2 + 3*i*j + 3*j^2)/p_n) for all i,j = 0, 1, ..., p_n-1, where p_n is the n-th prime.",
+  "id": "A228095",
+  "mentions": [
+    "A225611",
+    "A226163",
+    "A227609",
+    "A227968",
+    "A227971",
+    "A228005",
+    "A228077"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:45",
+    "offset": 2,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

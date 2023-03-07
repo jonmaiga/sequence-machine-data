@@ -1,0 +1,24 @@
+{
+  "description": "A base-3/2 sorted Fibonacci sequence that starts with a(0) = 0 and a(1) = 1. The terms are interpreted as numbers written in base 3/2. To get a(n+2), add a(n) and a(n+1), write the result in base 3/2 and sort the \"digits\" into increasing order, omitting all zeros.",
+  "id": "A305753",
+  "mentions": [
+    "A000045",
+    "A024629",
+    "A047855",
+    "A069638",
+    "A237575",
+    "A305880"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:30",
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

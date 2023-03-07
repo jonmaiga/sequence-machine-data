@@ -1,0 +1,23 @@
+{
+  "description": "Triangle: T(n,k) is the partition function G(n-k,k).",
+  "id": "A108947",
+  "mentions": [
+    "A000110",
+    "A001680",
+    "A001681",
+    "A080510"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:01",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

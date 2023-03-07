@@ -1,0 +1,18 @@
+{
+  "description": "Array read by antidiagonals: T(m,n) = m * Sum(1<=i<=m) (m+n-2+i)!",
+  "id": "A211367",
+  "mentions": [
+    "A055089"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:30",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

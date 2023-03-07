@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the smallest number not already in the sequence, such that the concatenation of all a(n) displays the periodic digit string 1, 2, 3, 4 (and repeat).",
+  "id": "A165302",
+  "mentions": [
+    "A165300",
+    "A165301",
+    "A165303",
+    "A165307"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

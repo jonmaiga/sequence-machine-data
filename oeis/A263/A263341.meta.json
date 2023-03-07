@@ -1,0 +1,33 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of unlabeled graphs on n vertices with independence number k.",
+  "id": "A263341",
+  "mentions": [
+    "A000088",
+    "A052450",
+    "A052451",
+    "A052452",
+    "A077392",
+    "A077393",
+    "A077394",
+    "A115196",
+    "A126744",
+    "A205577",
+    "A205578",
+    "A263284",
+    "A287024",
+    "A294490",
+    "A332402",
+    "A332403"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:23",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

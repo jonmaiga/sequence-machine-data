@@ -1,0 +1,18 @@
+{
+  "description": "Base-2 Reacher numbers: numbers that are powers of the sum of their base-2 digits.",
+  "id": "A256590",
+  "mentions": [
+    "A023106"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

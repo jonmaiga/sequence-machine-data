@@ -1,0 +1,20 @@
+{
+  "description": "T(n,k)=Number of arrays of -k..k integers x(1..n) with every x(i) being in a substring of length 1 or 2 with sum zero. Array listed by antidiagonals.",
+  "id": "A193648",
+  "mentions": [
+    "A193641",
+    "A193647"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

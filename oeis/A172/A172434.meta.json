@@ -1,0 +1,22 @@
+{
+  "description": "G.f.: Sum_{n>=0} a(n)*x^n/n!^4 = [ Sum_{n>=0} x^n/n!^4 ]^3.",
+  "id": "A172434",
+  "mentions": [
+    "A002893",
+    "A005260",
+    "A141057",
+    "A180350",
+    "A336270"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:56",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

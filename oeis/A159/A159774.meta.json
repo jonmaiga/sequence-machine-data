@@ -1,0 +1,25 @@
+{
+  "description": "Least number m, written in base n, such that m/2 is obtained merely by shifting the leftmost digit of m to the right end, and 2m by shifting the rightmost digit of m to the left end, digits defined in base n.",
+  "id": "A159774",
+  "mentions": [
+    "A092697",
+    "A094224",
+    "A094676",
+    "A097717",
+    "A147514",
+    "A158877"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 3,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

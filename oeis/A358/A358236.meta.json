@@ -1,0 +1,24 @@
+{
+  "description": "Number of factorizations of n where the sum of the factors is carryfree when the addition is done in the primorial base.",
+  "id": "A358236",
+  "mentions": [
+    "A001055",
+    "A049345",
+    "A276086",
+    "A317836",
+    "A327936",
+    "A358233"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:32",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

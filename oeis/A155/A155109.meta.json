@@ -1,0 +1,19 @@
+{
+  "description": "Odd nonprime numbers k such that composite(k) is even.",
+  "id": "A155109",
+  "mentions": [
+    "A002808",
+    "A141468"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "The k-th binary digit of a(n) is the most frequent digit among the first k binary digits of n (in case of a tie, take the k-th binary digit of n).",
+  "id": "A343049",
+  "mentions": [
+    "A032925",
+    "A036993",
+    "A070939",
+    "A342697",
+    "A343271"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:16",
+    "offset": 0,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

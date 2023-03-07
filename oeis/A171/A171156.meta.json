@@ -1,0 +1,22 @@
+{
+  "description": "Numbers of the form 2p or 3p where p is a prime greater than 3.",
+  "id": "A171156",
+  "mentions": [
+    "A001748",
+    "A006881",
+    "A100484",
+    "A253106"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

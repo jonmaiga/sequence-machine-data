@@ -1,0 +1,33 @@
+{
+  "description": "Number of permutations of the prime indices of 2^n - 1.",
+  "id": "A336105",
+  "mentions": [
+    "A000225",
+    "A008480",
+    "A046051",
+    "A046800",
+    "A046801",
+    "A049093",
+    "A056239",
+    "A112798",
+    "A325610",
+    "A325611",
+    "A325612",
+    "A325617",
+    "A325625",
+    "A335432",
+    "A335489",
+    "A336104"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

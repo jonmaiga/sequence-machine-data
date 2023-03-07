@@ -1,0 +1,22 @@
+{
+  "description": "Inverse Euler transform of A005169 (fountains of coins).",
+  "id": "A226999",
+  "mentions": [
+    "A005165",
+    "A005169",
+    "A005170",
+    "A005728",
+    "A347901"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Numbers m such that no group of order m is a Con-Cos group.",
+  "id": "A119622",
+  "mentions": [
+    "A119569",
+    "A119605"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

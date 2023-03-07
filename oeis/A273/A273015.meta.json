@@ -1,0 +1,23 @@
+{
+  "description": "Ramanujan's largely composite numbers having 3 as the greatest prime divisor.",
+  "id": "A273015",
+  "mentions": [
+    "A003586",
+    "A065119",
+    "A067128",
+    "A273016",
+    "A273018"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

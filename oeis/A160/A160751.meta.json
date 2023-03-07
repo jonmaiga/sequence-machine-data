@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the smallest n-digit prime formed by appending a digit to a(n-1); a(1)=6.",
+  "id": "A160751",
+  "mentions": [
+    "A000040",
+    "A160674"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "easy",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Sum of the numerical equivalents for the 23 Latin letters, according to Tartaglia, of the letters in the English name of n, excluding spaces and hyphens.",
+  "id": "A132204",
+  "mentions": [
+    "A005589",
+    "A052360",
+    "A052362",
+    "A052363",
+    "A132475",
+    "A132984",
+    "A134629"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Minimal total number of floors an elevator must travel to get n people waiting, respectively, at floors i = 1, 2, ..., n, to their destinations at floors n+1-i (= n, ..., 1), if the elevator can hold at most C = 3 people and starts at floor 1, and no passenger may get off the elevator before reaching his/her destination.",
+  "id": "A162763",
+  "mentions": [
+    "A162761",
+    "A162764"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

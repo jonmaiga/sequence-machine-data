@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the smallest prime p such that in the sequence of n numbers p, p+1, p+2, ..., p+n-1, the i-th term has exactly i distinct prime factors, for i = 1, ..., n.",
+  "id": "A136106",
+  "mentions": [
+    "A001221",
+    "A072875",
+    "A086560"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "Numbers k such that 3*2^k-1 and 3*2^k+1 are twin primes (A001097).",
+  "id": "A181490",
+  "mentions": [
+    "A001097",
+    "A001359",
+    "A002235",
+    "A002253",
+    "A006512",
+    "A007283",
+    "A014574",
+    "A153893",
+    "A181491",
+    "A181492",
+    "A294730"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "bref",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

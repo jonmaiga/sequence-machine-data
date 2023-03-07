@@ -1,0 +1,18 @@
+{
+  "description": "For each permutation p of {1,2,...,n} define maxabsjump(p) = max(|p(i) - i|, 1<=i<=n); a(n) is the sum of maxabsjumps of all p.",
+  "id": "A130153",
+  "mentions": [
+    "A018927",
+    "A130152"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:18",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

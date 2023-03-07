@@ -1,0 +1,25 @@
+{
+  "description": "Number of odd terms in f^n, where f = (1/x+1+x)*(1/y+y)+1.",
+  "id": "A246039",
+  "mentions": [
+    "A001316",
+    "A071053",
+    "A072272",
+    "A102376",
+    "A160239",
+    "A246034",
+    "A246035",
+    "A246037",
+    "A246038"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:02",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

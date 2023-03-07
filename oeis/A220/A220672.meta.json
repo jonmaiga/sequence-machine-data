@@ -1,0 +1,23 @@
+{
+  "description": "Coefficients of powers of x^2 of polynomials, called h(2,n,x^2), appearing in a conjecture on alternating sums of fifth powers of odd-indexed Chebyshev S polynomials stated in A220671.",
+  "id": "A220672",
+  "mentions": [
+    "A016777",
+    "A049310",
+    "A217475",
+    "A220670",
+    "A220671"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of set partitions of [5n] into 5-element subsets {i, i+k, i+2k, i+3k, i+4k} with 1<=k<=n.",
+  "id": "A349430",
+  "mentions": [
+    "A000567",
+    "A008587",
+    "A104431",
+    "A337520"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

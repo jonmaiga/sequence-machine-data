@@ -1,0 +1,24 @@
+{
+  "description": "Number of maximal 2-independent sets in the 3-dimensional (2, 2, n) grid graph.",
+  "id": "A231884",
+  "mentions": [
+    "A197054",
+    "A217631",
+    "A217632",
+    "A231886",
+    "A231887",
+    "A231888"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:51:20",
+    "offset": 0,
+    "size": 32,
+    "source": "joeis"
+  }
+}

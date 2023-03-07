@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of Q(2), value of one of five integrals related to Quantum Field Theory (see the paper by David Broadhurst).",
+  "id": "A274440",
+  "mentions": [
+    "A255685",
+    "A274438",
+    "A274439",
+    "A274441",
+    "A274442"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 104,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "A permutation of two copies of the prime sequence, one moved to nonprime indices, the other to prime indices.",
+  "id": "A163466",
+  "mentions": [
+    "A000040",
+    "A001477",
+    "A141468"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

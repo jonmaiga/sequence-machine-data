@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = smallest positive number k with all digits equal such that the concatenation k||n||k is prime, or -1 if no such k exists.",
+  "id": "A338366",
+  "mentions": [
+    "A010785",
+    "A068695",
+    "A090287",
+    "A091088",
+    "A228323",
+    "A228325",
+    "A336893",
+    "A338712"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

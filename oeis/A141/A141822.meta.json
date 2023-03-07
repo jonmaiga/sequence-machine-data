@@ -1,0 +1,22 @@
+{
+  "description": "Maximum term in the continued fraction of A141821(n)/n.",
+  "id": "A141822",
+  "mentions": [
+    "A006839",
+    "A141821",
+    "A141823",
+    "A141832",
+    "A141833",
+    "A195901"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:42",
+    "offset": 2,
+    "size": 105,
+    "source": "joeis"
+  }
+}

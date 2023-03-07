@@ -1,0 +1,18 @@
+{
+  "description": "Inverse permutation of A180427. Also the absolute values of the first differences of A180427.",
+  "id": "A180428",
+  "mentions": [
+    "A180427"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

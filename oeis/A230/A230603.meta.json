@@ -1,0 +1,22 @@
+{
+  "description": "Generalized Fibonacci word. Binary complement of A221150.",
+  "id": "A230603",
+  "mentions": [
+    "A000204",
+    "A003849",
+    "A005614",
+    "A221150"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

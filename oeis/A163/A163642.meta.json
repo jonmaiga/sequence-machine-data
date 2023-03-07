@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = the smallest composite positive integer that is not yet in the sequence and that is coprime to n.",
+  "id": "A163642",
+  "mentions": [
+    "A085084",
+    "A163643"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:08:21",
+    "offset": 1,
+    "size": 69,
+    "source": "joeis"
+  }
+}

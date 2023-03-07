@@ -1,0 +1,18 @@
+{
+  "description": "Polynomials over GF(2) that are divisible by x^2+x+1, encoded as binary numbers.",
+  "id": "A353168",
+  "mentions": [
+    "A001969",
+    "A048727"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

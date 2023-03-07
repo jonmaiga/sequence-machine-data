@@ -1,0 +1,18 @@
+{
+  "description": "Number of -n..n arrays x(0..9) of 10 elements with zero sum and no two neighbors summing to zero",
+  "id": "A199839",
+  "mentions": [
+    "A199832"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:20",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

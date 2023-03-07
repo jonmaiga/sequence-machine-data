@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of the number whose binary expansion differs from its decimal expansion only in the first digit.",
+  "id": "A355328",
+  "mentions": [
+    "A352677"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

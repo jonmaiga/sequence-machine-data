@@ -1,0 +1,20 @@
+{
+  "description": "Square array T(n,k), n > 0, k > 1, read by antidiagonals: T(n, k) = 1 when n <= 2 or k <= 2, T(n, k) = T(n-T(n-1, k-1), k-T(n-2, k-2)) + T(n-T(n-2, k-2), k-T(n-1, k-1)) otherwise.",
+  "id": "A306741",
+  "mentions": [
+    "A005185",
+    "A306743"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

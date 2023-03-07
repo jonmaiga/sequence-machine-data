@@ -1,0 +1,18 @@
+{
+  "description": "Prime numbers congruent to 1, 65 or 81 modulo 112 neither representable by x^2 + 14*y^2 nor by x^2 + 448*y^2.",
+  "id": "A325084",
+  "mentions": [
+    "A325067",
+    "A325083"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

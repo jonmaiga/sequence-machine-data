@@ -1,0 +1,21 @@
+{
+  "description": "Smallest prime p such that the sum of all powers of primes 2^2 + 3^3 + ... + p^p up to p is a multiple of 10^n.",
+  "id": "A330309",
+  "mentions": [
+    "A174106",
+    "A174862",
+    "A330308"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

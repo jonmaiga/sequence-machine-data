@@ -1,0 +1,18 @@
+{
+  "description": "Numbers that can be written uniquely as sum of a square and a nonnegative cube.",
+  "id": "A179509",
+  "mentions": [
+    "A022549",
+    "A045634"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:02",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

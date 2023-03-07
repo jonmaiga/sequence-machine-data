@@ -1,0 +1,29 @@
+{
+  "description": "Denominator of the fourth increasing diagonal of the autosequence of second kind from (-1)^n / (n+1).",
+  "id": "A194767",
+  "mentions": [
+    "A000326",
+    "A001504",
+    "A005449",
+    "A026741",
+    "A045896",
+    "A045945",
+    "A049450",
+    "A060544",
+    "A146535",
+    "A189733"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:14:37",
+    "offset": 0,
+    "size": 34,
+    "source": "joeis"
+  }
+}

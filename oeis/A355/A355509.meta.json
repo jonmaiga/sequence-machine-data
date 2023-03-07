@@ -1,0 +1,23 @@
+{
+  "description": "Peaceable coexisting armies of knights: a(n) is the maximum number m such that m white knights and m black knights can coexist on an n X n chessboard without attacking each other.",
+  "id": "A355509",
+  "mentions": [
+    "A002620",
+    "A007590",
+    "A052928",
+    "A176222",
+    "A250000"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-10-18 14:56:45",
+    "offset": 1,
+    "size": 54,
+    "source": "joeis"
+  }
+}

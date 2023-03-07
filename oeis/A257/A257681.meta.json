@@ -1,0 +1,23 @@
+{
+  "description": "Column index of A257503: If A257685(n) = 0, then a(n) = A257682(n), otherwise a(n) = a(A257685(n)).",
+  "id": "A257681",
+  "mentions": [
+    "A257503",
+    "A257505",
+    "A257679",
+    "A257680",
+    "A257682",
+    "A257685"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:15",
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

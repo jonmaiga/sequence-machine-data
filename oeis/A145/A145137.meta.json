@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of x/((1 - x - x^4)*(1 - x)^8).",
+  "id": "A145137",
+  "mentions": [
+    "A145152",
+    "A145153"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

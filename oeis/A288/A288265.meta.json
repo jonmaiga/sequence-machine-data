@@ -1,0 +1,26 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of labeled connected planar graphs on n vertices and k edges.",
+  "id": "A288265",
+  "mentions": [
+    "A000272",
+    "A007816",
+    "A096332",
+    "A100960",
+    "A266390",
+    "A267411",
+    "A288266",
+    "A290326"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:01",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

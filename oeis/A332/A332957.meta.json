@@ -1,0 +1,19 @@
+{
+  "description": "Number of labeled forests with n trees and 2*n nodes without trees of order exceeding n - floor(n/4).",
+  "id": "A332957",
+  "mentions": [
+    "A000272",
+    "A302112"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "Self-inverse permutation of natural numbers: a(1) = 1; thereafter, if n is k-th number with an odd number of prime divisors (counted with multiplicity) [i.e., n = A026424(k)], a(n) = A028260(1+a(k)), otherwise, when n is k-th number > 1 with an even number of prime divisors [i.e., n = A028260(1+k)], a(n) = A026424(a(k)).",
+  "id": "A244152",
+  "mentions": [
+    "A008836",
+    "A026424",
+    "A028260",
+    "A055037",
+    "A055038",
+    "A066829",
+    "A235491",
+    "A236854",
+    "A243347",
+    "A244319",
+    "A245603",
+    "A245604"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:00",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

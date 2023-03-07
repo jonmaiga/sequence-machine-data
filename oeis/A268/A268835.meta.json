@@ -1,0 +1,24 @@
+{
+  "description": "Main diagonal of arrays A268833 & A268834: a(n) = A101080(n, A268820(n, 2*n)).",
+  "id": "A268835",
+  "mentions": [
+    "A003188",
+    "A006068",
+    "A101080",
+    "A268717",
+    "A268820",
+    "A268833",
+    "A268834"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:30",
+    "offset": 0,
+    "size": 121,
+    "source": "oeis-bfile"
+  }
+}

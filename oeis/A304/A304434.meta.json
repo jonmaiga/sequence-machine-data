@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that n^4 is the sum of two distinct perfect powers > 1 (x^k + y^m; x, y, k, m >= 2).",
+  "id": "A304434",
+  "mentions": [
+    "A001597",
+    "A076467",
+    "A111231",
+    "A133388",
+    "A304433"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

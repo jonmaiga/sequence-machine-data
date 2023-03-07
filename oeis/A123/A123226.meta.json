@@ -1,0 +1,20 @@
+{
+  "description": "Irregular triangle formed by coefficients of the polynomials p(k,x) = (x^k - Sum_{j=0..k-1} x^j )*p(k - 1, x), with p(0,x)=1, p(1,x)=x+1, read by rows.",
+  "id": "A123226",
+  "mentions": [
+    "A008302"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "less",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:11",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

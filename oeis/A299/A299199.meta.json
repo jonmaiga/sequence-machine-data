@@ -1,0 +1,23 @@
+{
+  "description": "In factorial base, any rational number has a terminating expansion; hence we can devise a self-inverse permutation of the rational numbers, say f, such that for any rational number q, the representations of q and of f(q) in factorial base are mirrored around the radix point and q and f(q) have the same sign; a(n) = f(1/n).",
+  "id": "A299199",
+  "mentions": [
+    "A034968",
+    "A052126",
+    "A276350",
+    "A299160",
+    "A299161"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:22",
+    "offset": 2,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the smallest divisor of the n-th nonprime number (A018252(n)) not already in the sequence.",
+  "id": "A326776",
+  "mentions": [
+    "A018252",
+    "A093641",
+    "A111273"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:53",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

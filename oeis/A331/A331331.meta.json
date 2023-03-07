@@ -1,0 +1,22 @@
+{
+  "description": "T(n, k) = (-m)^(n-k)*[x^k] KummerU(-n, 1/m, x) for m = 3. Triangle read by rows, T(n, k) for 0 <= k <= n.",
+  "id": "A331331",
+  "mentions": [
+    "A000567",
+    "A007559",
+    "A021009",
+    "A176230"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

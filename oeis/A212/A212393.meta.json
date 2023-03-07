@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of (1-4*x+7*x^2-5*x^3+4*x^4-6*x^5+21*x^6+18*x^7-5*x^8)/(1-x)^5.",
+  "id": "A212393",
+  "mentions": [
+    "A000012",
+    "A000096",
+    "A005586",
+    "A028310"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:32:07",
+    "offset": 0,
+    "size": 39,
+    "source": "joeis"
+  }
+}

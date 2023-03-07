@@ -1,0 +1,24 @@
+{
+  "description": "Table read by upward antidiagonals: T(n,k) is the number of strings of length k over an n-letter alphabet that have a bifix; n, k >= 1.",
+  "id": "A342240",
+  "mentions": [
+    "A000290",
+    "A081437",
+    "A094536",
+    "A094538",
+    "A094559",
+    "A342239"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:15",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

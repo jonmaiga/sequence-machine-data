@@ -1,0 +1,19 @@
+{
+  "description": "Near-misses for A094783: values where A137849(n) = n-1.",
+  "id": "A241080",
+  "mentions": [
+    "A094783",
+    "A137849"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

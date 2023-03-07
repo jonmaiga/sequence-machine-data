@@ -1,0 +1,17 @@
+{
+  "description": "E.g.f.: exp( Sum_{n>=0} x^(n^2+1)/(n^2+1) ).",
+  "id": "A214724",
+  "mentions": [
+    "A002496"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

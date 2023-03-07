@@ -1,0 +1,22 @@
+{
+  "description": "G.f.: c(2*x)^4, where c(x) is the g.f. of A000108.",
+  "id": "A101596",
+  "mentions": [
+    "A000108",
+    "A003645",
+    "A052701",
+    "A085687"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:52",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

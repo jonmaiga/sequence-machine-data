@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows, matrix product A128179 * A000012.",
+  "id": "A128590",
+  "mentions": [
+    "A000012",
+    "A000292",
+    "A128179"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

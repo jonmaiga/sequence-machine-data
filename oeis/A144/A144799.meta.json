@@ -1,0 +1,23 @@
+{
+  "description": "Integers having ideal digital mean to base 4.",
+  "id": "A144799",
+  "mentions": [
+    "A007953",
+    "A008591",
+    "A031443",
+    "A144777",
+    "A144798"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of fully gated graphs on n nodes.",
+  "id": "A142859",
+  "mentions": [
+    "A142860",
+    "A142861"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 5,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "G.f.: A(x,q) = 1 + x*A(q*x,q) * A(x,q)^2.",
+  "id": "A227372",
+  "mentions": [
+    "A000108",
+    "A001764",
+    "A138158",
+    "A227373",
+    "A227377"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

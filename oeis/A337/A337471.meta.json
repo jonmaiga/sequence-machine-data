@@ -1,0 +1,25 @@
+{
+  "description": "Primorial inflation of n prime shifted once: a(n) = A003961(A108951(n)).",
+  "id": "A337471",
+  "mentions": [
+    "A000265",
+    "A002110",
+    "A003961",
+    "A034386",
+    "A070826",
+    "A108951",
+    "A337470"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

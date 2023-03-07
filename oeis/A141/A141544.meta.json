@@ -1,0 +1,24 @@
+{
+  "description": "Odd numbers k such that 2k+5 is a prime.",
+  "id": "A141544",
+  "mentions": [
+    "A002145",
+    "A005408",
+    "A020498",
+    "A087915",
+    "A089038",
+    "A090670",
+    "A107771"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

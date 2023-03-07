@@ -1,0 +1,18 @@
+{
+  "description": "Sum (11^((k^2+3k)/2) from k=1 to n.",
+  "id": "A178192",
+  "mentions": [
+    "A178184",
+    "A178193"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:01",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-bfile"
+  }
+}

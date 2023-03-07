@@ -1,0 +1,19 @@
+{
+  "description": "For any n > 0, let f_n be the lexicographically earliest sequence of distinct positive terms such that the concatenation of the binary representation of its terms, without leading zeros, corresponds to the binary representation of n repeated indefinitely. Apparently, n always appears in f_n. a(n) gives the index of n in f_n.",
+  "id": "A308093",
+  "mentions": [
+    "A007582"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:32",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Number of 4Xn arrays containing n copies of 0..4-1 with row sums and column sums nondecreasing.",
+  "id": "A267993",
+  "mentions": [
+    "A267990"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

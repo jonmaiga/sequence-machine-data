@@ -1,0 +1,23 @@
+{
+  "description": "Mobius transform of A000082.",
+  "id": "A140697",
+  "mentions": [
+    "A000082",
+    "A007434",
+    "A054525",
+    "A055615"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:29",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

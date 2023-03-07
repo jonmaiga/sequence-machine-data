@@ -1,0 +1,22 @@
+{
+  "description": "Consider the e.g.f. D(x,y) = sqrt(1/2) * Sum_{n>=0} Sum_{k=0..2*n} T(n,k) * x^(2*n-k) * y^k / ((2*n-k)!*k!) and related functions S(x,y) and C(x,y), as defined in the Formula section. Sequence gives the triangular array of coefficients T(n,k) (n>=0, 0<=k<=2*n) of D(x,y).",
+  "id": "A326802",
+  "mentions": [
+    "A326551",
+    "A326552",
+    "A326800",
+    "A326801"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:53",
+    "offset": 0,
+    "size": 121,
+    "source": "oeis-bfile"
+  }
+}

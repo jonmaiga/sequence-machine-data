@@ -1,0 +1,21 @@
+{
+  "description": "Number of occurrences of \"01\" as a subsequence in the binary expansion of n.",
+  "id": "A281392",
+  "mentions": [
+    "A000079",
+    "A007283",
+    "A055941",
+    "A070875"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:50",
+    "offset": 0,
+    "size": 121,
+    "source": "oeis-bfile"
+  }
+}

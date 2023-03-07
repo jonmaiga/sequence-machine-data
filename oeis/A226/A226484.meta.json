@@ -1,0 +1,19 @@
+{
+  "description": "Odd numbers not of the form p + q^2 + r^3 with p, q, and r prime.",
+  "id": "A226484",
+  "mentions": [
+    "A212292"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

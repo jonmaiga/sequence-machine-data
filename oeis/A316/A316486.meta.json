@@ -1,0 +1,21 @@
+{
+  "description": "Squares whose arithmetic mean of digits is 6 (i.e., the sum of digits is 6 times the number of digits).",
+  "id": "A316486",
+  "mentions": [
+    "A000290",
+    "A061423",
+    "A069711",
+    "A316480"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:34",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

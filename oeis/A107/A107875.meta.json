@@ -1,0 +1,18 @@
+{
+  "description": "Column 1 of triangle A107873; a(n) = C( n*(n+1)/2 + n+3, n).",
+  "id": "A107875",
+  "mentions": [
+    "A107873",
+    "A107874"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 12:56:31",
+    "offset": 0,
+    "size": 17,
+    "source": "joeis"
+  }
+}

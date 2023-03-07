@@ -1,0 +1,22 @@
+{
+  "description": "Snowflake sequence starting with six E-toothpicks.",
+  "id": "A213360",
+  "mentions": [
+    "A008588",
+    "A139250",
+    "A161328",
+    "A161330",
+    "A161336"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Dimensions of primitive Lie algebras connected with the Mantaci-Reutenauer algebra MR^(2).",
+  "id": "A185171",
+  "mentions": [
+    "A024023",
+    "A027376",
+    "A032251",
+    "A185172"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:09",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

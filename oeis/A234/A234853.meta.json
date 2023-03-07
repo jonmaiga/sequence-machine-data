@@ -1,0 +1,23 @@
+{
+  "description": "Indices of primes in A234851.",
+  "id": "A234853",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A014692",
+    "A234695",
+    "A234850",
+    "A234851",
+    "A234852"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:21:55",
+    "offset": 1,
+    "size": 62,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Partial sum of the first n odd composite numbers.",
+  "id": "A262044",
+  "mentions": [
+    "A002113",
+    "A058850",
+    "A071904"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:24",
+    "offset": 1,
+    "size": 46,
+    "source": "joeis"
+  }
+}

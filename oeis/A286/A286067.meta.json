@@ -1,0 +1,21 @@
+{
+  "description": "Unitary perfect totient numbers: numbers n that equal to the sum of their iterated unitary totient uphi(n).",
+  "id": "A286067",
+  "mentions": [
+    "A000010",
+    "A003271",
+    "A047994",
+    "A082897"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

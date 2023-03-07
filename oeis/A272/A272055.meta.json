@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of -1/(e^2 Ei(-1)), an increasing rooted tree enumeration constant associated with the Euler-Gompertz constant, where Ei is the exponential integral.",
+  "id": "A272055",
+  "mentions": [
+    "A001620",
+    "A029768",
+    "A073003"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:36",
+    "offset": 0,
+    "size": 103,
+    "source": "oeis-bfile"
+  }
+}

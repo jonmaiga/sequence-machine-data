@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows. T(n, k) = ((2*n)! * k!) / (n + k)!.",
+  "id": "A357013",
+  "mentions": [
+    "A000142",
+    "A001813"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

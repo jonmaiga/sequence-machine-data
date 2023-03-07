@@ -1,0 +1,22 @@
+{
+  "description": "Numerator of Sum_{k=1..n} 2^k/k.",
+  "id": "A108866",
+  "mentions": [
+    "A087910",
+    "A229726",
+    "A330718",
+    "A332786"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:00",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

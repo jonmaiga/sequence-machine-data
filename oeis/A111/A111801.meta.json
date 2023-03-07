@@ -1,0 +1,23 @@
+{
+  "description": "Numbers that have a positive primal code characteristic, that is, positive integers j for which A108352(j) > 0.",
+  "id": "A111801",
+  "mentions": [
+    "A106177",
+    "A108352",
+    "A108370",
+    "A108371",
+    "A108372",
+    "A108373",
+    "A108374"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

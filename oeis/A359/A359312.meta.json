@@ -1,0 +1,19 @@
+{
+  "description": "a(1) = 1; for n >= 1, a(2*n) = A000005(a(n)), a(2*n + 1) = A000005(a(n)) + 1.",
+  "id": "A359312",
+  "mentions": [
+    "A000005",
+    "A131051"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

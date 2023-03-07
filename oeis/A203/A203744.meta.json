@@ -1,0 +1,19 @@
+{
+  "description": "Vandermonde sequence using x^2 - xy + y^2 applied to the first n Fibonacci numbers, A000045.",
+  "id": "A203744",
+  "mentions": [
+    "A000045",
+    "A093883",
+    "A203745"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

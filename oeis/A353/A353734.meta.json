@@ -1,0 +1,18 @@
+{
+  "description": "Indices of terms in A353730 that are powers of 2.",
+  "id": "A353734",
+  "mentions": [
+    "A353730"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Values of the family of polynomials y=x^n-1 at point x = discriminant of y",
+  "id": "A174304",
+  "mentions": [
+    "A174313"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

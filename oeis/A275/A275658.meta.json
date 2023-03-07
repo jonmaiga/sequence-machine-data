@@ -1,0 +1,18 @@
+{
+  "description": "Lexicographically earliest increasing sequence such that the a(n)th term of the sequence has n divisors.",
+  "id": "A275658",
+  "mentions": [
+    "A000005"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:41",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

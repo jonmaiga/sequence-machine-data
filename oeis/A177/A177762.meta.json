@@ -1,0 +1,19 @@
+{
+  "description": "Beta polynomials (coefficients in descending order, triangle read by rows)",
+  "id": "A177762",
+  "mentions": [
+    "A000111"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

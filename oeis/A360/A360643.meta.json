@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the least A000120-perfect number (A175522) whose binary weight (A000120) is n, or 0 if no such number exists.",
+  "id": "A360643",
+  "mentions": [
+    "A000120",
+    "A093653",
+    "A175522"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

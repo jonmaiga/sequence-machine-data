@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the number of prime sets such that each set contains enough prime numbers to decompose every even number from 6 to 2n into the sum of two of its elements (reuse allowed), while none of the sets is a subset of another such set.",
+  "id": "A237638",
+  "mentions": [
+    "A000040",
+    "A002375",
+    "A237628",
+    "A240708"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 3,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

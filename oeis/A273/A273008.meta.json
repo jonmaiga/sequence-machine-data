@@ -1,0 +1,19 @@
+{
+  "description": "a(n)/(4^(n-1)*(4^n - 1)) is the variance of the length of a longest common subsequence between two random binary strings of the length n.",
+  "id": "A273008",
+  "mentions": [
+    "A027433"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

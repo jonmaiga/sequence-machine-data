@@ -1,0 +1,21 @@
+{
+  "description": "Half the difference between n-th odd Ludic and n-th Lucky number: a(1) = 0; a(n) = (A003309(n+1) - A000959(n))/2.",
+  "id": "A260721",
+  "mentions": [
+    "A000959",
+    "A003309",
+    "A256488",
+    "A260722"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:19",
+    "offset": 1,
+    "size": 96,
+    "source": "oeis-bfile"
+  }
+}

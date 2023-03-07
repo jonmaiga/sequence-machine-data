@@ -1,0 +1,39 @@
+{
+  "description": "Least Matula-Goebel number of a rooted tree with n internal (non-leaf) nodes.",
+  "id": "A358554",
+  "mentions": [
+    "A000040",
+    "A000081",
+    "A000108",
+    "A000720",
+    "A001222",
+    "A001263",
+    "A007097",
+    "A034781",
+    "A055277",
+    "A056239",
+    "A061775",
+    "A109082",
+    "A109129",
+    "A112798",
+    "A151821",
+    "A196050",
+    "A206487",
+    "A342507",
+    "A358552",
+    "A358553",
+    "A358578",
+    "A358592"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

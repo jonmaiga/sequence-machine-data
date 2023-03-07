@@ -1,0 +1,20 @@
+{
+  "description": "Nonresidues of k^5 modulo 3331, sorted.",
+  "id": "A184987",
+  "mentions": [
+    "A184979",
+    "A184986"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:09",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

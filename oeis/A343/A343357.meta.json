@@ -1,0 +1,22 @@
+{
+  "description": "7-rough abundant numbers.",
+  "id": "A343357",
+  "mentions": [
+    "A001276",
+    "A005101",
+    "A007775",
+    "A047802",
+    "A108227",
+    "A115414"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:16",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-bfile"
+  }
+}

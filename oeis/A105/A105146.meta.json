@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that the string k100001 is prime.",
+  "id": "A105146",
+  "mentions": [
+    "A105106",
+    "A105107"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:14:05",
+    "offset": 1,
+    "size": 59,
+    "source": "joeis"
+  }
+}

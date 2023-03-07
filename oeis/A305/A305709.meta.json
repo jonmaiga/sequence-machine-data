@@ -1,0 +1,19 @@
+{
+  "description": "Least k such that there exists a three-term sequence n = b_1 < b_2 < b_3 = k such that b_1 * b_2 * b_3 is square.",
+  "id": "A305709",
+  "mentions": [
+    "A006255",
+    "A066400",
+    "A072905"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:30",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

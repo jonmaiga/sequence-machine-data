@@ -1,0 +1,23 @@
+{
+  "description": "Numbers which have nonpositive entries in the difference table of their divisors (complement of A273130).",
+  "id": "A273157",
+  "mentions": [
+    "A002110",
+    "A069059",
+    "A187202",
+    "A273102",
+    "A273103",
+    "A273109",
+    "A273130"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

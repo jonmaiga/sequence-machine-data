@@ -1,0 +1,21 @@
+{
+  "description": "Number of distinct values obtained when arithmetic derivative (A003415) is applied to the divisors of n.",
+  "id": "A319686",
+  "mentions": [
+    "A003415",
+    "A184395",
+    "A319685",
+    "A319696"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:41",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Numerators in a series for the \"alternating Euler constant\" log(4/Pi).",
+  "id": "A126389",
+  "mentions": [
+    "A037861",
+    "A066879",
+    "A094640",
+    "A094641",
+    "A110625",
+    "A110626",
+    "A126388"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 2,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

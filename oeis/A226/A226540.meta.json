@@ -1,0 +1,22 @@
+{
+  "description": "Maximum of the proper divisors of the triangular numbers.",
+  "id": "A226540",
+  "mentions": [
+    "A000217",
+    "A005383",
+    "A005385",
+    "A077065"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 2,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

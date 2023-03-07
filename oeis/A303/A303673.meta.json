@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = [x^n] (15! / Sum_{k=0..n} (k+15)!*x^k)^(1/8).",
+  "id": "A303673",
+  "mentions": [
+    "A077607",
+    "A303671",
+    "A303672"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:28",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

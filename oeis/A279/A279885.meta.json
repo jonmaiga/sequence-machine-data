@@ -1,0 +1,21 @@
+{
+  "description": "First n-digit palindrome in the decimal expansion of Pi.",
+  "id": "A279885",
+  "mentions": [
+    "A000796",
+    "A002113",
+    "A226486",
+    "A280631"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "description": "Heinz numbers of uniform perfect integer partitions.",
+  "id": "A326037",
+  "mentions": [
+    "A002033",
+    "A047966",
+    "A070941",
+    "A072774",
+    "A089723",
+    "A108917",
+    "A126796",
+    "A276024",
+    "A299702",
+    "A325780",
+    "A325781",
+    "A326020",
+    "A326035",
+    "A326036"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

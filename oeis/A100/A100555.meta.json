@@ -1,0 +1,19 @@
+{
+  "description": "Smallest square that is equal to the sum of n not-necessarily-distinct primes plus 1.",
+  "id": "A100555",
+  "mentions": [
+    "A100498",
+    "A101776",
+    "A101778"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

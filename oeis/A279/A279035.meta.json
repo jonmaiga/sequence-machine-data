@@ -1,0 +1,19 @@
+{
+  "description": "Left-concatenate zeros to 2^(n-1) such that it has n digits. In the regular array formed by listing the found powers, a(n) is the sum of (nonzero) digits in column n.",
+  "id": "A279035",
+  "mentions": [
+    "A000079",
+    "A016134"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:46",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "The least prime that does not divide the n-th multiply perfect number: a(n) = A053669(A007691(n)).",
+  "id": "A342659",
+  "mentions": [
+    "A007691",
+    "A053669",
+    "A134740",
+    "A342658",
+    "A342660"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:15",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

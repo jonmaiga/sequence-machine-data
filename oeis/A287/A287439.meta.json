@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 2*a(n-2) + 2*a(n-3) for n >= 3, where a(0) = 2, a(2) = 4, a(3) = 7.",
+  "id": "A287439",
+  "mentions": [
+    "A287372",
+    "A288729"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:59",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

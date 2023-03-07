@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that for any positive integers (a, b), if a * b = k then sigma(a) + sigma(b) is a prime.",
+  "id": "A280590",
+  "mentions": [
+    "A000203",
+    "A001359",
+    "A038548",
+    "A080715"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:48",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

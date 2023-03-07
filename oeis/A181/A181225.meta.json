@@ -1,0 +1,17 @@
+{
+  "description": "Number of length 2n sequences p(i=0..2n-1) with 0<=p(i)<=i and having exactly n maxima",
+  "id": "A181225",
+  "mentions": [
+    "A181229"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:04",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

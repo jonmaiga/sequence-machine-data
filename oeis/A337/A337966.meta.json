@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows, coefficients of polynomials over {-1, 0, 1}. Also a triangle-to-triangle transformation U -> T(U) applied to the triangle U(n, k) = 1.",
+  "id": "A337966",
+  "mentions": [
+    "A118828",
+    "A337967"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

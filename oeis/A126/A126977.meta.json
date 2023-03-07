@@ -1,0 +1,29 @@
+{
+  "description": "A 3 x 3 multiplicative magic square read by rows.",
+  "id": "A126977",
+  "mentions": [
+    "A125519",
+    "A125522",
+    "A126275",
+    "A126276",
+    "A126651",
+    "A126652",
+    "A126653",
+    "A126654",
+    "A126709",
+    "A126710"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "fini",
+    "full",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

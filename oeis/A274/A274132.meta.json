@@ -1,0 +1,17 @@
+{
+  "description": "Numbers m such that m^k is the sum of three positive cubes for all positive integers k.",
+  "id": "A274132",
+  "mentions": [
+    "A003072"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

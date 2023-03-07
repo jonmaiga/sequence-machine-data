@@ -1,0 +1,166 @@
+{
+  "oi": 270794,
+  "ps": [
+    {
+      "d": "2021-11-01",
+      "ix": "nonprime(p(p(n+1)))",
+      "mt": 59,
+      "px": [
+        "n",
+        "1",
+        "+",
+        "p",
+        "p",
+        "nonprime"
+      ]
+    },
+    {
+      "d": "2021-11-01",
+      "ix": "nonprime(p(p?[comp[n²]]))",
+      "mt": 59,
+      "px": [
+        "n",
+        "²",
+        "comp",
+        "p?",
+        "p",
+        "nonprime"
+      ]
+    },
+    {
+      "d": "2022-07-15",
+      "ix": "nonprime(p(record[∑{p}[n-2, #]]))",
+      "mt": 59,
+      "px": [
+        "n",
+        "2",
+        "sub",
+        "#",
+        "∑{p}",
+        "record",
+        "p",
+        "nonprime"
+      ]
+    },
+    {
+      "d": "2022-07-04",
+      "ix": "nonprime(or(1, p(p?[abs(1-n)])))",
+      "mt": 59,
+      "px": [
+        "1",
+        "1",
+        "n",
+        "sub",
+        "abs",
+        "p?",
+        "p",
+        "or",
+        "nonprime"
+      ]
+    },
+    {
+      "d": "2022-07-04",
+      "ix": "∏{d}[p(p?[abs(1-n)]), nonprime(#)]",
+      "mt": 59,
+      "px": [
+        "1",
+        "n",
+        "sub",
+        "abs",
+        "p?",
+        "p",
+        "#",
+        "nonprime",
+        "∏{d}"
+      ]
+    },
+    {
+      "d": "2022-07-08",
+      "ix": "nonprime(∑{p}[p(p?[abs(1-n)]), #])",
+      "mt": 59,
+      "px": [
+        "1",
+        "n",
+        "sub",
+        "abs",
+        "p?",
+        "p",
+        "#",
+        "∑{p}",
+        "nonprime"
+      ]
+    },
+    {
+      "d": "2022-07-08",
+      "ix": "nonprime(∏{p}[p(p?[abs(1-n)]), #])",
+      "mt": 59,
+      "px": [
+        "1",
+        "n",
+        "sub",
+        "abs",
+        "p?",
+        "p",
+        "#",
+        "∏{p}",
+        "nonprime"
+      ]
+    },
+    {
+      "d": "2022-07-04",
+      "ix": "∏{d}[record[p(gpf(2*or(1, n)))], nonprime(#)]",
+      "mt": 59,
+      "px": [
+        "2",
+        "1",
+        "n",
+        "or",
+        "*",
+        "gpf",
+        "p",
+        "record",
+        "#",
+        "nonprime",
+        "∏{d}"
+      ]
+    },
+    {
+      "d": "2022-07-04",
+      "ix": "nonprime(ceil(sqrt(p(p?[abs(1-n)])²-1)))",
+      "mt": 59,
+      "px": [
+        "1",
+        "n",
+        "sub",
+        "abs",
+        "p?",
+        "p",
+        "²",
+        "1",
+        "sub",
+        "sqrt",
+        "ceil",
+        "nonprime"
+      ]
+    },
+    {
+      "d": "2022-07-04",
+      "ix": "nonprime(round(sqrt(p(p?[abs(1-n)])²-1)))",
+      "mt": 59,
+      "px": [
+        "1",
+        "n",
+        "sub",
+        "abs",
+        "p?",
+        "p",
+        "²",
+        "1",
+        "sub",
+        "sqrt",
+        "round",
+        "nonprime"
+      ]
+    }
+  ]
+}

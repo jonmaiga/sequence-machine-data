@@ -1,0 +1,19 @@
+{
+  "description": "a(0) = 0, a(n) = A029826(n+1) for n <= 20, otherwise a(n) = a(n - 1 - n % 20) + A029826(2 + n % 20 ).",
+  "id": "A172986",
+  "mentions": [
+    "A029826"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "less",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 89,
+    "source": "oeis-entry"
+  }
+}

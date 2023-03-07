@@ -1,0 +1,19 @@
+{
+  "description": "Quartets of prime x, composites y, z and S for Heron's formula.",
+  "id": "A140109",
+  "mentions": [
+    "A140384",
+    "A140385",
+    "A140391"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

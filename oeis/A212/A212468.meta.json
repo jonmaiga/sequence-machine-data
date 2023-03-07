@@ -1,0 +1,17 @@
+{
+  "description": "Number of 0..3 arrays of length n+9 with sum no more than 15 in any length 10 subsequence (=50% duty cycle)",
+  "id": "A212468",
+  "mentions": [
+    "A212471"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:30",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

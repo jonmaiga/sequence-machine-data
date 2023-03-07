@@ -1,0 +1,20 @@
+{
+  "description": "Number of n-step self-avoiding walks on the upper 4 octants grid starting at origin.",
+  "id": "A116904",
+  "mentions": [
+    "A001412",
+    "A039648",
+    "A116903"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

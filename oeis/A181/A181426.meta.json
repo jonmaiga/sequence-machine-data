@@ -1,0 +1,21 @@
+{
+  "description": "Numerator of Sum_{k=1..n} k^4 / Product_{k=1..n} k^4.",
+  "id": "A181426",
+  "mentions": [
+    "A090585",
+    "A125294",
+    "A166604",
+    "A334734"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

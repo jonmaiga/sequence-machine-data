@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the maximal number of shortest knight's move paths, from origin at center of an infinite open chessboard, to square with coordinates <= n.",
+  "id": "A242514",
+  "mentions": [
+    "A183043",
+    "A242511",
+    "A242512",
+    "A242513",
+    "A242591"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

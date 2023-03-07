@@ -1,0 +1,21 @@
+{
+  "description": "Subsequence of A217679 where iterations (giving primes through 'extended' interbase translation) reach a single digit.",
+  "id": "A218071",
+  "mentions": [
+    "A217673",
+    "A217679",
+    "A217680"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

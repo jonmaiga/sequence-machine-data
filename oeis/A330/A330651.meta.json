@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = n^4 + 3*n^3 + 2*n^2 - 2*n.",
+  "id": "A330651",
+  "mentions": [
+    "A003000",
+    "A019308",
+    "A019309",
+    "A242430",
+    "A269657"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:20:33",
+    "offset": 0,
+    "size": 34,
+    "source": "joeis"
+  }
+}

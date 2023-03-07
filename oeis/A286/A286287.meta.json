@@ -1,0 +1,24 @@
+{
+  "description": "Least number to start a run of exactly n nondecreasing values of little omega (A001221).",
+  "id": "A286287",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A001221",
+    "A284597",
+    "A285893",
+    "A286288",
+    "A286289"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

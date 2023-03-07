@@ -1,0 +1,24 @@
+{
+  "description": "Row sums of A285116: a(n) = 2 + Sum_{k=1..(n-1)} (C(n-1,k-1) bitwise-or C(n-1,k)), a(0) = 1, a(1) = 2.",
+  "id": "A285113",
+  "mentions": [
+    "A000079",
+    "A000217",
+    "A003986",
+    "A007318",
+    "A285114",
+    "A285115",
+    "A285116"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:56",
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

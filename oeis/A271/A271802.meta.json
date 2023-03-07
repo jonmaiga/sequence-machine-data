@@ -1,0 +1,19 @@
+{
+  "description": "Number of cuttings of an n X n checkerboard along grid lines into two pieces with holes disallowed.",
+  "id": "A271802",
+  "mentions": [
+    "A068416",
+    "A140517"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

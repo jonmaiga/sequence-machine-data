@@ -1,0 +1,21 @@
+{
+  "description": "Positive integers n such that n^3 divided by the digital root of n is a cube.",
+  "id": "A236653",
+  "mentions": [
+    "A010888",
+    "A236652"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:48:23",
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

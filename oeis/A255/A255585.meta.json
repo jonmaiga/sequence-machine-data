@@ -1,0 +1,20 @@
+{
+  "description": "Composite numbers k such that Sum_{i=1..t-1} d(i+1)/d(i) is prime, where d(1), ..., d(t) are the divisors of k in ascending order.",
+  "id": "A255585",
+  "mentions": [
+    "A085085",
+    "A085091",
+    "A255576",
+    "A255586"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:13",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

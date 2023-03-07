@@ -1,0 +1,27 @@
+{
+  "description": "Numbers k such that s(k) = s(k+1) where s(k) is the sum of unitary, squarefree divisors of k, including 1 (A092261).",
+  "id": "A327875",
+  "mentions": [
+    "A002961",
+    "A064115",
+    "A064125",
+    "A092261",
+    "A164522",
+    "A164557",
+    "A293183",
+    "A306985",
+    "A324295",
+    "A325175"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:55",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

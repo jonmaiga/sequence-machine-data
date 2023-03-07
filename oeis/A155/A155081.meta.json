@@ -1,0 +1,19 @@
+{
+  "description": "Primes p such that the largest digit of the concatenation of p and the p-th prime is a prime.",
+  "id": "A155081",
+  "mentions": [
+    "A000040",
+    "A006450"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

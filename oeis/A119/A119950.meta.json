@@ -1,0 +1,19 @@
+{
+  "description": "Row sums of (denominator) triangle A119948.",
+  "id": "A119950",
+  "mentions": [
+    "A119948"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

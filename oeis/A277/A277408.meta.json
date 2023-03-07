@@ -1,0 +1,23 @@
+{
+  "description": "Triangle, read by rows, where the g.f. of row n equals the sum of permutations of compositions of functions (1 + k*y*x) for k=1..n with parameter y independent of variable x, as evaluated at x=1.",
+  "id": "A277408",
+  "mentions": [
+    "A003713",
+    "A188881",
+    "A277405",
+    "A277406",
+    "A277407"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

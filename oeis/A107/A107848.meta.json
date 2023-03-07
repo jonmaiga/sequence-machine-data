@@ -1,0 +1,18 @@
+{
+  "description": "Number of subsets of the n-th roots of unity summing to a real number.",
+  "id": "A107848",
+  "mentions": [
+    "A103314"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

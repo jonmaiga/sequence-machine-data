@@ -1,0 +1,43 @@
+{
+  "description": "Number of factorizations of the superprimorial A006939(n) into squarefree numbers > 1.",
+  "id": "A337072",
+  "mentions": [
+    "A000142",
+    "A000178",
+    "A001055",
+    "A002110",
+    "A006939",
+    "A022915",
+    "A027423",
+    "A045778",
+    "A050320",
+    "A050326",
+    "A076954",
+    "A089259",
+    "A103774",
+    "A116540",
+    "A124010",
+    "A181818",
+    "A303279",
+    "A307895",
+    "A317829",
+    "A318360",
+    "A325337",
+    "A336417",
+    "A337069",
+    "A337070",
+    "A337073"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

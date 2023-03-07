@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = Im((1-I)^(1-n)*A_{n, 3}(I)) where A_{n, k}(x) are the generalized Eulerian polynomials.",
+  "id": "A225147",
+  "mentions": [
+    "A000191",
+    "A000810",
+    "A002438",
+    "A002439",
+    "A122045",
+    "A153641",
+    "A212435"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

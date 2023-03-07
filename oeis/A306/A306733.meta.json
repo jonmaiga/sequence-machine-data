@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of Sum_{k>=0} x^(k*(k+1)/2) * Product_{j=1..k} (1 + x^j)^j.",
+  "id": "A306733",
+  "mentions": [
+    "A053261",
+    "A206138",
+    "A306706"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

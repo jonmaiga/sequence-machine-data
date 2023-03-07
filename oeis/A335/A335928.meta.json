@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of the arclength on y = sin(x) from (0,0) to (Pi/4,sqrt(2)).",
+  "id": "A335928",
+  "mentions": [
+    "A335929",
+    "A335930",
+    "A335931"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Values of q in A176983.",
+  "id": "A177831",
+  "mentions": [
+    "A045637",
+    "A176983"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

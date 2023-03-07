@@ -1,0 +1,30 @@
+{
+  "description": "Triangle, read by rows, of Lambert's denominator polynomials related to convergents of tan(x).",
+  "id": "A334823",
+  "mentions": [
+    "A001147",
+    "A001497",
+    "A001498",
+    "A001879",
+    "A001880",
+    "A038121",
+    "A053983",
+    "A053984",
+    "A053987",
+    "A053988",
+    "A094674",
+    "A334824"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:06",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

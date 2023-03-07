@@ -1,0 +1,19 @@
+{
+  "description": "Numbers m such that A060649(m) > 0 and that C(-A060649(m)) is not cyclic, where C(D) is the class group of the quadratic field with discriminant D.",
+  "id": "A344079",
+  "mentions": [
+    "A060649",
+    "A344072",
+    "A344073"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

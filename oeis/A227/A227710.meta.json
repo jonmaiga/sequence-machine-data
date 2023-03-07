@@ -1,0 +1,19 @@
+{
+  "description": "The Wiener index of the nanostar dendrimer defined pictorially in Fig. 2 of the Madanshekaf reference.",
+  "id": "A227710",
+  "mentions": [
+    "A227711"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

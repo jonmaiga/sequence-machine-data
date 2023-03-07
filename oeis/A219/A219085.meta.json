@@ -1,0 +1,29 @@
+{
+  "description": "a(n) = floor((n + 1/2)^3).",
+  "id": "A219085",
+  "mentions": [
+    "A002378",
+    "A084188",
+    "A203302",
+    "A219086",
+    "A219087",
+    "A219088",
+    "A219089",
+    "A219090",
+    "A219091",
+    "A219092"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "unsolved"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:37",
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

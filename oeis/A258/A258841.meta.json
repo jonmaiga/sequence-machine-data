@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = 9*n^2 - 237*n + 1927.",
+  "id": "A258841",
+  "mentions": [
+    "A202018",
+    "A214732",
+    "A215814"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:56:37",
+    "offset": 0,
+    "size": 47,
+    "source": "joeis"
+  }
+}

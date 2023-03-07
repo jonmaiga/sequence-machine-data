@@ -1,0 +1,21 @@
+{
+  "description": "Filter sequence combining arithmetic derivative (A003415) with its Möbius transform (A300251).",
+  "id": "A300245",
+  "mentions": [
+    "A003415",
+    "A300249",
+    "A300251",
+    "A300252",
+    "A300253"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:24",
+    "offset": 1,
+    "size": 94,
+    "source": "oeis-bfile"
+  }
+}

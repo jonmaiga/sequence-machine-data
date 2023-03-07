@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = ((n-1)! + 1) mod n^2.",
+  "id": "A301316",
+  "mentions": [
+    "A000290",
+    "A007540",
+    "A038507",
+    "A055976",
+    "A301317"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:26",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

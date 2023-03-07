@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the smallest square pyramidal number with exactly n prime factors (counted with multiplicity).",
+  "id": "A359192",
+  "mentions": [
+    "A000330",
+    "A001222",
+    "A358927",
+    "A359193"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

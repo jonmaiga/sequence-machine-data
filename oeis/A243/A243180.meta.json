@@ -1,0 +1,19 @@
+{
+  "description": "Numbers of the form 8x^2+xy-8y^2.",
+  "id": "A243180",
+  "mentions": [
+    "A141167",
+    "A141168",
+    "A243181"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:59",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

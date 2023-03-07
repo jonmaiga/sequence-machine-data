@@ -1,0 +1,27 @@
+{
+  "description": "Triangle read by rows, generalized Eulerian polynomials evaluated at x = 1.",
+  "id": "A337997",
+  "mentions": [
+    "A008292",
+    "A060187",
+    "A123125",
+    "A173018",
+    "A225116",
+    "A225117",
+    "A225118",
+    "A284861",
+    "A337996"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

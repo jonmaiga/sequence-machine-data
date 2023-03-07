@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that tau(k-1) = (tau(k))^2 = tau(k+1), where tau(k) = A000005(k)(number of divisors of k).",
+  "id": "A190266",
+  "mentions": [
+    "A000005",
+    "A036436",
+    "A074757",
+    "A090502",
+    "A175116"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:14",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

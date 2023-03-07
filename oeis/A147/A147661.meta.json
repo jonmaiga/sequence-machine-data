@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = squarefree part of n^n.",
+  "id": "A147661",
+  "mentions": [
+    "A000312",
+    "A007913",
+    "A055204",
+    "A147662"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:34",
+    "offset": 1,
+    "size": 89,
+    "source": "oeis-bfile"
+  }
+}

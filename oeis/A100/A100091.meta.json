@@ -1,0 +1,18 @@
+{
+  "description": "Arithmetic mean of the first n primes and a minimal number greater than prime(n) such that an integer results.",
+  "id": "A100091",
+  "mentions": [
+    "A007504",
+    "A100090"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Number of rooted twice-partitions of n where the composite rooted partition is strict.",
+  "id": "A301750",
+  "mentions": [
+    "A002865",
+    "A063834",
+    "A093637",
+    "A127524",
+    "A279790",
+    "A294788",
+    "A301422",
+    "A301462",
+    "A301467",
+    "A301480",
+    "A301706"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(1)=2. If a(n) is a novel term, a(n+1) = sopfr(a(n)), else if there are k occurrences of a(j)=a(n), (1<=j<=n), a(n+1)=k*a(n).",
+  "id": "A353125",
+  "mentions": [
+    "A000040",
+    "A000607",
+    "A001414",
+    "A046363"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

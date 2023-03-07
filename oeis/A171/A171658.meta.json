@@ -1,0 +1,18 @@
+{
+  "description": "Primes ending with the digits 21 which are the only primes in their century.",
+  "id": "A171658",
+  "mentions": [
+    "A164987"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

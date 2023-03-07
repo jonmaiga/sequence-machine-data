@@ -1,0 +1,23 @@
+{
+  "description": "Row sums of triangle A164658 (numerators of coefficients from Integral_{x} T(n,x), with T(n,x) Chebyshev polynomials of the first kind).",
+  "id": "A164662",
+  "mentions": [
+    "A164658",
+    "A164659",
+    "A164660",
+    "A164661",
+    "A164663"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

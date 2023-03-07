@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of x*(1 - 2*x + x^2 + 7*x^3 - x^4)/((1 - x)^4*(1 + x)^3).",
+  "id": "A292551",
+  "mentions": [
+    "A006484",
+    "A060354",
+    "A100119",
+    "A195152",
+    "A303301"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:08",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows, T(n,k) = GegenbauerC(m,-n,-3/2) where m = k if k=0 and 0<=k<=2n.",
+  "id": "A272866",
+  "mentions": [
+    "A002212",
+    "A026375",
+    "A026376",
+    "A110165"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:37",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

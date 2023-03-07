@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that A019320(k) is in A217468.",
+  "id": "A297412",
+  "mentions": [
+    "A019320",
+    "A072226",
+    "A217468",
+    "A297413"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

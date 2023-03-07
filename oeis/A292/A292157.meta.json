@@ -1,0 +1,20 @@
+{
+  "description": "Number of Besźel [Beszel] Polycubes with n cells, identifying mirror images. A Besźel Polycube is a polycube whose cells each have two or more even coordinates.",
+  "id": "A292157",
+  "mentions": [
+    "A038119",
+    "A292065"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of iterations of x -> gcd(usigma(x),x) needed to reach a fixed point, where usigma is the sum of unitary divisors of n (A034448).",
+  "id": "A327164",
+  "mentions": [
+    "A034448",
+    "A323166",
+    "A326194",
+    "A327158"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:54",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

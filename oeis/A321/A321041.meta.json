@@ -1,0 +1,18 @@
+{
+  "description": "Number of words of length 6n such that all letters of the n-ary alphabet occur at least once and are introduced in ascending order and which can be built by repeatedly inserting triples of identical letters into the initially empty word.",
+  "id": "A321041",
+  "mentions": [
+    "A256311"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:43",
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

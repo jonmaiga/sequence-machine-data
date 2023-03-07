@@ -1,0 +1,21 @@
+{
+  "description": "Decimal representation of continued fraction cototient(1), cototient(2), cototient(3), cototient(4), ...",
+  "id": "A226021",
+  "mentions": [
+    "A000010",
+    "A051953",
+    "A223854",
+    "A223856"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

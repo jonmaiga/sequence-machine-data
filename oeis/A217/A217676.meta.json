@@ -1,0 +1,21 @@
+{
+  "description": "Number of permutations in S_n containing an increasing subsequence of length 9.",
+  "id": "A217676",
+  "mentions": [
+    "A000142",
+    "A072132",
+    "A214015",
+    "A214152"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:35",
+    "offset": 9,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

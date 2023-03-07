@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = Sum_{k=0..(n+1)/2} A010815(n*k).",
+  "id": "A339210",
+  "mentions": [
+    "A010815"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

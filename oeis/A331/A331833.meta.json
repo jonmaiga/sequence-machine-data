@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that all the divisors of k, excluding 1, have an even number of 1's in their negabinary representations.",
+  "id": "A331833",
+  "mentions": [
+    "A027615",
+    "A039724",
+    "A093688",
+    "A268272"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:01",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

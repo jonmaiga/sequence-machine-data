@@ -1,0 +1,20 @@
+{
+  "description": "a(0) = 1, a(n) = floor(a(n - 1)*Pi).",
+  "id": "A134915",
+  "mentions": [
+    "A001672",
+    "A085839",
+    "A115239"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

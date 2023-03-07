@@ -1,0 +1,19 @@
+{
+  "description": "Let S(n)=sigma(n)/3. Numbers k such that S^m(k)=k, 1/3-sociable numbers (of any order).",
+  "id": "A356548",
+  "mentions": [
+    "A005820",
+    "A113546"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

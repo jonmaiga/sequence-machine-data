@@ -1,0 +1,21 @@
+{
+  "description": "Subsequence of terms starting with 1 in A262356.",
+  "id": "A262390",
+  "mentions": [
+    "A000030",
+    "A131835",
+    "A262356",
+    "A262393"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:22",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

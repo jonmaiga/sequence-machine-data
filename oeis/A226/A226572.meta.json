@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of lim_{k->oo} f(k), where f(1)=2, and f(k) = 2 + log(f(k-1)) for k>1.",
+  "id": "A226572",
+  "mentions": [
+    "A052526",
+    "A202321",
+    "A202348",
+    "A226571",
+    "A226573",
+    "A226574"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:48:03",
+    "offset": 1,
+    "size": 86,
+    "source": "joeis"
+  }
+}

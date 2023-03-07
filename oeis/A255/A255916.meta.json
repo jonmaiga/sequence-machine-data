@@ -1,0 +1,19 @@
+{
+  "description": "Number of ways to write n as the sum of a generalized heptagonal number, an octagonal number and a nonagonal number.",
+  "id": "A255916",
+  "mentions": [
+    "A000567",
+    "A001106",
+    "A085787"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:13",
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-bfile"
+  }
+}

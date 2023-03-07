@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = 225*n^2 - 251*n + 70.",
+  "id": "A156810",
+  "mentions": [
+    "A156840"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:38",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

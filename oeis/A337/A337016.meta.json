@@ -1,0 +1,22 @@
+{
+  "description": "a(0) = 0. Successive terms are double the previous, then with their digits incremented by 1.",
+  "id": "A337016",
+  "mentions": [
+    "A000079",
+    "A061511",
+    "A089718",
+    "A216556"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

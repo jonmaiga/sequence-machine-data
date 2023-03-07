@@ -1,0 +1,28 @@
+{
+  "description": "Irregular triangle T(n,m) read by rows: smallest power e of n that is divisible by m = term k in row n of A162306.",
+  "id": "A280269",
+  "mentions": [
+    "A000005",
+    "A007947",
+    "A010846",
+    "A051731",
+    "A162036",
+    "A162306",
+    "A243822",
+    "A272618",
+    "A279907",
+    "A280274"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:48",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

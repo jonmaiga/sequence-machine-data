@@ -1,0 +1,25 @@
+{
+  "description": "Denominators of Pythagorean approximations to 3.",
+  "id": "A195616",
+  "mentions": [
+    "A085447",
+    "A097314",
+    "A097315",
+    "A195500",
+    "A195617"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:17",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

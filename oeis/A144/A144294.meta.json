@@ -1,0 +1,20 @@
+{
+  "description": "Let k = n-th nonsquare = A000037(n); then a(n) = smallest prime p such that k is not a square mod p.",
+  "id": "A144294",
+  "mentions": [
+    "A000037",
+    "A092419",
+    "A144295",
+    "A144296"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

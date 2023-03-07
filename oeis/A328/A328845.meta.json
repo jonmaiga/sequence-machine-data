@@ -1,0 +1,28 @@
+{
+  "description": "The first Fibonacci based variant of arithmetic derivative: a(p) = A000045(p) for prime p, a(u*v) = a(u)*v + u*a(v), with a(0) = a(1) = 0.",
+  "id": "A328845",
+  "mentions": [
+    "A000040",
+    "A000045",
+    "A003415",
+    "A007895",
+    "A030426",
+    "A113175",
+    "A258851",
+    "A328768",
+    "A328769",
+    "A328846",
+    "A328847"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

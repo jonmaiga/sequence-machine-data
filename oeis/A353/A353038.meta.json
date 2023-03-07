@@ -1,0 +1,21 @@
+{
+  "description": "Unitary harmonic numbers (A006086) that are not unitary arithmetic numbers (A103826).",
+  "id": "A353038",
+  "mentions": [
+    "A006086",
+    "A006087",
+    "A046999",
+    "A103826"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

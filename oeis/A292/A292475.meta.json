@@ -1,0 +1,21 @@
+{
+  "description": "Number of solutions to 1 +- 5 +- 12 +- ... +- n*(3*n-1)/2 = 0.",
+  "id": "A292475",
+  "mentions": [
+    "A000326",
+    "A058498",
+    "A083527",
+    "A292474"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

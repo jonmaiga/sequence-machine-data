@@ -1,0 +1,20 @@
+{
+  "description": "Number of elements k in Z/mZ such that k^m=k, for nonprime m = A018252(n).",
+  "id": "A182817",
+  "mentions": [
+    "A002997",
+    "A018252",
+    "A182816"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:06",
+    "offset": 1,
+    "size": 125,
+    "source": "oeis-bfile"
+  }
+}

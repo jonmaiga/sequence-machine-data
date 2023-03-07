@@ -1,0 +1,21 @@
+{
+  "description": "Numbers m such that A072219(m) = 5.",
+  "id": "A238247",
+  "mentions": [
+    "A000079",
+    "A043688",
+    "A072219",
+    "A238246",
+    "A238248"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

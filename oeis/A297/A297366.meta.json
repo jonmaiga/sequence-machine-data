@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that uphi(n) + usigma(n) = uphi(n+1) + usigma(n+1), where uphi is the unitary totient function (A047994) and usigma the sum of unitary divisors (A034448).",
+  "id": "A297366",
+  "mentions": [
+    "A034448",
+    "A047994",
+    "A145749"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

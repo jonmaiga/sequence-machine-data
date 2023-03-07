@@ -1,0 +1,19 @@
+{
+  "description": "Square array read by antidiagonals: T(i,j) = A267181(i,j) mod 2, with i >= 0, j >= 0.",
+  "id": "A267188",
+  "mentions": [
+    "A227133",
+    "A267181"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 107,
+    "source": "oeis-entry"
+  }
+}

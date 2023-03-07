@@ -1,0 +1,22 @@
+{
+  "description": "Special highly composite numbers: a highly composite number (A002182) that divides all larger highly composite numbers.",
+  "id": "A106037",
+  "mentions": [
+    "A000005",
+    "A002182",
+    "A002201",
+    "A072938"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

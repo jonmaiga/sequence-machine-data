@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = coefficient of x^(2*n-1)/(2*n-1)! in the expansion of the odd function S(x) defined by: S(x) = Integral Product_{n>=1} C(n,x)^(2*n-1) dx, where C(n,x) = (1 + S(x)^(2*n))^(1/(2*n)) for n >= 1.",
+  "id": "A357230",
+  "mentions": [
+    "A357229",
+    "A357231",
+    "A357550"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:31",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

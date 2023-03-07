@@ -1,0 +1,21 @@
+{
+  "description": "Let b(1) = b(2) = 1; for n >= 3, b(n) = b(t(n)) + b(n-t(n)) where t = A287422. a(n) = 2*b(n) - n.",
+  "id": "A317742",
+  "mentions": [
+    "A004074",
+    "A287422",
+    "A317648",
+    "A317686"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:37",
+    "offset": 1,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of multigraphs on 4 unlabeled nodes with n edges where the edges can be of two colors.",
+  "id": "A261174",
+  "mentions": [
+    "A050531"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:22:25",
+    "offset": 0,
+    "size": 34,
+    "source": "joeis"
+  }
+}

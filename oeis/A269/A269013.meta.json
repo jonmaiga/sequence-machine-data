@@ -1,0 +1,18 @@
+{
+  "description": "Number of 3 X n binary arrays with some element plus some horizontally, diagonally or antidiagonally adjacent neighbor totalling two exactly once.",
+  "id": "A269013",
+  "mentions": [
+    "A269011"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:31",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

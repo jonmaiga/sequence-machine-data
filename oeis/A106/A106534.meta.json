@@ -1,0 +1,27 @@
+{
+  "description": "Sum array of Catalan numbers (A000108) read by upward antidiagonals.",
+  "id": "A106534",
+  "mentions": [
+    "A000108",
+    "A002212",
+    "A005807",
+    "A007317",
+    "A045868",
+    "A055452",
+    "A055455",
+    "A059346"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:57",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

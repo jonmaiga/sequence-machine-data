@@ -1,0 +1,19 @@
+{
+  "description": "a(n+2) = a(n+1) + L(n+1)*a(n), where L = Lucas number (A000032) and a(0) = a(1) = 1.",
+  "id": "A269068",
+  "mentions": [
+    "A000032",
+    "A089125"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

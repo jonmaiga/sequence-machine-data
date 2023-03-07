@@ -1,0 +1,28 @@
+{
+  "description": "Number of Lyndon compositions (aperiodic necklaces of positive integers) with sum n and successive parts (including the last with the first part) being indivisible.",
+  "id": "A318746",
+  "mentions": [
+    "A000740",
+    "A008965",
+    "A059966",
+    "A285573",
+    "A303362",
+    "A318726",
+    "A318727",
+    "A318729",
+    "A318730",
+    "A318731",
+    "A318745",
+    "A318747"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:40",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

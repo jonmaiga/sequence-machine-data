@@ -1,0 +1,20 @@
+{
+  "description": "Integers N such that by inserting + or - or * or / or ^ between each of their digits, without any grouping parentheses, you can get N (the ambiguous a^b^c is avoided).",
+  "id": "A156954",
+  "mentions": [
+    "A036057",
+    "A080035",
+    "A252484"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:39",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = gcd(sigma(n), phi(sigma(n))).",
+  "id": "A295313",
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A009195",
+    "A295311",
+    "A295314",
+    "A295315"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:13",
+    "offset": 1,
+    "size": 95,
+    "source": "oeis-bfile"
+  }
+}

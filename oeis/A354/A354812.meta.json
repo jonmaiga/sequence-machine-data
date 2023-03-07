@@ -1,0 +1,19 @@
+{
+  "description": "Positions of +2's in A346242.",
+  "id": "A354812",
+  "mentions": [
+    "A346242",
+    "A354814",
+    "A354822"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

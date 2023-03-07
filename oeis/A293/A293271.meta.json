@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that n - p and n + p are both prime for some prime p.",
+  "id": "A293271",
+  "mentions": [
+    "A063713",
+    "A087679",
+    "A087695",
+    "A087696",
+    "A087697"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

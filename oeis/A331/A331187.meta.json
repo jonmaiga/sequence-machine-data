@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is n divided by the highest power of prime(A067004(n)) which divides it, where A067004 is the ordinal transform of number of divisors of n (A000005).",
+  "id": "A331187",
+  "mentions": [
+    "A000005",
+    "A000040",
+    "A067004",
+    "A331185",
+    "A331186"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:00",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

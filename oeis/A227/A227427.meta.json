@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that Sum_{i=1..k} i^sigma(i) == 0 (mod k).",
+  "id": "A227427",
+  "mentions": [
+    "A000203",
+    "A227429"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Irregular triangle where row n is a list of indices in A002110 with multiplicity whose product is A004394(n).",
+  "id": "A307322",
+  "mentions": [
+    "A001221",
+    "A002110",
+    "A002182",
+    "A004394",
+    "A306737"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:32",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

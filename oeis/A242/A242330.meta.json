@@ -1,0 +1,25 @@
+{
+  "description": "Numbers k such that k^2 + 2 is a semiprime.",
+  "id": "A242330",
+  "mentions": [
+    "A056899",
+    "A067201",
+    "A085722",
+    "A242331",
+    "A242332",
+    "A242333"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

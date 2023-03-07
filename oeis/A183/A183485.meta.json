@@ -1,0 +1,18 @@
+{
+  "description": "Number of n X 2 0..3 arrays with every element equal to either the sum mod 4 of its vertical neighbors or the sum mod 4 of its horizontal neighbors.",
+  "id": "A183485",
+  "mentions": [
+    "A183492"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:07",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Number of representations of n as a sum of distinct Fibonacci numbers where 1 can be included twice.",
+  "id": "A350240",
+  "mentions": [
+    "A000045",
+    "A000119",
+    "A000121",
+    "A001950",
+    "A003107",
+    "A007000",
+    "A239002"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 83,
+    "source": "oeis-entry"
+  }
+}

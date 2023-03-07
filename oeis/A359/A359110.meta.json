@@ -1,0 +1,22 @@
+{
+  "description": "Number of Boolean monoids of order 2^n up to isomorphism.",
+  "id": "A359110",
+  "mentions": [
+    "A058129",
+    "A066534",
+    "A090802",
+    "A198085",
+    "A342908"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

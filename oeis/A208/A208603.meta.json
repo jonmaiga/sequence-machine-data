@@ -1,0 +1,25 @@
+{
+  "description": "McKay-Thompson series of class 16B for the Monster group with a(0) = 2.",
+  "id": "A208603",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A010054",
+    "A010815",
+    "A029839",
+    "A121373",
+    "A185338",
+    "A208605"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:06:55",
+    "offset": -1,
+    "size": 80,
+    "source": "joeis"
+  }
+}

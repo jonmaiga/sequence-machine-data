@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of edges formed by n-secting the angles of a decagon.",
+  "id": "A335802",
+  "mentions": [
+    "A332419",
+    "A335800",
+    "A335801",
+    "A335803"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

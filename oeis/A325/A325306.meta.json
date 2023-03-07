@@ -1,0 +1,19 @@
+{
+  "description": "Numbers which are represented by more than one partition of the same integer.",
+  "id": "A325306",
+  "mentions": [
+    "A036038",
+    "A309897",
+    "A325472"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that the digits of antisigma(n) end in phi(n).",
+  "id": "A248818",
+  "mentions": [
+    "A000010",
+    "A024816"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

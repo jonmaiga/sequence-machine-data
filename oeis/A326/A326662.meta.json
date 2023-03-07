@@ -1,0 +1,21 @@
+{
+  "description": "Rectangular array in 3 columns that solve the complementary equation c(n) = a(2n) + b(2n), where a(1) = 1; see Comments.",
+  "id": "A326662",
+  "mentions": [
+    "A067017",
+    "A309157",
+    "A326661"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

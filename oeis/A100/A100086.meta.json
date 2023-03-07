@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of unique positive solution to y^y = (y-1)^(y+1).",
+  "id": "A100086",
+  "mentions": [
+    "A144211"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 103,
+    "source": "oeis-entry"
+  }
+}

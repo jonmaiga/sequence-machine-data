@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the smallest k such that 2^psi(k) == 2^phi(n) (mod n).",
+  "id": "A291674",
+  "mentions": [
+    "A000010",
+    "A001615",
+    "A002326"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-entry"
+  }
+}

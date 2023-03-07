@@ -1,0 +1,22 @@
+{
+  "description": "Numbers that occur in more than one way as results of \"upward\" remultiplication (GF(2)[X] -> N) of some number.",
+  "id": "A236845",
+  "mentions": [
+    "A014580",
+    "A091214",
+    "A234742",
+    "A236835",
+    "A236844",
+    "A236853"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:54",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

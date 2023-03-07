@@ -1,0 +1,21 @@
+{
+  "description": "Number of partitions of 2*n^2 into parts that are at most n.",
+  "id": "A258296",
+  "mentions": [
+    "A206226",
+    "A258293",
+    "A258294",
+    "A258295"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:16",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

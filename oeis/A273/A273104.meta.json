@@ -1,0 +1,26 @@
+{
+  "description": "Absolute difference table of the divisors of the positive integers.",
+  "id": "A273104",
+  "mentions": [
+    "A027750",
+    "A184389",
+    "A187202",
+    "A187203",
+    "A187205",
+    "A187207",
+    "A187209",
+    "A187215",
+    "A273102"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-entry"
+  }
+}

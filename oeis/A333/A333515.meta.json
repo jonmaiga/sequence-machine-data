@@ -1,0 +1,17 @@
+{
+  "description": "Number of self-avoiding closed paths on an n X 5 grid which pass through four corners ((0,0), (0,4), (n-1,4), (n-1,0)).",
+  "id": "A333515",
+  "mentions": [
+    "A333513"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:03",
+    "offset": 2,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

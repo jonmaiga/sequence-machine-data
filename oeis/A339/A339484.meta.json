@@ -1,0 +1,18 @@
+{
+  "description": "Number of subsets of {1..n} whose cardinality is equal to the average of the elements.",
+  "id": "A339484",
+  "mentions": [
+    "A051293",
+    "A126024"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:11",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

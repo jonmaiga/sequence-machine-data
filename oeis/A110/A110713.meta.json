@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the number of distinct products b_1*b_2*...*b_n where 1 <= b_i <= n.",
+  "id": "A110713",
+  "mentions": [
+    "A002061",
+    "A027424",
+    "A027425",
+    "A100437",
+    "A322967",
+    "A345882"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Triangle array: row n lists the number of repeating digits of 1/2 through 1/(n-1) in base n, or 0 if it terminates.",
+  "id": "A179195",
+  "mentions": [
+    "A066799"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 3,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

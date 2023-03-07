@@ -1,0 +1,18 @@
+{
+  "description": "Let f(k) denote the largest prime factor of k which is not a palindrome. Sequence gives numbers k such that the sum of the factorials of the digits of k is equal to f(k) reversed.",
+  "id": "A111185",
+  "mentions": [
+    "A074301"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

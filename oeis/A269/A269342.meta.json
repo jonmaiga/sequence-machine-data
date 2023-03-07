@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = (n + 1)*(2*n + 1)*(4*n + 9)/3.",
+  "id": "A269342",
+  "mentions": [
+    "A000466",
+    "A005563",
+    "A033996",
+    "A195241"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:12:11",
+    "offset": 0,
+    "size": 39,
+    "source": "joeis"
+  }
+}

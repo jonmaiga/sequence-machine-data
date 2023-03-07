@@ -1,0 +1,21 @@
+{
+  "description": "Positions of records in A104706.",
+  "id": "A104738",
+  "mentions": [
+    "A002491",
+    "A104706",
+    "A104737",
+    "A104739",
+    "A204539"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:55",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Triangle T(n, k) read by rows: row n gives the coefficients of the numerator polynomials of the o.g.f. of the (n+1)-th diagonal of the Sheffer triangle A286718 (|S1hat[3,1]| generalized Stirling 1), for n >= 0.",
+  "id": "A290595",
+  "mentions": [
+    "A024213",
+    "A112007",
+    "A286718",
+    "A288875"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

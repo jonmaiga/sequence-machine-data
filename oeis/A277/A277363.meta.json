@@ -1,0 +1,20 @@
+{
+  "description": "Self-convolution of a(n)/4^n gives fibonorials (A003266).",
+  "id": "A277363",
+  "mentions": [
+    "A000045",
+    "A003266",
+    "A277362"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:28",
+    "offset": 0,
+    "size": 17,
+    "source": "joeis"
+  }
+}

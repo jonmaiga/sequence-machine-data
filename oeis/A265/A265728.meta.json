@@ -1,0 +1,29 @@
+{
+  "description": "Least primitive weird number, pwn, (A002975) whose abundance is divisible by the n-th prime (A000040), or 0 if no such pwn exists.",
+  "id": "A265728",
+  "mentions": [
+    "A000040",
+    "A002975",
+    "A258250",
+    "A258333",
+    "A258374",
+    "A258375",
+    "A258401",
+    "A258882",
+    "A258883",
+    "A258884",
+    "A258885",
+    "A265726",
+    "A265727"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

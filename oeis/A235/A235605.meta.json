@@ -1,0 +1,33 @@
+{
+  "description": "Shanks's array c_{a,n} (a >= 1, n >= 0) that generalizes Euler and class numbers, read by antidiagonals upwards.",
+  "id": "A235605",
+  "mentions": [
+    "A000003",
+    "A000187",
+    "A000192",
+    "A000233",
+    "A000281",
+    "A000362",
+    "A000364",
+    "A000436",
+    "A000490",
+    "A000508",
+    "A064068",
+    "A064069",
+    "A064070",
+    "A064071",
+    "A235606"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:53",
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

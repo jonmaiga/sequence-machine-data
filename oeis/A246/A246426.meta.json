@@ -1,0 +1,18 @@
+{
+  "description": "Number of steps in base n after which all digits > 0 are present in x(i) where x(i) = x(i-1) + sum of missing digits of x(i-1) with x(0) = 0.",
+  "id": "A246426",
+  "mentions": [
+    "A216407"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 2,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

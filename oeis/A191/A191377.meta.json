@@ -1,0 +1,17 @@
+{
+  "description": "Primes that are the sum of a positive Fibonacci number and the squares of two positive Fibonacci numbers.",
+  "id": "A191377",
+  "mentions": [
+    "A000045"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

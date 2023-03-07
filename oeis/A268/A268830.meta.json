@@ -1,0 +1,30 @@
+{
+  "description": "Square array A(r,c): A(0,c) = c, A(r,0) = 0, A(r>=1,c>=1) = 1+A(r-1,A268718(c)-1) = 1 + A(r-1, A003188(A006068(c)-1)), read by descending antidiagonals.",
+  "id": "A268830",
+  "mentions": [
+    "A001477",
+    "A002262",
+    "A003188",
+    "A006068",
+    "A025581",
+    "A268718",
+    "A268820",
+    "A268822",
+    "A268824",
+    "A268826",
+    "A268828",
+    "A268832",
+    "A268934"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:30",
+    "offset": 0,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

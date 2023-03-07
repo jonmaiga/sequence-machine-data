@@ -1,0 +1,19 @@
+{
+  "description": "Distance between n^2 and next higher Fibonacci number.",
+  "id": "A216225",
+  "mentions": [
+    "A000045",
+    "A000290"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

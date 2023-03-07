@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 5*4^n+1.",
+  "id": "A199115",
+  "mentions": [
+    "A136412",
+    "A140660",
+    "A181565"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:20",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

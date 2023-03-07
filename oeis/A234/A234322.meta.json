@@ -1,0 +1,19 @@
+{
+  "description": "Percentage of 1's among the first n terms of the Kolakoski sequence A000002.",
+  "id": "A234322",
+  "mentions": [
+    "A000002",
+    "A156077"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:52",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

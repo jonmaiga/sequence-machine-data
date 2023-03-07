@@ -1,0 +1,21 @@
+{
+  "description": "Solution S of (2*u)^2 = R^2 - p*S^2, where p is the n-th prime of the form 4k+1.",
+  "id": "A215657",
+  "mentions": [
+    "A002144",
+    "A048954",
+    "A215615",
+    "A215656"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Number of squarefree sqrt(n)-smooth numbers <= n.",
+  "id": "A295101",
+  "mentions": [
+    "A001248",
+    "A005117",
+    "A006530",
+    "A013928",
+    "A295084",
+    "A295102"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:13",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

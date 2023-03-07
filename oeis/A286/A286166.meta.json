@@ -1,0 +1,20 @@
+{
+  "description": "Decimal representation of the diagonal from the origin to the corner of the n-th stage of growth of the two-dimensional cellular automaton defined by \"Rule 161\", based on the 5-celled von Neumann neighborhood.",
+  "id": "A286166",
+  "mentions": [
+    "A286136",
+    "A286140",
+    "A286165"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 08:41:06",
+    "offset": 0,
+    "size": 34,
+    "source": "joeis"
+  }
+}

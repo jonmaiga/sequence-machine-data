@@ -1,0 +1,19 @@
+{
+  "description": "Second-order term in the asymptotic expansion of B(x), the count of numbers up to x which are the sum of two squares.",
+  "id": "A227158",
+  "mentions": [
+    "A001481",
+    "A064533"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-entry"
+  }
+}

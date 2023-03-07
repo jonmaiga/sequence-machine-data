@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the product of the decimal digits of A336876(n).",
+  "id": "A336879",
+  "mentions": [
+    "A007954",
+    "A336826",
+    "A336876"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:08",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

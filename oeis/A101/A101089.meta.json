@@ -1,0 +1,24 @@
+{
+  "description": "Second partial sums of fourth powers (A000583).",
+  "id": "A101089",
+  "mentions": [
+    "A000538",
+    "A000583",
+    "A101090",
+    "A201126",
+    "A213553",
+    "A253636"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:00:49",
+    "offset": 1,
+    "size": 30,
+    "source": "joeis"
+  }
+}

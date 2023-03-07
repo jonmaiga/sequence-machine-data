@@ -1,0 +1,19 @@
+{
+  "description": "a(n+3) = -a(n+2) + 2a(n+1) + a(n) with a(0)=-1, a(1)=0, a(2)=-3.",
+  "id": "A214683",
+  "mentions": [
+    "A006053"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:32",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

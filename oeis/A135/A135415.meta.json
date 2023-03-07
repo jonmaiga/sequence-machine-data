@@ -1,0 +1,19 @@
+{
+  "description": "Van der Waerden numbers for 3-arithmetic progressions with n colors.",
+  "id": "A135415",
+  "mentions": [
+    "A005346"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

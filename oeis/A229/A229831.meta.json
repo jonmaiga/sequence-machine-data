@@ -1,0 +1,20 @@
+{
+  "description": "Largest prime p such that some elliptic curve over an extension of the rationals of degree n has a point of finite order p.",
+  "id": "A229831",
+  "mentions": [
+    "A221362"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "bref",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

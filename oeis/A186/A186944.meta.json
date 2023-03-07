@@ -1,0 +1,20 @@
+{
+  "description": "Geometric mean of n-th row of A080508.",
+  "id": "A186944",
+  "mentions": [
+    "A034386",
+    "A080508",
+    "A080509"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

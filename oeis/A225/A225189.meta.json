@@ -1,0 +1,17 @@
+{
+  "description": "List of minimal palindromic words over {1,2} that begin with 1, and have lengths 1, 2, 3, ....",
+  "id": "A225189",
+  "mentions": [
+    "A225368"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

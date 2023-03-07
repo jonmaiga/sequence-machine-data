@@ -1,0 +1,23 @@
+{
+  "description": "Irregular triangle read by rows: T(n, k) = number of inequivalent (mod the dihedral group D_8 of order 8) ways to place k nonattacking knights on an n X n board.",
+  "id": "A243716",
+  "mentions": [
+    "A008805",
+    "A030978",
+    "A243717",
+    "A243718",
+    "A243719",
+    "A243720"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:00",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

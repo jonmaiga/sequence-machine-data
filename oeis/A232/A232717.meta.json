@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of the ratio of the length of the boundary of any arbelos to the length of the boundary of its associated parbelos: Pi / (sqrt(2) + log(1 + sqrt(2))).",
+  "id": "A232717",
+  "mentions": [
+    "A000796",
+    "A103710",
+    "A232715",
+    "A232716"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:51",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

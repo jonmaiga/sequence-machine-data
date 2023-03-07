@@ -1,0 +1,25 @@
+{
+  "description": "a(n) is the smallest hexagonal number for which the symmetric representation of sigma(n) has width 2*n, n >= 0, at the diagonal.",
+  "id": "A350712",
+  "mentions": [
+    "A000384",
+    "A046177",
+    "A235791",
+    "A237048",
+    "A237591",
+    "A237593",
+    "A249223",
+    "A280851",
+    "A346875"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

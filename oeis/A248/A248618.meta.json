@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the solution when inverse Gudermannian(x) equals 1.",
+  "id": "A248618",
+  "mentions": [
+    "A248617",
+    "A257777",
+    "A258428"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:48:06",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

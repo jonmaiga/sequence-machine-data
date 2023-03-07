@@ -1,0 +1,31 @@
+{
+  "description": "Heinz number of the integer partition whose parts are the multiplicities in the multiset union of all strict integer partitions of n.",
+  "id": "A325513",
+  "mentions": [
+    "A003963",
+    "A006128",
+    "A015716",
+    "A015723",
+    "A022629",
+    "A056239",
+    "A066633",
+    "A112798",
+    "A181819",
+    "A246867",
+    "A325500",
+    "A325504",
+    "A325505",
+    "A325506"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

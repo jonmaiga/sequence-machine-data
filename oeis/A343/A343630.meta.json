@@ -1,0 +1,28 @@
+{
+  "description": "Coordinate triples (x(n), y(n), z(n); n >= 0) of the 3D spiral filling space with shells of increasing radius, using circles at fixed z-values which alternatingly move up and down as do the x-values.",
+  "id": "A343630",
+  "mentions": [
+    "A004215",
+    "A005875",
+    "A342561",
+    "A342562",
+    "A342563",
+    "A343631",
+    "A343632",
+    "A343633",
+    "A343640",
+    "A343641",
+    "A343642",
+    "A343643"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 98,
+    "source": "oeis-entry"
+  }
+}

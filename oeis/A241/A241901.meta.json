@@ -1,0 +1,21 @@
+{
+  "description": "Number of nodes (partitions) in the largest component of the graph G'(n) obtained from the partition graph G(n) by deleting all partitions having repeated parts; G and G' are defined in Comments.",
+  "id": "A241901",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A241150",
+    "A241900"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

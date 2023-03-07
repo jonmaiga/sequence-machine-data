@@ -1,0 +1,23 @@
+{
+  "description": "A diagonal of triangle A187115.",
+  "id": "A187117",
+  "mentions": [
+    "A135080",
+    "A135082",
+    "A187115",
+    "A187116",
+    "A187118",
+    "A187119"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 2,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

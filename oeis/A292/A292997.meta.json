@@ -1,0 +1,19 @@
+{
+  "description": "Irregular triangle read by rows: lexicographically earliest, minimum size sets, S_n, such that {1, 2, ... n} is a subset of the union of S_n with the sums of distinct pairs in S_n and the differences of pairs in S_n.",
+  "id": "A292997",
+  "mentions": [
+    "A005228",
+    "A225687"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:08",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

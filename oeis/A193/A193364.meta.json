@@ -1,0 +1,20 @@
+{
+  "description": "Number of permutations that have a fixed point and contain 123.",
+  "id": "A193364",
+  "mentions": [
+    "A000142",
+    "A002467",
+    "A018934",
+    "A180191"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

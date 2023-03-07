@@ -1,0 +1,21 @@
+{
+  "description": "Smallest prime greater than nonprime(prime(n)).",
+  "id": "A144573",
+  "mentions": [
+    "A000040",
+    "A007918",
+    "A141468"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

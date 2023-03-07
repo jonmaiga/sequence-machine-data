@@ -1,0 +1,20 @@
+{
+  "description": "The numbers visited on a square spiral when stepping to the closest unvisited number such that the sum of that number and the current number is prime. If two or more such numbers exist then the smallest is chosen.",
+  "id": "A348672",
+  "mentions": [
+    "A000040",
+    "A332767",
+    "A338642",
+    "A348673"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

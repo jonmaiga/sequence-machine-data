@@ -1,0 +1,22 @@
+{
+  "description": "Number of toroidal n X n binary arrays, allowing rotation and/or reflection of rows and/or columns as well as matrix transposition.",
+  "id": "A255016",
+  "mentions": [
+    "A054247",
+    "A179043",
+    "A184271",
+    "A209251",
+    "A222188",
+    "A255015"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 08:50:51",
+    "offset": 0,
+    "size": 13,
+    "source": "joeis"
+  }
+}

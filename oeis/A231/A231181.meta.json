@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of 1/(1 - x - 4*x^2 + 3*x^3 + 3*x^4 - x^5).",
+  "id": "A231181",
+  "mentions": [
+    "A187360",
+    "A231182",
+    "A231183",
+    "A231184",
+    "A231185"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:49",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

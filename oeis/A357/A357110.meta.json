@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that 1 + k^2 * 2^k + k^3 * 3^k is prime.",
+  "id": "A357110",
+  "mentions": [
+    "A058780"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

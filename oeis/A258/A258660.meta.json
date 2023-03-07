@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that the number of digits d in n is not prime and for each factor f of d the sum of the d/f digit groupings of size f is a square.",
+  "id": "A258660",
+  "mentions": [
+    "A153745"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:16",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

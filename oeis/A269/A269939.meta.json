@@ -1,0 +1,25 @@
+{
+  "description": "Triangle read by rows, Ward numbers T(n, k) = Sum_{m=0..k} (-1)^(m + k) * binomial(n + k, n + m) * Stirling2(n + m, m), for n >= 0, 0 <= k <= n.",
+  "id": "A269939",
+  "mentions": [
+    "A112486",
+    "A134991",
+    "A181996",
+    "A268437",
+    "A269940",
+    "A269941",
+    "A340556"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

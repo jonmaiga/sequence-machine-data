@@ -1,0 +1,22 @@
+{
+  "description": "Primes of the form 4x^2-4xy+7y^2, with x and y nonnegative.",
+  "id": "A107006",
+  "mentions": [
+    "A033199",
+    "A106856",
+    "A107008",
+    "A124477",
+    "A140633"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:58",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

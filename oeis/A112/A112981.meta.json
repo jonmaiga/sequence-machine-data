@@ -1,0 +1,20 @@
+{
+  "description": "a(1) = a(2) = a(3) = 1; for n>3: a(n) = a(n-1)^3 + a(n-2)^3 + a(n-3)^3.",
+  "id": "A112981",
+  "mentions": [
+    "A000045",
+    "A000213",
+    "A000283"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Years with exactly one \"Friday the 13th\", starting from 1901.",
+  "id": "A190651",
+  "mentions": [
+    "A101312",
+    "A190652",
+    "A190653"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:14",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

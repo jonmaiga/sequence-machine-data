@@ -1,0 +1,19 @@
+{
+  "description": "R=6*floor[((n mod 3)+2)/3]*floor[(n+2)/3]+floor[(n mod 3)*exp(n mod 3-1)]; R*(1-floor((5 - (R mod 5))/5)*(1-floor((7 - (7 mod 7))/7) List prime numbers or 0 between 11 and 113, corresponds to 6k+1 and 6k+5 without multiples of 5 and 7.",
+  "id": "A147765",
+  "mentions": [
+    "A147666"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "more",
+    "nonn",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 2,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

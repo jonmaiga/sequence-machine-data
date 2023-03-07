@@ -1,0 +1,22 @@
+{
+  "description": "Number of compositions (ordered partitions) of n into two or more distinct squares.",
+  "id": "A348326",
+  "mentions": [
+    "A000290",
+    "A010052",
+    "A033985",
+    "A219610",
+    "A331844",
+    "A347805"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 84,
+    "source": "oeis-entry"
+  }
+}

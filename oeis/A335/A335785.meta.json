@@ -1,0 +1,20 @@
+{
+  "description": "Squarefree numbers m such that the equation x*(x+1)*(x+2) = m*y^2 has at least one solution (x,y) with x>0 and y>0.",
+  "id": "A335785",
+  "mentions": [
+    "A000330",
+    "A005117",
+    "A335715",
+    "A336145"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:07",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

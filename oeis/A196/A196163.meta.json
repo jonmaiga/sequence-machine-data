@@ -1,0 +1,19 @@
+{
+  "description": "Positive integers b for which there is a 6-Pythagorean triple (a,b,c) satisfying a<=b.",
+  "id": "A196163",
+  "mentions": [
+    "A195770",
+    "A196162",
+    "A196166"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 15:17:17",
+    "offset": 1,
+    "size": 59,
+    "source": "joeis"
+  }
+}

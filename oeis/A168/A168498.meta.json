@@ -1,0 +1,18 @@
+{
+  "description": "The positions of non-single or nonisolated numbers in A000010.",
+  "id": "A168498",
+  "mentions": [
+    "A000010",
+    "A167707"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

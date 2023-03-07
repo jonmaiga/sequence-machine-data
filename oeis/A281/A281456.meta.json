@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of Product_{k>=1} (1 + x^(7*k-3)).",
+  "id": "A281456",
+  "mentions": [
+    "A109706",
+    "A280457",
+    "A281245",
+    "A281455",
+    "A281457",
+    "A281458"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:50",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

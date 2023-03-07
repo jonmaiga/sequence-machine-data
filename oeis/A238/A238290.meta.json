@@ -1,0 +1,19 @@
+{
+  "description": "a(n+1) = a(n) + 6 + 2*(n - 2*floor(n/2)) for n > 0, a(0) = 0.",
+  "id": "A238290",
+  "mentions": [
+    "A047345"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:11:03",
+    "offset": 0,
+    "size": 55,
+    "source": "joeis"
+  }
+}

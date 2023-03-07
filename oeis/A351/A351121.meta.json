@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that k^2 - k + 1 is not squarefree.",
+  "id": "A351121",
+  "mentions": [
+    "A002061",
+    "A005117"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:25",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

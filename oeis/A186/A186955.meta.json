@@ -1,0 +1,18 @@
+{
+  "description": "1/729 the number of (n+2)X4 0..2 arrays with each 3X3 subblock trace equal to some horizontal or vertical neighbor 3X3 subblock trace",
+  "id": "A186955",
+  "mentions": [
+    "A186962"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:11",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

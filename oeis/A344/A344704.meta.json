@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = gcd(A001615(n)-n, sigma(n)-(A001615(n)+n)).",
+  "id": "A344704",
+  "mentions": [
+    "A000203",
+    "A001615",
+    "A244963",
+    "A306927",
+    "A344700",
+    "A344705"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:17",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Maximum number of vertices of any convex polygon formed in the middle square of the boundary by drawing the line segments connecting any two lattice points in an (2k+1) X (2k+1) lattice polygon.",
+  "id": "A288179",
+  "mentions": [
+    "A288177"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

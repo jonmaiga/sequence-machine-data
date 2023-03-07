@@ -1,0 +1,20 @@
+{
+  "description": "Differences between terms of compacting Eratosthenes sieve for prime(8) = 19.",
+  "id": "A236189",
+  "mentions": [
+    "A236175",
+    "A236180",
+    "A236185",
+    "A236190"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:53",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

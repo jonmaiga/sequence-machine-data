@@ -1,0 +1,21 @@
+{
+  "description": "Maximum number of pairwise incomparable subcubes of the discrete n-cube. Largest antichain in partial ordering {0,1,*)^n where 0 and 1 are less than *. Maximum number of implicants in an irredundant disjunctive normal form for n Boolean variables.",
+  "id": "A109388",
+  "mentions": [
+    "A003039",
+    "A109385",
+    "A109452"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

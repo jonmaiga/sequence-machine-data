@@ -1,0 +1,21 @@
+{
+  "description": "Least k such that the first n digits of the decimal expansion of the ratio of the perimeter of a regular k-gon to its diameter match those of Pi.",
+  "id": "A280926",
+  "mentions": [
+    "A000796",
+    "A280533"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

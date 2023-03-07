@@ -1,0 +1,21 @@
+{
+  "description": "Primes which are the concatenation of two primes in exactly two ways.",
+  "id": "A238057",
+  "mentions": [
+    "A000040",
+    "A010051",
+    "A105184",
+    "A238056"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

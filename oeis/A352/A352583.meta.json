@@ -1,0 +1,26 @@
+{
+  "description": "a(n) is the value of the cell in the Wythoff array that lies in the next row and same column as the cell containing n.",
+  "id": "A352583",
+  "mentions": [
+    "A000045",
+    "A003603",
+    "A022342",
+    "A035513",
+    "A035612",
+    "A083412",
+    "A348853",
+    "A349102",
+    "A354321"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

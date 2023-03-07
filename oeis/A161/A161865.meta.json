@@ -1,0 +1,23 @@
+{
+  "description": "Numerators of ratio of nonprimes in a square interval to that of nonprimes in that interval and its successor.",
+  "id": "A161865",
+  "mentions": [
+    "A062298",
+    "A078435",
+    "A161621",
+    "A161622",
+    "A161867"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:44",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

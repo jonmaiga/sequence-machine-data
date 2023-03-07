@@ -1,0 +1,23 @@
+{
+  "description": "Multiples of 5 and of 12 interleaved: a(2n-1) = 5n, a(2n) = 12n.",
+  "id": "A195031",
+  "mentions": [
+    "A002620",
+    "A195019",
+    "A195032",
+    "A195033",
+    "A195035"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:17",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

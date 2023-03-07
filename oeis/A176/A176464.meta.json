@@ -1,0 +1,19 @@
+{
+  "description": "The positions of primes in A065516.",
+  "id": "A176464",
+  "mentions": [
+    "A000040",
+    "A065516"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

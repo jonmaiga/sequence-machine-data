@@ -1,0 +1,23 @@
+{
+  "description": "Irregular triangle read by rows listing divisors d of n in order of appearance in a matrix of products that arranges the powers of prime divisors p of n along independent axes.",
+  "id": "A275055",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A001221",
+    "A027750",
+    "A056538"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:40",
+    "offset": 1,
+    "size": 93,
+    "source": "oeis-bfile"
+  }
+}

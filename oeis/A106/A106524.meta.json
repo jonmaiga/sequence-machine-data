@@ -1,0 +1,23 @@
+{
+  "description": "Interleave A038573(n+1) and 2*A038573(n+1).",
+  "id": "A106524",
+  "mentions": [
+    "A000034",
+    "A000120",
+    "A001316",
+    "A038573",
+    "A106522"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:35",
+    "offset": 0,
+    "size": 89,
+    "source": "joeis"
+  }
+}

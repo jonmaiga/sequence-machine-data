@@ -1,0 +1,23 @@
+{
+  "description": "Perfect numbers whose sum of prime factors is prime.",
+  "id": "A276493",
+  "mentions": [
+    "A000043",
+    "A000396",
+    "A000668",
+    "A007013",
+    "A100118",
+    "A192436",
+    "A276511"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

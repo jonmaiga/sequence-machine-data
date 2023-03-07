@@ -1,0 +1,19 @@
+{
+  "description": "Numbers for which the harmonic mean of nontrivial divisors is an integer and which are not a square of prime numbers.",
+  "id": "A247079",
+  "mentions": [
+    "A001248",
+    "A001599",
+    "A247078"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:03",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

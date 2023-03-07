@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{k=0..n} ceiling((1 + sqrt(2))^k).",
+  "id": "A279101",
+  "mentions": [
+    "A014176",
+    "A020962"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:46",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

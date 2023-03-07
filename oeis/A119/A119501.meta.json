@@ -1,0 +1,20 @@
+{
+  "description": "Number of isomorphism classes of 3-connected simple planar graphs (convex polytopes) where isomorphism does not allow reflection.",
+  "id": "A119501",
+  "mentions": [
+    "A000103",
+    "A000944",
+    "A005470"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "E.g.f.: exp(Sum_{n>=1} A000593(n) * x^n).",
+  "id": "A294394",
+  "mentions": [
+    "A000009",
+    "A000593",
+    "A294392",
+    "A294395",
+    "A301799",
+    "A301800"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:12",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

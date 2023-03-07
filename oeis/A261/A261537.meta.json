@@ -1,0 +1,21 @@
+{
+  "description": "Primes p such that p^7 + 2 is also prime.",
+  "id": "A261537",
+  "mentions": [
+    "A000040",
+    "A007528",
+    "A216980",
+    "A261536"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of partitions of 2n prime to 3,5 with all odd parts occurring with even multiplicities. There is no restriction on the even parts.",
+  "id": "A103259",
+  "mentions": [
+    "A102346",
+    "A103257"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:53",
+    "offset": 0,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

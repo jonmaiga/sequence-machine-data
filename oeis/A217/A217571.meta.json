@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = (2*n*(n+5) + (2*n+1)*(-1)^n - 1)/8.",
+  "id": "A217571",
+  "mentions": [
+    "A005563",
+    "A028387",
+    "A028552",
+    "A217570",
+    "A217575"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 18:04:03",
+    "offset": 1,
+    "size": 56,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Column 4 of A286781.",
+  "id": "A286789",
+  "mentions": [
+    "A286781",
+    "A286786",
+    "A286787"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:58",
+    "offset": 4,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

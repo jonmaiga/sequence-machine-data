@@ -1,0 +1,18 @@
+{
+  "description": "Allowable values for the total number of times we can have ab != ba in the Cayley table of a finite non-abelian group.",
+  "id": "A341295",
+  "mentions": [
+    "A341294"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

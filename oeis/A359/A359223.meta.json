@@ -1,0 +1,19 @@
+{
+  "description": "A \"look-and-say\" sequence. Describe the previous term by overstating the digit count by 1. a(1) = 1.",
+  "id": "A359223",
+  "mentions": [
+    "A005150",
+    "A022472"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:33",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

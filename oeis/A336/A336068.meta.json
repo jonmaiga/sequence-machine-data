@@ -1,0 +1,27 @@
+{
+  "description": "Numbers k such that the exponent of the highest power of 3 dividing k (A007949) is a divisor of k.",
+  "id": "A336068",
+  "mentions": [
+    "A005349",
+    "A006446",
+    "A007694",
+    "A007949",
+    "A033950",
+    "A055777",
+    "A074946",
+    "A075592",
+    "A112249",
+    "A336066",
+    "A336069"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:07",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

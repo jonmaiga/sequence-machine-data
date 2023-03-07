@@ -1,0 +1,25 @@
+{
+  "description": "Number of nonisomorphic systems enumerated by A334254; that is, the number of inequivalent closure operators on a set of n elements where all singletons are closed.",
+  "id": "A355517",
+  "mentions": [
+    "A102896",
+    "A193674",
+    "A326960",
+    "A326961",
+    "A326979",
+    "A334254",
+    "A334255"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

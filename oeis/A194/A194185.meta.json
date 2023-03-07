@@ -1,0 +1,22 @@
+{
+  "description": "Primes of the form k^16 + (k+1)^16.",
+  "id": "A194185",
+  "mentions": [
+    "A000040",
+    "A100266",
+    "A152913",
+    "A154535",
+    "A194155"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

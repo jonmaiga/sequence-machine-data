@@ -1,0 +1,22 @@
+{
+  "description": "Permutation of nonnegative integers: a(0) = 0; for n >= 1, a(n) = 1+A193231(A193231(n)-1), where A193231(n) is blue code of n.",
+  "id": "A302794",
+  "mentions": [
+    "A193231",
+    "A268718",
+    "A302028",
+    "A302793"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:27",
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "description": "Number of odd chordless cycles in the complement of the n-Mycielski graph.",
+  "id": "A301769",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

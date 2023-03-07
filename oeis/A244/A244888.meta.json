@@ -1,0 +1,19 @@
+{
+  "description": "Triangle of coefficients arising in study of up-down permutations.",
+  "id": "A244888",
+  "mentions": [
+    "A125273",
+    "A244889"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Sinuosity of the 26 letters of the alphabet, lettertype Calibri, multiplied by thousand and rounded.",
+  "id": "A317162",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

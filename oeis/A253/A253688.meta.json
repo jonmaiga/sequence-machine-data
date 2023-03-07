@@ -1,0 +1,18 @@
+{
+  "description": "The total number of pentagons in a variant of pentagon expansion (vertex-to-vertex, two consecutive vertices and one isolated vertex) after n iterations.",
+  "id": "A253688",
+  "mentions": [
+    "A253687"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:54:35",
+    "offset": 1,
+    "size": 50,
+    "source": "joeis"
+  }
+}

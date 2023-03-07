@@ -1,0 +1,21 @@
+{
+  "description": "Write n in binary and interpret as a decimal number; a(n) is this quantity minus n.",
+  "id": "A228071",
+  "mentions": [
+    "A007088",
+    "A127906"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:45",
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

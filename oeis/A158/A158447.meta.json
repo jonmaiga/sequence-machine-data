@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = 10*n^2 - 1.",
+  "id": "A158447",
+  "mentions": [
+    "A005843",
+    "A033583",
+    "A085787",
+    "A158446"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:40",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

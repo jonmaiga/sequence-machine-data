@@ -1,0 +1,25 @@
+{
+  "description": "Expansion of Product_{k>=1} (1 + x^k - x^(2*k)).",
+  "id": "A263401",
+  "mentions": [
+    "A000726",
+    "A001622",
+    "A002390",
+    "A055922",
+    "A100847",
+    "A109389",
+    "A162891",
+    "A266686"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:23",
+    "offset": 0,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

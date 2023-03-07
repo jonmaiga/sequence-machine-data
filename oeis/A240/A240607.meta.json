@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = 2*a(n-2)+a(n-3)+a(n-4) for n>=4, a(n) = binomial(n,3) for n",
+  "id": "A240607",
+  "mentions": [
+    "A239748"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:57",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the number of men's preference profiles in the stable marriage problem with n men and n women, such that all men prefer different women as their first choices.",
+  "id": "A343694",
+  "mentions": [
+    "A001013",
+    "A185141",
+    "A340890",
+    "A342573",
+    "A343474",
+    "A343695"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

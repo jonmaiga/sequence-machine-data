@@ -1,0 +1,19 @@
+{
+  "description": "Partial products of A023896.",
+  "id": "A280458",
+  "mentions": [
+    "A023896",
+    "A213544"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 13:33:17",
+    "offset": 1,
+    "size": 20,
+    "source": "joeis"
+  }
+}

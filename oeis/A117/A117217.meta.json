@@ -1,0 +1,20 @@
+{
+  "description": "Common prime gap associated with the primes A122535.",
+  "id": "A117217",
+  "mentions": [
+    "A006562",
+    "A013632",
+    "A122535"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:07",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

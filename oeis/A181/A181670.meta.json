@@ -1,0 +1,18 @@
+{
+  "description": "Triangle read by rows: 2^(n-1) mod prime(k), 1<=k<=n.",
+  "id": "A181670",
+  "mentions": [
+    "A174620"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 98,
+    "source": "oeis-entry"
+  }
+}

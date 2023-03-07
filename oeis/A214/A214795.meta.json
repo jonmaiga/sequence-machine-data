@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the smallest k>=2 such that n divides Fibonacci(k-1)+21.",
+  "id": "A214795",
+  "mentions": [
+    "A000045",
+    "A213790",
+    "A214789",
+    "A214791",
+    "A214792"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

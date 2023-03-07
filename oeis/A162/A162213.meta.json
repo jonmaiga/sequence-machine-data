@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = the smallest positive multiple of n with exactly n digits when written in binary.",
+  "id": "A162213",
+  "mentions": [
+    "A053041",
+    "A162214"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:44",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Triangle T(n,d) read by rows: Number of ascent sequences of length n with d zeros.",
+  "id": "A175579",
+  "mentions": [
+    "A022493",
+    "A137251",
+    "A218577",
+    "A218579",
+    "A218580",
+    "A218581",
+    "A357309"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:59",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

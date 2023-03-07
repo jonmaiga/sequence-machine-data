@@ -1,0 +1,18 @@
+{
+  "description": "Concatenation of digits of A056129(n), starting from the first 3, that form primes.",
+  "id": "A111137",
+  "mentions": [
+    "A056129"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

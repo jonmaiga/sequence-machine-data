@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the smallest k such that 10^m*k + 1 is prime for all m in 1..n.",
+  "id": "A305740",
+  "mentions": [
+    "A000040",
+    "A124417",
+    "A124516"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

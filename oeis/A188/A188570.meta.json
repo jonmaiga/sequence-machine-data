@@ -1,0 +1,20 @@
+{
+  "description": "Coefficients of the absolute term in (1 + sqrt(2) + sqrt(3))^n sequence, denoted as C1(n).",
+  "id": "A188570",
+  "mentions": [
+    "A188571",
+    "A188572",
+    "A188573"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:13",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

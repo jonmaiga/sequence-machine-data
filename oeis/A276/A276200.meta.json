@@ -1,0 +1,23 @@
+{
+  "description": "Largest prime < the concatenation of the numbers from 1 to n (A007908).",
+  "id": "A276200",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A007908",
+    "A074365",
+    "A151799"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 2,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

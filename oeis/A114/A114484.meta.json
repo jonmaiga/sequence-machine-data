@@ -1,0 +1,20 @@
+{
+  "description": "Number of decimal digits in Fermat(10^n).",
+  "id": "A114484",
+  "mentions": [
+    "A000021",
+    "A057755"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "bref",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

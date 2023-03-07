@@ -1,0 +1,22 @@
+{
+  "description": "Length of longest cyclic knight path on an n X n chessboard that is determined (up to starting point and direction) by the fields visited.",
+  "id": "A165143",
+  "mentions": [
+    "A297666",
+    "A357357",
+    "A357500",
+    "A357501"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 3,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

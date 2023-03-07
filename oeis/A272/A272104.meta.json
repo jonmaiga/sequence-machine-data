@@ -1,0 +1,28 @@
+{
+  "description": "Sum of the even numbers among the larger parts of the partitions of n into two parts.",
+  "id": "A272104",
+  "mentions": [
+    "A000326",
+    "A001318",
+    "A026741",
+    "A049450",
+    "A049452",
+    "A109043",
+    "A126964",
+    "A152749",
+    "A268351",
+    "A272212"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:09:31",
+    "offset": 0,
+    "size": 58,
+    "source": "joeis"
+  }
+}

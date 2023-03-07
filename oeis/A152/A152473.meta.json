@@ -1,0 +1,18 @@
+{
+  "description": "Primes appearing as sums in A152471.",
+  "id": "A152473",
+  "mentions": [
+    "A152471",
+    "A152472"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:35",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

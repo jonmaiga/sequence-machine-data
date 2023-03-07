@@ -1,0 +1,17 @@
+{
+  "description": "Nonnegative integers of the form -x^2 + 6xy + 3y^2.",
+  "id": "A243169",
+  "mentions": [
+    "A141187"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

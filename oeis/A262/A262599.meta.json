@@ -1,0 +1,22 @@
+{
+  "description": "Lexicographically earliest sequence of distinct terms such that, for any n > 0, phi(a(n)) = phi(n) (where phi denotes the Euler totient function), and a(n) > n if possible.",
+  "id": "A262599",
+  "mentions": [
+    "A000010",
+    "A049283",
+    "A066412",
+    "A066659",
+    "A262603"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:22",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

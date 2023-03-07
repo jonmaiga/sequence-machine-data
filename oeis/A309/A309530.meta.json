@@ -1,0 +1,22 @@
+{
+  "description": "Number of power-of-two-divisors of sum of divisors of sum of divisors of powers of two: a(n) = A001511(A051027(A000079(n))).",
+  "id": "A309530",
+  "mentions": [
+    "A000043",
+    "A000079",
+    "A001511",
+    "A051027",
+    "A090748"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Smallest prime divisor of n^4-n^2+1.",
+  "id": "A125258",
+  "mentions": [
+    "A060886",
+    "A124990"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:13",
+    "offset": 2,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

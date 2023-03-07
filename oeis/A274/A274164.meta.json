@@ -1,0 +1,17 @@
+{
+  "description": "Smallest k > 0 such that F_{p-(k/p)} == 0 (mod p), where p = prime(n), F_i = A000045(i) and (a/b) is the Kronecker symbol.",
+  "id": "A274164",
+  "mentions": [
+    "A000045"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

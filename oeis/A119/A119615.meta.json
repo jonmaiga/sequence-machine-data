@@ -1,0 +1,19 @@
+{
+  "description": "Write down the primes 2,3,5,... but omit any prime (such as 23 or 31 or 71 ...) that has appeared as a string earlier in the sequence.",
+  "id": "A119615",
+  "mentions": [
+    "A048991"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Indices of numbers in A167459 which are not in A066737.",
+  "id": "A167458",
+  "mentions": [
+    "A066737",
+    "A152242",
+    "A166504",
+    "A166505",
+    "A167459"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

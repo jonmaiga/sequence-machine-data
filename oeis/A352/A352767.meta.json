@@ -1,0 +1,18 @@
+{
+  "description": "Number of n-node graphs with the maximum number (A352766(n)) of orientations.",
+  "id": "A352767",
+  "mentions": [
+    "A352766"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "description": "Smallest odd prime p such that n = (p - 1) / ord_p(2).",
+  "id": "A101208",
+  "mentions": [
+    "A001122",
+    "A001133",
+    "A001134",
+    "A001135",
+    "A001136",
+    "A001917",
+    "A054471",
+    "A101209",
+    "A115591",
+    "A152307",
+    "A152308",
+    "A152309",
+    "A152310",
+    "A152311"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:52",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "A binary representation of the positive exponents that appear in the prime factorization of a number, shown in decimal.",
+  "id": "A297404",
+  "mentions": [
+    "A000120",
+    "A000695",
+    "A001694",
+    "A004709",
+    "A005117",
+    "A038109",
+    "A052485",
+    "A059404",
+    "A072774",
+    "A087207"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:17",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Coefficient of x^n in Product_{k>=1} ((1+x^k)/(1-x^k))^(n^3).",
+  "id": "A304461",
+  "mentions": [
+    "A206623",
+    "A270919",
+    "A304448",
+    "A304459",
+    "A304460"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "description": "Value of DIS (\"Decimal Integer Series\") constant based on sequence of squares.",
+  "id": "A258718",
+  "mentions": [
+    "A000040",
+    "A000045",
+    "A000079",
+    "A000108",
+    "A000142",
+    "A000166",
+    "A000217",
+    "A000290",
+    "A001006",
+    "A259837",
+    "A259838",
+    "A259929",
+    "A259930"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:16",
+    "offset": 0,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

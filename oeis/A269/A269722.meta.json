@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: coefficients of polynomials arising as traces of certain web-coloring matrices.",
+  "id": "A269722",
+  "mentions": [
+    "A000142",
+    "A121635",
+    "A281351"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

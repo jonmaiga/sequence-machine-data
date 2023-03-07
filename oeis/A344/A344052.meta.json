@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{k=0..n} (-1)^(n-k)*binomial(n, k)*E1(n, k).",
+  "id": "A344052",
+  "mentions": [
+    "A011818",
+    "A173018"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

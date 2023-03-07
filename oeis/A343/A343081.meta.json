@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the smallest number that is the sum of n positive cubes in three or more ways.",
+  "id": "A343081",
+  "mentions": [
+    "A342902",
+    "A343080",
+    "A343082",
+    "A343083",
+    "A343085"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:59:43",
+    "offset": 3,
+    "size": 51,
+    "source": "joeis"
+  }
+}

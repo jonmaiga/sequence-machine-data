@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = 1 if the arithmetic derivative of n is even, 0 otherwise.",
+  "id": "A358680",
+  "mentions": [
+    "A003415",
+    "A059841",
+    "A121262",
+    "A165560",
+    "A235992",
+    "A353494",
+    "A353495",
+    "A353557"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:32",
+    "offset": 0,
+    "size": 121,
+    "source": "oeis-bfile"
+  }
+}

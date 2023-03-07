@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of e.g.f. exp(x/(1 + x)^2).",
+  "id": "A318215",
+  "mentions": [
+    "A001563",
+    "A082579",
+    "A111884",
+    "A181983"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-03 14:50:32",
+    "offset": 0,
+    "size": 23,
+    "source": "joeis"
+  }
+}

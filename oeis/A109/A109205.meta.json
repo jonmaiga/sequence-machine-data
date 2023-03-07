@@ -1,0 +1,27 @@
+{
+  "description": "Minimal value of k>0 such that n^10 + k^2 is a semiprime.",
+  "id": "A109205",
+  "mentions": [
+    "A001358",
+    "A108714",
+    "A109197",
+    "A109198",
+    "A109199",
+    "A109200",
+    "A109201",
+    "A109202",
+    "A109203",
+    "A109204"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:01",
+    "offset": 0,
+    "size": 93,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Fixed points of permutations A113001, A113004, A113006 and A113007.",
+  "id": "A113005",
+  "mentions": [
+    "A113001",
+    "A113004",
+    "A113006",
+    "A113007"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

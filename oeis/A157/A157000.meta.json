@@ -1,0 +1,25 @@
+{
+  "description": "Triangle T(n,k) = (n/k)*binomial(n-k-1, k-1) read by rows.",
+  "id": "A157000",
+  "mentions": [
+    "A001610",
+    "A029635",
+    "A034807",
+    "A082985",
+    "A113279",
+    "A132460"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:39",
+    "offset": 2,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

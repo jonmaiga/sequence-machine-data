@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{k=1..n} sigma_{n-1}(k).",
+  "id": "A356130",
+  "mentions": [
+    "A319194",
+    "A319649",
+    "A356129"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:30",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

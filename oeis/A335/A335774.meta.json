@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that in prime factorization of k the second smallest factor is 7.",
+  "id": "A335774",
+  "mentions": [
+    "A008589",
+    "A080671"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

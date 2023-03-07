@@ -1,0 +1,19 @@
+{
+  "description": "Triangle T(n,k) read by rows. Matrix inverse of A180050.",
+  "id": "A180051",
+  "mentions": [
+    "A002321",
+    "A180050"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

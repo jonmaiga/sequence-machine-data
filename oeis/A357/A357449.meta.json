@@ -1,0 +1,24 @@
+{
+  "description": "a(0) = 0; for n > 0, a(n) is the smallest positive number not occurring earlier such that the binary string of a(n) plus the largest previous term does not appear in the binary string concatenation of a(0)..a(n-1).",
+  "id": "A357449",
+  "mentions": [
+    "A007088",
+    "A030302",
+    "A118248",
+    "A341766",
+    "A355611",
+    "A357082"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 77,
+    "source": "oeis-entry"
+  }
+}

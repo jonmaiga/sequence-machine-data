@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that b(k+1) = b(k) + 2, where b = A298296.",
+  "id": "A298298",
+  "mentions": [
+    "A297297",
+    "A298296",
+    "A298297"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

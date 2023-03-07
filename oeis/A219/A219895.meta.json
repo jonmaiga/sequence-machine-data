@@ -1,0 +1,24 @@
+{
+  "description": "Number of directed 3-regular graphs on n nodes without directed 2-cycles.",
+  "id": "A219895",
+  "mentions": [
+    "A096368",
+    "A219889",
+    "A219890",
+    "A219891",
+    "A219892",
+    "A219893",
+    "A219894"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 7,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

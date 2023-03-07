@@ -1,0 +1,19 @@
+{
+  "description": "Anti-hypersigma(n): sum of the anti-divisors of n plus the recursive sum of the anti-divisors of the anti-divisors until 2 is reached.",
+  "id": "A192279",
+  "mentions": [
+    "A066272",
+    "A191150"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 3,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Squares t^2 = (p+q+r)/3 which are the arithmetic mean of three consecutive primes such that p < t^2 < q < r.",
+  "id": "A234297",
+  "mentions": [
+    "A000290",
+    "A062703",
+    "A069495",
+    "A234240"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:52",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

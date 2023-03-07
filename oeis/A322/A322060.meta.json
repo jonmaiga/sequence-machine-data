@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of generating function related to a certain class of combinatorial objects.",
+  "id": "A322060",
+  "mentions": [
+    "A322059"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

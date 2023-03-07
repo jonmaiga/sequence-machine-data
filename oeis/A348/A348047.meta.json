@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = gcd(sigma(n), A003959(n)), where A003959 is multiplicative with a(p^e) = (p+1)^e and sigma is the sum of divisors function.",
+  "id": "A348047",
+  "mentions": [
+    "A000203",
+    "A003959",
+    "A344695",
+    "A348029",
+    "A348048",
+    "A348049"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:21",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

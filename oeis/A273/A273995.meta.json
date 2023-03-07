@@ -1,0 +1,17 @@
+{
+  "description": "Even numbers with a unique representation as the difference of two primes, each of which is a member of a pair of twin primes, and one of which is smaller than the even number under consideration.",
+  "id": "A273995",
+  "mentions": [
+    "A007534"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

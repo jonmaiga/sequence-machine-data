@@ -1,0 +1,24 @@
+{
+  "description": "Prime exponent of the first Fermi-Dirac factor (number of form p^(2^k)), A050376) reached, when starting from n and iterating with A334870, with a(1) = 0.",
+  "id": "A335428",
+  "mentions": [
+    "A050376",
+    "A209229",
+    "A302777",
+    "A333634",
+    "A334860",
+    "A334866",
+    "A334870",
+    "A334872"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:07",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

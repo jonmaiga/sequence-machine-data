@@ -1,0 +1,26 @@
+{
+  "description": "Coefficients in expansion of -q*E'_10 where E_10 is the Eisenstein Series (A013974).",
+  "id": "A289745",
+  "mentions": [
+    "A013957",
+    "A013974",
+    "A076835",
+    "A145094",
+    "A145095",
+    "A282254",
+    "A289639",
+    "A289744",
+    "A289746"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:04",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

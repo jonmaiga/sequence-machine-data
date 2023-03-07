@@ -1,0 +1,29 @@
+{
+  "description": "Triangle read by rows: T(n,k) = maximal external path length of AVL trees of height n with k (leaf-) nodes, n>=0, fibonacci(n+2)<=k<=2^n.",
+  "id": "A228152",
+  "mentions": [
+    "A003314",
+    "A008466",
+    "A029837",
+    "A036289",
+    "A067331",
+    "A072649",
+    "A143897",
+    "A166106",
+    "A217298",
+    "A217710",
+    "A228153",
+    "A228155"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:45",
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

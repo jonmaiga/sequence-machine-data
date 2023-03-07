@@ -1,0 +1,23 @@
+{
+  "description": "Numbers divisible by the number of chisel strokes in their English name (capitalized, excluding hyphens, excluding curves).",
+  "id": "A164052",
+  "mentions": [
+    "A002963",
+    "A005589",
+    "A163670",
+    "A163828"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = 1^n + 3^n + 5^n + 7^n + 9^n.",
+  "id": "A134007",
+  "mentions": [
+    "A001019",
+    "A034472",
+    "A074507",
+    "A134006"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:21",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

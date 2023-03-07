@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of Sum_{p prime, p>=3} (-1)^((p-1)/2)*log(p)/p, negated.",
+  "id": "A358789",
+  "mentions": [
+    "A086239",
+    "A091812",
+    "A136271",
+    "A354295"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 115,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of pairings of the first 2*k positive integers into k pairs (xi, yi) such that the k numbers (xi + yi) mod k are all different where k = 2*n + 1.",
+  "id": "A320333",
+  "mentions": [
+    "A060963",
+    "A178185",
+    "A320129"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "A108802 read mod 4.",
+  "id": "A108803",
+  "mentions": [
+    "A000041",
+    "A000712",
+    "A040051",
+    "A108802"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:36:49",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

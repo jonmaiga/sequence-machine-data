@@ -1,0 +1,21 @@
+{
+  "description": "Denominators of the sum of the reciprocals of the Collatz (3x+1) sequence beginning at n.",
+  "id": "A225784",
+  "mentions": [
+    "A006577",
+    "A070165",
+    "A087226",
+    "A225761",
+    "A225843"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

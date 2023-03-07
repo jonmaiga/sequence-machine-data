@@ -1,0 +1,20 @@
+{
+  "description": "Number of conjugacy classes of subgroups of PSL(3,q) as q runs through the prime powers (A000961).",
+  "id": "A138082",
+  "mentions": [
+    "A000961",
+    "A003807",
+    "A138077"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

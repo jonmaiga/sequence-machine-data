@@ -1,0 +1,25 @@
+{
+  "description": "Number of ways to write n as an ordered sum of 5 primes (counting 1 as a prime).",
+  "id": "A341984",
+  "mentions": [
+    "A008578",
+    "A280917",
+    "A283762",
+    "A340961",
+    "A341948",
+    "A341976",
+    "A341982",
+    "A341983"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 5,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

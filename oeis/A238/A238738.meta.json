@@ -1,0 +1,26 @@
+{
+  "description": "Expansion of (1 + 2*x + 2*x^2)/(1 - x - 2*x^3 + 2*x^4 + x^6 - x^7).",
+  "id": "A238738",
+  "mentions": [
+    "A000212",
+    "A000217",
+    "A000566",
+    "A005475",
+    "A008732",
+    "A028895",
+    "A047212",
+    "A211538"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:17:45",
+    "offset": 0,
+    "size": 55,
+    "source": "joeis"
+  }
+}

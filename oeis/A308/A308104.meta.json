@@ -1,0 +1,20 @@
+{
+  "description": "Distinct values taken by the DENEAT operator (A073053) in increasing order.",
+  "id": "A308104",
+  "mentions": [
+    "A073053",
+    "A108203",
+    "A308106"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

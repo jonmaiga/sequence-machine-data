@@ -1,0 +1,22 @@
+{
+  "description": "Product_{k=0..n} (k^5+1).",
+  "id": "A255435",
+  "mentions": [
+    "A101686",
+    "A144664",
+    "A255433",
+    "A255434"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

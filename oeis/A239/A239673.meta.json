@@ -1,0 +1,22 @@
+{
+  "description": "Record values in A239656 (the first differences of sphenic numbers).",
+  "id": "A239673",
+  "mentions": [
+    "A005250",
+    "A007304",
+    "A215231",
+    "A239656",
+    "A239674"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

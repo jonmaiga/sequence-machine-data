@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = coefficient of x^(3*n)*y^n/n in Sum_{n>=1} -log(1 - (x^n + y^n)).",
+  "id": "A322207",
+  "mentions": [
+    "A322200",
+    "A322204",
+    "A322206",
+    "A322208"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

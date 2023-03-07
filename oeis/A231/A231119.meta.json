@@ -1,0 +1,22 @@
+{
+  "description": "Least positive k such that n * k^k + 1 is a prime, or 0 if no such k exists.",
+  "id": "A231119",
+  "mentions": [
+    "A035093",
+    "A057217",
+    "A175763",
+    "A228175"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

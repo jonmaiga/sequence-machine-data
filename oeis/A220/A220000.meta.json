@@ -1,0 +1,23 @@
+{
+  "description": "Sixty fourths of an inch in thousandths, rounded to nearest integer.",
+  "id": "A220000",
+  "mentions": [
+    "A029919",
+    "A029920",
+    "A085269",
+    "A169860",
+    "A169861"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 18:59:55",
+    "offset": 1,
+    "size": 50,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Generators of Fermat pseudoprimes to base 2 that are square pyramidal numbers: numbers k such that 12*k+1, 18*k+1 and 36*k+1 are all primes.",
+  "id": "A293625",
+  "mentions": [
+    "A000330",
+    "A001567",
+    "A293624"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:10",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

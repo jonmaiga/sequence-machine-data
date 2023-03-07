@@ -1,0 +1,23 @@
+{
+  "description": "Exponent of 2 minus sum of all other exponents, in the prime power factorization of n!",
+  "id": "A175417",
+  "mentions": [
+    "A000142",
+    "A011371",
+    "A022559",
+    "A027868",
+    "A054861",
+    "A054896"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:11:25",
+    "offset": 0,
+    "size": 67,
+    "source": "joeis"
+  }
+}

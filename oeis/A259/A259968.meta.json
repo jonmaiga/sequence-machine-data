@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = a(n-1) + a(n-2) + a(n-4), with a(1)=1, a(2)=1, a(3)=3, a(4)=6.",
+  "id": "A259968",
+  "mentions": [
+    "A005251",
+    "A259967",
+    "A259969"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:18",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

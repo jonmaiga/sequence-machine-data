@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of Product_{k>=1} (1 + x^k)^(sigma_1(k)-k), where sigma_1(k) = sum of divisors of k (A000203).",
+  "id": "A319107",
+  "mentions": [
+    "A000203",
+    "A001065",
+    "A192065",
+    "A255528",
+    "A318784"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 02:08:03",
+    "offset": 0,
+    "size": 47,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Convolution of A270913 and A008485.",
+  "id": "A309986",
+  "mentions": [
+    "A008485",
+    "A270913",
+    "A270915",
+    "A270919",
+    "A327214",
+    "A327215"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:34",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = a(n-1) + 2^(k(n)), where k(n) is the n-th term of the sequence formed by k(1)=0 together with the numbers A042964.",
+  "id": "A113876",
+  "mentions": [
+    "A042964",
+    "A080355",
+    "A080567",
+    "A099969",
+    "A099970",
+    "A099971",
+    "A099974",
+    "A112627"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:04",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

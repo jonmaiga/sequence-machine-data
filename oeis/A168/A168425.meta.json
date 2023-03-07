@@ -1,0 +1,24 @@
+{
+  "description": "Large Associated Ramanujan Prime, p_i.",
+  "id": "A168425",
+  "mentions": [
+    "A104272",
+    "A168421",
+    "A179196",
+    "A190874",
+    "A202187",
+    "A202188",
+    "A234298"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:52",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "If n = Product (p_j^k_j) then a(n) = Sum (prime(p_j)^k_j).",
+  "id": "A304251",
+  "mentions": [
+    "A000040",
+    "A002110",
+    "A006450",
+    "A008475",
+    "A038580",
+    "A064988",
+    "A083186",
+    "A222416",
+    "A304037",
+    "A304253"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

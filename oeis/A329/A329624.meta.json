@@ -1,0 +1,28 @@
+{
+  "description": "Number of iterations of A329623 for starting value n before a repeated value appears, or -1 if this never happens.",
+  "id": "A329624",
+  "mentions": [
+    "A132272",
+    "A140438",
+    "A179051",
+    "A226233",
+    "A324160",
+    "A328142",
+    "A328865",
+    "A329197",
+    "A329200",
+    "A329623",
+    "A329917"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

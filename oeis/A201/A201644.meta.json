@@ -1,0 +1,22 @@
+{
+  "description": "The first of the five known sets of nine distinct odd numbers the sum of whose reciprocals is 1.",
+  "id": "A201644",
+  "mentions": [
+    "A201646",
+    "A201647",
+    "A201648",
+    "A201649"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

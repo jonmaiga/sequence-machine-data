@@ -1,0 +1,18 @@
+{
+  "description": "Number of n X 3 0..2 arrays with diagonals and rows unimodal and antidiagonals nondecreasing.",
+  "id": "A224305",
+  "mentions": [
+    "A224310"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:42",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

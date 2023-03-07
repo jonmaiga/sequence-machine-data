@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of Sum_{k>=1} 1/phi(k)^3, where phi is the Euler totient function.",
+  "id": "A335818",
+  "mentions": [
+    "A000010",
+    "A065484",
+    "A109695",
+    "A335319"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

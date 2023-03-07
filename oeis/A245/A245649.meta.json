@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that the sum of the non-anti-divisors of n is a multiple of the sum of the anti-divisors of n.",
+  "id": "A245649",
+  "mentions": [
+    "A066272",
+    "A066860"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:01",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

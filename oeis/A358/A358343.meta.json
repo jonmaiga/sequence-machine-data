@@ -1,0 +1,17 @@
+{
+  "description": "Primes p such that p + 6, p + 12, p + 18, (p+4)/5, (p+4)/5 + 6, (p+4)/5 + 12 and (p+4)/5 + 18 are also prime.",
+  "id": "A358343",
+  "mentions": [
+    "A023271"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:32",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

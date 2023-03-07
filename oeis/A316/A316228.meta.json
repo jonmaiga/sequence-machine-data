@@ -1,0 +1,26 @@
+{
+  "description": "Numbers whose Fermi-Dirac prime factorization sums to a Fermi-Dirac prime.",
+  "id": "A316228",
+  "mentions": [
+    "A050376",
+    "A064547",
+    "A100118",
+    "A213925",
+    "A299757",
+    "A305829",
+    "A316202",
+    "A316210",
+    "A316211",
+    "A316220"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:34",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

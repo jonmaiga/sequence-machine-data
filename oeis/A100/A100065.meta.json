@@ -1,0 +1,17 @@
+{
+  "description": "E.g.f. A(x) satisfies: Sum_{k=0..n} (A(x)^n)_k/k! = [exp(n)] (integer floor of e^n) for all n>=0, where (A(x)^n)_k/k! is the coefficient of x^k in A(x)^n.",
+  "id": "A100065",
+  "mentions": [
+    "A100064"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

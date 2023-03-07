@@ -1,0 +1,19 @@
+{
+  "description": "No sum of 2 or more terms equals a prime.",
+  "id": "A133660",
+  "mentions": [
+    "A052349",
+    "A133661"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

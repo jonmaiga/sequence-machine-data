@@ -1,0 +1,23 @@
+{
+  "description": "Irregular triangle T read by rows: Row n gives the vertex labels of level n of the tree related to the modified reduced Collatz map A324036.",
+  "id": "A324038",
+  "mentions": [
+    "A324036",
+    "A324039",
+    "A324040",
+    "A324246"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 79,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "For any number n with factorial base representation (d_1, ..., d_k), for i = 1..k, let f_i be the number of i's in (d_1, ..., d_k); the factorial base representation of a(n) is (f_1, ..., f_k).",
+  "id": "A348138",
+  "mentions": [
+    "A000142",
+    "A034968",
+    "A060130",
+    "A108731",
+    "A153880"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:22",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

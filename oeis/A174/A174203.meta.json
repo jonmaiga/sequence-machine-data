@@ -1,0 +1,27 @@
+{
+  "description": "In the sequence A007088 of binary representations of n, delete the 1st, 3rd, 5th, 7th, 9th etc occurrence of 0 and 1. Rewrite the bits left over in base 10.",
+  "id": "A174203",
+  "mentions": [
+    "A007088",
+    "A174204",
+    "A174205",
+    "A174206",
+    "A174207",
+    "A174208",
+    "A174209",
+    "A174210"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "easy",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 79,
+    "source": "oeis-entry"
+  }
+}

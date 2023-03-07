@@ -1,0 +1,18 @@
+{
+  "description": "Perimeters of integer-sided triangles with prime inradius.",
+  "id": "A333946",
+  "mentions": [
+    "A005044",
+    "A333945"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

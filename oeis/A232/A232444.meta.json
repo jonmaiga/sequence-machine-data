@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that sigma(n) and sigma(n^2) are primes.",
+  "id": "A232444",
+  "mentions": [
+    "A000203",
+    "A023194",
+    "A055638"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:50",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

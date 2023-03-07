@@ -1,0 +1,27 @@
+{
+  "description": "Triangle read by rows: T(n,k) = binomial(n+k, n-k) k! / (floor(k/2)! * floor((k+2)/2)!).",
+  "id": "A190907",
+  "mentions": [
+    "A000217",
+    "A000332",
+    "A006318",
+    "A056040",
+    "A057977",
+    "A060693",
+    "A085478",
+    "A088617",
+    "A190908"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

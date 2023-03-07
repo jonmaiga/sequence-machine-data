@@ -1,0 +1,19 @@
+{
+  "description": "Primes P such that P > (largest prime factor of (P-1)) * (largest prime factor of (P+1)).",
+  "id": "A180641",
+  "mentions": [
+    "A103666",
+    "A103667",
+    "A180640"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:03",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

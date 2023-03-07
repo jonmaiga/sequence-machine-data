@@ -1,0 +1,17 @@
+{
+  "description": "Number of n X n 0..3 arrays with rows and columns unimodal",
+  "id": "A223844",
+  "mentions": [
+    "A223850"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

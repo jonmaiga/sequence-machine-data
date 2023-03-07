@@ -1,0 +1,18 @@
+{
+  "description": "Terms in A351026 that are not divisible by any Fermat number > 5.",
+  "id": "A352536",
+  "mentions": [
+    "A129802",
+    "A351026"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that 3^k + k^3 + 1 is prime.",
+  "id": "A215441",
+  "mentions": [
+    "A215436"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

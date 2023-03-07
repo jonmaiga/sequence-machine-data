@@ -1,0 +1,27 @@
+{
+  "description": "a(n) = n + A001615(n) - sigma(n), where A001615 is the Dedekind psi-function, and sigma(n) gives the sum of divisors of n; difference between psi and the sum of proper divisors.",
+  "id": "A344705",
+  "mentions": [
+    "A000203",
+    "A001065",
+    "A001615",
+    "A033879",
+    "A244963",
+    "A291209",
+    "A306927",
+    "A344700",
+    "A344704",
+    "A344753"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:17",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

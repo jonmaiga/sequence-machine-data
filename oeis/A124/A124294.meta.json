@@ -1,0 +1,25 @@
+{
+  "description": "Number of free generators of degree n of symmetric polynomials in 6-noncommuting variables.",
+  "id": "A124294",
+  "mentions": [
+    "A001519",
+    "A055105",
+    "A055106",
+    "A055107",
+    "A074664",
+    "A124292",
+    "A124293",
+    "A124295"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 03:03:13",
+    "offset": 1,
+    "size": 23,
+    "source": "joeis"
+  }
+}

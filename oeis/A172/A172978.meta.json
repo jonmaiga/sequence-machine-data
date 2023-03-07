@@ -1,0 +1,27 @@
+{
+  "description": "a(n) = binomial(n+10, 10)*4^n.",
+  "id": "A172978",
+  "mentions": [
+    "A002697",
+    "A038845",
+    "A038846",
+    "A040075",
+    "A045543",
+    "A054337",
+    "A054338",
+    "A054339",
+    "A054340"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:57",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

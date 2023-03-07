@@ -1,0 +1,29 @@
+{
+  "description": "Centered 44-gonal numbers.",
+  "id": "A195318",
+  "mentions": [
+    "A003154",
+    "A069129",
+    "A069133",
+    "A069190",
+    "A195149",
+    "A195313",
+    "A195314",
+    "A195315",
+    "A195316",
+    "A195317",
+    "A195323"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:17",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

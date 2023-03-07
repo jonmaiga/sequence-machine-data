@@ -1,0 +1,31 @@
+{
+  "description": "Numbers with 29 divisors.",
+  "id": "A137492",
+  "mentions": [
+    "A000005",
+    "A000040",
+    "A003680",
+    "A005179",
+    "A030513",
+    "A030516",
+    "A030626",
+    "A030627",
+    "A030634",
+    "A030638",
+    "A061283",
+    "A061286",
+    "A096932"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:25",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-bfile"
+  }
+}

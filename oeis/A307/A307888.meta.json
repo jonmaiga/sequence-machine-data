@@ -1,0 +1,25 @@
+{
+  "description": "Non-coreful perfect numbers.",
+  "id": "A307888",
+  "mentions": [
+    "A000203",
+    "A005934",
+    "A007947",
+    "A057723",
+    "A307958",
+    "A307986",
+    "A308029"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

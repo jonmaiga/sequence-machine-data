@@ -1,0 +1,19 @@
+{
+  "description": "The band of primes in rows of A144912 interpreted as binary numbers, with primes as ones, composites and two as zeros and ignoring odd bases, taking the least significant bit from base two.",
+  "id": "A144948",
+  "mentions": [
+    "A144912"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 2,
+    "size": 98,
+    "source": "oeis-entry"
+  }
+}

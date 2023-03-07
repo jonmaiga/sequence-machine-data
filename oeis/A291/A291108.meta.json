@@ -1,0 +1,28 @@
+{
+  "description": "Expansion of Sum_{k>=2} k^2*x^(2*k)/(1 - x^k).",
+  "id": "A291108",
+  "mentions": [
+    "A000290",
+    "A001157",
+    "A001248",
+    "A001358",
+    "A005063",
+    "A008578",
+    "A027751",
+    "A048050",
+    "A053807",
+    "A067558",
+    "A070824"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "n+[nr/t]+[ns/t]; r=1, s=e/2, t=2/e.",
+  "id": "A189474",
+  "mentions": [
+    "A189472",
+    "A189473"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:13",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "A number triangle with duplicated columns of the form 2^n-sum{j=0..2k-1, C(n,j)}.",
+  "id": "A106471",
+  "mentions": [
+    "A000079",
+    "A000295",
+    "A002663",
+    "A035038",
+    "A035040",
+    "A106465",
+    "A106472"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

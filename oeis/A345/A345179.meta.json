@@ -1,0 +1,21 @@
+{
+  "description": "a(1) = 1; a(n) = Sum_{d|n, d < n} binomial(n/d,d) * a(d).",
+  "id": "A345179",
+  "mentions": [
+    "A008578",
+    "A074206",
+    "A318636",
+    "A330017",
+    "A345136"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "description": "Ranks of involutions in permutation orderings A060117 and A060118.",
+  "id": "A261220",
+  "mentions": [
+    "A007623",
+    "A014489",
+    "A060112",
+    "A060117",
+    "A060118",
+    "A060131",
+    "A260743",
+    "A261219",
+    "A275803",
+    "A275804",
+    "A275947",
+    "A276005",
+    "A276007"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:20",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "description": "Nonprime numbers with Fibonacci number of divisors.",
+  "id": "A139588",
+  "mentions": [
+    "A000005",
+    "A000040",
+    "A000045",
+    "A001248",
+    "A018252",
+    "A030514",
+    "A030626",
+    "A030631",
+    "A123193",
+    "A137484",
+    "A139589",
+    "A139590"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:27",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

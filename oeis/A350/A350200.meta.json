@@ -1,0 +1,23 @@
+{
+  "description": "Array read by antidiagonals: T(n,k) is the determinant of the Hankel matrix of the 2*n-1 consecutive primes starting at the k-th prime, n >= 0, k >= 1.",
+  "id": "A350200",
+  "mentions": [
+    "A000012",
+    "A000040",
+    "A024356",
+    "A056221",
+    "A071543",
+    "A350201"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

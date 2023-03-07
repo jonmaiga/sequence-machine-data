@@ -1,0 +1,21 @@
+{
+  "description": "Number of n X n binary matrices with exactly 4 ones in each row and column, and with rows and columns in lexicographically nondecreasing order.",
+  "id": "A229163",
+  "mentions": [
+    "A000513",
+    "A227061",
+    "A229161",
+    "A229164"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Infraperfect numbers: 2^(2p - 1) - 2^p, where p is A000043(n).",
+  "id": "A139096",
+  "mentions": [
+    "A000043",
+    "A000396",
+    "A000668",
+    "A019279",
+    "A061652",
+    "A072868",
+    "A139306"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Partial sums of A130250.",
+  "id": "A130252",
+  "mentions": [
+    "A001045",
+    "A105348",
+    "A130234",
+    "A130236",
+    "A130242",
+    "A130244",
+    "A130249",
+    "A130250",
+    "A130251",
+    "A130253"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

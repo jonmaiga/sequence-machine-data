@@ -1,0 +1,26 @@
+{
+  "description": "Primes and their indices such that when their respective SOD's are both prime, the SOD of the index is the nextprime of the prime SOD.",
+  "id": "A117458",
+  "mentions": [
+    "A000720",
+    "A007953",
+    "A117459",
+    "A117460",
+    "A117461",
+    "A117462",
+    "A117463"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

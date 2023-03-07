@@ -1,0 +1,22 @@
+{
+  "description": "First differences give the same sequence written as a string of individual digits.",
+  "id": "A107974",
+  "mentions": [
+    "A100787",
+    "A107975",
+    "A107976",
+    "A107977"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

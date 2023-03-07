@@ -1,0 +1,19 @@
+{
+  "description": "G.f. satisfies: A(x) = x + A(A(x)^2)^2 where g.f. A(x) = Sum_{n>=1} a(n)*x^(3*n-2).",
+  "id": "A212277",
+  "mentions": [
+    "A212391",
+    "A212392"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

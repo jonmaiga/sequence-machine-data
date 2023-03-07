@@ -1,0 +1,18 @@
+{
+  "description": "Let prime(0) = 1 and f(i) = sum prime(d), where d ranges over all the decimal digits of i. The sequence specifies the smallest i such that f(i) = n.",
+  "id": "A113736",
+  "mentions": [
+    "A113581"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

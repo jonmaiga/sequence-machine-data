@@ -1,0 +1,26 @@
+{
+  "description": "Largest prime <= 9^n.",
+  "id": "A104094",
+  "mentions": [
+    "A001019",
+    "A013603",
+    "A013604",
+    "A013605",
+    "A013606",
+    "A013607",
+    "A013608",
+    "A033874"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:54",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

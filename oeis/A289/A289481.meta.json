@@ -1,0 +1,32 @@
+{
+  "description": "Number A(n,k) of Dyck paths of semilength k*n and height n; square array A(n,k), n>=0, k>=0, read by antidiagonals.",
+  "id": "A289481",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A057427",
+    "A080936",
+    "A083420",
+    "A268316",
+    "A289473",
+    "A289474",
+    "A289475",
+    "A289476",
+    "A289477",
+    "A289478",
+    "A289479",
+    "A289480",
+    "A289482"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:03",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

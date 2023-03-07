@@ -1,0 +1,24 @@
+{
+  "description": "Triangle read by rows: row n gives digits of n in factorial base.",
+  "id": "A108731",
+  "mentions": [
+    "A000142",
+    "A007623",
+    "A084558",
+    "A235168",
+    "A301872"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:00",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Smaller member in a set of two distinct odd numbers the sum of whose reciprocals is 2/(2*n - 1), or 0 if no such integer exists.",
+  "id": "A239233",
+  "mentions": [
+    "A002145",
+    "A239036"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

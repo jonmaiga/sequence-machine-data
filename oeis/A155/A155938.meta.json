@@ -1,0 +1,20 @@
+{
+  "description": "Primes p such that 13*p + 8 is also prime.",
+  "id": "A155938",
+  "mentions": [
+    "A092178",
+    "A155937",
+    "A155939"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 19:30:41",
+    "offset": 1,
+    "size": 50,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Number of connected spanning subgraphs and number of forests of the wheel graph W_n.",
+  "id": "A158525",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:40",
+    "offset": 4,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

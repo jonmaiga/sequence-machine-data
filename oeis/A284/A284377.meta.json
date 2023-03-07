@@ -1,0 +1,22 @@
+{
+  "description": "Concatenation of the first n positive 4th powers.",
+  "id": "A284377",
+  "mentions": [
+    "A007908",
+    "A019521",
+    "A019522",
+    "A359403"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:28",
+    "offset": 1,
+    "size": 12,
+    "source": "joeis"
+  }
+}

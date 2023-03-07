@@ -1,0 +1,19 @@
+{
+  "description": "Number of 2n-length words, either empty or beginning with the first character of an n-ary alphabet, that can be built by repeatedly inserting doublets into the initially empty word.",
+  "id": "A248828",
+  "mentions": [
+    "A183134",
+    "A294491"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:05",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

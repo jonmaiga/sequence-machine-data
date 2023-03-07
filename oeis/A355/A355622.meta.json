@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the n-digit positive number with no trailing zeros and coprime to its digital reversal R(a(n)) at which abs(a(n)/R(a(n))-Pi) is minimized.",
+  "id": "A355622",
+  "mentions": [
+    "A000796",
+    "A002485",
+    "A004086",
+    "A067251",
+    "A355623"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:30",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

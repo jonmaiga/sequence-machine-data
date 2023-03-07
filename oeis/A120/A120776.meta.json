@@ -1,0 +1,20 @@
+{
+  "description": "Composite numbers k such that k+d+1 is prime for all divisors d of k greater than 1.",
+  "id": "A120776",
+  "mentions": [
+    "A005384",
+    "A006881",
+    "A014612",
+    "A045536"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:09",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: Bell polynomial of the second kind B(n,k) with argument vector (7, 42, 210, 840, 2520, 5040, 5040).",
+  "id": "A188066",
+  "mentions": [
+    "A068424",
+    "A188062",
+    "A264428"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

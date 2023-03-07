@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of (arccosh(2)/6)^(1/4)*Gamma(3/4))/(2*sqrt(Pi)).",
+  "id": "A333304",
+  "mentions": [
+    "A301430",
+    "A333239"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:48:20",
+    "offset": 0,
+    "size": 99,
+    "source": "joeis"
+  }
+}

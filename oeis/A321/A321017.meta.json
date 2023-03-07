@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = floor(pi(n)/2).",
+  "id": "A321017",
+  "mentions": [
+    "A000720",
+    "A321005",
+    "A321018"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

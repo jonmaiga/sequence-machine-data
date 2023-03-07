@@ -1,0 +1,25 @@
+{
+  "description": "The records for distance squared for step lengths between adjacent primes in A330979, the visited primes for a walk stepping to the closest unvisited prime on the Ulam Spiral.",
+  "id": "A331027",
+  "mentions": [
+    "A000040",
+    "A063826",
+    "A115258",
+    "A136626",
+    "A214664",
+    "A214665",
+    "A330979"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

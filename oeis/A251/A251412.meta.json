@@ -1,0 +1,18 @@
+{
+  "description": "Trajectory of 11 under the map n -> A098550(n).",
+  "id": "A251412",
+  "mentions": [
+    "A098550",
+    "A251411"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:09",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

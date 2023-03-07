@@ -1,0 +1,28 @@
+{
+  "description": "Arithmetic derivative of squares of prime powers: a(n)=A003415(A056798(n)).",
+  "id": "A192083",
+  "mentions": [
+    "A001787",
+    "A003415",
+    "A024622",
+    "A025473",
+    "A025474",
+    "A027471",
+    "A051674",
+    "A056798",
+    "A079705",
+    "A100484",
+    "A192084"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:15",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Numbers of the form 3*(x^2 + xy + y^2 + x + y) + 1 where x and y are integers.",
+  "id": "A202822",
+  "mentions": [
+    "A003136",
+    "A033685",
+    "A045833",
+    "A260682"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:23",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

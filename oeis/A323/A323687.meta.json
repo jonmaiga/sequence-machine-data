@@ -1,0 +1,18 @@
+{
+  "description": "Odd coefficients in Sum_{n>=0} (x^n + i)^n / (1 + i*x^n)^(n+1), in which the constant term is taken to be 1.",
+  "id": "A323687",
+  "mentions": [
+    "A323689"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:48",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "The concatenation kpk is the number obtained by placing k leading and trailing 1's around the prime p; a(n) is the smallest k such that kpk is prime, where p = prime(n), or -1 if no such k exists.",
+  "id": "A306861",
+  "mentions": [
+    "A002275",
+    "A004022",
+    "A069687",
+    "A272232"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "more",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 77,
+    "source": "oeis-entry"
+  }
+}

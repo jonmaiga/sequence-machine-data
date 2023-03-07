@@ -1,0 +1,25 @@
+{
+  "description": "In the sequence of natural numbers, moving left to right, delete 1st, 3rd, 5th, 7th etc occurrence of each of the ten digits.",
+  "id": "A174209",
+  "mentions": [
+    "A174203",
+    "A174204",
+    "A174205",
+    "A174206",
+    "A174207",
+    "A174208",
+    "A174210"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 88,
+    "source": "oeis-entry"
+  }
+}

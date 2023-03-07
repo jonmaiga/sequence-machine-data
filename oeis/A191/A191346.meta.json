@@ -1,0 +1,20 @@
+{
+  "description": "Primes = 1 mod 17#",
+  "id": "A191346",
+  "mentions": [
+    "A002110",
+    "A073917"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

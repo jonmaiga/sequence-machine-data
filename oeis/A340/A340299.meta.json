@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that (Sum of totatives of k) == 1 (mod Sum of primes dividing k with multiplicity).",
+  "id": "A340299",
+  "mentions": [
+    "A001414",
+    "A023896",
+    "A340297"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:13",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

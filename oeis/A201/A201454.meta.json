@@ -1,0 +1,23 @@
+{
+  "description": "Triangle of denominators of dual coefficients of Faulhaber.",
+  "id": "A201454",
+  "mentions": [
+    "A093558",
+    "A093559",
+    "A201453"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-27 17:31:33",
+    "offset": 0,
+    "size": 66,
+    "source": "joeis"
+  }
+}

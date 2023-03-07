@@ -1,0 +1,19 @@
+{
+  "description": "Number of peakless Motzkin paths of length n having no valleys (i.e., (1,-1) followed by (1,1)) at level zero (can be easily translated into RNA secondary structure terminology).",
+  "id": "A110334",
+  "mentions": [
+    "A004148",
+    "A110333"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:22",
+    "offset": 0,
+    "size": 32,
+    "source": "joeis"
+  }
+}

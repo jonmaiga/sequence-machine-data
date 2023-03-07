@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: the numbers B_2(n,k) from the Harju and Nowotka paper.",
+  "id": "A102416",
+  "mentions": [
+    "A102864",
+    "A103179"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

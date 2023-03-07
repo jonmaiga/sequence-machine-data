@@ -1,0 +1,22 @@
+{
+  "description": "Determinant of circulant matrix of order 4 with entries in the first row (-1)^j*Sum_{k>=0}(-1)^k*binomial(n, 4*k+j), j=0,1,2,3.",
+  "id": "A290286",
+  "mentions": [
+    "A099586",
+    "A099587",
+    "A099588",
+    "A099589",
+    "A290285"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

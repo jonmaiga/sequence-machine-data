@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that n^2 is an average of 4 consecutive primes.",
+  "id": "A226152",
+  "mentions": [
+    "A034963",
+    "A051395",
+    "A102655",
+    "A206280"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:48:03",
+    "offset": 1,
+    "size": 53,
+    "source": "joeis"
+  }
+}

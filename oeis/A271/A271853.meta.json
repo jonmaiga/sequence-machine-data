@@ -1,0 +1,34 @@
+{
+  "description": "Decimal expansion of -zeta(-3/2), negated value of the Riemann zeta function at -3/2.",
+  "id": "A271853",
+  "mentions": [
+    "A002117",
+    "A013661",
+    "A013662",
+    "A013663",
+    "A021016",
+    "A021028",
+    "A021136",
+    "A021256",
+    "A059750",
+    "A078434",
+    "A179311",
+    "A179836",
+    "A211113",
+    "A247041",
+    "A261804"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:36",
+    "offset": -1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

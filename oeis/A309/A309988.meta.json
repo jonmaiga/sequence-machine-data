@@ -1,0 +1,21 @@
+{
+  "description": "Digits of the 7-adic integer exp(-7).",
+  "id": "A309988",
+  "mentions": [
+    "A309866",
+    "A309905",
+    "A309975",
+    "A309987"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 88,
+    "source": "oeis-entry"
+  }
+}

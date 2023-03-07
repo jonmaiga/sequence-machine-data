@@ -1,0 +1,18 @@
+{
+  "description": "Let P be the sequence of distinct lattice points defined by the following rules: P(1) = (0,0), P(2) = (1,0), and for any n > 2, P(n) is the closest lattice point to P(n-1) such that the Z-coordinate of the cross product of the vectors (P(n-1), P(n)) and (P(n-1), P(j)) is strictly negative for j=1..n-2, and in case of a tie, P(n) maximizes the dot product of the vectors (P(n-2), P(n-1)) and (P(n-1), P(n)); a(n) = X-coordinate of P(n).",
+  "id": "A292469",
+  "mentions": [
+    "A292470"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "look",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:07",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

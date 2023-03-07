@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of e.g.f. Product_{k>0} 1/(1 - k^2 * x^k)^(1/k^2).",
+  "id": "A356560",
+  "mentions": [
+    "A077335",
+    "A294462",
+    "A294469",
+    "A308688",
+    "A356530",
+    "A356561"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

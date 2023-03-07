@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the largest number x such that for m=n to n+x-1, A006530(m) increases.",
+  "id": "A100376",
+  "mentions": [
+    "A006530",
+    "A070089",
+    "A071869",
+    "A100384",
+    "A100387"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:51",
+    "offset": 2,
+    "size": 104,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "1 along with primes greater than 3.",
+  "id": "A140475",
+  "mentions": [
+    "A169611"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

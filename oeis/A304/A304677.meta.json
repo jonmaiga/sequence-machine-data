@@ -1,0 +1,18 @@
+{
+  "description": "Total number of tilings of Ferrers-Young diagrams using dominoes and monominoes summed over all partitions of n.",
+  "id": "A304677",
+  "mentions": [
+    "A304662",
+    "A304680"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "description": "Number of maximal subsets of {2...n} containing no prime indices of the elements.",
+  "id": "A324763",
+  "mentions": [
+    "A076078",
+    "A084422",
+    "A085945",
+    "A112798",
+    "A276625",
+    "A304360",
+    "A306844",
+    "A324695",
+    "A324741",
+    "A324742",
+    "A324743",
+    "A324751",
+    "A324756",
+    "A324758",
+    "A324762",
+    "A324764"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:50",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

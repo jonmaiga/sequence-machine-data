@@ -1,0 +1,23 @@
+{
+  "description": "Lower triangular matrix. See comments for definition.",
+  "id": "A262964",
+  "mentions": [
+    "A000004",
+    "A000012",
+    "A000217",
+    "A000292",
+    "A011782",
+    "A239605"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

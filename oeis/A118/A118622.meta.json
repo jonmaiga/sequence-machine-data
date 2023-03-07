@@ -1,0 +1,22 @@
+{
+  "description": "Numbers whose English names are 5 letters long.",
+  "id": "A118622",
+  "mentions": [
+    "A005589",
+    "A052194",
+    "A052360"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "fini",
+    "full",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

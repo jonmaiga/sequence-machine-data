@@ -1,0 +1,28 @@
+{
+  "description": "Array read by descending antidiagonals: T(n,m) is the number of sequences of length n >= 0 with elements in 0..m-1 such that the Hankel matrix of any odd number of consecutive terms is invertible over the ring of integers modulo m >= 1.",
+  "id": "A353435",
+  "mentions": [
+    "A000010",
+    "A000012",
+    "A035287",
+    "A045991",
+    "A127473",
+    "A130716",
+    "A166926",
+    "A350364",
+    "A353433",
+    "A353436"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

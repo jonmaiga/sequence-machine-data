@@ -1,0 +1,28 @@
+{
+  "description": "Number of ordered factorizations of n where the sequence of GCDs of prime indices (A289508) of the factors is weakly increasing.",
+  "id": "A319002",
+  "mentions": [
+    "A000837",
+    "A001970",
+    "A007716",
+    "A056239",
+    "A063834",
+    "A289508",
+    "A296150",
+    "A316223",
+    "A317545",
+    "A318559",
+    "A319001",
+    "A319004"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-entry"
+  }
+}

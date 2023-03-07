@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: T(n,m) = values of function AE_n(m) used to compute A279002 (n >= 3, 0 <= m <= n-3).",
+  "id": "A279003",
+  "mentions": [
+    "A279002"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 3,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

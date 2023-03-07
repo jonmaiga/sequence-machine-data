@@ -1,0 +1,18 @@
+{
+  "description": "Partial sums of A194237.",
+  "id": "A194238",
+  "mentions": [
+    "A194237"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:09:13",
+    "offset": 1,
+    "size": 57,
+    "source": "joeis"
+  }
+}

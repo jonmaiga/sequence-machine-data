@@ -1,0 +1,23 @@
+{
+  "description": "a(1) = 1 and for n > 1, the least number with the same prime signature as sigma(n)-1.",
+  "id": "A296091",
+  "mentions": [
+    "A000203",
+    "A039653",
+    "A046523",
+    "A276528",
+    "A296092",
+    "A296211"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:14",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Expansion of the basic hypergeometric series 1 + (1 - exp(-t)) + (1 - exp(-t))*(1 - exp(-3*t)) + (1 - exp(-t))*(1 - exp(-3*t))*(1 - exp(-5*t)) + ... as a series in t.",
+  "id": "A158690",
+  "mentions": [
+    "A000364",
+    "A000464",
+    "A002105",
+    "A002439",
+    "A003406",
+    "A003475",
+    "A079144",
+    "A158691",
+    "A209832",
+    "A215066"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:41",
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

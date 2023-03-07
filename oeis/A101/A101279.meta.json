@@ -1,0 +1,22 @@
+{
+  "description": "a(1) = 1; a(2k) = a(k), a(2k+1) = k.",
+  "id": "A101279",
+  "mentions": [
+    "A003602",
+    "A007814",
+    "A025480",
+    "A028310",
+    "A036987"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:32:53",
+    "offset": 1,
+    "size": 84,
+    "source": "joeis"
+  }
+}

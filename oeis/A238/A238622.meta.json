@@ -1,0 +1,21 @@
+{
+  "description": "Number of partitions of n such that floor(n/2) or ceiling(n/2) is a part.",
+  "id": "A238622",
+  "mentions": [
+    "A000041",
+    "A238623",
+    "A238624"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

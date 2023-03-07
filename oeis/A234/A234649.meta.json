@@ -1,0 +1,23 @@
+{
+  "description": "Difference between the first members of the widest and the narrowest prime pair having an arithmetic mean of n.",
+  "id": "A234649",
+  "mentions": [
+    "A002373",
+    "A020482",
+    "A045917",
+    "A061357",
+    "A078496",
+    "A078587"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:52",
+    "offset": 8,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

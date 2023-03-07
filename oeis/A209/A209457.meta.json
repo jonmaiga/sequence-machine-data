@@ -1,0 +1,17 @@
+{
+  "description": "Expansion of x^7*Product_{i>=0} ((1 + x^(2*i - 1))*(1 - x^(4*i - 5))).",
+  "id": "A209457",
+  "mentions": [
+    "A207944"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:28",
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

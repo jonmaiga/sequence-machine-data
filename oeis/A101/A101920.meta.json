@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of Schroeder paths of length 2n and having k up steps starting at an odd height.",
+  "id": "A101920",
+  "mentions": [
+    "A001519",
+    "A006318",
+    "A101919"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

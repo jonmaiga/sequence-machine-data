@@ -1,0 +1,18 @@
+{
+  "description": "First instance of primes of the form p(p+2)+ k, if they exist, where p and p+2 are prime and k is an even number.",
+  "id": "A108024",
+  "mentions": [
+    "A051779"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 3,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

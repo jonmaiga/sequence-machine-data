@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = floor(sqrt(a(n-1)^2 + a(n-2)^2)), a(1)=1, a(2)=3.",
+  "id": "A104803",
+  "mentions": [
+    "A104804",
+    "A104805",
+    "A104810"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:55",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Coefficients of the generalized continued fraction expansion of the inverse of Euler constant, 1/gamma = a(1) +a(1)/(a(2) +a(2)/(a(3) +a(3)/(a(4) +a(4)/....))).",
+  "id": "A233585",
+  "mentions": [
+    "A001620",
+    "A233582",
+    "A233583",
+    "A233584",
+    "A233586",
+    "A233587",
+    "A233588",
+    "A233589",
+    "A233590",
+    "A233591"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:51",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

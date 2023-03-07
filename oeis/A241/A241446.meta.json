@@ -1,0 +1,23 @@
+{
+  "description": "Number of partitions of n such that the number of parts having multiplicity 1 is a part or the number of distinct parts is a part.",
+  "id": "A241446",
+  "mentions": [
+    "A000041",
+    "A241442",
+    "A241443",
+    "A241444",
+    "A241445"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

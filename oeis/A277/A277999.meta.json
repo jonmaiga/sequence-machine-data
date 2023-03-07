@@ -1,0 +1,21 @@
+{
+  "description": "Sum of distances between leftmost and rightmost peaks in all bargraphs of semiperimeter n.",
+  "id": "A277999",
+  "mentions": [
+    "A271941",
+    "A273345",
+    "A273720",
+    "A277973"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

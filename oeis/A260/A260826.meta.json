@@ -1,0 +1,20 @@
+{
+  "description": "Let f(k)=2*k^2+11. For n=0,1,...,11, a(n) = smallest m >= 0 such that f(m-1) is composite if m>0, f(m), f(m+1), ...,f(m+n-1) are prime, and f(m+n) is composite.",
+  "id": "A260826",
+  "mentions": [
+    "A050265",
+    "A092968"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = (-1)^A186034(n).",
+  "id": "A186035",
+  "mentions": [
+    "A001006",
+    "A007814",
+    "A186034",
+    "A186036"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:10",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Triangle read by rows: T(n,k) = n!*(n+k-1)!/((n-k)!*(n-1)!*(k!)^2) for 0 <= k <= n, with T(0,0) = 1.",
+  "id": "A123160",
+  "mentions": [
+    "A005773",
+    "A037965",
+    "A059481",
+    "A085373",
+    "A088218",
+    "A088617",
+    "A122899",
+    "A123164",
+    "A178301"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:11",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

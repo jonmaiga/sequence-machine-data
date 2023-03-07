@@ -1,0 +1,21 @@
+{
+  "description": "Semiprimeth recurrence: a(0) = 1, a(n+1) = semiprime(a(n)) = A001358(a(n)).",
+  "id": "A105999",
+  "mentions": [
+    "A001358",
+    "A007097",
+    "A091022",
+    "A105997",
+    "A105998"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

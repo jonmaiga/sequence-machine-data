@@ -1,0 +1,22 @@
+{
+  "description": "Sum of evil divisors of n. For evil numbers see A001969.",
+  "id": "A260934",
+  "mentions": [
+    "A000203",
+    "A001969",
+    "A227873"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:19",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

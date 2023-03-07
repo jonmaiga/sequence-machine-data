@@ -1,0 +1,19 @@
+{
+  "description": "Lexicographically earliest infinite sequence {a(n)} of distinct positive numbers such that, for n>2, a(n) has a common factor with a(n-1) involving only primes <= 11 but no such common factor with a(n-2) (primes > 11 play no role in this definition).",
+  "id": "A338055",
+  "mentions": [
+    "A336957",
+    "A338053",
+    "A338054"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:09",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

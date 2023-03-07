@@ -1,0 +1,23 @@
+{
+  "description": "a(0) = 0; for n >= 1, a(n) is the result of inverting s-th bit (from right) in n, where s is the number of ones in the binary representation of n.",
+  "id": "A326729",
+  "mentions": [
+    "A000120",
+    "A326730",
+    "A326731",
+    "A326732"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:53",
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-bfile"
+  }
+}

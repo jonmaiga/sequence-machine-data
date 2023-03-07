@@ -1,0 +1,18 @@
+{
+  "description": "Zero-less composite numbers such that exactly eight distinct anagrams are primes.",
+  "id": "A163651",
+  "mentions": [
+    "A163560"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:45",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

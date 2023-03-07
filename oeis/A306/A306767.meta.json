@@ -1,0 +1,19 @@
+{
+  "description": "Least x > 0 such that (x^2-1)/(y^2-1) = n, where y=A130280(n), or 0 if no such x exists.",
+  "id": "A306767",
+  "mentions": [
+    "A130280",
+    "A130283"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Table read by antidiagonals upward: T(n,k) is the least m such that there exists a sequence k = b_1 <= b_2 <= ... <= b_t = m such that no term appears n or more times and the product of the sequence is of the form c^n, where c is an integer; n >= 1 and k >= 0.",
+  "id": "A343825",
+  "mentions": [
+    "A001477",
+    "A006255",
+    "A071537",
+    "A277494",
+    "A328045",
+    "A343881"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

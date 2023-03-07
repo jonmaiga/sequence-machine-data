@@ -1,0 +1,18 @@
+{
+  "description": "Position of records in A067513.",
+  "id": "A202727",
+  "mentions": [
+    "A067513",
+    "A202728"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:23",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of odd permutations s of {1,2,...,n} such that |s(i)-i| > 1 for each i=1,2,...,n.",
+  "id": "A293045",
+  "mentions": [
+    "A001883",
+    "A293044"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

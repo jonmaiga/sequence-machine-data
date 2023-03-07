@@ -1,0 +1,26 @@
+{
+  "description": "L.g.f.: log(Product_{k>=1} (1 + x^(k^2))) = Sum_{n>=1} a(n)*x^n/n.",
+  "id": "A300853",
+  "mentions": [
+    "A000290",
+    "A033461",
+    "A035316",
+    "A039956",
+    "A056911",
+    "A304876",
+    "A304906"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:24",
+    "offset": 1,
+    "size": 85,
+    "source": "joeis"
+  }
+}

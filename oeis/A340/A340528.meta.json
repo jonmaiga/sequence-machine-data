@@ -1,0 +1,18 @@
+{
+  "description": "Radio number of the path graph P_n.",
+  "id": "A340528",
+  "mentions": [
+    "A236283"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:23:05",
+    "offset": 1,
+    "size": 56,
+    "source": "joeis"
+  }
+}

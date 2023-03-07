@@ -1,0 +1,18 @@
+{
+  "description": "G.f.: A(x) = x*(1-x^2)*Product_{n>=1} (1 + x^(4^n))^3.",
+  "id": "A183035",
+  "mentions": [
+    "A183034"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 94,
+    "source": "oeis-entry"
+  }
+}

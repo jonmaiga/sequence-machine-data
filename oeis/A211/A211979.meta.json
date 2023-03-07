@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n formed by p 1's followed by p - 1 0's, where p is prime(n).",
+  "id": "A211979",
+  "mentions": [
+    "A007088",
+    "A060286",
+    "A076274",
+    "A109241",
+    "A135650"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 12:15:06",
+    "offset": 1,
+    "size": 9,
+    "source": "joeis"
+  }
+}

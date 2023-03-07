@@ -1,0 +1,18 @@
+{
+  "description": "The lexicographically earliest sequence of nonnegative integers such that a(2n-1) = prime(n), n>0, and any two neighbors sum to a prime.",
+  "id": "A209259",
+  "mentions": [
+    "A222307"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:28",
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

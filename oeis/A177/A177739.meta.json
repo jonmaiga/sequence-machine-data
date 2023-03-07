@@ -1,0 +1,22 @@
+{
+  "description": "In those partitions of n with every part >=3, the total number of parts (counted with multiplicity).",
+  "id": "A177739",
+  "mentions": [
+    "A006128",
+    "A008483",
+    "A138135",
+    "A176210",
+    "A177740"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Nonunitary pseudoperfect numbers (A327945) that equal to the sum of a subset of their nonunitary divisors in a single way.",
+  "id": "A327946",
+  "mentions": [
+    "A064591",
+    "A064597",
+    "A064771",
+    "A295829",
+    "A327945"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of 'b', an optimal stopping constant associated with the secretary problem when the objective is to maximize the hiree's expected quality.",
+  "id": "A245771",
+  "mentions": [
+    "A054404",
+    "A242672",
+    "A242673",
+    "A242674",
+    "A243533"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-entry"
+  }
+}

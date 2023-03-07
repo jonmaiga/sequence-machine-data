@@ -1,0 +1,20 @@
+{
+  "description": "Number of powerful numbers (A001694) between consecutive squares n^2 and (n+1)^2.",
+  "id": "A119241",
+  "mentions": [
+    "A001694",
+    "A090699",
+    "A119242"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:08",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

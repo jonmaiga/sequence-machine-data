@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of (1 + x)^2 / ((1 - x^2 - 2*x^3)*(1 + x^4)).",
+  "id": "A107849",
+  "mentions": [
+    "A014017",
+    "A052947",
+    "A107850",
+    "A107851",
+    "A107852"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:59",
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

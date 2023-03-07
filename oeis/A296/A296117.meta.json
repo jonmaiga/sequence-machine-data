@@ -1,0 +1,23 @@
+{
+  "description": "Base-2 pseudoprimes of the form 2*p*q where p and q are primes.",
+  "id": "A296117",
+  "mentions": [
+    "A001220",
+    "A006935",
+    "A015919",
+    "A075819",
+    "A215672",
+    "A270973"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

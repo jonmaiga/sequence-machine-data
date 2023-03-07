@@ -1,0 +1,18 @@
+{
+  "description": "Number of n X 2 arrays of occupancy after each element stays put or moves to some king-move neighbor, with no occupancy greater than 2.",
+  "id": "A221266",
+  "mentions": [
+    "A221269"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:39",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

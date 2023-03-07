@@ -1,0 +1,24 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of hook lengths equal to k among all hook lengths of all partitions of n (1 <= k <= n).",
+  "id": "A138785",
+  "mentions": [
+    "A000041",
+    "A000070",
+    "A066183",
+    "A066186",
+    "A066633",
+    "A207383"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:26",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

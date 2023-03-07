@@ -1,0 +1,28 @@
+{
+  "description": "Decimal expansion of sine of the golden ratio. That is, the decimal expansion of sin((1+sqrt(5))/2).",
+  "id": "A139345",
+  "mentions": [
+    "A001622",
+    "A002390",
+    "A094214",
+    "A098317",
+    "A104457",
+    "A139339",
+    "A139340",
+    "A139341",
+    "A139342",
+    "A139350"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:50:37",
+    "offset": 0,
+    "size": 104,
+    "source": "joeis"
+  }
+}

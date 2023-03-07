@@ -1,0 +1,22 @@
+{
+  "description": "Primes which have one or more occurrences of exactly six different digits.",
+  "id": "A235158",
+  "mentions": [
+    "A074669",
+    "A235154",
+    "A235157",
+    "A235159",
+    "A235161"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:52",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

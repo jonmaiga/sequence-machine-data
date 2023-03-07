@@ -1,0 +1,17 @@
+{
+  "description": "Old-fashioned version of A002504 (the initial 1 should be omitted since 1 is no longer regarded as a prime, although it was in 1912).",
+  "id": "A133431",
+  "mentions": [
+    "A002504"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

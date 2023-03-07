@@ -1,0 +1,20 @@
+{
+  "description": "Triangle T(n, k) = k^2*(1+n)^2 - 4*n, read by rows.",
+  "id": "A123961",
+  "mentions": [
+    "A000217",
+    "A000330"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:12",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = n! * Sum_{k=0..floor(n/3)} (-1)^k / (3*k)!.",
+  "id": "A348597",
+  "mentions": [
+    "A000166",
+    "A009102",
+    "A346441",
+    "A349087",
+    "A352659"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

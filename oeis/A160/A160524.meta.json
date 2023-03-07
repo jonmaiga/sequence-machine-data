@@ -1,0 +1,20 @@
+{
+  "description": "Exceptional class of numbers k such that p(5k+4) == 0 (mod 25), where p() = A000041().",
+  "id": "A160524",
+  "mentions": [
+    "A000041",
+    "A071734",
+    "A327713",
+    "A327714"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

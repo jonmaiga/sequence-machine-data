@@ -1,0 +1,21 @@
+{
+  "description": "Numerator of Sum_{k=1..n} k^n/n^k.",
+  "id": "A119758",
+  "mentions": [
+    "A000169",
+    "A023037",
+    "A031971"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

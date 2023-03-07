@@ -1,0 +1,23 @@
+{
+  "description": "G.f.: c(3x)^2, c(x) the g.f. of A000108.",
+  "id": "A101600",
+  "mentions": [
+    "A000108",
+    "A050159",
+    "A098658",
+    "A101601",
+    "A101602"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 19:20:41",
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

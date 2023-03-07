@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of e.g.f. exp(Sum_{k=1..4} (exp(k*x) - 1)).",
+  "id": "A355422",
+  "mentions": [
+    "A004702",
+    "A306028",
+    "A355423"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the number of compositions of the set {1, 2, ..., n} into blocks, each of size 1, 2 or 3 (n >= 0).",
+  "id": "A189886",
+  "mentions": [
+    "A000670",
+    "A001680",
+    "A144422",
+    "A276921"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:14",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Define a sequence {b(i), i >= 0} by b(i) = 1 for 0 <= i <= n, thereafter b(i+1) = (b(i)+b(i-n)) mod 10; consider the sequence of n-tuples [b(i-n+1), b(i-n+2),...,b(i)]; this repeats with period a(n).",
+  "id": "A256985",
+  "mentions": [
+    "A000045",
+    "A003893"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

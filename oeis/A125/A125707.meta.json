@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that A024528(n) is prime.",
+  "id": "A125707",
+  "mentions": [
+    "A024528",
+    "A109628"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

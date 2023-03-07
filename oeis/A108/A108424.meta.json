@@ -1,0 +1,20 @@
+{
+  "description": "Number of paths from (0,0) to (3n,0) that stay in the first quadrant, consist of steps u=(2,1), U=(1,2), or d=(1,-1) and do not touch the x-axis, except at the endpoints.",
+  "id": "A108424",
+  "mentions": [
+    "A027307",
+    "A032349",
+    "A344553"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:00",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

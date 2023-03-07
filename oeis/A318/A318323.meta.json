@@ -1,0 +1,21 @@
+{
+  "description": "Numerators of rational valued sequence whose Dirichlet convolution with itself yields A046523, smallest number with same prime signature as n.",
+  "id": "A318323",
+  "mentions": [
+    "A046523",
+    "A317937",
+    "A318324"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:38",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

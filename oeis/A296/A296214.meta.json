@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n for which there is at least one x < n such that phi(x) = phi(n).",
+  "id": "A296214",
+  "mentions": [
+    "A000010",
+    "A000040",
+    "A069822",
+    "A069823",
+    "A081373",
+    "A296087"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:15",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

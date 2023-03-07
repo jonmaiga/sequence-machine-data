@@ -1,0 +1,18 @@
+{
+  "description": "Number of partitions of n with product of multiplicities of parts equal to 10.",
+  "id": "A266693",
+  "mentions": [
+    "A266477"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:27",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

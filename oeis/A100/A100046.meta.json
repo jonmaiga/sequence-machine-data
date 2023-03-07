@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of -Pi/4 + (3*log(2))/2.",
+  "id": "A100046",
+  "mentions": [
+    "A003881",
+    "A014081",
+    "A262023"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:33",
+    "offset": 0,
+    "size": 102,
+    "source": "joeis"
+  }
+}

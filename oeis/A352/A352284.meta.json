@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is 2^(2*n) times the derivative of order 2*n of the logarithm of I_0(x) (the modified Bessel function of the first kind of order zero) evaluated at zero.",
+  "id": "A352284",
+  "mentions": [
+    "A352313"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

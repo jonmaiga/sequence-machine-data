@@ -1,0 +1,24 @@
+{
+  "description": "a(2*n) = 2*a(n), a(2*n + 1) = 2*a(n) + 2 + (-1)^n, for all n in Z.",
+  "id": "A163617",
+  "mentions": [
+    "A003188",
+    "A003714",
+    "A003986",
+    "A048724",
+    "A163618",
+    "A213370",
+    "A269161"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:45",
+    "offset": 0,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

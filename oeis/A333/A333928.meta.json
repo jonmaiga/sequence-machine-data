@@ -1,0 +1,24 @@
+{
+  "description": "Recursive abundant numbers: numbers k such that A333926(k) > 2*k.",
+  "id": "A333928",
+  "mentions": [
+    "A005101",
+    "A034683",
+    "A064597",
+    "A129575",
+    "A129656",
+    "A292982",
+    "A333926",
+    "A333927"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:05",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

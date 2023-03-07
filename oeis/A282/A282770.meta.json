@@ -1,0 +1,18 @@
+{
+  "description": "a(1)=1. For n>1, start with n, concatenate the indices of its prime factors, and repeat until either (i) a prime p is reached, when we set a(n)=p; or (ii) the process enters a loop of length m, when we set a(n) = -m; or (iii) the trajectory diverges to infinity, when we set a(n) = 0.",
+  "id": "A282770",
+  "mentions": [
+    "A037274"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

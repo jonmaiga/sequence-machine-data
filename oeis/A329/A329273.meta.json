@@ -1,0 +1,20 @@
+{
+  "description": "a(1)=1. If n is prime, a(n)=0; if not, a(n) = (the smallest prime number greater than n) minus (the largest prime number smaller than n) minus 1.",
+  "id": "A329273",
+  "mentions": [
+    "A072680",
+    "A151799",
+    "A151800"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

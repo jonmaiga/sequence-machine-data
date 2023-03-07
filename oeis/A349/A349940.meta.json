@@ -1,0 +1,19 @@
+{
+  "description": "Terms of A339863 that are congruent to 5 modulo 6: numbers k == 5 (mod 6) such that A005179(k-1) > A005179(k) < A005179(k+1) >A005179(k+2) < A005179(k+3).",
+  "id": "A349940",
+  "mentions": [
+    "A005179",
+    "A339863",
+    "A349939"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

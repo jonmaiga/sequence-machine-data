@@ -1,0 +1,19 @@
+{
+  "description": "Tribonacci equivalent of mousetrap sequence (A002467).",
+  "id": "A104470",
+  "mentions": [
+    "A002467"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:55",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

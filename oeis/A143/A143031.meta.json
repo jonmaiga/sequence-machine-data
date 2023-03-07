@@ -1,0 +1,26 @@
+{
+  "description": "A sequence of asymptotic density zeta(5) - 1, where zeta is the Riemann zeta function.",
+  "id": "A143031",
+  "mentions": [
+    "A143028",
+    "A143029",
+    "A143030",
+    "A143032",
+    "A143033",
+    "A143034",
+    "A143035",
+    "A143036",
+    "A161189",
+    "A339013"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:32",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

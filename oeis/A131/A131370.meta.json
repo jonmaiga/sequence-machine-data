@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = 3a(n-1) - 3a(n-2) + 2a(n-3), a(0) = 3, a(1) = 2, a(2) = 0.",
+  "id": "A131370",
+  "mentions": [
+    "A086953"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 20:10:13",
+    "offset": 0,
+    "size": 34,
+    "source": "joeis"
+  }
+}

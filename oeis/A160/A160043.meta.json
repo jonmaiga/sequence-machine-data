@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of (5907+1802*sqrt(2))/73^2.",
+  "id": "A160043",
+  "mentions": [
+    "A002193",
+    "A129289",
+    "A160041",
+    "A160042"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:42",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

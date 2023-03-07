@@ -1,0 +1,20 @@
+{
+  "description": "Fractal sequence derived from A022328.",
+  "id": "A258033",
+  "mentions": [
+    "A020914",
+    "A022328",
+    "A056576",
+    "A258051"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:16",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

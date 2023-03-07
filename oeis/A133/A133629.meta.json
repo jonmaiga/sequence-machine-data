@@ -1,0 +1,29 @@
+{
+  "description": "a(1)=1, a(n) = a(n-1) + (p-1)*p^(n/2-1) if n is even, otherwise a(n) = a(n-1) + p^((n-1)/2), where p=5.",
+  "id": "A133629",
+  "mentions": [
+    "A016116",
+    "A027383",
+    "A038754",
+    "A084221",
+    "A087503",
+    "A132666",
+    "A132667",
+    "A132668",
+    "A132669",
+    "A133628",
+    "A133632"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:21",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

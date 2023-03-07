@@ -1,0 +1,17 @@
+{
+  "description": "In A217564, prime(i), where i is the index of the start of the first exactly-n terms between successive zeros.",
+  "id": "A217658",
+  "mentions": [
+    "A217564"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

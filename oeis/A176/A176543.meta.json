@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that semiprime(k)/sum of digits of semiprime(k) is prime.",
+  "id": "A176543",
+  "mentions": [
+    "A001358",
+    "A007953",
+    "A175013"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

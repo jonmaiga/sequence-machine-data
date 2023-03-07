@@ -1,0 +1,22 @@
+{
+  "description": "T(n,k)=Number of 0..k arrays x(0..n-1) of n elements with nondecreasing average value and 0..k occur with instance counts within one of each other",
+  "id": "A200942",
+  "mentions": [
+    "A000217",
+    "A045947",
+    "A200770",
+    "A200895",
+    "A200930"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:21",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

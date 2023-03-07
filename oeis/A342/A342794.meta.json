@@ -1,0 +1,19 @@
+{
+  "description": "Inverse of A342793 (assuming that A342793 is a permutation of the positive integers).",
+  "id": "A342794",
+  "mentions": [
+    "A342753",
+    "A342793"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

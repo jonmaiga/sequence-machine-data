@@ -1,0 +1,28 @@
+{
+  "description": "Permutation of nonnegative integers: a(0) = 0, a(A255411(n)) = A153880(a(n)), a(A256450(n)) = A273670(a(n)).",
+  "id": "A273668",
+  "mentions": [
+    "A153880",
+    "A255411",
+    "A255565",
+    "A256450",
+    "A257680",
+    "A257684",
+    "A273662",
+    "A273666",
+    "A273667",
+    "A273670"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:38",
+    "offset": 0,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Prime factor <= other prime factor of n-th brilliant number, cf. A078972.",
+  "id": "A239585",
+  "mentions": [
+    "A020639",
+    "A055642",
+    "A078972",
+    "A084126",
+    "A239586"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:56",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

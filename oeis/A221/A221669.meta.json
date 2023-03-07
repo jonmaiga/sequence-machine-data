@@ -1,0 +1,22 @@
+{
+  "description": "3 x 3 magic square containing seven squares, read by rows.",
+  "id": "A221669",
+  "mentions": [
+    "A221670",
+    "A319589"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "fini",
+    "formulas",
+    "full",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

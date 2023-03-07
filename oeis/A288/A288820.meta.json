@@ -1,0 +1,20 @@
+{
+  "description": "Indices of records in A288818.",
+  "id": "A288820",
+  "mentions": [
+    "A080670",
+    "A288818",
+    "A288819"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:02",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

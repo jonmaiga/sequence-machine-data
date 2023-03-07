@@ -1,0 +1,25 @@
+{
+  "description": "Primes whose binary expansion begins 110.",
+  "id": "A262287",
+  "mentions": [
+    "A000040",
+    "A080165",
+    "A080166",
+    "A262284",
+    "A262285",
+    "A262286",
+    "A262350",
+    "A262365"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:22",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

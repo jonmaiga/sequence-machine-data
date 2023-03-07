@@ -1,0 +1,22 @@
+{
+  "description": "n times n+6 gives the concatenation of two numbers m and m+5.",
+  "id": "A116325",
+  "mentions": [
+    "A116194",
+    "A116318",
+    "A116324",
+    "A116326",
+    "A116339"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-10-18 14:56:44",
+    "offset": 1,
+    "size": 17,
+    "source": "joeis"
+  }
+}

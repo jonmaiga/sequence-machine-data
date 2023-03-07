@@ -1,0 +1,26 @@
+{
+  "description": "Numbers with divisors containing all the digits 0-9 and each digit appears exactly once (in base 10).",
+  "id": "A243363",
+  "mentions": [
+    "A029743",
+    "A037278",
+    "A176558",
+    "A243360",
+    "A243361",
+    "A243362",
+    "A243364"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:59",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

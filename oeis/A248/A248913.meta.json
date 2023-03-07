@@ -1,0 +1,19 @@
+{
+  "description": "A248614(n+1) - A248614(n).",
+  "id": "A248913",
+  "mentions": [
+    "A027642",
+    "A090126",
+    "A248614"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:05",
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

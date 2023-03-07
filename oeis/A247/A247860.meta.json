@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of the value of the continued fraction [0; 2, 5, 17, 37, 101, 197, ...], generated with primes of the form n^2 + 1.",
+  "id": "A247860",
+  "mentions": [
+    "A002496",
+    "A199401",
+    "A247858"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 103,
+    "source": "oeis-entry"
+  }
+}

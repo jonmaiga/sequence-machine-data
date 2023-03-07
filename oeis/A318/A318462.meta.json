@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = Sum_{d|n, d < n/d} (d XOR n/d) + {square root of n when n is a square}.",
+  "id": "A318462",
+  "mentions": [
+    "A000203",
+    "A003987",
+    "A037213",
+    "A318457",
+    "A318460",
+    "A318461",
+    "A318463"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:39",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

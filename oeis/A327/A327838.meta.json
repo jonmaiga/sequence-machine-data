@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of the asymptotic mean of the exponential totient function (A072911).",
+  "id": "A327838",
+  "mentions": [
+    "A000010",
+    "A072911",
+    "A322887",
+    "A327837"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

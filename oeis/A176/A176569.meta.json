@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = (-1)^n + (n-th prime of the form 3k-+1).",
+  "id": "A176569",
+  "mentions": [
+    "A045344"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:00",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

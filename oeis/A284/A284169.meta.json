@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the least k such that sigma(binomial(m,k)) = sigma(binomial(m-1,k-1)) + sigma(binomial(m-1,k)) where m = A284168(n).",
+  "id": "A284169",
+  "mentions": [
+    "A000203",
+    "A007318",
+    "A074801",
+    "A284168"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "Triangle formed by reading A039598 mod 2.",
+  "id": "A128937",
+  "mentions": [
+    "A039598",
+    "A048896",
+    "A052179",
+    "A053121",
+    "A062878",
+    "A065600",
+    "A101692",
+    "A124575",
+    "A126075",
+    "A126093"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:54:09",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

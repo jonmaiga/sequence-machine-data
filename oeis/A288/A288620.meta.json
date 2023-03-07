@@ -1,0 +1,33 @@
+{
+  "description": "Triangle read by rows: T(n,k) = number of step shifted (decimated) sequence structures of length n using exactly k different symbols.",
+  "id": "A288620",
+  "mentions": [
+    "A056371",
+    "A056391",
+    "A056392",
+    "A056393",
+    "A056394",
+    "A056395",
+    "A056396",
+    "A056397",
+    "A056398",
+    "A056399",
+    "A056400",
+    "A132191",
+    "A285522",
+    "A285548",
+    "A288621",
+    "A288627"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:01",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

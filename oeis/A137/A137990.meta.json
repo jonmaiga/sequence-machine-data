@@ -1,0 +1,19 @@
+{
+  "description": "Least prime p of the form c3^n+1 with c not divisible by 3.",
+  "id": "A137990",
+  "mentions": [
+    "A005109",
+    "A057775"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

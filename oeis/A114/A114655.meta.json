@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of Schroeder paths of length 2n and having k weak ascents (1<=k<=n). A Schroeder path of length 2n is a lattice path from (0,0) to (2n,0) consisting of U=(1,1), D=(1,-1) and H=(2,0) steps and never going below the x-axis. A weak ascent in a Schroeder path is a maximal sequence of consecutive U and H steps.",
+  "id": "A114655",
+  "mentions": [
+    "A002003",
+    "A006318",
+    "A114656"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

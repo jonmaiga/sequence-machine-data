@@ -1,0 +1,23 @@
+{
+  "description": "Differences of cubes: T(n,n) = n^3, T(n,k) = T(n,k+1) - T(n-1,k), 0 <= k < n, triangle read by rows.",
+  "id": "A162594",
+  "mentions": [
+    "A000004",
+    "A000578",
+    "A003215",
+    "A008588",
+    "A010722",
+    "A162593"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:44",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

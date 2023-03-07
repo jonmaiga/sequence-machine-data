@@ -1,0 +1,33 @@
+{
+  "description": "Triangle read by rows: row n is row n of Pascal's triangle (A007318) sorted into increasing order.",
+  "id": "A107430",
+  "mentions": [
+    "A000079",
+    "A001405",
+    "A007318",
+    "A034868",
+    "A053121",
+    "A061554",
+    "A103284",
+    "A126869",
+    "A127358",
+    "A127359",
+    "A127360",
+    "A127361",
+    "A127362",
+    "A127363"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:04:13",
+    "offset": 0,
+    "size": 79,
+    "source": "joeis"
+  }
+}

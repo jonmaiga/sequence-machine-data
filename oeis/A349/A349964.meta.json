@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Sum_{k=0..n} (k*n)^n.",
+  "id": "A349964",
+  "mentions": [
+    "A031971",
+    "A155956",
+    "A185393",
+    "A349966",
+    "A349969"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

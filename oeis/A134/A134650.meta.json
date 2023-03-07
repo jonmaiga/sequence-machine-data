@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that n is the sum of two consecutive primes (i.e., in A001043) but is not the sum of two sums of two consecutive primes.",
+  "id": "A134650",
+  "mentions": [
+    "A001043",
+    "A134651",
+    "A135045"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

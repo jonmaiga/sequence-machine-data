@@ -1,0 +1,20 @@
+{
+  "description": "Let n = d_1 d_2 ... d_k in base 10 and f(n) = Sum_{i=1..k} d_i^k; sequence gives numbers n such that n != f(n) but n = f(f(n)).",
+  "id": "A101335",
+  "mentions": [
+    "A005188",
+    "A157714"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:52",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

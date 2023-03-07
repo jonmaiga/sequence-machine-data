@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that (2^k + 3)^2 - 8 is prime.",
+  "id": "A188936",
+  "mentions": [
+    "A188129",
+    "A188661",
+    "A188937"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

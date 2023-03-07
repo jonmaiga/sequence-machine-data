@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Product_{k=1..n} prime(k)^(2^(k-1)).",
+  "id": "A191554",
+  "mentions": [
+    "A191555"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

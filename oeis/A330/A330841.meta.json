@@ -1,0 +1,28 @@
+{
+  "description": "Numbers of the form 2^(2*p-3)*9*M_p^2, where p > 2 is a Mersenne exponent, A000043, and M_p is the corresponding Mersenne prime, A000668.",
+  "id": "A330841",
+  "mentions": [
+    "A000043",
+    "A000668",
+    "A133049",
+    "A133051",
+    "A152921",
+    "A152922",
+    "A330817",
+    "A330818",
+    "A330819",
+    "A330820",
+    "A330837"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

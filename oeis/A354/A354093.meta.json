@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = sigma(A354091(n)), where A354091 is fully multiplicative prime shift which replaces the primes of the form 3k+2 by the next larger such prime, while other primes stay as they are, and sigma is the sum of divisors function.",
+  "id": "A354093",
+  "mentions": [
+    "A000203",
+    "A003627",
+    "A003973",
+    "A010872",
+    "A074941",
+    "A354089",
+    "A354091",
+    "A354095"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

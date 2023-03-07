@@ -1,0 +1,21 @@
+{
+  "description": "Column 0 of matrix 8th power of triangle A134049; a(n) = [A134049^8](n,0) = A134049(n+3,3)/8^n.",
+  "id": "A134053",
+  "mentions": [
+    "A134049",
+    "A134050",
+    "A134051",
+    "A134052",
+    "A134054"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:21",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

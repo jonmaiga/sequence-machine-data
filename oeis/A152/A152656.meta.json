@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: denominators of polynomials from A000142: P(0,x) = 1, P(n,x) = 1/n! + x*Sum_{i=0..n-1} P(n-i-1)/i!. Numerators are A152650.",
+  "id": "A152656",
+  "mentions": [
+    "A000142",
+    "A049606",
+    "A141412",
+    "A142048",
+    "A142412",
+    "A152650"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:35",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

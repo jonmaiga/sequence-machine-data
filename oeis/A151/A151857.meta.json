@@ -1,0 +1,19 @@
+{
+  "description": "a(0)=1; a(1)=1; a(2)=3; for n>=3 if n=2^i + j with 0<=j",
+  "id": "A151857",
+  "mentions": [
+    "A151843",
+    "A151874"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:11",
+    "offset": 0,
+    "size": 71,
+    "source": "joeis"
+  }
+}

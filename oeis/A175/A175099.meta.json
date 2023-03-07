@@ -1,0 +1,22 @@
+{
+  "description": "Number of closed rectangles added at the n-th stage of the leftist toothpicks A151566.",
+  "id": "A175099",
+  "mentions": [
+    "A000695",
+    "A151566",
+    "A160018",
+    "A160125",
+    "A175098"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 102,
+    "source": "oeis-entry"
+  }
+}

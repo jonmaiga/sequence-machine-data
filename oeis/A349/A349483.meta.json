@@ -1,0 +1,18 @@
+{
+  "description": "Length of cycle reached when iterating the mapping x-> n*A035116(x) on 1.",
+  "id": "A349483",
+  "mentions": [
+    "A035116",
+    "A349410"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:24",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

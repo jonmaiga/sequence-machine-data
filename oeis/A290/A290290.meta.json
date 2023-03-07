@@ -1,0 +1,18 @@
+{
+  "description": "Numbers m having greatest prime power divisor d such that d is smaller than the difference between m and the largest prime smaller than m and d is smaller than the difference between m and twice the largest prime smaller than m/2.",
+  "id": "A290290",
+  "mentions": [
+    "A034699",
+    "A290203"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:05",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

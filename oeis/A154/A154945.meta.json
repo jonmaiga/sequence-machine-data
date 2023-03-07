@@ -1,0 +1,29 @@
+{
+  "description": "Decimal expansion of Sum_{p} 1/(p^2-1), summed over the primes p = A000040.",
+  "id": "A154945",
+  "mentions": [
+    "A000040",
+    "A000961",
+    "A056798",
+    "A084920",
+    "A085548",
+    "A085964",
+    "A085966",
+    "A085968",
+    "A152447",
+    "A154932",
+    "A190641"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

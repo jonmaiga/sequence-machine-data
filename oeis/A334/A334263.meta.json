@@ -1,0 +1,19 @@
+{
+  "description": "E.g.f. A(x) satisfies: A(x) = x - Sum_{k>=2} prime(k-1) * A(x)^k / k!.",
+  "id": "A334263",
+  "mentions": [
+    "A007296",
+    "A008578"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:05",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

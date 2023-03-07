@@ -1,0 +1,21 @@
+{
+  "description": "The hyper-Wiener index of the triangular graph T(n) (n >= 1).",
+  "id": "A228317",
+  "mentions": [
+    "A001296",
+    "A006011"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:26:01",
+    "offset": 1,
+    "size": 38,
+    "source": "joeis"
+  }
+}

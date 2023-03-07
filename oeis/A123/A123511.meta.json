@@ -1,0 +1,21 @@
+{
+  "description": "Arises in the normal ordering of functions of a*(a+)*a, where a and a+ are the boson annihilation and creation operators, respectively.",
+  "id": "A123511",
+  "mentions": [
+    "A002720",
+    "A052852",
+    "A123510",
+    "A123512"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:12",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

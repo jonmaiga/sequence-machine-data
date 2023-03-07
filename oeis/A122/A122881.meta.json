@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: number of Catalan paths of 2n steps of all values less than or equal to m.",
+  "id": "A122881",
+  "mentions": [
+    "A000108",
+    "A001519",
+    "A080937",
+    "A080938",
+    "A112880"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

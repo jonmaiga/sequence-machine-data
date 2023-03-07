@@ -1,0 +1,31 @@
+{
+  "description": "A(n, k) is the n-th binomial transform of the Catalan sequence (A000108) evaluated at k. Array read by descending antidiagonals for n >= 0 and k >= 0.",
+  "id": "A271025",
+  "mentions": [
+    "A000012",
+    "A000027",
+    "A000108",
+    "A000178",
+    "A002522",
+    "A005491",
+    "A007317",
+    "A064613",
+    "A098474",
+    "A104455",
+    "A104498",
+    "A154623"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:03:07",
+    "offset": 0,
+    "size": 66,
+    "source": "joeis"
+  }
+}

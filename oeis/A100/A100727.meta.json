@@ -1,0 +1,21 @@
+{
+  "description": "Continued fraction expansion of (1/2) [tan(1) + sec(1)].",
+  "id": "A100727",
+  "mentions": [
+    "A093178",
+    "A100261"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "cofr",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:44:51",
+    "offset": 0,
+    "size": 95,
+    "source": "joeis"
+  }
+}

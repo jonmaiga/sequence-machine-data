@@ -1,0 +1,30 @@
+{
+  "description": "Expansion of e.g.f. arcsinh(x*tan(x/2)) (even powers only).",
+  "id": "A296942",
+  "mentions": [
+    "A000364",
+    "A001469",
+    "A001818",
+    "A110501",
+    "A296839",
+    "A296841",
+    "A296842",
+    "A296853",
+    "A296854",
+    "A296856",
+    "A296939",
+    "A296940",
+    "A296941"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-03 08:57:21",
+    "offset": 0,
+    "size": 17,
+    "source": "joeis"
+  }
+}

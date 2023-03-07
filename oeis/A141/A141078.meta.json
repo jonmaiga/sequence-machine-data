@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = abs(prime(n)*prime(n+4) - prime(n+1)*prime(n+3)).",
+  "id": "A141078",
+  "mentions": [
+    "A090076"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:29",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

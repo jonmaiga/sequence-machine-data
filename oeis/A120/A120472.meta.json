@@ -1,0 +1,18 @@
+{
+  "description": "A004001[n + 1]*Fibonacci[n + 1] - 2*A004001[n]*Fibonacci[n] + A004001[n - 1]*Fibonacci[n - 1].",
+  "id": "A120472",
+  "mentions": [
+    "A000045",
+    "A004001"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

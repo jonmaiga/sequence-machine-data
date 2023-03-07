@@ -1,0 +1,21 @@
+{
+  "description": "The smallest square referenced in A038109 (Divisible exactly by the square of a prime).",
+  "id": "A284018",
+  "mentions": [
+    "A013929",
+    "A038109",
+    "A283919",
+    "A284017"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:55",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

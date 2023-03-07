@@ -1,0 +1,25 @@
+{
+  "description": "Array read by antidiagonals. Rows are the numerators of consecutive harmonic transforms starting with a first row 1, 1, 1, ....",
+  "id": "A229556",
+  "mentions": [
+    "A000012",
+    "A000027",
+    "A000045",
+    "A001008",
+    "A096987",
+    "A229557",
+    "A350834"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "frac",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

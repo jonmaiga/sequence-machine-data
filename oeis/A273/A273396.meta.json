@@ -1,0 +1,19 @@
+{
+  "description": "Indecomposable collections of multisets with a total of n objects having entries {1,2,...,k} for some k<=n or INVERTi transform of A255906.",
+  "id": "A273396",
+  "mentions": [
+    "A003319",
+    "A074664",
+    "A255906"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:38",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

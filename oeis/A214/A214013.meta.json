@@ -1,0 +1,17 @@
+{
+  "description": "Number of 4X4 nonnegative integer matrices with row and column i=1..4 having sum <= i*n",
+  "id": "A214013",
+  "mentions": [
+    "A214011"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:32",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

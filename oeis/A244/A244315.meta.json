@@ -1,0 +1,25 @@
+{
+  "description": "a(0) = 0, after which, if A176137(n) = 1, a(n) = A007814(A244230(n)), otherwise a(n) = a(n-A197433(A244230(n)-1)).",
+  "id": "A244315",
+  "mentions": [
+    "A000108",
+    "A007814",
+    "A176137",
+    "A197433",
+    "A244159",
+    "A244160",
+    "A244230",
+    "A244316"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:00",
+    "offset": 0,
+    "size": 133,
+    "source": "oeis-bfile"
+  }
+}

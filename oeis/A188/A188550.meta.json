@@ -1,0 +1,22 @@
+{
+  "description": "Maximal number of divisors d>1 of n-k such that n-d is a multiple of k, when k runs through values 2, 3, ..., floor(sqrt(n)).",
+  "id": "A188550",
+  "mentions": [
+    "A000005",
+    "A188579",
+    "A188586",
+    "A188591",
+    "A188592"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:13",
+    "offset": 4,
+    "size": 117,
+    "source": "oeis-bfile"
+  }
+}

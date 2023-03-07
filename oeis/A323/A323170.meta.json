@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 1 if (2*phi(n)) < n, 0 otherwise, where phi is Euler totient function (A000010).",
+  "id": "A323170",
+  "mentions": [
+    "A000010",
+    "A054741",
+    "A083254",
+    "A318875"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:47",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

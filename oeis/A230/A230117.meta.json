@@ -1,0 +1,23 @@
+{
+  "description": "Primes p such that 2*p+1 is prime and 2*p+3 is not prime.",
+  "id": "A230117",
+  "mentions": [
+    "A005384",
+    "A023204",
+    "A053176",
+    "A126107",
+    "A163769",
+    "A230039"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:47",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

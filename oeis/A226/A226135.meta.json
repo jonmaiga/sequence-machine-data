@@ -1,0 +1,24 @@
+{
+  "description": "Let abcd... be the decimal expansion of n. Number of iterations of the map n -> f(n) needed to reach a number < 10, where f(n) = a^b + c^d + ... which ends in an exponent or a base according as the number of digits is even or odd.",
+  "id": "A226135",
+  "mentions": [
+    "A000312",
+    "A031348",
+    "A031349",
+    "A045503",
+    "A133500",
+    "A133501",
+    "A225974"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 0,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

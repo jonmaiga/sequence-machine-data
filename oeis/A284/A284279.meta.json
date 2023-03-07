@@ -1,0 +1,18 @@
+{
+  "description": "Primitive terms of A131884.",
+  "id": "A284279",
+  "mentions": [
+    "A131884"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

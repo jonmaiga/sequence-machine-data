@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the least integer of the form sum(X)/sum(Y) where {X, Y} runs through the partitions of the divisors of n into two nonempty sets (and sum(Z) is the sum of the elements of Z).",
+  "id": "A359623",
+  "mentions": [
+    "A039653",
+    "A083207"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 2,
+    "size": 79,
+    "source": "oeis-entry"
+  }
+}

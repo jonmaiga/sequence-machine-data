@@ -1,0 +1,39 @@
+{
+  "description": "Meandric numbers for a river crossing up to 13 parallel roads at n points.",
+  "id": "A209657",
+  "mentions": [
+    "A005316",
+    "A076875",
+    "A076876",
+    "A076906",
+    "A076907",
+    "A204352",
+    "A206432",
+    "A208062",
+    "A208126",
+    "A208452",
+    "A208453",
+    "A209383",
+    "A209621",
+    "A209622",
+    "A209626",
+    "A209656",
+    "A209660",
+    "A209707",
+    "A210344",
+    "A210478",
+    "A210567",
+    "A210592"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

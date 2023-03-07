@@ -1,0 +1,29 @@
+{
+  "description": "Decimal expansion of Product_{k>=0} (1 - 1/(2*12^k)).",
+  "id": "A132266",
+  "mentions": [
+    "A000217",
+    "A048651",
+    "A132019",
+    "A132026",
+    "A132034",
+    "A132038",
+    "A132264",
+    "A132265",
+    "A132268",
+    "A132323",
+    "A132326"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:20",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

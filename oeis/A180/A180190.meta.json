@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of permutations p of [n] for which k is the smallest among the positive differences p(i+1) - p(i); k=0 for the reversal of the identity permutation (0<=k<=n-1).",
+  "id": "A180190",
+  "mentions": [
+    "A000142",
+    "A018927",
+    "A180191"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:03",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = (27^n - 9^n)/2 - 12^n + 6^n.",
+  "id": "A342234",
+  "mentions": [
+    "A006689",
+    "A006690",
+    "A020522"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 19:55:25",
+    "offset": 0,
+    "size": 18,
+    "source": "joeis"
+  }
+}

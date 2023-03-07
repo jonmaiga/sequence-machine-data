@@ -1,0 +1,23 @@
+{
+  "description": "Numbers that are not the sum of four or fewer terms from A020330 (not necessarily distinct).",
+  "id": "A343267",
+  "mentions": [
+    "A020330",
+    "A290334",
+    "A290335",
+    "A298731",
+    "A343268"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

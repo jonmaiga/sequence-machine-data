@@ -1,0 +1,20 @@
+{
+  "description": "Last 3 digits of the n-th even perfect number.",
+  "id": "A104511",
+  "mentions": [
+    "A000043",
+    "A000396",
+    "A094540"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

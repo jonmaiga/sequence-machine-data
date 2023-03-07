@@ -1,0 +1,18 @@
+{
+  "description": "Number of arrays of 5 integers in -n..n with sum zero and the sum of every adjacent pair being odd.",
+  "id": "A202077",
+  "mentions": [
+    "A202076"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 17:34:53",
+    "offset": 1,
+    "size": 35,
+    "source": "joeis"
+  }
+}

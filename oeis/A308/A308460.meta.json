@@ -1,0 +1,21 @@
+{
+  "description": "Square array A(n,k), n >= 1, k >= 1, read by antidiagonals, where column k is the expansion of e.g.f. log(Sum_{j>=0} k^binomial(j,2) * x^j/j!).",
+  "id": "A308460",
+  "mentions": [
+    "A000007",
+    "A001187",
+    "A003027",
+    "A054941"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:33",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

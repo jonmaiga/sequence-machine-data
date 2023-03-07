@@ -1,0 +1,30 @@
+{
+  "description": "a(n) = |{0 < k < n: f(n,k) - 1, f(n,k) + 1 and q(f(n,k)) + 1 are all prime with f(n,k) = phi(k) + phi(n-k)/4}|, where phi(.) is Euler's totient function, and q(.) is the strict partition function (A000009).",
+  "id": "A235343",
+  "mentions": [
+    "A000009",
+    "A000010",
+    "A000040",
+    "A001359",
+    "A006512",
+    "A014574",
+    "A234514",
+    "A234567",
+    "A234615",
+    "A235344",
+    "A235346",
+    "A235356",
+    "A235357",
+    "A235358"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:53",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

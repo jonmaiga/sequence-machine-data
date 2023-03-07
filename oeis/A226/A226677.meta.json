@@ -1,0 +1,19 @@
+{
+  "description": "Smallest positive integer k (or 0 if no such k) with a primitive cycle of positive integers, exactly n of which are odd, under iteration by the Collatz-like 3x-k function.",
+  "id": "A226677",
+  "mentions": [
+    "A226626",
+    "A226661",
+    "A226676"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "description": "Fully multiplicative with a(prime(j)) = A108546(j), where A108546 is the lexicographically earliest permutation of primes such that after 2 the forms 4*k+1 and 4*k+3 alternate, and prime(j) is the j-th prime in A000040.",
+  "id": "A108548",
+  "mentions": [
+    "A000040",
+    "A002144",
+    "A002145",
+    "A049084",
+    "A108546",
+    "A108549",
+    "A111745",
+    "A267099",
+    "A332212",
+    "A332808",
+    "A332815",
+    "A332817",
+    "A332818",
+    "A332819",
+    "A348746"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "look",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:00",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of (1-x-3*x^2-sqrt(1-2*x-5*x^2+2*x^3+x^4))/(2*x^3*(1+2*x)).",
+  "id": "A190156",
+  "mentions": [
+    "A132276"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:14",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Related to Pisano periods: numbers n such that there are n+10 distinct Fibonacci numbers mod n.",
+  "id": "A229467",
+  "mentions": [
+    "A000045",
+    "A001175",
+    "A071774",
+    "A229466"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:46",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

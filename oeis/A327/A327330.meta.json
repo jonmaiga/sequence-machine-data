@@ -1,0 +1,39 @@
+{
+  "description": "\"Concave pentagon\" toothpick sequence (see Comments for precise definition).",
+  "id": "A327330",
+  "mentions": [
+    "A047999",
+    "A139250",
+    "A160164",
+    "A160722",
+    "A161206",
+    "A194270",
+    "A194700",
+    "A220500",
+    "A231348",
+    "A289840",
+    "A290220",
+    "A294020",
+    "A294962",
+    "A294980",
+    "A296612",
+    "A299770",
+    "A323641",
+    "A323642",
+    "A323646",
+    "A323650",
+    "A327331",
+    "A327332"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

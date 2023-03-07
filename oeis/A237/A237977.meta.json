@@ -1,0 +1,24 @@
+{
+  "description": "Number of strict partitions of n such that (least part) <= number of parts.",
+  "id": "A237977",
+  "mentions": [
+    "A000009",
+    "A025157",
+    "A039900",
+    "A096401",
+    "A237976",
+    "A237979"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

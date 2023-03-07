@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = k is the smallest number such that k^3 + 1 has n distinct prime factors.",
+  "id": "A219108",
+  "mentions": [
+    "A001093",
+    "A001221",
+    "A180278"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

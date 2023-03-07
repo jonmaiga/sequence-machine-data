@@ -1,0 +1,22 @@
+{
+  "description": "Triangle T(n,k) read by rows: the number of connected, loopless, non-oriented, vertex-labeled graphs with n >= 0 edges and k >= 1 vertices, allowing multi-edges.",
+  "id": "A290776",
+  "mentions": [
+    "A000272",
+    "A055998",
+    "A060091",
+    "A060093",
+    "A191646"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:05",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of integer lattice points from an n X n square in R^2 centered at the origin that are closer (measured using the Euclidean metric) to the origin than to any of the four sides of the square.",
+  "id": "A275485",
+  "mentions": [
+    "A000328"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Number of distinct terminal subtrees of the rooted tree with Matula-Goebel number n.",
+  "id": "A317713",
+  "mentions": [
+    "A000081",
+    "A007097",
+    "A049076",
+    "A061773",
+    "A061775",
+    "A076146",
+    "A109082",
+    "A109129",
+    "A206491",
+    "A303431",
+    "A316476"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

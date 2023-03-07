@@ -1,0 +1,19 @@
+{
+  "description": "a(1) = 2; a(2) = 3; for n >= 3, a(n) = a(n-1) - (gpf(n-2) + gpf(n-1)) if a(n) >= 2 and has not previously appeared, otherwise a(n) = a(n-1) + (gpf(n-2) + gpf(n-1)), where gpf(k) = A006530(k) = greatest prime dividing k.",
+  "id": "A352603",
+  "mentions": [
+    "A000040",
+    "A005132",
+    "A006530"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

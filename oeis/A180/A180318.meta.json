@@ -1,0 +1,28 @@
+{
+  "description": "Expansion of a(-q) in powers of q where a(q) is a cubic AGM function.",
+  "id": "A180318",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A004016",
+    "A005882",
+    "A005928",
+    "A010054",
+    "A010815",
+    "A033762",
+    "A112604",
+    "A112605",
+    "A121373"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:03",
+    "offset": 0,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

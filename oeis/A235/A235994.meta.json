@@ -1,0 +1,21 @@
+{
+  "description": "Numbers having at least one anagram which is a cube.",
+  "id": "A235994",
+  "mentions": [
+    "A000578",
+    "A046810",
+    "A055098",
+    "A235993"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:53",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

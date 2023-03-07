@@ -1,0 +1,23 @@
+{
+  "description": "Primes that are neither of the form (c^q+1)/(c+1) and nor of the form (b^k-1)/(b-1) for any b, c > 1 and k, q primes > 2.",
+  "id": "A343775",
+  "mentions": [
+    "A002383",
+    "A059055",
+    "A085104",
+    "A220627",
+    "A225148",
+    "A343774"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Numbers for which Sum_digits(odd positions) = Sum_digits(even positions).",
+  "id": "A135499",
+  "mentions": [
+    "A008593",
+    "A060979",
+    "A067042",
+    "A214527",
+    "A225693"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:23",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

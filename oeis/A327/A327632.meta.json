@@ -1,0 +1,24 @@
+{
+  "description": "Number T(n,k) of parts in all proper k-times partitions of n into distinct parts; triangle T(n,k), n >= 1, 0 <= k <= max(0,n-2), read by rows.",
+  "id": "A327632",
+  "mentions": [
+    "A015723",
+    "A057427",
+    "A327622",
+    "A327631",
+    "A327647",
+    "A327795"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:55",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Number of integer partitions of n covering an initial interval of positive integers and containing all of their distinct multiplicities.",
+  "id": "A325707",
+  "mentions": [
+    "A000009",
+    "A055932",
+    "A109297",
+    "A114639",
+    "A114640",
+    "A290689",
+    "A324753",
+    "A325702",
+    "A325706",
+    "A325708"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

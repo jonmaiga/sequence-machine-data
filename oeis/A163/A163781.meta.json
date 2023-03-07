@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the n-th dJ_2 prime (dual Josephus_2 prime).",
+  "id": "A163781",
+  "mentions": [
+    "A054639",
+    "A163777",
+    "A163780",
+    "A163782"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:45",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

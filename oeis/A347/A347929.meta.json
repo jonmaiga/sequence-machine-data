@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = 2^(-1 + (n + n mod 2)/2)*abs(permanent(M_n)) where M_n is the n X n matrix M_n(j, k) = cos(Pi*j*k/n) if n >= 1 and a(0) = 1.",
+  "id": "A347929",
+  "mentions": [
+    "A347281"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "description": "Position of first occurrence of n in the decimal places of 1/Pi.",
+  "id": "A100080",
+  "mentions": [
+    "A014777",
+    "A032445",
+    "A037000",
+    "A049541",
+    "A078197",
+    "A134251",
+    "A134252",
+    "A134253",
+    "A134254",
+    "A134255",
+    "A134256",
+    "A134257",
+    "A134258",
+    "A134259",
+    "A134260"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Numbers that are the sum of three fourth powers in eight or more ways.",
+  "id": "A344737",
+  "mentions": [
+    "A344729",
+    "A344738",
+    "A344750",
+    "A344924",
+    "A345087"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:18",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

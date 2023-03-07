@@ -1,0 +1,22 @@
+{
+  "description": "Primes that are a prime power plus two.",
+  "id": "A267945",
+  "mentions": [
+    "A000961",
+    "A006512",
+    "A057735",
+    "A228034",
+    "A246655",
+    "A267944"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:29",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

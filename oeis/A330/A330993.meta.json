@@ -1,0 +1,42 @@
+{
+  "description": "Numbers k such that a multiset whose multiplicities are the prime indices of k has a prime number of multiset partitions.",
+  "id": "A330993",
+  "mentions": [
+    "A000040",
+    "A001055",
+    "A033833",
+    "A035359",
+    "A045782",
+    "A045783",
+    "A046063",
+    "A051130",
+    "A056239",
+    "A112798",
+    "A181819",
+    "A181821",
+    "A305936",
+    "A318284",
+    "A318286",
+    "A325755",
+    "A330972",
+    "A330973",
+    "A330976",
+    "A330977",
+    "A330990",
+    "A330991",
+    "A330992",
+    "A330998"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

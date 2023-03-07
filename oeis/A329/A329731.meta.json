@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that the sum of distinct prime divisors of k divides the sum of unitary divisors of k.",
+  "id": "A329731",
+  "mentions": [
+    "A008472",
+    "A034448",
+    "A070222"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Terms of A046337 for which A358777 is zero, where the latter is the Dirichlet inverse of former's characteristic function.",
+  "id": "A359607",
+  "mentions": [
+    "A046337",
+    "A353557",
+    "A358777"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of Sum_{p prime, k>=1} 1 / 2^(p^k).",
+  "id": "A332905",
+  "mentions": [
+    "A051006",
+    "A069513",
+    "A246655",
+    "A333182"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

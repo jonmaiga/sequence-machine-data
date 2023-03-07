@@ -1,0 +1,21 @@
+{
+  "description": "Dirichlet inverse of A075255, where A075255(n) = n - sopfr(n), where sopfr is the sum of prime factors (with repetition).",
+  "id": "A359788",
+  "mentions": [
+    "A001414",
+    "A075255",
+    "A359787",
+    "A359789"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:33",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

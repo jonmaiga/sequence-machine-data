@@ -1,0 +1,24 @@
+{
+  "description": "Numbers congruent to 2, 4, and 6 modulo 9: positions of 2 in A159955.",
+  "id": "A350668",
+  "mentions": [
+    "A049310",
+    "A057078",
+    "A159955",
+    "A347834",
+    "A350666",
+    "A350667"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-10-18 14:56:45",
+    "offset": 0,
+    "size": 50,
+    "source": "joeis"
+  }
+}

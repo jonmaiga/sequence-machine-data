@@ -1,0 +1,19 @@
+{
+  "description": "Smallest odd number k divisible by 3 such that k*2^n-1 is a prime.",
+  "id": "A264097",
+  "mentions": [
+    "A085427",
+    "A126717",
+    "A256787"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:24",
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Numbers whose square can be expressed as the signed sum of a fifth power and a cube: z^2 = x^5 + y^3 with gcd(x,y,z)=1.",
+  "id": "A103156",
+  "mentions": [
+    "A070065"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

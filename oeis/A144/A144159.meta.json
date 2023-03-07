@@ -1,0 +1,20 @@
+{
+  "description": "Eigentriangle, sum of row n terms = A006054(n+2).",
+  "id": "A144159",
+  "mentions": [
+    "A006054",
+    "A008619"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

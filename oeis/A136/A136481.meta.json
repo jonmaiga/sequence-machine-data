@@ -1,0 +1,21 @@
+{
+  "description": "Symmetric polynomial matrices that give multivariate determinants as Coefficients of characteristic polynomials: h(n,m)=If[m == 1, n, If[n - m + 1 == 0, 1, If[n - m == 0, 1, If[n - m > 0, 1, 0]]]],n,m<=d.",
+  "id": "A136481",
+  "mentions": [
+    "A098599",
+    "A100218"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

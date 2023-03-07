@@ -1,0 +1,22 @@
+{
+  "description": "For any k, the cumulative sum a(1) + a(2) + a(3) + ... + a(k) shares at least three digits with a(k). Lexicographically first sequence of positive integers without duplicate terms having this property.",
+  "id": "A326638",
+  "mentions": [
+    "A309151",
+    "A316914",
+    "A316915",
+    "A326639",
+    "A326640"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:53",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of distinct linear polynomials b+c*x in row n of array generated as in Comments.",
+  "id": "A242448",
+  "mentions": [
+    "A168193",
+    "A242364",
+    "A242365"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

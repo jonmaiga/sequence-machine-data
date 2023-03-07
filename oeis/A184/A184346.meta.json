@@ -1,0 +1,17 @@
+{
+  "description": "Number of strings of numbers x(i=1..n) in 0..7 with sum i^4*x(i) equal to n^4*7",
+  "id": "A184346",
+  "mentions": [
+    "A184348"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

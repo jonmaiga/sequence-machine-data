@@ -1,0 +1,21 @@
+{
+  "description": "A \"Morgan Voyce\" transform of A103210.",
+  "id": "A166697",
+  "mentions": [
+    "A085478",
+    "A103210",
+    "A166696"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:49",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

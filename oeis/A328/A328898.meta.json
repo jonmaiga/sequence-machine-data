@@ -1,0 +1,18 @@
+{
+  "description": "Sum of p-ary comparisons units required to rank a sequence in parallel when the sequence is partitioned into heaps equal to the prime factors p of the initial sequence length n.",
+  "id": "A328898",
+  "mentions": [
+    "A006022"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

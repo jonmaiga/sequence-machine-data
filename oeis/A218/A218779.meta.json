@@ -1,0 +1,24 @@
+{
+  "description": "A014486-indices for the Beanstalk-tree growing one natural number at time, starting from the tree of one internal node (1), with the \"lesser numbers to the right hand side\" construction.",
+  "id": "A218779",
+  "mentions": [
+    "A014486",
+    "A057163",
+    "A080300",
+    "A218777",
+    "A218778",
+    "A218781",
+    "A218783"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:36",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

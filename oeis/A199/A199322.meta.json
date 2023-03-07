@@ -1,0 +1,18 @@
+{
+  "description": "Number of twin prime numbers of the form n*(n+1) + 2*k-3 and n*(n+1) + 2*k-1 with k = 1 to n+1.",
+  "id": "A199322",
+  "mentions": [
+    "A199323",
+    "A199324"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:20",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Digits (after the leading \"0.\") of \"Type-2 Trott-like Constants\" (see Comments lines for definition).",
+  "id": "A178160",
+  "mentions": [
+    "A039662",
+    "A091694",
+    "A113307",
+    "A114376",
+    "A169670",
+    "A178161",
+    "A178162",
+    "A178163",
+    "A178164"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:01",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

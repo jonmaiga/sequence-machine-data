@@ -1,0 +1,20 @@
+{
+  "description": "Distances d=x^3-y^2 for positive good examples of Hall's conjecture: positive integers d < sqrt(x).",
+  "id": "A199497",
+  "mentions": [
+    "A078933",
+    "A199496",
+    "A199498"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

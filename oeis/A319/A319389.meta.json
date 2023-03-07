@@ -1,0 +1,21 @@
+{
+  "description": "Non-palindromic cubes.",
+  "id": "A319389",
+  "mentions": [
+    "A000578",
+    "A002113",
+    "A035124",
+    "A319388"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:41",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

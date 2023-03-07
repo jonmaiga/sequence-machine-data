@@ -1,0 +1,25 @@
+{
+  "description": "a(1) = 1, after which, if a(n-1) = 1, a(n) = 1 + the total number of 1's that have occurred in the sequence so far, otherwise a(n) = the total number of times the least prime dividing a(n-1) [i.e., A020639(a(n-1))] occurs as a divisor (counted with multiplicity for each term) in the previous terms from a(1) up to and including a(n-1).",
+  "id": "A249148",
+  "mentions": [
+    "A020639",
+    "A049084",
+    "A055396",
+    "A061395",
+    "A248034",
+    "A249069",
+    "A249070",
+    "A249144",
+    "A249147"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:05",
+    "offset": 1,
+    "size": 95,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the Purdom-Williams constant, a constant related to the Golomb-Dickman constant and to the asymptotic evaluation of the expectation of a random function longest cycle length.",
+  "id": "A244067",
+  "mentions": [
+    "A069998",
+    "A084945"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:00",
+    "offset": 0,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

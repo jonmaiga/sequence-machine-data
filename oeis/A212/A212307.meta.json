@@ -1,0 +1,24 @@
+{
+  "description": "Numerator of n!/3^n.",
+  "id": "A212307",
+  "mentions": [
+    "A001316",
+    "A038502",
+    "A049606",
+    "A125824",
+    "A152656",
+    "A216919"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

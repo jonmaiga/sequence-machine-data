@@ -1,0 +1,21 @@
+{
+  "description": "Number of dominating sets in the n-triangular honeycomb queen graph.",
+  "id": "A289876",
+  "mentions": [
+    "A229803",
+    "A289865",
+    "A290717",
+    "A304556"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

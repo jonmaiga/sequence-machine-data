@@ -1,0 +1,20 @@
+{
+  "description": "The lexicographically earliest sequence of primes, each two of which sum to a triprime (A014612).",
+  "id": "A335752",
+  "mentions": [
+    "A000040",
+    "A014612",
+    "A113875"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Even-index Fibonacci partition triangle read by rows.",
+  "id": "A197956",
+  "mentions": [
+    "A000045",
+    "A001906",
+    "A110122",
+    "A132262",
+    "A177011",
+    "A177020",
+    "A197957"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

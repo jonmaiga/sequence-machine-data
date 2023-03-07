@@ -1,0 +1,21 @@
+{
+  "description": "Nearly palindromic numbers: non-palindromes that can be made palindromic by inserting an extra digit.",
+  "id": "A139704",
+  "mentions": [
+    "A002113",
+    "A043638",
+    "A139705"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

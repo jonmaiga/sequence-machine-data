@@ -1,0 +1,20 @@
+{
+  "description": "Number of non-attacking queens that can be placed on a \"hyper-chessboard\" = hypercube of size 3, dimension n. That is, the size of the largest subset S of {0,1,2}^n such that for each pair (x0,y0,...), (x1,y1,...) of distinct elements of S, the absolute differences vector (|x1-x0|, |y1-y0|, ...) has at least two distinct non-null coordinates.",
+  "id": "A115992",
+  "mentions": [
+    "A068940",
+    "A115993"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

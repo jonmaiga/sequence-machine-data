@@ -1,0 +1,23 @@
+{
+  "description": "Irregular triangle T(n,k) = n - (s - k + 1)^2 for 1 <= k <= s, with s = floor(sqrt(n)).",
+  "id": "A331478",
+  "mentions": [
+    "A000196",
+    "A022554",
+    "A053186",
+    "A117522"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:01",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

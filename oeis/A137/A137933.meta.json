@@ -1,0 +1,21 @@
+{
+  "description": "Least common multiple of n^2 and 2.",
+  "id": "A137933",
+  "mentions": [
+    "A016742",
+    "A077591",
+    "A109043",
+    "A245058"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:49:49",
+    "offset": 1,
+    "size": 52,
+    "source": "joeis"
+  }
+}

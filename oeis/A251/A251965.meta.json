@@ -1,0 +1,19 @@
+{
+  "description": "Indices of primes in A055729(m), where A055729(m) is the number of primes <= 3^m.",
+  "id": "A251965",
+  "mentions": [
+    "A055729",
+    "A087865"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

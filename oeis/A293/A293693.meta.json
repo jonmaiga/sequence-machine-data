@@ -1,0 +1,20 @@
+{
+  "description": "Numbers z such that x^2 + y^7 = z^2 (with positive integers x and y) and gcd(x, y, z) = 1.",
+  "id": "A293693",
+  "mentions": [
+    "A103156",
+    "A174115",
+    "A293284",
+    "A293692"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:10",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "G.f. satisfies: A(x - A(x)^2) = x + 3*A(x)^2.",
+  "id": "A276362",
+  "mentions": [
+    "A213591",
+    "A275765",
+    "A276360",
+    "A276361",
+    "A276363",
+    "A277295"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:41",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

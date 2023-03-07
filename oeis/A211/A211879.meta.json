@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of constant C such that 1 = Sum_{k>=1} 1/C^(k^3).",
+  "id": "A211879",
+  "mentions": [
+    "A078975"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 116,
+    "source": "oeis-entry"
+  }
+}

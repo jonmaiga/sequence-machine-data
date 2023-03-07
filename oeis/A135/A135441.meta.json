@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that for any single digit d of k the d-th semiprime sp(k) is substring of k.",
+  "id": "A135441",
+  "mentions": [
+    "A134439",
+    "A134962",
+    "A135463"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:23",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

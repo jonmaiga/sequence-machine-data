@@ -1,0 +1,20 @@
+{
+  "description": "Integral form of A137286: Triangle of coefficients of Integral form of recursive orthogonal Hermite polynomials given in Hochstadt's book: n*IP(x, n) = x*P(x, n ) - n*P'(x, n - 2); derived to a constant from the differential recursion: P''(x,n)=x*P'(x,n)-n*P(x,n).",
+  "id": "A136262",
+  "mentions": [
+    "A137286"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

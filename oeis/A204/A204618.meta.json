@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = n^2 * B(n) where B(n) are the Bell numbers, A000110.",
+  "id": "A204618",
+  "mentions": [
+    "A000110",
+    "A070071"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:25",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

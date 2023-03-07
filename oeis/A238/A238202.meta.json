@@ -1,0 +1,20 @@
+{
+  "description": "Primes p such that b = 2*p + 1 is semiprime and c = 2*b + 1 is 3-almost prime.",
+  "id": "A238202",
+  "mentions": [
+    "A000040",
+    "A001358",
+    "A014612",
+    "A234095"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

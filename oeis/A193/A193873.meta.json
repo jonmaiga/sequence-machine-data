@@ -1,0 +1,23 @@
+{
+  "description": "Smallest product of three distinct primes of the form n*k+1.",
+  "id": "A193873",
+  "mentions": [
+    "A001235",
+    "A077316",
+    "A092609",
+    "A121940",
+    "A154729",
+    "A193869"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

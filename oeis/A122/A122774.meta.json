@@ -1,0 +1,21 @@
+{
+  "description": "Triangle of bifactorial numbers, n B m = (2(n-m)-1)!! (2(n-1))!! / (2(n-m))!!, read by rows.",
+  "id": "A122774",
+  "mentions": [
+    "A000165",
+    "A001147",
+    "A006882"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

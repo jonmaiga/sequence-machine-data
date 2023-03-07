@@ -1,0 +1,28 @@
+{
+  "description": "Numerators of the partial sums of the squares of the expansion coefficients of 1/sqrt(1-x). Also the numerators of the Landau constants.",
+  "id": "A277233",
+  "mentions": [
+    "A000165",
+    "A001147",
+    "A001790",
+    "A001803",
+    "A005187",
+    "A046161",
+    "A056982",
+    "A241756",
+    "A277232"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

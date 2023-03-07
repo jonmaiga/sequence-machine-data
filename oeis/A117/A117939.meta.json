@@ -1,0 +1,26 @@
+{
+  "description": "Triangle related to powers of 3 partitions of n.",
+  "id": "A117939",
+  "mentions": [
+    "A059151",
+    "A117940",
+    "A117941",
+    "A117944",
+    "A117946",
+    "A117947",
+    "A120854"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:07",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

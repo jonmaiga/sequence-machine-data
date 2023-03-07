@@ -1,0 +1,28 @@
+{
+  "description": "a(n) is the smallest k > 0 such that there are exactly n numbers whose sum of proper divisors is k.",
+  "id": "A125601",
+  "mentions": [
+    "A001065",
+    "A037020",
+    "A048138",
+    "A057709",
+    "A057710",
+    "A063990",
+    "A070015",
+    "A080907",
+    "A115350",
+    "A121507",
+    "A123930",
+    "A126016"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:13",
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

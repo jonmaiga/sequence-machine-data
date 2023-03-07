@@ -1,0 +1,18 @@
+{
+  "description": "Odd numbers n such that 2^d(n) == 2^n (mod n) where d = A000005.",
+  "id": "A292562",
+  "mentions": [
+    "A000005",
+    "A001220"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

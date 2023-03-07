@@ -1,0 +1,20 @@
+{
+  "description": "Volume of sphere (rounded down) with the diameter equal to n.",
+  "id": "A228272",
+  "mentions": [
+    "A019673",
+    "A066645",
+    "A228189"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:45",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

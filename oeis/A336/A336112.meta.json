@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the least number k such that the Sum_{i=0..k} sqrt(k) equals or exceeds n.",
+  "id": "A336112",
+  "mentions": [
+    "A025224",
+    "A045880",
+    "A073333"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

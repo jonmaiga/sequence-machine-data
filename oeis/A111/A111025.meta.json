@@ -1,0 +1,18 @@
+{
+  "description": "Number of cubes between 10n and 10n+9 (inclusive).",
+  "id": "A111025",
+  "mentions": [
+    "A110916",
+    "A111037"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

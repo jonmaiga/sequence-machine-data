@@ -1,0 +1,19 @@
+{
+  "description": "Solution to stacking stones puzzle (see Comments).",
+  "id": "A340000",
+  "mentions": [
+    "A337663"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

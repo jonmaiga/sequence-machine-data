@@ -1,0 +1,19 @@
+{
+  "description": "Triangle that arise in the study of Fekete polynomials.",
+  "id": "A268481",
+  "mentions": [
+    "A000182",
+    "A008292"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

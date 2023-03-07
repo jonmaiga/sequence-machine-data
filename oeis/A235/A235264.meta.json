@@ -1,0 +1,20 @@
+{
+  "description": "Tileable numbers: base-2 representation, considered as a fixed disconnected polyomino, tiles all places >= 0.",
+  "id": "A235264",
+  "mentions": [
+    "A006995",
+    "A125121"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:52",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

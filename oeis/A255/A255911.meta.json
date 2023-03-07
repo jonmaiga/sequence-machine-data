@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the smallest natural number such that A002182(n) = a(n) * A002182(n - i) for some i > 0, where A002182 is the sequence of highly composite numbers.",
+  "id": "A255911",
+  "mentions": [
+    "A002182"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:13",
+    "offset": 2,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

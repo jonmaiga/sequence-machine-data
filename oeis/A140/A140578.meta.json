@@ -1,0 +1,17 @@
+{
+  "description": "A positive integer n is included if n is the smallest integer in a run of a plural number of consecutive integers all with the same number of divisors.",
+  "id": "A140578",
+  "mentions": [
+    "A005237"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

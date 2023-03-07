@@ -1,0 +1,19 @@
+{
+  "description": "Number of single-crossing partitions on n nodes.",
+  "id": "A287220",
+  "mentions": [
+    "A005316",
+    "A287221"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

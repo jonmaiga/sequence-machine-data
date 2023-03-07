@@ -1,0 +1,19 @@
+{
+  "description": "Smooth Lyndon words with 5 colors.",
+  "id": "A215332",
+  "mentions": [
+    "A215327",
+    "A215331"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

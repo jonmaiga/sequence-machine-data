@@ -1,0 +1,17 @@
+{
+  "description": "Half the number of nX5 binary arrays with no element equal to a strict majority of its king-move neighbors",
+  "id": "A183384",
+  "mentions": [
+    "A183386"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:07",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

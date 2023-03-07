@@ -1,0 +1,23 @@
+{
+  "description": "Nonnegative numbers of the form 2x^2 + 6xy - 3y^2.",
+  "id": "A243189",
+  "mentions": [
+    "A107152",
+    "A141302",
+    "A141303",
+    "A141304",
+    "A237606",
+    "A243188",
+    "A243190"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

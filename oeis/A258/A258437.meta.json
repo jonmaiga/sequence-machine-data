@@ -1,0 +1,27 @@
+{
+  "description": "Smallest number m such that A062234(m) = A062234(m-1+k) for k = 1..n.",
+  "id": "A258437",
+  "mentions": [
+    "A062234",
+    "A090807",
+    "A257762",
+    "A257892",
+    "A257951",
+    "A258383",
+    "A258432",
+    "A258449",
+    "A258469"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

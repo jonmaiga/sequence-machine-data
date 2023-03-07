@@ -1,0 +1,26 @@
+{
+  "description": "a(0) = 1; thereafter a(n) is obtained by doubling a(n-1) and repeatedly deleting any string of identical digits.",
+  "id": "A323830",
+  "mentions": [
+    "A000079",
+    "A035615",
+    "A320487",
+    "A321801",
+    "A321802",
+    "A323831",
+    "A323832"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 09:54:33",
+    "offset": 0,
+    "size": 60,
+    "source": "joeis"
+  }
+}

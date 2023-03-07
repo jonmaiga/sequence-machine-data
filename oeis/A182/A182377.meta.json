@@ -1,0 +1,32 @@
+{
+  "description": "Total sum of positive ranks of all regions in the last shell of n.",
+  "id": "A182377",
+  "mentions": [
+    "A000094",
+    "A135010",
+    "A138121",
+    "A182699",
+    "A182709",
+    "A183152",
+    "A186114",
+    "A187219",
+    "A194436",
+    "A194439",
+    "A194447",
+    "A194448",
+    "A196025",
+    "A206437",
+    "A209616"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

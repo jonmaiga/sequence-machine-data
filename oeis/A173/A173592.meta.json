@@ -1,0 +1,21 @@
+{
+  "description": "Atomic numbers in the Mendeleyev-Moseley-Seaborg periodic table of elements read downwards columns, right to left.",
+  "id": "A173592",
+  "mentions": [
+    "A137325",
+    "A137583",
+    "A167268"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

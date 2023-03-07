@@ -1,0 +1,32 @@
+{
+  "description": "Numbers n for which sum of the divisors (A000203) and the binary weight of n (A000120) have the same parity.",
+  "id": "A295298",
+  "mentions": [
+    "A000069",
+    "A000079",
+    "A000120",
+    "A000203",
+    "A000230",
+    "A001969",
+    "A003401",
+    "A010060",
+    "A028982",
+    "A053866",
+    "A191363",
+    "A231431",
+    "A235001",
+    "A295296",
+    "A295297",
+    "A295299"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:13",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

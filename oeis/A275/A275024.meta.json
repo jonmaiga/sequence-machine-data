@@ -1,0 +1,22 @@
+{
+  "description": "Total weight of the n-th twice-prime-factored multiset partition.",
+  "id": "A275024",
+  "mentions": [
+    "A007716",
+    "A034691",
+    "A096443",
+    "A249620",
+    "A255906"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 104,
+    "source": "oeis-entry"
+  }
+}

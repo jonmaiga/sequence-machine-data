@@ -1,0 +1,28 @@
+{
+  "description": "Numerator of Sum/Product of first n Fibonacci numbers A000045[n].",
+  "id": "A121708",
+  "mentions": [
+    "A000032",
+    "A000045",
+    "A001578",
+    "A058036",
+    "A061447",
+    "A072183",
+    "A079451",
+    "A090585",
+    "A096362",
+    "A121709"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

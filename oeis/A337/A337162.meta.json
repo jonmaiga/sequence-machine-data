@@ -1,0 +1,19 @@
+{
+  "description": "Numbers m such that Sum_{d|m: 1<=d<=sqrt(m)} m/d-d is a multiple of m.",
+  "id": "A337162",
+  "mentions": [
+    "A007691",
+    "A079667"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

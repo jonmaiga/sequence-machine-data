@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that 6n and sigma(6n) are both a twin prime average.",
+  "id": "A202607",
+  "mentions": [
+    "A000203",
+    "A014574",
+    "A193687"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

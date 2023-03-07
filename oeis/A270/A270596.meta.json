@@ -1,0 +1,19 @@
+{
+  "description": "Primes p congruent to 11 mod 12 (A068231), such that there exists a nonzero element c of GF(p), such that the element c, c-1 and -1 generate a proper subgroup of the multiplicative group.",
+  "id": "A270596",
+  "mentions": [
+    "A002144",
+    "A002476",
+    "A068231"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:34",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

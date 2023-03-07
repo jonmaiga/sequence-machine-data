@@ -1,0 +1,20 @@
+{
+  "description": "E.g.f. A(x) satisfies A(x) = 1 + 2 * x * A(log(1+x)).",
+  "id": "A355104",
+  "mentions": [
+    "A354729",
+    "A355096",
+    "A355105"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

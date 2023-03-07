@@ -1,0 +1,22 @@
+{
+  "description": "Numbers with distinct digits in primorial base.",
+  "id": "A321683",
+  "mentions": [
+    "A010784",
+    "A049345",
+    "A057588",
+    "A276150",
+    "A321682"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:44",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

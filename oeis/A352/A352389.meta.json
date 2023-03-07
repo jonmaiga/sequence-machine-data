@@ -1,0 +1,19 @@
+{
+  "description": "Lexicographically earliest sequence of distinct positive integers such that the first digit of a(n)*a(n+1) is the n-th digit of the sequence (integers including a zero are excluded).",
+  "id": "A352389",
+  "mentions": [
+    "A352386",
+    "A352387"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

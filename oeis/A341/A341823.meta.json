@@ -1,0 +1,20 @@
+{
+  "description": "Number of finite groups G with |Aut(G)| = 2^n.",
+  "id": "A341823",
+  "mentions": [
+    "A340521",
+    "A341824",
+    "A341825"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

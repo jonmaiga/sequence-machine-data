@@ -1,0 +1,37 @@
+{
+  "description": "T(n,k) = number of n X k arrays with rows being permutations of 0..k-1 and no column j greater than column j-1 in all rows (n, k >= 1).",
+  "id": "A212855",
+  "mentions": [
+    "A000012",
+    "A000041",
+    "A000225",
+    "A000275",
+    "A070289",
+    "A192721",
+    "A212806",
+    "A212850",
+    "A212851",
+    "A212852",
+    "A212853",
+    "A212854",
+    "A212856",
+    "A212857",
+    "A212858",
+    "A212859",
+    "A212860",
+    "A309951",
+    "A325305"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:31",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

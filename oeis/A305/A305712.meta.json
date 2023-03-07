@@ -1,0 +1,27 @@
+{
+  "description": "Polydivisible nonnegative integers whose decimal digits span an initial interval of {0,...,9}.",
+  "id": "A305712",
+  "mentions": [
+    "A000670",
+    "A030299",
+    "A050289",
+    "A144688",
+    "A156069",
+    "A156071",
+    "A240763",
+    "A305701",
+    "A305714",
+    "A305715"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "The squarefree part (A007913) of numbers whose squarefree part is a unitary divisor (A335275).",
+  "id": "A357684",
+  "mentions": [
+    "A000290",
+    "A005117",
+    "A007913",
+    "A008833",
+    "A065465",
+    "A069891",
+    "A335275"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:31",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

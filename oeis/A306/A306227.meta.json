@@ -1,0 +1,25 @@
+{
+  "description": "Number of ways to write n as w + x^4 + y*(y+1)/2 + z*(z+1)/2, where w is 0 or 1, and x, y, z are nonnegative integers with x >= w and y < z.",
+  "id": "A306227",
+  "mentions": [
+    "A000217",
+    "A000583",
+    "A262813",
+    "A262941",
+    "A262954",
+    "A262956",
+    "A262959",
+    "A270566",
+    "A306225"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

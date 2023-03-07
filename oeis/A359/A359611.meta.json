@@ -1,0 +1,23 @@
+{
+  "description": "The lexicographically earliest \"Increasing Term Fractal Jump Sequence\".",
+  "id": "A359611",
+  "mentions": [
+    "A105395",
+    "A105396",
+    "A105397",
+    "A105398",
+    "A105647",
+    "A359385"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

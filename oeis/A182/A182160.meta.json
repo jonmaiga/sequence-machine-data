@@ -1,0 +1,20 @@
+{
+  "description": "Number of iterations of the map n -> sum of the n-powers of the decimal digits of n.",
+  "id": "A182160",
+  "mentions": [
+    "A152077",
+    "A160862",
+    "A182111"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

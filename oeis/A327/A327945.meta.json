@@ -1,0 +1,22 @@
+{
+  "description": "Nonunitary pseudoperfect numbers: numbers that are equal to the sum of a subset of their nonunitary divisors.",
+  "id": "A327945",
+  "mentions": [
+    "A005835",
+    "A064591",
+    "A064597",
+    "A292985",
+    "A293188",
+    "A306983"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:56",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

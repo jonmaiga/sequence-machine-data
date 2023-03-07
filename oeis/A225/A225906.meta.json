@@ -1,0 +1,22 @@
+{
+  "description": "Indices of primes whose Wilson quotients are also prime.",
+  "id": "A225906",
+  "mentions": [
+    "A000720",
+    "A007619",
+    "A050299",
+    "A122696",
+    "A225672"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

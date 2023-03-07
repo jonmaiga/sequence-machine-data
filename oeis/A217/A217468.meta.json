@@ -1,0 +1,26 @@
+{
+  "description": "Composite values of n such that 2^n == 2 (mod n*(n-1)).",
+  "id": "A217468",
+  "mentions": [
+    "A001567",
+    "A014945",
+    "A019320",
+    "A069051",
+    "A216822",
+    "A217465",
+    "A219037",
+    "A297412"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

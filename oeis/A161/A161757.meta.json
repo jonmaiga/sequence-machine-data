@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = (prime(n))^2 - (nonprime(n))^2.",
+  "id": "A161757",
+  "mentions": [
+    "A000040",
+    "A001248",
+    "A141468",
+    "A161753"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 17:17:39",
+    "offset": 1,
+    "size": 43,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "a(1)=a(2)=2. a(n) = the smallest integer >= 2 such that a(n-1)^a(n) > a(n-2)^a(n-1).",
+  "id": "A162897",
+  "mentions": [
+    "A162898"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

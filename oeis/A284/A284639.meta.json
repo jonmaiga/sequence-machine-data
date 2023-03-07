@@ -1,0 +1,20 @@
+{
+  "description": "Number of ways to write n > 1 as a power of a product n = (x_1*..*x_k)^y, where y >= 1, x_i > 1, and x_i <= x_j for i < j.",
+  "id": "A284639",
+  "mentions": [
+    "A001055",
+    "A001597",
+    "A007916",
+    "A089723"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:56",
+    "offset": 2,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

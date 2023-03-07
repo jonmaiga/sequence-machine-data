@@ -1,0 +1,19 @@
+{
+  "description": "Primes p such that the string p0123456789 is prime, or primes in A104801.",
+  "id": "A104802",
+  "mentions": [
+    "A104799",
+    "A104801"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

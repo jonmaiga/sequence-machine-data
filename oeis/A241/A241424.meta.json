@@ -1,0 +1,18 @@
+{
+  "description": "Largest number k > 0 such that n - k! is prime, or 0 if no such k exists.",
+  "id": "A241424",
+  "mentions": [
+    "A175940",
+    "A245715"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 1,
+    "size": 95,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of gamma', the analog of Euler's constant when 1/x is replaced by 1/(x*log(x)).",
+  "id": "A241005",
+  "mentions": [
+    "A001620",
+    "A082633",
+    "A242616"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 99,
+    "source": "oeis-entry"
+  }
+}

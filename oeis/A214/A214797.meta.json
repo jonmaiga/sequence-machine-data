@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that n+10=A214795(n).",
+  "id": "A214797",
+  "mentions": [
+    "A214795",
+    "A214796",
+    "A214798"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

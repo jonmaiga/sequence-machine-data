@@ -1,0 +1,31 @@
+{
+  "description": "A139275(n) followed by 18-gonal number A051870(n+1).",
+  "id": "A139591",
+  "mentions": [
+    "A000217",
+    "A046092",
+    "A047393",
+    "A051870",
+    "A077221",
+    "A139275",
+    "A139592",
+    "A139593",
+    "A139595",
+    "A139596",
+    "A139597",
+    "A139598"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:11",
+    "offset": 0,
+    "size": 49,
+    "source": "joeis"
+  }
+}

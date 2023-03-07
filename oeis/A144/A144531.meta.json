@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(m,n) = the smallest positive integer that has a factor in common with both m and n (2 <= n <= m).",
+  "id": "A144531",
+  "mentions": [
+    "A020639",
+    "A141327"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 2,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

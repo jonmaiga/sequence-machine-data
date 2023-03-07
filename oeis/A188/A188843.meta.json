@@ -1,0 +1,28 @@
+{
+  "description": "T(n,k) is the number of n X k binary arrays without the pattern 0 1 diagonally or vertically.",
+  "id": "A188843",
+  "mentions": [
+    "A001906",
+    "A003462",
+    "A005021",
+    "A005022",
+    "A005023",
+    "A005024",
+    "A005025",
+    "A034856",
+    "A137742",
+    "A143388"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:13",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

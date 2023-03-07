@@ -1,0 +1,22 @@
+{
+  "description": "Positions of records in A280864.",
+  "id": "A280744",
+  "mentions": [
+    "A280738",
+    "A280740",
+    "A280741",
+    "A280742",
+    "A280743",
+    "A280864"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:49",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "a(n) is the number of prime powers (not including 1) that are (1+e)-divisors of n.",
+  "id": "A349281",
+  "mentions": [
+    "A000005",
+    "A000961",
+    "A001222",
+    "A046099",
+    "A049599",
+    "A106490",
+    "A246655",
+    "A349258"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:24",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

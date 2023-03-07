@@ -1,0 +1,19 @@
+{
+  "description": "Square-factorial numbers: a(1) = 1, a(n+1) = a(n) * largest square divisor of (n+1).",
+  "id": "A100777",
+  "mentions": [
+    "A008833",
+    "A048803"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:51",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

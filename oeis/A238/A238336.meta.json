@@ -1,0 +1,20 @@
+{
+  "description": "The first row of Pascal's triangle having exactly n distinct squarefree numbers, or -1 if no such row exists.",
+  "id": "A238336",
+  "mentions": [
+    "A064461",
+    "A238337"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

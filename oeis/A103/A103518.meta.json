@@ -1,0 +1,19 @@
+{
+  "description": "Indices of increasing partial quotients PQ_i of the continued fraction for the prime constant (A051006).",
+  "id": "A103518",
+  "mentions": [
+    "A051006",
+    "A051007",
+    "A102878"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "G.f. A(x) satisfies: A(x) = x*exp(Sum_{n>=1} Sum_{k>=1} n*a(n)*x^(n*k)/k).",
+  "id": "A307708",
+  "mentions": [
+    "A000081",
+    "A307709"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:32",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

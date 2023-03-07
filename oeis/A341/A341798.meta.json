@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the starting position of the first occurrence of the binary reversal of n in the binary Champernowne word (A030190).",
+  "id": "A341798",
+  "mentions": [
+    "A006995",
+    "A030101",
+    "A030190",
+    "A030304"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:14",
+    "offset": 0,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

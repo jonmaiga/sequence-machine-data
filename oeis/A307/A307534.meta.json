@@ -1,0 +1,30 @@
+{
+  "description": "Heinz numbers of strict integer partitions with 3 parts, all of which are odd.",
+  "id": "A307534",
+  "mentions": [
+    "A001221",
+    "A001222",
+    "A001399",
+    "A005117",
+    "A007304",
+    "A014612",
+    "A037144",
+    "A051037",
+    "A056239",
+    "A080193",
+    "A080257",
+    "A112798",
+    "A143207",
+    "A304636"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

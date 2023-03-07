@@ -1,0 +1,21 @@
+{
+  "description": "Numbers taking exactly 21 steps to reach 15 in A086793.",
+  "id": "A119397",
+  "mentions": [
+    "A086793",
+    "A119396",
+    "A119398",
+    "A119415"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

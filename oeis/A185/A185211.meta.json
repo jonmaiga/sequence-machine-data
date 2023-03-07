@@ -1,0 +1,20 @@
+{
+  "description": "Triangular numbers for which the product of the digits is a nonzero hexagonal number.",
+  "id": "A185211",
+  "mentions": [
+    "A000217",
+    "A000384",
+    "A117310"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:09",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Triangle, read by rows, where T(n,k) = [x^(k*2^(n-1))] Product_{i=0..n-1} (1 + x^(2^i))^(2^(n-i-1)) for n>0 with T(0,0)=1.",
+  "id": "A132318",
+  "mentions": [
+    "A132316",
+    "A132317"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

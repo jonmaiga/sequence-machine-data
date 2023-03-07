@@ -1,0 +1,21 @@
+{
+  "description": "Run lengths in the parity of A233312.",
+  "id": "A268032",
+  "mentions": [
+    "A001045",
+    "A171791",
+    "A194584",
+    "A233312",
+    "A268034"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:29",
+    "offset": 1,
+    "size": 111,
+    "source": "oeis-bfile"
+  }
+}

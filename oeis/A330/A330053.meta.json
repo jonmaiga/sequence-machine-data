@@ -1,0 +1,32 @@
+{
+  "description": "Number of non-isomorphic set-systems of weight n with at least one singleton.",
+  "id": "A330053",
+  "mentions": [
+    "A000612",
+    "A007716",
+    "A055621",
+    "A283877",
+    "A302545",
+    "A306005",
+    "A317533",
+    "A317794",
+    "A319559",
+    "A320665",
+    "A330052",
+    "A330055",
+    "A330056",
+    "A330057",
+    "A330058"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:59",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

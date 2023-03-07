@@ -1,0 +1,21 @@
+{
+  "description": "Number of distinct terms in row n of A255313.",
+  "id": "A255395",
+  "mentions": [
+    "A001221",
+    "A001222",
+    "A255313",
+    "A255316",
+    "A255427"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:13",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

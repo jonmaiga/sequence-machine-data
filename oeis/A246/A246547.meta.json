@@ -1,0 +1,27 @@
+{
+  "description": "Prime powers p^e where p is a prime and e >= 2 (prime powers without the primes or 1).",
+  "id": "A246547",
+  "mentions": [
+    "A000961",
+    "A001221",
+    "A001597",
+    "A008578",
+    "A025475",
+    "A025528",
+    "A051953",
+    "A136141",
+    "A246655"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:02",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

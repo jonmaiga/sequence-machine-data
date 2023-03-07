@@ -1,0 +1,19 @@
+{
+  "description": "Consider all ways of writing the n-th composite number as the product of two divisors d1*d2 = d3*d4 = ...; a(n) is the minimum of the sums {d1 + d2, d3 + d4, ...}.",
+  "id": "A273227",
+  "mentions": [
+    "A002808",
+    "A046343",
+    "A063655"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:38",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

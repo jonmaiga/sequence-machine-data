@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that (k*i)^(1/4) is an integer for some i in 1 <= i <= k.",
+  "id": "A339497",
+  "mentions": [
+    "A339462"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:11",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Row 7 of table A113143; equal to INVERT of 7-fold factorials shifted one place right.",
+  "id": "A113148",
+  "mentions": [
+    "A045754",
+    "A111146",
+    "A113143"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

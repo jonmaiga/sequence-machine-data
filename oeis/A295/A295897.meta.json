@@ -1,0 +1,27 @@
+{
+  "description": "Numbers in whose binary expansion there are no 1-runs of odd length followed by a 0 to their right.",
+  "id": "A295897",
+  "mentions": [
+    "A003188",
+    "A003714",
+    "A004760",
+    "A005940",
+    "A007088",
+    "A028982",
+    "A277335",
+    "A280873",
+    "A295896"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:14",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

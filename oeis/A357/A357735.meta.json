@@ -1,0 +1,20 @@
+{
+  "description": "a(1)=1, a(2)=2. Thereafter a(n+1) is least k != partial sum s(n) which has not occurred earlier, such that gcd(k, s(n)) > 1.",
+  "id": "A357735",
+  "mentions": [
+    "A064413",
+    "A084385",
+    "A347113",
+    "A351743"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

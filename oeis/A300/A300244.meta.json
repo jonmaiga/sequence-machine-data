@@ -1,0 +1,22 @@
+{
+  "description": "Difference between A005187 and its Möbius transform (A297111).",
+  "id": "A300244",
+  "mentions": [
+    "A005187",
+    "A008683",
+    "A297111",
+    "A297114",
+    "A297117"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:24",
+    "offset": 1,
+    "size": 95,
+    "source": "oeis-bfile"
+  }
+}

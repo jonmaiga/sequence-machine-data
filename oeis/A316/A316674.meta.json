@@ -1,0 +1,31 @@
+{
+  "description": "Number A(n,k) of paths from {0}^k to {n}^k that always move closer to {n}^k; square array A(n,k), n>=0, k>=0, read by antidiagonals.",
+  "id": "A316674",
+  "mentions": [
+    "A000012",
+    "A000670",
+    "A011782",
+    "A052141",
+    "A059516",
+    "A219727",
+    "A262809",
+    "A316673",
+    "A316677",
+    "A331315",
+    "A331485",
+    "A331636"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:35",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

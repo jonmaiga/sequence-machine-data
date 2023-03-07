@@ -1,0 +1,32 @@
+{
+  "description": "Triangle T(n,k) of number of loopless multigraphs with n labeled edges and k labeled vertices and without isolated vertices, n >= 1; 2 <= k <= 2*n.",
+  "id": "A122193",
+  "mentions": [
+    "A000217",
+    "A005799",
+    "A007318",
+    "A019538",
+    "A024166",
+    "A055203",
+    "A078739",
+    "A085438",
+    "A085442",
+    "A087127",
+    "A131689",
+    "A154283",
+    "A299041"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:10",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

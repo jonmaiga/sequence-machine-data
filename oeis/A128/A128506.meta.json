@@ -1,0 +1,21 @@
+{
+  "description": "Numerators of partial sums for a series for 3*sqrt(2)*(Pi^3)/2^7.",
+  "id": "A128506",
+  "mentions": [
+    "A057077",
+    "A128507"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:16",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

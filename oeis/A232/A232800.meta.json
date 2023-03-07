@@ -1,0 +1,26 @@
+{
+  "description": "Denominators written by antidiagonals of interleaved A063524(n) and A002427(n)/A006955(n).",
+  "id": "A232800",
+  "mentions": [
+    "A001469",
+    "A002427",
+    "A006519",
+    "A006955",
+    "A063524",
+    "A198631",
+    "A226158",
+    "A229979"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "frac",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

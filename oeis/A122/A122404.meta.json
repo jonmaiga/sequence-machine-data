@@ -1,0 +1,17 @@
+{
+  "description": "Number of preferential arrangements of n labeled elements where the exchange of elements among the levels is restricted to levels of different occupation numbers.",
+  "id": "A122404",
+  "mentions": [
+    "A000670"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

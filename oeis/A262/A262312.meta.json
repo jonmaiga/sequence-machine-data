@@ -1,0 +1,25 @@
+{
+  "description": "The limit, as word-length approaches infinity, of the probability that a random binary word is an instance of the Zimin pattern \"aba\"; also the probability that a random infinite binary word begins with an even-length palindrome.",
+  "id": "A262312",
+  "mentions": [
+    "A003000",
+    "A019308",
+    "A019309",
+    "A094536",
+    "A123121",
+    "A242430",
+    "A262313"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:22",
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

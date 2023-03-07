@@ -1,0 +1,28 @@
+{
+  "description": "Composite numbers k coprime to 13 such that k divides A006190(k-Kronecker(13,k)).",
+  "id": "A327653",
+  "mentions": [
+    "A006190",
+    "A011583",
+    "A049062",
+    "A081264",
+    "A099011",
+    "A141137",
+    "A212424",
+    "A322907",
+    "A327651",
+    "A327652",
+    "A327654",
+    "A327655"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:55",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

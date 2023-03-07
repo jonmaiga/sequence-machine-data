@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that ChebyshevT[16,n] is prime.",
+  "id": "A219278",
+  "mentions": [
+    "A144131",
+    "A144132",
+    "A219276",
+    "A219277"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:37",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

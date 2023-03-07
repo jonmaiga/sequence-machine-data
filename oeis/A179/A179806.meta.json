@@ -1,0 +1,19 @@
+{
+  "description": "Irregular triangle by rows, M*Q. M = triangle with (1,2,3,...) in every column, with the leftmost column shifted upwards one row. Q = a diagonalized variant of odd-indexed Fibonacci numbers.",
+  "id": "A179806",
+  "mentions": [
+    "A001519"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "x-values in the solution to x^2 - 20y^2 = 176.",
+  "id": "A228207",
+  "mentions": [
+    "A228208"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:45",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

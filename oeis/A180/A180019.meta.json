@@ -1,0 +1,29 @@
+{
+  "description": "Difference of sums of digits of n in decimal and in ternary representation.",
+  "id": "A180019",
+  "mentions": [
+    "A000244",
+    "A002283",
+    "A007089",
+    "A007953",
+    "A008591",
+    "A011557",
+    "A024023",
+    "A037315",
+    "A053735",
+    "A180017",
+    "A180018"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:03",
+    "offset": 0,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

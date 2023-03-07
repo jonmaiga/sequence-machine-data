@@ -1,0 +1,31 @@
+{
+  "description": "Array, a(n,k) = total size of all n-length words on a k-letter alphabet, read by antidiagonals.",
+  "id": "A134574",
+  "mentions": [
+    "A000027",
+    "A001105",
+    "A007778",
+    "A018215",
+    "A036289",
+    "A036290",
+    "A036291",
+    "A036292",
+    "A036293",
+    "A036294",
+    "A062807",
+    "A066274",
+    "A117642"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:13:28",
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

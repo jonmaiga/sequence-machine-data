@@ -1,0 +1,17 @@
+{
+  "description": "Positive integers representable by the two cyclotomic binary forms Phi_5(x,y) and Phi_12(u,v).",
+  "id": "A345894",
+  "mentions": [
+    "A296095"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

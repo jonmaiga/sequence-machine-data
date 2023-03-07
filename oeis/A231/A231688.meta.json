@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Sum_{i=0..n} digsum(i)^3, where digsum(i) = A007953(i).",
+  "id": "A231688",
+  "mentions": [
+    "A007953",
+    "A037123",
+    "A074784",
+    "A118880",
+    "A231689"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:49",
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

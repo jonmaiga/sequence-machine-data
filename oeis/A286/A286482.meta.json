@@ -1,0 +1,18 @@
+{
+  "description": "The number of convex n-gons with vertices consisting of pairs of positive integers (1, s_1), ..., (n, s_n) such that max(s_i) is minimized.",
+  "id": "A286482",
+  "mentions": [
+    "A285521"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 9*2^n - 2.",
+  "id": "A176449",
+  "mentions": [
+    "A007283",
+    "A033484",
+    "A052996"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 12:10:42",
+    "offset": 0,
+    "size": 29,
+    "source": "joeis"
+  }
+}

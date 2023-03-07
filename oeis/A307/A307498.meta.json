@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that the digits of k in base 10 are a permutation of those of k in some other base.",
+  "id": "A307498",
+  "mentions": [
+    "A034294",
+    "A115920",
+    "A308493"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

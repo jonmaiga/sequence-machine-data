@@ -1,0 +1,19 @@
+{
+  "description": "Number of permutations p of [2n+1] such that 0p has a nonincreasing jump sequence beginning with n+1.",
+  "id": "A303203",
+  "mentions": [
+    "A291684",
+    "A303204"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:27",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

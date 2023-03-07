@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 7*n*(n+1)/2 - 5.",
+  "id": "A166154",
+  "mentions": [
+    "A166146"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:35:17",
+    "offset": 1,
+    "size": 46,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Convolution of nonzero repunits (A002275) with themselves.",
+  "id": "A272525",
+  "mentions": [
+    "A002275",
+    "A010879",
+    "A014925",
+    "A083449"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 18:57:11",
+    "offset": 0,
+    "size": 20,
+    "source": "joeis"
+  }
+}

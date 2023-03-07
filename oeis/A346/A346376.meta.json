@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = n^4 + 14*n^3 + 63*n^2 + 98*n + 28.",
+  "id": "A346376",
+  "mentions": [
+    "A017113",
+    "A028387",
+    "A046691",
+    "A239035"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 15:47:51",
+    "offset": 0,
+    "size": 35,
+    "source": "joeis"
+  }
+}

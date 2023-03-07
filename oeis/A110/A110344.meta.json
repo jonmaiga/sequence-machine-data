@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{k=0..n-1} (n+k) = n(3n-1)/2 if n is even; a(n) = Sum_{k=0..n-1} (n-k) = n(n+1)/2 if n is odd.",
+  "id": "A110344",
+  "mentions": [
+    "A000217",
+    "A000326",
+    "A049452"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:06:41",
+    "offset": 1,
+    "size": 51,
+    "source": "joeis"
+  }
+}

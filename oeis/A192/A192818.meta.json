@@ -1,0 +1,21 @@
+{
+  "description": "Numbers which are both deficient (A005100) and anti-deficient (A192267).",
+  "id": "A192818",
+  "mentions": [
+    "A005100",
+    "A066417",
+    "A192267"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

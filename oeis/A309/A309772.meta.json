@@ -1,0 +1,22 @@
+{
+  "description": "Least common multiple of prime(n+1)+1 and prime(n)+1.",
+  "id": "A309772",
+  "mentions": [
+    "A008864",
+    "A063086",
+    "A066940",
+    "A180617"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:34",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

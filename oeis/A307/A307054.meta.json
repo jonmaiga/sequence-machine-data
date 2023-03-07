@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of Pi*sqrt(e) + e*sqrt(Pi).",
+  "id": "A307054",
+  "mentions": [
+    "A105643",
+    "A307053"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:35:41",
+    "offset": 1,
+    "size": 79,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Positions where A166040 obtains distinct new values.",
+  "id": "A166097",
+  "mentions": [
+    "A166040",
+    "A166087",
+    "A166098"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

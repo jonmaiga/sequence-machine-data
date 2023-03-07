@@ -1,0 +1,27 @@
+{
+  "description": "Riordan array (1/sqrt(1-2*x-3*x^2), M(x)-1) where M(x) is the g.f. of the Motzkin numbers A001006.",
+  "id": "A114422",
+  "mentions": [
+    "A001006",
+    "A002426",
+    "A005774",
+    "A007318",
+    "A025568",
+    "A116382",
+    "A116387",
+    "A116388"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:04",
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

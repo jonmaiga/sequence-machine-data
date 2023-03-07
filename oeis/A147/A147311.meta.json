@@ -1,0 +1,22 @@
+{
+  "description": "Riordan array [1, arcsin(tanh(x))].",
+  "id": "A147311",
+  "mentions": [
+    "A012123",
+    "A147308",
+    "A147312",
+    "A264428"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

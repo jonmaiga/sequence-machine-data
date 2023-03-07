@@ -1,0 +1,26 @@
+{
+  "description": "Numbers with the number of distinct prime factors a multiple of 3.",
+  "id": "A214195",
+  "mentions": [
+    "A001221",
+    "A007304",
+    "A010872",
+    "A030230",
+    "A030231",
+    "A033992",
+    "A067885",
+    "A145784",
+    "A147573"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:32",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

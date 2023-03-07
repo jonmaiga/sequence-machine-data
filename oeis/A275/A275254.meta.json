@@ -1,0 +1,18 @@
+{
+  "description": "The bi-unitary gcd-sum function.",
+  "id": "A275254",
+  "mentions": [
+    "A165430"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:40",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Number of espalier polycubes of a given volume in dimension 3.",
+  "id": "A229915",
+  "mentions": [
+    "A026820",
+    "A100882",
+    "A227925",
+    "A229917",
+    "A229925",
+    "A230118",
+    "A323582"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:47",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

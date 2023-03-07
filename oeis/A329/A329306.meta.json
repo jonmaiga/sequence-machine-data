@@ -1,0 +1,18 @@
+{
+  "description": "Define b(D) = -Sum_{i=1..D} Kronecker(-D,i)*i for D == 0 or 3 (mod 4); sequence gives D such that b(D) = 0.",
+  "id": "A329306",
+  "mentions": [
+    "A329307",
+    "A329648"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

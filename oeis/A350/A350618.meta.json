@@ -1,0 +1,25 @@
+{
+  "description": "Terms in A350877 that immediately follow an odd term.",
+  "id": "A350618",
+  "mentions": [
+    "A350615",
+    "A350616",
+    "A350617",
+    "A350619",
+    "A350620",
+    "A350621",
+    "A350833",
+    "A350877",
+    "A350883"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:25",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

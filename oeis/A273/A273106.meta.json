@@ -1,0 +1,22 @@
+{
+  "description": "Numbers representable as ror(k)+rol(k), where ror(k)=A038572(k) is k rotated one binary place to the right, rol(k)=A006257(k) is k rotated one binary place to the left.",
+  "id": "A273106",
+  "mentions": [
+    "A006257",
+    "A038572",
+    "A088161",
+    "A088163",
+    "A273105"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

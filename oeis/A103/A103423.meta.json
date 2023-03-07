@@ -1,0 +1,20 @@
+{
+  "description": "Polynomials interpolating their own integral coefficients, read by row. The leading coefficients are positive and minimal.",
+  "id": "A103423",
+  "mentions": [
+    "A103417",
+    "A103418"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:54",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Numbers having a 1 in position 3 of their binary expansion.",
+  "id": "A115419",
+  "mentions": [
+    "A005408",
+    "A042964",
+    "A047566",
+    "A115420",
+    "A115421"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn",
+    "unsolved"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:50:25",
+    "offset": 1,
+    "size": 64,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = Sum_{k=1..n-1} (k^n mod n).",
+  "id": "A340806",
+  "mentions": [
+    "A010848",
+    "A048153",
+    "A048155",
+    "A094264",
+    "A121706",
+    "A195637",
+    "A195812",
+    "A202034"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:13",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

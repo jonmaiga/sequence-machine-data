@@ -1,0 +1,33 @@
+{
+  "description": "Number of balanced reduced multisystems whose atoms cover an initial interval of positive integers with multiplicities equal to the prime indices of n.",
+  "id": "A318846",
+  "mentions": [
+    "A001055",
+    "A002846",
+    "A005121",
+    "A112798",
+    "A181821",
+    "A213427",
+    "A281118",
+    "A281119",
+    "A305936",
+    "A318762",
+    "A318812",
+    "A318813",
+    "A318847",
+    "A318848",
+    "A318849",
+    "A330727"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

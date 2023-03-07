@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the least k with n prime factors (counting multiplicity) such that the sum of these n factors divides k. First member of A036844 with n prime factors.",
+  "id": "A104465",
+  "mentions": [
+    "A001222",
+    "A001414",
+    "A036844",
+    "A086487"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

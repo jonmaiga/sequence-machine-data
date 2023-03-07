@@ -1,0 +1,25 @@
+{
+  "description": "a(1) = 1; a(n) = a(n-1) + (n!)^3.",
+  "id": "A138564",
+  "mentions": [
+    "A000142",
+    "A000578",
+    "A007489",
+    "A100288",
+    "A104344",
+    "A289945",
+    "A289946"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:26",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

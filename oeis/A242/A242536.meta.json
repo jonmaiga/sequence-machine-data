@@ -1,0 +1,21 @@
+{
+  "description": "Number of n-length words on {1,2,3,4} such that the maximal runs of identical odd integers are of odd length and the maximal runs of identical even integers are of even length.",
+  "id": "A242536",
+  "mentions": [
+    "A062200",
+    "A242510",
+    "A242537"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 16:04:52",
+    "offset": 0,
+    "size": 31,
+    "source": "joeis"
+  }
+}

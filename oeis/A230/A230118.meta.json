@@ -1,0 +1,18 @@
+{
+  "description": "Numbers of quasi-espalier polycubes of a given volume (number of atomic cells).",
+  "id": "A230118",
+  "mentions": [
+    "A227925",
+    "A229915"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

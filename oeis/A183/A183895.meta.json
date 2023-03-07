@@ -1,0 +1,21 @@
+{
+  "description": "Real part of a (-4,-4) Gaussian integer Somos-4 sequence.",
+  "id": "A183895",
+  "mentions": [
+    "A160637",
+    "A183893",
+    "A183894",
+    "A183896"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:08",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

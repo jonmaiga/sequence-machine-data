@@ -1,0 +1,22 @@
+{
+  "description": "Numerator of the expected number of random moves in Tower of Hanoi problem with n disks starting at a randomly chosen valid configuration and ending with all disks at peg 1.",
+  "id": "A246961",
+  "mentions": [
+    "A000244",
+    "A007798",
+    "A134939",
+    "A226511"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 00:38:07",
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

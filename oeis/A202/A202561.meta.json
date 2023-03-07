@@ -1,0 +1,17 @@
+{
+  "description": "Length of non-periodic part of the sequence defined by the recursion in A202211 and starting with a(1)=prime(n), a(2)=prime(n+1).",
+  "id": "A202561",
+  "mentions": [
+    "A202211"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:23",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

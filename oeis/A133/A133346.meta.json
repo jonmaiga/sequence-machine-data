@@ -1,0 +1,29 @@
+{
+  "description": "a(n) = smallest k such that prime(n+2) = prime(n) + (prime(n) mod k), or 0 if no such k exists.",
+  "id": "A133346",
+  "mentions": [
+    "A000040",
+    "A001223",
+    "A020639",
+    "A090368",
+    "A090369",
+    "A117078",
+    "A117563",
+    "A118534",
+    "A130533",
+    "A130650",
+    "A130703",
+    "A130882",
+    "A130889"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:21",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

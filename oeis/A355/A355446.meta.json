@@ -1,0 +1,26 @@
+{
+  "description": "Numbers of the form p^2 * q where p and q are primes with p < q < p^2.",
+  "id": "A355446",
+  "mentions": [
+    "A000005",
+    "A001222",
+    "A001248",
+    "A066680",
+    "A096156",
+    "A290110",
+    "A300250",
+    "A355444",
+    "A355445",
+    "A355455"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

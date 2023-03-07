@@ -1,0 +1,26 @@
+{
+  "description": "First 4-dimensional hyper-tetrahedral coordinate; repeat m C(m+3,3) times; 4-D analog of A056556.",
+  "id": "A127321",
+  "mentions": [
+    "A000217",
+    "A000292",
+    "A000332",
+    "A056556",
+    "A056557",
+    "A056558",
+    "A127322",
+    "A127323",
+    "A127324"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:15",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

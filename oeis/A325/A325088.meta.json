@@ -1,0 +1,18 @@
+{
+  "description": "Prime numbers congruent to 1 or 169 modulo 240 representable neither by x^2 + 150*y^2 nor by x^2 + 960*y^2.",
+  "id": "A325088",
+  "mentions": [
+    "A325067",
+    "A325087"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

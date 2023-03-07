@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that bigomega(n)^omega(n) > n.",
+  "id": "A177871",
+  "mentions": [
+    "A001221",
+    "A001222"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:01",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

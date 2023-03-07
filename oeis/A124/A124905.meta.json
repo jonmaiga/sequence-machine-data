@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = least integer j>=0 such that n=floor((3^j)/(4^k)) for some integer k>=0.",
+  "id": "A124905",
+  "mentions": [
+    "A124913"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

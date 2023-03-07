@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of forbidden values when computing A229037(n).",
+  "id": "A344322",
+  "mentions": [
+    "A229037",
+    "A293866",
+    "A344264"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:17",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

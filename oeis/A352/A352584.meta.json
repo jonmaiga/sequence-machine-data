@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k whose decimal representation contains all distinct prime factors of k as substrings.",
+  "id": "A352584",
+  "mentions": [
+    "A000040",
+    "A000351",
+    "A239058"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

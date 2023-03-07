@@ -1,0 +1,22 @@
+{
+  "description": "a(1) = 102735, a(n) = prime(n-1)*a(n-1) but products that are not in A010784 are first reduced as in A320486 (see comments); continue until zero is reached.",
+  "id": "A321149",
+  "mentions": [
+    "A010784",
+    "A320486",
+    "A321148"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:44",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

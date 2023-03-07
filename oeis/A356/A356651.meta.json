@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows. T(n, k) = [x^k](0^n + 4^n * ((1 - x)^(-1/2) - 1)).",
+  "id": "A356651",
+  "mentions": [
+    "A000984",
+    "A004171",
+    "A172060",
+    "A357012"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

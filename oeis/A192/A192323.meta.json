@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of theta_3(q^3) * theta_3(q^5) in powers of q.",
+  "id": "A192323",
+  "mentions": [
+    "A028956",
+    "A122855",
+    "A140727",
+    "A260671"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

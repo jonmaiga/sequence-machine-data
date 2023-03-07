@@ -1,0 +1,21 @@
+{
+  "description": "Numerators of an asymptotic series for the Gamma function (G. Nemes)",
+  "id": "A182912",
+  "mentions": [
+    "A001163",
+    "A001164",
+    "A182913"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

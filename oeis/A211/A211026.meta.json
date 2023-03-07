@@ -1,0 +1,31 @@
+{
+  "description": "Number of segments needed to draw (on the infinite square grid) a diagram of regions and partitions of n.",
+  "id": "A211026",
+  "mentions": [
+    "A000041",
+    "A052810",
+    "A066186",
+    "A135010",
+    "A139582",
+    "A141285",
+    "A186114",
+    "A186412",
+    "A187219",
+    "A193870",
+    "A194446",
+    "A194447",
+    "A206437",
+    "A211009"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

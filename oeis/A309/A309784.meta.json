@@ -1,0 +1,32 @@
+{
+  "description": "T(n,k) is the number of non-equivalent distinguishing coloring partitions of the cycle on n vertices with exactly k parts. Regular triangle read by rows, n >= 1, 1 <= k <= n.",
+  "id": "A309784",
+  "mentions": [
+    "A011948",
+    "A107424",
+    "A152175",
+    "A152176",
+    "A276543",
+    "A276544",
+    "A285012",
+    "A285037",
+    "A304972",
+    "A309748",
+    "A309785",
+    "A328035",
+    "A328038",
+    "A328039"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:34",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

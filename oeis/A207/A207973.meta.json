@@ -1,0 +1,19 @@
+{
+  "description": "Primes p such that the equation prime(p-k)+k! = prime(p) has at least one solution k>0.",
+  "id": "A207973",
+  "mentions": [
+    "A000040",
+    "A000142",
+    "A033560"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

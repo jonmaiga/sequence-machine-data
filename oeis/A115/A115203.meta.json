@@ -1,0 +1,23 @@
+{
+  "description": "Sixth column of triangle A115193 (called C(1,2)).",
+  "id": "A115203",
+  "mentions": [
+    "A000108",
+    "A115193",
+    "A115195",
+    "A115202",
+    "A115204"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:05",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the number of paths a chess king can take from (0,0) to (n+1,0) touching each point in {-1,0,1} X {1,2,...,n} exactly once.",
+  "id": "A338426",
+  "mentions": [
+    "A140518",
+    "A158651",
+    "A193168",
+    "A272445"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:10",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Number of acyclic digraphs (or DAGs) on n unlabeled vertices with one source and one sink.",
+  "id": "A345258",
+  "mentions": [
+    "A003087",
+    "A049531",
+    "A122078",
+    "A165950",
+    "A350415",
+    "A350491",
+    "A350492"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:18",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

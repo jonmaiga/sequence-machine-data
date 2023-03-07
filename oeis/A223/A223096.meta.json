@@ -1,0 +1,19 @@
+{
+  "description": "Number of symmetric meander shapes with 2n+1 crossings.",
+  "id": "A223096",
+  "mentions": [
+    "A007822",
+    "A077055"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

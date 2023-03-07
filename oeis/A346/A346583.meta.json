@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of 301 * Pi^7 / (524880 * sqrt(3)).",
+  "id": "A346583",
+  "mentions": [
+    "A093766",
+    "A346570",
+    "A346584",
+    "A346585"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 15:53:09",
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Number of Fibonacci divisors of n^2 + 1.",
+  "id": "A339461",
+  "mentions": [
+    "A000045",
+    "A002522",
+    "A005086",
+    "A005478",
+    "A005574",
+    "A128428",
+    "A338762",
+    "A338794"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:11",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

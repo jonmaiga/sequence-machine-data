@@ -1,0 +1,21 @@
+{
+  "description": "Number of singly symmetric characteristic solutions to the n-superqueens problem.",
+  "id": "A352662",
+  "mentions": [
+    "A051223",
+    "A051224",
+    "A352661",
+    "A352663"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

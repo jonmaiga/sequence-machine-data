@@ -1,0 +1,19 @@
+{
+  "description": "Sophie Germain primes that are also highly cototient numbers.",
+  "id": "A209194",
+  "mentions": [
+    "A005384",
+    "A100827"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Taxicab numbers (sums of 2 cubes in more than 1 way) which are products of four distinct primes.",
+  "id": "A354447",
+  "mentions": [
+    "A001235",
+    "A046386"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

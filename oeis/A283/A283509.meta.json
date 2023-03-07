@@ -1,0 +1,19 @@
+{
+  "description": "Remainder when sum of first n terms of the Hofstadter Q-sequence is divided by 2*n.",
+  "id": "A283509",
+  "mentions": [
+    "A005185",
+    "A076268",
+    "A283025"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:54",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

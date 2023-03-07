@@ -1,0 +1,18 @@
+{
+  "description": "n divided by the second lower diagonal of A109626 & 3/2 -> 2.",
+  "id": "A111625",
+  "mentions": [
+    "A109626",
+    "A111624"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

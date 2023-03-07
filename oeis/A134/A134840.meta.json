@@ -1,0 +1,21 @@
+{
+  "description": "Triangle, antidiagonals of an array formed by A051731 * A126988(transform).",
+  "id": "A134840",
+  "mentions": [
+    "A051731",
+    "A069153",
+    "A126988"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

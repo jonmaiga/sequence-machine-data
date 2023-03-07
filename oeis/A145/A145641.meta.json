@@ -1,0 +1,20 @@
+{
+  "description": "Numbers whose binary representation is the concatenation of n 1's, n 0's and n 1's.",
+  "id": "A145641",
+  "mentions": [
+    "A138721"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:25:02",
+    "offset": 1,
+    "size": 21,
+    "source": "joeis"
+  }
+}

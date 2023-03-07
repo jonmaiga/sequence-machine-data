@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = ([n]_phi! - [n]_{1-phi}!)/sqrt(5), where [n]_q! is the q-factorial, phi = (1+sqrt(5))/2.",
+  "id": "A274985",
+  "mentions": [
+    "A005329",
+    "A274983",
+    "A275706",
+    "A276474",
+    "A276688",
+    "A276987"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

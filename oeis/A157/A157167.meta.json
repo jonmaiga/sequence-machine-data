@@ -1,0 +1,22 @@
+{
+  "description": "Numerators of partial sums of a series related to Lebesgue's constant L(1) = (1 + 6*sqrt(3)/Pi)/3, approximately 1.435991124.",
+  "id": "A157167",
+  "mentions": [
+    "A157165",
+    "A157166",
+    "A157168"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

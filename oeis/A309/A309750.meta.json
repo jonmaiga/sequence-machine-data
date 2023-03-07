@@ -1,0 +1,22 @@
+{
+  "description": "Number of letters in the English names of the months when the names are arranged in alphabetical order.",
+  "id": "A309750",
+  "mentions": [
+    "A005589",
+    "A260249"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "fini",
+    "formulas",
+    "full",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

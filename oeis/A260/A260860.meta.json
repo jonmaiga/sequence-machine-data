@@ -1,0 +1,24 @@
+{
+  "description": "Base-60 representation of a(n) is the concatenation of the base-60 representations of 1, 2, ..., n, n-1, ..., 1.",
+  "id": "A260860",
+  "mentions": [
+    "A173426",
+    "A173427",
+    "A260343",
+    "A260851",
+    "A260853",
+    "A260866"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

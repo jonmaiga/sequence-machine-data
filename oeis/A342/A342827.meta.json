@@ -1,0 +1,18 @@
+{
+  "description": "Starting position of the first occurrence of the longest monochromatic arithmetic progression of difference d in the Thue-Morse sequence (A010060).",
+  "id": "A342827",
+  "mentions": [
+    "A010060",
+    "A342818"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:16",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

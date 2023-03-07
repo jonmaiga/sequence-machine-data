@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of lim_{n -> infinity} (1/n)*exp(2*(b(n)^2-2n)) where b(i) = b(i-1) + 1/b(i-1) for i >= 2, b(1) = 1 (see A073833).",
+  "id": "A232975",
+  "mentions": [
+    "A073833",
+    "A233770"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

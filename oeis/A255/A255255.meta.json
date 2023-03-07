@@ -1,0 +1,20 @@
+{
+  "description": "Number of 2-colorings of a 4 X n rectangle such that no nontrivial subsquare has monochromatic corners.",
+  "id": "A255255",
+  "mentions": [
+    "A133357",
+    "A255256"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:13",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

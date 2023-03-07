@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = numerator(sigma(n)/n) - denominator(sigma(n)/n) where sigma(n) = sum of divisors of n.",
+  "id": "A243473",
+  "mentions": [
+    "A000203",
+    "A001065",
+    "A014567",
+    "A017665",
+    "A017666",
+    "A053813",
+    "A069057"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:59",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

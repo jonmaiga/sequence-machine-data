@@ -1,0 +1,28 @@
+{
+  "description": "Multiplicative operator of a ring over the positive integers that has A059897(.,.) as additive operator and is isomorphic to GF(2)[x,y] with A329050(i,j) the image of x^i * y^j.",
+  "id": "A329329",
+  "mentions": [
+    "A003991",
+    "A019565",
+    "A050376",
+    "A059896",
+    "A059897",
+    "A225546",
+    "A297845",
+    "A306697",
+    "A329050",
+    "A329332"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

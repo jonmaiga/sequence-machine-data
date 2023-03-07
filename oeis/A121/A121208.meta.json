@@ -1,0 +1,23 @@
+{
+  "description": "Cyclotomic polynomials evaluated at prime number abscissae.",
+  "id": "A121208",
+  "mentions": [
+    "A000040",
+    "A006093",
+    "A008864",
+    "A060800",
+    "A066872",
+    "A119959"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

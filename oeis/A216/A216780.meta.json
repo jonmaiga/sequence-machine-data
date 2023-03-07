@@ -1,0 +1,23 @@
+{
+  "description": "Numbers n such that numerator(sigma(n)/n) and denominator(sigma(n)/n) are both odd.",
+  "id": "A216780",
+  "mentions": [
+    "A005820",
+    "A016754",
+    "A046060",
+    "A216781",
+    "A216782",
+    "A243473"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:34",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

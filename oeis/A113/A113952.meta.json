@@ -1,0 +1,23 @@
+{
+  "description": "Largest exclusionary n-th power (or 0 if no such number exists).",
+  "id": "A113952",
+  "mentions": [
+    "A016813",
+    "A112735",
+    "A112993",
+    "A113317",
+    "A113951"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 2,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

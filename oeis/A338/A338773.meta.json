@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the number of distinct k such that 0 < k < n and a(k) + ... + a(n-1) is a square number.",
+  "id": "A338773",
+  "mentions": [
+    "A338774"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:10",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

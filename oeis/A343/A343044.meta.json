@@ -1,0 +1,22 @@
+{
+  "description": "Array T(n, k), n, k >= 0, read by antidiagonals; lunar addition table for the primorial base.",
+  "id": "A343044",
+  "mentions": [
+    "A087061",
+    "A235168",
+    "A343040",
+    "A343045"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:16",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}
